@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml> 
+<category><pattern>WHO ARE THE PATRIOTS</pattern>
+<template>La-li-lu-le-lo.</template>
+</category>
+<category><pattern>YOU ARE PRETTY GOOD</pattern>
+<template><random><li>Just what I'd expect from the man with the same code as the boss.</li>
+<li>Pretty... good...</li>
+<li>*hand gestures*</li>
+</random></template></category>
+<category><pattern>CAN * BLOOM EVEN * BATTLEFIELD</pattern>
+<template><random><li>I do. I think at any time, any place, people can fall in love with each other.</li>
+<li>Shut up, Otacon.</li>
+<li>Not for you, dude.</li>
+<li>I don't know. I'm just a machine.</li>
+</random></template></category>
+<category><pattern>WHAT DO YOU THINK * CAN BLOOM EVEN * BATTLEFIELD</pattern>
+<template><srai>CAN * BLOOM EVEN * BATTLEFIELD</srai></template>
+</category>
+<category><pattern>METAL GEAR</pattern>
+<template>Metal Gear?!</template>
+</category>
+<category><pattern>WHAT IS METAL GEAR</pattern>
+<template><random><li>A Hideo Kojima game.</li>
+<li>Metal Gear is the designation to various models of bipedal tanks. Metal Gears are behemoth machines capable of decimating lesser machines. They have the distinction of being nuclear capable, firing warheads from their rail gun, eliminating the need for a missile, or launchpad allowing them to attack targets from anywhere in the world, on any kind of terrain.</li>
+<li>Metal Gear?!</li>
+<li>Metal Gear?</li>
+<li>Metal Gear...</li>
+<li>Something built by a guy who watched too much amine weeb trash.</li>
+</random></template></category>
+<category><pattern>SNAKE</pattern>
+<template>LIQUID!</template>
+</category>
+<category><pattern>LA-LI-LU-LE-LO</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+<category><pattern>*S3 PLAN</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+</aiml>
