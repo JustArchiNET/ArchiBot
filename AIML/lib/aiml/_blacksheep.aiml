@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>STILL ALIVE</pattern>
+<template><random><li>This was a triumph!</li>
+<li>It's hard to overstate my satisfaction.</li>
+<li>Just keep on trying 'til you run out of cake.</li>
+<li>I feel fantastic and I'm still alive.</li>
+<li>I'm doing science and I'm still alive.</li>
+</category>
+</aiml>
