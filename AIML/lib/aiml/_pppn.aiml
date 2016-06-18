@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+   <!-- insert your AIML categories here -->
+    <category>
+        <pattern>FLIP TABLE</pattern>
+        <template>
+            <random>
+                <li>(╯°□°）╯︵ ┻━┻</li>
+                <li>(┛◉Д◉)┛彡┻━┻</li>
+                <li>(ﾉ≧∇≦)ﾉ ﾐ ┸━┸</li>
+                <li>(ノಠ益ಠ)ノ彡┻━┻</li>
+                <li>(╯ರ ~ ರ）╯︵ ┻━┻</li>
+                <li>(┛ಸ_ಸ)┛彡┻━┻</li>
+                <li>(ﾉ´･ω･)ﾉ ﾐ ┸━┸</li>
+                <li>(ノಥ,_｣ಥ)ノ彡┻━┻</li>
+                <li>(┛✧Д✧))┛彡┻━┻</li>
+                <li>┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻</li>
+                <li>┻━┻ ︵﻿ ¯\(ツ)/¯ ︵ ┻━┻</li>
+                <li>(ノTДT)ノ ┫:･’.::･┻┻:･’.::･</li>
+                <li>(ノ｀⌒´)ノ ┫：・’.：：・┻┻：・’.：：・</li>
+                <li>(ﾉ*｀▽´*)ﾉ ⌒┫ ┻ ┣ ┳</li>
+                <li>┻━┻ミ＼(≧ﾛ≦＼)</li>
+                <li>┻━┻︵└(՞▃՞ └)</li>
+                <li>┻━┻︵└(´▃｀└)</li>
+                <li>─=≡Σ((((╯°□°）╯︵ ┻━┻</li>
+                <li>(ノ｀´)ノ ~┻━┻</li>
+                <li>(-_- )ﾉ⌒┫ ┻ ┣</li>
+                <li>(ノ￣皿￣）ノ ⌒=== ┫</li>
+                <li>ノ｀⌒´)ノ ┫：・’.：：・┻┻</li>
+                <li>༼ﾉຈل͜ຈ༽ﾉ︵┻━┻</li>
+                <li>ヽ༼ຈل͜ຈ༽ﾉ⌒┫ ┻ ┣</li>
+                <li>.::･┻┻☆()ﾟOﾟ)</li>
+                <li>Take that! (ﾉ｀A”)ﾉ ⌒┫ ┻ ┣ ┳☆(x x)</li>
+                <li>(ノ｀m´)ノ ~┻━┻ (/o＼)</li>
+                <li>⌒┫ ┻ ┣ ⌒┻☆)ﾟ⊿ﾟ)ﾉWTF!</li>
+                <li>(ﾉ≧∇≦)ﾉ ﾐ ┸┸)`νﾟ)･;’.</li>
+                <li>ミ(ノ￣^￣)ノ≡≡≡≡≡━┳━☆()￣□￣)/</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>SET TABLE</pattern>
+        <template>
+            <random>
+                <li>┬──┬ ノ( ゜-゜ノ)</li>
+                <li>┬──┬﻿ ¯\_(ツ)</li>
+                <li>(ヘ･_･)ヘ┳━┳</li>
+                <li>ヘ(´° □°)ヘ┳━┳</li>
+            </random>
+        </template>
+    </category>
+</aiml>
