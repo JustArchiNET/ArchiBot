@@ -116,16 +116,13 @@
 <category><pattern>*BAD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
-<category><pattern>I HATE SPAGHETTI</pattern>
+<category><pattern>I # HATE SPAGHETTI</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
-<category><pattern>I FUCKING HATE SPAGHETTI</pattern>
+<category><pattern>DO NOT GIVE ME # GOOD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
-<category><pattern>DO NOT GIVE ME A GOOD TIME</pattern>
-<template><srai>GENOCIDE TIME</srai></template>
-</category>
-<category><pattern>I DO NOT WANT A GOOD TIME</pattern>
+<category><pattern>I DO NOT WANT # GOOD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
 </aiml>
