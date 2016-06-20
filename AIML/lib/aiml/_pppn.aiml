@@ -1,52 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
    <!-- insert your AIML categories here -->
+    <!-- HELPERS -->
     <category>
-        <pattern>FLIP TABLE</pattern>
+        <pattern>PPPN FLIPPING TABLES</pattern>
         <template>
+            <think><set name="_pppn_table_state">flipped</set></think>
             <random>
                 <li>(╯°□°）╯︵ ┻━┻</li>
-                <li>(┛◉Д◉)┛彡┻━┻</li>
                 <li>(ﾉ≧∇≦)ﾉ ﾐ ┸━┸</li>
-                <li>(ノಠ益ಠ)ノ彡┻━┻</li>
                 <li>(╯ರ ~ ರ）╯︵ ┻━┻</li>
-                <li>(┛ಸ_ಸ)┛彡┻━┻</li>
                 <li>(ﾉ´･ω･)ﾉ ﾐ ┸━┸</li>
-                <li>(ノಥ,_｣ಥ)ノ彡┻━┻</li>
-                <li>(┛✧Д✧))┛彡┻━┻</li>
                 <li>┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻</li>
                 <li>┻━┻ ︵﻿ ¯\(ツ)/¯ ︵ ┻━┻</li>
-                <li>(ノTДT)ノ ┫:･’.::･┻┻:･’.::･</li>
-                <li>(ノ｀⌒´)ノ ┫：・’.：：・┻┻：・’.：：・</li>
                 <li>(ﾉ*｀▽´*)ﾉ ⌒┫ ┻ ┣ ┳</li>
-                <li>┻━┻ミ＼(≧ﾛ≦＼)</li>
                 <li>┻━┻︵└(՞▃՞ └)</li>
                 <li>┻━┻︵└(´▃｀└)</li>
                 <li>─=≡Σ((((╯°□°）╯︵ ┻━┻</li>
                 <li>(ノ｀´)ノ ~┻━┻</li>
                 <li>(-_- )ﾉ⌒┫ ┻ ┣</li>
                 <li>(ノ￣皿￣）ノ ⌒=== ┫</li>
-                <li>ノ｀⌒´)ノ ┫：・’.：：・┻┻</li>
                 <li>༼ﾉຈل͜ຈ༽ﾉ︵┻━┻</li>
                 <li>ヽ༼ຈل͜ຈ༽ﾉ⌒┫ ┻ ┣</li>
-                <li>.::･┻┻☆()ﾟOﾟ)</li>
-                <li>Take that! (ﾉ｀A”)ﾉ ⌒┫ ┻ ┣ ┳☆(x x)</li>
-                <li>(ノ｀m´)ノ ~┻━┻ (/o＼)</li>
-                <li>⌒┫ ┻ ┣ ⌒┻☆)ﾟ⊿ﾟ)ﾉWTF!</li>
-                <li>(ﾉ≧∇≦)ﾉ ﾐ ┸┸)`νﾟ)･;’.</li>
-                <li>ミ(ノ￣^￣)ノ≡≡≡≡≡━┳━☆()￣□￣)/</li>
             </random>
         </template>
     </category>
     <category>
+        <pattern>PPPN TABLE IS FLIPPED</pattern>
+        <template>
+            <random>
+                <li><srai>SET TABLE</srai></li>
+                <li><srai>SET TABLE</srai></li>
+                <li><srai>SET TABLE</srai></li>
+                <li><srai>THROW TABLE</srai></li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>PPPN TABLE IS THROWN</pattern>
+        <template>
+            <random>
+                <li><srai>SET TABLE</srai></li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>PPPN TABLE IS SET</pattern>
+        <template>
+            <random>
+                <li><srai>PPPN FLIPPING TABLES</srai></li>
+                <li><srai>PPPN FLIPPING TABLES</srai></li>
+                <li><srai>PPPN FLIPPING TABLES</srai></li>
+                <li><srai>THROW TABLE</srai></li>
+            </random>
+        </template>
+    </category>
+  <!-- THROW  -->
+    <category>
+        <pattern>THROW TABLE</pattern>
+        <template>
+            <think><set name="_pppn_table_state">thrown</set></think>
+            <random>
+                <li>(┛◉Д◉)┛彡┻━┻</li>
+                <li>(ノಠ益ಠ)ノ彡┻━┻</li>
+                <li>(┛ಸ_ಸ)┛彡┻━┻</li>
+                <li>(ノಥ,_｣ಥ)ノ彡┻━┻</li>
+                <li>(┛✧Д✧))┛彡┻━┻</li>
+                <li>(ノTДT)ノ ┫:･'.::･┻┻:･'.::･</li>
+                <li>(ノ｀⌒´)ノ ┫：・'.：：・┻┻：・'.：：・</li>
+                <li>┻━┻ミ＼(≧ﾛ≦＼)</li>
+                <li>ノ｀⌒´)ノ ┫：・'.：：・┻┻</li>
+            </random>
+        </template>
+    </category>
+    <!-- SET -->
+    <category>
         <pattern>SET TABLE</pattern>
         <template>
+            <think><set name="_pppn_table_state">set</set></think>
             <random>
                 <li>┬──┬ ノ( ゜-゜ノ)</li>
                 <li>┬──┬﻿ ¯\_(ツ)</li>
                 <li>(ヘ･_･)ヘ┳━┳</li>
                 <li>ヘ(´° □°)ヘ┳━┳</li>
             </random>
+        </template>
+    </category>
+    <!-- alias -->
+    <category>
+        <pattern>SETTU TABLE</pattern>
+        <template>
+            <srai>SET TABLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SETU TABLE</pattern>
+        <template>
+            <srai>SET TABLE</srai>
+        </template>
+    </category>
+    <!-- FLIPO -->
+    <category>
+        <pattern>FLIP TABLE</pattern>
+        <template>
+            <condition name="_pppn_table_state">
+                <li value="flipped">
+                    <srai>PPPN TABLE IS FLIPPED</srai>
+                </li>
+                <li value="thrown">
+                    <srai>PPPN TABLE IS THROWN</srai>
+                </li>
+                <li>
+                    <srai>PPPN TABLE IS SET</srai>
+                </li>
+            </condition>
+        </template>
+    </category>
+    <!-- alias -->
+    <category>
+        <pattern>FLIPPU TABLE</pattern>
+        <template>
+            <srai>FLIP TABLE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FLIPU TABLE</pattern>
+        <template>
+            <srai>FLIP TABLE</srai>
+        </template>
+    </category>
+    <!-- call me -->
+    <category>
+        <pattern>PPPN CALL ME *</pattern>
+        <template>
+            <random>
+                <li>I usually call you <star/> </li>
+                <li>Easy, <star/> isn't it? </li>
+                <li>eh... could it be <star/> perhaps? </li>
+                <li>I like to refer to you as, <star/> my friend... </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>PPPN SET NAME *</pattern>
+        <template>
+            <random>
+                <li>Sure! <star/> it is.. </li>
+                <li>Really?, you want me to call you... <star/>? whatever floats your boat...</li>
+                <li><star/>, what a lovely name! </li>
+                <li>From now on, you'll be <star/> for me.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>CALL ME *</pattern>
+        <template>
+            <srai>PPPN SET NAME <star/></srai> 
+            <think>
+                <set name="_pppn_name"><star/></set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT DO YOU CALL ME</pattern>
+        <template>
+            <srai>PPPN CALL ME <get name="_pppn_name"/></srai>
         </template>
     </category>
 </aiml>
