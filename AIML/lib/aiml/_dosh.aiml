@@ -116,7 +116,7 @@
 <category><pattern>*BAD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
-<category><pattern>I # HATE SPAGHETTI</pattern>
+<category><pattern>I HATE SPAGHETTI</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
 <category><pattern>DO NOT GIVE ME # GOOD TIME</pattern>
