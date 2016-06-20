@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<category><pattern>eh</pattern>
-<template>SEXY LADYYYYYYYYYYYYY</template>
-</category>
-<category><pattern>revolver ocelot</pattern>
-<template>revolver ocelot
+<category><pattern>eh</pattern><template>SEXY LADYYYYYYYYYYYYY</template></category>
+
+<category><pattern>revolver ocelot</pattern><template>revolver ocelot
 REVOLVER OCELOT
-(REVOLVER OCELOT)
-</template>
+(REVOLVER OCELOT)</template></category>
+
 <category><pattern>sing a song</pattern>
 <template><random><li>TODOKETE SETSUNASA NI WA NAMAE O TSUKIYOU KA SNOW HALATION</li>
 <li>Nagareteku toki no naka de demo kedarusa ga hora guruguru mawatte</li>
@@ -31,4 +29,5 @@ We'll have a gay old time!</li>
 <li>Hamster! A dentist! Hard Porn, Steven Seagall! Warrior! This Rifle! In me! The Fish Master!</li>
 <li>I've lost my fear to what appears
 I do my best
-The world is mine</li>
+The world is mine</li></random></template></category>
+</aiml>
