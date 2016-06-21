@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>Sing a song</pattern>
+<template>Roses are red, violets are blue, omae wa mo, shineiru!</template>
+</category>
+</aiml>
