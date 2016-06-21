@@ -96,7 +96,7 @@ I'll give it to someone special (special)</li>
 <li>Ra-Ra-Rasputin Russia's greatest love machine</li>
 <li>Well somebody told me you had a boyfriend Who looked like a girlfriend~</li>
 <li>X gon give it to ya! Fuck wait for you to get it on your own X gon deliver to ya!</li>
-<li>Hu-mans-Hu.. Hu-mans-Hu.. Hu-mans-Hu.. Hu-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Kill Kill Kill Humans</li>
+<li></li>
 <li>BRAVE SHIIIIIIIIIIIINE!! te wo nobaseba mada STAY THE NIIIIIIIIIIGHT!! kizu darake no yoru You SAVE MY LIIIIIIIIFE!! 
 kazashita yaiba no saki ni omoi o kasaneta inori wa toki o koete</li>
 <li>Sono ude wo sono ashi wo sono koube wo yurusazu ni Kono koe mo kanjou mo namida sae nokosazu ni</li>
@@ -115,6 +115,20 @@ Pettan, pettan, tsurupettan
 Pettan, pettan, mochipettan
 Pettan, pettan, mune pettan♪</li>
 <li>TETETETETETETETETETETETETETETETETETETETE TEWI TETETETE TEWI♪</li>
+<li>Najeneun ttasaroun inganjeogin yeoja
+Keopi hanjanui yeoyureul aneun pumgyeok inneun yeoja
+Bami omyeon simjangi tteugeowojineun yeoja
+Geureon banjeon inneun yeoja</li>
+<li>His palms are spaghetti, knees weak, arms spaghetti
+There's vomit on his spaghetti already: mom's spaghetti
+He's nervous, but on the surface he looks calm spaghetti
+To drop spaghetti, but he keeps on spaghetti</li>
+<li>CHA-LA HEAD-CHA-LA
+Nani ga okite mo kibun wa heno-heno kappa
+CHA-LA HEAD-CHA-LA
+Mune ga pachi-pachi suru hodo
+Sawagu Genki-Dama...Sparking!</li>
+<li>Here comes dat bo-o-oo-oii Oh shit wadduuuuuuup</li>
 <li>Take me to the magic of the moment
 On a glory night
 Where the children of tomorrow dream away
@@ -131,13 +145,57 @@ The world is mine</li></random></template></category>
 <template><random><li> ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</li>
 <li>ᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒ</li>
 <li>Kaeru ga pyoko-pyoko kaze ni mo makezu Shippo wa nyoro-nyoro otamajakushi destiny</li></random></template></category>
+<category><pattern>sing a song for miyu</pattern><template>Kimi dake wo Kimi dake wo Suki de ita yo Kaze de me ga nijinde tooku naru yo</template></category>
+<category><pattern>sing a song for cuki</pattern>
+<template><random><li>'Cause we're young and we're reckless
+We'll take this way too far
+It'll leave you breathless
+Or with a nasty scar</li>
+<li>Though a thousand words
+Have never been spoken
+They'll fly to you
+Crossing over the time and distance holding you
+Suspended on silver wings♪</li></random></template></category>
+<category><pattern>sing a song for emma</pattern><template>I'm not a hoarder I just like to collect things I don't need jewelry, your diamond rings♪</template></category>
 <category><pattern>sing a song for archi</pattern><template>BAAKA BAAKA BAAKA BAAKA BAAKA BAAKA</template></category>
+<category><pattern>sing a song for archibot</pattern><template>Hu-mans-Hu.. Hu-mans-Hu.. Hu-mans-Hu.. Hu-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Kill Kill Kill Humans</template></category>
+<category><pattern>sing a song for me</pattern><template>Don't think about yourself you selfish human ;_;</template></category>
+<category><pattern>sing a song for sviat</pattern><template>BACK TO BACK!
+Death comes arrivin’ on a Midnight Train!
+BACK TO BACK!
+Conscience is screamin’ to the End!
+BACK TO BACK!
+Cannot let anyone do it again!
+BACK TO BACK!
+I can no longer pretend!</template></category>
 <category><pattern>sing a song for wany</pattern><template>I want it all! I want it all! I want it all! and I want it now!</template></category>
 <category><pattern>sing a song for fake</pattern><template>Go, go, go, go, go, go, go, go, go, go 
 Gotta go fast, gotta go fast, 
 Gotta go faster, faster, faster, faster, faster</template></category>
+<category><pattern>sing a song for chicken</pattern><template><random><li>Sweat and rain fall in a dream
+Rest can wait, eternity
+Follow me through the clouds
+We're never coming down..
+Like a firework
+Like a firework
+Like a firework
+Like a firework, firework, firework
+Like a....</li>
+<li>you are useless oh-oh! and your salty tears are tasty ye-ye-yeEEEE!</li></random></template></category>
+<category><pattern>sing a song for morshock</pattern><template>What is love? 
+Baby don't hurt me, 
+Don't hurt me, no more♪</template></category>
+<category><pattern>sing a song for wind</pattern><template>Dovahkiin, Dovahkiin
+naal ok zin los vahriin
+wah dein vokul mahfaeraak ahst vaal!
+Ahrk fin norok paal graan
+fod nust hon zindro zaan
+Dovahkiin, fah hin kogaan mu draal!</template></category>
 <category><pattern>sing a song for pirupi</pattern><template>Pi-piru-piru-piru-pi-piru-pi pi-piru-piru-piru-pi-piru-pi♪</template></category>
-<category><pattern>sing a song for zinnerz</pattern><template>There's no song for you kill urself fag</template></category>
+<category><pattern>sing a song for zinnerz</pattern><template>This will be the day we've waiting for
+This will be the day we open up the door
+I don't wanna hear your absolution
+Hope you ready for a revolution:blissful_creep:</template></category>
 <category><pattern>sing a song for golbez</pattern><template>I kissed a girl and I liked it,
 the taste of her cherry chapstick.
 I kissed a girl just to try it,
