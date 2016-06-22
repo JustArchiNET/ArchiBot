@@ -4,4 +4,7 @@
 <template><random><li>ミユ is Miyuu.</li>
 <li>AMINE WEEB.</li>
 </random></template></category>
+<category><pattern>ᵏᵉʳᵒ</pattern>
+<template>ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</template>
+</category>
 </aiml>
