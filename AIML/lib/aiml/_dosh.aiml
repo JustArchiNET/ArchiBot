@@ -34,7 +34,7 @@
 <category><pattern>LA-LI-LU-LE-LO</pattern>
 <template><srai>WHO ARE THE PATRIOTS</srai></template>
 </category>
-<category><pattern>*S3 PLAN</pattern>
+<category><pattern>* S3 PLAN</pattern>
 <template><srai>WHO ARE THE PATRIOTS</srai></template>
 </category>
 <category><pattern>GENOCIDE TIME</pattern>
@@ -113,7 +113,7 @@
 <category><pattern>I WISH TO KILL YOU</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
-<category><pattern>*BAD TIME</pattern>
+<category><pattern>* BAD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
 <category><pattern>I HATE SPAGHETTI</pattern>
@@ -138,10 +138,10 @@
 <li>Don't keep us waiting, boss :Miller:</li>
 </random></template>
 </category>
-<category><pattern>PICK A GAME FOR MADU#</pattern>
+<category><pattern>PICK A GAME FOR MADU #</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
-<category><pattern>CHOOSE A GAME FOR MADU#</pattern>
+<category><pattern>CHOOSE A GAME FOR MADU #</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
 <category><pattern>WHAT SHOULD MADU PLAY</pattern>
@@ -153,7 +153,7 @@
 <category><pattern>WHAT SHOULD MADU PLAY TONIGHT</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
-<category><pattern>*SOMETHING MADU SHOULD PLAY</pattern>
+<category><pattern>* SOMETHING MADU SHOULD PLAY</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
 </aiml>
