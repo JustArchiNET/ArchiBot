@@ -138,10 +138,10 @@
 <li>Don't keep us waiting, boss :Miller:</li>
 </random></template>
 </category>
-<category><pattern>PICK A GAME FOR MADU*</pattern>
+<category><pattern>PICK A GAME FOR MADU#</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
-<category><pattern>CHOOSE A GAME FOR MADU*</pattern>
+<category><pattern>CHOOSE A GAME FOR MADU#</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
 <category><pattern>WHAT SHOULD MADU PLAY</pattern>
