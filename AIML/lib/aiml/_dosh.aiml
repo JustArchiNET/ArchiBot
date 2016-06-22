@@ -160,4 +160,7 @@
 <category><pattern>* SOMETHING MADU SHOULD PLAY</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
+<category><pattern>SUGGEST SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
 </aiml>
