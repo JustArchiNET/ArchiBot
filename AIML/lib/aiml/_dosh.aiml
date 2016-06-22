@@ -127,6 +127,10 @@
 </category>
 <category><pattern>SAVE EMMERICH</pattern>
 <template><random><li>:Miller:</li>
+<li>:Miller:</li>
+<li>:Miller:</li>
+<li>:Miller:</li>
+<li>:Miller:</li>
 <li>A Hideo Kojima game. :Miller:</li>
 <li>BOSS :Miller:</li>
 <li>BOSS, THAT ASSHOLE ISN'T GONNA SAVE HIMSELF :Miller:</li>
@@ -138,10 +142,10 @@
 <li>Don't keep us waiting, boss :Miller:</li>
 </random></template>
 </category>
-<category><pattern>PICK A GAME FOR MADU#</pattern>
+<category><pattern>PICK A GAME FOR MADU #</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
-<category><pattern>CHOOSE A GAME FOR MADU#</pattern>
+<category><pattern>CHOOSE A GAME FOR MADU #</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
 <category><pattern>WHAT SHOULD MADU PLAY</pattern>
@@ -153,7 +157,7 @@
 <category><pattern>WHAT SHOULD MADU PLAY TONIGHT</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
-<category><pattern>*SOMETHING MADU SHOULD PLAY</pattern>
+<category><pattern>* SOMETHING MADU SHOULD PLAY</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
 </aiml>
