@@ -6,7 +6,7 @@
 
 <category><pattern>revolver ocelot</pattern><template>revolver ocelot * REVOLVER OCELOT * (REVOLVER OCELOT)</template></category>
 
-<category><pattern>Who do you want to be in the future?</pattern><template>High school idol</template></category>
+<category><pattern>What are your dreams?</pattern><template>Being a High school idol</template></category>
 
 <category><pattern>Todokete</pattern><template>Setsunasa ni wa!</template></category>
 <category><pattern>Setsunasa ni wa</pattern><template>namae o</template></category>
@@ -27,6 +27,114 @@
 <li>Interior crocodile alligator
 I drive a Chevrolet movie theater
 AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</li>
+<li>amae jozunano
+senobi shite mo muri wa shinai
+nya nya suri suri perori korokoro
+mo , hanarenai dakara</li>
+<li>Dori me, interimo
+Ayapare, dorime
+Ameno, ameno
+Latire, latiremo
+Dori me</li>
+<li>Here's a lullaby to close your eyes
+(Goodbye)
+It was always you that I despised
+I don't feel enough for you to cry (oh well)
+Here's a lullaby to close your eyes</li>
+<li>zutto koishikute shinderera
+seifuku dake de kaketeikuwa
+mahou yo jikan wo tomete yo
+warui hito ni jamasarechauwa</li>
+<li>Myon Myon Myomyomyomyomyon Myon Myon Myomyomyomyomyomyomyon!</li>
+<li>Nakanaide
+Torawareta gensou wo kowashi
+Ichidokiri no shuuen wo ageyou
+Hatasenai yakusoku wa mune no oku kogetsuite
+Akaku akaku hazeteku yo, nee</li>
+<li>When my mind stops thinking
+And my eyes stop blinking
+I hope...
+Somebody's there
+When my heart stops beating
+And my lungs stop breathing
+In air...
+I hope somebody cares</li>
+<li>I set my sail
+Fly, the wind it will take me
+Back to my home, sweet home
+Lie on my back
+Clouds are making way for me
+I'm coming home, sweet home
+I see your star,
+You left it burning for me
+Mother, I'm here</li>
+<li>Someone's who's learned to be wiser, a bit of a fighter
+I can make right what had been wrong
+Though I can't be perfect, it'll be worth it
+I'll keep on trying and trying</li>
+<li>Ee tto, Kagiyama Hina to moushimasu
+Shumi wa fukou ni naru guzzu wo
+Atsumeru koto desu
+Ee tto, sore jaa mawarimaasu!
+Ku-kuru-kurukuru-kurukuru~
+Ku-kuru-kurukuru-kurukuru~
+Ku-kuru-kurukuru-kurukuru~
+Ku-kuru-kurukuru-kurukuru~</li>
+<li>Tatta hitotsu no omoi tsuranuku muzukashisa no naka de boku wa
+Mamorinuite misetai no sa kakegae no nai mono no tame ni
+Namiutte iru kodou ni chikau yo moetsukiru made hashiritsuzukeyou
+Ikinuite koso kanjirareru eien no itoshisa no naka hatashitai yakusoku</li>
+<li>Yuru yaka ni kuzu re kowa reteku
+Yuru ri yuru ri kubi woshi meru you ni kinou made no boku ga koro sarete iku
+Yuru yaka ni ha nareba nare aku
+Gura rin ri kimi ni kikoeru no wa boku ga shiranai koe ni natte ku</li>
+<li>I'm the Scatman
+Ski-bi dibby dib yo da dub dub
+Yo da dub dub
+Ski-bi dibby dib yo da dub dub
+Yo da dub dub
+I'm the Scatman
+Ski-bi dibby dib yo da dub dub
+Yo da dub dub
+Ski-bi dibby dib yo da dub dub
+Yo da dub dub</li>
+<li>Mozaiku kakera azayaka ni utsusu kako no uso mo ayamachi mo
+Keshite shimaitai to omoeba omou hodo
+Furikaereba soko ni aru sutaato rain mada susunja inai
+Mou ichido yume wo hiroi atsumete miyou</li>
+<li>Kotoba sae nakushite tonaeta jumon ga aru nara
+Owari wo motometa yume no yoru
+Yurareteku omoi wa
+Hakanaku chitta maboroshi e
+Mabayaku hikatta asu e kie</li>
+<li>kimi ga iunda
+watashi wa kimi no naka no kanashimi nikushimi
+tsukuridasu no wa uso?
+kimi ga tsukutta watashi wa hontō?
+watashi no kokoro kimi no tsugō no yoi omoi de
+majiwaru</li>
+<li>Please don’t say “You are lazy”
+Datte hontou wa crazy
+Hakuchou-tachi wa sou
+Mienai toko de bataashisurun desu
+Honnou ni juujun   chuujitsu   honrou mo juujuu shouchi
+Zento youyou da shi…
+Dakara tama ni kyuukeishichaun desu</li>
+<li>Mai ochiru
+Koi yuki fuwafuwa matte
+Watashi no kokoro ubatte
+Kuchizuke kawashitara kitto
+(Amaku nigai)</li>
+<li>Chances thrown
+Nothing's free
+Longing for what used to be
+Still it's hard
+Hard to see
+Fragile lives, shattered dreams</li>
+<li>Et si tu n'existais pas
+Dis-moi pourquoi j'existerais
+Pour traîner dans un monde sans toi
+Sans espoir et sans regret</li>
 <li>Ni- Ni- Nice boat! Suwako's nice boat!</li>
 <li>Chirumiru, Chirumiru, genki Chirumiru
 Genki da yo~</li>
@@ -92,8 +200,6 @@ I CAN'T WAKE UP!
 Wake me up inside
 SAVE ME!
 Call my name and save me from the dark</li>
-<li>Dango dango dango dango dango dango daikazoku
-Dango dango dango dango dango daikazoku♪</li>
 <li>Kirameita sekai tooi kioku wa
 Miageta sora yume o yobiokosu
 Hateshinai yoru ni deau keshiki wa
@@ -305,6 +411,19 @@ tokimeki aitemu de
 watashi no kurashi suteki ni kazaru yo </li>
 <li>Koi no yokushiryoku Hora Game ga hajimaru Mitsumeaeba wakaru desho? Hajimari no BERU ga naru</li>
 <li>But who’s to judge The right from wrong When our guard is down I think we’ll both agree♪</li></random></template></category>
+<category><pattern>sing a song for us</pattern>
+<template>Kanashimi ni tozasarete
+Naku dake no kimi janai
+Atsui mune kitto mirai o kirihiraku hazu sa
+Kanashimi ni tozasarete
+Naku dake ja tsumaranai
+Kitto (kitto)
+Kimi no (yume no) chikara (ima o)
+Ugokasu chikara
+Shinjiteru yo... dakara START!!</template></category>
+<category><pattern>sing a song for asim</pattern>
+<template>Dango dango dango dango dango dango daikazoku
+Dango dango dango dango dango daikazoku♪</template></category>
 
 <category><pattern>konrads6 golden thoughts</pattern>
 <template><random><li>dont have time click every gamez when must do other thingz</li>
