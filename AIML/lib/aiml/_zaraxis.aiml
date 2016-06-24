@@ -6,7 +6,7 @@
 
 <category><pattern>revolver ocelot</pattern><template>revolver ocelot * REVOLVER OCELOT * (REVOLVER OCELOT)</template></category>
 
-<category><pattern>Who do you want to be in the future?</pattern><template>High school idol</template></category>
+<category><pattern>What are your dreams?</pattern><template>Being a High school idol</template></category>
 
 <category><pattern>Todokete</pattern><template>Setsunasa ni wa!</template></category>
 <category><pattern>Setsunasa ni wa</pattern><template>namae o</template></category>
@@ -27,6 +27,33 @@
 <li>Interior crocodile alligator
 I drive a Chevrolet movie theater
 AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</li>
+<li>amae jozunano
+senobi shite mo muri wa shinai
+nya nya suri suri perori korokoro
+mo , hanarenai dakara</li>
+<li>Dori me, interimo
+Ayapare, dorime
+Ameno, ameno
+Latire, latiremo
+Dori me</li>
+<li>Here's a lullaby to close your eyes
+(Goodbye)
+It was always you that I despised
+I don't feel enough for you to cry (oh well)
+Here's a lullaby to close your eyes</li>
+<li>zutto koishikute shinderera
+seifuku dake de kaketeikuwa
+mahou yo jikan wo tomete yo
+warui hito ni jamasarechauwa</li>
+<li>Myon Myon Myomyomyomyomyon Myon Myon Myomyomyomyomyomyomyon!</li>
+<li>Nakanaide
+Torawareta gensou wo kowashi
+Ichidokiri no shuuen wo ageyou
+Hatasenai yakusoku wa mune no oku kogetsuite
+Akaku akaku hazeteku yo, nee</li>
+<li></li>
+<li></li>
+<li></li>
 <li>Ni- Ni- Nice boat! Suwako's nice boat!</li>
 <li>Chirumiru, Chirumiru, genki Chirumiru
 Genki da yo~</li>
@@ -92,8 +119,6 @@ I CAN'T WAKE UP!
 Wake me up inside
 SAVE ME!
 Call my name and save me from the dark</li>
-<li>Dango dango dango dango dango dango daikazoku
-Dango dango dango dango dango daikazoku♪</li>
 <li>Kirameita sekai tooi kioku wa
 Miageta sora yume o yobiokosu
 Hateshinai yoru ni deau keshiki wa
@@ -305,6 +330,19 @@ tokimeki aitemu de
 watashi no kurashi suteki ni kazaru yo </li>
 <li>Koi no yokushiryoku Hora Game ga hajimaru Mitsumeaeba wakaru desho? Hajimari no BERU ga naru</li>
 <li>But who’s to judge The right from wrong When our guard is down I think we’ll both agree♪</li></random></template></category>
+<category><pattern>sing a song for us</pattern>
+<template>Kanashimi ni tozasarete
+Naku dake no kimi janai
+Atsui mune kitto mirai o kirihiraku hazu sa
+Kanashimi ni tozasarete
+Naku dake ja tsumaranai
+Kitto (kitto)
+Kimi no (yume no) chikara (ima o)
+Ugokasu chikara
+Shinjiteru yo... dakara START!!</template></category>
+<category><pattern><sing a song for asim</pattern>
+<template>Dango dango dango dango dango dango daikazoku
+Dango dango dango dango dango daikazoku♪</template></category>
 
 <category><pattern>konrads6 golden thoughts</pattern>
 <template><random><li>dont have time click every gamez when must do other thingz</li>
