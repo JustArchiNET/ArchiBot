@@ -20,6 +20,9 @@
         REMEMBER * NOTE *       - write a note to remember
         REMEMBER *              - answers what was remembered
 	
+	#FLIP WORD
+	FLIP *
+	
 	##  HELPERS
         #   TABLE
         PPPN FLIPPING TABLES    - for flip table
@@ -121,7 +124,11 @@
             Sorry, but I can't remember...
         </template>
     </category>
-    
+    <!-- FLIP WORD -->
+    <category>
+        <pattern>FLIP *</pattern>
+        <template>(╯°□°）╯︵ <think><set name="count"><srai>COUNTLETTERS <star/></srai></set></think><condition name="count"><li><value>0</value></li><li><map name="_pppn_flip"><srai>NTHWORD <get name="count"/> <explode><star/></explode></srai></map><think><set name="count"><map><name>predecessor</name><get name="count"/></map></set></think><loop/></li></condition></template>
+    </category>
     <!-- HELPERS -->
     <!-- TABLE -->
     <category>
