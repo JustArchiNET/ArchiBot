@@ -22,7 +22,7 @@ ArchiBoT's AI includes support for AIML 1.1 and AIML 2.0 language. For new contr
 
 However, AIML is really easy, and you can base your work on already available **[examples](https://github.com/JustArchi/ArchiBoT/tree/master/AIML/lib/aiml)**. Simply select the one you like for an overview how AIML looks like.
 
-While easy, it can also become complex and allow to implement variety of custom logic ranging from simple mini-games, through handling a coversation in given topic, to actual semi-learning module. Everything depends on what modifications you'd like to see.
+While easy, it can also become complex and allow to implement variety of custom logic ranging from simple mini-games, through handling a conversation in given topic, to actual semi-learning module. Everything depends on what modifications you'd like to see.
 
 ---
 

@@ -34,7 +34,7 @@
 <category><pattern>LA-LI-LU-LE-LO</pattern>
 <template><srai>WHO ARE THE PATRIOTS</srai></template>
 </category>
-<category><pattern>*S3 PLAN</pattern>
+<category><pattern>* S3 PLAN</pattern>
 <template><srai>WHO ARE THE PATRIOTS</srai></template>
 </category>
 <category><pattern>GENOCIDE TIME</pattern>
@@ -113,7 +113,7 @@
 <category><pattern>I WISH TO KILL YOU</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
-<category><pattern>*BAD TIME</pattern>
+<category><pattern>* BAD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
 </category>
 <category><pattern>I HATE SPAGHETTI</pattern>
@@ -124,5 +124,43 @@
 </category>
 <category><pattern>I DO NOT WANT # GOOD TIME</pattern>
 <template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>SAVE EMMERICH</pattern>
+<template><random><li>:Miller:</li>
+<li>:Miller:</li>
+<li>:Miller:</li>
+<li>:Miller:</li>
+<li>:Miller:</li>
+<li>A Hideo Kojima game. :Miller:</li>
+<li>BOSS :Miller:</li>
+<li>BOSS, THAT ASSHOLE ISN'T GONNA SAVE HIMSELF :Miller:</li>
+<li>BOSS, BRING THAT DICKHEAD TO MOTHERBASE :Miller:</li>
+<li>BOSS, WE MUST FIND OUT WHAT SKULLFACE IS UP TO :Miller:</li>
+<li>BOSS, WE NEED TO STOP CIPHER :Miller:</li>
+<li>Boss, I'll cook you the best hamburger ever if you finish this mission :Miller:</li>
+<li>I believe in you, boss. :Miller:</li>
+<li>Don't keep us waiting, boss :Miller:</li>
+</random></template>
+</category>
+<category><pattern>PICK A GAME FOR MADU #</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>CHOOSE A GAME FOR MADU #</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY TODAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY TONIGHT</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>* SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>SUGGEST SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
 </category>
 </aiml>
