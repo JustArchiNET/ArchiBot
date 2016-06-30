@@ -127,7 +127,7 @@
     <!-- FLIP WORD -->
     <category>
         <pattern>FLIP *</pattern>
-        <template>(╯°□°）╯︵ <think><set name="count"><srai>COUNTLETTERS <star/></srai></set></think><condition name="count"><li><value>0</value></li><li><map name="_pppn_flip"><srai>NTHWORD <get name="count"/> <explode><star/></explode></srai></map><think><set name="count"><map><name>predecessor</name><get name="count"/></map></set></think><loop/></li></condition></template>
+        <template>(╯°□°）╯︵ <think><set name="count"><srai>COUNTLETTERS <star/></srai></set></think><condition name="count"><li><value>0</value></li><li><map name="letters2flipped"><srai>NTHWORD <get name="count"/> <explode><star/></explode></srai></map><think><set name="count"><map><name>predecessor</name><get name="count"/></map></set></think><loop/></li></condition></template>
     </category>
     <!-- HELPERS -->
     <!-- TABLE -->
