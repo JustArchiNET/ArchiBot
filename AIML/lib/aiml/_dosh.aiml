@@ -164,4 +164,10 @@
 <category><pattern>SUGGEST SOMETHING MADU SHOULD PLAY</pattern>
 <template><srai>SAVE EMMERICH</srai></template>
 </category>
+<category><pattern>MÄMMI</pattern>
+<template>Sauna</template>
+</category>
+<category><pattern>MAMMI</pattern>
+<template><srai>MÄMMI</srai></template>
+</category>
 </aiml>
