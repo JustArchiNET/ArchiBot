@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<category><pattern>You're a big bot</pattern>
+<category><pattern>YOU ARE A BIG BOT</pattern>
 <template>For you</template>
 </category>
 </aiml>
