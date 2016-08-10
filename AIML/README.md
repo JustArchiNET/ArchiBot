@@ -35,3 +35,4 @@ Have you created your file already in the past and got approved? Great, it's eve
 ---
 
 - When done, commit your changes and wait for approval :+1:
+- You can also test your modifications after being merged, either on **[Steam](https://steamcommunity.com/id/ArchiBoT)** or on **[PandoraBots](https://playground.pandorabots.com/en/clubhouse/)**.
