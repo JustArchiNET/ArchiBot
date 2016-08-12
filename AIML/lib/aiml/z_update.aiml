@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: reductions3.aiml -->
-<!-- Last modified: October 15, 2014 -->
+<!-- Last modified: July 27, 2016 -->
 <!--  -->
 <!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
@@ -27,4 +27,8 @@
 <template>unknown</template>
 </category>
 
+<!-- GITHUB ISSUE FIX -->
+<category><pattern>WHAT IS WHAT</pattern>
+<template>Well, that makes no sense.</template>
+</category>
 </aiml>
