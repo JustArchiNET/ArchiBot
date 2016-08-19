@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>sing a song for kaleith</pattern>
+		<template>
+			<random>
+				<li>:Neko: meow meow meow meow~ meow meeeow♪</li>
+				<li>:Neko: *clears throat* MEEEEEEEEEEEEEEOOOOOOOOOOOOOOOOOOOOOW ♬♬</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>who is kaleith</pattern>
+		<template>
+			<random>
+				<li>:Neko:</li>
+				<li>:3</li>
+			</random>
+		</template>
+	</category>
+	
+</aiml>
