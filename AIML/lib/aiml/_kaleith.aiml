@@ -33,7 +33,6 @@
 		<template>
 			<random>
 				<li>A game where up to 6 players battle using wits and luck and at the end the leprechaun wins.</li>
-				<li>Ban lep.</li>
 				<li>A game that is, for some reason, somewhat popular in Touhou Giveaways.</li>
 			</random>
 		</template>
