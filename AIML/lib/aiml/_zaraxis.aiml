@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<category><pattern>eh</pattern><template>SEXY LADYYYYYYYYYYYYY</template></category>
+<category><pattern>ey</pattern><template>SEXY LADYYYYYYYYYYYYY</template></category>
 
 <category><pattern>cs</pattern><template>cyka blyat vodka putin davai rush b idi nahui</template></category>
 
 <category><pattern>revolver ocelot</pattern><template>revolver ocelot * REVOLVER OCELOT * (REVOLVER OCELOT)</template></category>
 
-<category><pattern>What are your dreams?</pattern><template>Being a High school idol</template></category>
-
-<category><pattern>Todokete</pattern><template>Setsunasa ni wa!</template></category>
-<category><pattern>Setsunasa ni wa</pattern><template>namae o</template></category>
-<category><pattern>namae o</pattern><template>tsukeyou ka Snow halation!</template></category>
-<category><pattern>tsukeyou ka Snow halation</pattern><template>Omoi ga</template></category>
-<category><pattern>Omoi ga</pattern><template>kasanaru made!</template></category>
-<category><pattern>kasanaru made</pattern><template>matezu ni</template></category>
-<category><pattern>matezu ni</pattern><template>Kuyashii kedo sukitte junjou!</template></category>
-<category><pattern>Kuyashii kedo sukitte junjou</pattern><template>Binetsu no naka</template></category>
-<category><pattern>Binetsu no naka</pattern><template>tameratte mo dame da ne!</template></category>
-<category><pattern>tameratte mo dame da ne</pattern><template>Tobikomu yuuki ni sansei</template></category>
-<category><pattern>Tobikomu yuuki ni sansei</pattern><template>ma mo naku Start!!!</template></category>
+<category><pattern>Your desire?</pattern><template>Being a High school idol</template></category>
 
 <category><pattern>sing a song</pattern>
 <template><random><li>TODOKETE SETSUNASA NI WA NAMAE O TSUKIYOU KA SNOW HALATION</li>
@@ -113,13 +101,6 @@ tsukuridasu no wa uso?
 kimi ga tsukutta watashi wa hontō?
 watashi no kokoro kimi no tsugō no yoi omoi de
 majiwaru</li>
-<li>Please don’t say “You are lazy”
-Datte hontou wa crazy
-Hakuchou-tachi wa sou
-Mienai toko de bataashisurun desu
-Honnou ni juujun   chuujitsu   honrou mo juujuu shouchi
-Zento youyou da shi…
-Dakara tama ni kyuukeishichaun desu</li>
 <li>Mai ochiru
 Koi yuki fuwafuwa matte
 Watashi no kokoro ubatte
@@ -173,6 +154,7 @@ S-s-summertime, summertime sadness
 Got that summertime, summertime sadness
 Oh, oh, oh, oh, oh</li>
 <li>I'm tired..</li>
+<li>:vert: MYON :vert:</li>
 <li>how about no? :3</li>
 <li>Oh, take that money watch it burn,
 Sing in the river the lessons I learned
