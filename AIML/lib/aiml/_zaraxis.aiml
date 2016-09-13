@@ -15,13 +15,11 @@
 
 <category><pattern>cs</pattern><template>cyka blyat vodka putin davai rush b idi nahui</template></category>
 
-<category><pattern>revolver ocelot</pattern><template>revolver ocelot * REVOLVER OCELOT * (REVOLVER OCELOT)</template></category>
-
 <category><pattern>Your desire?</pattern><template>Being a High school idol</template></category>
 
 <category><pattern>sing a song</pattern>
 <template><random><li>TODOKETE SETSUNASA NI WA NAMAE O TSUKIYOU KA SNOW HALATION
-(SONG: ( ͡° ͜ʖ ͡°))</li>
+(SONG: μ’s - Snow Halation)</li>
 <li>Nagareteku toki no naka de demo kedarusa ga hora guruguru mawatte
 (SONG: Alstroemeria Records - Bad Apple!!)</li>
 <li>Interior crocodile alligator
@@ -138,7 +136,7 @@ Sans espoir et sans regret
 But when we are apart, I feel it too 
 And no matter what I do, I feel the pain 
 with or without you
-(SONG: *NSYNC - Tearin' Up My Heart)</li>
+(SONG: NSYNC - Tearin' Up My Heart)</li>
 <li>Nico Nico-nii~ Anata no Hearto ni Nico Nico-nii, Egao todokeru Yazawa Nico Nico~ Nico-nii te oboeteru Love Nico~
 (SONG: https://www.youtube.com/watch?v=T4iC52d-fVY)</li>
 <li>Tell me why
@@ -274,12 +272,13 @@ All I wanna say is that They don't really care about us
 (SONG: Michael Jackson - They Don't Care About Us)</li>
 <li>Work it harder, make it better Do it faster, makes us stronger More than ever, Hour after Our work is never over
 (SONG: Daft Punk - Harder, Better, Faster, Stronger)</li>
-<li>Hello darkness, my old friend I've come to talk with you again</li>
+<li>Hello darkness, my old friend I've come to talk with you again
+(SONG: Simon & Garfunkel - The Sound of Silence)</li>
 <li>You can run, you can hide
 I wanna feel what you feel
 You can laugh, you can cry
 You don't have to be alone
-(SONG: Simon & Garfunkel - The Sound of Silence)</li>
+(SONG: Solar Energy - Wanna Feel What You Feel)</li>
 <li>His palms are spaghetti, knees weak, arms spaghetti
 There's vomit on his spaghetti already: mom's spaghetti
 He's nervous, but on the surface he looks calm spaghetti
@@ -350,7 +349,8 @@ I can no longer pretend!
 (SONG: Daisuke Ishiwatari - Heavy Day)</template></category>
 <category><pattern>sing a song for wany</pattern><template>I want it all! I want it all! I want it all! and I want it now!
 (SONG: Queen - I Want It All)</template></category>
-<category><pattern>sing a song for fake</pattern><template><random><li>Go, go, go, go, go, go, go, go, go, go 
+<category><pattern>sing a song for fake</pattern>
+<template><random><li>Go, go, go, go, go, go, go, go, go, go 
 Gotta go fast, gotta go fast, 
 Gotta go faster, faster, faster, faster, faster
 (SONG: Sonic X - Theme Song)</li>
