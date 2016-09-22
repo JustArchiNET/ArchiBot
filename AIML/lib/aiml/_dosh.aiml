@@ -37,6 +37,12 @@
 <category><pattern>LA-LI-LU-LE-LO</pattern>
 <template><srai>WHO ARE THE PATRIOTS</srai></template>
 </category>
+<category><pattern>LA LI LU LE LO</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+<category><pattern>LA–LI–LU–LE–LO</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
 <category><pattern>* S3 PLAN</pattern>
 <template><srai>WHO ARE THE PATRIOTS</srai></template>
 </category>
@@ -204,6 +210,10 @@
 </category>
 <category><pattern>WHICH CPU IS THE BEST</pattern>
 <template><srai>BEST GODDESS</srai></template>
+</category>
+
+<category><pattern>WHEN THERE IS SMOKE</pattern>
+<template>they pinch back</template>
 </category>
 
 </aiml>
