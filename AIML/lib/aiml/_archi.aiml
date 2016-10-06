@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>WHO IS CJ</pattern>
+		<template>
+			<random>
+				<li>ʕ•ᴥ•ʔ</li>
+				<li>:paws:</li>
+				<li>:catpuzzle:/</li>
+			</random>
+		</template>
+	</category>	
+</aiml>
