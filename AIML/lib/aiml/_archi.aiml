@@ -9,5 +9,15 @@
 				<li>:catpuzzle:/</li>
 			</random>
 		</template>
-	</category>	
+	</category>
+
+	<category>
+		<pattern>WHO IS KERO</pattern>
+		<template>
+			<random>
+				<li>¦3つ</li>
+				<li>¦3つ</li>
+			</random>
+		</template>
+	</category>
 </aiml>
