@@ -393,7 +393,8 @@ Neko Miko Reimu nani shiteru
 Neko Miko Reimu shuran yurari
 Neko Miko Reimu muron furari
 (SONG: IOSYS - Neko Miko Reimu)</template></category>
-<category><pattern>sing a song for madu</pattern><template>Yes, I'm a weeaboo
+<category><pattern>sing a song for madu</pattern>
+<template><random><li>Yes, I'm a weeaboo
 Yes, I'm a weeaboo
 Yes, I'm a weeaboo
 Yes, I'm a weeaboo
@@ -405,7 +406,12 @@ A fucking weeaboo
 (I'm learning Japanese on Rosetta Stone)
 A disgusting weeaboo
 (So I'm like basically Japanese now)
-(SONG: Filthy Frank - Weeaboo Song)</template></category>
+(SONG: Filthy Frank - Weeaboo Song)</li>
+<li>Agitatis Ultramarini! 
+Dominitis Ultramarini! 
+Non praestatis Ultramarini! 
+Nobilitis Ultramarini! 
+(SONG: Chaos Gate - Ultramarines Chant)</li></random></template></category>
 <category><pattern>sing a song for sheeppu</pattern><template>Welcome to the Hotel California
 Such a lovely place (Such a lovely place)
 Such a lovely face♪
