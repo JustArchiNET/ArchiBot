@@ -3,4 +3,35 @@
 <category><pattern>YOU ARE A BIG BOT</pattern>
 <template>For you</template>
 </category>
+
+<category><pattern>FACT</pattern>
+<template><random>
+<li>Did you know you can add your own fortunes?</li>
+<li>Did you know a bear has 42 teeth?</li>
+<li>Did you know zin idled MGS V: The Phantom Pain on the release week?</li>
+<li>Did you know amine isn't real?</li>
+<li>Did you know Touhou Giveaways was originally made so that Archi could leech bundle trash gibs?</li>
+<li>Did you know zin was the first real mod of the group?</li>
+<li>Did you know ArchiBoT was once Zed's waifu?</li>
+<li>Did you know the did you know facts?</li>
+<li>Did you know :Neko:MYON:Neko:?</li>
+<li>Did you know we have a mumble? Yeah me neither.</li>
+<li>Did you know I'm a real person?</li>
+<li>Did you know zin is a bot?</li>
+<li>Did you know :3?</li>
+<li>Did you know nepneps? No? Good. RUN. SAVE YOURSELF. OH NO THEY'RE HE-:vert::compa::blanc::IrisHeartRebirth3:</li>
+<li>Did you know RWBY is an amine?</li>
+<li>Did you know RWBY isn't an amine?</li>
+<li>Did you know !nsfw?</li>
+<li>Did you know if a frog eats enough fireflies, its stomach will glow.</li>
+<li>Did you know that Madu is not only rude, but also madu?</li>
+</random></template>
+</category>
+
+<category><pattern>DID YOU KNOW</pattern>
+<template><srai>FACT</srai></template>
+</category>
+<category><pattern>FACTS</pattern>
+<template><srai>FACT</srai></template>
+</category>
 </aiml>
