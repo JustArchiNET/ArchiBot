@@ -155,6 +155,7 @@
 <category><pattern>WHAT IS 100 ORANGE JUICE</pattern>
 <template><srai>WHAT IS OJ</srai></template>
 </category>
+
 <category><pattern>FORTUNE</pattern>
 <template><random><li>Your future will prosper.</li>
 <li>Your future is doomed.</li>
@@ -252,7 +253,7 @@
 <li>You can become blind by seeing each day as a similar one.</li>
 <li>It is a fine thing to be honest, but it is also very important to be right.</li>
 <li>One of the most tragic things I know about human nature is that all of us tend to put off living.</li>
-<li>The value of an idea lies in the use of it.</li>
+<li>The value of an idea lies in its use.</li>
 <li>If your actions inspire others to dream more, learn more, do more, and become more, you are a leader.</li>
 <li>Our greatest weakness lies in giving up.</li>
 <li>It is the set of the sails, not the direction of the wind that determines which way we will go.</li>
@@ -320,6 +321,7 @@
 <li>That'll be $0.99.</li>
 <li>:3</li>
 <li>Help! I am trapped in a fortune cookie machine!</li>
+
 <li>More than one waifu will destroy your laifu.</li>
 <li>Hard work pays off in the future, laziness pays off now. :blissful_creep:</li>
 <li>You learn from your mistakes... You will learn a lot today.</li>
@@ -384,7 +386,17 @@
 <li>That reminds me, I saw Gubayama the other day in Shibomnigee. He said to give you his best.</li>
 <li>La-Li-Lu-Le-Lo! La-Li-Lu-Le-Lo! La-Li-Lu-Le-Lo!</li>
 <li>La-Li-Lu-Le-Lo</li>
- 
+
+<li>No refunds.</li>
+<li>Sleep time.</li>
+<li>Nap time.</li>
+<li>:steamsalty::compa: あなたの塩が持って来ましたです～</li>
+<li>:Neko:MYON:Neko: time.</li>
+<li>Hop like a speed demon.</li>
+<li>You should bunny hop all the way through ivy, out middle through their connector LIKE A SPEED DEMON!</li>
+<li>Make them talk about your one taps.</li>
+<li>They talk about my one taps.</li>
+<li>Sanity is for the weak!</li>
 </random></template>
 </category>
 <category><pattern>FORTUNES</pattern>
