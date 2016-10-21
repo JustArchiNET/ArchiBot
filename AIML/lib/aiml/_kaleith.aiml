@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+
+<!-- ALIASES -->
+
+	<category>
+		<pattern>what is talismano</pattern>
+		<template>
+			<srai>what is talisman</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>faku, kick *</pattern>
+		<template>
+			<srai>fakuball, kick *</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>faku, kick * or *</pattern>
+		<template>
+			<srai>fakuball, kick * or *</srai>
+		</template>
+	</category>	
+
+<!-- COMMANDS -->	
+
+	<category>
+		<pattern>fakuball, kick * or *</pattern>
+		<template>
+			<random>
+				<li>Kick <star/> :3</li>
+				<li>Kick <star index="2"/> :3</li>
+				<li>Time to kick <star/> :3</li>
+				<li>Time to kick <star index="2"/> :3</li>
+				<li>Why not both? :3</li>
+			</random>
+		</template>
+	</category>	
+	
 	<category>
 		<pattern>fakuball, kick *</pattern>
 		<template>
@@ -13,21 +52,37 @@
 			</random>
 		</template>
 	</category>
+	
+	<category>
+		<pattern>fakuball *</pattern>
+		<template>
+			<random>
+				<li>Faku: :3</li>
+				<li>Faku: I am Fake :3</li>
+				<li>Faku: Yes? :3</li>
+			</random>
+		</template>
+	</category>
+
 
 	<category>
 		<pattern>winduball</pattern>
 		<template>
 			<random>
+				<li>Windu: I'm Wind of Memory and this Is my Scam Shop</li>
+				<li>Windu: Verdun costs 27$ CAD on sale, aka 9 CSGO keys. If u buy 4 pack u get 3 copies, i traded them for 13 keys today AKA PROFITZ AND FREE GAME</li>
 				<li>Windu: Give me 3 keys and I'll answer.</li>
 				<li>Windu: This message will cost you.</li>
 				<li>Windu: They call me Scam. Wind of Scam.</li>
+				<li>Windu: Just a little signature here aaaand DONE, another scam success!</li>
+				<li>Windu: Please give me your coupons, they're useless anyway :bite:</li>
 				<li>Windu: I’ll have you know I graduated top of my class in the Scam Army, and I have over 3000 confirmed scams.</li>
 				<li>Windu: Brb, getting free keys for all of my bots.</li>
-				<li>Windu: Profits? They depend on the exchange rates.</li>
+				<li>Windu: The Real is low, time to invest in Nuuvem keys.</li>
+				<li>Windu: So I was talking with this cutie at a bar and then BOOM! Notification: "Key reseller price glitch! Quick!". You know the ending :bite:</li>
 				<li>Windu: I don't know man, let me fire my farm botnet.</li>
 				<li>Windu: DON'T TRY TO CHANGE SUBJECT, DID YOU JUST GIVE AWAY PROFITZ™?</li>
 				<li>Windu: Are you having fun? I'm making profits here.</li>
-				<li>Windu: Buying a single copy of a game to play it? Pffft. If you bring 3 squirrel heads to the truck near the S.S. Anne and then jump in the water you can find a pearl that you can use once every year on the 27th of April at 6 PM on the summit of any volcano of your choice to summon an elder god that will let you buy 81 copies of that game at a 16% discounted price. Then you sell the other 80 copies and you make a PROFIT</li>
 				<li>Windu: Even when it's trash, I'll buy Nep anyway, because it's good for profitz</li>
 				<li>Windu: The new bundle that just came out? I bought 8 copies, why do you ask?</li>
 			</random>
@@ -78,13 +133,6 @@
 		</template>
 	</category>
 	
-	<category>
-		<pattern>what is talismano</pattern>
-		<template>
-			<srai>what is talisman</srai>
-		</template>
-	</category>	
-
 	<category>
 		<pattern>what is talisman</pattern>
 		<template>
