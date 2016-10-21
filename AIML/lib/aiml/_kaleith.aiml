@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 	<category>
+		<pattern>winduball</pattern>
+		<template>
+			<random>
+				<li>ⓦⓘⓝⓓⓤ: Give me 3 keys and I'll answer.</li>
+				<li>ⓦⓘⓝⓓⓤ: It depends on the exchange rates.</li>
+				<li>ⓦⓘⓝⓓⓤ: I don't know, let me fire my farm botnet.</li>
+				<li>ⓦⓘⓝⓓⓤ: DON'T TRY TO CHANGE SUBJECT, DID YOU JUST GIVE AWAY PROFITZ™?</li>
+				<li>ⓦⓘⓝⓓⓤ: Are you having fun? I'm making profits here.</li>
+				<li>ⓦⓘⓝⓓⓤ: Buying a single copy of a game to play it? Pffft. If you bring 3 squirrel heads to the truck near the S.S. Anne and then jump in the water you can find a pearl that you can use once every year on the 27th of April at 6 PM on the summit of any volcano of your choice to summon an elder god that will let you buy 81 copies of that game at a 16% discounted price. Then you sell the other 80 copies and you make a PROFIT</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>THANKS MADU</pattern>
+		<template>
+			<random>
+				<li>:vert: THANKS MADU :vert:</li>
+				<li>:Miller: THANKS MADU :Miller:</li>
+				<li>:blissful_creep: THANKS MADU :blissful_creep:</li>
+				<li>:Neko: THANKS MADU :Neko:</li>
+				<li>:bite: THANKS MADU :bite:</li>
+				<li>:ojchicken: THANKS MADU :ojchicken:</li>
+				<li>:ojseagull: THANKS MADU :ojseagull:</li>
+				<li>:VSnake: THANKS MADU :VSnake:</li>
+				<li>:shelterfrog: THANKS MADU :shelterfrog:</li>
+				<li>:summerghost: THANKS MADU :summerghost:</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
 		<pattern>sing a song for kaleith</pattern>
 		<template>
 			<random>
+				<li>I've heard some corny birds 
+				Who tried to sing 
+				Still a cat's the only cat 
+				Who knows how to swing 
+				Who wants to dig a long-haired gig 
+				And stuff like that 
+				When everybody wants to be a cat 
+				(Song: Everybody wants to be a cat - The Aristocats)</li>
+				<li>Wasurenai yo sugu soba ni 
+				Kimi ga iru itsu no hi mo 
+				Hoshizora ni kagayaite'ru 
+				namida yureru ashita mo 
+				(Song: Kaze ni Naru - Neko No Ongaeshi OST)<li>
 				<li>:Neko: meow meow meow meow~ meow meeeow♪</li>
 				<li>:Neko: *clears throat* MEEEEEEEEEEEEEEOOOOOOOOOOOOOOOOOOOOOW ♬♬</li>
 			</random>
@@ -15,6 +60,8 @@
 		<template>
 			<random>
 				<li>:Neko:</li>
+				<li>:catpuzzle:</li>
+				<li>\:catpuzzle:/</li>
 				<li>:3</li>
 				<li>\:Neko:/</li>
 			</random>
