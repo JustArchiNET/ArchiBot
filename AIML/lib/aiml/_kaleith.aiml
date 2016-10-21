@@ -18,7 +18,21 @@
 	</category>	
 
 	<category>
-		<pattern>faku, kick * or *</pattern>
+		<pattern>faku kick * or *</pattern>
+		<template>
+			<srai>fakuball, kick * or *</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>faku, kick *</pattern>
+		<template>
+			<srai>fakuball, kick *</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>faku kick * or *</pattern>
 		<template>
 			<srai>fakuball, kick * or *</srai>
 		</template>
