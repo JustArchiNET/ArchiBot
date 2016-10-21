@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 	<category>
+		<pattern>fakuball, kick *</pattern>
+		<template>
+			<random>
+				<li>Faku: Yes, definitely :3</li>
+				<li>Faku: Don't count on it. Just kidding, of course :3</li>
+				<li>Faku: Yes :3</li>
+				<li>Faku: Let me think... Yep :3</li>
+				<li>Faku: As I see it, yes :3</li>
+				<li>Faku: Affirmative :3</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
 		<pattern>winduball</pattern>
 		<template>
 			<random>
@@ -14,6 +28,8 @@
 				<li>Windu: DON'T TRY TO CHANGE SUBJECT, DID YOU JUST GIVE AWAY PROFITZ™?</li>
 				<li>Windu: Are you having fun? I'm making profits here.</li>
 				<li>Windu: Buying a single copy of a game to play it? Pffft. If you bring 3 squirrel heads to the truck near the S.S. Anne and then jump in the water you can find a pearl that you can use once every year on the 27th of April at 6 PM on the summit of any volcano of your choice to summon an elder god that will let you buy 81 copies of that game at a 16% discounted price. Then you sell the other 80 copies and you make a PROFIT</li>
+				<li>Windu: Even when it's trash, I'll buy Nep anyway, because it's good for profitz</li>
+				<li>Windu: The new bundle that just came out? I bought 8 copies, why do you ask?</li>
 			</random>
 		</template>
 	</category>
