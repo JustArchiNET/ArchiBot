@@ -4,12 +4,12 @@
 		<pattern>fakuball, kick *</pattern>
 		<template>
 			<random>
-				<li>Yes, definitely :3</li>
-				<li>Don't count on it. Just kidding, of course :3</li>
-				<li>Yes :3</li>
-				<li>Let me think... Yep :3</li>
-				<li>As I see it, yes :3</li>
-				<li>Affirmative :3</li>
+				<li>Faku: Yes, definitely :3</li>
+				<li>Faku: Don't count on it. Just kidding, of course :3</li>
+				<li>Faku: Yes :3</li>
+				<li>Faku: Let me think... Yep :3</li>
+				<li>Faku: As I see it, yes :3</li>
+				<li>Faku: Affirmative :3</li>
 			</random>
 		</template>
 	</category>
