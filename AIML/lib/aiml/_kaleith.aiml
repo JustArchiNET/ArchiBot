@@ -11,37 +11,9 @@
 	</category>	
 	
 	<category>
-		<pattern>faku, kick *</pattern>
-		<template>
-			<srai>fakuball, kick *</srai>
-		</template>
-	</category>	
-
-	<category>
-		<pattern>faku kick *</pattern>
-		<template>
-			<srai>fakuball, kick *</srai>
-		</template>
-	</category>	
-
-	<category>
 		<pattern>fakuball kick *</pattern>
 		<template>
 			<srai>fakuball, kick *</srai>
-		</template>
-	</category>	
-
-	<category>
-		<pattern>faku kick * or *</pattern>
-		<template>
-			<srai>fakuball, kick * or *</srai>
-		</template>
-	</category>
-	
-	<category>
-		<pattern>faku, kick * or *</pattern>
-		<template>
-			<srai>fakuball, kick * or *</srai>
 		</template>
 	</category>	
 
@@ -79,6 +51,8 @@
 		<template>
 			<random>
 				<li>Faku: Yes, definitely :3</li>
+				<li>Faku: Sure, kick away :3</li>
+				<li>Faku: You bet :3</li>
 				<li>Faku: Don't count on it. Just kidding, of course :3</li>
 				<li>Faku: Yes :3</li>
 				<li>Faku: Let me think... Yep :3</li>
@@ -96,6 +70,8 @@
 				<li>Faku: :3</li>
 				<li>Faku: I am Fake :3</li>
 				<li>Faku: Yes? :3</li>
+				<li>Faku: Why not? :3</li>
+				<li>Faku: You're doing it wrong :3</li>
 			</random>
 		</template>
 	</category>
@@ -150,8 +126,8 @@
 		<pattern>sing a song for kaleith</pattern>
 		<template>
 			<random>
-				<li>I've heard some corny birds Who tried to sing Still a cat's the only cat Who knows how to swing Who wants to dig a long-haired gig And stuff like that When everybody wants to be a cat (Song: Everybody wants to be a cat - The Aristocats)</li>
-				<li>Wasurenai yo sugu soba ni Kimi ga iru itsu no hi mo Hoshizora ni kagayaite'ru namida yureru ashita mo (Song: Kaze ni Naru - Neko No Ongaeshi OST)</li>
+				<li>I've heard some corny birds / Who tried to sing / Still a cat's the only cat / Who knows how to swing // Who wants to dig a long-haired gig and stuff like that / When everybody wants to be a cat (Song: Everybody wants to be a cat - The Aristocats)</li>
+				<li>Wasurenai yo sugu soba ni / Kimi ga iru itsu no hi mo / Hoshizora ni kagayaite'ru / Namida yureru ashita mo (Song: Kaze ni Naru - Neko No Ongaeshi OST)</li>
 				<li>:Neko: meow meow meow meow~ meow meeeow♪</li>
 				<li>:Neko: *clears throat* MEEEEEEEEEEEEEEOOOOOOOOOOOOOOOOOOOOOW ♬♬</li>
 			</random>
@@ -162,11 +138,12 @@
 		<pattern>who is kaleith</pattern>
 		<template>
 			<random>
-				<li>:Neko:</li>
-				<li>:catpuzzle:</li>
+				<li>:Neko:/ </li>
 				<li>\:catpuzzle:/</li>
-				<li>:3</li>
-				<li>\:Neko:/</li>
+				<li>Just your friendly neighborhood cat :3</li>
+				<li>A majestic, 100% non-fat feline specimen :3</li>
+				<li>A fluffy ball of white fur (and not fat)</li>
+				<li>The winner of the title "Best Cat Named Kaleith" for over 25 years in a row.</li>
 			</random>
 		</template>
 	</category>
