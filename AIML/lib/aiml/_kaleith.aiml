@@ -18,14 +18,14 @@
 	</category>	
 
 	<category>
-		<pattern>faku kick * or *</pattern>
+		<pattern>faku kick *</pattern>
 		<template>
-			<srai>fakuball, kick * or *</srai>
+			<srai>fakuball, kick *</srai>
 		</template>
 	</category>	
-	
+
 	<category>
-		<pattern>faku, kick *</pattern>
+		<pattern>fakuball kick *</pattern>
 		<template>
 			<srai>fakuball, kick *</srai>
 		</template>
@@ -36,7 +36,28 @@
 		<template>
 			<srai>fakuball, kick * or *</srai>
 		</template>
+	</category>
+	
+	<category>
+		<pattern>faku, kick * or *</pattern>
+		<template>
+			<srai>fakuball, kick * or *</srai>
+		</template>
 	</category>	
+
+	<category>
+		<pattern>fakuball kick * or *</pattern>
+		<template>
+			<srai>fakuball, kick * or *</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>fakuball *</pattern>
+		<template>
+			<srai>fakuball</srai>
+		</template>
+	</category>
 
 <!-- COMMANDS -->	
 
@@ -63,12 +84,13 @@
 				<li>Faku: Let me think... Yep :3</li>
 				<li>Faku: As I see it, yes :3</li>
 				<li>Faku: Affirmative :3</li>
+				<li>Faku: Of course :3</li>
 			</random>
 		</template>
 	</category>
 	
 	<category>
-		<pattern>fakuball *</pattern>
+		<pattern>fakuball</pattern>
 		<template>
 			<random>
 				<li>Faku: :3</li>
@@ -77,7 +99,6 @@
 			</random>
 		</template>
 	</category>
-
 
 	<category>
 		<pattern>winduball</pattern>
