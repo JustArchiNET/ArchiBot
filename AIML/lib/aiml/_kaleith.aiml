@@ -37,11 +37,11 @@
 		<pattern>fakuball, kick * or *</pattern>
 		<template>
 			<random>
-				<li>Kick <star/> :3</li>
-				<li>Kick <star index="2"/> :3</li>
-				<li>Time to kick <star/> :3</li>
-				<li>Time to kick <star index="2"/> :3</li>
-				<li>Why not both? :3</li>
+				<li>Faku: Kick <star/> :3</li>
+				<li>Faku: Kick <star index="2"/> :3</li>
+				<li>Faku: Time to kick <star/> :3</li>
+				<li>Faku: Time to kick <star index="2"/> :3</li>
+				<li>Faku: Why not both? :3</li>
 			</random>
 		</template>
 	</category>	
