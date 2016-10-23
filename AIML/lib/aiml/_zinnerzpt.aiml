@@ -3,4 +3,54 @@
 <category><pattern>YOU ARE A BIG BOT</pattern>
 <template>For you</template>
 </category>
+
+<category><pattern>FACT</pattern>
+<template><random>
+<li>Did you know you can add your own fortunes?</li>
+<li>Did you know a bear has 42 teeth?</li>
+<li>Did you know zin idled MGS V: The Phantom Pain on the release week?</li>
+<li>Did you know amine isn't real?</li>
+<li>Did you know Touhou Giveaways was originally made so that Archi could leech bundle trash gibs?</li>
+<li>Did you know zin was the first real mod of the group?</li>
+<li>Did you know ArchiBoT was once Zed's waifu?</li>
+<li>Did you know the did you know facts?</li>
+<li>Did you know :Neko:MYON:Neko:?</li>
+<li>Did you know we have a mumble? Yeah me neither.</li>
+<li>Did you know I'm a real person?</li>
+<li>Did you know zin is a bot?</li>
+<li>Did you know :3?</li>
+<li>Did you know nepneps? No? Good. RUN. SAVE YOURSELF. OH NO THEY'RE HE-:vert::compa::blanc::IrisHeartRebirth3:</li>
+<li>Did you know RWBY is an amine?</li>
+<li>Did you know RWBY isn't an amine?</li>
+<li>Did you know !nsfw?</li>
+<li>Did you know if a frog eats enough fireflies, its stomach will glow.</li>
+<li>Did you know that Madu is not only rude, but also madu?</li>
+<li>Did you know budgies have a third eyelid that is not usually visible, but that is important for lubricating the eyes and keeping them clear of dirt and debris?</li>
+<li>Did you know budgies have a very high resting respiration rate, ranging between 65-85 breaths per minute?</li>
+<li>Did you know historically, the budgerigar has gone by a variety of different names, including the canary parrot, shell parrot, zebra parrot, warbling grass parakeet, and undulated parakeet?</li>
+<li>Did you know the heart rate of the budgie is extremely fast and cannot be monitored by listening in the normal way, as it beats over 300 times per minute?</li>
+<li>Did you know the original budgies were all greeny-yellow in colour? The first blue budgie wasn’t seen until 1878!</li>
+<li>Did you know budgies can move and see out of each eye independently of the other one?</li>
+<li>Did you know a budgie can have up to 3,000 feathers in total across their whole body?</li>
+<li>Did you know budgies grind their beaks when they are happy and relaxed, similar to cats and purring?</li>
+<li>Did you know the bones of budgies are hollow, and filled with air sacs rather than bone marrow?</li>
+<li>Did you know budgies have more vertebrae in their necks than humans do, allowing them to swivel their heads up to 180 degrees, or allow them to face backwards?</li>
+<li>Did you know budgies can only afford to lose between 10-12 drops of blood before their blood loss becomes fatal?</li>
+<li>Did you know the skeleton of female budgies gains density during the breeding season, as she stockpiles calcium to support breeding?</li>
+<li>Did you know the shells of a budgie’s eggs are covered with pores, which allow oxygen and carbon dioxide to enter and exit the shell?</li>
+<li>Did you know the patterns of light and the shortening and lengthening of the days tells the female budgie when it is breeding season?</li>
+<li>Did you know that, while in mammals, our lungs themselves expand and contract as we breathe, in budgies, the muscles of the chest cavity itself expands and contracts, to force air in and out?</li>
+<li>Did you know budgie’s range of hearing ranges from 400-20,000 Hz, and budgies can remember sequences of sounds, and sometimes mimic them?</li>
+<li>Did you know budgies have an incredibly acute vision in terms of the number of images their brains can process at a time? Budgies can register over 150 images per second, compared with just 16 for humans!</li>
+<li>Did you know there are two distinct species of budgies, the Australian and the English one? The English budgie was deliberately bred and is slightly larger, while the Australian budgie is more similar to the wild variant.</li>
+<li>Did you know budgies can be taught to count up to three, and do very basic sums that involve just those three numbers?</li>
+</random></template>
+</category>
+
+<category><pattern>DID YOU KNOW</pattern>
+<template><srai>FACT</srai></template>
+</category>
+<category><pattern>FACTS</pattern>
+<template><srai>FACT</srai></template>
+</category>
 </aiml>
