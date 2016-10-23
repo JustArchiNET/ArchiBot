@@ -1,17 +1,17 @@
-+<?xml version="1.0" encoding="UTF-8"?>
-+<aiml>
-+      <category>
-+		           <pattern>ban nep</pattern>
-+		           <template>
-+			        <random>
-+				 <li>:bite: BAN NEP :bite:</li>
-+				 <li>:bite: BAN NEPERS :bite:</li>
-+				 <li>:bite: NEP IS TRASH :bite: /</li>
-+                <li>:doubt: DAMN NEPERS :doubt: /</li>
-+                <li>:bite: KICKU WINDU :bite: /</li>
-+                <li>:bite: MEGATRASHENSION WEEBTUNIA :bite: /</li>
-+                <li>:doubt: AMINE WEEB TRASH, FUCKING NEPERS :doubt: /</li>                
-+			</random>
-+		</template>
-+	</category>
-+</aiml>
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+      <category>
+	           <pattern>ban nep</pattern>
+	           <template>
+		        <random>
+			        <li>:bite: BAN NEP :bite:</li>				       
+              <li>:bite: BAN NEPERS :bite:</li>
+				 <li>:bite: NEP IS TRASH :bite: /</li>
+               <li>:doubt: DAMN NEPERS :doubt: /</li>
+                <li>:bite: KICKU WINDU :bite: /</li>
+              <li>:bite: MEGATRASHENSION WEEBTUNIA :bite: /</li>
+               <li>:doubt: AMINE WEEB TRASH, FUCKING NEPERS :doubt: /</li>                
+			</random>
+		</template>
+	</category>
+</aiml>
