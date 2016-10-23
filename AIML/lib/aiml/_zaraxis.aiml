@@ -15,7 +15,11 @@
 
 <category><pattern>cs</pattern><template>cyka blyat vodka putin davai rush b idi nahui</template></category>
 
-<category><pattern>Your desire?</pattern><template>Being a High school idol</template></category>
+<category><pattern>who you want to be in future?</pattern><template>High school idol</template></category>
+
+<category><pattern>desire</pattern><template>OH DESIRE!</template></category>
+
+<category><pattern>boy next door</pattern><template>ＤＥＥＰ♂ＤＡＲＫ♂ＦＡＮＴＡＳＩＥＳ</template></category>
 
 <category><pattern>sing a song</pattern>
 <template><random><li>TODOKETE SETSUNASA NI WA NAMAE O TSUKIYOU KA SNOW HALATION
@@ -297,207 +301,241 @@ The world is mine
 (SONG: David Guetta - The World Is Mine)</li></random></template></category>
 
 <category><pattern>sing a song for kero</pattern>
-<template><random><li> ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</li>
-<li>ᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒ</li>
-<li>Ni- Ni- Nice boat! Suwako's nice boat!
-(SONG: Silver Forest - Kero ⑨ Destiny)</li>
-<li>Kaeru ga pyoko-pyoko kaze ni mo makezu Shippo wa nyoro-nyoro otamajakushi destiny
-(SONG: Silver Forest - Kero ⑨ Destiny)</li></random></template></category>
+  <template><random><li> ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</li>
+  <li>ᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒᵏᵉʳᵒ</li>
+  <li>Ni- Ni- Nice boat! Suwako's nice boat!
+  (SONG: Silver Forest - Kero ⑨ Destiny)</li>
+  <li>Kaeru ga pyoko-pyoko kaze ni mo makezu Shippo wa nyoro-nyoro otamajakushi destiny
+  (SONG: Silver Forest - Kero ⑨ Destiny)</li></random></template></category>
 <category><pattern>sing a song for miyu</pattern><template>BRAVE SHIIIIIIIIIIIINE!! te wo nobaseba mada STAY THE NIIIIIIIIIIGHT!! kizu darake no yoru You SAVE MY LIIIIIIIIFE!! 
-kazashita yaiba no saki ni omoi o kasaneta inori wa toki o koete
-(SONG: Aimer - Brave Shine)</template></category>
+  kazashita yaiba no saki ni omoi o kasaneta inori wa toki o koete
+  (SONG: Aimer - Brave Shine)</template></category>
 <category><pattern>sing a song for cuki</pattern>
-<template><random><li>'Cause we're young and we're reckless
-We'll take this way too far
-It'll leave you breathless
-Or with a nasty scar
-(SONG: Taylor Swift - Blank Space)</li>
-<li>Though a thousand words
-Have never been spoken
-They'll fly to you
-Crossing over the time and distance holding you
-Suspended on silver wings♪
-(SONG: Sweetbox - 1000 Words)</li></random></template></category>
+  <template><random><li>'Cause we're young and we're reckless
+  We'll take this way too far
+  It'll leave you breathless
+  Or with a nasty scar
+  (SONG: Taylor Swift - Blank Space)</li>
+  <li>Though a thousand words
+  Have never been spoken
+  They'll fly to you
+  Crossing over the time and distance holding you
+  Suspended on silver wings♪
+  (SONG: Sweetbox - 1000 Words)</li></random></template></category>
 <category><pattern>sing a song for emma</pattern><template>I'm not a hoarder I just like to collect things I don't need jewelry, your diamond rings♪
-(SONG: Daniel Griswell - The Hoarding Song)</template></category>
+  (SONG: Daniel Griswell - The Hoarding Song)</template></category>
 <category><pattern>sing a song for archi</pattern>
-<template><random><li>BAAKA BAAKA BAAKA BAAKA BAAKA BAAKA
-(SONG: IOSYS - Cirno's Perfect Math Class)</li>
-<li>Kurukuru tokei no hari Guruguru atama mawaru♪
-(SONG: IOSYS - Cirno's Perfect Math Class)</li>
-<li>If you're having code problems, I feel bad for you, son
-I got 99 problems, but a bugs ain't one!
-(SONG: Jay-Z - 99 Problems (remix :3)</li>
-<li>Chirumiru, Chirumiru, genki Chirumiru
-Genki da yo~
-(SONG: Conagusuri - ChiruMiruChiruno)</li>
-<li>Have a yabba dabba doo time. 
-A dabba doo time. 
-We'll have a gay old time!
-(SONG: Flintstones Theme)</li></random></template></category>
+  <template><random><li>BAAKA BAAKA BAAKA BAAKA BAAKA BAAKA
+  (SONG: IOSYS - Cirno's Perfect Math Class)</li>
+  <li>Kurukuru tokei no hari Guruguru atama mawaru♪
+  (SONG: IOSYS - Cirno's Perfect Math Class)</li>
+  <li>If you're having code problems, I feel bad for you, son
+  I got 99 problems, but a bugs ain't one!
+  (SONG: Jay-Z - 99 Problems (remix :3)</li>
+  <li>Chirumiru, Chirumiru, genki Chirumiru
+  Genki da yo~
+  (SONG: Conagusuri - ChiruMiruChiruno)</li>
+  <li>Have a yabba dabba doo time. 
+  A dabba doo time. 
+  We'll have a gay old time!
+  (SONG: Flintstones Theme)</li></random></template></category>
 <category><pattern>sing a song for archibot</pattern><template>Hu-mans-Hu.. Hu-mans-Hu.. Hu-mans-Hu.. Hu-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Hu-Hu-mans-mans-Hu.. Kill Kill Kill Humans
-(SONG: Dubsidia - Kill Humans)</template></category>
-<category><pattern>sing a song for me</pattern><template>Don't think about yourself you selfish human ;_;</template></category>
+  (SONG: Dubsidia - Kill Humans)</template></category>
+<category><pattern>sing a song for me</pattern><template>Fuck Youuuuu UUU!</template></category>
 <category><pattern>sing a song for sviat</pattern><template>BACK TO BACK!
-Death comes arrivin’ on a Midnight Train!
-BACK TO BACK!
-Conscience is screamin’ to the End!
-BACK TO BACK!
-Cannot let anyone do it again!
-BACK TO BACK!
-I can no longer pretend!
-(SONG: Daisuke Ishiwatari - Heavy Day)</template></category>
+  Death comes arrivin’ on a Midnight Train!
+  BACK TO BACK!
+  Conscience is screamin’ to the End!
+  BACK TO BACK!
+  Cannot let anyone do it again!
+  BACK TO BACK!
+  I can no longer pretend!
+  (SONG: Daisuke Ishiwatari - Heavy Day)</template></category>
 <category><pattern>sing a song for wany</pattern><template>I want it all! I want it all! I want it all! and I want it now!
-(SONG: Queen - I Want It All)</template></category>
+  (SONG: Queen - I Want It All)</template></category>
 <category><pattern>sing a song for fake</pattern>
-<template><random><li>Go, go, go, go, go, go, go, go, go, go 
-Gotta go fast, gotta go fast, 
-Gotta go faster, faster, faster, faster, faster
-(SONG: Sonic X - Theme Song)</li>
-<li>Najeneun ttasaroun inganjeogin yeoja
-Keopi hanjanui yeoyureul aneun pumgyeok inneun yeoja
-Bami omyeon simjangi tteugeowojineun yeoja
-Geureon banjeon inneun yeoja
-(SONG: PSY - Gangnam Style)</li></random></template></category>
+  <template><random><li>Go, go, go, go, go, go, go, go, go, go 
+  Gotta go fast, gotta go fast, 
+  Gotta go faster, faster, faster, faster, faster
+  (SONG: Sonic X - Theme Song)</li>
+  <li>Najeneun ttasaroun inganjeogin yeoja
+  Keopi hanjanui yeoyureul aneun pumgyeok inneun yeoja
+  Bami omyeon simjangi tteugeowojineun yeoja
+  Geureon banjeon inneun yeoja
+  (SONG: PSY - Gangnam Style)</li></random></template></category>
 <category><pattern>sing a song for chicken</pattern><template>Sweat and rain fall in a dream
-Rest can wait, eternity
-Follow me through the clouds
-We're never coming down..
-Like a firework
-Like a firework
-Like a firework
-Like a firework, firework, firework
-Like a....
-(SONG: Hollywood Principle - Firework)</template></category>
-<category><pattern>sing a song for wind</pattern><template>Dovahkiin, Dovahkiin
-naal ok zin los vahriin
-wah dein vokul mahfaeraak ahst vaal!
-Ahrk fin norok paal graan
-fod nust hon zindro zaan
-Dovahkiin, fah hin kogaan mu draal!
-(SONG: Jeremy Soule - Dragonborn)</template></category>
+  Rest can wait, eternity
+  Follow me through the clouds
+  We're never coming down..
+  Like a firework
+  Like a firework
+  Like a firework
+  Like a firework, firework, firework
+  Like a....
+  (SONG: Hollywood Principle - Firework)</template></category>
+<category><pattern>sing a song for leloli</pattern><template>La la li la loli loli such tiny hands, oops, i really shouldn't my drool is dripping.
+  Loli loli i pet your head, and your sweetly smiling face is that of a crime.
+  Loli loli a forbidden fruit, your immeasurable cuteness is infinite.
+  Loli loli your innocent eyes gaze over here, ah i can't help it anymore!
+  (SONG: Gumi - Rampaging Lolitaholic)</template></category>
+<category><pattern>sing a song for wind</pattern><template>I smell profitz in the air~~</template></category>
 <category><pattern>sing a song for pirupi</pattern><template>Pi-piru-piru-piru-pi-piru-pi pi-piru-piru-piru-pi-piru-pi♪
-(SONG: Saeko Chiba - Bokusatsu Tenshi Dokuro-Chan)</template></category>
+  (SONG: Saeko Chiba - Bokusatsu Tenshi Dokuro-Chan)</template></category>
 <category><pattern>sing a song for zinnerz</pattern><template>This will be the day we've waiting for
-This will be the day we open up the door
-I don't wanna hear your absolution
-Hope you ready for a revolution:blissful_creep:
-(SONG: Jeff Williams - This Will Be The Day)</template></category>
+  This will be the day we open up the door
+  I don't wanna hear your absolution
+  Hope you ready for a revolution:blissful_creep:
+  (SONG: Jeff Williams - This Will Be The Day)</template></category>
 <category><pattern>sing a song for golbez</pattern><template>I kissed a girl and I liked it,
-the taste of her cherry chapstick.
-I kissed a girl just to try it,
-I hope my boyfriend don't mind it.
-(SONG: Katy Perry - I Kissed A Girl)</template></category>
+  the taste of her cherry chapstick.
+  I kissed a girl just to try it,
+  I hope my boyfriend don't mind it.
+  (SONG: Katy Perry - I Kissed A Girl)</template></category>
 <category><pattern>sing a song for mole</pattern><template>Neko Miko Reimu ai shiteru
-Neko Miko Reimu nani shiteru
-Neko Miko Reimu shuran yurari
-Neko Miko Reimu muron furari
-(SONG: IOSYS - Neko Miko Reimu)</template></category>
+  Neko Miko Reimu nani shiteru
+  Neko Miko Reimu shuran yurari
+  Neko Miko Reimu muron furari
+  (SONG: IOSYS - Neko Miko Reimu)</template></category>
 <category><pattern>sing a song for madu</pattern>
-<template><random><li>Yes, I'm a weeaboo
-Yes, I'm a weeaboo
-Yes, I'm a weeaboo
-Yes, I'm a weeaboo
-A filthy weeaboo
-(Naruto's so overrated)
-A dirty weeaboo
-(You wanna see my katana collection?)
-A fucking weeaboo
-(I'm learning Japanese on Rosetta Stone)
-A disgusting weeaboo
-(So I'm like basically Japanese now)
-(SONG: Filthy Frank - Weeaboo Song)</li>
-<li>Agitatis Ultramarini! 
-Dominitis Ultramarini! 
-Non praestatis Ultramarini! 
-Nobilitis Ultramarini! 
-(SONG: Chaos Gate - Ultramarines Chant)</li></random></template></category>
+  <template><random><li>Yes, I'm a weeaboo
+  Yes, I'm a weeaboo
+  Yes, I'm a weeaboo
+  Yes, I'm a weeaboo
+  A filthy weeaboo
+  (Naruto's so overrated)
+  A dirty weeaboo
+  (You wanna see my katana collection?)
+  A fucking weeaboo
+  (I'm learning Japanese on Rosetta Stone)
+  A disgusting weeaboo
+  (So I'm like basically Japanese now)
+  (SONG: Filthy Frank - Weeaboo Song)</li>
+  <li>:bite:MYON:bite:</li>
+  <li>Agitatis Ultramarini! 
+  Dominitis Ultramarini! 
+  Non praestatis Ultramarini! 
+  Nobilitis Ultramarini! 
+  (SONG: Chaos Gate - Ultramarines Chant)</li></random></template></category>
 <category><pattern>sing a song for sheeppu</pattern><template>Welcome to the Hotel California
-Such a lovely place (Such a lovely place)
-Such a lovely face♪
-(SONG: Eagles - Hotel California)</template></category>
+  Such a lovely place (Such a lovely place)
+  Such a lovely face♪
+  (SONG: Eagles - Hotel California)</template></category>
 <category><pattern>sing a song for rosey</pattern><template>My Little Pony I used to wonder what friendship could be 
-My Little Pony Until you all shared its magic with me
-(SONG: Shannon Chan-Kent - My Little Pony Theme)</template></category>
+  My Little Pony Until you all shared its magic with me
+  (SONG: Shannon Chan-Kent - My Little Pony Theme)</template></category>
 <category><pattern>sing a song for ekaros</pattern><template>Pettan, pettan, tsurupettan
-Pettan, pettan, tsurupettan
-Pettan, pettan, mochipettan
-Pettan, pettan, mune pettan♪
-(SONG: Silver Forest - Tsurupettan)</template></category>
+  Pettan, pettan, tsurupettan
+  Pettan, pettan, mochipettan
+  Pettan, pettan, mune pettan♪
+  (SONG: Silver Forest - Tsurupettan)</template></category>
 <category><pattern>sing a song for zaraxis</pattern>
-<template><random><li>Todokete
-Setsunasa ni wa namae o tsukeyou ka “Snow halation”
-Omoi ga kasanaru made matezu ni
-Kuyashii kedo sukitte junjou
-Binetsu no naka tameratte mo dame da ne
-Tobikomu yuuki ni sansei ma mo naku Start!!
-(SONG: μ’s - Snow Halation)</li>
-<li>tadashisa nante mono
-hito no monosashi ni yotte kawaru
-kono sekai fuhen aru to suru naraba
-kachoufuugetsu ogosoka de utsukushii mono
-(SONG: Senya - Kachou Fuugetsu)</li></random></template></category>
+  <template><random><li>Todokete
+  Setsunasa ni wa namae o tsukeyou ka “Snow halation”
+  Omoi ga kasanaru made matezu ni
+  Kuyashii kedo sukitte junjou
+  Binetsu no naka tameratte mo dame da ne
+  Tobikomu yuuki ni sansei ma mo naku Start!!
+  (SONG: μ’s - Snow Halation)</li>
+  <li>tadashisa nante mono
+  hito no monosashi ni yotte kawaru
+  kono sekai fuhen aru to suru naraba
+  kachoufuugetsu ogosoka de utsukushii mono
+  (SONG: Senya - Kachou Fuugetsu)</li></random></template></category>
 <category><pattern>sing a song for dosh</pattern>
-<template><random><li>I'M NUCLEAAAAAAAAR! I'M WIIIIIIIIIILD!
-(SONG: Mike Oldfield - Nuclear)</li>
-<li>Oh 
-I've got something in my throat 
-I need to be alone 
-While I suffer
-(SONG: Starsailor - Way to Fall)</li>
-<li>koi no yokushiryoku
-hora GAME ga hajimaru
-mitsumeaeba wakaru desho?
-hajimari no BERU ga naru
-Listen To My Heart
-koe ni naranai kono koe
-tomete koi no yokushiryoku
-tsutaetai watashi no subete
-(SONG: Mizuki Nana - Koi no Yokushiryoku</li>
-<li>But who’s to judge The right from wrong When our guard is down I think we’ll both agree♪
-(SONG: Jamie Christopherson - It Has To Be This Way)</li></random></template></category>
+  <template><random><li>I'M NUCLEAAAAAAAAR! I'M WIIIIIIIIIILD!
+  (SONG: Mike Oldfield - Nuclear)</li>
+  <li>Oh 
+  I've got something in my throat 
+  I need to be alone 
+  While I suffer
+  (SONG: Starsailor - Way to Fall)</li>
+  <li>koi no yokushiryoku
+  hora GAME ga hajimaru
+  mitsumeaeba wakaru desho?
+  hajimari no BERU ga naru
+  Listen To My Heart
+  koe ni naranai kono koe
+  tomete koi no yokushiryoku
+  tsutaetai watashi no subete
+  (SONG: Mizuki Nana - Koi no Yokushiryoku</li>
+  <li>But who’s to judge The right from wrong When our guard is down I think we’ll both agree♪
+  (SONG: Jamie Christopherson - It Has To Be This Way)</li></random></template></category>
 <category><pattern>sing a song for us</pattern>
-<template>Kanashimi ni tozasarete
-Naku dake no kimi janai
-Atsui mune kitto mirai o kirihiraku hazu sa
-Kanashimi ni tozasarete
-Naku dake ja tsumaranai
-Kitto (kitto)
-Kimi no (yume no) chikara (ima o)
-Ugokasu chikara
-Shinjiteru yo... dakara START!!
-(SONG: μ's - START:DASH!</template></category>
+  <template>Kanashimi ni tozasarete
+  Naku dake no kimi janai
+  Atsui mune kitto mirai o kirihiraku hazu sa
+  Kanashimi ni tozasarete
+  Naku dake ja tsumaranai
+  Kitto (kitto)
+  Kimi no (yume no) chikara (ima o)
+  Ugokasu chikara
+  Shinjiteru yo... dakara START!!
+  (SONG: μ's - START:DASH!</template></category>
 <category><pattern>sing a song for asim</pattern>
-<template><random><li>Dango dango dango dango dango dango daikazoku
-Dango dango dango dango dango daikazoku♪
-(SONG: Chata - Dango Daikazoku)</li>
-<li>Kimi dake wo Kimi dake wo Suki de ita yo Kaze de me ga nijinde tooku naru yo
-(SONG: Lia - Toki Wo Kizamu Uta</li>
-<li>Ee tto, Kagiyama Hina to moushimasu
-Shumi wa fukou ni naru guzzu wo
-Atsumeru koto desu
-Ee tto, sore jaa mawarimaasu!
-Ku-kuru-kurukuru-kurukuru~
-Ku-kuru-kurukuru-kurukuru~
-Ku-kuru-kurukuru-kurukuru~
-Ku-kuru-kurukuru-kurukuru~
-(SONG: IOSYS - Hinarin's Relation of Misfortune)</li>
-<li>Suki yo suki yo suki daisuki (kyu)
-watashi no onii-chan ♪ ima yo! futari tewotsunaide
-sā! Hayaku ikou yo ☆ paradaisu!
-(SONG: Milk - Imouto Paradise)</li></random></template></category>
+  <template><random><li>Dango dango dango dango dango dango daikazoku
+  Dango dango dango dango dango daikazoku♪
+  (SONG: Chata - Dango Daikazoku)</li>
+  <li>POMFPOMF wanna stay
+  and play the pop up pirate game?
+  STOP STOP touching me
+  it's making me feel all funny
+  NII CHAN I love you
+  but please stop smelling my pantsu
+  Yay yay! play with me
+  ah ah you make me happy
 
-<category><pattern>konrads6 golden thoughts</pattern>
+  EVERYDAY POMF
+  EVERYTIME IS POMF
+  I wanna ride on nii-chan 
+  all day long</li>
+  <li>Kimi dake wo Kimi dake wo Suki de ita yo Kaze de me ga nijinde tooku naru yo
+  (SONG: Lia - Toki Wo Kizamu Uta</li>
+  <li>Ee tto, Kagiyama Hina to moushimasu
+  Shumi wa fukou ni naru guzzu wo
+  Atsumeru koto desu
+  Ee tto, sore jaa mawarimaasu!
+  Ku-kuru-kurukuru-kurukuru~
+  Ku-kuru-kurukuru-kurukuru~
+  Ku-kuru-kurukuru-kurukuru~
+  Ku-kuru-kurukuru-kurukuru~
+  (SONG: IOSYS - Hinarin's Relation of Misfortune)</li>
+  <li>Suki yo suki yo suki daisuki (kyu)
+  watashi no onii-chan ♪ ima yo! futari tewotsunaide
+  sā! Hayaku ikou yo ☆ paradaisu!
+  (SONG: Milk - Imouto Paradise)</li></random></template></category>
+
+<category><pattern>konradsball</pattern>
 <template><random><li>dont have time click every gamez when must do other thingz</li>
 <li>many ppl are stalking me, they wanna be me</li>
 <li>my time is very expensive</li>
 <li>I don't have time for bad jokes</li>
 <li>I play for profitz</li>
+<li>i must idle ~1year GTA5. 1000$ is not worth it, profit after 50 years ?</li>
+<li>I prepared reward for unban. Region free GTAV steam gifts. Fast trade.</li>
 <li>Do you understand "please blacklisted don;t write anything in my topics.?" ? or you are too stupid ? what are you doing here ?</li>
 <li>Why you making noise?</li>
 <li>I reported you. I hope you get suspended :)</li>
+<li>why this site giving double the same game ? this site should know that giving the same game two times. or when win game, should delete entries in others ga.</li>
 <li>SGTools is a spyware tool, trust me</li>
 <li>i got free gamez with cardz, you got free car and next buy tv ?</li>
 <li>you can have every game for free from cardz, even gta 5!</li>
 <li>I SOLD TONES OF CARDZ BUT I STILL HAVE MANY "$$$" RUBISH</li></random></template></category>
+
+<category><pattern>dukeball</pattern>
+<template><random><li>Damn, I'm looking good.</li>
+<li>Damn! Those alien bastards are gonna pay for ruining my ride.</li>
+<li>It's time to kick ass and chew bubble gum, and I am all out of gum.</li>
+<li>One man, one world, one million babes to save!!</li>
+<li>I've got balls of steel!</li>
+<li>I ain't afraid of no quake!</li>
+<li>Don't have time to play with myself.</li>
+<li>Hail to the King baby.</li>
+<li>Say hello to my little friend!</li>
+<li>Shake it, baby!</li>
+<li>Your face, your ass... what's the difference?</li>
+<li>Mess with the best, you will die like the rest</li>
+<li>Always bet on Duke.</li>
+<li>Eat shit and die.</li>
+<li>I'm going to rip off your head and shit down your neck.</li>
+<li>Nobody steals our chicks... and lives!</li></random></template></category>
 </aiml>
