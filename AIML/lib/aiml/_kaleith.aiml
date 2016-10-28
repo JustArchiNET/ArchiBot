@@ -165,29 +165,4 @@
 		</template>
 	</category>
 
-	<!-- Knock knock jokes -->
-	<category>
-		<pattern>knock knock</pattern>
-		<template>Who is there?</template>
-	</category>
-		
-	<category>
-		<pattern>*</pattern>
-		<that>who is there</that>
-		<template><star/> who?</template>
-	</category>
-
-	<category>
-		<pattern>*</pattern>
-		<that>* who</that>
-		<template>
-			<random>
-				<li>(☞ﾟ∀ﾟ)☞</li>
-				<li>:doubt:</li>
-				<li>:bite:</li>
-				<li>♪♪♪ CSI music ♪♪♪</li>
-			</random>
-		</template>
-	</category>
-	
 </aiml>
