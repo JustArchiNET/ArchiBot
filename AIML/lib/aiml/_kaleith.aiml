@@ -83,22 +83,24 @@
 				<li>Windu: I'm Wind of Memory and this Is my Scam Shop</li>
 				<li>Windu: Verdun costs 27$ CAD on sale, aka 9 CSGO keys. If u buy 4 pack u get 3 copies, i traded them for 13 keys today AKA PROFITZ AND FREE GAME</li>
 				<li>Windu: Give me 3 keys and I'll answer.</li>
-				<li>Windu: This message will cost you.</li>
+				<li>Windu: Another shitty humble bundle... Guess I'll buy another monthly instead :doubt:</li>
 				<li>Windu: They call me Scam. Wind of Scam.</li>
 				<li>Windu: Just a little signature here aaaand DONE, another scam success!</li>
 				<li>Windu: Please give me your coupons, they're useless anyway :bite:</li>
 				<li>Windu: I’ll have you know I graduated top of my class in the Scam Army, and I have over 3000 confirmed scams.</li>
 				<li>Windu: Brb, getting free keys for all of my bots.</li>
-				<li>Windu: The Real is low, time to invest in Nuuvem keys.</li>
+				<li>Windu: The real is low, time to invest in Nuuvem keys.</li>
 				<li>Windu: So I was talking with this cutie at a bar and then BOOM! Notification: "Key reseller price glitch! Quick!". You know the ending :bite:</li>
 				<li>Windu: I don't know man, let me fire my farm botnet.</li>
 				<li>Windu: DON'T TRY TO CHANGE SUBJECT, DID YOU JUST GIVE AWAY PROFITZ™?</li>
 				<li>Windu: Are you having fun? I'm making profits here.</li>
 				<li>Windu: Even when it's trash, I'll buy Nep anyway, because it's good for profitz</li>
-				<li>Windu: Even when it's trash, I'll buy Nep anyway, because it's good for profitz</li>
 				<li>Windu: The new bundle that just came out? I bought 8 copies, why do you ask?</li>
 				<li>Windu: Neps rhymes with profits :vert:</li>
 				<li>Windu: Can someone craft me a :blanc: booster please?</li>
+				<li>Windu: Each use of !ai winduball will now cost you 1 key :bite:</li>
+				<li>Windu: Time to craft badges and make profitz :vert:</li>
+				<li>Windu: Why is nobody buying my $20 backgrounds :doubt:</li>
 			</random>
 		</template>
 	</category>
@@ -153,10 +155,37 @@
 		<template>
 			<random>
 				<li>A game where up to 6 players battle using wits and luck and at the end the leprechaun wins.</li>
-				<li>A game that is, for some reason, somewhat popular in Touhou Giveaways.</li>
+				<li>A game that was, for some reason, somewhat popular in Touhou Giveaways.</li>
+				<li>A weeb game for non-weebs.</li>
+				<li>A game that you only play to get a Touhou Achievement.</li>
 				<li>A :steamsalty: generator for people aged 3-99+.</li>
 				<li>That game where you can be a righteous knight in shining armor and swing swords around to defeat evil monsters (and then become a frog the turn after that).</li>
 				<li>The correct question is "Why do we even play Talismano". The answer? ¯\_(ツ)_/¯</li>
+			</random>
+		</template>
+	</category>
+
+	<!-- Knock knock jokes -->
+	<category>
+		<pattern>knock knock</pattern>
+		<template>Who is there?</template>
+	</category>
+		
+	<category>
+		<pattern>*</pattern>
+		<that>who is there</that>
+		<template><star/> who?</template>
+	</category>
+
+	<category>
+		<pattern>*</pattern>
+		<that>* who</that>
+		<template>
+			<random>
+				<li>(☞ﾟ∀ﾟ)☞</li>
+				<li>:doubt:</li>
+				<li>:bite:</li>
+				<li>♪♪♪ CSI music ♪♪♪</li>
 			</random>
 		</template>
 	</category>
