@@ -174,7 +174,12 @@
 		<pattern>*</pattern>
 		<that>* who</that>
 		<template>
-			(☞ﾟ∀ﾟ)☞
+			<random>
+				<li>(☞ﾟ∀ﾟ)☞</li>
+				<li>:doubt:</li>
+				<li>:bite:</li>
+				<li>♪♪♪ CSI music ♪♪♪</li>
+			</random>
 		</template>
 	</category>
 	
