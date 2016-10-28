@@ -174,9 +174,7 @@
 	<category>
 		<pattern>*</pattern>
 		<that>who is there</that>
-		<template>
-			<star/> who?
-		</template>
+		<template><star/> who?</template>
 	</category>
 
 	<category>
