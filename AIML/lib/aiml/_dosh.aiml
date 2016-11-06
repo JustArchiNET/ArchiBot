@@ -216,4 +216,47 @@
 <template>they pinch back</template>
 </category>
 
+<category><pattern>SAVE CODE TALKER</pattern>
+  <template><random><li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>A Hideo Kojima game. :Miller:</li>
+  <li>BOSS :Miller:</li>
+  <li>BOSS, WE MUST FIND OUT WHAT SKULLFACE IS UP TO :Miller:</li>
+  <li>BOSS, WE NEED TO STOP CIPHER :Miller:</li>
+  <li>BOSS, WE NEED CODE TALKER'S HELP :Miller:</li>
+  <li>BOSS, THE OLD DUDE ISN'T GONNA SAVE HIMSELF :Miller:</li>
+  <li>BOSS, YOU MUST GET YOUR ASS BACK TO AFRICA ASAP :Miller:</li>
+  <li>BOSS, SAHELANTHROPUS HAS TO BE DESTROYED :Miller:</li>
+  <li>Boss, I'll cook you the best hamburger ever if you finish this mission :Miller:</li>
+  <li>I believe in you, boss. :Miller:</li>
+  <li>Don't keep us waiting, boss :Miller:</li>
+  <li>You saved Emmerich, so you can do this too :Miller:</li>
+  <li>Bringing Code Talker to the Mother Base will be a piece of cake for someone who saved that Emmerich asshole :Miller:</li>
+</random></template>
+</category>
+<category><pattern>PICK A GAME FOR MADU #</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+<category><pattern>CHOOSE A GAME FOR MADU #</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY TODAY</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY TONIGHT</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+<category><pattern>* SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+<category><pattern>SUGGEST SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE CODE TALKER</srai></template>
+</category>
+
 </aiml>
