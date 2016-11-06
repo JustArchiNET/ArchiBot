@@ -258,5 +258,11 @@
 <category><pattern>SUGGEST SOMETHING MADU SHOULD PLAY</pattern>
 <template><srai>SAVE CODE TALKER</srai></template>
 </category>
+<category><pattern>SAVE EMMERICH</pattern>
+  <template><random><li>Fuck Emmerich, he's already in Mother Base :Miller:</li>
+  <li>You already did that one, boss :Miller:</li>
+  <li>Just focus on Code Talker for now :Miller:</li>
+  <li>Don't worry, Boss, we're already taking care of this dickhead here :Miller:</li>
+</random></template>
 
 </aiml>
