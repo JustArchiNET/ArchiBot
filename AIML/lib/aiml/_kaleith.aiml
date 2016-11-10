@@ -31,6 +31,13 @@
 		</template>
 	</category>
 
+	<category>
+		<pattern>:petebutton:</pattern>
+		<template>
+			<srai>panic</srai>
+		</template>
+	</category>
+	
 <!-- COMMANDS -->	
 
 	<category>
@@ -124,6 +131,18 @@
 		</template>
 	</category>
 
+	<category>
+		<pattern>panic</pattern>
+		<template>
+			<random>
+				<li>:petebutton: PANIC MODE ENGAGED, THIS IS NOT A DRILL :petebutton:</li>
+				<li>:petebutton: PANIC :petebutton:</li>
+				<li>:petebutton: SOUND THE ALARM :petebutton:</li>
+				<li>:petebutton: RED ALERT, RED ALERT :petebutton:</li>
+			</random>
+		</template>
+	</category>
+	
 	<category>
 		<pattern>sing a song for kaleith</pattern>
 		<template>
