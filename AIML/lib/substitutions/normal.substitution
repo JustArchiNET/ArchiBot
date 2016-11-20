@@ -426,7 +426,7 @@
 [";", " "],
 [";)", " smile "],
 [";-)", " smile "],
-["@", " at "],
+["@", " atsign "],
 ["[", " leftbracket "],
 ["\"", " forwardslash "],
 ["]", " rightbracket "],

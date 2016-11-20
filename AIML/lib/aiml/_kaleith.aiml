@@ -130,17 +130,17 @@
 		<pattern>THANKS *</pattern>
 		<template>
 			<random>
-				<li>:vert: THANKS <uppercase><star/></uppercase> :vert:</li>
-				<li>:Miller: THANKS <uppercase><star/></uppercase> :Miller:</li>
-				<li>:blissful_creep: THANKS <uppercase><star/></uppercase> :blissful_creep:</li>
-				<li>:Neko: THANKS <uppercase><star/></uppercase> :Neko:</li>
-				<li>:bite: THANKS <uppercase><star/></uppercase> :bite:</li>
-				<li>:ojchicken: THANKS <uppercase><star/></uppercase> :ojchicken:</li>
-				<li>:ojseagull: THANKS <uppercase><star/></uppercase> :ojseagull:</li>
-				<li>:VSnake: THANKS <uppercase><star/></uppercase> :VSnake:</li>
-				<li>:shelterfrog: THANKS <uppercase><star/></uppercase> :shelterfrog:</li>
-				<li>:summerghost: THANKS <uppercase><star/></uppercase> :summerghost:</li>
-				<li>:rana: THANKS <uppercase><star/></uppercase> :rana:</li>				
+				<li>:vert: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :vert:</li>
+				<li>:Miller: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :Miller:</li>
+				<li>:blissful_creep: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :blissful_creep:</li>
+				<li>:Neko: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :Neko:</li>
+				<li>:bite: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :bite:</li>
+				<li>:ojchicken: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :ojchicken:</li>
+				<li>:ojseagull: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :ojseagull:</li>
+				<li>:VSnake: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :VSnake:</li>
+				<li>:shelterfrog: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :shelterfrog:</li>
+				<li>:summerghost: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :summerghost:</li>
+				<li>:rana: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :rana:</li>				
 			</random>
 		</template>
 	</category>
