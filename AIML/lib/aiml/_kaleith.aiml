@@ -11,6 +11,20 @@
 	</category>	
 	
 	<category>
+		<pattern>thanks bot</pattern>
+		<template>
+			<srai>thanks</srai>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>thanks archibot</pattern>
+		<template>
+			<srai>thanks</srai>
+		</template>
+	</category>	
+		
+	<category>
 		<pattern>fakuball kick *</pattern>
 		<template>
 			<srai>fakuball, kick *</srai>
@@ -113,20 +127,20 @@
 	</category>
 
 	<category>
-		<pattern>THANKS MADU</pattern>
+		<pattern>THANKS *</pattern>
 		<template>
 			<random>
-				<li>:vert: THANKS MADU :vert:</li>
-				<li>:Miller: THANKS MADU :Miller:</li>
-				<li>:blissful_creep: THANKS MADU :blissful_creep:</li>
-				<li>:Neko: THANKS MADU :Neko:</li>
-				<li>:bite: THANKS MADU :bite:</li>
-				<li>:ojchicken: THANKS MADU :ojchicken:</li>
-				<li>:ojseagull: THANKS MADU :ojseagull:</li>
-				<li>:VSnake: THANKS MADU :VSnake:</li>
-				<li>:shelterfrog: THANKS MADU :shelterfrog:</li>
-				<li>:summerghost: THANKS MADU :summerghost:</li>
-				<li>:rana: THANKS MADU :rana:</li>				
+				<li>:vert: THANKS <uppercase><star/></uppercase> :vert:</li>
+				<li>:Miller: THANKS <uppercase><star/></uppercase> :Miller:</li>
+				<li>:blissful_creep: THANKS <uppercase><star/></uppercase> :blissful_creep:</li>
+				<li>:Neko: THANKS <uppercase><star/></uppercase> :Neko:</li>
+				<li>:bite: THANKS <uppercase><star/></uppercase> :bite:</li>
+				<li>:ojchicken: THANKS <uppercase><star/></uppercase> :ojchicken:</li>
+				<li>:ojseagull: THANKS <uppercase><star/></uppercase> :ojseagull:</li>
+				<li>:VSnake: THANKS <uppercase><star/></uppercase> :VSnake:</li>
+				<li>:shelterfrog: THANKS <uppercase><star/></uppercase> :shelterfrog:</li>
+				<li>:summerghost: THANKS <uppercase><star/></uppercase> :summerghost:</li>
+				<li>:rana: THANKS <uppercase><star/></uppercase> :rana:</li>				
 			</random>
 		</template>
 	</category>
