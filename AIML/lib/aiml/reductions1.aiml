@@ -4979,9 +4979,11 @@
 <category><pattern>YOU HAVE A *</pattern>
 <template><srai>DO YOU HAVE A <star/></srai></template>
 </category>
+<!-- Commented out due to new command in _kaleith.aiml
 <category><pattern>THANKS *</pattern>
 <template><srai>THANKS</srai></template>
 </category>
+  -->
 <category><pattern>HELLO HOW ARE YOU</pattern>
 <template><srai>HELLO</srai> <srai>HOW ARE YOU</srai></template>
 </category>

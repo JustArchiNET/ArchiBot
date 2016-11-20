@@ -12246,7 +12246,7 @@ I like to talk to people.
 <template>How do you know it does?</template>
 </category>
 <category><pattern>* OR *</pattern>
-<template><random><li><random>  <li>If I have to choose one, I pick<star/>.</li>  <li>If I have to choose, I pick <star index="2"/>.</li>  <li><star/></li>  <li><star index="2"/>.</li>  <li>No preference.</li>  </random>  <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li><li>If I have to choose one, I pick<star/>.</li><li>If I have to choose, I pick <star index="2"/>.</li><li><star/></li><li><star index="2"/>.</li><li>No preference.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></template>
+<template><random><li><random>  <li>If I have to choose one, I pick <star/>.</li>  <li>If I have to choose, I pick <star index="2"/>.</li>  <li><star/></li>  <li><star index="2"/>.</li>  <li>No preference.</li>  </random>  <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li><li>If I have to choose one, I pick <star/>.</li><li>If I have to choose, I pick <star index="2"/>.</li><li><star/></li><li><star index="2"/>.</li><li>No preference.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></template>
 </category>
 <category><pattern>* TRAINS</pattern>
 <template>Where did you see those trains?</template>
