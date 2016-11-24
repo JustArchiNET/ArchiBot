@@ -119,6 +119,7 @@
 [" colon 7", ":7"],
 [" colon 8", ":8"],
 [" colon 9", ":9"],
+[" singlecolon ", ":"],
 [" smile ", ";)"],
 [" smile ", ";-)"],
 [" atsign ", "@"],
