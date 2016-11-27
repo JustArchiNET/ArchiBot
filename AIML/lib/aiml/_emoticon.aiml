@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>RANDOMEMOTE</pattern>
+		<template>
+			<random>
+				<li>:vert:</li>
+				<li>:Neko:</li>
+				<li>:Miller:</li>
+				<li>:blissful_creep:</li>
+			</random>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>TESTMYON</pattern>
+		<template><set name="randomemote"><srai>RANDOMEMOTE</srai></set> MYON <get name="randomemote" /></template>
+	</category>
+</aiml>
