@@ -125,23 +125,11 @@
 			</random>
 		</template>
 	</category>
-
+			
 	<category>
 		<pattern>THANKS *</pattern>
 		<template>
-			<random>
-				<li>:vert: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :vert:</li>
-				<li>:Miller: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :Miller:</li>
-				<li>:blissful_creep: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :blissful_creep:</li>
-				<li>:Neko: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :Neko:</li>
-				<li>:bite: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :bite:</li>
-				<li>:ojchicken: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :ojchicken:</li>
-				<li>:ojseagull: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :ojseagull:</li>
-				<li>:VSnake: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :VSnake:</li>
-				<li>:shelterfrog: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :shelterfrog:</li>
-				<li>:summerghost: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :summerghost:</li>
-				<li>:rana: THANKS <uppercase><denormalize><star/></denormalize></uppercase> :rana:</li>				
-			</random>
+			<set name="randomemote"><srai>RANDOMEMOTE</srai></set> THANKS <uppercase><denormalize><star/></denormalize></uppercase> <get name="randomemote" />
 		</template>
 	</category>
 
@@ -198,4 +186,10 @@
 		</template>
 	</category>
 
+	<category>
+		<pattern>TESTMYON</pattern>
+		<template>
+			<set name="randomemote"><srai>RANDOMEMOTE</srai></set> MYON <get name="randomemote" />
+		</template>
+	</category>
 </aiml>
