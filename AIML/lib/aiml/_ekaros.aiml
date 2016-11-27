@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+	  <pattern>WHO IS EKAROS</pattern>
+	    <template>
+		  <random>
+	  		<li>A scammer</li>
+	  	</random>
+	  </template>
+ 	</category>
+  
+</aiml>
