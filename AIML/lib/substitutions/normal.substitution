@@ -424,8 +424,11 @@
 [":8", " colon 8"],
 [":9", " colon 9"],
 [";", " "],
+<<<<<<< HEAD
 [" :", " firstcolon "],
 [": ", " lastcolon "],
+=======
+>>>>>>> refs/remotes/JustArchi/master
 [";)", " smile "],
 [";-)", " smile "],
 ["@", " atsign "],
