@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-	  <pattern>WHO IS EKAROS</pattern>
-	    <template>
-		  <random>
-	  		<li>A scammer</li>
-	  	</random>
-	  </template>
- 	</category>
-  
+	<category>
+		<pattern>WHO IS EKAROS</pattern>
+			<template>
+				<random>
+					<li>A scammer</li>
+				</random>
+			</template>
+	</category>
+	<category>
+		<pattern>Norris *</pattern>
+			<template>
+				<random>
+					<li><star/> refactors 10 million lines of Perl code before lunch.</li>
+					<li><star/> is his own boss. If you hire him, he’ll tell your boss what to do.</li>
+					<li><star/> does not code; when he sits at a computer, it just does whatever he wants.</li>
+					<li><<star/> doesn’t make mistakes. He corrects God./li>
+					<li><star/> doesn’t commit changes, the changes commit for him.</li>
+					<li>Code is too scared of <star/> to be wrong.</li>
+					<li><star/> can end world hunger, but he thinks that hungry people make humanity a more challenging adversary. If everyone had enough to eat, it would be too easy for him.</li>
+					<li><star/> taught God how to create the universe.</li>
+					<li><star/> is the reason why the Knights who until Recently Said “Ni”, are no longer saying “Ni”.</li>
+					<li><star/> is not afraid of superstitions. Superstitions are afraid of <star/>.</li>
+					<li><star/> does expect the Spanish Inquisition.</li>
+					<li>The Spanish Inquisition does not expect <star/>.</li>
+					<li><star/> helps the gods that help themselves.</li>
+					<li>If the mountain does not come to Muhammad, then <star/> will bring the mountain over.</li>
+					<li>An apple a day will keep <star/> away. But not for long.</li>
+					<li>When <star/> orders Pizza, it arrives before he presses the OK button.</li>
+					<li><star/> does not need to heat up food. The food is already warm right after he took it out of the fridge.</li>
+					<li><star/> does not own a dishwasher. Dishes know better than to become dirty.</li>
+					<li><star/> once counted all the real numbers on his fingers.</li>
+					<li><star/> can solve MS Freecell deal No. 11,982. With Zero Freecells.</li>
+					<li><star/> caught the early bird before she caught the worm.</li>
+					<li><star/> doesn't celebrate holidays -- holidays celebrate <star/>.</li>
+				</random>
+			</template>
+	</category> 
 </aiml>
