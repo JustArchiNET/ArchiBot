@@ -15,8 +15,7 @@
 	
 	<category>
 		<pattern>TESTMYON</pattern>
-		<think><set name = "randomemote"><srai>RANDOMEMOTE</srai></set></think>
-		<template><get name = "randomemote" /> MYON <get name = "randomemote" /></template>
+		<template><think><set name = "randomemote"><srai>RANDOMEMOTE</srai></set></think><get name = "randomemote" /> MYON <get name = "randomemote" /></template>
 	</category>
 
 </aiml>
