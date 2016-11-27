@@ -119,11 +119,6 @@
 [" colon 7", ":7"],
 [" colon 8", ":8"],
 [" colon 9", ":9"],
-<<<<<<< HEAD
-[" firstcolon ", " :"],
-[" lastcolon ", ": "],
-=======
->>>>>>> refs/remotes/JustArchi/master
 [" smile ", ";)"],
 [" smile ", ";-)"],
 [" atsign ", "@"],
