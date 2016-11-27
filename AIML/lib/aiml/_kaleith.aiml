@@ -129,7 +129,7 @@
 	<category>
 		<pattern>THANKS *</pattern>
 		<template>
-			<set name="randomemote"><srai>RANDOMEMOTE</srai></set> THANKS <uppercase><denormalize><star/></denormalize></uppercase> <get name="randomemote" />
+			<set name="randomemote"><srai>RANDOMEMOTE</srai></set> THANKS <uppercase><denormalize><star/></denormalize></uppercase><get name="randomemote" />
 		</template>
 	</category>
 
