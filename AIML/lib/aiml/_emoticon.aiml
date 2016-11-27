@@ -4,86 +4,87 @@
 		<pattern>RANDOMEMOTE</pattern>
 		<template>
 			<random>
+				<!-- Keep alphabetical order, easier to maintain -->
 				<li>:100oj:</li>
-				<li>:ojchicken:</li>
-				<li>:ojseagull:</li>
-				<li>:fishbones:</li>
-				<li>:200rock:</li>
 				<li>:200paper:</li>
+				<li>:200rock:</li>
 				<li>:200scissors:</li>
-				<li>:dice2:</li>
-				<li>:dice4:</li>
-				<li>:dice6:</li>
-				<li>:dice5:</li>
-				<li>:dice1:</li>
-				<li>:dice3:</li>
-				<li>:purpleoctopus:</li>
-				<li>:archerrat:</li>
-				<li>:bbtcat:</li>
-				<li>:blockade:</li>
-				<li>:GunGuy:</li>
-				<li>:bsgrenade:</li>
-				<li>:wotm8:</li>
-				<li>:ChipNorm:</li>
-				<li>:ccoin:</li>
-				<li>:TheKeys:</li>
-				<li>:blimp:</li>
-				<li>:paws:</li>
-				<li>:dsfight:</li>
-				<li>:dg_ghost:</li>
-				<li>:d_ghost:</li>
-				<li>:gransoren:</li>
-				<li>:dpfrogo:</li>
-				<li>:Letter_N:</li>
-				<li>:freebeer:</li>
-				<li>:VIVEControllerGreen:</li>
-				<li>:hromeattack:</li>
 				<li>:2015cookie:</li>
-				<li>:compa:</li>
-				<li>:vert:</li>
-				<li>:blanc:</li>
-				<li>:IrisHeartRebirth3:</li>
-				<li>:johnwizard:</li>
-				<li>:Miller:</li>
-				<li>:VSnake:</li>
-				<li>:Toad_Item:</li>
-				<li>:trophy:</li>
-				<li>:blissful_creep:</li>
-				<li>:mean_creep:</li>
-				<li>:EyelessGhost:</li>
-				<li>:onaroll3dspring:</li>
-				<li>:denied:</li>
-				<li>:btiki:</li>
-				<li>:TryAgain:</li>
-				<li>:str:</li>
-				<li>:dodge:</li>
-				<li>:res:</li>
-				<li>:lck:</li>
-				<li>:petebutton:</li>
-				<li>:ninjalantern:</li>
-				<li>:catpuzzle:</li>
-				<li>:rapidFire:</li>
-				<li>:rsk_ghost:</li>
-				<li>:doubt:</li>
-				<li>:bite:</li>
-				<li>:shelterfrog:</li>
-				<li>:Neko:</li>
-				<li>:spintires_star:</li>
-				<li>:starattack:</li>
-				<li>:summerghost:</li>
 				<li>:2016popsicle:</li>
 				<li>:2016roasted:</li>
 				<li>:2016snocone:</li>
-				<li>:zeemonster:</li>
-				<li>:balloonicorn:</li>
-				<li>:crate:</li>
-				<li>:Redkey:</li>
+				<li>:ChipNorm:</li>
 				<li>:CrossedBlades:</li>
-				<li>:healthvial:</li>
-				<li>:bernie:</li>
-				<li>:rana:</li>
+				<li>:EyelessGhost:</li>
+				<li>:GunGuy:</li>
+				<li>:IrisHeartRebirth3:</li>
+				<li>:Letter_N:</li>
+				<li>:Miller:</li>
+				<li>:Neko:</li>
+				<li>:Redkey:</li>
+				<li>:TheKeys:</li>
+				<li>:Toad_Item:</li>
+				<li>:TryAgain:</li>
+				<li>:VIVEControllerGreen:</li>
+				<li>:VSnake:</li>
 				<li>:VeneticaHammer:</li>
+				<li>:archerrat:</li>
+				<li>:balloonicorn:</li>
+				<li>:bbtcat:</li>
+				<li>:bernie:</li>
+				<li>:bite:</li>
+				<li>:blanc:</li>
+				<li>:blimp:</li>
+				<li>:blissful_creep:</li>
+				<li>:blockade:</li>
+				<li>:bsgrenade:</li>
+				<li>:btiki:</li>
+				<li>:catpuzzle:</li>
+				<li>:ccoin:</li>
+				<li>:compa:</li>
+				<li>:crate:</li>
+				<li>:d_ghost:</li>
+				<li>:denied:</li>
+				<li>:dg_ghost:</li>
+				<li>:dice1:</li>
+				<li>:dice2:</li>
+				<li>:dice3:</li>
+				<li>:dice4:</li>
+				<li>:dice5:</li>
+				<li>:dice6:</li>
+				<li>:dodge:</li>
+				<li>:doubt:</li>
+				<li>:dpfrogo:</li>
+				<li>:dsfight:</li>
+				<li>:fishbones:</li>
+				<li>:freebeer:</li>
+				<li>:gransoren:</li>
+				<li>:healthvial:</li>
+				<li>:hromeattack:</li>
+				<li>:johnwizard:</li>
+				<li>:lck:</li>
+				<li>:mean_creep:</li>
+				<li>:ninjalantern:</li>
+				<li>:ojchicken:</li>
+				<li>:ojseagull:</li>
+				<li>:onaroll3dspring:</li>
+				<li>:paws:</li>
+				<li>:petebutton:</li>
+				<li>:purpleoctopus:</li>
+				<li>:rana:</li>
+				<li>:rapidFire:</li>
+				<li>:res:</li>
+				<li>:rsk_ghost:</li>
+				<li>:shelterfrog:</li>
+				<li>:spintires_star:</li>
+				<li>:starattack:</li>
+				<li>:str:</li>
+				<li>:summerghost:</li>
+				<li>:trophy:</li>
+				<li>:vert:</li>
 				<li>:vs:</li>
+				<li>:wotm8:</li>
+				<li>:zeemonster:</li>
 			</random>
 		</template>
 	</category>	
