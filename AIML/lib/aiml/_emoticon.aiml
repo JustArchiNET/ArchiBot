@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-	
 	<category>
 		<pattern>RANDOMEMOTE</pattern>
 		<template>
@@ -15,7 +14,6 @@
 	
 	<category>
 		<pattern>TESTMYON</pattern>
-		<template><think><set name = "randomemote"><srai>RANDOMEMOTE</srai></set></think><get name = "randomemote" /> MYON <get name = "randomemote" /></template>
+		<template><think><set name="randomemote"><srai>RANDOMEMOTE</srai></set></think><get name="randomemote" /> MYON <get name="randomemote" /></template>
 	</category>
-
 </aiml>
