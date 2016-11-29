@@ -28,6 +28,7 @@
 				<li>:VIVEControllerGreen:</li>
 				<li>:VSnake:</li>
 				<li>:VeneticaHammer:</li>
+				<li>:angry_creep:</li>
 				<li>:archerrat:</li>
 				<li>:balloonicorn:</li>
 				<li>:bbtcat:</li>
@@ -39,6 +40,7 @@
 				<li>:blockade:</li>
 				<li>:bsgrenade:</li>
 				<li>:btiki:</li>
+				<li>:calm_creep:</li>
 				<li>:catpuzzle:</li>
 				<li>:ccoin:</li>
 				<li>:compa:</li>
@@ -59,12 +61,14 @@
 				<li>:fishbones:</li>
 				<li>:freebeer:</li>
 				<li>:gransoren:</li>
+				<li>:happy_creep:</li>
 				<li>:healthvial:</li>
 				<li>:hromeattack:</li>
 				<li>:johnwizard:</li>
 				<li>:lck:</li>
 				<li>:mean_creep:</li>
 				<li>:ninjalantern:</li>
+				<li>:nonplussed_creep:</li>
 				<li>:ojchicken:</li>
 				<li>:ojseagull:</li>
 				<li>:onaroll3dspring:</li>
@@ -75,6 +79,7 @@
 				<li>:rapidFire:</li>
 				<li>:res:</li>
 				<li>:rsk_ghost:</li>
+				<li>:sad_creep:</li>
 				<li>:shelterfrog:</li>
 				<li>:spintires_star:</li>
 				<li>:starattack:</li>
@@ -83,7 +88,9 @@
 				<li>:trophy:</li>
 				<li>:vert:</li>
 				<li>:vs:</li>
+				<li>:wat_creep:</li>
 				<li>:wotm8:</li>
+				<li>:yawning_creep:</li>
 				<li>:zeemonster:</li>
 			</random>
 		</template>
