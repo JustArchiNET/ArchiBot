@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 	<category>
+		<pattern>2HUFACT</pattern>
+		<template>
+			<random>
+				<li>Did you know that ArchiBoT started as an IRC bot coded in Perl back in 2014?</li>
+				<li>Did you know that Touhou Giveaways initially started as a place for Archi to dump his bundle leftovers?</li>
+				<li>Did you know that zinnerzPT was main guy in charge for maintaining the doc with all ratios and statistics before ArchiBoT was born?</li>
+				<li>Did you know that xKomachi once kicked zinnerzPT out of the group? :blissful_creep:</li>
+				<li>Did you know that ArchiBoT reached over 20 thousand lines of code by now?</li>
+				<li>Did you know that initially we had ITH puzzle as the only requirement to join the group?</li>
+				<li>Did you know that Dosh was the first one to give away Shan Gui in the group?</li>
+				<li>Did you know that FakeNameOF was the first one to spread Weeaboo Pandemia achievement?</li>
+				<li>Did you know that you can refund items in our website shop, if you know the secret password?</li>
+				<li>Did you know that Mole coded entire website by himself?</li>
+				<li>Did you know that ArchiBoT is running 24/7 on Archi's server located in France?</li>
+				<li>Did you know that ArchiBoT once killed SG server because Archi forgot to turn on rate-limiting?</li>
+				<li>Did you know that Efrye is currently the oldest group member, excluding the staff?</li>
+				<li>Did you know that xKomachi once cooked a food that looked like a penis?</li>
+				<li>Did you know that Efrye is the only group member that posts Touhou-related pictures in all of his group giveaways?</li>
+				<li>Did you know that Madumius was the last group member that joined via completing the puzzle?</li>
+				<li>Did you know that real name of FakeNameOF's is Alan?</li>
+				<li>Did you know that we still use old Asim's video during new members introduction? https://www.youtube.com/watch?v=PhHFh-fidI0</li>
+				<li>Did you know that Catz earned his bug achievement by not doing anything? He was accidentally kicked out of the group by ArchiBoT.</li>
+				<li>Did you know that Zed accidentally fed ArchiBoT with "The Talos Principle"? He was supposed to make a giveaway with it.</li>
+				<li>Did you know that there is a strong group of people that want to rename the group into "Weeaboo Giveaways"?</li>
+				<li>Did you know that FakeNameOF organized a giveaway where he was giving a value discount for each person that won a !duel with him?</li>
+				<li>Did you know that Falco nearly ruined Touhou economy, and forced us to implement anti-hoarding rule?</li>
+				<li>Did you know that Madumius eventually DID save Emmerich?</li>
+				<li>Did you know that we have over 12 thousand of different songs in our Touhou radio?</li>
+				<li>Did you know that we have a Mumble server? It's dead.</li>
+				<li>Did you know that initial group-ratio was set at 0.70? We increased it to 0.75 much later.</li>
+				<li>Did you know that initially we had +0.5 value multiplier for giving away Steam gifts?</li>
+				<li>Did you know that Archi promised to give away Fallout 4 if he gets one for himself? He kept his promise.</li>
+				<li>Did you know that Archi once kicked Skatrzoo for winning Witcher 3 season pass?</li>
+				<li>Did you know that shit gets really serious when FakeNameOF stops using ":3"?</li>
+				<li>Did you know that konrads6 wanted to join the group once?</li>
+				<li>Did you know that we still use old Asim's video during new members introduction? https://www.youtube.com/watch?v=PhHFh-fidI0</li>
+				<li>Did you know that we have a group photo? http://i.imgur.com/6j9i5tP.png</li>
+				<li>Did you know that Madumius's mom has him saved in her phone as "Anime"?</li>
+				<li>Did you know that :awoo: is the only Touhou emoticon available on Steam?</li>
+				<li>Did you know that Skatrzoo is allergic to Alstroemeria Records?</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
 		<pattern>WHO IS CJ</pattern>
 		<template>
 			<random>
