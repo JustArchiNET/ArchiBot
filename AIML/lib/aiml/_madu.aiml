@@ -5,7 +5,7 @@
             <template>
                 <random>
                     <li>Rude, it's in the fucking name</li>
-                    <li>"I believe in the magic of idol music!"<li>
+                    <li>"I believe in the magic of idol music!"</li>
                 </random>
             </template>
     </category>
