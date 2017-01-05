@@ -82,4 +82,15 @@
 			</random>
 		</template>
 	</category>
+
+	<category>
+		<pattern>WHO IS MOLE</pattern>
+		<template>
+			<random>
+				<li>Just a con artist pretending to be a nice guy.</li>
+				<li>The kind of guy who could lie with a straight face.</li>
+				<li>Monmon only doto :3.</li>
+			</random>
+		</template>
+	</category>
 </aiml>
