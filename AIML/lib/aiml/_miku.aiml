@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>	
+	<pattern>WHO IS MIKE</pattern>	
+	<template>	
+		<random>
+			<li>:vanilla3: Nyaa♪</li>
+			<li>:iffy: MYON :iffy:</li>
+			<li>!nsfw loli tentacle_rape</li>
+			<li>!playgame AMINE WEEB TRASH</li>
+			<li>\m/ Nico~Nico~Nii♪ \m/</li>
+			<li>A guy who, for some reason, is trying to create a "harem" of little brothers :3</li>
+			<li>A record-breaker member of Touhou Giveaways, who went from unknown guest to group moderator in less than 2 months.</li>
+			<li>An attention whore who added more personal definitions about himself than anyone else. Have fun finding them all :bite:</li>
+			<li>B-Baka!</li>
+			<li>Flat is Justice!</li>
+			<li>HAVE YOU BEEN FEEDING HOARDERS AGAIN? :speak:</li>
+			<li>Hmph, damn hoarders... :steamsalty:</li>
+			<li>Huh? Do we even have someone called like that? :speak:</li>
+			<li>I-I'm not a lolicon, I-I just like cute things... and lolis are cute :bite:</li>
+			<li>Ni~Pah♪</li>
+			<li>Say "Hi!" to your onii-chan :3</li>
+			<li>The kind of guy who could tell you to fuck off with a serious face, then come running after you crying.</li>
+			<li>The leader of the "2hu Little Italy" project... whatever it is.</li>
+			<li>Why does nobody join my full value bundle trash? :cry:</li>
+			</random>
+		</template>
+</category>
+
+<category>
+	<pattern>WHO IS MIKU</pattern>
+	<template>
+		<srai>WHO IS MIKE</srai>
+	</template>
+</category>
+
+</aiml>
