@@ -38,7 +38,9 @@
         <pattern>PLS REMBER</pattern>
 	<template>
 	        <random>
-		        <li>pls rember that wen u feel scare or frigten<br>never forget ttimes wen u feeled happy<br>wen day is dark alway rember happy day</li>
+		        <li>pls rember that wen u feel scare or frigten
+			never forget ttimes wen u feeled happy
+			wen day is dark alway rember happy day</li>
 		</random>
 	</template>
 </category>
