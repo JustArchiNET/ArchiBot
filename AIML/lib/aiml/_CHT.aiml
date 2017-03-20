@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>WHO IS CHT</pattern>
-		 <template>
-		  <random>
-		   <li>A chatter in 2hu gibs.</li>
-			 <li>"CHT: I'm lazy and pretty stupid, but managed to make C# chat bot."</li>
-			 <li>:TryAgain: Error, try again later!</li>
-       <li>A weeb and gaymer.</li>
-		  </random>
-	  </template>
-  </category>
+	<category>
+		<pattern>WHO IS CHT</pattern>
+		<template>
+			<random>
+				<li>A chatter in 2hu gibs.</li>
+				<li>"CHT: I'm lazy and pretty stupid, but managed to make C# chat bot."</li>
+				<li>:TryAgain: Error, try again later!</li>
+				<li>A weeb and gaymer.</li>
+			</random>
+		</template>
+	</category>
 </aiml>
