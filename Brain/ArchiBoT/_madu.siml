@@ -1,42 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_madu" Type="Public">
-    <Model>
-      <Pattern>WHO IS MADU</Pattern>
-      <Response>
-        <Random>
-          <Item>Rude, it's in the fucking name</Item>
-          <Item>"I believe in the magic of idol music!"</Item>
-          <Item>O żesz kurwa ja pierdole</Item>
-          <Item>KUP TERAZ</Item>
-          <Item>The game streaming outlaw who is not afraid of the long arm of the law</Item>
-          <Item>The man who gave up his power of teleportation in favor of anime</Item>
-          <Item>The guy whose mom has him as "Anime" in her phone</Item>
-          <Item>"Anime Incarnate"</Item>
-          <Item>Madurude - Sandstorm</Item>
-          <Item>MADUUUUUUUUU</Item>
-          <Item>Madu is the guy you don't want to make madu</Item>
-          <Item>OH DESIRE! :kinzo:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>MADU STREAM</Pattern>
-      <Response>
-        <Random>
-          <Item>📞 HALLO POLIZEI</Item>
-          <Item>:petebutton: ILLEGAL STREAM DETECTED :petebutton:</Item>
-          <Item>Please provide your €10000 license.</Item>
-          <Item>:coolpolice: Ja, wir sind auf dem Weg</Item>
-          <Item>INCOMING 🚓</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS MADURUDE</Pattern>
-      <Response>
-        <Goto>WHO IS MADU</Goto>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_madu" Type="Public">
+		<Model>
+			<Pattern>WHO IS MADU</Pattern>
+			<Response>
+				<Random>
+					<Item>Rude, it's in the fucking name</Item>
+					<Item>"I believe in the magic of idol music!"</Item>
+					<Item>O żesz kurwa ja pierdole</Item>
+					<Item>KUP TERAZ</Item>
+					<Item>The game streaming outlaw who is not afraid of the long arm of the law</Item>
+					<Item>The man who gave up his power of teleportation in favor of anime</Item>
+					<Item>The guy whose mom has him as "Anime" in her phone</Item>
+					<Item>"Anime Incarnate"</Item>
+					<Item>Madurude - Sandstorm</Item>
+					<Item>MADUUUUUUUUU</Item>
+					<Item>Madu is the guy you don't want to make madu</Item>
+					<Item>OH DESIRE! :kinzo:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>MADU STREAM</Pattern>
+			<Response>
+				<Random>
+					<Item>📞 HALLO POLIZEI</Item>
+					<Item>:petebutton: ILLEGAL STREAM DETECTED :petebutton:</Item>
+					<Item>Please provide your €10000 license.</Item>
+					<Item>:coolpolice: Ja, wir sind auf dem Weg</Item>
+					<Item>INCOMING 🚓</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS MADURUDE</Pattern>
+			<Response>
+				<Goto>WHO IS MADU</Goto>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

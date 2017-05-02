@@ -1,71 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_skatrzoo" Type="Public">
-    <Model>
-      <Pattern>MISFORTUNE</Pattern>
-      <Response>
-        <Random>
-          <Item>The darkness holds much worse than mere trickery and bogeymen.</Item>
-          <Item>Darkness closes in, haunting the hearts of men.</Item>
-          <Item>And now... the darkness holds dominion – black as death.</Item>
-          <Item>Gnawing hunger sets in, turning the body against itself, weakening the mind...</Item>
-          <Item>To fall for such a little thing... a bite of bread...</Item>
-          <Item>No force of will can overcome a failing body.</Item>
-          <Item>The requirements of survival cannot be met on an empty stomach.</Item>
-          <Item>Grievous injury, palpable fear...</Item>
-          <Item>Death waits for the slightest lapse in concentration.</Item>
-          <Item>Ringing ears, blurred vision - the end approaches...</Item>
-          <Item>Dazed, reeling, about to break...</Item>
-          <Item>Perched at the very precipice of oblivion...</Item>
-          <Item>A hand-breadth from becoming unwound...</Item>
-          <Item>Teetering on the brink, facing the abyss...</Item>
-          <Item>As life ebbs, terrible vistas of emptiness reveal themselves.  </Item>
-          <Item>Survival is a tenuous proposition in this sprawling tomb.</Item>
-          <Item>More blood soaks the soil, feeding the evil therein.</Item>
-          <Item>Another life wasted in the pursuit of glory and gold.</Item>
-          <Item>This is no place for the weak, or the foolhardy.</Item>
-          <Item>More dust, more ashes, more disappointment.</Item>
-          <Item>True desperation is known only when escape is impossible.</Item>
-          <Item>Cornered! Trapped! And forced to fight on...</Item>
-          <Item>No chance for egress - will this be a massacre?</Item>
-          <Item>The human mind - fragile like a robin's egg.</Item>
-          <Item>The mind cannot hope to withstand such an assault.</Item>
-          <Item>Even the aged oak will fall to the tempest's winds.</Item>
-          <Item>Madness, our old friend!</Item>
-          <Item>One can sometimes find clarity in madness, but only rarely...</Item>
-          <Item>The bulwarks of the mind have fallen!</Item>
-          <Item>Frustration and fury, more destructive than a hundred cannons. </Item>
-          <Item>Fear and frailty finally claim their due.</Item>
-          <Item>The walls close in, the shadows whisper of conspiracy!</Item>
-          <Item>There can be no hope in this hell, no hope at all.</Item>
-          <Item>Those who covet injury find it in no short supply.</Item>
-          <Item>Reeling, gasping, taken over the edge into madness!</Item>
-          <Item>Even the cold stone seems bent on preventing passage.</Item>
-          <Item>Nature herself - a victim to this spreading corruption: malformed with misintent.</Item>
-          <Item>Another mariner... Another misfortune.</Item>
-          <Item>Carelessness will find no clemency in this place!</Item>
-          <Item>Mind that such missteps are the exception, and not the rule.</Item>
-          <Item>Failure tests the mettle of heart, brain, and body.</Item>
-          <Item>Ignorance of your enemy and of yourself will invariably lead to defeat.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>CJBALL</Pattern>
-      <Response>
-        <Random>
-          <Item>Cj: I can't believe I just blew 30 bucks. Wait, not that kind of bucks :SYMSface2:</Item>
-          <Item>Cj: I hate sleeping, 7 hours straight without buying videogames is hell :emofdr:</Item>
-          <Item>Cj: !nsfw aaaaaaaaaaand it's furry :SYMSface2:</Item>
-          <Item>Cj: Hm? The bunny costume isn't for Easter, why do you ask?</Item>
-          <Item>Cj: Please follow me on Youtube! Look, I'm not a furry but... 20 subs are 20 subs :emofdr:</Item>
-          <Item>Cj: My personal loan application was turned down. Can you believe they don't want to lend me money to buy removed games?! :meatytears:</Item>
-          <Item>Cj: Yay, my channel is now ongoing review for monetization. Time to collect those sweet sweet pennies :emofdr:</Item>
-          <Item>Cj: I should stop buying games? Nah, I'd rather knot.</Item>
-          <Item>Cj: I always fantasize about breaking the law. What do you think would come, the police or animal control? :emofdr:</Item>
-          <Item>Cj: A woman once brought her dog to a furry convention by mistake. She quickly started to apologize but I personally didn't mind - after all, you don't get to experience the real deal too often :emofdr:</Item>
-        </Random>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_skatrzoo" Type="Public">
+		<Model>
+			<Pattern>MISFORTUNE</Pattern>
+			<Response>
+				<Random>
+					<Item>The darkness holds much worse than mere trickery and bogeymen.</Item>
+					<Item>Darkness closes in, haunting the hearts of men.</Item>
+					<Item>And now... the darkness holds dominion – black as death.</Item>
+					<Item>Gnawing hunger sets in, turning the body against itself, weakening the mind...</Item>
+					<Item>To fall for such a little thing... a bite of bread...</Item>
+					<Item>No force of will can overcome a failing body.</Item>
+					<Item>The requirements of survival cannot be met on an empty stomach.</Item>
+					<Item>Grievous injury, palpable fear...</Item>
+					<Item>Death waits for the slightest lapse in concentration.</Item>
+					<Item>Ringing ears, blurred vision - the end approaches...</Item>
+					<Item>Dazed, reeling, about to break...</Item>
+					<Item>Perched at the very precipice of oblivion...</Item>
+					<Item>A hand-breadth from becoming unwound...</Item>
+					<Item>Teetering on the brink, facing the abyss...</Item>
+					<Item>As life ebbs, terrible vistas of emptiness reveal themselves.  </Item>
+					<Item>Survival is a tenuous proposition in this sprawling tomb.</Item>
+					<Item>More blood soaks the soil, feeding the evil therein.</Item>
+					<Item>Another life wasted in the pursuit of glory and gold.</Item>
+					<Item>This is no place for the weak, or the foolhardy.</Item>
+					<Item>More dust, more ashes, more disappointment.</Item>
+					<Item>True desperation is known only when escape is impossible.</Item>
+					<Item>Cornered! Trapped! And forced to fight on...</Item>
+					<Item>No chance for egress - will this be a massacre?</Item>
+					<Item>The human mind - fragile like a robin's egg.</Item>
+					<Item>The mind cannot hope to withstand such an assault.</Item>
+					<Item>Even the aged oak will fall to the tempest's winds.</Item>
+					<Item>Madness, our old friend!</Item>
+					<Item>One can sometimes find clarity in madness, but only rarely...</Item>
+					<Item>The bulwarks of the mind have fallen!</Item>
+					<Item>Frustration and fury, more destructive than a hundred cannons. </Item>
+					<Item>Fear and frailty finally claim their due.</Item>
+					<Item>The walls close in, the shadows whisper of conspiracy!</Item>
+					<Item>There can be no hope in this hell, no hope at all.</Item>
+					<Item>Those who covet injury find it in no short supply.</Item>
+					<Item>Reeling, gasping, taken over the edge into madness!</Item>
+					<Item>Even the cold stone seems bent on preventing passage.</Item>
+					<Item>Nature herself - a victim to this spreading corruption: malformed with misintent.</Item>
+					<Item>Another mariner... Another misfortune.</Item>
+					<Item>Carelessness will find no clemency in this place!</Item>
+					<Item>Mind that such missteps are the exception, and not the rule.</Item>
+					<Item>Failure tests the mettle of heart, brain, and body.</Item>
+					<Item>Ignorance of your enemy and of yourself will invariably lead to defeat.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>CJBALL</Pattern>
+			<Response>
+				<Random>
+					<Item>Cj: I can't believe I just blew 30 bucks. Wait, not that kind of bucks :SYMSface2:</Item>
+					<Item>Cj: I hate sleeping, 7 hours straight without buying videogames is hell :emofdr:</Item>
+					<Item>Cj: !nsfw aaaaaaaaaaand it's furry :SYMSface2:</Item>
+					<Item>Cj: Hm? The bunny costume isn't for Easter, why do you ask?</Item>
+					<Item>Cj: Please follow me on Youtube! Look, I'm not a furry but... 20 subs are 20 subs :emofdr:</Item>
+					<Item>Cj: My personal loan application was turned down. Can you believe they don't want to lend me money to buy removed games?! :meatytears:</Item>
+					<Item>Cj: Yay, my channel is now ongoing review for monetization. Time to collect those sweet sweet pennies :emofdr:</Item>
+					<Item>Cj: I should stop buying games? Nah, I'd rather knot.</Item>
+					<Item>Cj: I always fantasize about breaking the law. What do you think would come, the police or animal control? :emofdr:</Item>
+					<Item>Cj: A woman once brought her dog to a furry convention by mistake. She quickly started to apologize but I personally didn't mind - after all, you don't get to experience the real deal too often :emofdr:</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

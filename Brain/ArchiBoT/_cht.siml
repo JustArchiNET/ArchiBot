@@ -1,104 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_cht" Type="Public">
-    <Model>
-      <Pattern>WHO IS CHT</Pattern>
-      <Response>
-        <Random>
-          <Item>Chatter in 2hu gibs.</Item>
-          <Item>Chat stalker, found in its natural habitat 2hu gibs.</Item>
-          <Item>One noob in programming that makes stuff based on "templates".</Item>
-          <Item>A noob in programming that managed to crash a program with just one character.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS DOTO</Pattern>
-      <Response>
-        <Random>
-          <Item>Toxicity central.</Item>
-          <Item>Cancer sim.</Item>
-          <Item>A "game" CHT and Monmon play often.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>SING A SONG FOR CHT</Pattern>
-      <Response>
-        <Random>
-          <Item>well the years start coming and they don't stop coming and they don't stop coming and they don't stop coming(SONG: They don't stop coming - Namare[Smash Mouth - All Star])</Item>
-          <Item>yuuen no kimi ga daisuki de daikirai(SONG: Walküre - AXIA ~Daisuki de Daikirai~)</Item>
-          <Item>Do what you want cause a pirate is free, you are a pirate!(SONG: Lazy Town - You Are A Pirate)</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>TODO</Pattern>
-      <Response>
-        <Random>
-          <Item>Fix your code!</Item>
-          <Item>Get to work, you're wasting time!</Item>
-          <Item>Meaningful life: ☐</Item>
-          <Item>
-            <Goto>HOW TO WASTE TIME</Goto>
-          </Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>HOW TO WASTE TIME</Pattern>
-      <Response>
-        <Random>
-          <Item>Play games.</Item>
-          <Item>Read useless stuff like this sentence to waste time.</Item>
-          <Item>Sit around idly.</Item>
-          <Item>If you aren't sure after sitting around idly, you're doing something wrong.</Item>
-          <Item>Wait idly for your favourite story to have a new release.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>SAVE CIRI</Pattern>
-      <Response>Archi: save ciri</Response>
-    </Model>
-    <Model>
-      <Pattern>2HUFAME</Pattern>
-      <Response>
-        <Random>
-          <Item>Archi: and remember you're on diet</Item>
-          <Item>wany1981: is doing chat message gib that popular now?</Item>
-          <Item>ArchiBoT: Sorry, I don't have an answer for that!</Item>
-          <Item>FakeNameOF: :3</Item>
-          <Item>Kaleith: :doubt:</Item>
-          <Item>CHT: Anyway, I would have stole the cht insult response but I already have one better bottu line.</Item>
-          <Item>Cjcomplex: Aww, I wanted to loot your pp ;_;.</Item>
-          <Item>Windu: :sgsmile: im also very busy irl</Item>
-          <Item>ミユ: Just the C++ compilers are almost 6GB</Item>
-          <Item>ArchiBoT: Archibot you're as useless as red lights in grand theft auto</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>PRAISE *</Pattern>
-      <Response>
-        <Text Get="sentence">
-          <Match />
-          <Goto>PRAISE</Goto>
-        </Text>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>PRAISE</Pattern>
-      <Response>
-        <Random>
-          <Item>You are so gud.</Item>
-          <Item>You're so good looking, even time stops for you.</Item>
-          <Item>You're so smart, the gods wanted to hire you as their personal assistant.</Item>
-          <Item>You're so popular, even aliens show up to see you.</Item>
-          <Item>You're so fast, you had to be banned from all sports on the basis of fair play.</Item>
-          <Item>You're so skilled, everyone wants you on their side.</Item>
-        </Random>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_cht" Type="Public">
+		<Model>
+			<Pattern>WHO IS CHT</Pattern>
+			<Response>
+				<Random>
+					<Item>Chatter in 2hu gibs.</Item>
+					<Item>Chat stalker, found in its natural habitat 2hu gibs.</Item>
+					<Item>One noob in programming that makes stuff based on "templates".</Item>
+					<Item>A noob in programming that managed to crash a program with just one character.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS DOTO</Pattern>
+			<Response>
+				<Random>
+					<Item>Toxicity central.</Item>
+					<Item>Cancer sim.</Item>
+					<Item>A "game" CHT and Monmon play often.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>SING A SONG FOR CHT</Pattern>
+			<Response>
+				<Random>
+					<Item>well the years start coming and they don't stop coming and they don't stop coming and they don't stop coming(SONG: They don't stop coming - Namare[Smash Mouth - All Star])</Item>
+					<Item>yuuen no kimi ga daisuki de daikirai(SONG: Walküre - AXIA ~Daisuki de Daikirai~)</Item>
+					<Item>Do what you want cause a pirate is free, you are a pirate!(SONG: Lazy Town - You Are A Pirate)</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>TODO</Pattern>
+			<Response>
+				<Random>
+					<Item>Fix your code!</Item>
+					<Item>Get to work, you're wasting time!</Item>
+					<Item>Meaningful life: ☐</Item>
+					<Item><Goto>HOW TO WASTE TIME</Goto></Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>HOW TO WASTE TIME</Pattern>
+			<Response>
+				<Random>
+					<Item>Play games.</Item>
+					<Item>Read useless stuff like this sentence to waste time.</Item>
+					<Item>Sit around idly.</Item>
+					<Item>If you aren't sure after sitting around idly, you're doing something wrong.</Item>
+					<Item>Wait idly for your favourite story to have a new release.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>SAVE CIRI</Pattern>
+			<Response>Archi: save ciri</Response>
+		</Model>
+
+		<Model>
+			<Pattern>2HUFAME</Pattern>
+			<Response>
+				<Random>
+					<Item>Archi: and remember you're on diet</Item>
+					<Item>wany1981: is doing chat message gib that popular now?</Item>
+					<Item>ArchiBoT: Sorry, I don't have an answer for that!</Item>
+					<Item>FakeNameOF: :3</Item>
+					<Item>Kaleith: :doubt:</Item>
+					<Item>CHT: Anyway, I would have stole the cht insult response but I already have one better bottu line.</Item>
+					<Item>Cjcomplex: Aww, I wanted to loot your pp ;_;.</Item>
+					<Item>Windu: :sgsmile: im also very busy irl</Item>
+					<Item>ミユ: Just the C++ compilers are almost 6GB</Item>
+					<Item>ArchiBoT: Archibot you're as useless as red lights in grand theft auto</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>PRAISE *</Pattern>
+			<Response><Text Get="sentence"> <Match /> <Goto>PRAISE</Goto></Text></Response>
+		</Model>
+
+		<Model>
+			<Pattern>PRAISE</Pattern>
+			<Response>
+				<Random>
+					<Item>You are so gud.</Item>
+					<Item>You're so good looking, even time stops for you.</Item>
+					<Item>You're so smart, the gods wanted to hire you as their personal assistant.</Item>
+					<Item>You're so popular, even aliens show up to see you.</Item>
+					<Item>You're so fast, you had to be banned from all sports on the basis of fair play.</Item>
+					<Item>You're so skilled, everyone wants you on their side.</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

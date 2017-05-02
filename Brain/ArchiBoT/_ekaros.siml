@@ -1,59 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_ekaros" Type="Public">
-    <Model>
-      <Pattern>WHO IS EKAROS</Pattern>
-      <Response>
-        <Random>
-          <Item>A scammer</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>NORRIS *</Pattern>
-      <Response>
-        <Random>
-          <Item>
-            <Match /> refactors 10 million lines of Perl code before lunch.</Item>
-          <Item>
-            <Match /> is his own boss. If you hire him, he’ll tell your boss what to do.</Item>
-          <Item>
-            <Match /> does not code; when he sits at a computer, it just does whatever he wants.</Item>
-          <Item>
-            <Match /> doesn’t make mistakes. He corrects God.</Item>
-          <Item>
-            <Match /> doesn’t commit changes, the changes commit for him.</Item>
-          <Item>Code is too scared of <Match /> to be wrong.</Item>
-          <Item>
-            <Match /> can end world hunger, but he thinks that hungry people make humanity a more challenging adversary. If everyone had enough to eat, it would be too easy for him.</Item>
-          <Item>
-            <Match /> taught God how to create the universe.</Item>
-          <Item>
-            <Match /> is the reason why the Knights who until Recently Said “Ni”, are no longer saying “Ni”.</Item>
-          <Item>
-            <Match /> is not afraid of superstitions. Superstitions are afraid of <Match />.</Item>
-          <Item>
-            <Match /> does expect the Spanish Inquisition.</Item>
-          <Item>The Spanish Inquisition does not expect <Match />.</Item>
-          <Item>
-            <Match /> helps the gods that help themselves.</Item>
-          <Item>If the mountain does not come to Muhammad, then <Match /> will bring the mountain over.</Item>
-          <Item>An apple a day will keep <Match /> away. But not for long.</Item>
-          <Item>When <Match /> orders Pizza, it arrives before he presses the OK button.</Item>
-          <Item>
-            <Match /> does not need to heat up food. The food is already warm right after he took it out of the fridge.</Item>
-          <Item>
-            <Match /> does not own a dishwasher. Dishes know better than to become dirty.</Item>
-          <Item>
-            <Match /> once counted all the real numbers on his fingers.</Item>
-          <Item>
-            <Match /> can solve MS Freecell deal No. 11,982. With Zero Freecells.</Item>
-          <Item>
-            <Match /> caught the early bird before she caught the worm.</Item>
-          <Item>
-            <Match /> doesn't celebrate holidays -- holidays celebrate <Match />.</Item>
-        </Random>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_ekaros" Type="Public">
+		<Model>
+			<Pattern>WHO IS EKAROS</Pattern>
+			<Response>
+				<Random>
+					<Item>A scammer</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>NORRIS *</Pattern>
+			<Response>
+				<Random>
+					<Item><Match /> refactors 10 million lines of Perl code before lunch.</Item>
+					<Item><Match /> is his own boss. If you hire him, he’ll tell your boss what to do.</Item>
+					<Item><Match /> does not code; when he sits at a computer, it just does whatever he wants.</Item>
+					<Item><Match /> doesn’t make mistakes. He corrects God.</Item>
+					<Item><Match /> doesn’t commit changes, the changes commit for him.</Item>
+					<Item>Code is too scared of <Match /> to be wrong.</Item>
+					<Item><Match /> can end world hunger, but he thinks that hungry people make humanity a more challenging adversary. If everyone had enough to eat, it would be too easy for him.</Item>
+					<Item><Match /> taught God how to create the universe.</Item>
+					<Item><Match /> is the reason why the Knights who until Recently Said “Ni”, are no longer saying “Ni”.</Item>
+					<Item><Match /> is not afraid of superstitions. Superstitions are afraid of <Match />.</Item>
+					<Item><Match /> does expect the Spanish Inquisition.</Item>
+					<Item>The Spanish Inquisition does not expect <Match />.</Item>
+					<Item><Match /> helps the gods that help themselves.</Item>
+					<Item>If the mountain does not come to Muhammad, then <Match /> will bring the mountain over.</Item>
+					<Item>An apple a day will keep <Match /> away. But not for long.</Item>
+					<Item>When <Match /> orders Pizza, it arrives before he presses the OK button.</Item>
+					<Item><Match /> does not need to heat up food. The food is already warm right after he took it out of the fridge.</Item>
+					<Item><Match /> does not own a dishwasher. Dishes know better than to become dirty.</Item>
+					<Item><Match /> once counted all the real numbers on his fingers.</Item>
+					<Item><Match /> can solve MS Freecell deal No. 11,982. With Zero Freecells.</Item>
+					<Item><Match /> caught the early bird before she caught the worm.</Item>
+					<Item><Match /> doesn't celebrate holidays -- holidays celebrate <Match />.</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

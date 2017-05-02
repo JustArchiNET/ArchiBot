@@ -1,70 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_miku" Type="Public">
-    <Model>
-      <Pattern>WHO IS MIKE</Pattern>
-      <Response>
-        <Random>
-          <Item>A guy who, for some reason, is trying to create a "harem" of little brothers.</Item>
-          <Item>A guy who is often found in command positions, without even aiming for them.</Item>
-          <Item>An attention whore who added more personal definitions about himself than anyone else.</Item>
-          <Item>I don't know anyone with that name.</Item>
-          <Item>The kind of guy who could tell you to fuck off with a serious face, then come running after you crying.</Item>
-          <Item>The self-proclaimed leader of the "2hu Little Italy Project"... whatever it is.</Item>
-          <Item>Professional bullet stealer since 2015.</Item>
-          <Item>Not a lolicon... or so he says.</Item>
-          <Item>Did you mean "Michelle"?</Item>
-          <Item>A weeb.</Item>
-          <Item>:zeemonster::sgsmile:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS MIKU</Pattern>
-      <Response>
-        <Goto>WHO IS MIKE</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS MICHELLE</Pattern>
-      <Response>
-        <Goto>WHO IS MIKE</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>MIKUBALL</Pattern>
-      <Response>
-        <Random>
-          <Item>Miku: Say "Hi!" to your onii-chan :3</Item>
-          <Item>Miku: Ni~Pah♪</Item>
-          <Item>Miku: I-I'm not a lolicon, I-I just like cute things... like lolis, for example :3</Item>
-          <Item>Miku: :steamsalty: :steamsalty: :steamsalty: HAVE YOU BEEN FEEDING HOARDERS AGAIN? :steamsalty: :steamsalty: :steamsalty:</Item>
-          <Item>Miku: :blanc: Flat is Justice!</Item>
-          <Item>Miku: B-Baka!</Item>
-          <Item>Miku: \m/ Nico~Nico~Nii♪ \m/</Item>
-          <Item>Miku: :vanilla3: Nyaa♪ :cocochan3:</Item>
-          <Item>Miku: !playgame AMINE WEEB TRASH</Item>
-          <Item>Miku: !nsfw loli tentacle_rape</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>PLS REMBER</Pattern>
-      <Response>
-        <Random>
-          <Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
-          <Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
-          <Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
-          <Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
-          <Item>Please remember that when you feel scared or frightened, never forget the times when you felt happy. When day is dark, always remember happy days.</Item>
-          <Item>Please remember that when you feel scared or frightened, never forget the times when you felt happy. When day is dark, always remember happy days.</Item>
-          <Item>Please remember that when you feel scared or frightened, never forget the times when you felt happy. When day is dark, always remember happy days.</Item>
-          <Item>For your own sake, I ask you to remember that whenever you have feelings of fear, anxiety, despair, dismay, revulsion, trepidation, or any form of foreboding fright, I beg you to never dismiss from your mind the moments you have felt euphoric, ecstatic, jubilant, merry, thrilled, and upbeat. Whenever your days are dim, outcast, drab, somber, gloomy, or bleak, always remember happy days.</Item>
-          <Item>For your own sake, I ask you to remember that whenever you have feelings of fear, anxiety, despair, dismay, revulsion, trepidation, or any form of foreboding fright, I beg you to never dismiss from your mind the moments you have felt euphoric, ecstatic, jubilant, merry, thrilled, and upbeat. Whenever your days are dim, outcast, drab, somber, gloomy, or bleak, always remember happy days.</Item>
-          <Item>For the love of all that is holy in Gensokyou, for the love of the Gods who moved to this world for the sake of self-preservation I implore you, beg of you, beseech you to remember, call to mind, and recollect your previous thoughts so that whenever you have feelings of discomposure, disquitude, reverence, presentiment, misgiving, consternation, and abhorrence, recreancy, or whenever you break out in a cold sweat and tremble uncontrollably in dread, I implore you to recallfrom your past experiences the feelings of contentment, optimism, jubilation, joviality, hopefulness, vivacity, prosperity, or delirium. When the day is in doldrums, and you feel languish, heartbreak, down in the dumps, disconsolate, grief-sickened, heavyhearted, low-spirited, despodent, lububrious, woebegone, doleful, defected, bereaved, wistful, sorrowdul, glum, forlorn, downcast, bitter, dismal, troubled, low, or hurting, always remember happy days.</Item>
-          <Item>I implore you to forever remain aware that should you be subjected to a variety of negative emotions, including but not limited to, fear, dismay, anxiety, despair, revulsion, or any form of foreboding fright, the proper course of action would be to recollect past events in your life that brought you such positive emotions as bliss and euphoria, in order to cope with the aforementioned unpleasant feelings. When the day becomes metaphorically dark and you have little hope of the situation improving, it is imperative that you cherish the memories of more satisfactory times.</Item>
-        </Random>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_miku" Type="Public">
+		<Model>
+			<Pattern>WHO IS MIKE</Pattern>
+			<Response>
+				<Random>
+					<Item>A guy who, for some reason, is trying to create a "harem" of little brothers.</Item>
+					<Item>A guy who is often found in command positions, without even aiming for them.</Item>
+					<Item>An attention whore who added more personal definitions about himself than anyone else.</Item>
+					<Item>I don't know anyone with that name.</Item>
+					<Item>The kind of guy who could tell you to fuck off with a serious face, then come running after you crying.</Item>
+					<Item>The self-proclaimed leader of the "2hu Little Italy Project"... whatever it is.</Item>
+					<Item>Professional bullet stealer since 2015.</Item>
+					<Item>Not a lolicon... or so he says.</Item>
+					<Item>Did you mean "Michelle"?</Item>
+					<Item>A weeb.</Item>
+					<Item>:zeemonster::sgsmile:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS MIKU</Pattern>
+			<Response>
+				<Goto>WHO IS MIKE</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS MICHELLE</Pattern>
+			<Response>
+				<Goto>WHO IS MIKE</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>MIKUBALL</Pattern>
+			<Response>
+				<Random>
+					<Item>Miku: Say "Hi!" to your onii-chan :3</Item>
+					<Item>Miku: Ni~Pah♪</Item>
+					<Item>Miku: I-I'm not a lolicon, I-I just like cute things... like lolis, for example :3</Item>
+					<Item>Miku: :steamsalty: :steamsalty: :steamsalty: HAVE YOU BEEN FEEDING HOARDERS AGAIN? :steamsalty: :steamsalty: :steamsalty:</Item>
+					<Item>Miku: :blanc: Flat is Justice!</Item>
+					<Item>Miku: B-Baka!</Item>
+					<Item>Miku: \m/ Nico~Nico~Nii♪ \m/</Item>
+					<Item>Miku: :vanilla3: Nyaa♪ :cocochan3:</Item>
+					<Item>Miku: !playgame AMINE WEEB TRASH</Item>
+					<Item>Miku: !nsfw loli tentacle_rape</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>PLS REMBER</Pattern>
+			<Response>
+				<Random>
+					<Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
+					<Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
+					<Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
+					<Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
+					<Item>Please remember that when you feel scared or frightened, never forget the times when you felt happy. When day is dark, always remember happy days.</Item>
+					<Item>Please remember that when you feel scared or frightened, never forget the times when you felt happy. When day is dark, always remember happy days.</Item>
+					<Item>Please remember that when you feel scared or frightened, never forget the times when you felt happy. When day is dark, always remember happy days.</Item>
+					<Item>For your own sake, I ask you to remember that whenever you have feelings of fear, anxiety, despair, dismay, revulsion, trepidation, or any form of foreboding fright, I beg you to never dismiss from your mind the moments you have felt euphoric, ecstatic, jubilant, merry, thrilled, and upbeat. Whenever your days are dim, outcast, drab, somber, gloomy, or bleak, always remember happy days.</Item>
+					<Item>For your own sake, I ask you to remember that whenever you have feelings of fear, anxiety, despair, dismay, revulsion, trepidation, or any form of foreboding fright, I beg you to never dismiss from your mind the moments you have felt euphoric, ecstatic, jubilant, merry, thrilled, and upbeat. Whenever your days are dim, outcast, drab, somber, gloomy, or bleak, always remember happy days.</Item>
+					<Item>For the love of all that is holy in Gensokyou, for the love of the Gods who moved to this world for the sake of self-preservation I implore you, beg of you, beseech you to remember, call to mind, and recollect your previous thoughts so that whenever you have feelings of discomposure, disquitude, reverence, presentiment, misgiving, consternation, and abhorrence, recreancy, or whenever you break out in a cold sweat and tremble uncontrollably in dread, I implore you to recallfrom your past experiences the feelings of contentment, optimism, jubilation, joviality, hopefulness, vivacity, prosperity, or delirium. When the day is in doldrums, and you feel languish, heartbreak, down in the dumps, disconsolate, grief-sickened, heavyhearted, low-spirited, despodent, lububrious, woebegone, doleful, defected, bereaved, wistful, sorrowdul, glum, forlorn, downcast, bitter, dismal, troubled, low, or hurting, always remember happy days.</Item>
+					<Item>I implore you to forever remain aware that should you be subjected to a variety of negative emotions, including but not limited to, fear, dismay, anxiety, despair, revulsion, or any form of foreboding fright, the proper course of action would be to recollect past events in your life that brought you such positive emotions as bliss and euphoria, in order to cope with the aforementioned unpleasant feelings. When the day becomes metaphorically dark and you have little hope of the situation improving, it is imperative that you cherish the memories of more satisfactory times.</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

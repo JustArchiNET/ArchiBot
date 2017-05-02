@@ -1,75 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_quips" Type="Public">
-    <Model>
-      <Pattern>FISTO</Pattern>
-      <!-- DeltabladeX -->
-      <Response>
-        <Random>
-          <Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
-          <Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
-          <Item>Numbness will subside in several minutes. :bigBetty:</Item>
-          <Item>I am programmed for your pleasure. :bigBetty:</Item>
-          <Item>I am programmed for your pleasure. :bigBetty:</Item>
-          <Item>Please assume the position :bigBetty:</Item>
-          <Item>Please assume the position :bigBetty:</Item>
-          <Item>Assume The Position :bigBetty:</Item>
-          <Item>Assume The Position :bigBetty:</Item>
-          <Item>Assume The Position :bigBetty:</Item>
-          <Item>Assume The Position :bigBetty:</Item>
-          <Item>Assume The Position :bigBetty:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>NUTFACT</Pattern>
-      <!-- Taigo -->
-      <Response>
-        <Random>
-          <Item>Did you know that Phil is from Frisco?</Item>
-          <Item>Did you know that ancient Greeks believed hazelnuts could treat coughing and baldness?</Item>
-          <Item>Did you know that the father of peanuts and peanut butter George Washington Carver had no nuts?</Item>
-          <Item>Did you know that Nut is the goddess of the sky in the ennead of ancient egyptian religion?</Item>
-          <Item>Did you know that coconuts are not nuts? They are technically drupes.</Item>
-          <Item>Did you know that u r mr gay?</Item>
-          <Item>Did you know that most Brazil nuts (which aren't even nuts) don't come from Brazil? The main exporter is Bolivia!</Item>
-          <Item>Did you know that until the mid-20th century, hazelnuts were called filberts?</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>TAIGO</Pattern>
-      <Response>
-        <Text Get="sentence">
-          <Goto>RANDOMADJECTIVE</Goto>
-        </Text>
-        <Text Get="sentence">
-          <Goto>RANDOMNOUN</Goto>
-        </Text> Taigo</Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS TAIGO</Pattern>
-      <Response>
-        <Goto>TAIGO</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>NUTFACTS</Pattern>
-      <Response>
-        <Goto>NUTFACT</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>^ NUT FACTS</Pattern>
-      <Response>
-        <Goto>NUTFACT</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>^ NUT FACT</Pattern>
-      <Response>
-        <Goto>NUTFACT</Goto>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_quips" Type="Public">
+		<Model>
+			<Pattern>FISTO</Pattern>
+			<!-- DeltabladeX -->
+			<Response>
+				<Random>
+					<Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
+					<Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
+					<Item>Numbness will subside in several minutes. :bigBetty:</Item>
+					<Item>I am programmed for your pleasure. :bigBetty:</Item>
+					<Item>I am programmed for your pleasure. :bigBetty:</Item>
+					<Item>Please assume the position :bigBetty:</Item>
+					<Item>Please assume the position :bigBetty:</Item>
+					<Item>Assume The Position :bigBetty:</Item>
+					<Item>Assume The Position :bigBetty:</Item>
+					<Item>Assume The Position :bigBetty:</Item>
+					<Item>Assume The Position :bigBetty:</Item>
+					<Item>Assume The Position :bigBetty:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>NUTFACT</Pattern>
+			<!-- Taigo -->
+			<Response>
+				<Random>
+					<Item>Did you know that Phil is from Frisco?</Item>
+					<Item>Did you know that ancient Greeks believed hazelnuts could treat coughing and baldness?</Item>
+					<Item>Did you know that the father of peanuts and peanut butter George Washington Carver had no nuts?</Item>
+					<Item>Did you know that Nut is the goddess of the sky in the ennead of ancient egyptian religion?</Item>
+					<Item>Did you know that coconuts are not nuts? They are technically drupes.</Item>
+					<Item>Did you know that u r mr gay?</Item>
+					<Item>Did you know that most Brazil nuts (which aren't even nuts) don't come from Brazil? The main exporter is Bolivia!</Item>
+					<Item>Did you know that until the mid-20th century, hazelnuts were called filberts?</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>TAIGO</Pattern>
+			<Response>
+				<Text Get="sentence">
+					<Goto>RANDOMADJECTIVE</Goto>
+				</Text>
+				<Text Get="sentence">
+					<Goto>RANDOMNOUN</Goto>
+				</Text> Taigo</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS TAIGO</Pattern>
+			<Response>
+				<Goto>TAIGO</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>NUTFACTS</Pattern>
+			<Response>
+				<Goto>NUTFACT</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^ NUT FACTS</Pattern>
+			<Response>
+				<Goto>NUTFACT</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^ NUT FACT</Pattern>
+			<Response>
+				<Goto>NUTFACT</Goto>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

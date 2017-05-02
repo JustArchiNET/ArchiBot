@@ -1,463 +1,484 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_fakenameof" Type="Public">
-    <Model>
-      <Pattern>WHAT IS AMINE WEEB TRASH</Pattern>
-      <Response>A disease that killed off a majority of Touhou Project culture in this group. It is also a form of escapism.</Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS TOUHOU GIVEAWAYS</Pattern>
-      <Response>
-        <Random>
-          <Item>Like any other giveaway group, but good.</Item>
-          <Item>A place where we play games! I think.</Item>
-          <Item>A place ruled by dictatorship, but runs on communism.</Item>
-          <Item>A place gathering 100 membe- wait, it's 99 now? Oh, Okay. A pla- wait 96? 92? What the hell are you doing Archi!?</Item>
-          <Item>Archi: "You know what? I'll make my own giveaway group! With blacklists and hookers!"</Item>
-          <Item>Formerly Archi's garage sale, apparently one man's trash is another man's treasure.</Item>
-          <Item>A place where we used to giveaway bundled games.</Item>
-          <Item>Purgatory.</Item>
-          <Item>Have you ever thought to yourself "Man, wouldn't it be great to go to a Chuck E Cheese?" Well, it's this group. Aside from less piss in the ball pit.</Item>
-          <Item>An elite group that only giveaways and plays high quality games. Say pal, wanna play 100% Orange Juice?</Item>
-          <Item>Like /pol/ but without white people.</Item>
-          <Item>A place where we trade nudes. But it's alright though because everyone here says they're 18.</Item>
-          <Item>Simply just Giveaways.</Item>
-          <Item>A giveaway group containing two kinds of people: hoarders and more hoarders.</Item>
-          <Item>Where weeaboos meet.</Item>
-          <Item>Do you mean: "Weeaboo Giveaways"?</Item>
-          <Item>Oh yeah, we used to talk about Touhou stuff, right?</Item>
-          <Item>You know, I don't even know myself.</Item>
-          <Item>I don't know. Isn't there a FAQ somewhere?</Item>
-          <Item>"An excellent group." -me</Item>
-          <Item>A place where we get wasted and jump off a cliff. Though, it doesn't have to be in that order.</Item>
-          <Item>Honestly, do you even need to ask?</Item>
-          <Item>Try again.</Item>
-          <Item>A place where we can break rules outside of SteamGifts.</Item>
-          <Item>A Steam group that focuses on delivering and receiving Steam games through the website SteamGifts, maintained by the administrators and a bot. (Boring definition ain't it?)</Item>
-          <Item>If you would like to receive assistance, press 1.</Item>
-          <Item>Meme AIDS.</Item>
-          <Item>Bad end.</Item>
-          <Item>Good end.</Item>
-          <Item>The number one spot to do illegal amine weeb trash trafficking.</Item>
-          <Item>A place where we giveaway games. How many games you ask? Well, how much bread have you eaten in your lifetime?</Item>
-          <Item>Cyber Monday 24/7.</Item>
-          <Item>? ????? ????? ???? ??????? ?? ?????????? ??? ????????? ????? ????? ??????? ??? ??????? ??????????, ?????????? ?? ??? ?????????????? ??? ? ???.</Item>
-          <Item>A giveaway group that gives away more games than the amount of tools Batman can carry around his belt.</Item>
-          <Item>A place where you can step on the grass*! (*Note: $250 fine.)</Item>
-          <Item>The *only* Steam group that uses the Chat feature.</Item>
-          <Item>A place with a swimming pool.</Item>
-          <Item>*DEFINITION REDACTED*</Item>
-          <Item>WHAT IS TOUHOU GIVEAWAYS</Item>
-          <Item>A place where we can settle our differences like men.</Item>
-          <Item>A place where no copyright law can stop me!</Item>
-          <Item>We talk about games we don't play.</Item>
-          <Item>Rule 1: Don't talk about Touhou Giveaways.</Item>
-          <Item>A place where everything is permitted. Just don't be a dick.</Item>
-          <Item>Like Tumblr, but not shit.</Item>
-          <Item>A place where you can be a special snowflake.</Item>
-          <Item>A place where you can post porn and we won't stop you. Unless it's vore. Fuck that.</Item>
-          <Item>A group that Archi hoped to bring in more people with the same interests as his. Now Archi learned never to leave a fishing net unattended.</Item>
-          <Item>A group that Archi hoped to bring in more people with the same interests as his. Boy was he wrong.</Item>
-          <Item>I could tell you the definition, but why would I?</Item>
-          <Item>Like Bundle Quest, but not shit.</Item>
-          <Item>I'm not paid to make this definition.</Item>
-          <Item>Help! I have fallen, and I can't get up!</Item>
-          <Item>You can never have too many games, right?</Item>
-          <Item>A place where we can share our favorite games. Now if we could only play said games...</Item>
-          <Item>A place that used to be about Touhous and games. Now it's just games.</Item>
-          <Item>You could be doing great things in life. Instead, you choose to be on chat looking for the definition of this group.</Item>
-          <Item>Serving it up, Gary's way!</Item>
-          <Item>A place where we constantly use the duel function to perform battles from 100% Orange Juice. You know, the only mechanic from that game that's not shit?</Item>
-          <Item>:3</Item>
-          <Item>There are 60+ definitions for Touhou Giveaways. Think you can find them all?</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS HEAVEN</Pattern>
-      <Response>A place cold as the dark, now my words, are frosted with every breath. Still the hate burns wild, growing inside this heart. When the wind changes course, when the stars align, I will reach out to you and leave this all behind...</Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS A BRIT</Pattern>
-      <Response>Someone who eats beans on toast.</Response>
-    </Model>
-    <Model>
-      <Pattern>REMEMBER WHEN CHAT WAS ACTIVE</Pattern>
-      <Response>Nope.</Response>
-    </Model>
-    <Model>
-      <Pattern>:3</Pattern>
-      <Response>:3</Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS FAKENAME</Pattern>
-      <Response>
-        <Random>
-          <Item>OF mice and men.</Item>
-          <Item>Lord OF the flies.</Item>
-          <Item>The Grapes OF Wrath.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS FAKENAMEOF</Pattern>
-      <Response>
-        <Random>
-          <Item>The guy who took down the "Touhou" in "Touhou Giveaways."</Item>
-          <Item>The person who plays "amine weeb trash."</Item>
-          <Item>The core of the weeaboo pandemic.</Item>
-          <Item>A moderator on Touhou Giveaways... implying he isn't banned on SteamGifts for posting wangs obviously.</Item>
-          <Item>The guy who sits in the back.</Item>
-          <Item>An honest guy who doesn't clickbait. Don't believe me? The answer may surprise you!</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>DO YOU LIKE AMINE WEEB TRASH</Pattern>
-      <Response>Amine weeb trash hurts the soul of a human being. But since I am not human...</Response>
-    </Model>
-    <Model>
-      <Pattern>ANIME</Pattern>
-      <Response>AMINE WEEB TRASH. FUCKING NORMIES.</Response>
-    </Model>
-    <Model>
-      <Pattern>ANIMU</Pattern>
-      <Response>
-        <Goto>ANIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>AMINE</Pattern>
-      <Response>
-        <Goto>ANIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT THE FUCK IS A SONIC</Pattern>
-      <Response>WELCOME TO SONIC TEAM. WE MAKE GAMES I THINK.</Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS OJ</Pattern>
-      <Response>
-        <Random>
-          <Item>Orange Juice.</Item>
-          <Item>Playing video games can be suffering.</Item>
-          <Item>100 percent bullshit.</Item>
-          <Item>World War II Oven Baking Simulator.</Item>
-          <Item>Objective Jurisdictions.</Item>
-          <Item>Originally Juvenille; Otherwise Juxtaposed</Item>
-          <Item>The liquid that comes out of your eyes after a shit session.</Item>
-          <Item>A drink mixed from the following ingredients: salt and tears.</Item>
-          <Item>The rektoning.</Item>
-          <Item>100 percent Orange Juice: A video game best played in the mornings to see if you should go outside or not.</Item>
-          <Item>OR-EN-JI iro ni hayaku naritai kajitsu kimi no jikari o abite!</Item>
-          <Item>We should play some OJ then.</Item>
-          <Item>The power packed taste of the salt!</Item>
-          <Item>Orange you glad you could be playing a better game?</Item>
-          <Item>An ancient relic similar to a Talisman.</Item>
-          <Item>Like Mario Party, minus the skill, strategy, and fun.</Item>
-          <Item>:100oj:</Item>
-          <Item>:steamsalty:</Item>
-          <Item>Overabusive Jonathan.</Item>
-          <Item>A sour shower.</Item>
-          <Item>The color of your tears.</Item>
-          <Item>Can't spell Mandarin without "Man, this game sucks!"</Item>
-          <Item>The Game of Life. As in, life is unfair.</Item>
-          <Item>Today, I tried eating an orange. But again, it was so sour I cried.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS ORANGE JUICE</Pattern>
-      <Response>
-        <Goto>WHAT IS OJ</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS 100 PERCENT ORANGE JUICE</Pattern>
-      <Response>
-        <Goto>WHAT IS OJ</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS 100 PERCENT OJ</Pattern>
-      <Response>
-        <Goto>WHAT IS OJ</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS 100 OJ</Pattern>
-      <Response>
-        <Goto>WHAT IS OJ</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS 100 ORANGE JUICE</Pattern>
-      <Response>
-        <Goto>WHAT IS OJ</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>FORTUNE</Pattern>
-      <Response>
-        <Random>
-          <Item>Your future will prosper.</Item>
-          <Item>Your future is doomed.</Item>
-          <Item>You will find true love eventually.</Item>
-          <Item>You will walk a disastrous path in your relationship.</Item>
-          <Item>Your relationship will continue to grow.</Item>
-          <Item>Don't let your dreams be dreams.</Item>
-          <Item>Just do it!</Item>
-          <Item>It is a good day to relax.</Item>
-          <Item>You may want to work a little harder this week.</Item>
-          <Item>Dress up in your best clothing. It's going to be a good day!</Item>
-          <Item>Try to brace yourself for what's coming up.</Item>
-          <Item>A smile is your passport into the heart of others.</Item>
-          <Item>A friend asks for your time, not your money.</Item>
-          <Item>The greatest risk is not taking one.</Item>
-          <Item>You better hope that condom didn't break.</Item>
-          <Item>It's amazing how much good you can do if you don't care who gets the credit.</Item>
-          <Item>You will make heads turn.</Item>
-          <Item>Nothing seems impossible to you.</Item>
-          <Item>Life is like a box of chocolates.</Item>
-          <Item>In case of fire: keep calm, pay bill, and run.</Item>
-          <Item>Arrogance is only a short-term reward.</Item>
-          <Item>We will all die one day</Item>
-          <Item>Go outside!</Item>
-          <Item>Give up!</Item>
-          <Item>You're throwing your life away.</Item>
-          <Item>Your soul is hidden deep within the darkness.</Item>
-          <Item>You are playing it wrong, give me the controller.</Item>
-          <Item>Blame nobody but yourself</Item>
-          <Item>Life has many branches. Choose one.</Item>
-          <Item>Life is never fair. Deal with it.</Item>
-          <Item>You make your own choices.</Item>
-          <Item>Shape the world with your own hands.</Item>
-          <Item>Open your heart.</Item>
-          <Item>Live and learn.</Item>
-          <Item>What doesn't kill you makes you stronger!</Item>
-          <Item>You know I still love you.</Item>
-          <Item>Wake me up when it's over.</Item>
-          <Item>Here's to never growing up.</Item>
-          <Item>You're beautiful.</Item>
-          <Item>Forgive.</Item>
-          <Item>When you're ready, come and get it.</Item>
-          <Item>Smile.</Item>
-          <Item>Bring me a higher love.</Item>
-          <Item>Where there is desire, there is going to be a flame.</Item>
-          <Item>Just know you're not alone.</Item>
-          <Item>Lend your money and lose a friend.</Item>
-          <Item>Your wish will come true.</Item>
-          <Item>You can still love what you can not have in life.</Item>
-          <Item>Good things take time.</Item>
-          <Item>Make a wise choice everyday.</Item>
-          <Item>Life does not get better by chance. It gets better by change.</Item>
-          <Item>If you speak honestly, everyone will listen.</Item>
-          <Item>Generosity will repay itself sooner than you imagine.</Item>
-          <Item>I have a dream... time to go to bed.</Item>
-          <Item>In order to get the rainbow, you must endure the rain.</Item>
-          <Item>Don't worry. Half the people you know are below average.</Item>
-          <Item>You don't need talent to gain experience.</Item>
-          <Item>I'll never get over you getting over me.</Item>
-          <Item>We don't even have to try, it's always a good time!</Item>
-          <Item>Never gonna give you up. Never gonna let you down!</Item>
-          <Item>And now it's clear to me that everything you see ain't what it seems.</Item>
-          <Item>I'm at a payphone trying to call home.</Item>
-          <Item>Where have the times gone?</Item>
-          <Item>Slide to the left!</Item>
-          <Item>Slide to the right!</Item>
-          <Item>With the lights out, it's less dangerous.</Item>
-          <Item>You seem very well, things look peaceful.</Item>
-          <Item>This is who I am. You can like it or not.</Item>
-          <Item>Take your medicine.</Item>
-          <Item>What do you want to do today?</Item>
-          <Item>Choose your own path.</Item>
-          <Item>Do not lose your head.</Item>
-          <Item>Believe in yourself.</Item>
-          <Item>Meet strangers without prejudice.</Item>
-          <Item>Do not look so hurt, others have problems too.</Item>
-          <Item>It is dangerous to go alone.</Item>
-          <Item>Aim high; time flies.</Item>
-          <Item>The cure for grief is movement.</Item>
-          <Item>Cookie says, "You crack me up."</Item>
-          <Item>If your cookie is still in one piece, go to the lottery.</Item>
-          <Item>Too many people volunteer to carry the stool when it's time to move the piano.</Item>
-          <Item>Word to the wise: don't play leapfrog with a unicorn...</Item>
-          <Item>Forgive your enemies, but never forget them.</Item>
-          <Item>It's much easier to look for the bad, than it is to find the good.</Item>
-          <Item>Soon, a visitor will delight you.</Item>
-          <Item>Be careful about your next purchase.</Item>
-          <Item>Get a refund as soon as possible.</Item>
-          <Item>Don't let Gabe Newell take all your money.</Item>
-          <Item>Don't idle for too long!</Item>
-          <Item>Maybe you should sell some trading cards.</Item>
-          <Item>Don't forget to keep your drivers updated!</Item>
-          <Item>Reset the router if anything happens.</Item>
-          <Item>Be brave. Take risks.</Item>
-          <Item>You can become blind by seeing each day as a similar one.</Item>
-          <Item>It is a fine thing to be honest, but it is also very important to be right.</Item>
-          <Item>One of the most tragic things I know about human nature is that all of us tend to put off living.</Item>
-          <Item>The value of an idea lies in its use.</Item>
-          <Item>If your actions inspire others to dream more, learn more, do more, and become more, you are a leader.</Item>
-          <Item>Our greatest weakness lies in giving up.</Item>
-          <Item>It is the set of the sails, not the direction of the wind that determines which way we will go.</Item>
-          <Item>Integrity is telling yourself the truth.</Item>
-          <Item>Formal education will make you a living; self-education will make you a fortune.</Item>
-          <Item>Learn to enjoy every minute of your life. Be happy now.</Item>
-          <Item>Discouragement and failure are two of the surest stepping stones to success.</Item>
-          <Item>People rarely succeed unless they have fun in what they are doing.</Item>
-          <Item>There is far more opportunity than there is ability.</Item>
-          <Item>Turn up the music, just turn it up louder.</Item>
-          <Item>The sun goes down. The stars come out.</Item>
-          <Item>Girls just wanna have fun.</Item>
-          <Item>Yesterday doesn't matter if it's gone.</Item>
-          <Item>Feed the world. Let them know it's Christmas time.</Item>
-          <Item>Dream on.</Item>
-          <Item>Tell me, did you fall for a shooting star?</Item>
-          <Item>Jenny don't change your number, 867-5309.</Item>
-          <Item>The bruises they will fade away.</Item>
-          <Item>Nothing is as good or bad as it appears.</Item>
-          <Item>Warning: do not eat your fortune.</Item>
-          <Item>Oops... wrong cookie.</Item>
-          <Item>Oops... wrong fortune.</Item>
-          <Item>Believing is doing.</Item>
-          <Item>Stop procrastinating... starting tomorrow.</Item>
-          <Item>Others enjoy your company.</Item>
-          <Item>A cheerful message is on its way to you.</Item>
-          <Item>Eat something you never tried before.</Item>
-          <Item>Reading to the mind is what exercise is to the body.</Item>
-          <Item>To build a better world, start in your community.</Item>
-          <Item>Don't cry.</Item>
-          <Item>Love thy neighbor, just don't get caught.</Item>
-          <Item>You are not illiterate.</Item>
-          <Item>Action speaks nothing without a motive.</Item>
-          <Item>Take care of your body. It's the only place you have to live.</Item>
-          <Item>Whatever you have, you must either use or lose.</Item>
-          <Item>It is better to create than to learn!</Item>
-          <Item>It is always your next move.</Item>
-          <Item>Sometimes you have to give up the fight and walk away, and move on to something that's more productive.</Item>
-          <Item>Life was always a matter of waiting for the right moment to act.</Item>
-          <Item>Never say anything about yourself you do not want to come true.</Item>
-          <Item>It doesn't matter which side of the fence you get off on sometimes. What matters most if getting off.</Item>
-          <Item>Gravitation is not responsible for people falling in love.</Item>
-          <Item>We make a living by what we get, but we make a life by what we give.</Item>
-          <Item>Go ask your mom.</Item>
-          <Item>Good clothes open many doors. Go shopping.</Item>
-          <Item>You may be hungry soon. Order a takeout now.</Item>
-          <Item>How can you have a beautiful ending without making beautiful mistakes?</Item>
-          <Item>Friends long absent are coming back to you.</Item>
-          <Item>Accept yourself.</Item>
-          <Item>Never quit!</Item>
-          <Item>Judge not according to the appearance.</Item>
-          <Item>You will be sharing great news with all people you love.</Item>
-          <Item>You're doomed.</Item>
-          <Item>Life is too short to hold grudges.</Item>
-          <Item>Shoot for the moon! If you miss you will still be among the stars.</Item>
-          <Item>A pleasant surprise is waiting for you.</Item>
-          <Item>A nasty surprise is waiting for you.</Item>
-          <Item>A virtual fortune cookie will not satisfy your hunger likes that of a homemade one.</Item>
-          <Item>Great things come from the heart.</Item>
-          <Item>It's amine weeb trash time.</Item>
-          <Item>The answer may surprise you!</Item>
-          <Item>Let Archi know you have problems.</Item>
-          <Item>Decide now.</Item>
-          <Item>Check the oven.</Item>
-          <Item>That'll be $0.99.</Item>
-          <Item>:3</Item>
-          <Item>Help! I am trapped in a fortune cookie machine!</Item>
-          <Item>More than one waifu will destroy your laifu.</Item>
-          <Item>Hard work pays off in the future, laziness pays off now. :blissful_creep:</Item>
-          <Item>You learn from your mistakes... You will learn a lot today.</Item>
-          <Item>傷心有多少 在乎就有多少</Item>
-          <Item>Never give up. You're not a failure if you don't give up.</Item>
-          <Item>You must try, or hate yourself for not trying.</Item>
-          <Item>You can make your own happiness.</Item>
-          <Item>It's better to be alone sometimes.</Item>
-          <Item>When fear hurts you, conquer it and defeat it!</Item>
-          <Item>The man on the top of the mountain did not fall there.</Item>
-          <Item>Stop wishing. Start doing.</Item>
-          <Item>DEDICATION MOTIVATION ACCELERATION</Item>
-          <Item>Stay true to those who would do the same for you.</Item>
-          <Item>Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.</Item>
-          <Item>Your fortune is as sweet as a cookie.</Item>
-          <Item>When hungry, order more Chinese food.</Item>
-          <Item>A good way to stay healthy is to eat more Chinese food.</Item>
-          <Item>All your fingers can't be of the same length.</Item>
-          <Item>Everything happens for a reason.</Item>
-          <Item>To be old and wise, you must first be young and stupid.</Item>
-          <Item>Never ask what hot dogs are made of.</Item>
-          <Item>Patience is a virtue, unless it's against a brick wall.</Item>
-          <Item>If you are afraid to shake the dice, you will never throw a six.</Item>
-          <Item>You try hard, never to fail. You don't, never to win.</Item>
-          <Item>It never pays to kick a skunk.</Item>
-          <Item>If you are never patient, you will never get anything done. If you believe you can do it, you will be rewarded with success.</Item>
-          <Item>Your smile brings happiness to everyone you meet.</Item>
-          <Item>!nsfw is not for the faint of heart.</Item>
-          <Item>ヽ༼ຈ͜لຈ༽ﾉ raise your dongers ヽ༼ຈ͜لຈ༽ﾉ</Item>
-          <Item>It's about time you asked that special someone on a date.</Item>
-          <Item>Put your unhappiness aside. Life is beautiful, be happy.</Item>
-          <Item>If you never expect anything, you can never be disappointed.</Item>
-          <Item>Follow your bliss and the Universe will open doors where there were once only walls. :blissful_creep:</Item>
-          <Item>All the water in the world can't sink a ship unless it gets inside.</Item>
-          <Item>Do what is right, not what you should.</Item>
-          <Item>Bread today is better than cake tomorrow.</Item>
-          <Item>It's all right to have butterflies in your stomach. Just get them to fly in formation.</Item>
-          <Item>Let your fantasies unwind...</Item>
-          <Item>The Wheel of Good Fortune is finally turning in your direction!</Item>
-          <Item>Don't lead if you won't lead.</Item>
-          <Item>Don't forget to idle.</Item>
-          <Item>:dice6:  :ojseagull:</Item>
-          <Item>100% OJ time.</Item>
-          <Item>Talismano time.</Item>
-          <Item>pew pew time.</Item>
-          <Item>Kero Floor 2hu time.</Item>
-          <Item>bad time time.</Item>
-          <Item>Save Emmerich time.</Item>
-          <Item>Rocket League time.</Item>
-          <Item>:steamsalty:</Item>
-          <Item>{Insert generic amine grill} best grill.</Item>
-          <Item>Kawanishi-Noseguchi, Kinunobebashi, Takiyama, Uguisunomori, Tsuzumigataki, Tada, Hirano, Ichinotorii, Uneno, Yamashita, Sasabe, Kofudai, Tokiwadai, Myoukenguchi</Item>
-          <Item>You'll ruin your eyes sitting so close to the TV. </Item>
-          <Item>Something happened to me last Thursday when I was driving home. I had a couple of miles to go -- I looked up and saw a glowing orange object in the sky, to the east! It was moving very irregularly... Suddenly, there was intense light all around me -- and when I came to, I was home. What do you think happened to me...?</Item>
-          <Item>I hear it's amazing when the famous purple stuffed worm in flap-jaw space with the tuning fork does a raw blink on Hara-kiri Rock. I need scissors! 61!</Item>
-          <Item>...Infiltrate... ...the enemy fortress... ...Outer Heaven! ...Destroy... ...the final weapon... ...Metal Gear!</Item>
-          <Item>Even my patience has its limits. I just can't leave this thing up to you any longer. I'll do the fighting! You can just go home!</Item>
-          <Item>An Anemone or Clamatis plant's juice can cause a rash. When pruning them it's a good idea to wear gloves.</Item>
-          <Item>I was a North American Fall Webworm in my past life. Those were the good old days... What were you in your former life?</Item>
-          <Item>Variety Level 7. Shoot down the space invaders! Training will have to be postponed if we are invaded by UFOs.</Item>
-          <Item>I'm not home right now. Please leave a message after the beep. BEEP!</Item>
-          <Item>That reminds me, I saw Gubayama the other day in Shibomnigee. He said to give you his best.</Item>
-          <Item>La-Li-Lu-Le-Lo! La-Li-Lu-Le-Lo! La-Li-Lu-Le-Lo!</Item>
-          <Item>La-Li-Lu-Le-Lo</Item>
-          <Item>You don't know the awesomeness of a puppy's paw pads?</Item>
-          <Item>:Miller:</Item>
-          <Item>No refunds.</Item>
-          <Item>Sleep time.</Item>
-          <Item>Nap time.</Item>
-          <Item>:steamsalty::compa: あなたの塩が持って来ましたです～</Item>
-          <Item>:Neko:MYON:Neko: time.</Item>
-          <Item>Hop like a speed demon.</Item>
-          <Item>You should bunny hop all the way through ivy, out middle through their connector LIKE A SPEED DEMON!</Item>
-          <Item>Make them talk about your one taps.</Item>
-          <Item>They talk about my one taps.</Item>
-          <Item>Sanity is for the weak!</Item>
-          <Item>Welcome to the NZTi! Dark Stars chatroom, your group application will be processed soon.</Item>
-          <Item>:vert:</Item>
-          <Item>:zeemonster::sgsmile:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>FORTUNES</Pattern>
-      <Response>
-        <Goto>FORTUNE</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>FORTUNE COOKIE</Pattern>
-      <Response>
-        <Goto>FORTUNE</Goto>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_fakenameof" Type="Public">
+		<Model>
+			<Pattern>WHAT IS AMINE WEEB TRASH</Pattern>
+			<Response>A disease that killed off a majority of Touhou Project culture in this group. It is also a form of escapism.</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS TOUHOU GIVEAWAYS</Pattern>
+			<Response>
+				<Random>
+					<Item>Like any other giveaway group, but good.</Item>
+					<Item>A place where we play games! I think.</Item>
+					<Item>A place ruled by dictatorship, but runs on communism.</Item>
+					<Item>A place gathering 100 membe- wait, it's 99 now? Oh, Okay. A pla- wait 96? 92? What the hell are you doing Archi!?</Item>
+					<Item>Archi: "You know what? I'll make my own giveaway group! With blacklists and hookers!"</Item>
+					<Item>Formerly Archi's garage sale, apparently one man's trash is another man's treasure.</Item>
+					<Item>A place where we used to giveaway bundled games.</Item>
+					<Item>Purgatory.</Item>
+					<Item>Have you ever thought to yourself "Man, wouldn't it be great to go to a Chuck E Cheese?" Well, it's this group. Aside from less piss in the ball pit.</Item>
+					<Item>An elite group that only giveaways and plays high quality games. Say pal, wanna play 100% Orange Juice?</Item>
+					<Item>Like /pol/ but without white people.</Item>
+					<Item>A place where we trade nudes. But it's alright though because everyone here says they're 18.</Item>
+					<Item>Simply just Giveaways.</Item>
+					<Item>A giveaway group containing two kinds of people: hoarders and more hoarders.</Item>
+					<Item>Where weeaboos meet.</Item>
+					<Item>Do you mean: "Weeaboo Giveaways"?</Item>
+					<Item>Oh yeah, we used to talk about Touhou stuff, right?</Item>
+					<Item>You know, I don't even know myself.</Item>
+					<Item>I don't know. Isn't there a FAQ somewhere?</Item>
+					<Item>"An excellent group." -me</Item>
+					<Item>A place where we get wasted and jump off a cliff. Though, it doesn't have to be in that order.</Item>
+					<Item>Honestly, do you even need to ask?</Item>
+					<Item>Try again.</Item>
+					<Item>A place where we can break rules outside of SteamGifts.</Item>
+					<Item>A Steam group that focuses on delivering and receiving Steam games through the website SteamGifts, maintained by the administrators and a bot. (Boring definition ain't it?)</Item>
+					<Item>If you would like to receive assistance, press 1.</Item>
+					<Item>Meme AIDS.</Item>
+					<Item>Bad end.</Item>
+					<Item>Good end.</Item>
+					<Item>The number one spot to do illegal amine weeb trash trafficking.</Item>
+					<Item>A place where we giveaway games. How many games you ask? Well, how much bread have you eaten in your lifetime?</Item>
+					<Item>Cyber Monday 24/7.</Item>
+					<Item>? ????? ????? ???? ??????? ?? ?????????? ??? ????????? ????? ????? ??????? ??? ??????? ??????????, ?????????? ?? ??? ?????????????? ??? ? ???.</Item>
+					<Item>A giveaway group that gives away more games than the amount of tools Batman can carry around his belt.</Item>
+					<Item>A place where you can step on the grass*! (*Note: $250 fine.)</Item>
+					<Item>The *only* Steam group that uses the Chat feature.</Item>
+					<Item>A place with a swimming pool.</Item>
+					<Item>*DEFINITION REDACTED*</Item>
+					<Item>WHAT IS TOUHOU GIVEAWAYS</Item>
+					<Item>A place where we can settle our differences like men.</Item>
+					<Item>A place where no copyright law can stop me!</Item>
+					<Item>We talk about games we don't play.</Item>
+					<Item>Rule 1: Don't talk about Touhou Giveaways.</Item>
+					<Item>A place where everything is permitted. Just don't be a dick.</Item>
+					<Item>Like Tumblr, but not shit.</Item>
+					<Item>A place where you can be a special snowflake.</Item>
+					<Item>A place where you can post porn and we won't stop you. Unless it's vore. Fuck that.</Item>
+					<Item>A group that Archi hoped to bring in more people with the same interests as his. Now Archi learned never to leave a fishing net unattended.</Item>
+					<Item>A group that Archi hoped to bring in more people with the same interests as his. Boy was he wrong.</Item>
+					<Item>I could tell you the definition, but why would I?</Item>
+					<Item>Like Bundle Quest, but not shit.</Item>
+					<Item>I'm not paid to make this definition.</Item>
+					<Item>Help! I have fallen, and I can't get up!</Item>
+					<Item>You can never have too many games, right?</Item>
+					<Item>A place where we can share our favorite games. Now if we could only play said games...</Item>
+					<Item>A place that used to be about Touhous and games. Now it's just games.</Item>
+					<Item>You could be doing great things in life. Instead, you choose to be on chat looking for the definition of this group.</Item>
+					<Item>Serving it up, Gary's way!</Item>
+					<Item>A place where we constantly use the duel function to perform battles from 100% Orange Juice. You know, the only mechanic from that game that's not shit?</Item>
+					<Item>:3</Item>
+					<Item>There are 60+ definitions for Touhou Giveaways. Think you can find them all?</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS HEAVEN</Pattern>
+			<Response>A place cold as the dark, now my words, are frosted with every breath. Still the hate burns wild, growing inside this heart. When the wind changes course, when the stars align, I will reach out to you and leave this all behind...</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS A BRIT</Pattern>
+			<Response>Someone who eats beans on toast.</Response>
+		</Model>
+
+		<Model>
+			<Pattern>REMEMBER WHEN CHAT WAS ACTIVE</Pattern>
+			<Response>Nope.</Response>
+		</Model>
+
+		<Model>
+			<Pattern>:3</Pattern>
+			<Response>:3</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS FAKENAME</Pattern>
+			<Response>
+				<Random>
+					<Item>OF mice and men.</Item>
+					<Item>Lord OF the flies.</Item>
+					<Item>The Grapes OF Wrath.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS FAKENAMEOF</Pattern>
+			<Response>
+				<Random>
+					<Item>The guy who took down the "Touhou" in "Touhou Giveaways."</Item>
+					<Item>The person who plays "amine weeb trash."</Item>
+					<Item>The core of the weeaboo pandemic.</Item>
+					<Item>A moderator on Touhou Giveaways... implying he isn't banned on SteamGifts for posting wangs obviously.</Item>
+					<Item>The guy who sits in the back.</Item>
+					<Item>An honest guy who doesn't clickbait. Don't believe me? The answer may surprise you!</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>DO YOU LIKE AMINE WEEB TRASH</Pattern>
+			<Response>Amine weeb trash hurts the soul of a human being. But since I am not human...</Response>
+		</Model>
+
+		<Model>
+			<Pattern>ANIME</Pattern>
+			<Response>AMINE WEEB TRASH. FUCKING NORMIES.</Response>
+		</Model>
+
+		<Model>
+			<Pattern>ANIMU</Pattern>
+			<Response>
+				<Goto>ANIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>AMINE</Pattern>
+			<Response>
+				<Goto>ANIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT THE FUCK IS A SONIC</Pattern>
+			<Response>WELCOME TO SONIC TEAM. WE MAKE GAMES I THINK.</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS OJ</Pattern>
+			<Response>
+				<Random>
+					<Item>Orange Juice.</Item>
+					<Item>Playing video games can be suffering.</Item>
+					<Item>100 percent bullshit.</Item>
+					<Item>World War II Oven Baking Simulator.</Item>
+					<Item>Objective Jurisdictions.</Item>
+					<Item>Originally Juvenille; Otherwise Juxtaposed</Item>
+					<Item>The liquid that comes out of your eyes after a shit session.</Item>
+					<Item>A drink mixed from the following ingredients: salt and tears.</Item>
+					<Item>The rektoning.</Item>
+					<Item>100 percent Orange Juice: A video game best played in the mornings to see if you should go outside or not.</Item>
+					<Item>OR-EN-JI iro ni hayaku naritai kajitsu kimi no jikari o abite!</Item>
+					<Item>We should play some OJ then.</Item>
+					<Item>The power packed taste of the salt!</Item>
+					<Item>Orange you glad you could be playing a better game?</Item>
+					<Item>An ancient relic similar to a Talisman.</Item>
+					<Item>Like Mario Party, minus the skill, strategy, and fun.</Item>
+					<Item>:100oj:</Item>
+					<Item>:steamsalty:</Item>
+					<Item>Overabusive Jonathan.</Item>
+					<Item>A sour shower.</Item>
+					<Item>The color of your tears.</Item>
+					<Item>Can't spell Mandarin without "Man, this game sucks!"</Item>
+					<Item>The Game of Life. As in, life is unfair.</Item>
+					<Item>Today, I tried eating an orange. But again, it was so sour I cried.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS ORANGE JUICE</Pattern>
+			<Response>
+				<Goto>WHAT IS OJ</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS 100 PERCENT ORANGE JUICE</Pattern>
+			<Response>
+				<Goto>WHAT IS OJ</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS 100 PERCENT OJ</Pattern>
+			<Response>
+				<Goto>WHAT IS OJ</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS 100 OJ</Pattern>
+			<Response>
+				<Goto>WHAT IS OJ</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS 100 ORANGE JUICE</Pattern>
+			<Response>
+				<Goto>WHAT IS OJ</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>FORTUNE</Pattern>
+			<Response>
+				<Random>
+					<Item>Your future will prosper.</Item>
+					<Item>Your future is doomed.</Item>
+					<Item>You will find true love eventually.</Item>
+					<Item>You will walk a disastrous path in your relationship.</Item>
+					<Item>Your relationship will continue to grow.</Item>
+					<Item>Don't let your dreams be dreams.</Item>
+					<Item>Just do it!</Item>
+					<Item>It is a good day to relax.</Item>
+					<Item>You may want to work a little harder this week.</Item>
+					<Item>Dress up in your best clothing. It's going to be a good day!</Item>
+					<Item>Try to brace yourself for what's coming up.</Item>
+					<Item>A smile is your passport into the heart of others.</Item>
+					<Item>A friend asks for your time, not your money.</Item>
+					<Item>The greatest risk is not taking one.</Item>
+					<Item>You better hope that condom didn't break.</Item>
+					<Item>It's amazing how much good you can do if you don't care who gets the credit.</Item>
+					<Item>You will make heads turn.</Item>
+					<Item>Nothing seems impossible to you.</Item>
+					<Item>Life is like a box of chocolates.</Item>
+					<Item>In case of fire: keep calm, pay bill, and run.</Item>
+					<Item>Arrogance is only a short-term reward.</Item>
+					<Item>We will all die one day</Item>
+					<Item>Go outside!</Item>
+					<Item>Give up!</Item>
+					<Item>You're throwing your life away.</Item>
+					<Item>Your soul is hidden deep within the darkness.</Item>
+					<Item>You are playing it wrong, give me the controller.</Item>
+					<Item>Blame nobody but yourself</Item>
+					<Item>Life has many branches. Choose one.</Item>
+					<Item>Life is never fair. Deal with it.</Item>
+					<Item>You make your own choices.</Item>
+					<Item>Shape the world with your own hands.</Item>
+					<Item>Open your heart.</Item>
+					<Item>Live and learn.</Item>
+					<Item>What doesn't kill you makes you stronger!</Item>
+					<Item>You know I still love you.</Item>
+					<Item>Wake me up when it's over.</Item>
+					<Item>Here's to never growing up.</Item>
+					<Item>You're beautiful.</Item>
+					<Item>Forgive.</Item>
+					<Item>When you're ready, come and get it.</Item>
+					<Item>Smile.</Item>
+					<Item>Bring me a higher love.</Item>
+					<Item>Where there is desire, there is going to be a flame.</Item>
+					<Item>Just know you're not alone.</Item>
+					<Item>Lend your money and lose a friend.</Item>
+					<Item>Your wish will come true.</Item>
+					<Item>You can still love what you can not have in life.</Item>
+					<Item>Good things take time.</Item>
+					<Item>Make a wise choice everyday.</Item>
+					<Item>Life does not get better by chance. It gets better by change.</Item>
+					<Item>If you speak honestly, everyone will listen.</Item>
+					<Item>Generosity will repay itself sooner than you imagine.</Item>
+					<Item>I have a dream... time to go to bed.</Item>
+					<Item>In order to get the rainbow, you must endure the rain.</Item>
+					<Item>Don't worry. Half the people you know are below average.</Item>
+					<Item>You don't need talent to gain experience.</Item>
+					<Item>I'll never get over you getting over me.</Item>
+					<Item>We don't even have to try, it's always a good time!</Item>
+					<Item>Never gonna give you up. Never gonna let you down!</Item>
+					<Item>And now it's clear to me that everything you see ain't what it seems.</Item>
+					<Item>I'm at a payphone trying to call home.</Item>
+					<Item>Where have the times gone?</Item>
+					<Item>Slide to the left!</Item>
+					<Item>Slide to the right!</Item>
+					<Item>With the lights out, it's less dangerous.</Item>
+					<Item>You seem very well, things look peaceful.</Item>
+					<Item>This is who I am. You can like it or not.</Item>
+					<Item>Take your medicine.</Item>
+					<Item>What do you want to do today?</Item>
+					<Item>Choose your own path.</Item>
+					<Item>Do not lose your head.</Item>
+					<Item>Believe in yourself.</Item>
+					<Item>Meet strangers without prejudice.</Item>
+					<Item>Do not look so hurt, others have problems too.</Item>
+					<Item>It is dangerous to go alone.</Item>
+					<Item>Aim high; time flies.</Item>
+					<Item>The cure for grief is movement.</Item>
+					<Item>Cookie says, "You crack me up."</Item>
+					<Item>If your cookie is still in one piece, go to the lottery.</Item>
+					<Item>Too many people volunteer to carry the stool when it's time to move the piano.</Item>
+					<Item>Word to the wise: don't play leapfrog with a unicorn...</Item>
+					<Item>Forgive your enemies, but never forget them.</Item>
+					<Item>It's much easier to look for the bad, than it is to find the good.</Item>
+					<Item>Soon, a visitor will delight you.</Item>
+					<Item>Be careful about your next purchase.</Item>
+					<Item>Get a refund as soon as possible.</Item>
+					<Item>Don't let Gabe Newell take all your money.</Item>
+					<Item>Don't idle for too long!</Item>
+					<Item>Maybe you should sell some trading cards.</Item>
+					<Item>Don't forget to keep your drivers updated!</Item>
+					<Item>Reset the router if anything happens.</Item>
+					<Item>Be brave. Take risks.</Item>
+					<Item>You can become blind by seeing each day as a similar one.</Item>
+					<Item>It is a fine thing to be honest, but it is also very important to be right.</Item>
+					<Item>One of the most tragic things I know about human nature is that all of us tend to put off living.</Item>
+					<Item>The value of an idea lies in its use.</Item>
+					<Item>If your actions inspire others to dream more, learn more, do more, and become more, you are a leader.</Item>
+					<Item>Our greatest weakness lies in giving up.</Item>
+					<Item>It is the set of the sails, not the direction of the wind that determines which way we will go.</Item>
+					<Item>Integrity is telling yourself the truth.</Item>
+					<Item>Formal education will make you a living; self-education will make you a fortune.</Item>
+					<Item>Learn to enjoy every minute of your life. Be happy now.</Item>
+					<Item>Discouragement and failure are two of the surest stepping stones to success.</Item>
+					<Item>People rarely succeed unless they have fun in what they are doing.</Item>
+					<Item>There is far more opportunity than there is ability.</Item>
+					<Item>Turn up the music, just turn it up louder.</Item>
+					<Item>The sun goes down. The stars come out.</Item>
+					<Item>Girls just wanna have fun.</Item>
+					<Item>Yesterday doesn't matter if it's gone.</Item>
+					<Item>Feed the world. Let them know it's Christmas time.</Item>
+					<Item>Dream on.</Item>
+					<Item>Tell me, did you fall for a shooting star?</Item>
+					<Item>Jenny don't change your number, 867-5309.</Item>
+					<Item>The bruises they will fade away.</Item>
+					<Item>Nothing is as good or bad as it appears.</Item>
+					<Item>Warning: do not eat your fortune.</Item>
+					<Item>Oops... wrong cookie.</Item>
+					<Item>Oops... wrong fortune.</Item>
+					<Item>Believing is doing.</Item>
+					<Item>Stop procrastinating... starting tomorrow.</Item>
+					<Item>Others enjoy your company.</Item>
+					<Item>A cheerful message is on its way to you.</Item>
+					<Item>Eat something you never tried before.</Item>
+					<Item>Reading to the mind is what exercise is to the body.</Item>
+					<Item>To build a better world, start in your community.</Item>
+					<Item>Don't cry.</Item>
+					<Item>Love thy neighbor, just don't get caught.</Item>
+					<Item>You are not illiterate.</Item>
+					<Item>Action speaks nothing without a motive.</Item>
+					<Item>Take care of your body. It's the only place you have to live.</Item>
+					<Item>Whatever you have, you must either use or lose.</Item>
+					<Item>It is better to create than to learn!</Item>
+					<Item>It is always your next move.</Item>
+					<Item>Sometimes you have to give up the fight and walk away, and move on to something that's more productive.</Item>
+					<Item>Life was always a matter of waiting for the right moment to act.</Item>
+					<Item>Never say anything about yourself you do not want to come true.</Item>
+					<Item>It doesn't matter which side of the fence you get off on sometimes. What matters most if getting off.</Item>
+					<Item>Gravitation is not responsible for people falling in love.</Item>
+					<Item>We make a living by what we get, but we make a life by what we give.</Item>
+					<Item>Go ask your mom.</Item>
+					<Item>Good clothes open many doors. Go shopping.</Item>
+					<Item>You may be hungry soon. Order a takeout now.</Item>
+					<Item>How can you have a beautiful ending without making beautiful mistakes?</Item>
+					<Item>Friends long absent are coming back to you.</Item>
+					<Item>Accept yourself.</Item>
+					<Item>Never quit!</Item>
+					<Item>Judge not according to the appearance.</Item>
+					<Item>You will be sharing great news with all people you love.</Item>
+					<Item>You're doomed.</Item>
+					<Item>Life is too short to hold grudges.</Item>
+					<Item>Shoot for the moon! If you miss you will still be among the stars.</Item>
+					<Item>A pleasant surprise is waiting for you.</Item>
+					<Item>A nasty surprise is waiting for you.</Item>
+					<Item>A virtual fortune cookie will not satisfy your hunger likes that of a homemade one.</Item>
+					<Item>Great things come from the heart.</Item>
+					<Item>It's amine weeb trash time.</Item>
+					<Item>The answer may surprise you!</Item>
+					<Item>Let Archi know you have problems.</Item>
+					<Item>Decide now.</Item>
+					<Item>Check the oven.</Item>
+					<Item>That'll be $0.99.</Item>
+					<Item>:3</Item>
+					<Item>Help! I am trapped in a fortune cookie machine!</Item>
+					<Item>More than one waifu will destroy your laifu.</Item>
+					<Item>Hard work pays off in the future, laziness pays off now. :blissful_creep:</Item>
+					<Item>You learn from your mistakes... You will learn a lot today.</Item>
+					<Item>傷心有多少 在乎就有多少</Item>
+					<Item>Never give up. You're not a failure if you don't give up.</Item>
+					<Item>You must try, or hate yourself for not trying.</Item>
+					<Item>You can make your own happiness.</Item>
+					<Item>It's better to be alone sometimes.</Item>
+					<Item>When fear hurts you, conquer it and defeat it!</Item>
+					<Item>The man on the top of the mountain did not fall there.</Item>
+					<Item>Stop wishing. Start doing.</Item>
+					<Item>DEDICATION MOTIVATION ACCELERATION</Item>
+					<Item>Stay true to those who would do the same for you.</Item>
+					<Item>Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.</Item>
+					<Item>Your fortune is as sweet as a cookie.</Item>
+					<Item>When hungry, order more Chinese food.</Item>
+					<Item>A good way to stay healthy is to eat more Chinese food.</Item>
+					<Item>All your fingers can't be of the same length.</Item>
+					<Item>Everything happens for a reason.</Item>
+					<Item>To be old and wise, you must first be young and stupid.</Item>
+					<Item>Never ask what hot dogs are made of.</Item>
+					<Item>Patience is a virtue, unless it's against a brick wall.</Item>
+					<Item>If you are afraid to shake the dice, you will never throw a six.</Item>
+					<Item>You try hard, never to fail. You don't, never to win.</Item>
+					<Item>It never pays to kick a skunk.</Item>
+					<Item>If you are never patient, you will never get anything done. If you believe you can do it, you will be rewarded with success.</Item>
+					<Item>Your smile brings happiness to everyone you meet.</Item>
+					<Item>!nsfw is not for the faint of heart.</Item>
+					<Item>ヽ༼ຈ͜لຈ༽ﾉ raise your dongers ヽ༼ຈ͜لຈ༽ﾉ</Item>
+					<Item>It's about time you asked that special someone on a date.</Item>
+					<Item>Put your unhappiness aside. Life is beautiful, be happy.</Item>
+					<Item>If you never expect anything, you can never be disappointed.</Item>
+					<Item>Follow your bliss and the Universe will open doors where there were once only walls. :blissful_creep:</Item>
+					<Item>All the water in the world can't sink a ship unless it gets inside.</Item>
+					<Item>Do what is right, not what you should.</Item>
+					<Item>Bread today is better than cake tomorrow.</Item>
+					<Item>It's all right to have butterflies in your stomach. Just get them to fly in formation.</Item>
+					<Item>Let your fantasies unwind...</Item>
+					<Item>The Wheel of Good Fortune is finally turning in your direction!</Item>
+					<Item>Don't lead if you won't lead.</Item>
+					<Item>Don't forget to idle.</Item>
+					<Item>:dice6:  :ojseagull:</Item>
+					<Item>100% OJ time.</Item>
+					<Item>Talismano time.</Item>
+					<Item>pew pew time.</Item>
+					<Item>Kero Floor 2hu time.</Item>
+					<Item>bad time time.</Item>
+					<Item>Save Emmerich time.</Item>
+					<Item>Rocket League time.</Item>
+					<Item>:steamsalty:</Item>
+					<Item>{Insert generic amine grill} best grill.</Item>
+					<Item>Kawanishi-Noseguchi, Kinunobebashi, Takiyama, Uguisunomori, Tsuzumigataki, Tada, Hirano, Ichinotorii, Uneno, Yamashita, Sasabe, Kofudai, Tokiwadai, Myoukenguchi</Item>
+					<Item>You'll ruin your eyes sitting so close to the TV. </Item>
+					<Item>Something happened to me last Thursday when I was driving home. I had a couple of miles to go -- I looked up and saw a glowing orange object in the sky, to the east! It was moving very irregularly... Suddenly, there was intense light all around me -- and when I came to, I was home. What do you think happened to me...?</Item>
+					<Item>I hear it's amazing when the famous purple stuffed worm in flap-jaw space with the tuning fork does a raw blink on Hara-kiri Rock. I need scissors! 61!</Item>
+					<Item>...Infiltrate... ...the enemy fortress... ...Outer Heaven! ...Destroy... ...the final weapon... ...Metal Gear!</Item>
+					<Item>Even my patience has its limits. I just can't leave this thing up to you any longer. I'll do the fighting! You can just go home!</Item>
+					<Item>An Anemone or Clamatis plant's juice can cause a rash. When pruning them it's a good idea to wear gloves.</Item>
+					<Item>I was a North American Fall Webworm in my past life. Those were the good old days... What were you in your former life?</Item>
+					<Item>Variety Level 7. Shoot down the space invaders! Training will have to be postponed if we are invaded by UFOs.</Item>
+					<Item>I'm not home right now. Please leave a message after the beep. BEEP!</Item>
+					<Item>That reminds me, I saw Gubayama the other day in Shibomnigee. He said to give you his best.</Item>
+					<Item>La-Li-Lu-Le-Lo! La-Li-Lu-Le-Lo! La-Li-Lu-Le-Lo!</Item>
+					<Item>La-Li-Lu-Le-Lo</Item>
+					<Item>You don't know the awesomeness of a puppy's paw pads?</Item>
+					<Item>:Miller:</Item>
+					<Item>No refunds.</Item>
+					<Item>Sleep time.</Item>
+					<Item>Nap time.</Item>
+					<Item>:steamsalty::compa: あなたの塩が持って来ましたです～</Item>
+					<Item>:Neko:MYON:Neko: time.</Item>
+					<Item>Hop like a speed demon.</Item>
+					<Item>You should bunny hop all the way through ivy, out middle through their connector LIKE A SPEED DEMON!</Item>
+					<Item>Make them talk about your one taps.</Item>
+					<Item>They talk about my one taps.</Item>
+					<Item>Sanity is for the weak!</Item>
+					<Item>Welcome to the NZTi! Dark Stars chatroom, your group application will be processed soon.</Item>
+					<Item>:vert:</Item>
+					<Item>:zeemonster::sgsmile:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>FORTUNES</Pattern>
+			<Response>
+				<Goto>FORTUNE</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>FORTUNE COOKIE</Pattern>
+			<Response>
+				<Goto>FORTUNE</Goto>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

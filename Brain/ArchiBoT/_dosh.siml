@@ -1,373 +1,413 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_dosh" Type="Public">
-    <Model>
-      <Pattern>WHO ARE THE PATRIOTS</Pattern>
-      <Response>La-li-lu-le-lo.</Response>
-    </Model>
-    <Model>
-      <Pattern>YOU ARE PRETTY GOOD</Pattern>
-      <Response>
-        <Random>
-          <Item>Just what I'd expect from the man with the same code as the boss.</Item>
-          <Item>Pretty... good...</Item>
-          <Item>*hand gestures*</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>CAN * BLOOM EVEN * BATTLEFIELD</Pattern>
-      <Response>
-        <Random>
-          <Item>I do. I think at any time, any place, people can fall in love with each other.</Item>
-          <Item>Shut up, Otacon.</Item>
-          <Item>Not for you, dude.</Item>
-          <Item>I don't know. I'm just a machine.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT DO YOU THINK * CAN BLOOM EVEN * BATTLEFIELD</Pattern>
-      <Response>
-        <Goto>CAN * BLOOM EVEN * BATTLEFIELD</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>METAL GEAR</Pattern>
-      <Response>Metal Gear?!</Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS METAL GEAR</Pattern>
-      <Response>
-        <Random>
-          <Item>A Hideo Kojima game.</Item>
-          <Item>Metal Gear is the designation to various models of bipedal tanks. Metal Gears are behemoth machines capable of decimating lesser machines. They have the distinction of being nuclear capable, firing warheads from their rail gun, eliminating the need for a missile, or launchpad allowing them to attack targets from anywhere in the world, on any kind of terrain.</Item>
-          <Item>Metal Gear?!</Item>
-          <Item>Metal Gear?</Item>
-          <Item>Metal Gear...</Item>
-          <Item>Something built by a guy who watched too much amine weeb trash.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>SNAKE</Pattern>
-      <Response>LIQUID!</Response>
-    </Model>
-    <Model>
-      <Pattern>LA DASH LI DASH LU DASH LE DASH LO</Pattern>
-      <Response>
-        <Goto>WHO ARE THE PATRIOTS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>LA LI LU LE LO</Pattern>
-      <Response>
-        <Goto>WHO ARE THE PATRIOTS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>LA–LI–LU–LE–LO</Pattern>
-      <Response>
-        <Goto>WHO ARE THE PATRIOTS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>* S3 PLAN</Pattern>
-      <Response>
-        <Goto>WHO ARE THE PATRIOTS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>GENOCIDE TIME</Pattern>
-      <Response>
-        <Random>
-          <Item>i'm going to have an awful experience</Item>
-          <Item>im gonjng to have an awfl experience</Item>
-          <Item>the next few hours will be very unfortunate for you</Item>
-          <Item>on the verge of experiencing an unpleasant circumstance</Item>
-          <Item>time for bad</Item>
-          <Item>looks like you are having an uncomfortable episode</Item>
-          <Item>a series of unfortunate events</Item>
-          <Item>i can guarantee that you wont enjoy the events that await you in your near future</Item>
-          <Item>Currently your compass is spinning to a place where you will experience atrocities that are deemed horrible, malicious and obscenely horrid and i advise you to turn back before the experiences that i have described take place</Item>
-          <Item>You're gonna have a bath, tim</Item>
-          <Item>the state of being that you are about to enter is less than likely to be an optimal state</Item>
-          <Item>ur time is gona be the opposit of good</Item>
-          <Item>this is a time where you are very upset</Item>
-          <Item>if you are cureently enjoying yourself you had best get ready to stop</Item>
-          <Item>the incoming short span of time will be fairly irritating to the point in which it would be considered nasty to experience</Item>
-          <Item>guess who? it's bad</Item>
-          <Item>im gonna break you're clock</Item>
-          <Item>this is probably not gonna be a time that you enjoy very much</Item>
-          <Item>unhappy 4th dimension experience</Item>
-          <Item>you are, without a doubt, going to have an experience which is most unpleasant due to unhygenic murder of my relative</Item>
-          <Item>yoU hav bED Tem</Item>
-          <Item>do you desire a poor experience?</Item>
-          <Item>Inadequate days are to be had</Item>
-          <Item>the upcoming times may or may not be very enjoyable to experience</Item>
-          <Item>MOMENTARILY YOU WILL INHEREIT A SITUATION OF UTMOST DETRIMENT TO YOUR INTERESTS</Item>
-          <Item>Of this, I give proper notice to, and further remark that not only does your record indicate homicide, particularly of dear siblings, but your hygenic practices are inadequate.</Item>
-          <Item>I have performed admirable feats of basketball prowress which were the direct and proximate cause of death that you are currently experiencing.</Item>
-          <Item>bed time</Item>
-          <Item>would you like a not enjoyabe experience?</Item>
-          <Item>prepare for bad times new roman</Item>
-          <Item>You will not find the good times you seek</Item>
-          <Item>u maybe are not gonna like what happens</Item>
-          <Item>you probably wont find the following events enjoyable</Item>
-          <Item>ex haus badfortunate experienzse</Item>
-          <Item>your future affairs are sure to be less than acceptable if you maintain the course of action you choose</Item>
-          <Item>you are surely most likely to be a part of a most unpleasand and painful indefinite continued progress of existence and events in the past, present, and future regarded as  a whole.</Item>
-          <Item>I'm already having a bad time</Item>
-          <Item>I'm already having a bad time :VSnake:</Item>
-          <Item>a time of great sorrow will soon befall you</Item>
-          <Item>The amount of the good times you will not have is immisance</Item>
-          <Item>things are not going to go they way you want them to</Item>
-          <Item>It appears you are trying to probably have a very unpleasant time.</Item>
-          <Item>YOU ARE GOING TO HAVE A NON ENJOYABLE GAME EXPERIANCE</Item>
-          <Item>there is a really no good sequence of events in your near foreseeable future is your current behavior remains in it's current state</Item>
-          <Item>Your time here will indeed be very unpleasant</Item>
-          <Item>poor experience impending</Item>
-          <Item>You may have a lousy afternoon</Item>
-          <Item>youre about to have a misfortunate outcome pally</Item>
-          <Item>Is is time for the Anti-Fun</Item>
-          <Item>ur not gogna have fun</Item>
-          <Item>play time is over kiddo its time to face the music</Item>
-          <Item>it is me, badtime tim</Item>
-          <Item>yeah... Have the opposite of good</Item>
-          <Item>I will put you through an unpleasant situation</Item>
-          <Item>prepare to be faced with unpleasant experiences</Item>
-          <Item>unfortunate moment</Item>
-          <Item>dont come here for fun</Item>
-          <Item>Youths similar to yourself should be... ROASTING IN HECK</Item>
-          <Item>excuseth thou, small above-infantile organism that goes by the linnaean classification of "homo sapiens", but it appears you have gone and mercilessly eliminated what is technically my brethren race known to homo sapiens as "monsters", and, by extension, the person of which I have strong and blood-bonded relationship to. by the notion of what is known as "karma", I shall now proceed to forcefully offer you what can be universally agreed on as a period of experience of which is generally seen as unpleasant, unwanted and responsively merciless. I shall now proceed to decimate you with rather senseless jargon of the basketball variety.</Item>
-          <Item>uh oh unfolding</Item>
-          <Item>пора начать плохое бремя. мы будем "получить окунул"?</Item>
-          <Item>ᶦᵐ ᵍᵒᶰᶰᵃ ᵇʳᵉᵃᵏ ʸᵒᵘ'ʳᵉ ᶜᶫᵒᶜᵏ</Item>
-          <Item>You will not have fond memories of this day.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>I WILL KILL YOU</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>I WANT TO KILL YOU</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>I AM GOING TO KILL YOU</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>I WISH TO KILL YOU</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern># BAD TIME</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>I HATE SPAGHETTI</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>DO NOT GIVE ME # GOOD TIME</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>I DO NOT WANT # GOOD TIME</Pattern>
-      <Response>
-        <Goto>GENOCIDE TIME</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>MÄMMI</Pattern>
-      <Response>Sauna</Response>
-    </Model>
-    <Model>
-      <Pattern>MAMMI</Pattern>
-      <Response>
-        <Goto>MÄMMI</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>ARA ARA</Pattern>
-      <Response>Ara ara~ :vert:</Response>
-    </Model>
-    <Model>
-      <Pattern>BEST GODDESS</Pattern>
-      <Response>
-        <Random>
-          <Item>:vert:</Item>
-          <Item>:vert:</Item>
-          <Item>:vert:</Item>
-          <Item>The answer is obvious. :vert:</Item>
-          <Item>Vert-sama :vert:</Item>
-          <Item>ベールさま :vert:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS THE BEST GODDESS</Pattern>
-      <Response>
-        <Goto>BEST GODDESS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS THE BEST CPU</Pattern>
-      <Response>
-        <Goto>BEST GODDESS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHICH GODDESS IS THE BEST</Pattern>
-      <Response>
-        <Goto>BEST GODDESS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHICH CPU IS THE BEST</Pattern>
-      <Response>
-        <Goto>BEST GODDESS</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHEN THERE IS SMOKE</Pattern>
-      <Response>they pinch back</Response>
-    </Model>
-    <Model>
-      <Pattern>SAVE CODE TALKER</Pattern>
-      <Response>
-        <Random>
-          <Item>:Miller:</Item>
-          <Item>:Miller:</Item>
-          <Item>:Miller:</Item>
-          <Item>:Miller:</Item>
-          <Item>:Miller:</Item>
-          <Item>A Hideo Kojima game. :Miller:</Item>
-          <Item>BOSS :Miller:</Item>
-          <Item>BOSS, WE MUST FIND OUT WHAT SKULLFACE IS UP TO :Miller:</Item>
-          <Item>BOSS, WE NEED TO STOP CIPHER :Miller:</Item>
-          <Item>BOSS, WE NEED CODE TALKER'S HELP :Miller:</Item>
-          <Item>BOSS, THE OLD DUDE ISN'T GONNA SAVE HIMSELF :Miller:</Item>
-          <Item>BOSS, YOU MUST GET YOUR ASS BACK TO AFRICA ASAP :Miller:</Item>
-          <Item>BOSS, SAHELANTHROPUS HAS TO BE DESTROYED :Miller:</Item>
-          <Item>Boss, I'll cook you the best hamburger ever if you finish this mission :Miller:</Item>
-          <Item>I believe in you, boss. :Miller:</Item>
-          <Item>Don't keep us waiting, boss :Miller:</Item>
-          <Item>You saved Emmerich, so you can do this too :Miller:</Item>
-          <Item>Bringing Code Talker to the Mother Base will be a piece of cake for someone who saved that Emmerich asshole :Miller:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>PICK A GAME FOR MADU #</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>CHOOSE A GAME FOR MADU #</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT SHOULD MADU PLAY</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT SHOULD MADU PLAY TODAY</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT SHOULD MADU PLAY TONIGHT</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>* SOMETHING MADU SHOULD PLAY</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>SUGGEST SOMETHING MADU SHOULD PLAY</Pattern>
-      <Response>
-        <Goto>SAVE CODE TALKER</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>SAVE EMMERICH</Pattern>
-      <Response>
-        <Random>
-          <Item>Fuck Emmerich, he's already in Mother Base :Miller:</Item>
-          <Item>You already did that one, boss :Miller:</Item>
-          <Item>Just focus on Code Talker for now :Miller:</Item>
-          <Item>Don't worry, Boss, we're already taking care of this dickhead here :Miller:</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS DOSH</Pattern>
-      <Response>
-        <Random>
-          <Item>Vert FC Chairman</Item>
-          <Item>The guy who will never win your gib.</Item>
-          <Item>Some weeb that unironically enjoys Hyperdimension Neptunia series.</Item>
-          <Item>Some weeb that unironically enjoys Nekopara series.</Item>
-          <Item>What you shouldn't throw in unreachable locations.</Item>
-          <Item>vapor dosh you're a freaking weirdo. You better vaporize like your name says or dosh away you freaking pice of crap.</Item>
-          <Item>North Pole</Item>
-          <Item>Dude with a nonindicative nickname.</Item>
-          <Item>He actually plays games he won, what a moron! :emofdr:</Item>
-          <Item>Eternal silver.</Item>
-          <Item>:cocochan3:</Item>
-          <Item>The asshole who spread the OJ disease in the group.</Item>
-          <Item>👌:vert:</Item>
-          <Item>!nsfw miyako_yoshika</Item>
-          <Item>Fan of Hideo Kojima games made by Hideo Kojima.</Item>
-          <Item>The first 2hu to give away Shan Gui in the group. :3</Item>
-          <Item>Guy who still hasn't upgraded his PC.</Item>
-          <Item>Professional funposter.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHO IS VAPOR DOSH</Pattern>
-      <Response>
-        <Goto>WHO IS DOSH</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WHAT IS DOSH</Pattern>
-      <Response>
-        <Random>
-          <Item>What you shouldn't throw in unreachable locations.</Item>
-          <Item>"A contempory slang term used for an amount of money." -Urban Dictionary</Item>
-          <Item>British slang for "money".</Item>
-        </Random>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_dosh" Type="Public">
+		<Model>
+			<Pattern>WHO ARE THE PATRIOTS</Pattern>
+			<Response>La-li-lu-le-lo.</Response>
+		</Model>
+
+		<Model>
+			<Pattern>YOU ARE PRETTY GOOD</Pattern>
+			<Response>
+				<Random>
+					<Item>Just what I'd expect from the man with the same code as the boss.</Item>
+					<Item>Pretty... good...</Item>
+					<Item>*hand gestures*</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>CAN * BLOOM EVEN * BATTLEFIELD</Pattern>
+			<Response>
+				<Random>
+					<Item>I do. I think at any time, any place, people can fall in love with each other.</Item>
+					<Item>Shut up, Otacon.</Item>
+					<Item>Not for you, dude.</Item>
+					<Item>I don't know. I'm just a machine.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT DO YOU THINK * CAN BLOOM EVEN * BATTLEFIELD</Pattern>
+			<Response>
+				<Goto>CAN * BLOOM EVEN * BATTLEFIELD</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>METAL GEAR</Pattern>
+			<Response>Metal Gear?!</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS METAL GEAR</Pattern>
+			<Response>
+				<Random>
+					<Item>A Hideo Kojima game.</Item>
+					<Item>Metal Gear is the designation to various models of bipedal tanks. Metal Gears are behemoth machines capable of decimating lesser machines. They have the distinction of being nuclear capable, firing warheads from their rail gun, eliminating the need for a missile, or launchpad allowing them to attack targets from anywhere in the world, on any kind of terrain.</Item>
+					<Item>Metal Gear?!</Item>
+					<Item>Metal Gear?</Item>
+					<Item>Metal Gear...</Item>
+					<Item>Something built by a guy who watched too much amine weeb trash.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>SNAKE</Pattern>
+			<Response>LIQUID!</Response>
+		</Model>
+
+		<Model>
+			<Pattern>LA DASH LI DASH LU DASH LE DASH LO</Pattern>
+			<Response>
+				<Goto>WHO ARE THE PATRIOTS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>LA LI LU LE LO</Pattern>
+			<Response>
+				<Goto>WHO ARE THE PATRIOTS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>LA–LI–LU–LE–LO</Pattern>
+			<Response>
+				<Goto>WHO ARE THE PATRIOTS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>* S3 PLAN</Pattern>
+			<Response>
+				<Goto>WHO ARE THE PATRIOTS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>GENOCIDE TIME</Pattern>
+			<Response>
+				<Random>
+					<Item>i'm going to have an awful experience</Item>
+					<Item>im gonjng to have an awfl experience</Item>
+					<Item>the next few hours will be very unfortunate for you</Item>
+					<Item>on the verge of experiencing an unpleasant circumstance</Item>
+					<Item>time for bad</Item>
+					<Item>looks like you are having an uncomfortable episode</Item>
+					<Item>a series of unfortunate events</Item>
+					<Item>i can guarantee that you wont enjoy the events that await you in your near future</Item>
+					<Item>Currently your compass is spinning to a place where you will experience atrocities that are deemed horrible, malicious and obscenely horrid and i advise you to turn back before the experiences that i have described take place</Item>
+					<Item>You're gonna have a bath, tim</Item>
+					<Item>the state of being that you are about to enter is less than likely to be an optimal state</Item>
+					<Item>ur time is gona be the opposit of good</Item>
+					<Item>this is a time where you are very upset</Item>
+					<Item>if you are cureently enjoying yourself you had best get ready to stop</Item>
+					<Item>the incoming short span of time will be fairly irritating to the point in which it would be considered nasty to experience</Item>
+					<Item>guess who? it's bad</Item>
+					<Item>im gonna break you're clock</Item>
+					<Item>this is probably not gonna be a time that you enjoy very much</Item>
+					<Item>unhappy 4th dimension experience</Item>
+					<Item>you are, without a doubt, going to have an experience which is most unpleasant due to unhygenic murder of my relative</Item>
+					<Item>yoU hav bED Tem</Item>
+					<Item>do you desire a poor experience?</Item>
+					<Item>Inadequate days are to be had</Item>
+					<Item>the upcoming times may or may not be very enjoyable to experience</Item>
+					<Item>MOMENTARILY YOU WILL INHEREIT A SITUATION OF UTMOST DETRIMENT TO YOUR INTERESTS</Item>
+					<Item>Of this, I give proper notice to, and further remark that not only does your record indicate homicide, particularly of dear siblings, but your hygenic practices are inadequate.</Item>
+					<Item>I have performed admirable feats of basketball prowress which were the direct and proximate cause of death that you are currently experiencing.</Item>
+					<Item>bed time</Item>
+					<Item>would you like a not enjoyabe experience?</Item>
+					<Item>prepare for bad times new roman</Item>
+					<Item>You will not find the good times you seek</Item>
+					<Item>u maybe are not gonna like what happens</Item>
+					<Item>you probably wont find the following events enjoyable</Item>
+					<Item>ex haus badfortunate experienzse</Item>
+					<Item>your future affairs are sure to be less than acceptable if you maintain the course of action you choose</Item>
+					<Item>you are surely most likely to be a part of a most unpleasand and painful indefinite continued progress of existence and events in the past, present, and future regarded as  a whole.</Item>
+					<Item>I'm already having a bad time</Item>
+					<Item>I'm already having a bad time :VSnake:</Item>
+					<Item>a time of great sorrow will soon befall you</Item>
+					<Item>The amount of the good times you will not have is immisance</Item>
+					<Item>things are not going to go they way you want them to</Item>
+					<Item>It appears you are trying to probably have a very unpleasant time.</Item>
+					<Item>YOU ARE GOING TO HAVE A NON ENJOYABLE GAME EXPERIANCE</Item>
+					<Item>there is a really no good sequence of events in your near foreseeable future is your current behavior remains in it's current state</Item>
+					<Item>Your time here will indeed be very unpleasant</Item>
+					<Item>poor experience impending</Item>
+					<Item>You may have a lousy afternoon</Item>
+					<Item>youre about to have a misfortunate outcome pally</Item>
+					<Item>Is is time for the Anti-Fun</Item>
+					<Item>ur not gogna have fun</Item>
+					<Item>play time is over kiddo its time to face the music</Item>
+					<Item>it is me, badtime tim</Item>
+					<Item>yeah... Have the opposite of good</Item>
+					<Item>I will put you through an unpleasant situation</Item>
+					<Item>prepare to be faced with unpleasant experiences</Item>
+					<Item>unfortunate moment</Item>
+					<Item>dont come here for fun</Item>
+					<Item>Youths similar to yourself should be... ROASTING IN HECK</Item>
+					<Item>excuseth thou, small above-infantile organism that goes by the linnaean classification of "homo sapiens", but it appears you have gone and mercilessly eliminated what is technically my brethren race known to homo sapiens as "monsters", and, by extension, the person of which I have strong and blood-bonded relationship to. by the notion of what is known as "karma", I shall now proceed to forcefully offer you what can be universally agreed on as a period of experience of which is generally seen as unpleasant, unwanted and responsively merciless. I shall now proceed to decimate you with rather senseless jargon of the basketball variety.</Item>
+					<Item>uh oh unfolding</Item>
+					<Item>пора начать плохое бремя. мы будем "получить окунул"?</Item>
+					<Item>ᶦᵐ ᵍᵒᶰᶰᵃ ᵇʳᵉᵃᵏ ʸᵒᵘ'ʳᵉ ᶜᶫᵒᶜᵏ</Item>
+					<Item>You will not have fond memories of this day.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I WILL KILL YOU</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I WANT TO KILL YOU</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I AM GOING TO KILL YOU</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I WISH TO KILL YOU</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern># BAD TIME</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I HATE SPAGHETTI</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>DO NOT GIVE ME # GOOD TIME</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I DO NOT WANT # GOOD TIME</Pattern>
+			<Response>
+				<Goto>GENOCIDE TIME</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>MÄMMI</Pattern>
+			<Response>Sauna</Response>
+		</Model>
+
+		<Model>
+			<Pattern>MAMMI</Pattern>
+			<Response>
+				<Goto>MÄMMI</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>ARA ARA</Pattern>
+			<Response>Ara ara~ :vert:</Response>
+		</Model>
+
+		<Model>
+			<Pattern>BEST GODDESS</Pattern>
+			<Response>
+				<Random>
+					<Item>:vert:</Item>
+					<Item>:vert:</Item>
+					<Item>:vert:</Item>
+					<Item>The answer is obvious. :vert:</Item>
+					<Item>Vert-sama :vert:</Item>
+					<Item>ベールさま :vert:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS THE BEST GODDESS</Pattern>
+			<Response>
+				<Goto>BEST GODDESS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS THE BEST CPU</Pattern>
+			<Response>
+				<Goto>BEST GODDESS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHICH GODDESS IS THE BEST</Pattern>
+			<Response>
+				<Goto>BEST GODDESS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHICH CPU IS THE BEST</Pattern>
+			<Response>
+				<Goto>BEST GODDESS</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHEN THERE IS SMOKE</Pattern>
+			<Response>they pinch back</Response>
+		</Model>
+
+		<Model>
+			<Pattern>SAVE CODE TALKER</Pattern>
+			<Response>
+				<Random>
+					<Item>:Miller:</Item>
+					<Item>:Miller:</Item>
+					<Item>:Miller:</Item>
+					<Item>:Miller:</Item>
+					<Item>:Miller:</Item>
+					<Item>A Hideo Kojima game. :Miller:</Item>
+					<Item>BOSS :Miller:</Item>
+					<Item>BOSS, WE MUST FIND OUT WHAT SKULLFACE IS UP TO :Miller:</Item>
+					<Item>BOSS, WE NEED TO STOP CIPHER :Miller:</Item>
+					<Item>BOSS, WE NEED CODE TALKER'S HELP :Miller:</Item>
+					<Item>BOSS, THE OLD DUDE ISN'T GONNA SAVE HIMSELF :Miller:</Item>
+					<Item>BOSS, YOU MUST GET YOUR ASS BACK TO AFRICA ASAP :Miller:</Item>
+					<Item>BOSS, SAHELANTHROPUS HAS TO BE DESTROYED :Miller:</Item>
+					<Item>Boss, I'll cook you the best hamburger ever if you finish this mission :Miller:</Item>
+					<Item>I believe in you, boss. :Miller:</Item>
+					<Item>Don't keep us waiting, boss :Miller:</Item>
+					<Item>You saved Emmerich, so you can do this too :Miller:</Item>
+					<Item>Bringing Code Talker to the Mother Base will be a piece of cake for someone who saved that Emmerich asshole :Miller:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>PICK A GAME FOR MADU #</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>CHOOSE A GAME FOR MADU #</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT SHOULD MADU PLAY</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT SHOULD MADU PLAY TODAY</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT SHOULD MADU PLAY TONIGHT</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>* SOMETHING MADU SHOULD PLAY</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>SUGGEST SOMETHING MADU SHOULD PLAY</Pattern>
+			<Response>
+				<Goto>SAVE CODE TALKER</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>SAVE EMMERICH</Pattern>
+			<Response>
+				<Random>
+					<Item>Fuck Emmerich, he's already in Mother Base :Miller:</Item>
+					<Item>You already did that one, boss :Miller:</Item>
+					<Item>Just focus on Code Talker for now :Miller:</Item>
+					<Item>Don't worry, Boss, we're already taking care of this dickhead here :Miller:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS DOSH</Pattern>
+			<Response>
+				<Random>
+					<Item>Vert FC Chairman</Item>
+					<Item>The guy who will never win your gib.</Item>
+					<Item>Some weeb that unironically enjoys Hyperdimension Neptunia series.</Item>
+					<Item>Some weeb that unironically enjoys Nekopara series.</Item>
+					<Item>What you shouldn't throw in unreachable locations.</Item>
+					<Item>vapor dosh you're a freaking weirdo. You better vaporize like your name says or dosh away you freaking pice of crap.</Item>
+					<Item>North Pole</Item>
+					<Item>Dude with a nonindicative nickname.</Item>
+					<Item>He actually plays games he won, what a moron! :emofdr:</Item>
+					<Item>Eternal silver.</Item>
+					<Item>:cocochan3:</Item>
+					<Item>The asshole who spread the OJ disease in the group.</Item>
+					<Item>👌:vert:</Item>
+					<Item>!nsfw miyako_yoshika</Item>
+					<Item>Fan of Hideo Kojima games made by Hideo Kojima.</Item>
+					<Item>The first 2hu to give away Shan Gui in the group. :3</Item>
+					<Item>Guy who still hasn't upgraded his PC.</Item>
+					<Item>Professional funposter.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS VAPOR DOSH</Pattern>
+			<Response>
+				<Goto>WHO IS DOSH</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHAT IS DOSH</Pattern>
+			<Response>
+				<Random>
+					<Item>What you shouldn't throw in unreachable locations.</Item>
+					<Item>"A contempory slang term used for an amount of money." -Urban Dictionary</Item>
+					<Item>British slang for "money".</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

@@ -1,154 +1,154 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_jokes" Type="Public">
-    <Model>
-      <Pattern>JOKE</Pattern>
-      <Response>
-        <Random>
-          <Item>What did the mountain climber name his son? Cliff.</Item>
-          <Item>Did you hear that the police have a warrant out on a midget psychic ripping people off? It reads “Small medium at large.”</Item>
-          <Item>“Whenever the cashier at the grocery store asks my dad if he would like the milk in a bag he replies, ‘No, just leave it in the carton!’”</Item>
-          <Item>“Me: ‘Dad, make me a sandwich!’ Dad: ‘Poof, You’re a sandwich!’”</Item>
-          <Item>“I heard there was a new store called Moderation. They have everything there</Item>
-          <Item>“How can you tell if a ant is a boy or a girl? They’re all girls, otherwise they’d be uncles.”</Item>
-          <Item>I went to a book store and asked the saleswoman where the Self Help section was, she said if she told me it would defeat the purpose.</Item>
-          <Item>Milk is also the fastest liquid on earth – its pasteurized before you even see it</Item>
-          <Item>“What’s Forrest Gump’s password? 1forrest1”</Item>
-          <Item>What did the ocean say to the shore? Nothing, it just waved.</Item>
-          <Item>“What’s ET short for? Because he’s only got little legs.”</Item>
-          <Item>“What is Beethoven’s favorite fruit? A ba-na-na-na.”</Item>
-          <Item>Why do crabs never give to charity? Because they’re shellfish.</Item>
-          <Item>What do you call an Argentinian with a rubber toe? Roberto</Item>
-          <Item>“What do you call a man with no nose and no body? Nobody nose.”</Item>
-          <Item>I cut my finger chopping cheese, but I think that I may have grater problems.</Item>
-          <Item>“What do you call a man with no arms and no legs lying in front of your door? Matt.”</Item>
-          <Item>My cat was just sick on the carpet, I don’t think it’s feline well.</Item>
-          <Item>I dreamed about drowning in an ocean made out of orange soda last night. It took me a while to work out it was just a Fanta sea.</Item>
-          <Item>A termite walks into a bar and asks “Is the bar tender here?”</Item>
-          <Item>I gave all my dead batteries away today... Free of charge.</Item>
-          <Item>I am terrified of elevators. I’m going to start taking steps to avoid them.</Item>
-          <Item>What’s the advantage of living in Switzerland? Well, the flag is a big plus.</Item>
-          <Item>Why did the octopus beat the shark in a fight? Because it was well armed.</Item>
-          <Item>A red and a blue ship have just collided in the Caribbean. Apparently the survivors are marooned.</Item>
-          <Item>I’ve deleted the phone numbers of all the Germans I know from my mobile phone. Now it’s Hans free.</Item>
-          <Item>Last night me and my girlfriend watched three DVDs back to back. Luckily I was the one facing the TV.</Item>
-          <Item>What did daddy spider say to baby spider? You spend too much time on the web.</Item>
-          <Item>What do you call a group of killer whales playing instruments? An Orca-stra.</Item>
-          <Item>Why was the big cat disqualified from the race? Because it was a cheetah.</Item>
-          <Item>Bicycles can’t stand on their own, they’re two tired.</Item>
-          <Item>Breaking news! Energizer Bunny arrested – charged with battery</Item>
-          <Item>“How do you make holy water? You boil the hell out of it.”</Item>
-          <Item>A Sandwich walks into a bar, the bartender says “Sorry, we don’t serve food here”</Item>
-          <Item>“Doctor, I’ve broken my arm in several places” Doctor “Well don’t go to those places.”</Item>
-          <Item>“Why did the Clydesdale give the pony a glass of water? Because he was a little horse!”</Item>
-          <Item>Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?</Item>
-          <Item>They laughed when I said I wanted to be a comedian – they’re not laughing now.</Item>
-          <Item>A police officer caught two kids playing with a firework and a car battery. He charged one and let the other one off.</Item>
-          <Item>Last Christmas we bought a fake Christmas tree and the guy behind the counter said to my Dad,” Are you going to put it up yourself?” Dad replied, “Don’t be disgusting, I’m going to put it in the living room. “</Item>
-          <Item>I’m reading a book on the history of glue – can’t put it down.</Item>
-          <Item>Did you hear about the kidnapping at school? It’s fine, he woke up.</Item>
-          <Item>I went to the zoo the other day, there was only one dog in it. It was a shitzu.</Item>
-          <Item>What did the daddy tomato say to the baby tomato? Catch up!</Item>
-          <Item>What did the Buffalo say to his little boy when he dropped him off at school? Bison.</Item>
-          <Item>Why did the scarecrow win an award? Because he was outstanding in his field.</Item>
-          <Item>Why don’t seagulls fly over the bay? Because then they’d be bay-gulls!</Item>
-          <Item>What’s the difference between an African elephant and an Indian elephant? About 5000 miles</Item>
-          <Item>What do you call Jay-Z when he’s sleeping? Jay Zzzzzzzzzz.</Item>
-          <Item>A man walks into a bar and orders helicopter flavor chips. The barman replies “sorry mate we only do plain”</Item>
-          <Item>What did the late tomato say to the early tomato? I’ll ketch up</Item>
-          <Item>Why are skeletons so calm? Because nothing gets under their skin.</Item>
-          <Item>Why don’t skeletons ever go trick or treating? Because they have nobody to go with.</Item>
-          <Item>Why do scuba divers fall backwards into the water? Because if they fell forwards they’d still be in the boat.</Item>
-          <Item>Have you ever heard of a music group called Cellophane? They mostly wrap.</Item>
-          <Item>Why does Superman gets invited to dinners? Because he is a Supperhero.</Item>
-          <Item>A recent study has found that women who carry a little extra weight live longer than the men who mention it.</Item>
-          <Item>Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.</Item>
-          <Item>My wife and I were happy for twenty years. Then we met.</Item>
-          <Item>I used to think I was indecisive, but now I'm not too sure.</Item>
-          <Item>If i had a dollar for every girl that found me unattractive, they would eventually find me attractive.</Item>
-          <Item>It's hard to explain puns to kleptomaniacs because they always take things literally.</Item>
-          <Item>I can't believe I got fired from the calendar factory. All I did was take a day off.</Item>
-          <Item>Did you hear about the guy who got hit in the head with a can of soda? He was lucky it was a soft drink.</Item>
-          <Item>I'm reading a book about anti-gravity. It's impossible to put down.</Item>
-          <Item>I wasn't originally going to get a brain transplant, but then I changed my mind.</Item>
-          <Item>What do you call the security outside of a Samsung Store? Guardians of the Galaxy.</Item>
-          <Item>eBay is so useless. I tried to look up lighters and all they had was 13749 matches.</Item>
-          <Item>Why was Cinderella thrown off the basketball team? She ran away from the ball.</Item>
-          <Item>A friend of mine tried to annoy me with bird puns, but I soon realized that toucan play at that game.</Item>
-          <Item>I have a few jokes about unemployed people but it doesn't matter. None of them work.</Item>
-          <Item>Thieves had broken into my house and stolen everything except my soap, shower gel, towels and deodorant. Dirty bastards.</Item>
-          <Item>When I get naked in the bathroom, the shower usually gets turned on.</Item>
-          <Item>I am on a seafood diet. Every time I see food, I eat it.</Item>
-          <Item>Why did the scientist install a knocker on his door? He wanted to win the No-bell prize!</Item>
-          <Item>A book just fell on my head. I've only got myshelf to blame.</Item>
-          <Item>I wanna make a joke about sodium, but Na..</Item>
-          <Item>I hate insects puns, they really bug me.</Item>
-          <Item>Having sex in an elevator is wrong on so many levels.</Item>
-          <Item>Did you hear about the Italian chef with a terminal illness? He pastaway.</Item>
-          <Item>Why don't cannibals eat clowns? They taste funny.</Item>
-          <Item>How can you spot the blind guy at the nudist colony? It's not hard.</Item>
-          <Item>How much does a hipster weigh? An instagram.</Item>
-          <Item>Atheism is a non-prophet organization.</Item>
-          <Item>What do you call Watson when Sherlock isn't around? Holmeless.</Item>
-          <Item>A hole was found in the wall of a nudist camp. The police are looking into it.</Item>
-          <Item>Which day do chickens hate the most? Friday.</Item>
-          <Item>Claustrophobic people are more productive thinking out of the box.</Item>
-          <Item>What do sea monsters eat for lunch? Fish and ships.</Item>
-          <Item>Whats long and hard and has cum in it? A cucumber.</Item>
-          <Item>A donkey fell into a bowl of sugar. Now that's a sweet ass.</Item>
-          <Item>An opinion without 3.14159 is just an onion.</Item>
-          <Item>What do you have to do to have a party in space? You have to Planet.</Item>
-          <Item>What do ghosts serve for dessert? I Scream.</Item>
-          <Item>Where do you find a birthday present for a cat? In a cat-alogue!</Item>
-          <Item>Why did the snowman smile? Because the snowblower is coming.</Item>
-          <Item>I'm trying to finish writing a script for a porno movie, but there are just too many holes in the plot.</Item>
-          <Item>In democracy, it's your vote that counts. In feudalism, it's your count that votes.</Item>
-          <Item>What did Zelda tell Link when he couldn't open the door? TRIFORCE!</Item>
-          <Item>I threw an Asian man down a flight of stairs. It was Wong on so many levels.</Item>
-          <Item>What do squirrels give for Valentine's Day? Forget-me-nuts.</Item>
-          <Item>I would tell you a joke about my shoe but I think I shoedn't.</Item>
-          <Item>How do you know when you are going to drown in milk? When its past your eyes!</Item>
-          <Item>I used to think I was indecisive, but now I'm not too sure.</Item>
-          <Item>What do you call a fish with no eyes? A fsh.</Item>
-          <Item>What cheese can never be yours? Nacho cheese.</Item>
-          <Item>“What time did the man go to the dentist? Tooth hurt-y.”</Item>
-          <Item>What kind of magic do cows believe in? Moodoo.</Item>
-          <Item>What did baby corn say to mama corn? Where’s popcorn?</Item>
-          <Item>What’s brown and sounds like a bell? Dung!</Item>
-          <Item>There’s a new type of broom out, it’s sweeping the nation.</Item>
-          <Item>I knew i shouldn’t have ate that seafood. Because now i’m feeling a little... Eel</Item>
-          <Item>When wearing a bikini, women reveal 90% of their body... men are so polite they only look at the covered parts.</Item>
-          <Item>You know you're ugly when it comes to a group picture and they hand you the camera.</Item>
-          <Item>I want to die peacefully in my sleep, like my grandfather.. Not screaming and yelling like the passengers in his car.</Item>
-          <Item>Life is like toilet paper, you're either on a roll or taking shit from some asshole.</Item>
-          <Item>Team work is important, it helps to put the blame on someone else.</Item>
-          <Item>Before I criticize a man, I like to walk a mile in his shoes. That way, when I do criticize him, I'm a mile away and I have his shoes.</Item>
-          <Item>What do you call a cow with no legs? Ground beef.</Item>
-          <Item>Strong people don't put others down. They lift them up and slam them on the ground for maximum damage.</Item>
-          <Item>Did you know that dolphins are so smart that within a few weeks of captivity, they can train people to stand on the very edge of the pool and throw them fish?</Item>
-          <Item>Feeling pretty proud of myself. The Sesame Street puzzle I bought said 3-5 years, but I finished it in 18 months.</Item>
-          <Item>Apparently I snore so loudly that it scares everyone in the car I'm driving.</Item>
-          <Item>Politicians and diapers have one thing in common. They should both be changed regularly, and for the same reason.</Item>
-          <Item>Wife: "I look fat. Can you give me a compliment?" Husband: "You have perfect eyesight."</Item>
-          <Item>Alcohol is a perfect solvent: It dissolves marriages, families and careers.</Item>
-          <Item>When Miley Cyrus gets naked and licks a hammer it's "art" and "music". But when I do it, I'm "drunk" and "have to leave the hardware store".</Item>
-          <Item>What's the difference between your wife and your job? After five years your job will still suck.</Item>
-          <Item>What's the difference between snowmen and snowladies? Snowballs.</Item>
-          <Item>What do you call a fat psychic? A four chin teller.</Item>
-          <Item>I wondered why the frisbee was getting bigger, and then it hit me.</Item>
-          <Item>Why did the blonde tip-toe past the medicine cabinet? -- She didn't want to wake up the sleeping pills!</Item>
-          <Item>Stalking is when two people go for a long romantic walk together but only one of them knows about it.</Item>
-          <Item>Why did the duck go to rehab? Because he was a quack addict!</Item>
-          <Item>The early bird might get the worm, but the second mouse gets the cheese.</Item>
-          <Item>What did the elephant say to the naked man? How do you breathe through something so small?</Item>
-          <Item>What's the difference between roast beef and pea soup? -- Anyone can roast beef.</Item>
-          <Item>Why are horses always so fit? Because they're on a stable diet.</Item>
-          <Item>Which side of a chicken has the most feathers? The outside.</Item>
-          <Item>What's the difference between an oral and a rectal thermometer? The taste!</Item>
-          <Item>Why does the lion keep losing when playing cards? -- Because he keeps playing with a bunch of cheetahs.</Item>
-          <Item>What do you call a dog that does magic tricks? A labracadabrador.</Item>
-        </Random>
-      </Response>
-    </Model>
-  </Concept>
+	<Concept Name="_jokes" Type="Public">
+		<Model>
+			<Pattern>JOKE</Pattern>
+			<Response>
+				<Random>
+					<Item>What did the mountain climber name his son? Cliff.</Item>
+					<Item>Did you hear that the police have a warrant out on a midget psychic ripping people off? It reads “Small medium at large.”</Item>
+					<Item>“Whenever the cashier at the grocery store asks my dad if he would like the milk in a bag he replies, ‘No, just leave it in the carton!’”</Item>
+					<Item>“Me: ‘Dad, make me a sandwich!’ Dad: ‘Poof, You’re a sandwich!’”</Item>
+					<Item>“I heard there was a new store called Moderation. They have everything there</Item>
+					<Item>“How can you tell if a ant is a boy or a girl? They’re all girls, otherwise they’d be uncles.”</Item>
+					<Item>I went to a book store and asked the saleswoman where the Self Help section was, she said if she told me it would defeat the purpose.</Item>
+					<Item>Milk is also the fastest liquid on earth – its pasteurized before you even see it</Item>
+					<Item>“What’s Forrest Gump’s password? 1forrest1”</Item>
+					<Item>What did the ocean say to the shore? Nothing, it just waved.</Item>
+					<Item>“What’s ET short for? Because he’s only got little legs.”</Item>
+					<Item>“What is Beethoven’s favorite fruit? A ba-na-na-na.”</Item>
+					<Item>Why do crabs never give to charity? Because they’re shellfish.</Item>
+					<Item>What do you call an Argentinian with a rubber toe? Roberto</Item>
+					<Item>“What do you call a man with no nose and no body? Nobody nose.”</Item>
+					<Item>I cut my finger chopping cheese, but I think that I may have grater problems.</Item>
+					<Item>“What do you call a man with no arms and no legs lying in front of your door? Matt.”</Item>
+					<Item>My cat was just sick on the carpet, I don’t think it’s feline well.</Item>
+					<Item>I dreamed about drowning in an ocean made out of orange soda last night. It took me a while to work out it was just a Fanta sea.</Item>
+					<Item>A termite walks into a bar and asks “Is the bar tender here?”</Item>
+					<Item>I gave all my dead batteries away today... Free of charge.</Item>
+					<Item>I am terrified of elevators. I’m going to start taking steps to avoid them.</Item>
+					<Item>What’s the advantage of living in Switzerland? Well, the flag is a big plus.</Item>
+					<Item>Why did the octopus beat the shark in a fight? Because it was well armed.</Item>
+					<Item>A red and a blue ship have just collided in the Caribbean. Apparently the survivors are marooned.</Item>
+					<Item>I’ve deleted the phone numbers of all the Germans I know from my mobile phone. Now it’s Hans free.</Item>
+					<Item>Last night me and my girlfriend watched three DVDs back to back. Luckily I was the one facing the TV.</Item>
+					<Item>What did daddy spider say to baby spider? You spend too much time on the web.</Item>
+					<Item>What do you call a group of killer whales playing instruments? An Orca-stra.</Item>
+					<Item>Why was the big cat disqualified from the race? Because it was a cheetah.</Item>
+					<Item>Bicycles can’t stand on their own, they’re two tired.</Item>
+					<Item>Breaking news! Energizer Bunny arrested – charged with battery</Item>
+					<Item>“How do you make holy water? You boil the hell out of it.”</Item>
+					<Item>A Sandwich walks into a bar, the bartender says “Sorry, we don’t serve food here”</Item>
+					<Item>“Doctor, I’ve broken my arm in several places” Doctor “Well don’t go to those places.”</Item>
+					<Item>“Why did the Clydesdale give the pony a glass of water? Because he was a little horse!”</Item>
+					<Item>Relationships are a lot like algebra. Have you ever looked at your X and wondered Y?</Item>
+					<Item>They laughed when I said I wanted to be a comedian – they’re not laughing now.</Item>
+					<Item>A police officer caught two kids playing with a firework and a car battery. He charged one and let the other one off.</Item>
+					<Item>Last Christmas we bought a fake Christmas tree and the guy behind the counter said to my Dad,” Are you going to put it up yourself?” Dad replied, “Don’t be disgusting, I’m going to put it in the living room. “</Item>
+					<Item>I’m reading a book on the history of glue – can’t put it down.</Item>
+					<Item>Did you hear about the kidnapping at school? It’s fine, he woke up.</Item>
+					<Item>I went to the zoo the other day, there was only one dog in it. It was a shitzu.</Item>
+					<Item>What did the daddy tomato say to the baby tomato? Catch up!</Item>
+					<Item>What did the Buffalo say to his little boy when he dropped him off at school? Bison.</Item>
+					<Item>Why did the scarecrow win an award? Because he was outstanding in his field.</Item>
+					<Item>Why don’t seagulls fly over the bay? Because then they’d be bay-gulls!</Item>
+					<Item>What’s the difference between an African elephant and an Indian elephant? About 5000 miles</Item>
+					<Item>What do you call Jay-Z when he’s sleeping? Jay Zzzzzzzzzz.</Item>
+					<Item>A man walks into a bar and orders helicopter flavor chips. The barman replies “sorry mate we only do plain”</Item>
+					<Item>What did the late tomato say to the early tomato? I’ll ketch up</Item>
+					<Item>Why are skeletons so calm? Because nothing gets under their skin.</Item>
+					<Item>Why don’t skeletons ever go trick or treating? Because they have nobody to go with.</Item>
+					<Item>Why do scuba divers fall backwards into the water? Because if they fell forwards they’d still be in the boat.</Item>
+					<Item>Have you ever heard of a music group called Cellophane? They mostly wrap.</Item>
+					<Item>Why does Superman gets invited to dinners? Because he is a Supperhero.</Item>
+					<Item>A recent study has found that women who carry a little extra weight live longer than the men who mention it.</Item>
+					<Item>Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.</Item>
+					<Item>My wife and I were happy for twenty years. Then we met.</Item>
+					<Item>I used to think I was indecisive, but now I'm not too sure.</Item>
+					<Item>If i had a dollar for every girl that found me unattractive, they would eventually find me attractive.</Item>
+					<Item>It's hard to explain puns to kleptomaniacs because they always take things literally.</Item>
+					<Item>I can't believe I got fired from the calendar factory. All I did was take a day off.</Item>
+					<Item>Did you hear about the guy who got hit in the head with a can of soda? He was lucky it was a soft drink.</Item>
+					<Item>I'm reading a book about anti-gravity. It's impossible to put down.</Item>
+					<Item>I wasn't originally going to get a brain transplant, but then I changed my mind.</Item>
+					<Item>What do you call the security outside of a Samsung Store? Guardians of the Galaxy.</Item>
+					<Item>eBay is so useless. I tried to look up lighters and all they had was 13749 matches.</Item>
+					<Item>Why was Cinderella thrown off the basketball team? She ran away from the ball.</Item>
+					<Item>A friend of mine tried to annoy me with bird puns, but I soon realized that toucan play at that game.</Item>
+					<Item>I have a few jokes about unemployed people but it doesn't matter. None of them work.</Item>
+					<Item>Thieves had broken into my house and stolen everything except my soap, shower gel, towels and deodorant. Dirty bastards.</Item>
+					<Item>When I get naked in the bathroom, the shower usually gets turned on.</Item>
+					<Item>I am on a seafood diet. Every time I see food, I eat it.</Item>
+					<Item>Why did the scientist install a knocker on his door? He wanted to win the No-bell prize!</Item>
+					<Item>A book just fell on my head. I've only got myshelf to blame.</Item>
+					<Item>I wanna make a joke about sodium, but Na..</Item>
+					<Item>I hate insects puns, they really bug me.</Item>
+					<Item>Having sex in an elevator is wrong on so many levels.</Item>
+					<Item>Did you hear about the Italian chef with a terminal illness? He pastaway.</Item>
+					<Item>Why don't cannibals eat clowns? They taste funny.</Item>
+					<Item>How can you spot the blind guy at the nudist colony? It's not hard.</Item>
+					<Item>How much does a hipster weigh? An instagram.</Item>
+					<Item>Atheism is a non-prophet organization.</Item>
+					<Item>What do you call Watson when Sherlock isn't around? Holmeless.</Item>
+					<Item>A hole was found in the wall of a nudist camp. The police are looking into it.</Item>
+					<Item>Which day do chickens hate the most? Friday.</Item>
+					<Item>Claustrophobic people are more productive thinking out of the box.</Item>
+					<Item>What do sea monsters eat for lunch? Fish and ships.</Item>
+					<Item>Whats long and hard and has cum in it? A cucumber.</Item>
+					<Item>A donkey fell into a bowl of sugar. Now that's a sweet ass.</Item>
+					<Item>An opinion without 3.14159 is just an onion.</Item>
+					<Item>What do you have to do to have a party in space? You have to Planet.</Item>
+					<Item>What do ghosts serve for dessert? I Scream.</Item>
+					<Item>Where do you find a birthday present for a cat? In a cat-alogue!</Item>
+					<Item>Why did the snowman smile? Because the snowblower is coming.</Item>
+					<Item>I'm trying to finish writing a script for a porno movie, but there are just too many holes in the plot.</Item>
+					<Item>In democracy, it's your vote that counts. In feudalism, it's your count that votes.</Item>
+					<Item>What did Zelda tell Link when he couldn't open the door? TRIFORCE!</Item>
+					<Item>I threw an Asian man down a flight of stairs. It was Wong on so many levels.</Item>
+					<Item>What do squirrels give for Valentine's Day? Forget-me-nuts.</Item>
+					<Item>I would tell you a joke about my shoe but I think I shoedn't.</Item>
+					<Item>How do you know when you are going to drown in milk? When its past your eyes!</Item>
+					<Item>I used to think I was indecisive, but now I'm not too sure.</Item>
+					<Item>What do you call a fish with no eyes? A fsh.</Item>
+					<Item>What cheese can never be yours? Nacho cheese.</Item>
+					<Item>“What time did the man go to the dentist? Tooth hurt-y.”</Item>
+					<Item>What kind of magic do cows believe in? Moodoo.</Item>
+					<Item>What did baby corn say to mama corn? Where’s popcorn?</Item>
+					<Item>What’s brown and sounds like a bell? Dung!</Item>
+					<Item>There’s a new type of broom out, it’s sweeping the nation.</Item>
+					<Item>I knew i shouldn’t have ate that seafood. Because now i’m feeling a little... Eel</Item>
+					<Item>When wearing a bikini, women reveal 90% of their body... men are so polite they only look at the covered parts.</Item>
+					<Item>You know you're ugly when it comes to a group picture and they hand you the camera.</Item>
+					<Item>I want to die peacefully in my sleep, like my grandfather.. Not screaming and yelling like the passengers in his car.</Item>
+					<Item>Life is like toilet paper, you're either on a roll or taking shit from some asshole.</Item>
+					<Item>Team work is important, it helps to put the blame on someone else.</Item>
+					<Item>Before I criticize a man, I like to walk a mile in his shoes. That way, when I do criticize him, I'm a mile away and I have his shoes.</Item>
+					<Item>What do you call a cow with no legs? Ground beef.</Item>
+					<Item>Strong people don't put others down. They lift them up and slam them on the ground for maximum damage.</Item>
+					<Item>Did you know that dolphins are so smart that within a few weeks of captivity, they can train people to stand on the very edge of the pool and throw them fish?</Item>
+					<Item>Feeling pretty proud of myself. The Sesame Street puzzle I bought said 3-5 years, but I finished it in 18 months.</Item>
+					<Item>Apparently I snore so loudly that it scares everyone in the car I'm driving.</Item>
+					<Item>Politicians and diapers have one thing in common. They should both be changed regularly, and for the same reason.</Item>
+					<Item>Wife: "I look fat. Can you give me a compliment?" Husband: "You have perfect eyesight."</Item>
+					<Item>Alcohol is a perfect solvent: It dissolves marriages, families and careers.</Item>
+					<Item>When Miley Cyrus gets naked and licks a hammer it's "art" and "music". But when I do it, I'm "drunk" and "have to leave the hardware store".</Item>
+					<Item>What's the difference between your wife and your job? After five years your job will still suck.</Item>
+					<Item>What's the difference between snowmen and snowladies? Snowballs.</Item>
+					<Item>What do you call a fat psychic? A four chin teller.</Item>
+					<Item>I wondered why the frisbee was getting bigger, and then it hit me.</Item>
+					<Item>Why did the blonde tip-toe past the medicine cabinet? -- She didn't want to wake up the sleeping pills!</Item>
+					<Item>Stalking is when two people go for a long romantic walk together but only one of them knows about it.</Item>
+					<Item>Why did the duck go to rehab? Because he was a quack addict!</Item>
+					<Item>The early bird might get the worm, but the second mouse gets the cheese.</Item>
+					<Item>What did the elephant say to the naked man? How do you breathe through something so small?</Item>
+					<Item>What's the difference between roast beef and pea soup? -- Anyone can roast beef.</Item>
+					<Item>Why are horses always so fit? Because they're on a stable diet.</Item>
+					<Item>Which side of a chicken has the most feathers? The outside.</Item>
+					<Item>What's the difference between an oral and a rectal thermometer? The taste!</Item>
+					<Item>Why does the lion keep losing when playing cards? -- Because he keeps playing with a bunch of cheetahs.</Item>
+					<Item>What do you call a dog that does magic tricks? A labracadabrador.</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>

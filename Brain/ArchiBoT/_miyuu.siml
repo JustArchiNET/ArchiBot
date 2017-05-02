@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_miyuu" Type="Public">
-    <Model>
-      <Pattern>WHAT IS ミユ</Pattern>
-      <Response>
-        <Random>
-          <Item>ミユ is Miyuu.</Item>
-          <Item>AMINE WEEB.</Item>
-        </Random>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>ᵏᵉʳᵒ</Pattern>
-      <Response>ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</Response>
-    </Model>
-  </Concept>
+	<Concept Name="_miyuu" Type="Public">
+		<Model>
+			<Pattern>WHAT IS ミユ</Pattern>
+			<Response>
+				<Random>
+					<Item>ミユ is Miyuu.</Item>
+					<Item>AMINE WEEB.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>ᵏᵉʳᵒ</Pattern>
+			<Response>ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</Response>
+		</Model>
+	</Concept>
 </Siml>
