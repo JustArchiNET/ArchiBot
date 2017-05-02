@@ -22,7 +22,7 @@
 		</Model>
 
 		<Model>
-			<Pattern># XOR #</Pattern>
+			<Pattern>_ XOR _</Pattern>
 			<Response>
 				<Random>
 					<Item><Text Get="sentence"><Match Index="1" /></Text>.</Item>
@@ -35,8 +35,8 @@
 
 		<Model>
 			<Pattern>
-				<Item>FAKUBALL, KICK # OR #</Item>
-				<Item>FAKUBALL KICK # OR #</Item>
+				<Item>FAKUBALL, KICK _ OR _</Item>
+				<Item>FAKUBALL KICK _ OR _</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -51,8 +51,8 @@
 
 		<Model>
 			<Pattern>
-				<Item>FAKUBALL, KICK #</Item>
-				<Item>FAKUBALL KICK #</Item>
+				<Item>FAKUBALL, KICK _</Item>
+				<Item>FAKUBALL KICK _</Item>
 			</Pattern>
 			<Response>
 				<Random>
