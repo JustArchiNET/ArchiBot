@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_pppn" Type="Public">
+		<Model>
+			<Pattern>
+				<Item>FLIP TABLE</Item>
+				<Item>FLIPPU TABLE</Item>
+				<Item>FLIPU TABLE</Item>
+			</Pattern>
+			<Response>
+				<Switch User="_pppn_table_state">
+					<Case Value="flipped">
+						<Goto>SET TABLE</Goto>
+					</Case>
+					<Case Value="thrown">
+						<Goto>SET TABLE</Goto>
+					</Case>
+					<Default>
+						<Goto>PPPN FLIPPING TABLE</Goto>
+					</Default>
+				</Switch>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>THROW TABLE</Pattern>
+			<Response>
+				<Think><User Set="_pppn_table_state">thrown</User></Think>
+				<Random>
+					<Item>(┛◉Д◉)┛彡┻━┻</Item>
+					<Item>(ノಠ益ಠ)ノ彡┻━┻</Item>
+					<Item>(┛ಸ_ಸ)┛彡┻━┻</Item>
+					<Item>(ノಥ,_｣ಥ)ノ彡┻━┻</Item>
+					<Item>(┛✧Д✧))┛彡┻━┻</Item>
+					<Item>(ノTДT)ノ ┫:･'.::･┻┻:･'.::･</Item>
+					<Item>(ノ｀⌒´)ノ ┫：・'.：：・┻┻：・'.：：・</Item>
+					<Item>┻━┻ミ＼(≧ﾛ≦＼)</Item>
+					<Item>ノ｀⌒´)ノ ┫：・'.：：・┻┻</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>SET TABLE</Item>
+				<Item>SETTU TABLE</Item>
+				<Item>SETU TABLE</Item>
+			</Pattern>
+			<Response>
+				<Think><User Set="_pppn_table_state">set</User></Think>
+				<Random>
+					<Item>┬──┬ ノ( ゜-゜ノ)</Item>
+					<Item>┬──┬﻿ ¯\_(ツ)</Item>
+					<Item>(ヘ･_･)ヘ┳━┳</Item>
+					<Item>ヘ(´° □°)ヘ┳━┳</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>PPPN FLIPPING TABLE</Pattern>
+			<Response>
+				<Think><User Set="_pppn_table_state">flipped</User></Think>
+				<Random>
+					<Item>(╯°□°）╯︵ ┻━┻</Item>
+					<Item>(ﾉ≧∇≦)ﾉ ﾐ ┸━┸</Item>
+					<Item>(╯ರ ~ ರ）╯︵ ┻━┻</Item>
+					<Item>(ﾉ´･ω･)ﾉ ﾐ ┸━┸</Item>
+					<Item>┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻</Item>
+					<Item>┻━┻ ︵﻿ ¯\(ツ)/¯ ︵ ┻━┻</Item>
+					<Item>(ﾉ*｀▽´*)ﾉ ⌒┫ ┻ ┣ ┳</Item>
+					<Item>┻━┻︵└(՞▃՞ └)</Item>
+					<Item>┻━┻︵└(´▃｀└)</Item>
+					<Item>─=≡Σ((((╯°□°）╯︵ ┻━┻</Item>
+					<Item>(ノ｀´)ノ ~┻━┻</Item>
+					<Item>(-_- )ﾉ⌒┫ ┻ ┣</Item>
+					<Item>(ノ￣皿￣）ノ ⌒=== ┫</Item>
+					<Item>༼ﾉຈل͜ຈ༽ﾉ︵┻━┻</Item>
+					<Item>ヽ༼ຈل͜ຈ༽ﾉ⌒┫ ┻ ┣</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
+</Siml>
