@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_help" Type="Public">
+    <Model>
+      <Pattern># CHAT RELAY #</Pattern>
+      <Response>To use chat relay pm ArchiBoT with "!chat chat_id". You can find out the chat_id by typing !chatinfo in a group chat with ArchiBoT present. PROTIP: You can join the Touhou Giveaways relay chat with a simple "!chat 2hu"!</Response>
+    </Model>
+    <Model>
+      <Pattern># CHAT GIVEAWAY #</Pattern>
+      <Response>To find info about chat giveaways go to https://github.com/JustArchi/ArchiBoT/wiki/Chat-giveaways :sgsmile:</Response>
+    </Model>
+    <Model>
+      <Pattern>^ RADIO ^</Pattern>
+      <Response>You can listen to the Touhou radio here: https://radio.justarchi.net/touhou.opus For commands, check https://github.com/JustArchi/ArchiBoT/wiki/Archi's-Touhou-Radio ♪ \:bite:/ ♪</Response>
+    </Model>
+    <Model>
+      <Pattern># CHAT GIVEAWAYS #</Pattern>
+      <Response>
+        <Goto># CHAT GIVEAWAY #</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern># CHAT GIB #</Pattern>
+      <Response>
+        <Goto># CHAT GIVEAWAY #</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern># CHAT GIBS #</Pattern>
+      <Response>
+        <Goto># CHAT GIVEAWAY #</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_kaleith" Type="Public">
+    <Model>
+      <Pattern>FLIP A COIN</Pattern>
+      <Response>
+        <Goto>COIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS TALISMANO</Pattern>
+      <Response>
+        <Goto>WHAT IS TALISMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THANKS BOT</Pattern>
+      <Response>
+        <Goto>THANKS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THANKS ARCHIBOT</Pattern>
+      <Response>
+        <Goto>THANKS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAKUBALL, KICK #</Pattern>
+      <Response>
+        <Goto>FAKUBALL KICK #</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAKUBALL, KICK # OR #</Pattern>
+      <Response>
+        <Goto>FAKUBALL KICK # OR #</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>9BALL ^</Pattern>
+      <Response>❾: <Goto>MAGICBALL ^</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>8BALL ^</Pattern>
+      <Response>❽: <Goto>MAGICBALL ^</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>:PETEBUTTON:</Pattern>
+      <Response>
+        <Goto>PANIC</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWBALL</Pattern>
+      <Response>
+        <Goto>COWMOOBALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWBABYBALL</Pattern>
+      <Response>
+        <Goto>COWMOOBALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWMOOBABYBALL</Pattern>
+      <Response>
+        <Goto>COWMOOBALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWBABYMOOBALL</Pattern>
+      <Response>
+        <Goto>COWMOOBALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWWIN</Pattern>
+      <Response>
+        <Goto>COWMOOWIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWBABYWIN</Pattern>
+      <Response>
+        <Goto>COWMOOWIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWMOOBABYWIN</Pattern>
+      <Response>
+        <Goto>COWMOOWIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWBABYMOOWIN</Pattern>
+      <Response>
+        <Goto>COWMOOWIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern># XOR #</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Text Get="sentence">
+              <Match Index="1" />
+            </Text>.</Item>
+          <Item>
+            <Text Get="sentence">
+              <Match Index="2" />
+            </Text>.</Item>
+          <Item>If I had to choose, I'd pick <Text Get="sentence"><Match Index="1" /></Text>.</Item>
+          <Item>If I had to choose, I'd pick <Text Get="sentence"><Match Index="2" /></Text>.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAKUBALL KICK # OR #</Pattern>
+      <Response>
+        <Random>
+          <Item>Faku: Kick <Text Get="sentence"><Match Index="1" /></Text> :3</Item>
+          <Item>Faku: Kick <Text Get="sentence"><Match Index="2" /></Text> :3</Item>
+          <Item>Faku: Time to kick <Text Get="sentence"><Match Index="1" /></Text> :3</Item>
+          <Item>Faku: Time to kick <Text Get="sentence"><Match Index="2" /></Text> :3</Item>
+          <Item>Faku: Why not both? :3</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAKUBALL KICK #</Pattern>
+      <Response>
+        <Random>
+          <Item>Faku: Yes, definitely :3</Item>
+          <Item>Faku: Sure, kick away :3</Item>
+          <Item>Faku: You bet :3</Item>
+          <Item>Faku: Don't count on it. Just kidding, of course :3</Item>
+          <Item>Faku: Yes :3</Item>
+          <Item>Faku: Let me think... Yep :3</Item>
+          <Item>Faku: As I see it, yes :3</Item>
+          <Item>Faku: Affirmative :3</Item>
+          <Item>Faku: Of course :3</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAKUBALL ^</Pattern>
+      <Response>
+        <Random>
+          <Item>Faku: :3</Item>
+          <Item>Faku: I am Fake :3</Item>
+          <Item>Faku: I love the smell of kicks in the morning :3</Item>
+          <Item>Faku: !2huafknext... Soon :3</Item>
+          <Item>Faku: You're doing it wrong :3</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WINDUBALL</Pattern>
+      <Response>
+        <Random>
+          <Item>Windu: I'm Wind of Memory and this Is my Scam Shop</Item>
+          <Item>Windu: Verdun costs 27$ CAD on sale, aka 9 CSGO keys. If u buy 4 pack u get 3 copies, i traded them for 13 keys today AKA PROFITZ AND FREE GAME</Item>
+          <Item>Windu: Give me 3 keys and I'll answer.</Item>
+          <Item>Windu: Another shitty humble bundle... Guess I'll buy another monthly instead :doubt:</Item>
+          <Item>Windu: They call me Scam. Wind of Scam.</Item>
+          <Item>Windu: Just a little signature here aaaand DONE, another scam success!</Item>
+          <Item>Windu: Please give me your coupons, they're useless anyway :bite:</Item>
+          <Item>Windu: I’ll have you know I graduated top of my class in the Scam Army, and I have over 3000 confirmed scams.</Item>
+          <Item>Windu: Brb, getting free keys for all of my bots.</Item>
+          <Item>Windu: The real is low, time to invest in Nuuvem keys.</Item>
+          <Item>Windu: So I was talking with this cutie at a bar and then BOOM! Notification: "Key reseller price glitch! Quick!". You know the ending :bite:</Item>
+          <Item>Windu: I don't know man, let me fire my farm botnet.</Item>
+          <Item>Windu: DON'T TRY TO CHANGE SUBJECT, DID YOU JUST GIVE AWAY PROFITZ™?</Item>
+          <Item>Windu: Are you having fun? I'm making profits here.</Item>
+          <Item>Windu: Even when it's trash, I'll buy Nep anyway, because it's good for profitz</Item>
+          <Item>Windu: The new bundle that just came out? I bought 8 copies, why do you ask?</Item>
+          <Item>Windu: Neps rhymes with profits :vert:</Item>
+          <Item>Windu: Can someone craft me a :blanc: booster please?</Item>
+          <Item>Windu: Each use of !ai winduball will now cost you 1 key :bite:</Item>
+          <Item>Windu: Time to craft badges and make profitz :vert:</Item>
+          <Item>Windu: Why is nobody buying my $20 backgrounds :doubt:</Item>
+          <Item>Windu: Barter is dead, no more scams :doubt:</Item>
+          <Item>Windu: :doubt: man I made so many humble bundle accounts I can't remember which ones have the unlocks intact</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THANKS *</Pattern>
+      <Response>
+        <User Set="randomemote">
+          <Goto>RANDOMEMOTE</Goto>
+        </User> THANKS<Text Get="uppercase"><Match /></Text><User Get="randomemote" /></Response>
+    </Model>
+    <Model>
+      <Pattern>PANIC</Pattern>
+      <Response>
+        <Random>
+          <Item>:petebutton: PANIC MODE ENGAGED, THIS ISN'T A DRILL :petebutton:</Item>
+          <Item>:petebutton: PANIC :petebutton:</Item>
+          <Item>:petebutton: SOUND THE ALARM :petebutton:</Item>
+          <Item>:petebutton: RED ALERT, RED ALERT :petebutton:</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SING A SONG FOR KALEITH</Pattern>
+      <Response>
+        <Random>
+          <Item>I've heard some corny birds / Who tried to sing / Still a cat's the only cat / Who knows how to swing // Who wants to dig a long-haired gig and stuff like that / When everybody wants to be a cat (Song: Everybody wants to be a cat - The Aristocats)</Item>
+          <Item>Wasurenai yo sugu soba ni / Kimi ga iru itsu no hi mo / Hoshizora ni kagayaite'ru / Namida yureru ashita mo (Song: Kaze ni Naru - Neko No Ongaeshi OST)</Item>
+          <Item>:Neko: meow meow meow meow~ meow meeeow♪</Item>
+          <Item>This is 10% puns, 20% skill, 15% concentrated power of memes, 5% fat, 50% fur and 100% reason to remember the name Kaleith. (Song: Remember the name Kaleith - Fort May-or-may-not be a Real Group)</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS KALEITH</Pattern>
+      <Response>
+        <Random>
+          <Item>:Neko:/ </Item>
+          <Item>Just your friendly neighborhood cat :3</Item>
+          <Item>A majestic, 100% non-fat feline specimen :3</Item>
+          <Item>A fluffy ball of white fur (and not fat)</Item>
+          <Item>The winner of the title "Best Cat Named Kaleith" for over 25 years in a row.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS TALISMAN</Pattern>
+      <Response>
+        <Random>
+          <Item>A game where up to 6 players battle using wits and luck and at the end the leprechaun wins.</Item>
+          <Item>A game that was, for some reason, somewhat popular in Touhou Giveaways.</Item>
+          <Item>A weeb game for non-weebs.</Item>
+          <Item>A game that you only play to get a Touhou Achievement.</Item>
+          <Item>A :steamsalty: generator for people aged 3-99+.</Item>
+          <Item>That game where you can be a righteous knight in shining armor and swing swords around to defeat evil monsters (and then become a frog the turn after that).</Item>
+          <Item>The correct question is "Why do we even play Talismano". The answer? ¯\_(ツ)_/¯</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWMOOBALL</Pattern>
+      <Response>
+        <Random>
+          <Item>thxs i will give you a fifth!!=}</Item>
+          <Item>ok i am in!!=}</Item>
+          <Item>5 points i am in!!=}</Item>
+          <Item>3p i will enter??</Item>
+          <Item>thxs for the wishlisted ga!!=}</Item>
+          <Item>you can have some points back from me!!=}</Item>
+          <Item>10 points i will bite!!=}</Item>
+          <Item>3 times thxs!!=]</Item>
+          <Item>thxs count me in!!=}</Item>
+          <Item>thxs i will enter when i get some more points!!=}</Item>
+          <Item>thxs i will take one of the copies!!=}</Item>
+          <Item>Thxs I will take one!!:)</Item>
+          <Item>The voice in my head said enter so thxs!!:)</Item>
+          <Item>thxs i gave all mine away!!=}</Item>
+          <Item>thxs for both great ga!!=}</Item>
+          <Item>welcome to the group!!=}</Item>
+          <Item>thxs i am in for this one too!!=]</Item>
+          <Item>thxs for the war!!=}</Item>
+          <Item>ralph you are trying to kill me ratio in this group too?!?!?!?</Item>
+          <Item>thxs you are going to take all the points from everyone doing all these!!=]</Item>
+          <Item>thxs for the adventure!!=}</Item>
+          <Item>thxs for the fantasy!!=}</Item>
+          <Item>What the heck take my points!!:)</Item>
+          <Item>thxs once again!!=]</Item>
+          <Item>Take my points please!!:)</Item>
+          <Item>thxs for another chance!!=}</Item>
+          <Item>thxs take my 8 points Archi!!=}</Item>
+          <Item>5 again keep em rolling out i am in!!=}</Item>
+          <Item>thxs for the dlc!!=}</Item>
+          <Item>yes please take my points!!=}</Item>
+          <Item>thxs my points!!=}</Item>
+          <Item>take my points please!!=}</Item>
+          <Item>Thxscagain!!:)</Item>
+          <Item>thxs for the bullets!!=]</Item>
+          <Item>wow another one from you thxs!!=]</Item>
+          <Item>weeb ga yeah!!=}</Item>
+          <Item>dang ratio killers killing me!!=}</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COWMOOWIN</Pattern>
+      <Response>
+        <Random>
+          <Item>thxs for the game marked recevied!!=}</Item>
+          <Item>thxs for the gift added and marked!!=}</Item>
+          <Item>thxs for the double win!!=}</Item>
+          <Item>thxs for sending it so fast it is marked now!!=]</Item>
+          <Item>thxs for my copy it is now marked!!=}</Item>
+          <Item>thxs for my copy!!=}</Item>
+          <Item>yeah i won thxs again!!=}</Item>
+          <Item>looks like you did get some points back from me!!=}</Item>
+          <Item>thxs again for another win!!=}</Item>
+          <Item>thxs mine is marked received!!=}</Item>
+          <Item>thxs for sending it so fast marked recieved!!=}</Item>
+          <Item>thxs for the game you got my points on this one=}</Item>
+          <Item>thxs just got home activated and marked received!!=}</Item>
+          <Item>thxs for the easy win!!=}</Item>
+          <Item>thxs for yet another win ralph!!=}</Item>
+          <Item>thxs ralph just got home marked received!!=}</Item>
+          <Item>thxs for all the wins today all marked received!!=}</Item>
+          <Item>thxs for the wishlisted win marked received!!=}</Item>
+          <Item>thxs for the game Arhi marked recieved!!=}</Item>
+          <Item>thxs for the easy win marked received!!=]</Item>
+          <Item>thxs i have been real lucky today!!=}</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COIN</Pattern>
+      <Response>
+        <Random>
+          <Item>:ccoin: Tails</Item>
+          <Item>:100oj: Heads</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RPS</Pattern>
+      <Response>
+        <Random>
+          <Item>:200rock: Rock</Item>
+          <Item>:200paper: Paper</Item>
+          <Item>:200scissors: Scissors</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ROLL</Pattern>
+      <Response>
+        <Random>
+          <Item>:dice1:</Item>
+          <Item>:dice2:</Item>
+          <Item>:dice3:</Item>
+          <Item>:dice4:</Item>
+          <Item>:dice5:</Item>
+          <Item>:dice6:</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MAGICBALL ^</Pattern>
+      <Response>
+        <Random>
+          <Item>It is certain</Item>
+          <Item>It is decidedly so</Item>
+          <Item>Without a doubt</Item>
+          <Item>Yes definitely</Item>
+          <Item>You may rely on it</Item>
+          <Item>As I see it, yes</Item>
+          <Item>Most likely</Item>
+          <Item>Outlook good</Item>
+          <Item>Yes</Item>
+          <Item>Signs point to yes</Item>
+          <Item>Reply hazy try again</Item>
+          <Item>Ask again later</Item>
+          <Item>Better not tell you now</Item>
+          <Item>Cannot predict now</Item>
+          <Item>Concentrate and ask again</Item>
+          <Item>Don't count on it</Item>
+          <Item>My reply is no</Item>
+          <Item>My sources say no</Item>
+          <Item>Outlook not so good</Item>
+          <Item>Very doubtful</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TRANSLATE ^</Pattern>
+      <Response>
+        <Random>
+          <Item>(flipping the dirty hungarian phrasebook) I will not buy this record, it is scratched.</Item>
+          <Item>(flipping the dirty hungarian phrasebook) I will not buy this tobacconist's, it is scratched.</Item>
+          <Item>(flipping the dirty hungarian phrasebook) My hovercraft is full of eels.</Item>
+          <Item>(flipping the dirty hungarian phrasebook) Do you want to come back to my place, bouncy bouncy?</Item>
+          <Item>(flipping the dirty hungarian phrasebook) If I said you had a beautiful body, would you hold it against me? I... I am no longer infected.</Item>
+          <Item>(flipping the dirty hungarian phrasebook) Ah. You have beautiful thighs.</Item>
+          <Item>(flipping the dirty hungarian phrasebook) Drop your panties, Sir William, I cannot wait 'til lunchtime.</Item>
+          <Item>(flipping the dirty hungarian phrasebook) My nipples explode with delight!</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FLIP</Pattern>
+      <Response>Flip what :sgsmile:</Response>
+    </Model>
+    <Model>
+      <Pattern>ROLL *</Pattern>
+      <Response>Roll one at a time or use !roll <Match /> :sgsmile:</Response>
+    </Model>
+    <Model>
+      <Pattern>TESTMYON</Pattern>
+      <Response>
+        <User Set="randomemote">
+          <Goto>RANDOMEMOTE</Goto>
+        </User> MYON <User Get="randomemote" /></Response>
+    </Model>
+  </Concept>
+</Siml>
