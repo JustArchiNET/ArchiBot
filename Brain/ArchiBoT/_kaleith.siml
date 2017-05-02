@@ -2,45 +2,11 @@
 <Siml>
 	<Concept Name="_kaleith" Type="Public">
 		<Model>
-			<Pattern>FLIP A COIN</Pattern>
-			<Response>
-				<Goto>COIN</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT IS TALISMANO</Pattern>
-			<Response>
-				<Goto>WHAT IS TALISMAN</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>THANKS BOT</Pattern>
-			<Response>
-				<Goto>THANKS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>THANKS ARCHIBOT</Pattern>
-			<Response>
-				<Goto>THANKS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>FAKUBALL, KICK #</Pattern>
-			<Response>
-				<Goto>FAKUBALL KICK #</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>FAKUBALL, KICK # OR #</Pattern>
-			<Response>
-				<Goto>FAKUBALL KICK # OR #</Goto>
-			</Response>
+			<Pattern>
+				<Item>THANKS ARCHIBOT</Item>
+				<Item>THANKS BOT</Item>
+			</Pattern>
+			<Response><Goto>THANK YOU</Goto></Response>
 		</Model>
 
 		<Model>
@@ -56,113 +22,38 @@
 		</Model>
 
 		<Model>
-			<Pattern>:PETEBUTTON:</Pattern>
-			<Response>
-				<Goto>PANIC</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWBALL</Pattern>
-			<Response>
-				<Goto>COWMOOBALL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWBABYBALL</Pattern>
-			<Response>
-				<Goto>COWMOOBALL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWMOOBABYBALL</Pattern>
-			<Response>
-				<Goto>COWMOOBALL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWBABYMOOBALL</Pattern>
-			<Response>
-				<Goto>COWMOOBALL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWWIN</Pattern>
-			<Response>
-				<Goto>COWMOOWIN</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWBABYWIN</Pattern>
-			<Response>
-				<Goto>COWMOOWIN</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWMOOBABYWIN</Pattern>
-			<Response>
-				<Goto>COWMOOWIN</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>COWBABYMOOWIN</Pattern>
-			<Response>
-				<Goto>COWMOOWIN</Goto>
-			</Response>
-		</Model>
-
-		<Model>
 			<Pattern># XOR #</Pattern>
 			<Response>
 				<Random>
-					<Item>
-						<Text Get="sentence">
-							<Match Index="1" />
-						</Text>.</Item>
-					<Item>
-						<Text Get="sentence">
-							<Match Index="2" />
-						</Text>.</Item>
-					<Item>If I had to choose, I'd pick <Text Get="sentence">
-							<Match Index="1" />
-						</Text>.</Item>
-					<Item>If I had to choose, I'd pick <Text Get="sentence">
-							<Match Index="2" />
-						</Text>.</Item>
+					<Item><Text Get="sentence"><Match Index="1" /></Text>.</Item>
+					<Item><Text Get="sentence"><Match Index="2" /></Text>.</Item>
+					<Item>If I had to choose, I'd pick <Text Get="sentence"><Match Index="1" /></Text>.</Item>
+					<Item>If I had to choose, I'd pick <Text Get="sentence"><Match Index="2" /></Text>.</Item>
 				</Random>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>FAKUBALL KICK # OR #</Pattern>
+			<Pattern>
+				<Item>FAKUBALL, KICK # OR #</Item>
+				<Item>FAKUBALL KICK # OR #</Item>
+			</Pattern>
 			<Response>
 				<Random>
-					<Item>Faku: Kick <Text Get="sentence">
-							<Match Index="1" />
-						</Text> :3</Item>
-					<Item>Faku: Kick <Text Get="sentence">
-							<Match Index="2" />
-						</Text> :3</Item>
-					<Item>Faku: Time to kick <Text Get="sentence">
-							<Match Index="1" />
-						</Text> :3</Item>
-					<Item>Faku: Time to kick <Text Get="sentence">
-							<Match Index="2" />
-						</Text> :3</Item>
+					<Item>Faku: Kick <Text Get="sentence"><Match Index="1" /></Text> :3</Item>
+					<Item>Faku: Kick <Text Get="sentence"><Match Index="2" /></Text> :3</Item>
+					<Item>Faku: Time to kick <Text Get="sentence"><Match Index="1" /></Text> :3</Item>
+					<Item>Faku: Time to kick <Text Get="sentence"><Match Index="2" /></Text> :3</Item>
 					<Item>Faku: Why not both? :3</Item>
 				</Random>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>FAKUBALL KICK #</Pattern>
+			<Pattern>
+				<Item>FAKUBALL, KICK #</Item>
+				<Item>FAKUBALL KICK #</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Faku: Yes, definitely :3</Item>
@@ -224,21 +115,17 @@
 
 		<Model>
 			<Pattern>THANKS *</Pattern>
-			<Response>
-				<User Set="randomemote">
-					<Goto>RANDOMEMOTE</Goto>
-				</User> THANKS<Text Get="uppercase">
-					<Match />
-				</Text>
-				<User Get="randomemote" />
-			</Response>
+			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> THANKS <Text Get="uppercase"><Match /></Text> <User Get="randomemote" /></Response>
 		</Model>
 
 		<Model>
-			<Pattern>PANIC</Pattern>
+			<Pattern>
+				<Item>PANIC</Item>
+				<Item>:PETEBUTTON:</Item>
+			</Pattern>
 			<Response>
 				<Random>
-					<Item>:petebutton: PANIC MODE ENGAGED, THIS ISN'T A DRILL :petebutton:</Item>
+					<Item>:petebutton: PANIC MODE ENGAGED, THIS IS NOT A DRILL :petebutton:</Item>
 					<Item>:petebutton: PANIC :petebutton:</Item>
 					<Item>:petebutton: SOUND THE ALARM :petebutton:</Item>
 					<Item>:petebutton: RED ALERT, RED ALERT :petebutton:</Item>
@@ -272,7 +159,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHAT IS TALISMAN</Pattern>
+			<Pattern>
+				<Item>WHAT IS TALISMANO</Item>
+				<Item>WHAT IS TALISMAN</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>A game where up to 6 players battle using wits and luck and at the end the leprechaun wins.</Item>
@@ -287,7 +177,13 @@
 		</Model>
 
 		<Model>
-			<Pattern>COWMOOBALL</Pattern>
+			<Pattern>
+				<Item>COWMOOBALL</Item>
+				<Item>COWBABYMOOBALL</Item>
+				<Item>COWMOOBABYBALL</Item>
+				<Item>COWBABYBALL</Item>
+				<Item>COWBALL</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>thxs i will give you a fifth!!=}</Item>
@@ -332,7 +228,13 @@
 		</Model>
 
 		<Model>
-			<Pattern>COWMOOWIN</Pattern>
+			<Pattern>
+				<Item>COWMOOWIN</Item>
+				<Item>COWWIN</Item>
+				<Item>COWBABYMOOWIN</Item>
+				<Item>COWMOOBABYWIN</Item>
+				<Item>COWBABYWIN</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>thxs for the game marked recevied!!=}</Item>
@@ -361,7 +263,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>COIN</Pattern>
+			<Pattern>
+				<Item>COIN</Item>
+				<Item>FLIP A COIN</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>:ccoin: Tails</Item>

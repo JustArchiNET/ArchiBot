@@ -3,37 +3,15 @@
 	<Concept Name="_insults" Type="Public">
 		<Model>
 			<Pattern>INSULT *</Pattern>
-			<Response>
-				<Text Get="sentence">
-					<Match />
-					<Goto>INSULT</Goto>
-				</Text>
-			</Response>
+			<Response><Text Get="sentence"><Match /> <Goto>INSULT</Goto></Text></Response>
 		</Model>
 
 		<Model>
-			<Pattern>INSULT ME</Pattern>
-			<Response>
-				<Goto>INSULT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>INSULT YOURSELF</Pattern>
-			<Response>
-				<Goto>INSULT BOT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>INSULT ARCHIBOT</Pattern>
-			<Response>
-				<Goto>INSULT BOT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>INSULT BOT</Pattern>
+			<Pattern>
+				<Item>INSULT BOT</Item>
+				<Item>INSULT ARCHIBOT</Item>
+				<Item>INSULT YOURSELF</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>You really thought I'd insult myself? :sgsmile:</Item>
@@ -47,7 +25,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>INSULT</Pattern>
+			<Pattern>
+				<Item>INSULT</Item>
+				<Item>INSULT ME</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Is your ass jealous of the amount of shit that comes out of your mouth?</Item>

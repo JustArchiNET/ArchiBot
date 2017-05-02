@@ -126,22 +126,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>ANIME</Pattern>
+			<Pattern>
+				<Item>ANIME</Item>
+				<Item>ANIMU</Item>
+				<Item>AMINE</Item>
+			</Pattern>
 			<Response>AMINE WEEB TRASH. FUCKING NORMIES.</Response>
-		</Model>
-
-		<Model>
-			<Pattern>ANIMU</Pattern>
-			<Response>
-				<Goto>ANIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>AMINE</Pattern>
-			<Response>
-				<Goto>ANIME</Goto>
-			</Response>
 		</Model>
 
 		<Model>
@@ -150,7 +140,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHAT IS OJ</Pattern>
+			<Pattern>
+				<Item>WHAT IS OJ</Item>
+				<Item>WHAT IS ORANGE JUICE</Item>
+				<Item>WHAT IS 100 PERCENT ORANGE JUICE</Item>
+				<Item>WHAT IS 100 PERCENT OJ</Item>
+				<Item>WHAT IS 100 OJ</Item>
+				<Item>WHAT IS 100 ORANGE JUICE</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Orange Juice.</Item>
@@ -182,42 +179,11 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHAT IS ORANGE JUICE</Pattern>
-			<Response>
-				<Goto>WHAT IS OJ</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT IS 100 PERCENT ORANGE JUICE</Pattern>
-			<Response>
-				<Goto>WHAT IS OJ</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT IS 100 PERCENT OJ</Pattern>
-			<Response>
-				<Goto>WHAT IS OJ</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT IS 100 OJ</Pattern>
-			<Response>
-				<Goto>WHAT IS OJ</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT IS 100 ORANGE JUICE</Pattern>
-			<Response>
-				<Goto>WHAT IS OJ</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>FORTUNE</Pattern>
+			<Pattern>
+				<Item>FORTUNE</Item>
+				<Item>FORTUNES</Item>
+				<Item>FORTUNE COOKIE</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Your future will prosper.</Item>
@@ -464,20 +430,6 @@
 					<Item>:vert:</Item>
 					<Item>:zeemonster::sgsmile:</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>FORTUNES</Pattern>
-			<Response>
-				<Goto>FORTUNE</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>FORTUNE COOKIE</Pattern>
-			<Response>
-				<Goto>FORTUNE</Goto>
 			</Response>
 		</Model>
 	</Concept>

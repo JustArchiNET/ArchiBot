@@ -21864,12 +21864,14 @@ Hmm.  <Goto>what is a <Match /></Goto></Response>
         <Goto>then I am <Match /></Goto>
       </Response>
     </Model>
+<!--
     <Model>
       <Pattern>THANKS *</Pattern>
       <Response>
         <Goto>thank you <Match /></Goto>
       </Response>
     </Model>
+-->
     <Model>
       <Pattern>THAT DOES NOT REALLY *</Pattern>
       <Response>

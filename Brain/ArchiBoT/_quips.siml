@@ -2,8 +2,7 @@
 <Siml>
 	<Concept Name="_quips" Type="Public">
 		<Model>
-			<Pattern>FISTO</Pattern>
-			<!-- DeltabladeX -->
+			<Pattern>FISTO</Pattern>	<!-- by DeltabladeX -->
 			<Response>
 				<Random>
 					<Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
@@ -23,8 +22,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>NUTFACT</Pattern>
-			<!-- Taigo -->
+			<Pattern>
+				<Item>NUTFACT</Item>			<!-- by Taigo -->
+				<Item>NUTFACTS</Item>
+				<Item>^ NUT FACTS</Item>
+				<Item>^ NUT FACT</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Did you know that Phil is from Frisco?</Item>
@@ -40,42 +43,11 @@
 		</Model>
 
 		<Model>
-			<Pattern>TAIGO</Pattern>
-			<Response>
-				<Text Get="sentence">
-					<Goto>RANDOMADJECTIVE</Goto>
-				</Text>
-				<Text Get="sentence">
-					<Goto>RANDOMNOUN</Goto>
-				</Text> Taigo</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS TAIGO</Pattern>
-			<Response>
-				<Goto>TAIGO</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>NUTFACTS</Pattern>
-			<Response>
-				<Goto>NUTFACT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>^ NUT FACTS</Pattern>
-			<Response>
-				<Goto>NUTFACT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>^ NUT FACT</Pattern>
-			<Response>
-				<Goto>NUTFACT</Goto>
-			</Response>
+			<Pattern>
+				<Item>TAIGO</Item>
+				<Item>WHO IS TAIGO</Item>
+			</Pattern>
+			<Response><Text Get="sentence"><Goto>RANDOMADJECTIVE</Goto></Text> <Text Get="sentence"><Goto>RANDOMNOUN</Goto></Text> Taigo</Response>
 		</Model>
 	</Concept>
 </Siml>

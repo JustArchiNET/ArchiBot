@@ -89,7 +89,17 @@
 		</Model>
 
 		<Model>
-			<Pattern>GENOCIDE TIME</Pattern>
+			<Pattern>
+				<Item>GENOCIDE TIME</Item>
+				<Item>I WILL KILL YOU</Item>
+				<Item>I WANT TO KILL YOU</Item>
+				<Item>I AM GOING TO KILL YOU</Item>
+				<Item>I WISH TO KILL YOU</Item>
+				<Item># BAD TIME</Item>
+				<Item>I HATE SPAGHETTI</Item>
+				<Item>DO NOT GIVE ME # GOOD TIME</Item>
+				<Item>I DO NOT WANT # GOOD TIME</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>i'm going to have an awful experience</Item>
@@ -160,71 +170,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>I WILL KILL YOU</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>I WANT TO KILL YOU</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>I AM GOING TO KILL YOU</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>I WISH TO KILL YOU</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern># BAD TIME</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>I HATE SPAGHETTI</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DO NOT GIVE ME # GOOD TIME</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>I DO NOT WANT # GOOD TIME</Pattern>
-			<Response>
-				<Goto>GENOCIDE TIME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>MÄMMI</Pattern>
+			<Pattern>
+				<Item>MÄMMI</Item>
+				<Item>MAMMI</Item></Pattern>
 			<Response>Sauna</Response>
-		</Model>
-
-		<Model>
-			<Pattern>MAMMI</Pattern>
-			<Response>
-				<Goto>MÄMMI</Goto>
-			</Response>
 		</Model>
 
 		<Model>
@@ -233,7 +182,13 @@
 		</Model>
 
 		<Model>
-			<Pattern>BEST GODDESS</Pattern>
+			<Pattern>
+				<Item>WHO IS THE BEST GODDESS</Item>
+				<Item>BEST GODDESS</Item>
+				<Item>WHO IS THE BEST CPU</Item>
+				<Item>WHICH GODDESS IS THE BEST</Item>
+				<Item>WHICH CPU IS THE BEST</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>:vert:</Item>
@@ -247,40 +202,21 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHO IS THE BEST GODDESS</Pattern>
-			<Response>
-				<Goto>BEST GODDESS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS THE BEST CPU</Pattern>
-			<Response>
-				<Goto>BEST GODDESS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHICH GODDESS IS THE BEST</Pattern>
-			<Response>
-				<Goto>BEST GODDESS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHICH CPU IS THE BEST</Pattern>
-			<Response>
-				<Goto>BEST GODDESS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
 			<Pattern>WHEN THERE IS SMOKE</Pattern>
 			<Response>they pinch back</Response>
 		</Model>
 
 		<Model>
-			<Pattern>SAVE CODE TALKER</Pattern>
+			<Pattern>
+				<Item>SAVE CODE TALKER</Item>
+				<Item>PICK A GAME FOR MADU #</Item>
+				<Item>CHOOSE A GAME FOR MADU #</Item>
+				<Item>WHAT SHOULD MADU PLAY</Item>
+				<Item>WHAT SHOULD MADU PLAY TODAY</Item>
+				<Item>WHAT SHOULD MADU PLAY TONIGHT</Item>
+				<Item>* SOMETHING MADU SHOULD PLAY</Item>
+				<Item>SUGGEST SOMETHING MADU SHOULD PLAY</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>:Miller:</Item>
@@ -306,55 +242,6 @@
 		</Model>
 
 		<Model>
-			<Pattern>PICK A GAME FOR MADU #</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>CHOOSE A GAME FOR MADU #</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT SHOULD MADU PLAY</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT SHOULD MADU PLAY TODAY</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT SHOULD MADU PLAY TONIGHT</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>* SOMETHING MADU SHOULD PLAY</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>SUGGEST SOMETHING MADU SHOULD PLAY</Pattern>
-			<Response>
-				<Goto>SAVE CODE TALKER</Goto>
-			</Response>
-		</Model>
-
-		<Model>
 			<Pattern>SAVE EMMERICH</Pattern>
 			<Response>
 				<Random>
@@ -367,7 +254,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHO IS DOSH</Pattern>
+			<Pattern>
+				<Item>WHO IS DOSH</Item>
+				<Item>WHO IS VAPOR DOSH</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Vert FC Chairman</Item>
@@ -389,13 +279,6 @@
 					<Item>Guy who still hasn't upgraded his PC.</Item>
 					<Item>Professional funposter.</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS VAPOR DOSH</Pattern>
-			<Response>
-				<Goto>WHO IS DOSH</Goto>
 			</Response>
 		</Model>
 

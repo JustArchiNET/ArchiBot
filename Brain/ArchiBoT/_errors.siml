@@ -8,9 +8,7 @@
 
 		<Model>
 			<Pattern>NOTAICOMMAND *</Pattern>
-			<Response>Maybe try EXCLAMATIONMARK<Text Get="lowercase">
-					<Match />
-				</Text> instead :sgsmile:</Response>
+			<Response>Maybe try !<Text Get="lowercase"><Match /></Text> instead :sgsmile:</Response>
 		</Model>
 
 		<Model>

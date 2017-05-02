@@ -7,7 +7,11 @@
 		</Model>
 
 		<Model>
-			<Pattern>FACT</Pattern>
+			<Pattern>
+				<Item>FACT</Item>
+				<Item>DID YOU KNOW</Item>
+				<Item>FACTS</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Did you know you can add your own fortunes?</Item>
@@ -50,16 +54,6 @@
 					<Item>Did you know budgies can be taught to count up to three, and do very basic sums that involve just those three numbers?</Item>
 				</Random>
 			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DID YOU KNOW</Pattern>
-			<Response><Goto>FACT</Goto></Response>
-		</Model>
-
-		<Model>
-			<Pattern>FACTS</Pattern>
-			<Response><Goto>FACT</Goto></Response>
 		</Model>
 	</Concept>
 </Siml>

@@ -8,7 +8,7 @@
 
 		<Model>
 			<Pattern>MYON</Pattern>
-			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User><Text Get="uppercase">MYON</Text><User Get="randomemote" /></Response>
+			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> MYON <User Get="randomemote" /></Response>
 		</Model>
 
 		<Model>
@@ -278,7 +278,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>KONRADSBALL</Pattern>
+			<Pattern>
+				<Item>KONRADS6 GOLDEN THOUGHTS</Item>
+				<Item>KONRADSBALL</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>dont have time click every gamez when must do other thingz</Item>
@@ -297,13 +300,6 @@
 					<Item>you can have every game for free from cardz, even gta 5!</Item>
 					<Item>I SOLD TONES OF CARDZ BUT I STILL HAVE MANY "$$$" RUBISH</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>KONRADS6 GOLDEN THOUGHTS</Pattern>
-			<Response>
-				<Goto>KONRADSBALL</Goto>
 			</Response>
 		</Model>
 

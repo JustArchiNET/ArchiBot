@@ -2,7 +2,11 @@
 <Siml>
 	<Concept Name="_miku" Type="Public">
 		<Model>
-			<Pattern>WHO IS MIKE</Pattern>
+			<Pattern>
+				<Item>WHO IS MIKE</Item>
+				<Item>WHO IS MIKU</Item>
+				<Item>WHO IS MICHELLE</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>A guy who, for some reason, is trying to create a "harem" of little brothers.</Item>
@@ -17,20 +21,6 @@
 					<Item>A weeb.</Item>
 					<Item>:zeemonster::sgsmile:</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS MIKU</Pattern>
-			<Response>
-				<Goto>WHO IS MIKE</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS MICHELLE</Pattern>
-			<Response>
-				<Goto>WHO IS MIKE</Goto>
 			</Response>
 		</Model>
 

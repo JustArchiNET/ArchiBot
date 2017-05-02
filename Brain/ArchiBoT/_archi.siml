@@ -86,20 +86,16 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHO IS MOLE</Pattern>
+			<Pattern>
+				<Item>WHO IS MOLE</Item>
+				<Item>WHO IS MONMON</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Just a con artist pretending to be a nice guy.</Item>
 					<Item>The kind of guy who could lie with a straight face.</Item>
 					<Item>Monmon only doto :3.</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS MONMON</Pattern>
-			<Response>
-				<Goto>WHO IS MOLE</Goto>
 			</Response>
 		</Model>
 

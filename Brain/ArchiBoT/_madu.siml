@@ -2,7 +2,10 @@
 <Siml>
 	<Concept Name="_madu" Type="Public">
 		<Model>
-			<Pattern>WHO IS MADU</Pattern>
+			<Pattern>
+				<Item>WHO IS MADU</Item>
+				<Item>WHO IS MADURUDE</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>Rude, it's in the fucking name</Item>
@@ -31,13 +34,6 @@
 					<Item>:coolpolice: Ja, wir sind auf dem Weg</Item>
 					<Item>INCOMING 🚓</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHO IS MADURUDE</Pattern>
-			<Response>
-				<Goto>WHO IS MADU</Goto>
 			</Response>
 		</Model>
 	</Concept>
