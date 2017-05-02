@@ -115,7 +115,7 @@
 
 		<Model>
 			<Pattern>THANKS *</Pattern>
-			<Response xml:space="preserve"><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> THANKS <Text Get="uppercase"><Match /></Text> <User Get="randomemote" /></Response>
+			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> THANKS <Text Get="uppercase"><Match /></Text> <User Get="randomemote" /></Response>
 		</Model>
 
 		<Model>
