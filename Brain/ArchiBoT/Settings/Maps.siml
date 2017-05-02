@@ -49444,7 +49444,7 @@
     <MapItem Content="my" Value="your" />
     <MapItem Content="your" Value="my" />
   </Map>
-  <!--PERSON2-->
+  <!--LETTERS2FLIPPED in use in FLIP *-->
   <Map Name="letters2flipped">
     <MapItem Content="a" Value="ɐ" />
     <MapItem Content="b" Value="q" />
