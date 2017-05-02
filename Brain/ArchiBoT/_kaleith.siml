@@ -40,10 +40,10 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>Faku: Kick <Text Get="sentence"><Match Index="1" /></Text> :3</Item>
-					<Item>Faku: Kick <Text Get="sentence"><Match Index="2" /></Text> :3</Item>
-					<Item>Faku: Time to kick <Text Get="sentence"><Match Index="1" /></Text> :3</Item>
-					<Item>Faku: Time to kick <Text Get="sentence"><Match Index="2" /></Text> :3</Item>
+					<Item>Faku: Kick <Match Index="1" /> :3</Item>
+					<Item>Faku: Kick <Match Index="2" /> :3</Item>
+					<Item>Faku: Time to kick <Match Index="1" /> :3</Item>
+					<Item>Faku: Time to kick <Match Index="2" /> :3</Item>
 					<Item>Faku: Why not both? :3</Item>
 				</Random>
 			</Response>

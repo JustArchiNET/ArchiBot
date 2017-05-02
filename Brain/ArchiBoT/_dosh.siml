@@ -2,7 +2,13 @@
 <Siml>
 	<Concept Name="_dosh" Type="Public">
 		<Model>
-			<Pattern>WHO ARE THE PATRIOTS</Pattern>
+			<Pattern>
+				<Item>WHO ARE THE PATRIOTS</Item>
+				<Item>LA DASH LI DASH LU DASH LE DASH LO</Item>
+				<Item>LA LI LU LE LO</Item>
+				<Item>LA–LI–LU–LE–LO</Item>
+				<Item>* S3 PLAN</Item>
+			</Pattern>
 			<Response>La-li-lu-le-lo.</Response>
 		</Model>
 
@@ -18,7 +24,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>CAN * BLOOM EVEN * BATTLEFIELD</Pattern>
+			<Pattern>
+				<Item>CAN * BLOOM EVEN * BATTLEFIELD</Item>
+				<Item>WHAT DO YOU THINK * CAN BLOOM EVEN * BATTLEFIELD</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>I do. I think at any time, any place, people can fall in love with each other.</Item>
@@ -26,13 +35,6 @@
 					<Item>Not for you, dude.</Item>
 					<Item>I don't know. I'm just a machine.</Item>
 				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>WHAT DO YOU THINK * CAN BLOOM EVEN * BATTLEFIELD</Pattern>
-			<Response>
-				<Goto>CAN * BLOOM EVEN * BATTLEFIELD</Goto>
 			</Response>
 		</Model>
 
@@ -58,34 +60,6 @@
 		<Model>
 			<Pattern>SNAKE</Pattern>
 			<Response>LIQUID!</Response>
-		</Model>
-
-		<Model>
-			<Pattern>LA DASH LI DASH LU DASH LE DASH LO</Pattern>
-			<Response>
-				<Goto>WHO ARE THE PATRIOTS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>LA LI LU LE LO</Pattern>
-			<Response>
-				<Goto>WHO ARE THE PATRIOTS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>LA–LI–LU–LE–LO</Pattern>
-			<Response>
-				<Goto>WHO ARE THE PATRIOTS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>* S3 PLAN</Pattern>
-			<Response>
-				<Goto>WHO ARE THE PATRIOTS</Goto>
-			</Response>
 		</Model>
 
 		<Model>
