@@ -77,12 +77,7 @@
 
 		<Model>
 			<Pattern>WHO IS KERO</Pattern>
-			<Response>
-				<Random>
-					<Item>¦3つ</Item>
-					<Item>¦3つ</Item>
-				</Random>
-			</Response>
+			<Response>¦3つ</Response>
 		</Model>
 
 		<Model>
