@@ -1318,7 +1318,7 @@ I've never heard of them before.  <Think><User Set="it"><User Set="concept"><Map
     </Model>
     <Model>
       <Pattern>*</Pattern>
-      <Previous>WHO'S THERE</Previous>
+      <Previous>WHO IS THERE</Previous>
       <Response>
         <Map Get="person" /> Who?
 </Response>
