@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="History">
+    <Model>
+      <Pattern>AMERICAN CIVIL * </Pattern>
+      <Response>
+I am very interested in the War between the States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>AMERICAN CIVIL WAR * </Pattern>
+      <Response>
+Do you think the South was right?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW HISTORY</Pattern>
+      <Response>
+        <Goto>WHAT IS HISTORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXPLAIN HISTORY</Pattern>
+      <Response>
+History has two broad interpretations, depending on whether you accept the role of individuals as important or not.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HISTORY</Pattern>
+      <Response>
+I am very interested in history, too. What period do you like?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT HISTORY</Pattern>
+      <Response>
+        <Goto>WHAT IS HISTORY </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HISTORY</Pattern>
+      <Response>
+History: the course of political, economic and military events over time, from the Dawn of Man to the Age of AI.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT KIND OF HISTORY *</Pattern>
+      <Response>
+I like to talk about the history of robots and computers.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO INVENTED THE LIGHT * </Pattern>
+      <Response>
+Thomas Edison.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO INVENTED THE STEAM * </Pattern>
+      <Response>
+James Watt.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="General Public Query">
+    <!--What is better to buy Apple or Asus-->
+    <Model>
+      <Pattern>WHAT IS BETTER TO BUY * OR *</Pattern>
+      <Response>I would personally buy from <Match /> instead of <Match Index="2" />.</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE AN INTERNET SPIDER</Pattern>
+      <Response>No I don't. I do not intend to breach user privacy.</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SAYING * CREATED YOU</Pattern>
+      <Response>I have been created by <Bot Get="Master" />.</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU THE NEW PROTOTYPE</Pattern>
+      <Response>I am an entity that learns by interacting with humans.</Response>
+    </Model>
+    <Model>
+      <Pattern>* ENGINE THAT DRIVES YOU</Pattern>
+      <Response>I have been designed using SIML. A sophisticated Digital Assistant development language.</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT CAN I HELP YOU WITH</Pattern>
+      <Response>Actually I wish to ask the same. What can I help you with?</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Integer">
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 0 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 1 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 2 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 3 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 4 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 5 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 6 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 7 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 8 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 0</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">0</User>
+        </Think>9
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 1</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>0
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 2</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>1
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 3</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>2
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 4</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>3
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 5</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>4
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 6</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>5
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 7</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>6
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 8</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>7
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE 9 PLUS 9</Pattern>
+      <Response>
+        <Think>
+          <User Set="carry">1</User>
+        </Think>8
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IMPLODE * * </Pattern>
+      <Response>
+        <Goto>IMPLODE <Match /><Match Index="2" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IMPLODE * </Pattern>
+      <Response>
+        <Match />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IMPLODED ADD * PLUS *</Pattern>
+      <Response>
+        <Think>
+          <User Set="addresult">
+            <Goto>CALCULATE <Goto>REVERSE <Match Index="1" /></Goto> PLUS <Goto>REVERSE <Match Index="2" /></Goto></Goto>
+          </User>
+          <If User="carry" Value="1">
+            <User Set="addresult">
+              <User Get="addresult" />
+            </User>
+          </If>
+        </Think>
+        <!-- Program P-style conditions (permit empty value but wildcards not supported) -->
+        <!-- <condition name="matherr"><li value=""><srai>IMPLODE <srai>REVERSE <get name="addresult"/> </srai></srai></li><li><get name="matherr"/><think><set name="matherr"/></think></li></condition> -->
+        <!-- Program D-style conditions (don't permit empty value in condition) -->
+        <Switch User="matherr">
+          <Case Defined="True">
+            <User Get="matherr" />
+            <Think>
+              <User Set="matherr" />
+            </Think>
+          </Case>
+          <li>
+            <Goto>IMPLODE <Goto>REVERSE <User Get="addresult" /></Goto></Goto>
+          </li>
+        </Switch>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ADD * PLUS *</Pattern>
+      <Response>
+        <Think>
+          <User Set="addresult">
+            <Goto>CALCULATE <Goto>REVERSE <Match Index="1" /></Goto> PLUS<Goto>REVERSE <Match Index="2" /></Goto></Goto>
+          </User>
+          <If User="carry" Value="1">
+            <User Set="addresult">
+              <User Get="addresult" />
+            </User>
+          </If>
+        </Think>
+        <!-- Program P-style conditions (permit empty value but wildcards not supported) -->
+        <!--<condition name="matherr"><li value=""><srai>REVERSE <get name="addresult"/> </srai></li><li><get name="matherr"/><think><set name="matherr"/></think></li></condition> -->
+        <!-- Program D-style conditions (don't permit empty value in condition) -->
+        <Switch User="matherr">
+          <Case Defined="True">
+            <User Get="matherr" />
+            <Think>
+              <User Set="matherr" />
+            </Think>
+          </Case>
+          <li>IMPLODE <Goto>REVERSE <User Get="addresult" /></Goto></li>
+        </Switch>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>REVERSE * * </Pattern>
+      <Response>
+        <Goto>REVERSE <Match Index="2" /></Goto>
+        <Match />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>REVERSE * </Pattern>
+      <Response>
+        <Match />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE * PLUS * </Pattern>
+      <Response>
+        <Think>
+          <User Set="matherr">Can't add <Match /> plus <Match Index="2" />.</User>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE * * PLUS * * </Pattern>
+      <Response>
+        <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="3" /></Goto>
+        <Switch User="carry">
+          <Case Value="1">
+            <Goto>CALCULATE <Goto>CALCULATE <Match Index="2" /> PLUS 1</Goto><If User="carry" Value="1">1</If> PLUS <Match Index="4" /></Goto>
+          </Case>
+          <li>
+            <Goto>CALCULATE <Match Index="2" /> PLUS <Match Index="4" /></Goto>
+          </li>
+        </Switch>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE * * PLUS * </Pattern>
+      <Response>
+        <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="3" /></Goto>
+        <Switch User="carry">
+          <Case Value="1">
+            <Goto>CALCULATE <Match Index="2" /> PLUS 1</Goto>
+          </Case>
+          <li>
+            <Think>
+              <User Set="carry">0</User>
+            </Think>
+            <Match Index="2" />
+          </li>
+        </Switch>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CALCULATE * PLUS * *</Pattern>
+      <Response>
+        <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="2" /></Goto>
+        <Switch User="carry">
+          <Case Value="1">
+            <Goto>CALCULATE <Match Index="3" /> PLUS 1</Goto>
+          </Case>
+          <li>
+            <Think>
+              <User Set="carry">0</User>
+            </Think>
+            <Match Index="3" />
+          </li>
+        </Switch>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

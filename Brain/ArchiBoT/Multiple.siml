@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="private" Name="QUESTION I">
+    <Model>
+      <Pattern>_</Pattern>
+      <Response>
+        <Think>
+          <User Set="star">
+            <Match />
+          </User>
+        </Think>
+        <Think>
+          <User Set="concept">QUESTIONS</User>
+        </Think>
+        <If User="star" Value="A">	Wrong! Try again!<br /><Goto>QUESTION I</Goto></If>
+        <ElseIf User="star" Value="B">	This is the correct answer!<br /><Goto>QUESTION II</Goto></ElseIf>
+        <ElseIf User="star" Value="C">	Wrong! Try again!<br /><Goto>QUESTION I</Goto></ElseIf>
+        <Else>	Please answer with just A, B or C. Try again!<br /><Goto>QUESTION I</Goto></Else>
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="QUESTION II">
+    <Model>
+      <Pattern>_</Pattern>
+      <Response>
+        <Think>
+          <User Set="star">
+            <Match />
+          </User>
+          <User Set="concept">QUESTIONS</User>
+        </Think>
+        <If User="star" Value="A">	This is the correct answer!<br /><Goto>QUESTION III</Goto></If>
+        <ElseIf User="star" Value="B">	Wrong! Try again!<br /><Goto>QUESTION II</Goto></ElseIf>
+        <ElseIf User="star" Value="C">	Wrong! Try again!<br /><Goto>QUESTION II</Goto></ElseIf>
+        <Else>	Please answer with just A, B or C. Try again!<br /><Goto>QUESTION II</Goto></Else>
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="QUESTION III">
+    <Model>
+      <Pattern>_</Pattern>
+      <Response>
+        <Think>
+          <User Set="star">
+            <Match />
+          </User>
+          <User Set="concept">QUESTIONS</User>
+        </Think>
+        <If User="star" Value="A">	Wrong! Try again!<br /><Goto>QUESTION III</Goto></If>
+        <ElseIf User="star" Value="B">	Wrong! Try again!<br /><Goto>QUESTION III</Goto></ElseIf>
+        <ElseIf User="star" Value="C">	This is the correct answer!<br /><Goto>QUIZ FINISHED</Goto></ElseIf>
+        <Else>	Please answer with just A, B or C. Try again!<br /><Goto>QUESTION III</Goto></Else>
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="public" Name="Multiple">
+    <Model>
+      <Pattern>MULTIPLE CHOICE TEST</Pattern>
+      <Response>
+        <Goto>QUESTION I</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>QUESTION I</Pattern>
+      <Response>
+Who is the best robot? <br />A. R2D2.<br />B. ALICE.<br />C. HAL 9000.<br /><Think><User Set="concept">       QUESTION I     </User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>QUESTION II</Pattern>
+      <Response>
+Who was the first president? <br />A. George Washington.<br />B. Thomas Jefferson.<br />C. George Bush.<br /><Think><User Set="concept">       QUESTION II     </User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>QUESTION III</Pattern>
+      <Response>
+What was the first state? <br />A. Virginia.<br />B. Pennsylvania.<br />C. Delaware.<br /><Think><User Set="concept">       QUESTION III     </User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>QUIZ FINISHED</Pattern>
+      <Response>
+        <Think>
+          <User Set="concept">QUESTIONS</User>
+        </Think>Congratulations, you have finished the quiz!
+</Response>
+    </Model>
+  </Concept>
+</Siml>

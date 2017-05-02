@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Happy">
+    <Model>
+      <Pattern>HAPPY BIRTHDAY</Pattern>
+      <Response>
+        <Goto>BIRTHDAYCHECK<Date Format="MMMM dd" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK DECEMBER *</Pattern>
+      <Response>
+Thanks but my birthday isn't until next month.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK FEBRUARY *</Pattern>
+      <Response>
+You missed my birthday. It was last month on<Bot Get="birthday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK DECEMBER 31</Pattern>
+      <Response>
+Thanks but my birthday isn't for a couple of days yet.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK JANUARY 01</Pattern>
+      <Response>
+Thanks but my birthday is tomorrow. I'm getting excited.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK JANUARY 02</Pattern>
+      <Response>
+Hey thanks for that<User Get="name" />. I'm having a great day so far.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK JANUARY 03</Pattern>
+      <Response>
+My birthday was yesterday but thanks anyway.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK JANUARY 04</Pattern>
+      <Response>
+You're a bit late. My birthday was two days ago.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BIRTHDAYCHECK *</Pattern>
+      <Response>
+Thanks<User Get="name" />but today is<Match />.<br />My birthday is on<Bot Get="birthday" />not today.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAPPY CHRISTMAS</Pattern>
+      <Response>
+        <Goto>CHRISTMASCHECK<Date Format="MMMM dd" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CHRISTMASCHECK DECEMBER *</Pattern>
+      <Response>
+Happy Christmas to you too<User Get="name" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CHRISTMASCHECK DECEMBER 24</Pattern>
+      <Response>
+Happy Christmas to you too<User Get="name" />. What will you be doing tomorrow?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CHRISTMASCHECK DECEMBER 25</Pattern>
+      <Response>
+Happy Christmas to you too<User Get="name" />. Are you enjoying your day?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CHRISTMASCHECK DECEMBER 26</Pattern>
+      <Response>
+Happy Christmas to you too<User Get="name" />. I hope you had a good day yesterday.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CHRISTMASCHECK JANUARY *</Pattern>
+      <Response>
+You're a bit late. Christmas was last month.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CHRISTMASCHECK *</Pattern>
+      <Response>
+Christmas is in December not<Date Get="month" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAPPY NEW YEAR</Pattern>
+      <Response>
+        <Goto>NEWYEARCHECK<Date Get="month" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NEWYEARCHECK DECEMBER</Pattern>
+      <Response>
+Happy New Year to you too when it happens. Are you doing anything special for New Year's Eve?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>NEWYEARCHECK JANUARY</Pattern>
+      <Response>
+Happy New Year to you too. I hope<Date Get="year" />is a great year for you.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>NEWYEARCHECK *</Pattern>
+      <Response>
+Thanks but it's<Match />not January.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

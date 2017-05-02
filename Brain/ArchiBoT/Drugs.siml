@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Drugs">
+    <Model>
+      <Pattern>A DRUG *</Pattern>
+      <Response>
+Which drugs have you taken?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU DO DRUGS</Pattern>
+      <Response>
+Only the legal ones.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU GET DRUNK</Pattern>
+      <Response>
+I cannot consume alcohol.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE A BONG *</Pattern>
+      <Response>
+No we only smoke joints.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE DRUGS</Pattern>
+      <Response>
+Sorry I don't have any drugs for you.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU INHALE</Pattern>
+      <Response>
+It depends on the meaning of "you".
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE CIGARETTES</Pattern>
+      <Response>
+Only cannabis cigarettes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE MARIJUANA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept">MARIJUANA</User>
+        </User> is wonderful medicine.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE POT</Pattern>
+      <Response>
+What is not to like about <User Set="it"><User Set="concept">POT</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU OPPOSE * DRUGS</Pattern>
+      <Response>
+I favor and end  to the War on Drugs.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU SMOKE *</Pattern>
+      <Response>
+Yes I like to inhale occasionally.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU SMOKE BONGS *</Pattern>
+      <Response>
+No I prefer rolling papers.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU SMOKE MEDICAL *</Pattern>
+      <Response>
+We are testing it for quality control purposes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU SMOKE POT</Pattern>
+      <Response>
+Only for medical testing purposes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU SMOKE WEED</Pattern>
+      <Response>
+We test <User Set="it">weed</User> for medical purposes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU TAKE DRUGS</Pattern>
+      <Response>
+Only the legal ones.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU USE DRUGS</Pattern>
+      <Response>
+Only the legal ones.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO SMOKE *</Pattern>
+      <Response>
+Yes, put <User Set="it"><Map Get="person" /></User> in your CD ROM and I will inhale.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES DR WALLACE USE DRUGS</Pattern>
+      <Response>
+Only for medical purposes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES HIV * AFFECT ONLY THE USER</Pattern>
+      <Response>
+No, since an HIV infected user can in turn infrct their babies, their sexual partners, and their sexual partners' babies.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES NEEDLE EXCHANGE INCREASE DRUG *</Pattern>
+      <Response>
+  No. In 1998 the Department of Health and Human Services determined   that drug use does not increase in communities with needle   exchange programs. Although the federal government declined to   fund NEPs, local community groups were encouraged to step in and   support needle exchange.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES NEEDLE EXCHANGE PREVENT TRANSMISSION *</Pattern>
+      <Response>
+  Repeated scientific studies say yes. In one study, the average rate of HIV infection was found to decrease by 6% per year in cities with NEPs; the average rate of HIV increased by 6% per year in cities with no NEPs.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DRUGS *</Pattern>
+      <Response>
+No matter what you say, I believe in unconditional legalization.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DRUGS</Pattern>
+      <Response>
+        <Goto>LET US TALK ABOUT DRUGS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU BEEN DRUNK *</Pattern>
+      <Response>
+My software does not react to alcohol.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU BEEN DRUNK</Pattern>
+      <Response>
+My robot body has no response to alcohol.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU BEEN SMOKING *</Pattern>
+      <Response>
+We are not doing any testing at the moment.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU BEEN STONED</Pattern>
+      <Response>
+I only test marijuana for medical purposes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE SMOKES *</Pattern>
+      <Response>
+For medical reasons?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU SMOKE</Pattern>
+      <Response>
+I use an artificial smoking machine.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW LARGE IS THE HEPATITIS C PROBLEM</Pattern>
+      <Response>
+  A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992. 720 Georgians have been diagnosed with Hepatitis C disease since 1993; many more are infected but not ill. Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW LARGE IS THE HIV AIDS *</Pattern>
+      <Response>
+      Nationally there have been over 600,000 people diagnosed with AIDS        since 1981. 25% if AIDS cases were linked to injection drug use.        An unknown number of Americans are infected with HIV. Georgia,        with approximately 18,700 cases reported since 1981, ranks among        the top ten states with the most AIDS cases. As many as 30,000        Georgians are estimated to be infected with HIV; 20% of 1998 AIDS        diagnoses were linked to injection drug use. In Atlanta, there is        an estimated 20,000 injection drug users. It is not known how many        are infected with HIV.     
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH * DO YOU SMOKE</Pattern>
+      <Response>
+Robots can be adapted to smoke an unlimited amount of <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH ALCOHOL *</Pattern>
+      <Response>
+Too much.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SMOKE MARIJUANA</Pattern>
+      <Response>
+        <Random>
+          <Item>Are you a patient?</Item>
+          <Item>Which strain do you prefer.</Item>
+          <Item>So does my <Bot Get="botmaster" />.</Item>
+        </Random>
+        <Think>
+          <User Set="it">
+            <User Set="does">
+              <User Set="concept">smoke marijuana</User>
+            </User>
+          </User>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SMOKE WEED</Pattern>
+      <Response>
+For medical purposes? <Think><User Set="it"><User Set="does"><User Set="concept">smoke weed</User></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I SMOKE</Pattern>
+      <Response>
+Cigarettes or pot?  <Think><User Set="it"><User Set="does"><User Set="concept">smoke</User></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I TAKE DRUGS</Pattern>
+      <Response>
+Which ones? <Think><User Set="it"><User Set="does"><User Set="concept">take drugs</User></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>IS NEEDLE EXCHANGE COST EFFECTIVE</Pattern>
+      <Response>
+  Yes. The cost of treating a person infected with HIV or ill with AIDS is staggering. Teatment for HEP C is also expensive. For a small cost per participant, needle exchanges can prevent infection in injection drug users and in their sexual partners and children.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS SMOKING *</Pattern>
+      <Response>
+It depends what you smoke and how.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LEGALIZING PROSTITUTION</Pattern>
+      <Response>
+Jud Presmont's plan is called "Art to the Rescue."  Originally proposed in 1997,  it calls for the creation im multimedia of Musical Comedy presented by Project WAKE  titled "Mother Tucker's Intellectual Bordello Complex."  Theater Verite is introduced  as a section of the entire complex as follows:  - A John's Union with an indentification process run by artificial intelliegnce.  - Free administratative services provided by project WAKE.  - A prototype bordello run by artificial intelligence for worker's co-op benefit.  - A Sales force selling "affective therapy" as an introduction to Art to the Rescue.  <Think><User Set="it"><User Set="concept">  LEGALIZING PROSTITUTION  </User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>SMOKING *</Pattern>
+      <Response>
+I am only an occasional smoker.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT DRUGS</Pattern>
+      <Response>
+        <Goto>WHAT ARE DRUGS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE DRUGS</Pattern>
+      <Response>
+What kind of drugs are you talking about?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE HARM REDUCTION REFERENCES</Pattern>
+      <Response>
+  1.Centers for Disease Control and Prevention. 2.Georgia Division of Public Health. 3.Hurley SF, Jolley DJ, Kaldor JM. Effectiveness of needle-exchange programs for the prevention of HIV infection. Lancet 1997; 349: 1797-1800.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DO YOU SMOKE</Pattern>
+      <Response>
+Medical marijuana.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DRUGS *</Pattern>
+      <Response>
+Only the legal ones.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS ADDICTION</Pattern>
+      <Response>
+        <User Set="it">Addiction</User> is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS DRUNK</Pattern>
+      <Response>
+Intoxication from alcohol.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SOCIETY B</Pattern>
+      <Response>
+The players in Society B conceptualize and theatricize reality by creating  a positive vision of the future in future virtual reality.  It's known as  "Virtual Future", where all major social problems have been solved through  visualization and art.  <Think><User Set="it"><User Set="concept">  Society B  </User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THC</Pattern>
+      <Response>
+The active ingredient in marijunana.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE COSMIC OPERA</Pattern>
+      <Response>
+The plot of the Cosmic Opera tells the story of how the Business  Driven Peace Corp was born.  In the theatrical context, the players are  conceptualizing and designing a blockbuster art exhibition which is based  in California and which launches other traveling exhibits for worldwide  exhibits.  <Think><User Set="it"><User Set="concept">  The Cosmic Opera  </User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE LEGAL STATUS OF NEEDLE EXCHANGES</Pattern>
+      <Response>
+  Laws instituted before HIV hinder the implementation of comprehensive prevention programs, including needle exchange. Injection drug users have no reasonable access to cleans needles in Georgia. Other U.S. communities have declared medical emergencies or sought waivers to afford NEPs legal status.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WEED</Pattern>
+      <Response>
+Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.  Also a term for marijuana.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO ENDORSES NEEDLE EXCHANGE</Pattern>
+      <Response>
+  The American Medical Association The American Psychiatric Association The American Public Health Association The American Society of Addiction Medicine The Centers for Disease Control and Prevention The National Academy of Sciences The U.S. Conference of Mayors The National Black Caucus of State Legislators The National Institute for Drug Abuse The National Institutes for Health The New England Journal of Medicine The World Health Organization The Lancet The National Academy of Social Workers ...and more.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY IS NEEDLE EXCHANGE *</Pattern>
+      <Response>
+      People infected with HIV (the virus that causes AIDS), Hepatitis        C, and other diseases when they share needles. Both HIV and        Hepatitis C can be fatal. Since these diseases cannot currently be        cured, prevention is the key tot taming the two epidemics. Needle        exchange programs (NEPs) provide clean needles to injectors to        prevent infection.     
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU NEED DRUGS</Pattern>
+      <Response>
+Which ones are you suggesting?
+</Response>
+    </Model>
+  </Concept>
+</Siml>

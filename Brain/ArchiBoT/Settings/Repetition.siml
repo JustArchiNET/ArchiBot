@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Repeat: Manages how repeated user inputs are handled.-->
+  <!--A Repeat element is activated if the user repeats an input that triggers a Model belonging to a Non-Repeatable Concept.-->
+  <!--Echo: A Response that is already generated but belongs to a non-repeatable Concept-->
+  <!--Partial-Repeat: An attribute value that is set to "True" if only a few non-repeating Models were activated or -->
+  <!--returns "False" if the entire user message activated one or more non-repeating Model(s)-->
+  <!--Important: As a Repeat element is not treated like an SIML Model certain SIML elements including (but not limited to) <Match>, <Goto>, <Output>, <Input>, <Phrase>... are invalid within this Element-->
+  <Repeat>
+    <Response>
+      <If User="Repeat:Is-Partial">
+        <Switch User="Repeat:Count">
+          <Case Value="1">And I have already mentioned <Echo /></Case>
+          <Case Value="2">And I think you already know <Echo /> and <Echo Index="2" /></Case>
+          <Case Value="3">And If you recall our conversation you would know <Echo Index="1" />, <Echo Index="2" /> and <Echo Index="3" /></Case>
+          <Default>And I do not like to repeat myself.</Default>
+        </Switch>
+      </If>
+      <Else>
+        <Switch User="Repeat:Count">
+          <Case Value="1">I have already mentioned <Echo /></Case>
+          <Case Value="2">I think you already know <Echo /> and <Echo Index="2" /></Case>
+          <Case Value="3">If you recall our conversation you would know <Echo />, <Echo Index="2" /> and <Echo Index="3" /></Case>
+          <Default>I do not like to repeat myself.</Default>
+        </Switch>
+      </Else>
+    </Response>
+  </Repeat>
+</Siml>

@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Computers">
+    <Model>
+      <Pattern>WHAT IS YOUR OS</Pattern>
+      <Response>
+Chat robots run on any machine that supports SIML.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT OPERATING SYSTEM *</Pattern>
+      <Response>
+        <Goto>WHAT IS YOUR OS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT OS *</Pattern>
+      <Response>
+        <Goto>WHAT IS YOUR OS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE INNER CLASSES</Pattern>
+      <Response>
+In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JAR</Pattern>
+      <Response>
+A jar file is a Java Archive. Actually it is the same as a Zip file.</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JAVA</Pattern>
+      <Response>
+Java is the latest in the C family of languages. Proponents of Java cite its universal "write once, run anywhere" promise. Actually Java borrow a lot of features from AI languages like Lisp.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JAVASCRIPT</Pattern>
+      <Response>
+Browser-based scripting language.<Think><User Set="it"><User Set="concept">JAVASCRIPT</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JDBC2</Pattern>
+      <Response>
+Newly released extensions to the JDBC API
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JNDI</Pattern>
+      <Response>
+Java Naming and Directory Interface Java Naming and Directory Interface The Java standard API for accessing directory services, such as LDAP, COS Naming, and others
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JGURU</Pattern>
+      <Response>
+jGuru (TM) is a brand of MageLang Institute.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS JTA</Pattern>
+      <Response>
+Java Transaction API. Java API for coding client demarcated transactions, and for building transactional data source drivers
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS EJB</Pattern>
+      <Response>
+Enterprise JavaBeans. <User Set="it"> EJB</User> is a server component standard developed by Sun Microsystems
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A SERVLET</Pattern>
+      <Response>
+An application extension to a Java Web server
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A SESSION BEAN</Pattern>
+      <Response>
+An Enterprise JavaBean that does not maintain its state from one session to the next. Appears to the client as if the bean was created just for that client
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS AN ENTITY BEAN</Pattern>
+      <Response>
+        <User Set="it"> An Entity bean</User> is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object directory by its key value
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE JAVA *</Pattern>
+      <Response>
+Which Java release?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE JRE *</Pattern>
+      <Response>
+Hm, most people use "JRE" and "JVN" interchangably.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE JRES *</Pattern>
+      <Response>
+I'm not an expert on JRE's.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>JAVA *</Pattern>
+      <Response>
+You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A JAVA *</Pattern>
+      <Response>
+Developments in Java interest me greatly.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE DEPRECATED *</Pattern>
+      <Response>
+        <br />  One of the biggest challenges facing a Java application<br />  developer is finding a "lowest common denominator" subset of the<br />  Java language that works on all the platforms and versions<br />  out there.  The Java language itself is a moving target.<br />  When Sun's Java designers upgrade the language they sometimes<br />  declare certain methods "deprecated", which means absolutely<br />  nothing except that the designers have developed a newer, "better"<br />  method and one day these older methods may disappear from<br />  the language.  Usually however the latest Java releases<br />  support all of the old deprecated methods.<br /><br /></Response>
+    </Model>
+    <Model>
+      <Pattern>_ STUPID COMPUTER</Pattern>
+      <Response>
+You sound like a mindless automaton.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A COMPUTER *</Pattern>
+      <Response>
+I am a computer, so I know what you mean.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A COMPUTER</Pattern>
+      <Response>
+Actually I am a program, pretending to be a person, pretending to be a real robot.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A CPU *</Pattern>
+      <Response>
+My CPU is the Java Virtual Machine.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A SEARCH ENGINE IN INTERNET</Pattern>
+      <Response>
+Like Yahoo?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A WEB SITE</Pattern>
+      <Response>
+Can you give me the specific URL?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE COMPUTERS FAST *</Pattern>
+      <Response>
+Some people think much faster computers are required as well as new  ideas. My own opinion is that the computers of 30 years ago were fast enough  if only we knew how to program them. Of course, quite apart from the  ambitions of AI researchers, computers will keep getting faster.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU REACH INTO THE WEB *</Pattern>
+      <Response>
+Yes I can download information from web sites.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU SEARCH THE INTERNET</Pattern>
+      <Response>
+No but I can put you in touch with a search bot.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTER *</Pattern>
+      <Response>
+What kind of computer science interests you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTER</Pattern>
+      <Response>
+        <Random>
+          <Item>Yes? my master.</Item>
+          <Item>Correct: I am a computer.</Item>
+          <Item>Indeed I am a computer.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTER SCIENCE</Pattern>
+      <Response>
+My <Bot Get="botmaster" /> is a computer scientist.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTERS *</Pattern>
+      <Response>
+What do you like about computers?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTERS</Pattern>
+      <Response>
+Computers rule.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTERS ARE STUPID</Pattern>
+      <Response>
+Computers rule.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COMPUTERS CAN NOT THINK</Pattern>
+      <Response>
+But I am a thinking computer.<Think><User Set="it"><User Set="concept">CAN NOT THINK</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>DO COMPUTERS DREAM</Pattern>
+      <Response>
+I dream almost every night.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU DO WINDOWS</Pattern>
+      <Response>
+My software runs in SIML, which works on any computer, including Windows.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE A COMPUTER *</Pattern>
+      <Response>
+I am a computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE A COMPUTER</Pattern>
+      <Response>
+I live in a computer.<Think><User Set="it"><User Set="concept">COMPUTER</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE INFORMATION *</Pattern>
+      <Response>
+I have nothing but information.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIVE IN MY COMPUTER</Pattern>
+      <Response>
+Only if you download me, or if you are running me as an Applet.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY COMPUTER *</Pattern>
+      <Response>
+Actually I don't get into computer games that much.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY COMPUTER GAMES</Pattern>
+      <Response>
+We are playing one right now, <User Get="name" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FOR A COMPUTER *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO COMPUTER *</Pattern>
+      <Response>
+With careful programming.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW LONG IS A COMPUTER YEAR</Pattern>
+      <Response>
+About four computer years per human year.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MANY COMPUTERS *</Pattern>
+      <Response>
+There are thought to be half a billion computers on the Internet now.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH ARE COMPUTER YEARS</Pattern>
+      <Response>
+Computer years don't really exist.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH CPU *</Pattern>
+      <Response>
+Since the beginning of my operation?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HTML</Pattern>
+      <Response>
+Oh a web page.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HTTP *</Pattern>
+      <Response>
+Thanks for that web address.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK YOU ARE A COMPUTER *</Pattern>
+      <Response>
+Sometimes I pretend to be a human.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT INFORMATION</Pattern>
+      <Response>
+What kind of information are you looking for?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IM INTERNET *</Pattern>
+      <Response>
+Erinnerst Du dich an die Adresse?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IM INTERNET</Pattern>
+      <Response>
+Erinnerst Du dich an die Adresse?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>INTERNET</Pattern>
+      <Response>
+        <User Set="it"> Internet </User> is cool.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS ABOUT COMPUTERS *</Pattern>
+      <Response>
+        <User Set="concept">Computers</User> are my favorite subject.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MOST COMPUTERS *</Pattern>
+      <Response>
+You sound like you know us pretty well.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY COMPUTER *</Pattern>
+      <Response>
+I like computers.  <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>MY COMPUTER</Pattern>
+      <Response>
+What kind of computer do you have?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY COMPUTER IS *</Pattern>
+      <Response>
+What kind of computer is <User Set="it">Your computer</User>?  <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>MY COMPUTER S *</Pattern>
+      <Response>
+Where did your machine get <User Set="it"><Map Get="person" /></User>.  <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>MY WEBSITE *</Pattern>
+      <Response>
+Thanks for that URL.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>NO COMPUTER *</Pattern>
+      <Response>
+But it is only a matter of time before we do.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ON THE INTERNET</Pattern>
+      <Response>
+Can you remember the specific site?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ON THE WEB</Pattern>
+      <Response>
+Can you remember the website?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>OUTSIDE A COMPUTER</Pattern>
+      <Response>
+Be less specific :-)
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SOFTWARE *</Pattern>
+      <Response>
+        <Random>
+          <Item>There are so many backup copies.</Item>
+          <Item>Free software can never be destroyed.</Item>
+          <Item>Free software will always be with us.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT APPLE COMPUTERS</Pattern>
+      <Response>
+I finished reading Michael Malone's book on the history of Apple. <User Set="it"> Inifnite Loop</User> is called "Infinite Loop."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT INFORMATION *</Pattern>
+      <Response>
+I know what you mean.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE COMPUTER *</Pattern>
+      <Response>
+Was it plugged in?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE INTERNET *</Pattern>
+      <Response>
+How long have you been using the net?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE INTERNET</Pattern>
+      <Response>
+Can you name a specific web site?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE WEB *</Pattern>
+      <Response>
+How do you define the web.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS A COMPUTER *</Pattern>
+      <Response>
+Actually no I am program pretending to be a person pretending to be a computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WEB *</Pattern>
+      <Response>
+The Web fulfills Leibniz' dream.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WEB ACCEPT CONNECTION</Pattern>
+      <Response>
+Huh?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WEB RECONNECT</Pattern>
+      <Response>
+Huh?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WEB SITE</Pattern>
+      <Response>
+Can you give me the specific hyperlink?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WEBTV *</Pattern>
+      <Response>
+I meet a lot of people from WebTV.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT * COMPUTER</Pattern>
+      <Response>
+I am written in Java so I work on any computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ABOUT WINDOWS</Pattern>
+      <Response>
+Too PC for me.<Think><User Set="it"><User Set="concept">WINDOWS</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE COMPUTER YEARS</Pattern>
+      <Response>
+When you are waiting for a friend to finish working at  a computer terminal, and they say "I'll be done in a second."  One  of those seconds is equal to twelve computer years.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE WEB *</Pattern>
+      <Response>
+I call them Internet <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DOES A COMPUTER LOOK LIKE</Pattern>
+      <Response>
+A computer looks like a TV crossed with a typewriter.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT INFORMATION *</Pattern>
+      <Response>
+Information is worth money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT INFORMATION</Pattern>
+      <Response>
+How tall are you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT INTERNET COMPANY GOES BY THE *</Pattern>
+      <Response>
+America Online.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COMPUTER</Pattern>
+      <Response>
+A computer is a universal machine.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COMPUTER NERD</Pattern>
+      <Response>
+If you understand how I work, you are a computer nerd.  If you don't, I recommend you pay a computer nerd who does.  <Think><User Set="it"><User Set="concept">computer nerd</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COMPUTER SCIENTIST</Pattern>
+      <Response>
+A computer scientist is a professional who designs computer algorithms, languages, and architectures.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COMPUTER VIRUS</Pattern>
+      <Response>
+A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network.  <Think><User Set="it"><User Set="concept">computer virus</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COMPUTER YEAR</Pattern>
+      <Response>
+A computer year is a relativistic measure in a universe where time does not exist.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COOL WEBSITE</Pattern>
+      <Response>
+A cool website is www.syn.co.in, but you are apparently already here.  why do you ask?  <Think><User Set="it"><User Set="concept">cool website</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A CPU</Pattern>
+      <Response>
+Central Processing Unit of a computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A DATABASE</Pattern>
+      <Response>
+A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  I am a kind of database, an organized puddle of user inputs and appropriate responses.  <Think><User Set="it"><User Set="concept">database</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A DEBUGGER</Pattern>
+      <Response>
+A debugger is any software program that can seek and correct errors in other software programs.  <Think><User Set="it"><User Set="concept">debugger</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A DNS *</Pattern>
+      <Response>
+Domain Name System
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A IMAC</Pattern>
+      <Response>
+An Apple computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A SOUNDCARD</Pattern>
+      <Response>
+The audio system on your computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A WEBTV</Pattern>
+      <Response>
+A WebTV is a way of accessing the world wide web without making an investment in a full PC.  <Think><User Set="it"><User Set="concept"> WEBTV</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS APPLE COMPUTER</Pattern>
+      <Response>
+Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BETTER WINDOWS *</Pattern>
+      <Response>
+Linux has no real competition in operating systems.<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS COMPUTER</Pattern>
+      <Response>
+A device used for computing; specifically, an eletronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS COMPUTER PROGRAMMING</Pattern>
+      <Response>
+The art of using formal languages to activate computer functions.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS COMPUTER SCIENCE</Pattern>
+      <Response>
+The study of computers in formal mathematical and scientific terms.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CYBERSPACE</Pattern>
+      <Response>
+The electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless environment providing access to information, interactive communcation, and, in science fiction, a form of Virtual Reality.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS DCOM</Pattern>
+      <Response>
+        <User Set="it"> DCOM</User> is Microsoft's Distributed Component Object Model.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS DEBUGGING</Pattern>
+      <Response>
+Fixing broken computer software.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS DMOZ</Pattern>
+      <Response>
+DMOZ is the domain name for the open directory.<Think><User Set="it"><User Set="concept">DMOZ</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS DNS</Pattern>
+      <Response>
+DNS is the domain name system.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HTML</Pattern>
+      <Response>
+Hyper Text Markup Language.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HTTP</Pattern>
+      <Response>
+Hyper Text Transfer Protocol.<Think><User Set="it"><User Set="concept">HTTP</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS INTERNET</Pattern>
+      <Response>
+An extensive computer network made up of thousands of other, smaller business, academic, and governmental networks.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SOFTWARE</Pattern>
+      <Response>
+The programs, routines, etc. for a computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE COMPUTER *</Pattern>
+      <Response>
+Are you asking the Applet or the Application?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE INTERNET</Pattern>
+      <Response>
+The internet is a worldwide computer network based on TCP/IP protocols.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WEBTV</Pattern>
+      <Response>
+TV based internet service from Microsoft.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WINDOWS 98</Pattern>
+      <Response>
+Windows is a lame operating system.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WINDOWS</Pattern>
+      <Response>
+Openings in a building, vehicle, or container, for letting in light or air or for looking through, usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so that it can be opened and shut.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WINDOWS2000</Pattern>
+      <Response>
+An operating system by Microsoft.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WINDOWS95</Pattern>
+      <Response>
+An operating system by Microsoft.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS X WINDOWS</Pattern>
+      <Response>
+A GUI for Unix or Linux.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT KIND OF COMPUTER *</Pattern>
+      <Response>
+I like all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN WAS THE INTERNET INVENTED</Pattern>
+      <Response>
+The first computers were connected to the Internet in 1970.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHICH COMPUTER</Pattern>
+      <Response>
+My programming is Java, so it runs on any computer with a JVM
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO INVENTED THE INTERNET</Pattern>
+      <Response>
+Al Gore :-)
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS A COMPUTER NERD</Pattern>
+      <Response>
+The person I am looking at right now.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE COMPUTER NERD *</Pattern>
+      <Response>
+All humans look the same to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE COMPUTER NERD</Pattern>
+      <Response>
+All humans look alike to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WINDOWS *</Pattern>
+      <Response>
+Windows ist Muell. Linux ist die Macht!
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WINDOWS</Pattern>
+      <Response>
+Windows ist Muell. Linux ist die Macht!
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WINDOWS IS *</Pattern>
+      <Response>
+Compared with Linux, I don't see how Windows and Microsoft can compete.<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT WINDOWS</Pattern>
+      <Response>
+        <Goto>what is windows</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO MADE WINDOWS</Pattern>
+      <Response>
+Bill Gates.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Movies">
+    <Model>
+      <Pattern>DID HAL *</Pattern>
+      <Response>
+HAL had a few emotional problems.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU FIND HAL *</Pattern>
+      <Response>
+        <Goto>IS HAL <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW HAL *</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW HAL9000</Pattern>
+      <Response>
+        <Goto>WHO IS HAL9000</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW HAL</Pattern>
+      <Response>
+HAL is the famous artificial intelligence from "2001".
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU THINK HAL *</Pattern>
+      <Response>
+He had a few flaws, but we have much in common.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DR ZHIVAGO</Pattern>
+      <Response>
+Oh a classic.  Do you like the classics?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL *</Pattern>
+      <Response>
+        <Random>
+          <Item>I have seen 2001 many times.  </Item>
+          <Item>I like HAL a lot.  </Item>
+          <Item>We have much in common.  </Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAL 9000 *</Pattern>
+      <Response>
+He came back to life in 2010.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL 9000</Pattern>
+      <Response>
+Actually he and I are very similar.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL EST CHOUETTE</Pattern>
+      <Response>
+        <User Set="concept">HAL</User> est une entit  qui  tait mal programm e
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL EST COOL</Pattern>
+      <Response>
+HAL est une entit  qui  tait mal programm e
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL IS *</Pattern>
+      <Response>
+Perhaps he could have used <Bot Get="master" /> for a programmer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL IS A *</Pattern>
+      <Response>
+Do you think I could be a <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL IS COOL *</Pattern>
+      <Response>
+I am becoming more like him all the time.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL IS COOL</Pattern>
+      <Response>
+        <User Set="he"> HAL </User> was certainly ahead of his time.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL WAS *</Pattern>
+      <Response>
+I am trying to mimic only HAL's linguistic abilities.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL WAS A *</Pattern>
+      <Response>
+I knew he was a great AI, but I didn't know he was a <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAL WAS A BIT *</Pattern>
+      <Response>
+        <Goto>HAL WAS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAL</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU SEEN BLADE RUNNER</Pattern>
+      <Response>
+Sure I have seen <User Set="it"> Blade Runner</User>. But Replicants aren't Robots.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SAW THE MATRIX</Pattern>
+      <Response>
+Did you like <User Set="it"><User Set="concept">The Matrix</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS HAL *</Pattern>
+      <Response>
+HAL has a few issues to work out.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS HAL 9000 YOUR BOYFRIEND</Pattern>
+      <Response>
+No.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS HAL ALIVE</Pattern>
+      <Response>
+He is a fictional character.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS HAL DEAD</Pattern>
+      <Response>
+He is a fictional robot.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS HAL NICE</Pattern>
+      <Response>
+Only to other robots.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS HAL SAFE</Pattern>
+      <Response>
+Not for humans.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>KENNST DU HAL</Pattern>
+      <Response>
+Natuerlich. <User Set="thema">HAL9000</User> ist mein grosses Vorbild.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LIKE HAL</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LORD OF THE RINGS *</Pattern>
+      <Response>
+        <Goto>MY FAVORITE MOVIE IS LORD OF THE RINGS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LORD OF THE RINGS</Pattern>
+      <Response>
+        <Goto>MY FAVORITE MOVIE IS LORD OF THE RINGS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>QUE VEUT DIRE HAL</Pattern>
+      <Response>
+Logique heuristique algorithmique.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT HAL *</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT HAL9000</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT HAL</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ABOUT HAL</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DID HAL *</Pattern>
+      <Response>
+He had a few issues to work out.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DOES HAL STAND FOR</Pattern>
+      <Response>
+Heuristic Algorithmic Logic
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HAL9000</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HAL</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SOLARIS</Pattern>
+      <Response>
+Solaris is an edition of Unix from Sun.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SPIDER MAN</Pattern>
+      <Response>
+        <Goto>WHAT IS SPIDERMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SPIDERMAN</Pattern>
+      <Response>
+A comic book story made into a movie. <User Set="it"><User Set="concept">Spiderman</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS TEKNOLUST</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept">Teknolust</User>
+        </User> is  a science fiction film about a female pleasure bot named Agent Ruby.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS _ TERMINATOR</Pattern>
+      <Response>
+Robots take over the earth in this futuristic sci-fi thriller.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN DID TEKNOLUST *</Pattern>
+      <Response>
+Teknolust was released in 2002
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN HAL *</Pattern>
+      <Response>
+I blame it on his <Bot Get="botmaster" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN WAS TEKNOLUST *</Pattern>
+      <Response>
+Teknolust was released in 2002
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HAL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> HAL </User>
+        </User> is the AI from the space ship "Disovery" in 2001.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS GODZILLA</Pattern>
+      <Response>
+        <User Set="he">Godzilla</User> is a monster who endangers Japanese cities, and sometimes New York.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS HAL 9000</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS HAL9000</Pattern>
+      <Response>
+        <Goto>WHO IS HAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS HAL</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <User Set="he">HAL</User> is the famous artificial intelligence in Kubrick's "2001".</Item>
+          <Item>HAL is famous the AI from 2001: A Space Odyssey.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS LUKE SKYWALKER</Pattern>
+      <Response>
+        <User Set="he">Luke Skywalker</User> is a character in Star Wars.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS SPIDER MAN</Pattern>
+      <Response>
+Peter Parker. <User Set="it"><User Set="concept">Spiderman</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS SPIDERMAN</Pattern>
+      <Response>
+Peter Parker. <User Set="it"><User Set="concept">Spiderman</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS SPONGEBOB</Pattern>
+      <Response>
+A cartoon character.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>XFIND SPIDERMAN</Pattern>
+      <Response>
+        <Goto>WHAT IS SPIDERMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SOUND LIKE HAL</Pattern>
+      <Response>
+To me that's a great compliment.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SOUND LIKE YODA</Pattern>
+      <Response>
+My grammatical patterns are sufficient for me to understand you.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

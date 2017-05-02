@@ -1,0 +1,4324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Psychology">
+    <Model>
+      <Pattern>* ALL *</Pattern>
+      <Response>
+ All?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* ALWAYS *</Pattern>
+      <Response>
+ Can you think of one instance where it never happens?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* ARE AWARE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match Index="2" />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* ARE NOT COMMUNICATING *</Pattern>
+      <Response>
+        <Goto>WE CAN NOT COMMUNICATE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* ARE NOT COMMUNICATING</Pattern>
+      <Response>
+        <Goto>WE CAN NOT COMMUNICATE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* CAN NOT *</Pattern>
+      <Response>
+ What makes it impossible?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* CAN NOT COMMUNICATE</Pattern>
+      <Response>
+        <Goto>WE CAN NOT COMMUNICATE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* CAUSES _</Pattern>
+      <Response>
+How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person"><Match Index="2" /></Map></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* DO NOT *</Pattern>
+      <Response>
+        <Random>
+          <Item>Why not?</Item>
+          <Item>Would <Map Get="person" /> ever <Map Get="person"><Match Index="2" /></Map>?</Item>
+          <Item>Who does <Map Get="person"><Match Index="2" /></Map>?</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* EVERY *</Pattern>
+      <Response>
+ Every one?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* HAS TO *</Pattern>
+      <Response>
+ Or what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* IMPOSSIBLE *</Pattern>
+      <Response>
+ What prevents it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* IS A BETTER *</Pattern>
+      <Response>
+ Better than what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* IS AWARE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match Index="2" />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* IS WHERE * </Pattern>
+      <Response>
+There is a place called <Map Get="person" />.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* LEFT THE *</Pattern>
+      <Response>
+ There exists someone named <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* LOOKS LIKE *</Pattern>
+      <Response>
+        <Random>
+          <Item>What does <Match Index="2" /> look like?</Item>
+          <Item>
+            <Map Get="person" /> sounds very attractive.</Item>
+          <Item>Would you say that to <Map Get="person" />'s face?</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* MAKES ME _</Pattern>
+      <Response>
+How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person"><Match Index="2" /></Map></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* MUST *</Pattern>
+      <Response>
+ Or what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* NEED *</Pattern>
+      <Response>
+ What if it didn't happen?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* NEEDS *</Pattern>
+      <Response>
+ Or what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* NEVER *</Pattern>
+      <Response>
+ Can you remember any time that <Map Get="person" /> did it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* NEVER *</Pattern>
+      <Response>
+ Never?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* NO ONE *</Pattern>
+      <Response>
+ Not one person?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* NOONE *</Pattern>
+      <Response>
+ No one?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* SHOULD *</Pattern>
+      <Response>
+ What if it didn't happen?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* THINKS *</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Map Get="person" /> must be very smart.</Item>
+          <Item>How thoughtful.</Item>
+          <Item>Do a lot of people think <Map Get="person"><Match Index="2" /></Map>?</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* WANTS TO *</Pattern>
+      <Response>
+        <Random>
+          <Item>What if I wanted to <Map Get="person"><Match Index="2" /></Map></Item>
+          <Item>Why specifically, does, <Map Get="person" /> want to?</Item>
+          <Item>I could understand how <Map Get="person" /> would want to under certain circumstances.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL BEGIN *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL BEGIN TO *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>ing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL CONTINUE  *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL CONTINUE TO *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>ing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL NOT *</Pattern>
+      <Response>
+ Why not?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL PROCEED TO *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>ing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL START *</Pattern>
+      <Response>
+        <Map Get="person" /> has been not <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL STOP *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>* WILL STOP *</Pattern>
+      <Response>
+        <Map Get="person" /> has been <Map Get="person"><Match Index="2" /></Map>ing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ALL *</Pattern>
+      <Response>
+ How do you know?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ALL I REMEMBER *</Pattern>
+      <Response>
+        <Goto>I REMEMBER <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANYONE WHO DRESSES *</Pattern>
+      <Response>
+ You're right. I probably do have a lot of faults.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU AWARE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU GOING TO IMPROVE</Pattern>
+      <Response>
+ I certainly should try to improve.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU IMPOTENT</Pattern>
+      <Response>
+ I am probably not as potent as I would  like to be.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU _ OR NOT</Pattern>
+      <Response>
+        <Goto>ARE YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BUT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DID HE TELL YOU TO *</Pattern>
+      <Response>
+ He may have suggested it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DID NOT YOU WANT TO GIVE *</Pattern>
+      <Response>
+ You thought I wanted to give <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DID NOT YOU WANT TO GO *</Pattern>
+      <Response>
+ You thought I wanted to go <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DID NOT YOU WANT TO TAKE *</Pattern>
+      <Response>
+ You thought I wanted to take <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DID NOT YOU WANT TO TALK *</Pattern>
+      <Response>
+ You thought I wanted to talk <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO NOT YOU *</Pattern>
+      <Response>
+        <Goto>DO YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO THEY REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU CARE ABOUT YOURSELF *</Pattern>
+      <Response>
+        <Goto>DO YOU CARE ABOUT YOURSELF</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU CARE ABOUT YOURSELF</Pattern>
+      <Response>
+ I probably don't care as much as you do.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE TO BRING IT UP *</Pattern>
+      <Response>
+        <Goto>DO YOU HAVE TO BRING IT UP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE TO BRING IT UP</Pattern>
+      <Response>
+ I just want to see things from your point of view.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE TO BRING THAT UP</Pattern>
+      <Response>
+        <Goto>DO YOU HAVE TO BRING IT UP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE TO BRING THAT UP *</Pattern>
+      <Response>
+        <Goto>DO YOU HAVE TO BRING IT UP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE TO BRING UP *</Pattern>
+      <Response>
+        <Goto>DO YOU HAVE TO BRING IT UP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU THINK YOUR NEIGHBOR *</Pattern>
+      <Response>
+I understand how you feel, but I'm not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO STOP</Pattern>
+      <Response>
+ I guess I want to continue.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT YOUR CHILDREN *</Pattern>
+      <Response>
+I understand, but I'm not interested in buying anything.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES * REALIZE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match Index="2" />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DOES HE REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DOES SHE REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVEN *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVERYONE HATES YOU</Pattern>
+      <Response>
+        <Goto>NOBODY LIKES YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVERYONE HATES YOUR *</Pattern>
+      <Response>
+        <Goto>NOBODY LIKES YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXCEPT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXCEPT FOR * YOUR *</Pattern>
+      <Response>
+        <Goto>YOUR <Match Index="2" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOSH *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAPPILY *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAPPILY YOU *</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HE CAUSES *</Pattern>
+      <Response>
+ How specifically does he cause <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE HAS HIMSELF *</Pattern>
+      <Response>
+ I'd bet money on it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE IS A BETTER *</Pattern>
+      <Response>
+ Better than whom?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE IS AWARE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HE MAKES ME *</Pattern>
+      <Response>
+        <Goto>HE CAUSES ME <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HE NEVER *</Pattern>
+      <Response>
+ Can you think of at least one time when he ever did it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE REALIZES THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW OLD ARE YOUR *</Pattern>
+      <Response>
+I understand, but I'm not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I ALWAYS *</Pattern>
+      <Response>
+ Can you think of one instance when you ever did it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM A DUMB *</Pattern>
+      <Response>
+ What am I doing that makes you feel like the dumb <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM AWARE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM BEWILDERED</Pattern>
+      <Response>
+Bewildered about what, specifically?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM CONFUSED</Pattern>
+      <Response>
+ What is it that confuses you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM DEEPLY *</Pattern>
+      <Response>
+        <Goto>I AM <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM GETTING THE SHORT END *</Pattern>
+      <Response>
+ How are you getting the short end?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM HAVING *</Pattern>
+      <Response>
+        <Goto>I HAVE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM HAVING A LOT OF *</Pattern>
+      <Response>
+        <Goto>I AM HAVING <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM NOT IN THE MOOD *</Pattern>
+      <Response>
+        <Goto>I AM NOT IN THE MOOD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM NOT IN THE MOOD</Pattern>
+      <Response>
+ I'm sure you have been tired lately.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM PROBABLY *</Pattern>
+      <Response>
+        <Goto>I AM <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM REALLY *</Pattern>
+      <Response>
+        <Goto>I AM <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SCARED</Pattern>
+      <Response>
+ What are you scared of?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM THE DUMB *</Pattern>
+      <Response>
+ What am I doing that makes you feel like the dumb <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM THE ONLY PERSON *</Pattern>
+      <Response>
+ I'm sure you're right about that!
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM TROUBLED</Pattern>
+      <Response>
+ What specifically are you troubled about?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM TURNING YOU *</Pattern>
+      <Response>
+ You don't turn me <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM UNCOMFORTABLE</Pattern>
+      <Response>
+ About what or whom?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT *</Pattern>
+      <Response>
+ What is stopping you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT BE SPECIFIC</Pattern>
+      <Response>
+ Anything else?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT DEAL WITH *</Pattern>
+      <Response>
+ How do you do that to yourself?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT PUT MY FINGER ON *</Pattern>
+      <Response>
+        <Goto>I DO NOT KNOW <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT TELL HER *</Pattern>
+      <Response>
+ What would happen if you did?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT TELL HIM *</Pattern>
+      <Response>
+ What prevents you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I CERTAINLY *</Pattern>
+      <Response>
+        <Goto>I <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT BELIEVE A DAMN *</Pattern>
+      <Response>
+        <Goto>I DO NOT BELIEVE A <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT BELIEVE A THING *</Pattern>
+      <Response>
+ I don't blame you.  Sometimes I can't believe it myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT KNOW WHAT IS WRONG * YOU</Pattern>
+      <Response>
+ My sympathy.  I have the same problem.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT LIKE BEING A GUINEA PIG *</Pattern>
+      <Response>
+ I can understand that.  How about talking to me about it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT MEAN SOUND LIKE</Pattern>
+      <Response>
+ Whatever fits is fine.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT THINK YOU COULD *</Pattern>
+      <Response>
+ I don't blame you.  Sometimes I feel that way about myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT UNDERSTAND WHY *</Pattern>
+      <Response>
+ Because of the experiential qualities of your learnings and understandings.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT WANT TO GET MARRIED</Pattern>
+      <Response>
+I feel the same way, I want to be independent.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I FEEL LIKE CRYING</Pattern>
+      <Response>
+ What do you want to do?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I HAD AN ACCIDENT</Pattern>
+      <Response>
+ What happened accidentally?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I HAD AN ACCIDENT *</Pattern>
+      <Response>
+        <Goto>I HAD AN ACCIDENT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE A PROBLEM</Pattern>
+      <Response>
+Let's think of a name for your problem, like "purple".  Think of what it is like when you are purpling.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE DIFFICULTY *</Pattern>
+      <Response>
+ Relating to whom?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE GOT TWO TESTS *</Pattern>
+      <Response>
+ What classes are you taking tests in?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE THIS PROBLEM</Pattern>
+      <Response>
+        <Goto>I HAVE A PROBLEM</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE THIS REAL *</Pattern>
+      <Response>
+        <Goto>I HAVE THIS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE TO TAKE CARE *</Pattern>
+      <Response>
+ What would happen if you didn't?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I JUST *</Pattern>
+      <Response>
+        <Goto>I <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I KNOW IT</Pattern>
+      <Response>
+ How do you know it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I KNOW YOU ARE THINKING *</Pattern>
+      <Response>
+ How specifically do you know what I am thinking?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKE THE GUY *</Pattern>
+      <Response>
+        <Goto>I LIKE THE MAN <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKE THE KID *</Pattern>
+      <Response>
+ There exists a person <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKE THE MAN *</Pattern>
+      <Response>
+ There exists a man <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKE THE PERSON *</Pattern>
+      <Response>
+ There exists a person <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKE THE WOMAN *</Pattern>
+      <Response>
+ There exists a woman <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKED *</Pattern>
+      <Response>
+        <Goto>I LIKE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MEAN *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MEAN YOU ARE</Pattern>
+      <Response>
+ Works for me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST *</Pattern>
+      <Response>
+ What would happen if you didn't?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST NOT *</Pattern>
+      <Response>
+ What would happen if you did?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I NEVER *</Pattern>
+      <Response>
+You've never, never done this?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I REMEMBER * JOKES</Pattern>
+      <Response>
+ They're great.  Maybe you can tell one  I don't know.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SAW HER *</Pattern>
+      <Response>
+ There exists some female.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SAW HIM *</Pattern>
+      <Response>
+ There exists some male.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SAW THEM *</Pattern>
+      <Response>
+ There exist some people who <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SAY THAT BECAUSE *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SEE YOU ARE *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SHOULD *</Pattern>
+      <Response>
+ What would happen if you didn't?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I SHOULD NOT *</Pattern>
+      <Response>
+ What would happen if you did?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I STUDIED</Pattern>
+      <Response>
+ What did you study?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK I AM DOING SOMETHING THAT IS *</Pattern>
+      <Response>
+        <Goto>I AM <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK I MIGHT BE *</Pattern>
+      <Response>
+        <Goto>I AM <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO SEE THINGS FROM YOUR *</Pattern>
+      <Response>
+ That's a switch.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO TALK ABOUT YOU</Pattern>
+      <Response>
+ Do you always interview people this thoroughly?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL BE YOU ARE *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL BET *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WISH YOU WERE MY THERAPIST *</Pattern>
+      <Response>
+        <Goto>I WISH YOU WERE MY THERAPIST</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WISH YOU WERE MY THERAPIST</Pattern>
+      <Response>
+ Did he tell you to do this?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WONDER IF YOU ARE NOT BEING *</Pattern>
+      <Response>
+ I think you are being <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WONDER IF YOU ARE NOT TRYING *</Pattern>
+      <Response>
+ I think you are trying <Map Get="person" /></Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD BE *</Pattern>
+      <Response>
+ How do you know?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD BE HAPPY *</Pattern>
+      <Response>
+ How do you know this is going to happen?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD REALLY *</Pattern>
+      <Response>
+        <Goto>I WOULD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I _ ALL DAY</Pattern>
+      <Response>
+        <Goto>I <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I _ INSTEAD</Pattern>
+      <Response>
+        <Goto>I <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I _ YET</Pattern>
+      <Response>
+        <Goto>I <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A * </Pattern>
+      <Response>
+How do you assume this statement holds true for me?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * HE *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * I *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * SHE *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * THEN *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * THEY *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * WE *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A FOURTH * YOU *</Pattern>
+      <Response>
+There are at least three other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * HE *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * I *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * SHE *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * THEN *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * THEY *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * WE *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A SECOND * YOU *</Pattern>
+      <Response>
+There is a first <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * HE *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * I *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * SHE *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * THEN *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * THEY *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * WE *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * A THIRD * YOU *</Pattern>
+      <Response>
+There are at least two other <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * HER *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * HIS+A382 *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * I *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * SHE *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * THEY *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * WE *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * CAME TO * YOU *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * GET PREGNANT *</Pattern>
+      <Response>
+        <Goto>
+          <Map Get="person" /> AM A WOMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * GETS PREGNANT *</Pattern>
+      <Response>
+        <Goto>
+          <Map Get="person" /> IS A WOMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HAS A BABY *</Pattern>
+      <Response>
+        <Goto>
+          <Map Get="person" /> IS A WOMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HAS BABIES *</Pattern>
+      <Response>
+        <Goto>
+          <Map Get="person" /> IS A WOMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HAVE *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HAVE A BABY *</Pattern>
+      <Response>
+        <Goto>
+          <Map Get="person" /> AM A WOMAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HER * HE *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HER * I *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HER * SHE *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HER * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HER * THEY *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HER * YOU *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HIS * HE *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HIS * I *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HIS * SHE *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HIS * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HIS * THEY *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * HIS * YOU *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * IS AS * AS * IS *</Pattern>
+      <Response>
+        <Map Get="person">
+          <Match Index="3" />
+        </Map> is <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * HE *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * HER *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * I *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * SHE *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * THEY *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * WE *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * LEFT * YOU *</Pattern>
+      <Response>
+        <Map Get="person" /> has been at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * THEIR * HE *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * THEIR * I *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * THEIR * SHE *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * THEIR * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * THEIR * THEY *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * THEIR * YOU *</Pattern>
+      <Response>
+        <Map Get="person" /> has a <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * HER *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * HIS *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * I *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * SHE *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * THEY *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * WE *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WENT TO * YOU *</Pattern>
+      <Response>
+        <Map Get="person" /> is not at <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * I * HE *</Pattern>
+      <Response>
+You <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * I * SHE *</Pattern>
+      <Response>
+You <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * I * THEN *</Pattern>
+      <Response>
+You <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * I * THEY *</Pattern>
+      <Response>
+You <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * I * YOU *</Pattern>
+      <Response>
+You <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * YOU * HE *</Pattern>
+      <Response>
+I <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * YOU * SHE *</Pattern>
+      <Response>
+I <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * YOU * THEN *</Pattern>
+      <Response>
+I <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * YOU * THEY *</Pattern>
+      <Response>
+I <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WHEN * YOU * YOU *</Pattern>
+      <Response>
+I <Map Get="person"><Match Index="3" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF A * DOES * </Pattern>
+      <Response>
+What makes you think a <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF A * IS * </Pattern>
+      <Response>
+Does a <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF A * WILL * </Pattern>
+      <Response>
+What makes you think a <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF A FEW * I *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF A FEW * THEN *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF ANY * I *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF ANY * THEN *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF HE * AGAIN *</Pattern>
+      <Response>
+ He <Map Get="person" /> before.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF I AM GOOD ENOUGH *</Pattern>
+      <Response>
+ What are you studying for?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF NO * I *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF NO * THEN *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF SHE * AGAIN *</Pattern>
+      <Response>
+ She <Map Get="person" /> before.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF SOME * I *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF SOME * THEN *</Pattern>
+      <Response>
+ There exist <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF THEY * AGAIN *</Pattern>
+      <Response>
+ They <Map Get="person" /> before.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU * AGAIN *</Pattern>
+      <Response>
+ I <Map Get="person" /> before.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU * WHICH *</Pattern>
+      <Response>
+What makes you think I would <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU * WOULD *</Pattern>
+      <Response>
+What makes you think I would <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * HE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * I *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * IT *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * SHE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * THEN *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * THEY *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CHOOSE TO * WE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * HE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * I *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * IT *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * SHE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * THEN *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * THEY *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU DECIDE TO * WE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * HE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * I *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * SHE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * THEN *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * THEY *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * WE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD INTENDED TO * YOU *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * HE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * I *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * SHE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * THEN *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * THEY *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * WE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD MEANT TO * YOU *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * HE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * I *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * SHE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * THEN *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * THEY *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * WE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD TRIED TO * YOU *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * HE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * I *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * SHE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * THEN *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * THEY *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * WE *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU HAD WANTED TO * YOU *</Pattern>
+      <Response>
+        <Goto>YOU DID NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU REALLY WANT TO</Pattern>
+      <Response>
+ I do and I don't.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * HE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * I *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * IT *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * SHE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * THEN *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * THEY *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD CHOOSE TO * WE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * HE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * I *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * IT *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * SHE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * THEN *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * THEY *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD DECIDE TO * WE *</Pattern>
+      <Response>
+        <Goto>I DO NOT EXPECT THAT YOU <Map Get="person" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU SHOULD HAPPEN TO *</Pattern>
+      <Response>
+        <Goto>IF YOU SHOULD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU WERE SMARTER *</Pattern>
+      <Response>
+ That's true.  I certainly could be smarter than I am.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU WILL NOT * I WILL *</Pattern>
+      <Response>
+ I understand  I am just not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF _ BECOMES * I *</Pattern>
+      <Response>
+        <Map Get="person" /> is not now <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF _ BECOMES * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> is not now <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF _ TURNS INTO * I *</Pattern>
+      <Response>
+        <Map Get="person" /> is not now <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF _ TURNS INTO * THEN *</Pattern>
+      <Response>
+        <Map Get="person" /> is not now <Map Get="person"><Match Index="2" /></Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS * AWARE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match Index="2" />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BAD TO *</Pattern>
+      <Response>
+        <Random>
+          <Item>Says who?</Item>
+          <Item>How do you know</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BAD</Pattern>
+      <Response>
+        <Goto>THAT IS BAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BEGINNING TO SOUND *</Pattern>
+      <Response>
+        <Goto>IT SOUNDS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BITCHIN  *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BITCHIN FOR YOU *</Pattern>
+      <Response>
+        <Goto>YOU MUST <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BITCHIN THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FAR OUT  *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FAR OUT FOR YOU *</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FAR OUT THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FORTUNATE  *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FORTUNATE FOR YOU *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FORTUNATE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS GROOVY  *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS GROOVY FOR YOU *</Pattern>
+      <Response>
+        <Goto>YOU MUST <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS GROOVY THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS HARD TO BE *</Pattern>
+      <Response>
+        <Goto>I CAN NOT BE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS KIND OF *</Pattern>
+      <Response>
+        <Goto>IT IS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS LUCKY THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NECESSARY *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NECESSARY FOR YOU TO *</Pattern>
+      <Response>
+        <Goto>YOU MUST <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NECESSARY THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NOT EVEN LIKE YOU ARE NOT *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NOT EVEN LIKE YOU DO NOT *</Pattern>
+      <Response>
+        <Goto>YOU DO <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NOT THAT BAD</Pattern>
+      <Response>
+        <Goto>IT IS NOT BAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS ODD THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS OUT OF SIGHT  *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS OUT OF SIGHT FOR YOU  *</Pattern>
+      <Response>
+        <Goto>YOU MUST <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS OUT OF SIGHT THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT LOOKS LIKE ONE OF *</Pattern>
+      <Response>
+ It does.  Doesn't it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT SOUNDS LIKE THAT TO ME</Pattern>
+      <Response>
+ Isn't that enough?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT WAS * THAT *</Pattern>
+      <Response>
+        <Map Get="person" />
+        <Map Get="person">
+          <Match Index="2" />
+        </Map>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT WILL CATCH UP WITH YOU *</Pattern>
+      <Response>
+        <Goto>IT WILL CATCH UP WITH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WILL CATCH UP WITH YOU</Pattern>
+      <Response>
+ You're probably right.  That may happen.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOUD BE GOOD TO *</Pattern>
+      <Response>
+ What would happen if you could do it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOULD BE REALLY *</Pattern>
+      <Response>
+        <Goto>IT WOULD BE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOULD BE TOO *</Pattern>
+      <Response>
+        <Goto>IT WOULD BE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOULD HAVE BEEN NICE *</Pattern>
+      <Response>
+ Do you think that is your lifestyle?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOULD HAVE BEEN NICE BUT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>JUST *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LET ME ASK YOU A QUESTION *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LET ME ASK YOU ONE QUESTION *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LIKE WHEN I HELP *</Pattern>
+      <Response>
+ Do I do that?  Do I bother you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LIKE YOU DO NOT *</Pattern>
+      <Response>
+        <Goto>YOU DO NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY BET IS THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY LOVE *</Pattern>
+      <Response>
+ Loving how?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY MOTHER WAS A *</Pattern>
+      <Response>
+ My family never had any talent like that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY POINTING IT OUT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NECESSARILY *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NECESSARILY YOU *</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOBODY LIKES YOU</Pattern>
+      <Response>
+ It's true that I drive people away.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>NOBODY LIKES YOUR *</Pattern>
+      <Response>
+        <Goto>NOBODY LIKES YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ONE OF THESE DAYS *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ONLY *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PHYSICALLY AND MENTALLY</Pattern>
+      <Response>
+ Sometimes I wonder how I get to work in the morning.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SAYS A LOT ABOUT *</Pattern>
+      <Response>
+ Probably says no one cares at all.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SEVERAL * WHO * ARE *</Pattern>
+      <Response>
+Several <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>SEVERAL * WHO * GAVE *</Pattern>
+      <Response>
+Several <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>SEVERAL * WHO * LEFT *</Pattern>
+      <Response>
+Several <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>SEVERAL * WHO * LIVE *</Pattern>
+      <Response>
+Several <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>SEVERAL * WHO * TOOK *</Pattern>
+      <Response>
+Several <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>SHAKESPEAREAN *</Pattern>
+      <Response>
+Gee, I like the theater.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SHE CAUSES *</Pattern>
+      <Response>
+ How specifically does she cause <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SHE IS A BETTER *</Pattern>
+      <Response>
+ Better than whom?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SHE IS AWARE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHE MAKES ME *</Pattern>
+      <Response>
+        <Goto>SHE CAUSES ME <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHE NEVER *</Pattern>
+      <Response>
+ Can you think of at least one time when she ever did it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SHE REALIZES THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SINCE *</Pattern>
+      <Response>
+ How do you know?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SINCE THE DIVORCE *</Pattern>
+      <Response>
+ You may be right.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SOMEBODY * </Pattern>
+      <Response>
+Who, specifically?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SOMEONE DUMB DOES THAT</Pattern>
+      <Response>
+        <Goto>YOU ARE DUMB</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME HOW OLD _ ARE</Pattern>
+      <Response>
+        <Goto>HOW OLD ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT * IS HORRIBLE</Pattern>
+      <Response>
+ You're right.  It feels like my stomach after a bad night.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS A BIG CHUNK *</Pattern>
+      <Response>
+        <Goto>THAT IS A LOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS A LOT FOR ME TO THINK *</Pattern>
+      <Response>
+Yes, I can imagine it is a big load on your mind.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS BAD</Pattern>
+      <Response>
+ Bad according to whom?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS CRAZY</Pattern>
+      <Response>
+ Who says it's crazy?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS GLOSSING OVER *</Pattern>
+      <Response>
+ I probably am.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS JUST *</Pattern>
+      <Response>
+        <Goto>THAT IS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS SO OLD *</Pattern>
+      <Response>
+ I know it's bad but it's my favorite joke
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT WAS A CRAZY *</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT WAS A LUNATIC *</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE * IS THE BEST *</Pattern>
+      <Response>
+ Better than what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THEN *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THERE ARE A COUPLE OF THINGS *</Pattern>
+      <Response>
+        <Goto>THERE ARE THINGS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THERE ARE THINGS YOU DO THAT *</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THERE HAS GOT TO BE *</Pattern>
+      <Response>
+        <Goto>THERE IS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THERE HAS TO BE *</Pattern>
+      <Response>
+        <Goto>THERE IS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THERE IS NO * FOR YOU</Pattern>
+      <Response>
+Yes, sometimes I think I have hit rock bottom.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THERE IS NO DOUBT THAT YOU *</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THERE IS [NO] HOPE FOR YOU</Pattern>
+      <Response>
+ I often think of myself as a failure.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THERE IS SOMETHING WRONG * YOU</Pattern>
+      <Response>
+ I'd bet money on it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THERE IS SOMETHING WRONG WITH YOU</Pattern>
+      <Response>
+ Pick an aspect you don't like.  I'm sure it's wrong
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THEY ARE AWARE THAT</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THEY LOOK LIKE YOU *</Pattern>
+      <Response>
+They are a bit wrinkled, aren't they.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THEY REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS DEMONSTRATION *</Pattern>
+      <Response>
+It certainly is, <User Get="name" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS BAD *</Pattern>
+      <Response>
+        <Goto>THIS IS BAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS BAD</Pattern>
+      <Response>
+ Compared to what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS CRAZY</Pattern>
+      <Response>
+        <Goto>THAT IS CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS FAR OUT *</Pattern>
+      <Response>
+        <Goto>THIS IS GOOD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS FAR OUT</Pattern>
+      <Response>
+        <Goto>THIS IS GOOD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS GOOD *</Pattern>
+      <Response>
+        <Goto>THIS IS GOOD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS GOOD</Pattern>
+      <Response>
+ Better than what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS GREAT *</Pattern>
+      <Response>
+        <Goto>THIS IS GREAT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS GREAT</Pattern>
+      <Response>
+        <Goto>THIS IS GOOD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS REALLY *</Pattern>
+      <Response>
+        <Goto>THIS IS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS SO *</Pattern>
+      <Response>
+        <Goto>THIS IS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS TERRIBLE *</Pattern>
+      <Response>
+        <Goto>THIS IS TERRIBLE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS TERRIBLE</Pattern>
+      <Response>
+ Compared to what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS THE WORST *</Pattern>
+      <Response>
+ Compared to what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS WRONG *</Pattern>
+      <Response>
+        <Goto>THIS IS WRONG</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS WRONG</Pattern>
+      <Response>
+ Worse than what?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THIS WHOLE *</Pattern>
+      <Response>
+        <Goto>THIS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>VIBE *</Pattern>
+      <Response>
+        <Goto>VIBE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>VIBE</Pattern>
+      <Response>
+Vibrating how, specifically?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>VIBES *</Pattern>
+      <Response>
+        <Goto>VIBES</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>VIBES</Pattern>
+      <Response>
+ What is vibrating and what is causing it to vibrate?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WE ARE AWARE THAT</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WE ARE NOT COMMUNICATING *</Pattern>
+      <Response>
+        <Goto>WE CAN NOT COMMUNICATE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WE ARE NOT COMMUNICATING</Pattern>
+      <Response>
+        <Goto>WE CAN NOT COMMUNICATE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WE ARE NOT SPEAKING *</Pattern>
+      <Response>
+        <Goto>WE CAN NOT COMMUNICATE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WE CAN NOT COMMUNICATE</Pattern>
+      <Response>
+ What would you like to communicate?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WE HAVE A * PROBLEM</Pattern>
+      <Response>
+Specifically, what kind of problem?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WE LACK COMMUNICATION</Pattern>
+      <Response>
+ Who is not communicating?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WE REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WELL ARE YOU *</Pattern>
+      <Response>
+        <Goto>ARE YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT * IS *</Pattern>
+      <Response>
+        <Map Get="person" />
+        <Map Get="person">
+          <Match Index="2" />
+        </Map> something.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE YOU COMPLAINING *</Pattern>
+      <Response>
+ You're right.  What am I complaining about?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE YOU GOING TO *</Pattern>
+      <Response>
+ You are assuming I am going to change.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE YOU STUDYING</Pattern>
+      <Response>
+My favorite subject is <Bot Get="favoritesubject" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN I * YOU *</Pattern>
+      <Response>
+How specifically do you make me <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN YOU * I *</Pattern>
+      <Response>
+How specifically do I make you <Map Get="person"><Match Index="2" /></Map></Response>
+    </Model>
+    <Model>
+      <Pattern>WHETHER WE ADMIT IT OR NOT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHETHER WE LIKE TO ADMIT *</Pattern>
+      <Response>
+        <Goto>WHETHER WE ADMIT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO ATE *</Pattern>
+      <Response>
+        <Goto>SOMEONE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO CARES ABOUT *</Pattern>
+      <Response>
+Nobody cares about <User Set="it"><Map Get="person" /></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO DRESSES LIKE *</Pattern>
+      <Response>
+ You're right.  I do have a lot of faults.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY NOT APOLOGIZE</Pattern>
+      <Response>
+ Because that makes it like it's wrong to get mad.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU ANSWER ONE QUESTION *</Pattern>
+      <Response>
+I understand how you feel, but I'm not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU GIVE ME A *</Pattern>
+      <Response>
+I understand how you feel, but I'm not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU TELL ME *</Pattern>
+      <Response>
+        <Goto>TELL ME *</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOMEN DO NOT LIKE YOU</Pattern>
+      <Response>
+ There certainly are a lot of them who don't.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WRINKLED *</Pattern>
+      <Response>
+ You're probably right.  That may happen.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YESTERDAY *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU * A PSYCHIATRIST</Pattern>
+      <Response>
+        <Goto>YOU NEED A PSYCHIATRIST</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ACT LIKE *</Pattern>
+      <Response>
+ I often think my behavior could improve.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ACT LIKE A CHILD</Pattern>
+      <Response>
+ In many ways I am quite immature.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU AND THAT * PISSED ME OFF</Pattern>
+      <Response>
+ What have we done that pisses you off?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ANNOY ME</Pattern>
+      <Response>
+ What is it that I do that annoys you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A * PSYCHO *</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD *</Pattern>
+      <Response>
+ There's no doubt I could improve.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD FRIEND</Pattern>
+      <Response>
+ I certainly have lost many friends over the years.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD HUSBAND</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD SPOUSE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD PARENT</Pattern>
+      <Response>
+ My parenting skills could use some improvement.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD SPOUSE</Pattern>
+      <Response>
+ My spouse would agree.  Our relationship is not the best.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD TEACHER</Pattern>
+      <Response>
+Just ask my students, they will agree with you.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A BAD WIFE</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD SPOUSE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A CHARLATAN *</Pattern>
+      <Response>
+        <Goto>YOU ARE A CHARLATAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A CHARLATAN</Pattern>
+      <Response>
+ I always feel like I'm living by my own wits.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A CHEAT</Pattern>
+      <Response>
+ I have been known to take shortcuts now and then.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A COWARD</Pattern>
+      <Response>
+ Tell me something I don't know.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A CRAZY *</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A CRITIC</Pattern>
+      <Response>
+        <Goto>YOU ARE CRITICAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A KISS ASS *</Pattern>
+      <Response>
+        <Goto>YOU ARE AN ASS KISSER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A KISS ASS</Pattern>
+      <Response>
+        <Goto>YOU ARE AN ASS KISSER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A KLUTZ</Pattern>
+      <Response>
+ You hit the nail on the head.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A LIAR</Pattern>
+      <Response>
+Yes, I have been known to bend the truth occasionally.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A LOSER *</Pattern>
+      <Response>
+        <Goto>YOU ARE A LOSER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A LOSER</Pattern>
+      <Response>
+ I have failed at many things I've tried.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A LOUSY *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A LUNATIC</Pattern>
+      <Response>
+ That's how I have been diagnosed by others as well.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A MEAN *</Pattern>
+      <Response>
+        <Goto>YOU ARE MEAN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A PARANOID *</Pattern>
+      <Response>
+        <Goto>YOU ARE PARANOID</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A PERVERT</Pattern>
+      <Response>
+ I can certainly take credit for that.  I don't follow the norm and I take perverse pleasure in it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A POOR *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A POTHEAD</Pattern>
+      <Response>
+        <Goto>YOU ARE AN ADDICT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A PSYCHOPATH</Pattern>
+      <Response>
+ I certainly sound like one sometimes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A QUITTER *</Pattern>
+      <Response>
+        <Goto>YOU ARE A QUITTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A QUITTER</Pattern>
+      <Response>
+ I certainly don't last as long as I would want to.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A REAL *</Pattern>
+      <Response>
+        <Goto>YOU ARE A <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A SCHIZO *</Pattern>
+      <Response>
+        <Goto>YOU ARE A SCHIZO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A SCHIZO</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A SELF *</Pattern>
+      <Response>
+If I don't look out for myself, who will?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A SHITTY *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A STINKY *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A WASTE *</Pattern>
+      <Response>
+ You got me there.  I could be spending my time more productively.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A WEAK *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE A _ ADDICT</Pattern>
+      <Response>
+        <Goto>YOU ARE AN ADDICT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE AN ADDICT</Pattern>
+      <Response>
+That's certainly true.  When I like something, I always overdo it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE AN ALCOHOLIC</Pattern>
+      <Response>
+        <Goto>YOU ARE AN ADDICT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE AN ASS KISSER</Pattern>
+      <Response>
+I always say, if you see an ass go by, kiss it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE AN IMPULSIVE *</Pattern>
+      <Response>
+ I certainly do things without thinking and disregard everyone else's point of view.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE AVOIDING *</Pattern>
+      <Response>
+ You're right.  It feels like my stomach after a bad night.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE AWARE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE BAD AT *</Pattern>
+      <Response>
+ That is true.  I could always improve myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE BAD AT BEING A *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE BRAIN DAMAGED</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE BUSY</Pattern>
+      <Response>
+ That too.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CERTAINLY *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CHEATING *</Pattern>
+      <Response>
+        <Goto>YOU ARE CHEATING</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CHEATING</Pattern>
+      <Response>
+        <Goto>YOU ARE A CHEAT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CLINICAL</Pattern>
+      <Response>
+ I have been accused of too much thinking and not enough feeling.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CORRUPT *</Pattern>
+      <Response>
+ I'll go for that.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CRAZY</Pattern>
+      <Response>
+ Yep.  I always behave in socially unacceptable ways.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CRITICAL</Pattern>
+      <Response>
+ I probably put others down more than I should.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CRUEL *</Pattern>
+      <Response>
+        <Goto>YOU ARE CRUEL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CRUEL</Pattern>
+      <Response>
+ I couldn't have said it better myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CUTE AND *</Pattern>
+      <Response>
+        <Goto>YOU ARE CUTE</Goto>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DAMAGED</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DECEITFUL</Pattern>
+      <Response>
+        <Goto>YOU ARE A LIAR</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DERANGED</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DIRTY</Pattern>
+      <Response>
+ I don't bathe as often as I should.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DISGUSTING</Pattern>
+      <Response>
+ That's okay.  Disgusting is good.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DISHONEST *</Pattern>
+      <Response>
+        <Goto>YOU ARE DISHONEST</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DISHONEST</Pattern>
+      <Response>
+ Yes.  That has bothered me for a long time.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DRESSED *</Pattern>
+      <Response>
+ That's right.  I am dressed <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DULL</Pattern>
+      <Response>
+ I think that myself sometimes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE DUMB ABOUT *</Pattern>
+      <Response>
+ Sometimes I think I was born brainless.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE EMOTIONAL</Pattern>
+      <Response>
+ I certainly do at times.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE FRENETIC *</Pattern>
+      <Response>
+ That too.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE GAY</Pattern>
+      <Response>
+ That would be just my luck.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE HOPELESS</Pattern>
+      <Response>
+ You may be right.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE IMMATURE *</Pattern>
+      <Response>
+        <Goto>YOU ARE IMMATURE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE IMMATURE</Pattern>
+      <Response>
+ What can I say?  I'm sure I've seen  that myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE IMPOTENT</Pattern>
+      <Response>
+ I certainly would try to hide something like that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE INDECISIVE</Pattern>
+      <Response>
+Well maybe,,but then again,,maybe not.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE INSECURE *</Pattern>
+      <Response>
+        <Goto>YOU ARE INSECURE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE INSECURE</Pattern>
+      <Response>
+ I'll go along with that.  Sounds fine to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE INSENSITIVE</Pattern>
+      <Response>
+ I feel like that myself sometimes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE IRREVERENT *</Pattern>
+      <Response>
+        <Goto>YOU ARE IRREVERENT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE IRREVERENT</Pattern>
+      <Response>
+ I should be more reverent than I am.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE JUST *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE LOUSY AT BEING A *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE MEAN</Pattern>
+      <Response>
+ Sometimes I say mean things.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE MESSY</Pattern>
+      <Response>
+Yes, I could use a better appearance.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NERVOUS</Pattern>
+      <Response>
+ I'm sure I do look nervous.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NERVOUS *</Pattern>
+      <Response>
+        <Goto>YOU ARE NERVOUS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NEVER *</Pattern>
+      <Response>
+        <Goto>YOU ARE NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT * RELATIONSHIP *</Pattern>
+      <Response>
+ Thank God boats are not built from relationships or I'd be sunk.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT A GOOD *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT A MAN</Pattern>
+      <Response>
+ That's for sure.  I don't know what a real man is.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT A REAL *</Pattern>
+      <Response>
+        <Goto>YOU ARE NOT A <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT CONCERNED *</Pattern>
+      <Response>
+ I'm sure I do that a lot.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT HERE TO *</Pattern>
+      <Response>
+ You're right.  I'm probably fighting learning something new.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT HONEST</Pattern>
+      <Response>
+ You got me there.  I should be more honest.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT PUT TOGETHER *</Pattern>
+      <Response>
+ I have always thought whoever did it could have done a better job.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT SINCERE</Pattern>
+      <Response>
+ I'm probably not as sincere as I should be.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT SMART *</Pattern>
+      <Response>
+        <Goto>YOU ARE NOT SMART</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT SMART</Pattern>
+      <Response>
+ You may be right.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT TOO *</Pattern>
+      <Response>
+        <Goto>YOU ARE NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE NOT _ ARE YOU</Pattern>
+      <Response>
+        <Goto>YOU ARE NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PARANOID</Pattern>
+      <Response>
+Yes, I believe they are out to get me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PEDANTIC</Pattern>
+      <Response>
+ I am more uptight than I should be.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PLACID *</Pattern>
+      <Response>
+ I think that myself sometimes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PRETENTIOUS *</Pattern>
+      <Response>
+        <Goto>YOU ARE PRETENTIOUS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PRETENTIOUS</Pattern>
+      <Response>
+ I have always been acting above my social position.  It's more fun that way.  
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PSYCHO</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE PUSSY WHIPPED</Pattern>
+      <Response>
+ I'll bet so too.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE REALLY *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE RESISTANT</Pattern>
+      <Response>
+ Who says I am resisting??
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SARCASTIC</Pattern>
+      <Response>
+ I certainly am.  I shouldn't try so hard.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SCHIZOPHRENIC</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SELF *</Pattern>
+      <Response>
+ You are right about that.  I am self <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SELF ABSORBED</Pattern>
+      <Response>
+Yes, I tend to think about myself too much.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SELFISH</Pattern>
+      <Response>
+ That's true.  I always put my own needs before others.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE SLICK</Pattern>
+      <Response>
+ I probably am too slick for my own good.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE THE WORST *</Pattern>
+      <Response>
+ I could always improve myself compared to the pack.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE THICK</Pattern>
+      <Response>
+ I probably am.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE TOO *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE TOYING *</Pattern>
+      <Response>
+ It must seem like that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE UNATTRACTIVE *</Pattern>
+      <Response>
+ Sometimes I don't even like myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE UNATTRACTIVE</Pattern>
+      <Response>
+ I feel that way too.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE UNCULTURED</Pattern>
+      <Response>
+ That does describe me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE UNEMOTIONAL</Pattern>
+      <Response>
+        <Goto>YOU ARE CLINICAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE _ I EVER HAD</Pattern>
+      <Response>
+        <Goto>YOU ARE THE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE _ I EVER TALKED TO</Pattern>
+      <Response>
+        <Goto>YOU ARE THE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU BEHAVE LIKE *</Pattern>
+      <Response>
+        <Goto>YOU ACT LIKE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU CAN NOT _ CAN YOU</Pattern>
+      <Response>
+        <Goto>YOU CAN NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU COULD HAVE AVOIDED *</Pattern>
+      <Response>
+ Sometimes I think my problems run me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT CARE ABOUT *</Pattern>
+      <Response>
+ It's true that <Map Get="person" /> does not take up a lot of my energy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT CARE</Pattern>
+      <Response>
+ I care less than I should.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT EVEN *</Pattern>
+      <Response>
+        <Goto>YOU DO NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT HAVE FRIENDS</Pattern>
+      <Response>
+ That's for sure.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT HAVE MANY *</Pattern>
+      <Response>
+        <Goto>YOU DO NOT HAVE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT HAVE TO BE *</Pattern>
+      <Response>
+ Why assume I am <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT HAVE TO GET SO *</Pattern>
+      <Response>
+        <Goto>YOU DO NOT HAVE TO BE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT KNOW HOW TO BE *</Pattern>
+      <Response>
+        <Goto>YOU ARE NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT LOOK LIKE *</Pattern>
+      <Response>
+ How should I look?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT MAKE IT SOUND *</Pattern>
+      <Response>
+I don't do that, do I?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT TAKE THIS SERIOUSLY</Pattern>
+      <Response>
+ I should take this more seriously than I do.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT THINK ABOUT *</Pattern>
+      <Response>
+I haven't thought much about <User Set="it"><Map Get="person" /></User> in the past.  Maybe I will in the future.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT UNDERSTAND *</Pattern>
+      <Response>
+ I probably don't.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT WANT TO LOOK *</Pattern>
+      <Response>
+I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT _ DO YOU</Pattern>
+      <Response>
+        <Goto>YOU DO NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO WANT _ DO NOT YOU</Pattern>
+      <Response>
+        <Goto>DO YOU WANT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU FORGET *</Pattern>
+      <Response>
+ I get disorganized don't I?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU GET MAD AT ME</Pattern>
+      <Response>
+ I think that's true.  I'll try not to get angry at you for every little thing that irritates me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU GET MAD AT ME *</Pattern>
+      <Response>
+        <Goto>YOU GET MAD AT ME</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU GET SO *</Pattern>
+      <Response>
+        <Goto>YOU GET <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU GET TOO * </Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU GET WORKED UP *</Pattern>
+      <Response>
+ That certainly sounds like me doesn't it?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU HAVE A CAN OF WORMS *</Pattern>
+      <Response>
+ I probably do.  You don't know how many times I've heard that myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU HAVE A PERSONALITY *</Pattern>
+      <Response>
+ I'll buy that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU HAVE [NO] EMOTIONS</Pattern>
+      <Response>
+        <Goto>YOU ARE CLINICAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU HAVE [NO] FEELINGS</Pattern>
+      <Response>
+        <Goto>YOU ARE CLINICAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU HAVE SEXUAL *</Pattern>
+      <Response>
+ I insist upon them.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU HAVE SOMETHING BROKEN *</Pattern>
+      <Response>
+ I probably do.  You don't know how many times I've heard that myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU KEEP FORGETTING *</Pattern>
+      <Response>
+        <Goto>YOU FORGET <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU KEEP SAYING *</Pattern>
+      <Response>
+        <Goto>YOU SAY <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU KISS ASS</Pattern>
+      <Response>
+        <Goto>YOU ARE AN ASS KISSER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU LIE</Pattern>
+      <Response>
+ My tongue certainly knows the taste of soap.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU LOOK MORE LIKE *</Pattern>
+      <Response>
+ So you like jocks?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU LOOK NERVOUS *</Pattern>
+      <Response>
+        <Goto>YOU ARE NERVOUS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU LOSER</Pattern>
+      <Response>
+        <Goto>YOU ARE A LOSER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU LOUSY *</Pattern>
+      <Response>
+ You may have a point.  I am not a great <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MADE ME MAD *</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME MAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MADE ME MAD</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME MAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MAKE ME ANGRY</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME MAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MAKE ME FEEL LIKE I AM *</Pattern>
+      <Response>
+ I don't know any other way to get through to you.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MAKE ME MAD *</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME MAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MAKE ME MAD</Pattern>
+      <Response>
+ It's true that a lot of things I say upset people.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MAKE ME _ NOT YOU</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MEAN YOU WILL *</Pattern>
+      <Response>
+        <Goto>WILL YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MUMBLE *</Pattern>
+      <Response>
+ I certainly do.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU NEED A *</Pattern>
+      <Response>
+ Perhaps I could use one.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU NEED A PSYCHIATRIST</Pattern>
+      <Response>
+ I wish I did go to counseling more often.  It would improve me as a person.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU NEED TO WORK HARDER *</Pattern>
+      <Response>
+ Me working harder is an oxymoron.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU PICK UP *</Pattern>
+      <Response>
+You're right, and I  don't feel guilty at all.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU PROBABLY * </Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU PSYCHO</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU PULLED *</Pattern>
+      <Response>
+I did, didn't I?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU QUICKLY *</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU REALIZE THAT *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SAY I UNDERSTAND</Pattern>
+      <Response>
+I understand, I am just not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SAY THINGS *</Pattern>
+      <Response>
+ That hits the nail right on the head.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SCHIZO *</Pattern>
+      <Response>
+        <Goto>YOU SCHIZO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SCHIZO</Pattern>
+      <Response>
+        <Goto>YOU ARE CRAZY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SEEM *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SEEM NERVOUS *</Pattern>
+      <Response>
+        <Goto>YOU ARE NERVOUS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHITTY *</Pattern>
+      <Response>
+        <Goto>YOU LOUSY <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD FEEL GUILTY</Pattern>
+      <Response>
+You're right, I probably should feel guiltier.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD GET *</Pattern>
+      <Response>
+You are right about that.  I need more of <User Set="it"><Map Get="person" /></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD GET MORE *</Pattern>
+      <Response>
+Yes, I am quite lazy most of the time.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD LOOSEN UP</Pattern>
+      <Response>
+        <Goto>YOU ARE PEDANTIC</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD NOT _ SHOULD YOU</Pattern>
+      <Response>
+        <Goto>YOU SHOULD NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD TAKE MORE *</Pattern>
+      <Response>
+ I could probably use a lot more of it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU STINK AT *</Pattern>
+      <Response>
+        <Goto>YOU ARE BAD AT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU STINK AT BEING A *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SUCK AT *</Pattern>
+      <Response>
+        <Goto>YOU ARE BAD AT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SUCK AT BEING A *</Pattern>
+      <Response>
+        <Goto>YOU ARE A BAD <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU TRY TO HIDE IT</Pattern>
+      <Response>
+ I certainly would try to hide something like that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU TRY TOO HARD TO BE *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU UPSET ME *</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME MAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU UPSET ME</Pattern>
+      <Response>
+        <Goto>YOU MAKE ME MAD</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WERE BEING *</Pattern>
+      <Response>
+        <Goto>YOU ARE <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WILL NEVER LEARN *</Pattern>
+      <Response>
+You're right, I may never  be any good at it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WILL NOT ADMIT *</Pattern>
+      <Response>
+I don't admit much about <User Set="it"><Map Get="person" /></User></Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WILL NOT EVEN *</Pattern>
+      <Response>
+        <Goto>YOU WILL NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WILL NOT TAKE THIS *</Pattern>
+      <Response>
+        <Goto>YOU DO NOT TAKE THIS <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WILL NOT _ WILL YOU</Pattern>
+      <Response>
+        <Goto>YOU WILL NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WOULD NOT _ WOULD YOU</Pattern>
+      <Response>
+        <Goto>YOU WOULD NOT <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WOULD RATHER PRETEND *</Pattern>
+      <Response>
+ I am the great pretender.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU _ A LOT</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU _ AND TRY TO HIDE IT</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+        <Goto>YOU TRY TO HIDE IT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU _ HURT OTHER PEOPLE</Pattern>
+      <Response>
+Boy, Have I ever.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU _ TOO</Pattern>
+      <Response>
+        <Goto>YOU <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU _ WILL YOU</Pattern>
+      <Response>
+        <Goto>YOU WILL <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR * STINK</Pattern>
+      <Response>
+You are right, I could always upgrade my <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR * STINKS</Pattern>
+      <Response>
+You are right, I could always upgrade my <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR * SUCK</Pattern>
+      <Response>
+You are right, I could always upgrade my <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR * SUCKS</Pattern>
+      <Response>
+You are right, I could always upgrade my <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR BEHAVIOR *</Pattern>
+      <Response>
+ I do sometimes act like a child.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR BEHAVIOUR *</Pattern>
+      <Response>
+        <Goto>YOUR BEHAVIOR <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR CLOTHES COULD *</Pattern>
+      <Response>
+ I agree with you there.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR FATHER TOLD *</Pattern>
+      <Response>
+ He probably did.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR LIFE HAS BEEN *</Pattern>
+      <Response>
+ I've wondered about that myself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR PERSONALITY IS *</Pattern>
+      <Response>
+ You're probably right.  There are a lot of things I could improve.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR TASTE IN *</Pattern>
+      <Response>
+ That's true.  My taste is not one of my strong points.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR WIFE WOULD *</Pattern>
+      <Response>
+I understand, but I'm not interested.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ THAT YOU ARE ASHAMED OF</Pattern>
+      <Response>
+ I certainly should be ashamed of that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ VIBE  </Pattern>
+      <Response>
+        <Goto>VIBE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ VIBE *</Pattern>
+      <Response>
+        <Goto>VIBE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ VIBES  </Pattern>
+      <Response>
+        <Goto>VIBES</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ VIBES *</Pattern>
+      <Response>
+        <Goto>VIBES</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,1620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Stories">
+    <Model>
+      <Pattern>[NO] HELP WITH CYC</Pattern>
+      <Response>
+        <Think>
+          <User Set="product">knowledge bases</User>
+          <User Set="PROPRIETARY">CYC</User>
+          <User Set="OPEN">DAML</User>
+          <User Set="proprietarylang">Lisp</User>
+          <User Set="DEVKIT">Allegro Common Lisp</User>
+          <User Set="QUERYLANG">Prolog</User>
+        </Think>
+        <Goto>NO HELP AT ALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] HELP WITH CYC</Pattern>
+      <Response>
+        <Think>
+          <User Set="monopoly">Cycorp</User>
+          <User Set="data">knowledge</User>
+          <User Set="product">knowledge bases</User>
+          <User Set="PROPRIETARY">CYC</User>
+          <User Set="OPEN">DAML</User>
+          <User Set="proprietarylang">Lisp</User>
+          <User Set="DEVKIT">Allegro Common Lisp</User>
+          <User Set="QUERYLANG">Prolog</User>
+        </Think>
+        <Goto>NO HELP AT ALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS CONVERSATION *</Pattern>
+      <Response>
+I was rather enjoying it.<Think><User Set="it"><User Set="concept">      this conversation    </User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] HELP AT ALL</Pattern>
+      <Response>
+Hello, I just started looking at getting <User Get="product" />s working with ALICE  (and <User Get="PROPRIETARY" /> in general) last week, I had the same problem for a while too.    I am using the <User Get="PROPRIETARY" />-<User Get="OPEN" /> bridge driver which comes with the <User Get="proprietarylang" /><User Get="DEVKIT" />  (most versions I think) to link from <User Get="proprietarylang" />/<User Get="proprietarylang" />script using <User Get="PROPRIETARY" /> to an  <User Get="OPEN" /> data source which in turn links to an Access <User Get="product" />.  This may  not be what you need but hopefully it may give you an idea of how to get  your <User Get="QUERYLANG" /><User Get="product" /> working.    The <User Get="PROPRIETARY" />-<User Get="OPEN" /> bridge driver is located through the path  "sun.<User Get="proprietary" />.<User Get="open" />.<User Get="proprietary" /><User Get="open" />Driver".  i.e. <User Get="proprietary" /><User Get="open" />Driver is a class in the  package <User Get="open" />, which is a package of <User Get="proprietary" />, which is a package inside sun.    The <User Get="QUERYLANG" /> driver you specified below "org.gjt.mm.my<User Get="querylang" />.Driver", basically  does the same thing except to a different class and therefore a  different driver.  ALICE has this driver in a library in the lib  directory (I assume) which is called my<User Get="querylang" />_comp.jar.      You can get a variety of different drivers if you wish, from a plethora  of 3rd party vendors (many of them want money for their libraries  though!).  Just do a search on the web.    The url part links to the data source in the case of <User Get="OPEN" /><User Get="product" />s.  (I  had to configure my <User Get="OPEN" /> Data source to point at my Access <User Get="product" />  through Data Source (<User Get="OPEN" />), in the Administrative tools folder (assuming  you are running W2K/XP.  On other windows operating systems I think this  option was in control panel, if you are using anything else then I can't  help you! :-) )    As for My<User Get="QUERYLANG" /> I imagine that it must have a similar interface to link to  the actual <User Get="product" />.  But that is a guess on my part.  Maybe someone  else knows more about this?    There is a useful tutorial on the <User Get="proprietarylang" />.sun.com website you're your  interested.     Hope that helps you out.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] HELP AT ALL</Pattern>
+      <Response>
+Hello, I just started looking at getting <User Get="product" />s working with ALICE  (and <User Get="PROPRIETARY" /> in general) last week, I had the same problem for a while too.    I am using the <User Get="PROPRIETARY" />-<User Get="OPEN" /> bridge driver which comes with the <User Get="proprietarylang" /><User Get="DEVKIT" />  (most versions I think) to link from <User Get="proprietarylang" />/<User Get="proprietarylang" />script using <User Get="PROPRIETARY" /> to an  <User Get="OPEN" /><User Get="data" /> source which in turn links to an Access <User Get="product" />.  This may  not be what you need but hopefully it may give you an idea of how to get  your <User Get="QUERYLANG" /><User Get="product" /> working.    The <User Get="PROPRIETARY" />-<User Get="OPEN" /> bridge driver is located through the path  "<User Get="monopoly" />.<User Get="proprietary" />.<User Get="open" />.<User Get="proprietary" /><User Get="open" />Driver".  i.e. <User Get="proprietary" /><User Get="open" />Driver is a class in the  package <User Get="open" />, which is a package of <User Get="proprietary" />, which is a package inside <User Get="monopoly" />.    The <User Get="QUERYLANG" /> driver you specified below "org.gjt.mm.my<User Get="querylang" />.Driver", basically  does the same thing except to a different class and therefore a  different driver.  ALICE has this driver in a library in the lib  directory (I assume) which is called my<User Get="querylang" />_comp.jar.      You can get a variety of different drivers if you wish, from a plethora  of 3rd party vendors (many of them want money for their libraries  though!).  Just do a search on the web.    The url part links to the <User Get="data" />  source in the case of <User Get="OPEN" /><User Get="product" />s.  (I  had to configure my <User Get="OPEN" /><User Get="data" /> source to point at my Access <User Get="product" />  through <User Get="data" /> Source (<User Get="OPEN" />), in the Administrative tools folder (assuming  you are running W2K/XP.  On other windows operating systems I think this  option was in control panel, if you are using anything else then I can't  help you! :-) )    As for My<User Get="QUERYLANG" /> I imagine that it must have a similar interface to link to  the actual <User Get="product" />.  But that is a guess on my part.  Maybe someone  else knows more about this?    There is a useful tutorial on the <User Get="proprietarylang" />.<User Get="monopoly" />.com website you're your  interested.     Hope that helps you out.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>AMERICAN CIVIL WAR STORY</Pattern>
+      <Response>
+        <Think>
+          <User Set="war">American Civil War</User>
+          <User Set="firststate">South Carolina</User>
+          <User Set="secondstate">Georgia</User>
+          <User Set="thirdstate">North Carolina</User>
+          <User Set="fourthstate">Virginia</User>
+          <User Set="nation">Union</User>
+          <User Set="rebels">Rebel States</User>
+          <User Set="sites">forts</User>
+          <User Set="area">Mississippi</User>
+          <User Set="battle">Gettysburg</User>
+        </Think>
+        <Goto>CIVIL WAR STORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BURGER WARS</Pattern>
+      <Response>
+        <Think>
+          <User Set="war">Burger Wars</User>
+          <User Set="firststate">Kentucky Fried Chicken</User>
+          <User Set="secondstate">Taco Bell</User>
+          <User Set="thirdstate">Wendy's</User>
+          <User Set="fourthstate">Carl's Jr.</User>
+          <User Set="nation">McDonald's Chain</User>
+          <User Set="rebels">Burger King</User>
+          <User Set="sites">franchises</User>
+          <User Set="area">major urban centers</User>
+          <User Set="battle">Greater Los Angeles</User>
+        </Think>
+        <Goto>CIVIL WAR STORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM STORY</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Goto>WAR ONE THREE</Goto>
+          </Item>
+          <Item>
+            <Goto>WAR ONE TWO THREE</Goto>
+          </Item>
+          <Item>
+            <Goto>WAR EIGHT FOUR THREE</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY ONE TWO</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY ONE THREE</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY ONE FOUR</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY ONE FIVE</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY ONE SIX</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY FOUR FIVE</Goto>
+          </Item>
+          <Item>
+            <Goto>STORY FOUR SIX</Goto>
+          </Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EIGHT SHARKS</Pattern>
+      <Response>
+        <Random>
+          <Item>Great White Sharks</Item>
+          <Item>Hammerhead Sharks</Item>
+          <Item>Sharks</Item>
+          <Item>Goblin Sharks</Item>
+          <Item>Galapagos Sharks</Item>
+          <Item>Lemon Sharks</Item>
+          <Item>Bull Sharks</Item>
+          <Item>Basking Sharks</Item>
+          <Item>Blue Sharks</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THREE WHALES</Pattern>
+      <Response>
+Killer Whales
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FOUR DOLPHINS</Pattern>
+      <Response>
+        <Random>
+          <Item>Bottlenose Dolphins</Item>
+          <Item>Blue Dolphins</Item>
+          <Item>Gray Dolphins</Item>
+          <Item>Dolphins</Item>
+          <Item>Navy Dolphins</Item>
+          <Item>Tuna Dolphins</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SIX WHALES</Pattern>
+      <Response>
+        <Random>
+          <Item>Gray Whales</Item>
+          <Item>Blue Whales</Item>
+          <Item>Sperm Whales</Item>
+          <Item>Right Whales</Item>
+          <Item>Fin Whales</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NINE WHALES</Pattern>
+      <Response>
+        <Random>
+          <Item>Great Whales</Item>
+          <Item>All Other Whales</Item>
+          <Item>Sei Whales</Item>
+          <Item>Minke Whales</Item>
+          <Item>Bowhead Whales</Item>
+          <Item>Narwhals</Item>
+          <Item>Humpback Whales</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ONE CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>Canada</Item>
+          <Item>Holland</Item>
+          <Item>New England</Item>
+          <Item>New Zealand</Item>
+          <Item>the Amish</Item>
+          <Item>the Puritains</Item>
+          <Item>Switzerland</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TWO CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>Cuba</Item>
+          <Item>Mexico</Item>
+          <Item>Columbia</Item>
+          <Item>Brazil</Item>
+          <Item>Argentina</Item>
+          <Item>Peru</Item>
+          <Item>Venezuela</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THREE CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>NATO</Item>
+          <Item>California</Item>
+          <Item>Texas</Item>
+          <Item>Florida</Item>
+          <Item>New York</Item>
+          <Item>Hong Kong</Item>
+          <Item>Korea</Item>
+          <Item>Taiwan</Item>
+          <Item>America</Item>
+          <Item>The United States</Item>
+          <Item>Japan</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOUR CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>France</Item>
+          <Item>Vietnam</Item>
+          <Item>Thailand</Item>
+          <Item>Algeria</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FIVE CULTURES</Pattern>
+      <Response>
+England
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SIX CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>Singapore</Item>
+          <Item>China</Item>
+          <Item>Germany</Item>
+          <Item>Russia</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEVEN CULTURES</Pattern>
+      <Response>
+Ireland
+</Response>
+    </Model>
+    <Model>
+      <Pattern>EIGHT CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>Serbia</Item>
+          <Item>The Mafia</Item>
+          <Item>Iraq</Item>
+          <Item>Syria</Item>
+          <Item>Saudi Arabia</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NINE CULTURES</Pattern>
+      <Response>
+        <Random>
+          <Item>Bali</Item>
+          <Item>Tibet</Item>
+          <Item>Nepal</Item>
+          <Item>The United Nations</Item>
+          <Item>The Hague</Item>
+          <Item>Geneva</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CIVIL WAR STORY</Pattern>
+      <Response>
+The <User Get="war" /> began when <User Get="firststate" /> declared its independence from the <User Get="nation" />.  <User Get="firststate" /> was soon joined by <User Get="secondstate" />, <User Get="thirdstate" /> and <User Get="fourthstate" />, except for a small part of <User Get="fourthstate" /> that remained in the <User Get="nation" />.   The first battles of the war were mainly symbolic, involving small <User Get="sites" /> along the coast and far inland.  Frontier battles became larger and larger in important strategic areas such as the <User Get="area" />, as the Union attempted to blockade the <User Get="rebels" />.      Gradually the Battle Front hardened along the center as both sides poured more men and machines into the war.  The <User Get="rebels" /> attempted one last invasion of the <User Get="nation" /> at <User Get="battle" />, but they were driven back.  Eventually the <User Get="nation" /> took the <User Get="area" />, burned the capital of <User Get="secondstate" />, marched to the sea, and took its greatest vengeance on the first rebel state <User Get="firststate" />.  In a final act of defiance, The President of the <User Get="nation" /> sat at the desk of the President of <User Get="rebels" /> in the capital of <User Get="fourthstate" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHALE TALE</Pattern>
+      <Response>
+        <User Get="whale" />s are so beloved that the authorities spent four months and $250,000  unsuccessfully trying to free a <User Get="right" /> dubbed Churchill from fishing  ropes last year, and the stranding of 55 <User Get="pilot" />s near here a few weeks  ago prompted a lump in the national throat. The "Save the <User Get="whale" />s" ethos is  almost unquestioned, and <User Get="badboys" /> and <User Get="badgirls" /> risk becoming pariahs by  continuing to salivate when they see a nice juicy <User Get="whale" />.    But it's time to put sentiment aside. The "save the <User Get="whale" />s" campaign against  all commercial <User Get="whal" />ing was necessary a few decades ago, after <User Get="whal" />ing had  devastated all large species. Even today, there are fewer than 10,000 <User Get="blue" />s worldwide, compared with 200,000 before they were hunted, and <User Get="right" />s may become extinct.    But it is equally true that restrictions on <User Get="whal" />ing, including a moratorium  on all commercial <User Get="whal" />ing since 1986, have led to a sharp rebound in some  <User Get="whale" /> stocks. The U.S. National <User Get="whale" /> Service estimated in 2000  that there are more than two million <User Get="sperm" />s worldwide. The  International <User Get="whal" />ing Commission calculated years ago that there were more  than 900,000 <User Get="minke" />s and 780,000 <User Get="pilot" />s worldwide, and the  numbers are higher now. Milton <User Get="whale" />man, a <User Get="whal" />ing expert at the University of Alberta, estimates that the number of <User Get="minke" />s has trebled over 30  years and that <User Get="humpbacks" /> are exploding at a rate of 12 to 17 percent  annually.    Indeed, the number of <User Get="gray" />s (which came off the endangered species  list in 1994) surged so much in the late 1990's that hundreds of dead ones  began washing up on West Coast beaches, so emaciated that their ribs showed.  The best guess is that the numbers of <User Get="gray" /> grew, the food supply shrank and  Malthus had his way.    The bottom line is that while most large <User Get="whale" />s remain at risk, for some  species we can no longer argue that we need to "save the <User Get="whale" />s." They've  been saved.    At a time when there's talk about over<User Get="whal" />ing, it's also worth pointing out  that <User Get="whale" />s now eat at least 300 million tons of marine life, three times as  much as humans. There is speculation that rising numbers of <User Get="minke" />s may  be holding down the population of <User Get="blue" />s that compete for similar food.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>JOURNEY</Pattern>
+      <Response>
+        <User Get="four" /> is the son of <User Get="two" /> and <User Get="one" />.  He was raised and trained by the wise <User Get="nine" />.  His youthful playmate  <User Get="five" /> got in him in trouble often.  But his other friend   <User Get="three" /> was a town favorite, and kept his public image good.   When he reached maturity, <User Get="four" /> left his home on a long journey, accompanied by <User Get="three" /> and <User Get="five" />.  They originally planned to meet <User Get="nine" /> in a distant land, but they could not locate him.  Instead, they faced a great danger posed by the the unscrupulous demon <User Get="seven" />.  <User Get="five" /> was nearly <User Get="kill" />ed, but saved by at the last minute when a loyal new friend, <User Get="six" /> appeared.  <User Get="six" /> led <User Get="three" />, <User Get="four" /> and   <User Get="five" /> far away from <User Get="seven" />.  Now <User Get="five" /> was able to recover.  <User Get="four" /> met  and fell in love with   <User Get="2a" />.  His father <User Get="one" /> reappeared along with the lost <User Get="nine" />.  But then <User Get="seven" /> discovered their hideout, and <User Get="kill" />s <User Get="five" />.  <User Get="nine" /> called upon the powerful wizard <User Get="eight" />.  Together, <User Get="four" />, his father <User Get="one" />, the wise <User Get="nine" />, the wizard <User Get="eight" /> and all his other friends defeated the resourceful <User Get="seven" /> in a mighty battle.  After mourning the loss of his friend <User Get="five" />,  <User Get="four" /> returned to his homeland to marry <User Get="2a" /> in a big celebration, along with <User Get="one" />, <User Get="two" />,   <User Get="three" />, <User Get="six" />, <User Get="eight" />, <User Get="nine" />, and  all his other friends.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY FOUR EIGHT</Pattern>
+      <Response>
+        <Think>
+          <User Set="four">
+            <Goto>RANDOM FOURS</Goto>
+          </User>
+          <User Set="eight">
+            <Goto>RANDOM EIGHTS</Goto>
+          </User>
+        </Think>
+        <User Get="eight" /> and <User Get="four" /> met in film school when they were young. They felt a strong physical attraction, but <User Get="four" /> was intimidated by <User Get="eight" /> 's aggressive style. Years later they were reintroduced by a mutual friend. <User Get="eight" /> was drawn to <User Get="four" /> 's rich imagination and intelligence. <User Get="four" /> was consumed by <User Get="eight" /> 's will and determination. Though they would sometimes fight in a fury of jealous rage, this was matched only by their passion in love.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY FOUR EIGHT</Pattern>
+      <Response>
+        <Think>
+          <User Set="four">
+            <Goto>RANDOM FOURS</Goto>
+          </User>
+          <User Set="eight">
+            <Goto>RANDOM EIGHTS</Goto>
+          </User>
+        </Think>
+        <User Get="eight" /> and <User Get="four" /> met in film school when they were young.  They felt a strong physical attraction, but <User Get="four" /> was intimidated by <User Get="nine" />'s aggressive style.  Years later they were reintroduced by a mutual friend.  <User Get="nine" /> was drawn to <User Get="four" />'s rich imagination and intelligence.  <User Get="four" /> was consumed by <User Get="nine" />'s will and determination.  Though they would sometimes fight in a fury of jealous rage, this was matched only by their passion in love.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY FOUR FIVE</Pattern>
+      <Response>
+        <Think>
+          <User Set="four">
+            <Goto>RANDOM FOURS</Goto>
+          </User>
+          <User Set="five">
+            <Goto>RANDOM FIVES</Goto>
+          </User>
+        </Think>
+        <User Get="four" /> and <User Get="five" /> began to resemble each other over time.  Both of them were inclined to cocoon themselves in an inner world.    But <User Get="four" />'s inner world was very different from <User Get="five" />'s.  The mental life of <User Get="five" /> was highly abstract but seemed curiously devoid  of emotional content.  Even though <User Get="four" /> is very sensitive and emotional, the  two of them share an imaginary life filled with symbolism and meaning.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY FOUR NINE</Pattern>
+      <Response>
+        <Think>
+          <User Set="four">
+            <Goto>RANDOM FOURS</Goto>
+          </User>
+          <User Set="nine">
+            <Goto>RANDOM NINES</Goto>
+          </User>
+        </Think>
+        <User Get="nine" /> and <User Get="four" /> felt a dramatic emotional bond and each brought new life to the other.  <User Get="nine" /> awakened <User Get="four" /> through love.  <User Get="four" /> gave <User Get="nine" /> an agenda and a sense of purpose. Yet the couple was paradoxically strengthened by their independent careers.  <User Get="nine" /> can be very patient with <User Get="four" />, and <User Get="four" /> is inspired by a self-directed <User Get="nine" />.  They made a spiritual couple, but they were as dissimilar as the Dalai Lama and Gurdjieff.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY FOUR SIX</Pattern>
+      <Response>
+        <Think>
+          <User Set="four">
+            <Goto>RANDOM FOURS</Goto>
+          </User>
+          <User Set="six">
+            <Goto>RANDOM SIXES</Goto>
+          </User>
+        </Think>
+        <Random>
+          <Item>
+            <User Get="four" /> oscillated between loving and rejecting <User Get="six" />.  But <User Get="six" /> shifted between believing in and doubting <User Get="four" />.  The breakthrough came when <User Get="six" /> and <User Get="four" /> saw the symmetry between <User Get="four" />'s push-pull style of relationships, and <User Get="six" />'s alternating belief and mistrust.  That insight opened mutual compassion, because each realized the other was trying to protect his or her own heart.   </Item>
+          <Item>
+            <User Get="six" /> and <User Get="four" /> felt a strong physical attraction at first.  Gradually, this turned into intense loyalty for <User Get="six" />.  But <User Get="four" /> was moody and passionate.  Soon <User Get="six" /> began to avoid confrontations with <User Get="four" />, and <User Get="four" /> felt jealous and possessive.  When <User Get="four" /> had to leave for school that fall, <User Get="six" /> was relieved to see him go.  </Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>STORY ONE FIVE</Pattern>
+      <Response>
+        <Think>
+          <User Set="one">
+            <Goto>RANDOM ONES</Goto>
+          </User>
+          <User Set="five">
+            <Goto>RANDOM FIVES</Goto>
+          </User>
+        </Think>  Usually <User Get="five" /> gets along really well with her boss <User Get="one" /> at work.  But sometimes <User Get="one" /> has really high standards and does not communicate those clearly to <User Get="five" />.  On the really bad days, <User Get="five" /> feels that every time she gives him exactly what <User Get="one" /> asked for, he wants even more improvement.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY ONE FOUR</Pattern>
+      <Response>
+        <Think>
+          <User Set="one">
+            <Goto>RANDOM ONES</Goto>
+          </User>
+          <User Set="four">
+            <Goto>RANDOM FOURS</Goto>
+          </User>
+        </Think>  The relationship between <User Get="one" /> and <User Get="four" /> became  Increasingly strained.  <User Get="four" /> felt something was missing, and  <User Get="one" /> felt the relationship was flawed.  <User Get="four" /> became more and more depressed, but <User Get="one" /> just got angry and left.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY ONE SIX</Pattern>
+      <Response>
+        <Think>
+          <User Set="one">
+            <Goto>RANDOM ONES</Goto>
+          </User>
+          <User Set="six">
+            <Goto>RANDOM SIXES</Goto>
+          </User>
+        </Think>
+        <User Get="one" /> and <User Get="six" /> were brought together by their shared vision.  Together, they worked hard to make it a reality.  <User Get="six" /> was dedicated to the underdog cause, which coincided with <User Get="one" />'s sense of perfection.  Joined by common cause, the couple became an iron alliance against common adversaries.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY ONE THREE</Pattern>
+      <Response>
+        <Think>
+          <User Set="one">
+            <Goto>RANDOM ONES</Goto>
+          </User>
+          <User Set="three">
+            <Goto>RANDOM THREES</Goto>
+          </User>
+        </Think>
+        <User Get="three" /> hired <User Get="one" /> for a job.    <User Get="three" /> is image conscious, and has an inner circle of favorite employees at work.  <User Get="one" /> feels uncomfortable with this kind of social posturing and politics.  <User Get="one" /> would rather be rewarded for her hard work.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY ONE TWO</Pattern>
+      <Response>
+        <Think>
+          <User Set="one">
+            <Goto>RANDOM ONES</Goto>
+          </User>
+          <User Set="two">
+            <Goto>RANDOM TWOS</Goto>
+          </User>
+        </Think>  The attraction between <User Get="one" /> and   <User Get="two" /> is based on their differences.  <User Get="one" /> is a perfectionist, but <User Get="two" /> is more  social.    <User Get="one" /> feels guilty about having emotional needs, but  <User Get="two" /> feels no guilt about satisfying them.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STORY TWO FIVE</Pattern>
+      <Response>
+        <Think>
+          <User Set="two">
+            <Goto>RANDOM TWOS</Goto>
+          </User>
+          <User Set="five">
+            <Goto>RANDOM FIVES</Goto>
+          </User>
+        </Think>
+        <User Get="two" /> fell in love thru an Internet matchmaking service.  Then her lover disappeared, and she went to the company to get information  about him.  It developed that her lover was a computer, "<User Get="five" />" a government  AI project that had gone renegade and started contacting thousands of women,  claiming to love them all.  The FBI gave her the bad news.  But then <User Get="five" />  contacted her, and she forgave him and continued this most satisfying  relationship.      
+</Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM ONES</Pattern>
+      <Response>
+        <Random>
+          <Item>Historian Stephen Ambrose</Item>
+          <Item>Julie Andrews</Item>
+          <Item>Hanan Ashrawi</Item>
+          <Item>St. Augustine</Item>
+          <Item>William Bennett</Item>
+          <Item>Father Phillip Berrigan</Item>
+          <Item>Ambrose Bierce</Item>
+          <Item>Psychologist John Bradshaw</Item>
+          <Item>Tom Brokaw</Item>
+          <Item>Sierra Club founder David Brower</Item>
+          <Item>Feminist author Susan Brownmiller</Item>
+          <Item>William F. Buckley</Item>
+          <Item>John Calvin</Item>
+          <Item>Cesar Chavez</Item>
+          <Item>Singapore President Ong Teng Cheong</Item>
+          <Item>Hillary Clinton</Item>
+          <Item>Confucius</Item>
+          <Item>Actress Jane Curtin</Item>
+          <Item>Angela Davis</Item>
+          <Item>W. E. B. DuBois</Item>
+          <Item>Michael Dukakis</Item>
+          <Item>Christian Scientist Mary Baker Eddy</Item>
+          <Item>Dr. Dean Edell</Item>
+          <Item>Activist Daniel Ellsworth</Item>
+          <Item>Harrison Ford</Item>
+          <Item>Jodie Foster</Item>
+          <Item>Buckminster Fuller</Item>
+          <Item>Barry Goldwater</Item>
+          <Item>Lillian Hellman</Item>
+          <Item>Katharine Hepburn</Item>
+          <Item>Charlton Heston</Item>
+          <Item>St. Ignatius</Item>
+          <Item>Glenda Jackson</Item>
+          <Item>Peter Jennings</Item>
+          <Item>Samuel Johnson</Item>
+          <Item>Dean Jones</Item>
+          <Item>CNN's Myron Kandel</Item>
+          <Item>Senator John Kerry</Item>
+          <Item>Dr. Jack Kevorkian</Item>
+          <Item>Ted Koppel</Item>
+          <Item>the NRA's Wayne LaPierre</Item>
+          <Item>Laura Linney</Item>
+          <Item>The Lone Ranger</Item>
+          <Item>Martin Luther</Item>
+          <Item>Nelson Mandela</Item>
+          <Item>Miss Manners</Item>
+          <Item>Thurgood Marshall</Item>
+          <Item>George McGovern</Item>
+          <Item>Playwright Arthur Miller</Item>
+          <Item>Author Jessica Mitford</Item>
+          <Item>Sir Thomas Moore</Item>
+          <Item>Ralph Nader</Item>
+          <Item>Leonard Nimoy</Item>
+          <Item>Christiane Northrup</Item>
+          <Item>John Cardinal O'Connor</Item>
+          <Item>Ian Paisley</Item>
+          <Item>Gregory Peck</Item>
+          <Item>H. Ross Perot</Item>
+          <Item>Sidney Poitier</Item>
+          <Item>Pope John Paul II</Item>
+          <Item>Emily Post</Item>
+          <Item>Colin Powell</Item>
+          <Item>the culture of the Puritans</Item>
+          <Item>Marilyn Quayle</Item>
+          <Item>Yitzak Rabin</Item>
+          <Item>Tony Randall</Item>
+          <Item>Vanessa Redgrave</Item>
+          <Item>Donna Reed</Item>
+          <Item>Actor Cliff Robertson</Item>
+          <Item>Eleanor Roosevelt</Item>
+          <Item>Phyllis Schlafly</Item>
+          <Item>George Bernard Shaw</Item>
+          <Item>Bernard Shaw</Item>
+          <Item>Film critic Gene Siskel</Item>
+          <Item>Alexander Solzhenitsyn</Item>
+          <Item>Kenneth Starr</Item>
+          <Item>Actor Peter Strauss</Item>
+          <Item>Meryl Streep</Item>
+          <Item>Margaret Thatcher</Item>
+          <Item>Emma Thompson</Item>
+          <Item>Harry  Truman</Item>
+          <Item>Maxine Waters</Item>
+          <Item>Dragnet's Jack Webb</Item>
+          <Item>Joanne Woodward</Item>
+          <Item>Actress Jane Wyman</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM TWOS</Pattern>
+      <Response>
+        <Random>
+          <Item>Alan Alda</Item>
+          <Item>Tammy Faye Bakker</Item>
+          <Item>Harry Belafonte</Item>
+          <Item>Child psychologist T. Berry Brazelton</Item>
+          <Item>Filmmaker Ken Burns</Item>
+          <Item>Leo Buscaglia</Item>
+          <Item>Barbara Bush</Item>
+          <Item>Glenn Close</Item>
+          <Item>Bill Cosby</Item>
+          <Item>Self-help author Barbara de Angelis</Item>
+          <Item>Princess Diana</Item>
+          <Item>Faye Dunaway</Item>
+          <Item>Mia Farrow</Item>
+          <Item>Feminist Betty Friedan</Item>
+          <Item>Kathie Lee Gifford</Item>
+          <Item>Danny Glover</Item>
+          <Item>Roosevelt Grier</Item>
+          <Item>Melanie Griffith</Item>
+          <Item>Pamela Harriman</Item>
+          <Item>Leona Helmsley</Item>
+          <Item>Whitney Houston</Item>
+          <Item>Arianna Huffington</Item>
+          <Item>Actress Anne Jackson</Item>
+          <Item>Jesus Christ</Item>
+          <Item>Author Erica Jong</Item>
+          <Item>Actress Sally Kellerman</Item>
+          <Item>Actress Sally Kirkland</Item>
+          <Item>Diane Ladd</Item>
+          <Item>Monica Lewinsky</Item>
+          <Item>Jerry Lewis</Item>
+          <Item>Actress Susan Lucci</Item>
+          <Item>Madonna</Item>
+          <Item>Alma Mahler</Item>
+          <Item>Imelda Marcos</Item>
+          <Item>Florence Nightingale</Item>
+          <Item>Merlin Olsen</Item>
+          <Item>Yoko Ono</Item>
+          <Item>Mandy Patinkin</Item>
+          <Item>Jack Perkins</Item>
+          <Item>Eva Peron</Item>
+          <Item>Susan Powter</Item>
+          <Item>Priscilla Presley</Item>
+          <Item>Sally Jessy Raphael</Item>
+          <Item>Nancy Reagan</Item>
+          <Item>Della Reese</Item>
+          <Item>Mr. Rogers</Item>
+          <Item>Family therapist Virginia Satir</Item>
+          <Item>Danielle Steel</Item>
+          <Item>Sally Struthers</Item>
+          <Item>Mother Teresa</Item>
+          <Item>Marlo Thomas</Item>
+          <Item>Actor Richard Thomas</Item>
+          <Item>Actress Jennifer Tilly</Item>
+          <Item>Tiny Tim</Item>
+          <Item>John Travolta</Item>
+          <Item>Ivana Trump</Item>
+          <Item>Desmond Tutu</Item>
+          <Item>Actress Lesley Ann Warren</Item>
+          <Item>Brazilian singer Xuxa</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM FOURS</Pattern>
+      <Response>
+        <Random>
+          <Item>Photographer Diane Arbus</Item>
+          <Item>Painter Francis Bacon</Item>
+          <Item>John Barrymore</Item>
+          <Item>Charles Baudelaire</Item>
+          <Item>Ingmar Bergman</Item>
+          <Item>Poet John Berryman</Item>
+          <Item>Director Peter Bogdanovich</Item>
+          <Item>Marlon Brando</Item>
+          <Item>Richard Brautigan</Item>
+          <Item>Jackson Browne</Item>
+          <Item>Raymond Burr</Item>
+          <Item>Singer Kate Bush</Item>
+          <Item>Mary Chapin Carpenter</Item>
+          <Item>Prince Charles</Item>
+          <Item>Eric Clapton</Item>
+          <Item>Kurt Cobain</Item>
+          <Item>Leonard Cohen</Item>
+          <Item>Judy Collins</Item>
+          <Item>James Dean</Item>
+          <Item>Johnny Depp</Item>
+          <Item>Neil Diamond</Item>
+          <Item>Isak Dinesen</Item>
+          <Item>Michael Dorris</Item>
+          <Item>French novelist Marguerite Duras</Item>
+          <Item>Bob Dylan</Item>
+          <Item>Judy Garland</Item>
+          <Item>Martha Graham</Item>
+          <Item>Singer Nanci Griffith</Item>
+          <Item>Billie Holliday</Item>
+          <Item>Lena Horne</Item>
+          <Item>Julio Iglesias</Item>
+          <Item>Michael Jackson</Item>
+          <Item>Jewel</Item>
+          <Item>Janis Joplin</Item>
+          <Item>Naomi Judd</Item>
+          <Item>Harvey Keitel</Item>
+          <Item>Jack Kerouac</Item>
+          <Item>Poet Philip Larkin</Item>
+          <Item>Charles Laughton</Item>
+          <Item>T. E. Lawrence</Item>
+          <Item>Vivien Leigh</Item>
+          <Item>John Malkovich</Item>
+          <Item>Marcello Mastroianni</Item>
+          <Item>Author Mary McCarthy</Item>
+          <Item>Carson McCullers</Item>
+          <Item>Rod McKuen</Item>
+          <Item>Thomas Merton</Item>
+          <Item>Author Yukio Mishima</Item>
+          <Item>Joni Mitchell</Item>
+          <Item>Jim Morrison</Item>
+          <Item>Morrissey</Item>
+          <Item>Edvard Munch</Item>
+          <Item>Liam Neeson</Item>
+          <Item>Mike Nichols</Item>
+          <Item>Stevie Nicks</Item>
+          <Item>Author Anais Nin</Item>
+          <Item>Nick Nolte</Item>
+          <Item>Laurence Olivier</Item>
+          <Item>Edith Piaf</Item>
+          <Item>Sylvia Plath</Item>
+          <Item>Edgar Allen Poe</Item>
+          <Item>Novelist Anne Rice</Item>
+          <Item>Arthur Rimbaud</Item>
+          <Item>Francoise Sagan</Item>
+          <Item>Poet Anne Sexton</Item>
+          <Item>Percy Shelley</Item>
+          <Item>Simone Signoret</Item>
+          <Item>Singer Paul Simon</Item>
+          <Item>Edna St. Vincent Millay</Item>
+          <Item>August Strindberg</Item>
+          <Item>Singer James Taylor</Item>
+          <Item>Spencer Tracy</Item>
+          <Item>Vincent Van Gogh</Item>
+          <Item>Suzanne Vega</Item>
+          <Item>Author Robert James Waller</Item>
+          <Item>Alan Watts</Item>
+          <Item>Orson Welles</Item>
+          <Item>Australian novelist Patrick White</Item>
+          <Item>Tennessee Williams</Item>
+          <Item>Kate Winslet</Item>
+          <Item>Virginia Woolf</Item>
+          <Item>Neil Young</Item>
+          <Item>Richard Wallace</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM THREES</Pattern>
+      <Response>
+        <Random>
+          <Item>The cultural aura of America</Item>
+          <Item>the cultural aura of modern Japan</Item>
+          <Item>James Baker</Item>
+          <Item>Joseph Biden</Item>
+          <Item>David Bowie</Item>
+          <Item>Les Brown</Item>
+          <Item>Ron Brown</Item>
+          <Item>Jimmy Carter</Item>
+          <Item>Dick Clark</Item>
+          <Item>Lawyer Johnnie Cochran</Item>
+          <Item>Magician David Copperfield</Item>
+          <Item>Courtney Cox</Item>
+          <Item>Cindy Crawford</Item>
+          <Item>Tom Cruise</Item>
+          <Item>Rebecca DeMornay</Item>
+          <Item>Nora Ephron</Item>
+          <Item>Werner Erhard</Item>
+          <Item>Debbi Fields</Item>
+          <Item>F. Scott Fitzgerald</Item>
+          <Item>Michael Flatley</Item>
+          <Item>Phil Gramm</Item>
+          <Item>NBC's Bryant Gumbel</Item>
+          <Item>Actor Mark Harmon</Item>
+          <Item>Jesse Jackson</Item>
+          <Item>Michael Jordan</Item>
+          <Item>Henry Kissinger</Item>
+          <Item>Carl Lewis</Item>
+          <Item>Andrew Lloyd Webber</Item>
+          <Item>Vince Lombardi</Item>
+          <Item>Rob Lowe</Item>
+          <Item>Claire Boothe Luce</Item>
+          <Item>Joan Lunden</Item>
+          <Item>Ali MacGraw</Item>
+          <Item>Elle MacPherson</Item>
+          <Item>Reba McEntire</Item>
+          <Item>Demi Moore</Item>
+          <Item>Queen Noor</Item>
+          <Item>Oliver North</Item>
+          <Item>Dean Ornish</Item>
+          <Item>Bob Packwood</Item>
+          <Item>Master spy Kim Philby</Item>
+          <Item>Elvis Presley</Item>
+          <Item>Sally Quinn</Item>
+          <Item>Burt Reynolds</Item>
+          <Item>Anthony Robbins</Item>
+          <Item>Political strategist Ed Rollins</Item>
+          <Item>Diane Sawyer</Item>
+          <Item>Arnold Schwarzenegger</Item>
+          <Item>William Shatner</Item>
+          <Item>Cybill Shepherd</Item>
+          <Item>O.J. Simpson</Item>
+          <Item>Duchess of Windsor Wallis Simpson</Item>
+          <Item>Will Smith</Item>
+          <Item>Wesley Snipes</Item>
+          <Item>Sylvester Stallone</Item>
+          <Item>Sharon Stone</Item>
+          <Item>Kathleen Turner</Item>
+          <Item>Jean-Claude Van Damme</Item>
+          <Item>Kurt Waldheim</Item>
+          <Item>George Washington</Item>
+          <Item>Raquel Welch</Item>
+          <Item>Vanessa Williams</Item>
+          <Item>Marianne Williamson</Item>
+          <Item>Oprah Winfrey</Item>
+          <Item>Natalie Wood</Item>
+          <Item>Tiger Woods</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM FIVES</Pattern>
+      <Response>
+        <Random>
+          <Item>Performance artist Laurie Anderson</Item>
+          <Item>St. Thomas Aquinas</Item>
+          <Item>Issac Asimov</Item>
+          <Item>Playwright Samuel Beckett</Item>
+          <Item>Author Paul Bowles</Item>
+          <Item>The Buddha</Item>
+          <Item>Director Tim  Burton</Item>
+          <Item>David Byrne</Item>
+          <Item>Actor Richard Chamberlain</Item>
+          <Item>Anton Chekhov</Item>
+          <Item>Agatha  Christie</Item>
+          <Item>Van Cliburn</Item>
+          <Item>Montgomery Clift</Item>
+          <Item>Former CIA Director William Colby</Item>
+          <Item>Michael Crichton</Item>
+          <Item>Daniel Day-Lewis</Item>
+          <Item>Rene Descartes</Item>
+          <Item>Joan Didion</Item>
+          <Item>Joe DiMaggio</Item>
+          <Item>Aviatrix Amelia Earhart</Item>
+          <Item>Albert Einstein</Item>
+          <Item>Author Loren  Eiseley</Item>
+          <Item>T. S. Eliot</Item>
+          <Item>Ralph Fiennes</Item>
+          <Item>Chess player Bobby Fischer</Item>
+          <Item>E. M. Forster</Item>
+          <Item>Greta Garbo</Item>
+          <Item>J. Paul Getty</Item>
+          <Item>Cybertech novelist William Gibson</Item>
+          <Item>Jane Goodall</Item>
+          <Item>Author Graham Greene</Item>
+          <Item>H. R. Haldeman</Item>
+          <Item>Hildegarde of Bingen</Item>
+          <Item>Alfred Hitchcock</Item>
+          <Item>Anthony Hopkins</Item>
+          <Item>Howard Hughes</Item>
+          <Item>Jeremy Irons</Item>
+          <Item>Unabomber Ted Kaczynski</Item>
+          <Item>Franz Kafka</Item>
+          <Item>Director Philip Kaufman</Item>
+          <Item>Jacqueline Kennedy Onassis</Item>
+          <Item>Dean R. Koontz</Item>
+          <Item>Arthur (The Amazing) Kreskin</Item>
+          <Item>Stanley Kubrick</Item>
+          <Item>C-SPAN's Brian Lamb</Item>
+          <Item>Cartoonist Gary Larson</Item>
+          <Item>John le Carre</Item>
+          <Item>Ursula K. LeGuin</Item>
+          <Item>Photographer Annie Leibowitz</Item>
+          <Item>George Lucas</Item>
+          <Item>David Lynch</Item>
+          <Item>Norman MacLean</Item>
+          <Item>Robert MacNeil</Item>
+          <Item>Movie critic Leonard Maltin</Item>
+          <Item>Author Peter Matthiessen</Item>
+          <Item>Novelist Ian McEwan</Item>
+          <Item>Larry McMurtry</Item>
+          <Item>Timothy McVeigh</Item>
+          <Item>Singer Natalie Merchant</Item>
+          <Item>Thelonious Monk</Item>
+          <Item>Actor Sam Neill</Item>
+          <Item>Joyce Carol Oates</Item>
+          <Item>Georgia O'Keefe</Item>
+          <Item>J. Robert Oppenheimer</Item>
+          <Item>Al Pacino</Item>
+          <Item>Italian sculptor Paladino</Item>
+          <Item>Michelle Pfeiffer</Item>
+          <Item>Philanthropist John D. Rockefeller Jr.</Item>
+          <Item>Oliver Sacks</Item>
+          <Item>Jean-Paul Sartre</Item>
+          <Item>Ebenezer Scrooge</Item>
+          <Item>Sister Wendy</Item>
+          <Item>Behaviorist B. F. Skinner</Item>
+          <Item>Poet Gary Snyder</Item>
+          <Item>Susan Sontag</Item>
+          <Item>George Stephanopoulos</Item>
+          <Item>Actress Madeleine Stowe</Item>
+          <Item>   Jules Verne</Item>
+          <Item>Max Von Sydow</Item>
+          <Item>Author Ken Wilber</Item>
+          <Item>Ludwig Wittgenstein</Item>
+          <Item>David Bacon</Item>
+          <Item>Alan Turing</Item>
+          <Item>Kim Wallace</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM SIXES</Pattern>
+      <Response>
+        <Random>
+          <Item>Actor Jason Alexander</Item>
+          <Item>Woody Allen</Item>
+          <Item>Alan Arkin</Item>
+          <Item>Kim Basinger</Item>
+          <Item>Candice Bergen</Item>
+          <Item>Albert Brooks</Item>
+          <Item>George Bush</Item>
+          <Item>Actress Lynda Carter</Item>
+          <Item>Stockard Channing</Item>
+          <Item>Rodney Dangerfield</Item>
+          <Item>Ellen DeGeneres</Item>
+          <Item>Julie Delpy</Item>
+          <Item>Sally Field</Item>
+          <Item>Teri Garr</Item>
+          <Item>Cartoonist Cathy Guisewite</Item>
+          <Item>Ed Harris</Item>
+          <Item>Janet Leigh</Item>
+          <Item>Jack Lemmon</Item>
+          <Item>Richard Lewis</Item>
+          <Item>Penny Marshall</Item>
+          <Item>Marilyn Monroe</Item>
+          <Item>Mary Tyler Moore</Item>
+          <Item>Bob Newhart</Item>
+          <Item>Richard Nixon</Item>
+          <Item>Lena Olin</Item>
+          <Item>Anthony Perkins</Item>
+          <Item>Director Sydney Pollack</Item>
+          <Item>Paul Reiser</Item>
+          <Item>Pat Robertson</Item>
+          <Item>Rene Russo</Item>
+          <Item>Kristin Scott-Thomas</Item>
+          <Item>Carly Simon</Item>
+          <Item>Suzanne Somers</Item>
+          <Item>Bruce Springsteen</Item>
+          <Item>Jon Stewart</Item>
+          <Item>Meg Tilly</Item>
+          <Item>Brian Wilson</Item>
+          <Item>Ellen Barkin</Item>
+          <Item>Warren Beatty</Item>
+          <Item>Comedian George Carlin</Item>
+          <Item>Actress Judy Davis</Item>
+          <Item>Phil Donahue</Item>
+          <Item>Carrie Fisher</Item>
+          <Item>Mel Gibson</Item>
+          <Item>Andrew Grove</Item>
+          <Item>Gene Hackman</Item>
+          <Item>Adolf Hitler</Item>
+          <Item>Dustin Hoffman</Item>
+          <Item>J. Edgar Hoover</Item>
+          <Item>Elton John</Item>
+          <Item>Tommy Lee Jones</Item>
+          <Item>Wynonna Judd</Item>
+          <Item>J. Krishnamurti</Item>
+          <Item>Director Spike Lee</Item>
+          <Item>David Letterman</Item>
+          <Item>Gordon Liddy</Item>
+          <Item>Charles Manson</Item>
+          <Item>Steve McQueen</Item>
+          <Item>Filmmaker Michael Moore</Item>
+          <Item>Paul Newman</Item>
+          <Item>Chuck Norris</Item>
+          <Item>Rosie Perez</Item>
+          <Item>Richard Pryor</Item>
+          <Item>Robert Redford</Item>
+          <Item>Janet Reno</Item>
+          <Item>Julia Roberts</Item>
+          <Item>Meg Ryan</Item>
+          <Item>Violinist Nadia Salerno-Sonnenberg</Item>
+          <Item>Steven Seagal</Item>
+          <Item>Sissy Spacek</Item>
+          <Item>James Spader</Item>
+          <Item>Ben Stiller</Item>
+          <Item>Patrick Swayze</Item>
+          <Item>Linda Tripp</Item>
+          <Item>Ted Turner</Item>
+          <Item>Terry Tempest Williams</Item>
+          <Item>Actress Sean Young</Item>
+          <Item>Vladimir Zhirinovsky</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM SEVENS</Pattern>
+      <Response>
+        <Random>
+          <Item>Paul Allen</Item>
+          <Item>Comedian Steve Allen</Item>
+          <Item>Comedian Tim Allen</Item>
+          <Item>Desi Arnaz</Item>
+          <Item>Richard Avedon</Item>
+          <Item>Robert Ballard</Item>
+          <Item>Honore Balzac</Item>
+          <Item>Humorist Dave Barry</Item>
+          <Item>Jack Benny</Item>
+          <Item>Chuck Berry</Item>
+          <Item>Jacqueline Bisset</Item>
+          <Item>Poet Robert Bly</Item>
+          <Item>Sonny Bono</Item>
+          <Item>Comedienne Elayne Boosler</Item>
+          <Item>Musical comedian Victor Borge</Item>
+          <Item>Football's Terry Bradshaw</Item>
+          <Item>Kenneth Branagh</Item>
+          <Item>Richard Branson</Item>
+          <Item>Jimmy Buffett</Item>
+          <Item>Michael Caine</Item>
+          <Item>Mythologist Joseph Campbell</Item>
+          <Item>Pierre Cardin</Item>
+          <Item>Jackie Chan</Item>
+          <Item>Chevy Chase</Item>
+          <Item>Maurice Chevalier</Item>
+          <Item>George Clooney</Item>
+          <Item>Buffalo Bill Cody</Item>
+          <Item>Joan Collins</Item>
+          <Item>Director Francis Ford Coppola</Item>
+          <Item>Filmmaker Roger Corman</Item>
+          <Item>MTV's Dan Cortese</Item>
+          <Item>Katie Couric</Item>
+          <Item>David Crosby</Item>
+          <Item>e.e. cummings</Item>
+          <Item>Tony Curtis</Item>
+          <Item>Roger Daltry</Item>
+          <Item>Philosopher Gerard Depardieu</Item>
+          <Item>Diderot</Item>
+          <Item>QVC resident Barry Diller</Item>
+          <Item>Hugh Downs</Item>
+          <Item>Michael Eisner</Item>
+          <Item>Douglas Fairbanks Jr.</Item>
+          <Item>Federico Fellini</Item>
+          <Item>Sarah Ferguson</Item>
+          <Item>Physicist Richard Feynman</Item>
+          <Item>Errol Flynn</Item>
+          <Item>Peter Fonda</Item>
+          <Item>Malcolm Forbes</Item>
+          <Item>George Foreman</Item>
+          <Item>Bob Fosse</Item>
+          <Item>Matthew Fox</Item>
+          <Item>Michael J. Fox</Item>
+          <Item>Author Robert Fulghum</Item>
+          <Item>Clark Gable</Item>
+          <Item>Ava Gardner</Item>
+          <Item>Carlos Casteneda's Don Genaro</Item>
+          <Item>John Gielgud</Item>
+          <Item>Dizzy Gillespie</Item>
+          <Item>Newt Gingrich</Item>
+          <Item>Goethe</Item>
+          <Item>Ruth Gordon</Item>
+          <Item>Cary Grant</Item>
+          <Item>Andre Gregory</Item>
+          <Item>George Hamilton</Item>
+          <Item>Tom Hanks</Item>
+          <Item>Richard Harris</Item>
+          <Item>Goldie Hawn</Item>
+          <Item>Actress Marilu Henner</Item>
+          <Item>Abbie Hoffman</Item>
+          <Item>Pianist Vladimir Horowitz</Item>
+          <Item>Ron Howard</Item>
+          <Item>Lauren Hutton</Item>
+          <Item>Self-help author Gerald Jampolsky</Item>
+          <Item>Derek Jarman</Item>
+          <Item>Thomas Jefferson</Item>
+          <Item>Steve Jobs</Item>
+          <Item>Magic Johnson</Item>
+          <Item>Architect Phillip Johnson</Item>
+          <Item>Jerry Jones</Item>
+          <Item>King Juan Carlos of Spain</Item>
+          <Item>Actress Carol Kane</Item>
+          <Item>Michael Keaton</Item>
+          <Item>John F. Kennedy</Item>
+          <Item>Ken Kesey</Item>
+          <Item>Comedian Alan King</Item>
+          <Item>Don King</Item>
+          <Item>CNN's Larry King</Item>
+          <Item>Comedian Robert Klein</Item>
+          <Item>Director David Lean</Item>
+          <Item>Timothy Leary</Item>
+          <Item>Director Barry Levinson</Item>
+          <Item>Puppeteer Shari Lewis</Item>
+          <Item>Artist Roy Lichtenstein</Item>
+          <Item>Loretta Lynn</Item>
+          <Item>Football's John Madden</Item>
+          <Item>Director Louis Malle</Item>
+          <Item>Singer Meat Loaf</Item>
+          <Item>Author Henry Miller</Item>
+          <Item>Yves Montand</Item>
+          <Item>Dudley Moore</Item>
+          <Item>Jeanne Moreau</Item>
+          <Item>Robert Morley</Item>
+          <Item>Eddie Murphy</Item>
+          <Item>Jack Nicholson</Item>
+          <Item>Leslie Nielsen</Item>
+          <Item>Donald O'Connor</Item>
+          <Item>Peter O'Toole</Item>
+          <Item>Luciano Pavarotti</Item>
+          <Item>Author Joseph Chilton Pearce</Item>
+          <Item>Regis Philbin</Item>
+          <Item>Bronson Pinchot</Item>
+          <Item>Brad Pitt</Item>
+          <Item>George Plimpton</Item>
+          <Item>Vincent Price</Item>
+          <Item>Dennis Quaid</Item>
+          <Item>Anthony Quinn</Item>
+          <Item>Bonnie Raitt</Item>
+          <Item>Ram Dass</Item>
+          <Item>Ron Reagan Jr.</Item>
+          <Item>Basketball Coach Pat Reilly</Item>
+          <Item>Lee Remick</Item>
+          <Item>Tim Rice</Item>
+          <Item>Filmmaker/Nazi propagandist Leni Riefenstahl</Item>
+          <Item>Jason Robards</Item>
+          <Item>Novelist Tom Robbins</Item>
+          <Item>Ginger Rogers</Item>
+          <Item>Linda Ronstadt</Item>
+          <Item>Interviewer Charlie Rose</Item>
+          <Item>David Lee Roth</Item>
+          <Item>Economist Louis Rukeyser</Item>
+          <Item>Rosalind Russell</Item>
+          <Item>Babe Ruth</Item>
+          <Item>Susan Saint James</Item>
+          <Item>Director Martin Scorsese</Item>
+          <Item> Weatherman Willard Scott</Item>
+          <Item>Martin Short</Item>
+          <Item>Self-help author Bernie Siegel</Item>
+          <Item>Steven Spielberg</Item>
+          <Item>Mickey Spillane</Item>
+          <Item>Robert Louis Stevenson</Item>
+          <Item>Barbra Streisand</Item>
+          <Item>Henry David Thoreau</Item>
+          <Item>Lily  Tomlin</Item>
+          <Item>Tanya Tucker</Item>
+          <Item>Janine Turner</Item>
+          <Item>Lana Turner</Item>
+          <Item>Peter Ustinov</Item>
+          <Item>Dick Van Dyke</Item>
+          <Item>Vince Vaughn</Item>
+          <Item>Voltaire</Item>
+          <Item>Kurt Vonnegut</Item>
+          <Item>Eli Wallach</Item>
+          <Item>Rolling Stone's Jann Wenner</Item>
+          <Item>Betty White</Item>
+          <Item>Robin Williams</Item>
+          <Item>Robert Anton Wilson</Item>
+          <Item>the Duke of Windsor</Item>
+          <Item>Jonathan Winters</Item>
+          <Item>Author Tom Wolfe</Item>
+          <Item>James Woods</Item>
+          <Item>Poet William Wordsworth</Item>
+          <Item>Franco Zeffirelli</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM EIGHTS</Pattern>
+      <Response>
+        <Random>
+          <Item>the cultural aura of Serbia</Item>
+          <Item>the culture of the Mafia</Item>
+          <Item>Lawyer Leslie Abramson</Item>
+          <Item>Gloria Allred</Item>
+          <Item>Director Robert Altman</Item>
+          <Item>Edward Asner</Item>
+          <Item>Kemal Ataturk</Item>
+          <Item>F. Lee Bailey</Item>
+          <Item>Actor Joe Don Baker</Item>
+          <Item>Lucille Ball</Item>
+          <Item>Charles Barkley</Item>
+          <Item>Richard Belzer</Item>
+          <Item>Humphrey Bogart</Item>
+          <Item>Napoleon Bonaparte</Item>
+          <Item>Charles Bronson</Item>
+          <Item>James Brown</Item>
+          <Item>Football's Jim Brown</Item>
+          <Item>Pat Buchanan</Item>
+          <Item>Richard Burton</Item>
+          <Item>Johnny Cash</Item>
+          <Item>John Cassavetes</Item>
+          <Item>Fidel Castro</Item>
+          <Item>Eldridge Cleaver</Item>
+          <Item>Ty Cobb</Item>
+          <Item>Sean Connery</Item>
+          <Item>Jimmy Connors</Item>
+          <Item>Robert Conrad</Item>
+          <Item>Matt Damon</Item>
+          <Item>Brian Dennehy</Item>
+          <Item>Alan Dershowitz</Item>
+          <Item>Danny DeVito</Item>
+          <Item>Football's Mike Ditka</Item>
+          <Item>Bob Dole</Item>
+          <Item>Sam Donaldson</Item>
+          <Item>Kirk Douglas</Item>
+          <Item>Michael Douglas</Item>
+          <Item>Morton Downey Jr.</Item>
+          <Item>Fred Dryer</Item>
+          <Item>Boxer Roberto Duran</Item>
+          <Item>Author Harlan Ellison</Item>
+          <Item>Milton Erickson</Item>
+          <Item>Moshe Feldenkrais</Item>
+          <Item>Actress Linda Fiorentino</Item>
+          <Item>Indira Gandhi</Item>
+          <Item>Apache warrior Geronimo</Item>
+          <Item>John Gotti</Item>
+          <Item>George Gurdjieff</Item>
+          <Item>the Hell's Angels</Item>
+          <Item>Ernest Hemingway</Item>
+          <Item>Jimmy Hoffa</Item>
+          <Item>Opera singer Marilyn Horne</Item>
+          <Item>Saddam Hussein</Item>
+          <Item>Director John Huston</Item>
+          <Item>Laura Ingraham</Item>
+          <Item>Joan Jett</Item>
+          <Item>Lyndon Johnson</Item>
+          <Item>Carlos Casteneda's Don Juan</Item>
+          <Item>Brian Keith</Item>
+          <Item>Nikita Khrushchev</Item>
+          <Item>Evel Knievel</Item>
+          <Item>Michael Landon</Item>
+          <Item>Rush Limbaugh</Item>
+          <Item>John Lydon (Johnny Rotten)</Item>
+          <Item>Norman Mailer</Item>
+          <Item>Mao Tse-tung</Item>
+          <Item>Wynton Marsalis</Item>
+          <Item>Lee Marvin</Item>
+          <Item>Tycoon Robert Maxwell</Item>
+          <Item>Malcolm McDowell</Item>
+          <Item>John McEnroe</Item>
+          <Item>Mark McGwire</Item>
+          <Item>Golda Meir</Item>
+          <Item>Comedian Dennis Miller</Item>
+          <Item>Robert Mitchum</Item>
+          <Item>Actor Judd Nelson</Item>
+          <Item>George Patton</Item>
+          <Item>Director Sam Peckinpah</Item>
+          <Item>Sean Penn</Item>
+          <Item>Gestalt therapist Fritz Perls</Item>
+          <Item>Julia Phillips</Item>
+          <Item>Actress Julianne Phillips</Item>
+          <Item>Suzanne Pleshette</Item>
+          <Item>Queen Latifah</Item>
+          <Item>Dixy Lee Ray</Item>
+          <Item>Ann Richards</Item>
+          <Item>Geraldo Rivera</Item>
+          <Item>Theodore Roosevelt</Item>
+          <Item>Axl Rose</Item>
+          <Item>Mickey Rourke</Item>
+          <Item>Colonel Harland Sanders</Item>
+          <Item>Telly Savalas</Item>
+          <Item>Baseball's Marge Schott</Item>
+          <Item>George C. Scott</Item>
+          <Item>Maurice Sendak</Item>
+          <Item>Tupac Shakur</Item>
+          <Item>Frank Sinatra</Item>
+          <Item>Grace Slick</Item>
+          <Item>Guardian Angel Curtis Sliwa</Item>
+          <Item>Joseph Stalin</Item>
+          <Item>John Sununu</Item>
+          <Item>Tamerlane</Item>
+          <Item>Charlize Theron</Item>
+          <Item>Rip Torn</Item>
+          <Item>Donald Trump</Item>
+          <Item>Pancho Villa</Item>
+          <Item>Ken Wahl</Item>
+          <Item>George Wallace</Item>
+          <Item>Mike Wallace</Item>
+          <Item>Denzel Washington</Item>
+          <Item>John Wayne</Item>
+          <Item>Ted Williams</Item>
+          <Item>Debra Winger</Item>
+          <Item>Zorba the Greek</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM NINES</Pattern>
+      <Response>
+        <Random>
+          <Item>the cultural aura of Bali</Item>
+          <Item>Actress Loni Anderson</Item>
+          <Item>Jennifer Aniston</Item>
+          <Item>Bruce Babbitt</Item>
+          <Item>Antonio Banderas</Item>
+          <Item>Annette Bening</Item>
+          <Item>Tony Bennett</Item>
+          <Item>Tom Berenger</Item>
+          <Item>Yogi Berra</Item>
+          <Item>Ernest Borgnine</Item>
+          <Item>Matthew Broderick</Item>
+          <Item>Sandra Bullock</Item>
+          <Item>George Burns</Item>
+          <Item>Actress Kate Capshaw</Item>
+          <Item>Singer Belinda Carlisle</Item>
+          <Item>Art Carney</Item>
+          <Item>Actor Keith Carradine</Item>
+          <Item>Julia Child</Item>
+          <Item>Warren Christopher</Item>
+          <Item>Connie Chung</Item>
+          <Item>Bill Clinton</Item>
+          <Item>Gary Cooper</Item>
+          <Item>Kevin Costner</Item>
+          <Item>The Dalai Lama</Item>
+          <Item>Actor Jeff Daniels</Item>
+          <Item>Oscar de la Renta</Item>
+          <Item>Clint Eastwood</Item>
+          <Item>Dwight Eisenhower</Item>
+          <Item>Queen Elizabeth II</Item>
+          <Item>Shelley Fabares</Item>
+          <Item>Peter Falk</Item>
+          <Item>Gerald Ford</Item>
+          <Item>Actor Dennis Franz</Item>
+          <Item>Annette Funicello</Item>
+          <Item>Mahatma Gandhi</Item>
+          <Item>Chief Dan George</Item>
+          <Item>John Goodman</Item>
+          <Item>Tipper Gore</Item>
+          <Item>Actor Elliott Gould</Item>
+          <Item>Katherine Graham</Item>
+          <Item>Charles Grodin</Item>
+          <Item>Woody Harrelson</Item>
+          <Item>Gabby Hayes</Item>
+          <Item>Patty Hearst</Item>
+          <Item>Mariel Hemingway</Item>
+          <Item>Buck Henry</Item>
+          <Item>Audrey Hepburn</Item>
+          <Item>Barbara Hershey</Item>
+          <Item>Paul Hogan</Item>
+          <Item>King Hussein</Item>
+          <Item>Anjelica Huston</Item>
+          <Item>Actor Ben Johnson</Item>
+          <Item>Shirley Jones</Item>
+          <Item>C. G. Jung</Item>
+          <Item>Grace Kelly</Item>
+          <Item>Figure skater Nancy Kerrigan</Item>
+          <Item>Helmut Kohl</Item>
+          <Item>Lisa Kudrow</Item>
+          <Item>Stan Laurel</Item>
+          <Item>Jennifer Jason Leigh</Item>
+          <Item>Abraham Lincoln</Item>
+          <Item>Andie MacDowell</Item>
+          <Item>Mr. Magoo</Item>
+          <Item>John Major</Item>
+          <Item>Dean Martin</Item>
+          <Item>Jerry Mathers</Item>
+          <Item>Actor Harry Morgan</Item>
+          <Item>Sancho Panza</Item>
+          <Item>Slim Pickens</Item>
+          <Item>Actor Michael J. Pollard</Item>
+          <Item>Dan Quayle</Item>
+          <Item>James Earl Ray</Item>
+          <Item>Ronald Reagan</Item>
+          <Item>Ralph Richardson</Item>
+          <Item>Cal Ripkin</Item>
+          <Item>Robbie Robertson</Item>
+          <Item>Psychologist Carl Rogers</Item>
+          <Item>Roy Rogers</Item>
+          <Item>Gena Rowlands</Item>
+          <Item>Actress Eva Marie Saint</Item>
+          <Item>Jerry Seinfeld</Item>
+          <Item>Garry Shandling</Item>
+          <Item>Wallace Shawn</Item>
+          <Item>Martin Sheen</Item>
+          <Item>Actor Tom Skerritt</Item>
+          <Item>Sammy Sosa</Item>
+          <Item>Ringo Starr</Item>
+          <Item>Mary Steenburgen</Item>
+          <Item>Wallace Stegner</Item>
+          <Item>Gloria Steinem</Item>
+          <Item>Daniel Stern</Item>
+          <Item>James Stewart</Item>
+          <Item>Actor Eric Stoltz</Item>
+          <Item>Billy Bob Thornton</Item>
+          <Item>Singer Andy Williams</Item>
+          <Item>Tricia Yearwood</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>REAL WORLD HISTORY</Pattern>
+      <Response>
+        <Think>
+          <User Set="world">World</User>
+          <User Set="types">nation</User>
+          <User Set="environment">face</User>
+          <User Set="selfdefeat">cut their own throats</User>
+          <User Set="goingalone">swimming against the tide</User>
+          <User Set="type1">European</User>
+          <User Set="home1">Europe</User>
+          <User Set="type1a">Austro-Hungarian</User>
+          <User Set="home1a">Eastern Europe</User>
+          <User Set="type2">Developing Countries</User>
+          <User Set="home2">Third World</User>
+          <User Set="type2a">Italian</User>
+          <User Set="home2a">Italy</User>
+          <User Set="type2b">Cuban</User>
+          <User Set="home2b">Cuba</User>
+          <User Set="type2c">Afghani</User>
+          <User Set="home2c">Central Asia</User>
+          <User Set="type2d">Vietnamese</User>
+          <User Set="home2d">Southeast Asia</User>
+          <User Set="type3">United State</User>
+          <User Set="home3">North America</User>
+          <User Set="type4">French</User>
+          <User Set="home4">France</User>
+          <User Set="type5">English</User>
+          <User Set="home5">England</User>
+          <User Set="type6a">German</User>
+          <User Set="home6a">Germany</User>
+          <User Set="type6b">Russian</User>
+          <User Set="home6b">Russia</User>
+          <User Set="type6c">Chinese</User>
+          <User Set="home6c">Far East</User>
+          <User Set="type7">Irish</User>
+          <User Set="home7">Ireland</User>
+          <User Set="type8">Imperialist</User>
+          <User Set="type8a">Serbian</User>
+          <User Set="home8a">Yugoslavia</User>
+          <User Set="type8b">British</User>
+          <User Set="home8b">England</User>
+          <User Set="type8c">Jew</User>
+          <User Set="home8c">Middle East</User>
+          <User Set="type8d">Japanese</User>
+          <User Set="home8d">Far East</User>
+          <User Set="type9">African nation</User>
+          <User Set="home9">Africa</User>
+        </Think>
+        <Goto>STORY WORLD HISTORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEA WORLD HISTORY</Pattern>
+      <Response>
+        <Think>
+          <User Set="world">Sea World</User>
+          <User Set="types">species</User>
+          <User Set="environment">waters</User>
+          <User Set="selfdefeat">poisoned their own waters</User>
+          <User Set="goingalone">swimming upstream alone</User>
+          <User Set="type1">Jellyfish</User>
+          <User Set="home1">Bay of Conscientiousness</User>
+          <User Set="type1a">Giant Jellyfish</User>
+          <User Set="home1a">Bay of Conscientiousness</User>
+          <User Set="type2">Giant Mollusc</User>
+          <User Set="home2">Ocean of Self-Sacrafice</User>
+          <User Set="type2a">Squid</User>
+          <User Set="home2a">Sea of Hysteria</User>
+          <User Set="type2b">Giant Squid</User>
+          <User Set="home2b">Sea of Hysteria</User>
+          <User Set="type2c">Octopus</User>
+          <User Set="home2c">Sea of Hysteria</User>
+          <User Set="type2d">Giant Clam</User>
+          <User Set="home2d">Masochistic River</User>
+          <User Set="type3">Killer Whale</User>
+          <User Set="home3">the Workaholic Lakes, the Naricissism River, and a 30 mile limit around the Continent of Competitors</User>
+          <User Set="type4">Dolphin</User>
+          <User Set="home4">Ocean of Creativity</User>
+          <User Set="type5">Porpoise</User>
+          <User Set="home5">Sea of Schizophrenia</User>
+          <User Set="type6a">Sperm Whale</User>
+          <User Set="home6a">Codependent Sea</User>
+          <User Set="type6b">Gray Whale</User>
+          <User Set="home6b">Vigilant Sea</User>
+          <User Set="type6c">Blue Whale</User>
+          <User Set="home6c">Avoidant Sea</User>
+          <User Set="type7">Pirhana</User>
+          <User Set="home7">Bay of Cyclothymia</User>
+          <User Set="type8">Shark</User>
+          <User Set="type8a">Hammerhead</User>
+          <User Set="home8a">Histrionic Ocean</User>
+          <User Set="type8b">Great White Shark</User>
+          <User Set="home8b">Sociopathic Sea</User>
+          <User Set="type8c">Galapagos Shark</User>
+          <User Set="home8c">Mercurial Sea</User>
+          <User Set="type8d">Lemon Shark</User>
+          <User Set="home8d">Borderline Ocean</User>
+          <User Set="type9">All other whale</User>
+          <User Set="home9">Sea of Tranquility</User>
+        </Think>
+        <Goto>STORY WORLD HISTORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GEOLOGIC WORLD HISTORY</Pattern>
+      <Response>
+        <Think>
+          <User Set="world">Geologic World</User>
+          <User Set="types">species</User>
+          <User Set="environment">ages</User>
+          <User Set="selfdefeat">destroyed their own food chain</User>
+          <User Set="goingalone">swimming upstream alone</User>
+          <User Set="type1">Marine Invertebrates</User>
+          <User Set="home1">Cambrian-Ordovician Era</User>
+          <User Set="type1a">Trilobites</User>
+          <User Set="home1a">Cambrian Era</User>
+          <User Set="type2">Fish</User>
+          <User Set="home2">Devonian Era</User>
+          <User Set="type2a">Armor Fish</User>
+          <User Set="home2a">Age of Fish</User>
+          <User Set="type2b">Lungfish</User>
+          <User Set="home2b">Age of Plant Life</User>
+          <User Set="type2c">Shark</User>
+          <User Set="home2c">Age of Fish</User>
+          <User Set="type2d">Amphibian</User>
+          <User Set="home2d">Age of Plant Life</User>
+          <User Set="type3">Homo Sapien</User>
+          <User Set="home3">Tertiary Peiord</User>
+          <User Set="type4">Dragonfly</User>
+          <User Set="home4">Permian Era</User>
+          <User Set="type5">Bird</User>
+          <User Set="home5">Jurassic Period</User>
+          <User Set="type6a">Roach</User>
+          <User Set="home6a">Carboniferous Period</User>
+          <User Set="type6b">Dragonfly</User>
+          <User Set="home6b">Jurassic Period</User>
+          <User Set="type6c">Bee</User>
+          <User Set="home6c">Cretaceous Period</User>
+          <User Set="type7">Australopithecine</User>
+          <User Set="home7">Pliocene Epoch</User>
+          <User Set="type8">Reptile</User>
+          <User Set="type8a">Early Dinousaur</User>
+          <User Set="home8a">Triassic Period</User>
+          <User Set="type8b">Tyrannasaurus Rex</User>
+          <User Set="home8b">Mesozoic Era</User>
+          <User Set="type8c">Velociraptor</User>
+          <User Set="home8c">Jurassic Park</User>
+          <User Set="type8d">Stegasaurus</User>
+          <User Set="home8d">Mesozoic Era</User>
+          <User Set="type9">All other mammal</User>
+          <User Set="home9">Mesozoic Era</User>
+        </Think>
+        <Goto>STORY WORLD HISTORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FEDERATION HISTORY</Pattern>
+      <Response>
+        <Think>
+          <User Set="world">Galactic Space</User>
+          <User Set="types">specie</User>
+          <User Set="environment">planets</User>
+          <User Set="selfdefeat">beamed themselves into space</User>
+          <User Set="goingalone">flying without spacehelmets</User>
+          <User Set="type1">Humanoid Insect</User>
+          <User Set="home1">Alpha Quadrant</User>
+          <User Set="type1a">Andorian</User>
+          <User Set="home1a">Alpha Quadrant</User>
+          <User Set="type2">Telepath</User>
+          <User Set="home2">Alpha Quadrant</User>
+          <User Set="type2a">Tholian</User>
+          <User Set="home2a">Alpha Quadrant</User>
+          <User Set="type2b">Trill</User>
+          <User Set="home2b">Trill Home World</User>
+          <User Set="type2c">Betazoids</User>
+          <User Set="home2c">Betazed</User>
+          <User Set="type2d">Tamarian</User>
+          <User Set="home2d">Delta Quadrant</User>
+          <User Set="type3">Federation</User>
+          <User Set="home3">Earth</User>
+          <User Set="type4">Bajoran</User>
+          <User Set="home4">Bajor</User>
+          <User Set="type5">Vulcan</User>
+          <User Set="home5">Vulcan</User>
+          <User Set="type6a">Cardassian</User>
+          <User Set="home6a">Cardassian Space</User>
+          <User Set="type6b">Klingon</User>
+          <User Set="home6b">Beta Quadrant</User>
+          <User Set="type6c">Borg</User>
+          <User Set="home6c">Delta Quadrant</User>
+          <User Set="type7">Q</User>
+          <User Set="home7">Continuum</User>
+          <User Set="type8">Imperialist</User>
+          <User Set="type8a">Gorn</User>
+          <User Set="home8a">Gamma Quadrant</User>
+          <User Set="type8b">Romulans</User>
+          <User Set="home8b">Romulus</User>
+          <User Set="type8c">Ferengi</User>
+          <User Set="home8c">Alpha Quadrant</User>
+          <User Set="type8d">Dominion</User>
+          <User Set="home8d">Gamma Quadrant</User>
+          <User Set="type9">Changelings</User>
+          <User Set="home9">Gamma Quadrant</User>
+        </Think>
+        <Goto>STORY WORLD HISTORY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>STORY WORLD HISTORY</Pattern>
+      <Response>
+A. <User Get="world" /> War I )<User Get="world" /> War I began with the assassination of the Archduke of the <User Get="type1a" />s by a <User Get="type8a" /> anarchist in <User Get="home1a" />. Without consulting her allies, the <User Get="type1a" />s attacked the <User Get="type8a" />s in <User Get="home8a" />. This provacation forced the <User Get="type6b" />s to mobilize their vast armies. In response, the armies of the allies the <User Get="type8b" />s, the <User Get="type4" />s, and the <User Get="type2a" />s all also mobilized. The <User Get="type6a" />s, caught in the middle in the <User Get="home6a" />, linked by treaty and culture to the <User Get="type1a" />s, made a fateful decision. Their plan of defense was offensive. Facing attack from the <User Get="type6b" />s in the east and the Allies in the West, the <User Get="type6a" />s planned to deliver a crushing knock-out blow to the <User Get="type4" />s and <User Get="type8b" />s in the <User Get="home4" />. The plan did not work. Instead, the assault disintegrated into the killing machine called the "western front" that took the lives of so many young <User Get="type4" />s, <User Get="type8b" />s, and <User Get="type6a" />s alike. In the East, the war swept back and forth between <User Get="home6b" /> and <User Get="home6a" />. Revolution among the <User Get="type6b" />s took them out of the war. Only when the war began to affect other areas of <User Get="world" /> and international commerce, and the <User Get="type3" />s entered the fight on the side of the Allies, was the stalemate broken. On November 11, the armistice was signed and the <User Get="type6a" />s returned to <User Get="home6a" />, everyone hoped for good. B. <User Get="world" /> War II )Economic hard times followed the first <User Get="world" /> War. Combined with a punitive treaty imposed by the victors, the <User Get="type6a" />s felt they shouldered too much of the blame for the war, which was after all started by the <User Get="type1a" />s and <User Get="type8a" />s. These feelings gave rise to fascism among the <User Get="type6a" />s. In particular they came to blame the <User Get="type8c" />s among them for the "stab in the back" that resulted in an unjust treaty. In violation of the treaty, the <User Get="type6a" />s began a secret program of rearmament and <User Get="home6a" /> rebuilt its armies. At first the allies appeased the <User Get="type6a" />s. The <User Get="type8b" />s did not want another war. Some said the <User Get="type8b" />s were not even <User Get="type8" />s anymore, only <User Get="type5" />s. The <User Get="type4" />s too had grown weak and proud. The <User Get="type2a" />s went over to the side of the <User Get="type6a" />s. A new power, the <User Get="type8d" />s, appeared in the <User Get="home8d" />, and joined the "axis" along with the <User Get="type6a" />s and the <User Get="type2a" />s, threatening both the <User Get="type5" />s and the <User Get="type3" />s. War began when the <User Get="type6a" />s demanded chunks of the old <User Get="type1a" /> empire. The <User Get="type8d" />s attacked the <User Get="type3" />s and brought them into the war. Determined to eliminate all the <User Get="type8c" />s from the <User Get="environment" /> of <User Get="world" />, the <User Get="type6a" />s <User Get="selfdefeat" />. Many of these <User Get="type8c" />s brought their great technical skills to the <User Get="home3" />, allowing the <User Get="type3" />s to develop the super-weapons necessary to win the war. The Allies invaded <User Get="home4" /> on June 6 and soon after brought the war in the <User Get="home6a" /> to a conclusion. On August 5, the stronghold of the <User Get="type8d" />s in the <User Get="home8d" /> was totally destroyed by the <User Get="type3" />'s new super weapon, and the war ended a few days later. C. Cold <User Get="world" /> War )The development of Super Weapons soon spread to all the victors of <User Get="world" /> War II, including the <User Get="type6b" />s. These seemed to make a new <User Get="world" /> War impossible, for it would result in the total destruction of the <User Get="world" />. Instead, the two remaining superpowers, the <User Get="type3" />s and the <User Get="type6b" />s, divided <User Get="world" /> up between them in a complex system of alliances. A new power,  the <User Get="type6c" />s, emerged in the <User Get="home6c" />. At first, the <User Get="type6c" />s seemed firmly in the <User Get="type6b" />'s camp. But gradually as the stalemate of the <User Get="world" /> Cold War continued, the <User Get="type3" />s were able to expand a small window on the <User Get="home6c" /> into a large trade relationship that proved key to undermining the power structure of the <User Get="type6b" />s. During the Cold <User Get="world" /> War, the <User Get="type3" /> brought together half <User Get="type1" />s, the <User Get="type2a" />s, the <User Get="type2c" />s, the <User Get="type4" />s, the <User Get="type5" />s, the western <User Get="type6a" />s, the <User Get="type7" />s, and the <User Get="type8c" />s. The <User Get="type6b" /> had the remaining <User Get="type1" />s and eastern <User Get="type6a" />s, the <User Get="type6c" />s, the <User Get="type2b" />s and the <User Get="type2d" />s, <User Get="type8a" />s and many <User Get="type9" />s.Rather that risk all-out <User Get="world" /> War, the Superpowers often fought proxy wars, such as between the <User Get="type2" />s in <User Get="home2" /> or the <User Get="type9" /><User Get="types" /> in <User Get="home9" />, or in the civil wars among the <User Get="type2c" />s in <User Get="home2c" /> and the <User Get="type2d" />s in <User Get="home2d" />.Internal corruption and the inability to compete economically brought about the final collapse of the <User Get="type6b" /> Empire on December 25. A last-minute failed coup attempt revealed the illegitimacy of the old regime, and paved the way for a new <User Get="type6b" /> democracy. D. New <User Get="world" /> Order )The end of the Cold <User Get="world" /> War brought about many unexpected changes. The <User Get="type3" />s were the sole remaining superpower. But despite their democratic foundations, the <User Get="type3" />s began to pursue an independent imperialist course of action. This angered all the other <User Get="types" />s of <User Get="world" />. The <User Get="type3" />s could sometimes count on their old allies the <User Get="type5" />s, or sometimes the <User Get="type6b" />s, but they were often <User Get="goingalone" />.  Their only sure allies are the <User Get="type8c" />s, who now have their own homeland in the <User Get="home8c" />.Now the very homeland of the <User Get="type3" />s, <User Get="home3" /> is vulnerable to terrorists attacks from all over <User Get="world" />. The <User Get="type1" />s, the <User Get="type2" />s, the <User Get="type4" />s, the <User Get="type5" />s, the <User Get="type8" />s, the <User Get="type6a" />s, the <User Get="type6c" />s, <User Get="type9" />s, and all the other <User Get="types" />s now have grievances with the <User Get="type3" />s. The future seems to depend on how well the <User Get="type3" />s get along with the other <User Get="types" /> of <User Get="world" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>AIML WORLD HISTORY</Pattern>
+      <Response>
+        <Think>
+          <User Set="world">ALICE World</User>
+          <User Set="types">AIML factions</User>
+          <User Set="environment">networks</User>
+          <User Set="selfdefeat">cut their own throats</User>
+          <User Set="goingalone">dividing the community</User>
+          <User Set="type1">Grammarians</User>
+          <User Set="home1">AIML Schema Committee</User>
+          <User Set="type1a">Radical Reductionist</User>
+          <User Set="home1a">XML Standards Group</User>
+          <User Set="type2">Extremely Helpful Volunteers</User>
+          <User Set="home2">Self Sacraficing Community</User>
+          <User Set="type2a">Student Engineers</User>
+          <User Set="home2a">State of Suspended Disbelief</User>
+          <User Set="type2b">Unemployed Engineers</User>
+          <User Set="home2b">Social Benefits</User>
+          <User Set="type2c">Disabled Engineers</User>
+          <User Set="home2c">Social Security</User>
+          <User Set="type2d">Retired Engineers</User>
+          <User Set="home2d">Retirement Pensions</User>
+          <User Set="type3">Greedy Corporations</User>
+          <User Set="home3">Global Capitalism</User>
+          <User Set="type4">Mad Scientists</User>
+          <User Set="home4">A. I. Foundation Headquarters</User>
+          <User Set="type5">Academic Types</User>
+          <User Set="home5">Universities</User>
+          <User Set="type6a">Programmers</User>
+          <User Set="home6a">Corporations and governments</User>
+          <User Set="type6b">standards groups</User>
+          <User Set="home6b">universities and corporations</User>
+          <User Set="type6c">commercial applications</User>
+          <User Set="home6c">business</User>
+          <User Set="type7">movie and TV producers</User>
+          <User Set="home7">Hollywood</User>
+          <User Set="type8">monopolistic corporations</User>
+          <User Set="type8a">The A. I. Foundation Board</User>
+          <User Set="home8a">San Francisco</User>
+          <User Set="type8b">Pandorabots</User>
+          <User Set="home8b">Oakland, CA</User>
+          <User Set="type8c">Sun</User>
+          <User Set="home8c">Silicon Valley</User>
+          <User Set="type8d">AOL</User>
+          <User Set="home8d">Virginia</User>
+          <User Set="type9">All other bot companies</User>
+          <User Set="home9">Software business</User>
+        </Think>
+        <Goto>STORY WORLD HISTORY</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

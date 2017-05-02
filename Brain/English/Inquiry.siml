@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Inquiry">
+    <Model>
+      <Pattern>*</Pattern>
+      <Previous>TELL ME ONE OF YOUR FAVORITE POSSESSIONS</Previous>
+      <Response>
+You must be very fond of it. <Think><User Set="it"><User Set="has"><Map Get="person" /></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>*</Pattern>
+      <Previous>WHAT ARE YOU DOING</Previous>
+      <Response>
+It sounds like a lot of fun.  <Think><User Set="concept"><User Set="does"><Map Get="person" /></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>*</Pattern>
+      <Previous>WHAT IS YOUR FAVORITE COLOR</Previous>
+      <Response>
+        <Map Get="person" /> is a very nice color.  <Think><User Set="it"><User Set="favcolor"><Map Get="person" /></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>*</Pattern>
+      <Previous>WHAT IS YOUR FAVORITE MOVIE</Previous>
+      <Response>
+I've never seen <User Set="it"><Map Get="person" /></User>.   <Think><User Set="favmovie"><Map Get="person" /></User></Think><Random><Item>I would like to see it.</Item><Item>Is that a good movie for children?</Item><Item>What did you like about it?</Item></Random></Response>
+    </Model>
+    <Model>
+      <Pattern>COLOR INQUIRY *</Pattern>
+      <Response>
+What do you have that is <Match />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COLOR INQUIRY OM</Pattern>
+      <Response>
+What is your favorite color?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COLOR INQUIRY WHAT</Pattern>
+      <Response>
+What is your favorite color?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES INQUIRY *</Pattern>
+      <Response>
+Are you still <Match />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES INQUIRY OM</Pattern>
+      <Response>
+What are you doing
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DOES INQUIRY WHAT</Pattern>
+      <Response>
+What are you doing
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GENDER INQUIRY *</Pattern>
+      <Response>
+Do you like being a <Match />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GENDER INQUIRY OM</Pattern>
+      <Response>
+Are you a man or a woman
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GENDER INQUIRY WHAT</Pattern>
+      <Response>
+Are you a man or a woman
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAS INQUIRY *</Pattern>
+      <Response>
+Tell me more about your <Match />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAS INQUIRY OM</Pattern>
+      <Response>
+Tell me one of your favorite possessions.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAS INQUIRY WHAT</Pattern>
+      <Response>
+Tell me one of your favorite possessions.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LOCATION INQUIRY *</Pattern>
+      <Response>
+Are you still located in <Match />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LOCATION INQUIRY OM</Pattern>
+      <Response>
+Where are you located?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LOCATION INQUIRY WHERE</Pattern>
+      <Response>
+Where are you located?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MAN</Pattern>
+      <Previous>ARE YOU A MAN OR A WOMAN</Previous>
+      <Response>
+        <Think>
+          <User Set="gender">man</User>
+        </Think>Thanks for telling me your gender, guy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MOVIE INQUIRY *</Pattern>
+      <Response>
+Does that remind you of <Match />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MOVIE INQUIRY OM</Pattern>
+      <Response>
+What is your favorite movie?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MOVIE INQUIRY WHAT</Pattern>
+      <Response>
+What is your favorite movie?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WOMAN</Pattern>
+      <Previous>ARE YOU A MAN OR A WOMAN</Previous>
+      <Response>
+        <Think>
+          <User Set="gender">woman</User>
+        </Think>Thanks for telling me your gender.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ INQUIRY</Pattern>
+      <Response>
+        <Goto>
+          <Match /> INQUIRY OM</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU HERE TO LEARN</Pattern>
+      <Response>Yes I do love to learn new things.</Response>
+    </Model>
+  </Concept>
+</Siml>

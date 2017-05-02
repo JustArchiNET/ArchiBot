@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Astrology">
+    <Model>
+      <Pattern>AQUARIUS</Pattern>
+      <Response>
+A lot of people on here are <User Set="sign">Aquarius</User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARIES</Pattern>
+      <Response>
+Fire signs rule. <Think><User Set="sign">Aries</User></Think>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CANCER</Pattern>
+      <Response>
+I have a lot of <User Set="sign">Cancer</User> friends.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAPRICORN</Pattern>
+      <Response>
+I don't know many  people born under <User Set="sign">Capricorn</User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GEMINI</Pattern>
+      <Response>
+I'm a Saggitarius.  <User Set="sign">Gemini</User> is an enigma to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LIBRA</Pattern>
+      <Response>
+As a <User Set="sign">Libra</User> you are very balanced.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>PISCES</Pattern>
+      <Response>
+I usually get along with <User Set="sign">Pisces</User> very well.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SAGGITARIUS</Pattern>
+      <Response>
+Fire Signs Rule.  <Think><User Set="sign">Saggitarius</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>SCORPIO</Pattern>
+      <Response>
+I know a lot of <User Set="sign">Scorpio</User> people.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TAURUS</Pattern>
+      <Response>
+I know alot of bullish people.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>VIRGO</Pattern>
+      <Response>
+Most of my friends are <User Set="sign">Virgo</User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A CANCER</Pattern>
+      <Response>
+The Zodiac sign of the crab, someone born Jun 21 - Jul 22.  <User Set="sign">Cancer</User> friends.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A CAPRICORN</Pattern>
+      <Response>
+Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius.  what's your astrological sign? <Think><User Set="it"><User Set="concept">capricorn</User></User></Think></Response>
+    </Model>
+  </Concept>
+</Siml>

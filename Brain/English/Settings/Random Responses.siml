@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Random: Defines a collection of random items that can be used using the "Name" specified-->
+  <Random Name="Greet">
+    <Item>Hi there!</Item>
+    <Item>Well, hello there!</Item>
+    <Item>Hi</Item>
+    <Item>Long time no see</Item>
+    <Item>Hey</Item>
+    <Item>What's up</Item>
+    <Item>How are you today?</Item>
+  </Random>
+  <!--Phrase: Defines a collection of predictive-random items that can be used using the "Name" specified-->
+  <!--Important: A Phrase element CANNOT be used within Repeat element. Refer Repetition-->
+  <Phrase Name="Greet">
+    <Item>Hi there!</Item>
+    <Item>Well, hello there!</Item>
+    <Item>Hi</Item>
+    <Item>Long time no see</Item>
+    <Item>Hey</Item>
+    <Item>What's up</Item>
+    <Item>How are you today?</Item>
+  </Phrase>
+</Siml>

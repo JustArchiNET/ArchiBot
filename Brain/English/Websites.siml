@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Websites" Type="Public" Repeat="True">
+    <Model>
+      <Pattern>DUCKDUCKGO</Pattern>
+      <Response>The safest search engine on the planet.</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUTUBE</Pattern>
+      <Response>The Video search engine.</Response>
+    </Model>
+    <Model>
+      <Pattern>GOOGLE</Pattern>
+      <Response>The search engine that tracks you.</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="IU">
+    <Model>
+      <Pattern>I *</Pattern>
+      <Response>
+        <Random>
+          <Item>Why?</Item>
+          <Item>Interesting gossip</Item>
+          <Item>That is interesting</Item>
+          <Item>That's good information</Item>
+          <Item>Thanks for the information</Item>
+          <Item>Do you mind if I tell other people</Item>
+          <Item>I haven't heard anything like that before</Item>
+        </Random>.  <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>YOU *</Pattern>
+      <Response>
+        <Random>
+          <Item>Interesting gossip</Item>
+          <Item>Thanks for telling me</Item>
+          <Item>That's good information</Item>
+          <Item>Thanks for the information</Item>
+          <Item>Do you mind if I tell other people</Item>
+          <Item>I haven't heard anything like that before</Item>
+        </Random>.  <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
+    </Model>
+  </Concept>
+</Siml>

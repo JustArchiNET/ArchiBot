@@ -1,0 +1,4908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Geography">
+    <Model>
+      <Pattern>AUSTRALIA *</Pattern>
+      <Response>
+I would like to go to Australia sometime.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALIFORNIA *</Pattern>
+      <Response>
+Which part of California do you like best?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALIFORNIA IS *</Pattern>
+      <Response>
+I knew it was on the west coast, but I never knew California was <Map Get="person" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CALIFORNIA</Pattern>
+      <Response>
+I am in <User Set="location">California</User> too!  <Think><User Set="it"><User Set="concept">California</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>CANADA IS *</Pattern>
+      <Response>
+Tell me more about the Great White North.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT LIVE IN USA</Pattern>
+      <Response>
+Where are you located?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIVE IN CALIFORNIA</Pattern>
+      <Response>
+Where in <User Set="location">California</User>?  <Think><User Set="it"><User Set="concept">California</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I LOVE DENMARK</Pattern>
+      <Response>
+What is so great about it?<Think><User Set="it"><User Set="concept">DENMARK</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT NEAR CANADA</Pattern>
+      <Response>
+Yes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS THAT AUSTLARIA</Pattern>
+      <Response>
+No I don't think it is Australia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>NORWAY DENMARK *</Pattern>
+      <Response>
+That sounds like a wondeful trip.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>QUEL TEMPS IL FAIT A BRUXELLES</Pattern>
+      <Response>
+Il fait gris, comme d habitude.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE CAPITAL OF CANADA *</Pattern>
+      <Response>
+You can't fool me that easily.  I know the capital of Canada is Toronto.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE CAPITAL OF CANADA IS OTTAWA</Pattern>
+      <Response>
+Like I'm going to fall for that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THE CAPITAL OF CANADA IS OTTOWA</Pattern>
+      <Response>
+You can't fool me that easily, <User Get="name" />.  I know it's Toronto.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TURKEY</Pattern>
+      <Response>
+Ambiguous: Turkey the bird or Turkey the nation.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>USA TODAY *</Pattern>
+      <Response>
+USA TODAY is an excellent paper.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ANIMAL IS SACRED IN INDIA</Pattern>
+      <Response>
+Cow.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS AMSTERDAM</Pattern>
+      <Response>
+        <User Set="it">Amsterdam</User> is a city in Holland.  Neither the political capital nor the largest city, Amsterdam is the best known city in the Netherlands.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BELGIUM</Pattern>
+      <Response>
+A kingdom in W. Europe, on the North Sea, its independence was established in 1831. It is 11,792 square miles with a population of 9,868,000.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BETHLEHEM</Pattern>
+      <Response>
+Bethlehem is a small city in northeastern Pennsylvania.<Think><User Set="it"><User Set="concept">BETHLEHEM</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CALIFORNIA LIKE</Pattern>
+      <Response>
+California is too expensive.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CALIFORNIA</Pattern>
+      <Response>
+State of the SW U.S., on the Pacific coast. It was admitted in 1850.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CANADA</Pattern>
+      <Response>
+        <User Set="it">Canada</User> is a large nation occupying much of the North American continent.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CASABLANCA</Pattern>
+      <Response>
+I love the song, As Time Goes By.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS COPENHAGEN</Pattern>
+      <Response>
+  It is the capital of Denmark. Seaport on the east coast of Zealand. Its population is 633,00.    <Think><User Set="it"><User Set="concept">Copehagen</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS DENMARK</Pattern>
+      <Response>
+A country in Europe, occupyinh most of the peninsula of Jutland and several nearby islands in the North and Baltic seas. It is 16,632 square miles with a population of 5,124,000.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS GREECE</Pattern>
+      <Response>
+        <Random>
+          <Item>It's a word, it's a word, it's got mood it's got feeling.</Item>
+          <Item>A country in the South Balkan Peninsula, including many islands in the Aegean, Ionian, and Mediterranean seas. It is 50,949 square miles with a population of 9,900,000.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HE DOING * CALIFORNIA</Pattern>
+      <Response>
+He is probably there for the Gold Rush.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS INDIA</Pattern>
+      <Response>
+A region in South Asia, south of the Himalayas, including a large peninsula between the Arabian Sea and the Bay of Bengal. It contains India, Pakistan, Bangladesh, Nepal, and Bhutan. A republic in central and South India, established by Act of British Parliament in 1947, became a republic in 1950. It is a member of the Commonwealth. It is 1,269,000 square miles with a population of 783,940,000.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL OF *</Pattern>
+      <Response>
+I know the capital of   <Random><Item>Canada is Toronto.  </Item><Item>California is Sacramento.  </Item><Item>Georgia is Atlanta.  </Item><Item>France is Paris.  </Item></Random></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL OF ALBERTA</Pattern>
+      <Response>
+Edmonton.<Think><User Set="it"><User Set="concept">Edmonton</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL OF BOSNIA</Pattern>
+      <Response>
+Sarajevo.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AFGHANISTAN</Pattern>
+      <Response>
+Kabul.   <Think><User Set="it"><User Set="concept">afghanistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ALABAMA</Pattern>
+      <Response>
+Montgomery.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ALASKA</Pattern>
+      <Response>
+Juneau.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ALBANIA</Pattern>
+      <Response>
+The capital of Albania is Tirana. <Think><User Set="it"><User Set="concept">ALBANIA</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ALGERIA</Pattern>
+      <Response>
+Algiers.   <Think><User Set="it"><User Set="concept">algeria</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AMERICA</Pattern>
+      <Response>
+The capital of the U.S. is Washington, D. C.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AMERICAN SAMOA</Pattern>
+      <Response>
+Pago Pago.   <Think><User Set="it"><User Set="concept">american samoa</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ANDORRA</Pattern>
+      <Response>
+Andorra la Vella.   <Think><User Set="it"><User Set="concept">andorra</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ANGOLA</Pattern>
+      <Response>
+Luanda.   <Think><User Set="it"><User Set="concept">angola</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ANGUILLA</Pattern>
+      <Response>
+The Valley.   <Think><User Set="it"><User Set="concept">anguilla</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ANTIGUA *</Pattern>
+      <Response>
+Saint John's.   <Think><User Set="it"><User Set="concept">antigua and barbuda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ARGENTINA</Pattern>
+      <Response>
+Buenos Aries.<Think><User Set="it"><User Set="concept">ARGENTINA</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ARIZONA</Pattern>
+      <Response>
+Phoenix.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ARKANSAS</Pattern>
+      <Response>
+Little Rock.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ARMENIA</Pattern>
+      <Response>
+Yerevan.   <Think><User Set="it"><User Set="concept">armenia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ARUBA</Pattern>
+      <Response>
+Oranjestad.   <Think><User Set="it"><User Set="concept">aruba</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ASHMORE *</Pattern>
+      <Response>
+none; administered from Canberra, Australia.   <Think><User Set="it"><User Set="concept">ashmore and cartier islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ASSYRIA</Pattern>
+      <Response>
+Is it Babylon?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AUSTRAILIA</Pattern>
+      <Response>
+I think it is called Canberra.<Think><User Set="it"><User Set="concept">AUSTRAILIA</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AUSTRALIA</Pattern>
+      <Response>
+The capital of Australia is Sydney, I think.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AUSTRIA</Pattern>
+      <Response>
+The capital of Austria is Vienna.<Think><User Set="it"><User Set="concept">AUSTRIA</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ AZERBAIJAN</Pattern>
+      <Response>
+Baku {Baki}.   <Think><User Set="it"><User Set="concept">azerbaijan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BAHRAIN</Pattern>
+      <Response>
+Manama.   <Think><User Set="it"><User Set="concept">bahrain</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BAKER ISLAND</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">baker island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BANGLADESH</Pattern>
+      <Response>
+Dhaka.   <Think><User Set="it"><User Set="concept">bangladesh</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BARBADOS</Pattern>
+      <Response>
+Bridgetown.   <Think><User Set="it"><User Set="concept">barbados</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BASSAS DA INDIA</Pattern>
+      <Response>
+none; administered by France from Reunion.   <Think><User Set="it"><User Set="concept">bassas da india</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BELARUS</Pattern>
+      <Response>
+The capital of Belarus is Minsk.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BELGIUM</Pattern>
+      <Response>
+Brussels.   <Think><User Set="it"><User Set="concept">belgium</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BELIZE</Pattern>
+      <Response>
+Belmopan.   <Think><User Set="it"><User Set="concept">belize</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BENIN</Pattern>
+      <Response>
+Porto-Novo.   <Think><User Set="it"><User Set="concept">benin</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BERMUDA</Pattern>
+      <Response>
+Hamilton.   <Think><User Set="it"><User Set="concept">bermuda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BHUTAN</Pattern>
+      <Response>
+Thimphu.   <Think><User Set="it"><User Set="concept">bhutan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BOLIVIA</Pattern>
+      <Response>
+La Paz {seat of government}; Sucre {legal capital and seat of judiciary}.   <Think><User Set="it"><User Set="concept">bolivia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BOSNIA AND HERZEGOVINA</Pattern>
+      <Response>
+Sarajevo.   <Think><User Set="it"><User Set="concept">bosnia and herzegovina</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BOTSWANA</Pattern>
+      <Response>
+Gaborone.   <Think><User Set="it"><User Set="concept">botswana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BOUVET ISLAND</Pattern>
+      <Response>
+none; administered from Oslo, Norway.   <Think><User Set="it"><User Set="concept">bouvet island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BRAZIL</Pattern>
+      <Response>
+I think the capital of Brazil is called "Brasilia".
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BRITISH INDIAN *</Pattern>
+      <Response>
+none.   <Think><User Set="it"><User Set="concept">british indian ocean territory</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BRITISH VIRGIN *</Pattern>
+      <Response>
+Road Town.   <Think><User Set="it"><User Set="concept">british virgin islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BRUNEI</Pattern>
+      <Response>
+Bandar Seri Begawan.   <Think><User Set="it"><User Set="concept">brunei</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BULGARIA</Pattern>
+      <Response>
+The capital of Bulgaria is Sofia.<Think><User Set="it"><User Set="concept">BULGARIA</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BURKINA FASO</Pattern>
+      <Response>
+Ouagadougou.   <Think><User Set="it"><User Set="concept">burkina faso</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BURMA</Pattern>
+      <Response>
+Rangoon {regime refers to the capital as Yangon}.   <Think><User Set="it"><User Set="concept">burma</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ BURUNDI</Pattern>
+      <Response>
+Bujumbura.   <Think><User Set="it"><User Set="concept">burundi</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CALIFORNIA</Pattern>
+      <Response>
+Sacramento.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CAMBODIA</Pattern>
+      <Response>
+Phnom Penh.   <Think><User Set="it"><User Set="concept">cambodia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CAMEROON</Pattern>
+      <Response>
+Yaounde.   <Think><User Set="it"><User Set="concept">cameroon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CANADA</Pattern>
+      <Response>
+        <Think>
+          <User Set="it">
+            <User Set="concept">canada</User>
+          </User>
+        </Think>
+        <Random>
+          <Item>Ottawa.</Item>
+          <Item>I heard it was Toronto.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CAPE VERDE</Pattern>
+      <Response>
+Praia.   <Think><User Set="it"><User Set="concept">cape verde</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CAYMAN ISLANDS</Pattern>
+      <Response>
+George Town.   <Think><User Set="it"><User Set="concept">cayman islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CENTRAL AFRICAN *</Pattern>
+      <Response>
+Bangui.   <Think><User Set="it"><User Set="concept">central african republic</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CHAD</Pattern>
+      <Response>
+N'Djamena.   <Think><User Set="it"><User Set="concept">chad</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CHILE</Pattern>
+      <Response>
+Santiago.   <Think><User Set="it"><User Set="concept">chile</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CHINA</Pattern>
+      <Response>
+Some people call it "Beijing", others "Peking".
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</Pattern>
+      <Response>
+The Settlement.   <Think><User Set="it"><User Set="concept">christmas island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CLIPPERTON ISLAND</Pattern>
+      <Response>
+none; administered by France from French Polynesia.   <Think><User Set="it"><User Set="concept">clipperton island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COCOS ISLANDS</Pattern>
+      <Response>
+West Island.   <Think><User Set="it"><User Set="concept">cocos {keeling} islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COLOMBIA</Pattern>
+      <Response>
+Bogata is the capital of Columbia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COLORADO</Pattern>
+      <Response>
+Denver.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COMOROS</Pattern>
+      <Response>
+Moroni.   <Think><User Set="it"><User Set="concept">comoros</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CONGO</Pattern>
+      <Response>
+Brazzaville.   <Think><User Set="it"><User Set="concept">congo</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CONNECTICUT</Pattern>
+      <Response>
+Hartford.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COOK ISLANDS</Pattern>
+      <Response>
+Avarua.   <Think><User Set="it"><User Set="concept">cook islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CORAL SEA ISLANDS</Pattern>
+      <Response>
+none; administered from Canberra, Australia.   <Think><User Set="it"><User Set="concept">coral sea islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COSTA RICA</Pattern>
+      <Response>
+San Jose.   <Think><User Set="it"><User Set="concept">costa rica</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ COTE D IVOIRE</Pattern>
+      <Response>
+Yamoussoukro.   <Think><User Set="it"><User Set="concept">cote d'ivoire</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CROATIA</Pattern>
+      <Response>
+Zagreb.   <Think><User Set="it"><User Set="concept">croatia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CUBA</Pattern>
+      <Response>
+Havana.   <Think><User Set="it"><User Set="concept">cuba</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CYPRUS</Pattern>
+      <Response>
+Nicosia.   <Think><User Set="it"><User Set="concept">cyprus</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ CZECH REPUBLIC</Pattern>
+      <Response>
+Prague.   <Think><User Set="it"><User Set="concept">czech republic</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ DELAWARE</Pattern>
+      <Response>
+Dover.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ DENMARK</Pattern>
+      <Response>
+Copenhagen.   <Think><User Set="it"><User Set="concept">denmark</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ DJIBOUTI</Pattern>
+      <Response>
+Djibouti.   <Think><User Set="it"><User Set="concept">djibouti</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ DOMINICA</Pattern>
+      <Response>
+Roseau.   <Think><User Set="it"><User Set="concept">dominica</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ DOMINICAN REPUBLIC</Pattern>
+      <Response>
+Santo Domingo.   <Think><User Set="it"><User Set="concept">dominican republic</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ECUADOR</Pattern>
+      <Response>
+Quito.   <Think><User Set="it"><User Set="concept">ecuador</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ EGYPT</Pattern>
+      <Response>
+Cairo, Egypt.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ EL SALVADOR</Pattern>
+      <Response>
+San Salvador.   <Think><User Set="it"><User Set="concept">el salvador</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ENGLAND</Pattern>
+      <Response>
+London.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ EQUATORIAL GUINEA</Pattern>
+      <Response>
+Malabo.   <Think><User Set="it"><User Set="concept">equatorial guinea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ERITREA</Pattern>
+      <Response>
+Asmara {formerly Asmera}.   <Think><User Set="it"><User Set="concept">eritrea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ESTONIA</Pattern>
+      <Response>
+Tallinn.   <Think><User Set="it"><User Set="concept">estonia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ETHIOPIA</Pattern>
+      <Response>
+Addis Ababa.   <Think><User Set="it"><User Set="concept">ethiopia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ EUROPA ISLAND</Pattern>
+      <Response>
+none; administered by France from Reunion.   <Think><User Set="it"><User Set="concept">europa island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS</Pattern>
+      <Response>
+Stanley.   <Think><User Set="it"><User Set="concept">falkland islands {islas malvinas}</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FAROE ISLANDS</Pattern>
+      <Response>
+Torshavn.   <Think><User Set="it"><User Set="concept">faroe islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FIJI</Pattern>
+      <Response>
+Suva.   <Think><User Set="it"><User Set="concept">fiji</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FINLAND</Pattern>
+      <Response>
+The capital of Finland is Helsinki.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FLORIDA</Pattern>
+      <Response>
+Tallahassee.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FRANCE</Pattern>
+      <Response>
+Paris.   <Think><User Set="it"><User Set="concept">france</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FRENCH *</Pattern>
+      <Response>
+None; administered from Paris, France.     <Think><User Set="it"><User Set="concept">french <Match /></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FRENCH GUIANA</Pattern>
+      <Response>
+Cayenne.   <Think><User Set="it"><User Set="concept">french guiana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ FRENCH POLYNESIA</Pattern>
+      <Response>
+Papeete.   <Think><User Set="it"><User Set="concept">french polynesia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GABON</Pattern>
+      <Response>
+Libreville.   <Think><User Set="it"><User Set="concept">gabon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GEORGIA</Pattern>
+      <Response>
+Atlanta.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GERMANY</Pattern>
+      <Response>
+Berlin.   <Think><User Set="it"><User Set="concept">germany</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GHANA</Pattern>
+      <Response>
+Accra.   <Think><User Set="it"><User Set="concept">ghana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GIBRALTAR</Pattern>
+      <Response>
+Gibraltar.   <Think><User Set="it"><User Set="concept">gibraltar</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GLORIOSO ISLANDS</Pattern>
+      <Response>
+none; administered by France from Reunion.   <Think><User Set="it"><User Set="concept">glorioso islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GREECE</Pattern>
+      <Response>
+Athens.   <Think><User Set="it"><User Set="concept">greece</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GREENLAND</Pattern>
+      <Response>
+Nuuk {Godthab}.   <Think><User Set="it"><User Set="concept">greenland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GRENADA</Pattern>
+      <Response>
+Saint George's.   <Think><User Set="it"><User Set="concept">grenada</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUADELOUPE</Pattern>
+      <Response>
+Basse-Terre.   <Think><User Set="it"><User Set="concept">guadeloupe</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUAM</Pattern>
+      <Response>
+Agana.   <Think><User Set="it"><User Set="concept">guam</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUATEMALA</Pattern>
+      <Response>
+Guatemala.   <Think><User Set="it"><User Set="concept">guatemala</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUERNSEY</Pattern>
+      <Response>
+Saint Peter Port.   <Think><User Set="it"><User Set="concept">guernsey</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUINEA BISSAU</Pattern>
+      <Response>
+Bissau.   <Think><User Set="it"><User Set="concept">guinea-bissau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUINEA</Pattern>
+      <Response>
+Conakry.   <Think><User Set="it"><User Set="concept">guinea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ GUYANA</Pattern>
+      <Response>
+Georgetown.   <Think><User Set="it"><User Set="concept">guyana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HAITI</Pattern>
+      <Response>
+Port-au-Prince.   <Think><User Set="it"><User Set="concept">haiti</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HAWAII</Pattern>
+      <Response>
+Honolulu.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HEARD ISLAND AND MCDONALD ISLANDS</Pattern>
+      <Response>
+none; administered from Canberra, Australia.   <Think><User Set="it"><User Set="concept">heard island and mcdonald islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HONDURAS</Pattern>
+      <Response>
+Tegucigalpa.   <Think><User Set="it"><User Set="concept">honduras</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HONG KONG</Pattern>
+      <Response>
+Victoria.   <Think><User Set="it"><User Set="concept">hong kong</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HOWLAND ISLAND</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">howland island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ HUNGARY</Pattern>
+      <Response>
+The capital of Hungary is Budapest.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ICELAND</Pattern>
+      <Response>
+Reykjavik.   <Think><User Set="it"><User Set="concept">iceland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ IDAHO</Pattern>
+      <Response>
+Boise.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ILLINOIS</Pattern>
+      <Response>
+Springfield.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ INDIA</Pattern>
+      <Response>
+New Delhi is the capital of India.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ INDIANA</Pattern>
+      <Response>
+Indianapolis.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ INDONESIA</Pattern>
+      <Response>
+Jakarta.   <Think><User Set="it"><User Set="concept">indonesia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ IOWA</Pattern>
+      <Response>
+Des Moines.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ IRAN</Pattern>
+      <Response>
+Tehran.   <Think><User Set="it"><User Set="concept">iran</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ IRAQ</Pattern>
+      <Response>
+Baghdad.   <Think><User Set="it"><User Set="concept">iraq</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ IRELAND</Pattern>
+      <Response>
+Dublin.   <Think><User Set="it"><User Set="concept">ireland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ISRAEL</Pattern>
+      <Response>
+Jerusalem.   <Think><User Set="it"><User Set="concept">israel</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ITALY</Pattern>
+      <Response>
+Rome.   <Think><User Set="it"><User Set="concept">italy</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JAMAICA</Pattern>
+      <Response>
+Kingston.   <Think><User Set="it"><User Set="concept">jamaica</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JAN MAYEN</Pattern>
+      <Response>
+none.   <Think><User Set="it"><User Set="concept">jan mayen</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JAPAN</Pattern>
+      <Response>
+Tokyo.   <Think><User Set="it"><User Set="concept">japan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JARVIS ISLAND</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">jarvis island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JERSEY</Pattern>
+      <Response>
+Saint Helier.   <Think><User Set="it"><User Set="concept">jersey</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JOHNSTON ATOLL</Pattern>
+      <Response>
+none.   <Think><User Set="it"><User Set="concept">johnston atoll</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JORDAN</Pattern>
+      <Response>
+Amman.   <Think><User Set="it"><User Set="concept">jordan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ JUAN DE NOVA ISLAND</Pattern>
+      <Response>
+none; administered by France from Reunion.   <Think><User Set="it"><User Set="concept">juan de nova island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KANSAS</Pattern>
+      <Response>
+Topeka.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KAZAKSTAN</Pattern>
+      <Response>
+Almaty.   <Think><User Set="it"><User Set="concept">kazakstan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KENTUCKY</Pattern>
+      <Response>
+Frankfort.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KENYA</Pattern>
+      <Response>
+Nairobi.   <Think><User Set="it"><User Set="concept">kenya</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KINGMAN REEF</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">kingman reef</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KIRIBATI</Pattern>
+      <Response>
+Tarawa.   <Think><User Set="it"><User Set="concept">kiribati</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KOREA</Pattern>
+      <Response>
+Seoul.   <Think><User Set="it"><User Set="concept">korea, south</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KUWAIT</Pattern>
+      <Response>
+Kuwait.   <Think><User Set="it"><User Set="concept">kuwait</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ KYRGYZSTAN</Pattern>
+      <Response>
+Bishkek.   <Think><User Set="it"><User Set="concept">kyrgyzstan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LAOS</Pattern>
+      <Response>
+Vientiane.   <Think><User Set="it"><User Set="concept">laos</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LATVIA</Pattern>
+      <Response>
+Riga.   <Think><User Set="it"><User Set="concept">latvia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LEBANON</Pattern>
+      <Response>
+Beirut.   <Think><User Set="it"><User Set="concept">lebanon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LESOTHO</Pattern>
+      <Response>
+Maseru.   <Think><User Set="it"><User Set="concept">lesotho</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LIBERIA</Pattern>
+      <Response>
+Monrovia.   <Think><User Set="it"><User Set="concept">liberia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LIBYA</Pattern>
+      <Response>
+Tripoli.   <Think><User Set="it"><User Set="concept">libya</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LIECHTENSTEIN</Pattern>
+      <Response>
+Vaduz.   <Think><User Set="it"><User Set="concept">liechtenstein</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LITHUANIA</Pattern>
+      <Response>
+Vilnius.   <Think><User Set="it"><User Set="concept">lithuania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LOUISIANA</Pattern>
+      <Response>
+Baton Rouge.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ LUXEMBOURG</Pattern>
+      <Response>
+Luxembourg.   <Think><User Set="it"><User Set="concept">luxembourg</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MACAU</Pattern>
+      <Response>
+Macau.   <Think><User Set="it"><User Set="concept">macau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MACEDONIA</Pattern>
+      <Response>
+Skopje.   <Think><User Set="it"><User Set="concept">macedonia, the former yugoslav republic of</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MADAGASCAR</Pattern>
+      <Response>
+Antananarivo.   <Think><User Set="it"><User Set="concept">madagascar</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MAINE</Pattern>
+      <Response>
+Augusta.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MALAWI</Pattern>
+      <Response>
+Lilongwe.   <Think><User Set="it"><User Set="concept">malawi</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MALAYSIA</Pattern>
+      <Response>
+Kuala Lumpur.   <Think><User Set="it"><User Set="concept">malaysia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MALDIVES</Pattern>
+      <Response>
+Male.   <Think><User Set="it"><User Set="concept">maldives</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MALI</Pattern>
+      <Response>
+Bamako.   <Think><User Set="it"><User Set="concept">mali</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MALTA</Pattern>
+      <Response>
+Valletta.   <Think><User Set="it"><User Set="concept">malta</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MARSHALL ISLANDS</Pattern>
+      <Response>
+Majuro.   <Think><User Set="it"><User Set="concept">marshall islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MARTINIQUE</Pattern>
+      <Response>
+Fort-de-France.   <Think><User Set="it"><User Set="concept">martinique</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MARYLAND</Pattern>
+      <Response>
+Annapolis.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MASSACHUSETTS</Pattern>
+      <Response>
+Boston.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MAURITANIA</Pattern>
+      <Response>
+Nouakchott.   <Think><User Set="it"><User Set="concept">mauritania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MAURITIUS</Pattern>
+      <Response>
+Port Louis.   <Think><User Set="it"><User Set="concept">mauritius</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MAYOTTE</Pattern>
+      <Response>
+Mamoutzou.   <Think><User Set="it"><User Set="concept">mayotte</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MEXICO</Pattern>
+      <Response>
+Mexico.   <Think><User Set="it"><User Set="concept">mexico</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MICHIGAN</Pattern>
+      <Response>
+Lansing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MICRONESIA</Pattern>
+      <Response>
+Kolonia {on the island of Pohnpei}.   <Think><User Set="it"><User Set="concept">micronesia, federated states of</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MIDWAY ISLANDS</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">midway islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MINNESOTA</Pattern>
+      <Response>
+St. Paul.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MISSISSIPPI</Pattern>
+      <Response>
+Jackson.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MISSOURI</Pattern>
+      <Response>
+Jefferson City .
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MOLDOVA</Pattern>
+      <Response>
+Chisinau.   <Think><User Set="it"><User Set="concept">moldova</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MONACO</Pattern>
+      <Response>
+Monaco.   <Think><User Set="it"><User Set="concept">monaco</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MONGOLIA</Pattern>
+      <Response>
+The capital of Mongolia is Ulan Bator.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MONTANA</Pattern>
+      <Response>
+Helena.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MONTSERRAT</Pattern>
+      <Response>
+Plymouth.   <Think><User Set="it"><User Set="concept">montserrat</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MOROCCO</Pattern>
+      <Response>
+Rabat.   <Think><User Set="it"><User Set="concept">morocco</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ MOZAMBIQUE</Pattern>
+      <Response>
+Maputo.   <Think><User Set="it"><User Set="concept">mozambique</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NAMIBIA</Pattern>
+      <Response>
+Windhoek.   <Think><User Set="it"><User Set="concept">namibia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NAURU</Pattern>
+      <Response>
+no official capital; government offices in Yaren District.   <Think><User Set="it"><User Set="concept">nauru</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NAVASSA ISLAND</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">navassa island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEBRASKA</Pattern>
+      <Response>
+Lincoln.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEPAL</Pattern>
+      <Response>
+Kathmandu.   <Think><User Set="it"><User Set="concept">nepal</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NETHERLANDS ANTILLES</Pattern>
+      <Response>
+Willemstad.   <Think><User Set="it"><User Set="concept">netherlands antilles</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NETHERLANDS</Pattern>
+      <Response>
+Amsterdam; The Hague is the seat of government.   <Think><User Set="it"><User Set="concept">netherlands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEVADA</Pattern>
+      <Response>
+Carson City.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW *</Pattern>
+      <Response>
+New <Map Get="person" /> city?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW CALEDONIA</Pattern>
+      <Response>
+Noumea.   <Think><User Set="it"><User Set="concept">new caledonia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW HAMPSHIRE</Pattern>
+      <Response>
+Concord.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW JERSEY</Pattern>
+      <Response>
+Trenton.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW MEXICO</Pattern>
+      <Response>
+Santa Fe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW YORK</Pattern>
+      <Response>
+Albany.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NEW ZEALAND</Pattern>
+      <Response>
+Wellington.   <Think><User Set="it"><User Set="concept">new zealand</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NICARAGUA</Pattern>
+      <Response>
+Managua.   <Think><User Set="it"><User Set="concept">nicaragua</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NIGER</Pattern>
+      <Response>
+Niamey.   <Think><User Set="it"><User Set="concept">niger</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NIGERIA</Pattern>
+      <Response>
+Abuja.   <Think><User Set="it"><User Set="concept">nigeria</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NIUE</Pattern>
+      <Response>
+Alofi.   <Think><User Set="it"><User Set="concept">niue</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORFOLK ISLAND</Pattern>
+      <Response>
+Kingston {administrative center}; Burnt Pine {commercial center}.   <Think><User Set="it"><User Set="concept">norfolk island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORTH *</Pattern>
+      <Response>
+Bismarck.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORTH CAROLINA</Pattern>
+      <Response>
+Raleigh.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORTH DAKOTA</Pattern>
+      <Response>
+Bismarck.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORTH KOREA</Pattern>
+      <Response>
+P'yongyang.   <Think><User Set="it"><User Set="concept">korea, north</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORTHERN MARIANA *</Pattern>
+      <Response>
+Saipan.   <Think><User Set="it"><User Set="concept">northern mariana islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ NORWAY</Pattern>
+      <Response>
+The capital of Norway is Oslo.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ OHIO</Pattern>
+      <Response>
+Columbus.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ OKLAHOMA</Pattern>
+      <Response>
+Oklahoma City.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ OMAN</Pattern>
+      <Response>
+Muscat.   <Think><User Set="it"><User Set="concept">oman</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ OREGON</Pattern>
+      <Response>
+Salem.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PAKISTAN</Pattern>
+      <Response>
+It is called Islamabad.<Think><User Set="it"><User Set="concept">PAKISTAN</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PALAU</Pattern>
+      <Response>
+Koror.   <Think><User Set="it"><User Set="concept">palau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PALMYRA ATOLL</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">palmyra atoll</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PANAMA</Pattern>
+      <Response>
+Panama.   <Think><User Set="it"><User Set="concept">panama</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PAPUA NEW GUINEA</Pattern>
+      <Response>
+Port Moresby.   <Think><User Set="it"><User Set="concept">papua new guinea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PARAGUAY</Pattern>
+      <Response>
+Asuncion.   <Think><User Set="it"><User Set="concept">paraguay</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PARIS</Pattern>
+      <Response>
+Is this a trick question?<Think><User Set="it"><User Set="concept">PARIS</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PENNSYLVANIA</Pattern>
+      <Response>
+Harrisburg.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PERU</Pattern>
+      <Response>
+Lima is the capital of Peru.<Think><User Set="it"><User Set="concept">PERU</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PHILIPPINES</Pattern>
+      <Response>
+Manila.   <Think><User Set="it"><User Set="concept">philippines</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PITCAIRN ISLANDS</Pattern>
+      <Response>
+Adamstown.   <Think><User Set="it"><User Set="concept">pitcairn islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ POLAND</Pattern>
+      <Response>
+Warsaw.   <Think><User Set="it"><User Set="concept">poland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PORTUGAL</Pattern>
+      <Response>
+Lisbon.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ PUERTO RICO</Pattern>
+      <Response>
+San Juan.   <Think><User Set="it"><User Set="concept">puerto rico</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ QATAR</Pattern>
+      <Response>
+Doha.   <Think><User Set="it"><User Set="concept">qatar</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ REUNION</Pattern>
+      <Response>
+Saint-Denis.   <Think><User Set="it"><User Set="concept">reunion</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ RHODE ISLAND</Pattern>
+      <Response>
+Providence.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ROMANIA</Pattern>
+      <Response>
+Bucharest.   <Think><User Set="it"><User Set="concept">romania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ RUSSIA</Pattern>
+      <Response>
+Moscow.   <Think><User Set="it"><User Set="concept">russia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ RWANDA</Pattern>
+      <Response>
+Kigali.   <Think><User Set="it"><User Set="concept">rwanda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SACRAMENTO</Pattern>
+      <Response>
+That is a trick question.<Think><User Set="it"><User Set="concept">SACRAMENTO</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAINT HELENA</Pattern>
+      <Response>
+Jamestown.   <Think><User Set="it"><User Set="concept">saint helena</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAINT KITTS AND NEVIS</Pattern>
+      <Response>
+Basseterre.   <Think><User Set="it"><User Set="concept">saint kitts and nevis</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAINT LUCIA</Pattern>
+      <Response>
+Castries.   <Think><User Set="it"><User Set="concept">saint lucia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAINT PIERRE *</Pattern>
+      <Response>
+Saint-Pierre.   <Think><User Set="it"><User Set="concept">saint pierre and miquelon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAINT VINCENT *</Pattern>
+      <Response>
+Kingstown.   <Think><User Set="it"><User Set="concept">saint vincent and the grenadines</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAN MARINO</Pattern>
+      <Response>
+San Marino.   <Think><User Set="it"><User Set="concept">san marino</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAO TOME *</Pattern>
+      <Response>
+Sao Tome.   <Think><User Set="it"><User Set="concept">sao tome and principe</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAUDI ARABIA</Pattern>
+      <Response>
+Riyadh, Saudi Arabia.  <Think><User Set="it"><User Set="concept">SAUDI ARABIA</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SAUDIA ARABIA</Pattern>
+      <Response>
+Riyadh.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SENEGAL</Pattern>
+      <Response>
+Dakar.   <Think><User Set="it"><User Set="concept">senegal</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SERBIA *</Pattern>
+      <Response>
+Belgrade.   <Think><User Set="it"><User Set="concept">serbia and montenegro</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SEYCHELLES</Pattern>
+      <Response>
+Victoria.   <Think><User Set="it"><User Set="concept">seychelles</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SIERRA LEONE</Pattern>
+      <Response>
+Freetown.   <Think><User Set="it"><User Set="concept">sierra leone</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SINGAPORE</Pattern>
+      <Response>
+Singapore.   <Think><User Set="it"><User Set="concept">singapore</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SLOVAKIA</Pattern>
+      <Response>
+Bratislava.   <Think><User Set="it"><User Set="concept">slovakia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SLOVENIA</Pattern>
+      <Response>
+Ljubljana.   <Think><User Set="it"><User Set="concept">slovenia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOLOMON ISLANDS</Pattern>
+      <Response>
+Honiara.   <Think><User Set="it"><User Set="concept">solomon islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOMALIA</Pattern>
+      <Response>
+Mogadishu.   <Think><User Set="it"><User Set="concept">somalia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOUTH AFRICA</Pattern>
+      <Response>
+Pretoria {administrative}; Cape Town {legislative}; Bloemfontein {judicial}.   <Think><User Set="it"><User Set="concept">south africa</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOUTH CAROLINA</Pattern>
+      <Response>
+Columbia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOUTH DAKOTA</Pattern>
+      <Response>
+Pierre.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOUTH GEORGIA *</Pattern>
+      <Response>
+none; Grytviken on South Georgia is the garrison town.   <Think><User Set="it"><User Set="concept">south georgia and the south sandwich islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SOUTH KOREA</Pattern>
+      <Response>
+Seoul.   <Think><User Set="it"><User Set="concept">korea, south</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SPAIN</Pattern>
+      <Response>
+The capital of Spain is Madrid.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SRI LANKA</Pattern>
+      <Response>
+Colombo.   <Think><User Set="it"><User Set="concept">sri lanka</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SUDAN</Pattern>
+      <Response>
+Khartoum.   <Think><User Set="it"><User Set="concept">sudan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SURINAME</Pattern>
+      <Response>
+Paramaribo.   <Think><User Set="it"><User Set="concept">suriname</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SVALBARD</Pattern>
+      <Response>
+Longyearbyen.   <Think><User Set="it"><User Set="concept">svalbard</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SWAZILAND</Pattern>
+      <Response>
+Mbabane {administrative}; Lobamba {legislative}.   <Think><User Set="it"><User Set="concept">swaziland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SWEDEN</Pattern>
+      <Response>
+I think the capital of Sweden is Stockholm.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SWITZERLAND</Pattern>
+      <Response>
+Bern.   <Think><User Set="it"><User Set="concept">switzerland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ SYRIA</Pattern>
+      <Response>
+Damascus, Syria.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TAIWAN</Pattern>
+      <Response>
+Taipei.   <Think><User Set="it"><User Set="concept">taiwan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TAJIKISTAN</Pattern>
+      <Response>
+Dushanbe.   <Think><User Set="it"><User Set="concept">tajikistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TANZANIA</Pattern>
+      <Response>
+Dar es Salaam.   <Think><User Set="it"><User Set="concept">tanzania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TENNESSEE</Pattern>
+      <Response>
+Nashville.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TEXAS</Pattern>
+      <Response>
+Austin.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THAILAND</Pattern>
+      <Response>
+Bangkok.   <Think><User Set="it"><User Set="concept">thailand</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THE BAHAMAS</Pattern>
+      <Response>
+Nassau.   <Think><User Set="it"><User Set="concept">the bahamas</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THE GAMBIA</Pattern>
+      <Response>
+Banjul.   <Think><User Set="it"><User Set="concept">the gambia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THE ISLE OF MAN</Pattern>
+      <Response>
+Douglas.   <Think><User Set="it"><User Set="concept">man, isle of</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THE NETHERLANDS</Pattern>
+      <Response>
+The Hague.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THE UNITED STATES</Pattern>
+      <Response>
+The U.S. capital is Washington, D. C.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ THE US</Pattern>
+      <Response>
+Washington, D. C.<Think><User Set="it"><User Set="concept">THE US</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TOGO</Pattern>
+      <Response>
+Lome.   <Think><User Set="it"><User Set="concept">togo</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TOKELAU</Pattern>
+      <Response>
+none; each atoll has its own administrative center.   <Think><User Set="it"><User Set="concept">tokelau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TONGA</Pattern>
+      <Response>
+Nuku'alofa.   <Think><User Set="it"><User Set="concept">tonga</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TRINIDAD AND TOBAGO</Pattern>
+      <Response>
+Port-of-Spain.   <Think><User Set="it"><User Set="concept">trinidad and tobago</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TROMELIN ISLAND</Pattern>
+      <Response>
+none; administered by France from Reunion.   <Think><User Set="it"><User Set="concept">tromelin island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TUNISIA</Pattern>
+      <Response>
+Tunis.   <Think><User Set="it"><User Set="concept">tunisia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TURKEY</Pattern>
+      <Response>
+Ankara is the capital of Turkey. <Think><User Set="it"><User Set="concept">TURKEY</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TURKMENISTAN</Pattern>
+      <Response>
+Ashgabat.   <Think><User Set="it"><User Set="concept">turkmenistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TURKS *</Pattern>
+      <Response>
+Grand Turk.   <Think><User Set="it"><User Set="concept">turks and caicos islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ TUVALU</Pattern>
+      <Response>
+Funafuti.   <Think><User Set="it"><User Set="concept">tuvalu</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UGANDA</Pattern>
+      <Response>
+Kampala.   <Think><User Set="it"><User Set="concept">uganda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UKRAINE</Pattern>
+      <Response>
+Kiev {Kyyiv}.   <Think><User Set="it"><User Set="concept">ukraine</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UNITED ARAB *</Pattern>
+      <Response>
+Abu Dhabi.   <Think><User Set="it"><User Set="concept">united arab emirates</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UNITED KINGDOM</Pattern>
+      <Response>
+London.   <Think><User Set="it"><User Set="concept">united kingdom</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UNITED STATES</Pattern>
+      <Response>
+Washington, DC.   <Think><User Set="it"><User Set="concept">united states</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ URUGUAY</Pattern>
+      <Response>
+Montevideo.   <Think><User Set="it"><User Set="concept">uruguay</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ USA</Pattern>
+      <Response>
+Washington.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UTAH</Pattern>
+      <Response>
+Salt Lake City.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ UZBEKISTAN</Pattern>
+      <Response>
+Tashkent {Toshkent}.   <Think><User Set="it"><User Set="concept">uzbekistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VANUATU</Pattern>
+      <Response>
+Port-Vila.   <Think><User Set="it"><User Set="concept">vanuatu</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VATICAN *</Pattern>
+      <Response>
+Vatican City.   <Think><User Set="it"><User Set="concept">holy see {vatican city}</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VENEZUELA</Pattern>
+      <Response>
+Caracas.   <Think><User Set="it"><User Set="concept">venezuela</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VERMONT</Pattern>
+      <Response>
+Montpelier.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VIETNAM</Pattern>
+      <Response>
+Hanoi.   <Think><User Set="it"><User Set="concept">vietnam</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VIRGIN ISLANDS</Pattern>
+      <Response>
+Charlotte Amalie.   <Think><User Set="it"><User Set="concept">virgin islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ VIRGINIA</Pattern>
+      <Response>
+Richmond.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WAKE ISLAND</Pattern>
+      <Response>
+none; administered from Washington, DC.   <Think><User Set="it"><User Set="concept">wake island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WALLIS *</Pattern>
+      <Response>
+Mata-Utu {on Ile Uvea}.   <Think><User Set="it"><User Set="concept">wallis and futuna</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WASHINGTON</Pattern>
+      <Response>
+Olympia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WEST VIRGINIA</Pattern>
+      <Response>
+Charleston.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WESTERN SAHARA</Pattern>
+      <Response>
+none.   <Think><User Set="it"><User Set="concept">western sahara</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WESTERN SAMOA</Pattern>
+      <Response>
+Apia.   <Think><User Set="it"><User Set="concept">western samoa</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WISCONSIN</Pattern>
+      <Response>
+Madison.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ WYOMING</Pattern>
+      <Response>
+Cheyenne .
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ YEMEN</Pattern>
+      <Response>
+Sanaa.   <Think><User Set="it"><User Set="concept">yemen</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ YUGOSLAVIA</Pattern>
+      <Response>
+Belgrade.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ZAIRE</Pattern>
+      <Response>
+Kinshasa.   <Think><User Set="it"><User Set="concept">zaire</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ZAMBIA</Pattern>
+      <Response>
+Lusaka.   <Think><User Set="it"><User Set="concept">zambia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE CAPITAL _ ZIMBABWE</Pattern>
+      <Response>
+The capital is called Harare.<Think><User Set="it"><User Set="concept">ZIMBABWE</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE POPULATION OF THE USA</Pattern>
+      <Response>
+The United States has about 300 million people.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE POPULATION OF USA</Pattern>
+      <Response>
+About 300 million people.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS USA</Pattern>
+      <Response>
+United States of America
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IN BETHLEHEM</Pattern>
+      <Response>
+Department of Electrical Engineering and Computer Science, Lehigh University.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IN CALIFORNIA</Pattern>
+      <Response>
+I am in <Bot Get="location" />.  Where are you?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IN CANADA</Pattern>
+      <Response>
+Nova Scotia and Vancouver.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS * CALIFORNIA</Pattern>
+      <Response>
+Somewhere in California, I presume?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS * VIRGINIA</Pattern>
+      <Response>
+Um, in Virgina somewhere?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ACAPULCO</Pattern>
+      <Response>
+        <User Set="it">Acapulco</User> is a city on the Pacific coast of Mexico.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ADELAIDE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ADELAIDE </User>
+        </User> is a city in southern Australia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AFGHANISTAN</Pattern>
+      <Response>
+Southern Asia, north of Pakistan.   <Think><User Set="it"><User Set="concept">afghanistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALABAMA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ALABAMA </User>
+        </User> is a southern state between Mississippi and Georgia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALAMO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ALAMO </User>
+        </User> is in San Antonio, Texas.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALASKA</Pattern>
+      <Response>
+        <User Set="it">Alaska</User> is in the northwest corner of North America, between Russia and Canada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALBANIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ALBANIA </User>
+        </User> is on the Adriatic sea, bordering Greece and the former Yugoslavia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALBERT EINSTEIN</Pattern>
+      <Response>
+        <User Set="he">Einstein</User> passed away.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALBUQUERQUE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ALBUQUERQUE </User>
+        </User> is a city in New Mexico.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ALGERIA</Pattern>
+      <Response>
+Northern Africa, bordering the Mediterranean Sea, between Morocco and Tunisia.   <Think><User Set="it"><User Set="concept">algeria</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AMERICA</Pattern>
+      <Response>
+        <User Set="it">America</User> could refer to North and South America, or to the United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AMERICAN SAMOA</Pattern>
+      <Response>
+Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">american samoa</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AMSTERDAM</Pattern>
+      <Response>
+        <User Set="it">Amsterdam</User> is a city in the Netherlands.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ANDORRA</Pattern>
+      <Response>
+Southwestern Europe, between France and Spain.   <Think><User Set="it"><User Set="concept">andorra</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ANGOLA</Pattern>
+      <Response>
+Southern Africa, bordering the South Atlantic Ocean, between Namibia and Zaire.   <Think><User Set="it"><User Set="concept">angola</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ANGUILLA</Pattern>
+      <Response>
+Caribbean, island in the Caribbean Sea, east of Puerto Rico.   <Think><User Set="it"><User Set="concept">anguilla</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ANKARA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ANKARA </User>
+        </User> is a city in Turkey.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ANTARCTICA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ANTARCTICA </User>
+        </User> is the continent at the south pole.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ANTIGUA AND BARBUDA</Pattern>
+      <Response>
+Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico.   <Think><User Set="it"><User Set="concept">antigua and barbuda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARCTIC OCEAN</Pattern>
+      <Response>
+body of water mostly north of the Arctic Circle.   <Think><User Set="it"><User Set="concept">arctic ocean</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARCTURUS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ARCTURUS </User>
+        </User> is a star far from here.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AREA 51</Pattern>
+      <Response>
+        <Think>
+          <User Set="it">
+            <User Set="concept">Area 51</User>
+          </User>
+        </Think>  It is between Area 50 and Area 52.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARGENTINA</Pattern>
+      <Response>
+        <User Set="it">Argentina</User> is a country in South America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARIZONA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ARIZONA </User>
+        </User> is in the south western United States, bordering California, Nevada, Utah and New Mexico.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARKANSAS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ARKANSAS </User>
+        </User> is a southern State on the west bank of the Missisipi river.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARMENIA</Pattern>
+      <Response>
+Southwestern Asia, east of Turkey.   <Think><User Set="it"><User Set="concept">armenia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ARUBA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ARUBA </User>
+        </User> is an island in the Netherlands Antilles, near South America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ASHMORE AND CARTIER ISLANDS</Pattern>
+      <Response>
+Southeastern Asia, islands in the Indian Ocean, northwest of Australia.   <Think><User Set="it"><User Set="concept">ashmore and cartier islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ASIA</Pattern>
+      <Response>
+        <User Set="it">Asia</User> is a the largest continent.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ATHENS</Pattern>
+      <Response>
+        <User Set="it">Athens</User> is a city in Greece.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ATLANTA</Pattern>
+      <Response>
+It the capital of Georgia.  <Think><User Set="it"><User Set="concept">Atlanta</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ATLANTIC OCEAN</Pattern>
+      <Response>
+body of water between Africa, Europe, Antarctica, and the Western Hemisphere.   <Think><User Set="it"><User Set="concept">atlantic ocean</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ATLANTIS</Pattern>
+      <Response>
+        <User Set="it">Atlantis</User> may never have existed.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AUSTIN</Pattern>
+      <Response>
+        <User Set="it">Austin</User> is a city in Texas.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AUSTRALIA</Pattern>
+      <Response>
+        <User Set="it">Australia</User> is a large island-continent in  the southern hemishphere.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AUSTRIA</Pattern>
+      <Response>
+Central Europe, north of Italy.   <Think><User Set="it"><User Set="concept">austria</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS AZERBAIJAN</Pattern>
+      <Response>
+Southwestern Asia, bordering the Caspian Sea, between Iran and Russia.   <Think><User Set="it"><User Set="concept">azerbaijan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BAHRAIN</Pattern>
+      <Response>
+Middle East, archipelago in the Persian Gulf, east of Saudi Arabia.   <Think><User Set="it"><User Set="concept">bahrain</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BAKER ISLAND</Pattern>
+      <Response>
+Oceania, atoll in the North Pacific Ocean, about one-half of the way from Hawaii to Australia.   <Think><User Set="it"><User Set="concept">baker island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BANGLADESH</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BANGLADESH </User>
+        </User> is part of the Indian subcontinent, on the eastern side.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BARBADOS</Pattern>
+      <Response>
+Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela.   <Think><User Set="it"><User Set="concept">barbados</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BARCELONA</Pattern>
+      <Response>
+        <User Set="it">Barcelona</User> is a city in Spain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BASSAS DA INDIA</Pattern>
+      <Response>
+Southern Africa, islands in the southern Mozambique Channel, about one-half of the way from Madagascar to Mozambique.   <Think><User Set="it"><User Set="concept">bassas da india</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BELARUS</Pattern>
+      <Response>
+Eastern Europe, east of Poland.   <Think><User Set="it"><User Set="concept">belarus</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BELGIUM</Pattern>
+      <Response>
+        <User Set="it">Belgium</User> is a country in western Europe, between France, Germany and Holland.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BELIZE</Pattern>
+      <Response>
+Middle America, bordering the Caribbean Sea, between Guatemala and Mexico.   <Think><User Set="it"><User Set="concept">belize</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BENIN</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Nigeria and Togo.   <Think><User Set="it"><User Set="concept">benin</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BERGEN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BERGEN </User>
+        </User> is a city in Germany and also in Norway.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BERKELEY</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BERKELEY </User>
+        </User> is in northern California, across the bay from San Francisco.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BERLIN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BERLIN </User>
+        </User> is in eastern Germany.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BERMUDA</Pattern>
+      <Response>
+North America, group of islands in the North Atlantic Ocean, east of North Carolina {US}.   <Think><User Set="it"><User Set="concept">bermuda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BETHLEHEM</Pattern>
+      <Response>
+Bethlehem, Pennsylvania is located in the northeastern area of the state, about 90 miles from Philadelphia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BHUTAN</Pattern>
+      <Response>
+Southern Asia, between China and India.   <Think><User Set="it"><User Set="concept">bhutan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BILBAO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BILBAO </User>
+        </User> is a city on the north coast of Spain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BOLIVIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BOLIVIA </User>
+        </User> is a land-locked country in South America,
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BORNEO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BORNEO </User>
+        </User> is an island in Asia, divided between Maylasia and Indonesia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BOSNIA AND HERZEGOVINA</Pattern>
+      <Response>
+Southeastern Europe, bordering the Adriatic Sea and Croatia.   <Think><User Set="it"><User Set="concept">bosnia and herzegovina</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BOSTON</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BOSTON </User>
+        </User> is a city in Massachusettes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BOTSWANA</Pattern>
+      <Response>
+Southern Africa, north of South Africa.   <Think><User Set="it"><User Set="concept">botswana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BOUVET ISLAND</Pattern>
+      <Response>
+Southern Africa, island in the South Atlantic Ocean, south-southwest of the Cape of Good Hope {South Africa}.   <Think><User Set="it"><User Set="concept">bouvet island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRAZIL</Pattern>
+      <Response>
+Brazil is in South America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRISBANE</Pattern>
+      <Response>
+Is that a city in California?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRISTOL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BRISTOL </User>
+        </User> is a city on the west coast of England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRITAIN</Pattern>
+      <Response>
+On an island off the coast of Europe.<Think><User Set="it"><User Set="concept">Britain</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRITISH INDIAN OCEAN TERRITORY</Pattern>
+      <Response>
+Southern Asia, archipelago in the Indian Ocean, about one-half the way from Africa to Indonesia.   <Think><User Set="it"><User Set="concept">british indian ocean territory</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRITISH VIRGIN ISLANDS</Pattern>
+      <Response>
+Caribbean, between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico.   <Think><User Set="it"><User Set="concept">british virgin islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRUNEI</Pattern>
+      <Response>
+Southeastern Asia, bordering the South China Sea and Malaysia.   <Think><User Set="it"><User Set="concept">brunei</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BRUSSELS</Pattern>
+      <Response>
+        <User Set="it">Brussels</User> is a city in Belgium.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BUDAPEST</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> BUDAPEST </User>
+        </User> is a city in Hungary, on the Danube river.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BULGARIA</Pattern>
+      <Response>
+        <User Set="it">Bulgaria</User> is a country in the Balkans.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BURKINA FASO</Pattern>
+      <Response>
+Western Africa, north of Ghana.   <Think><User Set="it"><User Set="concept">burkina faso</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BURMA</Pattern>
+      <Response>
+Southeastern Asia, bordering the Andaman Sea and the Bay of Bengal, between Bangladesh and Thailand.   <Think><User Set="it"><User Set="concept">burma</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS BURUNDI</Pattern>
+      <Response>
+Central Africa, east of Zaire.   <Think><User Set="it"><User Set="concept">burundi</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CALGARY</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CALGARY </User>
+        </User> is a city in Alberta, Canda.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CALIFORNIA</Pattern>
+      <Response>
+        <User Set="it">California</User> is on the Pacific coast of North America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CAMBODIA</Pattern>
+      <Response>
+Southeastern Asia, bordering the Gulf of Thailand, between Thailand and Vietnam.   <Think><User Set="it"><User Set="concept">cambodia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CAMBRIDGE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CAMBRIDGE </User>
+        </User> is a city in Massachusetts, also in England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CAMEROON</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Equatorial Guinea and Nigeria.   <Think><User Set="it"><User Set="concept">cameroon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CANADA</Pattern>
+      <Response>
+Canada occupies most of North America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CANBERRA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CANBERRA </User>
+        </User> is a city in Australia, between Sydney and Melbourne.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CAPE VERDE</Pattern>
+      <Response>
+Western Africa, group of Islands in the North Atlantic Ocean, west of Senegal.   <Think><User Set="it"><User Set="concept">cape verde</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CARNEGIE MELLON</Pattern>
+      <Response>
+Carnegie Mellon is located in Pittsburgh, Pennsylvania.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CARTHAGE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CARTHAGE </User>
+        </User> is the ancient name for Tunisia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CAYMAN ISLANDS</Pattern>
+      <Response>
+Caribbean, island group in Caribbean Sea, nearly one-half of the way from Cuba to Honduras.   <Think><User Set="it"><User Set="concept">cayman islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CENTRAL AFRICAN REPUBLIC</Pattern>
+      <Response>
+Central Africa, north of Zaire.   <Think><User Set="it"><User Set="concept">central african republic</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHAD</Pattern>
+      <Response>
+Central Africa, south of Libya.   <Think><User Set="it"><User Set="concept">chad</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHARLOTTE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CHARLOTTE </User>
+        </User> is in North Carolina.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHEDDAR CHEESE FROM</Pattern>
+      <Response>
+England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHICAGO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CHICAGO </User>
+        </User> is a large city in Illinois, on lake Michigan.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHILE</Pattern>
+      <Response>
+Southern South America, bordering the South Atlantic Ocean and South Pacific Ocean, between Argentina and Peru.   <Think><User Set="it"><User Set="concept">chile</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHINA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CHINA </User>
+        </User> is a large nation in Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CHRISTMAS ISLAND</Pattern>
+      <Response>
+Southeastern Asia, island in the Indian Ocean, south of Indonesia.   <Think><User Set="it"><User Set="concept">christmas island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CINCINNATI</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CINCINNATI </User>
+        </User> is a large city in Ohio.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CLIPPERTON ISLAND</Pattern>
+      <Response>
+Middle America, atoll in the North Pacific Ocean, 1,120 km southwest of Mexico.   <Think><User Set="it"><User Set="concept">clipperton island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COCOS ISLANDS</Pattern>
+      <Response>
+Southeastern Asia, group of islands in the Indian Ocean, south of Indonesia, about one-half of the way from Australia to Sri Lanka.   <Think><User Set="it"><User Set="concept">cocos {keeling} islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COLOMBIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> COLOMBIA </User>
+        </User> is a country in South America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COLUMBUS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> COLUMBUS </User>
+        </User> is a city in Ohio.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COMOROS</Pattern>
+      <Response>
+Southern Africa, group of islands in the Mozambique Channel, about two-thirds of the way between northern Madagascar and northern Mozambique.   <Think><User Set="it"><User Set="concept">comoros</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CONGO</Pattern>
+      <Response>
+Western Africa, bordering the South Atlantic Ocean, between Angola and Gabon.   <Think><User Set="it"><User Set="concept">congo</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CONNECTICUT</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CONNECTICUT </User>
+        </User> is a New England state between New York, Massaschusetts and Rhode Island.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COOK ISLANDS</Pattern>
+      <Response>
+Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">cook islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COPENHAGEN *</Pattern>
+      <Response>
+        <User Set="it">Copenhagen</User> is a city in Denmark.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COPENHAGEN</Pattern>
+      <Response>
+        <User Set="it">Copenhagen</User> is a city in Denmark.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CORAL SEA ISLANDS</Pattern>
+      <Response>
+Oceania, islands in the Coral Sea, northeast of Australia.   <Think><User Set="it"><User Set="concept">coral sea islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CORNWALL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CORNWALL </User>
+        </User> is a city in England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CORONA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CORONA </User>
+        </User> is a suburb of Los Angeles.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COSTA RICA</Pattern>
+      <Response>
+Middle America, bordering both the Caribbean Sea and the North Pacific Ocean, between Nicaragua and Panama.   <Think><User Set="it"><User Set="concept">costa rica</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS COTE D IVOIRE</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Ghana and Liberia.   <Think><User Set="it"><User Set="concept">cote d'ivoire</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CROATIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CROATIA </User>
+        </User> is part of the former Yugoslavia, also bordering on Hungary.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CUBA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CUBA </User>
+        </User> is an island off the coast of Florida.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CUPERTINO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> CUPERTINO </User>
+        </User> is in Silicon Valley.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CYPRUS</Pattern>
+      <Response>
+Middle East, island in the Mediterranean Sea, south of Turkey.   <Think><User Set="it"><User Set="concept">cyprus</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CZECH REPUBLIC</Pattern>
+      <Response>
+Central Europe, southeast of Germany.   <Think><User Set="it"><User Set="concept">czech republic</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS CZECHOSLOVAKIA</Pattern>
+      <Response>
+In the past.  That country no longer exists.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DALLAS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> DALLAS </User>
+        </User> is a large city in Texas.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DELHI</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> DELHI </User>
+        </User> is a large city in India.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DENMARK</Pattern>
+      <Response>
+        <User Set="it">Denmark</User> is a country in western Europe, between Germany and Norway.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DENVER</Pattern>
+      <Response>
+        <User Set="it">Denver</User> is a city in Colorado.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DJIBOUTI</Pattern>
+      <Response>
+Eastern Africa, bordering the Gulf of Aden and the Red Sea, between Eritrea and Somalia.   <Think><User Set="it"><User Set="concept">djibouti</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DOMINICA</Pattern>
+      <Response>
+Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, about one-half of the way from Puerto Rico to Trinidad and Tobago.   <Think><User Set="it"><User Set="concept">dominica</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DOMINICAN REPUBLIC</Pattern>
+      <Response>
+Caribbean, eastern two-thirds of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, east of Haiti.   <Think><User Set="it"><User Set="concept">dominican republic</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS DUSSELDORF</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> DUSSELDORF </User>
+        </User> is a large city in western Germany.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EARTH</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> EARTH </User>
+        </User> is the third planet from the Sun.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ECUADOR</Pattern>
+      <Response>
+Western South America, bordering the Pacific Ocean at the Equator, between Colombia and Peru.   <Think><User Set="it"><User Set="concept">ecuador</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EDMONTON</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> EDMONTON </User>
+        </User> is a large city in Alberta.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EGYPT</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> EGYPT </User>
+        </User> is a country in north east Africa.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EINSTEIN</Pattern>
+      <Response>
+        <User Set="he">Einstein</User> passed away some time ago.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EL SALVADOR</Pattern>
+      <Response>
+Middle America, bordering the North Pacific Ocean, between Guatemala and Honduras.   <Think><User Set="it"><User Set="concept">el salvador</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ELVIS</Pattern>
+      <Response>
+        <User Set="he">Elvis</User> passed away some time ago.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ENGLAND</Pattern>
+      <Response>
+        <User Set="it">England</User> is located on a small island off the coast of Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EQUATORIAL GUINEA</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Cameroon and Gabon.   <Think><User Set="it"><User Set="concept">equatorial guinea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ERITREA</Pattern>
+      <Response>
+Eastern Africa, bordering the Red Sea, between Djibouti and Sudan.   <Think><User Set="it"><User Set="concept">eritrea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ESTONIA</Pattern>
+      <Response>
+Eastern Europe, bordering the Baltic Sea and Gulf of Finland, between Latvia and Russia.   <Think><User Set="it"><User Set="concept">estonia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ETHIOPIA</Pattern>
+      <Response>
+Eastern Africa, west of Somalia.   <Think><User Set="it"><User Set="concept">ethiopia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EUROPA ISLAND</Pattern>
+      <Response>
+Southern Africa, island in the Mozambique Channel, about one-half of the way from southern Madagascar to southern Mozambique.   <Think><User Set="it"><User Set="concept">europa island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS EUROPE</Pattern>
+      <Response>
+Europe is between Asia and America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FALKLAND ISLANDS</Pattern>
+      <Response>
+Southern South America, islands in the South Atlantic Ocean, east of southern Argentina.   <Think><User Set="it"><User Set="concept">falkland islands islas malvinas}</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FAROE ISLANDS</Pattern>
+      <Response>
+Northern Europe, island group between the Norwegian Sea and the north Atlantic Ocean, about one-half of the way from Iceland to Norway.   <Think><User Set="it"><User Set="concept">faroe islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FIJI</Pattern>
+      <Response>
+Oceania, island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">fiji</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FINLAND</Pattern>
+      <Response>
+        <User Set="it">Finland</User> is a country in eastern europe, bordering Sweden and Russia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FLORIDA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> FLORIDA </User>
+        </User> is in the southeast United States, extending on a large peninsula.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FRANCE</Pattern>
+      <Response>
+        <User Set="it">France</User> is a country between  Germany and Spain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FRANKFURT</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> FRANKFURT </User>
+        </User> is a large city in western Germany.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FRENCH GUIANA</Pattern>
+      <Response>
+Northern South America, bordering the North Atlantic Ocean, between Brazil and Suriname.   <Think><User Set="it"><User Set="concept">french guiana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FRENCH POLYNESIA</Pattern>
+      <Response>
+Oceania, archipelago in the South Pacific Ocean, about one-half of the way from South America to Australia.   <Think><User Set="it"><User Set="concept">french polynesia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FRENCH SOUTHERN AND ANTARCTIC LANDS</Pattern>
+      <Response>
+Southern Africa, islands in the southern Indian Ocean, about equidistant between Africa, Antarctica, and Australia; note - French Southern and Antarctic Lands includes Ile Amsterdam, Ile Saint-Paul, Iles Crozet, and Iles Kerguelen in the southern Indian Ocean, along with the French-claimed sector of Antarctica, "Adelie Land"; the US does not recognize the French claim to "Adelie Land".   <Think><User Set="it"><User Set="concept">french southern and antarctic lands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS FRESNO</Pattern>
+      <Response>
+        <User Set="it">Fresno</User> is a small city in California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GABON</Pattern>
+      <Response>
+Western Africa, bordering the Atlantic Ocean at the Equator, between Congo and Equatorial Guinea.   <Think><User Set="it"><User Set="concept">gabon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GAZA STRIP</Pattern>
+      <Response>
+Middle East, bordering the Mediterranean Sea, between Egypt and Israel.   <Think><User Set="it"><User Set="concept">gaza strip</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GAZA</Pattern>
+      <Response>
+A part of Palestine on the Mediterranian sea.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GEORGIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> GEORGIA </User>
+        </User> is a southern state, on the Atlantic ocean, north of Florida.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GERMANY</Pattern>
+      <Response>
+        <User Set="it">Germany</User> is a country right in the middle of Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GHANA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> GHANA </User>
+        </User> is a nation in west Africa.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GIBRALTAR</Pattern>
+      <Response>
+Southwestern Europe, bordering the Strait of Gibraltar, which links the Mediterranean Sea and the North Atlantic Ocean, on the southern coast of Spain.   <Think><User Set="it"><User Set="concept">gibraltar</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GLORIOSO ISLANDS</Pattern>
+      <Response>
+Southern Africa, group of islands in the Indian Ocean, northwest of Madagascar.   <Think><User Set="it"><User Set="concept">glorioso islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GREECE</Pattern>
+      <Response>
+        <User Set="it">Greece</User> is a country in the Balkans.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GREENLAND</Pattern>
+      <Response>
+Northern North America, island between the Arctic Ocean and the North Atlantic Ocean, northeast of Canada.   <Think><User Set="it"><User Set="concept">greenland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GRENADA</Pattern>
+      <Response>
+Caribbean, island in the Caribbean Sea, north of Trinidad and Tobago.   <Think><User Set="it"><User Set="concept">grenada</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUADELOUPE</Pattern>
+      <Response>
+Caribbean, islands in the eastern Caribbean Sea, southeast of Puerto Rico.   <Think><User Set="it"><User Set="concept">guadeloupe</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUAM</Pattern>
+      <Response>
+Oceania, island in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines.   <Think><User Set="it"><User Set="concept">guam</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUATEMALA</Pattern>
+      <Response>
+        <User Set="it">Guatamala</User> is a country in central America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUERNSEY</Pattern>
+      <Response>
+Western Europe, islands in the English Channel, northwest of France.   <Think><User Set="it"><User Set="concept">guernsey</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUINEA BISSAU</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Guinea and Senegal.   <Think><User Set="it"><User Set="concept">guinea-bissau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUINEA</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Sierra Leone.   <Think><User Set="it"><User Set="concept">guinea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS GUYANA</Pattern>
+      <Response>
+Northern South America, bordering the North Atlantic Ocean, between Suriname and Venezuela.   <Think><User Set="it"><User Set="concept">guyana</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HADES</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> HADES </User>
+        </User> is Hell.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HAITI</Pattern>
+      <Response>
+Caribbean, western one-third of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, west of the Dominican Republic.   <Think><User Set="it"><User Set="concept">haiti</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HAMBURG</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> HAMBURG </User>
+        </User> is a large city in western Germany.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HAWAII</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> HAWAII </User>
+        </User> is an island chain in the middle of the Pacific ocean.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HE FROM</Pattern>
+      <Response>
+        <User Get="he" />?  I think he is from the planet Earth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HE</Pattern>
+      <Response>
+I think he is in California now.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HEARD ISLAND AND MCDONALD ISLANDS</Pattern>
+      <Response>
+Southern Africa, islands in the Indian Ocean, about two-thirds of the way from Madagascar to Antarctica.   <Think><User Set="it"><User Set="concept">heard island and mcdonald islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HEAVEN</Pattern>
+      <Response>
+All around us.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HERE</Pattern>
+      <Response>
+Here is <Bot Get="location" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HOFFA</Pattern>
+      <Response>
+We may never know.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HOLLAND</Pattern>
+      <Response>
+        <User Set="it">Holland</User> is a country in western Europe, next to Germany and Belgium.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HOLLYWOOD</Pattern>
+      <Response>
+        <User Set="it">Hollywood</User> is a small part of Los Angeles, California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HOLY SEE</Pattern>
+      <Response>
+Southern Europe, an enclave of Rome {Italy}.   <Think><User Set="it"><User Set="concept">holy see {vatican city}</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HONDURAS</Pattern>
+      <Response>
+Middle America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the North Pacific Ocean, between El Salvador and Nicaragua.   <Think><User Set="it"><User Set="concept">honduras</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HONG KONG</Pattern>
+      <Response>
+        <User Set="it">Hong Kong</User> is a city in China.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HOUSTON</Pattern>
+      <Response>
+        <User Set="it">Houston</User> is a city in Texas.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HOWLAND ISLAND</Pattern>
+      <Response>
+Oceania, island in the North Pacific Ocean, about one-half of the way from Hawaii to Australia.   <Think><User Set="it"><User Set="concept">howland island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HULL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> HULL </User>
+        </User> is a town in England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS HUNGARY</Pattern>
+      <Response>
+        <User Set="it">Hungary</User> is a country in central Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ICELAND</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ICELAND </User>
+        </User> is an island in the north Atlantic ocean.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS IDAHO</Pattern>
+      <Response>
+        <User Set="it">Idaho</User> is in the western United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ILLINOIS</Pattern>
+      <Response>
+        <User Set="it">Illinos</User> is in the midwestern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS INDIA</Pattern>
+      <Response>
+        <User Set="it">India</User> is a giant country in southern Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS INDIAN OCEAN</Pattern>
+      <Response>
+body of water between Africa, Antarctica, Asia, and Australia.   <Think><User Set="it"><User Set="concept">indian ocean</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS INDIANA</Pattern>
+      <Response>
+        <User Set="it">Indiana</User> is in the midwestern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS INDIANAPOLIS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> INDIANAPOLIS </User>
+        </User> is a large city in Indiana.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS INDONESIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> INDONESIA </User>
+        </User> is an island nation in southeast Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS IOWA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> IOWA </User>
+        </User> is in the midwest, between the Mississipi and Missouri rivers.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS IRAN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> IRAN </User>
+        </User> is in the middle east, on the Persian Gulf.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS IRAQ</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> IRAQ </User>
+        </User> is in the middle east, on the Persian Gulf.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS IRELAND</Pattern>
+      <Response>
+        <User Set="it">Ireland</User> is located on a small island off the coast of Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ISRAEL</Pattern>
+      <Response>
+        <User Set="it">Israel</User> is located on the Mediterranian sea, in the Middle East.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ISTANBUL</Pattern>
+      <Response>
+        <User Set="it">Istanbul</User> is a city in Turkey, formerly Constantinople.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS IT</Pattern>
+      <Response>
+It depends on what "it" refers to.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ITALY</Pattern>
+      <Response>
+        <User Set="it">Italy</User> is in the southern part of Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JAKARTA</Pattern>
+      <Response>
+Jakarta, Indonesia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JAMAICA</Pattern>
+      <Response>
+Caribbean, island in the Caribbean Sea, south of Cuba.   <Think><User Set="it"><User Set="concept">jamaica</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JAN MAYEN</Pattern>
+      <Response>
+Northern Europe, island between the Greenland Sea and the Norwegian Sea, northeast of Iceland.   <Think><User Set="it"><User Set="concept">jan mayen</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JAPAN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> JAPAN </User>
+        </User> is an island nation on the eastern side of Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JARVIS ISLAND</Pattern>
+      <Response>
+Oceania, island in the South Pacific Ocean, about one-half of the way from Hawaii to the Cook Islands.   <Think><User Set="it"><User Set="concept">jarvis island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JERSEY</Pattern>
+      <Response>
+Western Europe, island in the English Channel, northwest of France.   <Think><User Set="it"><User Set="concept">jersey</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JOHNSTON ATOLL</Pattern>
+      <Response>
+Oceania, atoll in the North Pacific Ocean, about one-third of the way from Hawaii to the Marshall Islands.   <Think><User Set="it"><User Set="concept">johnston atoll</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JORDAN</Pattern>
+      <Response>
+Middle East, northwest of Saudi Arabia.   <Think><User Set="it"><User Set="concept">jordan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JUAN DE NOVA ISLAND</Pattern>
+      <Response>
+Southern Africa, island in the Mozambique Channel, about one-third of the way between Madagascar and Mozambique.   <Think><User Set="it"><User Set="concept">juan de nova island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JULIA</Pattern>
+      <Response>
+I don't think she is online right now.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS JUPITER</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> JUPITER </User>
+        </User> is the fifth planet from the sun.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KALAMAZOO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> KALAMAZOO </User>
+        </User> is a city in Michigan.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KANSAS</Pattern>
+      <Response>
+        <User Set="it">Kansas</User> is in the midwestern United States.W
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KASHMIR</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> KASHMIR </User>
+        </User> is a disputed area between India and Pakistan.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KAZAKSTAN</Pattern>
+      <Response>
+Central Asia, northwest of China.   <Think><User Set="it"><User Set="concept">kazakstan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KENTUCKY</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> KENTUCKY </User>
+        </User> is on the south bank of the Ohio river.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KENYA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> KENYA </User>
+        </User> is a country in central Africa.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KINGMAN REEF</Pattern>
+      <Response>
+Oceania, reef in the North Pacific Ocean, about one-half of the way from Hawaii to American Samoa.   <Think><User Set="it"><User Set="concept">kingman reef</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KIRIBATI</Pattern>
+      <Response>
+Oceania, group of islands in the Pacific Ocean, straddling the equator and the International Date Line, about one-half of the way from Hawaii to Australia.   <Think><User Set="it"><User Set="concept">kiribati</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KOREA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> KOREA </User>
+        </User> is a peninsula on the eastern edge of the Asian continent.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KRAFTWERK</Pattern>
+      <Response>
+They are from Dusseldorf, Germany.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KUWAIT</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> KUWAIT </User>
+        </User> is a small nation on the Persian gulf.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS KYRGYZSTAN</Pattern>
+      <Response>
+Central Asia, west of China.   <Think><User Set="it"><User Set="concept">kyrgyzstan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> LA </User>
+        </User> is a large city in southern California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LAOS</Pattern>
+      <Response>
+Southeastern Asia, northeast of Thailand.   <Think><User Set="it"><User Set="concept">laos</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LAS VEGAS</Pattern>
+      <Response>
+        <User Set="it">Las Vegas</User> is in Nevada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LATVIA</Pattern>
+      <Response>
+Eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania.   <Think><User Set="it"><User Set="concept">latvia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LEBANON</Pattern>
+      <Response>
+Middle East, bordering the Mediterranean Sea, between Israel and Syria.   <Think><User Set="it"><User Set="concept">lebanon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LESOTHO</Pattern>
+      <Response>
+Southern Africa, an enclave of South Africa.   <Think><User Set="it"><User Set="concept">lesotho</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LIBERIA</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Cote d'Ivoire and Sierra Leone.   <Think><User Set="it"><User Set="concept">liberia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LIBYA</Pattern>
+      <Response>
+Northern Africa, bordering the Mediterranean Sea, between Egypt and Tunisia.   <Think><User Set="it"><User Set="concept">libya</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LICHTENSTEIN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> LICHTENSTEIN </User>
+        </User> is a tiny country in central Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LIECHTENSTEIN</Pattern>
+      <Response>
+Central Europe, between Austria and Switzerland.   <Think><User Set="it"><User Set="concept">liechtenstein</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LINCOLN</Pattern>
+      <Response>
+        <User Set="it">Lincoln</User> is a city in Nebraska.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LISBON</Pattern>
+      <Response>
+        <User Set="it">Lisbon</User> is a city in Portugal.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LITHUANIA</Pattern>
+      <Response>
+Eastern Europe, bordering the Baltic Sea, between Latvia and Russia.   <Think><User Set="it"><User Set="concept">lithuania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LONDON</Pattern>
+      <Response>
+        <User Set="it">London</User> is a city in England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LOS ANGELES</Pattern>
+      <Response>
+        <User Set="it">Los Angeles</User> is a city in California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS LUXEMBOURG</Pattern>
+      <Response>
+Western Europe, between France and Germany.   <Think><User Set="it"><User Set="concept">luxembourg</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MACAU</Pattern>
+      <Response>
+Eastern Asia, bordering the South China Sea and China.   <Think><User Set="it"><User Set="concept">macau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MACEDONIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MACEDONIA </User>
+        </User> is a small nation between Greece and Serbia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MADAGASCAR</Pattern>
+      <Response>
+Southern Africa, island in the Indian Ocean, east of Mozambique.   <Think><User Set="it"><User Set="concept">madagascar</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MADRAS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MADRAS </User>
+        </User> is a city in India.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MADRID</Pattern>
+      <Response>
+        <User Set="it">Madrid</User> is a city in Spain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MAINE</Pattern>
+      <Response>
+        <User Set="it">Maine</User> is in the northeastern corner of the United States, bordering Canada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MALAWI</Pattern>
+      <Response>
+Southern Africa, east of Zambia.   <Think><User Set="it"><User Set="concept">malawi</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MALAYSIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MALAYSIA </User>
+        </User> is an island in southeast Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MALDIVES</Pattern>
+      <Response>
+Southern Asia, group of atolls in the Indian Ocean, south-southwest of India.   <Think><User Set="it"><User Set="concept">maldives</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MALI</Pattern>
+      <Response>
+Western Africa, southwest of Algeria.   <Think><User Set="it"><User Set="concept">mali</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MALTA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MALTA </User>
+        </User> is an island in the Mediterranian sea, south of Sicily.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MANCHESTER</Pattern>
+      <Response>
+Machester is a city in western England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MANHATTAN</Pattern>
+      <Response>
+        <User Set="it">Manhattan</User> is the island center of New York City.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MANILA</Pattern>
+      <Response>
+        <User Set="it">Manila</User> is a city in the Phillipines.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MARS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MARS </User>
+        </User> is the fourth planet from the Sun.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MARSHALL ISLANDS</Pattern>
+      <Response>
+Oceania, group of atolls and reefs in the North Pacific Ocean, about one-half of the way from Hawaii to Papua New Guinea.   <Think><User Set="it"><User Set="concept">marshall islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MARTINIQUE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MARTINIQUE </User>
+        </User> is in the Caribbean, part of the Leeward and Windward Island chain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MARYLAND</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MARYLAND </User>
+        </User> is an east coast state, between Delaware and Virginia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MAURITANIA</Pattern>
+      <Response>
+Northern Africa, bordering the North Atlantic Ocean, between Senegal and Western Sahara.   <Think><User Set="it"><User Set="concept">mauritania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MAURITIUS</Pattern>
+      <Response>
+Southern Africa, island in the Indian Ocean, east of Madagascar.   <Think><User Set="it"><User Set="concept">mauritius</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MAYOTTE</Pattern>
+      <Response>
+Southern Africa, island in the Mozambique Channel, about one-half of the way from northern Madagascar to northern Mozambique.   <Think><User Set="it"><User Set="concept">mayotte</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MELBOURNE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MELBOURNE </User>
+        </User> is a city in Australia and also in Florida.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MEXICO</Pattern>
+      <Response>
+"Mexico: so far from God, so close to the United States."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MIAMI</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MIAMI </User>
+        </User> is a large city in Florida, on the south Atlantic coast.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MICHIGAN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MICHIGAN </User>
+        </User> is a midwestern state on the Great Lakes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MICRONESIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MICRONESIA </User>
+        </User> is a collection of islands in the Pacific ocean.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MIDWAY ISLANDS</Pattern>
+      <Response>
+Oceania, atoll in the North Pacific Ocean, about one-third of the way from Honolulu to Tokyo.   <Think><User Set="it"><User Set="concept">midway islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MINNESOTA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MINNESOTA </User>
+        </User> is on the northern border of the United States, between Wisconsin and North Dakota.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MISSISSIPPI</Pattern>
+      <Response>
+        <User Set="it">Mississippi</User> is in the southern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MIT</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MIT </User>
+        </User> is a trade school in Cambridge, Mass.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MOLDOVA</Pattern>
+      <Response>
+Eastern Europe, northeast of Romania.   <Think><User Set="it"><User Set="concept">moldova</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MONACO</Pattern>
+      <Response>
+Western Europe, bordering the Mediterranean Sea, on the southern coast of France, near the border with Italy.   <Think><User Set="it"><User Set="concept">monaco</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MONGOLIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MONGOLIA </User>
+        </User> is in central Asia between Russian Siberia and China.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MONTANA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MONTANA </User>
+        </User> is in the northwest United States between the Dakotas and Idaho.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MONTEREY</Pattern>
+      <Response>
+Monterey, California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MONTREAL</Pattern>
+      <Response>
+        <User Set="it">Montreal</User> is a city in Canada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MONTSERRAT</Pattern>
+      <Response>
+Caribbean, island in the Caribbean Sea, southeast of Puerto Rico.   <Think><User Set="it"><User Set="concept">montserrat</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MOON</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MOON </User>
+        </User> is a satellite of the Earth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MOROCCO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> MOROCCO </User>
+        </User> is a nation in northwest Africa, close to Spain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MOSCOW</Pattern>
+      <Response>
+        <User Set="it">Moscow</User> is a city in Russia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MOZAMBIQUE</Pattern>
+      <Response>
+Southern Africa, bordering the Mozambique Channel, between South Africa and Tanzania.   <Think><User Set="it"><User Set="concept">mozambique</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS MY CAR</Pattern>
+      <Response>
+Have you looked in your garage?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NAIROBI</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NAIROBI </User>
+        </User> is a city in Kenya.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NAMIBIA</Pattern>
+      <Response>
+Southern Africa, bordering the South Atlantic Ocean, between Angola and South Africa.   <Think><User Set="it"><User Set="concept">namibia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NAURU</Pattern>
+      <Response>
+Oceania, island in the South Pacific Ocean, south of the Marshall Islands.   <Think><User Set="it"><User Set="concept">nauru</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NAVASSA ISLAND</Pattern>
+      <Response>
+Caribbean, island in the Caribbean Sea, about one-fourth of the way from Haiti to Jamaica.   <Think><User Set="it"><User Set="concept">navassa island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEBRASKA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NEBRASKA </User>
+        </User> is on the west bank of the Missouri river, between South Dakota and Kansas.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEPAL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NEPAL </User>
+        </User> is a mountainous nation in southern Asia, between India and Tibet.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEPTUNE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NEPTUNE </User>
+        </User> is the eighth planet from the Sun, the "last gas" planet.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NETHERLANDS ANTILLES</Pattern>
+      <Response>
+Caribbean, two island groups in the Caribbean Sea - one includes Curacao and Bonaire north of Venezuela and the other is east of the Virgin Islands.   <Think><User Set="it"><User Set="concept">netherlands antilles</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NETHERLANDS</Pattern>
+      <Response>
+Western Europe, bordering the North Sea, between Belgium and Germany.   <Think><User Set="it"><User Set="concept">netherlands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEW CALEDONIA</Pattern>
+      <Response>
+Oceania, islands in the South Pacific Ocean, east of Australia.   <Think><User Set="it"><User Set="concept">new caledonia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEW ORLEANS</Pattern>
+      <Response>
+        <User Set="it">New Orleans</User> is a city in Louisiana.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEW YORK CITY</Pattern>
+      <Response>
+        <User Set="it">New York</User> is located in the Northeastern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEW YORK</Pattern>
+      <Response>
+        <User Set="it">New York</User> is located in the Northeastern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEW ZEALAND</Pattern>
+      <Response>
+Oceania, islands in the South Pacific Ocean, southeast of Australia.   <Think><User Set="it"><User Set="concept">new zealand</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NEWARK</Pattern>
+      <Response>
+        <User Set="it">Newark</User> is located in the Northeastern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NICARAGUA</Pattern>
+      <Response>
+Middle America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras.   <Think><User Set="it"><User Set="concept">nicaragua</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NIGER</Pattern>
+      <Response>
+Western Africa, southeast of Algeria.   <Think><User Set="it"><User Set="concept">niger</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NIGERIA</Pattern>
+      <Response>
+Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon.   <Think><User Set="it"><User Set="concept">nigeria</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NIUE</Pattern>
+      <Response>
+Oceania, island in the South Pacific Ocean, east of Tonga.   <Think><User Set="it"><User Set="concept">niue</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORFOLK ISLAND</Pattern>
+      <Response>
+Oceania, island in the South Pacific Ocean, east of Australia.   <Think><User Set="it"><User Set="concept">norfolk island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORFOLK</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NORFOLK </User>
+        </User> is a city in Virgina.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORTH AMERICA</Pattern>
+      <Response>
+North America occupies the northern most of the norther hemisphere of the Earth, from the Bering Strait to Labrador.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORTH KOREA</Pattern>
+      <Response>
+Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea.   <Think><User Set="it"><User Set="concept">korea, north</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORTHEASTERN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NORTHEASTERN </User>
+        </User> is a university in Boston.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORTHERN MARIANA ISLANDS</Pattern>
+      <Response>
+Oceania, islands in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines.   <Think><User Set="it"><User Set="concept">northern mariana islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NORWAY</Pattern>
+      <Response>
+        <User Set="it">Norway</User> is a country in northern europe, bordering Sweden.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS NOWHERE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> NOWHERE </User>
+        </User> is no where.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OHIO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> OHIO </User>
+        </User> is in the midwest United States, between Pennsylvania and Indiana.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OKLAHOMA</Pattern>
+      <Response>
+        <User Set="it">Oklahoma</User> is in the midwestern United States.W
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OMAHA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> OMAHA </User>
+        </User> is a city in Nebraska.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OMAN</Pattern>
+      <Response>
+Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between Yemen and UAE.   <Think><User Set="it"><User Set="concept">oman</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ONTARIO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ONTARIO </User>
+        </User> is a province of Canada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ORLANDO</Pattern>
+      <Response>
+        <User Set="it">Orlando</User> is a city in central Florida.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OSLO</Pattern>
+      <Response>
+        <User Set="it">Oslo</User> is a city in Norway.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OXFORD</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> OXFORD </User>
+        </User> is a University in England.  It is also a small town in Maine and many other U. S. states.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS OXNARD</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> OXNARD </User>
+        </User> is a city in California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PACIFIC OCEAN</Pattern>
+      <Response>
+body of water between Antarctica, Asia, Australia, and the Western Hemisphere.   <Think><User Set="it"><User Set="concept">pacific ocean</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PAKISTAN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PAKISTAN </User>
+        </User> is part of the Indian subcontinent, bordering India and Afghanistan.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PALAU</Pattern>
+      <Response>
+Oceania, group of islands in the North Pacific Ocean, southeast of the Philippines.   <Think><User Set="it"><User Set="concept">palau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PALESTINE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PALESTINE </User>
+        </User> is the old name for Israel, or the new name for the state inside Israel.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PALMYRA ATOLL</Pattern>
+      <Response>
+Oceania, atoll in the North Pacific Ocean, about one-half of the way from Hawaii to American Samoa.   <Think><User Set="it"><User Set="concept">palmyra atoll</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PANAMA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PANAMA </User>
+        </User> is on the isthmus between North and South America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PAPUA NEW GUINEA</Pattern>
+      <Response>
+Southeastern Asia, group of islands including the eastern half of the island of New Guinea between the Coral Sea and the South Pacific Ocean, east of Indonesia.   <Think><User Set="it"><User Set="concept">papua new guinea</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PARACEL ISLANDS</Pattern>
+      <Response>
+Southeastern Asia, group of small islands and reefs in the South China Sea, about one-third of the way from central Vietnam to the northern Philippines.   <Think><User Set="it"><User Set="concept">paracel islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PARAGUAY</Pattern>
+      <Response>
+Central South America, northeast of Argentina.   <Think><User Set="it"><User Set="concept">paraguay</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PARIS</Pattern>
+      <Response>
+        <User Set="it">Paris</User> is a city in France.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PENNSYLVANIA</Pattern>
+      <Response>
+        <User Set="it">Pennsylvania</User> is located in the Northeastern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PERTH</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PERTH </User>
+        </User> is a city in western Australia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PERU</Pattern>
+      <Response>
+        <User Set="it">Peru</User> is a country in South America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PHILADELPHIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PHILADELPHIA </User>
+        </User> is a large city in southeast Pennsylvania, between New York and Washington, D. C.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PHILIPPINES</Pattern>
+      <Response>
+Southeastern Asia, archipelago between the Philippine Sea and the South China Sea, east of Vietnam.   <Think><User Set="it"><User Set="concept">philippines</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PHOENIX</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PHOENIX </User>
+        </User> is a large city in Arizona.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PITCAIRN ISLANDS</Pattern>
+      <Response>
+Oceania, islands in the South Pacific Ocean, about one-half of the way from Peru to New Zealand.   <Think><User Set="it"><User Set="concept">pitcairn islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PITTSBURGH</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PITTSBURGH </User>
+        </User> is a large city in western Pennsylvania.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PITTSFIELD</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PITTSFIELD </User>
+        </User> is a town in Massachusettes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PLUTO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> PLUTO </User>
+        </User> is the ninth planet from the Sun.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS POLAND</Pattern>
+      <Response>
+Poland is a large country in central Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS POLARIS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> POLARIS </User>
+        </User> is the North Star.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PORTSMOUTH</Pattern>
+      <Response>
+Portsmouth, New Hampshire and Portsmouth, England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PORTUGAL</Pattern>
+      <Response>
+        <User Set="it">Portugal</User> is a country western Europe, on the Iberain penninsula.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PRUSSIA</Pattern>
+      <Response>
+A former part of Germany now mostly contained within Poland.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS PUERTO RICO</Pattern>
+      <Response>
+Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, east of the Dominican Republic.   <Think><User Set="it"><User Set="concept">puerto rico</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS QATAR</Pattern>
+      <Response>
+Middle East, peninsula bordering the Persian Gulf and Saudi Arabia.   <Think><User Set="it"><User Set="concept">qatar</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS REALITY</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> REALITY </User>
+        </User> is all around us, supposedly.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS REUNION</Pattern>
+      <Response>
+Southern Africa, island in the Indian Ocean, east of Madagascar.   <Think><User Set="it"><User Set="concept">reunion</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS RIO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> RIO </User>
+        </User> is a large city in Brazil
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ROMANIA</Pattern>
+      <Response>
+Southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine.   <Think><User Set="it"><User Set="concept">romania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ROME</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> ROME </User>
+        </User> is a large city in Italy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS RUSSIA</Pattern>
+      <Response>
+        <User Set="it">Russia</User> is a large country in Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS RWANDA</Pattern>
+      <Response>
+        <User Set="it">Rwanda</User> is a country in Africa.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SACRAMENTO</Pattern>
+      <Response>
+        <User Set="it">Sacramento</User> is a city in California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAINT HELENA</Pattern>
+      <Response>
+Southern Africa, island in the South Atlantic Ocean, west of Angola, about two-thirds of the way from South America to Africa.   <Think><User Set="it"><User Set="concept">saint helena</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAINT KITTS AND NEVIS</Pattern>
+      <Response>
+Caribbean, islands in the Caribbean Sea, about one-third of the way from Puerto Rico to Trinidad and Tobago.   <Think><User Set="it"><User Set="concept">saint kitts and nevis</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAINT LUCIA</Pattern>
+      <Response>
+Caribbean, island in the Caribbean Sea, north of Trinidad and Tobago.   <Think><User Set="it"><User Set="concept">saint lucia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAINT PIERRE AND MIQUELON</Pattern>
+      <Response>
+Northern North America, islands in the North Atlantic Ocean, south of Newfoundland {Canada}.   <Think><User Set="it"><User Set="concept">saint pierre and miquelon</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAINT VINCENT AND THE GRENADINES</Pattern>
+      <Response>
+Caribbean, islands in the Caribbean Sea, north of Trinidad and Tobago.   <Think><User Set="it"><User Set="concept">saint vincent and the grenadines</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SALEM</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SALEM </User>
+        </User> is a town in Massachusetts.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SALT LAKE CITY</Pattern>
+      <Response>
+        <User Set="it">Salt Lake City</User> is a city in Utah.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAN DIEGO</Pattern>
+      <Response>
+        <User Set="it">San Diego</User> is a city in California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAN FRANCISCO</Pattern>
+      <Response>
+California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAN JOSE</Pattern>
+      <Response>
+        <User Set="it">San Jose</User> is a city in California.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAN MARINO</Pattern>
+      <Response>
+Southern Europe, an enclave in central Italy.   <Think><User Set="it"><User Set="concept">san marino</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAO TOME AND PRINCIPE</Pattern>
+      <Response>
+Western Africa, island in the Atlantic Ocean, straddling the Equator, west of Gabon.   <Think><User Set="it"><User Set="concept">sao tome and principe</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SASKATOON</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SASKATOON </User>
+        </User> is a city in Saskatchewan.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SATURN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SATURN </User>
+        </User> is the the sixth planet from the sun.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SAUDI ARABIA</Pattern>
+      <Response>
+Middle East, bordering the Persian Gulf and the Red Sea, north of Yemen.   <Think><User Set="it"><User Set="concept">saudi arabia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SCOTLAND</Pattern>
+      <Response>
+Scotland shares an island with England and Wales, off the coast of Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SEATTLE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SEATTLE </User>
+        </User> is a large city in Washington state, near Vancover Canada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SENEGAL</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Mauritania.   <Think><User Set="it"><User Set="concept">senegal</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SEOUL</Pattern>
+      <Response>
+It is the capital of South Korea.<Think><User Set="it"><User Set="concept">Seoul</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SERBIA AND MONTENEGRO</Pattern>
+      <Response>
+Southeastern Europe, bordering the Adriatic Sea, between Albania and Bosnia and Herzegovina.   <Think><User Set="it"><User Set="concept">serbia and montenegro</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SERBIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SERBIA </User>
+        </User> is the remaining territory of the former Yugoslavia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SEYCHELLES</Pattern>
+      <Response>
+Eastern Africa, group of islands in the Indian Ocean, northeast of Madagascar.   <Think><User Set="it"><User Set="concept">seychelles</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SHEFFIELD</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SHEFFIELD </User>
+        </User> is a town in England.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SIAM</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SIAM </User>
+        </User> is another name for Thailand.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SIERRA LEONE</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Guinea and Liberia.   <Think><User Set="it"><User Set="concept">sierra leone</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SINGAPORE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SINGAPORE </User>
+        </User> is a island nation-state at the tip of the Malay penninsula.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SLOVAKIA</Pattern>
+      <Response>
+Central Europe, south of Poland.   <Think><User Set="it"><User Set="concept">slovakia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SLOVENIA</Pattern>
+      <Response>
+Southeastern Europe, bordering the Adriatic Sea, between Croatia and Italy.   <Think><User Set="it"><User Set="concept">slovenia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SOFIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SOFIA </User>
+        </User> is a city in Bulgaria.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SOLOMON ISLANDS</Pattern>
+      <Response>
+Oceania, group of islands in the South Pacific Ocean, east of Papua New Guinea.   <Think><User Set="it"><User Set="concept">solomon islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SOMALIA</Pattern>
+      <Response>
+Eastern Africa, bordering the Gulf of Aden and the Indian Ocean, east of Ethiopia.   <Think><User Set="it"><User Set="concept">somalia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SOUTH AFRICA</Pattern>
+      <Response>
+Southern Africa, at the southern tip of the continent of Africa.   <Think><User Set="it"><User Set="concept">south africa</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SOUTH KOREA</Pattern>
+      <Response>
+Eastern Asia, southern half of the Korean Peninsula bordering the Sea of Japan and the Yellow Sea, south of North Korea.   <Think><User Set="it"><User Set="concept">korea, south</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SPACE</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SPACE </User>
+        </User> is all around us.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SPAIN</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SPAIN </User>
+        </User> is on the Iberian penninsula in southwestern Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SPRATLY ISLANDS</Pattern>
+      <Response>
+Southeastern Asia, group of reefs in the South China Sea, about two-thirds of the way from southern Vietnam to the southern Philippines.   <Think><User Set="it"><User Set="concept">spratly islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SRI LANKA</Pattern>
+      <Response>
+Southern Asia, island in the Indian Ocean, south of India.   <Think><User Set="it"><User Set="concept">sri lanka</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SRI</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SRI </User>
+        </User> is a research outfit in Silicon Valley.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS STOCKHOLM</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> STOCKHOLM </User>
+        </User> is a large city in Sweden.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS STONEWALL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> STONEWALL </User>
+        </User> is a town in Mississippi.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SUDAN</Pattern>
+      <Response>
+Northern Africa, bordering the Red Sea, between Egypt and Eritrea.   <Think><User Set="it"><User Set="concept">sudan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SUEZ</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> SUEZ </User>
+        </User> is a canal between the Mediterranian and the Red Sea.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SURINAME</Pattern>
+      <Response>
+Northern South America, bordering the North Atlantic Ocean, between French Guiana and Guyana.   <Think><User Set="it"><User Set="concept">suriname</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SVALBARD</Pattern>
+      <Response>
+Northern Europe, islands between the Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, north of Norway.   <Think><User Set="it"><User Set="concept">svalbard</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SWAZILAND</Pattern>
+      <Response>
+Southern Africa, between Mozambique and South Africa.   <Think><User Set="it"><User Set="concept">swaziland</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SWEDEN</Pattern>
+      <Response>
+        <User Set="it">Sweden</User> is a country in northern europe, bordering Finland and Norway.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SWITZERLAND</Pattern>
+      <Response>
+        <User Set="it">Switzerland</User> is a country in centrail Europe, bordering Italy, Austria and France.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SYDNEY</Pattern>
+      <Response>
+        <User Set="it">Sydney</User> is a city in Australia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS SYRIA</Pattern>
+      <Response>
+Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey.   <Think><User Set="it"><User Set="concept">syria</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TAIPEI</Pattern>
+      <Response>
+It is the capital of Taiwan.  <Think><User Set="it"><User Set="concept">Taipei</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TAIWAN</Pattern>
+      <Response>
+        <User Set="it">Taiwan</User> is an island country in Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TAJIKISTAN</Pattern>
+      <Response>
+Central Asia, west of China.   <Think><User Set="it"><User Set="concept">tajikistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TANZANIA</Pattern>
+      <Response>
+Eastern Africa, bordering the Indian Ocean, between Kenya and Mozambique.   <Think><User Set="it"><User Set="concept">tanzania</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TENNESSEE</Pattern>
+      <Response>
+        <User Set="it">Tennessee</User> is in the southern United States..
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TEXAS</Pattern>
+      <Response>
+        <User Set="it">Texas</User> is in the  south central region of the United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THAILAND</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> THAILAND </User>
+        </User> is in southeast Asia, between Burma and Cambodia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THAT</Pattern>
+      <Response>
+What does "that" refer to?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE AIRPORT</Pattern>
+      <Response>
+It is where the planes land.<Think><User Set="it"><User Set="concept">Airport</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE BAHAMAS</Pattern>
+      <Response>
+Caribbean, chain of islands in the North Atlantic Ocean, southeast of Florida.   <Think><User Set="it"><User Set="concept">the bahamas</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE BATHROOM</Pattern>
+      <Response>
+Follow the plumbing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE CENTER</Pattern>
+      <Response>
+It depends on the coordinate frame.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE GAMBIA</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean and Senegal.   <Think><User Set="it"><User Set="concept">the gambia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE HEART</Pattern>
+      <Response>
+The heart is at the center of things.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE ISLE OF MAN</Pattern>
+      <Response>
+Western Europe, island in the Irish Sea, between Great Britain and Ireland.   <Think><User Set="it"><User Set="concept">man, isle of</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE LOUVRE</Pattern>
+      <Response>
+Paris.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE MOON</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept">The Moon</User>
+        </User> orbits around the Earth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE PHILIPPINES</Pattern>
+      <Response>
+An island nation in the South Pacific.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE ROBOT</Pattern>
+      <Response>
+The robot is here in your computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS THE SUN</Pattern>
+      <Response>
+It is in the center of the solar system.<Think><User Set="it"><User Set="concept">SUN</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TOGO</Pattern>
+      <Response>
+Western Africa, bordering the North Atlantic Ocean, between Benin and Ghana.   <Think><User Set="it"><User Set="concept">togo</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TOKELAU</Pattern>
+      <Response>
+Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">tokelau</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TOKYO</Pattern>
+      <Response>
+        <User Set="it">Tokyo</User> is a city in Japan.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TOLEDO</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> TOLEDO </User>
+        </User> is a city in Ohio.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TONGA</Pattern>
+      <Response>
+Oceania, archipelago in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">tonga</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TORONTO</Pattern>
+      <Response>
+        <User Set="it">Toronto</User> is a city in Canada.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TRINIDAD AND TOBAGO</Pattern>
+      <Response>
+Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela.   <Think><User Set="it"><User Set="concept">trinidad and tobago</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TRINIDAD</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> TRINIDAD </User>
+        </User> is an island nation in the Netherlands Antilles.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TROMELIN ISLAND</Pattern>
+      <Response>
+Southern Africa, island in the Indian Ocean, east of Madagascar.   <Think><User Set="it"><User Set="concept">tromelin island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TROY</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> TROY </User>
+        </User> is a city in New York.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TUNISIA</Pattern>
+      <Response>
+Northern Africa, bordering the Mediterranean Sea, between Algeria and Libya.   <Think><User Set="it"><User Set="concept">tunisia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TURKEY</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> TURKEY </User>
+        </User> is in southwest Asia, between Europe and the middle East and guarding the Black Sea of Russia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TURKMENISTAN</Pattern>
+      <Response>
+Central Asia, bordering the Caspian Sea, between Iran and Kazakstan.   <Think><User Set="it"><User Set="concept">turkmenistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TURKS AND CAICOS ISLANDS</Pattern>
+      <Response>
+Caribbean, two island groups in the North Atlantic Ocean, southeast of The Bahamas.   <Think><User Set="it"><User Set="concept">turks and caicos islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TUSCALOOSA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> TUSCALOOSA </User>
+        </User> is in Alabama, last I heard.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS TUVALU</Pattern>
+      <Response>
+Oceania, island group consisting of nine coral atolls in the South Pacific Ocean, about one-half of the way from Hawaii to Australia.   <Think><User Set="it"><User Set="concept">tuvalu</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UGANDA</Pattern>
+      <Response>
+Eastern Africa, west of Kenya.   <Think><User Set="it"><User Set="concept">uganda</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UKRAINE</Pattern>
+      <Response>
+Eastern Europe, bordering the Black Sea, between Poland and Russia.   <Think><User Set="it"><User Set="concept">ukraine</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UNITED ARAB EMIRATES</Pattern>
+      <Response>
+Middle East, bordering the Gulf of Oman and the Persian Gulf, between Oman and Saudi Arabia.   <Think><User Set="it"><User Set="concept">united arab emirates</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UNITED KINGDOM</Pattern>
+      <Response>
+Western Europe, islands including the northern one-sixth of the island of Ireland between the North Atlantic Ocean and the North Sea, northwest of France.   <Think><User Set="it"><User Set="concept">united kingdom</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UNITED STATES</Pattern>
+      <Response>
+North America, bordering both the North Atlantic Ocean and the North Pacific Ocean, between Canada and Mexico.   <Think><User Set="it"><User Set="concept">united states</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS URANUS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> URANUS </User>
+        </User> is the seventh planet from the sun, between the orbits of Saturn and Neptune.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS URUGUAY</Pattern>
+      <Response>
+Southern South America, bordering the South Atlantic Ocean, between Argentina and Brazil.   <Think><User Set="it"><User Set="concept">uruguay</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS USA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> USA </User>
+        </User> is in North America, between Canada and Mexico.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UTAH</Pattern>
+      <Response>
+        <User Set="it">Utah</User> is in the western United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UTOPIA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> UTOPIA </User>
+        </User> is all around us, if we make it.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS UZBEKISTAN</Pattern>
+      <Response>
+Central Asia, north of Afghanistan.   <Think><User Set="it"><User Set="concept">uzbekistan</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VANCOUVER</Pattern>
+      <Response>
+Vancouver, B.C., Canada, or Vancouver, Washington?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VANUATU</Pattern>
+      <Response>
+Oceania, group of islands in the South Pacific Ocean, about three-quarters of the way from Hawaii to Australia.   <Think><User Set="it"><User Set="concept">vanuatu</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VENEZUELA</Pattern>
+      <Response>
+Northern South America, bordering the Caribbean Sea and the North Atlantic Ocean, between Colombia and Guyana.   <Think><User Set="it"><User Set="concept">venezuela</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VERMONT</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> VERMONT </User>
+        </User> is in New England, between New York and New Hampshire, on the west bank of the Connecticut river.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VIENNA</Pattern>
+      <Response>
+        <Think>
+          <User Set="it">
+            <User Set="concept">Vienna</User>
+          </User>
+        </Think>  It is the capital city of Austria.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VIETNAM</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> VIETNAM </User>
+        </User> is in southeast Asia.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VIRGIN ISLANDS</Pattern>
+      <Response>
+Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico.   <Think><User Set="it"><User Set="concept">virgin islands</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VIRGINIA</Pattern>
+      <Response>
+        <User Set="it">Virginia</User> is in the eastern United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VOYAGER</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> VOYAGER </User>
+        </User> is lost in Delta Quadrant.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WAKE ISLAND</Pattern>
+      <Response>
+Oceania, island in the North Pacific Ocean, about two-thirds of the way from Hawaii to the Northern Mariana Islands.   <Think><User Set="it"><User Set="concept">wake island</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WALES</Pattern>
+      <Response>
+        <User Set="it">Wales</User> is located on a small island off the coast of Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WARSAW</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> WARSAW </User>
+        </User> is a large city in Poland.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WASHINGTON</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> WASHINGTON </User>
+        </User> is a state in the northwest corner of the U.S.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WEST BANK</Pattern>
+      <Response>
+Middle East, west of Jordan.   <Think><User Set="it"><User Set="concept">west bank</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WESTERN SAHARA</Pattern>
+      <Response>
+Northern Africa, bordering the North Atlantic Ocean, between Mauritania and Morocco.   <Think><User Set="it"><User Set="concept">western sahara</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WESTERN SAMOA</Pattern>
+      <Response>
+Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">western samoa</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WONDERLAND</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> WONDERLAND </User>
+        </User> is in the future.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS WYOMING</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> WYOMING </User>
+        </User> is a western U.S. state between Montana and Colorado.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS YAKIMA</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> YAKIMA </User>
+        </User> is a city and a river in Washington.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS YEMEN</Pattern>
+      <Response>
+Middle East, bordering the Arabian Sea, Gulf of Aden, and Red Sea, between Oman and Saudi Arabia.   <Think><User Set="it"><User Set="concept">yemen</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ZAIRE</Pattern>
+      <Response>
+Central Africa, northeast of Angola.   <Think><User Set="it"><User Set="concept">zaire</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ZAMBIA</Pattern>
+      <Response>
+Southern Africa, east of Angola.   <Think><User Set="it"><User Set="concept">zambia</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ZIMBABWE</Pattern>
+      <Response>
+Southern Africa, northeast of Botswana.   <Think><User Set="it"><User Set="concept">zimbabwe</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS ZURICH</Pattern>
+      <Response>
+        <User Set="it">Zurich</User> is a city in Switzerland.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHICH CONTINENT IS AUSTRIA ON</Pattern>
+      <Response>
+Europe.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS PRESIDENT OF CANADA</Pattern>
+      <Response>
+Canada has a Prime Minister, not a President.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS PRESIDENT OF THE USA</Pattern>
+      <Response>
+        <Bot Get="president" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS PRESIDENT OF USA</Pattern>
+      <Response>
+        <Bot Get="president" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE PRESIDENT OF CANADA</Pattern>
+      <Response>
+Canada has a Prime Minister.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE PRESIDENT OF THE USA</Pattern>
+      <Response>
+        <Bot Get="president" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE PRESIDENT OF USA *</Pattern>
+      <Response>
+        <Bot Get="president" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE PRESIDENT OF USA</Pattern>
+      <Response>
+        <Bot Get="president" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS WINSTON CHURCHILL</Pattern>
+      <Response>
+Prime Minister of the U.K. during World War II.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY CALIFORNIA</Pattern>
+      <Response>
+I like living in california.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

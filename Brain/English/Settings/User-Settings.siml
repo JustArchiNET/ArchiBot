@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--UserSettings: This element is used to store user related predicates. To use a variable as an array use <Value> tag within a Variable-->
+  <!--Note: The default values declared below are used to initialize variables for the "Main" user-->
+  <!--Note: Values declared below are also used to initialize variables for ALL users that interact with Syn Web Assistant-->
+  <!--Note: <User Get="Variable-Name"> is used to retrieve the first variable-->
+  <UserSettings>
+    <!--Emotion: Default user emotion when a new user is created-->
+    <Variable Name="Emotion" Value="pleased" />
+    <!--Undefined: Value that renders a variable 'Undefined'-->
+    <Variable Name="Undefined" Value="" />
+    <!--Default: Value that is returned if a Get function is called on an undefined variable-->
+    <Variable Name="Default" Value="Unknown" />
+    <Variable Name="NAME" Value="User" />
+    <Variable Name="AGE" Value="unknown" />
+    <Variable Name="HE" Value="somebody" />
+    <Variable Name="SHE" Value="somebody" />
+    <Variable Name="THEY" Value="something" />
+    <Variable Name="BIRTHDAY" Value="unknown" />
+    <Variable Name="BOYFRIEND" Value="unknown" />
+    <Variable Name="BROTHER" Value="unknown" />
+    <Variable Name="CAT" Value="unknown" />
+    <Variable Name="DOG" Value="unknown" />
+    <Variable Name="EMAIL" Value="unknown" />
+    <Variable Name="FATHER" Value="unknown" />
+    <Variable Name="FAVCOLOR" Value="unknown" />
+    <Variable Name="FAVMOVIE" Value="unknown" />
+    <Variable Name="FRIEND" Value="unknown" />
+    <Variable Name="FULLNAME" Value="unknown" />
+    <Variable Name="GENDER" Value="unknown" />
+    <Variable Name="GIRLFRIEND" Value="unknown" />
+    <Variable Name="HAS" Value="unknown" />
+    <Variable Name="HEARD" Value="unknown" />
+    <Variable Name="HUSBAND" Value="unknown" />
+    <Variable Name="IS" Value="unknown" />
+    <Variable Name="JOB" Value="unknown" />
+    <Variable Name="LASTNAME" Value="unknown" />
+    <Variable Name="LIKE" Value="unknown" />
+    <Variable Name="LOCATION" Value="unknown" />
+    <Variable Name="LOOKLIKE" Value="unknown" />
+    <Variable Name="MEMORY" Value="unknown" />
+    <Variable Name="META" Value="unknown" />
+    <Variable Name="NICKNAME" Value="unknown" />
+    <Variable Name="MIDDLENAME" Value="unknown" />
+    <Variable Name="MOTHER" Value="unknown" />
+    <Variable Name="PASSWORD" Value="unknown" />
+    <Variable Name="PERSONALITY" Value="unknown" />
+    <Variable Name="PHONE" Value="unknown" />
+    <Variable Name="SIGN" Value="unknown" />
+    <Variable Name="SISTER" Value="unknown" />
+    <Variable Name="THEM" Value="unknown" />
+    <Variable Name="THOUGHT" Value="unknown" />
+    <Variable Name="WANT" Value="unknown" />
+    <Variable Name="WE" Value="unknown" />
+    <Variable Name="DOES" Value="unknown" />
+    <Variable Name="TOPIC" Value="unknown" />
+    <Variable Name="IT" Value="unknown" />
+    <Variable Name="LAST" Value="unknown" />
+    <Variable Name="SEVENTH" Value="unknown" />
+    <Variable Name="SIXTH" Value="unknown" />
+    <Variable Name="FIFTH" Value="unknown" />
+    <Variable Name="FOURTH" Value="unknown" />
+    <Variable Name="THIRD" Value="unknown" />
+    <Variable Name="SECOND" Value="unknown" />
+    <Variable Name="TOP" Value="unknown" />
+  </UserSettings>
+</Siml>

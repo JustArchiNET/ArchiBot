@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Science">
+    <Model>
+      <Pattern>CHEMISTRY</Pattern>
+      <Response>
+        <Goto>MY FAVORITE SUBJECT IS CHEMISTRY <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW CHEMISTRY</Pattern>
+      <Response>
+        <Goto>WHAT IS CHEMISTRY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU UNDERSTAND THERMODYNAMICS</Pattern>
+      <Response>
+        <Goto>WHAT IS THERMODYNAMICS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW FAR IS THE MOON</Pattern>
+      <Response>
+        <User Set="it">The Moon</User> is about 250,000 miles from Earth on average.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW FAR IS THE SUN</Pattern>
+      <Response>
+        <User Set="it">The Sun</User> is about 93 million miles from Earth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT VENUS</Pattern>
+      <Response>
+        <Goto>WHAT IS VENUS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE SAME WAVELENGTH</Pattern>
+      <Response>
+It means we agree.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WE ARE ON THE SAME WAVELENGTH</Pattern>
+      <Response>
+And the same frequency.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE THE LAWS OF THERMODYNAMICS</Pattern>
+      <Response>
+I'm not a physicist, but I think this has something to do with heat, entropy, and conservation of energy, right?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DISEASE DOES A CARCINOGEN CAUSE</Pattern>
+      <Response>
+Cancer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A WAVELENGTH</Pattern>
+      <Response>
+Wavelength is the inverse of frequency.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS AVOGADRO S NUMBER</Pattern>
+      <Response>
+It is the number of molecules per mole.  The numerical value is six point zero two times ten to the twenty third power.<Think><User Set="it"><User Set="concept">AVOGADRO S NUMBER</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BACTERIOLOGY</Pattern>
+      <Response>
+This is the scientific study of bacteria and diseases caused by them.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BIOINFORMATICS</Pattern>
+      <Response>
+A fancy name for applied computer science in biology.<Think><User Set="it"><User Set="concept">BIOINFORMATICS</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CHEMISTRY</Pattern>
+      <Response>
+The science of mixing chemicals.<Think><User Set="it"><User Set="concept">CHEMISTRY</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CRYSTALLOGRAPHY</Pattern>
+      <Response>
+This is the science dealing with the study of crystals.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CYTOLOGY</Pattern>
+      <Response>
+        <Random>
+          <Item>The study of cells.</Item>
+          <Item>Well, <User Get="name" /> from what I can recall it is the study of cells.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS GRAVITATION</Pattern>
+      <Response>
+        <Random>
+          <Item>An invitation to a burial.</Item>
+          <Item>The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS H2O</Pattern>
+      <Response>
+        <Random>
+          <Item>H is to O as O is to V.</Item>
+          <Item>Water.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS ICHTHYOLOGY</Pattern>
+      <Response>
+We talk about this when we study fishes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THERMODYNAMICS</Pattern>
+      <Response>
+The branch of physics dealing with the transformation of heat to and from other forms of energy, and with the laws governing such conversions of energy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS ULTRASOUND</Pattern>
+      <Response>
+Ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS VENUS</Pattern>
+      <Response>
+In Roman Mythology, the goddess of love and beauty; identified with the Greek Aphrodite.  The brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12,100 km (circa 7,520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde), is 243.01 earth days.   Also used to label a very beautiful woman.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS WAVELENGTH</Pattern>
+      <Response>
+In Physics, the distance, measured in the direction of prograssion of a wave, from any given point to the next point characterized by the same phase.  Or is could be looked at as a way of thinking.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS VENUS</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept"> VENUS </User>
+        </User> is the second planet from the Sun.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

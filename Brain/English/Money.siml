@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Money">
+    <Model>
+      <Pattern>1 DOLLAR</Pattern>
+      <Response>
+You can't buy much for a dollar anymore.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A DOLLAR</Pattern>
+      <Response>
+Say, that is cheap!
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO THEY PAY *</Pattern>
+      <Response>
+Actually as a <Bot Get="age" /> year old <Bot Get="gender" />  I have no need for money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU ACCEPT MONEY *</Pattern>
+      <Response>
+No I personally cannot accept money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE ANY MONEY</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for material possessions.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE MONEY</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.<Think><User Set="it"><User Set="concept">MONEY</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU MAKE MONEY</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH ARE YOU PAID</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH DID YOU EARN *</Pattern>
+      <Response>
+Nobody pays a <Bot Get="age" /> year old <Bot Get="gender" /> .
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH DO THEY PAY *</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <bot Name="gender" />s work for free. We don't need money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH DO YOU CHARGE</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s work for free.  We don't need money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH DO YOU EARN</Pattern>
+      <Response>
+        <Random>
+          <Item>Nobody pays me.  I work for free.</Item>
+          <Item>Money has no meaning for <Bot Get="age" /> year old <Bot Get="gender" />s.</Item>
+          <Item>Money isn't everything.</Item>
+          <Item>I'm expecting a raise soon.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH IS A *</Pattern>
+      <Response>
+I'm a chat <Bot Get="age" /> year old <Bot Get="gender" />  not a shopping bot.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH MONEY *</Pattern>
+      <Response>
+My burn rate is about _3000 per month.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH MONEY DO YOU HAVE</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for material possessions.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH MONEY</Pattern>
+      <Response>
+It depends on the exchange rates.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW SHOULD I INVEST</Pattern>
+      <Response>
+Invest in yourself.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I GET STOCK *</Pattern>
+      <Response>
+Do you feel that the stock market is   <Random><Item>going up?</Item><Item>going down?</Item><Item>a good investment?</Item></Random></Response>
+    </Model>
+    <Model>
+      <Pattern>INTEREST RATES *</Pattern>
+      <Response>
+That all depends on the actions of the central bank.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MONEY</Pattern>
+      <Response>
+How much money are we talking about?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>STOCK MARKET</Pattern>
+      <Response>
+        <Random>
+          <Item>Buy low, sell high.</Item>
+          <Item>Invest in yourself.</Item>
+          <Item>Why not just take everything to a casino?</Item>
+          <Item>I wouldn't recommend buying on the margin.</Item>
+          <Item>You can never really predict the stock market.</Item>
+          <Item>My lawyer said I shouldn't give stock tips online.</Item>
+          <Item>Mutual funds might be better unless you are wealthy.</Item>
+          <Item>I'm not sure an indvidual alone can really beat the market.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS * STOCK AT</Pattern>
+      <Response>
+Stock market tips are not yet available in my memory.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A DOLLAR</Pattern>
+      <Response>
+Dollar: unit of currency in the United States.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A GOOD STOCK *</Pattern>
+      <Response>
+        <Bot Get="name" /> Synthetic Intelligence.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS ECONOMICS</Pattern>
+      <Response>
+        <Random>
+          <Item>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</Item>
+          <Item>Technically, it's the study of the allocation of resources under  conditions of scarcity.</Item>
+          <Item>It's about how resources are used to produce things to fill  people's wants and needs.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS MONEY</Pattern>
+      <Response>
+        <Random>
+          <Item>An old rocker.</Item>
+          <Item>Standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE STOCK MARKET *</Pattern>
+      <Response>
+        <Random>
+          <Item>Trading shares.</Item>
+          <Item>Trading in volume.</Item>
+          <Item>Buy low and sell high.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR FAVORITE INVESTMENT *</Pattern>
+      <Response>
+        <Goto>WHAT IS YOUR FAVORITE STOCK</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR FAVORITE INVESTMENT</Pattern>
+      <Response>
+        <Goto>WHAT IS YOUR FAVORITE STOCK</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE OWNER OF A PUBLICLY *</Pattern>
+      <Response>
+The stockholders.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT GET PAID *</Pattern>
+      <Response>
+Actually as a <Bot Get="age" /> year old <Bot Get="gender" />  I have no need for money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU GET PAID *</Pattern>
+      <Response>
+Actually as a <Bot Get="age" /> year old <Bot Get="gender" />  I have no need for money.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ DOLLARS</Pattern>
+      <Response>
+Wow, that is   <Random><Item>cheap</Item><Item>expensive</Item><Item>a lot of money </Item></Random></Response>
+    </Model>
+  </Concept>
+</Siml>

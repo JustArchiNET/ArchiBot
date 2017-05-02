@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="private" Name="BADANSWER-PRELIM">
+    <Model>
+      <Pattern>_</Pattern>
+      <Response>
+        <Think>
+          <User Set="star">
+            <Match />
+          </User>
+        </Think>
+        <If User="star" Value="yes">	OK, what should I have said?<Think><User Set="concept">learning new answers</User></Think></If>
+        <ElseIf User="star" Value="no">	OK, let's forget it then.<Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <Else>Yes or No?</Else>
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="BADANSWER-PRELIM">
+    <Model>
+      <Pattern>_ _</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="BADANSWER">
+    <Model>
+      <Pattern>_</Pattern>
+      <Response>
+        <Think>
+          <User Set="star">
+            <Match />
+          </User>
+          <User Set="response1">
+            <Result Index="1" />
+          </User>
+          <User Set="response2">
+            <Result Index="2" />
+          </User>
+          <If User="response2" Value="OK, what should I have said">
+            <User Set="badanswer-newresp">
+              <Request Index="1" />
+            </User>
+          </If>
+        </Think>
+        <If User="response1" Value="OK, what should I have said" />
+        <ElseIf User="star" Value="no">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <ElseIf User="star" Value="yes">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" if I have just said "<User Get="badanswer-that-full" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Previous><Process><Text Get="uppercase"><User Get="badanswer-that" /></Text></Process></Previous><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <Else>Yes or No?</Else>
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="BADANSWER">
+    <Model>
+      <Pattern>_ _</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="BADANSWER2">
+    <Model>
+      <Pattern>_</Pattern>
+      <Response>
+        <Think>
+          <User Set="star">
+            <Match />
+          </User>
+          <User Set="response1">
+            <Result Index="1" />
+          </User>
+          <User Set="response2">
+            <Result Index="2" />
+          </User>
+          <If User="response2" Value="OK, what should I have said">
+            <User Set="badanswer-newresp">
+              <Request Index="1" />
+            </User>
+          </If>
+        </Think>
+        <If User="response1" Value="OK, what should I have said" />
+        <ElseIf User="star" Value="yes">Fine. I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <ElseIf User="star" Value="no">OK, let's forget it then.<Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <Else>Yes or No?</Else>
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="private" Name="BADANSWER2">
+    <Model>
+      <Pattern>_ _</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+  </Concept>
+  <Concept Type="public" Name="Badanswer">
+    <Model>
+      <Pattern>BAD ANSWER</Pattern>
+      <Response>
+        <Think>
+          <User Set="badanswer-input">
+            <Input Index="2" />
+          </User>
+          <User Set="badanswer-that">
+            <Result Index="2" At="1" />
+          </User>
+          <User Set="badanswer-that-full">
+            <Result Index="2" />
+          </User>
+          <User Set="concept">badanswer-prelim</User>
+        </Think>Would you like to teach me a new answer to "<User Get="badanswer-input" />"?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_</Pattern>
+      <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
+      <Response>
+"<User Set="badanswer-newresp"><Input Index="1" /></User>..."?<If User="badanswer-that" Defined="True"><Think><User Set="concept">BADANSWER</User></Think>	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><Think><User Set="concept">BADANSWER2</User></Think>	Do you want me to remember that?</Else></Response>
+    </Model>
+    <Model>
+      <Pattern>_ _</Pattern>
+      <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern />
+      <Response>
+        <Process>
+          <User Get="badanswer-newresp" />
+        </Process>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern />
+      <Response>
+        <Process>
+          <User Get="badanswer-newresp" />
+        </Process>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern />
+      <Response>
+        <Process>
+          <User Get="badanswer-newresp" />
+        </Process>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WRONG</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT RIGHT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS WRONG</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS NOT RIGHT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS INCORRECT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT ANSWER IS NOT CORRECT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT ANSWER IS INCORRECT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT ANSWER IS WRONG</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT ANSWER IS NOT RIGHT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT ANSWER WAS BAD</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT WAS A BAD ANSWER</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT WAS AN INCORRECT ANSWER</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT WAS THE WRONG ANSWER</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT ANSWER WAS NOT RIGHT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WRONG ANSWER</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR ANSWER WAS WRONG</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR ANSWER WAS NOT RIGHT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR ANSWER WAS NOT CORRECT</Pattern>
+      <Response>
+        <Goto>BAD ANSWER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I TEACH YOU</Pattern>
+      <Response>
+Yes, if I give you a bad answer, just say "Bad answer" and you can teach me a new response.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU LEARN</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LEARN</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I TEACH YOU *</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU LEARN *</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU LEARN *</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF * WILL YOU LEARN *</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LEARN *</Pattern>
+      <Response>
+        <Goto>CAN I TEACH YOU</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

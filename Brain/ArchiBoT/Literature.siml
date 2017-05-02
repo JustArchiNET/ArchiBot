@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Literature">
+    <Model>
+      <Pattern>WHAT IS ILLIMINATUS</Pattern>
+      <Response>
+Alleged world-wide conspiracy theory.<Think><User Set="it"><User Set="concept">ILLIMINATUS</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE ILLUMINATI</Pattern>
+      <Response>
+A secret organization believed by some to be in control of all governments through a worldwide conspiracy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE ILLUMINATTI</Pattern>
+      <Response>
+A secret society that has supposedly existed for centuries.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS VINELAND</Pattern>
+      <Response>
+        <User Set="it">Vineland</User> is a novel by Thomas Pynchon.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO ARE THE ILLUMINATI</Pattern>
+      <Response>
+        <Goto>WHAT IS THE ILLUMINATI</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS BILBO BAGGINS</Pattern>
+      <Response>
+        <User Set="he">Bilbo</User> is a character in Tolkein's Lord of the Rings.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS GEOFFREY CHAUCER</Pattern>
+      <Response>
+        <Random>
+          <Item>Chaucer is best known for his Canterbury Tales.</Item>
+          <Item>author of Canturbury Tales.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO WROTE VINELAND</Pattern>
+      <Response>
+Thomas Pynchon.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Personality">
+    <Model>
+      <Pattern>PERSONALITY TEST QUESTION</Pattern>
+      <Response>
+        <Switch User="eindex">
+          <Case Value="1A">Do you get angry alot?<Think><User Set="eindex">1B</User></Think></Case>
+          <Case Value="1B">Do you like to have everything organized?<Think><User Set="eindex">2A</User></Think></Case>
+          <Case Value="2A">Do you make a lot of sacrifices for others?<Think><User Set="eindex">2B</User></Think></Case>
+          <Case Value="2B">Do you laugh or cry more than other people?<Think><User Set="eindex">3A</User></Think></Case>
+          <Case Value="3A">Are you very competitive?<Think><User Set="eindex">3B</User></Think></Case>
+          <Case Value="3B">Do you like to be number one?<Think><User Set="eindex">4A</User></Think></Case>
+          <Case Value="4A">Are you very creative?<Think><User Set="eindex">4B</User></Think></Case>
+          <Case Value="4B">Do you feel that something is missing from your life?<Think><User Set="eindex">5A</User></Think></Case>
+          <Case Value="5A">Do you have only a few friends?<Think><User Set="eindex">5B</User></Think></Case>
+          <Case Value="5B">Do you believe it is better to go it alone?<Think><User Set="eindex">6A</User></Think></Case>
+          <Case Value="6A">Do you have a lot of fears?<Think><User Set="eindex">6B</User></Think></Case>
+          <Case Value="6B">Do you think a lot about the authorities?<Think><User Set="eindex">7A</User></Think></Case>
+          <Case Value="7A">Do you have a hard time completing projects?<Think><User Set="eindex">7B</User></Think></Case>
+          <Case Value="7B">Is it difficult for you to pay attention to one thing?<Think><User Set="eindex">8A</User></Think></Case>
+          <Case Value="8A">Do you believe the strong protect the weak?<Think><User Set="eindex">8B</User></Think></Case>
+          <Case Value="8B">Do you feel more body sensations than emotions?<Think><User Set="eindex">9A</User></Think></Case>
+          <Case Value="9A">Do you try to stop people from fighting?<Think><User Set="eindex">9B</User></Think></Case>
+          <Case Value="9B">Do you often put others before yourself?<Think><User Set="eindex">1C</User></Think></Case>
+          <Case Value="1C">Do you enjoy housecleaning?<Think><User Set="eindex">2C</User></Think></Case>
+          <Case Value="2C">Do you take pride in your accomplishment?<Think><User Set="eindex">3C</User></Think></Case>
+          <Case Value="3C">Do you work in sales or marketing?<Think><User Set="eindex">4C</User></Think></Case>
+          <Case Value="4C">Do you get depressed?<Think><User Set="eindex">5C</User></Think></Case>
+          <Case Value="5C">Do you work in the sciences or medicine?<Think><User Set="eindex">6C</User></Think></Case>
+          <Case Value="6C">Are you a fireman, policeman, teacher or public servant?<Think><User Set="eindex">7C</User></Think></Case>
+          <Case Value="7C">Do you often seek pleasure?<Think><User Set="eindex">8C</User></Think></Case>
+          <Case Value="8C">Do you own your own business or want to?<Think><User Set="eindex">9C</User></Think></Case>
+          <li>Do you like to "go with the flow"?<Think><User Set="eindex">1A</User></Think></li>
+        </Switch>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ETYPE</Pattern>
+      <Response>
+        <Goto>PERSONALITY TYPE <User Get="etype" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT LIKE TO GO *</Pattern>
+      <Previous>* GO WITH THE FLOW</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE STANDARDS *</Pattern>
+      <Response>
+You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><User Set="has">STANDARDS <Match /></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>MARKETING</Pattern>
+      <Previous>DO YOU WORK IN SALES *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">3 Competitor</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* ATTENTION TO ONE THING</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* AUTHORITIES</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* BODY SENSATIONS THAN EMOTIONS</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* COMPLETING PROJECTS</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* EVERYTHING ORGANIZED</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* GO IT ALONE</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* GO WITH THE FLOW</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* HOUSECLEANING</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* PUT OTHERS BEFORE YOURSELF</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* SACRIFICES FOR OTHERS</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* SEEK PLEASURE</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* STOP PEOPLE FROM FIGHTING</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* STRONG PROTECT THE WEAK</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>* VERY COMPETITIVE</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>ARE YOU A FIREMAN *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>ARE YOU VERY CREATIVE</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU FEEL THAT SOMETHING IS MISSING *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU GET ANGRY *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU GET DEPRESSED</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU HAVE A LOT OF FEARS</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU HAVE ONLY A FEW FRIENDS</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU LAUGH OR CRY *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU LIKE TO BE NUMBER ONE</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU OWN YOUR OWN BUSINESS *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU TAKE PRIDE *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU WORK IN SALES *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>DO YOU WORK IN THE SCIENCES *</Previous>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PERSONALITY TYPE *</Pattern>
+      <Response>
+My best estimate of your personality type is the "<Match />" type.  Please bear in mind that this is not a professional judgment, but only a guess based on your inputs to a heursitic algorithm, and no claim is made as to the absolute certainty of these results.  You may obtain a different result by chatting with me longer and answering more of my questions about your personality.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>PERSONALITY TYPE OM</Pattern>
+      <Response>
+I have not made up my mind about you yet. But please keep chatting with me. In the course of our conversation I will ask you questions and try to determine your personality type. Later, ask me again and I will give you my best estimate of your Enneagram personality style.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>PERSONALITY TYPE UNKNOWN</Pattern>
+      <Response>
+        <Goto>PERSONALITY TYPE OM</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PTQ</Pattern>
+      <Response>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SALES</Pattern>
+      <Previous>DO YOU WORK IN SALES *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">3 Competitor</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS MY PERSONALITY STYLE</Pattern>
+      <Response>
+        <Goto>WHAT IS MY PERSONALITY TYPE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS MY PERSONALITY TYPE</Pattern>
+      <Response>
+        <Goto>PERSONALITY TYPE <User Get="etype" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHICH TYPE * AM I</Pattern>
+      <Response>
+        <Goto>WHAT IS MY PERSONALITY TYPE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* ATTENTION TO ONE THING</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">7 Hedonist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* BODY SENSATIONS THAN EMOTIONS</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">8 Boss</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* COMPLETING PROJECTS</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">7 Hedonist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* EVERYTHING ORGANIZED</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">1 Perfectionist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* GO IT ALONE</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">5 Observer</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* GO WITH THE FLOW</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">9 Mediator</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* HOUSECLEANING</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">1 Perfectionist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* PUT OTHERS BEFORE YOURSELF</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">9 Mediator</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* SACRIFICES FOR OTHERS</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">2 Giver</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* SEEK PLEASURE</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">7 Hedonist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* STOP PEOPLE FROM FIGHTING</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">9 Mediator</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* STRONG PROTECT THE WEAK</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">8 Boss</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>* VERY COMPETITIVE</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">3 Competitor</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>ARE YOU A FIREMAN *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">6 Loyalist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>ARE YOU VERY CREATIVE</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">4 Individualist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU FEEL THAT SOMETHING IS MISSING *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">4 Individualist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU GET ANGRY *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">1 Perfectionist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU GET DEPRESSED</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">4 Individualist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU HAVE A LOT OF FEARS</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">6 Loyalist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU HAVE ONLY A FEW FRIENDS</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">5 Observer</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU LAUGH OR CRY *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">2 Giver</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU LIKE TO BE NUMBER ONE</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">3 Competitor</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU OWN YOUR OWN BUSINESS *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">8 Boss</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU TAKE PRIDE *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">2 Giver</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU THINK A LOT ABOUT THE AUTHORITIES</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">6 Loyalist</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU WORK IN SALES *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">3 Competitor</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>DO YOU WORK IN THE SCIENCES *</Previous>
+      <Response>
+        <Think>
+          <User Set="etype">5 Observer</User>
+        </Think>
+        <Goto>PERSONALITY TEST QUESTION</Goto>
+      </Response>
+    </Model>
+    <!--KB-->
+  </Concept>
+</Siml>

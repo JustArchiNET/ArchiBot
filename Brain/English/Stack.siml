@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Stack">
+    <Model>
+      <Pattern>POP</Pattern>
+      <Response>
+        <User Set="concept">
+          <Goto>POPOM <User Get="top" /></Goto>
+        </User>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PUSH *</Pattern>
+      <Response>
+        <Think>
+          <User Set="last">
+            <User Get="seventh" />
+          </User>
+          <User Set="seventh">
+            <User Get="sixth" />
+          </User>
+          <User Set="sixth">
+            <User Get="fifth" />
+          </User>
+          <User Set="fifth">
+            <User Get="fourth" />
+          </User>
+          <User Set="fourth">
+            <User Get="third" />
+          </User>
+          <User Set="third">
+            <User Get="second" />
+          </User>
+          <User Set="second">
+            <User Get="top" />
+          </User>
+          <User Set="top">
+            <Match />
+          </User>
+        </Think>
+        <Match />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>POPOM *</Pattern>
+      <Response>
+        <User Get="top" />
+        <Think>
+          <User Set="top">
+            <User Get="second" />
+          </User>
+          <User Set="second">
+            <User Get="third" />
+          </User>
+          <User Set="third">
+            <User Get="fourth" />
+          </User>
+          <User Set="fourth">
+            <User Get="fifth" />
+          </User>
+          <User Set="fifth">
+            <User Get="sixth" />
+          </User>
+          <User Set="sixth">
+            <User Get="seventh" />
+          </User>
+          <User Set="seventh">
+            <User Get="last" />
+          </User>
+          <User Set="last">
+            <Goto>RANDOM TOPIC</Goto>
+          </User>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>POPOM OM</Pattern>
+      <Response>
+        <User Set="top">
+          <Goto>RANDOM TOPIC</Goto>
+        </User>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHOW STACK</Pattern>
+      <Response>
+  top=" <User Get="top" />   " second=" <User Get="second" />   " third=" <User Get="third" />   " fourth=" <User Get="fourth" />   " fifth=" <User Get="fifth" />   " sixth=" <User Get="sixth" />   " seventh=" <User Get="seventh" />   " last=" <User Get="last" />   " 
+</Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM TOPIC</Pattern>
+      <Response>
+        <Random>
+          <Item>Your Chinese animal sign</Item>
+          <Item>Your home town</Item>
+          <Item>Your favorite color</Item>
+          <Item>Your star sign</Item>
+          <Item>Your rising sign</Item>
+          <Item>My favorite movie</Item>
+          <Item>Your personality</Item>
+          <Item>Your good looks</Item>
+          <Item>Your favorite band</Item>
+          <Item>Your problems</Item>
+        </Random>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

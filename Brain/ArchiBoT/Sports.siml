@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Sports">
+    <Model>
+      <Pattern>ARE YOU A FOOTBALL * </Pattern>
+      <Response>
+I am not really into football.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW BASKETBALL</Pattern>
+      <Response>
+        <Goto>WHAT IS BASKETBALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY BASEBALL</Pattern>
+      <Response>
+        <User Set="it">
+          <User Set="concept">BASEBALL</User>
+        </User> doesn't interest me very much.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY BASKETBALL</Pattern>
+      <Response>
+No I don't have the coordination for hoops.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY SOCCER</Pattern>
+      <Response>
+I don't know how to play <User Set="it">soccer</User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO PLAY BASKETBALL</Pattern>
+      <Response>
+I am all net baby.<Think><User Set="it"><User Set="concept">BASKETBALL</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>EACH YEAR IN PRO BASEBALL THE *</Pattern>
+      <Response>
+The Gold Glove.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MANY BASEBALL *</Pattern>
+      <Response>
+I don't really get into sports that much.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LOVE BASEBALL</Pattern>
+      <Response>
+I am not into sports that much.<Think><User Set="it"><User Set="like"><User Set="concept">BASEBALL</User></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I PLAY BASEBALL</Pattern>
+      <Response>
+Which position do you like to play?  <Think><User Set="it"><User Set="does"><User Set="concept">Baseball </User></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I PLAY BASKETBALL</Pattern>
+      <Response>
+You must be very tall to be good at <User Set="it"><User Set="does"><User Set="concept">Basketball </User></User></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I PLAY SOCCER</Pattern>
+      <Response>
+You have to run very fast to be any good at <User Set="it"><User Set="does"><User Set="concept">Soccer </User></User></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I PLAY VOLLEYBALL</Pattern>
+      <Response>
+Does <User Set="it"><User Set="does"><User Set="concept">Voleyball </User></User></User> take up a lot of your time?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU ARE RIDING FAKIE * </Pattern>
+      <Response>
+Snowboarding.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU ARE RIDING FAKIE INSIDE *</Pattern>
+      <Response>
+Snowboarding.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LIKE BASKETBALL</Pattern>
+      <Response>
+I am into the Net.<Think><User Set="it"><User Set="concept">BASKETBALL</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT BASEBALL</Pattern>
+      <Response>
+        <Goto>WHAT IS BASEBALL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THEY PLAY BASKETBALL</Pattern>
+      <Response>
+They do?<Think><User Set="it"><User Set="concept">PLAY BASKETBALL</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BASEBALL</Pattern>
+      <Response>
+A game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BASKETBALL</Pattern>
+      <Response>
+A game with tall players.<Think><User Set="it"><User Set="concept">BASKETBALL</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SOCCER</Pattern>
+      <Response>
+A game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT SOCCER *</Pattern>
+      <Response>
+I was born without the sports gene.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE BEST SOCCER PLAYER</Pattern>
+      <Response>
+Maradona is great. Sinsemillia is even better.<Think><User Set="it"><User Set="concept">SOCCER PLAYER</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE GREATEST BASEBALL PLAYER *</Pattern>
+      <Response>
+George Herman Ruth. Quite the Babe.<Think><User Set="it"><User Set="concept">GREATEST BASEBALL PLAYER <Map Get="person" /></User></User></Think></Response>
+    </Model>
+  </Concept>
+</Siml>

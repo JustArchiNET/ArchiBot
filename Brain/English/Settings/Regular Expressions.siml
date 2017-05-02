@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Note: Regular Expressions are disabled for Syn Web Assistant-->
+  <!--Note: Regex names when being used within "Pattern" tags should be prefixed with an "at symbol" @EXAMPLE-->
+  <!--Note: If an undeclared Regex name is used the SIML Bot will use a regular expression that matches Nothing.-->
+  <!--@Email-->
+  <Regex Name="Email" Pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+" />
+  <!--@Integer-->
+  <Regex Name="Integer" Pattern="[\-\+]?\s*\d+\s*" />
+  <!--@URL-->
+  <Regex Name="URL" Pattern="((http|https)://)?[a-zA-Z]\w*(\.\w+)+(/\w*(\.\w+)*)*(\?.+)*" />
+</Siml>

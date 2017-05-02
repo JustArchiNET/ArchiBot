@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Predicates">
+    <Model>
+      <Pattern>GET PREDICATES</Pattern>
+      <Response>
+Age: <User Get="age" />, Birthday: <User Get="birthday" />, Boyfriend: <User Get="boyfriend" />, Brother: <User Get="brother" />, Cat: <User Get="cat" />, Does: <User Get="does" />, Dog: <User Get="dog" />, Email: <User Get="email" />, Father: <User Get="father" />, Favcolor:  <User Get="favcolor" />, Favmovie: <User Get="favmovie" />, Friend: <User Get="friend" />, Full name: <User Get="fullname" />, Gender: <User Get="gender" />, Girlfriend: <User Get="girlfriend" />, Has: <User Get="has" />, Heard: <User Get="heard" />, He: <User Get="he" />, Her: <User Get="her" />, Him: <User Get="him" />, Husband: <User Get="husband" />, You are: <User Get="is" />, It: <User Get="it" />, Job: <User Get="job" />, Last name: <User Get="lastname" />, You Like: <User Get="like" />, Location:  <User Get="location" />, You look like: <User Get="looklike" />, Memory: <User Get="memory" />, Meta Predicate: <User Get="meta" />, Nickname: <User Get="nickname" />, Middle name: <User Get="middlename" />, Mother: <User Get="mother" />, Name: <User Get="name" />, Password: <User Get="password" />, Personality: <User Get="personality" />, Phone: <User Get="phone" />, She: <User Get="she" />, Sign <User Get="sign" />, Sister: <User Get="sister" />, Them: <User Get="them" />, They: <User Get="they" />, Thought: <User Get="thought" />, Want: <User Get="want" />, We: <User Get="we" />, Wife: <User Get="wife" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SET PREDICATES</Pattern>
+      <Response>
+        <Goto>SET PREDICATES <User Get="meta" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SET PREDICATES *</Pattern>
+      <Response>
+The meta Predicate is set.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SET PREDICATES OM</Pattern>
+      <Response>
+        <Think>
+          <User Set="age">how many</User>
+          <User Set="heard">where</User>
+          <User Set="gender">he</User>
+          <User Set="he">he</User>
+          <User Set="her">her</User>
+          <User Set="him">him</User>
+          <User Set="is">a client</User>
+          <User Set="it">it</User>
+          <User Set="job">your job</User>
+          <User Set="like">to chat</User>
+          <User Set="location">where</User>
+          <User Set="looklike">a person</User>
+          <User Set="memory">nothing</User>
+          <User Set="meta">set</User>
+          <User Set="name">judge</User>
+          <User Set="personality">average</User>
+          <User Set="she">she</User>
+          <User Set="sign">your starsign</User>
+          <User Set="them">them</User>
+          <User Set="they">they</User>
+          <User Set="thought">nothing</User>
+          <User Set="want">to talk to me</User>
+          <User Set="we">we</User>
+          <User Set="etype">Unknown</User>
+          <User Set="eindex">1A</User>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CLIENT PROPERTIES</Pattern>
+      <Response>
+        <Goto>GET PREDICATES</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

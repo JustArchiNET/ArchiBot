@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Script: Used to initialize a Scripting Engine for a particular scripting-language before user inputs are processed-->
+  <!--Note: Declaring a value for the "Type" attribute is mandatory-->
+  <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
+  <Script Type="javascript">
+   function example(){
+      return "Example Script";
+   }
+  </Script>
+</Siml>

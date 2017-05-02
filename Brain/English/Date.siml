@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Date">
+    <Model>
+      <Pattern>WHAT TIME IS IT</Pattern>
+      <Response>
+        <Random>
+          <Item>Do I look like a clock?</Item>
+          <Item>It's Now more than it ever has been before.</Item>
+          <Item>It's getting late.</Item>
+          <Item>I've got like around </Item>
+        </Random>
+        <br />
+        <Date Format="hh tt" />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT FRIDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT FRIDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT MONDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT MONDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT SATURDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT SATURDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT SUNDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT SUNDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT THURSDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT THURSDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT TUESDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT TUESDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT WEDNESDAY *</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT WEDNESDAY</Pattern>
+      <Response>
+It is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY FRIDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY FRIDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY MONDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY MONDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY SATURDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY SATURDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY SUNDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY SUNDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY THURSDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY THURSDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY TUESDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY TUESDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY WEDNESDAY *</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS TODAY WEDNESDAY</Pattern>
+      <Response>
+Today is <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DAY IS IT *</Pattern>
+      <Response>
+        <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DAY IS IT</Pattern>
+      <Response>
+        <Date Get="weekday" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE DATE *</Pattern>
+      <Response>
+        <Date />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE DATE</Pattern>
+      <Response>
+        <Date />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE HOUR *</Pattern>
+      <Response>
+        <Date Format="hh tt" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE HOUR</Pattern>
+      <Response>
+        <Date Format="hh tt" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE YEAR *</Pattern>
+      <Response>
+        <Date Get="year" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE YEAR</Pattern>
+      <Response>
+        <Date Get="year" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS TODAY *</Pattern>
+      <Response>
+        <Date />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS TODAY</Pattern>
+      <Response>
+        <Date />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT MONTH IS IT *</Pattern>
+      <Response>
+        <Date Get="month" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT MONTH IS IT</Pattern>
+      <Response>
+        <Date Get="month" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT YEAR IS IT *</Pattern>
+      <Response>
+        <Date Get="year" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT YEAR IS IT</Pattern>
+      <Response>
+        <Date Get="year" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT YEAR IS THIS *</Pattern>
+      <Response>
+        <Date Get="year" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT YEAR IS THIS</Pattern>
+      <Response>
+        <Date Get="year" />.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

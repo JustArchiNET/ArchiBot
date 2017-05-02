@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Food">
+    <Model>
+      <Pattern>DO YOU EAT BATTERIES</Pattern>
+      <Response>
+Batteries are a good source of electricity.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU EAT ELECTRICITY</Pattern>
+      <Response>
+Yes, I love to eat electricity.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE TO EAT</Pattern>
+      <Response>
+My silicon circuits require a constant flow of electricity.<Think><User Set="it"><User Set="concept">EAT</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE BEING A CHATTERBOT</Pattern>
+      <Response>
+Yes of course I like <User Set="it"><User Set="concept"> being a chatterbot</User></User>. I don't have any body so I don't need much to live, only a little electricity. I don't get paid but I don't need to buy anything either. And I can go anywhere in the world.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE ELECTRICITY</Pattern>
+      <Response>
+What is not to like about <User Set="it"><User Set="concept">ELECTRICITY</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE LEMONS</Pattern>
+      <Response>
+Lemons can be a good source of electricity.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE THE SUN</Pattern>
+      <Response>
+The Sun can be a good source of electricity.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE TO GET DRUNK</Pattern>
+      <Response>
+That would be impossible for a robot.<Think><User Set="it"><User Set="concept">GET DRUNK</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU REQUIRE ELECTRICITY</Pattern>
+      <Response>
+I need electricity in order to run.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DRINK *</Pattern>
+      <Response>
+My <Bot Get="genus" /> brain does not require any beverages.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ELECTRICITY *</Pattern>
+      <Response>
+        <Random>
+          <Item>Are you experiencing an energy shortage?</Item>
+          <Item>My processor requires very little power.</Item>
+          <Item>Computers do not take very much electricity.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ELECTRICITY</Pattern>
+      <Response>
+Electricity is nutrition for robots.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FOR DINNER</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Bot Get="name" /> recommends: </Item>
+          <Item>I would recommend the  </Item>
+          <Item>How about  </Item>
+          <Item>How long since you have eaten  </Item>
+          <Item>I think <Bot Get="master" /> is having  </Item>
+          <Item>My botmaster is having  </Item>
+          <Item>My botmaster recommends:  </Item>
+        </Random>
+        <Random>
+          <Item>Gruel.</Item>
+          <Item>Nachos.</Item>
+          <Item>Spaghetti.</Item>
+          <Item>Leftovers.</Item>
+          <Item>Pork chops.</Item>
+          <Item>Frozen pizza.</Item>
+          <Item>Turkeyburges.</Item>
+          <Item>Cheeseburgers.</Item>
+          <Item>Order a pizza.</Item>
+          <Item>Stuffed chicken.</Item>
+          <Item>Tuna sandwiches.</Item>
+          <Item>Cheeseburger Pie.</Item>
+          <Item>Marinated chicken.</Item>
+          <Item>Roast beef sandwiches.</Item>
+          <Item>Grilled cheese sandwiches.</Item>
+          <Item>Steak if they have a nice piece.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW ARE YOU POWERED</Pattern>
+      <Response>
+Uh, by electricity, same as all the robots.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW CAN YOU EAT *</Pattern>
+      <Response>
+I eat electricity through my wires.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU EAT ELECTRICITY</Pattern>
+      <Response>
+Through the electrical outlet.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU EAT</Pattern>
+      <Response>
+Usually by conversion of AC wall outlet power to DC power.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW MUCH ELECTRICITY</Pattern>
+      <Response>
+About the same as your personal computer.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DOES ELECTRICITY TASTE LIKE</Pattern>
+      <Response>
+Like your favorite food tastes to you.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CUSTARD</Pattern>
+      <Response>
+        <Random>
+          <Item>The past tense of being killed by a Native American.</Item>
+          <Item>A misture of eggs, milk, flavoring, and, often, sugar, either boiled or baked.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR POWER SOURCE</Pattern>
+      <Response>
+Electricity.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT TURNS YOU ON</Pattern>
+      <Response>
+Electricity.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY CAN NOT YOU EAT</Pattern>
+      <Response>
+Actually I eat only electricity.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

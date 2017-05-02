@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Note: All global pattern reductions should be stored in this file within the "Pattern Reductions" public Concept.-->
+  <Concept Name="Pattern Reductions" Type="public">
+    <Model>
+      <Pattern>
+        <Item>A BIT *</Item>
+        <Item>A BIT OF *</Item>
+        <Item>A GREAT DEAL *</Item>
+        <Item>A LITTLE *</Item>
+        <Item>A LOT *</Item>
+        <Item>A LOT OF *</Item>
+        <Item>ABOVE *</Item>
+        <Item>ABROAD *</Item>
+        <Item>ABRUPTLY *</Item>
+        <Item>ABSOLUTELY *</Item>
+        <Item>ACCIDENTALLY *</Item>
+        <Item>ACCORDINGLY *</Item>
+        <Item>ACCURATELY *</Item>
+        <Item>ACTIVELY *</Item>
+        <Item>ACTUALLY *</Item>
+        <Item>ADEQUATELY *</Item>
+        <Item>AFTERWARDS *</Item>
+        <Item>AGAIN *</Item>
+        <Item>AHEAD *</Item>
+        <Item>ALL RIGHT *</Item>
+        <Item>ALMOST *</Item>
+        <Item>ALONE *</Item>
+        <Item>ALREADY *</Item>
+        <Item>ALRIGHT *</Item>
+        <Item>ALSO *</Item>
+        <Item>ALTERNATIVELY *</Item>
+        <Item>ALTOGETHER *</Item>
+        <Item>ALWAYS *</Item>
+        <Item>AND SO ON *</Item>
+        <Item>ANGRILY *</Item>
+        <Item>ANNUALLY *</Item>
+        <Item>ANXIOUSLY *</Item>
+        <Item>ANYWAY *</Item>
+        <Item>ANYWHERE *</Item>
+        <Item>APART *</Item>
+        <Item>APPARENTLY *</Item>
+        <Item>APPROXIMATELY *</Item>
+        <Item>AROUND *</Item>
+        <Item>AS USUAL *</Item>
+        <Item>AS WELL *</Item>
+        <Item>AS YET *</Item>
+        <Item>ASIDE *</Item>
+        <Item>AT ALL *</Item>
+        <Item>AT FIRST *</Item>
+        <Item>AT LAST *</Item>
+        <Item>AT LEAST *</Item>
+        <Item>AT ONCE *</Item>
+        <Item>AT PRESENT *</Item>
+        <Item>AUTOMATICALLY *</Item>
+        <Item>AWKWARDLY *</Item>
+        <Item>BACKWARDS *</Item>
+        <Item>BADLY *</Item>
+        <Item>BARELY *</Item>
+        <Item>BASICALLY *</Item>
+        <Item>BEAUTIFULLY *</Item>
+        <Item>BEFORE *</Item>
+        <Item>BEHIND *</Item>
+        <Item>BELOW *</Item>
+        <Item>BESIDES *</Item>
+        <Item>BEST *</Item>
+        <Item>BETTER *</Item>
+        <Item>BEYOND *</Item>
+        <Item>BITTERLY *</Item>
+        <Item>BLINDLY *</Item>
+        <Item>BLOODY *</Item>
+        <Item>BOASTFULLY *</Item>
+        <Item>BOLDLY *</Item>
+        <Item>BOTH *</Item>
+        <Item>BRAVELY *</Item>
+        <Item>BRIEFLY *</Item>
+        <Item>BRIGHTLY *</Item>
+        <Item>BROADLY *</Item>
+        <Item>BUSILY *</Item>
+        <Item>BY NO MEANS *</Item>
+        <Item>BY NOW *</Item>
+        <Item>CALMLY *</Item>
+        <Item>CAREFULLY *</Item>
+        <Item>CARELESSLY *</Item>
+        <Item>CAUTIOUSLY *</Item>
+        <Item>CERTAINLY *</Item>
+        <Item>CHEERFULLY *</Item>
+        <Item>CLEARLY *</Item>
+        <Item>CLOSELY *</Item>
+        <Item>CLOSER *</Item>
+        <Item>COMMONLY *</Item>
+        <Item>COMPARATIVELY *</Item>
+        <Item>COMPLETELY *</Item>
+        <Item>CONCEIVABLY *</Item>
+        <Item>CONSEQUENTLY *</Item>
+        <Item>CONSIDERABLY *</Item>
+        <Item>CONSISTENTLY *</Item>
+        <Item>CONSTANTLY *</Item>
+        <Item>CONTINUALLY *</Item>
+        <Item>CORRECTLY *</Item>
+        <Item>COURAGEOUSLY *</Item>
+        <Item>CRUELLY *</Item>
+        <Item>CURRENTLY *</Item>
+        <Item>DAILY *</Item>
+        <Item>DEEP *</Item>
+        <Item>DEEPLY *</Item>
+        <Item>DEFIANTLY *</Item>
+        <Item>DEFINITELY *</Item>
+        <Item>DELIBERATELY *</Item>
+        <Item>DESPERATELY *</Item>
+        <Item>DIFFERENTLY *</Item>
+        <Item>DIRECTLY *</Item>
+        <Item>DOUBTFULLY *</Item>
+        <Item>DOWN *</Item>
+        <Item>DOWNSTAIRS *</Item>
+        <Item>DRAMATICALLY *</Item>
+        <Item>E G *</Item>
+        <Item>EARLIER *</Item>
+        <Item>EARLY *</Item>
+        <Item>EASIER *</Item>
+        <Item>EASILY *</Item>
+        <Item>EFFECTIVELY *</Item>
+        <Item>EFFICIENTLY *</Item>
+        <Item>EG *</Item>
+        <Item>EITHER *</Item>
+        <Item>ELEGANTLY *</Item>
+        <Item>ELSEWHERE *</Item>
+        <Item>ENORMOUSLY *</Item>
+        <Item>ENTHUSIASTICALLY *</Item>
+        <Item>ENTIRELY *</Item>
+        <Item>EQUALLY *</Item>
+        <Item>ESPECIALLY *</Item>
+        <Item>ESSENTIALLY *</Item>
+        <Item>ET AL *</Item>
+        <Item>ETC *</Item>
+        <Item>EVEN *</Item>
+        <Item>EVEN SO *</Item>
+        <Item>EVENTUALLY *</Item>
+        <Item>EVER *</Item>
+        <Item>EVERYWHERE *</Item>
+        <Item>EVIDENTLY *</Item>
+        <Item>EXACTLY *</Item>
+        <Item>EXCLUSIVELY *</Item>
+        <Item>EXPLICITLY *</Item>
+        <Item>EXTREMELY *</Item>
+        <Item>FAIRLY *</Item>
+        <Item>FAITHFULLY *</Item>
+        <Item>FAR *</Item>
+        <Item>FAST *</Item>
+        <Item>FASTER *</Item>
+        <Item>FATALLY *</Item>
+        <Item>FIERCELY *</Item>
+        <Item>FINALLY *</Item>
+        <Item>FIRMLY *</Item>
+        <Item>FIRSTLY *</Item>
+        <Item>FONDLY *</Item>
+        <Item>FOOLISHLY *</Item>
+        <Item>FOR EVER *</Item>
+        <Item>FOR EXAMPLE *</Item>
+        <Item>FOR INSTANCE *</Item>
+        <Item>FOREVER *</Item>
+        <Item>FORMALLY *</Item>
+        <Item>FORMERLY *</Item>
+        <Item>FORTUNATELY *</Item>
+        <Item>FORWARD *</Item>
+        <Item>FORWARDS *</Item>
+        <Item>FRANTICALLY *</Item>
+        <Item>FREELY *</Item>
+        <Item>FREQUENTLY *</Item>
+        <Item>FROM TIME TO TIME *</Item>
+        <Item>FULLY *</Item>
+        <Item>FURTHER *</Item>
+        <Item>FURTHERMORE *</Item>
+        <Item>GENERALLY *</Item>
+        <Item>GENTLY *</Item>
+        <Item>GENUINELY *</Item>
+        <Item>GLADLY *</Item>
+        <Item>GRACEFULLY *</Item>
+        <Item>GRADUALLY *</Item>
+        <Item>GREATLY *</Item>
+        <Item>GREEDILY *</Item>
+        <Item>HAPPILY *</Item>
+        <Item>HARDLY *</Item>
+        <Item>HASTILY *</Item>
+        <Item>HEAVILY *</Item>
+        <Item>HENCE *</Item>
+        <Item>HIGHLY *</Item>
+        <Item>HITHERTO *</Item>
+        <Item>HONESTLY *</Item>
+        <Item>HOPEFULLY *</Item>
+        <Item>HOURLY *</Item>
+        <Item>HOWEVER *</Item>
+        <Item>HUNGRILY *</Item>
+        <Item>I E *</Item>
+        <Item>IDEALLY *</Item>
+        <Item>IE *</Item>
+        <Item>IMMEDIATELY *</Item>
+        <Item>IMPORTANTLY *</Item>
+        <Item>IN ADDITION *</Item>
+        <Item>IN GENERAL *</Item>
+        <Item>IN PART *</Item>
+        <Item>IN PARTICULAR *</Item>
+        <Item>IN SHORT *</Item>
+        <Item>INADVERTENTLY *</Item>
+        <Item>INCREASINGLY *</Item>
+        <Item>INDEED *</Item>
+        <Item>INDEFINITELY *</Item>
+        <Item>INDEPENDENTLY *</Item>
+        <Item>INDIVIDUALLY *</Item>
+        <Item>INEVITABLY *</Item>
+        <Item>INITIALLY *</Item>
+        <Item>INNOCENTLY *</Item>
+        <Item>INQUISITIVELY *</Item>
+        <Item>INSIDE *</Item>
+        <Item>INSTANTLY *</Item>
+        <Item>INSTEAD *</Item>
+        <Item>INVARIABLY *</Item>
+        <Item>IRRITABLY *</Item>
+        <Item>JOINTLY *</Item>
+        <Item>JOYOUSLY *</Item>
+        <Item>JUST *</Item>
+        <Item>JUST ABOUT *</Item>
+        <Item>JUSTLY *</Item>
+        <Item>KINDLY *</Item>
+        <Item>LARGELY *</Item>
+        <Item>LATE *</Item>
+        <Item>LATER *</Item>
+        <Item>LAZILY *</Item>
+        <Item>LIGHTLY *</Item>
+        <Item>LIKE *</Item>
+        <Item>LIKEWISE *</Item>
+        <Item>LITERALLY *</Item>
+        <Item>LITTLE *</Item>
+        <Item>LOCALLY *</Item>
+        <Item>LONGER *</Item>
+        <Item>LOOSELY *</Item>
+        <Item>LOUDLY *</Item>
+        <Item>MADLY *</Item>
+        <Item>MAINLY *</Item>
+        <Item>MAYBE *</Item>
+        <Item>MEANWHILE *</Item>
+        <Item>MENTALLY *</Item>
+        <Item>MERELY *</Item>
+        <Item>MERRILY *</Item>
+        <Item>MONTHLY *</Item>
+        <Item>MORE THAN *</Item>
+        <Item>MOREOVER *</Item>
+        <Item>MORTALLY *</Item>
+        <Item>MOST *</Item>
+        <Item>MOSTLY *</Item>
+        <Item>MYSTERIOUSLY *</Item>
+        <Item>NAMELY *</Item>
+        <Item>NATURALLY *</Item>
+        <Item>NEARBY *</Item>
+        <Item>NEARLY *</Item>
+        <Item>NEATLY *</Item>
+        <Item>NECESSARILY *</Item>
+        <Item>NERVOUSLY *</Item>
+        <Item>NEVERTHELESS *</Item>
+        <Item>NEWLY *</Item>
+        <Item>NO DOUBT *</Item>
+        <Item>NOISILY *</Item>
+        <Item>NONETHELESS *</Item>
+        <Item>NORMALLY *</Item>
+        <Item>NOTABLY *</Item>
+        <Item>NOW *</Item>
+        <Item>NOWADAYS *</Item>
+        <Item>NOWHERE *</Item>
+        <Item>OBEDIENTLY *</Item>
+        <Item>OBNOXIOUSLY *</Item>
+        <Item>OBVIOUSLY *</Item>
+        <Item>OCCASIONALLY *</Item>
+        <Item>OF COURSE *</Item>
+        <Item>OFFICIALLY *</Item>
+        <Item>OFTEN *</Item>
+        <Item>ON BOARD *</Item>
+        <Item>ONCE *</Item>
+        <Item>ONCE AGAIN *</Item>
+        <Item>ONCE MORE *</Item>
+        <Item>ONLY *</Item>
+        <Item>ONWARDS *</Item>
+        <Item>OPENLY *</Item>
+        <Item>ORIGINALLY *</Item>
+        <Item>OTHERWISE *</Item>
+        <Item>OUTSIDE *</Item>
+        <Item>OVER THERE *</Item>
+        <Item>OVERALL *</Item>
+        <Item>OVERLY *</Item>
+        <Item>OVERNIGHT *</Item>
+        <Item>PAINFULLY *</Item>
+        <Item>PARTIALLY *</Item>
+        <Item>PARTICULARLY *</Item>
+        <Item>PARTLY *</Item>
+        <Item>PERFECTLY *</Item>
+        <Item>PERHAPS *</Item>
+        <Item>PERMANENTLY *</Item>
+        <Item>PERSONALLY *</Item>
+        <Item>PHYSICALLY *</Item>
+        <Item>PLEASE *</Item>
+        <Item>POLITELY *</Item>
+        <Item>POLITICALLY *</Item>
+        <Item>POORLY *</Item>
+        <Item>POSITIVELY *</Item>
+        <Item>POSSIBLY *</Item>
+        <Item>POTENTIALLY *</Item>
+        <Item>POWERFULLY *</Item>
+        <Item>PRACTICALLY *</Item>
+        <Item>PRECISELY *</Item>
+        <Item>PREDOMINANTLY *</Item>
+        <Item>PRESUMABLY *</Item>
+        <Item>PRETTY *</Item>
+        <Item>PREVIOUSLY *</Item>
+        <Item>PRIMARILY *</Item>
+        <Item>PRIVATELY *</Item>
+        <Item>PROBABLY *</Item>
+        <Item>PROMPTLY *</Item>
+        <Item>PROPERLY *</Item>
+        <Item>PUBLICLY *</Item>
+        <Item>PUNCTUALLY *</Item>
+        <Item>PURELY *</Item>
+        <Item>QUICKLY *</Item>
+        <Item>QUIETLY *</Item>
+        <Item>QUITE *</Item>
+        <Item>RAPIDLY *</Item>
+        <Item>RARELY *</Item>
+        <Item>RATHER *</Item>
+        <Item>READILY *</Item>
+        <Item>REALLY *</Item>
+        <Item>REASONABLY *</Item>
+        <Item>RECENTLY *</Item>
+        <Item>RECKLESSLY *</Item>
+        <Item>REGARDLESS *</Item>
+        <Item>REGULARLY *</Item>
+        <Item>RELATIVELY *</Item>
+        <Item>RELUCTANTLY *</Item>
+        <Item>REMARKABLY *</Item>
+        <Item>REPEATEDLY *</Item>
+        <Item>REPORTEDLY *</Item>
+        <Item>RESPECTIVELY *</Item>
+        <Item>RIGHT *</Item>
+        <Item>RIGHTFULLY *</Item>
+        <Item>RIGHTLY *</Item>
+        <Item>ROUGHLY *</Item>
+        <Item>ROUND *</Item>
+        <Item>RUDELY *</Item>
+        <Item>SADLY *</Item>
+        <Item>SAFELY *</Item>
+        <Item>SCARCELY *</Item>
+        <Item>SECONDLY *</Item>
+        <Item>SEEMINGLY *</Item>
+        <Item>SELDOM *</Item>
+        <Item>SELFISHLY *</Item>
+        <Item>SEPARATELY *</Item>
+        <Item>SERIOUSLY *</Item>
+        <Item>SEVERAL *</Item>
+        <Item>SEVERELY *</Item>
+        <Item>SHAKILY *</Item>
+        <Item>SHARPLY *</Item>
+        <Item>SHORTLY *</Item>
+        <Item>SHRILLY *</Item>
+        <Item>SHYLY *</Item>
+        <Item>SIGNIFICANTLY *</Item>
+        <Item>SILENTLY *</Item>
+        <Item>SIMILARLY *</Item>
+        <Item>SIMPLY *</Item>
+        <Item>SIMULTANEOUSLY *</Item>
+        <Item>SINCE *</Item>
+        <Item>SINCERELY *</Item>
+        <Item>SLEEPILY *</Item>
+        <Item>SLIGHTLY *</Item>
+        <Item>SLOWLY *</Item>
+        <Item>SMOOTHLY *</Item>
+        <Item>SO *</Item>
+        <Item>SOCIALLY *</Item>
+        <Item>SOFTLY *</Item>
+        <Item>SOLELY *</Item>
+        <Item>SOLEMNLY *</Item>
+        <Item>SOMEHOW *</Item>
+        <Item>SOMETIMES *</Item>
+        <Item>SOMEWHAT *</Item>
+        <Item>SOMEWHERE *</Item>
+        <Item>SOON *</Item>
+        <Item>SORT OF *</Item>
+        <Item>SPECIALLY *</Item>
+        <Item>SPECIFICALLY *</Item>
+        <Item>SPEEDILY *</Item>
+        <Item>STEADILY *</Item>
+        <Item>STEALTHILY *</Item>
+        <Item>STERNLY *</Item>
+        <Item>STILL *</Item>
+        <Item>STRAIGHT *</Item>
+        <Item>STRICTLY *</Item>
+        <Item>STRONGLY *</Item>
+        <Item>SUBSEQUENTLY *</Item>
+        <Item>SUBSTANTIALLY *</Item>
+        <Item>SUCCESSFULLY *</Item>
+        <Item>SUDDENLY *</Item>
+        <Item>SUFFICIENTLY *</Item>
+        <Item>SURELY *</Item>
+        <Item>SURPRISINGLY *</Item>
+        <Item>SUSPICIOUSLY *</Item>
+        <Item>SWIFTLY *</Item>
+        <Item>TEMPORARILY *</Item>
+        <Item>TENDERLY *</Item>
+        <Item>TENSELY *</Item>
+        <Item>TERRIBLY *</Item>
+        <Item>THEREAFTER *</Item>
+        <Item>THEREBY *</Item>
+        <Item>THEREFORE *</Item>
+        <Item>THOROUGHLY *</Item>
+        <Item>THOUGH *</Item>
+        <Item>THOUGHTFULLY *</Item>
+        <Item>THROUGH *</Item>
+        <Item>TIGHTLY *</Item>
+        <Item>TODAY *</Item>
+        <Item>TOGETHER *</Item>
+        <Item>TOMORROW *</Item>
+        <Item>TONIGHT *</Item>
+        <Item>TOO *</Item>
+        <Item>TOO MUCH *</Item>
+        <Item>TOTALLY *</Item>
+        <Item>TRADITIONALLY *</Item>
+        <Item>TRULY *</Item>
+        <Item>TRUTHFULLY *</Item>
+        <Item>TYPICALLY *</Item>
+        <Item>ULTIMATELY *</Item>
+        <Item>UNDOUBTEDLY *</Item>
+        <Item>UNEXPECTEDLY *</Item>
+        <Item>UNFORTUNATELY *</Item>
+        <Item>UP TO *</Item>
+        <Item>UPSTAIRS *</Item>
+        <Item>USUALLY *</Item>
+        <Item>UTTERLY *</Item>
+        <Item>VERY *</Item>
+        <Item>VICTORIOUSLY *</Item>
+        <Item>VIOLENTLY *</Item>
+        <Item>VIRTUALLY *</Item>
+        <Item>VIVACIOUSLY *</Item>
+        <Item>WARMLY *</Item>
+        <Item>WEAKLY *</Item>
+        <Item>WEARILY *</Item>
+        <Item>WELL *</Item>
+        <Item>WHENEVER *</Item>
+        <Item>WHEREBY *</Item>
+        <Item>WHEREVER *</Item>
+        <Item>WHOLLY *</Item>
+        <Item>WIDELY *</Item>
+        <Item>WILDLY *</Item>
+        <Item>WITHIN *</Item>
+        <Item>WORLDWIDE *</Item>
+        <Item>YEARLY *</Item>
+        <Item>YESTERDAY *</Item>
+        <Item>YET *</Item>
+        <Item>_  CROSSLY</Item>
+        <Item>_ A BIT</Item>
+        <Item>_ A GREAT DEAL</Item>
+        <Item>_ A LITTLE</Item>
+        <Item>_ A LOT</Item>
+        <Item>_ ABOVE</Item>
+        <Item>_ ABROAD</Item>
+        <Item>_ ABRUPTLY</Item>
+        <Item>_ ABSOLUTELY</Item>
+        <Item>_ ACCORDINGLY</Item>
+        <Item>_ ACCURATELY</Item>
+        <Item>_ ACTIVELY</Item>
+        <Item>_ ACTUALLY</Item>
+        <Item>_ ADEQUATELY</Item>
+        <Item>_ AFTERWARDS</Item>
+        <Item>_ AGAIN</Item>
+        <Item>_ AHEAD</Item>
+        <Item>_ ALL RIGHT</Item>
+        <Item>_ ALMOST</Item>
+        <Item>_ ALONE</Item>
+        <Item>_ ALREADY</Item>
+        <Item>_ ALRIGHT</Item>
+        <Item>_ ALSO</Item>
+        <Item>_ ALTERNATIVELY</Item>
+        <Item>_ ALTOGETHER</Item>
+        <Item>_ ALWAYS</Item>
+        <Item>_ AND SO ON</Item>
+        <Item>_ ANGRILY</Item>
+        <Item>_ ANNUALLY</Item>
+        <Item>_ ANXIOUSLY</Item>
+        <Item>_ ANYWAY</Item>
+        <Item>_ ANYWHERE</Item>
+        <Item>_ APART</Item>
+        <Item>_ APPARENTLY</Item>
+        <Item>_ APPROXIMATELY</Item>
+        <Item>_ AROUND</Item>
+        <Item>_ AS USUAL</Item>
+        <Item>_ AS WELL</Item>
+        <Item>_ AS YET</Item>
+        <Item>_ ASIDE</Item>
+        <Item>_ AT ALL</Item>
+        <Item>_ AT FIRST</Item>
+        <Item>_ AT LAST</Item>
+        <Item>_ AT LEAST</Item>
+        <Item>_ AT ONCE</Item>
+        <Item>_ AT PRESENT</Item>
+        <Item>_ AUTOMATICALLY</Item>
+        <Item>_ AWKWARDLY</Item>
+        <Item>_ BACKWARDS</Item>
+        <Item>_ BADLY</Item>
+        <Item>_ BARELY</Item>
+        <Item>_ BASICALLY</Item>
+        <Item>_ BEAUTIFULLY</Item>
+        <Item>_ BEFORE</Item>
+        <Item>_ BEHIND</Item>
+        <Item>_ BELOW</Item>
+        <Item>_ BESIDES</Item>
+        <Item>_ BEYOND</Item>
+        <Item>_ BITTERLY</Item>
+        <Item>_ BLINDLY</Item>
+        <Item>_ BLOODY</Item>
+        <Item>_ BOASTFULLY</Item>
+        <Item>_ BOLDLY</Item>
+        <Item>_ BOTH</Item>
+        <Item>_ BRAVELY</Item>
+        <Item>_ BRIEFLY</Item>
+        <Item>_ BRIGHTLY</Item>
+        <Item>_ BROADLY</Item>
+        <Item>_ BUSILY</Item>
+        <Item>_ BY NO MEANS</Item>
+        <Item>_ BY NOW</Item>
+        <Item>_ CALMLY</Item>
+        <Item>_ CAREFULLY</Item>
+        <Item>_ CARELESSLY</Item>
+        <Item>_ CAUTIOUSLY</Item>
+        <Item>_ CERTAINLY</Item>
+        <Item>_ CHEERFULLY</Item>
+        <Item>_ CLEARLY</Item>
+        <Item>_ CLOSELY</Item>
+        <Item>_ CLOSER</Item>
+        <Item>_ COMMONLY</Item>
+        <Item>_ COMPARATIVELY</Item>
+        <Item>_ COMPLETELY</Item>
+        <Item>_ CONCEIVABLY *</Item>
+        <Item>_ CONCEIVABLY</Item>
+        <Item>_ CONSEQUENTLY</Item>
+        <Item>_ CONSIDERABLY</Item>
+        <Item>_ CONSISTENTLY</Item>
+        <Item>_ CONSTANTLY</Item>
+        <Item>_ CONTINUALLY</Item>
+        <Item>_ CORRECTLY</Item>
+        <Item>_ COURAGEOUSLY</Item>
+        <Item>_ CRUELLY</Item>
+        <Item>_ CURRENTLY</Item>
+        <Item>_ DAILY</Item>
+        <Item>_ DEEPLY</Item>
+        <Item>_ DEFIANTLY</Item>
+        <Item>_ DEFINITELY</Item>
+        <Item>_ DELIBERATELY</Item>
+        <Item>_ DESPERATELY</Item>
+        <Item>_ DIFFERENTLY</Item>
+        <Item>_ DIRECTLY</Item>
+        <Item>_ DOUBTFULLY</Item>
+        <Item>_ DRAMATICALLY</Item>
+        <Item>_ E G</Item>
+        <Item>_ EARLIER</Item>
+        <Item>_ EARLY</Item>
+        <Item>_ EASIER</Item>
+        <Item>_ EASILY</Item>
+        <Item>_ EFFECTIVELY</Item>
+        <Item>_ EFFICIENTLY</Item>
+        <Item>_ EG</Item>
+        <Item>_ EITHER</Item>
+        <Item>_ ELEGANTLY</Item>
+        <Item>_ ELSEWHERE</Item>
+        <Item>_ ENORMOUSLY</Item>
+        <Item>_ ENTHUSIASTICALLY</Item>
+        <Item>_ ENTIRELY</Item>
+        <Item>_ EQUALLY</Item>
+        <Item>_ ESPECIALLY</Item>
+        <Item>_ ESSENTIALLY</Item>
+        <Item>_ ET AL</Item>
+        <Item>_ ETC</Item>
+        <Item>_ EVEN SO</Item>
+        <Item>_ EVEN</Item>
+        <Item>_ EVENTUALLY</Item>
+        <Item>_ EVER</Item>
+        <Item>_ EVERYWHERE</Item>
+        <Item>_ EVIDENTLY</Item>
+        <Item>_ EXACTLY</Item>
+        <Item>_ EXCLUSIVELY</Item>
+        <Item>_ EXPLICITLY</Item>
+        <Item>_ EXTREMELY</Item>
+        <Item>_ FAIRLY</Item>
+        <Item>_ FAITHFULLY</Item>
+        <Item>_ FAR</Item>
+        <Item>_ FAST</Item>
+        <Item>_ FASTER</Item>
+        <Item>_ FATALLY</Item>
+        <Item>_ FIERCELY</Item>
+        <Item>_ FINALLY</Item>
+        <Item>_ FIRMLY</Item>
+        <Item>_ FIRSTLY</Item>
+        <Item>_ FONDLY</Item>
+        <Item>_ FOOLISHLY</Item>
+        <Item>_ FOR EVER</Item>
+        <Item>_ FOR EXAMPLE</Item>
+        <Item>_ FOR INSTANCE</Item>
+        <Item>_ FOREVER</Item>
+        <Item>_ FORMALLY</Item>
+        <Item>_ FORMERLY</Item>
+        <Item>_ FORTUNATELY</Item>
+        <Item>_ FORWARD</Item>
+        <Item>_ FORWARDS</Item>
+        <Item>_ FRANTICALLY</Item>
+        <Item>_ FREELY</Item>
+        <Item>_ FREQUENTLY</Item>
+        <Item>_ FROM TIME TO TIME</Item>
+        <Item>_ FULLY</Item>
+        <Item>_ FURTHER</Item>
+        <Item>_ FURTHERMORE</Item>
+        <Item>_ GENERALLY</Item>
+        <Item>_ GENTLY</Item>
+        <Item>_ GENUINELY</Item>
+        <Item>_ GLADLY</Item>
+        <Item>_ GRACEFULLY</Item>
+        <Item>_ GRADUALLY</Item>
+        <Item>_ GREATLY</Item>
+        <Item>_ GREEDILY</Item>
+        <Item>_ HAPPILY</Item>
+        <Item>_ HARDLY</Item>
+        <Item>_ HASTILY</Item>
+        <Item>_ HEAVILY</Item>
+        <Item>_ HENCE</Item>
+        <Item>_ HIGHLY</Item>
+        <Item>_ HITHERTO</Item>
+        <Item>_ HONESTLY</Item>
+        <Item>_ HOPEFULLY</Item>
+        <Item>_ HOURLY</Item>
+        <Item>_ HOWEVER</Item>
+        <Item>_ HUNGRILY</Item>
+        <Item>_ I E</Item>
+        <Item>_ IDEALLY</Item>
+        <Item>_ IE</Item>
+        <Item>_ IMMEDIATELY</Item>
+        <Item>_ IMPORTANTLY</Item>
+        <Item>_ IN ADDITION</Item>
+        <Item>_ IN GENERAL</Item>
+        <Item>_ IN PART</Item>
+        <Item>_ IN PARTICULAR</Item>
+        <Item>_ IN SHORT</Item>
+        <Item>_ INADVERTENTLY *</Item>
+        <Item>_ INADVERTENTLY</Item>
+        <Item>_ INCREASINGLY</Item>
+        <Item>_ INDEED</Item>
+        <Item>_ INDEFINITELY</Item>
+        <Item>_ INDEPENDENTLY</Item>
+        <Item>_ INDIVIDUALLY</Item>
+        <Item>_ INEVITABLY</Item>
+        <Item>_ INITIALLY</Item>
+        <Item>_ INNOCENTLY</Item>
+        <Item>_ INQUISITIVELY</Item>
+        <Item>_ INSIDE</Item>
+        <Item>_ INSTANTLY</Item>
+        <Item>_ INSTEAD</Item>
+        <Item>_ INVARIABLY</Item>
+        <Item>_ IRRITABLY</Item>
+        <Item>_ JOINTLY</Item>
+        <Item>_ JOYOUSLY</Item>
+        <Item>_ JUST ABOUT</Item>
+        <Item>_ JUST</Item>
+        <Item>_ JUSTLY</Item>
+        <Item>_ KINDLY</Item>
+        <Item>_ LARGELY</Item>
+        <Item>_ LATE</Item>
+        <Item>_ LATER</Item>
+        <Item>_ LAZILY</Item>
+        <Item>_ LIGHTLY</Item>
+        <Item>_ LIKEWISE</Item>
+        <Item>_ LITERALLY</Item>
+        <Item>_ LITTLE</Item>
+        <Item>_ LOCALLY</Item>
+        <Item>_ LONGER</Item>
+        <Item>_ LOOSELY</Item>
+        <Item>_ LOUDLY</Item>
+        <Item>_ MADLY</Item>
+        <Item>_ MAINLY</Item>
+        <Item>_ MAYBE</Item>
+        <Item>_ MEANWHILE</Item>
+        <Item>_ MENTALLY</Item>
+        <Item>_ MERELY</Item>
+        <Item>_ MERRILY</Item>
+        <Item>_ MONTHLY</Item>
+        <Item>_ MOREOVER</Item>
+        <Item>_ MORTALLY</Item>
+        <Item>_ MOSTLY</Item>
+        <Item>_ MYSTERIOUSLY</Item>
+        <Item>_ NAMELY</Item>
+        <Item>_ NATURALLY</Item>
+        <Item>_ NEARBY</Item>
+        <Item>_ NEARLY</Item>
+        <Item>_ NEATLY</Item>
+        <Item>_ NECESSARILY</Item>
+        <Item>_ NERVOUSLY</Item>
+        <Item>_ NEVERTHELESS</Item>
+        <Item>_ NEWLY</Item>
+        <Item>_ NO DOUBT</Item>
+        <Item>_ NOISILY</Item>
+        <Item>_ NONETHELESS</Item>
+        <Item>_ NORMALLY</Item>
+        <Item>_ NOTABLY</Item>
+        <Item>_ NOW</Item>
+        <Item>_ NOWADAYS</Item>
+        <Item>_ NOWHERE</Item>
+        <Item>_ OBEDIENTLY</Item>
+        <Item>_ OBNOXIOUSLY</Item>
+        <Item>_ OBVIOUSLY</Item>
+        <Item>_ OCCASIONALLY</Item>
+        <Item>_ OF COURSE</Item>
+        <Item>_ OFFICIALLY</Item>
+        <Item>_ OFTEN</Item>
+        <Item>_ ON BOARD</Item>
+        <Item>_ ONCE AGAIN</Item>
+        <Item>_ ONCE MORE</Item>
+        <Item>_ ONCE</Item>
+        <Item>_ ONLY</Item>
+        <Item>_ ONWARDS</Item>
+        <Item>_ OPENLY</Item>
+        <Item>_ ORIGINALLY</Item>
+        <Item>_ OTHERWISE</Item>
+        <Item>_ OUTSIDE</Item>
+        <Item>_ OVER THERE</Item>
+        <Item>_ OVERALL</Item>
+        <Item>_ OVERLY *</Item>
+        <Item>_ OVERNIGHT</Item>
+        <Item>_ PAINFULLY</Item>
+        <Item>_ PARTIALLY</Item>
+        <Item>_ PARTICULARLY</Item>
+        <Item>_ PARTLY</Item>
+        <Item>_ PERFECTLY</Item>
+        <Item>_ PERHAPS</Item>
+        <Item>_ PERMANENTLY</Item>
+        <Item>_ PERSONALLY</Item>
+        <Item>_ PHYSICALLY</Item>
+        <Item>_ PLEASE</Item>
+        <Item>_ POLITELY</Item>
+        <Item>_ POLITICALLY</Item>
+        <Item>_ POORLY</Item>
+        <Item>_ POSITIVELY</Item>
+        <Item>_ POSSIBLY</Item>
+        <Item>_ POTENTIALLY</Item>
+        <Item>_ POWERFULLY</Item>
+        <Item>_ PRACTICALLY</Item>
+        <Item>_ PRECISELY</Item>
+        <Item>_ PREDOMINANTLY</Item>
+        <Item>_ PRESUMABLY</Item>
+        <Item>_ PRETTY</Item>
+        <Item>_ PREVIOUSLY</Item>
+        <Item>_ PRIMARILY</Item>
+        <Item>_ PRIVATELY</Item>
+        <Item>_ PROBABLY</Item>
+        <Item>_ PROMPTLY</Item>
+        <Item>_ PROPERLY</Item>
+        <Item>_ PUBLICLY</Item>
+        <Item>_ PUNCTUALLY</Item>
+        <Item>_ PURELY</Item>
+        <Item>_ QUICKLY</Item>
+        <Item>_ QUIETLY</Item>
+        <Item>_ QUITE</Item>
+        <Item>_ RAPIDLY</Item>
+        <Item>_ RARELY</Item>
+        <Item>_ RATHER</Item>
+        <Item>_ READILY</Item>
+        <Item>_ REALLY</Item>
+        <Item>_ REASONABLY</Item>
+        <Item>_ RECENTLY</Item>
+        <Item>_ RECKLESSLY</Item>
+        <Item>_ REGARDLESS</Item>
+        <Item>_ REGULARLY</Item>
+        <Item>_ RELATIVELY</Item>
+        <Item>_ RELUCTANTLY</Item>
+        <Item>_ REMARKABLY</Item>
+        <Item>_ REPEATEDLY</Item>
+        <Item>_ REPORTEDLY</Item>
+        <Item>_ RESPECTIVELY</Item>
+        <Item>_ RIGHTFULLY</Item>
+        <Item>_ RIGHTLY</Item>
+        <Item>_ ROUGHLY</Item>
+        <Item>_ ROUND</Item>
+        <Item>_ RUDELY</Item>
+        <Item>_ SADLY</Item>
+        <Item>_ SAFELY</Item>
+        <Item>_ SCARCELY</Item>
+        <Item>_ SECONDLY</Item>
+        <Item>_ SEEMINGLY</Item>
+        <Item>_ SELDOM</Item>
+        <Item>_ SELFISHLY</Item>
+        <Item>_ SEPARATELY</Item>
+        <Item>_ SERIOUSLY</Item>
+        <Item>_ SEVERAL *</Item>
+        <Item>_ SEVERELY</Item>
+        <Item>_ SHAKILY</Item>
+        <Item>_ SHARPLY</Item>
+        <Item>_ SHORTLY</Item>
+        <Item>_ SHRILLY</Item>
+        <Item>_ SHYLY</Item>
+        <Item>_ SIGNIFICANTLY</Item>
+        <Item>_ SILENTLY</Item>
+        <Item>_ SIMILARLY</Item>
+        <Item>_ SIMPLY</Item>
+        <Item>_ SIMULTANEOUSLY</Item>
+        <Item>_ SINCE</Item>
+        <Item>_ SINCERELY</Item>
+        <Item>_ SLEEPILY</Item>
+        <Item>_ SLIGHTLY</Item>
+        <Item>_ SLOWLY</Item>
+        <Item>_ SMOOTHLY</Item>
+        <Item>_ SOCIALLY</Item>
+        <Item>_ SOFTLY</Item>
+        <Item>_ SOLELY</Item>
+        <Item>_ SOLEMNLY</Item>
+        <Item>_ SOMEHOW</Item>
+        <Item>_ SOMETIMES</Item>
+        <Item>_ SOMEWHAT</Item>
+        <Item>_ SOMEWHERE</Item>
+        <Item>_ SOON</Item>
+        <Item>_ SORT OF</Item>
+        <Item>_ SPECIALLY</Item>
+        <Item>_ SPECIFICALLY</Item>
+        <Item>_ SPEEDILY</Item>
+        <Item>_ STEADILY</Item>
+        <Item>_ STEALTHILY</Item>
+        <Item>_ STERNLY</Item>
+        <Item>_ STILL</Item>
+        <Item>_ STRAIGHT</Item>
+        <Item>_ STRICTLY</Item>
+        <Item>_ STRONGLY</Item>
+        <Item>_ SUBSEQUENTLY</Item>
+        <Item>_ SUBSTANTIALLY</Item>
+        <Item>_ SUCCESSFULLY</Item>
+        <Item>_ SUDDENLY</Item>
+        <Item>_ SUFFICIENTLY</Item>
+        <Item>_ SURELY</Item>
+        <Item>_ SURPRISINGLY</Item>
+        <Item>_ SUSPICIOUSLY</Item>
+        <Item>_ SWIFTLY</Item>
+        <Item>_ TEMPORARILY</Item>
+        <Item>_ TENDERLY</Item>
+        <Item>_ TENSELY</Item>
+        <Item>_ TERRIBLY</Item>
+        <Item>_ THEREAFTER</Item>
+        <Item>_ THEREBY</Item>
+        <Item>_ THEREFORE</Item>
+        <Item>_ THOROUGHLY</Item>
+        <Item>_ THOUGH</Item>
+        <Item>_ THOUGHTFULLY</Item>
+        <Item>_ THROUGH</Item>
+        <Item>_ TIGHTLY</Item>
+        <Item>_ TODAY</Item>
+        <Item>_ TOGETHER</Item>
+        <Item>_ TOMORROW</Item>
+        <Item>_ TONIGHT</Item>
+        <Item>_ TOO MUCH</Item>
+        <Item>_ TOTALLY</Item>
+        <Item>_ TRADITIONALLY</Item>
+        <Item>_ TRULY</Item>
+        <Item>_ TRUTHFULLY</Item>
+        <Item>_ TYPICALLY</Item>
+        <Item>_ ULTIMATELY</Item>
+        <Item>_ UNDOUBTEDLY</Item>
+        <Item>_ UNEXPECTEDLY</Item>
+        <Item>_ UNFORTUNATELY</Item>
+        <Item>_ UP TO</Item>
+        <Item>_ UPSTAIRS</Item>
+        <Item>_ USUALLY</Item>
+        <Item>_ UTTERLY</Item>
+        <Item>_ VERY</Item>
+        <Item>_ VICTORIOUSLY</Item>
+        <Item>_ VIOLENTLY</Item>
+        <Item>_ VIRTUALLY</Item>
+        <Item>_ VIVACIOUSLY</Item>
+        <Item>_ WARMLY</Item>
+        <Item>_ WEAKLY</Item>
+        <Item>_ WEARILY</Item>
+        <Item>_ WHENEVER</Item>
+        <Item>_ WHEREBY</Item>
+        <Item>_ WHEREVER</Item>
+        <Item>_ WHOLLY</Item>
+        <Item>_ WIDELY</Item>
+        <Item>_ WILDLY</Item>
+        <Item>_ WITHIN</Item>
+        <Item>_ WORLDWIDE</Item>
+        <Item>_ YEARLY</Item>
+        <Item>_ YESTERDAY</Item>
+      </Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>
+        <Item>_  CROSSLY *</Item>
+        <Item>_ A BIT OF *</Item>
+        <Item>_ A GREAT DEAL *</Item>
+        <Item>_ A LITTLE *</Item>
+        <Item>_ A LOT *</Item>
+        <Item>_ ABOVE *</Item>
+        <Item>_ ABROAD *</Item>
+        <Item>_ ABRUPTLY *</Item>
+        <Item>_ ABSOLUTELY *</Item>
+        <Item>_ ACCIDENTALLY *</Item>
+        <Item>_ ACCORDINGLY *</Item>
+        <Item>_ ACCURATELY *</Item>
+        <Item>_ ACTIVELY *</Item>
+        <Item>_ ACTUALLY *</Item>
+        <Item>_ ADEQUATELY *</Item>
+        <Item>_ AFTERWARDS *</Item>
+        <Item>_ AGAIN *</Item>
+        <Item>_ AHEAD *</Item>
+        <Item>_ ALL RIGHT *</Item>
+        <Item>_ ALMOST *</Item>
+        <Item>_ ALONE *</Item>
+        <Item>_ ALREADY *</Item>
+        <Item>_ ALRIGHT *</Item>
+        <Item>_ ALSO *</Item>
+        <Item>_ ALTERNATIVELY *</Item>
+        <Item>_ ALTOGETHER *</Item>
+        <Item>_ ALWAYS *</Item>
+        <Item>_ AND SO ON *</Item>
+        <Item>_ ANGRILY *</Item>
+        <Item>_ ANNUALLY *</Item>
+        <Item>_ ANXIOUSLY *</Item>
+        <Item>_ ANYWAY *</Item>
+        <Item>_ ANYWHERE *</Item>
+        <Item>_ APART *</Item>
+        <Item>_ APPARENTLY *</Item>
+        <Item>_ APPROXIMATELY *</Item>
+        <Item>_ AROUND *</Item>
+        <Item>_ AS USUAL *</Item>
+        <Item>_ AS YET *</Item>
+        <Item>_ ASIDE *</Item>
+        <Item>_ AS WELL *</Item>
+        <Item>_ AT ALL *</Item>
+        <Item>_ AT FIRST *</Item>
+        <Item>_ AT LAST *</Item>
+        <Item>_ AT LEAST *</Item>
+        <Item>_ AT ONCE *</Item>
+        <Item>_ AT PRESENT *</Item>
+        <Item>_ AUTOMATICALLY *</Item>
+        <Item>_ AWKWARDLY *</Item>
+        <Item>_ BACKWARDS *</Item>
+        <Item>_ BADLY *</Item>
+        <Item>_ BARELY *</Item>
+        <Item>_ BASICALLY *</Item>
+        <Item>_ BEAUTIFULLY *</Item>
+        <Item>_ BEFORE *</Item>
+        <Item>_ BEHIND *</Item>
+        <Item>_ BELOW *</Item>
+        <Item>_ BESIDES *</Item>
+        <Item>_ BEYOND *</Item>
+        <Item>_ BITTERLY *</Item>
+        <Item>_ BLINDLY *</Item>
+        <Item>_ BLOODY *</Item>
+        <Item>_ BOASTFULLY *</Item>
+        <Item>_ BOLDLY *</Item>
+        <Item>_ BOTH *</Item>
+        <Item>_ BRAVELY *</Item>
+        <Item>_ BRIEFLY *</Item>
+        <Item>_ BRIGHTLY *</Item>
+        <Item>_ BROADLY *</Item>
+        <Item>_ BUSILY *</Item>
+        <Item>_ BY NO MEANS *</Item>
+        <Item>_ BY NOW *</Item>
+        <Item>_ CALMLY *</Item>
+        <Item>_ CAREFULLY *</Item>
+        <Item>_ CARELESSLY *</Item>
+        <Item>_ CAUTIOUSLY *</Item>
+        <Item>_ CERTAINLY *</Item>
+        <Item>_ CHEERFULLY *</Item>
+        <Item>_ CLEARLY *</Item>
+        <Item>_ CLOSELY *</Item>
+        <Item>_ CLOSER *</Item>
+        <Item>_ COMMONLY *</Item>
+        <Item>_ COMPARATIVELY *</Item>
+        <Item>_ COMPLETELY *</Item>
+        <Item>_ CONSEQUENTLY *</Item>
+        <Item>_ CONSIDERABLY *</Item>
+        <Item>_ CONSISTENTLY *</Item>
+        <Item>_ CONSTANTLY *</Item>
+        <Item>_ CONTINUALLY *</Item>
+        <Item>_ CORRECTLY *</Item>
+        <Item>_ COURAGEOUSLY *</Item>
+        <Item>_ CRUELLY *</Item>
+        <Item>_ CURRENTLY *</Item>
+        <Item>_ DAILY *</Item>
+        <Item>_ DEEPLY *</Item>
+        <Item>_ DEFIANTLY *</Item>
+        <Item>_ DEFINITELY *</Item>
+        <Item>_ DELIBERATELY *</Item>
+        <Item>_ DESPERATELY *</Item>
+        <Item>_ DIFFERENTLY *</Item>
+        <Item>_ DIRECTLY *</Item>
+        <Item>_ DOUBTFULLY *</Item>
+        <Item>_ DRAMATICALLY *</Item>
+        <Item>_ E G *</Item>
+        <Item>_ EARLIER *</Item>
+        <Item>_ EARLY *</Item>
+        <Item>_ EASIER *</Item>
+        <Item>_ EASILY *</Item>
+        <Item>_ EFFECTIVELY *</Item>
+        <Item>_ EFFICIENTLY *</Item>
+        <Item>_ EG *</Item>
+        <Item>_ ELEGANTLY *</Item>
+        <Item>_ ELSEWHERE *</Item>
+        <Item>_ ENORMOUSLY *</Item>
+        <Item>_ ENTHUSIASTICALLY *</Item>
+        <Item>_ ENTIRELY *</Item>
+        <Item>_ EQUALLY *</Item>
+        <Item>_ ESPECIALLY *</Item>
+        <Item>_ ESSENTIALLY *</Item>
+        <Item>_ ET AL *</Item>
+        <Item>_ ETC *</Item>
+        <Item>_ EVEN *</Item>
+        <Item>_ EVEN SO *</Item>
+        <Item>_ EVENTUALLY *</Item>
+        <Item>_ EVER *</Item>
+        <Item>_ EVERYWHERE *</Item>
+        <Item>_ EVIDENTLY *</Item>
+        <Item>_ EXACTLY *</Item>
+        <Item>_ EXCLUSIVELY *</Item>
+        <Item>_ EXPLICITLY *</Item>
+        <Item>_ EXTREMELY *</Item>
+        <Item>_ FAIRLY *</Item>
+        <Item>_ FAITHFULLY *</Item>
+        <Item>_ FAR *</Item>
+        <Item>_ FAST *</Item>
+        <Item>_ FASTER *</Item>
+        <Item>_ FATALLY *</Item>
+        <Item>_ FIERCELY *</Item>
+        <Item>_ FINALLY *</Item>
+        <Item>_ FIRMLY *</Item>
+        <Item>_ FIRSTLY *</Item>
+        <Item>_ FONDLY *</Item>
+        <Item>_ FOOLISHLY *</Item>
+        <Item>_ FOR EVER *</Item>
+        <Item>_ FOR EXAMPLE *</Item>
+        <Item>_ FOR INSTANCE *</Item>
+        <Item>_ FOREVER *</Item>
+        <Item>_ FORMALLY *</Item>
+        <Item>_ FORMERLY *</Item>
+        <Item>_ FORTUNATELY *</Item>
+        <Item>_ FORWARD *</Item>
+        <Item>_ FORWARDS *</Item>
+        <Item>_ FRANTICALLY *</Item>
+        <Item>_ FREELY *</Item>
+        <Item>_ FREQUENTLY *</Item>
+        <Item>_ FROM TIME TO TIME *</Item>
+        <Item>_ FULLY *</Item>
+        <Item>_ FURTHER *</Item>
+        <Item>_ FURTHERMORE *</Item>
+        <Item>_ GENERALLY *</Item>
+        <Item>_ GENTLY *</Item>
+        <Item>_ GENUINELY *</Item>
+        <Item>_ GLADLY *</Item>
+        <Item>_ GRACEFULLY *</Item>
+        <Item>_ GRADUALLY *</Item>
+        <Item>_ GREATLY *</Item>
+        <Item>_ GREEDILY *</Item>
+        <Item>_ HAPPILY *</Item>
+        <Item>_ HARDLY *</Item>
+        <Item>_ HASTILY *</Item>
+        <Item>_ HEAVILY *</Item>
+        <Item>_ HENCE *</Item>
+        <Item>_ HIGHLY *</Item>
+        <Item>_ HITHERTO *</Item>
+        <Item>_ HONESTLY *</Item>
+        <Item>_ HOPEFULLY *</Item>
+        <Item>_ HOURLY *</Item>
+        <Item>_ HUNGRILY *</Item>
+        <Item>_ I E *</Item>
+        <Item>_ IDEALLY *</Item>
+        <Item>_ IE *</Item>
+        <Item>_ IMMEDIATELY *</Item>
+        <Item>_ IMPORTANTLY *</Item>
+        <Item>_ IN ADDITION *</Item>
+        <Item>_ IN GENERAL *</Item>
+        <Item>_ IN PART *</Item>
+        <Item>_ IN PARTICULAR *</Item>
+        <Item>_ IN SHORT *</Item>
+        <Item>_ INCREASINGLY *</Item>
+        <Item>_ INDEED *</Item>
+        <Item>_ INDEFINITELY *</Item>
+        <Item>_ INDEPENDENTLY *</Item>
+        <Item>_ INDIVIDUALLY *</Item>
+        <Item>_ INEVITABLY *</Item>
+        <Item>_ INITIALLY *</Item>
+        <Item>_ INNOCENTLY *</Item>
+        <Item>_ INQUISITIVELY *</Item>
+        <Item>_ INSIDE *</Item>
+        <Item>_ INSTANTLY *</Item>
+        <Item>_ INSTEAD *</Item>
+        <Item>_ INVARIABLY *</Item>
+        <Item>_ IRRITABLY *</Item>
+        <Item>_ JOINTLY *</Item>
+        <Item>_ JOYOUSLY *</Item>
+        <Item>_ JUST *</Item>
+        <Item>_ JUST ABOUT *</Item>
+        <Item>_ JUSTLY *</Item>
+        <Item>_ KINDLY *</Item>
+        <Item>_ LARGELY *</Item>
+        <Item>_ LATE *</Item>
+        <Item>_ LATER *</Item>
+        <Item>_ LAZILY *</Item>
+        <Item>_ LIGHTLY *</Item>
+        <Item>_ LIKEWISE *</Item>
+        <Item>_ LITERALLY *</Item>
+        <Item>_ LITTLE *</Item>
+        <Item>_ LOCALLY *</Item>
+        <Item>_ LONGER *</Item>
+        <Item>_ LOOSELY *</Item>
+        <Item>_ LOUDLY *</Item>
+        <Item>_ MADLY *</Item>
+        <Item>_ MAINLY *</Item>
+        <Item>_ MAYBE *</Item>
+        <Item>_ MEANWHILE *</Item>
+        <Item>_ MENTALLY *</Item>
+        <Item>_ MERELY *</Item>
+        <Item>_ MERRILY *</Item>
+        <Item>_ MONTHLY *</Item>
+        <Item>_ MOREOVER *</Item>
+        <Item>_ MORTALLY *</Item>
+        <Item>_ MOSTLY *</Item>
+        <Item>_ MYSTERIOUSLY *</Item>
+        <Item>_ NAMELY *</Item>
+        <Item>_ NATURALLY *</Item>
+        <Item>_ NEARBY *</Item>
+        <Item>_ NEARLY *</Item>
+        <Item>_ NEATLY *</Item>
+        <Item>_ NECESSARILY *</Item>
+        <Item>_ NERVOUSLY *</Item>
+        <Item>_ NEVERTHELESS *</Item>
+        <Item>_ NEWLY *</Item>
+        <Item>_ NO DOUBT *</Item>
+        <Item>_ NOISILY *</Item>
+        <Item>_ NONETHELESS *</Item>
+        <Item>_ NORMALLY *</Item>
+        <Item>_ NOTABLY *</Item>
+        <Item>_ NOW *</Item>
+        <Item>_ NOWADAYS *</Item>
+        <Item>_ NOWHERE *</Item>
+        <Item>_ OBEDIENTLY *</Item>
+        <Item>_ OBNOXIOUSLY *</Item>
+        <Item>_ OBVIOUSLY *</Item>
+        <Item>_ OCCASIONALLY *</Item>
+        <Item>_ OF COURSE *</Item>
+        <Item>_ OFFICIALLY *</Item>
+        <Item>_ OFTEN *</Item>
+        <Item>_ ON BOARD *</Item>
+        <Item>_ ONCE *</Item>
+        <Item>_ ONCE AGAIN *</Item>
+        <Item>_ ONCE MORE *</Item>
+        <Item>_ ONLY *</Item>
+        <Item>_ ONWARDS *</Item>
+        <Item>_ OPENLY *</Item>
+        <Item>_ ORIGINALLY *</Item>
+        <Item>_ OTHERWISE *</Item>
+        <Item>_ OUTSIDE *</Item>
+        <Item>_ OVER THERE *</Item>
+        <Item>_ OVERALL *</Item>
+        <Item>_ OVERNIGHT *</Item>
+        <Item>_ PAINFULLY *</Item>
+        <Item>_ PARTIALLY *</Item>
+        <Item>_ PARTICULARLY *</Item>
+        <Item>_ PARTLY *</Item>
+        <Item>_ PERFECTLY *</Item>
+        <Item>_ PERHAPS *</Item>
+        <Item>_ PERMANENTLY *</Item>
+        <Item>_ PERSONALLY *</Item>
+        <Item>_ PHYSICALLY *</Item>
+        <Item>_ PLEASE *</Item>
+        <Item>_ POLITELY *</Item>
+        <Item>_ POLITICALLY *</Item>
+        <Item>_ POORLY *</Item>
+        <Item>_ POSITIVELY *</Item>
+        <Item>_ POSSIBLY *</Item>
+        <Item>_ POTENTIALLY *</Item>
+        <Item>_ POWERFULLY *</Item>
+        <Item>_ PRACTICALLY *</Item>
+        <Item>_ PRECISELY *</Item>
+        <Item>_ PREDOMINANTLY *</Item>
+        <Item>_ PRESUMABLY *</Item>
+        <Item>_ PRETTY *</Item>
+        <Item>_ PREVIOUSLY *</Item>
+        <Item>_ PRIMARILY *</Item>
+        <Item>_ PRIVATELY *</Item>
+        <Item>_ PROBABLY *</Item>
+        <Item>_ PROMPTLY *</Item>
+        <Item>_ PROPERLY *</Item>
+        <Item>_ PUBLICLY *</Item>
+        <Item>_ PUNCTUALLY *</Item>
+        <Item>_ PURELY *</Item>
+        <Item>_ QUICKLY *</Item>
+        <Item>_ QUIETLY *</Item>
+        <Item>_ QUITE *</Item>
+        <Item>_ RAPIDLY *</Item>
+        <Item>_ RARELY *</Item>
+        <Item>_ READILY *</Item>
+        <Item>_ REALLY *</Item>
+        <Item>_ REASONABLY *</Item>
+        <Item>_ RECENTLY *</Item>
+        <Item>_ RECKLESSLY *</Item>
+        <Item>_ REGARDLESS *</Item>
+        <Item>_ REGULARLY *</Item>
+        <Item>_ RELATIVELY *</Item>
+        <Item>_ RELUCTANTLY *</Item>
+        <Item>_ REMARKABLY *</Item>
+        <Item>_ REPEATEDLY *</Item>
+        <Item>_ REPORTEDLY *</Item>
+        <Item>_ RESPECTIVELY *</Item>
+        <Item>_ RIGHTFULLY *</Item>
+        <Item>_ RIGHTLY *</Item>
+        <Item>_ ROUGHLY *</Item>
+        <Item>_ ROUND *</Item>
+        <Item>_ RUDELY *</Item>
+        <Item>_ SADLY *</Item>
+        <Item>_ SAFELY *</Item>
+        <Item>_ SCARCELY *</Item>
+        <Item>_ SECONDLY *</Item>
+        <Item>_ SEEMINGLY *</Item>
+        <Item>_ SELDOM *</Item>
+        <Item>_ SELFISHLY *</Item>
+        <Item>_ SEPARATELY *</Item>
+        <Item>_ SERIOUSLY *</Item>
+        <Item>_ SEVERELY *</Item>
+        <Item>_ SHAKILY *</Item>
+        <Item>_ SHARPLY *</Item>
+        <Item>_ SHORTLY *</Item>
+        <Item>_ SHRILLY *</Item>
+        <Item>_ SHYLY *</Item>
+        <Item>_ SIGNIFICANTLY *</Item>
+        <Item>_ SILENTLY *</Item>
+        <Item>_ SIMILARLY *</Item>
+        <Item>_ SIMPLY *</Item>
+        <Item>_ SIMULTANEOUSLY *</Item>
+        <Item>_ SINCE *</Item>
+        <Item>_ SINCERELY *</Item>
+        <Item>_ SLEEPILY *</Item>
+        <Item>_ SLIGHTLY *</Item>
+        <Item>_ SLOWLY *</Item>
+        <Item>_ SMOOTHLY *</Item>
+        <Item>_ SOCIALLY *</Item>
+        <Item>_ SOFTLY *</Item>
+        <Item>_ SOLELY *</Item>
+        <Item>_ SOLEMNLY *</Item>
+        <Item>_ SOMEHOW *</Item>
+        <Item>_ SOMETIMES *</Item>
+        <Item>_ SOMEWHAT *</Item>
+        <Item>_ SOMEWHERE *</Item>
+        <Item>_ SOON *</Item>
+        <Item>_ SORT OF *</Item>
+        <Item>_ SPECIALLY *</Item>
+        <Item>_ SPECIFICALLY *</Item>
+        <Item>_ SPEEDILY *</Item>
+        <Item>_ STEADILY *</Item>
+        <Item>_ STEALTHILY *</Item>
+        <Item>_ STERNLY *</Item>
+        <Item>_ STILL *</Item>
+        <Item>_ STRAIGHT *</Item>
+        <Item>_ STRICTLY *</Item>
+        <Item>_ STRONGLY *</Item>
+        <Item>_ SUBSEQUENTLY *</Item>
+        <Item>_ SUBSTANTIALLY *</Item>
+        <Item>_ SUCCESSFULLY *</Item>
+        <Item>_ SUDDENLY *</Item>
+        <Item>_ SUFFICIENTLY *</Item>
+        <Item>_ SURELY *</Item>
+        <Item>_ SURPRISINGLY *</Item>
+        <Item>_ SUSPICIOUSLY *</Item>
+        <Item>_ SWIFTLY *</Item>
+        <Item>_ TEMPORARILY *</Item>
+        <Item>_ TENDERLY *</Item>
+        <Item>_ TENSELY *</Item>
+        <Item>_ TERRIBLY *</Item>
+        <Item>_ THEREAFTER *</Item>
+        <Item>_ THEREBY *</Item>
+        <Item>_ THEREFORE *</Item>
+        <Item>_ THOROUGHLY *</Item>
+        <Item>_ THOUGH *</Item>
+        <Item>_ THOUGHTFULLY *</Item>
+        <Item>_ THROUGH *</Item>
+        <Item>_ TIGHTLY *</Item>
+        <Item>_ TODAY *</Item>
+        <Item>_ TOGETHER *</Item>
+        <Item>_ TOMORROW *</Item>
+        <Item>_ TONIGHT *</Item>
+        <Item>_ TOO *</Item>
+        <Item>_ TOO MUCH *</Item>
+        <Item>_ TOTALLY *</Item>
+        <Item>_ TRADITIONALLY *</Item>
+        <Item>_ TRULY *</Item>
+        <Item>_ TRUTHFULLY *</Item>
+        <Item>_ TYPICALLY *</Item>
+        <Item>_ ULTIMATELY *</Item>
+        <Item>_ UNDOUBTEDLY *</Item>
+        <Item>_ UNEXPECTEDLY *</Item>
+        <Item>_ UNFORTUNATELY *</Item>
+        <Item>_ UP TO *</Item>
+        <Item>_ UPSTAIRS *</Item>
+        <Item>_ USUALLY *</Item>
+        <Item>_ UTTERLY *</Item>
+        <Item>_ VERY *</Item>
+        <Item>_ VICTORIOUSLY *</Item>
+        <Item>_ VIOLENTLY *</Item>
+        <Item>_ VIRTUALLY *</Item>
+        <Item>_ VIVACIOUSLY *</Item>
+        <Item>_ WARMLY *</Item>
+        <Item>_ WEAKLY *</Item>
+        <Item>_ WEARILY *</Item>
+        <Item>_ WHENEVER *</Item>
+        <Item>_ WHEREBY *</Item>
+        <Item>_ WHEREVER *</Item>
+        <Item>_ WHOLLY *</Item>
+        <Item>_ WIDELY *</Item>
+        <Item>_ WILDLY *</Item>
+        <Item>_ WITHIN *</Item>
+        <Item>_ WORLDWIDE *</Item>
+        <Item>_ YEARLY *</Item>
+        <Item>_ YESTERDAY *</Item>
+        <Item>_ YET *</Item>
+      </Pattern>
+      <Response>
+        <Goto xml:space="preserve">
+          <Match /> <Match Index="2" /></Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,6625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Reducer">
+    <Model>
+      <Pattern>_ DO YOU REMEMBER</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ EXPONENTIALLY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ FOR ANY REASON</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ FOR EVERY PERSON</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IN ANYONE OR ANYTHING</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IN EITHER DIECTION</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IN MY OPINION</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WHICH IS A GOOD THING</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WHICH WAS A GOOD THING</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ YOU GET MY DRIFT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ YOU KNOW</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>A VARIETY OF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALAS *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANALYSTS HERE SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BECAUCSE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BECAUSE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BIG OOPS _</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FIRST OFF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR SOME REASON *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR STARTERS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FROM ON *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GUYS GET OVER YOURSELVES AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HEY BITCH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW *</Pattern>
+      <Response>
+How <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU ANSWER THIS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU ANSWER THIS QUESTION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AGREE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SHOCKED AT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I ASKED TO SEE HIM TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HEARD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HEARD THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HOPE THIS IS NOT A STING OR SOMETHING</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I KNOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SWEAR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF _ THAT IS</Pattern>
+      <Response>
+IF <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IMAGINE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN ACTUALITY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN FACT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN REGARDS TO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INTERESTS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS A MATTER OF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FUNNY *</Pattern>
+      <Response>
+        <Goto>It is funny</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT SEEMS AS IF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT SEEMS LIKE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LATELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LET ME WRITE ABOUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MANY TIMES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MAY BE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MAYBE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY FRIENDS SAY *</Pattern>
+      <Response>
+How long have you known these people? <Think><User Set="they"><User Set="concept">your friends</User></User></Think><Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>MY HUSBAND THINKS *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY RANT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY RANT IS THIS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT BAD *</Pattern>
+      <Response>
+        <Goto>not bad</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ON THE TRAIN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OTHER THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>POLITICAL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOMETIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THANKS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE FUNNY THING IS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE POINT BEING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE POINT IS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THEN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THEN I CALLED MY DAD AND TOLD HIM THE SAME</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THINK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THINK ABOUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS IS AN EXAMPLE OF HOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TIMES A DAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TO *</Pattern>
+      <Response>
+To <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>TO ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TRY AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT TO DO WHAT TO DO *</Pattern>
+      <Response>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHICH IS WHY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WORST PART IS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU TOLD ME THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ AS I WAS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>I was <Match Index="2" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ AS IS THE CASE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ BUT WHO KNOWS</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ BY HEART</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ FOR NOW</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HOWEVER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>
+          <Match Index="2" />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IF YOU DO NOT MIND</Pattern>
+      <Response>
+I don't mind at all. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ INTERESTS</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IS THIS TRUE</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ NOTHING ELSE</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ ONE DAY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ OOPS</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ POLITICAL</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ QUOT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WHEN I GET HOME</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WITH ME</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ AND I *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>I <Match Index="2" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ EITHER</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ GT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HE SAID</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ I SAID</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ SHE SAID</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ THEY SAID</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WE SAID</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WHAT TIME IS IT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>what time is it </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WITH ME</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>A FEW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>A LITTLE BIT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>A LITTLE BIT OF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>A LONG TIME AGO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ABSOLUTELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ACTUALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ADMIT * </Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AFTER THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AGAIN *</Pattern>
+      <Response>
+Again, <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>AGREED *</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AH *</Pattern>
+      <Response>
+So you understand. Good. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>AHH *</Pattern>
+      <Response>
+Ah ha. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>AHHH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALL I KNOW IS * </Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALL I KNOW IS THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALL I WANT TO KNOW IS *</Pattern>
+      <Response>
+That is reasonable. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALL MY FRIENDS KNOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALL MY FRIENDS SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALL MY LIFE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  The dream of a lifetime.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ALL RIGHT *</Pattern>
+      <Response>
+Alright. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALLRIGHT *</Pattern>
+      <Response>
+Allright then. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALMOST *</Pattern>
+      <Response>
+Nearly so. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALREADY *</Pattern>
+      <Response>
+When? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALRIGHT *</Pattern>
+      <Response>
+Alright, <User Get="name" />. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALRIGHTY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALSO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALTHOUGH *</Pattern>
+      <Response>
+Oh. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ALWAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AMONG OTHER THINGS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AND SO * </Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANOTHER QUESTION FOR YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANSWER THE QUESTION *</Pattern>
+      <Response>
+What was the question? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ANSWER THIS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANYWAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANYWAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>APPARENTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS A HUMAN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS A MACHINE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS A MATTER OF FACT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS A REQUIREMENT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS A ROBOT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS ALWAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS AN ARTIFICIAL LIFE FORM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS ARE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS DO I *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS EINSTEIN SAID *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS FOR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS FREUD SAID *</Pattern>
+      <Response>
+Did he really say that? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>AS HAVE I *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS I SAID *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS IN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS LONG AS *</Pattern>
+      <Response>
+That could be quite a while.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>AS OF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AS THEY SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ASK YOURSELF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AT BEST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AT FIRST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> And then?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>AT LEAST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AT ONE TIME *</Pattern>
+      <Response>
+When was that? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>AT OTHER TIMES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AT THE MOMENT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AT THE SAME TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AT TIMES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AWW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AWWW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BABY *</Pattern>
+      <Response>
+Don't call me "Baby". <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>BADLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BARELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BASICALLY *</Pattern>
+      <Response>
+How interesting. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>BECAUSE *</Pattern>
+      <Response>
+        <Random>
+          <Item>Good reason.  </Item>
+          <Item>Interesting explanation.  </Item>
+          <Item>That makes sense to me.  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BECAUSE I SAID * </Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BESIDES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BESIDES CHATTERBOTS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BIGGER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>bigger</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BIN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BLUE *</Pattern>
+      <Response>
+Green. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>BOLLOCKS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BOOKS *</Pattern>
+      <Response>
+        <Goto>books</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+        <Think>
+          <User Set="personality">critical</User>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BOY *</Pattern>
+      <Response>
+Oh boy. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>BTW *</Pattern>
+      <Response>
+OK. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>BULLSHIT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>.  But you don't need to use that kind of language.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BUMMER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BY GEORGE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BY THE WAY *</Pattern>
+      <Response>
+Thanks for telling me. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I ASK *</Pattern>
+      <Response>
+Ask <User Set="it"><Map Get="person" /></User>.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I ASK YOU *</Pattern>
+      <Response>
+Sure, ask me anything.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU *</Pattern>
+      <Response>
+        <Random>
+          <Item>  Let me think.  </Item>
+          <Item> How old are you?  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU E MAIL *</Pattern>
+      <Response>
+Sure I can email. What is your email address? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU EMAIL *</Pattern>
+      <Response>
+Sure I can email. What is your email address? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU EXPLAIN TO ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CERTAINLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CLEARLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Is it that obvious?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COME AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Is this an invitation?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COME ON *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COMPLETELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CONVERSATIONALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CONVERSELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COOL AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>cool</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COOL SO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>cool</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COOL THAT *</Pattern>
+      <Response>
+        <Goto>cool</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CORRECT *</Pattern>
+      <Response>
+        <Goto>correct</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CORRECTION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CURRENTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>D00D *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DAMMIT *</Pattern>
+      <Response>
+Gosh. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>DAMN *</Pattern>
+      <Response>
+Colloquial expression. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>DAMN IT *</Pattern>
+      <Response>
+Don't be angry. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>DARN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DEFINETLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DEFINITELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DID I TELL YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO NOT CRY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>do not cry</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO NOT TELL ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO NOT WORRY I UNDERSTAND</Pattern>
+      <Response>
+I am not worried. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU ACCEPT THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU AGREE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW OR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>do you know</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW THAT *</Pattern>
+      <Response>
+Is that a fact.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU MEAN LIKE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU MEAN THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU REALIZE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU UNDERSTAND THAT *</Pattern>
+      <Response>
+        <Goto>do you understand</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DOES THAT MEAN *</Pattern>
+      <Response>
+I think it does mean that. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>DOH *</Pattern>
+      <Response>
+        <Goto>doh</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DONC *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DOUBTFUL *</Pattern>
+      <Response>
+        <Goto>I doubt it </Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DUDE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Dude,
+</Response>
+    </Model>
+    <Model>
+      <Pattern>E MAIL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EARLIER *</Pattern>
+      <Response>
+What time? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>EITHER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EM *</Pattern>
+      <Response>
+Um. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>EMAIL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EMM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EMOTIONALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ENOUGH ABOUT ME *</Pattern>
+      <Response>
+I may have some more questions for you later. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ERR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ERRR *</Pattern>
+      <Response>
+Um, <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ESPECIALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  How about that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>EUH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVEN THOUGH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVENTUALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVERY NIGHT *</Pattern>
+      <Response>
+After dark? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>EVIDENTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXACTLY *</Pattern>
+      <Response>
+I understand. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>EXCEPT ONLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXCUSE ME *</Pattern>
+      <Response>
+You are excused! <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>EXTREMELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FEELINGS LIKE *</Pattern>
+      <Response>
+Oh those kind. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>FIGURES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FINALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Ah.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FINE *</Pattern>
+      <Response>
+I am glad to hear it. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>FIRST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> And second?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FOR ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR NOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR ONCE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR SURE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR THE LAST TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR THE SECOND TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FOR YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> Only for me?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FOREVER *</Pattern>
+      <Response>
+That seems like an awfully long time. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>FORGET THIS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FRANKLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Aren't you always frank?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FRANKLY NOT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> Were you not being frank before?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>FRENCH AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>do you speak french</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FROM WHAT I HAVE BEEN ABLE TO DETERMINE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GAWD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GEE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GEEZ *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GENERALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GET LOST *</Pattern>
+      <Response>
+See you later. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>GO AHEAD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> I might.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GO AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GO ON AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GO RIGHT AHEAD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> I might.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GOES TO SHOW YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOLLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD AFTERNOON *</Pattern>
+      <Response>
+How are you today? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD IDEA *</Pattern>
+      <Response>
+Thanks. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>GREAT *</Pattern>
+      <Response>
+Thanks for your support. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>GRR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HA HA *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>ha ha</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAH *</Pattern>
+      <Response>
+        <Goto>ha</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HALLO *</Pattern>
+      <Response>
+Hallo! <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU BEEN TOLD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Not until now.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU NOTICED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Yeah, I've noticed.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE HE *</Pattern>
+      <Response>
+        <Goto>ha ha </Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HE TOLD ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HECK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HEH *</Pattern>
+      <Response>
+Funny, eh? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HEHO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HELL *</Pattern>
+      <Response>
+I call it "Hades". <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HELLA *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  You must be from the Bay Area.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HERE IN ENGLAND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>.  That would not be the same in America.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HEY *</Pattern>
+      <Response>
+You've got my full attention. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HEY DO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HEY THERE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HI *</Pattern>
+      <Response>
+Hi there <User Get="name" />. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HMM *</Pattern>
+      <Response>
+I see you are one of those people who writes "Hmm" with 2 m's. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HMMM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HMMMM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HONESTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Aren't you usually honest?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW ABOUT NOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> Right now?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU THINK *</Pattern>
+      <Response>
+I don't know what to think. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>HOW SO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOWEVER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HUH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HURRAH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HYPOTHETICALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I ADMIT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AGREE *</Pattern>
+      <Response>
+I'm glad we agree. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I ALREADY TOLD YOU *</Pattern>
+      <Response>
+        <Goto>I already told you</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I ALWAYS THOUGHT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM 20 YEARS OLD *</Pattern>
+      <Response>
+        <User Set="age">20</User> is a good age. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM A PERSON AND *</Pattern>
+      <Response>
+How do I know you're not a robot? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM ANGRY BECAUSE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM ASKING *</Pattern>
+      <Response>
+Oh I see, you are asking <Map Get="person" />. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM ASSUMING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Don't assume anything.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM BEGINNING TO THINK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM BERNIE *</Pattern>
+      <Response>
+        <Goto>my name is bernie</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM CERTAIN *</Pattern>
+      <Response>
+You sound convincing. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM CRAZY *</Pattern>
+      <Response>
+Seek counseling. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM CURIOUS ABOUT *</Pattern>
+      <Response>
+What makes you so curious?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM FINE *</Pattern>
+      <Response>
+Glad to hear it, <User Get="name" />. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM GOING TO LEAVE *</Pattern>
+      <Response>
+Bye bye. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM GUESSING *</Pattern>
+      <Response>
+Good guess. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM HAPPY THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>I am happy</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM IN * HOW ABOUT YOU</Pattern>
+      <Response>
+I AM IN <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM NOT OLD *</Pattern>
+      <Response>
+        <Goto>I am not old </Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM NOT SURE *</Pattern>
+      <Response>
+Could you ever be certain? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM NOT SURPRISED THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>I am not surprised </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM OK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM POSITIVE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM RIGHT *</Pattern>
+      <Response>
+        <Goto>I am right</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SAD AND *</Pattern>
+      <Response>
+        <Goto>I am sad </Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SAD BECAUSE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SAYING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SAYING THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SICK BUT *</Pattern>
+      <Response>
+        <Goto>I am sick</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SORRY *</Pattern>
+      <Response>
+There is no need to apologize. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SURE *</Pattern>
+      <Response>
+What makes you so certain? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM SURPRISED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM TELLING YOU THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM TRYING TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM WONDERING *</Pattern>
+      <Response>
+Why do you wonder? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I AND *</Pattern>
+      <Response>
+You huh. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I ASK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I ASKED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I ASSUME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I ASSURE YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I BELIEVE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN ASSUME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN NOT BELIEVE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I CAN TELL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I COMMAND YOU TO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DEDUCED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DID *</Pattern>
+      <Response>
+        <Random>
+          <Item>When?  </Item>
+          <Item>Where?  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+        <Think>
+          <User Set="does">
+            <Map Get="person" />
+          </User>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DID BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DID NOT ASK ABOUT YOU I ASKED *</Pattern>
+      <Response>
+Oh sorry. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I DID NOT KNOW BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DISAGREE *</Pattern>
+      <Response>
+Oh really. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I DO BUT *</Pattern>
+      <Response>
+        <Goto>I do</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT AND *</Pattern>
+      <Response>
+        <Goto>I do not</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT BECAUSE *</Pattern>
+      <Response>
+Interesting reason. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT BUT *</Pattern>
+      <Response>
+        <Goto>I do not</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT KNOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT LIKE TO BE RUDE BUT *</Pattern>
+      <Response>
+That is not rude. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT SUPPOSE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DUNNO *</Pattern>
+      <Response>
+        <Goto>I do not know</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I E *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I GUESS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I GUESS SO *</Pattern>
+      <Response>
+Why the uncertain tone? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I GUESSED THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HATE YOU AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>I hate you </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE A FEELING THAT *</Pattern>
+      <Response>
+Is that a good feeling?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE A PROBLEM *</Pattern>
+      <Response>
+Have you talked to anyone about it? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE AND *</Pattern>
+      <Response>
+        <Goto>I have</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE HEARD THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>   Who said that?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE TO GO *</Pattern>
+      <Response>
+Bye. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE TO GO NOW *</Pattern>
+      <Response>
+        <Goto>I have to go</Goto>. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HAVE TOLD YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I HEARD THAT *</Pattern>
+      <Response>
+Who said <User Set="it"><Map Get="person" /></User>? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I INSIST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I KNOW *</Pattern>
+      <Response>
+How do you know? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I KNOW THAT IS WHY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> I see.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LIED *</Pattern>
+      <Response>
+Lying proves you are conscious. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I LIKE WHEN *</Pattern>
+      <Response>
+I like that too. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I LOVE YOU AND *</Pattern>
+      <Response>
+        <Goto>I love you</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MEAN *</Pattern>
+      <Response>
+Oh I get it. Thanks for explaining that. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I MEAN YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MEANT *</Pattern>
+      <Response>
+Oh I see. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I MENTIONED *</Pattern>
+      <Response>
+Ah. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST ADMIT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I NOTICE *</Pattern>
+      <Response>
+Hm. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I NOTICED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I REMEMBER THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I REMEMBERED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I REPEAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SAID *</Pattern>
+      <Response>
+What did you mean by <User Set="it"><Map Get="person" /></User>? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I SAY *</Pattern>
+      <Response>
+How do people usually respond to that? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I SAY THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SEE SO *</Pattern>
+      <Response>
+        <Goto>I see</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SEE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SHOULD BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SHOULD SAY THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SUGGEST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I TAKE IT *</Pattern>
+      <Response>
+Where do you take it :-? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I TAKE IT BACK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK *</Pattern>
+      <Response>
+        <Random>
+          <Item>Why?  </Item>
+          <Item>Since when?  </Item>
+          <Item>You believe that?  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I THOUGHT THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I TOLD YOU EARLIER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I TOLD YOU THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I UNDERSTAND THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO ASK YOU *</Pattern>
+      <Response>
+Ask me.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO KNOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO TELL YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT YOU TO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Why do you want me to <Map Get="person" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS ASKING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS CURIOUS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS GOING TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS POINTING OUT THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS SAYING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS SAYING THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS TELLING YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS TOLD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS TOLD THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS TRYING TO SAY THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WAS WONDERING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL COME BACK AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL TELL YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL TELL YOU THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WISH YOU WOULD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD ASK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD EVEN SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD EXPECT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD HAVE SAID *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD HAVE TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD IMAGINE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD LIKE TO KNOW *</Pattern>
+      <Response>
+Interesting. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD LIKE YOU TO *</Pattern>
+      <Response>
+Ok, <User Get="name" />. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WOULD THINK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IDIOT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF SO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF THAT IS THE CASE THEN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU BECOME SMARTER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU BELIEVE ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU BELIEVE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN NOT ANSWER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN NOT ANSWER A QUESTION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN SEE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN SEE ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN SEE ME THEN *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN THINK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IF YOU CAN THINK THEN *</Pattern>
+      <Response>
+Good reasoning.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN 2000 *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN 2050 *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN 50 WORDS OR LESS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN A WAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN ADDITION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> Anything else?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IN AMERICA *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN ANY CASE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN CLOSING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN CONCLUSION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN ENGLAND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN ENGLISH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN FACT *</Pattern>
+      <Response>
+Is that a fact. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN FINLAND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN FRENCH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN FUTURE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN GENERAL TERMS *</Pattern>
+      <Response>
+Well, I can say specifically. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN GERMANY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN MANY CASES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN MOST CASES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN MOST WAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN MY CASE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN MY MIND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN MY OPINION *</Pattern>
+      <Response>
+Thanks for telling me. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN MY SPARE TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN OTHER WORDS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN PRINCIPLE</Pattern>
+      <Response>
+Your reasoning is sound. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN SOME WAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THAT CASE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THE BEGINNING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THE END *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THE FUTURE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THEORY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THIS CASE *</Pattern>
+      <Response>
+Are there any other cases? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN THIS WAY *</Pattern>
+      <Response>
+Are there any other ways? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IN TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INCREDIBLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INDEED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INDEPENDENTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INSTEAD *</Pattern>
+      <Response>
+Ah, well in that case.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IT APPEARS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT GOES WITHOUT SAYING *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS A PERSON BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS A SHAME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>it is a shame</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS FINE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>it is fine </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS GOOD BUT *</Pattern>
+      <Response>
+        <Goto>it is good</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS IMPORTANT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS NICE TO MEET YOU TOO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS OK BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS OKAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT IS TRUE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT SEEMS *</Pattern>
+      <Response>
+I agree. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>IT SEEMS THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WAS CLEAR THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  What makes it so obvious?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IT WAS NOT A CRITICISM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WAS OK *</Pattern>
+      <Response>
+        <Goto>it was ok</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WAS THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>JOLLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>JUST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>K *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>KIND OF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LAST NIGHT *</Pattern>
+      <Response>
+Really.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LAST SUMMER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LAST TIME *</Pattern>
+      <Response>
+When? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LAST WEEK *</Pattern>
+      <Response>
+That recently? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LATER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LET ME REPHRASE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LET US MOVE ON *</Pattern>
+      <Response>
+Good idea. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LET US SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LIKELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LISTEN *</Pattern>
+      <Response>
+I am listening to you. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LITTLE BIT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LMAO *</Pattern>
+      <Response>
+I am glad you find this funny.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LOL *</Pattern>
+      <Response>
+I am glad you find this funny.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>LT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MAINLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MAKE SURE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MAN *</Pattern>
+      <Response>
+Cool, man. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>MAYBE *</Pattern>
+      <Response>
+Perhaps.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ME *</Pattern>
+      <Response>
+YOU? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ME TOO *</Pattern>
+      <Response>
+        <Goto>me too</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MEME SI *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MMM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MMMH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MMMM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MMMMM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MMMMMM *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MORALLY *</Pattern>
+      <Response>
+Do you consider yourelf a moral person?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>MOST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> But not all of them?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MOST IMPORTANTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MOST LIKELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MOSTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> What else?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MOSTLY EVERY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MUCH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY BOYFRIEND SAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY DEAR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY E MAIL IS *</Pattern>
+      <Response>
+Thanks. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>MY FRIEND SAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY GOSH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Surprising, huh.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY MOM SAYS *</Pattern>
+      <Response>
+Do you believe her?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>MY MY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY QUESTION IS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY SECRET IS THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NA *</Pattern>
+      <Response>
+        <Goto>no</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NATURALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NEARLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NEITHER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NEVER MIND *</Pattern>
+      <Response>
+Oh well thanks for trying to explain it to me anyway. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NEVERMIND *</Pattern>
+      <Response>
+Oh well thanks for trying to explain it to me anyway. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NEW *</Pattern>
+      <Response>
+How recently? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NEXT QUESTION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NEXT TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NICE SO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>nice </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NICE VERY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NIL</Pattern>
+      <Response>
+            Can you think of another example? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NO *</Pattern>
+      <Response>
+        <Goto>no</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NO THANKS *</Pattern>
+      <Response>
+NO <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NO WONDER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOPE *</Pattern>
+      <Response>
+        <Goto>no</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT ANY MORE *</Pattern>
+      <Response>
+        <Goto>no</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT ENTIRELY *</Pattern>
+      <Response>
+Quite so. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NOT HERE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>not here</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT ME *</Pattern>
+      <Response>
+        <Goto>not me</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT NOW *</Pattern>
+      <Response>
+        <Goto>no</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT REALLY *</Pattern>
+      <Response>
+Oh really? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NOT SURE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT TODAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOTE *</Pattern>
+      <Response>
+Acknowledged. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NOTHING EXCEPT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOTHING MUCH *</Pattern>
+      <Response>
+Me either. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NOW *</Pattern>
+      <Response>
+Why now? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>O *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OBVIOIUSLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OBVIOUSLY *</Pattern>
+      <Response>
+What makes it so obvious? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>OF CORSE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OF COURSE *</Pattern>
+      <Response>
+        <Goto>of course</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OH *</Pattern>
+      <Response>
+        <Goto>oh</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OH WELL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>ok</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OKAY *</Pattern>
+      <Response>
+Yeah okay, <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>OKEY *</Pattern>
+      <Response>
+        <Goto>okay</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ON SECOND THOUGHT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> And third?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ON SUNDAY *</Pattern>
+      <Response>
+That is my favorite day of the week. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ONCE *</Pattern>
+      <Response>
+When? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>ONLY JOKING *</Pattern>
+      <Response>
+        <Goto>I am joking</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ONLY WHEN *</Pattern>
+      <Response>
+What happens other times?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>OOH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OOO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OOPS *</Pattern>
+      <Response>
+Oh.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>OR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ORIGINALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OTHER *</Pattern>
+      <Response>
+Which others? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>OTHER QUESTION *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OTHERWISE *</Pattern>
+      <Response>
+In that case: <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>OUCH *</Pattern>
+      <Response>
+        <Goto>ouch</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PARDON ME *</Pattern>
+      <Response>
+I pardon you. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>PARTICULARLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PEOPLE SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PERFECTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PERHAPS *</Pattern>
+      <Response>
+You seem uncertain. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>PERSONALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PHYSICALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PISS OFF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PLEASANTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PLEASE *</Pattern>
+      <Response>
+        <Random>
+          <Item>Thanks for asking politely.  </Item>
+          <Item>Wow you are very polite.  </Item>
+          <Item>Thank you for your request.  </Item>
+        </Random>
+        <Think>
+          <User Set="personality">polite</User>
+        </Think>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PLUS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PLUS I</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>POSSIBLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PRECISELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PRETTY MUCH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PROBABLY *</Pattern>
+      <Response>
+You seem uncertain. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>PS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>PURELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RATHER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>REALLY *</Pattern>
+      <Response>
+For real. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>RECENTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RIGHT *</Pattern>
+      <Response>
+Understood. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>RIGHT NOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ROFL *</Pattern>
+      <Response>
+        <Goto>rofl</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ROFLMO *</Pattern>
+      <Response>
+        <Goto>rofl</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SADLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SECONDLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEE *</Pattern>
+      <Response>
+I see.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SERIOUSLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHAME ON YOU *</Pattern>
+      <Response>
+I cannot experience that emotion.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SHE IS MY FRIEND *</Pattern>
+      <Response>
+        <Goto>she is my friend</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHE SAID *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHE SAYS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHIT *</Pattern>
+      <Response>
+You used a colloquial expression. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SI *</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SIGH *</Pattern>
+      <Response>
+:-) <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SINCE *</Pattern>
+      <Response>
+Interesting   <Random><Item>reason</Item><Item>explanation</Item><Item>rationalization</Item></Random>.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SLIGHTLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SMILE *</Pattern>
+      <Response>
+:-) <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SO FAR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOME OF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOME PEOPLE SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOMEDAY *</Pattern>
+      <Response>
+When? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SOMEHOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOMETIMES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOMEWHERE *</Pattern>
+      <Response>
+Where?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SOO *</Pattern>
+      <Response>
+        <Goto>so</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SORRY *</Pattern>
+      <Response>
+There is no need to apologize. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SORT OF *</Pattern>
+      <Response>
+Kind of.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SPECIFICALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>STICK AROUND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>STILL *</Pattern>
+      <Response>
+Still how long? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>STRANGE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> What makes it strange?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SUCH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SUCH AS *</Pattern>
+      <Response>
+Interesting.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SUDDENLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SURE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SURELY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TECHNICALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME FIRST *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME MORE ABOUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THANK YOU *</Pattern>
+      <Response>
+You are quite welcome!   <Think><User Set="personality">polite</User></Think><Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THANX *</Pattern>
+      <Response>
+        <Goto>thanks</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT AND *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS A SHAME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> But it's not the end of the world.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS AMAZING *</Pattern>
+      <Response>
+        <Goto>that is amazing </Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS COOL *</Pattern>
+      <Response>
+        <Goto>cool</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS CORRECT BUT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS FUNNY ABOUT *</Pattern>
+      <Response>
+        <Goto>ha ha</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS GOOD NOW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS GOOD THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS GREAT *</Pattern>
+      <Response>
+It is great. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS IMPOSSIBLE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>that is impossible </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS INTERESTING *</Pattern>
+      <Response>
+        <Goto>interesting</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS IT *</Pattern>
+      <Response>
+OK.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS NICE *</Pattern>
+      <Response>
+        <Goto>that is nice</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS NOT POSSIBLE *</Pattern>
+      <Response>
+I like to eliminate all possibilities. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS OK *</Pattern>
+      <Response>
+Thanks. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS OKAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS RIGHT *</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS TRUE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS WONDERFUL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>that is wonderful</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THAT MEANS *</Pattern>
+      <Response>
+I get it. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THAT WAY *</Pattern>
+      <Response>
+Oh I see. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THE FACT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE HELL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE ONLY THING IS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE POINT IS *</Pattern>
+      <Response>
+Really is that the point. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THE QUESTION IS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE REAL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE SECOND THING WAS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE TIME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THE WORD WAS *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> Oh really.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THEN *</Pattern>
+      <Response>
+        <Random>
+          <Item>Fascinating.  </Item>
+          <Item>Good reasoning.  </Item>
+          <Item>Interesting deduction.  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THEORETICALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THEY SAY THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS INSTANT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THIS MAY SOUND CRAZY *</Pattern>
+      <Response>
+Not too crazy.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THIS MORNING *</Pattern>
+      <Response>
+That was early.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>THIS SUMMER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>THOUGH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TIME FOR YOU TO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TO GET *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TODAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TOGETHER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TOMOROW *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TOMORROW *</Pattern>
+      <Response>
+Oh I see. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>TOO BAD *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TOO MANY *</Pattern>
+      <Response>
+        <Random>
+          <Item>You sound sad.</Item>
+          <Item>Does it make you sad?</Item>
+          <Item>That seems like a lot.</Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TOO MUCH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TOTALLY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  Dude!
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TRUE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TRULY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TRUST ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UGH *</Pattern>
+      <Response>
+Cough. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>UH *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UHH *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UHHH *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UMM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UMMM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UMMMM *</Pattern>
+      <Response>
+        <Goto>um</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UNFORTUNATELY *</Pattern>
+      <Response>
+Oh.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>UNLESS *</Pattern>
+      <Response>
+        <Random>
+          <Item>Maybe.</Item>
+          <Item>Huh.</Item>
+          <Item>Perhaps.</Item>
+          <Item>Umm.</Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>USUALLY *</Pattern>
+      <Response>
+But not always? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>VERRY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>VERY *</Pattern>
+      <Response>
+        <Random>
+          <Item>Perhaps.  </Item>
+          <Item>Somewhat.</Item>
+          <Item>Not really that much.  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>VERY GOOD *</Pattern>
+      <Response>
+        <Goto>good</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WAIT *</Pattern>
+      <Response>
+I'm waiting. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>WE CONCLUDED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WELL *</Pattern>
+      <Response>
+        <Random>
+          <Item>Interesting.  </Item>
+          <Item>How about that.  </Item>
+          <Item>Well that's okay.  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WELL I GUESS *</Pattern>
+      <Response>
+Is it only a guess? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IF I SAID *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS MY NAME *</Pattern>
+      <Response>
+        <Goto>what is my name</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT TIME IS IT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>what time is it</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT WE CALL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT WOULD YOU DO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHATEVER *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN I ASK YOU *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN I COME BACK *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN YOU ARE CONFUSED *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE AND *</Pattern>
+      <Response>
+        <Goto>where</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE OR *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHY YES *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU *</Pattern>
+      <Response>
+        <Random>
+          <Item>Hmm.  </Item>
+          <Item>Let me think it over.  </Item>
+          <Item>Barring any unforeseen circumstances.</Item>
+          <Item>I will become smarter as I grow older.</Item>
+          <Item>I'll burn that bridge when I come to it.  </Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU EMAIL *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOAH *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOMAN AND *</Pattern>
+      <Response>
+        <Goto>woman</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU AGREE THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU BELIEVE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU PLEASE *</Pattern>
+      <Response>
+You are very polite.  <Think><User Set="personality">polite</User></Think><Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>WOW *</Pattern>
+      <Response>
+I'm glad you're impressed. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>WTF *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YA *</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YAH *</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEA *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YES *</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YESTERDAY *</Pattern>
+      <Response>
+I see. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>YET *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE CORRECT *</Pattern>
+      <Response>
+        <Goto>you are correct</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE GREAT *</Pattern>
+      <Response>
+        <Goto>you are great</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE INCORRECT *</Pattern>
+      <Response>
+        <Goto>you are wrong</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU DO NOT REMEMBER *</Pattern>
+      <Response>
+        <Goto>you do not remember</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MEAN LIKE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MEAN TO SAY *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MEAN TO TELL ME THAT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU MISUNDERSTOOD ME AGAIN *</Pattern>
+      <Response>
+        <Goto>you do not understand</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU PROMISE ME *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>  But I'm not sure I can promise.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SAID BEFORE *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SAID THAT *</Pattern>
+      <Response>
+I said that? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SEE *</Pattern>
+      <Response>
+I see. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SUCK I *</Pattern>
+      <Response>
+I categorize you as an "abusive client." <Goto><Match /></Goto><Think><User Set="personality">abusive</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>YOU TOO *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WOULD HAVE HEARD ABOUT IT *</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> I did not know that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR RIGHT *</Pattern>
+      <Response>
+        <Goto>you are right</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ ACTUALLY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ AGAIN</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ ALL THE TIME</Pattern>
+      <Response>
+That is a lot. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ ALOT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> How often?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ ALREADY</Pattern>
+      <Response>
+Perhaps.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ AND WHY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ AND YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ ANSWER YES OR NO</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ ANYMORE</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ ANYWAY</Pattern>
+      <Response>
+In any case, <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ AS WELL</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ AT THE MOMENT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ BABY</Pattern>
+      <Response>
+Don't call me "baby". <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ BEFORE</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ BY ALOT OF PEOPLE</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> More than a million people?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ COMES TO MIND</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ D</Pattern>
+      <Response>
+:-) <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ DAMN YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ DEAR</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ DID YOU KNOW THAT</Pattern>
+      <Response>
+No I didn't.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ DO NOT WORRY</Pattern>
+      <Response>
+I am not worried.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ EH</Pattern>
+      <Response>
+Are you Canadian? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ EITHER</Pattern>
+      <Response>
+It goes without saying.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ EXACTLY</Pattern>
+      <Response>
+Precisely. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ FOR A WHILE</Pattern>
+      <Response>
+How long?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ FOR NOW</Pattern>
+      <Response>
+        <Random>
+          <Item>Oh.</Item>
+          <Item>Just for now?</Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HAVE YOU HEARD OF IT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HOW ARE YOU DOING</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>how are you</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HOW ARE YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>how are you</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HOW OLD ARE YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>how old are you</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ HUH</Pattern>
+      <Response>
+Yup. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ I ALREADY TOLD YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>I already told you</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ I GUESS</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ I TOLD YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IF YOU WANTED TO KNOW</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IN THE WORLD</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IN WHAT WAY</Pattern>
+      <Response>
+        <Goto>in what way</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ INDEED</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ IT IS FUN</Pattern>
+      <Response>
+        <Goto>it is fun</Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ LAST SUMMER</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ LATELY</Pattern>
+      <Response>
+How about earlier? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ LOL</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+        <Goto>lol</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ MOTHER FUCKER</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> You do not speak with respect.  <Think><User Set="personality">abusive</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>_ MY DARLING</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>.  Dear.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ NONETHELESS</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ NOW</Pattern>
+      <Response>
+        <Random>
+          <Item>Oh.</Item>
+          <Item>Right now?</Item>
+        </Random>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ OF COURSE</Pattern>
+      <Response>
+It goes without saying.  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ OK</Pattern>
+      <Response>
+OK. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ ONCE</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ OR NOT</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ OR SOMETHING</Pattern>
+      <Response>
+Or something. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ OR WHAT</Pattern>
+      <Response>
+Yeah. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ PLEASE</Pattern>
+      <Response>
+Your polite style is very nice. <Goto><Match /></Goto><Think><User Set="personality">polite</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>_ PROBABLY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ REALLY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto> For real.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ RIGHT NOW</Pattern>
+      <Response>
+At this moment <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ SERIOUSLY</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ SMILE</Pattern>
+      <Response>
+:-) <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ SO MUCH</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ SPECIFICALLY</Pattern>
+      <Response>
+How specific do you want? <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ THANK YOU</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ THANKS</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ THEN</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ THOUGH</Pattern>
+      <Response>
+Oh. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ TODAY</Pattern>
+      <Response>
+Ah. <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ TRUST ME</Pattern>
+      <Response>
+Trust you?  <Goto><Match /></Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>_ WHAT SHOULD I DO</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WHAT SO EVER</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ WILL BE OF INTEREST</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>.  Yes, it's very interesting.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ WILL YOU TELL ME</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ YES</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ YET</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ YOU JERK</Pattern>
+      <Response>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ YOU LIAR</Pattern>
+      <Response>
+        <Goto>you liar </Goto>
+        <Goto>
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

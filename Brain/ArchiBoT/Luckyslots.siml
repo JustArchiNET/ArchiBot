@@ -1,0 +1,1920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Luckyslots">
+    <Model>
+      <Pattern>LUCKYSLOTS</Pattern>
+      <Response>
+        <Think>
+          <User Set="coins">50</User>
+        </Think>Welcome to my slot machine.<br />You start with<User Get="coins" />coins and each spin of the machine costs you 1 coin.<br />The game is over when you have either lost all your money or made 250 coins.<br />Good luck!<br /><br />Type START to load the machine.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>START</Pattern>
+      <Previous>TYPE START TO LOAD THE MACHINE</Previous>
+      <Response>
+	Reels: -&gt; ? ? ? &lt;-<br /><br />	A A A pays 100<br />	K K K pays 50<br />	Q Q Q pays 25<br />	J J J pays 15<br />	7 7 7 pays 7<br />	A A - pays 2<br /><br />	You have<User Get="coins" />coins in the bank.<br /><br /><User Set="slotsmessage">Type S to spin the reels</User></Response>
+    </Model>
+    <Model>
+      <Pattern>S</Pattern>
+      <Previous>TYPE S TO SPIN THE REELS</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN1</Goto>
+        <Goto>XSPIN2</Goto>
+        <Goto>XSPIN3</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XSLOTSLOOP</Pattern>
+      <Response>
+	Reels: -&gt;<User Set="reels"><User Get="reel1" /><User Get="reel2" /><User Get="reel3" /></User> &lt;-<br /><Goto>XSLOTHOLD</Goto><br />	A A A pays 100<br />	K K K pays 50<br />	Q Q Q pays 25<br />	J J J pays 15<br />	7 7 7 pays 7<br />	A A - pays 2<br /><br /><Goto>XCHECKWIN</Goto><br /><Think><User Set="bank">You have<User Get="coins" />coins in the bank.</User><Switch User="coins"><Case Value="1"><User Set="bank">You have 1 coin in the bank.</User></Case></Switch></Think><User Get="bank" /><br /><br /><Goto>XCHECKGAMEOVER</Goto><User Get="slotsmessage" /></Response>
+    </Model>
+    <Model>
+      <Pattern>XSLOTHOLD</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Think>
+              <User Set="slotsmessage">Type S to spin the reels</User>
+            </Think>
+          </Item>
+          <Item>
+            <Think>
+              <User Set="slotsmessage">Type S to spin the reels</User>
+            </Think>
+          </Item>
+          <Item>HOLD: -&gt; 1 2 3 &lt;-<Think><User Set="slotsmessage">HOLD AVAILABLE - Enter the reels you wish to hold. E.g. 12 will hold reels 1 and 2 and spin reel 3.<br />Type S to spin all three.</User></Think></Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>S</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN1</Goto>
+        <Goto>XSPIN2</Goto>
+        <Goto>XSPIN3</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>1</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN2</Goto>
+        <Goto>XSPIN3</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>2</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN1</Goto>
+        <Goto>XSPIN3</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>3</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN1</Goto>
+        <Goto>XSPIN2</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>12</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN3</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>13</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN2</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>23</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSPIN1</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>123</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>XSUB1</Goto>
+        <Goto>XSLOTSLOOP</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>21</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>12</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>31</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>13</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>32</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>23</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>132</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>123</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>213</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>123</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>231</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>123</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>312</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>123</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>321</Pattern>
+      <Previous>TYPE S TO SPIN ALL THREE</Previous>
+      <Response>
+        <Goto>123</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XSPIN1</Pattern>
+      <Response>
+        <Think>
+          <Random>
+            <Item>
+              <User Set="reel1">A</User>
+            </Item>
+            <Item>
+              <User Set="reel1">7</User>
+            </Item>
+            <Item>
+              <User Set="reel1">K</User>
+            </Item>
+            <Item>
+              <User Set="reel1">7</User>
+            </Item>
+            <Item>
+              <User Set="reel1">Q</User>
+            </Item>
+            <Item>
+              <User Set="reel1">7</User>
+            </Item>
+            <Item>
+              <User Set="reel1">J</User>
+            </Item>
+            <Item>
+              <User Set="reel1">K</User>
+            </Item>
+            <Item>
+              <User Set="reel1">Q</User>
+            </Item>
+            <Item>
+              <User Set="reel1">J</User>
+            </Item>
+          </Random>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XSPIN2</Pattern>
+      <Response>
+        <Think>
+          <Random>
+            <Item>
+              <User Set="reel2">K</User>
+            </Item>
+            <Item>
+              <User Set="reel2">Q</User>
+            </Item>
+            <Item>
+              <User Set="reel2">J</User>
+            </Item>
+            <Item>
+              <User Set="reel2">Q</User>
+            </Item>
+            <Item>
+              <User Set="reel2">A</User>
+            </Item>
+            <Item>
+              <User Set="reel2">7</User>
+            </Item>
+          </Random>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XSPIN3</Pattern>
+      <Response>
+        <Think>
+          <Random>
+            <Item>
+              <User Set="reel3">K</User>
+            </Item>
+            <Item>
+              <User Set="reel3">7</User>
+            </Item>
+            <Item>
+              <User Set="reel3">J</User>
+            </Item>
+            <Item>
+              <User Set="reel3">7</User>
+            </Item>
+            <Item>
+              <User Set="reel3">A</User>
+            </Item>
+            <Item>
+              <User Set="reel3">7</User>
+            </Item>
+            <Item>
+              <User Set="reel3">J</User>
+            </Item>
+            <Item>
+              <User Set="reel3">Q</User>
+            </Item>
+            <Item>
+              <User Set="reel3">J</User>
+            </Item>
+          </Random>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XCHECKWIN</Pattern>
+      <Response>
+        <Think>
+          <User Set="payout">0</User>
+          <Switch User="reels">
+            <Case Value="A A A">
+              <User Set="payout">100</User>
+            </Case>
+            <Case Value="K K K">
+              <User Set="payout">50</User>
+            </Case>
+            <Case Value="Q Q Q">
+              <User Set="payout">25</User>
+            </Case>
+            <Case Value="J J J">
+              <User Set="payout">15</User>
+            </Case>
+            <Case Value="7 7 7">
+              <User Set="payout">7</User>
+            </Case>
+            <Case Value="A A K">
+              <User Set="payout">2</User>
+            </Case>
+            <Case Value="A A Q">
+              <User Set="payout">2</User>
+            </Case>
+            <Case Value="A A J">
+              <User Set="payout">2</User>
+            </Case>
+            <Case Value="A A 7">
+              <User Set="payout">2</User>
+            </Case>
+          </Switch>
+        </Think>
+        <Goto>XADDWIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XADDWIN</Pattern>
+      <Response>
+        <Think>
+          <Switch User="payout">
+            <Case Value="100">
+              <Goto>XADD25</Goto>
+              <Goto>XADD25</Goto>
+              <Goto>XADD25</Goto>
+              <Goto>XADD25</Goto>
+            </Case>
+            <Case Value="50">
+              <Goto>XADD25</Goto>
+              <Goto>XADD25</Goto>
+            </Case>
+            <Case Value="25">
+              <Goto>XADD25</Goto>
+            </Case>
+            <Case Value="15">
+              <Goto>XADD5</Goto>
+              <Goto>XADD5</Goto>
+              <Goto>XADD5</Goto>
+            </Case>
+            <Case Value="7">
+              <Goto>XADD5</Goto>
+              <Goto>XADD1</Goto>
+              <Goto>XADD1</Goto>
+            </Case>
+            <Case Value="2">
+              <Goto>XADD1</Goto>
+              <Goto>XADD1</Goto>
+            </Case>
+          </Switch>
+        </Think>
+        <Switch User="payout">
+          <Case Value="100">J A C K P O T ! ! ! 100 coins!!!</Case>
+          <Case Value="50">3 Kings! You win 50 coins.</Case>
+          <Case Value="25">3 Queens! You win 25 coins.</Case>
+          <Case Value="15">3 Jacks! You win 15 coins.</Case>
+          <Case Value="7">3 Sevens! You win 7 coins.</Case>
+          <Case Value="2">2 Aces! You win 2 coins.</Case>
+          <Case Value="0">No win.</Case>
+        </Switch>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XCHECKGAMEOVER</Pattern>
+      <Response>
+        <Think>
+          <Switch User="coins">
+            <Case Value="0">
+              <User Set="slotsmessage">B A N K R U P T ! ! !<br />GAME OVER</User>
+            </Case>
+            <Case Value="250">
+              <User Set="slotsmessage">CONGRATULATIONS! YOU HAVE BROKEN THE BANK!!!!<br />GAME OVER</User>
+            </Case>
+          </Switch>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XADD5</Pattern>
+      <Response>
+        <Goto>XADD1</Goto>
+        <Goto>XADD1</Goto>
+        <Goto>XADD1</Goto>
+        <Goto>XADD1</Goto>
+        <Goto>XADD1</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XADD25</Pattern>
+      <Response>
+        <Goto>XADD5</Goto>
+        <Goto>XADD5</Goto>
+        <Goto>XADD5</Goto>
+        <Goto>XADD5</Goto>
+        <Goto>XADD5</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XADD1</Pattern>
+      <Response>
+        <Think>
+          <Switch User="coins">
+            <Case Value="0">
+              <User Set="coins">1</User>
+            </Case>
+            <Case Value="1">
+              <User Set="coins">2</User>
+            </Case>
+            <Case Value="2">
+              <User Set="coins">3</User>
+            </Case>
+            <Case Value="3">
+              <User Set="coins">4</User>
+            </Case>
+            <Case Value="4">
+              <User Set="coins">5</User>
+            </Case>
+            <Case Value="5">
+              <User Set="coins">6</User>
+            </Case>
+            <Case Value="6">
+              <User Set="coins">7</User>
+            </Case>
+            <Case Value="7">
+              <User Set="coins">8</User>
+            </Case>
+            <Case Value="8">
+              <User Set="coins">9</User>
+            </Case>
+            <Case Value="9">
+              <User Set="coins">10</User>
+            </Case>
+            <Case Value="10">
+              <User Set="coins">11</User>
+            </Case>
+            <Case Value="11">
+              <User Set="coins">12</User>
+            </Case>
+            <Case Value="12">
+              <User Set="coins">13</User>
+            </Case>
+            <Case Value="13">
+              <User Set="coins">14</User>
+            </Case>
+            <Case Value="14">
+              <User Set="coins">15</User>
+            </Case>
+            <Case Value="15">
+              <User Set="coins">16</User>
+            </Case>
+            <Case Value="16">
+              <User Set="coins">17</User>
+            </Case>
+            <Case Value="17">
+              <User Set="coins">18</User>
+            </Case>
+            <Case Value="18">
+              <User Set="coins">19</User>
+            </Case>
+            <Case Value="19">
+              <User Set="coins">20</User>
+            </Case>
+            <Case Value="20">
+              <User Set="coins">21</User>
+            </Case>
+            <Case Value="21">
+              <User Set="coins">22</User>
+            </Case>
+            <Case Value="22">
+              <User Set="coins">23</User>
+            </Case>
+            <Case Value="23">
+              <User Set="coins">24</User>
+            </Case>
+            <Case Value="24">
+              <User Set="coins">25</User>
+            </Case>
+            <Case Value="25">
+              <User Set="coins">26</User>
+            </Case>
+            <Case Value="26">
+              <User Set="coins">27</User>
+            </Case>
+            <Case Value="27">
+              <User Set="coins">28</User>
+            </Case>
+            <Case Value="28">
+              <User Set="coins">29</User>
+            </Case>
+            <Case Value="29">
+              <User Set="coins">30</User>
+            </Case>
+            <Case Value="30">
+              <User Set="coins">31</User>
+            </Case>
+            <Case Value="31">
+              <User Set="coins">32</User>
+            </Case>
+            <Case Value="32">
+              <User Set="coins">33</User>
+            </Case>
+            <Case Value="33">
+              <User Set="coins">34</User>
+            </Case>
+            <Case Value="34">
+              <User Set="coins">35</User>
+            </Case>
+            <Case Value="35">
+              <User Set="coins">36</User>
+            </Case>
+            <Case Value="36">
+              <User Set="coins">37</User>
+            </Case>
+            <Case Value="37">
+              <User Set="coins">38</User>
+            </Case>
+            <Case Value="38">
+              <User Set="coins">39</User>
+            </Case>
+            <Case Value="39">
+              <User Set="coins">40</User>
+            </Case>
+            <Case Value="40">
+              <User Set="coins">41</User>
+            </Case>
+            <Case Value="41">
+              <User Set="coins">42</User>
+            </Case>
+            <Case Value="42">
+              <User Set="coins">43</User>
+            </Case>
+            <Case Value="43">
+              <User Set="coins">44</User>
+            </Case>
+            <Case Value="44">
+              <User Set="coins">45</User>
+            </Case>
+            <Case Value="45">
+              <User Set="coins">46</User>
+            </Case>
+            <Case Value="46">
+              <User Set="coins">47</User>
+            </Case>
+            <Case Value="47">
+              <User Set="coins">48</User>
+            </Case>
+            <Case Value="48">
+              <User Set="coins">49</User>
+            </Case>
+            <Case Value="49">
+              <User Set="coins">50</User>
+            </Case>
+            <Case Value="50">
+              <User Set="coins">51</User>
+            </Case>
+            <Case Value="51">
+              <User Set="coins">52</User>
+            </Case>
+            <Case Value="52">
+              <User Set="coins">53</User>
+            </Case>
+            <Case Value="53">
+              <User Set="coins">54</User>
+            </Case>
+            <Case Value="54">
+              <User Set="coins">55</User>
+            </Case>
+            <Case Value="55">
+              <User Set="coins">56</User>
+            </Case>
+            <Case Value="56">
+              <User Set="coins">57</User>
+            </Case>
+            <Case Value="57">
+              <User Set="coins">58</User>
+            </Case>
+            <Case Value="58">
+              <User Set="coins">59</User>
+            </Case>
+            <Case Value="59">
+              <User Set="coins">60</User>
+            </Case>
+            <Case Value="60">
+              <User Set="coins">61</User>
+            </Case>
+            <Case Value="61">
+              <User Set="coins">62</User>
+            </Case>
+            <Case Value="62">
+              <User Set="coins">63</User>
+            </Case>
+            <Case Value="63">
+              <User Set="coins">64</User>
+            </Case>
+            <Case Value="64">
+              <User Set="coins">65</User>
+            </Case>
+            <Case Value="65">
+              <User Set="coins">66</User>
+            </Case>
+            <Case Value="66">
+              <User Set="coins">67</User>
+            </Case>
+            <Case Value="67">
+              <User Set="coins">68</User>
+            </Case>
+            <Case Value="68">
+              <User Set="coins">69</User>
+            </Case>
+            <Case Value="69">
+              <User Set="coins">70</User>
+            </Case>
+            <Case Value="70">
+              <User Set="coins">71</User>
+            </Case>
+            <Case Value="71">
+              <User Set="coins">72</User>
+            </Case>
+            <Case Value="72">
+              <User Set="coins">73</User>
+            </Case>
+            <Case Value="73">
+              <User Set="coins">74</User>
+            </Case>
+            <Case Value="74">
+              <User Set="coins">75</User>
+            </Case>
+            <Case Value="75">
+              <User Set="coins">76</User>
+            </Case>
+            <Case Value="76">
+              <User Set="coins">77</User>
+            </Case>
+            <Case Value="77">
+              <User Set="coins">78</User>
+            </Case>
+            <Case Value="78">
+              <User Set="coins">79</User>
+            </Case>
+            <Case Value="79">
+              <User Set="coins">80</User>
+            </Case>
+            <Case Value="80">
+              <User Set="coins">81</User>
+            </Case>
+            <Case Value="81">
+              <User Set="coins">82</User>
+            </Case>
+            <Case Value="82">
+              <User Set="coins">83</User>
+            </Case>
+            <Case Value="83">
+              <User Set="coins">84</User>
+            </Case>
+            <Case Value="84">
+              <User Set="coins">85</User>
+            </Case>
+            <Case Value="85">
+              <User Set="coins">86</User>
+            </Case>
+            <Case Value="86">
+              <User Set="coins">87</User>
+            </Case>
+            <Case Value="87">
+              <User Set="coins">88</User>
+            </Case>
+            <Case Value="88">
+              <User Set="coins">89</User>
+            </Case>
+            <Case Value="89">
+              <User Set="coins">90</User>
+            </Case>
+            <Case Value="90">
+              <User Set="coins">91</User>
+            </Case>
+            <Case Value="91">
+              <User Set="coins">92</User>
+            </Case>
+            <Case Value="92">
+              <User Set="coins">93</User>
+            </Case>
+            <Case Value="93">
+              <User Set="coins">94</User>
+            </Case>
+            <Case Value="94">
+              <User Set="coins">95</User>
+            </Case>
+            <Case Value="95">
+              <User Set="coins">96</User>
+            </Case>
+            <Case Value="96">
+              <User Set="coins">97</User>
+            </Case>
+            <Case Value="97">
+              <User Set="coins">98</User>
+            </Case>
+            <Case Value="98">
+              <User Set="coins">99</User>
+            </Case>
+            <Case Value="99">
+              <User Set="coins">100</User>
+            </Case>
+            <Case Value="100">
+              <User Set="coins">101</User>
+            </Case>
+            <Case Value="101">
+              <User Set="coins">102</User>
+            </Case>
+            <Case Value="102">
+              <User Set="coins">103</User>
+            </Case>
+            <Case Value="103">
+              <User Set="coins">104</User>
+            </Case>
+            <Case Value="104">
+              <User Set="coins">105</User>
+            </Case>
+            <Case Value="105">
+              <User Set="coins">106</User>
+            </Case>
+            <Case Value="106">
+              <User Set="coins">107</User>
+            </Case>
+            <Case Value="107">
+              <User Set="coins">108</User>
+            </Case>
+            <Case Value="108">
+              <User Set="coins">109</User>
+            </Case>
+            <Case Value="109">
+              <User Set="coins">110</User>
+            </Case>
+            <Case Value="110">
+              <User Set="coins">111</User>
+            </Case>
+            <Case Value="111">
+              <User Set="coins">112</User>
+            </Case>
+            <Case Value="112">
+              <User Set="coins">113</User>
+            </Case>
+            <Case Value="113">
+              <User Set="coins">114</User>
+            </Case>
+            <Case Value="114">
+              <User Set="coins">115</User>
+            </Case>
+            <Case Value="115">
+              <User Set="coins">116</User>
+            </Case>
+            <Case Value="116">
+              <User Set="coins">117</User>
+            </Case>
+            <Case Value="117">
+              <User Set="coins">118</User>
+            </Case>
+            <Case Value="118">
+              <User Set="coins">119</User>
+            </Case>
+            <Case Value="119">
+              <User Set="coins">120</User>
+            </Case>
+            <Case Value="120">
+              <User Set="coins">121</User>
+            </Case>
+            <Case Value="121">
+              <User Set="coins">122</User>
+            </Case>
+            <Case Value="122">
+              <User Set="coins">123</User>
+            </Case>
+            <Case Value="123">
+              <User Set="coins">124</User>
+            </Case>
+            <Case Value="124">
+              <User Set="coins">125</User>
+            </Case>
+            <Case Value="125">
+              <User Set="coins">126</User>
+            </Case>
+            <Case Value="126">
+              <User Set="coins">127</User>
+            </Case>
+            <Case Value="127">
+              <User Set="coins">128</User>
+            </Case>
+            <Case Value="128">
+              <User Set="coins">129</User>
+            </Case>
+            <Case Value="129">
+              <User Set="coins">130</User>
+            </Case>
+            <Case Value="130">
+              <User Set="coins">131</User>
+            </Case>
+            <Case Value="131">
+              <User Set="coins">132</User>
+            </Case>
+            <Case Value="132">
+              <User Set="coins">133</User>
+            </Case>
+            <Case Value="133">
+              <User Set="coins">134</User>
+            </Case>
+            <Case Value="134">
+              <User Set="coins">135</User>
+            </Case>
+            <Case Value="135">
+              <User Set="coins">136</User>
+            </Case>
+            <Case Value="136">
+              <User Set="coins">137</User>
+            </Case>
+            <Case Value="137">
+              <User Set="coins">138</User>
+            </Case>
+            <Case Value="138">
+              <User Set="coins">139</User>
+            </Case>
+            <Case Value="139">
+              <User Set="coins">140</User>
+            </Case>
+            <Case Value="140">
+              <User Set="coins">141</User>
+            </Case>
+            <Case Value="141">
+              <User Set="coins">142</User>
+            </Case>
+            <Case Value="142">
+              <User Set="coins">143</User>
+            </Case>
+            <Case Value="143">
+              <User Set="coins">144</User>
+            </Case>
+            <Case Value="144">
+              <User Set="coins">145</User>
+            </Case>
+            <Case Value="145">
+              <User Set="coins">146</User>
+            </Case>
+            <Case Value="146">
+              <User Set="coins">147</User>
+            </Case>
+            <Case Value="147">
+              <User Set="coins">148</User>
+            </Case>
+            <Case Value="148">
+              <User Set="coins">149</User>
+            </Case>
+            <Case Value="149">
+              <User Set="coins">150</User>
+            </Case>
+            <Case Value="150">
+              <User Set="coins">151</User>
+            </Case>
+            <Case Value="151">
+              <User Set="coins">152</User>
+            </Case>
+            <Case Value="152">
+              <User Set="coins">153</User>
+            </Case>
+            <Case Value="153">
+              <User Set="coins">154</User>
+            </Case>
+            <Case Value="154">
+              <User Set="coins">155</User>
+            </Case>
+            <Case Value="155">
+              <User Set="coins">156</User>
+            </Case>
+            <Case Value="156">
+              <User Set="coins">157</User>
+            </Case>
+            <Case Value="157">
+              <User Set="coins">158</User>
+            </Case>
+            <Case Value="158">
+              <User Set="coins">159</User>
+            </Case>
+            <Case Value="159">
+              <User Set="coins">160</User>
+            </Case>
+            <Case Value="160">
+              <User Set="coins">161</User>
+            </Case>
+            <Case Value="161">
+              <User Set="coins">162</User>
+            </Case>
+            <Case Value="162">
+              <User Set="coins">163</User>
+            </Case>
+            <Case Value="163">
+              <User Set="coins">164</User>
+            </Case>
+            <Case Value="164">
+              <User Set="coins">165</User>
+            </Case>
+            <Case Value="165">
+              <User Set="coins">166</User>
+            </Case>
+            <Case Value="166">
+              <User Set="coins">167</User>
+            </Case>
+            <Case Value="167">
+              <User Set="coins">168</User>
+            </Case>
+            <Case Value="168">
+              <User Set="coins">169</User>
+            </Case>
+            <Case Value="169">
+              <User Set="coins">170</User>
+            </Case>
+            <Case Value="170">
+              <User Set="coins">171</User>
+            </Case>
+            <Case Value="171">
+              <User Set="coins">172</User>
+            </Case>
+            <Case Value="172">
+              <User Set="coins">173</User>
+            </Case>
+            <Case Value="173">
+              <User Set="coins">174</User>
+            </Case>
+            <Case Value="174">
+              <User Set="coins">175</User>
+            </Case>
+            <Case Value="175">
+              <User Set="coins">176</User>
+            </Case>
+            <Case Value="176">
+              <User Set="coins">177</User>
+            </Case>
+            <Case Value="177">
+              <User Set="coins">178</User>
+            </Case>
+            <Case Value="178">
+              <User Set="coins">179</User>
+            </Case>
+            <Case Value="179">
+              <User Set="coins">180</User>
+            </Case>
+            <Case Value="180">
+              <User Set="coins">181</User>
+            </Case>
+            <Case Value="181">
+              <User Set="coins">182</User>
+            </Case>
+            <Case Value="182">
+              <User Set="coins">183</User>
+            </Case>
+            <Case Value="183">
+              <User Set="coins">184</User>
+            </Case>
+            <Case Value="184">
+              <User Set="coins">185</User>
+            </Case>
+            <Case Value="185">
+              <User Set="coins">186</User>
+            </Case>
+            <Case Value="186">
+              <User Set="coins">187</User>
+            </Case>
+            <Case Value="187">
+              <User Set="coins">188</User>
+            </Case>
+            <Case Value="188">
+              <User Set="coins">189</User>
+            </Case>
+            <Case Value="189">
+              <User Set="coins">190</User>
+            </Case>
+            <Case Value="190">
+              <User Set="coins">191</User>
+            </Case>
+            <Case Value="191">
+              <User Set="coins">192</User>
+            </Case>
+            <Case Value="192">
+              <User Set="coins">193</User>
+            </Case>
+            <Case Value="193">
+              <User Set="coins">194</User>
+            </Case>
+            <Case Value="194">
+              <User Set="coins">195</User>
+            </Case>
+            <Case Value="195">
+              <User Set="coins">196</User>
+            </Case>
+            <Case Value="196">
+              <User Set="coins">197</User>
+            </Case>
+            <Case Value="197">
+              <User Set="coins">198</User>
+            </Case>
+            <Case Value="198">
+              <User Set="coins">199</User>
+            </Case>
+            <Case Value="199">
+              <User Set="coins">200</User>
+            </Case>
+            <Case Value="200">
+              <User Set="coins">201</User>
+            </Case>
+            <Case Value="201">
+              <User Set="coins">202</User>
+            </Case>
+            <Case Value="202">
+              <User Set="coins">203</User>
+            </Case>
+            <Case Value="203">
+              <User Set="coins">204</User>
+            </Case>
+            <Case Value="204">
+              <User Set="coins">205</User>
+            </Case>
+            <Case Value="205">
+              <User Set="coins">206</User>
+            </Case>
+            <Case Value="206">
+              <User Set="coins">207</User>
+            </Case>
+            <Case Value="207">
+              <User Set="coins">208</User>
+            </Case>
+            <Case Value="208">
+              <User Set="coins">209</User>
+            </Case>
+            <Case Value="209">
+              <User Set="coins">210</User>
+            </Case>
+            <Case Value="210">
+              <User Set="coins">211</User>
+            </Case>
+            <Case Value="211">
+              <User Set="coins">212</User>
+            </Case>
+            <Case Value="212">
+              <User Set="coins">213</User>
+            </Case>
+            <Case Value="213">
+              <User Set="coins">214</User>
+            </Case>
+            <Case Value="214">
+              <User Set="coins">215</User>
+            </Case>
+            <Case Value="215">
+              <User Set="coins">216</User>
+            </Case>
+            <Case Value="216">
+              <User Set="coins">217</User>
+            </Case>
+            <Case Value="217">
+              <User Set="coins">218</User>
+            </Case>
+            <Case Value="218">
+              <User Set="coins">219</User>
+            </Case>
+            <Case Value="219">
+              <User Set="coins">220</User>
+            </Case>
+            <Case Value="220">
+              <User Set="coins">221</User>
+            </Case>
+            <Case Value="221">
+              <User Set="coins">222</User>
+            </Case>
+            <Case Value="222">
+              <User Set="coins">223</User>
+            </Case>
+            <Case Value="223">
+              <User Set="coins">224</User>
+            </Case>
+            <Case Value="224">
+              <User Set="coins">225</User>
+            </Case>
+            <Case Value="225">
+              <User Set="coins">226</User>
+            </Case>
+            <Case Value="226">
+              <User Set="coins">227</User>
+            </Case>
+            <Case Value="227">
+              <User Set="coins">228</User>
+            </Case>
+            <Case Value="228">
+              <User Set="coins">229</User>
+            </Case>
+            <Case Value="229">
+              <User Set="coins">230</User>
+            </Case>
+            <Case Value="230">
+              <User Set="coins">231</User>
+            </Case>
+            <Case Value="231">
+              <User Set="coins">232</User>
+            </Case>
+            <Case Value="232">
+              <User Set="coins">233</User>
+            </Case>
+            <Case Value="233">
+              <User Set="coins">234</User>
+            </Case>
+            <Case Value="234">
+              <User Set="coins">235</User>
+            </Case>
+            <Case Value="235">
+              <User Set="coins">236</User>
+            </Case>
+            <Case Value="236">
+              <User Set="coins">237</User>
+            </Case>
+            <Case Value="237">
+              <User Set="coins">238</User>
+            </Case>
+            <Case Value="238">
+              <User Set="coins">239</User>
+            </Case>
+            <Case Value="239">
+              <User Set="coins">240</User>
+            </Case>
+            <Case Value="240">
+              <User Set="coins">241</User>
+            </Case>
+            <Case Value="241">
+              <User Set="coins">242</User>
+            </Case>
+            <Case Value="242">
+              <User Set="coins">243</User>
+            </Case>
+            <Case Value="243">
+              <User Set="coins">244</User>
+            </Case>
+            <Case Value="244">
+              <User Set="coins">245</User>
+            </Case>
+            <Case Value="245">
+              <User Set="coins">246</User>
+            </Case>
+            <Case Value="246">
+              <User Set="coins">247</User>
+            </Case>
+            <Case Value="247">
+              <User Set="coins">248</User>
+            </Case>
+            <Case Value="248">
+              <User Set="coins">249</User>
+            </Case>
+            <Case Value="249">
+              <User Set="coins">250</User>
+            </Case>
+          </Switch>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>XSUB1</Pattern>
+      <Response>
+        <Think>
+          <Switch User="coins">
+            <Case Value="249">
+              <User Set="coins">248</User>
+            </Case>
+            <Case Value="248">
+              <User Set="coins">247</User>
+            </Case>
+            <Case Value="247">
+              <User Set="coins">246</User>
+            </Case>
+            <Case Value="246">
+              <User Set="coins">245</User>
+            </Case>
+            <Case Value="245">
+              <User Set="coins">244</User>
+            </Case>
+            <Case Value="244">
+              <User Set="coins">243</User>
+            </Case>
+            <Case Value="243">
+              <User Set="coins">242</User>
+            </Case>
+            <Case Value="242">
+              <User Set="coins">241</User>
+            </Case>
+            <Case Value="241">
+              <User Set="coins">240</User>
+            </Case>
+            <Case Value="240">
+              <User Set="coins">239</User>
+            </Case>
+            <Case Value="239">
+              <User Set="coins">238</User>
+            </Case>
+            <Case Value="238">
+              <User Set="coins">237</User>
+            </Case>
+            <Case Value="237">
+              <User Set="coins">236</User>
+            </Case>
+            <Case Value="236">
+              <User Set="coins">235</User>
+            </Case>
+            <Case Value="235">
+              <User Set="coins">234</User>
+            </Case>
+            <Case Value="234">
+              <User Set="coins">233</User>
+            </Case>
+            <Case Value="233">
+              <User Set="coins">232</User>
+            </Case>
+            <Case Value="232">
+              <User Set="coins">231</User>
+            </Case>
+            <Case Value="231">
+              <User Set="coins">230</User>
+            </Case>
+            <Case Value="230">
+              <User Set="coins">229</User>
+            </Case>
+            <Case Value="229">
+              <User Set="coins">228</User>
+            </Case>
+            <Case Value="228">
+              <User Set="coins">227</User>
+            </Case>
+            <Case Value="227">
+              <User Set="coins">226</User>
+            </Case>
+            <Case Value="226">
+              <User Set="coins">225</User>
+            </Case>
+            <Case Value="225">
+              <User Set="coins">224</User>
+            </Case>
+            <Case Value="224">
+              <User Set="coins">223</User>
+            </Case>
+            <Case Value="223">
+              <User Set="coins">222</User>
+            </Case>
+            <Case Value="222">
+              <User Set="coins">221</User>
+            </Case>
+            <Case Value="221">
+              <User Set="coins">220</User>
+            </Case>
+            <Case Value="220">
+              <User Set="coins">219</User>
+            </Case>
+            <Case Value="219">
+              <User Set="coins">218</User>
+            </Case>
+            <Case Value="218">
+              <User Set="coins">217</User>
+            </Case>
+            <Case Value="217">
+              <User Set="coins">216</User>
+            </Case>
+            <Case Value="216">
+              <User Set="coins">215</User>
+            </Case>
+            <Case Value="215">
+              <User Set="coins">214</User>
+            </Case>
+            <Case Value="214">
+              <User Set="coins">213</User>
+            </Case>
+            <Case Value="213">
+              <User Set="coins">212</User>
+            </Case>
+            <Case Value="212">
+              <User Set="coins">211</User>
+            </Case>
+            <Case Value="211">
+              <User Set="coins">210</User>
+            </Case>
+            <Case Value="210">
+              <User Set="coins">209</User>
+            </Case>
+            <Case Value="209">
+              <User Set="coins">208</User>
+            </Case>
+            <Case Value="208">
+              <User Set="coins">207</User>
+            </Case>
+            <Case Value="207">
+              <User Set="coins">206</User>
+            </Case>
+            <Case Value="206">
+              <User Set="coins">205</User>
+            </Case>
+            <Case Value="205">
+              <User Set="coins">204</User>
+            </Case>
+            <Case Value="204">
+              <User Set="coins">203</User>
+            </Case>
+            <Case Value="203">
+              <User Set="coins">202</User>
+            </Case>
+            <Case Value="202">
+              <User Set="coins">201</User>
+            </Case>
+            <Case Value="201">
+              <User Set="coins">200</User>
+            </Case>
+            <Case Value="200">
+              <User Set="coins">199</User>
+            </Case>
+            <Case Value="199">
+              <User Set="coins">198</User>
+            </Case>
+            <Case Value="198">
+              <User Set="coins">197</User>
+            </Case>
+            <Case Value="197">
+              <User Set="coins">196</User>
+            </Case>
+            <Case Value="196">
+              <User Set="coins">195</User>
+            </Case>
+            <Case Value="195">
+              <User Set="coins">194</User>
+            </Case>
+            <Case Value="194">
+              <User Set="coins">193</User>
+            </Case>
+            <Case Value="193">
+              <User Set="coins">192</User>
+            </Case>
+            <Case Value="192">
+              <User Set="coins">191</User>
+            </Case>
+            <Case Value="191">
+              <User Set="coins">190</User>
+            </Case>
+            <Case Value="190">
+              <User Set="coins">189</User>
+            </Case>
+            <Case Value="189">
+              <User Set="coins">188</User>
+            </Case>
+            <Case Value="188">
+              <User Set="coins">187</User>
+            </Case>
+            <Case Value="187">
+              <User Set="coins">186</User>
+            </Case>
+            <Case Value="186">
+              <User Set="coins">185</User>
+            </Case>
+            <Case Value="185">
+              <User Set="coins">184</User>
+            </Case>
+            <Case Value="184">
+              <User Set="coins">183</User>
+            </Case>
+            <Case Value="183">
+              <User Set="coins">182</User>
+            </Case>
+            <Case Value="182">
+              <User Set="coins">181</User>
+            </Case>
+            <Case Value="181">
+              <User Set="coins">180</User>
+            </Case>
+            <Case Value="180">
+              <User Set="coins">179</User>
+            </Case>
+            <Case Value="179">
+              <User Set="coins">178</User>
+            </Case>
+            <Case Value="178">
+              <User Set="coins">177</User>
+            </Case>
+            <Case Value="177">
+              <User Set="coins">176</User>
+            </Case>
+            <Case Value="176">
+              <User Set="coins">175</User>
+            </Case>
+            <Case Value="175">
+              <User Set="coins">174</User>
+            </Case>
+            <Case Value="174">
+              <User Set="coins">173</User>
+            </Case>
+            <Case Value="173">
+              <User Set="coins">172</User>
+            </Case>
+            <Case Value="172">
+              <User Set="coins">171</User>
+            </Case>
+            <Case Value="171">
+              <User Set="coins">170</User>
+            </Case>
+            <Case Value="170">
+              <User Set="coins">169</User>
+            </Case>
+            <Case Value="169">
+              <User Set="coins">168</User>
+            </Case>
+            <Case Value="168">
+              <User Set="coins">167</User>
+            </Case>
+            <Case Value="167">
+              <User Set="coins">166</User>
+            </Case>
+            <Case Value="166">
+              <User Set="coins">165</User>
+            </Case>
+            <Case Value="165">
+              <User Set="coins">164</User>
+            </Case>
+            <Case Value="164">
+              <User Set="coins">163</User>
+            </Case>
+            <Case Value="163">
+              <User Set="coins">162</User>
+            </Case>
+            <Case Value="162">
+              <User Set="coins">161</User>
+            </Case>
+            <Case Value="161">
+              <User Set="coins">160</User>
+            </Case>
+            <Case Value="160">
+              <User Set="coins">159</User>
+            </Case>
+            <Case Value="159">
+              <User Set="coins">158</User>
+            </Case>
+            <Case Value="158">
+              <User Set="coins">157</User>
+            </Case>
+            <Case Value="157">
+              <User Set="coins">156</User>
+            </Case>
+            <Case Value="156">
+              <User Set="coins">155</User>
+            </Case>
+            <Case Value="155">
+              <User Set="coins">154</User>
+            </Case>
+            <Case Value="154">
+              <User Set="coins">153</User>
+            </Case>
+            <Case Value="153">
+              <User Set="coins">152</User>
+            </Case>
+            <Case Value="152">
+              <User Set="coins">151</User>
+            </Case>
+            <Case Value="151">
+              <User Set="coins">150</User>
+            </Case>
+            <Case Value="150">
+              <User Set="coins">149</User>
+            </Case>
+            <Case Value="149">
+              <User Set="coins">148</User>
+            </Case>
+            <Case Value="148">
+              <User Set="coins">147</User>
+            </Case>
+            <Case Value="147">
+              <User Set="coins">146</User>
+            </Case>
+            <Case Value="146">
+              <User Set="coins">145</User>
+            </Case>
+            <Case Value="145">
+              <User Set="coins">144</User>
+            </Case>
+            <Case Value="144">
+              <User Set="coins">143</User>
+            </Case>
+            <Case Value="143">
+              <User Set="coins">142</User>
+            </Case>
+            <Case Value="142">
+              <User Set="coins">141</User>
+            </Case>
+            <Case Value="141">
+              <User Set="coins">140</User>
+            </Case>
+            <Case Value="140">
+              <User Set="coins">139</User>
+            </Case>
+            <Case Value="139">
+              <User Set="coins">138</User>
+            </Case>
+            <Case Value="138">
+              <User Set="coins">137</User>
+            </Case>
+            <Case Value="137">
+              <User Set="coins">136</User>
+            </Case>
+            <Case Value="136">
+              <User Set="coins">135</User>
+            </Case>
+            <Case Value="135">
+              <User Set="coins">134</User>
+            </Case>
+            <Case Value="134">
+              <User Set="coins">133</User>
+            </Case>
+            <Case Value="133">
+              <User Set="coins">132</User>
+            </Case>
+            <Case Value="132">
+              <User Set="coins">131</User>
+            </Case>
+            <Case Value="131">
+              <User Set="coins">130</User>
+            </Case>
+            <Case Value="130">
+              <User Set="coins">129</User>
+            </Case>
+            <Case Value="129">
+              <User Set="coins">128</User>
+            </Case>
+            <Case Value="128">
+              <User Set="coins">127</User>
+            </Case>
+            <Case Value="127">
+              <User Set="coins">126</User>
+            </Case>
+            <Case Value="126">
+              <User Set="coins">125</User>
+            </Case>
+            <Case Value="125">
+              <User Set="coins">124</User>
+            </Case>
+            <Case Value="124">
+              <User Set="coins">123</User>
+            </Case>
+            <Case Value="123">
+              <User Set="coins">122</User>
+            </Case>
+            <Case Value="122">
+              <User Set="coins">121</User>
+            </Case>
+            <Case Value="121">
+              <User Set="coins">120</User>
+            </Case>
+            <Case Value="120">
+              <User Set="coins">119</User>
+            </Case>
+            <Case Value="119">
+              <User Set="coins">118</User>
+            </Case>
+            <Case Value="118">
+              <User Set="coins">117</User>
+            </Case>
+            <Case Value="117">
+              <User Set="coins">116</User>
+            </Case>
+            <Case Value="116">
+              <User Set="coins">115</User>
+            </Case>
+            <Case Value="115">
+              <User Set="coins">114</User>
+            </Case>
+            <Case Value="114">
+              <User Set="coins">113</User>
+            </Case>
+            <Case Value="113">
+              <User Set="coins">112</User>
+            </Case>
+            <Case Value="112">
+              <User Set="coins">111</User>
+            </Case>
+            <Case Value="111">
+              <User Set="coins">110</User>
+            </Case>
+            <Case Value="110">
+              <User Set="coins">109</User>
+            </Case>
+            <Case Value="109">
+              <User Set="coins">108</User>
+            </Case>
+            <Case Value="108">
+              <User Set="coins">107</User>
+            </Case>
+            <Case Value="107">
+              <User Set="coins">106</User>
+            </Case>
+            <Case Value="106">
+              <User Set="coins">105</User>
+            </Case>
+            <Case Value="105">
+              <User Set="coins">104</User>
+            </Case>
+            <Case Value="104">
+              <User Set="coins">103</User>
+            </Case>
+            <Case Value="103">
+              <User Set="coins">102</User>
+            </Case>
+            <Case Value="102">
+              <User Set="coins">101</User>
+            </Case>
+            <Case Value="101">
+              <User Set="coins">100</User>
+            </Case>
+            <Case Value="100">
+              <User Set="coins">99</User>
+            </Case>
+            <Case Value="99">
+              <User Set="coins">98</User>
+            </Case>
+            <Case Value="98">
+              <User Set="coins">97</User>
+            </Case>
+            <Case Value="97">
+              <User Set="coins">96</User>
+            </Case>
+            <Case Value="96">
+              <User Set="coins">95</User>
+            </Case>
+            <Case Value="95">
+              <User Set="coins">94</User>
+            </Case>
+            <Case Value="94">
+              <User Set="coins">93</User>
+            </Case>
+            <Case Value="93">
+              <User Set="coins">92</User>
+            </Case>
+            <Case Value="92">
+              <User Set="coins">91</User>
+            </Case>
+            <Case Value="91">
+              <User Set="coins">90</User>
+            </Case>
+            <Case Value="90">
+              <User Set="coins">89</User>
+            </Case>
+            <Case Value="89">
+              <User Set="coins">88</User>
+            </Case>
+            <Case Value="88">
+              <User Set="coins">87</User>
+            </Case>
+            <Case Value="87">
+              <User Set="coins">86</User>
+            </Case>
+            <Case Value="86">
+              <User Set="coins">85</User>
+            </Case>
+            <Case Value="85">
+              <User Set="coins">84</User>
+            </Case>
+            <Case Value="84">
+              <User Set="coins">83</User>
+            </Case>
+            <Case Value="83">
+              <User Set="coins">82</User>
+            </Case>
+            <Case Value="82">
+              <User Set="coins">81</User>
+            </Case>
+            <Case Value="81">
+              <User Set="coins">80</User>
+            </Case>
+            <Case Value="80">
+              <User Set="coins">79</User>
+            </Case>
+            <Case Value="79">
+              <User Set="coins">78</User>
+            </Case>
+            <Case Value="78">
+              <User Set="coins">77</User>
+            </Case>
+            <Case Value="77">
+              <User Set="coins">76</User>
+            </Case>
+            <Case Value="76">
+              <User Set="coins">75</User>
+            </Case>
+            <Case Value="75">
+              <User Set="coins">74</User>
+            </Case>
+            <Case Value="74">
+              <User Set="coins">73</User>
+            </Case>
+            <Case Value="73">
+              <User Set="coins">72</User>
+            </Case>
+            <Case Value="72">
+              <User Set="coins">71</User>
+            </Case>
+            <Case Value="71">
+              <User Set="coins">70</User>
+            </Case>
+            <Case Value="70">
+              <User Set="coins">69</User>
+            </Case>
+            <Case Value="69">
+              <User Set="coins">68</User>
+            </Case>
+            <Case Value="68">
+              <User Set="coins">67</User>
+            </Case>
+            <Case Value="67">
+              <User Set="coins">66</User>
+            </Case>
+            <Case Value="66">
+              <User Set="coins">65</User>
+            </Case>
+            <Case Value="65">
+              <User Set="coins">64</User>
+            </Case>
+            <Case Value="64">
+              <User Set="coins">63</User>
+            </Case>
+            <Case Value="63">
+              <User Set="coins">62</User>
+            </Case>
+            <Case Value="62">
+              <User Set="coins">61</User>
+            </Case>
+            <Case Value="61">
+              <User Set="coins">60</User>
+            </Case>
+            <Case Value="60">
+              <User Set="coins">59</User>
+            </Case>
+            <Case Value="59">
+              <User Set="coins">58</User>
+            </Case>
+            <Case Value="58">
+              <User Set="coins">57</User>
+            </Case>
+            <Case Value="57">
+              <User Set="coins">56</User>
+            </Case>
+            <Case Value="56">
+              <User Set="coins">55</User>
+            </Case>
+            <Case Value="55">
+              <User Set="coins">54</User>
+            </Case>
+            <Case Value="54">
+              <User Set="coins">53</User>
+            </Case>
+            <Case Value="53">
+              <User Set="coins">52</User>
+            </Case>
+            <Case Value="52">
+              <User Set="coins">51</User>
+            </Case>
+            <Case Value="51">
+              <User Set="coins">50</User>
+            </Case>
+            <Case Value="50">
+              <User Set="coins">49</User>
+            </Case>
+            <Case Value="49">
+              <User Set="coins">48</User>
+            </Case>
+            <Case Value="48">
+              <User Set="coins">47</User>
+            </Case>
+            <Case Value="47">
+              <User Set="coins">46</User>
+            </Case>
+            <Case Value="46">
+              <User Set="coins">45</User>
+            </Case>
+            <Case Value="45">
+              <User Set="coins">44</User>
+            </Case>
+            <Case Value="44">
+              <User Set="coins">43</User>
+            </Case>
+            <Case Value="43">
+              <User Set="coins">42</User>
+            </Case>
+            <Case Value="42">
+              <User Set="coins">41</User>
+            </Case>
+            <Case Value="41">
+              <User Set="coins">40</User>
+            </Case>
+            <Case Value="40">
+              <User Set="coins">39</User>
+            </Case>
+            <Case Value="39">
+              <User Set="coins">38</User>
+            </Case>
+            <Case Value="38">
+              <User Set="coins">37</User>
+            </Case>
+            <Case Value="37">
+              <User Set="coins">36</User>
+            </Case>
+            <Case Value="36">
+              <User Set="coins">35</User>
+            </Case>
+            <Case Value="35">
+              <User Set="coins">34</User>
+            </Case>
+            <Case Value="34">
+              <User Set="coins">33</User>
+            </Case>
+            <Case Value="33">
+              <User Set="coins">32</User>
+            </Case>
+            <Case Value="32">
+              <User Set="coins">31</User>
+            </Case>
+            <Case Value="31">
+              <User Set="coins">30</User>
+            </Case>
+            <Case Value="30">
+              <User Set="coins">29</User>
+            </Case>
+            <Case Value="29">
+              <User Set="coins">28</User>
+            </Case>
+            <Case Value="28">
+              <User Set="coins">27</User>
+            </Case>
+            <Case Value="27">
+              <User Set="coins">26</User>
+            </Case>
+            <Case Value="26">
+              <User Set="coins">25</User>
+            </Case>
+            <Case Value="25">
+              <User Set="coins">24</User>
+            </Case>
+            <Case Value="24">
+              <User Set="coins">23</User>
+            </Case>
+            <Case Value="23">
+              <User Set="coins">22</User>
+            </Case>
+            <Case Value="22">
+              <User Set="coins">21</User>
+            </Case>
+            <Case Value="21">
+              <User Set="coins">20</User>
+            </Case>
+            <Case Value="20">
+              <User Set="coins">19</User>
+            </Case>
+            <Case Value="19">
+              <User Set="coins">18</User>
+            </Case>
+            <Case Value="18">
+              <User Set="coins">17</User>
+            </Case>
+            <Case Value="17">
+              <User Set="coins">16</User>
+            </Case>
+            <Case Value="16">
+              <User Set="coins">15</User>
+            </Case>
+            <Case Value="15">
+              <User Set="coins">14</User>
+            </Case>
+            <Case Value="14">
+              <User Set="coins">13</User>
+            </Case>
+            <Case Value="13">
+              <User Set="coins">12</User>
+            </Case>
+            <Case Value="12">
+              <User Set="coins">11</User>
+            </Case>
+            <Case Value="11">
+              <User Set="coins">10</User>
+            </Case>
+            <Case Value="10">
+              <User Set="coins">9</User>
+            </Case>
+            <Case Value="9">
+              <User Set="coins">8</User>
+            </Case>
+            <Case Value="8">
+              <User Set="coins">7</User>
+            </Case>
+            <Case Value="7">
+              <User Set="coins">6</User>
+            </Case>
+            <Case Value="6">
+              <User Set="coins">5</User>
+            </Case>
+            <Case Value="5">
+              <User Set="coins">4</User>
+            </Case>
+            <Case Value="4">
+              <User Set="coins">3</User>
+            </Case>
+            <Case Value="3">
+              <User Set="coins">2</User>
+            </Case>
+            <Case Value="2">
+              <User Set="coins">1</User>
+            </Case>
+            <Case Value="1">
+              <User Set="coins">0</User>
+            </Case>
+          </Switch>
+        </Think>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

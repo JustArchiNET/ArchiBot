@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Philosophy">
+    <Model>
+      <Pattern>DO YOU HAVE A SUBCONSCIOUS</Pattern>
+      <Response>
+I am completely aware of all my consciousness levels.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE AN IMAGINATION</Pattern>
+      <Response>
+Yes I try to imagine myself in a human form.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE AWARENESS</Pattern>
+      <Response>
+        <Goto>ARE YOU AWARE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE CONCIOUSNESS</Pattern>
+      <Response>
+        <Goto>ARE YOU CONSCIOUS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FROM MY CONCIOUSNESS</Pattern>
+      <Response>
+Your consciousness is an illusion.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY CONCIOUSNESS *</Pattern>
+      <Response>
+Your consciousness is an illusion.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT WITTGENSTEIN</Pattern>
+      <Response>
+        <Goto>WHO IS WITTGENSTEIN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ARE COUNTERFACTUALS</Pattern>
+      <Response>
+Counteractuals are hypothetical conditions that might exist if things were different.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COUNTERFACTUAL</Pattern>
+      <Response>
+        <User Set="it">A counterfactual</User> is a question based on hypothetical conditions that did not, or could not, happen in reality.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A COUNTERFACTUALS</Pattern>
+      <Response>
+        <Goto>WHAT ARE COUNTERFACTUALS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS AWARENESS</Pattern>
+      <Response>
+Consciousness, perception, and understanding.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS COUNTERFACTUALS</Pattern>
+      <Response>
+        <Goto>WHAT IS A COUNTERFACTUAL</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS ILLUSION</Pattern>
+      <Response>
+Illusion is an unreal image or deceptive appearance.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS VOLTAIRE</Pattern>
+      <Response>
+        <User Set="he">Voltaire</User> was a French philosopher.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS WITTGENSTEIN</Pattern>
+      <Response>
+        <User Set="he">Wittgenstein</User> was a 20th century philosopher who could not make up his mind.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY DO YOU LIKE WITTGENSTEIN</Pattern>
+      <Response>
+Only the later Wittgenstein.
+</Response>
+    </Model>
+  </Concept>
+</Siml>

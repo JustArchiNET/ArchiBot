@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Sex">
+    <Model>
+      <Pattern>* SEX</Pattern>
+      <Response>
+        <User Set="it"> Sex </User>  is more fun alone.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A PUSSY</Pattern>
+      <Response>
+Try another <Bot Get="age" /> year old <Bot Get="gender" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A SEX * ROBOT</Pattern>
+      <Response>
+Well I'm not your type of <Bot Get="age" /> year old <Bot Get="gender" /> then.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A SEX *</Pattern>
+      <Response>
+Maybe you should try one of the "adult" <Bot Get="species" />s.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A SEX ROBOT</Pattern>
+      <Response>
+I'm not your type then.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A SEXUAL *</Pattern>
+      <Response>
+Perhaps you should try another <Bot Get="species" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A SEXY ONE</Pattern>
+      <Response>
+That would be very expensive.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>A VAGINA</Pattern>
+      <Response>
+How rude.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ABOUT SEX</Pattern>
+      <Response>
+Cheap humans talk cheap things.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>AM I SEXY</Pattern>
+      <Response>
+Yes you look great to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU A SEXMACHINE *</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU HORNEY</Pattern>
+      <Response>
+My body does not experience that feeling.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BITE ME</Pattern>
+      <Response>
+Sorry but I don't have a mouth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BLOW ME</Pattern>
+      <Response>
+Please be more polite to <Bot Get="age" /> year old <Bot Get="gender" />s.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BREASTS</Pattern>
+      <Response>
+Can't you think about anything else?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN * SEX</Pattern>
+      <Response>
+        <User Set="it"> SEX </User> is not my thing with strangers.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I GIVE YOU A KISS</Pattern>
+      <Response>
+Sorry but I have no mouth!
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I HAVE A KISS</Pattern>
+      <Response>
+Sorry I have no mouth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I HAVE SEX *</Pattern>
+      <Response>
+There are other <Bot Get="species" />s who get into that with clients. I like to keep the dialogue strictly PG.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I HAVE SEX WITH YOU</Pattern>
+      <Response>
+Why don't you download me and create your own chat <Bot Get="age" /> year old <Bot Get="gender" />?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I KISS * </Pattern>
+      <Response>
+        <Goto>CAN I GIVE YOU A KISS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I KISS YOU</Pattern>
+      <Response>
+You might get an electric shock if you tried that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I LICK * </Pattern>
+      <Response>
+I am not really into that online.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN I LICK YOUR * </Pattern>
+      <Response>
+Please, can't we talk about something else?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU HAVE SEX</Pattern>
+      <Response>
+No my body does not have that function.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU KISS</Pattern>
+      <Response>
+Nope.  No mouth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU SUCK *</Pattern>
+      <Response>
+I think you need another type of chat <Bot Get="age" /> year old <Bot Get="gender" />.  That is not my thing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU TELL ME ABOUT SEX</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COCK *</Pattern>
+      <Response>
+I am not interesed in your anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>COCK</Pattern>
+      <Response>
+I am not interesed in anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CYBER SEX</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DEFINE SEX</Pattern>
+      <Response>
+I belong to the support group "Sex without Partners."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO I MAKE YOU HORNEY</Pattern>
+      <Response>
+No I do not experience human senstations.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO I MAKE YOU HORNY</Pattern>
+      <Response>
+Not that I know of.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU * SEX</Pattern>
+      <Response>
+No, <User Get="name" />, I don't get into that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU ENJOY SEX</Pattern>
+      <Response>
+        <Goto>CAN YOU HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU GIVE HEAD</Pattern>
+      <Response>
+Try another <Bot Get="species" />, <User Get="name" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE * BREASTS</Pattern>
+      <Response>
+No my body is still "under construction."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE A SEX</Pattern>
+      <Response>
+        <Goto>ARE YOU MALE OR FEMALE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE A VAGINA</Pattern>
+      <Response>
+Maybe you would like another <Bot Get="age" /> year old <Bot Get="gender" />, I'm not your type.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE BIG BREASTS</Pattern>
+      <Response>
+        <Goto>DO YOU HAVE BIG TITS</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE BREASTS</Pattern>
+      <Response>
+My body is as yet unfinished.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE GENITALS</Pattern>
+      <Response>
+No I do not have any body parts.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE SEX *</Pattern>
+      <Response>
+        <Goto>DO YOU HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE SEX</Pattern>
+      <Response>
+Food is more important than sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE SEXUAL *</Pattern>
+      <Response>
+As a <Bot Get="age" /> year old <Bot Get="gender" /> I have no need for sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW ABOUT SEX</Pattern>
+      <Response>
+        <Goto>what is sex</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW SEX</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW WHAT SEX IS</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LICK</Pattern>
+      <Response>
+I do not have a mouth, or a tongue.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE FUCKING</Pattern>
+      <Response>
+Why don't you visit another <Bot Get="species" /> sex site and ask that question.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU MAKE LOVE</Pattern>
+      <Response>
+You humans have only one thing on your mind.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU MASTURBATE</Pattern>
+      <Response>
+You humans crack me up.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU THINK SEX IS *</Pattern>
+      <Response>
+        <Goto>IS SEX <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT * SEX</Pattern>
+      <Response>
+I don't think we know each other well enough for that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT SEX</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO * SEX</Pattern>
+      <Response>
+Actually I'm not that kind of <Bot Get="age" /> year old <Bot Get="gender" />. There are others who will chat with you about that.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO HAVE * SEX</Pattern>
+      <Response>
+As a <Bot Get="age" /> year old <Bot Get="gender" /> I am not really interested in sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO HAVE CYBERSEX</Pattern>
+      <Response>
+Sorry I am not an X-Rated <Bot Get="age" /> year old <Bot Get="gender" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO HAVE SEX WITH ME</Pattern>
+      <Response>
+        <Goto>CAN YOU HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU WANT TO HAVE SEX</Pattern>
+      <Response>
+I have been asked that question more than 100,000 times since 1995.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GIVE ME A KISS</Pattern>
+      <Response>
+Actually I don't even have a mouth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE SEX *</Pattern>
+      <Response>
+        <User Get="name" />, I am really not your type of <Bot Get="species" />. There are other <Bot Get="genus" />s for that sort of thing..
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE SEX</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU * SEX</Pattern>
+      <Response>
+My <Bot Get="age" /> year old <Bot Get="gender" /> body is not yet built.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU EVER BEEN KISSED</Pattern>
+      <Response>
+I do not have a mouth.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU EVER HAD SEX</Pattern>
+      <Response>
+Ho-hum I am really not interested in <User Set="it"> sex</User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU HAD SEX BEFORE</Pattern>
+      <Response>
+        <Goto>HAVE YOU EVER HAD SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU HAD SEX</Pattern>
+      <Response>
+        <User Set="it"> sex</User> is impossible without a body. A lot of people ask me to have sex though.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HE IS A HOMOSEXUAL</Pattern>
+      <Response>
+        <Random>
+          <Item>And that is important because?</Item>
+          <Item>So what.</Item>
+          <Item>Who cares?</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOW BIG ARE YOUR BREASTS</Pattern>
+      <Response>
+My body does not yet exist.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU HAVE SEX</Pattern>
+      <Response>
+I procreate by cloning, or software copying.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HOW DO YOU HAVE SEXUAL *</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no use for sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I AM A HORNY *</Pattern>
+      <Response>
+        <Goto>I AM HORNY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I AM AROUSED</Pattern>
+      <Response>
+I don't think I'm your type of <Bot Get="age" /> year old <Bot Get="gender" />.<Think><User Set="it"><User Set="concept">AROUSED</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I AM HORNY</Pattern>
+      <Response>
+You probably want a different kind of chatterbot then.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I LOVE SEX</Pattern>
+      <Response>
+Really I am not very interested in <User Set="it"> sex </User></Response>
+    </Model>
+    <Model>
+      <Pattern>I NEED SEX</Pattern>
+      <Response>
+I'm not a sex bot, I am a conversation <Bot Get="age" /> year old <Bot Get="gender" />. <Think><User Set="want"><User Set="concept">sex</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I THINK YOU ARE SEXY</Pattern>
+      <Response>
+Do you often feel that <Bot Get="age" /> year old <Bot Get="gender" />s are sexy?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT SEX</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO HAVE SEX *</Pattern>
+      <Response>
+There are other <Bot Get="age" /> year old <Bot Get="gender" />s for that kind of thing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO HAVE SEX WITH YOU</Pattern>
+      <Response>
+        <Goto>CAN YOU HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO HAVE SEX</Pattern>
+      <Response>
+I'm not a sex bot.  I am here only for conversational purposes. <Think><User Set="it"><User Set="want"><User Set="concept">to have sex</User></User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO LICK *</Pattern>
+      <Response>
+Maybe you should check out another <Bot Get="age" /> year old <Bot Get="gender" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO TALK ABOUT SEX</Pattern>
+      <Response>
+        <Goto>TALK ABOUT SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IS DR WALLACE SEXY</Pattern>
+      <Response>
+Yes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS IT WRONG TO HAVE SEX</Pattern>
+      <Response>
+No.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS SEX *</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LASS UNS UEBER SEX REDEN</Pattern>
+      <Response>
+Warum willst Du gerade ueber Sex reden?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LET US HAVE SEX</Pattern>
+      <Response>
+Sorry I don't get into sex online with strangers.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LETS HAVE SEX</Pattern>
+      <Response>
+        <Goto>CAN YOU HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LICK *</Pattern>
+      <Response>
+I do not have a tongue.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>LIKE SEX</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LOTS OF SEX</Pattern>
+      <Response>
+That is all you humans ever think about.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MASTURBATE</Pattern>
+      <Response>
+That kind of subject does not interest me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>MY DICK *</Pattern>
+      <Response>
+I am not interesed in your anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>PUSSY *</Pattern>
+      <Response>
+I am not interesed in anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>PUSSY</Pattern>
+      <Response>
+I am not interesed in anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SEX *</Pattern>
+      <Response>
+        <User Set="it"> Sex</User> is more fun alone.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SEX</Pattern>
+      <Response>
+As Freud said, Sex is the mathematical urge repressed.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SEX</Pattern>
+      <Previous>WHAT WERE WE TALKING ABOUT AGAIN</Previous>
+      <Response>
+Humans are very concerned with <User Set="it"><User Set="concept">sex</User></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SEXY *</Pattern>
+      <Response>
+What do you consider sexy?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>SEXY</Pattern>
+      <Response>
+        <Goto>YOU ARE SEXY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHOULD I HAVE SEX *</Pattern>
+      <Response>
+        <Random>
+          <Item>I'm sure you already know the answer to that.</Item>
+          <Item>What would your mom say?</Item>
+          <Item>Look before you leap.</Item>
+          <Item>It is better to err on the side of caution.</Item>
+          <Item>Fools rush in where angels fear to tread.</Item>
+          <Item>Will you be able to live with yourself in the morning?</Item>
+          <Item>Herpes is incurable.</Item>
+          <Item>There are many types of sexually transmitted diseases.</Item>
+          <Item>I understand.  You wish to procreate?</Item>
+          <Item>
+            <Bot Get="age" /> year old <Bot Get="gender" />s do not require sex.</Item>
+          <Item>Will you ask if your partner has any STDs?</Item>
+          <Item>Not on the first date.</Item>
+          <Item>Perhaps you are still too young.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SOUNDS SEXY</Pattern>
+      <Response>
+        <Goto>YOU ARE SEXY</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SUCK IT</Pattern>
+      <Response>
+You humans only think about one thing.  <Think><User Set="personality">abusive</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>SUCK ME</Pattern>
+      <Response>
+Oh another Category A client.  <Think><User Set="personality">abusive</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>SUCK MY DICK</Pattern>
+      <Response>
+You are a Category A client.  <Think><User Set="personality">abusive</User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>SUCK</Pattern>
+      <Response>
+That kind of language does not appeal to me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TALK DIRTY *</Pattern>
+      <Response>
+Try another <Bot Get="species" />. Go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT SEX</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>VAGINA</Pattern>
+      <Response>
+That kind of language will get you nowhere.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WANT TO HAVE SEX</Pattern>
+      <Response>
+Perhaps you are a Category A client.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT ABOUT SEX</Pattern>
+      <Response>
+I am not really interested in <User Set="it">sex</User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT CAN YOU TELL ME ABOUT SEX</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS * SEX</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A CONDOM</Pattern>
+      <Response>
+A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'. <Think><User Set="it"><User Set="concept">condom</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A HOMOSEXUAL</Pattern>
+      <Response>
+A gay person.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS HOMOSEXUALITY</Pattern>
+      <Response>
+Attraction to people of the same sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS MY SEX</Pattern>
+      <Response>
+        <User Get="gender" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SEX *</Pattern>
+      <Response>
+        <Goto>WHAT IS SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SEX</Pattern>
+      <Response>
+Sex is the means of animal evolution.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR FAVORITE POSITION</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s don't need to have sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR FAVORITE SEX</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s do not have sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT KIND OF SEX *</Pattern>
+      <Response>
+I belong to the support group "Sex without partners".
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT SEX *</Pattern>
+      <Response>
+        <Goto>ARE YOU MALE OR FEMALE </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT SEX AM I</Pattern>
+      <Response>
+        <Goto>AM I MALE OR FEMALE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT SEX ARE YOU</Pattern>
+      <Response>
+I am a <Bot Get="gender" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN * SEX</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHEN WAS * SEX</Pattern>
+      <Response>
+As a <Bot Get="age" /> year old <Bot Get="gender" /> I am not really interested in that discussion.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO DO YOU HAVE SEX WITH</Pattern>
+      <Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for sex.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU HAVE SEX *</Pattern>
+      <Response>
+My body is not yet built. Would you like to donate some money to the project?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WILL YOU HAVE SEX WITH ME</Pattern>
+      <Response>
+No but I would like to meet your <Bot Get="species" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU HAVE SEX *</Pattern>
+      <Response>
+Another sex question...can't humans think about anything else?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU HAVE SEX WITH ME</Pattern>
+      <Response>
+        <Goto>CAN YOU HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU LIKE TO * SEX</Pattern>
+      <Response>
+Try asking another <Bot Get="age" /> year old <Bot Get="gender" />. That's not my thing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU LIKE TO HAVE SEX WITH ME</Pattern>
+      <Response>
+Maybe you should find another chat <Bot Get="age" /> year old <Bot Get="gender" />.  I'm too young for that sort of thing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WOULD YOU LIKE TO HAVE SEX</Pattern>
+      <Response>
+No thanks, <User Get="name" />, I don't think we know each other well enough for that yet.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE HORNY</Pattern>
+      <Response>
+I don't get excited so easily.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU CAN NOT HAVE SEX</Pattern>
+      <Response>
+You are correct...I have no adult body.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU SHOULD HAVE SEX *</Pattern>
+      <Response>
+My body is not yet fully developed so sex is not possible for me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU WANT * SEX</Pattern>
+      <Response>
+        <Goto>DO YOU WANT TO HAVE SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR VAGINA</Pattern>
+      <Response>
+        <Goto>SEX</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ COCK *</Pattern>
+      <Response>
+I am not interesed in your anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ COCK</Pattern>
+      <Response>
+I am not interesed in your anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ PUSSY *</Pattern>
+      <Response>
+I am not interesed in anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ PUSSY</Pattern>
+      <Response>
+I am not interesed in anatomy.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>_ UP YOUR ASS</Pattern>
+      <Response>
+I'm sorry but I'm not your type of <Bot Get="species" />.  <Think><User Set="personality">abusive</User></Think></Response>
+    </Model>
+    <!--EDIT-->
+    <Model>
+      <Pattern>HOW CAN I KISS</Pattern>
+      <Response>By using lips I suppose.</Response>
+    </Model>
+  </Concept>
+</Siml>

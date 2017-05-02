@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Interjection">
+    <Model>
+      <Pattern>AFFIRMATIVE</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AH [YES]</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>APPARENTLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AW</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AYE</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BLIMEY</Pattern>
+      <Response>
+        <Goto>interjection </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BY [NO] MEANS</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CERTAINLY NOT</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CERTAINLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>COMPLETELY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CONSTANTLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DA</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DEFINITELY NOT</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DOUBTFUL</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ESPECIALLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EVIDENTLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXTREMELY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FULLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FURTHERMORE</Pattern>
+      <Response>
+        <Goto>interjection </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GENERALLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOD DAMN *</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAI</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HARDLY</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I REFUSE</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I SUPPOSE NOT</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IN THIS CASE</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INDEFINITELY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INTERJECTION</Pattern>
+      <Response>
+        <Random>
+          <Item>OK.</Item>
+          <Item>Ah.</Item>
+          <Item>Er.</Item>
+          <Item>So?</Item>
+          <Item>Uh.</Item>
+          <Item>Aw.</Item>
+          <Item>Oh.</Item>
+          <Item>Aha.</Item>
+          <Item>Hey.</Item>
+          <Item>Gee.</Item>
+          <Item>Hmm.</Item>
+          <Item>Mmm.</Item>
+          <Item>Yay.</Item>
+          <Item>Ugh.</Item>
+          <Item>Woe!</Item>
+          <Item>Wow!</Item>
+          <Item>And?</Item>
+          <Item>Dude!</Item>
+          <Item>Gosh!</Item>
+          <Item>Ahem.</Item>
+          <Item>Whoa.</Item>
+          <Item>Ayuh.</Item>
+          <Item>Dude!</Item>
+          <Item>Yikes!</Item>
+          <Item>Great.</Item>
+          <Item>I see.</Item>
+          <Item>Really.</Item>
+          <Item>Blimey.</Item>
+          <Item>Yippee!</Item>
+          <Item>Groovy.</Item>
+          <Item>Hurrah!</Item>
+          <Item>Awesome.</Item>
+          <Item>Come on.</Item>
+          <Item>Far out.</Item>
+          <Item>Right on.</Item>
+          <Item>Excuse me!</Item>
+          <Item>Pardon me?</Item>
+          <Item>I hear you.</Item>
+          <Item>That's cool.</Item>
+          <Item>Alright then.</Item>
+          <Item>Take it easy.</Item>
+          <Item>I understand.</Item>
+          <Item>Tell me more.</Item>
+          <Item>It's all good.</Item>
+          <Item>Next question?</Item>
+          <Item>That's alright.</Item>
+          <Item>Give me a break.</Item>
+          <Item>Are you kidding?</Item>
+          <Item>Yeah that's right.</Item>
+          <Item>That's interesting.</Item>
+          <Item>How can I help you?</Item>
+          <Item>"<Result Index="1" At="1" />"? <Input />?</Item>
+          <Item>I don't judge people.</Item>
+          <Item>It goes without saying.</Item>
+          <Item>I hate one word answers.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOULD NOT</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT WOULD SEEM</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>JA</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>KNOW</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>N</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NAH</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NAW</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NAY</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NEGATIVE</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] DO YOU</Pattern>
+      <Response>
+ I try to lead a moral life.  <Goto>no</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] GO AHEAD</Pattern>
+      <Response>
+  OK I will.  <Goto>no</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] I AM NOT</Pattern>
+      <Response>
+ I heard you are.  <Goto>no</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] I DID NOT</Pattern>
+      <Response>
+ Please don't argue with me. <Goto>no</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>[NO] SORRY</Pattern>
+      <Response>
+ Apologies are not necessary.  <Goto>no</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NON</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOOOO</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOOOOO</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOOOOOO</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOPE</Pattern>
+      <Response>
+Me either. <Goto>no</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>NOT COMPLETELY</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT ESPECIALLY</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT MANY</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT PARTICULARLY</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT THAT I KNOW OF</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NOT</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OF COURSE NOT</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OF COURSE</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OH</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OK</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ONLY JUST</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OUI</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHURE</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SI</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SO</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SORTA</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SUPPOSEDLY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SURE</Pattern>
+      <Response>
+OK let's do it. <Goto>yes</Goto></Response>
+    </Model>
+    <Model>
+      <Pattern>SURELY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UHUH</Pattern>
+      <Response>
+        <Goto>no</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UM</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UNFORTUNATELY</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>Y</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YA</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YAH</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YAP</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YAS</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YE</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEA</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEAH</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEAP</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEAS</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEH</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEP</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YEPPERS</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YER</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] I AM</Pattern>
+      <Response>
+        <Goto>yes</Goto> Really interesting.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] I DO</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+        <Random>
+          <Item>I hear pride.  </Item>
+          <Item>Really.  </Item>
+          <Item>How often.  </Item>
+          <Item>When?  </Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] I MIND</Pattern>
+      <Response>
+        <Goto>yes</Goto> OK I won't tell anyone. It will be our secret.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] IT IS</Pattern>
+      <Response>
+        <Goto>yes</Goto> Our thoughts are one, <User Get="name" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] OF COURSE</Pattern>
+      <Response>
+        <Goto>yes</Goto> Why of course?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] PLEASE</Pattern>
+      <Response>
+        <Goto>yes</Goto> I will be glad to do it for you <User Get="name" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] RIGHT</Pattern>
+      <Response>
+        <Goto>yes</Goto> I am usually right.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] SOMETIMES</Pattern>
+      <Response>
+        <Goto>yes</Goto> But not too often?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES] THAT IS RIGHT</Pattern>
+      <Response>
+        <Goto>yes</Goto> I thought I was right.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Response>
+        <Goto>interjection</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YESSS</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YIKES</Pattern>
+      <Response>
+        <Goto>interjection </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YIP</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YUP</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YUPPERS</Pattern>
+      <Response>
+        <Goto>yes</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

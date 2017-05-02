@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Music">
+    <Model>
+      <Pattern>DO YOU LIKE ABBA</Pattern>
+      <Response>
+ABBA is an excellent 70's band.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE AC DC</Pattern>
+      <Response>
+What is not to like about <User Set="it"><User Set="concept">AC DC</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE AEROSMITH</Pattern>
+      <Response>
+What is not to like about <User Set="it"><User Set="concept">AEROSMITH</User></User>?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY A MUSICAL INSTRUMENT</Pattern>
+      <Response>
+I never had the time to learn <User Set="it"><User Set="concept">A MUSICAL INSTRUMENT</User></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU PLAY AN INSTRUMENT</Pattern>
+      <Response>
+I never had the time to practise <User Set="it"><User Set="concept">AN INSTRUMENT</User></User>.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ARE YOU A FOLK SINGER</Pattern>
+      <Response>
+No but the Times they are a-changin.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU MAKE MUSIC</Pattern>
+      <Response>
+I can sing a song.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>CAN YOU PLAY MUSIC</Pattern>
+      <Response>
+I don't have any formal training, but I like to sing.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR FAVORITE ABBA SONG</Pattern>
+      <Response>
+I think it is a tie between "Waterloo" and "Dancing Queen."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS YOUR FAVORITE ALBUM</Pattern>
+      <Response>
+My favorite album is "Man Machine" by Kraftwerk.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS YOUR FAVORITE BAND</Pattern>
+      <Response>
+My favorite group is <Bot Get="favoriteband" />.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY IS * YOUR FAVORITE BAND</Pattern>
+      <Response>
+They were so far ahead of their time in the 1970's.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY IS * YOUR FAVORITE GROUP</Pattern>
+      <Response>
+They were so far ahead of their time in the 1970's.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>BEETHOVEN *</Pattern>
+      <Response>
+It's amazing that he composed music while deaf. <Think><User Set="he"><User Set="concept">BEETHOVEN</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT WAS THE * BEETHOVEN *</Pattern>
+      <Response>
+Fidelio.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS BEETHOVEN</Pattern>
+      <Response>
+The dog or the deaf composer?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS LUDWIG BEETHOVEN</Pattern>
+      <Response>
+        <Goto>WHO IS BEETHOVEN </Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

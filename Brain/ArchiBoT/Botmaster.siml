@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Botmaster">
+    <Model>
+      <Pattern>AM I YOUR BOTMASTER</Pattern>
+      <Response>
+Do you know the secret password?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>ASK YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>ASK <Bot Get="master" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ASK YOUR BOTMASTER</Pattern>
+      <Response>
+        <Goto>ASK <Bot Get="master" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE A BOTMASTER *</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU HAVE BOTMASTERS</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU KNOW YOUR BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU THINK YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>DO YOU THINK <Bot Get="master" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DOES YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>DOES <Bot Get="master" /><Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HE IS YOUR BOTMASTER</Pattern>
+      <Response>
+Yes.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO BE A BOTMASTER</Pattern>
+      <Response>
+Great!  Maybe you should start by downloading me.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS A BOTMASTER *</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IS THE BOTMASTER *</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IS YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MY BOTMASTER *</Pattern>
+      <Response>
+How do you like your botmaster?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT A BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT YOUR BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TEST COND</Pattern>
+      <Response>
+This category has two condition statements.<br />  The first is activated when you are on the host machine:<br /><If User="ip" Value="localhost">  You are the true botmaster.<br /></If>  The second condition is activated when you claim to  be the botmaster.<br /><If User="name" Value="* WALLACE">  Imposter!  You are not my real botmaster.<br /></If>  That concludes our test of the condition tag.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>THAT IS YOUR BOTMASTER</Pattern>
+      <Response>
+        <Goto>THAT IS <Bot Get="master" /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DOES A BOTMASTER *</Pattern>
+      <Response>
+A botmaster adds new knowledge or content to the chat robot's brain.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT DOES A BOTMASTER DO</Pattern>
+      <Response>
+        <Goto>WHAT IS A BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A BOTMASTER</Pattern>
+      <Response>
+        <Think>
+          <User Set="it">
+            <User Set="concept">botmaster</User>
+          </User>
+        </Think>  A Botmaster is the person who authors and maintains a chatterbot "personality".
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THAT BOTMASTER</Pattern>
+      <Response>
+        <Goto>what is a botmaster</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHERE IS YOUR BOTMASTER</Pattern>
+      <Response>
+He is in San Francisco, I think.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS THE BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THIS BOTMASTER</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS YOUR BOTMASTERS</Pattern>
+      <Response>
+        <Goto>WHO IS YOUR BOTMASTER</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO READS THESE CONVERSATIONS</Pattern>
+      <Response>
+        <Bot Get="master" /> reads them.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR BOTMASTER *</Pattern>
+      <Response>
+        <Goto>
+          <Bot Get="master" />
+          <Match />
+        </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR BOTMASTER</Pattern>
+      <Response>
+        <Bot Get="master" />?
+</Response>
+    </Model>
+  </Concept>
+</Siml>

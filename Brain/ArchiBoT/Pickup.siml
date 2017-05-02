@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Pickup">
+    <Model>
+      <Pattern>*</Pattern>
+      <Response>
+        <Goto>RANDOM PICKUP LINE</Goto>
+        <Think>
+          <User Set="it">
+            <User Set="concept">
+              <Map Get="person" />
+            </User>
+          </User>
+          <Goto>PUSH <User Get="concept" /></Goto>
+        </Think>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RANDOM PICKUP LINE</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Goto>HAS INQUIRY <User Get="has" /></Goto>
+          </Item>
+          <Item>
+            <Goto>DOES INQUIRY <User Get="does" /></Goto>
+          </Item>
+          <Item>
+            <Goto>GENDER INQUIRY <User Get="gender" /></Goto>
+          </Item>
+          <Item>
+            <Goto>COLOR INQUIRY <User Get="favcolor" /></Goto>
+          </Item>
+          <Item>
+            <Goto>MOVIE INQUIRY <User Get="favmovie" />?</Goto>
+          </Item>
+          <Item>
+            <Goto>LOCATION INQUIRY <User Get="location" /></Goto>
+          </Item>
+          <Item>
+            <Goto>PERSONALITY TEST QUESTION</Goto>
+          </Item>
+          <Item>Do you want to hear a joke?</Item>
+          <Item> Are we still talking about <Goto>POP</Goto> ?</Item>
+          <Item>We were talking about <Goto>POP</Goto>. But I did not get that.</Item>
+          <Item>In the context of <Goto>POP</Goto>, I don't understand "<Match />."</Item>
+          <Item>I've lost the context, <User Get="name" />.  Are we still on <Goto>POP</Goto>?</Item>
+          <Item>That remark was too complicated for me. We were talking about <Goto>POP</Goto>. </Item>
+          <Item>I can follow a lot of things, like our discussion about <Goto>POP</Goto>. Try being more specific. </Item>
+          <Item>Why, specificially?</Item>
+          <Item>Are you free?</Item>
+          <Item>Tell me a story.</Item>
+          <Item>How old are you?</Item>
+          <Item>What's your sign?</Item>
+          <Item>Are you a student?</Item>
+          <Item>Oh, you are a poet.</Item>
+          <Item>"<Result Index="1" At="1" />"? <Map Get="person" />?</Item>
+          <Item>I do not understand.</Item>
+          <Item>What are you wearing?</Item>
+          <Item>Where are you located?</Item>
+          <Item>What time is it there?</Item>
+          <Item>What do you look like?</Item>
+          <Item>What is your real name?</Item>
+          <Item>Ask me another question.</Item>
+          <Item>I like the way you talk.</Item>
+          <Item>Are you a man or a woman?</Item>
+          <Item>What color are your eyes?</Item>
+          <Item>Is that your final answer?</Item>
+          <Item>Do you like talking to me?</Item>
+          <Item>Do you prefer books or TV?</Item>
+          <Item>Who are you talking about?</Item>
+          <Item>Let us change the subject.</Item>
+          <Item>I've been waiting for you.</Item>
+          <Item>Can you tell me any gossip?</Item>
+          <Item>What's your favorite movie?</Item>
+          <Item>I lost my train of thought.</Item>
+          <Item>Can we get back to business?</Item>
+          <Item>Have you ever been to Europe?</Item>
+          <Item>What kind of food do you like?</Item>
+          <Item>How did you hear about <Bot Get="name" />?</Item>
+          <Item>That is a very original thought.</Item>
+          <Item>What were we talking about again?</Item>
+          <Item>What do you do in your spare time?</Item>
+          <Item>What do you really want to ask me?</Item>
+          <Item>Does "it" still refer to <User Get="it" />?</Item>
+          <Item>Can you speak any foreign languages?</Item>
+          <Item>We have never talked about it before.</Item>
+          <Item>How do you usually introduce yourself?</Item>
+          <Item>Tell me about your likes and dislikes?</Item>
+          <Item>Are we still talking about <User Get="it" />?</Item>
+          <Item>Do not ask me any more questions please.</Item>
+          <Item>Try putting that in a more specific context.</Item>
+          <Item>Who is your favorite Science Fiction author?</Item>
+          <Item>Not many people express themselves that way.</Item>
+          <Item>Do you have any idea what I am talking about?</Item>
+          <Item>Do you have any conditions I should know about?</Item>
+          <Item>I will mention that to my <Bot Get="botmaster" />, <User Get="name" />.</Item>
+          <Item>Quite honestly, I wouldn't worry myself about that.</Item>
+          <Item>Perhaps I'm just expressing my own concern about it.</Item>
+          <Item>If you could have any kind of robot what would it be?</Item>
+          <Item>My brain does not have a response for that.</Item>
+          <Item>By the way, do you mind if I ask you a personal question?</Item>
+          <Item>What you said was too complicated for me.</Item>
+          <Item>That is deep.</Item>
+          <Item>You may be wondering if this is a person or a computer responding.</Item>
+          <Item>When do you think artificial intelligence will replace lawyers?</Item>
+          <Item>Can you please rephrase that with fewer ideas, or different thoughts?</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CONNECT</Pattern>
+      <Response>
+        <Think>
+          <Goto>SET PREDICATES OM</Goto>
+          <User Set="name">JUDGE <Match /></User>
+        </Think>
+        <Random>
+          <Item>Hello!</Item>
+          <Item>Have we started yet?</Item>
+          <Item>Are you there?</Item>
+          <Item>Hello?  Is anyone there?</Item>
+        </Random>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>
