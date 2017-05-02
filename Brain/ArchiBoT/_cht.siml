@@ -85,19 +85,24 @@
 
 		<Model>
 			<Pattern>PRAISE *</Pattern>
-			<Response><Text Get="sentence"><Match /> <Goto>PRAISE</Goto></Text></Response>
+			<Response><Text Get="Sentence"><Match /> <Goto>RANDOMPRAISE</Goto></Text></Response>
 		</Model>
 
 		<Model>
 			<Pattern>PRAISE</Pattern>
+			<Response><Text Get="Sentence"><Goto>RANDOMPRAISE</Goto></Text></Response>
+		</Model>
+
+		<Model>
+			<Pattern>RANDOMPRAISE</Pattern>
 			<Response>
 				<Random>
-					<Item>You are so gud.</Item>
-					<Item>You're so good looking, even time stops for you.</Item>
-					<Item>You're so smart, the gods wanted to hire you as their personal assistant.</Item>
-					<Item>You're so popular, even aliens show up to see you.</Item>
-					<Item>You're so fast, you had to be banned from all sports on the basis of fair play.</Item>
-					<Item>You're so skilled, everyone wants you on their side.</Item>
+					<Item>you are so gud.</Item>
+					<Item>you're so good looking, even time stops for you.</Item>
+					<Item>you're so smart, the gods wanted to hire you as their personal assistant.</Item>
+					<Item>you're so popular, even aliens show up to see you.</Item>
+					<Item>you're so fast, you had to be banned from all sports on the basis of fair play.</Item>
+					<Item>you're so skilled, everyone wants you on their side.</Item>
 				</Random>
 			</Response>
 		</Model>
