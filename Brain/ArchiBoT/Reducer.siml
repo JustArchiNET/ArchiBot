@@ -462,6 +462,7 @@ How long have you known these people? <Think><User Set="they"><User Set="concept
         </Goto>
       </Response>
     </Model>
+<!--
     <Model>
       <Pattern>THANKS *</Pattern>
       <Response>
@@ -470,6 +471,7 @@ How long have you known these people? <Think><User Set="they"><User Set="concept
         </Goto>
       </Response>
     </Model>
+-->
     <Model>
       <Pattern>THE FUNNY THING IS *</Pattern>
       <Response>
