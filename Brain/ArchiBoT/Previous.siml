@@ -112,8 +112,8 @@ I've never done that before, what is it like?  <Think><User Set="it"><User Set="
       </Response>
     </Model>
     <Model>
-      <Pattern>*</Pattern>
-      <Previous>* WHO</Previous>
+      <Pattern>_</Pattern>
+      <Previous>_ WHO</Previous>
       <Response>
 Ha ha very funny, <User Get="name" />.
 </Response>
