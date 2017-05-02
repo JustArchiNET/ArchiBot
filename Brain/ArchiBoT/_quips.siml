@@ -47,7 +47,7 @@
 				<Item>TAIGO</Item>
 				<Item>WHO IS TAIGO</Item>
 			</Pattern>
-			<Response><Text Get="sentence"><Goto>RANDOMADJECTIVE</Goto></Text> <Text Get="sentence"><Goto>RANDOMNOUN</Goto></Text> Taigo</Response>
+			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> Taigo</Text></Response>
 		</Model>
 	</Concept>
 </Siml>

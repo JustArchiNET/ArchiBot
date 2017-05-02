@@ -11,13 +11,13 @@
 
 		<Model>
 			<Pattern>9BALL %</Pattern>
-			<Response>❾: <Goto>MAGICBALL %</Goto>
+			<Response>❾: <Goto>MAGICBALL %</Goto>
 			</Response>
 		</Model>
 
 		<Model>
 			<Pattern>8BALL %</Pattern>
-			<Response>❽: <Goto>MAGICBALL %</Goto>
+			<Response>❽: <Goto>MAGICBALL %</Goto>
 			</Response>
 		</Model>
 

@@ -85,7 +85,7 @@
 
 		<Model>
 			<Pattern>PRAISE *</Pattern>
-			<Response><Text Get="sentence"> <Match /> <Goto>PRAISE</Goto></Text></Response>
+			<Response><Text Get="sentence"><Match /> <Goto>PRAISE</Goto></Text></Response>
 		</Model>
 
 		<Model>

@@ -3,7 +3,7 @@
 	<Concept Name="_insults" Type="Public">
 		<Model>
 			<Pattern>INSULT *</Pattern>
-			<Response><Text Get="sentence"><Match /> <Goto>INSULT</Goto></Text></Response>
+			<Response><Text Get="sentence"><Match /> <Goto>INSULT</Goto></Text></Response>
 		</Model>
 
 		<Model>
@@ -16,10 +16,10 @@
 				<Random>
 					<Item>You really thought I'd insult myself? :sgsmile:</Item>
 					<Item>Nice try :sgsmile:</Item>
-					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
-					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
-					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
-					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
+					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
+					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
+					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
+					<Item>How about I insult you instead? <Goto>INSULT</Goto> :sgsmile:</Item>
 				</Random>
 			</Response>
 		</Model>
