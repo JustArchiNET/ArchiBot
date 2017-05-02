@@ -2,6 +2,11 @@
 <Siml>
 	<Concept Name="_pppn" Type="Public">
 		<Model>
+			<Pattern>FLIP *</Pattern>
+			<Response>(╯°□°）╯︵ <Text Get="Implode"><Map Get="letters2flipped"><Text Get="Explode"><Text Get="Reverse"><Text Get="Lowercase"><Match /></Text></Text></Text></Map></Text></Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>FLIP TABLE</Item>
 				<Item>FLIPPU TABLE</Item>

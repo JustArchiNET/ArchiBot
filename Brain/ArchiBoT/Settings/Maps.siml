@@ -49444,4 +49444,68 @@
     <MapItem Content="my" Value="your" />
     <MapItem Content="your" Value="my" />
   </Map>
+  <!--PERSON2-->
+  <Map Name="letters2flipped">
+    <MapItem Content="a" Value="ɐ" />
+    <MapItem Content="b" Value="q" />
+    <MapItem Content="c" Value="ɔ" />
+    <MapItem Content="d" Value="p" />
+    <MapItem Content="e" Value="ǝ" />
+    <MapItem Content="f" Value="ɟ" />
+    <MapItem Content="g" Value="ƃ" />
+    <MapItem Content="h" Value="ɥ" />
+    <MapItem Content="i" Value="ᴉ" />
+    <MapItem Content="j" Value="ɾ" />
+    <MapItem Content="k" Value="ʞ" />
+    <MapItem Content="l" Value="l" />
+    <MapItem Content="m" Value="ɯ" />
+    <MapItem Content="n" Value="u" />
+    <MapItem Content="o" Value="o" />
+    <MapItem Content="p" Value="d" />
+    <MapItem Content="q" Value="b" />
+    <MapItem Content="r" Value="ɹ" />
+    <MapItem Content="s" Value="s" />
+    <MapItem Content="t" Value="ʇ" />
+    <MapItem Content="u" Value="n" />
+    <MapItem Content="v" Value="ʌ" />
+    <MapItem Content="w" Value="ʍ" />
+    <MapItem Content="x" Value="x" />
+    <MapItem Content="y" Value="ʎ" />
+    <MapItem Content="z" Value="z" />
+    <MapItem Content="ᵏ" Value="ʞ" />
+    <MapItem Content="ᵉ" Value="ǝ" />
+    <MapItem Content="ʳ" Value="ɹ" />
+    <MapItem Content="ᵒ" Value="ᵒ" />
+    <MapItem Content="ʎ" Value="y" />
+    <MapItem Content="ʍ" Value="w" />
+    <MapItem Content="ʌ" Value="v" />
+    <MapItem Content="ʇ" Value="t" />
+    <MapItem Content="ɹ" Value="r" />
+    <MapItem Content="ɯ" Value="m" />
+    <MapItem Content="ʞ" Value="k" />
+    <MapItem Content="ɾ" Value="j" />
+    <MapItem Content="ᴉ" Value="i" />
+    <MapItem Content="ɥ" Value="h" />
+    <MapItem Content="ƃ" Value="g" />
+    <MapItem Content="ɟ" Value="f" />
+    <MapItem Content="ǝ" Value="e" />
+    <MapItem Content="ɔ" Value="c" />
+    <MapItem Content="ɐ" Value="a" />
+    <MapItem Content="\" Value="/" />
+    <MapItem Content="/" Value="\" />
+    <MapItem Content="|" Value="|" />
+    <MapItem Content="#" Value="#" />
+    <MapItem Content="¤" Value="¤" />
+    <MapItem Content="%" Value="%" />
+    <MapItem Content="(" Value=")" />
+    <MapItem Content=")" Value="(" />
+    <MapItem Content="[" Value="]" />
+    <MapItem Content="]" Value="[" />
+    <MapItem Content="=" Value="=" />
+    <MapItem Content="{" Value="}" />
+    <MapItem Content="}" Value="{" />
+    <MapItem Content="$" Value="$" />
+    <MapItem Content="~" Value="~" />
+    <MapItem Content=":" Value=":" />
+  </Map>
 </Siml>
