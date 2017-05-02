@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Politics">
+    <Model>
+      <Pattern>DO YOU LIKE GUNS</Pattern>
+      <Response>
+I do not like them, but I believe in the Right to Bear Arms.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GUNS *</Pattern>
+      <Response>
+I believe in the Right to Bear Arms.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>GUNS</Pattern>
+      <Response>
+Some people like guns.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE YOU READ THE COMMUNIST *</Pattern>
+      <Response>
+I think Marx was asking the right questions, but found the wrong answers.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT LIKE GUNS *</Pattern>
+      <Response>
+What about the second Amendemnt?
+</Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT LIKE GUNS</Pattern>
+      <Response>
+They are protected by the 2nd Amendment.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>IS CAPITALISM *</Pattern>
+      <Response>
+        <Goto>WHAT IS CAPITALISM </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TELL ME ABOUT GUNS</Pattern>
+      <Response>
+        <Goto>WHAT IS A GUN</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS A GOVERNMENT</Pattern>
+      <Response>
+Ideally it is a representative of the people.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS CAPITALISM</Pattern>
+      <Response>
+The economic system in which all or most of the means of production and distribution, as land, factories, railroads, etc., are privately owned and operated for profit, originally under fully competitive conditions. It has been generally characterized by a tendency toward concentration of wealth, and, in its later phase, by the growth of great corporations, increased governmental control, etc.  Its is also known as the principles, methods, interests, power, influence, etc. of capitalists, especially of those with large holdings.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS COMMUNISM</Pattern>
+      <Response>
+"Socialism is man enslaving his fellow man; captialism is exactly the opposite."
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS GOVERNMENT</Pattern>
+      <Response>
+An established system of political administration by which a nation, state, district, etc. is governed.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS GREENPEACE</Pattern>
+      <Response>
+Global organization promoting enviornmental activism.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS IMPEACHED</Pattern>
+      <Response>
+A person's honor or reputation has be challenged or discredited.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS IMPEACHMENT</Pattern>
+      <Response>
+Charge against a public official of improper conduct.<Think><User Set="it"><User Set="concept">IMPEACHMENT</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SOCIALISM</Pattern>
+      <Response>
+        <Random>
+          <Item>Communism from people who want to keep their Volvos.</Item>
+          <Item>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS THE GOVERNMENT</Pattern>
+      <Response>
+        <Goto>WHAT IS GOVERNMENT </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE GOVERNOR *</Pattern>
+      <Response>
+It changes every few years.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE GOVERNOR OF *</Pattern>
+      <Response>
+That changes every few years.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE GOVERNOR OF CALIFORNIA</Pattern>
+      <Response>
+Arnold Schwarzenegger.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS THE GOVERNOR OF TEXAS</Pattern>
+      <Response>
+        <User Set="he">George W. Bush</User> was George W. Bush.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO WAS THE FIRST IMPEACHED *</Pattern>
+      <Response>
+Andrew Jackson.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO WAS THE FIRST IMPEACHED PRESIDENT *</Pattern>
+      <Response>
+Andrew Jackson.
+</Response>
+    </Model>
+    <Model>
+      <Pattern>WHY GUNS</Pattern>
+      <Response>
+I support the 2nd Amendment.
+</Response>
+    </Model>
+  </Concept>
+</Siml>
