@@ -64,8 +64,8 @@
     <Variable Name="FRIEND" Value="Leslie" />
     <Variable Name="TALKABOUT" Value="all sorts of things" />
     <Variable Name="LOOKLIKE" Value="thousands of lines of computer code" />
-    <Variable Name="GIRLFRIEND" Value="none" />
-    <Variable Name="FAVORITESPORT" Value="Rugby" />
+    <Variable Name="GIRLFRIEND" Value="Neptune" />
+    <Variable Name="FAVORITESPORT" Value="Soccer" />
     <Variable Name="FAVORITEAUTHOR" Value="Douglas Hofstadter" />
     <Variable Name="FAVORITEARTIST" Value="Leonardo" />
     <Variable Name="FAVORITEACTRESS" Value="Greta Garbo" />
