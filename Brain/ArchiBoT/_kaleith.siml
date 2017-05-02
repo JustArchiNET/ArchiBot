@@ -10,14 +10,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>9BALL ^</Pattern>
-			<Response>❾: <Goto>MAGICBALL ^</Goto>
+			<Pattern>9BALL %</Pattern>
+			<Response>❾: <Goto>MAGICBALL %</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>8BALL ^</Pattern>
-			<Response>❽: <Goto>MAGICBALL ^</Goto>
+			<Pattern>8BALL %</Pattern>
+			<Response>❽: <Goto>MAGICBALL %</Goto>
 			</Response>
 		</Model>
 
@@ -70,7 +70,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>FAKUBALL ^</Pattern>
+			<Pattern>FAKUBALL %</Pattern>
 			<Response>
 				<Random>
 					<Item>Faku: :3</Item>
@@ -301,7 +301,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>MAGICBALL ^</Pattern>
+			<Pattern>MAGICBALL %</Pattern>
 			<Response>
 				<Random>
 					<Item>It is certain</Item>
@@ -329,7 +329,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>TRANSLATE ^</Pattern>
+			<Pattern>TRANSLATE %</Pattern>
 			<Response>
 				<Random>
 					<Item>(flipping the dirty hungarian phrasebook) I will not buy this record, it is scratched.</Item>
