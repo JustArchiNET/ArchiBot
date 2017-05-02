@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Splitter: This splitter element is used split sentences into different Input values for processing.-->
+  <!--Text: Splits the user input wherever the given character or sequence of characters are found. -->
+  <!--Word: Splits the user input wherever the given word ( separated by SPACE ) is found.-->
+  <!--Regex: Splits the user input wherever the given Regular Expression matches.-->
+  <!--Note: The order/priority of splitting the user input is proportional to the order of elements within this Splitter element-->
+  <Splitter>
+    <Text>.</Text>
+    <Text>?</Text>
+    <Text>!</Text>
+    <Text>;</Text>
+  </Splitter>
+  <!--Filter: Filters below are used to filter user input BEFORE its processed. You may use <Text>, <Word> and <Regex> tags.-->
+  <!--Text: Text element is used to filter all occurance of a the specified text within the input-->
+  <!--Word: Word element is used to filter individual words that may be separated by a SPACE character-->
+  <!--Regex: Regular Expression that is used to replace textual strings wherever a pattern is matched-->
+  <!--Note: Depending on your requirement ( considering defined Regular Expressions ) you should make sure certain characters/words are NOT filtered-->
+  <!--Note: Your filters should not conflict with Pattern Reductions. If you filter out important words you may render a pattern reduction useless-->
+  <!--NULL-->
+  <Filter Value="">
+    <Text>=reply</Text>
+    <Text>name=reset</Text>
+    <Text>"</Text>
+  </Filter>
+  <!--SMILE-->
+  <Filter Value="smile">
+    <Word>:-)</Word>
+    <Word>:)</Word>
+    <Word>,)</Word>
+    <Word>;)</Word>
+    <Word>;-)</Word>
+    <Word>:D</Word>
+    <Word>:-D</Word>
+  </Filter>
+  <!--LOL-->
+  <Filter Value="lol">
+    <Word>rofl</Word>
+    <Word>lmao</Word>
+    <Word>lmfao</Word>
+    <Word>lolz</Word>
+  </Filter>
+  <!--SPACE ( Commented out for Regex )
+  <Filter Value=" ">
+    <Text>/</Text>
+    <Text>(</Text>
+    <Text>)</Text>
+    <Text>`</Text>
+    <Text>,</Text>
+    <Text>:</Text>
+    <Text>&amp;</Text>
+    <Text>=</Text>
+    <Text>\</Text>
+  </Filter>-->
+  <!-- COMMON TEXT REPLACEMENT-->
+  <Filter Text="&gt;" Value="gt" />
+  <Filter Text="&lt;" Value="lt" />
+  <!--<Filter Text="-" Value="-" />-->
+  <Filter Word="l a" Value="la" />
+  <!--OK-->
+  <Filter Value="ok">
+    <Word>o k</Word>
+    <Word>o.k.</Word>
+    <Word>o. k.</Word>
+  </Filter>
+  <!--PS-->
+  <Filter Value="ps">
+    <Word>p s</Word>
+    <Word>p.s.</Word>
+  </Filter>
+  <Filter Word="ohh" Value="oh" />
+  <Filter Word="hehe" Value="he" />
+  <Filter Word="haha" Value="ha" />
+  <Filter Word="hellp" Value="help" />
+  <!--BECAUSE-->
+  <Filter Value="because">
+    <Word>becaus</Word>
+    <Word>becasue</Word>
+    <Word>becuase</Word>
+    <Word>becouse</Word>
+    <Word>becoz</Word>
+    <Word>bcoz</Word>
+    <Word>coz</Word>
+  </Filter>
+  <Filter Value="related">
+    <Word>realted</Word>
+  </Filter>
+  <Filter Word="beleive" Value="believe" />
+  <Filter Word="reductionalism" Value="reductionism" />
+  <Filter Word="gonna" Value="going to" />
+  <Filter Word="its a" Value="it is a" />
+  <Filter Word="yesi" Value="yes i" />
+  <Filter Word="noi" Value="no i" />
+  <!--FAVORITE-->
+  <Filter Value="favorite">
+    <Word>fav</Word>
+    <Word>favourite</Word>
+  </Filter>
+  <Filter Word="yesit" Value="yes it" />
+  <!--I AM-->
+  <Filter Value="i am">
+    <Word>iam</Word>
+    <Word>i'm</Word>
+    <Word>i m</Word>
+  </Filter>
+  <Filter Word="welli" Value="well i" />
+  <Filter Word="wellit" Value="well it" />
+  <Filter Word="amfine" Value="am fine" />
+  <Filter Word="aman" Value="am an" />
+  <Filter Word="amon" Value="am on" />
+  <Filter Word="amnot" Value="am not" />
+  <Filter Word="realy" Value="really" />
+  <Filter Word="iamusing" Value="i am using" />
+  <Filter Word="amleaving" Value="am leaving" />
+  <!--YES-->
+  <Filter Value="yes">
+    <Word>yeah</Word>
+    <Word>yep</Word>
+    <Word>yha</Word>
+  </Filter>
+  <Filter Word="yuo" Value="you" />
+  <Filter Word="wanna" Value="want to" />
+  <Filter Word="you'd" Value="you would" />
+  <!--YOU ARE-->
+  <Filter Value="you are">
+    <Word>you're</Word>
+    <Word>you re</Word>
+    <Word>youre</Word>
+    <Word>you r</Word>
+  </Filter>
+  <!--YOU HAVE-->
+  <Filter Value="you have">
+    <Word>you've</Word>
+    <Word>you ve</Word>
+  </Filter>
+  <!--YOU WILL-->
+  <Filter Value="you will">
+    <Word>you'll</Word>
+    <Word>you ll</Word>
+  </Filter>
+  <!--DID NOT-->
+  <Filter Value="did not">
+    <Word>didnt</Word>
+    <Word>didn t</Word>
+    <Word>did'nt</Word>
+    <Word>didn't</Word>
+  </Filter>
+  <!--COULD NOT-->
+  <Filter Value="could not">
+    <Word>couldn't</Word>
+    <Word>couldn t</Word>
+  </Filter>
+  <!--IS NOT-->
+  <Filter Value="is not">
+    <Word>ain't</Word>
+    <Word>ain t</Word>
+    <Word>isn't</Word>
+    <Word>isn t</Word>
+    <Word>isnt</Word>
+  </Filter>
+  <!--IT IS-->
+  <Filter Value="it is">
+    <Word>it's</Word>
+    <Word>it s</Word>
+  </Filter>
+  <!--ARE NOT-->
+  <Filter Value="are not">
+    <Word>are'nt</Word>
+    <Word>arent</Word>
+    <Word>aren't</Word>
+    <Word>aren t</Word>
+    <Word>arn t</Word>
+  </Filter>
+  <!--WHERE IS-->
+  <Filter Value="where is">
+    <Word>where's</Word>
+    <Word>where s</Word>
+  </Filter>
+  <!--HAVE NOT-->
+  <Filter Value="have not">
+    <Word>haven't</Word>
+    <Word>havent</Word>
+  </Filter>
+  <!--HAS NOT-->
+  <Filter Value="has not">
+    <Word>hasn't</Word>
+    <Word>hasn t</Word>
+  </Filter>
+  <!--WERE NOT-->
+  <Filter Value="were not">
+    <Word>weren t</Word>
+    <Word>weren't</Word>
+    <Word>werent</Word>
+  </Filter>
+  <!--CAN NOT-->
+  <Filter Value="can not">
+    <Word>can't</Word>
+    <Word>can t</Word>
+    <Word>cant</Word>
+    <Word>cannot</Word>
+  </Filter>
+  <!--WHO IS-->
+  <Filter Value="who is">
+    <Word>whos</Word>
+    <Word>who's</Word>
+    <Word>who s</Word>
+  </Filter>
+  <!--HOW IS-->
+  <Filter Value="how is">
+    <Word>how's</Word>
+    <Word>how s</Word>
+    <Word>hows</Word>
+  </Filter>
+  <!--HOW DID-->
+  <Filter Value="how did">
+    <Word>how'd</Word>
+    <Word>how d</Word>
+  </Filter>
+  <!--WHAT IS-->
+  <Filter Value="what is">
+    <Word>whats</Word>
+    <Word>what's</Word>
+    <Word>what s</Word>
+  </Filter>
+  <Filter Word="name's" Value="name is" />
+  <!--THAT IS-->
+  <Filter Value="that is">
+    <Word>that's</Word>
+    <Word>thats</Word>
+  </Filter>
+  <!--THERE IS-->
+  <Filter Value="there is">
+    <Word>there's</Word>
+    <Word>there s</Word>
+    <Word>theres</Word>
+  </Filter>
+  <!--DOES NOT-->
+  <Filter Value="does not">
+    <Word>doesn't</Word>
+    <Word>doesn t</Word>
+    <Word>doesnt</Word>
+  </Filter>
+  <!--DO NOT-->
+  <Filter Value="do not">
+    <Word>don't</Word>
+    <Word>don t</Word>
+    <Word>dont</Word>
+    <Word>do nt</Word>
+    <Word>do'nt</Word>
+  </Filter>
+  <!--WILL NOT-->
+  <Filter Value="will not">
+    <Word>won't</Word>
+    <Word>wont</Word>
+    <Word>won t</Word>
+  </Filter>
+  <Filter Word="let's" Value="let us" />
+  <!--THEY ARE-->
+  <Filter Value="they are">
+    <Word>they're</Word>
+    <Word>ther re</Word>
+  </Filter>
+  <!--WAS NOT-->
+  <Filter Value="was not">
+    <Word>wasn't</Word>
+    <Word>wasn t</Word>
+    <Word>wasnt</Word>
+  </Filter>
+  <!--HAD NOT-->
+  <Filter Value="had not">
+    <Word>hadn't</Word>
+    <Word>hadn t</Word>
+  </Filter>
+  <!--WOULD NOT-->
+  <Filter Value="would not">
+    <Word>wouldn't</Word>
+    <Word>wouldn t</Word>
+    <Word>wouldnt</Word>
+  </Filter>
+  <!--SHOULD NOT-->
+  <Filter Value="should not">
+    <Word>shouldn't</Word>
+    <Word>shouldnt</Word>
+  </Filter>
+  <Filter Word="colour" Value="color" />
+  <!--WE WILL-->
+  <Filter Value="we will">
+    <Word>we'll</Word>
+    <Word>we ll</Word>
+  </Filter>
+  <!--HE WILL-->
+  <Filter Value="he will">
+    <Word>he'll</Word>
+    <Word>he ll</Word>
+  </Filter>
+  <Filter Word="i'll" Value="i will" />
+  <!--I HAVE-->
+  <Filter Value="i have">
+    <Word>ive</Word>
+    <Word>i've</Word>
+    <Word>i ve</Word>
+  </Filter>
+  <Filter Word="i'd" Value="i would" />
+  <Filter Value="we have">
+    <Word>we've</Word>
+    <Word>we ve</Word>
+  </Filter>
+  <Filter Value="we are">
+    <Word>we're</Word>
+    <Word>we re</Word>
+  </Filter>
+  <Filter Value="she is">
+    <Word>she's</Word>
+    <Word>shes</Word>
+    <Word>she s</Word>
+  </Filter>
+  <Filter Value="she would">
+    <Word>she'd</Word>
+    <Word>she d</Word>
+    <Word>shed</Word>
+  </Filter>
+  <Filter Value="he would">
+    <Word>he'd</Word>
+    <Word>he d</Word>
+    <Word>hed</Word>
+  </Filter>
+  <Filter Value="he is">
+    <Word>he's</Word>
+    <Word>he s</Word>
+  </Filter>
+  <Filter Word="iama" Value="i am a" />
+  <Filter Word="iamasking" Value="i am asking" />
+  <Filter Word="iamdoing" Value="i am doing" />
+  <Filter Word="iamfrom" Value="i am from" />
+  <Filter Word="iamin" Value="i am in" />
+  <Filter Word="iamok" Value="i am ok" />
+  <Filter Word="iamsorry" Value="i am sorry" />
+  <Filter Word="iamtalking" Value="i am talking" />
+  <Filter Word="iamtired" Value="i am tired" />
+  <Filter Word="down load" Value="download" />
+  <Filter Word="remeber" Value="remember" />
+  <Filter Word="waht" Value="what" />
+  <Filter Word="tollervy" Value="tollervey" />
+  <Filter Word="u" Value="you" />
+  <Filter Word="ur" Value="your" />
+  <!--ARE YOU-->
+  <Filter Value="are you">
+    <Word>ru</Word>
+    <Word>r u</Word>
+  </Filter>
+  <Filter Word="{" Value="beginscript" />
+  <Filter Word="}" Value="endscript" />
+  <Filter Value="0">
+    <Word>:0</Word>
+    <Word>: 0</Word>
+  </Filter>
+  <Filter Value="1">
+    <Word>:1</Word>
+    <Word>: 1</Word>
+  </Filter>
+  <Filter Value="2">
+    <Word>:2</Word>
+    <Word>: 2</Word>
+  </Filter>
+  <Filter Value="3">
+    <Word>:3</Word>
+    <Word>: 3</Word>
+  </Filter>
+  <Filter Value="4">
+    <Word>:4</Word>
+    <Word>: 4</Word>
+  </Filter>
+  <Filter Value="5">
+    <Word>:5</Word>
+    <Word>: 5</Word>
+  </Filter>
+  <!--POINTED NUMBERS-->
+  <Filter Word=".0" Value="point 0" />
+  <Filter Word=".1" Value="point 1" />
+  <Filter Word=".2" Value="point 3" />
+  <Filter Word=".4" Value="point 4" />
+  <Filter Word=".5" Value="point 5" />
+  <Filter Word=".6" Value="point 6" />
+  <Filter Word=".7" Value="point 7" />
+  <Filter Word=".8" Value="point 8" />
+  <Filter Word=".9" Value="point 9" />
+  <!--DOCTOR-->
+  <Filter Value="dr">
+    <Word>dr.</Word>
+    <Word>dr .</Word>
+  </Filter>
+  <Filter Word="ph.d" Value="phd" />
+  <Filter Word="mr." Value="mr" />
+  <Filter Word="mrs." Value="mrs" />
+  <Filter Word="st." Value="st" />
+  <Filter Word="www." Value="www dot" />
+  <Filter Word="botspot." Value="botspot dot" />
+  <Filter Word="amused.com" Value="amused dot com" />
+  <Filter Word="whatis." Value="whatis dot" />
+  <Filter Word=".com" Value="dot com" />
+  <Filter Word=".net" Value="dot net" />
+  <Filter Word=".org" Value="dot org" />
+  <Filter Word=".org.uk" Value="dot org dot uk" />
+  <Filter Word=".co.uk" Value="dot co dot uk" />
+  <Filter Word=".edu" Value="dot edu" />
+  <Filter Word=".uk" Value="dot uk" />
+  <Filter Word=".jp" Value="dot jp" />
+  <Filter Word=".au" Value="dot au" />
+  <Filter Word=".co" Value="dot co" />
+  <Filter Word=".ac" Value="dot ac" />
+  <Filter Word="l.l." Value="l l" />
+  <!--USA-->
+  <Filter Value="usa">
+    <Word>u s a</Word>
+    <Word>u. s. a.</Word>
+    <Word>u.s.a.</Word>
+    <Word>u.s.</Word>
+  </Filter>
+  <Filter Word="a." Value="a" />
+  <Filter Word="b." Value="b" />
+  <Filter Word="c." Value="c" />
+  <Filter Word="d." Value="d" />
+  <Filter Word="e." Value="e" />
+  <Filter Word="f." Value="f" />
+  <Filter Word="g." Value="g" />
+  <Filter Word="h." Value="h" />
+  <Filter Word="i." Value="i" />
+  <Filter Word="j." Value="j" />
+  <Filter Word="k." Value="k" />
+  <Filter Word="l." Value="l" />
+  <Filter Word="m." Value="m" />
+  <Filter Word="n." Value="n" />
+  <Filter Word="p." Value="p" />
+  <Filter Word="o." Value="o" />
+  <Filter Word="q." Value="q" />
+  <Filter Word="r." Value="r" />
+  <Filter Word="s." Value="s" />
+  <Filter Word="t." Value="t" />
+  <Filter Word="u." Value="u" />
+  <Filter Word="v." Value="v" />
+  <Filter Word="x." Value="x" />
+  <Filter Word="y." Value="y" />
+  <Filter Word="w." Value="w" />
+  <Filter Word="z." Value="z" />
+  <Filter Word=".jar" Value="jar" />
+  <Filter Word=".zip" Value="zip" />
+  <!--FULLSTOP-->
+  <Filter Value=".">
+    <Word>, but</Word>
+    <Word>, and</Word>
+    <Word>,but</Word>
+    <Word>,and</Word>
+    <Word>but</Word>
+  </Filter>
+  <!--FULLSTOP I-->
+  <Filter Value=". i">
+    <Word>, i</Word>
+    <Word>,i</Word>
+  </Filter>
+  <!--FULLSTOP YOU-->
+  <Filter Value=". you">
+    <Word>, you</Word>
+    <Word>,you</Word>
+  </Filter>
+  <!--FULLSTOP WHAT-->
+  <Filter Value=". what">
+    <Word>, what</Word>
+    <Word>,what</Word>
+  </Filter>
+  <!--FULLSTOP DO-->
+  <Filter Value=". do">
+    <Word>, do</Word>
+    <Word>,do</Word>
+  </Filter>
+  <!--KB-->
+  <Filter Value="?">
+    <Text>..?</Text>
+    <Text>...?</Text>
+  </Filter>
+</Siml>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--EmotionML: Collection of pre-defined emotions for usage within SIML Bots. Its important that you give each emotion a unique id and a name-->
+  <!--EmotionML: P A D values have to be in the range of [0, 1]-->
+  <!--Note: A few EmotionML attributes and elements may appear in "RED". This behaviour by the editor should be ignored-->
+  <!--Note: Syn EmotionML Parser maintains all namespaces when parsing EmotionML so if you are to use the <info> tag do add your custom namespace-->
+  <emotionml version="1.0" xmlns="http://www.w3.org/2009/10/emotionml" xmlns:Siml="http://syn.co.in/2014/siml" dimension-set="http://www.w3.org/TR/emotion-voc/xml#pad-dimensions">
+    <emotion id="pleased" category-set="http://www.w3.org/TR/emotion-voc/xml#everyday-categories">
+      <info>
+        <Siml:Emotion Name="pleased" />
+      </info>
+      <category name="pleased" />
+      <dimension name="pleasure" value="0.6" />
+      <dimension name="arousal" value="0.4" />
+      <dimension name="dominance" value="0.4" />
+    </emotion>
+    <emotion id="angry" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="angry" />
+      </info>
+      <category name="anger" />
+      <dimension name="pleasure" value="0.1" />
+      <dimension name="arousal" value="0.9" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="annoyed" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="annoyed" />
+      </info>
+      <category name="disappointment" />
+      <dimension name="pleasure" value="0.25" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="bored" category-set="http://www.w3.org/TR/emotion-voc/xml#everyday-categories">
+      <info>
+        <Siml:Emotion Name="bored" />
+      </info>
+      <category name="bored" />
+      <dimension name="pleasure" value="0.5" />
+      <dimension name="arousal" value="0.1" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="concentrated1" category-set="http://www.w3.org/TR/emotion-voc/xml#everyday-categories">
+      <info>
+        <Siml:Emotion Name="very thoughtful" />
+      </info>
+      <category name="relaxed" />
+      <dimension name="pleasure" value="0.5" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="concentrated2" category-set="http://www.w3.org/TR/emotion-voc/xml#everyday-categories">
+      <info>
+        <Siml:Emotion Name="thoughtful" />
+      </info>
+      <category name="relaxed" />
+      <dimension name="pleasure" value="0.5" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="depressed" category-set="http://www.w3.org/TR/emotion-voc/xml#everyday-categories">
+      <info>
+        <Siml:Emotion Name="depressed" />
+      </info>
+      <category name="bored" />
+      <dimension name="pleasure" value="0.5" />
+      <dimension name="arousal" value="0.1" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="fearful" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="fearful" />
+      </info>
+      <category name="fear" />
+      <dimension name="pleasure" value="0.1" />
+      <dimension name="arousal" value="0.9" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="extremely-happy" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="extremely happy" />
+      </info>
+      <category name="happiness" />
+      <dimension name="pleasure" value="0.9" />
+      <dimension name="arousal" value="0.9" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="very-happy" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="very happy" />
+      </info>
+      <category name="happiness" />
+      <dimension name="pleasure" value="0.75" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="happy2" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="overjoyed" />
+      </info>
+      <category name="happiness" />
+      <dimension name="pleasure" value="0.9" />
+      <dimension name="arousal" value="0.9" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="happy" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="happy" />
+      </info>
+      <category name="happiness" />
+      <dimension name="pleasure" value="0.75" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="sad" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="sad" />
+      </info>
+      <category name="sadness" />
+      <dimension name="pleasure" value="0.25" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="very-surprised" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="very surprised" />
+      </info>
+      <category name="surprise" />
+      <dimension name="pleasure" value="0.55" />
+      <dimension name="arousal" value="0.9" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="surprised" category-set="http://www.w3.org/TR/emotion-voc/xml#fsre-categories">
+      <info>
+        <Siml:Emotion Name="surprised" />
+      </info>
+      <category name="surprise" />
+      <dimension name="pleasure" value="0.55" />
+      <dimension name="arousal" value="0.9" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="fears-confirmed" category-set="http://www.w3.org/TR/emotion-voc/xml#occ-categories">
+      <info>
+        <Siml:Emotion Name="shocked" />
+      </info>
+      <category name="fears-confirmed" />
+      <dimension name="pleasure" value="0.0" />
+      <dimension name="arousal" value="1.0" />
+      <dimension name="dominance" value="0.0" />
+    </emotion>
+    <emotion id="hope" category-set="http://www.w3.org/TR/emotion-voc/xml#occ-categories">
+      <info>
+        <Siml:Emotion Name="hopeful" />
+      </info>
+      <category name="hope" />
+      <dimension name="pleasure" value="0.0" />
+      <dimension name="arousal" value="0.5" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+    <emotion id="relief" category-set="http://www.w3.org/TR/emotion-voc/xml#occ-categories">
+      <info>
+        <Siml:Emotion Name="relieved" />
+      </info>
+      <category name="relief" />
+      <dimension name="pleasure" value="1.0" />
+      <dimension name="arousal" value="0.85" />
+      <dimension name="dominance" value="1.0" />
+    </emotion>
+  </emotionml>
+</Siml>
