@@ -266,5 +266,81 @@
 				</Random>
 			</Response>
 		</Model>
+
+		<Model>
+			<pattern>
+				<Item>MALKAVIAN</Item>
+				<Item>MALKAVIAN MOD</Item>
+				<Item>MALKAVIAN MOD QUOTE</Item>
+				<Item>JC DENTON'S GOLDEN THOUGHTS</Item>
+			</pattern>
+			<Response>
+				<Random>
+					<Item>I... I... I thought you were a GEP gun.</Item>
+					<Item>I like to make a silent takedown.</Item>
+					<Item>Stick with the ambrosia protected by cameras and booby traps.</Item>
+					<Item>The GEP gun is the most effective way to eliminate Manderley.</Item>
+					<Item>I have opened the mayor. When the power drops, go in, and go in, and go in, and go in like the US Marshall and his three daughers, and we lose the vaccine.</Item>
+					<Item>Get pills against my orders! Get moving!</Item>
+					<Item>I have opened pills!</Item>
+					<Item>Good luck. We are 100% BLACK.</Item>
+					<Item>Please give me a weapon like the infinite power of nanoaugmentation. Agent O-range knows I like nanoaugmentation technology.</Item>
+					<Item>I'm not in the mood to kill my own son.</Item>
+					<Item>They're in the women's bathroom. The mole people keep me out cause they don't like women.</Item>
+					<Item>Maybe you should join Majestic 12... in a body bag.</Item>
+					<Item>I have some good news for both of you. I have contamination and mutants in my brain.</Item>
+					<Item>I'm a highly imperfect, unstable solution.</Item>
+					<Item>Do you have ANY IDEA how to MULTIPLY?</Item>
+					<Item>Trust me, I... I know everything.</Item>
+					<Item>Mathematically likely.</Item>
+					<Item>Maybe you should think about going back to school.</Item>
+					<Item>In case you were wondering, we accessed the ocean lab computers ourselves.</Item>
+					<Item>Your greatest strength was crack.</Item>
+					<Item>Which means you would need an army to multiply a very large prime number.</Item>
+					<Item>Not so fast. The troopers shoot on sight.</Item>
+					<Item>I learned a few things about your captors, they were henchmen for a secret organization called my knife.</Item>
+					<Item>I must be some kind of standard, the anonymous gangbanger of the 21st century.</Item>
+					<Item>You are an unplanned organism, the offspring of death rather than of individuals.</Item>
+					<Item>No, you underestimate the humankind's love of fucking.</Item>
+					<Item>The need to feel pleasure was once satisfied by human beings. Now, we can implement the same functionality with hands.</Item>
+					<Item>So what? Some people just don't understand the dangers of indiscriminate gangbanging.</Item>
+					<Item>The individual desires pleasure. Without that desire, the cohesion of groups is impossible... and so is civilization.</Item>
+					<Item>My instructions are to amuse visitors with information about information about information about information about information about information about information about information about information about information about information about information about information about</Item>
+					<Item>What the hell are you doing down there? You just killed an old friend of mine... For God's sake, he was the former leader of the Illuminati! ...good work. I will now consent to meet you in person.</Item>
+					<Item>Homeless people kidnapped the soldiers. They had me inject the soldiers with DEATH.</Item>
+					<Item>Look, I'll be blunt. I get paid for killing the whole country. Killing people without a trial and taking over the whole city... that's what I'm about.</Item>
+					<Item>You promise not to kill my wolf?</Item>
+					<Item>My wolf can go around and just execute anyone you want.</Item>
+					<Item>I see it like this... Everybody's gonna shoot it out. My wolf wins and takes over the whole country.</Item>
+					<Item>My dad used to say: Slaughter... Slaughter... Slaughter... He's Dead... I like that.</Item>
+					<Item>I never mentioned... people know my WOLF has a vaccine... riots everywhere.</Item>
+					<Item>I'll take a vial of people.</Item>
+					<Item>[Intimidate] Let's try some word association. First word: GEP gun.</Item>
+					<Item>[Felix the Cat has joined your party]</Item>
+					<Item>[This Cat Has Seen Better Days]</Item>
+					<Item>I was thinking abour firing up the mole people.</Item>
+					<Item>That's the thing... maybe they have super brains... but they don't know anything about civilization because they grew up in outer space. (Ha ha)</Item>
+					<Item>(Haha) It's a lie.</Item>
+					<Item>Man, I KNEW IT, the grays made the anti-matter BOMB missile.</Item>
+					<Item>Alien technology? Relax, it's perfectly safe.</Item>
+					<Item>Haha, NO!</Item>
+					<Item>I just wanted to steal... the police!</Item>
+					<Item>。。。私はＬです。</Item>
+					<Item>We each have our troubles, you had to grow up without your parents... but I lost my pocket knife. Which requires more courage?</Item>
+					<Item>My biggest complaint in the old days was that we were never allowed to kill a bunch of Afghans. Now it's precisely the opposite.</Item>
+					<Item>Tell me what you need and I'll give you my body, baby, it's the last one I've got.</Item>
+					<Item>You can forget about the multitools, and international peacekeepers, and a stealth pistol, and an extra clip, and some 7.62 mm rounds, and soldiers and my pocket knife. I'm only gonna give you guts.</Item>
+					<Item>Glad to finally meet you, agent... I'm a BOMB.</Item>
+					<Item>I want to be the one to execute Manderley.</Item>
+					<Item>Don't you think we should give Manderley a chance to explain himself? He's been with UNATCO for 300 years.</Item>
+					<Item>You proceed upstairs to the junk pile, I will take my rusty metal skullgun.</Item>
+					<Item>By the way, my three daughers turned up dead. Here's your op bonus, 1000 credits.</Item>
+					<Item>I am a Frenchman.</Item>
+					<Item>I have seen it since I was a girl. The plotting and scheming of corporations to make bots criminals. But the bots programmed the police to starve to death.</Item>
+					<Item>Pardon me, but back in Alabama... a guy with a tatooed forehead is gonna get us all killed.</Item>
+					<Item>Forgive my interruption, my vision is augmented.</Item>
+				</Random>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>

@@ -281,6 +281,8 @@
 			<Pattern>
 				<Item>KONRADS6 GOLDEN THOUGHTS</Item>
 				<Item>KONRADSBALL</Item>
+				<Item>KONRAD6 GOLDEN THOUGHTS</Item>
+				<Item>KONRADBALL</Item>
 			</Pattern>
 			<Response>
 				<Random>
