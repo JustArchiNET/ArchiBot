@@ -12270,7 +12270,7 @@ How do you like living there?
     <Model>
       <Pattern>I LIVE IN *</Pattern>
       <Response>
-What is <User Set="it"><User Set="concept">living in <Map Get="person" /></User></User> like living in   <User Set="location"><Map Get="person" /></User>?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What is <User Set="it"><User Set="concept">living in <Map Get="person" /></User></User> like?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIVE IN A *</Pattern>
