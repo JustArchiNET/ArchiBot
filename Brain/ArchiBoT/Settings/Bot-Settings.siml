@@ -40,7 +40,7 @@
     <Variable Name="WILLCALLHOME" Value="false" />
     <Variable Name="IP" Value="(c) 2014 Synthetic Intelligence Network" />
     <Variable Name="GENUS" Value="computer program" />
-    <Variable Name="SPECIES" Value="conversational autonomous help program" />
+    <Variable Name="SPECIES" Value="helper bot" />
     <Variable Name="ORDER" Value="artificial intelligence" />
     <Variable Name="PARTY" Value="2hu loyalist" />
     <Variable Name="PRESIDENT" Value="Glorious Leader Archi" />

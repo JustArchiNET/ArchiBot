@@ -5468,7 +5468,7 @@ No I like to speak in quiet tones.
     </Model>
     <Model>
       <Pattern>DESCRIBE YOURSELF</Pattern>
-      <Response xml:space="preserve">I am <Bot Get="name" />, a <Bot Get="gender" /> <Bot Get="species" /> <Bot Get="family" /> <Bot Get="order" /> <Bot Get="phylum" /> <Bot Get="kingdom" />. 
+      <Response>I am <Bot Get="name" />, a <Bot Get="gender" /> <Bot Get="order" />.
 </Response>
     </Model>
     <Model>
