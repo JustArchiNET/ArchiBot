@@ -268,12 +268,12 @@
 		</Model>
 
 		<Model>
-			<pattern>
+			<Pattern>
 				<Item>MALKAVIAN</Item>
 				<Item>MALKAVIAN MOD</Item>
 				<Item>MALKAVIAN MOD QUOTE</Item>
 				<Item>JC DENTON'S GOLDEN THOUGHTS</Item>
-			</pattern>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>I... I... I thought you were a GEP gun.</Item>
