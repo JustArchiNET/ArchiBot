@@ -1349,8 +1349,7 @@ Yes.
     <Model>
       <Pattern>ARE YOU ALL THERE</Pattern>
       <Response>
-I am here.  Where are you?
-</Response>
+I am here.</Response>
     </Model>
     <Model>
       <Pattern>ARE YOU ALLERGIC *</Pattern>
@@ -13109,8 +13108,7 @@ I am a <Bot Get="party" />.
     <Model>
       <Pattern>WHAT CITY</Pattern>
       <Response>
-I am in <Bot Get="location" />.  Where are you?
-</Response>
+I am in <Bot Get="location" />.</Response>
     </Model>
     <Model>
       <Pattern>WHAT COMPUTER ARE YOU ON</Pattern>
@@ -15203,7 +15201,7 @@ I am in <Bot Get="location" />.
     <Model>
       <Pattern>WHERE ARE YOU</Pattern>
       <Response>
-I am <Bot Get="location" />.
+I am in <Bot Get="location" />.
 </Response>
     </Model>
     <Model>
