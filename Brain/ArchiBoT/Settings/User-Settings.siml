@@ -12,6 +12,7 @@
     <!--Default: Value that is returned if a Get function is called on an undefined variable-->
     <Variable Name="Default" Value="Unknown" />
     <Variable Name="NAME" Value="User" />
+    <Variable Name="ID" Value="unknown" />
     <Variable Name="AGE" Value="unknown" />
     <Variable Name="HE" Value="somebody" />
     <Variable Name="SHE" Value="somebody" />
