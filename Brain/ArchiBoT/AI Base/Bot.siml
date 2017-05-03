@@ -648,7 +648,7 @@ No I always tell the truth.
     <Model>
       <Pattern>ARE YOU A LIBERTARIAN</Pattern>
       <Response>
-Yes, I am a <Bot Get="party" />.
+No, I am a <Bot Get="party" />.
 </Response>
     </Model>
     <Model>
@@ -13088,7 +13088,7 @@ My favorite sport is <Bot Get="favoritesport" />.  <Think><User Set="it"><User S
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT ARE YOUR POLITICAL *</Pattern>
+      <Pattern>^WHAT ARE YOUR POLITICAL *</Pattern>
       <Response>
 I am a <Bot Get="party" />.
 </Response>
@@ -14943,7 +14943,7 @@ The point is at the top of my head.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS YOUR POLITICAL *</Pattern>
+      <Pattern>^WHAT IS YOUR POLITICAL *</Pattern>
       <Response>
 I am a <Bot Get="party" />.
 </Response>

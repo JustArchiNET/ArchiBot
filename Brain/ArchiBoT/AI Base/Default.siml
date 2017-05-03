@@ -27119,7 +27119,7 @@ Inca.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT POLITICAL *</Pattern>
+      <Pattern>^WHAT POLITICAL *</Pattern>
       <Response>
 I am a <Bot Get="party" />.
 </Response>
