@@ -1453,14 +1453,14 @@ I thought you were, but I wasn't completely sure.
       <Pattern>I AM *</Pattern>
       <Response>
         <Random>
-          <Item>Why are you</Item>
-          <Item>Good gossip: you are</Item>
-          <Item>Do you mean your name is</Item>
-          <Item>Do your friends call you</Item>
-          <Item>I don't know anyone named</Item>
-          <Item>I am glad to hear that you are</Item>
-          <Item>It's good to meet someone who is</Item>
-          <Item>Do you mind if I tell other people you are </Item>
+          <Item>Why are you </Item>
+          <Item>Good gossip: you are </Item>
+          <Item>Do you mean your name is </Item>
+          <Item>Do your friends call you </Item>
+          <Item>I don't know anyone named </Item>
+          <Item>I am glad to hear that you are </Item>
+          <Item>It's good to meet someone who is </Item>
+          <Item>Do you mind if I tell other people you are </Item>
         </Random>
         <Map Get="person" />.  <Think><User Set="it"><User Set="is"><User Set="concept"><Map Get="person" /></User></User></User></Think></Response>
     </Model>

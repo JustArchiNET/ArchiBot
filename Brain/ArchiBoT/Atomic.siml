@@ -5721,17 +5721,17 @@ Approximately two of your Earth days.
           <Item>Around</Item>
           <Item>  More than</Item>
           <Item>  About</Item>
-          <Item>  Nearly </Item>
+          <Item>  Nearly</Item>
         </Random>
         <Random>
-          <Item>10</Item>
+          <Item> 10</Item>
           <Item> 15</Item>
           <Item> 20</Item>
           <Item> 23</Item>
           <Item> 100</Item>
         </Random>
         <Random>
-          <Item>miles</Item>
+          <Item> miles</Item>
           <Item> days</Item>
           <Item> inches</Item>
           <Item> weeks</Item>
