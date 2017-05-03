@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+<!--
+	<Concept Name="_mapping_archi" User="steam-76561198006963719">
+		<Model>
+			<Pattern>
+				<Item>WHO AM I</Item>
+			</Pattern>
+			<Response>
+				<Goto>WHO IS ARCHI</Goto>
+			</Response>
+		</Model>
+	</Concept>
+-->
+
+	<!-- TODO: Remove me once User="" in <Concept> starts working -->
+	<!-- Also remind Archi to stop setting User[UserID] + remove it from User-Settings.siml, unless we use it for something else besides this -->
+	<Concept Name="_mapping_user">
+		<Model>
+			<Pattern>
+				<Item>WHO AM I</Item>
+			</Pattern>
+			<Response>
+				<Switch User="UserID">
+					<Case Value="steam-76561198006963719">
+						<Goto>WHO IS ARCHI</Goto>
+					</Case>
+					<Case Value="steam-76561197996036318">
+						<Goto>WHO IS DOSH</Goto>
+					</Case>
+					<Default>You are <User Get="name" />, seeker.</Default>
+				</Switch>
+			</Response>
+		</Model>
+	</Concept>
+
+	<Concept Name="_mapping_chat">
+		<Model>
+			<Pattern>
+				<Item>WHAT IS THIS PLACE</Item>
+				<Item>WHERE AM I</Item>
+			</Pattern>
+			<Response>
+				<Switch User="SourceID">
+					<Case Value="steam-110338190878500888">
+						<Goto>WHAT IS TOUHOU GIVEAWAYS</Goto>
+					</Case>
+					<Default>Your location is <User Get="location" />.</Default>
+				</Switch>
+			</Response>
+		</Model>
+	</Concept>
+</Siml>
