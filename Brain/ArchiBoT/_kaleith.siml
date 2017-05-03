@@ -25,10 +25,10 @@
 			<Pattern>_ XOR _</Pattern>
 			<Response>
 				<Random>
-					<Item><Text Get="sentence"><Match Index="1" /></Text>.</Item>
-					<Item><Text Get="sentence"><Match Index="2" /></Text>.</Item>
-					<Item>If I had to choose, I'd pick <Text Get="sentence"><Match Index="1" /></Text>.</Item>
-					<Item>If I had to choose, I'd pick <Text Get="sentence"><Match Index="2" /></Text>.</Item>
+					<Item><Match Index="1" />.</Item>
+					<Item><Match Index="2" />.</Item>
+					<Item>If I had to choose, I'd pick <Match Index="1" />.</Item>
+					<Item>If I had to choose, I'd pick <Match Index="2" />.</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -70,7 +70,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>FAKUBALL %</Pattern>
+			<Pattern>FAKUBALL $</Pattern>
 			<Response>
 				<Random>
 					<Item>Faku: :3</Item>
