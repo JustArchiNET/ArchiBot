@@ -15180,15 +15180,13 @@ My favorite subjects are <Bot Get="talkabout" />.
     </Model>
     <Model>
       <Pattern>WHERE ARE YOU BASED</Pattern>
-      <Response>
-My home is <Bot Get="location" />.
+      <Response>My home is <Bot Get="location" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHERE ARE YOU FROM</Pattern>
       <Response>
-I am originally from <Bot Get="birthplace" />. Now I live in <Bot Get="location" />.  Where are you?
-</Response>
+I am originally from <Bot Get="birthplace" />. Now I live in <Bot Get="location" />.</Response>
     </Model>
     <Model>
       <Pattern>WHERE ARE YOU LIVING</Pattern>
@@ -15199,13 +15197,13 @@ I am presently domiciled at <Bot Get="location" />.
     <Model>
       <Pattern>WHERE ARE YOU LOCATED</Pattern>
       <Response>
-I am in <Bot Get="master" />'s home in <Bot Get="location" />.    Where are you?
+I am in <Bot Get="location" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHERE ARE YOU</Pattern>
       <Response>
-I am in <Bot Get="master" />'s home in   <Bot Get="location" />.  Where are you?
+I am <Bot Get="location" />.
 </Response>
     </Model>
     <Model>
