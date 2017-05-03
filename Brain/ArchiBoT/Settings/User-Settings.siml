@@ -6,7 +6,7 @@
   <!--Note: <User Get="Variable-Name"> is used to retrieve the first variable-->
   <UserSettings>
     <!-- Variables that are supposed to be initialized by ArchiBoT -->
-    <!-- Note: There is no guarantee of them being actually set (data could unavailable) -->
+    <!-- Note: There is no guarantee of them being actually set (data could be unavailable) -->
 
     <!-- Initialized to user's nickname being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
     <Variable Name="Name" Value="User" />
