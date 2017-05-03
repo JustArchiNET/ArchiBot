@@ -5,18 +5,24 @@
   <!--Note: Values declared below are also used to initialize variables for ALL users that interact with Syn Web Assistant-->
   <!--Note: <User Get="Variable-Name"> is used to retrieve the first variable-->
   <UserSettings>
+    <!-- Variables that are supposed to be initialized by ArchiBoT -->
+    <!-- Note: There is no guarantee of them being actually set (data could unavailable) -->
+
+    <!-- Initialized to user's nickname being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
+    <Variable Name="Name" Value="User" />
+
+    <!-- Initialized to user's ID, in format of platform-ID, such as steam-76561198006963719. ID in this context is user's ID determined to be unique based on given platform. -->
+    <Variable Name="UserID" Value="unknown" />
+
+    <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to UserID (if it's private message on given platform). -->
+    <Variable Name="SourceID" Value="unknown" />
+
     <!--Emotion: Default user emotion when a new user is created-->
     <Variable Name="Emotion" Value="pleased" />
     <!--Undefined: Value that renders a variable 'Undefined'-->
     <Variable Name="Undefined" Value="" />
     <!--Default: Value that is returned if a Get function is called on an undefined variable-->
     <Variable Name="Default" Value="Unknown" />
-    <!--Variables that are supposed to be initialized by ArchiBoT-->
-    <!--Note: There is no guarantee of them being actually set (data could unavailable)-->
-    <Variable Name="Name" Value="User" /> <!-- Initialized to user's nickname, if available -->
-    <Variable Name="UserID" Value="unknown" /> <!-- In format of source-ID, such as steam-76561198006963719 -->
-    <Variable Name="SourceID" Value="unknown" /> <!-- In format of source-ID, such as steam-110338190878500888, can be equal to UserID -->
-    <!--All other variables-->
     <Variable Name="AGE" Value="unknown" />
     <Variable Name="HE" Value="somebody" />
     <Variable Name="SHE" Value="somebody" />

@@ -14,7 +14,7 @@
 -->
 
 	<!-- TODO: Remove me once User="" in <Concept> starts working -->
-	<!-- Also remind Archi to stop setting User[ID] + remove it from User-Settings.siml, unless we use it for something else -->
+	<!-- Also remind Archi to stop setting User[UserID] + remove it from User-Settings.siml, unless we use it for something else besides this -->
 	<Concept Name="_mapping_user">
 		<Model>
 			<Pattern>
