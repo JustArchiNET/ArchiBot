@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
+<!-- Disabled because User="" doesn't work :cry:
 	<Concept Name="_private_archi" User="steam-76561198006963719">
 		<Model>
 			<Pattern>
@@ -20,4 +21,5 @@
 			</Response>
 		</Model>
 	</Concept>
+-->
 </Siml>
