@@ -10,6 +10,17 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>PICK A NUMBER BETWEEN * AND *</Item>
+				<Item>PICK A NUMBER BETWEEN * THROUGH *</Item>
+				<Item>PICK A RANDOM NUMBER BETWEEN * AND *</Item>
+				<Item>PICK A RANDOM NUMBER BETWEEN * THROUGH *</Item>
+				<Item>NUMBERTEST * *</Item>
+			</Pattern>
+			<Response><Math Get="floor"><Math>((<Match Index="2" />-<Match />)+1)*<Math Get="random" Max="10000" />/10000+<Match /></Math></Math></Response>
+		</Model>
+		
+		<Model>
 			<Pattern>9BALL %</Pattern>
 			<Response>❾: <Goto>MAGICBALL %</Goto>
 			</Response>

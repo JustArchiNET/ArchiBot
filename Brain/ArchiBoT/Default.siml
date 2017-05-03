@@ -18425,7 +18425,8 @@ Oh those people.
 I believe in reductionism.
 </Response>
     </Model>
-    <Model>
+ <!-- added in _kaleith.aiml   
+	<Model>
       <Pattern>PICK A NUMBER BETWEEN * AND *</Pattern>
       <Response>
         <Match />
@@ -18437,6 +18438,7 @@ I believe in reductionism.
         <Match Index="2" />
       </Response>
     </Model>
+-->
     <Model>
       <Pattern>PICK ONE *</Pattern>
       <Response>
