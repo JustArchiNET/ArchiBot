@@ -27,7 +27,7 @@
     <Variable Name="Arch" Value="Windows" />
     <Variable Name="NAME" Value="ArchiBot" />
     <Variable Name="AGE" Value="2" />
-    <Variable Name="BOTMASTER" Value="Archi" />
+    <Variable Name="BOTMASTER" Value="creator" />
     <Variable Name="MASTER" Value="Archi" />
     <Variable Name="AUTHOR" Value="SIN and ArchiNet" />
     <Variable Name="LOCATION" Value="Dunkirk, Nord-Pas-de-Calais, France" />
