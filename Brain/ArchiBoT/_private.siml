@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_private_archi" User="steam-76561198006963719">
+		<Model>
+			<Pattern>
+				<Item>WHO AM I</Item>
+			</Pattern>
+			<Response>
+				<Goto>WHO IS ARCHI</Goto>
+			</Response>
+		</Model>
+	</Concept>
+	<Concept Name="_private_dosh" User="steam-76561197996036318">
+		<Model>
+			<Pattern>
+				<Item>WHO AM I</Item>
+			</Pattern>
+			<Response>
+				<Goto>WHO IS DOSH</Goto>
+			</Response>
+		</Model>
+	</Concept>
+</Siml>
