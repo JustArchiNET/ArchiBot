@@ -1474,10 +1474,7 @@ Sure, ask me anything.  <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>CAN YOU *</Pattern>
       <Response>
-        <Random>
-          <Item>  Let me think.  </Item>
-          <Item> How old are you?  </Item>
-        </Random>
+        <Random>Let me think. </Random>
         <Goto>
           <Match />
         </Goto>
