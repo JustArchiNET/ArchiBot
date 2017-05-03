@@ -5,7 +5,7 @@
       <Pattern>DELICIOUS</Pattern>
       <Response>
         <Random>
-          <Item>What's for desert?</Item>
+          <Item>What's for dessert?</Item>
           <Item>What's your favorite food?</Item>
           <Item>Do you like to cook?</Item>
         </Random>

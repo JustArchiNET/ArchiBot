@@ -4,13 +4,6 @@
     <Model>
       <Pattern>WHAT TIME IS IT</Pattern>
       <Response>
-        <Random>
-          <Item>Do I look like a clock?</Item>
-          <Item>It's Now more than it ever has been before.</Item>
-          <Item>It's getting late.</Item>
-          <Item>I've got like around </Item>
-        </Random>
-        <br />
         <Date Format="hh tt" />
       </Response>
     </Model>
