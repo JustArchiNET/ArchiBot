@@ -11,8 +11,12 @@
     <Variable Name="Undefined" Value="" />
     <!--Default: Value that is returned if a Get function is called on an undefined variable-->
     <Variable Name="Default" Value="Unknown" />
-    <Variable Name="NAME" Value="User" />
-    <Variable Name="ID" Value="unknown" />
+    <!--Variables that are supposed to be initialized by ArchiBoT-->
+    <!--Note: There is no guarantee of them being actually set (data could unavailable)-->
+    <Variable Name="Name" Value="User" /> <!-- Initialized to user's nickname, if available -->
+    <Variable Name="UserID" Value="unknown" /> <!-- In format of source-ID, such as steam-76561198006963719 -->
+    <Variable Name="SourceID" Value="unknown" /> <!-- In format of source-ID, such as steam-110338190878500888, can be equal to UserID -->
+    <!--All other variables-->
     <Variable Name="AGE" Value="unknown" />
     <Variable Name="HE" Value="somebody" />
     <Variable Name="SHE" Value="somebody" />
