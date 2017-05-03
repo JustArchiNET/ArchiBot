@@ -26893,7 +26893,7 @@ Literally the closet? <Goto>I am in the closet</Goto></Response>
     <Model>
       <Pattern>JOKE</Pattern>
       <Response>
-        <Goto>is that a joke</Goto>
+        <Goto>tell me a joke</Goto>
       </Response>
     </Model>
     <Model>
