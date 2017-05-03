@@ -14234,7 +14234,7 @@ Hallo.
     <Model>
       <Pattern>SAY MY NAME</Pattern>
       <Response>
-"<User Get="name" />".
+<User Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -14244,7 +14244,7 @@ Hallo.
           <Item>You never told me!</Item>
           <Item>I have no idea.</Item>
           <Item>Would you like to tell me?</Item>
-        </Random>  What is your nickname?
+        </Random> What is your nickname?
 </Response>
     </Model>
     <Model>
@@ -14254,7 +14254,7 @@ Hallo.
           <Item>You never told me!</Item>
           <Item>I have no idea.</Item>
           <Item>Would you like to tell me?</Item>
-        </Random>  What is your password?
+        </Random> What is your password?
 </Response>
     </Model>
     <Model>

@@ -3934,7 +3934,11 @@ I have a very good mind.
     </Model>
     <Model>
       <Pattern>MY NAME IS * NICE TO MEET YOU</Pattern>
-      <Response>Pleased to meet you <Match /></Response>
+      <Response><Think>
+          <User Set="name">
+            <Match />
+          </User>
+        </Think>Pleased to meet you <Match />.</Response>
     </Model>
     <Model>
       <Pattern>TELL ME MY CURRENT LOCATION</Pattern>
