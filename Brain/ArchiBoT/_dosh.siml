@@ -65,14 +65,15 @@
 		<Model>
 			<Pattern>
 				<Item>GENOCIDE TIME</Item>
+				<Item>GENOCIDE</Item>
 				<Item>I WILL KILL YOU</Item>
 				<Item>I WANT TO KILL YOU</Item>
 				<Item>I AM GOING TO KILL YOU</Item>
 				<Item>I WISH TO KILL YOU</Item>
-				<Item>_ BAD TIME</Item>
+				<Item>% BAD TIME</Item>
 				<Item>I HATE SPAGHETTI</Item>
-				<Item>DO NOT GIVE ME _ GOOD TIME</Item>
-				<Item>I DO NOT WANT _ GOOD TIME</Item>
+				<Item>DO NOT GIVE ME % GOOD TIME</Item>
+				<Item>I DO NOT WANT % GOOD TIME</Item>
 			</Pattern>
 			<Response>
 				<Random>
