@@ -7,6 +7,8 @@ If you are already familiar with AIML you can see some of the differences betwee
 
 Documentation is available **[here](http://developer.syn.co.in/tutorial/siml/elements/siml.html)**, where you will find a full list of the Elements that can be used in a .siml file.
 
+If you want to test code locally or just check how everything works Synthetic Intelligence Network offers a free tool to develop SIML called **[Syn Bot Studio](http://simlbot.com)**. Just load the project and switch to the Console tab to test!
+
 ---
 
 Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
