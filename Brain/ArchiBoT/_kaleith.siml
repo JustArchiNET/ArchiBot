@@ -17,7 +17,7 @@
 				<Item>PICK A RANDOM NUMBER BETWEEN * THROUGH *</Item>
 				<Item>NUMBERTEST * *</Item>
 			</Pattern>
-			<Response><Math Get="floor"><Math>((<Match Index="2" />-<Match />)+1)*<Math Get="random" Max="10000" />/10000+<Match /></Math></Math></Response>
+			<Response><Js>randomIntBetween("<Match />","<Match Index="2" />");</Js></Response>
 		</Model>
 		
 		<Model>
