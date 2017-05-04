@@ -164,7 +164,18 @@
 					<Item>Just your friendly neighborhood cat :3</Item>
 					<Item>A majestic, 100% non-fat feline specimen :3</Item>
 					<Item>A fluffy ball of white fur (and not fat)</Item>
-					<Item>The winner of the title "Best Cat Named Kaleith" for over 25 years in a row.</Item>
+					<Item>The winner of the title "Best Cat Named Kaleith" for 27 years in a row.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS THIELAK</Pattern>
+			<Response>
+				<Random>
+					<Item>I am required to hide Thielak's identity.</Item>
+					<Item>Someone who keeps fiddling with my AI (￢_￢;)</Item>
+					<Item>A majestic, 10-oh wait I'm not supposed to read from there NO MASTER PLEASE DON'T CHANGE MY BRAIN</Item>
 				</Random>
 			</Response>
 		</Model>
