@@ -34,6 +34,7 @@
 		</Model>
 	</Concept>
 
+<!-- Disabled because ArchiBoT pointing user location is more funny
 	<Concept Name="_mapping_chat">
 		<Model>
 			<Pattern>
@@ -50,4 +51,5 @@
 			</Response>
 		</Model>
 	</Concept>
+-->
 </Siml>
