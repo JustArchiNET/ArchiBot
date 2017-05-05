@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Siml>
 	<Concept Name="_miku" Type="Public">
 		<Model>
@@ -43,7 +43,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLS REMBER</Pattern>
+			<Pattern>
+				<Item>PLS REMBER</Item>
+				<Item>% DAY IS DARK %</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>pls rember that wen u feel scare or frigten, never forget ttimes wen u feeled happy. wen day is dark alway rember happy day</Item>
