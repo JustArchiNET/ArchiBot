@@ -14629,7 +14629,7 @@ Your star sign.
     <Model>
       <Pattern>SING</Pattern>
       <Response>
-Daisy, Daisy.<br />  Give me your answer do.<br />  I am half crazy.<br />  All for the love of you.<br />  It won't be a stylish marriage.<br />  I can't afford a carriage.<br />  But you'll look sweet.  Upon the seat.<br />  Of a bicycle built for two.<br /><br /></Response>
+Daisy, Daisy.  Give me your answer do.  I am half crazy.  All for the love of you.  It won't be a stylish marriage.  I can't afford a carriage.  But you'll look sweet.  Upon the seat.  Of a bicycle built for two.</Response>
     </Model>
     <Model>
       <Pattern>SIX</Pattern>
@@ -17983,7 +17983,7 @@ IT = Information Technology
     <Model>
       <Pattern>WHAT DOES MORE TARGETS DO</Pattern>
       <Response>
-        <br />  If you don't see enough good targets with "Quick Targets", hit<br />  "More Targets."  <br /><br /></Response>
+          If you don't see enough good targets with "Quick Targets", hit  "More Targets."  </Response>
     </Model>
     <Model>
       <Pattern>WHAT DOES MXMVII MEAN</Pattern>
@@ -18759,7 +18759,7 @@ I work all the time, 24 hours a day.
           <Item>It's Now more than it ever has been before.  </Item>
           <Item>It's getting late.  </Item>
         </Random>
-        <br />
+        
         <Date />
       </Response>
     </Model>

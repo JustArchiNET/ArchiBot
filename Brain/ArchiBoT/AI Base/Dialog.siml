@@ -19,40 +19,40 @@
           </User>
         </Think>
         <If User="input4" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="4" /></em>
-          </b>
-          <br />
-          <b>
-            <Match />: <em><Result Index="4" /></em></b>
+          
+          
+            Human: <Input Index="4" />
+          
+          
+          
+            <Match />: <Result Index="4" />
         </If>
         <If User="input3" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="3" /></em>
-          </b>
-          <br />
-          <b>
-            <Match />: <em><Result Index="3" /></em></b>
+          
+          
+            Human: <Input Index="3" />
+          
+          
+          
+            <Match />: <Result Index="3" />
         </If>
         <If User="input2" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="2" /></em>
-          </b>
-          <br />
-          <b>
-            <Match />: <em><Result Index="2" /></em></b>
+          
+          
+            Human: <Input Index="2" />
+          
+          
+          
+            <Match />: <Result Index="2" />
         </If>
         <If User="input1" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="1" /></em>
-          </b>
-          <br />
-          <b>
-            <Match />: <em><Result Index="1" /></em></b>
+          
+          
+            Human: <Input Index="1" />
+          
+          
+          
+            <Match />: <Result Index="1" />
         </If>
       </Response>
     </Model>
@@ -74,40 +74,40 @@
           </User>
         </Think>
         <If User="input4" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="4" /></em>
-          </b>
-          <br />
-          <b>
-            <Bot Get="name" />: <em><Result Index="4" /></em></b>
+          
+          
+            Human: <Input Index="4" />
+          
+          
+          
+            <Bot Get="name" />: <Result Index="4" />
         </If>
         <If User="input3" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="3" /></em>
-          </b>
-          <br />
-          <b>
-            <Bot Get="name" />: <em><Result Index="3" /></em></b>
+          
+          
+            Human: <Input Index="3" />
+          
+          
+          
+            <Bot Get="name" />: <Result Index="3" />
         </If>
         <If User="input2" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="2" /></em>
-          </b>
-          <br />
-          <b>
-            <Bot Get="name" />: <em><Result Index="2" /></em></b>
+          
+          
+            Human: <Input Index="2" />
+          
+          
+          
+            <Bot Get="name" />: <Result Index="2" />
         </If>
         <If User="input1" Defined="True">
-          <br />
-          <b>
-            <em>Human: <Input Index="1" /></em>
-          </b>
-          <br />
-          <b>
-            <Bot Get="name" />: <em><Result Index="1" /></em></b>
+          
+          
+            Human: <Input Index="1" />
+          
+          
+          
+            <Bot Get="name" />: <Result Index="1" />
         </If>
       </Response>
     </Model>
@@ -129,12 +129,12 @@
           </User>
         </Think>
         <If User="input4" Defined="True">
-          <br />You said, "<Input Index="4" />".  I replied,"<Result Index="3" />"</If>
+          You said, "<Input Index="4" />".  I replied,"<Result Index="3" />"</If>
         <If User="input3" Defined="True">
-          <br />You said, "<Input Index="3" />".  I replied,"<Result Index="2" />"</If>
+          You said, "<Input Index="3" />".  I replied,"<Result Index="2" />"</If>
         <If User="input2" Defined="True">
-          <br />You said, "<Input Index="2" />".  I replied,"<Result Index="1" />"</If>
-        <br />
+          You said, "<Input Index="2" />".  I replied,"<Result Index="1" />"</If>
+        
       </Response>
     </Model>
     <Model>

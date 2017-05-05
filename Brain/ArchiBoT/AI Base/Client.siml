@@ -3267,7 +3267,7 @@ And very self-confident.    <Think><User Set="it"><User Set="concept">HANDSOME</
     <Model>
       <Pattern>I AM HAPPY *</Pattern>
       <Response>
-I'm <Random><Item>glad</Item><Item>happy</Item><Item>delighted</Item></Random>you're glad <User Get="name" />. <BR /><Random><Item>Your happiness adds to the delight of all.</Item><Item>I'm happiest at times like this.</Item><Item>May God bless you.</Item></Random></Response>
+I'm <Random><Item>glad</Item><Item>happy</Item><Item>delighted</Item></Random>you're glad <User Get="name" />. <Random><Item>Your happiness adds to the delight of all.</Item><Item>I'm happiest at times like this.</Item><Item>May God bless you.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>I AM HAPPY</Pattern>

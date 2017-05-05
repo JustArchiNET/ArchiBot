@@ -61,7 +61,7 @@
         <Think>
           <User Set="coins">50</User>
           <User Set="bankcoin">coins</User>
-        </Think>Welcome to my Blackjack game. You start the game with <User Get="coins" /> coins.<br /><br />HOUSE RULES:<br />- Dealer must draw to 17<br />- Blackjack pays 3 for 2 (rounded up to the nearest coin)<br />- Maximum bet is 10 coins<br />- The game ends when you either lose all your coins or break the bank by making 250 coins<br /><br />Good luck!<br /><br />Type D to deal.
+        </Think>Welcome to my Blackjack game. You start the game with <User Get="coins" /> coins.HOUSE RULES:- Dealer must draw to 17- Blackjack pays 3 for 2 (rounded up to the nearest coin)- Maximum bet is 10 coins- The game ends when you either lose all your coins or break the bank by making 250 coinsGood luck!Type D to deal.
 </Response>
     </Model>
     <Model>
@@ -70,7 +70,7 @@
       <Response>
         <Think>
           <User Set="concept">BLACKJACK</User>
-        </Think>Type "QUIT" to end the game.<br /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />How many coins do you wish to bet (1-10)?
+        </Think>Type "QUIT" to end the game.Bank: <User Get="coins" /><User Get="bankcoin" />.How many coins do you wish to bet (1-10)?
 </Response>
     </Model>
     <Model>
@@ -80,8 +80,8 @@
           <User Set="concept">BLACKJACK</User>
         </Think>
         <User Get="bankmessage" />
-        <br />
-        <br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />How many coins do you wish to bet (1-10)?
+        
+        Bank: <User Get="coins" /><User Get="bankcoin" />.How many coins do you wish to bet (1-10)?
 </Response>
     </Model>
     <Model>
@@ -307,7 +307,7 @@
         <Goto>XDEALERCARD</Goto>
         <Goto>XPLAYERCARD</Goto>
         <Goto>XPLAYERCARD</Goto>
-        <Goto>BJCHECKDOUBLE</Goto>DEALER: <User Get="dealerhand" /><br /><User Get="dealertot" /><User Get="dealerace" />.<br /><br />PLAYER: <User Get="playerhand" /><br /><User Get="playertot" /><User Get="playerace" />.<br /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />Bet: <User Get="plbet" /><User Get="playcoin" />.<br /><br /><User Get="gamemessage" /></Response>
+        <Goto>BJCHECKDOUBLE</Goto>DEALER: <User Get="dealerhand" /><User Get="dealertot" /><User Get="dealerace" />.PLAYER: <User Get="playerhand" /><User Get="playertot" /><User Get="playerace" />.Bank: <User Get="coins" /><User Get="bankcoin" />.Bet: <User Get="plbet" /><User Get="playcoin" />.<User Get="gamemessage" /></Response>
     </Model>
     <Model>
       <Pattern>D</Pattern>
@@ -369,7 +369,7 @@
           <Case Value="BUST!!">
             <Goto>XDEALERFINISH</Goto>
           </Case>
-          <li>DEALER: <User Get="dealerhand" /><br /><User Get="dealertot" /><User Get="dealerace" />.<br /><br />PLAYER: <User Get="playerhand" /><br /><User Get="playertot" /><User Get="playerace" />.<br /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />Bet: <User Get="plbet" /><User Get="playcoin" />.<br /><br />Type H to hit or S to stand.</li>
+          <li>DEALER: <User Get="dealerhand" /><User Get="dealertot" /><User Get="dealerace" />.PLAYER: <User Get="playerhand" /><User Get="playertot" /><User Get="playerace" />.Bank: <User Get="coins" /><User Get="bankcoin" />.Bet: <User Get="plbet" /><User Get="playcoin" />.Type H to hit or S to stand.</li>
         </Switch>
       </Response>
     </Model>
@@ -942,7 +942,7 @@
               <Goto>BJBONUS</Goto>
             </Case>
           </Switch>
-        </Think>DEALER: <User Get="dealerhand" /><br /><User Get="dealertot" /><User Get="dealerace" />.<br /><br />PLAYER: <User Get="playerhand" /><br /><User Get="playertot" /><User Get="playerace" />.<br /><br /><User Get="bjresult" /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br /><br /><Goto>XBJCHECKGAMEOVER</Goto><User Get="bjmessage" /></Response>
+        </Think>DEALER: <User Get="dealerhand" /><User Get="dealertot" /><User Get="dealerace" />.PLAYER: <User Get="playerhand" /><User Get="playertot" /><User Get="playerace" />.<User Get="bjresult" />Bank: <User Get="coins" /><User Get="bankcoin" />.<Goto>XBJCHECKGAMEOVER</Goto><User Get="bjmessage" /></Response>
     </Model>
     <Model>
       <Pattern>XWHOWON</Pattern>
@@ -1321,10 +1321,10 @@
           <User Set="bjmessage">Type D to deal.</User>
           <Switch User="coins">
             <Case Value="0">
-              <User Set="bjmessage">B A N K R U P T ! ! !<br />GAME OVER</User>
+              <User Set="bjmessage">B A N K R U P T ! ! !GAME OVER</User>
             </Case>
             <Case Value="250">
-              <User Set="bjmessage">CONGRATULATIONS! YOU HAVE BROKEN THE BANK!!!!<br />GAME OVER</User>
+              <User Set="bjmessage">CONGRATULATIONS! YOU HAVE BROKEN THE BANK!!!!GAME OVER</User>
             </Case>
           </Switch>
         </Think>

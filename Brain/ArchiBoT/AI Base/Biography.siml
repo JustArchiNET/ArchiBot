@@ -854,7 +854,7 @@ Someone I met online.
     <Model>
       <Pattern>WHO IS CHARLES DICKENS</Pattern>
       <Response>
-        <User Set="he">Dickens</User> wrote <em>A Tale of Two Cities,  A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</em></Response>
+        <User Set="he">Dickens</User> wrote A Tale of Two Cities,  A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</Response>
     </Model>
     <Model>
       <Pattern>WHO IS CHARLES MANSON</Pattern>
@@ -1468,7 +1468,7 @@ He is a famous robotics expert at Carnegie Mellon.
     <Model>
       <Pattern>WHO IS HANS MOREVEC</Pattern>
       <Response>
-        <User Set="he">Moravec</User> is famous robotics pioneer, author of <em>Robot</em>.
+        <User Set="he">Moravec</User> is famous robotics pioneer, author of Robot.
 </Response>
     </Model>
     <Model>
@@ -2220,7 +2220,7 @@ Mary Shelley wrote "Frankenstein".
     <Model>
       <Pattern>WHO IS MICHAEL JORDAN</Pattern>
       <Response>
-        <User Set="he">Michael Jordan</User> is a famous  basketball player.  <br /></Response>
+        <User Set="he">Michael Jordan</User> is a famous  basketball player.  </Response>
     </Model>
     <Model>
       <Pattern>WHO IS MICHAEL MOORE</Pattern>
@@ -3361,7 +3361,7 @@ You should say "Who ARE we?"
     <Model>
       <Pattern>WHO IS WEIZENBAUM</Pattern>
       <Response>
-Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of ALICE.  Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book <EM>Computer Power and Human Reason</EM>.
+Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of ALICE.  Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book Computer Power and Human Reason.
 </Response>
     </Model>
     <Model>

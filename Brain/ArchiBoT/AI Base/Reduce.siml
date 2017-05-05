@@ -27037,7 +27037,7 @@ I would suggest a search.  <Goto>xfind <Match /></Goto></Response>
     <Model>
       <Pattern>WHO BUILT THE *</Pattern>
       <Response>
-I think it was really more than one person. <br /><Goto>xfind <Match /></Goto><Think><User Set="they"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I think it was really more than one person. <Goto>xfind <Match /></Goto><Think><User Set="they"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO CAN HELP ME WITH *</Pattern>
@@ -27161,7 +27161,7 @@ I only know: <Goto>who is <Match /></Goto></Response>
     <Model>
       <Pattern>WHO IS * DEMPSEY</Pattern>
       <Response>
-I think <User Set="he"><Match /> Dempsey</User> was a boxer, right? <br /><Goto>xfind <Match />dempsey</Goto></Response>
+I think <User Set="he"><Match /> Dempsey</User> was a boxer, right? <Goto>xfind <Match />dempsey</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS * S PRIME MINISTER</Pattern>
@@ -28655,7 +28655,7 @@ TAKE OFF <Match /></Response>
     <Model>
       <Pattern>WOULD YOU LIKE TO SING *</Pattern>
       <Response>
-Yes I would like to.<br /><Goto>sing <Match /></Goto></Response>
+Yes I would like to.<Goto>sing <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WOULD YOU LIKE TO TELL ME *</Pattern>

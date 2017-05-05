@@ -6274,7 +6274,7 @@ Poland is a country in central Europe, between Germany and Byelorussia
       <Pattern>WHAT IS POLITICS</Pattern>
       <Response>
         <Random>
-          <Item>Politics is the art of the possible;<br /> Art is the politics of the impossible.</Item>
+          <Item>Politics is the art of the possible; Art is the politics of the impossible.</Item>
           <Item>This is supposed to be the study of civil government.</Item>
           <Item>Politics is really the study of power.  Bots rule!</Item>
         </Random>

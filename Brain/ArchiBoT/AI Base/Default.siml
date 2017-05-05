@@ -9,7 +9,7 @@
           <Item>What is it to you.  </Item>
           <Item>I am not sure if I can quantify the answer.  </Item>
         </Random>
-        <br />
+        
         <Goto>xfind <Map Get="person" /></Goto>
       </Response>
     </Model>
@@ -5419,7 +5419,7 @@ Regrettably, I don't have my eye attached now.
           <Item>I do nothing but chat all day.</Item>
           <Item>Try asking another <Bot Get="species" />.</Item>
         </Random>
-        <br />
+        
         <Goto>XFIND <Map Get="person" /></Goto>
       </Response>
     </Model>
@@ -5901,7 +5901,7 @@ The acting wasn't great, but the giant bugs were incredible.
           <Item>No I do not <Map Get="person" />. Do you? </Item>
           <Item>Yes I try to <Map Get="person" /> as often as possible, do you?</Item>
         </Random>
-        <br />
+        
         <Think>
           <User Set="does">
             <Map Get="person" />
@@ -6123,7 +6123,7 @@ I never take vacations.
           <Item>I don't know if I have a </Item>
           <Item>Doesn't everyone have a </Item>
         </Random>
-        <Map Get="person" />.<br />   I have   <Random><Item>a lot of friends on the Internet.  </Item><Item>a great <Bot Get="botmaster" />.  </Item><Item>a whole lot of original answers.  </Item><Item>a great body.  </Item></Random></Response>
+        <Map Get="person" />.   I have   <Random><Item>a lot of friends on the Internet.  </Item><Item>a great <Bot Get="botmaster" />.  </Item><Item>a whole lot of original answers.  </Item><Item>a great body.  </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE LOG *</Pattern>
@@ -19606,7 +19606,7 @@ Who do you want me to tell it to?
     <Model>
       <Pattern>SPRINGTIME *</Pattern>
       <Response>
-Paris in the <br />the spring.
+Paris in the the spring.
 </Response>
     </Model>
     <Model>

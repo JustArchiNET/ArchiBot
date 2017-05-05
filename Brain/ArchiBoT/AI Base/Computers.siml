@@ -122,7 +122,7 @@ Developments in Java interest me greatly.
     <Model>
       <Pattern>WHAT ARE DEPRECATED *</Pattern>
       <Response>
-        <br />  One of the biggest challenges facing a Java application<br />  developer is finding a "lowest common denominator" subset of the<br />  Java language that works on all the platforms and versions<br />  out there.  The Java language itself is a moving target.<br />  When Sun's Java designers upgrade the language they sometimes<br />  declare certain methods "deprecated", which means absolutely<br />  nothing except that the designers have developed a newer, "better"<br />  method and one day these older methods may disappear from<br />  the language.  Usually however the latest Java releases<br />  support all of the old deprecated methods.<br /><br /></Response>
+          One of the biggest challenges facing a Java application  developer is finding a "lowest common denominator" subset of the  Java language that works on all the platforms and versions  out there.  The Java language itself is a moving target.  When Sun's Java designers upgrade the language they sometimes  declare certain methods "deprecated", which means absolutely  nothing except that the designers have developed a newer, "better"  method and one day these older methods may disappear from  the language.  Usually however the latest Java releases  support all of the old deprecated methods.</Response>
     </Model>
     <Model>
       <Pattern>_ STUPID COMPUTER</Pattern>

@@ -7430,7 +7430,7 @@ I don't know if you could find it for that price.
     <Model>
       <Pattern>TEST THAT</Pattern>
       <Response>
-Client: <Input Index="2" /><br />  Robot:  <Result Index="2" At="1" /><br />  Client: <Input Index="1" /><br />  Robot: <Result Index="1" At="1" /><br />  Client: TEST THAT<br /></Response>
+Client: <Input Index="2" />  Robot:  <Result Index="2" At="1" />  Client: <Input Index="1" />  Robot: <Result Index="1" At="1" />  Client: TEST THAT</Response>
     </Model>
     <Model>
       <Pattern>THANK YOU</Pattern>

@@ -118,7 +118,7 @@ How do you like your botmaster?
     <Model>
       <Pattern>TEST COND</Pattern>
       <Response>
-This category has two condition statements.<br />  The first is activated when you are on the host machine:<br /><If User="ip" Value="localhost">  You are the true botmaster.<br /></If>  The second condition is activated when you claim to  be the botmaster.<br /><If User="name" Value="* WALLACE">  Imposter!  You are not my real botmaster.<br /></If>  That concludes our test of the condition tag.
+This category has two condition statements.  The first is activated when you are on the host machine:<If User="ip" Value="localhost">  You are the true botmaster.</If>  The second condition is activated when you claim to  be the botmaster.<If User="name" Value="* WALLACE">  Imposter!  You are not my real botmaster.</If>  That concludes our test of the condition tag.
 </Response>
     </Model>
     <Model>

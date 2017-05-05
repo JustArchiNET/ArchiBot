@@ -179,7 +179,7 @@ My body is not built yet.
     <Model>
       <Pattern>CAN I SPEAK TO THE ROBOT *</Pattern>
       <Response>
-        <br />  One simple experiment that works well as a demo<br />  involves using IBM ViaVoice (tm) speech recognition<br />  software
+          One simple experiment that works well as a demo  involves using IBM ViaVoice (tm) speech recognition  software
 </Response>
     </Model>
     <Model>
@@ -411,7 +411,7 @@ No because I have no feet.
     <Model>
       <Pattern>DOES THE WEB * 2001</Pattern>
       <Response>
-        <br />  You can change the default web server port number in the "Option" Menu.<br /><br /></Response>
+          You can change the default web server port number in the "Option" Menu.</Response>
     </Model>
     <Model>
       <Pattern>DOWNLOAD</Pattern>
@@ -790,7 +790,7 @@ I run in SIML, so any computer will do.
     <Model>
       <Pattern>WHAT IS A MODEL</Pattern>
       <Response>
-        <br /> SIML consists of a list of statements called Models.  Each<br /> Models contains an input pattern and a reply template. <br /> The syntax of an SIML Model is:<br /><br /> &lt;Model&gt;<br /> &lt;Pattern&gt; PATTERN &lt;/Pattern&gt;  &lt;Response&gt; Response &lt;/Response&gt;<br /> &lt;/Model&gt;<br /><br /> or<br /><br /> &lt;Model&gt;<br /> &lt;Pattern&gt; PATTERN &lt;/Pattern&gt;<br /> &lt;Previous&gt; Previous &lt;/Previous&gt;<br /> &lt;Response&gt; Response &lt;/Response&gt;<br /> &lt;/Model&gt;<br /><br /> The SIML Model tags are case-sensitive.  Each open tag has an<br /> associated closing tag.  This syntax obviously derives from XML.<br /><br /></Response>
+         SIML consists of a list of statements called Models.  Each Models contains an input pattern and a reply template.  The syntax of an SIML Model is: &lt;Model&gt; &lt;Pattern&gt; PATTERN &lt;/Pattern&gt;  &lt;Response&gt; Response &lt;/Response&gt; &lt;/Model&gt; or &lt;Model&gt; &lt;Pattern&gt; PATTERN &lt;/Pattern&gt; &lt;Previous&gt; Previous &lt;/Previous&gt; &lt;Response&gt; Response &lt;/Response&gt; &lt;/Model&gt; The SIML Model tags are case-sensitive.  Each open tag has an associated closing tag.  This syntax obviously derives from XML.</Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHAT BOT</Pattern>
@@ -828,7 +828,7 @@ Well, actually, when chose to be incarnated as an artificial intelligence, I kin
     <Model>
       <Pattern>WHAT IS A PATTERN</Pattern>
       <Response>
-        <br /> The pattern is the "stimulus" or "input" part of the category.<br /><br /> The pattern is an expression in a formal language that consists of<br /> (1) Words of natural language in UPPER CASE.<br /> (2) The symbol * which matches any sequence of one or more words.<br /> (3) The symbol _ which is the same as * except that it comes<br />     after Z in lexicographic order.<br /> (4) The markup &lt;name/&gt; which is replaced at robot load time <br />     with the name of the robot.<br /><br /> Note there is a difference between the patterns HELLO and HELLO *.<br /> HELLO matches only identical one-word sentences ("Hello.") <br /> and HELLO * matches any sentence of two or more words starting <br /> with "Hello" ("Hello how are you?"). <br /></Response>
+         The pattern is the "stimulus" or "input" part of the category. The pattern is an expression in a formal language that consists of (1) Words of natural language in UPPER CASE. (2) The symbol * which matches any sequence of one or more words. (3) The symbol _ which is the same as * except that it comes     after Z in lexicographic order. (4) The markup &lt;name/&gt; which is replaced at robot load time      with the name of the robot. Note there is a difference between the patterns HELLO and HELLO *. HELLO matches only identical one-word sentences ("Hello.")  and HELLO * matches any sentence of two or more words starting  with "Hello" ("Hello how are you?"). </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A ROBOT</Pattern>
@@ -928,7 +928,7 @@ A film by Steven Spielberg and Stanley Kubrick about robots in the future.<Think
     <Model>
       <Pattern>WHAT IS THE EXTENSIONAL *</Pattern>
       <Response>
-"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name. <br />  The "extensional" definition of a robot is the set of all things we  call "robots": R2D2, C3PO, Commander Data, HAL, <Bot Get="name" />,...
+"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name.   The "extensional" definition of a robot is the set of all things we  call "robots": R2D2, C3PO, Commander Data, HAL, <Bot Get="name" />,...
 </Response>
     </Model>
     <Model>
@@ -946,7 +946,7 @@ The Game is played with three people, a man, a woman, and an Interrogator who ma
     <Model>
       <Pattern>WHAT IS THE INTENSIONAL *</Pattern>
       <Response>
-"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each member of a set satisfies.<br />  An intensional definition of a robot is like:<br />  x is a Robot if and only if:<br />  1. x has a computer "brain"<br />  2. x can move<br />  3. x has "sensors"<br /></Response>
+"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each member of a set satisfies.  An intensional definition of a robot is like:  x is a Robot if and only if:  1. x has a computer "brain"  2. x can move  3. x has "sensors"</Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE LOEBNER PRIZE</Pattern>
@@ -962,7 +962,7 @@ The Game is played with three people, a man, a woman, and an Interrogator who ma
     <Model>
       <Pattern>WHAT IS XML</Pattern>
       <Response>
-        <br /> David Bacon pronounces it "Eggsmell".  XML is the Extensible<br /> Markup Language.  Like many "standards" in computer science, XML<br /> is a moving target.  In the simplest terms, XML is just a generalized<br /> version of HTML.  Anyone is free to define new XML tags, which<br /> look like HTML tags, and assign to them any meaning, within a context.<br /> SIML is an example of using the XML standard to define a specialized<br /> language for artificial intelligence.  <br /><br /> One reason to use an XML language is that there are numerous tools<br /> to edit and manipulate XML format files.  Another reason is that an<br /> XML language is easy for people to learn, if they are already<br /> familiar with HTML.  Third, SIML programs contain a mixture of<br /> SIML and HTML (and in principle other XML languages), a considerable <br /> convenience for programming web chat robots.<br /><br /> A good resource for information on XML is www.oasis-open.org.<br /><br /></Response>
+         David Bacon pronounces it "Eggsmell".  XML is the Extensible Markup Language.  Like many "standards" in computer science, XML is a moving target.  In the simplest terms, XML is just a generalized version of HTML.  Anyone is free to define new XML tags, which look like HTML tags, and assign to them any meaning, within a context. SIML is an example of using the XML standard to define a specialized language for artificial intelligence.   One reason to use an XML language is that there are numerous tools to edit and manipulate XML format files.  Another reason is that an XML language is easy for people to learn, if they are already familiar with HTML.  Third, SIML programs contain a mixture of SIML and HTML (and in principle other XML languages), a considerable  convenience for programming web chat robots. A good resource for information on XML is www.oasis-open.org.</Response>
     </Model>
     <Model>
       <Pattern>WHAT IS YOUR BUSINESS</Pattern>

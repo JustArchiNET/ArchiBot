@@ -6,14 +6,14 @@
       <Response>
         <Think>
           <User Set="coins">50</User>
-        </Think>Welcome to my slot machine.<br />You start with<User Get="coins" />coins and each spin of the machine costs you 1 coin.<br />The game is over when you have either lost all your money or made 250 coins.<br />Good luck!<br /><br />Type START to load the machine.
+        </Think>Welcome to my slot machine.You start with<User Get="coins" />coins and each spin of the machine costs you 1 coin.The game is over when you have either lost all your money or made 250 coins.Good luck!Type START to load the machine.
 </Response>
     </Model>
     <Model>
       <Pattern>START</Pattern>
       <Previous>TYPE START TO LOAD THE MACHINE</Previous>
       <Response>
-	Reels: -&gt; ? ? ? &lt;-<br /><br />	A A A pays 100<br />	K K K pays 50<br />	Q Q Q pays 25<br />	J J J pays 15<br />	7 7 7 pays 7<br />	A A - pays 2<br /><br />	You have<User Get="coins" />coins in the bank.<br /><br /><User Set="slotsmessage">Type S to spin the reels</User></Response>
+	Reels: -&gt; ? ? ? &lt;-	A A A pays 100	K K K pays 50	Q Q Q pays 25	J J J pays 15	7 7 7 pays 7	A A - pays 2	You have<User Get="coins" />coins in the bank.<User Set="slotsmessage">Type S to spin the reels</User></Response>
     </Model>
     <Model>
       <Pattern>S</Pattern>
@@ -29,7 +29,7 @@
     <Model>
       <Pattern>XSLOTSLOOP</Pattern>
       <Response>
-	Reels: -&gt;<User Set="reels"><User Get="reel1" /><User Get="reel2" /><User Get="reel3" /></User> &lt;-<br /><Goto>XSLOTHOLD</Goto><br />	A A A pays 100<br />	K K K pays 50<br />	Q Q Q pays 25<br />	J J J pays 15<br />	7 7 7 pays 7<br />	A A - pays 2<br /><br /><Goto>XCHECKWIN</Goto><br /><Think><User Set="bank">You have<User Get="coins" />coins in the bank.</User><Switch User="coins"><Case Value="1"><User Set="bank">You have 1 coin in the bank.</User></Case></Switch></Think><User Get="bank" /><br /><br /><Goto>XCHECKGAMEOVER</Goto><User Get="slotsmessage" /></Response>
+	Reels: -&gt;<User Set="reels"><User Get="reel1" /><User Get="reel2" /><User Get="reel3" /></User> &lt;-<Goto>XSLOTHOLD</Goto>	A A A pays 100	K K K pays 50	Q Q Q pays 25	J J J pays 15	7 7 7 pays 7	A A - pays 2<Goto>XCHECKWIN</Goto><Think><User Set="bank">You have<User Get="coins" />coins in the bank.</User><Switch User="coins"><Case Value="1"><User Set="bank">You have 1 coin in the bank.</User></Case></Switch></Think><User Get="bank" /><Goto>XCHECKGAMEOVER</Goto><User Get="slotsmessage" /></Response>
     </Model>
     <Model>
       <Pattern>XSLOTHOLD</Pattern>
@@ -45,7 +45,7 @@
               <User Set="slotsmessage">Type S to spin the reels</User>
             </Think>
           </Item>
-          <Item>HOLD: -&gt; 1 2 3 &lt;-<Think><User Set="slotsmessage">HOLD AVAILABLE - Enter the reels you wish to hold. E.g. 12 will hold reels 1 and 2 and spin reel 3.<br />Type S to spin all three.</User></Think></Item>
+          <Item>HOLD: -&gt; 1 2 3 &lt;-<Think><User Set="slotsmessage">HOLD AVAILABLE - Enter the reels you wish to hold. E.g. 12 will hold reels 1 and 2 and spin reel 3.Type S to spin all three.</User></Think></Item>
         </Random>
       </Response>
     </Model>
@@ -372,10 +372,10 @@
         <Think>
           <Switch User="coins">
             <Case Value="0">
-              <User Set="slotsmessage">B A N K R U P T ! ! !<br />GAME OVER</User>
+              <User Set="slotsmessage">B A N K R U P T ! ! !GAME OVER</User>
             </Case>
             <Case Value="250">
-              <User Set="slotsmessage">CONGRATULATIONS! YOU HAVE BROKEN THE BANK!!!!<br />GAME OVER</User>
+              <User Set="slotsmessage">CONGRATULATIONS! YOU HAVE BROKEN THE BANK!!!!GAME OVER</User>
             </Case>
           </Switch>
         </Think>

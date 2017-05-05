@@ -52,7 +52,7 @@ You're a bit late. My birthday was two days ago.
     <Model>
       <Pattern>BIRTHDAYCHECK *</Pattern>
       <Response>
-Thanks<User Get="name" />but today is<Match />.<br />My birthday is on<Bot Get="birthday" />not today.
+Thanks<User Get="name" />but today is<Match />.My birthday is on<Bot Get="birthday" />not today.
 </Response>
     </Model>
     <Model>
