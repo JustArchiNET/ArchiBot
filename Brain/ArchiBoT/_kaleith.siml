@@ -24,7 +24,7 @@
 			<Pattern>
 				<Item>LASAGNA</Item>
 			</Pattern>
-			<Response>Archi's lasagna will be ready in <Js>secondsToString(1632701400 - Date.now() / 1000)</Js></Response>
+			<Response>Archi's lasagna will be ready in <Js>secondsToString(1632701400 - Math.floor(Date.now()/1000))</Js></Response>
 		</Model>
 		
 		<Model>
