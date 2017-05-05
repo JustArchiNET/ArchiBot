@@ -8,14 +8,24 @@
     <!-- Variables that are supposed to be initialized by ArchiBoT -->
     <!-- Note: There is no guarantee of them being actually set (data could be unavailable) -->
 
-    <!-- Initialized to user's nickname being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
-    <Variable Name="Name" Value="User" />
-
     <!-- Initialized to user's ID, in format of platform-ID, such as steam-76561198006963719. ID in this context is user's ID determined to be unique based on given platform. -->
     <Variable Name="UserID" Value="unknown" />
 
     <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to UserID (if it's private message on given platform). -->
     <Variable Name="SourceID" Value="unknown" />
+
+    <!-- Initialized to user's real name (if available) or nickname (if available), or UserID (otherwise) being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
+    <Variable Name="Name" Value="User" />
+
+    <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
+    <Variable Name="Nickname" Value="unknown" />
+
+    <!-- Initialized to user's real name (if available) being used on given platform. -->
+    <Variable Name="FullName" Value="unknown" />
+
+    <!-- Initialized to user's location (if available) being used on given platform. -->
+    <Variable Name="Location" Value="unknown" />
+
 
     <!--Emotion: Default user emotion when a new user is created-->
     <Variable Name="Emotion" Value="pleased" />
@@ -37,7 +47,6 @@
     <Variable Name="FAVCOLOR" Value="unknown" />
     <Variable Name="FAVMOVIE" Value="unknown" />
     <Variable Name="FRIEND" Value="unknown" />
-    <Variable Name="FULLNAME" Value="unknown" />
     <Variable Name="GENDER" Value="unknown" />
     <Variable Name="GIRLFRIEND" Value="unknown" />
     <Variable Name="HAS" Value="unknown" />
@@ -47,11 +56,9 @@
     <Variable Name="JOB" Value="unknown" />
     <Variable Name="LASTNAME" Value="unknown" />
     <Variable Name="LIKE" Value="unknown" />
-    <Variable Name="LOCATION" Value="unknown" />
     <Variable Name="LOOKLIKE" Value="unknown" />
     <Variable Name="MEMORY" Value="unknown" />
     <Variable Name="META" Value="unknown" />
-    <Variable Name="NICKNAME" Value="unknown" />
     <Variable Name="MIDDLENAME" Value="unknown" />
     <Variable Name="MOTHER" Value="unknown" />
     <Variable Name="PASSWORD" Value="unknown" />
