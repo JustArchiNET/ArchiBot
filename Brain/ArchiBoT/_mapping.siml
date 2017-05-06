@@ -28,6 +28,9 @@
 					<Case Value="steam-76561197996036318">
 						<Goto>WHO IS DOSH</Goto>
 					</Case>
+					<Case Value="steam-76561198126971055">
+						<Goto>WHO IS MIKE</Goto>
+					</Case>
 					<Default>You are <User Get="name" />, seeker.</Default>
 				</Switch>
 			</Response>
