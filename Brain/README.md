@@ -35,4 +35,5 @@ Have you created your file already in the past and got approved? Great, it's eve
 
 - Open your file in edit mode
 - Modify it the way you want
-- When done, commit your changes and wait for approval :+1:
+- When done, commit your changes and create a pull request for it
+- wait for approval :+1:
