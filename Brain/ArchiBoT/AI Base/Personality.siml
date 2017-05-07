@@ -31,7 +31,7 @@
           <Case Value="6C">Are you a fireman, policeman, teacher or public servant?<Think><User Set="eindex">7C</User></Think></Case>
           <Case Value="7C">Do you often seek pleasure?<Think><User Set="eindex">8C</User></Think></Case>
           <Case Value="8C">Do you own your own business or want to?<Think><User Set="eindex">9C</User></Think></Case>
-          <li>Do you like to "go with the flow"?<Think><User Set="eindex">1A</User></Think></li>
+          Do you like to "go with the flow"?<Think><User Set="eindex">1A</User></Think>
         </Switch>
       </Response>
     </Model>

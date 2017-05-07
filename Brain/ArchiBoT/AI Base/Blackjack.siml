@@ -47,9 +47,9 @@
             <Goto>BETOK</Goto>
           </Case>
           <Case Value="QUIT">Ok. What would you like to do now?</Case>
-          <li>
+          
             <Goto>BADBJBET</Goto>
-          </li>
+          
         </Switch>
       </Response>
     </Model>
@@ -354,9 +354,9 @@
           <Case Value="BUST!!">
             <Goto>XDEALERFINISH</Goto>
           </Case>
-          <li>
+          
             <Goto>XDEALERCARD1</Goto>
-          </li>
+          
         </Switch>
       </Response>
     </Model>
@@ -369,7 +369,7 @@
           <Case Value="BUST!!">
             <Goto>XDEALERFINISH</Goto>
           </Case>
-          <li>DEALER: <User Get="dealerhand" /><User Get="dealertot" /><User Get="dealerace" />.PLAYER: <User Get="playerhand" /><User Get="playertot" /><User Get="playerace" />.Bank: <User Get="coins" /><User Get="bankcoin" />.Bet: <User Get="plbet" /><User Get="playcoin" />.Type H to hit or S to stand.</li>
+          DEALER: <User Get="dealerhand" /><User Get="dealertot" /><User Get="dealerace" />.PLAYER: <User Get="playerhand" /><User Get="playertot" /><User Get="playerace" />.Bank: <User Get="coins" /><User Get="bankcoin" />.Bet: <User Get="plbet" /><User Get="playcoin" />.Type H to hit or S to stand.
         </Switch>
       </Response>
     </Model>

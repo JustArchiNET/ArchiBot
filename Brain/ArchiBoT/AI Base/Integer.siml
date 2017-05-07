@@ -827,7 +827,7 @@
           </If>
         </Think>
         <!-- Program P-style conditions (permit empty value but wildcards not supported) -->
-        <!-- <condition name="matherr"><li value=""><srai>IMPLODE <srai>REVERSE <get name="addresult"/> </srai></srai></li><li><get name="matherr"/><think><set name="matherr"/></think></li></condition> -->
+        <!-- <condition name="matherr"><li value=""><srai>IMPLODE <srai>REVERSE <get name="addresult"/> </srai></srai><get name="matherr"/><think><set name="matherr"/></think></condition> -->
         <!-- Program D-style conditions (don't permit empty value in condition) -->
         <Switch User="matherr">
           <Case Defined="True">
@@ -836,9 +836,9 @@
               <User Set="matherr" />
             </Think>
           </Case>
-          <li>
+          
             <Goto>IMPLODE <Goto>REVERSE <User Get="addresult" /></Goto></Goto>
-          </li>
+          
         </Switch>
       </Response>
     </Model>
@@ -856,7 +856,7 @@
           </If>
         </Think>
         <!-- Program P-style conditions (permit empty value but wildcards not supported) -->
-        <!--<condition name="matherr"><li value=""><srai>REVERSE <get name="addresult"/> </srai></li><li><get name="matherr"/><think><set name="matherr"/></think></li></condition> -->
+        <!--<condition name="matherr"><li value=""><srai>REVERSE <get name="addresult"/> </srai><get name="matherr"/><think><set name="matherr"/></think></condition> -->
         <!-- Program D-style conditions (don't permit empty value in condition) -->
         <Switch User="matherr">
           <Case Defined="True">
@@ -865,7 +865,7 @@
               <User Set="matherr" />
             </Think>
           </Case>
-          <li>IMPLODE <Goto>REVERSE <User Get="addresult" /></Goto></li>
+          IMPLODE <Goto>REVERSE <User Get="addresult" /></Goto>
         </Switch>
       </Response>
     </Model>
@@ -898,9 +898,9 @@
           <Case Value="1">
             <Goto>CALCULATE <Goto>CALCULATE <Match Index="2" /> PLUS 1</Goto><If User="carry" Value="1">1</If> PLUS <Match Index="4" /></Goto>
           </Case>
-          <li>
+          
             <Goto>CALCULATE <Match Index="2" /> PLUS <Match Index="4" /></Goto>
-          </li>
+          
         </Switch>
       </Response>
     </Model>
@@ -912,12 +912,12 @@
           <Case Value="1">
             <Goto>CALCULATE <Match Index="2" /> PLUS 1</Goto>
           </Case>
-          <li>
+          
             <Think>
               <User Set="carry">0</User>
             </Think>
             <Match Index="2" />
-          </li>
+          
         </Switch>
       </Response>
     </Model>
@@ -929,12 +929,12 @@
           <Case Value="1">
             <Goto>CALCULATE <Match Index="3" /> PLUS 1</Goto>
           </Case>
-          <li>
+          
             <Think>
               <User Set="carry">0</User>
             </Think>
             <Match Index="3" />
-          </li>
+          
         </Switch>
       </Response>
     </Model>

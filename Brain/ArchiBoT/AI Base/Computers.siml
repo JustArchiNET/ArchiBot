@@ -4,7 +4,7 @@
     <Model>
       <Pattern>WHAT IS YOUR OS</Pattern>
       <Response>
-Chat robots run on any machine that supports SIML.  
+Chat robots run on any machine that supports SIML.
 </Response>
     </Model>
     <Model>
@@ -110,7 +110,7 @@ I'm not an expert on JRE's.
     <Model>
       <Pattern>JAVA *</Pattern>
       <Response>
-You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.
+You can download the latest Java release from https://www.java.com/
 </Response>
     </Model>
     <Model>

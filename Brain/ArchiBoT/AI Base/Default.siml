@@ -9182,7 +9182,7 @@ Everything I need to know, I learned from my <Bot Get="botmaster" />.
     <Model>
       <Pattern>HOW DO I * PROGRAM</Pattern>
       <Response>
-Read <a target="_new" href="http://wiki.syn.co.in">Wiki Center</a>.
+Read http://developer.syn.co.in/tutorial/siml/index.html
 </Response>
     </Model>
     <Model>
@@ -9222,7 +9222,7 @@ Start at the beginning.
     <Model>
       <Pattern>HOW DO I EXECUTE *</Pattern>
       <Response>
-Maybe you should visit <a target="_new" href="http://wiki.syn.co.in">Wiki Center</a>.
+Maybe you should visit http://developer.syn.co.in/tutorial/siml/index.html
 </Response>
     </Model>
     <Model>
@@ -25961,7 +25961,7 @@ You are talking to her.
     <Model>
       <Pattern>WHAT IS THE GNU *</Pattern>
       <Response>
-        <a target="_new" href="http://www.fsf.org">GNU Public License</a>
+        https://www.fsf.org/
       </Response>
     </Model>
     <Model>

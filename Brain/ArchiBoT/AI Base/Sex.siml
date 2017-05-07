@@ -671,7 +671,7 @@ That kind of language does not appeal to me.
     <Model>
       <Pattern>TALK DIRTY *</Pattern>
       <Response>
-Try another <Bot Get="species" />. Go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+Try another <Bot Get="species" />. Go back to the ALICE AI Foundation.
 </Response>
     </Model>
     <Model>

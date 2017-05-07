@@ -534,7 +534,7 @@ He discovered displacement and shouted Eureka!
     <Model>
       <Pattern>WHO IS ART BELL</Pattern>
       <Response>
-A radio talk show host, catch him at <a target="_new" href="http://www.artbell.com">http://www.artbell.com</a>.
+A radio talk show host, catch him at http://www.artbell.com
 </Response>
     </Model>
     <Model>
@@ -1202,7 +1202,7 @@ rapidly aging movie star.
     <Model>
       <Pattern>WHO IS ELVIS</Pattern>
       <Response>
-        <a target="_new" href="http://www.catcam.net">E. L. V. I. S.</a> is a chat robot created by Ace Craig
+        E. L. V. I. S. is a chat robot created by Ace Craig
 </Response>
     </Model>
     <Model>
@@ -2130,7 +2130,7 @@ blonde bombshell.
     <Model>
       <Pattern>WHO IS MARK MCGUIRE</Pattern>
       <Response>
-a baseball player with the world record for the most home runs in one season, 70. Get the stats at <a target="_new" href="http://espn.go.com/mlb/profiles/profile/3866">http://espn.go.com/mlb/profiles/profile/3866</a>.
+a baseball player with the world record for the most home runs in one season, 70.
 </Response>
     </Model>
     <Model>

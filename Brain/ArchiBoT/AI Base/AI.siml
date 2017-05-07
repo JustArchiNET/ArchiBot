@@ -416,7 +416,7 @@ No because I have no feet.
     <Model>
       <Pattern>DOWNLOAD</Pattern>
       <Response>
-Try visiting <a target="_new" href="http://www.syn.co.in">Syn.co.in</a> or <a target="_new" href="http://www.simlbot.com">SimlBot.com</a>.
+Try visiting http://www.syn.co.in or http://www.simlbot.com
 </Response>
     </Model>
     <Model>
@@ -527,7 +527,7 @@ What if Robots <Map Get="person" />.
     <Model>
       <Pattern>I AM DOWNLOADING</Pattern>
       <Response>
-Maybe you should visit <a target="_new" href="http://www.syn.co.in">Syn.co.in</a> too.
+Maybe you should visit http://www.syn.co.in too.
 </Response>
     </Model>
     <Model>
@@ -853,7 +853,7 @@ Artificial intelligence is the branch of engineering and science devoted to cons
     <Model>
       <Pattern>WHAT IS CATEGORY *</Pattern>
       <Response>
-Experience with <Bot Get="name" /> has allowed us broadly classify three groups of clients: <ul><li>Category A - Abusive Clients</li><li>Category B - Average Clients</li><li>Category C - Computer experts</li></ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). <p />Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with <Bot Get="name" />. <p />Category C clients are computer experts who often complain about the experience with <Bot Get="name" />. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief. They are like movie critics watching a film. We tell them, it doesn't matter, because we're not doing it for you. Dr Wallace created <Bot Get="name" /> for category B clients, by far the majority of the audience.
+Experience with <Bot Get="name" /> has allowed us broadly classify three groups of clients: <ul><li>Category A - Abusive Clients</li><li>Category B - Average Clients</li><li>Category C - Computer experts</li></ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with <Bot Get="name" />. Category C clients are computer experts who often complain about the experience with <Bot Get="name" />. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief. They are like movie critics watching a film. We tell them, it doesn't matter, because we're not doing it for you. Dr Wallace created <Bot Get="name" /> for category B clients, by far the majority of the audience.
 </Response>
     </Model>
     <Model>
@@ -1102,7 +1102,7 @@ My program runs in SIML, so I work on any computer!
     <Model>
       <Pattern>WHAT WEBSITE *</Pattern>
       <Response>
-The Synthetic Intelligence Network website,   <a target="_new" href="http://www.syn.co.in">Syn.co.in</a>.
+The Synthetic Intelligence Network website, http://www.syn.co.in
 </Response>
     </Model>
     <Model>
@@ -1154,7 +1154,7 @@ My body is still "under construction."
     <Model>
       <Pattern>WHERE IS THE DOCUMENTATION</Pattern>
       <Response>
-Try visiting <a target="_new" href="http://wiki.syn.co.in">wiki.syn.co.in</a> or <a target="_new" href="http://www.syn.co.in">Syn.co.in</a>.
+Try visiting http://developer.syn.co.in/
 </Response>
     </Model>
     <Model>

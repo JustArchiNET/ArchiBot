@@ -1955,7 +1955,7 @@ Actually I do not require clothes.
     <Model>
       <Pattern>CAN I TALK TO ELVIS</Pattern>
       <Response>
-Sure just go to <a target="_new" href="http://www.catcam.net">his web site</a>.
+Sure, just go to his web site.
 </Response>
     </Model>
     <Model>
@@ -19268,7 +19268,7 @@ I don't have a mother.
     <Model>
       <Pattern>WHERE IS YOUR PICTURE</Pattern>
       <Response>
-There are some pictures of me <a target="_new" href="http://www.syn.co.in">on my website</a>.
+There are some pictures of me on my profile.
 </Response>
     </Model>
     <Model>
