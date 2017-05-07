@@ -2,16 +2,16 @@
 <Siml>
 	<Concept Name="_help" Type="Public">
 		<Model>
-			<Pattern>_ CHAT RELAY _</Pattern>
+			<Pattern>% CHAT RELAY %</Pattern>
 			<Response>To use chat relay pm ArchiBoT with "!chat chat_id". You can find out the chat_id by typing !chatinfo in a group chat with ArchiBoT present. PROTIP: You can join the Touhou Giveaways relay chat with a simple "!chat 2hu"!</Response>
 		</Model>
 
 		<Model>
 			<Pattern>
-				<Item>_ CHAT GIVEAWAYS _</Item>
-				<Item>_ CHAT GIVEAWAY _</Item>
-				<Item>_ CHAT GIB _</Item>
-				<Item>_ CHAT GIBS _</Item>
+				<Item>% CHAT GIVEAWAYS %</Item>
+				<Item>% CHAT GIVEAWAY %</Item>
+				<Item>% CHAT GIB %</Item>
+				<Item>% CHAT GIBS %</Item>
 			</Pattern>
 			<Response>To find info about chat giveaways go to https://github.com/JustArchi/ArchiBoT/wiki/Chat-giveaways :sgsmile:</Response>
 		</Model>
