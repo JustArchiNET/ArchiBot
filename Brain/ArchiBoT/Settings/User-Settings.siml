@@ -9,7 +9,8 @@
     <!-- Note: There is no guarantee of them being actually set (data could be unavailable) -->
 
     <!-- Initialized to user's ID, in format of platform-ID, such as steam-76561198006963719. ID in this context is user's ID determined to be unique based on given platform. -->
-    <Variable Name="UserID" Value="unknown" />
+    <!-- Note, this is internal variable that is not declared as user variable here, but can be used freely in SIML files -->
+    <!-- <Variable Name="ID" Value="unknown" /> -->
 
     <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to UserID (if it's private message on given platform). -->
     <Variable Name="SourceID" Value="unknown" />
