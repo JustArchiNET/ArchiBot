@@ -43,11 +43,13 @@
 		</Model>
 
 		<Model>
-			<Pattern>
-				<Item>TAIGO</Item>
-				<Item>WHO IS TAIGO</Item>
-			</Pattern>
+			<Pattern>TAIGO</Pattern>
 			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> Taigo</Text></Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS TAIGO</Pattern>
+			<Response>Did you mean <Goto>TAIGO</Goto>?</Response>
 		</Model>
 	</Concept>
 </Siml>
