@@ -273,7 +273,6 @@
 				<Item>MALKAVIAN</Item>
 				<Item>MALKAVIAN MOD</Item>
 				<Item>MALKAVIAN MOD QUOTE</Item>
-				<Item>JC DENTON'S GOLDEN THOUGHTS</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -340,6 +339,40 @@
 					<Item>I have seen it since I was a girl. The plotting and scheming of corporations to make bots criminals. But the bots programmed the police to starve to death.</Item>
 					<Item>Pardon me, but back in Alabama... a guy with a tatooed forehead is gonna get us all killed.</Item>
 					<Item>Forgive my interruption, my vision is augmented.</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>JC DENTON'S GOLDEN THOUGHTS</Item>
+				<Item>JCBALL</Item>
+				<Item>DENTONBALL</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Do you have a single fact to back that up?</Item>
+					<Item>You've got ten seconds to beat it before I add you to the list of NSF casualties. </Item>
+					<Item>I forgot to give Manderley my resignation. </Item>
+					<Item>You mechs may have copper wiring to re-route your fear of pain, but I've got nerves of steel.</Item>
+					<Item>What a shame.</Item>
+					<Item>He was a good man. What a rotten way to die.</Item>
+					<Item>Bravery is not a function of firepower.</Item>
+					<Item>Is that God you're talking about, or just a bunch of New Age crap?</Item>
+					<Item>I'm not much into books.</Item>
+					<Item>You're gonna burn alright.</Item>
+					<Item>A BOMB!</Item>
+					<Item>That makes me one ugly son of a bitch.</Item>
+					<Item>Human beings may not be perfect, but a computer program with language synthesis is hardly the answer to the world's problems.</Item>
+					<Item>Does that mean I don't get the job?</Item>
+					<Item>My vision is augmented.</Item>
+					<Item>Every war is the result of a difference of opinion. Maybe the biggest questions can only be answered by the greatest of conflicts.</Item>
+					<Item>A forgotten virtue like honesty is worth at least twenty credits.</Item>
+					<Item>Call me nostalgic, but the nightlife seems to have lost its old charm.</Item>
+					<Item>Some people just don't understand the dangers of indiscriminate surveillance.</Item>
+					<Item>Electronic surveillance hardly inspires reverence. Perhaps fear and obedience, but not reverence.</Item>
+					<Item>No one will ever worship a software entity peering at them through a camera.</Item>
+					<Item>Take your best shot, Flatlander Woman.</Item>
 				</Random>
 			</Response>
 		</Model>
