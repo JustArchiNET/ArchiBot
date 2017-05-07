@@ -342,7 +342,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>
 				<Item>JC DENTON'S GOLDEN THOUGHTS</Item>
@@ -375,6 +375,11 @@
 					<Item>Take your best shot, Flatlander Woman.</Item>
 				</Random>
 			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>BAIT</Pattern>
+			<Response>Dosh delivers high-quality bait: http://imgur.com/a/mgEmp</Response>
 		</Model>
 	</Concept>
 </Siml>
