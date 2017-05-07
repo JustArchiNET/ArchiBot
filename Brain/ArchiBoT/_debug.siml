@@ -5,12 +5,21 @@
 			<Pattern>IDDEBUG GET</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
+		</Concept>
 
-		<Model>
-			<Pattern>IDDEBUG SET *</Pattern>
-			<Response><User Set="ID"><Match/></User> was set as your user's ID</Response>
-		</Model>
-	</Concept>
+		<Concept Name="kale test">
+			<Model>
+				<Pattern>DEBUG1</Pattern>
+				<Response>
+				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"=="<User Get="SourceID"/>";</Js></User></Think>
+					<Switch User="isBotPrivateChat">
+						<Case Value="True">You're in private chat... It worked :speak:</Case>
+						<Case Value="False">You're in a group chat... But it worked :speak:</Case>
+						<Default>Something went wrong :cry: <User Get="isBotPrivateChat" /></Default>
+					</Switch>
+				</Response>
+			</Model>
+		</Concept>
 
 	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
