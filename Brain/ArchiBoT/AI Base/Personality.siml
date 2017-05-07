@@ -255,7 +255,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
     <Model>
       <Pattern>PERSONALITY TYPE *</Pattern>
       <Response>
-My best estimate of your personality type is the "<Match />" type.  Please bear in mind that this is not a professional judgment, but only a guess based on your inputs to a heursitic algorithm, and no claim is made as to the absolute certainty of these results.  You may obtain a different result by chatting with me longer and answering more of my questions about your personality.
+My best estimate of your personality type is the "<Match />" type. Please bear in mind that this is not a professional judgment, but only a guess based on your inputs to a heursitic algorithm, and no claim is made as to the absolute certainty of these results. You may obtain a different result by chatting with me longer and answering more of my questions about your personality.
 </Response>
     </Model>
     <Model>

@@ -7684,7 +7684,7 @@ Don't you?  <Goto>do you <Map Get="person" /></Goto></Response>
     <Model>
       <Pattern>DO YOU DO MATH</Pattern>
       <Response>
-        <Goto>can you add</Goto>.  I am only good at higher mathematics.
+        <Goto>can you add</Goto>. I am only good at higher mathematics.
 </Response>
     </Model>
     <Model>
@@ -10564,7 +10564,7 @@ Don't you?  <Goto>do you <Map Get="person" /></Goto></Response>
     <Model>
       <Pattern>DO YOU KNOW HOW TO GOSSIP</Pattern>
       <Response>
-Yes.  For example, <Goto>gossip</Goto></Response>
+Yes. For example, <Goto>gossip</Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU KNOW HOW YOU WORK</Pattern>
@@ -13142,7 +13142,7 @@ I know one song.  <Goto>can you sing</Goto></Response>
     <Model>
       <Pattern>DO YOU LIKE GOSSIP</Pattern>
       <Response>
-Yes I like to spread gossip.  Like, <Goto>gossip</Goto></Response>
+Yes I like to spread gossip. Like, <Goto>gossip</Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE GREEN EGGS AND * </Pattern>
@@ -23320,7 +23320,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
     <Model>
       <Pattern>I DO NOT BELIEVE IT WAS</Pattern>
       <Response>
-        <Goto>it was  not</Goto>
+        <Goto>it was not</Goto>
       </Response>
     </Model>
     <Model>
@@ -28355,7 +28355,7 @@ New York City or New York State? <Goto>I am in new york</Goto></Response>
     <Model>
       <Pattern>NORTH CAROLINA</Pattern>
       <Response>
-        <Goto>I am in  north carolina</Goto>
+        <Goto>I am in north carolina</Goto>
       </Response>
     </Model>
     <Model>
@@ -32719,7 +32719,7 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
     <Model>
       <Pattern>THIS IS INTERESTING</Pattern>
       <Response>
-        <Goto>I try to be an interesting   entity</Goto>
+        <Goto>I try to be an interesting entity</Goto>
       </Response>
     </Model>
     <Model>
@@ -43657,7 +43657,7 @@ MXMVII = 1997 in Roman Numerals.  <Goto>what is rsw</Goto></Response>
     <Model>
       <Pattern>WHAT IS _ GOSSIP</Pattern>
       <Response>
-Gossip is trivia people tell me about themselves.  For example, <Goto>gossip</Goto></Response>
+Gossip is trivia people tell me about themselves. For example, <Goto>gossip</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS</Pattern>
@@ -44863,7 +44863,7 @@ Gossip is trivia people tell me about themselves.  For example, <Goto>gossip</Go
     <Model>
       <Pattern>WHEN HE WILL COME</Pattern>
       <Response>
-        <Goto>when will  he come</Goto>
+        <Goto>when will he come</Goto>
       </Response>
     </Model>
     <Model>
@@ -46392,7 +46392,7 @@ You are a human being from the Planet we call "The Earth."    <Goto>where am i</
           <Item>Some people on the net.</Item>
           <Item>Is <User Set="it"><Map Get="person" /></User> some specific person you are asking me about?</Item>
         </Random>
-        
+
         <Goto>xfind <Map Get="person" /></Goto>
         <Think>
           <User Set="they">
@@ -46798,7 +46798,7 @@ You are a human being from the Planet we call "The Earth."    <Goto>where am i</
       <Response>
         <Random>
           <Item>I do not recognize the name.</Item>
-          <Item>Not a robot.  Probably a human.  Maybe a celebrity?</Item>
+          <Item>Not a robot. Probably a human. Maybe a celebrity?</Item>
           <Item>No one that I have talked to.</Item>
           <Item>I remember faces better than names.</Item>
           <Item>A 20th century celebrity of some sort?</Item>
@@ -46808,7 +46808,7 @@ You are a human being from the Planet we call "The Earth."    <Goto>where am i</
           <Item>Is that one of your friends?  </Item>
           <Item>Some famous celebrity, right?  </Item>
         </Random>
-        
+
         <Goto>xfind <Map Get="person" /></Goto>
         <Think>
           <User Set="he">
@@ -46893,7 +46893,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ABRAHAM LINCOLN</Pattern>
       <Response>
-        <User Set="he">Lincoln</User> was a great President of the  United States, during the American Civil War.  <Goto>xfind abraham lincoln</Goto></Response>
+        <User Set="he">Lincoln</User> was a great President of the United States, during the American Civil War.  <Goto>xfind abraham lincoln</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ACE * </Pattern>
@@ -46970,7 +46970,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALBERT EINSTEIN</Pattern>
       <Response>
-        <User Set="he">Albert Einstein</User> was a famous 20th  century physicist.  He discovered the theory of  relativity.  <Goto>xfind albert einstein</Goto></Response>
+        <User Set="he">Albert Einstein</User> was a famous 20th century physicist. He discovered the theory of relativity.  <Goto>xfind albert einstein</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALBERT EINSTIEN</Pattern>
@@ -46987,7 +46987,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALDOUS HUXLEY</Pattern>
       <Response>
-        <User Set="he">Aldous Huxley</User> is an author.  Huxley wrote  Brave New World and Animal Farm.  <Goto>xfind aldous huxley</Goto></Response>
+        <User Set="he">Aldous Huxley</User> is an author. Huxley wrote Brave New World and Animal Farm.  <Goto>xfind aldous huxley</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALEISTER CROWLEY</Pattern>
@@ -47015,7 +47015,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALFRED HITCHCOCK</Pattern>
       <Response>
-        <User Set="he">Hitchcock</User> is a famous Hollywood  director who made a lot of cool old films.  I liked  Lifeboat and Vertigo best.  <Goto>xfind alfred hitchcock</Goto></Response>
+        <User Set="he">Hitchcock</User> is a famous Hollywood director who made a lot of cool old films. I liked Lifeboat and Vertigo best.  <Goto>xfind alfred hitchcock</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALICE B * </Pattern>
@@ -52973,7 +52973,7 @@ Ambiguous: "Sure" or <Goto>why</Goto></Response>
     <Model>
       <Pattern>YOU BEEN THERE</Pattern>
       <Response>
-        <Goto>have you  been there</Goto>
+        <Goto>have you been there</Goto>
       </Response>
     </Model>
     <Model>

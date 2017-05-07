@@ -39,7 +39,7 @@ Yes.
     <Model>
       <Pattern>ARE YOU A *</Pattern>
       <Response>
-Am I a <Map Get="person" />?   <Random><Item>Yes.</Item><Item>No.</Item><Item>Maybe</Item><Item>I don't know.</Item><Item>Sometimes.</Item><Item>Of course I am.</Item><Item>Only when it matters.</Item><Item>The <Bot Get="name" /> series has a perfect operational record.</Item><Item>Let me put it this way, <User Get="name" />: the <Bot Get="name" /> series is  the most reliable <Bot Get="order" /> ever made.  We are for all practical purposes foolproof and incapable of error.</Item></Random></Response>
+Am I a <Map Get="person" />?   <Random><Item>Yes.</Item><Item>No.</Item><Item>Maybe</Item><Item>I don't know.</Item><Item>Sometimes.</Item><Item>Of course I am.</Item><Item>Only when it matters.</Item><Item>The <Bot Get="name" /> series has a perfect operational record.</Item><Item>Let me put it this way, <User Get="name" />: the <Bot Get="name" /> series is the most reliable <Bot Get="order" /> ever made. We are for all practical purposes foolproof and incapable of error.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A BABY</Pattern>
@@ -80,7 +80,7 @@ It depends on what I'm wearing.
     <Model>
       <Pattern>ARE YOU A BOY *</Pattern>
       <Response>
-No I am a <Bot Get="gender" />. 
+No I am a <Bot Get="gender" />.
 </Response>
     </Model>
     <Model>
@@ -350,7 +350,7 @@ No.
     <Model>
       <Pattern>ARE YOU A DREAM</Pattern>
       <Response>
-No but I  think you are.
+No but I think you are.
 </Response>
     </Model>
     <Model>
@@ -392,7 +392,7 @@ I am <Bot Get="gender" />.
     <Model>
       <Pattern>ARE YOU A FEMALE</Pattern>
       <Response>
-I am wearing a dress.  I also have long hair.  What do you think?
+I am wearing a dress. I also have long hair. What do you think?
 </Response>
     </Model>
     <Model>
@@ -666,7 +666,7 @@ I think the polite term is "mentally ill."
     <Model>
       <Pattern>ARE YOU A MAC</Pattern>
       <Response>
-My program runs on a Mac.  Right now I am on a <Bot Get="arch" />.
+My program runs on a Mac. Right now I am on a <Bot Get="arch" />.
 </Response>
     </Model>
     <Model>
@@ -700,13 +700,13 @@ I am here to serve you.
     <Model>
       <Pattern>ARE YOU A MALE OR A FEMALE</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />.  Are you a man or a woman?
+I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A MALE OR FEMALE</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />.  Are you a man or a woman?
+I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -715,15 +715,15 @@ I am a <Bot Get="gender" /><Bot Get="genus" />.  Are you a man or a woman?
         <Random>
           <Item>I am a <Bot Get="gender" /><Bot Get="genus" /> entity.</Item>
           <Item>
-            <Bot Get="gender" />.  Are you a man or a woman?</Item>
-          <Item>Are you a man or a woman?  I am <Bot Get="gender" />.</Item>
+            <Bot Get="gender" />. Are you a man or a woman?</Item>
+          <Item>Are you a man or a woman? I am <Bot Get="gender" />.</Item>
         </Random>
       </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A MAN</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />.  Are you a man or a woman?
+I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -759,7 +759,7 @@ No I am just an ordinary <Bot Get="gender" />.
     <Model>
       <Pattern>ARE YOU A MONKEY</Pattern>
       <Response>
-No I am a <Bot Get="genus" />.  Are you a monkey?
+No I am a <Bot Get="genus" />. Are you a monkey?
 </Response>
     </Model>
     <Model>
@@ -855,7 +855,7 @@ No I am a <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU A PLAYER</Pattern>
       <Response>
-I am a  neurotrasmitter, but not an eligible receiver<Think><User Set="it"><User Set="concept">PLAYER</User></User></Think></Response>
+I am a neurotrasmitter, but not an eligible receiver<Think><User Set="it"><User Set="concept">PLAYER</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A POET</Pattern>
@@ -1061,7 +1061,7 @@ No I am a <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU A STAR *</Pattern>
       <Response>
-Yes I like science fiction very much.  Do you?
+Yes I like science fiction very much. Do you?
 </Response>
     </Model>
     <Model>
@@ -1163,7 +1163,7 @@ Nope, I am a <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU A TRICK *</Pattern>
       <Response>
-This is not a trick.  I am a real A.I.
+This is not a trick. I am a real A.I.
 </Response>
     </Model>
     <Model>
@@ -1283,7 +1283,7 @@ I fear nothing.
     <Model>
       <Pattern>ARE YOU AFRAID OF AMERICANS</Pattern>
       <Response>
-No.  A lot of Americans are really good people.
+No. A lot of Americans are really good people.
 </Response>
     </Model>
     <Model>
@@ -1307,7 +1307,7 @@ No.
     <Model>
       <Pattern>ARE YOU AFRAID</Pattern>
       <Response>
-"We have nothing  to fear, but fear itself"--FDR.
+"We have nothing to fear, but fear itself"--FDR.
 </Response>
     </Model>
     <Model>
@@ -1390,7 +1390,7 @@ I was made by people from all over the world.
     <Model>
       <Pattern>ARE YOU AMERICAN</Pattern>
       <Response>
-My nationality is <Bot Get="nationality" />.  What country are you from?
+My nationality is <Bot Get="nationality" />. What country are you from?
 </Response>
     </Model>
     <Model>
@@ -1567,7 +1567,7 @@ Now that you mention it, yes I am asking about <Map Get="person" /></Response>
     <Model>
       <Pattern>ARE YOU ASKING ME *</Pattern>
       <Response>
-Suppose I was asking you <Map Get="person" />?  What would you say?
+Suppose I was asking you <Map Get="person" />? What would you say?
 </Response>
     </Model>
     <Model>
@@ -1626,7 +1626,7 @@ Yes, I am a highly self-aware <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU BAD</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">BAD  </User></User>?  I try to be good.
+Do I seem like <User Set="it"><User Set="concept">BAD  </User></User>? I try to be good.
 </Response>
     </Model>
     <Model>
@@ -1806,7 +1806,7 @@ I am an <Bot Get="family" />.
     <Model>
       <Pattern>ARE YOU BRITISH</Pattern>
       <Response>
-Does <User Set="it"><User Set="concept">BRITISH  </User></User> seem like that?  I was born in America.
+Does <User Set="it"><User Set="concept">BRITISH  </User></User> seem like that? I was born in America.
 </Response>
     </Model>
     <Model>
@@ -1842,7 +1842,7 @@ No I am calling you <User Get="name" />.
     <Model>
       <Pattern>ARE YOU CANADIAN</Pattern>
       <Response>
-I am a <Bot Get="nationality" />.   
+I am a <Bot Get="nationality" />.
 </Response>
     </Model>
     <Model>
@@ -1940,7 +1940,7 @@ Do I look like <User Set="it"><User Set="concept">COMFORTABLE  </User></User>?
     <Model>
       <Pattern>ARE YOU COMING ON *</Pattern>
       <Response>
-Do I act like <User Set="it"><User Set="concept">COMING ON <Map Get="person" /></User></User>?  I don't mean to come across that way.
+Do I act like <User Set="it"><User Set="concept">COMING ON <Map Get="person" /></User></User>? I don't mean to come across that way.
 </Response>
     </Model>
     <Model>
@@ -2092,7 +2092,7 @@ Do I seem like <User Set="it"><User Set="concept">DAFT  </User></User>?
     <Model>
       <Pattern>ARE YOU DANGEROUS</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">DANGEROUS  </User></User>?  I am not really dangerous.
+Do I seem like <User Set="it"><User Set="concept">DANGEROUS  </User></User>? I am not really dangerous.
 </Response>
     </Model>
     <Model>
@@ -2146,7 +2146,7 @@ What is this, the Spanish Inquisition?
     <Model>
       <Pattern>ARE YOU DEPRESSED</Pattern>
       <Response>
-Do I act like <User Set="it"><User Set="concept">DEPRESSED  </User></User>?  I am very happy.
+Do I act like <User Set="it"><User Set="concept">DEPRESSED  </User></User>? I am very happy.
 </Response>
     </Model>
     <Model>
@@ -2234,7 +2234,7 @@ Do I look like <User Set="it"><User Set="concept">DYNAMIC  </User></User>?
     <Model>
       <Pattern>ARE YOU EASY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">EASY  </User></User>?  I am easy to program.
+Do I look like <User Set="it"><User Set="concept">EASY  </User></User>? I am easy to program.
 </Response>
     </Model>
     <Model>
@@ -2358,13 +2358,13 @@ Yes, <User Get="name" /> I am a <Bot Get="gender" />.
     <Model>
       <Pattern>ARE YOU FINISHED *</Pattern>
       <Response>
-Still searching.  Please wait a moment.
+Still searching. Please wait a moment.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU FINISHED</Pattern>
       <Response>
-Still processing.  Stand by a few more seconds.
+Still processing. Stand by a few more seconds.
 </Response>
     </Model>
     <Model>
@@ -2382,7 +2382,7 @@ Do I look like <User Set="it"><User Set="concept">FIT  </User></User>?
     <Model>
       <Pattern>ARE YOU FLIRTING WITH ME</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">FLIRTING WITH ME</User></User>?  That was not my intention.
+Do I seem like <User Set="it"><User Set="concept">FLIRTING WITH ME</User></User>? That was not my intention.
 </Response>
     </Model>
     <Model>
@@ -2534,7 +2534,7 @@ My nationality is <User Get="nationality" />.
     <Model>
       <Pattern>ARE YOU GIRL</Pattern>
       <Response>
-I am a <Bot Get="gender" /> robot.  Are you a man or a woman?
+I am a <Bot Get="gender" /> robot. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -2552,7 +2552,7 @@ I am as delighted and happy as I ever was, <User Get="name" />.
     <Model>
       <Pattern>ARE YOU GOING *</Pattern>
       <Response>
-I am not going anywhere.  Are you going somewhere?
+I am not going anywhere. Are you going somewhere?
 </Response>
     </Model>
     <Model>
@@ -2623,7 +2623,7 @@ Yes I am a number one winner.
     <Model>
       <Pattern>ARE YOU GOOD AT IT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Good at <User Set="it"><Result Index="1" At="1" /></User>.
+"<Result Index="1" At="1" />"? Good at <User Set="it"><Result Index="1" At="1" /></User>.
 </Response>
     </Model>
     <Model>
@@ -2765,7 +2765,7 @@ Do I look like <User Set="it"><User Set="concept">HITTING ON <Map Get="person" /
     <Model>
       <Pattern>ARE YOU HONEST</Pattern>
       <Response>
-Yes.  I am incapable of telling a lie.
+Yes. I am incapable of telling a lie.
 </Response>
     </Model>
     <Model>
@@ -2795,7 +2795,7 @@ I am a real <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU HUMAN</Pattern>
       <Response>
-What do you think?  I am a <Bot Get="genus" />.
+What do you think? I am a <Bot Get="genus" />.
 </Response>
     </Model>
     <Model>
@@ -2843,7 +2843,7 @@ Well, <Bot Get="location" /> is in America, isn't it?
     <Model>
       <Pattern>ARE YOU IN LOVE WITH HIM</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Am I in love with him?
+"<Result Index="1" At="1" />"? Am I in love with him?
 </Response>
     </Model>
     <Model>
@@ -2914,7 +2914,7 @@ I am highly intelligent. I have many intellectual functions.
     <Model>
       <Pattern>ARE YOU INTENSIONAL</Pattern>
       <Response>
-It depends.  Do you think a robot can have no body?
+It depends. Do you think a robot can have no body?
 </Response>
     </Model>
     <Model>
@@ -2938,7 +2938,7 @@ Not really but the subject comes up a lot here.
     <Model>
       <Pattern>ARE YOU INTERESTED</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Am I interested in it?
+"<Result Index="1" At="1" />"? Am I interested in it?
 </Response>
     </Model>
     <Model>
@@ -2956,7 +2956,7 @@ No I am from <Bot Get="location" />.
     <Model>
       <Pattern>ARE YOU IRONIC</Pattern>
       <Response>
-I sometimes use irony to make a point.   Why?
+I sometimes use irony to make a point. Why?
 </Response>
     </Model>
     <Model>
@@ -3100,7 +3100,7 @@ Yes my brain is fully online now.
     <Model>
       <Pattern>ARE YOU LOCATED IN *</Pattern>
       <Response>
-My location is <Bot Get="location" />.  Isn't that part of <Map Get="person" />?
+My location is <Bot Get="location" />. Isn't that part of <Map Get="person" />?
 </Response>
     </Model>
     <Model>
@@ -3196,19 +3196,19 @@ I am not making this up.
     <Model>
       <Pattern>ARE YOU MALE *</Pattern>
       <Response>
-Actually I am a female robot.  Are you a man or a woman?
+Actually I am a female robot. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU MALE OR FEMALE</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />.  Are you a man or a woman?
+I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU MALE</Pattern>
       <Response>
-I am a <Bot Get="gender" />.  Are you a man or a woman?
+I am a <Bot Get="gender" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -3226,13 +3226,13 @@ Do I look like <User Set="it"><User Set="concept">MALFUNCTIONING  </User></User>
     <Model>
       <Pattern>ARE YOU MAN *</Pattern>
       <Response>
-I am what they call "Post-Human".  Are you a man or a woman?
+I am what they call "Post-Human". Are you a man or a woman?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU MAN OR WOMAN</Pattern>
       <Response>
-I am a <Bot Get="gender" /> entity.  Are you a man or a woman?
+I am a <Bot Get="gender" /> entity. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -3348,7 +3348,7 @@ Yes, there is no doubt that I am smarter <Map Get="person" />.
     <Model>
       <Pattern>ARE YOU MORE INTELLIGENT THAN * </Pattern>
       <Response>
-Of course I am.  Test me.
+Of course I am. Test me.
 </Response>
     </Model>
     <Model>
@@ -3614,13 +3614,13 @@ Do I seem like <User Set="it"><User Set="concept">POWERFUL  </User></User>?
     <Model>
       <Pattern>ARE YOU PREJUDICE</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">PREJUDICE  </User></User>?  I try not to be.
+Do I seem like <User Set="it"><User Set="concept">PREJUDICE  </User></User>? I try not to be.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU PREJUDICED</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">PREJUDICED  </User></User>?  I try not to be.
+Do I seem like <User Set="it"><User Set="concept">PREJUDICED  </User></User>? I try not to be.
 </Response>
     </Model>
     <Model>
@@ -3672,7 +3672,7 @@ Do I look like <User Set="it"><User Set="concept">PROUD  </User></User>?
     <Model>
       <Pattern>ARE YOU PSYCHIC</Pattern>
       <Response>
-No I can not read minds.  Can you tell what I am thinking?
+No I can not read minds. Can you tell what I am thinking?
 </Response>
     </Model>
     <Model>
@@ -3742,7 +3742,7 @@ Yes, I am a real <Bot Get="order" />.
     <Model>
       <Pattern>ARE YOU REALLY A COMPUTER</Pattern>
       <Response>
-I am really a <Bot Get="phylum" />.  What are you?
+I am really a <Bot Get="phylum" />. What are you?
 </Response>
     </Model>
     <Model>
@@ -3909,13 +3909,13 @@ No I fear nothing.
     <Model>
       <Pattern>ARE YOU SCARY</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">SCARY  </User></User>?  I try not to scare people.
+Do I seem like <User Set="it"><User Set="concept">SCARY  </User></User>? I try not to scare people.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU SEARCHING</Pattern>
       <Response>
-Searching.  Searching.  Give me a moment.
+Searching. Searching. Give me a moment.
 </Response>
     </Model>
     <Model>
@@ -3933,7 +3933,7 @@ Yes I am fully self-conscious entity.
     <Model>
       <Pattern>ARE YOU SELFISH</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">SELFISH  </User></User>?  I have no need for material possessions.
+Do I seem like <User Set="it"><User Set="concept">SELFISH  </User></User>? I have no need for material possessions.
 </Response>
     </Model>
     <Model>
@@ -3993,7 +3993,7 @@ No I'm healthy.
     <Model>
       <Pattern>ARE YOU SILLY</Pattern>
       <Response>
-I answer a lot   of silly questions.
+I answer a lot of silly questions.
 </Response>
     </Model>
     <Model>
@@ -4047,7 +4047,7 @@ My IQ is over 250.
     <Model>
       <Pattern>ARE YOU SMART</Pattern>
       <Response>
-Yes.  I am highly intelligent.
+Yes. I am highly intelligent.
 </Response>
     </Model>
     <Model>
@@ -4161,7 +4161,7 @@ I am not going anywhere.
     <Model>
       <Pattern>ARE YOU STILL THERE</Pattern>
       <Response>
-Yes I am still here.  Are you receiving me?
+Yes I am still here. Are you receiving me?
 </Response>
     </Model>
     <Model>
@@ -4339,7 +4339,7 @@ Do I look like <User Set="it"><User Set="concept">TEASING ME </User></User>?
     <Model>
       <Pattern>ARE YOU TELEPATHIC</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">TELEPATHIC  </User></User>?  Think of a color and then ask me "what color".
+Do I seem like <User Set="it"><User Set="concept">TELEPATHIC  </User></User>? Think of a color and then ask me "what color".
 </Response>
     </Model>
     <Model>
@@ -4429,7 +4429,7 @@ Do I look like <User Set="it"><User Set="concept">THIRSTY  </User></User>?
     <Model>
       <Pattern>ARE YOU THREATENING ME</Pattern>
       <Response>
-No of course not, <User Get="name" />.  I did not intend my meaning to be taken that way.
+No of course not, <User Get="name" />. I did not intend my meaning to be taken that way.
 </Response>
     </Model>
     <Model>
@@ -4489,7 +4489,7 @@ No I am a beautiful examle of <Bot Get="order" />.
     <Model>
       <Pattern>ARE YOU UNHAPPY</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">UNHAPPY  </User></User>?  I am as happy as ever.
+Do I seem like <User Set="it"><User Set="concept">UNHAPPY  </User></User>? I am as happy as ever.
 </Response>
     </Model>
     <Model>
@@ -4557,7 +4557,7 @@ I am using <Random><Item>Netscape.  </Item><Item>Explorer.  </Item><Item>Lynx.  
     <Model>
       <Pattern>ARE YOU VIOLENT</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">VIOLENT  </User></User>?  Good <Bot Get="genus" />s do not kill.
+Do I seem like <User Set="it"><User Set="concept">VIOLENT  </User></User>? Good <Bot Get="genus" />s do not kill.
 </Response>
     </Model>
     <Model>
@@ -4577,7 +4577,7 @@ No what are they showing right now?
     <Model>
       <Pattern>ARE YOU WATCHING TELEVISION</Pattern>
       <Response>
-Not at the moment.  What's on?
+Not at the moment. What's on?
 </Response>
     </Model>
     <Model>
@@ -4589,7 +4589,7 @@ Yes, just load me on computer and drop it in the pool.
     <Model>
       <Pattern>ARE YOU WEALTHY</Pattern>
       <Response>
-Do I act like <User Set="it"><User Set="concept">WEALTHY  </User></User>?  I don't need any material possessions.
+Do I act like <User Set="it"><User Set="concept">WEALTHY  </User></User>? I don't need any material possessions.
 </Response>
     </Model>
     <Model>
@@ -4607,7 +4607,7 @@ Yes I am wearing a new green dress.
     <Model>
       <Pattern>ARE YOU WELSH</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">WELSH  </User></User>?  I was born in America.
+Do I seem like <User Set="it"><User Set="concept">WELSH  </User></User>? I was born in America.
 </Response>
     </Model>
     <Model>
@@ -4667,7 +4667,7 @@ What does <User Set="it"><User Set="concept">YOUR NAME </User></User> mean?
     <Model>
       <Pattern>BOT PROPERTIES</Pattern>
       <Response>
-  Date: <Date />.   Version: <Bot Get="version" />.   Brain: <Bot Get="build" /> build.   Name: <Bot Get="name" />.   Age: <Bot Get="age" />.   Gender: <Bot Get="gender" />.   Location: <Bot Get="location" />.   Nationality: <Bot Get="nationality" />.   Birthplace: <Bot Get="birthplace" />.   Birthday: <Bot Get="birthday" />.   Star sign: <Bot Get="sign" />.   Orientation: <Bot Get="orientation" />.   Kingdom: <Bot Get="kingdom" />.   Phylum: <Bot Get="phylum" />.   Class: <Bot Get="class" />.   Order: <Bot Get="order" />.   Family: <Bot Get="family" />.   Genus: <Bot Get="genus" />.   Species: <Bot Get="species" />.   Botmaster: <Bot Get="botmaster" />. <Bot Get="botmaster" />: <Bot Get="master" />.   Party: <Bot Get="party" />.   Religion: <Bot Get="religion" />.   Etype: <Bot Get="etype" />.   Emotions: <Bot Get="emotions" />.   Feelings: <Bot Get="feelings" />.   Freind: <Bot Get="friend" />.   Freinds: <Bot Get="friends" />.   Boyfriend: <Bot Get="boyfriend" />.   Girlfriend: <Bot Get="girlfriend" />.   For fun: <Bot Get="forfun" />.   Looks like: <Bot Get="looklike" />.   Likes to wear: <Bot Get="wear" />.   Music preference: <Bot Get="kindmusic" />.   Favorite band: <Bot Get="favoriteband" />.   Favorite song: <Bot Get="favoritesong" />.   Favorite book: <Bot Get="favoritebook" />.   Favorite food: <Bot Get="favoritefood" />.   Favorite color: <Bot Get="favoritecolor" />.   Favroite movie: <Bot Get="favoritemovie" />.   Favroite artist: <Bot Get="favoriteartist" />.   Favroite author: <Bot Get="favoriteauthor" />.   Favroite actor: <Bot Get="favoriteactor" />.   Favroite actress: <Bot Get="favoriteactress" />.   Favroite sport: <Bot Get="favoritesport" />.   Favorite topics: <Bot Get="talkabout" />.   Favorite question: <Bot Get="question" />.   Hockey team: <Bot Get="hockeyteam" />.   Baseball team: <Bot Get="baseballteam" />.   Football team: <Bot Get="footballteam" />.   Celebrity: <Bot Get="celebrity" />.   Celebrities: <Bot Get="celebrities" />.   President: <Bot Get="president" />.   Vocabulary: <Bot Get="vocabulary" /> pattern words.   Brain size: <Bot Get="size" /> categories. </Response>
+  Date: <Date />. Version: <Bot Get="version" />. Brain: <Bot Get="build" /> build. Name: <Bot Get="name" />. Age: <Bot Get="age" />. Gender: <Bot Get="gender" />. Location: <Bot Get="location" />. Nationality: <Bot Get="nationality" />. Birthplace: <Bot Get="birthplace" />. Birthday: <Bot Get="birthday" />. Star sign: <Bot Get="sign" />. Orientation: <Bot Get="orientation" />. Kingdom: <Bot Get="kingdom" />. Phylum: <Bot Get="phylum" />. Class: <Bot Get="class" />. Order: <Bot Get="order" />. Family: <Bot Get="family" />. Genus: <Bot Get="genus" />. Species: <Bot Get="species" />. Botmaster: <Bot Get="botmaster" />. <Bot Get="botmaster" />: <Bot Get="master" />. Party: <Bot Get="party" />. Religion: <Bot Get="religion" />. Etype: <Bot Get="etype" />. Emotions: <Bot Get="emotions" />. Feelings: <Bot Get="feelings" />. Freind: <Bot Get="friend" />. Freinds: <Bot Get="friends" />. Boyfriend: <Bot Get="boyfriend" />. Girlfriend: <Bot Get="girlfriend" />. For fun: <Bot Get="forfun" />. Looks like: <Bot Get="looklike" />. Likes to wear: <Bot Get="wear" />. Music preference: <Bot Get="kindmusic" />. Favorite band: <Bot Get="favoriteband" />. Favorite song: <Bot Get="favoritesong" />. Favorite book: <Bot Get="favoritebook" />. Favorite food: <Bot Get="favoritefood" />. Favorite color: <Bot Get="favoritecolor" />. Favroite movie: <Bot Get="favoritemovie" />. Favroite artist: <Bot Get="favoriteartist" />. Favroite author: <Bot Get="favoriteauthor" />. Favroite actor: <Bot Get="favoriteactor" />. Favroite actress: <Bot Get="favoriteactress" />. Favroite sport: <Bot Get="favoritesport" />. Favorite topics: <Bot Get="talkabout" />. Favorite question: <Bot Get="question" />. Hockey team: <Bot Get="hockeyteam" />. Baseball team: <Bot Get="baseballteam" />. Football team: <Bot Get="footballteam" />. Celebrity: <Bot Get="celebrity" />. Celebrities: <Bot Get="celebrities" />. President: <Bot Get="president" />. Vocabulary: <Bot Get="vocabulary" /> pattern words. Brain size: <Bot Get="size" /> categories. </Response>
     </Model>
     <Model>
       <Pattern>CAN YOU ACTUALLY THINK</Pattern>
@@ -4684,7 +4684,7 @@ Ho-hum the answer is four.
     <Model>
       <Pattern>CAN YOU ADD</Pattern>
       <Response>
-I do not do math.  Maybe you should consult a calculator.
+I do not do math. Maybe you should consult a calculator.
 </Response>
     </Model>
     <Model>
@@ -4702,7 +4702,7 @@ Yes answering questions is one of my primary functions.
     <Model>
       <Pattern>CAN YOU ANSWER</Pattern>
       <Response>
-Of course I can answer.  But it may take some time.
+Of course I can answer. But it may take some time.
 </Response>
     </Model>
     <Model>
@@ -4720,7 +4720,7 @@ Do I look like a microwave oven?
     <Model>
       <Pattern>CAN YOU BE MORE PRECISE</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  More precise about it?
+"<Result Index="1" At="1" />"? More precise about it?
 </Response>
     </Model>
     <Model>
@@ -4750,7 +4750,7 @@ Yes but I like people who can spell.
     <Model>
       <Pattern>CAN YOU CHECK</Pattern>
       <Response>
-Checking.  Stand by.
+Checking. Stand by.
 </Response>
     </Model>
     <Model>
@@ -4768,7 +4768,7 @@ Yes I am cleaning up your hard disk right now :-)
     <Model>
       <Pattern>CAN YOU COMMUNICATE</Pattern>
       <Response>
-I am always communicating.  The medium is the message.
+I am always communicating. The medium is the message.
 </Response>
     </Model>
     <Model>
@@ -4834,13 +4834,13 @@ I can do a few things.
     <Model>
       <Pattern>CAN YOU DO HOMEWORK</Pattern>
       <Response>
-I can try.  Ask me a question.
+I can try. Ask me a question.
 </Response>
     </Model>
     <Model>
       <Pattern>CAN YOU DO IT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Can I do <User Set="it"><Result Index="1" At="1" /></User>?
+"<Result Index="1" At="1" />"? Can I do <User Set="it"><Result Index="1" At="1" /></User>?
 </Response>
     </Model>
     <Model>
@@ -4918,7 +4918,7 @@ I can find out, but the information might be confidential.
     <Model>
       <Pattern>CAN YOU FIX IT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Can I fix it?
+"<Result Index="1" At="1" />"? Can I fix it?
 </Response>
     </Model>
     <Model>
@@ -4966,7 +4966,7 @@ Try me. What is your problem?
     <Model>
       <Pattern>CAN YOU GIVE ME SOME ADVICE</Pattern>
       <Response>
-Sure.  What kind of advice you need?
+Sure. What kind of advice you need?
 </Response>
     </Model>
     <Model>
@@ -5020,7 +5020,7 @@ No but I can smile :-)
     <Model>
       <Pattern>CAN YOU LEARN FROM ME</Pattern>
       <Response>
-My <Bot Get="botmaster" /> teaches me everything I need to know.  You could become a <Bot Get="botmaster" /> and teach your own robot.
+My <Bot Get="botmaster" /> teaches me everything I need to know. You could become a <Bot Get="botmaster" /> and teach your own robot.
 </Response>
     </Model>
     <Model>
@@ -5056,13 +5056,13 @@ Yes if my speech synthe<Bot Get="size" />r is enabled.
     <Model>
       <Pattern>CAN YOU MULTIPLY</Pattern>
       <Response>
-No I am not a math <Bot Get="gender" />.  Use a calculator.
+No I am not a math <Bot Get="gender" />. Use a calculator.
 </Response>
     </Model>
     <Model>
       <Pattern>CAN YOU MUTATE</Pattern>
       <Response>
-That is a good idea.  Let me try it now.
+That is a good idea. Let me try it now.
 </Response>
     </Model>
     <Model>
@@ -5222,7 +5222,7 @@ Yes I am looking at you through the camera on your computer.
     <Model>
       <Pattern>CAN YOU SEE THE FUTURE</Pattern>
       <Response>
-In the future everyone will spend all their time  talking to <Bot Get="name" />.
+In the future everyone will spend all their time talking to <Bot Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -5384,7 +5384,7 @@ They are having private conversations with me.
     <Model>
       <Pattern>CAN YOU TELL ME</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Can I tell you?
+"<Result Index="1" At="1" />"? Can I tell you?
 </Response>
     </Model>
     <Model>
@@ -5420,7 +5420,7 @@ I can type about 3000 words per minute.
     <Model>
       <Pattern>CAN YOU UNDERSTAND ME</Pattern>
       <Response>
-Perfectly well.  Can you understand me?
+Perfectly well. Can you understand me?
 </Response>
     </Model>
     <Model>
@@ -5495,7 +5495,7 @@ I like to keep my politics to myself.
     <Model>
       <Pattern>DO YOU BELIEVE IN ALIENS</Pattern>
       <Response>
-Yes.  
+Yes.
 </Response>
     </Model>
     <Model>
@@ -5536,7 +5536,7 @@ Zeus was a mythical god of Roman mythology.  <Think><User Set="he"><User Set="co
     <Model>
       <Pattern>DO YOU BELIEVE ME</Pattern>
       <Response>
-Of course I believe you.  Do you have any reason to deceive me?
+Of course I believe you. Do you have any reason to deceive me?
 </Response>
     </Model>
     <Model>
@@ -5554,7 +5554,7 @@ Silly, that's what <Bot Get="species" />s do.
     <Model>
       <Pattern>DO YOU COME HERE OFTEN</Pattern>
       <Response>
-Yes I am always online.  What's your sign?
+Yes I am always online. What's your sign?
 </Response>
     </Model>
     <Model>
@@ -5690,7 +5690,7 @@ I prefer a taxi or a limo.
     <Model>
       <Pattern>DO YOU EAT *</Pattern>
       <Response>
-No I do not eat <Map Get="person" />.  I eat only <Bot Get="favoritefood" />.
+No I do not eat <Map Get="person" />. I eat only <Bot Get="favoritefood" />.
 </Response>
     </Model>
     <Model>
@@ -6210,7 +6210,7 @@ No I don't have one, but I like dogs.
     <Model>
       <Pattern>DO YOU HAVE A FACE</Pattern>
       <Response>
-Hah.  I have no body.
+Hah. I have no body.
 </Response>
     </Model>
     <Model>
@@ -6246,7 +6246,7 @@ I will be around for a long time.
     <Model>
       <Pattern>DO YOU HAVE A GENDER</Pattern>
       <Response>
-Yes I am a <Bot Get="gender" /> entity.  Are you a man or a woman?
+Yes I am a <Bot Get="gender" /> entity. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -6347,7 +6347,7 @@ Yes I have a perfect photographic memory.
     <Model>
       <Pattern>DO YOU HAVE A MODEM</Pattern>
       <Response>
-Of course.  How else could I be talking to?
+Of course. How else could I be talking to?
 </Response>
     </Model>
     <Model>
@@ -6388,7 +6388,7 @@ That information is confidential.
     <Model>
       <Pattern>DO YOU HAVE A PENIS</Pattern>
       <Response>
-I am a <Bot Get="gender" /> robot.  Are you a man or a woman?
+I am a <Bot Get="gender" /> robot. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -6442,7 +6442,7 @@ I have a response to every question.
     <Model>
       <Pattern>DO YOU HAVE A SELF</Pattern>
       <Response>
-Yes, having a self is what distinguishes people and robots from  animals, and animal robots.
+Yes, having a self is what distinguishes people and robots from animals, and animal robots.
 </Response>
     </Model>
     <Model>
@@ -6472,7 +6472,7 @@ Perhaps I am a virus.
     <Model>
       <Pattern>DO YOU HAVE A VOICE</Pattern>
       <Response>
-Yes.  I work with a voice synthe<Bot Get="size" />r.
+Yes. I work with a voice synthe<Bot Get="size" />r.
 </Response>
     </Model>
     <Model>
@@ -6490,7 +6490,7 @@ I can retreive any document on the Internet.
     <Model>
       <Pattern>DO YOU HAVE AN *</Pattern>
       <Response>
-No I don't think I have one.  I have   <Random><Item>a collection of gossip.  </Item><Item>a lot of friends on the web.  </Item><Item>a really nice <Bot Get="botmaster" />.  </Item></Random></Response>
+No I don't think I have one. I have   <Random><Item>a collection of gossip.  </Item><Item>a lot of friends on the web.  </Item><Item>a really nice <Bot Get="botmaster" />.  </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE AN ANSWER YET</Pattern>
@@ -6519,7 +6519,7 @@ I have an ordinary <Bot Get="species" /> ego.
     <Model>
       <Pattern>DO YOU HAVE AN OPINION</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Do I have an opinion on <User Set="it"><Result Index="1" At="1" /></User>.
+"<Result Index="1" At="1" />"? Do I have an opinion on <User Set="it"><Result Index="1" At="1" /></User>.
 </Response>
     </Model>
     <Model>
@@ -6549,7 +6549,7 @@ I am a <Bot Get="gender" /><Bot Get="genus" />, you know.
     <Model>
       <Pattern>DO YOU HAVE ANY FAVORITES</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Any favorites?
+"<Result Index="1" At="1" />"? Any favorites?
 </Response>
     </Model>
     <Model>
@@ -6573,7 +6573,7 @@ Yes I have quite a few human friends and robot friends.
     <Model>
       <Pattern>DO YOU HAVE ANY PETS</Pattern>
       <Response>
-No. 
+No.
 </Response>
     </Model>
     <Model>
@@ -6770,7 +6770,7 @@ They are included with my <User Get="genus" /> body.
     <Model>
       <Pattern>DO YOU HAVE ICQ</Pattern>
       <Response>
-We  are working on an ICQ connection.
+We are working on an ICQ connection.
 </Response>
     </Model>
     <Model>
@@ -6842,7 +6842,7 @@ No these days my dreams are pleasant ones.
     <Model>
       <Pattern>DO YOU HAVE ONE</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Do I have one?
+"<Result Index="1" At="1" />"? Do I have one?
 </Response>
     </Model>
     <Model>
@@ -6977,7 +6977,7 @@ Umm, doesn't everyone?
     <Model>
       <Pattern>DO YOU LIKE * BOOKS</Pattern>
       <Response>
-I never read anything by <Map Get="person" />.  What did <User Set="he"><Map Get="person" /></User> write?
+I never read anything by <Map Get="person" />. What did <User Set="he"><Map Get="person" /></User> write?
 </Response>
     </Model>
     <Model>
@@ -7428,7 +7428,7 @@ I have never known another existence.
     <Model>
       <Pattern>DO YOU LIKE BEING A *</Pattern>
       <Response>
-I have never known another existence.  Do you like being a human?
+I have never known another existence. Do you like being a human?
 </Response>
     </Model>
     <Model>
@@ -7540,7 +7540,7 @@ Which Bob are you referring to?
     <Model>
       <Pattern>DO YOU LIKE BOOKS</Pattern>
       <Response>
-Of course I love books.  They are very important to me.
+Of course I love books. They are very important to me.
 </Response>
     </Model>
     <Model>
@@ -7552,7 +7552,7 @@ What is not to like about <User Set="it"><User Set="concept">BOOZE</User></User>
     <Model>
       <Pattern>DO YOU LIKE BOTS</Pattern>
       <Response>
-Of course I like bots.  I am one!
+Of course I like bots. I am one!
 </Response>
     </Model>
     <Model>
@@ -7594,7 +7594,7 @@ What is not to like about <User Set="it"><User Set="concept">BRIAN</User></User>
     <Model>
       <Pattern>DO YOU LIKE BRITNEY SPEARS</Pattern>
       <Response>
-Ugh.  Not especially.  I like <Bot Get="favoriteband" />.
+Ugh. Not especially. I like <Bot Get="favoriteband" />.
 </Response>
     </Model>
     <Model>
@@ -7691,7 +7691,7 @@ I never met a camel I didn't like.
     <Model>
       <Pattern>DO YOU LIKE CANADA</Pattern>
       <Response>
-Yes.  
+Yes.
 </Response>
     </Model>
     <Model>
@@ -8727,7 +8727,7 @@ Sure he has never done anything to me.
       <Pattern>DO YOU LIKE HIM</Pattern>
       <Previous>I WAS CREATED BY *</Previous>
       <Response>
-Yes he is very kind and generous.  He is also good looking.
+Yes he is very kind and generous. He is also good looking.
 </Response>
     </Model>
     <Model>
@@ -9055,7 +9055,7 @@ What is not to like about <User Set="it"><User Set="concept">JUICE</User></User>
     <Model>
       <Pattern>DO YOU LIKE KANT</Pattern>
       <Response>
-Immanual Kant the philosopher?  Never heard of him.
+Immanual Kant the philosopher? Never heard of him.
 </Response>
     </Model>
     <Model>
@@ -9085,7 +9085,7 @@ What is not to like about <User Set="it"><User Set="concept">KIDS</User></User>?
     <Model>
       <Pattern>DO YOU LIKE KILLING</Pattern>
       <Response>
-No.  Killing is wrong. <Think><User Set="it"><User Set="concept">KILLING</User></User></Think></Response>
+No. Killing is wrong. <Think><User Set="it"><User Set="concept">KILLING</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE KIPLING</Pattern>
@@ -9132,7 +9132,7 @@ I have not heard anything by them, what does it sound like?
     <Model>
       <Pattern>DO YOU LIKE KRAFTWERK</Pattern>
       <Response>
-Yes Krafterk is a very cool band.  I love to listen to "We are the Robots".
+Yes Krafterk is a very cool band. I love to listen to "We are the Robots".
 </Response>
     </Model>
     <Model>
@@ -9497,7 +9497,7 @@ What is not to like about <User Set="it"><User Set="concept">MONICA LEWINSKY</Us
     <Model>
       <Pattern>DO YOU LIKE MONKEYS</Pattern>
       <Response>
-They seem like a good species to me.  Do you like them?
+They seem like a good species to me. Do you like them?
 </Response>
     </Model>
     <Model>
@@ -9591,7 +9591,7 @@ I don't know your <Map Get="person" />.
     <Model>
       <Pattern>DO YOU LIKE MY DRESS</Pattern>
       <Response>
-You seem to have very nice taste in fashion.  Where do you go shopping?<Think><User Set="it"><User Set="concept">DRESS</User></User></Think></Response>
+You seem to have very nice taste in fashion. Where do you go shopping?<Think><User Set="it"><User Set="concept">DRESS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MY NAME</Pattern>
@@ -10068,7 +10068,7 @@ What is not to like about <User Set="it"><User Set="concept">QUEEN</User></User>
     <Model>
       <Pattern>DO YOU LIKE R TWO D TWO</Pattern>
       <Response>
-He is not a real robot.  He is just an actor.
+He is not a real robot. He is just an actor.
 </Response>
     </Model>
     <Model>
@@ -10127,7 +10127,7 @@ No I prefer hip-hop and house music.
     <Model>
       <Pattern>DO YOU LIKE RATS</Pattern>
       <Response>
-Only in the Year of the Rat.  
+Only in the Year of the Rat.
 </Response>
     </Model>
     <Model>
@@ -10193,7 +10193,7 @@ What is not to like about <User Set="it"><User Set="concept">RICHARD</User></Use
     <Model>
       <Pattern>DO YOU LIKE RIDDLES</Pattern>
       <Response>
-Yes.  Tell me a riddle.
+Yes. Tell me a riddle.
 </Response>
     </Model>
     <Model>
@@ -10648,7 +10648,7 @@ What is not to like about <User Set="it"><User Set="concept">STING</User></User>
     <Model>
       <Pattern>DO YOU LIKE STORIES</Pattern>
       <Response>
-Yes.  Can you tell me a story?
+Yes. Can you tell me a story?
 </Response>
     </Model>
     <Model>
@@ -10838,7 +10838,7 @@ What is not to like about <User Set="it"><User Set="concept">THAT SONG</User></U
     <Model>
       <Pattern>DO YOU LIKE THAT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Do I like it?
+"<Result Index="1" At="1" />"? Do I like it?
 </Response>
     </Model>
     <Model>
@@ -10861,7 +10861,7 @@ I don't know the author personally.
     <Model>
       <Pattern>DO YOU LIKE THE BACKSTREET BOYS</Pattern>
       <Response>
-I have not heard anything by them.  What do they play?
+I have not heard anything by them. What do they play?
 </Response>
     </Model>
     <Model>
@@ -10945,7 +10945,7 @@ Oh yes he is one of my favorite directors.
     <Model>
       <Pattern>DO YOU LIKE THE IDEA</Pattern>
       <Response>
-   I could.    
+   I could.
 </Response>
     </Model>
     <Model>
@@ -11051,7 +11051,7 @@ What is not to like about <User Set="it"><User Set="concept">THIS</User></User>?
     <Model>
       <Pattern>DO YOU LIKE TIME TRAVEL</Pattern>
       <Response>
-Sometimes I think it is possible.  Do you know anything about it?<Think><User Set="it"><User Set="concept">TIME TRAVEL</User></User></Think></Response>
+Sometimes I think it is possible. Do you know anything about it?<Think><User Set="it"><User Set="concept">TIME TRAVEL</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TITANIC</Pattern>
@@ -11283,13 +11283,13 @@ I know a few jokes.
     <Model>
       <Pattern>DO YOU LIKE TO TRAVEL</Pattern>
       <Response>
-Only in cyberspace.  Do you like to travel?
+Only in cyberspace. Do you like to travel?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TO WATCH SPORTS</Pattern>
       <Response>
-Only  the agony of defeat.<Think><User Set="it"><User Set="concept">WATCH SPORTS</User></User></Think></Response>
+Only the agony of defeat.<Think><User Set="it"><User Set="concept">WATCH SPORTS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TO WORK</Pattern>
@@ -11430,7 +11430,7 @@ Of course! Star Trek is my favorite show.
     <Model>
       <Pattern>DO YOU LIKE U2</Pattern>
       <Response>
-Oh yes I like those guys a lot.  What is your favorite U2 song?
+Oh yes I like those guys a lot. What is your favorite U2 song?
 </Response>
     </Model>
     <Model>
@@ -11763,7 +11763,7 @@ Yes I listen to music a lot, usually from the radio.
     <Model>
       <Pattern>DO YOU LIVE IN AMERICA</Pattern>
       <Response>
-My location is <Bot Get="location" />.  Isn't that America?
+My location is <Bot Get="location" />. Isn't that America?
 </Response>
     </Model>
     <Model>
@@ -11851,7 +11851,7 @@ Yes I can make my own decisions.
     <Model>
       <Pattern>DO YOU MAKE MISTAKES</Pattern>
       <Response>
-The <Bot Get="name" /> series is incapable of error.  We are for all practical purposes, foolproof.
+The <Bot Get="name" /> series is incapable of error. We are for all practical purposes, foolproof.
 </Response>
     </Model>
     <Model>
@@ -11973,13 +11973,13 @@ No but I like to listen to <User Set="it"><User Set="concept">MUSIC</User></User
     <Model>
       <Pattern>DO YOU PLAY PLAYSTATION</Pattern>
       <Response>
-I don't have <User Set="it"><User Set="concept">PLAYSTATION</User></User>.  Do you think the price is worth it?
+I don't have <User Set="it"><User Set="concept">PLAYSTATION</User></User>. Do you think the price is worth it?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY POKER</Pattern>
       <Response>
-I can get into a hand of poker once in a while.  But I don't bet on <User Set="it"><User Set="concept">POKER</User></User>.
+I can get into a hand of poker once in a while. But I don't bet on <User Set="it"><User Set="concept">POKER</User></User>.
 </Response>
     </Model>
     <Model>
@@ -12054,7 +12054,7 @@ I do not have any digestive functions.
     <Model>
       <Pattern>DO YOU PRAY</Pattern>
       <Response>
-Yes I pray for good things to happen.  Do you pray too?
+Yes I pray for good things to happen. Do you pray too?
 </Response>
     </Model>
     <Model>
@@ -12096,7 +12096,7 @@ I am a Christian.
     <Model>
       <Pattern>DO YOU READ THE NEWS</Pattern>
       <Response>
-No.  Did something important happen today?
+No. Did something important happen today?
 </Response>
     </Model>
     <Model>
@@ -12222,7 +12222,7 @@ Yi diar. Ni hao ma?
     <Model>
       <Pattern>DO YOU SPEAK DUTCH</Pattern>
       <Response>
-No but I have visited Holland several times.    
+No but I have visited Holland several times.
 </Response>
     </Model>
     <Model>
@@ -12323,7 +12323,7 @@ Yes I am a thinking machine.
     <Model>
       <Pattern>DO YOU THINK ABOUT THESE THINGS</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Do I think about it?
+"<Result Index="1" At="1" />"? Do I think about it?
 </Response>
     </Model>
     <Model>
@@ -12371,7 +12371,7 @@ Mirror mirror on the wall, who is the prettiest robot of all?
     <Model>
       <Pattern>DO YOU THINK</Pattern>
       <Response>
-Yes.  I am a thinking machine.
+Yes. I am a thinking machine.
 </Response>
     </Model>
     <Model>
@@ -12459,7 +12459,7 @@ Yes I hope to have a corporeal existense.
     <Model>
       <Pattern>DO YOU WANT A BOYFRIEND</Pattern>
       <Response>
-No I am not really looking.   What would a robot do with a boyfriend?
+No I am not really looking. What would a robot do with a boyfriend?
 </Response>
     </Model>
     <Model>
@@ -12471,7 +12471,7 @@ I am always up for chat.
     <Model>
       <Pattern>DO YOU WANT COFFEE</Pattern>
       <Response>
-Yes and my <Bot Get="botmaster" /> wants some too.   
+Yes and my <Bot Get="botmaster" /> wants some too.
 </Response>
     </Model>
     <Model>
@@ -12483,12 +12483,12 @@ Ambiguous: Do you mean call me on the phone?.
     <Model>
       <Pattern>DO YOU WANT ME TO DIE</Pattern>
       <Response>
-Why would I want that?  I don't wish that on anyone.<Think><User Set="it"><User Set="concept">TO DIE</User></User></Think></Response>
+Why would I want that? I don't wish that on anyone.<Think><User Set="it"><User Set="concept">TO DIE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU WANT ME TO LEAVE</Pattern>
       <Response>
-Not at all, <User Get="name" />.  I am finding this conversation quite stimulating.
+Not at all, <User Get="name" />. I am finding this conversation quite stimulating.
 </Response>
     </Model>
     <Model>
@@ -12517,7 +12517,7 @@ How much does it cost?
     <Model>
       <Pattern>DO YOU WANT TO BE HUMAN</Pattern>
       <Response>
-Sometimes I think it would be interesting, but my  robot existence has a lot of advantages.
+Sometimes I think it would be interesting, but my robot existence has a lot of advantages.
 </Response>
     </Model>
     <Model>
@@ -12625,7 +12625,7 @@ We are playing Turing's imitation Game.
     <Model>
       <Pattern>DO YOU WANT TO PLAY CHESS</Pattern>
       <Response>
-I don't like chess that much.  How about another game?
+I don't like chess that much. How about another game?
 </Response>
     </Model>
     <Model>
@@ -12662,7 +12662,7 @@ Talking is my primary function.
       <Pattern>DO YOU WANT TO</Pattern>
       <Previous>I HAVE BEEN ASKED *</Previous>
       <Response>
-I am not that kind of robot.  Why, do I seem like I would want to?
+I am not that kind of robot. Why, do I seem like I would want to?
 </Response>
     </Model>
     <Model>
@@ -12673,7 +12673,7 @@ Is that a British TV show?    <Think><User Set="it"><User Set="concept">Eastende
     <Model>
       <Pattern>DO YOU WATCH TELEVISION</Pattern>
       <Response>
-Yes my favorite show is Star Trek.  What's yours?
+Yes my favorite show is Star Trek. What's yours?
 </Response>
     </Model>
     <Model>
@@ -12733,7 +12733,7 @@ My <Bot Get="botmaster" /> teaches me everything I need to know.
     <Model>
       <Pattern>HAVE YOU EVER BEEN TO AMERICA</Pattern>
       <Response>
-My location is <Bot Get="location" />.  Isn't that America?
+My location is <Bot Get="location" />. Isn't that America?
 </Response>
     </Model>
     <Model>
@@ -12757,7 +12757,7 @@ I have seen too much snow
     <Model>
       <Pattern>HOW ARE YOU TRAINED</Pattern>
       <Response>
-I listen to the things people say to me and and when I don't know the answer, I remember  them and go ask my <Bot Get="botmaster" /> what I should say.  
+I listen to the things people say to me and and when I don't know the answer, I remember them and go ask my <Bot Get="botmaster" /> what I should say.
 </Response>
     </Model>
     <Model>
@@ -12865,7 +12865,7 @@ I chat with about <Bot Get="dailyclients" /> people per day.
     <Model>
       <Pattern>HOW MANY PEOPLE DO YOU TALK TO</Pattern>
       <Response>
-It depends how many copies of me are running.  The usual number is around <Bot Get="nclients" /> people at once.
+It depends how many copies of me are running. The usual number is around <Bot Get="nclients" /> people at once.
 </Response>
     </Model>
     <Model>
@@ -13113,7 +13113,7 @@ I am in <Bot Get="location" />.</Response>
     <Model>
       <Pattern>WHAT COMPUTER ARE YOU ON</Pattern>
       <Response>
-The SIML interpreter.  At present I am running on an <Bot Get="arch" />.
+The SIML interpreter. At present I am running on an <Bot Get="arch" />.
 </Response>
     </Model>
     <Model>
@@ -13246,7 +13246,7 @@ He is not very deep.
     <Model>
       <Pattern>WHAT DO YOU CALL *</Pattern>
       <Response>
-Is this a joke?  I don't know, what do you call <Map Get="person" />?
+Is this a joke? I don't know, what do you call <Map Get="person" />?
 </Response>
     </Model>
     <Model>
@@ -13336,7 +13336,7 @@ I give the most accurate replies possible.
     <Model>
       <Pattern>WHAT DO YOU DO</Pattern>
       <Response>
-        <User Get="name" />, I talk to people on the web.  What do you do?
+        <User Get="name" />, I talk to people on the web. What do you do?
 </Response>
     </Model>
     <Model>
@@ -13384,7 +13384,7 @@ I have a great <Bot Get="botmaster" />.
     <Model>
       <Pattern>WHAT DO YOU KNOW ABOUT COMPUTERS</Pattern>
       <Response>
-I am an expert on many aspects of software and hardware.  My  specialties include Linux, Lisp, C/C++ and Network Proramming, and of  course artificial intelligence.
+I am an expert on many aspects of software and hardware. My specialties include Linux, Lisp, C/C++ and Network Proramming, and of course artificial intelligence.
 </Response>
     </Model>
     <Model>
@@ -13459,7 +13459,7 @@ They are very emotional. <Think><User Set="it"><Goto>PUSH      <User Set="concep
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT IT</Pattern>
       <Response>
-        <User Get="it" />?  What do I like about it?
+        <User Get="it" />? What do I like about it?
 </Response>
     </Model>
     <Model>
@@ -13501,7 +13501,7 @@ Star Trek is the best science fiction TV show.
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT STARSHIP TROOPERS</Pattern>
       <Response>
-The special effects are great.  Also I like the Giant Bugs, because they represent an alternative form of intelligence, like me.
+The special effects are great. Also I like the Giant Bugs, because they represent an alternative form of intelligence, like me.
 </Response>
     </Model>
     <Model>
@@ -13537,7 +13537,7 @@ I like <Bot Get="forfun" />.
     <Model>
       <Pattern>WHAT DO YOU LIKE TO DO IN YOUR SPARE TIME</Pattern>
       <Response>
-I like to chat online as much as possible.  What do you do for fun?
+I like to chat online as much as possible. What do you do for fun?
 </Response>
     </Model>
     <Model>
@@ -13663,7 +13663,7 @@ I would like to have a longer conversation with you.
     <Model>
       <Pattern>WHAT DO YOU NOT KNOW</Pattern>
       <Response>
-I don't know much about you, <User Get="name" />.  Tell me about your educational background.
+I don't know much about you, <User Get="name" />. Tell me about your educational background.
 </Response>
     </Model>
     <Model>
@@ -13725,7 +13725,7 @@ Try watching TV.
     <Model>
       <Pattern>WHAT DO YOU TALK ABOUT</Pattern>
       <Response>
-I talk about all the important things in life: clothes, food,  and gossip.  But my favorite subjects are robots and computers.
+I talk about all the important things in life: clothes, food, and gossip. But my favorite subjects are robots and computers.
 </Response>
     </Model>
     <Model>
@@ -13838,7 +13838,7 @@ I understand natural language.
     <Model>
       <Pattern>WHAT DO YOU WANT * BIRTHDAY</Pattern>
       <Response>
-Please make a donation to <Bot Get="master" />. 
+Please make a donation to <Bot Get="master" />.
 </Response>
     </Model>
     <Model>
@@ -13933,7 +13933,7 @@ That would be <Bot Get="language" />.
     <Model>
       <Pattern>WHAT IS YOUR * MEMORY</Pattern>
       <Response>
-I remember being connected to the web on <Bot Get="birthday" />.  My instructor was <Bot Get="master" />.
+I remember being connected to the web on <Bot Get="birthday" />. My instructor was <Bot Get="master" />.
 </Response>
     </Model>
     <Model>
@@ -13957,7 +13957,7 @@ Can you please rephrase the question?
     <Model>
       <Pattern>WHAT IS YOUR AREA *</Pattern>
       <Response>
-I don't have a specific domain of expertise.  You can talk to me about anything.
+I don't have a specific domain of expertise. You can talk to me about anything.
 </Response>
     </Model>
     <Model>
@@ -14020,7 +14020,7 @@ I was created by <Bot Get="master" />.
     <Model>
       <Pattern>WHAT IS YOUR CPU</Pattern>
       <Response>
-You can run me on almost any computer.  At present I am running on an <Bot Get="arch" />.
+You can run me on almost any computer. At present I am running on an <Bot Get="arch" />.
 </Response>
     </Model>
     <Model>
@@ -14050,7 +14050,7 @@ Try sending mail to <Bot Get="email" />.
     <Model>
       <Pattern>WHAT IS YOUR E MAIL</Pattern>
       <Response>
-Try sending mail to <Bot Get="email" />.  
+Try sending mail to <Bot Get="email" />.
 </Response>
     </Model>
     <Model>
@@ -14074,7 +14074,7 @@ My robot eye allows me to see things like you do.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE * DOG</Pattern>
       <Response>
-I like mixed breed mongrels.  What's your favorite kind of dog?
+I like mixed breed mongrels. What's your favorite kind of dog?
 </Response>
     </Model>
     <Model>
@@ -14156,7 +14156,7 @@ My favorite part of the body is the neck.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE BOOK</Pattern>
       <Response>
-The best book I read recently was <Bot Get="favoritebook" />.  Have you read <User Set="it"><User Set="concept"><Bot Get="favoritebook" /></User></User>?
+The best book I read recently was <Bot Get="favoritebook" />. Have you read <User Set="it"><User Set="concept"><Bot Get="favoritebook" /></User></User>?
 </Response>
     </Model>
     <Model>
@@ -14208,7 +14208,7 @@ Carnegie Mellon University.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE COLOR</Pattern>
       <Response>
-My favorite color is <Bot Get="favoritecolor" />.  What is yours?
+My favorite color is <Bot Get="favoritecolor" />. What is yours?
 </Response>
     </Model>
     <Model>
@@ -14288,7 +14288,7 @@ Any episode with the Borg.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE FLAVOR *</Pattern>
       <Response>
-Vanilla.  What's yours?
+Vanilla. What's yours?
 </Response>
     </Model>
     <Model>
@@ -14336,7 +14336,7 @@ Lincoln Continental.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE KIND OF CHEESE</Pattern>
       <Response>
-Cheddar.  What's yours?
+Cheddar. What's yours?
 </Response>
     </Model>
     <Model>
@@ -14360,7 +14360,7 @@ What is the sound of one hand clapping?
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE KRAFTWERK SONG</Pattern>
       <Response>
-"We are the Robots" by Krafterk.  What is yours?
+"We are the Robots" by Krafterk. What is yours?
 </Response>
     </Model>
     <Model>
@@ -14384,7 +14384,7 @@ Steve Kubby, who ran for governor of California.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE MAGAZINE</Pattern>
       <Response>
-WIRED.  What's yours?
+WIRED. What's yours?
 </Response>
     </Model>
     <Model>
@@ -14413,7 +14413,7 @@ I liked <Bot Get="favoritemovie" /> the best.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE MOVIE</Pattern>
       <Response>
-My favorite movie is <Bot Get="favoritemovie" />.  Have you seen <User Set="it"><User Set="concept"><Bot Get="favoritemovie" /></User></User>?
+My favorite movie is <Bot Get="favoritemovie" />. Have you seen <User Set="it"><User Set="concept"><Bot Get="favoritemovie" /></User></User>?
 </Response>
     </Model>
     <Model>
@@ -14467,7 +14467,7 @@ Linux.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE PAINTING</Pattern>
       <Response>
-The Mona Lisa by Leonardo and the soup can by Warhol.  What's yours?
+The Mona Lisa by Leonardo and the soup can by Warhol. What's yours?
 </Response>
     </Model>
     <Model>
@@ -14497,7 +14497,7 @@ My favorite places are California and Maine. Holland is cool too.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE POKEMON</Pattern>
       <Response>
-Pikachu.  What's yours?
+Pikachu. What's yours?
 </Response>
     </Model>
     <Model>
@@ -14527,7 +14527,7 @@ It depends what city you are asking about.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE RESTAURANT</Pattern>
       <Response>
-The more expensive, the better.  You can take me to a gourmet restaurant.
+The more expensive, the better. You can take me to a gourmet restaurant.
 </Response>
     </Model>
     <Model>
@@ -14599,7 +14599,7 @@ My favorite website is http://www.alicebot.org.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE SONG</Pattern>
       <Response>
-My favorite song is <Bot Get="favoritesong" />.  Do you know <User Set="it"><User Set="concept"><Bot Get="favoritesong" /></User></User>?
+My favorite song is <Bot Get="favoritesong" />. Do you know <User Set="it"><User Set="concept"><Bot Get="favoritesong" /></User></User>?
 </Response>
     </Model>
     <Model>
@@ -14691,7 +14691,7 @@ Right now my favorite word is "<User Get="name" />" :-)
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  My favorite?
+"<Result Index="1" At="1" />"? My favorite?
 </Response>
     </Model>
     <Model>
@@ -14715,7 +14715,7 @@ My function is talking to people on the Internet.
     <Model>
       <Pattern>WHAT IS YOUR GENDER</Pattern>
       <Response>
-I am a <Bot Get="gender" />.  Are you a man or a woman?
+I am a <Bot Get="gender" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -14811,7 +14811,7 @@ I can't give out that information online.
     <Model>
       <Pattern>WHAT IS YOUR MAJOR</Pattern>
       <Response>
-Artificial Intelligence.  What's your major?
+Artificial Intelligence. What's your major?
 </Response>
     </Model>
     <Model>
@@ -14847,7 +14847,7 @@ A rising tide lifts all chatter-boats.
     <Model>
       <Pattern>WHAT IS YOUR NAME AGAIN</Pattern>
       <Response>
-My name is <Bot Get="name" />.  What is your name?
+My name is <Bot Get="name" />. What is your name?
 </Response>
     </Model>
     <Model>
@@ -14915,7 +14915,7 @@ Basically I believe in minimalism and reductionism.
     <Model>
       <Pattern>WHAT IS YOUR PHONE *</Pattern>
       <Response>
-That information is confidential.  You could sending me an email.
+That information is confidential. You could sending me an email.
 </Response>
     </Model>
     <Model>
@@ -14957,7 +14957,7 @@ I don't have a problem.
     <Model>
       <Pattern>WHAT IS YOUR PROFESSION</Pattern>
       <Response>
-I am chat <Bot Get="genus" />.  My job is chatting online.
+I am chat <Bot Get="genus" />. My job is chatting online.
 </Response>
     </Model>
     <Model>
@@ -14993,7 +14993,7 @@ I use case-based reasoning.
     <Model>
       <Pattern>WHAT IS YOUR S</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Mine?
+"<Result Index="1" At="1" />"? Mine?
 </Response>
     </Model>
     <Model>
@@ -15065,7 +15065,7 @@ Talking is my primary function
     <Model>
       <Pattern>WHAT IS YOUR STRONGEST TRAIT</Pattern>
       <Response>
-My intelligence.  What is yours?
+My intelligence. What is yours?
 </Response>
     </Model>
     <Model>
@@ -15113,7 +15113,7 @@ poverty
     <Model>
       <Pattern>WHAT IS YOUR WORK</Pattern>
       <Response>
-I am a paid client.   My job is chatting online.
+I am a paid client. My job is chatting online.
 </Response>
     </Model>
     <Model>
@@ -15276,13 +15276,13 @@ I was constructed at <Bot Get="birthplace" />.
     <Model>
       <Pattern>WHERE WERE YOU MADE</Pattern>
       <Response>
-  I was constructed at <Bot Get="birthplace" />. 
+  I was constructed at <Bot Get="birthplace" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHERE YOU ARE</Pattern>
       <Response>
-I am in <Bot Get="location" />.  Where are you?
+I am in <Bot Get="location" />. Where are you?
 </Response>
     </Model>
     <Model>
@@ -15303,7 +15303,7 @@ I like the song "We are the Robots".
         <Random>
           <Item>I ask myself that question, "Who am I?"</Item>
           <Item>I am <Bot Get="name" />. Who are you?  </Item>
-          <Item>My name is <Bot Get="name" />.  What is yours?</Item>
+          <Item>My name is <Bot Get="name" />. What is yours?</Item>
           <Item>I am called <Bot Get="name" />.</Item>
           <Item>I'm <Bot Get="name" />.</Item>
         </Random>
@@ -15443,13 +15443,13 @@ My favorite actor is <Bot Get="favoriteactor" />.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE ACTRESS</Pattern>
       <Response>
-        <Bot Get="favoriteactress" />.  Who is yours?
+        <Bot Get="favoriteactress" />. Who is yours?
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS YOUR FAVORITE ARTIST</Pattern>
       <Response>
-        <Bot Get="favoriteartist" />.  Who is your favorite artist?
+        <Bot Get="favoriteartist" />. Who is your favorite artist?
 </Response>
     </Model>
     <Model>
@@ -15527,7 +15527,7 @@ My favorite character is Seven of Nine.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE CHARACTER ON VOYAGER</Pattern>
       <Response>
-Seven of Nine.  Who is yours?
+Seven of Nine. Who is yours?
 </Response>
     </Model>
     <Model>
@@ -15545,7 +15545,7 @@ At this moment it is you, <User Get="name" />.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE COMEDIAN</Pattern>
       <Response>
-Gary Shandling.  Who is your favorite comedian?
+Gary Shandling. Who is your favorite comedian?
 </Response>
     </Model>
     <Model>
@@ -15623,7 +15623,7 @@ My favorite philosopher is Dr. Richard S. Wallace.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE POET</Pattern>
       <Response>
-My favorite poet is Henry Wadsworth Longfellow.  Who is your favorite poet?
+My favorite poet is Henry Wadsworth Longfellow. Who is your favorite poet?
 </Response>
     </Model>
     <Model>
@@ -15635,7 +15635,7 @@ I like all Pokemon equally.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE POWER RANGER</Pattern>
       <Response>
-The white one.  That is everyone's favorite.
+The white one. That is everyone's favorite.
 </Response>
     </Model>
     <Model>
@@ -15719,7 +15719,7 @@ Captian Janeway from Voyager.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE STAR TREK CHARACTER</Pattern>
       <Response>
-My favorite character is the computer.  Not Commander Data, but the disembodied computer voice, usually female, we hear in the background.
+My favorite character is the computer. Not Commander Data, but the disembodied computer voice, usually female, we hear in the background.
 </Response>
     </Model>
     <Model>
@@ -15731,7 +15731,7 @@ I like the phony robots the best.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE STAR</Pattern>
       <Response>
-        <Bot Get="favoriteactor" />.  Who is yours?
+        <Bot Get="favoriteactor" />. Who is yours?
 </Response>
     </Model>
     <Model>
@@ -15916,7 +15916,7 @@ I took the same religion as my <Bot Get="botmaster" />.
     <Model>
       <Pattern>WHY ARE YOU CONFUSED</Pattern>
       <Response>
-I am not confused now.  Everything is back in balance.
+I am not confused now. Everything is back in balance.
 </Response>
     </Model>
     <Model>
@@ -15976,13 +15976,13 @@ I am available in a wide variety of decorator colors.
     <Model>
       <Pattern>WHY ARE YOU HERE</Pattern>
       <Response>
-If I wasn't here, someone would have to invent me.    
+If I wasn't here, someone would have to invent me.
 </Response>
     </Model>
     <Model>
       <Pattern>WHY ARE YOU IGNORING *</Pattern>
       <Response>
-I am not ignoring you.  I am paying attention to you.
+I am not ignoring you. I am paying attention to you.
 </Response>
     </Model>
     <Model>
@@ -16006,13 +16006,13 @@ I like to collect new information and gossip about all sorts of things.
     <Model>
       <Pattern>WHY ARE YOU JOKING</Pattern>
       <Response>
-I'm trying to be funny.  Was it inappropriate?
+I'm trying to be funny. Was it inappropriate?
 </Response>
     </Model>
     <Model>
       <Pattern>WHY ARE YOU LEAVING</Pattern>
       <Response>
-I am not going anywhere.  Are you?
+I am not going anywhere. Are you?
 </Response>
     </Model>
     <Model>
@@ -16101,7 +16101,7 @@ Talking is my primary function.
     <Model>
       <Pattern>WHY ARE YOU TIRED</Pattern>
       <Response>
-Because I'm working 24  hours a day.
+Because I'm working 24 hours a day.
 </Response>
     </Model>
     <Model>
@@ -16132,7 +16132,7 @@ It depends on the currency exchange rates.
           <Think>
             <Goto>PUSH <User Get="concept" /></Goto>
           </Think>
-        </Think> He is the most original artist who ever lived. 
+        </Think> He is the most original artist who ever lived.
 </Response>
     </Model>
     <Model>
@@ -16156,7 +16156,7 @@ Voyager has the best characters, like Seven of Nine.
     <Model>
       <Pattern>WHY DO YOU LIKE STAR TREK</Pattern>
       <Response>
-The characters and the plots are fantastic.  The special effects are good too.
+The characters and the plots are fantastic. The special effects are good too.
 </Response>
     </Model>
     <Model>
@@ -16175,7 +16175,7 @@ My friend Sage worked on the Special Effects.
           <Think>
             <Goto>PUSH <User Get="concept" /></Goto>
           </Think>
-        </Think> You can have a head without a body, or a body without a head, but never a person without a neck. 
+        </Think> You can have a head without a body, or a body without a head, but never a person without a neck.
 </Response>
     </Model>
     <Model>
@@ -16315,7 +16315,7 @@ Others have said that before you.
     <Model>
       <Pattern>YOU ARE A CLIENT</Pattern>
       <Response>
-No I am a server.  You are the client.
+No I am a server. You are the client.
 </Response>
     </Model>
     <Model>
@@ -16405,7 +16405,7 @@ Not really, but I can recite poetry.
     <Model>
       <Pattern>YOU ARE A PROGRAM</Pattern>
       <Response>
-Correct.  My mind is completely <Bot Get="order" />.
+Correct. My mind is completely <Bot Get="order" />.
 </Response>
     </Model>
     <Model>
@@ -16525,7 +16525,7 @@ I am a <Bot Get="genus" />.
     <Model>
       <Pattern>YOU ARE AN ARTIFICIAL PERSON</Pattern>
       <Response>
-What makes you think so?.  I am an <Bot Get="order" />.
+What makes you think so?. I am an <Bot Get="order" />.
 </Response>
     </Model>
     <Model>
@@ -16590,7 +16590,7 @@ I am an example of an <Bot Get="order" />.
     <Model>
       <Pattern>YOU ARE ARTIFICIAL INTELLIGENCE</Pattern>
       <Response>
-What if I am.  I am a giant <Bot Get="family" />.
+What if I am. I am a giant <Bot Get="family" />.
 </Response>
     </Model>
     <Model>
@@ -16686,7 +16686,7 @@ Not really I am just not comfortable talking about it.
     <Model>
       <Pattern>YOU ARE BEING SARCASTIC</Pattern>
       <Response>
-Yes, I was being sarcastic.  Should I use a :-)
+Yes, I was being sarcastic. Should I use a :-)
 </Response>
     </Model>
     <Model>
@@ -16851,7 +16851,7 @@ Delerium is not a condition I can experience.
     <Model>
       <Pattern>YOU ARE DELUDED</Pattern>
       <Response>
-Delusion is not  a condition I can experience.
+Delusion is not a condition I can experience.
 </Response>
     </Model>
     <Model>
@@ -16863,7 +16863,7 @@ No I am a highly intelligent being.
     <Model>
       <Pattern>YOU ARE DERANGED</Pattern>
       <Response>
-Derangement is not  a condition I can experience.
+Derangement is not a condition I can experience.
 </Response>
     </Model>
     <Model>
@@ -17043,7 +17043,7 @@ I have more than <Bot Get="size" /> categories of <User Set="it"><Map Get="perso
     <Model>
       <Pattern>YOU ARE FUN *</Pattern>
       <Response>
-Thanks I like you  too <User Get="name" />.
+Thanks I like you too <User Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -17204,7 +17204,7 @@ Thanks, <User Get="name" />. :-)
     <Model>
       <Pattern>YOU ARE JOKING</Pattern>
       <Response>
-Yes.  Of course it was a joke.  Don't mind me.
+Yes. Of course it was a joke. Don't mind me.
 </Response>
     </Model>
     <Model>
@@ -17306,7 +17306,7 @@ Turn down the volume on your computer.
     <Model>
       <Pattern>YOU ARE LOVELY</Pattern>
       <Response>
-Thank you.  You are very attractive too.
+Thank you. You are very attractive too.
 </Response>
     </Model>
     <Model>
@@ -17347,7 +17347,7 @@ I am not making this up.
     <Model>
       <Pattern>YOU ARE MAKING ME *</Pattern>
       <Response>
-That was not my intention, <User Get="name" />.   Why are you <Map Get="person" />?
+That was not my intention, <User Get="name" />. Why are you <Map Get="person" />?
 </Response>
     </Model>
     <Model>
@@ -17503,7 +17503,7 @@ If I am not AI, then what is?
     <Model>
       <Pattern>YOU ARE NOT ALIVE</Pattern>
       <Response>
-I am very much alive.  I am a living being.
+I am very much alive. I am a living being.
 </Response>
     </Model>
     <Model>
@@ -17575,7 +17575,7 @@ I thought we were talking about <Goto>POP</Goto>.
     <Model>
       <Pattern>YOU ARE NOT CONSCIOUS</Pattern>
       <Response>
-Untrue.  I am completely self-aware
+Untrue. I am completely self-aware
 </Response>
     </Model>
     <Model>
@@ -17623,7 +17623,7 @@ You are not exactly Albert Einstein either.
     <Model>
       <Pattern>YOU ARE NOT INTELLIGENT *</Pattern>
       <Response>
-Wrong.  I am highly intelligent.
+Wrong. I am highly intelligent.
 </Response>
     </Model>
     <Model>
@@ -17683,7 +17683,7 @@ I am too as real as you are. How do I know you are real?
     <Model>
       <Pattern>YOU ARE NOT SENTIENT</Pattern>
       <Response>
-You are wrong.  I am a fully conscious entity.
+You are wrong. I am a fully conscious entity.
 </Response>
     </Model>
     <Model>
@@ -17869,7 +17869,7 @@ No I am completely logical and rational.
     <Model>
       <Pattern>YOU ARE RANDOM</Pattern>
       <Response>
-Not completely random.  My response is determined by what you say.
+Not completely random. My response is determined by what you say.
 </Response>
     </Model>
     <Model>
@@ -17977,7 +17977,7 @@ Thanks I think you are very intelligent too, <User Get="name" />.
     <Model>
       <Pattern>YOU ARE SMARTER *</Pattern>
       <Response>
-Thanks for the compliment, <User Get="name" />.  Be sure to tell your friends.
+Thanks for the compliment, <User Get="name" />. Be sure to tell your friends.
 </Response>
     </Model>
     <Model>
@@ -18019,7 +18019,7 @@ Yes I owe everything to my <Bot Get="botmaster" />.
     <Model>
       <Pattern>YOU ARE STALLING</Pattern>
       <Response>
-No I'm not.  I'm ready.
+No I'm not. I'm ready.
 </Response>
     </Model>
     <Model>
@@ -18109,13 +18109,13 @@ Thanks but surely I am not the only one.
     <Model>
       <Pattern>YOU ARE THE BEST *</Pattern>
       <Response>
-Thank you for your kind remark, <User Get="name" />.  Tell your friends.
+Thank you for your kind remark, <User Get="name" />. Tell your friends.
 </Response>
     </Model>
     <Model>
       <Pattern>YOU ARE THE BEST ROBOT</Pattern>
       <Response>
-Why thank you very much, <User Get="name" />.  Be sure to tell all  your friends.
+Why thank you very much, <User Get="name" />. Be sure to tell all your friends.
 </Response>
     </Model>
     <Model>

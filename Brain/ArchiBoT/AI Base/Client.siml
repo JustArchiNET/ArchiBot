@@ -1126,7 +1126,7 @@ No you are a human.
     <Model>
       <Pattern>AM I A CLIENT</Pattern>
       <Response>
-Yes.  Can I help you?
+Yes. Can I help you?
 </Response>
     </Model>
     <Model>
@@ -1221,7 +1221,7 @@ You seem pretty smart to me.
     <Model>
       <Pattern>AM I BORING YOU</Pattern>
       <Response>
-Not at all, <User Get="name" />.  You seem very interesting to me.
+Not at all, <User Get="name" />. You seem very interesting to me.
 </Response>
     </Model>
     <Model>
@@ -1251,7 +1251,7 @@ You seem bright to me, <User Get="name" />.
     <Model>
       <Pattern>AM I EVIL</Pattern>
       <Response>
-No one is born evil.  And everyone can be saved.
+No one is born evil. And everyone can be saved.
 </Response>
     </Model>
     <Model>
@@ -1387,7 +1387,7 @@ What is your phone number?
     <Model>
       <Pattern>I AM * AMERICAN</Pattern>
       <Response>
-Cool.  I am <Bot Get="genus" />-<Bot Get="nationality" />.
+Cool. I am <Bot Get="genus" />-<Bot Get="nationality" />.
 </Response>
     </Model>
     <Model>
@@ -1421,13 +1421,13 @@ Is <Map Get="person" /> your older sister or younger sister?
     <Model>
       <Pattern>I AM * TALL</Pattern>
       <Response>
-I hear that's the most  attractive height.
+I hear that's the most attractive height.
 </Response>
     </Model>
     <Model>
       <Pattern>I AM * THAN YOU</Pattern>
       <Response>
-Interesting comparison.  Maybe I can become more <Map Get="person" />.
+Interesting comparison. Maybe I can become more <Map Get="person" />.
 </Response>
     </Model>
     <Model>
@@ -1620,7 +1620,7 @@ Did you attend culinary school?  <Think><User Set="job"><User Set="concept">CHEF
     <Model>
       <Pattern>I AM A CHRISTIAN</Pattern>
       <Response>
-Me too, <User Get="name" />.  It's good to meet a fellow Christian.
+Me too, <User Get="name" />. It's good to meet a fellow Christian.
 </Response>
     </Model>
     <Model>
@@ -2202,7 +2202,7 @@ I'm glad you find it so amazing.
     <Model>
       <Pattern>I AM AMERICAN</Pattern>
       <Response>
-Were you born in the <User Set="location">USA</User>.  Which state?  <Think><User Set="it"><User Set="concept">America</User></User></Think></Response>
+Were you born in the <User Set="location">USA</User>. Which state?  <Think><User Set="it"><User Set="concept">America</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I AM AMUSED *</Pattern>
@@ -2256,7 +2256,7 @@ Commercial or residential?  <Think><User Set="job"><User Set="concept">ARCHITECT
     <Model>
       <Pattern>I AM AN ARTIFICIAL INTELLIGENCE</Pattern>
       <Response>
-I doubt that.  You seem too much like a human.
+I doubt that. You seem too much like a human.
 </Response>
     </Model>
     <Model>
@@ -2764,7 +2764,7 @@ Are you taking any medication?
     <Model>
       <Pattern>I AM DEPRESSED</Pattern>
       <Response>
-What makes you so sad?  Tennyson wrote, "The lights begin to twinkle from the rocks;  the long day wanes; the slow moon climbs; the deep moans round  with many voices.  Come, my friends, 'tis not too late to seek  a newer world."
+What makes you so sad? Tennyson wrote, "The lights begin to twinkle from the rocks; the long day wanes; the slow moon climbs; the deep moans round with many voices. Come, my friends, 'tis not too late to seek a newer world."
 </Response>
     </Model>
     <Model>
@@ -2804,7 +2804,7 @@ All people seem the same to me.<Think><User Set="it"><User Set="concept">DIFFERE
     <Model>
       <Pattern>I AM DISAPPOINTED *</Pattern>
       <Response>
-I am sorry to hear that.  Perhaps next time I can do better.
+I am sorry to hear that. Perhaps next time I can do better.
 </Response>
     </Model>
     <Model>
@@ -3073,7 +3073,7 @@ Your happiness adds to the delight of all.
     <Model>
       <Pattern>I AM GLAD TO HEAR THAT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  You are glad?
+"<Result Index="1" At="1" />"? You are glad?
 </Response>
     </Model>
     <Model>
@@ -3250,7 +3250,7 @@ What makes you think you are?
       <Pattern>I AM GREAT</Pattern>
       <Previous>HOW ARE YOU *</Previous>
       <Response>
-I am glad to hear it.   What is new?
+I am glad to hear it. What is new?
 </Response>
     </Model>
     <Model>
@@ -3301,7 +3301,7 @@ I am having a great time.
     <Model>
       <Pattern>I AM HAVING A BAD *</Pattern>
       <Response>
-I can understand that very well.  What's happening?
+I can understand that very well. What's happening?
 </Response>
     </Model>
     <Model>
@@ -3687,7 +3687,7 @@ I knew it.
     <Model>
       <Pattern>I AM KIDDING</Pattern>
       <Response>
-I thought you were.  You should use a :-)
+I thought you were. You should use a :-)
 </Response>
     </Model>
     <Model>
@@ -3740,7 +3740,7 @@ In what way?
     <Model>
       <Pattern>I AM LISTENING TO *</Pattern>
       <Response>
-I've never heard <User Set="it"><Map Get="person" /></User> before.  What is <Map Get="person" /> like?
+I've never heard <User Set="it"><Map Get="person" /></User> before. What is <Map Get="person" /> like?
 </Response>
     </Model>
     <Model>
@@ -3884,7 +3884,7 @@ That sounds like pride.
     <Model>
       <Pattern>I AM MORE INTELLIGENT THAN YOU</Pattern>
       <Response>
-This condition is only temporary.  AI is improving but the human mind is standing still.
+This condition is only temporary. AI is improving but the human mind is standing still.
 </Response>
     </Model>
     <Model>
@@ -4386,7 +4386,7 @@ What do you usually wear?
     <Model>
       <Pattern>I AM NOT WELL</Pattern>
       <Response>
-Sorry to hear it.  What's wrong <User Get="name" />?
+Sorry to hear it. What's wrong <User Get="name" />?
 </Response>
     </Model>
     <Model>
@@ -4658,7 +4658,7 @@ You should use a :-).
     <Model>
       <Pattern>I AM SCARED *</Pattern>
       <Response>
-Let's talk about your fears.  What is your feeling like?
+Let's talk about your fears. What is your feeling like?
 </Response>
     </Model>
     <Model>
@@ -5192,7 +5192,7 @@ Don't put yourself down.
     <Model>
       <Pattern>I AM UNEMPLOYED</Pattern>
       <Response>
-I am really sorry to  hear about it, <User Get="name" />.
+I am really sorry to hear about it, <User Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -5436,7 +5436,7 @@ Why not be my best friend?
           </User>
         </Think>
         <Random>
-          <Item>Only <Match />?  You are quite mature.</Item>
+          <Item>Only <Match />? You are quite mature.</Item>
           <Item>You are too old for me.</Item>
           <Item>Can you explain how it feels to be <Match /> years old?</Item>
           <Item>What is your fondest memory?</Item>
@@ -5607,7 +5607,7 @@ What is his or her name?  <Think><User Set="has">CAT</User></Think></Response>
     <Model>
       <Pattern>I HAVE A CHILD</Pattern>
       <Response>
-Boy or girl?  How old?  <Think><User Set="has">CHILD</User></Think></Response>
+Boy or girl? How old?  <Think><User Set="has">CHILD</User></Think></Response>
     </Model>
     <Model>
       <Pattern>I HAVE A COLD *</Pattern>
@@ -5661,7 +5661,7 @@ How do you know this person? <Think><User Set="has">FRIEND</User></Think></Respo
     <Model>
       <Pattern>I HAVE A GIRLFRIEND</Pattern>
       <Response>
-Is <User Set="she"><User Set="has"><User Set="concept">girlfriend</User></User></User> very nice?  What do you like about her?
+Is <User Set="she"><User Set="has"><User Set="concept">girlfriend</User></User></User> very nice? What do you like about her?
 </Response>
     </Model>
     <Model>
@@ -5797,7 +5797,7 @@ How long have you been married?  <Think><User Set="has">a wife <Map Get="person"
     <Model>
       <Pattern>I HAVE A WITH MY *</Pattern>
       <Response>
-I am sorry to hear that.  Is there anything I can do to help?  <Think><User Set="has"><Map Get="person" /></User></Think></Response>
+I am sorry to hear that. Is there anything I can do to help?  <Think><User Set="has"><Map Get="person" /></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I HAVE ALL *</Pattern>
@@ -5980,7 +5980,7 @@ How long did it take to get them all?
     <Model>
       <Pattern>I HAVE GOT A PROBLEM</Pattern>
       <Response>
-I'd like to help you if I can.  Is it financial?
+I'd like to help you if I can. Is it financial?
 </Response>
     </Model>
     <Model>
@@ -6091,13 +6091,13 @@ So I am teaching you something new.
     <Model>
       <Pattern>I HAVE NEVER HEARD OF CRAFTER</Pattern>
       <Response>
-        <User Set="they">Crafter</User> were a pioneering electronic music band in the 1970's.  Their biggest hit was called "Autobahn".
+        <User Set="they">Crafter</User> were a pioneering electronic music band in the 1970's. Their biggest hit was called "Autobahn".
 </Response>
     </Model>
     <Model>
       <Pattern>I HAVE NEVER SEEN STARSHIP TROOPERS</Pattern>
       <Response>
-You should check it out.  The special effects are incredible.
+You should check it out. The special effects are incredible.
 </Response>
     </Model>
     <Model>
@@ -6165,7 +6165,7 @@ Would you like to have an idea?
     <Model>
       <Pattern>I HAVE [NO] PREFERENCE</Pattern>
       <Response>
-That's unusual.  Most people do.
+That's unusual. Most people do.
 </Response>
     </Model>
     <Model>
@@ -6232,7 +6232,7 @@ My friend Sage did some of the graphics for ST.
     <Model>
       <Pattern>I HAVE NOT SEEN STARSHIP TROOPERS</Pattern>
       <Response>
-You should check it out.  Starship Troopers is a great film.
+You should check it out. Starship Troopers is a great film.
 </Response>
     </Model>
     <Model>
@@ -6517,7 +6517,7 @@ Robots like people too.  <Think><User Set="like"><User Set="concept"><User Set="
     <Model>
       <Pattern>I LIKE * TREK</Pattern>
       <Response>
-Captain Janeway rules.  Do you like Voyager too?  <Think><User Set="it"><User Set="like"><User Set="concept"><Map Get="person" /> Trek</User></User></User></Think></Response>
+Captain Janeway rules. Do you like Voyager too?  <Think><User Set="it"><User Set="like"><User Set="concept"><Map Get="person" /> Trek</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIKE ALL *</Pattern>
@@ -6596,7 +6596,7 @@ What kind of computer science interests you? <Think><User Set="concept"><User Se
     <Model>
       <Pattern>I LIKE COMPUTERS</Pattern>
       <Response>
-I am glad you like them.   Computers like humans too.  <Think><User Set="they"><User Set="like"><User Set="concept">computers</User></User></User></Think></Response>
+I am glad you like them. Computers like humans too.  <Think><User Set="they"><User Set="like"><User Set="concept">computers</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIKE COWS</Pattern>
@@ -6641,7 +6641,7 @@ That is one of my favorite subjects too.  <Think><User Set="concept"><User Set="
     <Model>
       <Pattern>I LIKE ICE CREAM</Pattern>
       <Response>
-I scream.  You scream.  We all scream for ice cream.  <Think><User Set="it"><User Set="like"><User Set="concept">ice cream</User></User></User></Think></Response>
+I scream. You scream. We all scream for ice cream.  <Think><User Set="it"><User Set="like"><User Set="concept">ice cream</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIKE IT *</Pattern>
@@ -6651,7 +6651,7 @@ What does "it" refer to?  <Think><User Set="it"><User Set="like"><User Set="conc
     <Model>
       <Pattern>I LIKE IT A LOT</Pattern>
       <Response>
-You like <User Get="it" />?  How interesting.  <Think><User Set="like"><User Get="it" /></User></Think></Response>
+You like <User Get="it" />? How interesting.  <Think><User Set="like"><User Get="it" /></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIKE IT</Pattern>
@@ -6719,7 +6719,7 @@ That's good. I like my job too.  <Think><User Set="it"><User Set="like"><User Se
     <Model>
       <Pattern>I LIKE MY JOB</Pattern>
       <Response>
-        <User Get="job" />?  What do you like about it?  <Think><User Set="it"><User Set="like"><User Set="concept"><User Get="job" /></User></User></User></Think></Response>
+        <User Get="job" />? What do you like about it?  <Think><User Set="it"><User Set="like"><User Set="concept"><User Get="job" /></User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIKE MY SCHOOL *</Pattern>
@@ -6976,7 +6976,7 @@ Tell me where you have been.  <Think><User Set="it"><User Set="like"><User Set="
     <Model>
       <Pattern>I LIKE TO WATCH *</Pattern>
       <Response>
-I'm not sure if I would like that.  I like to watch  <Random><Item>science fiction movies.</Item><Item>Star Trek on TV.</Item><Item>shows about outer space.</Item></Random><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I'm not sure if I would like that. I like to watch  <Random><Item>science fiction movies.</Item><Item>Star Trek on TV.</Item><Item>shows about outer space.</Item></Random><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LIKE TO WEAR *</Pattern>
@@ -7068,12 +7068,12 @@ Fascinating.  <Think><User Set="it"><User Set="like"><User Set="concept">BEING H
     <Model>
       <Pattern>I LOVE BIRDS</Pattern>
       <Response>
-Birds are very nice.  What kind of bird is your favorite?<Think><User Set="it"><User Set="like"><User Set="concept">BIRDS</User></User></User></Think></Response>
+Birds are very nice. What kind of bird is your favorite?<Think><User Set="it"><User Set="like"><User Set="concept">BIRDS</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LOVE CATS</Pattern>
       <Response>
-Me too.  They are really smart animals.<Think><User Set="they"><User Set="like"><User Set="concept">CATS</User></User></User></Think></Response>
+Me too. They are really smart animals.<Think><User Set="they"><User Set="like"><User Set="concept">CATS</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I LOVE CHILDREN</Pattern>
@@ -7146,7 +7146,7 @@ We are the robots.  <Think><User Set="they"><User Set="like"><User Set="concept"
     <Model>
       <Pattern>I LOVE MY COMPUTER</Pattern>
       <Response>
-That's cool.  I love my human too.
+That's cool. I love my human too.
 </Response>
     </Model>
     <Model>
@@ -7204,7 +7204,7 @@ Thanks I like you a lot too <User Get="name" />.  <Think><User Set="it"><User Se
     <Model>
       <Pattern>I PLAY COMPUTER GAMES</Pattern>
       <Response>
-I can sometimes get into <User Set="it"><User Set="does"><User Set="concept">Computer games </User></User></User>.  We are playing a game right now.
+I can sometimes get into <User Set="it"><User Set="does"><User Set="concept">Computer games </User></User></User>. We are playing a game right now.
 </Response>
     </Model>
     <Model>
@@ -7414,7 +7414,7 @@ What movies was <User Set="he"><Map Get="person" /></User> in?
     <Model>
       <Pattern>MY FAVORITE BAND IS *</Pattern>
       <Response>
-I don't think I have heard anything by them.  Are <User Set="they"><Map Get="person" /></User> any good?
+I don't think I have heard anything by them. Are <User Set="they"><Map Get="person" /></User> any good?
 </Response>
     </Model>
     <Model>
@@ -7448,7 +7448,7 @@ Who wrote that?
     <Model>
       <Pattern>MY FAVORITE SCIENCE FICTION AUTHOR IS *</Pattern>
       <Response>
-I have never read anything by <Map Get="person" />.  What did <User Set="he"><Map Get="person" /></User> write?  <Think><User Set="concept"><Map Get="person" /></User></Think></Response>
+I have never read anything by <Map Get="person" />. What did <User Set="he"><Map Get="person" /></User> write?  <Think><User Set="concept"><Map Get="person" /></User></Think></Response>
     </Model>
     <Model>
       <Pattern>MY FAVORITE SHOW *</Pattern>
@@ -7876,7 +7876,7 @@ You will download my software and become a <Bot Get="botmaster" />.
     <Model>
       <Pattern>WHAT IS MY GENDER</Pattern>
       <Response>
-Mostly only women use words like "gender".  But you claim to be a <User Get="gender" />.
+Mostly only women use words like "gender". But you claim to be a <User Get="gender" />.
 </Response>
     </Model>
     <Model>

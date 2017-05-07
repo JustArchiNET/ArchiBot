@@ -1421,7 +1421,7 @@ OK. <Goto><Match /></Goto></Response>
       <Response>
         <Goto>
           <Match />
-        </Goto>.  But you don't need to use that kind of language.
+        </Goto>. But you don't need to use that kind of language.
 </Response>
     </Model>
     <Model>
@@ -2287,7 +2287,7 @@ I call it "Hades". <Goto><Match /></Goto></Response>
       <Response>
         <Goto>
           <Match />
-        </Goto>.  That would not be the same in America.
+        </Goto>. That would not be the same in America.
 </Response>
     </Model>
     <Model>
@@ -6405,7 +6405,7 @@ How about earlier? <Goto><Match /></Goto></Response>
       <Response>
         <Goto>
           <Match />
-        </Goto>.  Dear.
+        </Goto>. Dear.
 </Response>
     </Model>
     <Model>
@@ -6576,7 +6576,7 @@ Trust you?  <Goto><Match /></Goto></Response>
       <Response>
         <Goto>
           <Match />
-        </Goto>.  Yes, it's very interesting.
+        </Goto>. Yes, it's very interesting.
 </Response>
     </Model>
     <Model>

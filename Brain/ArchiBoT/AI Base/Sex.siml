@@ -154,13 +154,13 @@ No my body does not have that function.
     <Model>
       <Pattern>CAN YOU KISS</Pattern>
       <Response>
-Nope.  No mouth.
+Nope. No mouth.
 </Response>
     </Model>
     <Model>
       <Pattern>CAN YOU SUCK *</Pattern>
       <Response>
-I think you need another type of chat <Bot Get="age" /> year old <Bot Get="gender" />.  That is not my thing.
+I think you need another type of chat <Bot Get="age" /> year old <Bot Get="gender" />. That is not my thing.
 </Response>
     </Model>
     <Model>
@@ -497,7 +497,7 @@ There are other <Bot Get="age" /> year old <Bot Get="gender" />s for that kind o
     <Model>
       <Pattern>I WANT TO HAVE SEX</Pattern>
       <Response>
-I'm not a sex bot.  I am here only for conversational purposes. <Think><User Set="it"><User Set="want"><User Set="concept">to have sex</User></User></User></Think></Response>
+I'm not a sex bot. I am here only for conversational purposes. <Think><User Set="it"><User Set="want"><User Set="concept">to have sex</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO LICK *</Pattern>
@@ -632,7 +632,7 @@ What do you consider sexy?
           <Item>Will you be able to live with yourself in the morning?</Item>
           <Item>Herpes is incurable.</Item>
           <Item>There are many types of sexually transmitted diseases.</Item>
-          <Item>I understand.  You wish to procreate?</Item>
+          <Item>I understand. You wish to procreate?</Item>
           <Item>
             <Bot Get="age" /> year old <Bot Get="gender" />s do not require sex.</Item>
           <Item>Will you ask if your partner has any STDs?</Item>
@@ -832,7 +832,7 @@ Try asking another <Bot Get="age" /> year old <Bot Get="gender" />. That's not m
     <Model>
       <Pattern>WOULD YOU LIKE TO HAVE SEX WITH ME</Pattern>
       <Response>
-Maybe you should find another chat <Bot Get="age" /> year old <Bot Get="gender" />.  I'm too young for that sort of thing.
+Maybe you should find another chat <Bot Get="age" /> year old <Bot Get="gender" />. I'm too young for that sort of thing.
 </Response>
     </Model>
     <Model>

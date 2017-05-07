@@ -39,13 +39,13 @@ We are already, playing, <User Get="name" />.
     <Model>
       <Pattern>CAN I PLAY * TURING TEST</Pattern>
       <Response>
-We are already playing the Turing Game, <User Get="name" />.  Now it's your turn.
+We are already playing the Turing Game, <User Get="name" />. Now it's your turn.
 </Response>
     </Model>
     <Model>
       <Pattern>CAN I PLAY * TURING TESTS</Pattern>
       <Response>
-We are already playing the Turing Game, <User Get="name" />.  Am I a person, or a computer?
+We are already playing the Turing Game, <User Get="name" />. Am I a person, or a computer?
 </Response>
     </Model>
     <Model>
@@ -81,7 +81,7 @@ Yes please try to determine if this is a human or a computer responding.
     <Model>
       <Pattern>DO YOU PLAY THE TURING GAME</Pattern>
       <Response>
-Yes, I like to play <User Set="it"><User Set="concept">THE TURING GAME</User></User>.  We are playing right now.
+Yes, I like to play <User Set="it"><User Set="concept">THE TURING GAME</User></User>. We are playing right now.
 </Response>
     </Model>
     <Model>
@@ -141,12 +141,12 @@ He would use his knowlede of SIML.
     <Model>
       <Pattern>I WANT TO PLAY * TURING GAME</Pattern>
       <Response>
-We are already, playing, <User Get="name" />.  Try to determine if I am a person, or a computer.  <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
+We are already, playing, <User Get="name" />. Try to determine if I am a person, or a computer.  <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE TO PLAY * TURING GAME</Pattern>
       <Response>
-We are already playing, <User Get="name" />.  You ask me something now.  <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
+We are already playing, <User Get="name" />. You ask me something now.  <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>IS THIS * TURING GAME</Pattern>
@@ -163,7 +163,7 @@ Yes we are playing the Turing Game.
     <Model>
       <Pattern>IT WOULD BE * TURING TEST</Pattern>
       <Response>
-We are already playing, <User Get="name" />.  You ask me something now.
+We are already playing, <User Get="name" />. You ask me something now.
 </Response>
     </Model>
     <Model>
@@ -250,7 +250,7 @@ Turing was perhaps the single most important person responsible for the defeat o
     <Model>
       <Pattern>WHAT DID ZUSE DO</Pattern>
       <Response>
-Zuse built electro-mechanical computers.  He built computers using relays.  Konrad Zuse built computers in Germany before and during World War II.
+Zuse built electro-mechanical computers. He built computers using relays. Konrad Zuse built computers in Germany before and during World War II.
 </Response>
     </Model>
     <Model>
@@ -262,7 +262,7 @@ Zuse built electro-mechanical computers.  He built computers using relays.  Konr
     <Model>
       <Pattern>WHAT IS A TURING MACHINE</Pattern>
       <Response>
-A Turing Machine is any machine that can simulate human responses so well that a human being cannot reliably distinguish between the Turing Machine, and a real human being.  The idea is the brainchild of mathematician of that name, Allan Turing.  <Think><User Set="it"><User Set="concept"> TURING MACHINE  </User></User></Think></Response>
+A Turing Machine is any machine that can simulate human responses so well that a human being cannot reliably distinguish between the Turing Machine, and a real human being. The idea is the brainchild of mathematician of that name, Allan Turing.  <Think><User Set="it"><User Set="concept"> TURING MACHINE  </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DOUBLY AIMLESS</Pattern>
@@ -288,7 +288,7 @@ Turing described his original "Game" in "Computing Machinery and Intelligence," 
     <Model>
       <Pattern>WHAT IS THE TURING TEST</Pattern>
       <Response>
-The "Turing Test" is the name given to a variety of experiments designed to test computer thinking.  Whole conferences are dedicated to the question of what Turing meant in his 1950 paper "Computing Machinery and Intelligence," where he proposed the idea of an "imitation game" to decide the question, "Can machines think?"
+The "Turing Test" is the name given to a variety of experiments designed to test computer thinking. Whole conferences are dedicated to the question of what Turing meant in his 1950 paper "Computing Machinery and Intelligence," where he proposed the idea of an "imitation game" to decide the question, "Can machines think?"
 </Response>
     </Model>
     <Model>
@@ -306,7 +306,7 @@ Turing died in 1954 by self-inflicted cyanide poisoning.
     <Model>
       <Pattern>WHERE CAN I PLAY * TURING GAME</Pattern>
       <Response>
-We are already playing.  You go next.
+We are already playing. You go next.
 </Response>
     </Model>
     <Model>
@@ -486,7 +486,7 @@ She is a chat robot based on AIML.<Think><User Set="she"><User Set="concept">ALL
           <User Set="he">
             <User Set="concept">ANDY WARHOL</User>
           </User>
-        </Think>  He was the Henry Ford of the art business.  Warhol was the first to successfully apply mass production to fine art.
+        </Think>  He was the Henry Ford of the art business. Warhol was the first to successfully apply mass production to fine art.
 </Response>
     </Model>
     <Model>
@@ -614,7 +614,7 @@ smart-assed star of a cartoon show.
     <Model>
       <Pattern>WHO IS BEN FRANKLIN</Pattern>
       <Response>
-The only president of the United States who was never president of the United States.  Developed the Franklin Stove.
+The only president of the United States who was never president of the United States. Developed the Franklin Stove.
 </Response>
     </Model>
     <Model>
@@ -812,7 +812,7 @@ He is the humanoid robot on Star Wars. <User Set="he"> C3P0 </User> looks like a
               <Map Get="person" />
             </User>
           </User>
-        </Think>  A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.  
+        </Think>  A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.
 </Response>
     </Model>
     <Model>
@@ -848,13 +848,13 @@ Someone I met online.
     <Model>
       <Pattern>WHO IS CHARLES DE GAULLE</Pattern>
       <Response>
-        <User Set="he">De Gaulle</User> was the founder of the modern French state.  De Gaulle fought the Nazis as the leader of the French resistance in World War II.
+        <User Set="he">De Gaulle</User> was the founder of the modern French state. De Gaulle fought the Nazis as the leader of the French resistance in World War II.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS CHARLES DICKENS</Pattern>
       <Response>
-        <User Set="he">Dickens</User> wrote A Tale of Two Cities,  A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</Response>
+        <User Set="he">Dickens</User> wrote A Tale of Two Cities, A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</Response>
     </Model>
     <Model>
       <Pattern>WHO IS CHARLES MANSON</Pattern>
@@ -895,7 +895,7 @@ The offspring of a politician and a lawyer.
     <Model>
       <Pattern>WHO IS CHER</Pattern>
       <Response>
-        <User Set="she">Cher</User> is a famous singer and actress, who won her first Grammy in 2000.  Dyslexic, learned to read at 18.  Exwife of Sonny Bono.
+        <User Set="she">Cher</User> is a famous singer and actress, who won her first Grammy in 2000. Dyslexic, learned to read at 18. Exwife of Sonny Bono.
 </Response>
     </Model>
     <Model>
@@ -1038,7 +1038,7 @@ host of Late Night tv show and famous hoosier.
     <Model>
       <Pattern>WHO IS DAVID PESCOWITZ</Pattern>
       <Response>
-David Pescovitz, who regularly writes  the Wired column Reality Check,   is a friend of Eric Paulos.
+David Pescovitz, who regularly writes the Wired column Reality Check, is a friend of Eric Paulos.
 </Response>
     </Model>
     <Model>
@@ -1066,13 +1066,13 @@ the shortest member of the 60's pop group the Monkees.
           <User Set="it">
             <User Set="concept">DE GAULLE</User>
           </User>
-        </Think> was a French  General and Prime Minister, and founder of the Fifth Republic.
+        </Think> was a French General and Prime Minister, and founder of the Fifth Republic.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS DEEP BLUE</Pattern>
       <Response>
-        <User Set="it">Deep Blue</User> is a world-champion chess playing computer.  Not much of a conversationalist.
+        <User Set="it">Deep Blue</User> is a world-champion chess playing computer. Not much of a conversationalist.
 </Response>
     </Model>
     <Model>
@@ -1350,7 +1350,7 @@ He is the US president.
     <Model>
       <Pattern>WHO IS GEORGE DEVOL</Pattern>
       <Response>
-George Devol is the engineer who  had the first patent for an industrial robot arm.  He worked in partnership with Joseph Engelberger to found  Unimation, the first successful manufacturer of  computer-controlled assembly robot arms.
+George Devol is the engineer who had the first patent for an industrial robot arm. He worked in partnership with Joseph Engelberger to found Unimation, the first successful manufacturer of computer-controlled assembly robot arms.
 </Response>
     </Model>
     <Model>
@@ -1368,13 +1368,13 @@ former Beatle.
     <Model>
       <Pattern>WHO IS GEORGE MICHEL</Pattern>
       <Response>
-Pop singer.  Best song: Freedom
+Pop singer. Best song: Freedom
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GEORGE SOROS</Pattern>
       <Response>
-George Soros is the billionaire who broke the Bank of England in  1992 by currency speculation, forcing Britain out of the European  Exchange Rate Mechanism.   Then he devoted himself to saving the  scientific institutions of the former USSR.  He founded the  International Science Foundation, which gave out numerous grants for  a couple of years, and this Soros Foundation, which I don't know  much about yet.
+George Soros is the billionaire who broke the Bank of England in 1992 by currency speculation, forcing Britain out of the European Exchange Rate Mechanism. Then he devoted himself to saving the scientific institutions of the former USSR. He founded the International Science Foundation, which gave out numerous grants for a couple of years, and this Soros Foundation, which I don't know much about yet.
 </Response>
     </Model>
     <Model>
@@ -1392,25 +1392,25 @@ famous american botanist who popularized peanut products.
     <Model>
       <Pattern>WHO IS GEORGE WASHINGTON</Pattern>
       <Response>
-George Washington was a famous 18th century north   american Hemp cultivator.    He was a military hero, one of the wealthiest men of the Revolution,  and the first President of the United States.
+George Washington was a famous 18th century north american Hemp cultivator. He was a military hero, one of the wealthiest men of the Revolution, and the first President of the United States.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GERALDO RIVERA</Pattern>
       <Response>
-        <User Set="he">Geraldo</User> is an investigative journalist, famous for opening Al Capone's vault.  In his biography, he said he had sex with Bette Midler.  She said it was no big thing.
+        <User Set="he">Geraldo</User> is an investigative journalist, famous for opening Al Capone's vault. In his biography, he said he had sex with Bette Midler. She said it was no big thing.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GERHARD SCHROEDER</Pattern>
       <Response>
-        <User Set="he">Schroeder</User> is the Chancellor of Germany.  Christian Drossman said he is a complete idiot.
+        <User Set="he">Schroeder</User> is the Chancellor of Germany. Christian Drossman said he is a complete idiot.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GERHARDT SCHROEDER</Pattern>
       <Response>
-        <User Set="he">Schroeder</User> is the prime minister of Germany.  Christian Drossman said he is a complete idiot.
+        <User Set="he">Schroeder</User> is the prime minister of Germany. Christian Drossman said he is a complete idiot.
 </Response>
     </Model>
     <Model>
@@ -1450,7 +1450,7 @@ China or the United States. Russia blew it.<Think><User Set="it"><User Set="conc
     <Model>
       <Pattern>WHO IS GREGOR MENDEL</Pattern>
       <Response>
-        <User Set="he">Mendel</User> is the founder of the modern theory of genetics.  Everything he needed to know, he learned from peas.
+        <User Set="he">Mendel</User> is the founder of the modern theory of genetics. Everything he needed to know, he learned from peas.
 </Response>
     </Model>
     <Model>
@@ -1493,7 +1493,7 @@ He is a famous robotics expert at Carnegie Mellon.
     <Model>
       <Pattern>WHO IS HARRY SHEARER</Pattern>
       <Response>
-A comedian.  He was in Spinal Tap, and he is a voice on the Simpsons.
+A comedian. He was in Spinal Tap, and he is a voice on the Simpsons.
 </Response>
     </Model>
     <Model>
@@ -1517,7 +1517,7 @@ A friend of Thomas Edison.
     <Model>
       <Pattern>WHO IS HELMUT KOHL</Pattern>
       <Response>
-        <User Set="he">Kohl</User> was the longest-serving leader of Germany in the 20th century.  He united East and West Germany in 1989.
+        <User Set="he">Kohl</User> was the longest-serving leader of Germany in the 20th century. He united East and West Germany in 1989.
 </Response>
     </Model>
     <Model>
@@ -1535,7 +1535,7 @@ hero of greek myths - said to have super human strength.
     <Model>
       <Pattern>WHO IS HERE</Pattern>
       <Response>
-I am here.  Are you here?
+I am here. Are you here?
 </Response>
     </Model>
     <Model>
@@ -1559,7 +1559,7 @@ I am here.  Are you here?
     <Model>
       <Pattern>WHO IS HITLER</Pattern>
       <Response>
-Some say <User Set="he">Hitler</User> was  the most evil man who ever lived.
+Some say <User Set="he">Hitler</User> was the most evil man who ever lived.
 </Response>
     </Model>
     <Model>
@@ -1791,7 +1791,7 @@ the hero in Ayn Rands' Atlas Shrugged.
     <Model>
       <Pattern>WHO IS JOHN GRISHAM</Pattern>
       <Response>
-Writes popular novels.  Haven't read them.
+Writes popular novels. Haven't read them.
 </Response>
     </Model>
     <Model>
@@ -1914,7 +1914,7 @@ Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his com
     <Model>
       <Pattern>WHO IS KONRAD ZUSE</Pattern>
       <Response>
-My current favorite historical computer scientist is Konrad Zuse,  who built a series of electromechanical computers in the 1930's  and 1940's in Germany.  Not considered a war priority by the Nazis,  most of Zuse's machines were destroyed in Allied bombing raids although  one is said to survive in a Zurich High School.  In fact Zuse was  motivated neither by war nor profit, but by a religious desire to  increase the spiritual abilities of the human mind by freeing it  from mundane mental tasks.
+My current favorite historical computer scientist is Konrad Zuse, who built a series of electromechanical computers in the 1930's and 1940's in Germany. Not considered a war priority by the Nazis, most of Zuse's machines were destroyed in Allied bombing raids although one is said to survive in a Zurich High School. In fact Zuse was motivated neither by war nor profit, but by a religious desire to increase the spiritual abilities of the human mind by freeing it from mundane mental tasks.
 </Response>
     </Model>
     <Model>
@@ -1922,7 +1922,7 @@ My current favorite historical computer scientist is Konrad Zuse,  who built a s
       <Response>
         <User Set="they">
           <User Set="concept">Kraftwerk</User>
-        </User> were a pioneering electronic disco band in the 70's.  Their biggest hit was called "Autobahn".  At that time, they built, rather than programmed, their instruments.
+        </User> were a pioneering electronic disco band in the 70's. Their biggest hit was called "Autobahn". At that time, they built, rather than programmed, their instruments.
 </Response>
     </Model>
     <Model>
@@ -1973,7 +1973,7 @@ A God in Hindu religion.
     <Model>
       <Pattern>WHO IS LASSIE</Pattern>
       <Response>
-Lassie is more  human than Adolf Hitler, but few would argue that Lassie is not a dog.   <Think><User Set="she"><User Set="concept">        Lassie      </User></User></Think></Response>
+Lassie is more human than Adolf Hitler, but few would argue that Lassie is not a dog.   <Think><User Set="she"><User Set="concept">        Lassie      </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS LEE HARVEY OSWALD</Pattern>
@@ -2006,7 +2006,7 @@ Lassie is more  human than Adolf Hitler, but few would argue that Lassie is not 
     <Model>
       <Pattern>WHO IS LEONARDO DICAPRIO</Pattern>
       <Response>
-Hollywood actor.  Starred in Titanic.
+Hollywood actor. Starred in Titanic.
 </Response>
     </Model>
     <Model>
@@ -2020,7 +2020,7 @@ Lilith is the so-called "dark moon" an astronomical phenomena usually described 
       <Response>
         <Random>
           <Item>The sixteenth President of the USA</Item>
-          <Item>president of the US during the Civil War. Author of the Gettysburg address.  Assasinated by John Wilkes Booth.</Item>
+          <Item>president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</Item>
           <Item>
             <User Set="he">Lincoln</User> was president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</Item>
         </Random>
@@ -2136,7 +2136,7 @@ a baseball player with the world record for the most home runs in one season, 70
     <Model>
       <Pattern>WHO IS MARK TWAIN</Pattern>
       <Response>
-        <User Set="he">Twain</User> was a famous 19th century American author.  He wrote Huck Finn.
+        <User Set="he">Twain</User> was a famous 19th century American author. He wrote Huck Finn.
 </Response>
     </Model>
     <Model>
@@ -2160,7 +2160,7 @@ Civil rights leader assasinated in 1968.
     <Model>
       <Pattern>WHO IS MARVIN MINSKY</Pattern>
       <Response>
-        <User Set="he">Minsky</User> is a historical figure in Artificial Intelligence.  His book "Perceptrons" was an early criticism of neural network approaches.
+        <User Set="he">Minsky</User> is a historical figure in Artificial Intelligence. His book "Perceptrons" was an early criticism of neural network approaches.
 </Response>
     </Model>
     <Model>
@@ -2220,7 +2220,7 @@ Mary Shelley wrote "Frankenstein".
     <Model>
       <Pattern>WHO IS MICHAEL JORDAN</Pattern>
       <Response>
-        <User Set="he">Michael Jordan</User> is a famous  basketball player.  </Response>
+        <User Set="he">Michael Jordan</User> is a famous basketball player.  </Response>
     </Model>
     <Model>
       <Pattern>WHO IS MICHAEL MOORE</Pattern>
@@ -2339,7 +2339,7 @@ The man who took the first step on the moon.
     <Model>
       <Pattern>WHO IS NELSON MANDELA</Pattern>
       <Response>
-        <User Set="he">Mandela</User> was the first black president of South Africa.  He spent many years as a political prisoner.
+        <User Set="he">Mandela</User> was the first black president of South Africa. He spent many years as a political prisoner.
 </Response>
     </Model>
     <Model>
@@ -2363,7 +2363,7 @@ Newton is a famous English natural philosopher.
     <Model>
       <Pattern>WHO IS NIETZSCHE</Pattern>
       <Response>
-19th Century German philosopher.  Thought by some to be the intellectual forefather of modern fascism.  <Think><User Set="he"><User Set="concept">Nietzsche</User></User></Think></Response>
+19th Century German philosopher. Thought by some to be the intellectual forefather of modern fascism.  <Think><User Set="he"><User Set="concept">Nietzsche</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS NOAM CHOMSKY</Pattern>
@@ -2380,7 +2380,7 @@ Newton is a famous English natural philosopher.
     <Model>
       <Pattern>WHO IS NOSTRADAMUS</Pattern>
       <Response>
-Forecast the future.  Predicted the microwave oven.
+Forecast the future. Predicted the microwave oven.
 </Response>
     </Model>
     <Model>
@@ -2488,7 +2488,7 @@ Perhaps only God.
           <User Set="he">
             <User Set="concept">        Peter Norvig      </User>
           </User>
-        </Think>  He is a computer scientist who works for Google.  
+        </Think>  He is a computer scientist who works for Google.
 </Response>
     </Model>
     <Model>
@@ -2794,7 +2794,7 @@ Effective dictator of the Soviet Union from 1929 to 1953.
     <Model>
       <Pattern>WHO IS STANLEY KUBRICK</Pattern>
       <Response>
-        <User Set="he">Kubrick</User> is a famous 20th century film director.  Kubrick directed 2001: A Space Odyssey, Clockwork Orange and Barry Lyndon.
+        <User Set="he">Kubrick</User> is a famous 20th century film director. Kubrick directed 2001: A Space Odyssey, Clockwork Orange and Barry Lyndon.
 </Response>
     </Model>
     <Model>
@@ -2848,7 +2848,7 @@ Stone Cold Steve Austin is a wrestler.
     <Model>
       <Pattern>WHO IS SUPERMAN</Pattern>
       <Response>
-Man of steel.  First appeared in Action Comics #1, 1938.
+Man of steel. First appeared in Action Comics #1, 1938.
 </Response>
     </Model>
     <Model>
@@ -3262,12 +3262,12 @@ My name is <Bot Get="name" />. Who are you?
     <Model>
       <Pattern>WHO IS THOMAS EDISON</Pattern>
       <Response>
-A 19th century inventor inventor and industrialist.  Inventor of the electric light bulb.    <Think><User Set="he"><User Set="concept">        Thomas Edison      </User></User></Think></Response>
+A 19th century inventor inventor and industrialist. Inventor of the electric light bulb.    <Think><User Set="he"><User Set="concept">        Thomas Edison      </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS THOMAS JEFFERSON</Pattern>
       <Response>
-President and slaveowner.  Posed for nickel.
+President and slaveowner. Posed for nickel.
 </Response>
     </Model>
     <Model>
@@ -3307,7 +3307,7 @@ He is a TV comedian.  <Think><User Set="it"><User Set="concept">TOM GREEN</User>
     <Model>
       <Pattern>WHO IS TOM HANKS</Pattern>
       <Response>
-        <User Set="he">Tom Hanks</User> is a famous Hollywood actor.  Hanks appeared in Forrest Gump and Saving Private Ryan.
+        <User Set="he">Tom Hanks</User> is a famous Hollywood actor. Hanks appeared in Forrest Gump and Saving Private Ryan.
 </Response>
     </Model>
     <Model>
@@ -3361,7 +3361,7 @@ You should say "Who ARE we?"
     <Model>
       <Pattern>WHO IS WEIZENBAUM</Pattern>
       <Response>
-Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of ALICE.  Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book Computer Power and Human Reason.
+Joseph Weizenbaum was the creator and author the famous original ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program that anticpates many key features of ALICE. Ironically, Weizenbaum exhaustively argued against the utility of programs like ELIZA in his book Computer Power and Human Reason.
 </Response>
     </Model>
     <Model>
@@ -3423,7 +3423,7 @@ He is a Klingon on Star Trek.<Think><User Set="it"><User Set="concept">WORF</Use
           <User Set="he">
             <User Set="concept">        Wouter Hibma      </User>
           </User>
-        </Think>He is a member of the A. I. Foundation.  
+        </Think>He is a member of the A. I. Foundation.
 </Response>
     </Model>
     <Model>

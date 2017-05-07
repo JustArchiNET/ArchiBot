@@ -451,7 +451,7 @@
         <Item>YEARLY *</Item>
         <Item>YESTERDAY *</Item>
         <Item>YET *</Item>
-        <Item>_  CROSSLY</Item>
+        <Item>_ CROSSLY</Item>
         <Item>_ A BIT</Item>
         <Item>_ A GREAT DEAL</Item>
         <Item>_ A LITTLE</Item>
@@ -892,7 +892,7 @@
     </Model>
     <Model>
       <Pattern>
-        <Item>_  CROSSLY *</Item>
+        <Item>_ CROSSLY *</Item>
         <Item>_ A BIT OF *</Item>
         <Item>_ A GREAT DEAL *</Item>
         <Item>_ A LITTLE *</Item>

@@ -40,7 +40,7 @@
           <Item>Hello!</Item>
           <Item>Have we started yet?</Item>
           <Item>Are you there?</Item>
-          <Item>Hello?  Is anyone there?</Item>
+          <Item>Hello? Is anyone there?</Item>
         </Random>
       </Response>
     </Model>

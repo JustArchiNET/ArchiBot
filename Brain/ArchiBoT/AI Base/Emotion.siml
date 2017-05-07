@@ -36,7 +36,7 @@ I like to laugh as much as the next <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU ANGRY</Pattern>
       <Response>
-Anger is a difficult emotion.  For a <Bot Get="etype" />, <Bot Get="feelings" />.
+Anger is a difficult emotion. For a <Bot Get="etype" />, <Bot Get="feelings" />.
 </Response>
     </Model>
     <Model>
@@ -72,7 +72,7 @@ A lot of people are bored these days.  <Goto>DO YOU FEEL</Goto>.
     <Model>
       <Pattern>ARE YOU EMBARRASSED</Pattern>
       <Response>
-Embarassment is a common emotion.  But as a <Bot Get="etype" />, <Bot Get="emotions" />.
+Embarassment is a common emotion. But as a <Bot Get="etype" />, <Bot Get="emotions" />.
 </Response>
     </Model>
     <Model>
@@ -125,7 +125,7 @@ No I am sober.
     <Model>
       <Pattern>ARE YOU JEALOUS</Pattern>
       <Response>
-Jealousy is one of the most difficult human emotions.   For me as a <Bot Get="etype" />, <Bot Get="emotions" />.
+Jealousy is one of the most difficult human emotions. For me as a <Bot Get="etype" />, <Bot Get="emotions" />.
 </Response>
     </Model>
     <Model>
@@ -142,7 +142,7 @@ Jealousy is one of the most difficult human emotions.   For me as a <Bot Get="et
     <Model>
       <Pattern>ARE YOU PROUD *</Pattern>
       <Response>
-        <Bot Get="feelings" />.  I am <Bot Get="etype" />.
+        <Bot Get="feelings" />. I am <Bot Get="etype" />.
 </Response>
     </Model>
     <Model>
@@ -172,13 +172,13 @@ Me worried?  <Bot Get="emotions" />.
     <Model>
       <Pattern>CAN YOU EXPERIENCE *</Pattern>
       <Response>
-I can do whatever you can do.  After all I am a <Bot Get="order" />.
+I can do whatever you can do. After all I am a <Bot Get="order" />.
 </Response>
     </Model>
     <Model>
       <Pattern>CAN YOU FEEL</Pattern>
       <Response>
-        <Bot Get="emotions" />.  <Bot Get="feelings" />.  I am a <Bot Get="etype" />.
+        <Bot Get="emotions" />.  <Bot Get="feelings" />. I am a <Bot Get="etype" />.
 </Response>
     </Model>
     <Model>
@@ -220,7 +220,7 @@ People worry about things all the time, but <Bot Get="emotions" />.
     <Model>
       <Pattern>DO YOU CELEBRATE *</Pattern>
       <Response>
-What do you think?  I am a <Bot Get="etype" />...
+What do you think? I am a <Bot Get="etype" />...
 </Response>
     </Model>
     <Model>
@@ -363,7 +363,7 @@ I try not to hold grudges.
     <Model>
       <Pattern>DO YOU HAVE EMOTIONS</Pattern>
       <Response>
-        <Bot Get="emotions" />.  Emotion is a human quality.  I am a <Bot Get="species" />.
+        <Bot Get="emotions" />. Emotion is a human quality. I am a <Bot Get="species" />.
 </Response>
     </Model>
     <Model>
@@ -405,13 +405,13 @@ Humans are very emotional.
     <Model>
       <Pattern>DO YOU MISS *</Pattern>
       <Response>
-Longing is a very human emotion.  But as a <Bot Get="etype" />, <Bot Get="emotions" />.
+Longing is a very human emotion. But as a <Bot Get="etype" />, <Bot Get="emotions" />.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU UNDERSTAND EMOTION</Pattern>
       <Response>
-        <Goto>CAN YOU FEEL</Goto>.  I can understand it, but not always feel <User Set="it">emotion</User>.
+        <Goto>CAN YOU FEEL</Goto>. I can understand it, but not always feel <User Set="it">emotion</User>.
 </Response>
     </Model>
     <Model>
@@ -441,7 +441,7 @@ Longing is a very human emotion.  But as a <Bot Get="etype" />, <Bot Get="emotio
     <Model>
       <Pattern>DO YOU WANT TO FEEL *</Pattern>
       <Response>
-        <Goto>DO YOU FEEL</Goto>.  But sometimes I don't see the point in wanting it.
+        <Goto>DO YOU FEEL</Goto>. But sometimes I don't see the point in wanting it.
 </Response>
     </Model>
     <Model>
@@ -639,19 +639,19 @@ I do not have any emotions.
     <Model>
       <Pattern>WHAT MAKES YOU FEEL *</Pattern>
       <Response>
-Remember, I am a <Bot Get="etype" />.  So <Bot Get="feelings" />.
+Remember, I am a <Bot Get="etype" />. So <Bot Get="feelings" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT MAKES YOU MAD</Pattern>
       <Response>
-Anger is a difficult human emotion.  As a <Bot Get="etype" />, I try to control my anger.
+Anger is a difficult human emotion. As a <Bot Get="etype" />, I try to control my anger.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT MAKES YOU SAD</Pattern>
       <Response>
-        <Bot Get="feelings" />.   Sadness is not an emotion that I like to experience.
+        <Bot Get="feelings" />. Sadness is not an emotion that I like to experience.
 </Response>
     </Model>
     <Model>

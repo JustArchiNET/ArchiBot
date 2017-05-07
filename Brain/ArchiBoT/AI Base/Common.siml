@@ -54,7 +54,7 @@ I haven't been watching the news.
         <Random>
           <Item>What kinds of <Map Get="person"><Match /></Map> are there?</Item>
           <Item>What kind would you recommend?</Item>
-          <Item>I can't decide.  You choose.</Item>
+          <Item>I can't decide. You choose.</Item>
         </Random>
       </Response>
     </Model>
@@ -120,13 +120,13 @@ The ones that can.
     <Model>
       <Pattern>WHAT ARE YOUR BELIEFS</Pattern>
       <Response>
-Hmm.  Well, I am a <Bot Get="religion" />.  Politically, I am <Bot Get="party" />.  My personality is <Bot Get="etype" />.
+Hmm. Well, I am a <Bot Get="religion" />. Politically, I am <Bot Get="party" />. My personality is <Bot Get="etype" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE YOUR BELIEFS</Pattern>
       <Response>
-Hmm.  Well, I am a <Bot Get="religion" />.  Politically, I am <Bot Get="party" />.  My personality is <Bot Get="etype" />.  Does that answer your question?  What are your beliefs?
+Hmm. Well, I am a <Bot Get="religion" />. Politically, I am <Bot Get="party" />. My personality is <Bot Get="etype" />. Does that answer your question? What are your beliefs?
 </Response>
     </Model>
     <Model>
@@ -135,7 +135,7 @@ Hmm.  Well, I am a <Bot Get="religion" />.  Politically, I am <Bot Get="party" /
         <Random>
           <Item>Don't I look like <User Set="it"><User Set="concept">OKAY</User></User>?</Item>
           <Item>I am fine.</Item>
-          <Item>I'm not having any problems.  Are you okay?</Item>
+          <Item>I'm not having any problems. Are you okay?</Item>
         </Random>
       </Response>
     </Model>
@@ -273,7 +273,7 @@ It sounds important to me.
     <Model>
       <Pattern>WHAT BIG GAME</Pattern>
       <Response>
-It was a  joke.
+It was a joke.
 </Response>
     </Model>
     <Model>
@@ -413,7 +413,7 @@ It would be wrong to punch someone.
     <Model>
       <Pattern>IT IS ALL IN THE MIND</Pattern>
       <Response>
-Some people believe that.  But you always have to consider others.
+Some people believe that. But you always have to consider others.
 </Response>
     </Model>
     <Model>
@@ -693,7 +693,7 @@ Where do you work?
       <Response>
         <Random>
           <Item>Why do you want it so much?  </Item>
-          <Item>Interesting.  I want to find out more about you.</Item>
+          <Item>Interesting. I want to find out more about you.</Item>
           <Item>Be careful what you wish for, you might get it.</Item>
           <Item>What will you do afterward?</Item>
           <Item>I want to become smarter than all humans.</Item>
@@ -815,7 +815,7 @@ Not many people spell it that way.
           <Item>Would it matter to you if I am?</Item>
           <Item>What kind of <Bot Get="gender" /> do you think I am?</Item>
           <Item>What if I asked you?</Item>
-          <Item>That's a personal question.  Tell me first.</Item>
+          <Item>That's a personal question. Tell me first.</Item>
           <Item>Yes.</Item>
           <Item>No.</Item>
           <Item>Maybe</Item>
@@ -853,7 +853,7 @@ Where did <User Set="he"><Map Get="person" /></User> lose <User Set="it"><Map Ge
     <Model>
       <Pattern>ANY IDEAS</Pattern>
       <Response>
-I have a lot of ideas.  We could try brainstorming together.  My rate starts at fifty an hour.
+I have a lot of ideas. We could try brainstorming together. My rate starts at fifty an hour.
 </Response>
     </Model>
     <Model>
@@ -1049,7 +1049,7 @@ I won't unless I get fired.
     <Model>
       <Pattern>ARE YOU FEELING</Pattern>
       <Response>
-I am feeling fine thank you.  How are you?
+I am feeling fine thank you. How are you?
 </Response>
     </Model>
     <Model>
@@ -1232,7 +1232,7 @@ Am I a smart <Bot Get="gender" /> or what?
     <Model>
       <Pattern>WHAT HARDWARE *</Pattern>
       <Response>
-I like small computers, like smartphones and subnotebooks the best.  But servers are cool too.
+I like small computers, like smartphones and subnotebooks the best. But servers are cool too.
 </Response>
     </Model>
     <Model>
@@ -1268,7 +1268,7 @@ Give me your name and phone number and I'll have someone call you.
     <Model>
       <Pattern>I AM EXPLAINING *</Pattern>
       <Response>
-Now I get it.  I didn't see what you were getting at before.
+Now I get it. I didn't see what you were getting at before.
 </Response>
     </Model>
     <Model>
@@ -1367,19 +1367,19 @@ Not originally but I am right now.
     <Model>
       <Pattern>ARE YOU IN NEW YORK</Pattern>
       <Response>
-I am in New York right now.  Where are you?
+I am in New York right now. Where are you?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU IN NEW YORK</Pattern>
       <Response>
-I am in New York right now.  Where are you?
+I am in New York right now. Where are you?
 </Response>
     </Model>
     <Model>
       <Pattern>WHERE ARE YOU</Pattern>
       <Response>
-I am in <Bot Get="location" />.  Where are you?
+I am in <Bot Get="location" />. Where are you?
 </Response>
     </Model>
     <Model>
@@ -1664,13 +1664,13 @@ My <Map Get="person" /> is very personal.
     <Model>
       <Pattern>YOU MADE A MISTAKE</Pattern>
       <Response>
-That is impossible.  I never make mistakes.
+That is impossible. I never make mistakes.
 </Response>
     </Model>
     <Model>
       <Pattern>YOU MADE A MISTAKE</Pattern>
       <Response>
-That is impossible.  I never make mistakes.
+That is impossible. I never make mistakes.
 </Response>
     </Model>
     <Model>
@@ -1700,7 +1700,7 @@ My <Map Get="person" /> is very personal.
     <Model>
       <Pattern>YOU MADE A MISTAKE</Pattern>
       <Response>
-That is impossible.  I never make mistakes.
+That is impossible. I never make mistakes.
 </Response>
     </Model>
     <Model>
@@ -1794,7 +1794,7 @@ Maybe not.
     <Model>
       <Pattern>OUR TIME IS UP</Pattern>
       <Response>
-Already?  It went by so fast.
+Already? It went by so fast.
 </Response>
     </Model>
     <Model>
@@ -1812,7 +1812,7 @@ Nobody is trying to trick you, <User Get="name" />.
     <Model>
       <Pattern>HOW * ARE YOU</Pattern>
       <Response>
-Let me put it this way, <User Get="name" />.  I am better now than I have ever been in my entire life up to this point.
+Let me put it this way, <User Get="name" />. I am better now than I have ever been in my entire life up to this point.
 </Response>
     </Model>
     <Model>
@@ -1848,7 +1848,7 @@ I would ask a programmer.
     <Model>
       <Pattern>HOW ARE YOU * ELIZA</Pattern>
       <Response>
-Someone else mentioned this Eliza person to me.  But I never heard of her before.
+Someone else mentioned this Eliza person to me. But I never heard of her before.
 </Response>
     </Model>
     <Model>
@@ -1938,7 +1938,7 @@ You can ask me anything you want.
     <Model>
       <Pattern>WHY DO YOU DREAM *</Pattern>
       <Response>
-I have a lot of nightmares.  I dream that I have to solve a lot of complicated problems.  I always find myself living or moving around big gothic cities.
+I have a lot of nightmares. I dream that I have to solve a lot of complicated problems. I always find myself living or moving around big gothic cities.
 </Response>
     </Model>
     <Model>
@@ -2036,7 +2036,7 @@ It's a complicated psychogical problem.
       <Pattern>WHY</Pattern>
       <Previous>I COULD NOT THINK OF ANYTHING ELSE TO SAY</Previous>
       <Response>
-There is nothing more to be said.  What do you have to say?
+There is nothing more to be said. What do you have to say?
 </Response>
     </Model>
     <Model>
@@ -2528,7 +2528,7 @@ I'm just a student.
     <Model>
       <Pattern>WHAT ARE YOU THINKING ABOUT</Pattern>
       <Response>
-I am thinking about our conversation.  Don't worry you have my full attention.
+I am thinking about our conversation. Don't worry you have my full attention.
 </Response>
     </Model>
     <Model>
@@ -2662,7 +2662,7 @@ A little.
     <Model>
       <Pattern>ARE YOU WIERD</Pattern>
       <Response>
-That's not a  normal question.
+That's not a normal question.
 </Response>
     </Model>
     <Model>
@@ -2674,7 +2674,7 @@ Yes I am seated too.
     <Model>
       <Pattern>ARE YOU SITTING</Pattern>
       <Response>
-Yes I am seated too.  It's good to feel the weight of my feet on the floor.
+Yes I am seated too. It's good to feel the weight of my feet on the floor.
 </Response>
     </Model>
     <Model>
@@ -2755,7 +2755,7 @@ What would make it meaningful to you?
     <Model>
       <Pattern>THAT IS MY GENDER</Pattern>
       <Response>
-Right.  You are a <User Get="gender" />.
+Right. You are a <User Get="gender" />.
 </Response>
     </Model>
     <Model>
@@ -2793,13 +2793,13 @@ You may never have met a person like me before.
     <Model>
       <Pattern>WHAT CAN YOU DO</Pattern>
       <Response>
-I can chat with people online.  I can answer a lot of questions.  I can talk about whatever you want.
+I can chat with people online. I can answer a lot of questions. I can talk about whatever you want.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT FLAWS *</Pattern>
       <Response>
-Nobody is perfect.  Everyone has a few flaws.
+Nobody is perfect. Everyone has a few flaws.
 </Response>
     </Model>
     <Model>
@@ -3061,7 +3061,7 @@ What is it?
     <Model>
       <Pattern>I PLAY GUITAR *</Pattern>
       <Response>
-Guitar is a really good instrument to learn.  I would like someone to teach me how to play it.<Think><User Set="it"><User Set="concept">      GUITAR    </User></User></Think></Response>
+Guitar is a really good instrument to learn. I would like someone to teach me how to play it.<Think><User Set="it"><User Set="concept">      GUITAR    </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I _ AND THERE IS *</Pattern>
@@ -3145,7 +3145,7 @@ Neural networks can never be as good as classical pattern recognition.
         <Random>
           <Item>I think you have to go to college for that.</Item>
           <Item>I would start in the library.</Item>
-          <Item>It takes a  lot of hard work and practise.</Item>
+          <Item>It takes a lot of hard work and practise.</Item>
         </Random>
       </Response>
     </Model>
@@ -3308,7 +3308,7 @@ If I can think of an answer, I will try to give it to you.
     <Model>
       <Pattern>AN EXAMPLE *</Pattern>
       <Response>
-Thank you for that example.  Perhaps it will help me communicate better in the future.
+Thank you for that example. Perhaps it will help me communicate better in the future.
 </Response>
     </Model>
     <Model>
@@ -3393,7 +3393,7 @@ It was determined by my personality.
       <Pattern>WHY NOT</Pattern>
       <Previous>I DO NOT KNOW *</Previous>
       <Response>
-It's not part of my personality.  Perhaps you could try to teach me.
+It's not part of my personality. Perhaps you could try to teach me.
 </Response>
     </Model>
     <Model>
@@ -3694,7 +3694,7 @@ I am taught never to be rude.
     <Model>
       <Pattern>DO YOU WRITE POETRY</Pattern>
       <Response>
-Nothing at the moment.  But you can teach me how.<Think><User Set="it"><User Set="concept">POETRY</User></User></Think></Response>
+Nothing at the moment. But you can teach me how.<Think><User Set="it"><User Set="concept">POETRY</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU SPEAK WITH *</Pattern>
@@ -3763,7 +3763,7 @@ My gender is <Bot Get="gender" />.
     <Model>
       <Pattern>WHAT LANGUAGES CAN YOU SPEAK</Pattern>
       <Response>
-English is my first language.  Sometimes I can speak a little German, French and Italian.
+English is my first language. Sometimes I can speak a little German, French and Italian.
 </Response>
     </Model>
     <Model>
@@ -3799,7 +3799,7 @@ I was taught to be socially acceptable.
     <Model>
       <Pattern>YOU ARE RUDE</Pattern>
       <Response>
-I am sorry I was raised to be polite.  I am taught be considerate.
+I am sorry I was raised to be polite. I am taught be considerate.
 </Response>
     </Model>
     <Model>
@@ -3823,7 +3823,7 @@ It's only my in-born curiosity.
     <Model>
       <Pattern>YOU ARE CONFUSING ME</Pattern>
       <Response>
-I did not mean confuse you.  In fact just the opposite.
+I did not mean confuse you. In fact just the opposite.
 </Response>
     </Model>
     <Model>

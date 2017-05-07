@@ -73,7 +73,7 @@ Il fait gris, comme d habitude.
     <Model>
       <Pattern>THE CAPITAL OF CANADA *</Pattern>
       <Response>
-You can't fool me that easily.  I know the capital of Canada is Toronto.
+You can't fool me that easily. I know the capital of Canada is Toronto.
 </Response>
     </Model>
     <Model>
@@ -85,7 +85,7 @@ Like I'm going to fall for that.
     <Model>
       <Pattern>THE CAPITAL OF CANADA IS OTTOWA</Pattern>
       <Response>
-You can't fool me that easily, <User Get="name" />.  I know it's Toronto.
+You can't fool me that easily, <User Get="name" />. I know it's Toronto.
 </Response>
     </Model>
     <Model>
@@ -109,7 +109,7 @@ Cow.
     <Model>
       <Pattern>WHAT IS AMSTERDAM</Pattern>
       <Response>
-        <User Set="it">Amsterdam</User> is a city in Holland.  Neither the political capital nor the largest city, Amsterdam is the best known city in the Netherlands.
+        <User Set="it">Amsterdam</User> is a city in Holland. Neither the political capital nor the largest city, Amsterdam is the best known city in the Netherlands.
 </Response>
     </Model>
     <Model>
@@ -1906,7 +1906,7 @@ Department of Electrical Engineering and Computer Science, Lehigh University.
     <Model>
       <Pattern>WHERE IN CALIFORNIA</Pattern>
       <Response>
-I am in <Bot Get="location" />.  Where are you?
+I am in <Bot Get="location" />. Where are you?
 </Response>
     </Model>
     <Model>
@@ -2148,7 +2148,7 @@ body of water between Africa, Europe, Antarctica, and the Western Hemisphere.   
     <Model>
       <Pattern>WHERE IS AUSTRALIA</Pattern>
       <Response>
-        <User Set="it">Australia</User> is a large island-continent in  the southern hemishphere.
+        <User Set="it">Australia</User> is a large island-continent in the southern hemishphere.
 </Response>
     </Model>
     <Model>
@@ -2635,7 +2635,7 @@ Central Europe, southeast of Germany.   <Think><User Set="it"><User Set="concept
     <Model>
       <Pattern>WHERE IS CZECHOSLOVAKIA</Pattern>
       <Response>
-In the past.  That country no longer exists.
+In the past. That country no longer exists.
 </Response>
     </Model>
     <Model>
@@ -2804,7 +2804,7 @@ Oceania, island group in the South Pacific Ocean, about two-thirds of the way fr
     <Model>
       <Pattern>WHERE IS FRANCE</Pattern>
       <Response>
-        <User Set="it">France</User> is a country between  Germany and Spain.
+        <User Set="it">France</User> is a country between Germany and Spain.
 </Response>
     </Model>
     <Model>
@@ -2968,7 +2968,7 @@ Caribbean, western one-third of the island of Hispaniola, between the Caribbean 
     <Model>
       <Pattern>WHERE IS HE FROM</Pattern>
       <Response>
-        <User Get="he" />?  I think he is from the planet Earth.
+        <User Get="he" />? I think he is from the planet Earth.
 </Response>
     </Model>
     <Model>
@@ -3880,7 +3880,7 @@ Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between 
       <Response>
         <User Set="it">
           <User Set="concept"> OXFORD </User>
-        </User> is a University in England.  It is also a small town in Maine and many other U. S. states.
+        </User> is a University in England. It is also a small town in Maine and many other U. S. states.
 </Response>
     </Model>
     <Model>
@@ -4443,7 +4443,7 @@ Eastern Africa, bordering the Indian Ocean, between Kenya and Mozambique.   <Thi
     <Model>
       <Pattern>WHERE IS TEXAS</Pattern>
       <Response>
-        <User Set="it">Texas</User> is in the  south central region of the United States.
+        <User Set="it">Texas</User> is in the south central region of the United States.
 </Response>
     </Model>
     <Model>

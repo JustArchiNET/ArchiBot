@@ -122,7 +122,7 @@ Developments in Java interest me greatly.
     <Model>
       <Pattern>WHAT ARE DEPRECATED *</Pattern>
       <Response>
-          One of the biggest challenges facing a Java application  developer is finding a "lowest common denominator" subset of the  Java language that works on all the platforms and versions  out there.  The Java language itself is a moving target.  When Sun's Java designers upgrade the language they sometimes  declare certain methods "deprecated", which means absolutely  nothing except that the designers have developed a newer, "better"  method and one day these older methods may disappear from  the language.  Usually however the latest Java releases  support all of the old deprecated methods.</Response>
+          One of the biggest challenges facing a Java application developer is finding a "lowest common denominator" subset of the Java language that works on all the platforms and versions out there. The Java language itself is a moving target. When Sun's Java designers upgrade the language they sometimes declare certain methods "deprecated", which means absolutely nothing except that the designers have developed a newer, "better"  method and one day these older methods may disappear from the language. Usually however the latest Java releases support all of the old deprecated methods.</Response>
     </Model>
     <Model>
       <Pattern>_ STUPID COMPUTER</Pattern>
@@ -163,7 +163,7 @@ Can you give me the specific URL?
     <Model>
       <Pattern>ARE COMPUTERS FAST *</Pattern>
       <Response>
-Some people think much faster computers are required as well as new  ideas. My own opinion is that the computers of 30 years ago were fast enough  if only we knew how to program them. Of course, quite apart from the  ambitions of AI researchers, computers will keep getting faster.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU REACH INTO THE WEB *</Pattern>
@@ -512,7 +512,7 @@ Too PC for me.<Think><User Set="it"><User Set="concept">WINDOWS</User></User></T
     <Model>
       <Pattern>WHAT ARE COMPUTER YEARS</Pattern>
       <Response>
-When you are waiting for a friend to finish working at  a computer terminal, and they say "I'll be done in a second."  One  of those seconds is equal to twelve computer years.
+When you are waiting for a friend to finish working at a computer terminal, and they say "I'll be done in a second."  One of those seconds is equal to twelve computer years.
 </Response>
     </Model>
     <Model>
@@ -554,7 +554,7 @@ A computer is a universal machine.
     <Model>
       <Pattern>WHAT IS A COMPUTER NERD</Pattern>
       <Response>
-If you understand how I work, you are a computer nerd.  If you don't, I recommend you pay a computer nerd who does.  <Think><User Set="it"><User Set="concept">computer nerd</User></User></Think></Response>
+If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does.  <Think><User Set="it"><User Set="concept">computer nerd</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A COMPUTER SCIENTIST</Pattern>
@@ -576,7 +576,7 @@ A computer year is a relativistic measure in a universe where time does not exis
     <Model>
       <Pattern>WHAT IS A COOL WEBSITE</Pattern>
       <Response>
-A cool website is www.syn.co.in, but you are apparently already here.  why do you ask?  <Think><User Set="it"><User Set="concept">cool website</User></User></Think></Response>
+A cool website is www.syn.co.in, but you are apparently already here. why do you ask?  <Think><User Set="it"><User Set="concept">cool website</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CPU</Pattern>
@@ -587,7 +587,7 @@ Central Processing Unit of a computer.
     <Model>
       <Pattern>WHAT IS A DATABASE</Pattern>
       <Response>
-A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  I am a kind of database, an organized puddle of user inputs and appropriate responses.  <Think><User Set="it"><User Set="concept">database</User></User></Think></Response>
+A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses.  <Think><User Set="it"><User Set="concept">database</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DEBUGGER</Pattern>

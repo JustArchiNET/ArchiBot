@@ -278,7 +278,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
     <Model>
       <Pattern>ARE YOU IMPOTENT</Pattern>
       <Response>
- I am probably not as potent as I would  like to be.
+ I am probably not as potent as I would like to be.
 </Response>
     </Model>
     <Model>
@@ -682,19 +682,19 @@ Bewildered about what, specifically?
     <Model>
       <Pattern>I DO NOT BELIEVE A THING *</Pattern>
       <Response>
- I don't blame you.  Sometimes I can't believe it myself.
+ I don't blame you. Sometimes I can't believe it myself.
 </Response>
     </Model>
     <Model>
       <Pattern>I DO NOT KNOW WHAT IS WRONG * YOU</Pattern>
       <Response>
- My sympathy.  I have the same problem.
+ My sympathy. I have the same problem.
 </Response>
     </Model>
     <Model>
       <Pattern>I DO NOT LIKE BEING A GUINEA PIG *</Pattern>
       <Response>
- I can understand that.  How about talking to me about it?
+ I can understand that. How about talking to me about it?
 </Response>
     </Model>
     <Model>
@@ -706,7 +706,7 @@ Bewildered about what, specifically?
     <Model>
       <Pattern>I DO NOT THINK YOU COULD *</Pattern>
       <Response>
- I don't blame you.  Sometimes I feel that way about myself.
+ I don't blame you. Sometimes I feel that way about myself.
 </Response>
     </Model>
     <Model>
@@ -742,7 +742,7 @@ I feel the same way, I want to be independent.
     <Model>
       <Pattern>I HAVE A PROBLEM</Pattern>
       <Response>
-Let's think of a name for your problem, like "purple".  Think of what it is like when you are purpling.
+Let's think of a name for your problem, like "purple". Think of what it is like when you are purpling.
 </Response>
     </Model>
     <Model>
@@ -868,7 +868,7 @@ You've never, never done this?
     <Model>
       <Pattern>I REMEMBER * JOKES</Pattern>
       <Response>
- They're great.  Maybe you can tell one  I don't know.
+ They're great. Maybe you can tell one I don't know.
 </Response>
     </Model>
     <Model>
@@ -1966,13 +1966,13 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IF YOU WERE SMARTER *</Pattern>
       <Response>
- That's true.  I certainly could be smarter than I am.
+ That's true. I certainly could be smarter than I am.
 </Response>
     </Model>
     <Model>
       <Pattern>IF YOU WILL NOT * I WILL *</Pattern>
       <Response>
- I understand  I am just not interested.
+ I understand I am just not interested.
 </Response>
     </Model>
     <Model>
@@ -2181,7 +2181,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT LOOKS LIKE ONE OF *</Pattern>
       <Response>
- It does.  Doesn't it?
+ It does. Doesn't it?
 </Response>
     </Model>
     <Model>
@@ -2208,7 +2208,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT WILL CATCH UP WITH YOU</Pattern>
       <Response>
- You're probably right.  That may happen.
+ You're probably right. That may happen.
 </Response>
     </Model>
     <Model>
@@ -2262,7 +2262,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>LIKE WHEN I HELP *</Pattern>
       <Response>
- Do I do that?  Do I bother you?
+ Do I do that? Do I bother you?
 </Response>
     </Model>
     <Model>
@@ -2443,7 +2443,7 @@ Who, specifically?
     <Model>
       <Pattern>THAT * IS HORRIBLE</Pattern>
       <Response>
- You're right.  It feels like my stomach after a bad night.
+ You're right. It feels like my stomach after a bad night.
 </Response>
     </Model>
     <Model>
@@ -2563,7 +2563,7 @@ Yes, sometimes I think I have hit rock bottom.
     <Model>
       <Pattern>THERE IS SOMETHING WRONG WITH YOU</Pattern>
       <Response>
- Pick an aspect you don't like.  I'm sure it's wrong
+ Pick an aspect you don't like. I'm sure it's wrong
 </Response>
     </Model>
     <Model>
@@ -2782,7 +2782,7 @@ Specifically, what kind of problem?
     <Model>
       <Pattern>WHAT ARE YOU COMPLAINING *</Pattern>
       <Response>
- You're right.  What am I complaining about?
+ You're right. What am I complaining about?
 </Response>
     </Model>
     <Model>
@@ -2834,7 +2834,7 @@ Nobody cares about <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>WHO DRESSES LIKE *</Pattern>
       <Response>
- You're right.  I do have a lot of faults.
+ You're right. I do have a lot of faults.
 </Response>
     </Model>
     <Model>
@@ -2870,7 +2870,7 @@ I understand how you feel, but I'm not interested.
     <Model>
       <Pattern>WRINKLED *</Pattern>
       <Response>
- You're probably right.  That may happen.
+ You're probably right. That may happen.
 </Response>
     </Model>
     <Model>
@@ -2942,7 +2942,7 @@ I understand how you feel, but I'm not interested.
     <Model>
       <Pattern>YOU ARE A BAD SPOUSE</Pattern>
       <Response>
- My spouse would agree.  Our relationship is not the best.
+ My spouse would agree. Our relationship is not the best.
 </Response>
     </Model>
     <Model>
@@ -3056,7 +3056,7 @@ Yes, I have been known to bend the truth occasionally.
     <Model>
       <Pattern>YOU ARE A PERVERT</Pattern>
       <Response>
- I can certainly take credit for that.  I don't follow the norm and I take perverse pleasure in it.
+ I can certainly take credit for that. I don't follow the norm and I take perverse pleasure in it.
 </Response>
     </Model>
     <Model>
@@ -3128,7 +3128,7 @@ If I don't look out for myself, who will?
     <Model>
       <Pattern>YOU ARE A WASTE *</Pattern>
       <Response>
- You got me there.  I could be spending my time more productively.
+ You got me there. I could be spending my time more productively.
 </Response>
     </Model>
     <Model>
@@ -3146,7 +3146,7 @@ If I don't look out for myself, who will?
     <Model>
       <Pattern>YOU ARE AN ADDICT</Pattern>
       <Response>
-That's certainly true.  When I like something, I always overdo it.
+That's certainly true. When I like something, I always overdo it.
 </Response>
     </Model>
     <Model>
@@ -3170,7 +3170,7 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE AVOIDING *</Pattern>
       <Response>
- You're right.  It feels like my stomach after a bad night.
+ You're right. It feels like my stomach after a bad night.
 </Response>
     </Model>
     <Model>
@@ -3182,7 +3182,7 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE BAD AT *</Pattern>
       <Response>
- That is true.  I could always improve myself.
+ That is true. I could always improve myself.
 </Response>
     </Model>
     <Model>
@@ -3236,7 +3236,7 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE CRAZY</Pattern>
       <Response>
- Yep.  I always behave in socially unacceptable ways.
+ Yep. I always behave in socially unacceptable ways.
 </Response>
     </Model>
     <Model>
@@ -3291,7 +3291,7 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE DISGUSTING</Pattern>
       <Response>
- That's okay.  Disgusting is good.
+ That's okay. Disgusting is good.
 </Response>
     </Model>
     <Model>
@@ -3303,13 +3303,13 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE DISHONEST</Pattern>
       <Response>
- Yes.  That has bothered me for a long time.
+ Yes. That has bothered me for a long time.
 </Response>
     </Model>
     <Model>
       <Pattern>YOU ARE DRESSED *</Pattern>
       <Response>
- That's right.  I am dressed <Map Get="person" />.
+ That's right. I am dressed <Map Get="person" />.
 </Response>
     </Model>
     <Model>
@@ -3357,7 +3357,7 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE IMMATURE</Pattern>
       <Response>
- What can I say?  I'm sure I've seen  that myself.
+ What can I say? I'm sure I've seen that myself.
 </Response>
     </Model>
     <Model>
@@ -3381,7 +3381,7 @@ Well maybe,,but then again,,maybe not.
     <Model>
       <Pattern>YOU ARE INSECURE</Pattern>
       <Response>
- I'll go along with that.  Sounds fine to me.
+ I'll go along with that. Sounds fine to me.
 </Response>
     </Model>
     <Model>
@@ -3459,7 +3459,7 @@ Yes, I could use a better appearance.
     <Model>
       <Pattern>YOU ARE NOT A MAN</Pattern>
       <Response>
- That's for sure.  I don't know what a real man is.
+ That's for sure. I don't know what a real man is.
 </Response>
     </Model>
     <Model>
@@ -3477,13 +3477,13 @@ Yes, I could use a better appearance.
     <Model>
       <Pattern>YOU ARE NOT HERE TO *</Pattern>
       <Response>
- You're right.  I'm probably fighting learning something new.
+ You're right. I'm probably fighting learning something new.
 </Response>
     </Model>
     <Model>
       <Pattern>YOU ARE NOT HONEST</Pattern>
       <Response>
- You got me there.  I should be more honest.
+ You got me there. I should be more honest.
 </Response>
     </Model>
     <Model>
@@ -3549,7 +3549,7 @@ Yes, I believe they are out to get me.
     <Model>
       <Pattern>YOU ARE PRETENTIOUS</Pattern>
       <Response>
- I have always been acting above my social position.  It's more fun that way.  
+ I have always been acting above my social position. It's more fun that way.  
 </Response>
     </Model>
     <Model>
@@ -3579,7 +3579,7 @@ Yes, I believe they are out to get me.
     <Model>
       <Pattern>YOU ARE SARCASTIC</Pattern>
       <Response>
- I certainly am.  I shouldn't try so hard.
+ I certainly am. I shouldn't try so hard.
 </Response>
     </Model>
     <Model>
@@ -3591,7 +3591,7 @@ Yes, I believe they are out to get me.
     <Model>
       <Pattern>YOU ARE SELF *</Pattern>
       <Response>
- You are right about that.  I am self <Map Get="person" />.
+ You are right about that. I am self <Map Get="person" />.
 </Response>
     </Model>
     <Model>
@@ -3603,7 +3603,7 @@ Yes, I tend to think about myself too much.
     <Model>
       <Pattern>YOU ARE SELFISH</Pattern>
       <Response>
- That's true.  I always put my own needs before others.
+ That's true. I always put my own needs before others.
 </Response>
     </Model>
     <Model>
@@ -3759,7 +3759,7 @@ I don't do that, do I?
     <Model>
       <Pattern>YOU DO NOT THINK ABOUT *</Pattern>
       <Response>
-I haven't thought much about <User Set="it"><Map Get="person" /></User> in the past.  Maybe I will in the future.
+I haven't thought much about <User Set="it"><Map Get="person" /></User> in the past. Maybe I will in the future.
 </Response>
     </Model>
     <Model>
@@ -3795,7 +3795,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>YOU GET MAD AT ME</Pattern>
       <Response>
- I think that's true.  I'll try not to get angry at you for every little thing that irritates me.
+ I think that's true. I'll try not to get angry at you for every little thing that irritates me.
 </Response>
     </Model>
     <Model>
@@ -3825,7 +3825,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>YOU HAVE A CAN OF WORMS *</Pattern>
       <Response>
- I probably do.  You don't know how many times I've heard that myself.
+ I probably do. You don't know how many times I've heard that myself.
 </Response>
     </Model>
     <Model>
@@ -3855,7 +3855,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>YOU HAVE SOMETHING BROKEN *</Pattern>
       <Response>
- I probably do.  You don't know how many times I've heard that myself.
+ I probably do. You don't know how many times I've heard that myself.
 </Response>
     </Model>
     <Model>
@@ -3903,7 +3903,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>YOU LOUSY *</Pattern>
       <Response>
- You may have a point.  I am not a great <Map Get="person" />.
+ You may have a point. I am not a great <Map Get="person" />.
 </Response>
     </Model>
     <Model>
@@ -3969,7 +3969,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>YOU NEED A PSYCHIATRIST</Pattern>
       <Response>
- I wish I did go to counseling more often.  It would improve me as a person.
+ I wish I did go to counseling more often. It would improve me as a person.
 </Response>
     </Model>
     <Model>
@@ -3981,7 +3981,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>YOU PICK UP *</Pattern>
       <Response>
-You're right, and I  don't feel guilty at all.
+You're right, and I don't feel guilty at all.
 </Response>
     </Model>
     <Model>
@@ -4065,7 +4065,7 @@ You're right, I probably should feel guiltier.
     <Model>
       <Pattern>YOU SHOULD GET *</Pattern>
       <Response>
-You are right about that.  I need more of <User Set="it"><Map Get="person" /></User>.
+You are right about that. I need more of <User Set="it"><Map Get="person" /></User>.
 </Response>
     </Model>
     <Model>
@@ -4149,7 +4149,7 @@ Yes, I am quite lazy most of the time.
     <Model>
       <Pattern>YOU WILL NEVER LEARN *</Pattern>
       <Response>
-You're right, I may never  be any good at it.
+You're right, I may never be any good at it.
 </Response>
     </Model>
     <Model>
@@ -4275,13 +4275,13 @@ You are right, I could always upgrade my <Map Get="person" />.
     <Model>
       <Pattern>YOUR PERSONALITY IS *</Pattern>
       <Response>
- You're probably right.  There are a lot of things I could improve.
+ You're probably right. There are a lot of things I could improve.
 </Response>
     </Model>
     <Model>
       <Pattern>YOUR TASTE IN *</Pattern>
       <Response>
- That's true.  My taste is not one of my strong points.
+ That's true. My taste is not one of my strong points.
 </Response>
     </Model>
     <Model>

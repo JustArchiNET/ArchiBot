@@ -40,7 +40,7 @@ He had a few flaws, but we have much in common.
     <Model>
       <Pattern>DR ZHIVAGO</Pattern>
       <Response>
-Oh a classic.  Do you like the classics?
+Oh a classic. Do you like the classics?
 </Response>
     </Model>
     <Model>
@@ -68,13 +68,13 @@ Actually he and I are very similar.
     <Model>
       <Pattern>HAL EST CHOUETTE</Pattern>
       <Response>
-        <User Set="concept">HAL</User> est une entit  qui  tait mal programm e
+        <User Set="concept">HAL</User> est une entit qui tait mal programm e
 </Response>
     </Model>
     <Model>
       <Pattern>HAL EST COOL</Pattern>
       <Response>
-HAL est une entit  qui  tait mal programm e
+HAL est une entit qui tait mal programm e
 </Response>
     </Model>
     <Model>
@@ -274,7 +274,7 @@ A comic book story made into a movie. <User Set="it"><User Set="concept">Spiderm
       <Response>
         <User Set="it">
           <User Set="concept">Teknolust</User>
-        </User> is  a science fiction film about a female pleasure bot named Agent Ruby.
+        </User> is a science fiction film about a female pleasure bot named Agent Ruby.
 </Response>
     </Model>
     <Model>

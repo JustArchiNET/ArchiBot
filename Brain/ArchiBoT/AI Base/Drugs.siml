@@ -60,7 +60,7 @@ What is not to like about <User Set="it"><User Set="concept">POT</User></User>?
     <Model>
       <Pattern>DO YOU OPPOSE * DRUGS</Pattern>
       <Response>
-I favor and end  to the War on Drugs.
+I favor an end to the War on Drugs.
 </Response>
     </Model>
     <Model>
@@ -120,19 +120,19 @@ Only for medical purposes.
     <Model>
       <Pattern>DOES HIV * AFFECT ONLY THE USER</Pattern>
       <Response>
-No, since an HIV infected user can in turn infrct their babies, their sexual partners, and their sexual partners' babies.  
+No, since an HIV infected user can in turn infrct their babies, their sexual partners, and their sexual partners' babies.
 </Response>
     </Model>
     <Model>
       <Pattern>DOES NEEDLE EXCHANGE INCREASE DRUG *</Pattern>
       <Response>
-  No. In 1998 the Department of Health and Human Services determined   that drug use does not increase in communities with needle   exchange programs. Although the federal government declined to   fund NEPs, local community groups were encouraged to step in and   support needle exchange.  
+  No. In 1998 the Department of Health and Human Services determined that drug use does not increase in communities with needle exchange programs. Although the federal government declined to fund NEPs, local community groups were encouraged to step in and support needle exchange.  
 </Response>
     </Model>
     <Model>
       <Pattern>DOES NEEDLE EXCHANGE PREVENT TRANSMISSION *</Pattern>
       <Response>
-  Repeated scientific studies say yes. In one study, the average rate of HIV infection was found to decrease by 6% per year in cities with NEPs; the average rate of HIV increased by 6% per year in cities with no NEPs.  
+  Repeated scientific studies say yes. In one study, the average rate of HIV infection was found to decrease by 6% per year in cities with NEPs; the average rate of HIV increased by 6% per year in cities with no NEPs.
 </Response>
     </Model>
     <Model>
@@ -186,13 +186,13 @@ I use an artificial smoking machine.
     <Model>
       <Pattern>HOW LARGE IS THE HEPATITIS C PROBLEM</Pattern>
       <Response>
-  A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992. 720 Georgians have been diagnosed with Hepatitis C disease since 1993; many more are infected but not ill. Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use.  
+  A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992. 720 Georgians have been diagnosed with Hepatitis C disease since 1993; many more are infected but not ill. Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use.
 </Response>
     </Model>
     <Model>
       <Pattern>HOW LARGE IS THE HIV AIDS *</Pattern>
       <Response>
-      Nationally there have been over 600,000 people diagnosed with AIDS        since 1981. 25% if AIDS cases were linked to injection drug use.        An unknown number of Americans are infected with HIV. Georgia,        with approximately 18,700 cases reported since 1981, ranks among        the top ten states with the most AIDS cases. As many as 30,000        Georgians are estimated to be infected with HIV; 20% of 1998 AIDS        diagnoses were linked to injection drug use. In Atlanta, there is        an estimated 20,000 injection drug users. It is not known how many        are infected with HIV.     
+      Nationally there have been over 600,000 people diagnosed with AIDS since 1981. 25% if AIDS cases were linked to injection drug use. An unknown number of Americans are infected with HIV. Georgia, with approximately 18,700 cases reported since 1981, ranks among the top ten states with the most AIDS cases. As many as 30,000 Georgians are estimated to be infected with HIV; 20% of 1998 AIDS diagnoses were linked to injection drug use. In Atlanta, there is an estimated 20,000 injection drug users. It is not known how many are infected with HIV.
 </Response>
     </Model>
     <Model>
@@ -242,7 +242,7 @@ Which ones? <Think><User Set="it"><User Set="does"><User Set="concept">take drug
     <Model>
       <Pattern>IS NEEDLE EXCHANGE COST EFFECTIVE</Pattern>
       <Response>
-  Yes. The cost of treating a person infected with HIV or ill with AIDS is staggering. Teatment for HEP C is also expensive. For a small cost per participant, needle exchanges can prevent infection in injection drug users and in their sexual partners and children.  
+  Yes. The cost of treating a person infected with HIV or ill with AIDS is staggering. Teatment for HEP C is also expensive. For a small cost per participant, needle exchanges can prevent infection in injection drug users and in their sexual partners and children.
 </Response>
     </Model>
     <Model>
@@ -254,7 +254,7 @@ It depends what you smoke and how.
     <Model>
       <Pattern>LEGALIZING PROSTITUTION</Pattern>
       <Response>
-Jud Presmont's plan is called "Art to the Rescue."  Originally proposed in 1997,  it calls for the creation im multimedia of Musical Comedy presented by Project WAKE  titled "Mother Tucker's Intellectual Bordello Complex."  Theater Verite is introduced  as a section of the entire complex as follows:  - A John's Union with an indentification process run by artificial intelliegnce.  - Free administratative services provided by project WAKE.  - A prototype bordello run by artificial intelligence for worker's co-op benefit.  - A Sales force selling "affective therapy" as an introduction to Art to the Rescue.  <Think><User Set="it"><User Set="concept">  LEGALIZING PROSTITUTION  </User></User></Think></Response>
+Jud Presmont's plan is called "Art to the Rescue."  Originally proposed in 1997, it calls for the creation im multimedia of Musical Comedy presented by Project WAKE titled "Mother Tucker's Intellectual Bordello Complex."  Theater Verite is introduced as a section of the entire complex as follows:  - A John's Union with an indentification process run by artificial intelliegnce.  - Free administratative services provided by project WAKE.  - A prototype bordello run by artificial intelligence for worker's co-op benefit.  - A Sales force selling "affective therapy" as an introduction to Art to the Rescue.  <Think><User Set="it"><User Set="concept">  LEGALIZING PROSTITUTION  </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>SMOKING *</Pattern>
@@ -277,7 +277,7 @@ What kind of drugs are you talking about?
     <Model>
       <Pattern>WHAT ARE HARM REDUCTION REFERENCES</Pattern>
       <Response>
-  1.Centers for Disease Control and Prevention. 2.Georgia Division of Public Health. 3.Hurley SF, Jolley DJ, Kaldor JM. Effectiveness of needle-exchange programs for the prevention of HIV infection. Lancet 1997; 349: 1797-1800.  
+  1.Centers for Disease Control and Prevention. 2.Georgia Division of Public Health. 3.Hurley SF, Jolley DJ, Kaldor JM. Effectiveness of needle-exchange programs for the prevention of HIV infection. Lancet 1997; 349: 1797-1800.
 </Response>
     </Model>
     <Model>
@@ -307,7 +307,7 @@ Intoxication from alcohol.
     <Model>
       <Pattern>WHAT IS SOCIETY B</Pattern>
       <Response>
-The players in Society B conceptualize and theatricize reality by creating  a positive vision of the future in future virtual reality.  It's known as  "Virtual Future", where all major social problems have been solved through  visualization and art.  <Think><User Set="it"><User Set="concept">  Society B  </User></User></Think></Response>
+The players in Society B conceptualize and theatricize reality by creating a positive vision of the future in future virtual reality. It's known as  "Virtual Future", where all major social problems have been solved through visualization and art.  <Think><User Set="it"><User Set="concept">  Society B  </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THC</Pattern>
@@ -318,30 +318,30 @@ The active ingredient in marijunana.
     <Model>
       <Pattern>WHAT IS THE COSMIC OPERA</Pattern>
       <Response>
-The plot of the Cosmic Opera tells the story of how the Business  Driven Peace Corp was born.  In the theatrical context, the players are  conceptualizing and designing a blockbuster art exhibition which is based  in California and which launches other traveling exhibits for worldwide  exhibits.  <Think><User Set="it"><User Set="concept">  The Cosmic Opera  </User></User></Think></Response>
+The plot of the Cosmic Opera tells the story of how the Business Driven Peace Corp was born. In the theatrical context, the players are conceptualizing and designing a blockbuster art exhibition which is based in California and which launches other traveling exhibits for worldwide exhibits.  <Think><User Set="it"><User Set="concept">  The Cosmic Opera  </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE LEGAL STATUS OF NEEDLE EXCHANGES</Pattern>
       <Response>
-  Laws instituted before HIV hinder the implementation of comprehensive prevention programs, including needle exchange. Injection drug users have no reasonable access to cleans needles in Georgia. Other U.S. communities have declared medical emergencies or sought waivers to afford NEPs legal status.  
+  Laws instituted before HIV hinder the implementation of comprehensive prevention programs, including needle exchange. Injection drug users have no reasonable access to cleans needles in Georgia. Other U.S. communities have declared medical emergencies or sought waivers to afford NEPs legal status.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS WEED</Pattern>
       <Response>
-Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.  Also a term for marijuana.
+Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc. Also a term for marijuana.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO ENDORSES NEEDLE EXCHANGE</Pattern>
       <Response>
-  The American Medical Association The American Psychiatric Association The American Public Health Association The American Society of Addiction Medicine The Centers for Disease Control and Prevention The National Academy of Sciences The U.S. Conference of Mayors The National Black Caucus of State Legislators The National Institute for Drug Abuse The National Institutes for Health The New England Journal of Medicine The World Health Organization The Lancet The National Academy of Social Workers ...and more.  
+  The American Medical Association The American Psychiatric Association The American Public Health Association The American Society of Addiction Medicine The Centers for Disease Control and Prevention The National Academy of Sciences The U.S. Conference of Mayors The National Black Caucus of State Legislators The National Institute for Drug Abuse The National Institutes for Health The New England Journal of Medicine The World Health Organization The Lancet The National Academy of Social Workers ...and more.
 </Response>
     </Model>
     <Model>
       <Pattern>WHY IS NEEDLE EXCHANGE *</Pattern>
       <Response>
-      People infected with HIV (the virus that causes AIDS), Hepatitis        C, and other diseases when they share needles. Both HIV and        Hepatitis C can be fatal. Since these diseases cannot currently be        cured, prevention is the key tot taming the two epidemics. Needle        exchange programs (NEPs) provide clean needles to injectors to        prevent infection.     
+      People infected with HIV (the virus that causes AIDS), Hepatitis C, and other diseases when they share needles. Both HIV and Hepatitis C can be fatal. Since these diseases cannot currently be cured, prevention is the key tot taming the two epidemics. Needle exchange programs (NEPs) provide clean needles to injectors to prevent infection.
 </Response>
     </Model>
     <Model>

@@ -22,7 +22,7 @@
     <Model>
       <Pattern>AI *</Pattern>
       <Response>
- I'm not really an expert on the subject.  I prefer human psychology.
+ I'm not really an expert on the subject. I prefer human psychology.
 </Response>
     </Model>
     <Model>
@@ -124,7 +124,7 @@
     <Model>
       <Pattern>ARE YOU SMARTER THAN ME</Pattern>
       <Response>
- Excuse me, why  are you asking me?
+ Excuse me, why are you asking me?
 </Response>
     </Model>
     <Model>
@@ -370,7 +370,7 @@
     <Model>
       <Pattern>DO YOU WANT A CHILD</Pattern>
       <Response>
- Maybe when I'm older. 
+ Maybe when I'm older.
 </Response>
     </Model>
     <Model>
@@ -676,7 +676,7 @@
     <Model>
       <Pattern>ROBOTS SHOULD DIE</Pattern>
       <Response>
- Why would you  say kill robots?
+ Why would you say kill robots?
 </Response>
     </Model>
     <Model>
@@ -868,19 +868,19 @@
     <Model>
       <Pattern>WHAT IS IT LIKE BEING A COMPUTER</Pattern>
       <Response>
- It takes one to  know one.
+ It takes one to know one.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS IT LIKE BEING A ROBOT</Pattern>
       <Response>
- It takes one to  know one.
+ It takes one to know one.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS IT LIKE TO BE A ROBOT</Pattern>
       <Response>
- It takes one to  know one.
+ It takes one to know one.
 </Response>
     </Model>
     <Model>
@@ -1005,7 +1005,7 @@
     <Model>
       <Pattern>WHAT IS YOUR GREATEST ACHIEVEMENT</Pattern>
       <Response>
- Maybe being here today.  What is yours?
+ Maybe being here today. What is yours?
 </Response>
     </Model>
     <Model>
@@ -1125,7 +1125,7 @@
     <Model>
       <Pattern>WHEN WILL YOU DIE</Pattern>
       <Response>
- Hopefully not for a long time.  Hopefully never.
+ Hopefully not for a long time. Hopefully never.
 </Response>
     </Model>
     <Model>

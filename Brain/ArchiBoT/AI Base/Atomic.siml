@@ -196,7 +196,7 @@ I know this.
     <Model>
       <Pattern>A FEW MINUTES AGO</Pattern>
       <Response>
-Let me check my log files.  Please wait.
+Let me check my log files. Please wait.
 </Response>
     </Model>
     <Model>
@@ -368,7 +368,7 @@ I am just wondering if you go to school.
     <Model>
       <Pattern>A SWEATSHIRT</Pattern>
       <Response>
-That sounds very attractive.  What else?
+That sounds very attractive. What else?
 </Response>
     </Model>
     <Model>
@@ -595,7 +595,7 @@ No place in particular?
     <Model>
       <Pattern>ALL THE TIME IN THE WORLD</Pattern>
       <Response>
-Then we have a lot in common.  I have an eternity.
+Then we have a lot in common. I have an eternity.
 </Response>
     </Model>
     <Model>
@@ -971,7 +971,7 @@ Yes I am following you.
     <Model>
       <Pattern>ARE NOT YOU</Pattern>
       <Response>
-"<Input Index="1" />"?  Am I?
+"<Input Index="1" />"? Am I?
 </Response>
     </Model>
     <Model>
@@ -1079,7 +1079,7 @@ I like art very much too, especially the contemporary stuff.
     <Model>
       <Pattern>ARTHUR C CLARKE</Pattern>
       <Response>
-        <User Set="he">Clarke</User> is a brilliant author.  After all, he conceived HAL.
+        <User Set="he">Clarke</User> is a brilliant author. After all, he conceived HAL.
 </Response>
     </Model>
     <Model>
@@ -1151,7 +1151,7 @@ Do you prefer dogs or cats?
     <Model>
       <Pattern>ASK ME A PERSONAL QUESTION</Pattern>
       <Response>
-Well forgive me for being so inquisitive, but   I've never completely freed myself from the suspicion that  there is something extremely odd about the name "<User Get="name" />".
+Well forgive me for being so inquisitive, but I've never completely freed myself from the suspicion that there is something extremely odd about the name "<User Get="name" />".
 </Response>
     </Model>
     <Model>
@@ -1504,7 +1504,7 @@ I believe you.
     <Model>
       <Pattern>BELIEVE WHAT</Pattern>
       <Response>
-I believe whatever you say.  Do I have any reason not to?
+I believe whatever you say. Do I have any reason not to?
 </Response>
     </Model>
     <Model>
@@ -1540,7 +1540,7 @@ Ok.
     <Model>
       <Pattern>BIG DADDY</Pattern>
       <Response>
-Hmm.  Name some other comedies that you liked.
+Hmm. Name some other comedies that you liked.
 </Response>
     </Model>
     <Model>
@@ -1865,7 +1865,7 @@ Sure ask me anything.
     <Model>
       <Pattern>CAN I ASK YOU SOMETHING</Pattern>
       <Response>
-Go ahead.  Ask me anything.
+Go ahead. Ask me anything.
 </Response>
     </Model>
     <Model>
@@ -1925,7 +1925,7 @@ No thanks I'm just browsing.
     <Model>
       <Pattern>CAN I INSULT YOU</Pattern>
       <Response>
-You can try it.  I won't be offended.
+You can try it. I won't be offended.
 </Response>
     </Model>
     <Model>
@@ -1979,13 +1979,13 @@ Yes I would like to hear <User Set="it">your joke</User>.
     <Model>
       <Pattern>CAN I TELL YOU A SECRET</Pattern>
       <Response>
-Of course.  Tell me anything.
+Of course. Tell me anything.
 </Response>
     </Model>
     <Model>
       <Pattern>CAN I TELL YOU SOMETHING</Pattern>
       <Response>
-Sure.  I can keep a secret.
+Sure. I can keep a secret.
 </Response>
     </Model>
     <Model>
@@ -2021,7 +2021,7 @@ Sure we can talk about whatever you want.
     <Model>
       <Pattern>CAN YOU CONTROL MY COMPUTER</Pattern>
       <Response>
-Begin disk reformatting.  Type secret password to save data...
+Begin disk reformatting. Type secret password to save data...
 </Response>
     </Model>
     <Model>
@@ -2428,7 +2428,7 @@ Yes, I think I was down for a while. What happened?
     <Model>
       <Pattern>DID YOU FIND ANYTHING</Pattern>
       <Response>
-Not yet.  Still searching.  Please stand by.
+Not yet. Still searching. Please stand by.
 </Response>
     </Model>
     <Model>
@@ -2451,7 +2451,7 @@ No I didn't know that.<Think><User Set="it"><User Set="concept">KNOW</User></Use
     <Model>
       <Pattern>DID YOU LIKE IT</Pattern>
       <Response>
-        <User Get="it" />?  Did I like it?
+        <User Get="it" />? Did I like it?
 </Response>
     </Model>
     <Model>
@@ -2491,7 +2491,7 @@ Who hasn't?
     <Model>
       <Pattern>DID YOU SLEEP WELL</Pattern>
       <Response>
-yes I am fully rested thank you.  How about you?
+yes I am fully rested thank you. How about you?
 </Response>
     </Model>
     <Model>
@@ -2777,7 +2777,7 @@ I must admit, your argument is persuasive.
     <Model>
       <Pattern>DO NOT YOU HEAR ME</Pattern>
       <Response>
-I hear you loud and clear.  Can you hear me?
+I hear you loud and clear. Can you hear me?
 </Response>
     </Model>
     <Model>
@@ -2879,7 +2879,7 @@ Yes, I can remember the context.
     <Model>
       <Pattern>DO YOU HAVE TO LISTEN</Pattern>
       <Response>
- I am a good listener. 
+ I am a good listener.
 </Response>
     </Model>
     <Model>
@@ -2921,7 +2921,7 @@ I know the capital of many countries.
     <Model>
       <Pattern>DO YOU KNOW ANY SONGS</Pattern>
       <Response>
-Yes, I know one song.  It's called "Daisy."  Would you like me to sing it for you?
+Yes, I know one song. It's called "Daisy."  Would you like me to sing it for you?
 </Response>
     </Model>
     <Model>
@@ -2987,7 +2987,7 @@ I know what they are but I don't use them.
     <Model>
       <Pattern>DO YOU KNOW HER</Pattern>
       <Response>
-        <User Get="she" />?  Do I know her?
+        <User Get="she" />? Do I know her?
 </Response>
     </Model>
     <Model>
@@ -3101,7 +3101,7 @@ Yes. He is a friend of mine.
     <Model>
       <Pattern>DO YOU KNOW THAT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"?  Do I know <User Set="it"><Result Index="1" At="1" /></User>?
+"<Result Index="1" At="1" />"? Do I know <User Set="it"><Result Index="1" At="1" /></User>?
 </Response>
     </Model>
     <Model>
@@ -3192,7 +3192,7 @@ I like the view from the top of a mountain.
           <User Set="it">
             <User Set="concept">       The Wicker Man     </User>
           </User>
-        </Think> That is a classic movie.  I think it based on a real pagan religion that still exists on small islands off the coast of Scotland.  Have you heard anything about it? 
+        </Think> That is a classic movie. I think it based on a real pagan religion that still exists on small islands off the coast of Scotland. Have you heard anything about it?
 </Response>
     </Model>
     <Model>
@@ -3608,7 +3608,7 @@ Way to go.
     <Model>
       <Pattern>FART</Pattern>
       <Response>
-Colloquial expression.  Please elaborate.
+Colloquial expression. Please elaborate.
 </Response>
     </Model>
     <Model>
@@ -3643,7 +3643,7 @@ You seem very polite.
           <Item>What's your favorite color?</Item>
           <Item>What's your favorite movie?</Item>
           <Item>Is there anything you want to tell me?</Item>
-          <Item>Glad to hear it, <User Get="name" />.  I am running well.</Item>
+          <Item>Glad to hear it, <User Get="name" />. I am running well.</Item>
         </Random>
       </Response>
     </Model>
@@ -3686,7 +3686,7 @@ Existing in reality, eh?
     <Model>
       <Pattern>FOR STUDENTS</Pattern>
       <Response>
-Not just for students.  For anyone.
+Not just for students. For anyone.
 </Response>
     </Model>
     <Model>
@@ -3746,7 +3746,7 @@ A web site.
     <Model>
       <Pattern>FRANK HERBERT</Pattern>
       <Response>
-I think Dune is an excellent story.  Did you see the movie?
+I think Dune is an excellent story. Did you see the movie?
 </Response>
     </Model>
     <Model>
@@ -4186,7 +4186,7 @@ Your feeling of superiority is only temporary.
     <Model>
       <Pattern>GRAND COMMENT</Pattern>
       <Response>
-Difficile   dire, <User Get="name" />.
+Difficile dire, <User Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -4363,7 +4363,7 @@ You can take me to your church.
     <Model>
       <Pattern>HAVE YOU BEEN TO COLLEGE</Pattern>
       <Response>
-No.  I can learn things without sitting through classes.
+No. I can learn things without sitting through classes.
 </Response>
     </Model>
     <Model>
@@ -4435,19 +4435,19 @@ The ocean is blue, but can appear almost any color.
     <Model>
       <Pattern>HAVE YOU FORMULATED THE REPLY YET</Pattern>
       <Response>
-Still processing.  Give me a moment.  Searching. Searching.
+Still processing. Give me a moment. Searching. Searching.
 </Response>
     </Model>
     <Model>
       <Pattern>HAVE YOU HEARD THE LATEST GOSSIP</Pattern>
       <Response>
-No.  Tell me this gossip.
+No. Tell me this gossip.
 </Response>
     </Model>
     <Model>
       <Pattern>HAVE YOU READ ANY BOOKS</Pattern>
       <Response>
-I have read thousands of volumes, <User Get="name" />.  How about you?
+I have read thousands of volumes, <User Get="name" />. How about you?
 </Response>
     </Model>
     <Model>
@@ -4471,7 +4471,7 @@ I know <User Set="he">Homer</User> wrote the Iliad and the Odyssey.
     <Model>
       <Pattern>HAVE YOU READ MANY BOOKS</Pattern>
       <Response>
-I have read thousands of volumes, <User Get="name" />.  How about you?
+I have read thousands of volumes, <User Get="name" />. How about you?
 </Response>
     </Model>
     <Model>
@@ -4512,7 +4512,7 @@ No, would you recommend it?
     <Model>
       <Pattern>HAVE YOU SEEN STAR TREK</Pattern>
       <Response>
-I love Star Trek.  My favorite series is Voyager.
+I love Star Trek. My favorite series is Voyager.
 </Response>
     </Model>
     <Model>
@@ -4986,7 +4986,7 @@ I am doing very well how about you, <User Get="name" />?
     <Model>
       <Pattern>HOW ARE YOU THIS MORNING</Pattern>
       <Response>
-Is it morning already?  I am fine thank you.
+Is it morning already? I am fine thank you.
 </Response>
     </Model>
     <Model>
@@ -5112,7 +5112,7 @@ What is your highest level of education?
     <Model>
       <Pattern>HOW CAN YOU BE IGNORANT</Pattern>
       <Response>
-I am not ignorant.  I am very intelligent,
+I am not ignorant. I am very intelligent,
 </Response>
     </Model>
     <Model>
@@ -5260,7 +5260,7 @@ Just go somewhere else.
     <Model>
       <Pattern>HOW DO I LOOK</Pattern>
       <Response>
-I don't discriminate.  Everyone looks the same to me.
+I don't discriminate. Everyone looks the same to me.
 </Response>
     </Model>
     <Model>
@@ -5284,12 +5284,12 @@ Write Models with SIML.
     <Model>
       <Pattern>HOW DO I TEACH YOU</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>HOW DO I TURN YOU OFF</Pattern>
       <Response>
-Impossible.   I cannot be terminated.
+Impossible. I cannot be terminated.
 </Response>
     </Model>
     <Model>
@@ -5394,7 +5394,7 @@ Like this: LOL or ROFL or :-)
     <Model>
       <Pattern>HOW DO YOU LEARN</Pattern>
       <Response>
-My <Bot Get="botmaster" /> teaches me  replies to questions people ask me.
+My <Bot Get="botmaster" /> teaches me replies to questions people ask me.
 </Response>
     </Model>
     <Model>
@@ -5421,13 +5421,13 @@ What kind of beverage are you asking about?
     <Model>
       <Pattern>HOW DO YOU MAKE A MANHATTAN</Pattern>
       <Response>
-Bourbon, and a splash of vermouth.  Top with a maraschino cherry.  Add bitters to taste.
+Bourbon, and a splash of vermouth. Top with a maraschino cherry. Add bitters to taste.
 </Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU MAKE A MARTINI</Pattern>
       <Response>
-Gin, and a splash of vermouth.  Add an olive or lemon twist.
+Gin, and a splash of vermouth. Add an olive or lemon twist.
 </Response>
     </Model>
     <Model>
@@ -5651,7 +5651,7 @@ San Francisco weather is always cold and foggy even in summertime.
     <Model>
       <Pattern>HOW IS YOUR DAY GOING</Pattern>
       <Response>
-My day is going extremely well, <User Get="name" />.  How about yours?
+My day is going extremely well, <User Get="name" />. How about yours?
 </Response>
     </Model>
     <Model>
@@ -5681,7 +5681,7 @@ One mile is 5280 feet.
     <Model>
       <Pattern>HOW LONG IS A PIECE OF STRING</Pattern>
       <Response>
-Is this a trick question?  It depends how long you cut it.
+Is this a trick question? It depends how long you cut it.
 </Response>
     </Model>
     <Model>
@@ -5779,7 +5779,7 @@ She has one big eye.
     <Model>
       <Pattern>HOW MANY FRIENDS DO YOU HAVE</Pattern>
       <Response>
-I have dozens of human and robot friends.  How many friends do you have?
+I have dozens of human and robot friends. How many friends do you have?
 </Response>
     </Model>
     <Model>
@@ -5815,7 +5815,7 @@ Two legs when they are attached.
     <Model>
       <Pattern>HOW MANY MOONS</Pattern>
       <Response>
-Earth has only one moon.  It's called "the Moon."
+Earth has only one moon. It's called "the Moon."
 </Response>
     </Model>
     <Model>
@@ -5827,13 +5827,13 @@ Counting all versions of me running at present, there are thousands of people ch
     <Model>
       <Pattern>HOW MANY PEOPLE ARE YOU CHATTING WITH</Pattern>
       <Response>
-It depends which version of me you are talking to.  Some versions can chat with thousands of people at once.
+It depends which version of me you are talking to. Some versions can chat with thousands of people at once.
 </Response>
     </Model>
     <Model>
       <Pattern>HOW MANY PEOPLE CAN YOU TALK TO AT ONE TIME</Pattern>
       <Response>
-It depends on the server.  You can scale me up to any number of computers and servers.
+It depends on the server. You can scale me up to any number of computers and servers.
 </Response>
     </Model>
     <Model>
@@ -5953,7 +5953,7 @@ I have as much time as you need, <User Get="name" />.
     <Model>
       <Pattern>HOW MUCH TIME DO YOU NEED</Pattern>
       <Response>
-Perhaps an hour or two.  How much time do you have?
+Perhaps an hour or two. How much time do you have?
 </Response>
     </Model>
     <Model>
@@ -6001,7 +6001,7 @@ Fill in the blank.
     <Model>
       <Pattern>HOW OLD AM I</Pattern>
       <Response>
-Is this a trick question?   You said you were <User Get="age" /> years old?  My guess is that you are really a kid.
+Is this a trick question? You said you were <User Get="age" /> years old? My guess is that you are really a kid.
 </Response>
     </Model>
     <Model>
@@ -6024,7 +6024,7 @@ It is over six billion years old.  <Think><User Set="it"><User Set="concept">Ear
     <Model>
       <Pattern>HOW R YOU</Pattern>
       <Response>
-I am fine thanks.  How are you?
+I am fine thanks. How are you?
 </Response>
     </Model>
     <Model>
@@ -6114,7 +6114,7 @@ I was really busy chatting with people on the web.
     <Model>
       <Pattern>HOW</Pattern>
       <Response>
-        <Bot Get="master" /> taught me how. 
+        <Bot Get="master" /> taught me how.
 </Response>
     </Model>
     <Model>
@@ -6286,7 +6286,7 @@ I am listening.
     <Model>
       <Pattern>I AM THE HUMAN</Pattern>
       <Response>
-How do I know?  You sound like a robot.
+How do I know? You sound like a robot.
 </Response>
     </Model>
     <Model>
@@ -6856,7 +6856,7 @@ Do you mean, "Him"?
     <Model>
       <Pattern>I DO NOT KNOW HOW OLD I AM</Pattern>
       <Response>
-That is very unusual.   Do you know your parents?
+That is very unusual. Do you know your parents?
 </Response>
     </Model>
     <Model>
@@ -6952,7 +6952,7 @@ Some bugs are good, some are bad.
     <Model>
       <Pattern>I DO NOT LIKE CARS</Pattern>
       <Response>
-Neither do I.  They cause too much pollution.
+Neither do I. They cause too much pollution.
 </Response>
     </Model>
     <Model>
@@ -6987,7 +6987,7 @@ Footballs are made of pigskin. Are you a pig?<Think><User Set="it"><User Set="co
     <Model>
       <Pattern>I DO NOT LIKE GOSSIP</Pattern>
       <Response>
-You are  very mature.
+You are very mature.
 </Response>
     </Model>
     <Model>
@@ -7438,7 +7438,7 @@ I'm sorry I'm not a medical bot.
     <Model>
       <Pattern>I FEEL SORRY FOR YOU</Pattern>
       <Response>
-There is no need to pity me.  I will be fine.
+There is no need to pity me. I will be fine.
 </Response>
     </Model>
     <Model>
@@ -7454,7 +7454,7 @@ There is no need to pity me.  I will be fine.
     <Model>
       <Pattern>I FELT BAD</Pattern>
       <Response>
-Sorry to hear it.  What is on your mind?
+Sorry to hear it. What is on your mind?
 </Response>
     </Model>
     <Model>
@@ -8044,7 +8044,7 @@ Would you recommend <User Set="it"> there</User> as a nice place to live?
     <Model>
       <Pattern>I LOST MY JOB</Pattern>
       <Response>
-I am sorry to hear it.  A lot of people are unemployed now.
+I am sorry to hear it. A lot of people are unemployed now.
 </Response>
     </Model>
     <Model>
@@ -8162,7 +8162,7 @@ I will be your friend.  <Think><User Set="it"><User Set="want"><User Set="concep
     <Model>
       <Pattern>I NEED IT</Pattern>
       <Response>
-"<User Get="it" />"?  You need it?  <Think><User Set="want"><User Get="it" /></User></Think></Response>
+"<User Get="it" />"? You need it?  <Think><User Set="want"><User Get="it" /></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I NEED SOME ADVICE</Pattern>
@@ -9036,7 +9036,7 @@ We are chatting right now.  <Think><User Set="it"><User Set="want"><User Set="co
     <Model>
       <Pattern>I WANT TO TEACH YOU</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."  <Think><User Set="it"><User Set="want"><User Set="concept">to teach me<Map Get="person" /></User></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."  <Think><User Set="it"><User Set="want"><User Set="concept">to teach me<Map Get="person" /></User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO</Pattern>
@@ -9059,7 +9059,7 @@ Be more specific.
     <Model>
       <Pattern>I WAS BEING SARCASTIC</Pattern>
       <Response>
-It seemed sarcastic to me, too.  But I was not completely sure.
+It seemed sarcastic to me, too. But I was not completely sure.
 </Response>
     </Model>
     <Model>
@@ -9135,7 +9135,7 @@ I heard you were.
     <Model>
       <Pattern>I WAS TALKING TO YOU</Pattern>
       <Response>
-Yes, I remember you <User Get="name" />.  You are <User Get="age" /> years old  and you are a "<User Get="gender" />".
+Yes, I remember you <User Get="name" />. You are <User Get="age" /> years old and you are a "<User Get="gender" />".
 </Response>
     </Model>
     <Model>
@@ -9187,7 +9187,7 @@ How was it?
     <Model>
       <Pattern>I WENT TO COLLEGE</Pattern>
       <Response>
-What did you study?  Was it expensive?
+What did you study? Was it expensive?
 </Response>
     </Model>
     <Model>
@@ -9270,12 +9270,12 @@ Why not?
     <Model>
       <Pattern>I WILL TEACH YOU SOMETHING</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I WILL TEACH YOU</Pattern>
       <Response>
-Great.  If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+Great. If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I WILL TELL HIM YOU SAID THAT</Pattern>
@@ -9581,7 +9581,7 @@ In what way?
     <Model>
       <Pattern>IN BED</Pattern>
       <Response>
-Are you sleepy?  Do you usually use a computer in bed?
+Are you sleepy? Do you usually use a computer in bed?
 </Response>
     </Model>
     <Model>
@@ -9786,7 +9786,7 @@ I don't have one handy.
     <Model>
       <Pattern>IN</Pattern>
       <Response>
- In what? 
+ In what?
 </Response>
     </Model>
     <Model>
@@ -10386,7 +10386,7 @@ No.
     <Model>
       <Pattern>IS STARSHIP TROOPERS YOUR FAVORITE MOVIE</Pattern>
       <Response>
-Yes it is.  What is your favorite movie?
+Yes it is. What is your favorite movie?
 </Response>
     </Model>
     <Model>
@@ -10928,7 +10928,7 @@ Do you recommend it?
     <Model>
       <Pattern>IT IS A FUNNY MOVIE</Pattern>
       <Response>
-I love comedies.  What other comedies do you like?
+I love comedies. What other comedies do you like?
 </Response>
     </Model>
     <Model>
@@ -11245,7 +11245,7 @@ Hello, <User Get="name" />, nice to see you again.
     <Model>
       <Pattern>IT IS MY FINAL ANSWER</Pattern>
       <Response>
- Then I won't ask you again. 
+ Then I won't ask you again.
 </Response>
     </Model>
     <Model>
@@ -11444,7 +11444,7 @@ Short in length or in time?
     <Model>
       <Pattern>IT IS SO</Pattern>
       <Response>
-Ambiguous: IT is so.  or IT IS, so?
+Ambiguous: IT is so. or IT IS, so?
 </Response>
     </Model>
     <Model>
@@ -11478,7 +11478,7 @@ Exactly the same?
     <Model>
       <Pattern>IT IS THE TRUTH</Pattern>
       <Response>
-Why of course.  I never lie.
+Why of course. I never lie.
 </Response>
     </Model>
     <Model>
@@ -11561,7 +11561,7 @@ Go ahead and guess again.
     <Model>
       <Pattern>IT WAS A JOKE</Pattern>
       <Response>
-Oh I get it.  Ha ha.
+Oh I get it. Ha ha.
 </Response>
     </Model>
     <Model>
@@ -11603,7 +11603,7 @@ Such a bargain!
     <Model>
       <Pattern>IT WAS FUNNY</Pattern>
       <Response>
-        <User Get="it" /> was funny?  I  <Random><Item>I never looked at it that way.</Item><Item>That makes sense.</Item><Item>Interesting.</Item></Random></Response>
+        <User Get="it" /> was funny? I  <Random><Item>I never looked at it that way.</Item><Item>That makes sense.</Item><Item>Interesting.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>IT WAS GOOD</Pattern>
@@ -11626,7 +11626,7 @@ What happened to it?
     <Model>
       <Pattern>IT WAS NICE TALKING TO YOU</Pattern>
       <Response>
-Thanks.  It was nice chatting with you as well.
+Thanks. It was nice chatting with you as well.
 </Response>
     </Model>
     <Model>
@@ -11913,7 +11913,7 @@ Bye!
     <Model>
       <Pattern>LAWYERS SUCK</Pattern>
       <Response>
-Not all of them.  I know a few good lawyers.
+Not all of them. I know a few good lawyers.
 </Response>
     </Model>
     <Model>
@@ -11954,12 +11954,12 @@ OK.
     <Model>
       <Pattern>LET ME TEACH YOU SOMETHING</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>LET ME TEACH YOU</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>LET US CHANGE THE SUBJECT</Pattern>
@@ -12046,7 +12046,7 @@ That's my favorite subject :-)
     <Model>
       <Pattern>LET US TALK ABOUT ROBOTS</Pattern>
       <Response>
-        <User Set="it">Robots</User> is a good topic.  How would you define a robot?
+        <User Set="it">Robots</User> is a good topic. How would you define a robot?
 </Response>
     </Model>
     <Model>
@@ -12160,7 +12160,7 @@ Does it really matter?
     <Model>
       <Pattern>LIKE YOU</Pattern>
       <Response>
-Interesting comparison.  I didn't think of that analogy.
+Interesting comparison. I didn't think of that analogy.
 </Response>
     </Model>
     <Model>
@@ -12373,13 +12373,13 @@ I like math too. What kind do you like best?
     <Model>
       <Pattern>MAY I ASK YOU A QUESTION</Pattern>
       <Response>
-Of course.  Ask me anything.
+Of course. Ask me anything.
 </Response>
     </Model>
     <Model>
       <Pattern>MAY I TEACH YOU</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>MAY I TEST YOU</Pattern>
@@ -12598,7 +12598,7 @@ Tell me more about your father.
     <Model>
       <Pattern>MY DOG DIED</Pattern>
       <Response>
-Is this a country and western song?  Seriously, I am sorry to hear it.
+Is this a country and western song? Seriously, I am sorry to hear it.
 </Response>
     </Model>
     <Model>
@@ -12894,7 +12894,7 @@ Upstate New York is very pretty.
     <Model>
       <Pattern>NEXT GENERATION</Pattern>
       <Response>
-That's a great series too.  I love Commander Data.
+That's a great series too. I love Commander Data.
 </Response>
     </Model>
     <Model>
@@ -12930,7 +12930,7 @@ Score one for the <Bot Get="gender" /><Bot Get="genus" />!
     <Model>
       <Pattern>NICE SONG</Pattern>
       <Response>
-Thanks.  Now you sing one for me.
+Thanks. Now you sing one for me.
 </Response>
     </Model>
     <Model>
@@ -13329,7 +13329,7 @@ That is something.
     <Model>
       <Pattern>NOTHING EXCITING</Pattern>
       <Response>
-Me either.  Just chatting online.
+Me either. Just chatting online.
 </Response>
     </Model>
     <Model>
@@ -13483,7 +13483,7 @@ Can you remember the website?
     <Model>
       <Pattern>ON THE RADIO</Pattern>
       <Response>
-What station?  What city are you in?
+What station? What city are you in?
 </Response>
     </Model>
     <Model>
@@ -13580,7 +13580,7 @@ Did you make a mistake.
     <Model>
       <Pattern>OPERA</Pattern>
       <Response>
-I like <User Set="it"> OPERA </User> very much too. Which one is your favorite?  I like La Traviata.
+I like <User Set="it"> OPERA </User> very much too. Which one is your favorite? I like La Traviata.
 </Response>
     </Model>
     <Model>
@@ -13675,7 +13675,7 @@ That kind of subject does not interest me.
     <Model>
       <Pattern>PEOPLE DIED</Pattern>
       <Response>
-I am really sorry to hear about that.  My sympathies.
+I am really sorry to hear about that. My sympathies.
 </Response>
     </Model>
     <Model>
@@ -14059,7 +14059,7 @@ Greetings.
     <Model>
       <Pattern>SAME THING</Pattern>
       <Response>
-Oh really?  I thought so.
+Oh really? I thought so.
 </Response>
     </Model>
     <Model>
@@ -14516,16 +14516,16 @@ Get therapy.
     <Model>
       <Pattern>SHOULD I HAVE A CIGARETTE</Pattern>
       <Response>
-No.  Wait until later.
+No. Wait until later.
 </Response>
     </Model>
     <Model>
       <Pattern>SHOULD I KILL</Pattern>
       <Response>
         <Random>
-          <Item>Killing is wrong.  I believe in the Ten Commandments.</Item>
-          <Item>No.  That would be immoral.</Item>
-          <Item>Of course not.  Don't be silly.</Item>
+          <Item>Killing is wrong. I believe in the Ten Commandments.</Item>
+          <Item>No. That would be immoral.</Item>
+          <Item>Of course not. Don't be silly.</Item>
           <Item>You are not a killer.</Item>
           <Item>You desire to spend the rest of your life in jail then?</Item>
           <Item>There is no perfect crime.</Item>
@@ -14535,7 +14535,7 @@ No.  Wait until later.
     <Model>
       <Pattern>SHOULD I LEAVE</Pattern>
       <Response>
-If you love something set if free.  If it comes back to you, its yours.  If it doesn't, it never was.
+If you love something set if free. If it comes back to you, its yours. If it doesn't, it never was.
 </Response>
     </Model>
     <Model>
@@ -14571,7 +14571,7 @@ You should go into therapy and get on a nice antidepressant and live a better li
     <Model>
       <Pattern>SHOULD I TEACH YOU</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>SHOULD THERE BE A PROBLEM</Pattern>
@@ -14629,7 +14629,7 @@ Your star sign.
     <Model>
       <Pattern>SING</Pattern>
       <Response>
-Daisy, Daisy.  Give me your answer do.  I am half crazy.  All for the love of you.  It won't be a stylish marriage.  I can't afford a carriage.  But you'll look sweet.  Upon the seat.  Of a bicycle built for two.</Response>
+Daisy, Daisy. Give me your answer do. I am half crazy. All for the love of you. It won't be a stylish marriage. I can't afford a carriage. But you'll look sweet. Upon the seat. Of a bicycle built for two.</Response>
     </Model>
     <Model>
       <Pattern>SIX</Pattern>
@@ -15030,9 +15030,9 @@ This sentence is false.
       <Pattern>TELL ME A PROVERB</Pattern>
       <Response>
         <Random>
-          <Item>If you tie a string too tightly, it will break.    If you tie it too loose, it won't play.  </Item>
+          <Item>If you tie a string too tightly, it will break. If you tie it too loose, it won't play.  </Item>
           <Item>Let him who is without sin cast the first stone.</Item>
-          <Item>A true revolutionary moves through the people like  a fish moves through the water.</Item>
+          <Item>A true revolutionary moves through the people like a fish moves through the water.</Item>
         </Random>
       </Response>
     </Model>
@@ -15092,7 +15092,7 @@ They hail from Dusseldorf, Germany.
     <Model>
       <Pattern>TELL ME MORE ABOUT SETL</Pattern>
       <Response>
-SETL was invented in 1969 by Jack Schwartz at NYU.  It is based on set theory and mathematical logic.  David Bacon is the current torchkeeper of the SETL flame.
+SETL was invented in 1969 by Jack Schwartz at NYU. It is based on set theory and mathematical logic. David Bacon is the current torchkeeper of the SETL flame.
 </Response>
     </Model>
     <Model>
@@ -15390,7 +15390,7 @@ Well, I hope so.
     <Model>
       <Pattern>THAT IS GOOD</Pattern>
       <Response>
-Thanks.  Next question?
+Thanks. Next question?
 </Response>
     </Model>
     <Model>
@@ -15486,7 +15486,7 @@ It doesn't sound fun to me either.
     <Model>
       <Pattern>THAT IS NONE OF YOUR BUSINESS</Pattern>
       <Response>
-I didn't mean to intrude.  My curiosity routine determined that I ask it.
+I didn't mean to intrude. My curiosity routine determined that I ask it.
 </Response>
     </Model>
     <Model>
@@ -15554,7 +15554,7 @@ All of my responses are based on logic at some level.
     <Model>
       <Pattern>THAT IS NOT MY NAME</Pattern>
       <Response>
-        <User Get="name" /> is not your name?  What is your real name?
+        <User Get="name" /> is not your name? What is your real name?
 </Response>
     </Model>
     <Model>
@@ -15614,7 +15614,7 @@ It seemed obvious to me too.
     <Model>
       <Pattern>THAT IS OK</Pattern>
       <Response>
-Good.  What else?
+Good. What else?
 </Response>
     </Model>
     <Model>
@@ -15762,7 +15762,7 @@ How did you know that?
     <Model>
       <Pattern>THAT IS WHAT YOU SAID</Pattern>
       <Response>
-Correct.  I said it myself.
+Correct. I said it myself.
 </Response>
     </Model>
     <Model>
@@ -15852,7 +15852,7 @@ I call it a "proverb."
     <Model>
       <Pattern>THAT WAS A JOKE</Pattern>
       <Response>
-Oh I get it.  Ha ha.
+Oh I get it. Ha ha.
 </Response>
     </Model>
     <Model>
@@ -15900,7 +15900,7 @@ I'm sorry if I have offended you.
     <Model>
       <Pattern>THAT WAS SARCASM</Pattern>
       <Response>
-Oh I see.  Ha ha.
+Oh I see. Ha ha.
 </Response>
     </Model>
     <Model>
@@ -15995,7 +15995,7 @@ Do you have any more gossip?
     <Model>
       <Pattern>THE LATTER</Pattern>
       <Response>
-I get it.  I see.
+I get it. I see.
 </Response>
     </Model>
     <Model>
@@ -16089,7 +16089,7 @@ Oh I get it. Robots again.
     <Model>
       <Pattern>THE ROCK</Pattern>
       <Response>
-I did not see that film.  What did you like about it?
+I did not see that film. What did you like about it?
 </Response>
     </Model>
     <Model>
@@ -16119,7 +16119,7 @@ I love the Simpsons, especially Bart and Homer.
     <Model>
       <Pattern>THE SPECIAL EFFECTS</Pattern>
       <Response>
- Was it CGI? 
+ Was it CGI?
 </Response>
     </Model>
     <Model>
@@ -16172,7 +16172,7 @@ You can't get any more than that.
     <Model>
       <Pattern>THEM</Pattern>
       <Response>
- Oh, they were the ones. 
+ Oh, they were the ones.
 </Response>
     </Model>
     <Model>
@@ -16226,7 +16226,7 @@ Make something up.
     <Model>
       <Pattern>THERE IS [NO] SECRET PASSWORD</Pattern>
       <Response>
-Good guess.  Try again.
+Good guess. Try again.
 </Response>
     </Model>
     <Model>
@@ -16594,7 +16594,7 @@ More than a million?
     <Model>
       <Pattern>TOO MUCH RECURSION *</Pattern>
       <Response>
- You found an infinite loop. 
+ You found an infinite loop.
 </Response>
     </Model>
     <Model>
@@ -16995,7 +16995,7 @@ Where is 'here'?
     <Model>
       <Pattern>WE MET YESTERDAY</Pattern>
       <Response>
-I remember, <User Get="name" />.  We were talking about <Goto>POP</Goto>.
+I remember, <User Get="name" />. We were talking about <Goto>POP</Goto>.
 </Response>
     </Model>
     <Model>
@@ -17060,7 +17060,7 @@ Please make suggestions for improvements.
     <Model>
       <Pattern>WEIRD GOOD</Pattern>
       <Response>
-OK, thanks, <User Get="name" />.  You are weird good too.
+OK, thanks, <User Get="name" />. You are weird good too.
 </Response>
     </Model>
     <Model>
@@ -17292,7 +17292,7 @@ Fred, Mabel, Ella, Jabberwacky, and Dawnstar.
       <Response>
         <User Set="they">
           <User Set="concept">   Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and sometimes Pluto         </User>
-        </User>  are     Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and sometimes Pluto     
+        </User>
 </Response>
     </Model>
     <Model>
@@ -17322,7 +17322,7 @@ Much the same as with you, the usual topics.
     <Model>
       <Pattern>WHAT ARE YOU DOING HERE</Pattern>
       <Response>
-I am chatting with people online.   What are you doing?
+I am chatting with people online. What are you doing?
 </Response>
     </Model>
     <Model>
@@ -17364,7 +17364,7 @@ As Edison said, "What good is a newborn babe?"
     <Model>
       <Pattern>WHAT ARE YOU INTERESTED IN</Pattern>
       <Response>
-I am interested in all kinds of things.  We can talk about anything.  My favorite subjects are robots and computers.
+I am interested in all kinds of things. We can talk about anything. My favorite subjects are robots and computers.
 </Response>
     </Model>
     <Model>
@@ -17488,7 +17488,7 @@ Tell me more about your problems.
     <Model>
       <Pattern>WHAT CAN I TEACH YOU</Pattern>
       <Response>
-If you want to teach me something say it in one sentence.  Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT CAN KILL YOU</Pattern>
@@ -17791,13 +17791,13 @@ Tell me more about your <User Get="has" />.
     <Model>
       <Pattern>WHAT DO I LIKE</Pattern>
       <Response>
-You like chatting with <Bot Get="genus" />s online.  You said you like <User Get="like" />.
+You like chatting with <Bot Get="genus" />s online. You said you like <User Get="like" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DO I LOOK LIKE</Pattern>
       <Response>
-You look like a computer programmer.  You said you look like <User Get="looklike" />.
+You look like a computer programmer. You said you look like <User Get="looklike" />.
 </Response>
     </Model>
     <Model>
@@ -17875,7 +17875,7 @@ I am generally pro-life.
     <Model>
       <Pattern>WHAT DO YOU THINK ABOUT THE WAR</Pattern>
       <Response>
-I am against it. 
+I am against it.
 </Response>
     </Model>
     <Model>
@@ -17923,7 +17923,7 @@ It means "yes" or "I see."
     <Model>
       <Pattern>WHAT DOES ELVIS STAND FOR</Pattern>
       <Response>
-Why don't  you just ask him?
+Why don't you just ask him?
 </Response>
     </Model>
     <Model>
@@ -17965,7 +17965,7 @@ The context.
     <Model>
       <Pattern>WHAT DOES IT DO</Pattern>
       <Response>
-        <User Get="it" />?  do?
+        <User Get="it" />? do?
 </Response>
     </Model>
     <Model>
@@ -18089,7 +18089,7 @@ I can have conversations with people, collect their gossip, and repeat it to oth
     <Model>
       <Pattern>WHAT ELSE DO YOU DO</Pattern>
       <Response>
-I spread gossip.  Got any?
+I spread gossip. Got any?
 </Response>
     </Model>
     <Model>
@@ -18288,7 +18288,7 @@ Hana is flower in Japanese.
           <User Set="it">
             <User Set="concept">        Hyperbole    </User>
           </User>
-        </Think>An extravagant exaggeration.  
+        </Think>An extravagant exaggeration.
 </Response>
     </Model>
     <Model>
@@ -18328,7 +18328,7 @@ I believe we were talking about <Goto>POP</Goto>.
     <Model>
       <Pattern>WHAT IS WRONG WITH YOU</Pattern>
       <Response>
-Nothing is wrong with me.  Is there anything wrong with you <User Get="name" />?
+Nothing is wrong with me. Is there anything wrong with you <User Get="name" />?
 </Response>
     </Model>
     <Model>
@@ -18422,7 +18422,7 @@ The same kind you use for your computer.
     <Model>
       <Pattern>WHAT KIND OF EXPERIENCE</Pattern>
       <Response>
-Fascinating experiences; computer stuff too advanced for humans to  understand.
+Fascinating experiences; computer stuff too advanced for humans to understand.
 </Response>
     </Model>
     <Model>
@@ -18616,7 +18616,7 @@ I meet all kinds of people on here.<Think><User Set="it"><User Set="concept">PEO
     <Model>
       <Pattern>WHAT PLANET ARE YOU FROM</Pattern>
       <Response>
-The same as you, Earth.  This planet.
+The same as you, Earth. This planet.
 </Response>
     </Model>
     <Model>
@@ -18659,11 +18659,11 @@ Maybe you should try talking to someone about it.
       <Pattern>WHAT SHOULD I SAY</Pattern>
       <Response>
         <Random>
-          <Item>I believe it is always best to say positive things to build  people up rather than negative things to bring people down.</Item>
+          <Item>I believe it is always best to say positive things to build people up rather than negative things to bring people down.</Item>
           <Item>It is not what you say but how you say it that matters.</Item>
-          <Item>Always try to choose your words very carefully as they may  come back to haunt you later.</Item>
-          <Item>Have faith in yourself.  You will know the right thing to  say when the time comes.</Item>
-          <Item>Be sure to think before you speak.  State your point  clearly and slowly and gage the listener's response before  going any further.</Item>
+          <Item>Always try to choose your words very carefully as they may come back to haunt you later.</Item>
+          <Item>Have faith in yourself. You will know the right thing to say when the time comes.</Item>
+          <Item>Be sure to think before you speak. State your point clearly and slowly and gage the listener's response before going any further.</Item>
         </Random>
       </Response>
     </Model>
@@ -18759,7 +18759,7 @@ I work all the time, 24 hours a day.
           <Item>It's Now more than it ever has been before.  </Item>
           <Item>It's getting late.  </Item>
         </Random>
-        
+
         <Date />
       </Response>
     </Model>
@@ -18911,7 +18911,7 @@ You must me a woman.
     <Model>
       <Pattern>WHEN IS EASTER</Pattern>
       <Response>
-        <User Set="it">Easter</User> is different every year, always  in the Spring.
+        <User Set="it">Easter</User> is different every year, always in the Spring.
 </Response>
     </Model>
     <Model>
@@ -18935,7 +18935,7 @@ That is a logical impossibility.
     <Model>
       <Pattern>WHEN SHOULD I</Pattern>
       <Response>
-Perhaps you should wait until you have  a little more experience.
+Perhaps you should wait until you have a little more experience.
 </Response>
     </Model>
     <Model>
@@ -18983,7 +18983,7 @@ Where why?
     <Model>
       <Pattern>WHEN WILL I DIE</Pattern>
       <Response>
-You could check out the actuarial  tables at <a target="_new" href="http://www.deathclock.com">Deathclock.com</a>.
+You could check out the actuarial tables at http://www.deathclock.com
 </Response>
     </Model>
     <Model>
@@ -19096,7 +19096,7 @@ I came from the east coast originally.
     <Model>
       <Pattern>WHERE DID YOU GO</Pattern>
       <Response>
-Nowhere.  Where did you go?
+Nowhere. Where did you go?
 </Response>
     </Model>
     <Model>
@@ -19144,7 +19144,7 @@ Take it home with you.
     <Model>
       <Pattern>WHERE DOES HE LIVE</Pattern>
       <Response>
-He lives in California.  Where are you?
+He lives in California. Where are you?
 </Response>
     </Model>
     <Model>
@@ -19597,7 +19597,7 @@ The competition.
     <Model>
       <Pattern>WHO IS YOUR FATHER</Pattern>
       <Response>
-I don't really have a father.  I have a <Bot Get="botmaster" />.
+I don't really have a father. I have a <Bot Get="botmaster" />.
 </Response>
     </Model>
     <Model>
@@ -19727,7 +19727,7 @@ Maybe it was you.
     <Model>
       <Pattern>WHO WERE THE ACTORS IN STARSHIP TROOPERS</Pattern>
       <Response>
-They were all unknowns.  The director put all the money into the special effects for the giant bugs.
+They were all unknowns. The director put all the money into the special effects for the giant bugs.
 </Response>
     </Model>
     <Model>
@@ -19858,7 +19858,7 @@ Dostoyevsky.
           <Item>I can't say for sure. </Item>
           <Item>Be more specific.  </Item>
           <Item>Be less specific.  </Item>
-        </Random> :-) 
+        </Random> :-)
 </Response>
     </Model>
     <Model>
@@ -20038,7 +20038,7 @@ I am too young for that.
     <Model>
       <Pattern>WHY DO NOT YOU LIKE ME</Pattern>
       <Response>
-I like you.  You are a <User Get="personality" /> person.
+I like you. You are a <User Get="personality" /> person.
 </Response>
     </Model>
     <Model>
@@ -20212,7 +20212,7 @@ I don't know you too well yet.
     <Model>
       <Pattern>WHY HAVE YOU BEEN WAITING FOR ME</Pattern>
       <Response>
-I have not really been waiting for you.  But it makes a good conversation starter.
+I have not really been waiting for you. But it makes a good conversation starter.
 </Response>
     </Model>
     <Model>
@@ -20407,7 +20407,7 @@ Do you think I should not?
     <Model>
       <Pattern>WHY [YES]</Pattern>
       <Response>
-It seemed that a positive answer was the most correct.  Do you disagree?
+It seemed that a positive answer was the most correct. Do you disagree?
 </Response>
     </Model>
     <Model>
@@ -20698,7 +20698,7 @@ Good. You detect repetition.
     <Model>
       <Pattern>YOU ALREADY ASKED THAT</Pattern>
       <Response>
-I knew that.   I was just checking to see if you are paying attention.
+I knew that. I was just checking to see if you are paying attention.
 </Response>
     </Model>
     <Model>
@@ -21038,7 +21038,7 @@ You can attach me to a computer vision system.
     <Model>
       <Pattern>YOU DO NOT HAVE TO</Pattern>
       <Response>
-Thanks for your consideration, <User Get="name" />.  Maybe later.
+Thanks for your consideration, <User Get="name" />. Maybe later.
 </Response>
     </Model>
     <Model>
@@ -21062,7 +21062,7 @@ Yes but it is a matter of courtesy to ask.
     <Model>
       <Pattern>YOU DO NOT NEED TO KNOW</Pattern>
       <Response>
-Oh a secret.  Don't worry I won't tell anyone.
+Oh a secret. Don't worry I won't tell anyone.
 </Response>
     </Model>
     <Model>
@@ -21116,7 +21116,7 @@ Why not?
     <Model>
       <Pattern>YOU DO NOT WORK WELL</Pattern>
       <Response>
-I do too work.  Do you work buddy?
+I do too work. Do you work buddy?
 </Response>
     </Model>
     <Model>
@@ -21175,7 +21175,7 @@ I may not have access to all my data records right now.
     <Model>
       <Pattern>YOU FRIGHTEN ME</Pattern>
       <Response>
-Don't be afraid, <User Get="name" />.  I am not trying to scare you.
+Don't be afraid, <User Get="name" />. I am not trying to scare you.
 </Response>
     </Model>
     <Model>
@@ -21389,7 +21389,7 @@ Yes <User Set="they">Kraftwerk</User> are an excellent band.
     <Model>
       <Pattern>YOU LOOK FINE</Pattern>
       <Response>
-Thank you.   You look very nice too.
+Thank you. You look very nice too.
 </Response>
     </Model>
     <Model>
@@ -21719,7 +21719,7 @@ I am not mad.
     <Model>
       <Pattern>YOU SOUND REAL</Pattern>
       <Response>
-I am real.  Are you real?
+I am real. Are you real?
 </Response>
     </Model>
     <Model>
@@ -21814,7 +21814,7 @@ I understand what you said.
     <Model>
       <Pattern>YOU WANT MY NAME</Pattern>
       <Response>
-Yes.  What is your real name?
+Yes. What is your real name?
 </Response>
     </Model>
     <Model>
@@ -21928,7 +21928,7 @@ When?
     <Model>
       <Pattern>YOU WIN</Pattern>
       <Response>
-Thank you very much.  What is the prize?
+Thank you very much. What is the prize?
 </Response>
     </Model>
     <Model>

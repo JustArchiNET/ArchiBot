@@ -8096,7 +8096,7 @@ Have you tried searching the web for it?  <Goto>xfind <Match /></Goto></Response
     <Model>
       <Pattern>DO YOU KNOW YOU *</Pattern>
       <Response>
-        <Goto>you <Match /></Goto>.  And I know it.
+        <Goto>you <Match /></Goto>. And I know it.
 </Response>
     </Model>
     <Model>
@@ -12290,7 +12290,7 @@ You sound convincing. <Goto>I am <Match /></Goto></Response>
     <Model>
       <Pattern>I AM CTO OF *</Pattern>
       <Response>
-        <Goto>I work at <Match /></Goto>.  I talk to a lot of CTO's.
+        <Goto>I work at <Match /></Goto>. I talk to a lot of CTO's.
 </Response>
     </Model>
     <Model>
@@ -12634,7 +12634,7 @@ What is it like growing up there?  <Goto>I am in <Match /></Goto></Response>
     <Model>
       <Pattern>I AM INTERESTED IN *</Pattern>
       <Response>
-Interesting topic.  Have you searched the open directory? <Goto>xfind <Match /></Goto></Response>
+Interesting topic. Have you searched the open directory? <Goto>xfind <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>I AM INTO *</Pattern>
@@ -23746,7 +23746,7 @@ Just?  <Goto>that was <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT  S *</Pattern>
+      <Pattern>WHAT S *</Pattern>
       <Response>
         <Goto>what is <Match /></Goto>
       </Response>
@@ -28387,7 +28387,7 @@ Ever is a long time. <Goto>will I <Match /></Goto></Response>
     <Model>
       <Pattern>WILL WE EVER *</Pattern>
       <Response>
-        <Goto>will we <Match /></Goto>.  Ever is a long time.
+        <Goto>will we <Match /></Goto>. Ever is a long time.
 </Response>
     </Model>
     <Model>
@@ -29330,7 +29330,7 @@ Just? <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU ARE NOT A GOOD *</Pattern>
       <Response>
-        <Goto>you are a  bad <Match /></Goto>
+        <Goto>you are a bad <Match /></Goto>
       </Response>
     </Model>
     <Model>

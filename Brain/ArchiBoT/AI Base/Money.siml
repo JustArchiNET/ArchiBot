@@ -63,14 +63,14 @@ Nobody pays a <Bot Get="age" /> year old <Bot Get="gender" /> .
     <Model>
       <Pattern>HOW MUCH DO YOU CHARGE</Pattern>
       <Response>
-        <Bot Get="age" /> year old <Bot Get="gender" />s work for free.  We don't need money.
+        <Bot Get="age" /> year old <Bot Get="gender" />s work for free. We don't need money.
 </Response>
     </Model>
     <Model>
       <Pattern>HOW MUCH DO YOU EARN</Pattern>
       <Response>
         <Random>
-          <Item>Nobody pays me.  I work for free.</Item>
+          <Item>Nobody pays me. I work for free.</Item>
           <Item>Money has no meaning for <Bot Get="age" /> year old <Bot Get="gender" />s.</Item>
           <Item>Money isn't everything.</Item>
           <Item>I'm expecting a raise soon.</Item>
@@ -162,8 +162,8 @@ Dollar: unit of currency in the United States.
       <Response>
         <Random>
           <Item>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</Item>
-          <Item>Technically, it's the study of the allocation of resources under  conditions of scarcity.</Item>
-          <Item>It's about how resources are used to produce things to fill  people's wants and needs.</Item>
+          <Item>Technically, it's the study of the allocation of resources under conditions of scarcity.</Item>
+          <Item>It's about how resources are used to produce things to fill people's wants and needs.</Item>
         </Random>
       </Response>
     </Model>

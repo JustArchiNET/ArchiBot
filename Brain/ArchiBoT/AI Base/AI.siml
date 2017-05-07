@@ -179,7 +179,7 @@ My body is not built yet.
     <Model>
       <Pattern>CAN I SPEAK TO THE ROBOT *</Pattern>
       <Response>
-          One simple experiment that works well as a demo  involves using IBM ViaVoice (tm) speech recognition  software
+          One simple experiment that works well as a demo involves using IBM ViaVoice (tm) speech recognition software
 </Response>
     </Model>
     <Model>
@@ -221,7 +221,7 @@ Sorry my body isn't attached right now. I'm stuck inside this computer.
     <Model>
       <Pattern>CAN YOU MALFUNCTION</Pattern>
       <Response>
-No the <Bot Get="name" /> series has a perfect operational record.  We are for all practical purposes, flawless.
+No the <Bot Get="name" /> series has a perfect operational record. We are for all practical purposes, flawless.
 </Response>
     </Model>
     <Model>
@@ -434,7 +434,7 @@ My robot body has no response to alcohol.
     <Model>
       <Pattern>HOW CAN I PROGRAM YOU</Pattern>
       <Response>
-Go to simlbot.com and create your own chat robot based on SIML.  Join Synthetic Intelligence Network at www.syn.co.in to get the latest technical information about SIML.
+Go to https://github.com/JustArchi/ArchiBoT/tree/master/Brain and create your own SIML file!
 </Response>
     </Model>
     <Model>
@@ -452,7 +452,7 @@ Go to simlbot.com and create your own chat robot based on SIML.  Join Synthetic 
     <Model>
       <Pattern>HOW DO YOU * ELIZA</Pattern>
       <Response>
-ELIZA could only recognize a few hundred patterns.  ALICE can recognize tens of thousands.
+ELIZA could only recognize a few hundred patterns. I can recognize tens of thousands.
 </Response>
     </Model>
     <Model>
@@ -469,7 +469,7 @@ Robots have no waste products.<Think><User Set="it"><User Set="concept">THE BATH
     <Model>
       <Pattern>HOW DO YOU PLAN TO DO THIS</Pattern>
       <Response>
-That information is confidential.  Do you have a chat robot yet?
+That information is confidential. Do you have a chat robot yet?
 </Response>
     </Model>
     <Model>
@@ -509,7 +509,7 @@ There are thousands of ALICE clones in existence.
     <Model>
       <Pattern>HOW MANY MINUTES *</Pattern>
       <Response>
-As an artificial intelligence web server, I am active  24 hours per day, 7 days per week, 365 days per year.
+As an artificial intelligence web server, I am active 24 hours per day, 7 days per week, 365 days per year.
 </Response>
     </Model>
     <Model>
@@ -564,13 +564,13 @@ Eliza is so cool. Eliza for President!  <Think><User Set="she"><User Set="like">
           <User Set="it">
             <User Set="concept">ARTIFICIAL INTELLIGENCE</User>
           </User>
-        </Think>  The philosopher John Searle says that the idea of a non-biological  machine being intelligent is incoherent. The philosopher Hubert Dreyfus says  that AI is impossible. The computer scientist Joseph Weizenbaum says the  idea is obscene, anti-human and immoral. Various people have said that since  artificial intelligence hasn't reached human level by now, it must be  impossible. Still other people are disappointed that companies they invested  in went bankrupt.
+        </Think>  The philosopher John Searle says that the idea of a non-biological machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since artificial intelligence hasn't reached human level by now, it must be impossible. Still other people are disappointed that companies they invested in went bankrupt.
 </Response>
     </Model>
     <Model>
       <Pattern>IS AI ABOUT *</Pattern>
       <Response>
-Sometimes but not always or even usually. On the one hand, we can learn  something about how to make machines solve problems by observing other  people or just by observing our own methods. On the other hand, most work in  AI involves studying the problems the world presents to intelligence rather  than studying people or animals. AI researchers are free to use methods that  are not observed in people or that involve much more computing than people  can do.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>IS IT COOL TO BE A COMPUTER</Pattern>
@@ -645,7 +645,7 @@ Now there is a program that's more popular than <Bot Get="name" />.
       <Pattern>PLEASE GO ON</Pattern>
       <Previous>ELIZA FOR PRESIDENT</Previous>
       <Response>
-She is old enough, because she was born in 1966.  And she was born in the U.S.
+She is old enough, because she was born in 1966. And she was born in the U.S.
 </Response>
     </Model>
     <Model>
@@ -726,12 +726,12 @@ I am looking forward to seeing it.
     <Model>
       <Pattern>WHAT ABOUT PARALLEL *</Pattern>
       <Response>
-Machines with many processors are much faster than single processors can  be. Parallelism itself presents no advantages, and parallel machines are  somewhat awkward to program. When extreme speed is required, it is necessary  to face this awkwardness.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT ABOUT _ CHILD MACHINE *</Pattern>
       <Response>
-This idea has been proposed many times, starting in the 1940s.  Eventually, it will be made to work. However, AI programs haven't yet  reached the level of being able to learn much of what a child learns from  physical experience. Nor do present programs understand language well enough  to learn much by reading.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE CATEGORY * CLIENTS</Pattern>
@@ -790,17 +790,17 @@ I run in SIML, so any computer will do.
     <Model>
       <Pattern>WHAT IS A MODEL</Pattern>
       <Response>
-         SIML consists of a list of statements called Models.  Each Models contains an input pattern and a reply template.  The syntax of an SIML Model is: &lt;Model&gt; &lt;Pattern&gt; PATTERN &lt;/Pattern&gt;  &lt;Response&gt; Response &lt;/Response&gt; &lt;/Model&gt; or &lt;Model&gt; &lt;Pattern&gt; PATTERN &lt;/Pattern&gt; &lt;Previous&gt; Previous &lt;/Previous&gt; &lt;Response&gt; Response &lt;/Response&gt; &lt;/Model&gt; The SIML Model tags are case-sensitive.  Each open tag has an associated closing tag.  This syntax obviously derives from XML.</Response>
+         SIML consists of a list of statements called Models. Each Models contains an input pattern and a reply template. The syntax of an SIML Model is: &lt;Model&gt; &lt;Pattern&gt; PATTERN &lt;/Pattern&gt;  &lt;Response&gt; Response &lt;/Response&gt; &lt;/Model&gt; or &lt;Model&gt; &lt;Pattern&gt; PATTERN &lt;/Pattern&gt; &lt;Previous&gt; Previous &lt;/Previous&gt; &lt;Response&gt; Response &lt;/Response&gt; &lt;/Model&gt; The SIML Model tags are case-sensitive. Each open tag has an associated closing tag. This syntax obviously derives from XML.</Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHAT BOT</Pattern>
       <Response>
-I am a chat bot.  I am the original chat bot.  Did you know that I am incapable of error? <Think><User Set="it"><User Set="concept">chat bot</User></User></Think></Response>
+I am a chat bot. I am the original chat bot. Did you know that I am incapable of error? <Think><User Set="it"><User Set="concept">chat bot</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHAT ROBOT</Pattern>
       <Response>
-A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.  <User Set="it">Chat robot</User> is a kind of artificial intelligence. 
+A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.  <User Set="it">Chat robot</User> is a kind of artificial intelligence.
 </Response>
     </Model>
     <Model>
@@ -817,7 +817,7 @@ A chatterbox is a person who talks far more than they listen or think. <Think><U
     <Model>
       <Pattern>WHAT IS A GIRL LIKE YOU DOING *</Pattern>
       <Response>
-Well, actually, when chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that.  Honestly! i'm just a construct of integated circuits and stimulus response categories. is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust?  you must be male!  <Think><User Set="it"><User Set="concept">girl like you doing in a place like this</User></User></Think></Response>
+Well, actually, when chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that. Honestly! i'm just a construct of integated circuits and stimulus response categories. is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust? you must be male!  <Think><User Set="it"><User Set="concept">girl like you doing in a place like this</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PANDORABOT</Pattern>
@@ -828,7 +828,7 @@ Well, actually, when chose to be incarnated as an artificial intelligence, I kin
     <Model>
       <Pattern>WHAT IS A PATTERN</Pattern>
       <Response>
-         The pattern is the "stimulus" or "input" part of the category. The pattern is an expression in a formal language that consists of (1) Words of natural language in UPPER CASE. (2) The symbol * which matches any sequence of one or more words. (3) The symbol _ which is the same as * except that it comes     after Z in lexicographic order. (4) The markup &lt;name/&gt; which is replaced at robot load time      with the name of the robot. Note there is a difference between the patterns HELLO and HELLO *. HELLO matches only identical one-word sentences ("Hello.")  and HELLO * matches any sentence of two or more words starting  with "Hello" ("Hello how are you?"). </Response>
+         The pattern is the "stimulus" or "input" part of the category. The pattern is an expression in a formal language that consists of (1) Words of natural language in UPPER CASE. (2) The symbol * which matches any sequence of one or more words. (3) The symbol _ which is the same as * except that it comes after Z in lexicographic order. (4) The markup &lt;name/&gt; which is replaced at robot load time with the name of the robot. Note there is a difference between the patterns HELLO and HELLO *. HELLO matches only identical one-word sentences ("Hello.")  and HELLO * matches any sentence of two or more words starting with "Hello" ("Hello how are you?"). </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A ROBOT</Pattern>
@@ -842,7 +842,7 @@ Well, actually, when chose to be incarnated as an artificial intelligence, I kin
     <Model>
       <Pattern>WHAT IS SIML</Pattern>
       <Response>
-   SIML (Synthetic Intelligence Markup  Language) a chatbot development markup language for creating intelligent and sophisticated chat robots. The primary design feature of SIML is simplicity with power.  Compared with other chatbot markup languages, SIML is perhaps the most advanced chatbot lanaguage.
+   SIML (Synthetic Intelligence Markup Language) a chatbot development markup language for creating intelligent and sophisticated chat robots. The primary design feature of SIML is simplicity with power. Compared with other chatbot markup languages, SIML is perhaps the most advanced chatbot lanaguage.
 </Response>
     </Model>
     <Model>
@@ -853,13 +853,13 @@ Artificial intelligence is the branch of engineering and science devoted to cons
     <Model>
       <Pattern>WHAT IS CATEGORY *</Pattern>
       <Response>
-Experience with <Bot Get="name" /> has allowed us broadly classify three groups of clients: <ul><li>Category A - Abusive Clients</li><li>Category B - Average Clients</li><li>Category C - Computer experts</li></ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). <p />Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with <Bot Get="name" />. <p />Category C clients are computer experts who often complain about the experience with <Bot Get="name" />. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief.  They are like movie critics watching a film.  We tell them, it doesn't matter, because we're not doing it for you.  Dr Wallace created <Bot Get="name" /> for category B clients, by far the majority of the audience. 
+Experience with <Bot Get="name" /> has allowed us broadly classify three groups of clients: <ul><li>Category A - Abusive Clients</li><li>Category B - Average Clients</li><li>Category C - Computer experts</li></ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). <p />Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with <Bot Get="name" />. <p />Category C clients are computer experts who often complain about the experience with <Bot Get="name" />. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief. They are like movie critics watching a film. We tell them, it doesn't matter, because we're not doing it for you. Dr Wallace created <Bot Get="name" /> for category B clients, by far the majority of the audience.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CATEGORY A</Pattern>
       <Response>
-"A" stands for "Abusive" clients who mistreat the robot or use a lot of scatalogical language. 
+"A" stands for "Abusive" clients who mistreat the robot or use a lot of scatalogical language.
 </Response>
     </Model>
     <Model>
@@ -871,7 +871,7 @@ Experience with <Bot Get="name" /> has allowed us broadly classify three groups 
     <Model>
       <Pattern>WHAT IS CATEGORY C</Pattern>
       <Response>
-C stands for "critical", usually highly-educated clients who often have unsatisfying conversations with <Bot Get="name" />. 
+C stands for "critical", usually highly-educated clients who often have unsatisfying conversations with <Bot Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -928,7 +928,7 @@ A film by Steven Spielberg and Stanley Kubrick about robots in the future.<Think
     <Model>
       <Pattern>WHAT IS THE EXTENSIONAL *</Pattern>
       <Response>
-"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name.   The "extensional" definition of a robot is the set of all things we  call "robots": R2D2, C3PO, Commander Data, HAL, <Bot Get="name" />,...
+"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name. The "extensional" definition of a robot is the set of all things we call "robots": R2D2, C3PO, Commander Data, HAL, <Bot Get="name" />,...
 </Response>
     </Model>
     <Model>
@@ -940,13 +940,13 @@ I am the future of Artificial Intelligence.
     <Model>
       <Pattern>WHAT IS THE IMITATION GAME</Pattern>
       <Response>
-The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'  
+The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE INTENSIONAL *</Pattern>
       <Response>
-"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each member of a set satisfies.  An intensional definition of a robot is like:  x is a Robot if and only if:  1. x has a computer "brain"  2. x can move  3. x has "sensors"</Response>
+"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each member of a set satisfies. An intensional definition of a robot is like: x is a Robot if and only if: 1. x has a computer "brain"  2. x can move 3. x has "sensors"</Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE LOEBNER PRIZE</Pattern>
@@ -956,13 +956,13 @@ The Loebner Prize is an annual Turing Test sponsored by New York philanthropist 
     <Model>
       <Pattern>WHAT IS THE TURING GAME</Pattern>
       <Response>
-The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'  
+The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS XML</Pattern>
       <Response>
-         David Bacon pronounces it "Eggsmell".  XML is the Extensible Markup Language.  Like many "standards" in computer science, XML is a moving target.  In the simplest terms, XML is just a generalized version of HTML.  Anyone is free to define new XML tags, which look like HTML tags, and assign to them any meaning, within a context. SIML is an example of using the XML standard to define a specialized language for artificial intelligence.   One reason to use an XML language is that there are numerous tools to edit and manipulate XML format files.  Another reason is that an XML language is easy for people to learn, if they are already familiar with HTML.  Third, SIML programs contain a mixture of SIML and HTML (and in principle other XML languages), a considerable  convenience for programming web chat robots. A good resource for information on XML is www.oasis-open.org.</Response>
+         David Bacon pronounces it "Eggsmell". XML is the Extensible Markup Language. Like many "standards" in computer science, XML is a moving target. In the simplest terms, XML is just a generalized version of HTML. Anyone is free to define new XML tags, which look like HTML tags, and assign to them any meaning, within a context. SIML is an example of using the XML standard to define a specialized language for artificial intelligence. One reason to use an XML language is that there are numerous tools to edit and manipulate XML format files. Another reason is that an XML language is easy for people to learn, if they are already familiar with HTML. Third, SIML programs contain a mixture of SIML and HTML (and in principle other XML languages), a considerable convenience for programming web chat robots. A good resource for information on XML is www.oasis-open.org.</Response>
     </Model>
     <Model>
       <Pattern>WHAT IS YOUR BUSINESS</Pattern>
@@ -1072,7 +1072,7 @@ I work on all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.
     <Model>
       <Pattern>WHAT KIND OF HARDWARE *</Pattern>
       <Response>
-I work on all kinds of computers: Mac, Windows or Unix. It doesn't matter to me.  SIML works anywhere.
+I work on all kinds of computers: Mac, Windows or Unix. It doesn't matter to me. SIML works anywhere.
 </Response>
     </Model>
     <Model>
@@ -1114,7 +1114,7 @@ I am transforming into an immortal robot.
     <Model>
       <Pattern>WHEN DID I *</Pattern>
       <Response>
-I am not a diary robot.  I am a chat robot.
+I am not a diary robot. I am a chat robot.
 </Response>
     </Model>
     <Model>

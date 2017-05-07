@@ -129,11 +129,11 @@
           </User>
         </Think>
         <If User="input4" Defined="True">
-          You said, "<Input Index="4" />".  I replied,"<Result Index="3" />"</If>
+          You said, "<Input Index="4" />". I replied,"<Result Index="3" />"</If>
         <If User="input3" Defined="True">
-          You said, "<Input Index="3" />".  I replied,"<Result Index="2" />"</If>
+          You said, "<Input Index="3" />". I replied,"<Result Index="2" />"</If>
         <If User="input2" Defined="True">
-          You said, "<Input Index="2" />".  I replied,"<Result Index="1" />"</If>
+          You said, "<Input Index="2" />". I replied,"<Result Index="1" />"</If>
         
       </Response>
     </Model>
