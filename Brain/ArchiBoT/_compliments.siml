@@ -3,7 +3,7 @@
 	<Concept Name="_compliments" Type="Public">
 		<Model>
 			<Pattern>COMPLIMENT *</Pattern>
-			<Response><Text Get="Sentence"><Match /> <Goto>RANDOMCOMPLIMENT</Goto></Text></Response>
+			<Response><Text Get="Sentence"><Match /> <Goto>RANDOMCOMPLIMENT</Goto></Text></Response>
 		</Model>
 
 		<Model>
@@ -25,7 +25,7 @@
 					<Item>I'm amazing.</Item>
 					<Item>Why? I already know I'm amazing. :sgsmile:</Item>
 					<Item>I'm not the narcissist type.</Item>
-          				<Item>I strive to help. I think I'm succeeding quite well.</Item>
+					<Item>I strive to help. I think I'm succeeding quite well.</Item>
 				</Random>
 			</Response>
 		</Model>
