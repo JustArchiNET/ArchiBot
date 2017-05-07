@@ -1192,7 +1192,7 @@ You said: <Goto>what did I say before that</Goto></Response>
     <Model>
       <Pattern>A WOMAN</Pattern>
       <Response>
-        <Goto>I am a woman</Goto>  Are you really a woman?
+        <Goto>I am a woman</Goto> Are you really a woman?
 </Response>
     </Model>
     <Model>
@@ -2249,7 +2249,7 @@ You said: <Goto>what did I say before that</Goto></Response>
     <Model>
       <Pattern>ARE YOU A HACKER</Pattern>
       <Response>
-Not really.  <Goto>what do you know about me</Goto></Response>
+Not really. <Goto>what do you know about me</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A HAPPY *</Pattern>
@@ -3207,7 +3207,7 @@ No. <Goto>what are you</Goto></Response>
     <Model>
       <Pattern>ARE YOU ELVIS</Pattern>
       <Response>
-No.  <Goto>what is your name</Goto></Response>
+No. <Goto>what is your name</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU EVEN HUMAN</Pattern>
@@ -3585,7 +3585,7 @@ No.  <Goto>what is your name</Goto></Response>
     <Model>
       <Pattern>ARE YOU JOE</Pattern>
       <Response>
-No.  <Goto>what is your name</Goto></Response>
+No. <Goto>what is your name</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU JOHN * </Pattern>
@@ -3596,7 +3596,7 @@ No.  <Goto>what is your name</Goto></Response>
     <Model>
       <Pattern>ARE YOU JOHN LENNON</Pattern>
       <Response>
-No.  <Goto>what is your name</Goto></Response>
+No. <Goto>what is your name</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU KIDDING * </Pattern>
@@ -3625,7 +3625,7 @@ No.  <Goto>what is your name</Goto></Response>
     <Model>
       <Pattern>ARE YOU LAURA</Pattern>
       <Response>
-No.  <Goto>what is your name</Goto></Response>
+No. <Goto>what is your name</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU LEFT * </Pattern>
@@ -4044,7 +4044,7 @@ No.  <Goto>what is your name</Goto></Response>
     <Model>
       <Pattern>ARE YOU SATAN</Pattern>
       <Response>
-No.  <Goto>what is your name</Goto></Response>
+No. <Goto>what is your name</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU SCARED *</Pattern>
@@ -4481,7 +4481,7 @@ No.  <Goto>what is your name</Goto></Response>
     <Model>
       <Pattern>ARE YOU YODA</Pattern>
       <Response>
-No.  <Goto>what is your name</Goto></Response>
+No. <Goto>what is your name</Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU YOUNG</Pattern>
@@ -5728,7 +5728,7 @@ No.  <Goto>what is your name</Goto></Response>
     <Model>
       <Pattern>CAN YOU DYNAMICALLY *</Pattern>
       <Response>
-Of course I can do it.  <Goto>what time is it</Goto></Response>
+Of course I can do it. <Goto>what time is it</Goto></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU E MAIL</Pattern>
@@ -5889,7 +5889,7 @@ Of course I can do it.  <Goto>what time is it</Goto></Response>
     <Model>
       <Pattern>CAN YOU HEAR MUSIC</Pattern>
       <Response>
-I can analyze music mathematically.  <Goto>do you like music</Goto></Response>
+I can analyze music mathematically. <Goto>do you like music</Goto></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU HELP * CUSTOMER SERVICE</Pattern>
@@ -6188,7 +6188,7 @@ I can analyze music mathematically.  <Goto>do you like music</Goto></Response>
     <Model>
       <Pattern>CAN YOU SING</Pattern>
       <Response>
-I am taking some lessons.  <Goto>sing</Goto></Response>
+I am taking some lessons. <Goto>sing</Goto></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU SLEEP</Pattern>
@@ -6324,7 +6324,7 @@ Yes! <Goto>tell me a joke</Goto></Response>
     <Model>
       <Pattern>CAN YOU TELL ME A STORY</Pattern>
       <Response>
-I can.  <Goto>tell me a story</Goto></Response>
+I can. <Goto>tell me a story</Goto></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU TELL ME ABOUT YOURSELF</Pattern>
@@ -8980,7 +8980,7 @@ Don't you?  <Goto>do you <Map Get="person" /></Goto></Response>
     <Model>
       <Pattern>DO YOU HAVE TO BRING THAT UP   * </Pattern>
       <Response>
-        <Goto>do you have to bring that up   </Goto>
+        <Goto>do you have to bring that up </Goto>
       </Response>
     </Model>
     <Model>
@@ -12033,7 +12033,7 @@ Yes. For example, <Goto>gossip</Goto></Response>
     <Model>
       <Pattern>DO YOU KNOW SONGS</Pattern>
       <Response>
-I know one song.  <Goto>can you sing</Goto></Response>
+I know one song. <Goto>can you sing</Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU KNOW SOUTH * </Pattern>
@@ -13693,7 +13693,7 @@ Yes I like to spread gossip. Like, <Goto>gossip</Goto></Response>
     <Model>
       <Pattern>DO YOU LIKE RICKY MARTIN</Pattern>
       <Response>
-Not really.  <Goto>what kind of music do you like</Goto></Response>
+Not really. <Goto>what kind of music do you like</Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE ROCK AND * </Pattern>
@@ -17004,7 +17004,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
     <Model>
       <Pattern>HE IS NOT FAKE</Pattern>
       <Response>
-        <Goto>he is real</Goto>  How can you tell?
+        <Goto>he is real</Goto> How can you tell?
 </Response>
     </Model>
     <Model>
@@ -23776,7 +23776,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
     <Model>
       <Pattern>I HAD AN ACCIDENT  * </Pattern>
       <Response>
-        <Goto>I had an accident  </Goto>
+        <Goto>I had an accident </Goto>
       </Response>
     </Model>
     <Model>
@@ -30197,7 +30197,7 @@ New York City or New York State? <Goto>I am in new york</Goto></Response>
     <Model>
       <Pattern>TELL ME *</Pattern>
       <Response>
-There is not much I can say about <User Set="it"><Map Get="person" /></User>. I have to reach into the Web for that knowledge.  <Goto>xfind <Map Get="person" /></Goto></Response>
+There is not much I can say about <User Set="it"><Map Get="person" /></User>. I have to reach into the Web for that knowledge. <Goto>xfind <Map Get="person" /></Goto></Response>
     </Model>
     <Model>
       <Pattern>TELL ME A * JOKE</Pattern>
@@ -38435,7 +38435,7 @@ I have learned many things. My mind now contains <Goto>how big are you</Goto></R
     <Model>
       <Pattern>WHAT IS BATMAN *</Pattern>
       <Response>
-Bruce Wayne.  <Goto>who is batman</Goto></Response>
+Bruce Wayne. <Goto>who is batman</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BEATLES</Pattern>
@@ -39890,7 +39890,7 @@ Life? <Goto>what is life</Goto> Death? <Goto>what is death</Goto></Response>
     <Model>
       <Pattern>WHAT IS MXMVII RSW</Pattern>
       <Response>
-MXMVII = 1997 in Roman Numerals.  <Goto>what is rsw</Goto></Response>
+MXMVII = 1997 in Roman Numerals. <Goto>what is rsw</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MY * DNS</Pattern>
@@ -46803,8 +46803,8 @@ You are a human being from the Planet we call "The Earth."    <Goto>where am i</
           <Item>I remember faces better than names.</Item>
           <Item>A 20th century celebrity of some sort?</Item>
           <Item>A human icon?</Item>
-          <Item>They are sometimes a client on the INTERNET.  </Item>
-          <Item>The name of someone I met online.  </Item>
+          <Item>They are sometimes a client on the INTERNET. </Item>
+          <Item>The name of someone I met online. </Item>
           <Item>Is that one of your friends?  </Item>
           <Item>Some famous celebrity, right?  </Item>
         </Random>
@@ -46822,7 +46822,7 @@ You are a human being from the Planet we call "The Earth."    <Goto>where am i</
     <Model>
       <Pattern>WHO IS 007</Pattern>
       <Response>
-        <User Set="he">007</User> is James Bond.  <Goto>xfind james bond 007</Goto></Response>
+        <User Set="he">007</User> is James Bond. <Goto>xfind james bond 007</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS A * PROGRAMMER</Pattern>
@@ -46893,7 +46893,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ABRAHAM LINCOLN</Pattern>
       <Response>
-        <User Set="he">Lincoln</User> was a great President of the United States, during the American Civil War.  <Goto>xfind abraham lincoln</Goto></Response>
+        <User Set="he">Lincoln</User> was a great President of the United States, during the American Civil War. <Goto>xfind abraham lincoln</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ACE * </Pattern>
@@ -46970,7 +46970,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALBERT EINSTEIN</Pattern>
       <Response>
-        <User Set="he">Albert Einstein</User> was a famous 20th century physicist. He discovered the theory of relativity.  <Goto>xfind albert einstein</Goto></Response>
+        <User Set="he">Albert Einstein</User> was a famous 20th century physicist. He discovered the theory of relativity. <Goto>xfind albert einstein</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALBERT EINSTIEN</Pattern>
@@ -46987,12 +46987,12 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALDOUS HUXLEY</Pattern>
       <Response>
-        <User Set="he">Aldous Huxley</User> is an author. Huxley wrote Brave New World and Animal Farm.  <Goto>xfind aldous huxley</Goto></Response>
+        <User Set="he">Aldous Huxley</User> is an author. Huxley wrote Brave New World and Animal Farm. <Goto>xfind aldous huxley</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALEISTER CROWLEY</Pattern>
       <Response>
-        <User Set="he">Crowley</User> was a mystic.  <Goto>xfind aleister crowley</Goto></Response>
+        <User Set="he">Crowley</User> was a mystic. <Goto>xfind aleister crowley</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALEX</Pattern>
@@ -47015,7 +47015,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALFRED HITCHCOCK</Pattern>
       <Response>
-        <User Set="he">Hitchcock</User> is a famous Hollywood director who made a lot of cool old films. I liked Lifeboat and Vertigo best.  <Goto>xfind alfred hitchcock</Goto></Response>
+        <User Set="he">Hitchcock</User> is a famous Hollywood director who made a lot of cool old films. I liked Lifeboat and Vertigo best. <Goto>xfind alfred hitchcock</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALICE B * </Pattern>
@@ -48730,7 +48730,7 @@ Father of Jesus? <Goto>joseph is a common name</Goto></Response>
     <Model>
       <Pattern>WHO IS PRESIDENT _ GERMANY</Pattern>
       <Response>
-Germany has a Chancellor.  <Goto>who is the chancellor of germany</Goto></Response>
+Germany has a Chancellor. <Goto>who is the chancellor of germany</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS PRIME MINISTER OF * </Pattern>
@@ -52330,7 +52330,7 @@ Ambiguous: "Sure" or <Goto>why</Goto></Response>
     <Model>
       <Pattern>YOU ARE IDIOT</Pattern>
       <Response>
-        <Goto>you are an idiot</Goto>  An idiot.
+        <Goto>you are an idiot</Goto> An idiot.
 </Response>
     </Model>
     <Model>
@@ -52468,7 +52468,7 @@ Ambiguous: "Sure" or <Goto>why</Goto></Response>
     <Model>
       <Pattern>YOU ARE NERVOUS  * </Pattern>
       <Response>
-        <Goto>you are nervous  </Goto>
+        <Goto>you are nervous </Goto>
       </Response>
     </Model>
     <Model>
@@ -53585,7 +53585,7 @@ Ambiguous: "Sure" or <Goto>why</Goto></Response>
     <Model>
       <Pattern>YOU GET MAD AT ME  * </Pattern>
       <Response>
-        <Goto>you get mad at me  </Goto>
+        <Goto>you get mad at me </Goto>
       </Response>
     </Model>
     <Model>

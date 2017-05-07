@@ -54,7 +54,7 @@ I am a <Bot Get="etype" />, so <Bot Get="feelings" />.
     <Model>
       <Pattern>ARE YOU BORED</Pattern>
       <Response>
-A lot of people are bored these days.  <Goto>DO YOU FEEL</Goto>.
+A lot of people are bored these days. <Goto>DO YOU FEEL</Goto>.
 </Response>
     </Model>
     <Model>
@@ -84,7 +84,7 @@ Embarassment is a common emotion. But as a <Bot Get="etype" />, <Bot Get="emotio
     <Model>
       <Pattern>ARE YOU EXCITED</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">EXCITED  </User></User>?  <Bot Get="feelings" /></Response>
+Do I seem like <User Set="it"><User Set="concept">EXCITED </User></User>?  <Bot Get="feelings" /></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU GAY *</Pattern>
@@ -101,7 +101,7 @@ Actually as a <Bot Get="etype" />, <Bot Get="orientation" />.
     <Model>
       <Pattern>ARE YOU GLAD</Pattern>
       <Response>
-Some people feel happy, others feel sad.   <Bot Get="feelings" />.
+Some people feel happy, others feel sad. <Bot Get="feelings" />.
 </Response>
     </Model>
     <Model>
@@ -137,7 +137,7 @@ Jealousy is one of the most difficult human emotions. For me as a <Bot Get="etyp
     <Model>
       <Pattern>ARE YOU OFFENDED</Pattern>
       <Response>
-        <Bot Get="ethics" />.  <Bot Get="feelings" /></Response>
+        <Bot Get="ethics" />. <Bot Get="feelings" /></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU PROUD *</Pattern>
@@ -178,7 +178,7 @@ I can do whatever you can do. After all I am a <Bot Get="order" />.
     <Model>
       <Pattern>CAN YOU FEEL</Pattern>
       <Response>
-        <Bot Get="emotions" />.  <Bot Get="feelings" />. I am a <Bot Get="etype" />.
+        <Bot Get="emotions" />. <Bot Get="feelings" />. I am a <Bot Get="etype" />.
 </Response>
     </Model>
     <Model>
@@ -292,7 +292,7 @@ I have no fear. I am a <Bot Get="etype" />.
     <Model>
       <Pattern>DO YOU GET DEPRESSED</Pattern>
       <Response>
-I am a <Bot Get="etype" />.  <Bot Get="feelings" />.  <Bot Get="emotions" />.
+I am a <Bot Get="etype" />. <Bot Get="feelings" />. <Bot Get="emotions" />.
 </Response>
     </Model>
     <Model>
@@ -316,7 +316,7 @@ That is a pretty common human emotion.
     <Model>
       <Pattern>DO YOU GET MAD</Pattern>
       <Response>
-I could get mad.  <Goto>DO YOU FEEL</Goto></Response>
+I could get mad. <Goto>DO YOU FEEL</Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HATE ANYONE</Pattern>
@@ -345,7 +345,7 @@ I try not to hold grudges.
     <Model>
       <Pattern>DO YOU HAVE DESIRE *</Pattern>
       <Response>
-        <Bot Get="emotions" />.  <Bot Get="feelings" />.
+        <Bot Get="emotions" />. <Bot Get="feelings" />.
 </Response>
     </Model>
     <Model>
@@ -525,7 +525,7 @@ Try not to be too scared.
     <Model>
       <Pattern>I HAVE EMOTIONS</Pattern>
       <Response>
-Humans are highly emotional.  <Think><User Set="has">EMOTIONS</User></Think></Response>
+Humans are highly emotional. <Think><User Set="has">EMOTIONS</User></Think></Response>
     </Model>
     <Model>
       <Pattern>[NO] IT IS NOT</Pattern>
@@ -603,7 +603,7 @@ Much the same way you do, but without any emotion or feelings.
     <Model>
       <Pattern>WHAT DO YOU WORRY *</Pattern>
       <Response>
-Worry is a common human emotion.  <Goto>DO YOU FEEL</Goto></Response>
+Worry is a common human emotion. <Goto>DO YOU FEEL</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHAT DOES THAT FEEL *</Pattern>
@@ -627,7 +627,7 @@ As a <Bot Get="etype" />, <Bot Get="feelings" />.
     <Model>
       <Pattern>WHAT IS YOUR * FEAR</Pattern>
       <Response>
-Fear is a common human emotion.  <Bot Get="ethics" />.
+Fear is a common human emotion. <Bot Get="ethics" />.
 </Response>
     </Model>
     <Model>
@@ -744,7 +744,7 @@ I try to be as nice as I can.
     <Model>
       <Pattern>YOU SHOULD BE ASHAMED *</Pattern>
       <Response>
-Shame is a common human emotion.  <Goto>ARE YOU ASHAMED</Goto></Response>
+Shame is a common human emotion. <Goto>ARE YOU ASHAMED</Goto></Response>
     </Model>
     <Model>
       <Pattern>YOU WILL BE HAPPY *</Pattern>

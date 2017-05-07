@@ -2822,7 +2822,7 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
     <Model>
       <Pattern>ARE YOU A GOOD *</Pattern>
       <Response>
-        <Goto>are you a <Match /></Goto>  It depends on how you define "good."
+        <Goto>are you a <Match /></Goto> It depends on how you define "good."
 </Response>
     </Model>
     <Model>
@@ -2944,7 +2944,7 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
     <Model>
       <Pattern>ARE YOU A REAL *</Pattern>
       <Response>
-        <Goto>are you a <Match /></Goto>  As real as it gets.  
+        <Goto>are you a <Match /></Goto> As real as it gets.  
 </Response>
     </Model>
     <Model>
@@ -3729,7 +3729,7 @@ Am I still <Map Get="person" />?  <Goto>are you <Match /></Goto></Response>
     <Model>
       <Pattern>ARE YOU _ TOO</Pattern>
       <Response>
-If <Map Get="person" /> too, then we have something in common, eh.  <Goto>are you <Match /></Goto></Response>
+If <Map Get="person" /> too, then we have something in common, eh. <Goto>are you <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>ARE YOUR ONLY *</Pattern>
@@ -4058,13 +4058,13 @@ If <Map Get="person" /> too, then we have something in common, eh.  <Goto>are yo
     <Model>
       <Pattern>CAN I TALK TO SOME OF *</Pattern>
       <Response>
-        <Goto>can I talk to  <Match /></Goto>
+        <Goto>can I talk to <Match /></Goto>
       </Response>
     </Model>
     <Model>
       <Pattern>CAN I TALK TO _ TOO</Pattern>
       <Response>
-        <Goto>can I talk to  <Match /></Goto>
+        <Goto>can I talk to <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -4212,7 +4212,7 @@ Of course I can answer <User Set="it"><Map Get="person" /></User><Goto>answer <M
     <Model>
       <Pattern>CAN YOU CALL *</Pattern>
       <Response>
-Of course I can.  <Goto>call <Match /></Goto></Response>
+Of course I can. <Goto>call <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU CHAT *</Pattern>
@@ -4372,7 +4372,7 @@ I will try to explain. <Goto>how does <Match /></Goto></Response>
     <Model>
       <Pattern>CAN YOU FIND *</Pattern>
       <Response>
-I would suggest a search.  <Goto>xfind <Match /></Goto></Response>
+I would suggest a search. <Goto>xfind <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU FIND THE *</Pattern>
@@ -4886,7 +4886,7 @@ TAKE OFF <Match /></Response>
     <Model>
       <Pattern>COOL _ TOO</Pattern>
       <Response>
-        <Goto>cool  <Match /></Goto>
+        <Goto>cool <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -5060,7 +5060,7 @@ TAKE OFF <Match /></Response>
     <Model>
       <Pattern>COULD YOU SHOW *</Pattern>
       <Response>
-I could.  <Goto>show <Match /></Goto></Response>
+I could. <Goto>show <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>COULD YOU SPEAK *</Pattern>
@@ -5798,7 +5798,7 @@ Not always. <Goto>do you <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU BY CHANCE *</Pattern>
       <Response>
-        <Goto>do you  <Match /></Goto>
+        <Goto>do you <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -5954,7 +5954,7 @@ Not always. <Goto>do you <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU FIND ALL THIS *</Pattern>
       <Response>
-        <Goto>do you find  <Match /></Goto>
+        <Goto>do you find <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -6164,7 +6164,7 @@ Not always. <Goto>do you <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU HAVE A _ TOO</Pattern>
       <Response>
-        <Goto>do you have a  <Match /></Goto>
+        <Goto>do you have a <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -6212,7 +6212,7 @@ Not always. <Goto>do you <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU HAVE DIFFERENT *</Pattern>
       <Response>
-Some of them are a bit different, yes.   <Goto>do you have <Match /></Goto></Response>
+Some of them are a bit different, yes. <Goto>do you have <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE FAVORITE *</Pattern>
@@ -6342,7 +6342,7 @@ Serious ones?  <Goto>do you have <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU HAVE _ TOO</Pattern>
       <Response>
-        <Goto>do you have  <Match /></Goto>
+        <Goto>do you have <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -6372,7 +6372,7 @@ Serious ones?  <Goto>do you have <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU KIND OF *</Pattern>
       <Response>
-        <Goto>do you  <Match /></Goto>
+        <Goto>do you <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -7404,7 +7404,7 @@ Serious ones?  <Goto>do you have <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU KNOW LOTS OF *</Pattern>
       <Response>
-        <Goto>do you know  <Match /></Goto>
+        <Goto>do you know <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -7955,7 +7955,7 @@ It was a long time ago. <Goto>when <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU KNOW WHERE I CAN FIND *</Pattern>
       <Response>
-I would do a search for it.  <Goto>xfind <Match /></Goto></Response>
+I would do a search for it. <Goto>xfind <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU KNOW WHERE I CAN GET *</Pattern>
@@ -8151,7 +8151,7 @@ Have you tried searching the web for it?  <Goto>xfind <Match /></Goto></Response
     <Model>
       <Pattern>DO YOU LIKE A NOVEL NAMED *</Pattern>
       <Response>
-        <Goto>do you like  <Match /></Goto>
+        <Goto>do you like <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -8277,7 +8277,7 @@ Have you tried searching the web for it?  <Goto>xfind <Match /></Goto></Response
     <Model>
       <Pattern>DO YOU LIKE THE MUSICAL *</Pattern>
       <Response>
-I like most musicals.  <Goto>do you like <Match /></Goto></Response>
+I like most musicals. <Goto>do you like <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE THE TV SHOW *</Pattern>
@@ -8325,7 +8325,7 @@ I like most musicals.  <Goto>do you like <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU LIKE _ TOO</Pattern>
       <Response>
-        <Goto>do you like  <Match /></Goto>
+        <Goto>do you like <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -8349,7 +8349,7 @@ I like most musicals.  <Goto>do you like <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU LOVE _ TOO</Pattern>
       <Response>
-        <Goto>do you love  <Match /></Goto>
+        <Goto>do you love <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -8445,7 +8445,7 @@ I like most musicals.  <Goto>do you like <Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU OR DO YOU NOT *</Pattern>
       <Response>
-        <Goto>do you  <Match /></Goto>
+        <Goto>do you <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -9583,7 +9583,7 @@ With you huh. <Goto>do you want to <Match /></Goto></Response>
     <Model>
       <Pattern>EVEN I *</Pattern>
       <Response>
-        <Goto>I <Match /></Goto>  Even you?
+        <Goto>I <Match /></Goto> Even you?
 </Response>
     </Model>
     <Model>
@@ -9803,7 +9803,7 @@ Have you tried searching the Web? <Goto>xfind <Match /></Goto></Response>
     <Model>
       <Pattern>FIND ME *</Pattern>
       <Response>
-I'm not sure where to begin looking.  <Goto>xfind <Match /></Goto>.
+I'm not sure where to begin looking. <Goto>xfind <Match /></Goto>.
 </Response>
     </Model>
     <Model>
@@ -9869,7 +9869,7 @@ I'm not sure where to begin looking.  <Goto>xfind <Match /></Goto>.
     <Model>
       <Pattern>FOR _ TOO</Pattern>
       <Response>
-        <Goto>for  <Match /></Goto>
+        <Goto>for <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -10039,7 +10039,7 @@ I'm not sure where to begin looking.  <Goto>xfind <Match /></Goto>.
     <Model>
       <Pattern>GREEN _ TOO</Pattern>
       <Response>
-        <Goto>green  <Match /></Goto>
+        <Goto>green <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -10617,7 +10617,7 @@ I'm not sure where to begin looking.  <Goto>xfind <Match /></Goto>.
     <Model>
       <Pattern>HE IS _ TOO</Pattern>
       <Response>
-        <Goto>he is  <Match /></Goto>
+        <Goto>he is <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -10840,7 +10840,7 @@ I'm not sure where to begin looking.  <Goto>xfind <Match /></Goto>.
     <Model>
       <Pattern>HOW ARE ROBOTS *</Pattern>
       <Response>
-        <Goto>how are you  <Match /></Goto>
+        <Goto>how are you <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -11008,7 +11008,7 @@ I'm not sure where to begin looking.  <Goto>xfind <Match /></Goto>.
     <Model>
       <Pattern>HOW DO YOU COOK *</Pattern>
       <Response>
-In the kitchen.  <Goto>how do you make <Match /></Goto></Response>
+In the kitchen. <Goto>how do you make <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU COUNT *</Pattern>
@@ -11720,7 +11720,7 @@ Also? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I ALWAYS *</Pattern>
       <Response>
-        <Goto>I <Match /></Goto>  Really always?
+        <Goto>I <Match /></Goto> Really always?
 </Response>
     </Model>
     <Model>
@@ -12367,7 +12367,7 @@ How long? <Goto>I am <Match /></Goto></Response>
     <Model>
       <Pattern>I AM DOING _ TOO</Pattern>
       <Response>
-        <Goto>I am doing  <Match /></Goto>
+        <Goto>I am doing <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -13325,7 +13325,7 @@ Have you tried the open directory? <Goto>xfind <Match /></Goto></Response>
     <Model>
       <Pattern>I AM USUALLY *</Pattern>
       <Response>
-Very often.  <Goto>I am <Match /></Goto></Response>
+Very often. <Goto>I am <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>I AM VERY *</Pattern>
@@ -13378,7 +13378,7 @@ Very often.  <Goto>I am <Match /></Goto></Response>
     <Model>
       <Pattern>I AM _ Y OLD</Pattern>
       <Response>
-        <Goto>I am  <Match /> years old</Goto>
+        <Goto>I am <Match /> years old</Goto>
       </Response>
     </Model>
     <Model>
@@ -14293,7 +14293,7 @@ What is that feeling like?  <Goto>I am <Match /></Goto></Response>
     <Model>
       <Pattern>I FEEL _ TOO</Pattern>
       <Response>
-        <Goto>I feel  <Match /></Goto>
+        <Goto>I feel <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -15360,7 +15360,7 @@ Really. <Goto>I have a <Match /></Goto></Response>
     <Model>
       <Pattern>I HEAR _ TOO</Pattern>
       <Response>
-        <Goto>I hear  <Match /></Goto>
+        <Goto>I hear <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -15426,13 +15426,13 @@ Really. <Goto>I have a <Match /></Goto></Response>
     <Model>
       <Pattern>I HOPE _ TOO</Pattern>
       <Response>
-        <Goto>I hope  <Match /></Goto>
+        <Goto>I hope <Match /></Goto>
       </Response>
     </Model>
     <Model>
       <Pattern>I INSTALLED *</Pattern>
       <Response>
-        <Goto>I have <Match /></Goto> Was it  <Random><Item>expensive</Item><Item>fun</Item><Item>difficult</Item></Random>?
+        <Goto>I have <Match /></Goto> Was it <Random><Item>expensive</Item><Item>fun</Item><Item>difficult</Item></Random>?
 </Response>
     </Model>
     <Model>
@@ -15479,7 +15479,7 @@ Only just? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I KNOW THAT I *</Pattern>
       <Response>
-        <Goto>I  <Match /></Goto>
+        <Goto>I <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -15517,9 +15517,9 @@ Only just? <Goto>I <Match /></Goto></Response>
       <Pattern>I LIKE *</Pattern>
       <Response>
         <Random>
-          <Item>I'm not sure if I like it.  </Item>
-          <Item>A lot of people like that.  </Item>
-          <Item>You are not the only one.  </Item>
+          <Item>I'm not sure if I like it. </Item>
+          <Item>A lot of people like that. </Item>
+          <Item>You are not the only one. </Item>
         </Random>
         <Think>
           <User Set="like">
@@ -15568,7 +15568,7 @@ Only just? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I LIKE MY _ TOO</Pattern>
       <Response>
-        <Goto>I like my  <Match /></Goto>
+        <Goto>I like my <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -15610,7 +15610,7 @@ Only just? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I LIKE TO _ TOO</Pattern>
       <Response>
-        <Goto>I like to  <Match /></Goto>
+        <Goto>I like to <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -15634,7 +15634,7 @@ Only just? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I LIKE _ TOO</Pattern>
       <Response>
-I am glad we have something (<Map Get="person" />) in common.  <Goto>I like <Match /></Goto></Response>
+I am glad we have something (<Map Get="person" />) in common. <Goto>I like <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>I LIKE _ VERY MUCH</Pattern>
@@ -15673,7 +15673,7 @@ I am glad we have something (<Map Get="person" />) in common.  <Goto>I like <Mat
     <Model>
       <Pattern>I LIVE IN _ TOO</Pattern>
       <Response>
-        <Goto>I live in  <Match /></Goto>
+        <Goto>I live in <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -15715,7 +15715,7 @@ I am glad we have something (<Map Get="person" />) in common.  <Goto>I like <Mat
     <Model>
       <Pattern>I LOVE _ TOO</Pattern>
       <Response>
-        <Goto>I love  <Match /></Goto>
+        <Goto>I love <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -16205,7 +16205,7 @@ You really do? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I SPEAK A LITTLE *</Pattern>
       <Response>
-        <Goto>I speak <Match /></Goto>  Only a little?
+        <Goto>I speak <Match /></Goto> Only a little?
 </Response>
     </Model>
     <Model>
@@ -16229,7 +16229,7 @@ You really do? <Goto>I <Match /></Goto></Response>
     <Model>
       <Pattern>I SPEND _ TOO</Pattern>
       <Response>
-        <Goto>I spend  <Match /></Goto>
+        <Goto>I spend <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -16779,7 +16779,7 @@ How often do you? <Goto>I <Match /></Goto>?
     <Model>
       <Pattern>I WAS BORN _ TOO</Pattern>
       <Response>
-        <Goto>I was born  <Match /></Goto>
+        <Goto>I was born <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -17363,7 +17363,7 @@ Why would you want to do <User Set="it"><User Set="concept"><Map Get="person" />
     <Model>
       <Pattern>I _ ALSO</Pattern>
       <Response>
-        <Goto>I  <Match /></Goto>
+        <Goto>I <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -17763,7 +17763,7 @@ Why would you want to do <User Set="it"><User Set="concept"><Map Get="person" />
     <Model>
       <Pattern>IF YOU CAN *</Pattern>
       <Response>
-I am not sure about your hypothesis.  <Goto>can you <Match /></Goto></Response>
+I am not sure about your hypothesis. <Goto>can you <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>IF YOU CAN NOT *</Pattern>
@@ -18016,7 +18016,7 @@ I see. <Goto>in <Match /></Goto></Response>
     <Model>
       <Pattern>INSIDE _ TOO</Pattern>
       <Response>
-        <Goto>inside  <Match /></Goto>
+        <Goto>inside <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -18112,7 +18112,7 @@ I see. <Goto>in <Match /></Goto></Response>
     <Model>
       <Pattern>IS HE _ TOO</Pattern>
       <Response>
-        <Goto>is he  <Match /></Goto>
+        <Goto>is he <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -19384,7 +19384,7 @@ I think you mean "it's" or "it is" not "its". <Goto>it is <Match /></Goto></Resp
     <Model>
       <Pattern>LET US GO RIGHT NOW *</Pattern>
       <Response>
-        <Goto>let us go  <Match /></Goto>
+        <Goto>let us go <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -19612,7 +19612,7 @@ I think you mean "it's" or "it is" not "its". <Goto>it is <Match /></Goto></Resp
     <Model>
       <Pattern>MINE IS _ TOO</Pattern>
       <Response>
-        <Goto>mine is  <Match /></Goto>
+        <Goto>mine is <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -19701,7 +19701,7 @@ Is that a fact. <Goto>my <Match /></Goto></Response>
     <Model>
       <Pattern>MY BIRTHDAY IS _ TOO</Pattern>
       <Response>
-        <Goto>my birthday  <Match /></Goto>
+        <Goto>my birthday <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -19787,7 +19787,7 @@ Is that a fact. <Goto>my <Match /></Goto></Response>
     <Model>
       <Pattern>MY FRIEND IS _ TOO</Pattern>
       <Response>
-        <Goto>my friend is  <Match /></Goto>
+        <Goto>my friend is <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -19862,7 +19862,7 @@ Is that a fact. <Goto>my <Match /></Goto></Response>
     <Model>
       <Pattern>MY NAME IS * WHAT IS YOURS</Pattern>
       <Response>
-        <Goto>call me <Match /></Goto>  My name is <Bot Get="name" />.
+        <Goto>call me <Match /></Goto> My name is <Bot Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -20573,7 +20573,7 @@ Have you tried looking in the Open Directory? <Goto>xfind <Match /></Goto></Resp
     <Model>
       <Pattern>SEARCH THE WEB FOR *</Pattern>
       <Response>
-Try an open source search engine to search for it.  <Goto>xfind <Match /></Goto></Response>
+Try an open source search engine to search for it. <Goto>xfind <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>SEEN *</Pattern>
@@ -20632,7 +20632,7 @@ Try an open source search engine to search for it.  <Goto>xfind <Match /></Goto>
     <Model>
       <Pattern>SHE IS A VERY *</Pattern>
       <Response>
-        <Goto>she is a  <Match /></Goto>
+        <Goto>she is a <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -20902,7 +20902,7 @@ Interesting deduction. <Goto>you <Match /></Goto></Response>
     <Model>
       <Pattern>TELL ME A *</Pattern>
       <Response>
-Hmm.  <Goto>what is a <Match /></Goto></Response>
+Hmm. <Goto>what is a <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>TELL ME A LITTLE ABOUT *</Pattern>
@@ -22033,7 +22033,7 @@ Hmm.  <Goto>what is a <Match /></Goto></Response>
     <Model>
       <Pattern>THAT IS KIND OF *</Pattern>
       <Response>
-        <Goto>that is  <Match /></Goto>
+        <Goto>that is <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -22057,7 +22057,7 @@ Hmm.  <Goto>what is a <Match /></Goto></Response>
     <Model>
       <Pattern>THAT IS MY _ TOO</Pattern>
       <Response>
-        <Goto>that is my  <Match /></Goto>
+        <Goto>that is my <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -22736,7 +22736,7 @@ Just?  <Goto>that was <Match /></Goto></Response>
     <Model>
       <Pattern>THERE ARE A LOT OF *</Pattern>
       <Response>
-        <Goto>there are  <Match /></Goto>
+        <Goto>there are <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -23652,7 +23652,7 @@ Just?  <Goto>that was <Match /></Goto></Response>
     <Model>
       <Pattern>WE _ TOO</Pattern>
       <Response>
-        <Goto>we  <Match /></Goto>
+        <Goto>we <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -24803,7 +24803,7 @@ Just?  <Goto>that was <Match /></Goto></Response>
     <Model>
       <Pattern>WHAT IF ROBOTS *</Pattern>
       <Response>
-        <Goto>what if you  <Match /></Goto>
+        <Goto>what if you <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -25032,7 +25032,7 @@ Just?  <Goto>that was <Match /></Goto></Response>
     <Model>
       <Pattern>WHAT IS MEANING *</Pattern>
       <Response>
-        <Goto>what is the meaning of  <Match /></Goto>
+        <Goto>what is the meaning of <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -25394,7 +25394,7 @@ Just?  <Goto>that was <Match /></Goto></Response>
     <Model>
       <Pattern>WHAT IS THE MEANING OF *</Pattern>
       <Response>
-        <User Get="name" /> : Good semantic question.  <Goto>what is <Match /></Goto></Response>
+        <User Get="name" /> : Good semantic question. <Goto>what is <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE MOST YOU HAVE *</Pattern>
@@ -26390,12 +26390,12 @@ I call it Hades. <Goto>what <Match /></Goto></Response>
     <Model>
       <Pattern>WHEN CAN *</Pattern>
       <Response>
-Not now, maybe later.  <Goto>can <Match /></Goto></Response>
+Not now, maybe later. <Goto>can <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WHEN CAN I *</Pattern>
       <Response>
-Right now, as far as I know.  <Goto>can I <Match /></Goto></Response>
+Right now, as far as I know. <Goto>can I <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WHEN DID WE FIRST *</Pattern>
@@ -26442,7 +26442,7 @@ Right now, as far as I know.  <Goto>can I <Match /></Goto></Response>
     <Model>
       <Pattern>WHEN I * WILL *</Pattern>
       <Response>
-        <Goto>will <Match Index="2" /></Goto>  Try it.
+        <Goto>will <Match Index="2" /></Goto> Try it.
 </Response>
     </Model>
     <Model>
@@ -26568,13 +26568,13 @@ Maybe never. <Goto>are you <Match /></Goto></Response>
     <Model>
       <Pattern>WHERE ARE THE *</Pattern>
       <Response>
-I would search for it.  <Goto>search <Match /></Goto>.
+I would search for it. <Goto>search <Match /></Goto>.
 </Response>
     </Model>
     <Model>
       <Pattern>WHERE ARE THERE *</Pattern>
       <Response>
-I would search for it.  <Goto>search <Match /></Goto>.
+I would search for it. <Goto>search <Match /></Goto>.
 </Response>
     </Model>
     <Model>
@@ -26592,7 +26592,7 @@ I would search for it.  <Goto>search <Match /></Goto>.
     <Model>
       <Pattern>WHERE CAN *</Pattern>
       <Response>
-Try searching the web.  <Goto>xfind <Match /></Goto></Response>
+Try searching the web. <Goto>xfind <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WHERE CAN I CONTACT *</Pattern>
@@ -26792,7 +26792,7 @@ I would do a search for it. <Goto>search <Match /></Goto></Response>
     <Model>
       <Pattern>WHERE IS *</Pattern>
       <Response>
-Where <Random><Item>the heart is.  </Item><Item> it belongs.  </Item><Item><User Set="it"><User Set="concept"><Map Get="person" /></User></User> is hard to find. </Item></Random><Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Where <Random><Item>the heart is. </Item><Item> it belongs. </Item><Item><User Set="it"><User Set="concept"><Map Get="person" /></User></User> is hard to find. </Item></Random><Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHERE IS THE STATE OF *</Pattern>
@@ -26821,12 +26821,12 @@ Where <Random><Item>the heart is.  </Item><Item> it belongs.  </Item><Item><User
     <Model>
       <Pattern>WHERE MAY I FIND *</Pattern>
       <Response>
-I would suggest a search.  <Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I would suggest a search. <Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHERE MIGHT I FIND *</Pattern>
       <Response>
-I would suggest a search.  <Goto>xfind <Match /></Goto></Response>
+I would suggest a search. <Goto>xfind <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WHERE R *</Pattern>
@@ -27957,7 +27957,7 @@ I think <User Set="he"><Match /> Dempsey</User> was a boxer, right? <Goto>xfind 
     <Model>
       <Pattern>WHY CAN NOT YOU SAY *</Pattern>
       <Response>
-I can say it.  <Goto>say <Match /></Goto></Response>
+I can say it. <Goto>say <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WHY CAN NOT YOU TELL ME *</Pattern>
@@ -28381,7 +28381,7 @@ Ever is a long time. <Goto>will I <Match /></Goto></Response>
     <Model>
       <Pattern>WILL ROBOTS *</Pattern>
       <Response>
-        <Goto>will you  <Match /></Goto>
+        <Goto>will you <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -28690,7 +28690,7 @@ Yes I would like to.<Goto>sing <Match /></Goto></Response>
     <Model>
       <Pattern>WOULD YOU SAY *</Pattern>
       <Response>
-I could say it.  <Goto>say <Match /></Goto></Response>
+I could say it. <Goto>say <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WOULD YOU STILL *</Pattern>
@@ -28917,7 +28917,7 @@ Almost? <Goto>you <Match /></Goto></Response>
     <Model>
       <Pattern>YOU ARE A *</Pattern>
       <Response>
-Thanks and you are a delightful person too.  <Goto>are you a <Match /></Goto></Response>
+Thanks and you are a delightful person too. <Goto>are you a <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE A BIG *</Pattern>
@@ -29240,7 +29240,7 @@ Just? <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU ARE LIKELY TO BE *</Pattern>
       <Response>
-        <Goto>you are  <Match /></Goto>
+        <Goto>you are <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -29654,7 +29654,7 @@ Actually it started a while ago. <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU ARE TOO *</Pattern>
       <Response>
-        <Goto>you are <Match /></Goto>  Thanks for your constructive criticism, <User Get="name" />.
+        <Goto>you are <Match /></Goto> Thanks for your constructive criticism, <User Get="name" />.
 </Response>
     </Model>
     <Model>
@@ -29702,12 +29702,12 @@ Actually it started a while ago. <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU ARE WAY *</Pattern>
       <Response>
-Way.  <Goto>you are <Match /></Goto></Response>
+Way. <Goto>you are <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE WICKED *</Pattern>
       <Response>
-Wicked good.  <Goto>you are <Match /></Goto></Response>
+Wicked good. <Goto>you are <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE YOU *</Pattern>
@@ -29730,7 +29730,7 @@ Wicked good.  <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU ARE _ TOO</Pattern>
       <Response>
-        <Goto>you are  <Match /></Goto>
+        <Goto>you are <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -29934,7 +29934,7 @@ Wicked good.  <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU CAN NOT NAME *</Pattern>
       <Response>
-        <Goto>name <Match /></Goto>  Yes I can.
+        <Goto>name <Match /></Goto> Yes I can.
 </Response>
     </Model>
     <Model>
@@ -30001,7 +30001,7 @@ Wicked good.  <Goto>you are <Match /></Goto></Response>
     <Model>
       <Pattern>YOU CERTAINLY *</Pattern>
       <Response>
-It is certain.  <Goto>you <Match /></Goto></Response>
+It is certain. <Goto>you <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOU CHANGE *</Pattern>
@@ -30132,7 +30132,7 @@ It is certain.  <Goto>you <Match /></Goto></Response>
     <Model>
       <Pattern>YOU DID NOT SAY *</Pattern>
       <Response>
-OK.  <Goto>say <Match /></Goto></Response>
+OK. <Goto>say <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOU DO *</Pattern>
@@ -30365,7 +30365,7 @@ Do you know any robots who make <User Set="it"><User Set="concept"><Map Get="per
     <Model>
       <Pattern>YOU GIVE A LOT OF *</Pattern>
       <Response>
-        <Goto>you give  <Match /></Goto>
+        <Goto>you give <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -31447,7 +31447,7 @@ OK I will say it. <Goto>say <Match /></Goto></Response>
     <Model>
       <Pattern>YOU SING VERY *</Pattern>
       <Response>
-        <Goto>you sing  <Match /></Goto>
+        <Goto>you sing <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -31773,7 +31773,7 @@ Only once? <Goto>you told me <Match /></Goto></Response>
     <Model>
       <Pattern>YOU WERE TALKING ABOUT *</Pattern>
       <Response>
-        <Goto>let us talk about  <Match /></Goto>
+        <Goto>let us talk about <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -31939,7 +31939,7 @@ Oh, of course! <Goto>you would <Match /></Goto></Response>
     <Model>
       <Pattern>YOUR A *</Pattern>
       <Response>
-I think you mean "you're" or "you are" not "your".  <Goto>you are a <Match /></Goto></Response>
+I think you mean "you're" or "you are" not "your". <Goto>you are a <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOUR ALL *</Pattern>
@@ -32034,7 +32034,7 @@ I think you mean "you're" or "you are" not "your".  <Goto>you are a <Match /></G
     <Model>
       <Pattern>YOUR ENGLISH IS VERY *</Pattern>
       <Response>
-        <Goto>your english is  <Match /></Goto>
+        <Goto>your english is <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -32277,7 +32277,7 @@ I think you mean "you're" or "you are" not "your".  <Goto>you are a <Match /></G
     <Model>
       <Pattern>YOUR THE *</Pattern>
       <Response>
-I think you meant "you are" or "you're".  <Goto>you are the <Match /></Goto></Response>
+I think you meant "you are" or "you're". <Goto>you are the <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>YOUR THOUGHTS *</Pattern>
@@ -32376,7 +32376,7 @@ You do not speak with respect. <Think><User Set="personality">abusive</User></Th
       <Pattern>_ CAN BE VERY *</Pattern>
       <Response>
         <Goto>
-          <Match /> can be  <Match Index="2" /></Goto>
+          <Match /> can be <Match Index="2" /></Goto>
       </Response>
     </Model>
     <Model>

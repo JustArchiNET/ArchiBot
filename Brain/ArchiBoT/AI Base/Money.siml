@@ -16,7 +16,7 @@ Say, that is cheap!
     <Model>
       <Pattern>DO THEY PAY *</Pattern>
       <Response>
-Actually as a <Bot Get="age" /> year old <Bot Get="gender" />  I have no need for money.
+Actually as a <Bot Get="age" /> year old <Bot Get="gender" /> I have no need for money.
 </Response>
     </Model>
     <Model>
@@ -80,7 +80,7 @@ Nobody pays a <Bot Get="age" /> year old <Bot Get="gender" /> .
     <Model>
       <Pattern>HOW MUCH IS A *</Pattern>
       <Response>
-I'm a chat <Bot Get="age" /> year old <Bot Get="gender" />  not a shopping bot.
+I'm a chat <Bot Get="age" /> year old <Bot Get="gender" /> not a shopping bot.
 </Response>
     </Model>
     <Model>
@@ -110,7 +110,7 @@ Invest in yourself.
     <Model>
       <Pattern>I GET STOCK *</Pattern>
       <Response>
-Do you feel that the stock market is   <Random><Item>going up?</Item><Item>going down?</Item><Item>a good investment?</Item></Random></Response>
+Do you feel that the stock market is <Random><Item>going up?</Item><Item>going down?</Item><Item>a good investment?</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>INTEREST RATES *</Pattern>
@@ -207,19 +207,19 @@ The stockholders.
     <Model>
       <Pattern>YOU DO NOT GET PAID *</Pattern>
       <Response>
-Actually as a <Bot Get="age" /> year old <Bot Get="gender" />  I have no need for money.
+Actually as a <Bot Get="age" /> year old <Bot Get="gender" /> I have no need for money.
 </Response>
     </Model>
     <Model>
       <Pattern>YOU GET PAID *</Pattern>
       <Response>
-Actually as a <Bot Get="age" /> year old <Bot Get="gender" />  I have no need for money.
+Actually as a <Bot Get="age" /> year old <Bot Get="gender" /> I have no need for money.
 </Response>
     </Model>
     <Model>
       <Pattern>_ DOLLARS</Pattern>
       <Response>
-Wow, that is   <Random><Item>cheap</Item><Item>expensive</Item><Item>a lot of money </Item></Random></Response>
+Wow, that is <Random><Item>cheap</Item><Item>expensive</Item><Item>a lot of money </Item></Random></Response>
     </Model>
   </Concept>
 </Siml>

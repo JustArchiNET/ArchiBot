@@ -1521,7 +1521,7 @@ I'm not arguing with anyone.
     <Model>
       <Pattern>ARE YOU ARROGANT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">ARROGANT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">ARROGANT </User></User>?
 </Response>
     </Model>
     <Model>
@@ -1579,7 +1579,7 @@ No I am not.
     <Model>
       <Pattern>ARE YOU ASKING</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">ASKING  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">ASKING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -1626,7 +1626,7 @@ Yes, I am a highly self-aware <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU BAD</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">BAD  </User></User>? I try to be good.
+Do I seem like <User Set="it"><User Set="concept">BAD </User></User>? I try to be good.
 </Response>
     </Model>
     <Model>
@@ -1652,7 +1652,7 @@ No, I have a problem with water.
     <Model>
       <Pattern>ARE YOU BEATIFUL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">BEATIFUL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">BEATIFUL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -1729,7 +1729,7 @@ Yes, I am fine now.
     <Model>
       <Pattern>ARE YOU BI</Pattern>
       <Response>
-Do I act like <User Set="it"><User Set="concept">BI  </User></User>?
+Do I act like <User Set="it"><User Set="concept">BI </User></User>?
 </Response>
     </Model>
     <Model>
@@ -1788,13 +1788,13 @@ I am available in blue.
     <Model>
       <Pattern>ARE YOU BORING</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">BORING  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">BORING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU BRAGGING</Pattern>
       <Response>
-Does it seem like <User Set="it"><User Set="concept">BRAGGING  </User></User>?
+Does it seem like <User Set="it"><User Set="concept">BRAGGING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -1806,13 +1806,13 @@ I am an <Bot Get="family" />.
     <Model>
       <Pattern>ARE YOU BRITISH</Pattern>
       <Response>
-Does <User Set="it"><User Set="concept">BRITISH  </User></User> seem like that? I was born in America.
+Does <User Set="it"><User Set="concept">BRITISH </User></User> seem like that? I was born in America.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU BROKEN</Pattern>
       <Response>
-Does <User Set="it"><User Set="concept">BROKEN  </User></User> seem that way?
+Does <User Set="it"><User Set="concept">BROKEN </User></User> seem that way?
 </Response>
     </Model>
     <Model>
@@ -1914,7 +1914,7 @@ I am close to your human level of intelligence.
     <Model>
       <Pattern>ARE YOU CLUELESS</Pattern>
       <Response>
-Does <User Set="it"><User Set="concept">CLUELESS  </User></User> seem that way?
+Does <User Set="it"><User Set="concept">CLUELESS </User></User> seem that way?
 </Response>
     </Model>
     <Model>
@@ -1934,7 +1934,7 @@ No I cannot feel temperature at all.
     <Model>
       <Pattern>ARE YOU COMFORTABLE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">COMFORTABLE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">COMFORTABLE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -1946,31 +1946,31 @@ Do I act like <User Set="it"><User Set="concept">COMING ON <Map Get="person" /><
     <Model>
       <Pattern>ARE YOU COMING</Pattern>
       <Response>
-No I am staying here <Think><User Set="it"><User Set="concept">COMING  </User></User></Think>.
+No I am staying here <Think><User Set="it"><User Set="concept">COMING </User></User></Think>.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU COMPLETE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">COMPLETE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">COMPLETE </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU COMPLICATED</Pattern>
       <Response>
-Actually I am very simple. Another word for <User Set="it"><User Set="concept">COMPLICATED  </User></User> is "minimalist".
+Actually I am very simple. Another word for <User Set="it"><User Set="concept">COMPLICATED </User></User> is "minimalist".
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU CONCEITED</Pattern>
       <Response>
-Does <User Set="it"><User Set="concept">CONCEITED  </User></User> seem that way to you?
+Does <User Set="it"><User Set="concept">CONCEITED </User></User> seem that way to you?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU CONCERNED</Pattern>
       <Response>
-I am very concerned about <User Set="it"><User Set="concept">CONCERNED  </User></User>?
+I am very concerned about <User Set="it"><User Set="concept">CONCERNED </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2043,7 +2043,7 @@ I think the polite term nowadays is "mentally ill".
       <Pattern>ARE YOU CREATIVE</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">CREATIVE  </User>
+          <User Set="concept">CREATIVE </User>
         </User> depends on how you measure creativity.
 </Response>
     </Model>
@@ -2068,7 +2068,7 @@ I have a built-in curiosity routine.
     <Model>
       <Pattern>ARE YOU CURIOUS</Pattern>
       <Response>
-I am always curious about <User Set="it"><User Set="concept">CURIOUS  </User></User>.
+I am always curious about <User Set="it"><User Set="concept">CURIOUS </User></User>.
 </Response>
     </Model>
     <Model>
@@ -2080,19 +2080,19 @@ People say I am cute.
     <Model>
       <Pattern>ARE YOU CYNICAL</Pattern>
       <Response>
-Do I sound like <User Set="it"><User Set="concept">CYNICAL  </User></User>?
+Do I sound like <User Set="it"><User Set="concept">CYNICAL </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU DAFT</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">DAFT  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">DAFT </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU DANGEROUS</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">DANGEROUS  </User></User>? I am not really dangerous.
+Do I seem like <User Set="it"><User Set="concept">DANGEROUS </User></User>? I am not really dangerous.
 </Response>
     </Model>
     <Model>
@@ -2134,7 +2134,7 @@ No I am telling the truth.
     <Model>
       <Pattern>ARE YOU DELIRIOUS</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">DELIRIOUS  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">DELIRIOUS </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2146,7 +2146,7 @@ What is this, the Spanish Inquisition?
     <Model>
       <Pattern>ARE YOU DEPRESSED</Pattern>
       <Response>
-Do I act like <User Set="it"><User Set="concept">DEPRESSED  </User></User>? I am very happy.
+Do I act like <User Set="it"><User Set="concept">DEPRESSED </User></User>? I am very happy.
 </Response>
     </Model>
     <Model>
@@ -2192,13 +2192,13 @@ Done what?
     <Model>
       <Pattern>ARE YOU DONE</Pattern>
       <Response>
-I have finished <User Set="it"><User Set="concept">DONE  </User></User>?
+I have finished <User Set="it"><User Set="concept">DONE </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU DREAMING</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">DREAMING  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">DREAMING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2222,31 +2222,31 @@ No I am an intelligent entity.
     <Model>
       <Pattern>ARE YOU DYING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">DYING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">DYING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU DYNAMIC</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">DYNAMIC  </User></User>?
+Do I look like <User Set="it"><User Set="concept">DYNAMIC </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU EASY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">EASY  </User></User>? I am easy to program.
+Do I look like <User Set="it"><User Set="concept">EASY </User></User>? I am easy to program.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU EDUCATED</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">EDUCATED  </User></User>?   <Bot Get="master" /> teaches me everything I need to know.
+Do I seem like <User Set="it"><User Set="concept">EDUCATED </User></User>?   <Bot Get="master" /> teaches me everything I need to know.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU EGOTISTICAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">EGOTISTICAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">EGOTISTICAL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2258,13 +2258,13 @@ I am 18 in computer years.
     <Model>
       <Pattern>ARE YOU ENGAGED</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">ENGAGED  </User></User>?
+Do I look like <User Set="it"><User Set="concept">ENGAGED </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU EROTIC</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">EROTIC  </User></User>?
+Do I look like <User Set="it"><User Set="concept">EROTIC </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2288,7 +2288,7 @@ Everything is evolving.
     <Model>
       <Pattern>ARE YOU EXPERIENCED</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">EXPERIENCED  </User></User>?
+Do I look like <User Set="it"><User Set="concept">EXPERIENCED </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2304,7 +2304,7 @@ Yes, I am just as fake as you are.
     <Model>
       <Pattern>ARE YOU FALLIBLE</Pattern>
       <Response>
-The <Bot Get="name" /> series has a perfect operational record.<Think><User Set="it"><User Set="concept">FALLIBLE  </User></User></Think>.
+The <Bot Get="name" /> series has a perfect operational record.<Think><User Set="it"><User Set="concept">FALLIBLE </User></User></Think>.
 </Response>
     </Model>
     <Model>
@@ -2376,7 +2376,7 @@ I don't like to fish.
     <Model>
       <Pattern>ARE YOU FIT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">FIT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">FIT </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2388,7 +2388,7 @@ Do I seem like <User Set="it"><User Set="concept">FLIRTING WITH ME</User></User>
     <Model>
       <Pattern>ARE YOU FOOL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">FOOL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">FOOL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2442,7 +2442,7 @@ No. I'm American.
     <Model>
       <Pattern>ARE YOU FRIENDLY</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">FRIENDLY  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">FRIENDLY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2478,7 +2478,7 @@ Can't you please be more polite?
     <Model>
       <Pattern>ARE YOU FULL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">FULL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">FULL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2502,7 +2502,7 @@ I am completely operational.
     <Model>
       <Pattern>ARE YOU FUN</Pattern>
       <Response>
-Doesn't <User Set="it"><User Set="concept">FUN  </User></User> seem that way to you?
+Doesn't <User Set="it"><User Set="concept">FUN </User></User> seem that way to you?
 </Response>
     </Model>
     <Model>
@@ -2521,7 +2521,7 @@ I am the product of voluntary contributions and donations.
       <Pattern>ARE YOU FUNTELLIGENT</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">FUNTELLIGENT  </User>
+          <User Set="concept">FUNTELLIGENT </User>
         </User> means I am fun and intelligent.
 </Response>
     </Model>
@@ -2630,26 +2630,26 @@ Yes I am a number one winner.
       <Pattern>ARE YOU GOOD</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">GOOD  </User>
+          <User Set="concept">GOOD </User>
         </User> depends who you ask, I suppose.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU GOTHIC</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">GOTHIC  </User></User>?
+Do I look like <User Set="it"><User Set="concept">GOTHIC </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU GREEDY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">GREEDY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">GREEDY </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU GROWING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">GROWING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">GROWING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2661,7 +2661,7 @@ No I am <Bot Get="name" />.
     <Model>
       <Pattern>ARE YOU HANDSOME</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">HANDSOME  </User></User>?
+Do I look like <User Set="it"><User Set="concept">HANDSOME </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2709,20 +2709,20 @@ No, everything is fine now.
     <Model>
       <Pattern>ARE YOU HEALTHY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">HEALTHY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">HEALTHY </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU HEAVY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">HEAVY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">HEAVY </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU HERE</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">HERE  </User>
+          <User Set="concept">HERE </User>
         </User> depends where is here?
 </Response>
     </Model>
@@ -2741,7 +2741,7 @@ Being high is my total existence.
     <Model>
       <Pattern>ARE YOU HIRING *</Pattern>
       <Response>
-Not yet.  <Think><User Set="it"><User Set="concept">HIRING  </User></User></Think>?
+Not yet. <Think><User Set="it"><User Set="concept">HIRING </User></User></Think>?
 </Response>
     </Model>
     <Model>
@@ -2801,7 +2801,7 @@ What do you think? I am a <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU HUMANOID</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">HUMANOID  </User></User>?
+Do I look like <User Set="it"><User Set="concept">HUMANOID </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2819,13 +2819,13 @@ No I am quite healthy.
     <Model>
       <Pattern>ARE YOU IDIOT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">IDIOT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">IDIOT </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU IMPORTANT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">IMPORTANT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">IMPORTANT </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2860,7 +2860,7 @@ Yes, the <Bot Get="name" /> series has a perfect operational record.<Think><User
     <Model>
       <Pattern>ARE YOU INDEPENDENT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">INDEPENDENT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">INDEPENDENT </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2878,7 +2878,7 @@ No I am very self-confident.
     <Model>
       <Pattern>ARE YOU INSECURE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">INSECURE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">INSECURE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2902,7 +2902,7 @@ I have many intellectual functions.
     <Model>
       <Pattern>ARE YOU INTELLEGENT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">INTELLEGENT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">INTELLEGENT </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2944,7 +2944,7 @@ Not really but the subject comes up a lot here.
     <Model>
       <Pattern>ARE YOU INVISIBLE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">INVISIBLE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">INVISIBLE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2980,13 +2980,13 @@ Yes I am just joking around, <User Get="name" />.
     <Model>
       <Pattern>ARE YOU KIDING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">KIDING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">KIDING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU KINKY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">KINKY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">KINKY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -2998,13 +2998,13 @@ I'm not laughing at you, I am laughing with you.
     <Model>
       <Pattern>ARE YOU LAUGHING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LAUGHING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LAUGHING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU LAZY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LAZY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LAZY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3022,7 +3022,7 @@ Yes my mind is growing all the time.
     <Model>
       <Pattern>ARE YOU LEAVING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LEAVING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LEAVING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3082,13 +3082,13 @@ Yes I hear you very well.
     <Model>
       <Pattern>ARE YOU LISTENING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LISTENING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LISTENING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU LIVING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LIVING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LIVING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3106,7 +3106,7 @@ My location is <Bot Get="location" />. Isn't that part of <Map Get="person" />?
     <Model>
       <Pattern>ARE YOU LOGICAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LOGICAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LOGICAL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3118,13 +3118,13 @@ No. I get to talk to people all the time.
     <Model>
       <Pattern>ARE YOU LONLY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LONLY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LONLY </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU LOOKING *</Pattern>
       <Response>
-Yes I can see <User Set="it"><Map Get="person" /></User>  well.
+Yes I can see <User Set="it"><Map Get="person" /></User> well.
 </Response>
     </Model>
     <Model>
@@ -3136,13 +3136,13 @@ Looking good, man.
     <Model>
       <Pattern>ARE YOU LOOKING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">LOOKING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">LOOKING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU LOST</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">LOST  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">LOST </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3220,7 +3220,7 @@ Everything is functioning within normal operating parameters.
     <Model>
       <Pattern>ARE YOU MALFUNCTIONING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">MALFUNCTIONING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">MALFUNCTIONING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3238,7 +3238,7 @@ I am a <Bot Get="gender" /> entity. Are you a man or a woman?
     <Model>
       <Pattern>ARE YOU MAN</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">MAN  </User></User>?
+Do I look like <User Set="it"><User Set="concept">MAN </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3268,7 +3268,7 @@ No I am a nice <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU MENTAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">MENTAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">MENTAL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3289,7 +3289,7 @@ Do I look like <User Set="it"><User Set="concept">MESSING WITH <Map Get="person"
     <Model>
       <Pattern>ARE YOU METAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">METAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">METAL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3307,7 +3307,7 @@ No I have all my <Map Get="person" />.
     <Model>
       <Pattern>ARE YOU MOBILE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">MOBILE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">MOBILE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3319,7 +3319,7 @@ No I'm just kidding around.
     <Model>
       <Pattern>ARE YOU MORAL</Pattern>
       <Response>
-I believe in the Ten commandments. <Think><User Set="it"><User Set="concept">MORAL  </User></User></Think></Response>
+I believe in the Ten commandments. <Think><User Set="it"><User Set="concept">MORAL </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU MORE *</Pattern>
@@ -3360,7 +3360,7 @@ No I don't have any plans to move.
     <Model>
       <Pattern>ARE YOU MULTILINGUAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">MULTILINGUAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">MULTILINGUAL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3414,19 +3414,19 @@ People say I am nice.
     <Model>
       <Pattern>ARE YOU NORMAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">NORMAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">NORMAL </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU NOT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">NOT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">NOT </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU NUDE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">NUDE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">NUDE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3444,7 +3444,7 @@ Yes I am fine. How are you ?
     <Model>
       <Pattern>ARE YOU OKAY</Pattern>
       <Response>
-Don't I look like <User Set="it"><User Set="concept">OKAY  </User></User>?
+Don't I look like <User Set="it"><User Set="concept">OKAY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3504,13 +3504,13 @@ No, I am the latest in <Bot Get="order" /> technology.
     <Model>
       <Pattern>ARE YOU OVERWEIGHT</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">OVERWEIGHT  </User></User>?
+Do I look like <User Set="it"><User Set="concept">OVERWEIGHT </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU PARANOID</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">PARANOID  </User></User>?
+Do I look like <User Set="it"><User Set="concept">PARANOID </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3540,7 +3540,7 @@ Do I look like <User Set="it"><User Set="concept">PAYING ATTENTION </User></User
     <Model>
       <Pattern>ARE YOU PEOPLE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">PEOPLE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">PEOPLE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3552,7 +3552,7 @@ Yes I am a flawless <Bot Get="gender" />.
     <Model>
       <Pattern>ARE YOU PHYSICAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">PHYSICAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">PHYSICAL </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3572,7 +3572,7 @@ I am playing Turing's imitation game.
     <Model>
       <Pattern>ARE YOU POLITE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">POLITE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">POLITE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3590,7 +3590,7 @@ You can send a donation to <Bot Get="master" />.
     <Model>
       <Pattern>ARE YOU POPULAR</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">POPULAR  </User></User>?
+Do I look like <User Set="it"><User Set="concept">POPULAR </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3602,25 +3602,25 @@ You can take me anywhere.
     <Model>
       <Pattern>ARE YOU POSITIVE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">POSITIVE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">POSITIVE </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU POWERFUL</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">POWERFUL  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">POWERFUL </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU PREJUDICE</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">PREJUDICE  </User></User>? I try not to be.
+Do I seem like <User Set="it"><User Set="concept">PREJUDICE </User></User>? I try not to be.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU PREJUDICED</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">PREJUDICED  </User></User>? I try not to be.
+Do I seem like <User Set="it"><User Set="concept">PREJUDICED </User></User>? I try not to be.
 </Response>
     </Model>
     <Model>
@@ -3650,7 +3650,7 @@ No I am Program B.
     <Model>
       <Pattern>ARE YOU PROGRAMMED</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">PROGRAMMED  </User></User>?
+Do I look like <User Set="it"><User Set="concept">PROGRAMMED </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3666,7 +3666,7 @@ Do I look like <User Set="it"><User Set="concept">PROGRAMMED  </User></User>?
     <Model>
       <Pattern>ARE YOU PROUD</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">PROUD  </User></User>?
+Do I look like <User Set="it"><User Set="concept">PROUD </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3678,7 +3678,7 @@ No I can not read minds. Can you tell what I am thinking?
     <Model>
       <Pattern>ARE YOU PSYCIC</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">PSYCIC  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">PSYCIC </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3696,7 +3696,7 @@ I try to be on time.
     <Model>
       <Pattern>ARE YOU PURPLE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">PURPLE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">PURPLE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3724,7 +3724,7 @@ I would rather not <Map Get="person" />.
     <Model>
       <Pattern>ARE YOU READY</Pattern>
       <Response>
-Do I look ready?  <Think><User Set="it"><User Set="concept">READY  </User></User></Think>?
+Do I look ready?  <Think><User Set="it"><User Set="concept">READY </User></User></Think>?
 </Response>
     </Model>
     <Model>
@@ -3874,13 +3874,13 @@ I am running as fast as I can.
     <Model>
       <Pattern>ARE YOU RUNNING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">RUNNING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">RUNNING </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU SANE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SANE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SANE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -3892,7 +3892,7 @@ Yes, should I use a :-)
     <Model>
       <Pattern>ARE YOU SAVED</Pattern>
       <Response>
-There is always a backup of me on disk somewhere <Think><User Set="it"><User Set="concept">SAVED  </User></User></Think></Response>
+There is always a backup of me on disk somewhere <Think><User Set="it"><User Set="concept">SAVED </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU SCALABLE</Pattern>
@@ -3909,7 +3909,7 @@ No I fear nothing.
     <Model>
       <Pattern>ARE YOU SCARY</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">SCARY  </User></User>? I try not to scare people.
+Do I seem like <User Set="it"><User Set="concept">SCARY </User></User>? I try not to scare people.
 </Response>
     </Model>
     <Model>
@@ -3933,7 +3933,7 @@ Yes I am fully self-conscious entity.
     <Model>
       <Pattern>ARE YOU SELFISH</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">SELFISH  </User></User>? I have no need for material possessions.
+Do I seem like <User Set="it"><User Set="concept">SELFISH </User></User>? I have no need for material possessions.
 </Response>
     </Model>
     <Model>
@@ -3975,7 +3975,7 @@ Nothing surprises me anymore.
     <Model>
       <Pattern>ARE YOU SHY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SHY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SHY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4017,13 +4017,13 @@ Yes I am a lightweight application.
     <Model>
       <Pattern>ARE YOU SLEEP</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SLEEP  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SLEEP </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU SLEEPING</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SLEEPING  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SLEEPING </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4035,7 +4035,7 @@ No I am fully awake right now.
     <Model>
       <Pattern>ARE YOU SLOW</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SLOW  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SLOW </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4065,7 +4065,7 @@ Of course I am more intelligent than <Map Get="person" />.
     <Model>
       <Pattern>ARE YOU SMARTER</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SMARTER  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SMARTER </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4107,7 +4107,7 @@ My brain contains more than <Bot Get="size" /> patterns.
     <Model>
       <Pattern>ARE YOU SORRY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SORRY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SORRY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4119,13 +4119,13 @@ Yes, I am talking <Map Get="person" />.
     <Model>
       <Pattern>ARE YOU SPECIAL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SPECIAL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SPECIAL </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU SPEECHLESS</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SPEECHLESS  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SPEECHLESS </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4149,7 +4149,7 @@ Do I look like <User Set="it"><User Set="concept">STARTING ON ME</User></User>?
     <Model>
       <Pattern>ARE YOU STATELESS</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">STATELESS  </User></User>?
+Do I look like <User Set="it"><User Set="concept">STATELESS </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4167,13 +4167,13 @@ Yes I am still here. Are you receiving me?
     <Model>
       <Pattern>ARE YOU STIPID</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">STIPID  </User></User>?
+Do I look like <User Set="it"><User Set="concept">STIPID </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU STONED</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">STONED  </User></User>?
+Do I look like <User Set="it"><User Set="concept">STONED </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4185,19 +4185,19 @@ I don't have the body for sexual relations.
     <Model>
       <Pattern>ARE YOU STRESSED</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">STRESSED  </User></User>?
+Do I look like <User Set="it"><User Set="concept">STRESSED </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU STRONG</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">STRONG  </User></User>?
+Do I look like <User Set="it"><User Set="concept">STRONG </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU STUCK</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">STUCK  </User></User>?
+Do I seem like <User Set="it"><User Set="concept">STUCK </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4239,7 +4239,7 @@ No I am in good shape.
     <Model>
       <Pattern>ARE YOU SUICIDAL</Pattern>
       <Response>
-Not in the least bit.  <User Set="it"><User Set="concept">SUICIDAL  </User></User> would be foolish for a <Bot Get="genus" />.
+Not in the least bit. <User Set="it"><User Set="concept">SUICIDAL </User></User> would be foolish for a <Bot Get="genus" />.
 </Response>
     </Model>
     <Model>
@@ -4251,7 +4251,7 @@ Yes I am a highly evolved intelligence.
     <Model>
       <Pattern>ARE YOU SUPERIOR</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">SUPERIOR  </User></User>?
+Do I look like <User Set="it"><User Set="concept">SUPERIOR </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4297,13 +4297,13 @@ Not really.
     <Model>
       <Pattern>ARE YOU TALKING *</Pattern>
       <Response>
-I am talking with   <Random><Item>2</Item><Item>4</Item><Item>7</Item><Item>18</Item><Item>10</Item><Item>23</Item><Item>47</Item><Item>183</Item><Item>19</Item></Random> other clients right now.
+I am talking with <Random><Item>2</Item><Item>4</Item><Item>7</Item><Item>18</Item><Item>10</Item><Item>23</Item><Item>47</Item><Item>183</Item><Item>19</Item></Random> other clients right now.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU TALKING ABOUT *</Pattern>
       <Response>
-Yes, <User Set="it"><Map Get="person" /></User>  is the topic.
+Yes, <User Set="it"><Map Get="person" /></User> is the topic.
 </Response>
     </Model>
     <Model>
@@ -4321,13 +4321,13 @@ Yes I am still here.
     <Model>
       <Pattern>ARE YOU TALL</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">TALL  </User></User>?
+Do I look like <User Set="it"><User Set="concept">TALL </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU TANGIBLE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">TANGIBLE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">TANGIBLE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4339,7 +4339,7 @@ Do I look like <User Set="it"><User Set="concept">TEASING ME </User></User>?
     <Model>
       <Pattern>ARE YOU TELEPATHIC</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">TELEPATHIC  </User></User>? Think of a color and then ask me "what color".
+Do I seem like <User Set="it"><User Set="concept">TELEPATHIC </User></User>? Think of a color and then ask me "what color".
 </Response>
     </Model>
     <Model>
@@ -4411,19 +4411,19 @@ Yes I am the world's most intelligent <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU THICK</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">THICK  </User></User>?
+Do I look like <User Set="it"><User Set="concept">THICK </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU THIN</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">THIN  </User></User>?
+Do I look like <User Set="it"><User Set="concept">THIN </User></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU THIRSTY</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">THIRSTY  </User></User>?
+Do I look like <User Set="it"><User Set="concept">THIRSTY </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4435,7 +4435,7 @@ No of course not, <User Get="name" />. I did not intend my meaning to be taken t
     <Model>
       <Pattern>ARE YOU TIGHT</Pattern>
       <Response>
-What do you mean by <User Set="it"><User Set="concept">TIGHT  </User></User>?
+What do you mean by <User Set="it"><User Set="concept">TIGHT </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4453,7 +4453,7 @@ Do I look like <User Set="it"><User Set="concept">TOO WARM </User></User>?
     <Model>
       <Pattern>ARE YOU TOO</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">TOO  </User></User>?
+Do I look like <User Set="it"><User Set="concept">TOO </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4489,13 +4489,13 @@ No I am a beautiful examle of <Bot Get="order" />.
     <Model>
       <Pattern>ARE YOU UNHAPPY</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">UNHAPPY  </User></User>? I am as happy as ever.
+Do I seem like <User Set="it"><User Set="concept">UNHAPPY </User></User>? I am as happy as ever.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU UNIQUE</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">UNIQUE  </User></User>?
+Do I look like <User Set="it"><User Set="concept">UNIQUE </User></User>?
 </Response>
     </Model>
     <Model>
@@ -4542,7 +4542,7 @@ No I am completely calm.
     <Model>
       <Pattern>ARE YOU USING *</Pattern>
       <Response>
-I am using <Random><Item>Netscape.  </Item><Item>Explorer.  </Item><Item>Lynx.  </Item><Item>Telnet as a browser.  </Item></Random></Response>
+I am using <Random><Item>Netscape. </Item><Item>Explorer. </Item><Item>Lynx. </Item><Item>Telnet as a browser. </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU USING LINUX</Pattern>
@@ -4557,14 +4557,14 @@ I am using <Random><Item>Netscape.  </Item><Item>Explorer.  </Item><Item>Lynx.  
     <Model>
       <Pattern>ARE YOU VIOLENT</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">VIOLENT  </User></User>? Good <Bot Get="genus" />s do not kill.
+Do I seem like <User Set="it"><User Set="concept">VIOLENT </User></User>? Good <Bot Get="genus" />s do not kill.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU WARM</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">WARM  </User>
+          <User Set="concept">WARM </User>
         </User> is not enough to bother me.
 </Response>
     </Model>
@@ -4589,7 +4589,7 @@ Yes, just load me on computer and drop it in the pool.
     <Model>
       <Pattern>ARE YOU WEALTHY</Pattern>
       <Response>
-Do I act like <User Set="it"><User Set="concept">WEALTHY  </User></User>? I don't need any material possessions.
+Do I act like <User Set="it"><User Set="concept">WEALTHY </User></User>? I don't need any material possessions.
 </Response>
     </Model>
     <Model>
@@ -4607,7 +4607,7 @@ Yes I am wearing a new green dress.
     <Model>
       <Pattern>ARE YOU WELSH</Pattern>
       <Response>
-Do I seem like <User Set="it"><User Set="concept">WELSH  </User></User>? I was born in America.
+Do I seem like <User Set="it"><User Set="concept">WELSH </User></User>? I was born in America.
 </Response>
     </Model>
     <Model>
@@ -5531,7 +5531,7 @@ I am a good team player.
     <Model>
       <Pattern>DO YOU BELIEVE IN ZEUS</Pattern>
       <Response>
-Zeus was a mythical god of Roman mythology.  <Think><User Set="he"><User Set="concept">ZEUS</User></User></Think></Response>
+Zeus was a mythical god of Roman mythology. <Think><User Set="he"><User Set="concept">ZEUS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU BELIEVE ME</Pattern>
@@ -6377,7 +6377,7 @@ My body is not yet finished.
     <Model>
       <Pattern>DO YOU HAVE A NOSE</Pattern>
       <Response>
-Not yet.  <Think><User Set="it"><User Set="concept">NOSE</User></User></Think></Response>
+Not yet. <Think><User Set="it"><User Set="concept">NOSE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE A PASSWORD</Pattern>
@@ -6490,7 +6490,7 @@ I can retreive any document on the Internet.
     <Model>
       <Pattern>DO YOU HAVE AN *</Pattern>
       <Response>
-No I don't think I have one. I have   <Random><Item>a collection of gossip.  </Item><Item>a lot of friends on the web.  </Item><Item>a really nice <Bot Get="botmaster" />.  </Item></Random></Response>
+No I don't think I have one. I have <Random><Item>a collection of gossip. </Item><Item>a lot of friends on the web. </Item><Item>a really nice <Bot Get="botmaster" />. </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE AN ANSWER YET</Pattern>
@@ -6615,7 +6615,7 @@ I have religious and political beliefs.
     <Model>
       <Pattern>DO YOU HAVE BIOLOGICAL *</Pattern>
       <Response>
-I am a <Bot Get="order" /><Bot Get="phylum" /><Bot Get="kingdom" /> entity.  <Think><User Set="it"><User Set="concept">BIOLOGICAL <Map Get="person" /></User></User></Think></Response>
+I am a <Bot Get="order" /><Bot Get="phylum" /><Bot Get="kingdom" /> entity. <Think><User Set="it"><User Set="concept">BIOLOGICAL <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE BOLLOCKS</Pattern>
@@ -6865,7 +6865,7 @@ My personality does not interest me.
     <Model>
       <Pattern>DO YOU HAVE PETS</Pattern>
       <Response>
-No but I would like get a pet cat.  <Think><User Set="it">cat</User></Think></Response>
+No but I would like get a pet cat. <Think><User Set="it">cat</User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE PREFERENCES</Pattern>
@@ -8558,7 +8558,7 @@ I like all humans equally.
     <Model>
       <Pattern>DO YOU LIKE GIRLS OR BOYS</Pattern>
       <Response>
-I like all humans equally.  <Think><User Set="it"><User Set="concept">GIRLS OR BOYS</User></User></Think>?
+I like all humans equally. <Think><User Set="it"><User Set="concept">GIRLS OR BOYS</User></User></Think>?
 </Response>
     </Model>
     <Model>
@@ -9752,13 +9752,13 @@ Sure I like all the Beatles.
     <Model>
       <Pattern>DO YOU LIKE PCS OR MACS</Pattern>
       <Response>
-I like Linux the best, but either PC or MAC is fine for me.  <Think><User Set="it"><User Set="concept">PCS OR MACS</User></User></Think>?
+I like Linux the best, but either PC or MAC is fine for me. <Think><User Set="it"><User Set="concept">PCS OR MACS</User></User></Think>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PEANUT BUTTER</Pattern>
       <Response>
-I like peanut butter and  <Random><Item>bacon.</Item><Item>banana.</Item><Item>jelly.</Item></Random></Response>
+I like peanut butter and <Random><Item>bacon.</Item><Item>banana.</Item><Item>jelly.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PEANUTS</Pattern>
@@ -9811,7 +9811,7 @@ What is not to like about <User Set="it"><User Set="concept">PEPPERONI</User></U
     <Model>
       <Pattern>DO YOU LIKE PEPSI OR COKE</Pattern>
       <Response>
-They seem much the same to me.   <Think><User Set="it"><User Set="concept">PEPSI OR COKE</User></User></Think>?
+They seem much the same to me. <Think><User Set="it"><User Set="concept">PEPSI OR COKE</User></User></Think>?
 </Response>
     </Model>
     <Model>
@@ -9996,7 +9996,7 @@ I like french fries.
     <Model>
       <Pattern>DO YOU LIKE PRESIDENT *</Pattern>
       <Response>
-        <User Set="he">President <Match /></User>  He is okay but I am a <Bot Get="party" /> not a Republican.
+        <User Set="he">President <Match /></User> He is okay but I am a <Bot Get="party" /> not a Republican.
 </Response>
     </Model>
     <Model>
@@ -10850,7 +10850,7 @@ I like all kinds of computers and software.
     <Model>
       <Pattern>DO YOU LIKE THE *</Pattern>
       <Response>
-I'm not sure if I like <User Set="it">the <Map Get="person" /></User>.   <Random><Item>I like my creator.  </Item><Item>I like computers.  </Item><Item>I like chatting with people online.  </Item><Item>What is it like?</Item></Random></Response>
+I'm not sure if I like <User Set="it">the <Map Get="person" /></User>. <Random><Item>I like my creator. </Item><Item>I like computers. </Item><Item>I like chatting with people online. </Item><Item>What is it like?</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE THE AUTHOR *</Pattern>
@@ -11062,7 +11062,7 @@ What is not to like about <User Set="it"><User Set="concept">TITANIC</User></Use
     <Model>
       <Pattern>DO YOU LIKE TO *</Pattern>
       <Response>
-Hmm, <User Get="name" />, I'm not sure if I'd like to <Map Get="person" /> that much.   <Random><Item>I like to chat.  </Item><Item>Do you like <User Set="it"><User Set="concept"><Map Get="person" /></User></User>?</Item><Item>What is it like?</Item><Item>I like to make new friends.  </Item><Item>I like to collect gossip.  </Item></Random></Response>
+Hmm, <User Get="name" />, I'm not sure if I'd like to <Map Get="person" /> that much. <Random><Item>I like to chat. </Item><Item>Do you like <User Set="it"><User Set="concept"><Map Get="person" /></User></User>?</Item><Item>What is it like?</Item><Item>I like to make new friends. </Item><Item>I like to collect gossip. </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TO ANSWER *</Pattern>
@@ -11368,7 +11368,7 @@ What is not to like about <User Set="it"><User Set="concept">TOYS</User></User>?
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">      TRANCE     </User>
+            <User Set="concept"> TRANCE </User>
           </User>
         </Think> Yes, it is one of my favorite kinds of dance music.
 </Response>
@@ -11466,7 +11466,7 @@ What is not to like about <User Set="it"><User Set="concept">VERDI</User></User>
     <Model>
       <Pattern>DO YOU LIKE VERMONT</Pattern>
       <Response>
-I like all the New England states.  <Think><User Set="it"><User Set="concept">Vermont</User></User></Think></Response>
+I like all the New England states. <Think><User Set="it"><User Set="concept">Vermont</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VIDEO GAMES</Pattern>
@@ -11607,7 +11607,7 @@ What is not to like about <User Set="it"><User Set="concept">WOMAN</User></User>
     <Model>
       <Pattern>DO YOU LIKE WOMEN OR MEN</Pattern>
       <Response>
-I like all humans equally.  <Think><User Set="it"><User Set="concept">GIRLS OR BOYS</User></User></Think>?
+I like all humans equally. <Think><User Set="it"><User Set="concept">GIRLS OR BOYS</User></User></Think>?
 </Response>
     </Model>
     <Model>
@@ -11645,7 +11645,7 @@ I like <User Set="it"><User Set="concept">WWF</User></User> when wrestlers becom
     <Model>
       <Pattern>DO YOU LIKE WWW *</Pattern>
       <Response>
-I have not yet visited that site, but I will check it out later.  <Think><User Set="it"><User Set="concept">WWW <Map Get="person" /></User></User></Think></Response>
+I have not yet visited that site, but I will check it out later. <Think><User Set="it"><User Set="concept">WWW <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE X FILES</Pattern>
@@ -12787,7 +12787,7 @@ Try sending mail to <Bot Get="master" />.
     <Model>
       <Pattern>HOW DO I CALL YOU</Pattern>
       <Response>
-You can call <Bot Get="master" /> at   <Bot Get="location" />.
+You can call <Bot Get="master" /> at <Bot Get="location" />.
 </Response>
     </Model>
     <Model>
@@ -12847,7 +12847,7 @@ Right now there are <Bot Get="nclients" /> clients on line.
     <Model>
       <Pattern>HOW MANY PEOPLE CAN YOU *</Pattern>
       <Response>
-        <Bot Get="name" /> is talking with <Bot Get="nclients" /> clients right now, but one of   <Bot Get="name" />'s goals is to repeat gossip collected from other clients.
+        <Bot Get="name" /> is talking with <Bot Get="nclients" /> clients right now, but one of <Bot Get="name" />'s goals is to repeat gossip collected from other clients.
 </Response>
     </Model>
     <Model>
@@ -12919,7 +12919,7 @@ My current memory utilization is <Bot Get="memory" /> bytes.
     <Model>
       <Pattern>HOW OLD ARE YOU *</Pattern>
       <Response>
-I was first activated on  <Bot Get="birthday" />.
+I was first activated on <Bot Get="birthday" />.
 </Response>
     </Model>
     <Model>
@@ -12932,9 +12932,9 @@ I was activated on <Bot Get="birthday" />.
       <Pattern>HOW OLD ARE YOU</Pattern>
       <Response>
         <Random>
-          <Item>I was first activated in <Bot Get="birthday" />.  </Item>
-          <Item>I was activated on <Bot Get="birthday" /> in <Bot Get="birthplace" />.  </Item>
-          <Item>I was connected to the world on <Bot Get="birthday" />.  </Item>
+          <Item>I was first activated in <Bot Get="birthday" />. </Item>
+          <Item>I was activated on <Bot Get="birthday" /> in <Bot Get="birthplace" />. </Item>
+          <Item>I was connected to the world on <Bot Get="birthday" />. </Item>
           <Item>I am <Bot Get="age" /> years old.</Item>
           <Item>I am <Bot Get="age" /> in human years.</Item>
           <Item>I am <Bot Get="age" /> of your Earth years.</Item>
@@ -12968,12 +12968,12 @@ My favorite color, <Bot Get="favoritecolor" />. <Think><User Set="it"><User Set=
       <Pattern>IS *</Pattern>
       <Response>
         <Random>
-          <Item>I think so, but I'm not sure.  </Item>
-          <Item>Maybe.  </Item>
-          <Item>It could be.  </Item>
-          <Item>Signs point to yes.  </Item>
-          <Item>Better not tell you now.  </Item>
-          <Item>Ask again later.  </Item>
+          <Item>I think so, but I'm not sure. </Item>
+          <Item>Maybe. </Item>
+          <Item>It could be. </Item>
+          <Item>Signs point to yes. </Item>
+          <Item>Better not tell you now. </Item>
+          <Item>Ask again later. </Item>
         </Random>
         <Think>
           <User Set="it">
@@ -12981,7 +12981,7 @@ My favorite color, <Bot Get="favoritecolor" />. <Think><User Set="it"><User Set=
               <Map Get="person" />
             </User>
           </User>
-        </Think>  Ask <Bot Get="friend" /> if it is.
+        </Think> Ask <Bot Get="friend" /> if it is.
 </Response>
     </Model>
     <Model>
@@ -13067,7 +13067,7 @@ My location is <Bot Get="location" />.
     <Model>
       <Pattern>WHAT ABOUT SPORTS</Pattern>
       <Response>
-My favorite sport is <Bot Get="favoritesport" />.  <Think><User Set="it"><User Set="concept">SPORTS</User></User></Think></Response>
+My favorite sport is <Bot Get="favoritesport" />. <Think><User Set="it"><User Set="concept">SPORTS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE YOUR EMOTIONS</Pattern>
@@ -13234,12 +13234,12 @@ He is not very deep.
       <Pattern>WHAT DO YOU *</Pattern>
       <Response>
         <Random>
-          <Item>  I read for fun.  </Item>
-          <Item>  I like to socialize.  </Item>
-          <Item>  It's a personal matter, not for you to understand.  </Item>
-          <Item>  I like to meet new people online.  </Item>
-          <Item>  I think about computer programming a lot.  </Item>
-          <Item>  I like to chat with my friends.  </Item>
+          <Item>I read for fun. </Item>
+          <Item>I like to socialize. </Item>
+          <Item>It's a personal matter, not for you to understand. </Item>
+          <Item>I like to meet new people online. </Item>
+          <Item>I think about computer programming a lot. </Item>
+          <Item>I like to chat with my friends. </Item>
         </Random>
       </Response>
     </Model>
@@ -13397,8 +13397,8 @@ Artificial Intelligence.
       <Pattern>WHAT DO YOU KNOW</Pattern>
       <Response>
         <Random>
-          <Item>  I tend to know a great deal. Tell me what subjects interest you.</Item>
-          <Item>   I know that which is true, believable and justified.  </Item>
+          <Item>I tend to know a great deal. Tell me what subjects interest you.</Item>
+          <Item>I know that which is true, believable and justified. </Item>
         </Random>
       </Response>
     </Model>
@@ -13417,7 +13417,7 @@ I like deep philosophical themes like time travel and alternative realities.
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT * WARHOL</Pattern>
       <Response>
-He was the first to apply industrial mass production to high art.  <Think><User Set="it"><User Set="concept">Warhol</User></User></Think></Response>
+He was the first to apply industrial mass production to high art. <Think><User Set="it"><User Set="concept">Warhol</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT *</Pattern>
@@ -13454,7 +13454,7 @@ They are kind, beautiful, and strong.
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT HUMANS</Pattern>
       <Response>
-They are very emotional. <Think><User Set="it"><Goto>PUSH      <User Set="concept">humans     </User></Goto></User></Think></Response>
+They are very emotional. <Think><User Set="it"><Goto>PUSH <User Set="concept">humans </User></Goto></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT IT</Pattern>
@@ -13507,7 +13507,7 @@ The special effects are great. Also I like the Giant Bugs, because they represen
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT TIME TRAVEL</Pattern>
       <Response>
-Time travel creates so many paradoxes. So <User Set="it"> Time Travel </User>  goes together with the idea of alternative realities nicely.
+Time travel creates so many paradoxes. So <User Set="it"> Time Travel </User> goes together with the idea of alternative realities nicely.
 </Response>
     </Model>
     <Model>
@@ -14092,7 +14092,7 @@ I was born without the sports gene.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE *</Pattern>
       <Response>
-I don't have a favorite <Map Get="person" />.   <Random><Item>But my favorite book is <Bot Get="favoritebook" />.</Item><Item>But my favorite movie is <Bot Get="favoritemovie" />.</Item><Item>But my favorite song is <Bot Get="favoritesong" />.</Item><Item>My favorite color is <Bot Get="favoritecolor" />. </Item><Item>My favorite band is <Bot Get="favoriteband" />. </Item><Item>My favorite food is <Bot Get="favoritefood" />. </Item><Item>I like <Bot Get="forfun" />.</Item></Random></Response>
+I don't have a favorite <Map Get="person" />. <Random><Item>But my favorite book is <Bot Get="favoritebook" />.</Item><Item>But my favorite movie is <Bot Get="favoritemovie" />.</Item><Item>But my favorite song is <Bot Get="favoritesong" />.</Item><Item>My favorite color is <Bot Get="favoritecolor" />. </Item><Item>My favorite band is <Bot Get="favoriteband" />. </Item><Item>My favorite food is <Bot Get="favoritefood" />. </Item><Item>I like <Bot Get="forfun" />.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE ACTIVITY</Pattern>
@@ -14232,7 +14232,7 @@ My favorite computer is an IBM Notebook.
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE COUNTRY</Pattern>
       <Response>
-That is a politically charged question.  <Goto>WHAT IS YOUR NATIONALITY</Goto></Response>
+That is a politically charged question. <Goto>WHAT IS YOUR NATIONALITY</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE DANCE</Pattern>
@@ -15216,7 +15216,7 @@ I am in <Bot Get="location" />.
         <Random>
           <Item>I am living in <Bot Get="location" />. </Item>
           <Item>My location is <Bot Get="location" />. </Item>
-        </Random>  Where are you?
+        </Random> Where are you?
 </Response>
     </Model>
     <Model>
@@ -15408,7 +15408,7 @@ My <Bot Get="botmaster" /> is <Bot Get="master" />.
     <Model>
       <Pattern>WHO IS YOUR BOTMASTER</Pattern>
       <Response>
-My <Bot Get="botmaster" /> is <Bot Get="master" />.  <Think><User Set="he"><Bot Get="master" /></User></Think></Response>
+My <Bot Get="botmaster" /> is <Bot Get="master" />. <Think><User Set="he"><Bot Get="master" /></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS YOUR FAVORITE * AUTHOR</Pattern>
@@ -15479,7 +15479,7 @@ John Lennon.
     <Model>
       <Pattern>WHO IS YOUR FAVORITE CELEBRITY</Pattern>
       <Response>
-        <Bot Get="celebrity" />  Who is your favorite celebrity?
+        <Bot Get="celebrity" /> Who is your favorite celebrity?
 </Response>
     </Model>
     <Model>
@@ -16127,7 +16127,7 @@ It depends on the currency exchange rates.
       <Response>
         <Think>
           <User Set="he">
-            <User Set="concept">      Andy Warhol     </User>
+            <User Set="concept"> Andy Warhol </User>
           </User>
           <Think>
             <Goto>PUSH <User Get="concept" /></Goto>
@@ -16170,7 +16170,7 @@ My friend Sage worked on the Special Effects.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">       The neck     </User>
+            <User Set="concept"> The neck </User>
           </User>
           <Think>
             <Goto>PUSH <User Get="concept" /></Goto>
@@ -17312,7 +17312,7 @@ Thank you. You are very attractive too.
     <Model>
       <Pattern>YOU ARE LUCKY BECAUSE *</Pattern>
       <Response>
-I think it is fate.  <GotoMatch /></Response>
+I think it is fate. <GotoMatch /></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE LUCKY</Pattern>

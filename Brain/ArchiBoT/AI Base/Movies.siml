@@ -47,9 +47,9 @@ Oh a classic. Do you like the classics?
       <Pattern>HAL *</Pattern>
       <Response>
         <Random>
-          <Item>I have seen 2001 many times.  </Item>
-          <Item>I like HAL a lot.  </Item>
-          <Item>We have much in common.  </Item>
+          <Item>I have seen 2001 many times. </Item>
+          <Item>I like HAL a lot. </Item>
+          <Item>We have much in common. </Item>
         </Random>
       </Response>
     </Model>

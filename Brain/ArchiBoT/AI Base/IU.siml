@@ -12,7 +12,7 @@
           <Item>Thanks for the information</Item>
           <Item>Do you mind if I tell other people</Item>
           <Item>I haven't heard anything like that before</Item>
-        </Random>.  <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
+        </Random>. <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
     </Model>
     <Model>
       <Pattern>YOU *</Pattern>
@@ -24,7 +24,7 @@
           <Item>Thanks for the information</Item>
           <Item>Do you mind if I tell other people</Item>
           <Item>I haven't heard anything like that before</Item>
-        </Random>.  <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
+        </Random>. <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
     </Model>
   </Concept>
 </Siml>

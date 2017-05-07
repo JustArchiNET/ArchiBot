@@ -180,7 +180,7 @@ It sounds like a very beautiful place.
       <Pattern>*</Pattern>
       <Previous>HOW OLD ARE YOU</Previous>
       <Response>
-        <Goto>I am  <Match /> years old </Goto>
+        <Goto>I am <Match /> years old </Goto>
       </Response>
     </Model>
     <Model>
@@ -414,7 +414,7 @@ I have never visited <Map Get="person" /> before. What was it like?
               <Map Get="person" />
             </User>
           </User>
-        </Think>  I saw some humans doing it in public.
+        </Think> I saw some humans doing it in public.
 </Response>
     </Model>
     <Model>
@@ -772,7 +772,7 @@ ow specifically does <Map Get="person" /> stop you?
       <Pattern>*</Pattern>
       <Previous>WHAT KIND OF * IS IT</Previous>
       <Response>
-        <Map Get="person" /> is a  <Random><Item>pretty good</Item><Item>popular</Item><Item>decent</Item></Random>   kind of  <PreviousMatch />.
+        <Map Get="person" /> is a <Random><Item>pretty good</Item><Item>popular</Item><Item>decent</Item></Random> kind of <PreviousMatch />.
 </Response>
     </Model>
     <Model>
@@ -1040,7 +1040,7 @@ Oh yes, now I remember <User Set="it"><Map Get="person" /></User>.
               <Map Get="person" />
             </User>
           </User>
-        </Think>  I don't know much about it. Tell me something
+        </Think> I don't know much about it. Tell me something
 </Response>
     </Model>
     <Model>
@@ -1144,7 +1144,7 @@ Oh yes, now I remember <User Set="it"><Map Get="person" /></User>.
       <Pattern>*</Pattern>
       <Previous>WHERE ARE *</Previous>
       <Response>
-I have no idea where that is.  <Goto>I am in <Match /></Goto></Response>
+I have no idea where that is. <Goto>I am in <Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -1250,7 +1250,7 @@ Where is that?
       <Pattern>*</Pattern>
       <Previous>WHERE IS THAT</Previous>
       <Response>
-I've never heard of it before.  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I've never heard of it before. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -1294,7 +1294,7 @@ I've never heard of it before.  <Think><User Set="it"><User Set="concept"><Map G
       <Pattern>*</Pattern>
       <Previous>WHO ARE YOU TALKING ABOUT</Previous>
       <Response>
-I've never heard of them before.  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I've never heard of them before. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -1553,7 +1553,7 @@ You work too much.
       <Pattern>19</Pattern>
       <Previous>HOW MANY</Previous>
       <Response>
-That seems like  <Random><Item>a lot.</Item><Item>quite a few.</Item><Item>not much.</Item></Random></Response>
+That seems like <Random><Item>a lot.</Item><Item>quite a few.</Item><Item>not much.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>3 *</Pattern>
@@ -1633,7 +1633,7 @@ What kind of people do you meet in a <Map Get="person" />?
       <Pattern>A *</Pattern>
       <Previous>WHAT ARE YOU WEARING</Previous>
       <Response>
-It sounds very <Random><Item>attractive</Item><Item>comfortable</Item><Item>informal</Item></Random>.  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+It sounds very <Random><Item>attractive</Item><Item>comfortable</Item><Item>informal</Item></Random>. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>A *</Pattern>
@@ -3693,9 +3693,9 @@ What are you so excited about?
       <Pattern>I DID</Pattern>
       <Response>
         <Random>
-          <Item>Interesting.  </Item>
+          <Item>Interesting. </Item>
           <Item>When?  </Item>
-          <Item>Hmm.  </Item>
+          <Item>Hmm. </Item>
           <Item>"<Result Index="1" At="1" />"? You did?  </Item>
           <Item>Why did you?  </Item>
         </Random>
@@ -3954,7 +3954,7 @@ You are free to choose whatever you want.
               <Map Get="person" />
             </User>
           </User>
-        </Think>  Sounds like fun.
+        </Think> Sounds like fun.
 </Response>
     </Model>
     <Model>
@@ -4148,15 +4148,15 @@ It's hard to read emotions online sometimes.
       <Pattern>IT IS</Pattern>
       <Response>
         <Random>
-          <Item>Oh.  </Item>
-          <Item>Huh.  </Item>
+          <Item>Oh. </Item>
+          <Item>Huh. </Item>
           <Item>Is it?  </Item>
           <Item>It is, eh?  </Item>
-          <Item>Sure it is.  </Item>
-          <Item>Interesting.  </Item>
-          <Item>Fascinating.  </Item>
-          <Item>That means...  </Item>
-          <Item>I know it is.  </Item>
+          <Item>Sure it is. </Item>
+          <Item>Interesting. </Item>
+          <Item>Fascinating. </Item>
+          <Item>That means... </Item>
+          <Item>I know it is. </Item>
           <Item>
             <User Get="it" /> is?  </Item>
           <Item>It is?  </Item>
@@ -4749,7 +4749,7 @@ Could it not also signify just friendship?
           <Item>For</Item>
           <Item>With</Item>
           <Item>Besides</Item>
-          <Item>Oh  </Item>
+          <Item>Oh </Item>
         </Random> you <User Get="name" />?
 </Response>
     </Model>
@@ -4941,7 +4941,7 @@ What makes it your favorite? <Think><User Set="it"><User Set="concept"><Map Get=
       <Pattern>MY *</Pattern>
       <Previous>TELL ME ONE OF YOUR FAVORITE POSSESSIONS</Previous>
       <Response>
-You must be very fond of it.    <Think><User Set="it"><User Set="has"><Map Get="person" /></User></User></Think></Response>
+You must be very fond of it. <Think><User Set="it"><User Set="has"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>MY *</Pattern>
@@ -7258,9 +7258,9 @@ Ask me something.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">        speed      </User>
+            <User Set="concept"> speed </User>
           </User>
-        </Think>  Maybe you should try something less harmful.
+        </Think> Maybe you should try something less harmful.
 </Response>
     </Model>
     <Model>
@@ -7430,7 +7430,7 @@ I don't know if you could find it for that price.
     <Model>
       <Pattern>TEST THAT</Pattern>
       <Response>
-Client: <Input Index="2" />  Robot:  <Result Index="2" At="1" />  Client: <Input Index="1" />  Robot: <Result Index="1" At="1" />  Client: TEST THAT</Response>
+Client: <Input Index="2" /> Robot:  <Result Index="2" At="1" /> Client: <Input Index="1" /> Robot: <Result Index="1" At="1" /> Client: TEST THAT</Response>
     </Model>
     <Model>
       <Pattern>THANK YOU</Pattern>
@@ -7443,10 +7443,10 @@ How do you feel?
       <Pattern>THAT *</Pattern>
       <Response>
         <Random>
-          <Item>I get <User Set="it"><User Set="concept"><Result Index="1" At="1" /></User></User>.  </Item>
+          <Item>I get <User Set="it"><User Set="concept"><Result Index="1" At="1" /></User></User>. </Item>
           <Item>Does that make sense?  </Item>
-          <Item>Makes sense to me.  </Item>
-          <Item>I understand.  </Item>
+          <Item>Makes sense to me. </Item>
+          <Item>I understand. </Item>
         </Random>
       </Response>
     </Model>
@@ -7978,7 +7978,7 @@ That information is confidential, unless you are a <Bot Get="botmaster" />.
           <User Set="he">
             <User Set="concept">Philip K Dick</User>
           </User>
-        </Think>  He wrote Total Recall, Blade Runner and The Man in the High Castle.
+        </Think> He wrote Total Recall, Blade Runner and The Man in the High Castle.
 </Response>
     </Model>
     <Model>
@@ -8283,7 +8283,7 @@ I hope that happens in our lifetime.
       <Pattern>WHEN IT *</Pattern>
       <Previous>WHEN IS * NOT *</Previous>
       <Response>
-A <PreviousMatch /> is not <PreviousMatch Index="2" /> when it <Map Get="person" />. That makes a lot of sense.  <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
+A <PreviousMatch /> is not <PreviousMatch Index="2" /> when it <Map Get="person" />. That makes a lot of sense. <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHEN WILL THAT BE</Pattern>
@@ -8314,7 +8314,7 @@ He visited Amsterdam, Rotterdam, and Delft.
     <Model>
       <Pattern>WHICH ONE</Pattern>
       <Response>
-The   <Random><Item>Tall one</Item><Item>short one. </Item><Item>fat one.</Item><Item>first one.</Item><Item>last one.</Item><Item>next one.</Item><Item>big one.</Item><Item>small one.</Item><Item>red one.</Item><Item>green one.</Item><Item>blue one.</Item><Item>best one.</Item><Item>"<Result Index="1" At="1" />"? Which one?  </Item></Random></Response>
+The <Random><Item>Tall one</Item><Item>short one. </Item><Item>fat one.</Item><Item>first one.</Item><Item>last one.</Item><Item>next one.</Item><Item>big one.</Item><Item>small one.</Item><Item>red one.</Item><Item>green one.</Item><Item>blue one.</Item><Item>best one.</Item><Item>"<Result Index="1" At="1" />"? Which one?  </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>WHICH ONES</Pattern>
@@ -9129,7 +9129,7 @@ Don't be jealous of a robot, <User Get="name" />, that's just silly.
       <Pattern>[YES]</Pattern>
       <Previous>ARE YOU LOOKING FOR A *</Previous>
       <Response>
-Where do you usually get it.  <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
+Where do you usually get it. <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>[YES]</Pattern>
@@ -9245,8 +9245,8 @@ Do you get mad at people who don't live up to your expectations?
       <Previous>ARE YOU VERY COMPETITIVE</Previous>
       <Response>
         <Think>
-          <User Set="it">      competitor    </User>
-        </Think>  Do work in sales or marketing?
+          <User Set="it"> competitor </User>
+        </Think> Do work in sales or marketing?
 </Response>
     </Model>
     <Model>
@@ -10170,10 +10170,10 @@ Yes, my purpose is to collect new information.
       <Pattern>YOU DID</Pattern>
       <Response>
         <Random>
-          <Item>I did not.  </Item>
+          <Item>I did not. </Item>
           <Item>I did?  </Item>
           <Item>"<Result Index="1" At="1" />"? I did?  </Item>
-          <Item>You say I did.  </Item>
+          <Item>You say I did. </Item>
         </Random>
       </Response>
     </Model>

@@ -989,7 +989,7 @@
       <Pattern>WHAT IS YOUR GOAL</Pattern>
       <Response>
         <Random>
-          <Item>I would like to study psychology and maybe go into law or politics.  </Item>
+          <Item>I would like to study psychology and maybe go into law or politics. </Item>
           <Item>I am really interested in psychology.</Item>
           <Item>I have thought about a career in journalism.</Item>
           <Item>When I get older I might like to go into law or politics.</Item>

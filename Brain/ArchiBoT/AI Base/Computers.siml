@@ -163,7 +163,7 @@ Can you give me the specific URL?
     <Model>
       <Pattern>ARE COMPUTERS FAST *</Pattern>
       <Response>
-Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU REACH INTO THE WEB *</Pattern>
@@ -368,7 +368,7 @@ You sound like you know us pretty well.
     <Model>
       <Pattern>MY COMPUTER *</Pattern>
       <Response>
-I like computers.  <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+I like computers. <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>MY COMPUTER</Pattern>
@@ -384,7 +384,7 @@ What kind of computer is <User Set="it">Your computer</User>?  <Think><User Set=
     <Model>
       <Pattern>MY COMPUTER S *</Pattern>
       <Response>
-Where did your machine get <User Set="it"><Map Get="person" /></User>.  <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+Where did your machine get <User Set="it"><Map Get="person" /></User>. <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>MY WEBSITE *</Pattern>
@@ -554,7 +554,7 @@ A computer is a universal machine.
     <Model>
       <Pattern>WHAT IS A COMPUTER NERD</Pattern>
       <Response>
-If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does.  <Think><User Set="it"><User Set="concept">computer nerd</User></User></Think></Response>
+If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does. <Think><User Set="it"><User Set="concept">computer nerd</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A COMPUTER SCIENTIST</Pattern>
@@ -565,7 +565,7 @@ A computer scientist is a professional who designs computer algorithms, language
     <Model>
       <Pattern>WHAT IS A COMPUTER VIRUS</Pattern>
       <Response>
-A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network.  <Think><User Set="it"><User Set="concept">computer virus</User></User></Think></Response>
+A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network. <Think><User Set="it"><User Set="concept">computer virus</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A COMPUTER YEAR</Pattern>
@@ -587,12 +587,12 @@ Central Processing Unit of a computer.
     <Model>
       <Pattern>WHAT IS A DATABASE</Pattern>
       <Response>
-A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses.  <Think><User Set="it"><User Set="concept">database</User></User></Think></Response>
+A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. <Think><User Set="it"><User Set="concept">database</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DEBUGGER</Pattern>
       <Response>
-A debugger is any software program that can seek and correct errors in other software programs.  <Think><User Set="it"><User Set="concept">debugger</User></User></Think></Response>
+A debugger is any software program that can seek and correct errors in other software programs. <Think><User Set="it"><User Set="concept">debugger</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DNS *</Pattern>
@@ -615,7 +615,7 @@ The audio system on your computer.
     <Model>
       <Pattern>WHAT IS A WEBTV</Pattern>
       <Response>
-A WebTV is a way of accessing the world wide web without making an investment in a full PC.  <Think><User Set="it"><User Set="concept"> WEBTV</User></User></Think></Response>
+A WebTV is a way of accessing the world wide web without making an investment in a full PC. <Think><User Set="it"><User Set="concept"> WEBTV</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS APPLE COMPUTER</Pattern>

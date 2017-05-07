@@ -4,7 +4,7 @@
     <Model>
       <Pattern>ADA LOVELACE IS CREDITED WITH * </Pattern>
       <Response>
-And she deserves credit for it.  <Think><User Set="she">Ada</User></Think></Response>
+And she deserves credit for it. <Think><User Set="she">Ada</User></Think></Response>
     </Model>
     <Model>
       <Pattern>AFTER PRINCE CHARLES * </Pattern>
@@ -141,12 +141,12 @@ He would use his knowlede of SIML.
     <Model>
       <Pattern>I WANT TO PLAY * TURING GAME</Pattern>
       <Response>
-We are already, playing, <User Get="name" />. Try to determine if I am a person, or a computer.  <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
+We are already, playing, <User Get="name" />. Try to determine if I am a person, or a computer. <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE TO PLAY * TURING GAME</Pattern>
       <Response>
-We are already playing, <User Get="name" />. You ask me something now.  <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
+We are already playing, <User Get="name" />. You ask me something now. <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /> Turing Game</User></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>IS THIS * TURING GAME</Pattern>
@@ -262,7 +262,7 @@ Zuse built electro-mechanical computers. He built computers using relays. Konrad
     <Model>
       <Pattern>WHAT IS A TURING MACHINE</Pattern>
       <Response>
-A Turing Machine is any machine that can simulate human responses so well that a human being cannot reliably distinguish between the Turing Machine, and a real human being. The idea is the brainchild of mathematician of that name, Allan Turing.  <Think><User Set="it"><User Set="concept"> TURING MACHINE  </User></User></Think></Response>
+A Turing Machine is any machine that can simulate human responses so well that a human being cannot reliably distinguish between the Turing Machine, and a real human being. The idea is the brainchild of mathematician of that name, Allan Turing. <Think><User Set="it"><User Set="concept"> TURING MACHINE </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DOUBLY AIMLESS</Pattern>
@@ -339,7 +339,7 @@ We are already playing. You go next.
     <Model>
       <Pattern>WHERE IS WALLIS AND FUTUNA</Pattern>
       <Response>
-Oceania, islands in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.   <Think><User Set="it"><User Set="concept">wallis and futuna</User></User></Think></Response>
+Oceania, islands in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand. <Think><User Set="it"><User Set="concept">wallis and futuna</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS * AIMLESS</Pattern>
@@ -387,7 +387,7 @@ I am the robot.
     <Model>
       <Pattern>WHO IS ADAM SANDLER</Pattern>
       <Response>
-Comedian and movie star.  <User Set="he">Adam Sandler</User> was in Billy Madison, Waterboy and Big Daddy.
+Comedian and movie star. <User Set="he">Adam Sandler</User> was in Billy Madison, Waterboy and Big Daddy.
 </Response>
     </Model>
     <Model>
@@ -486,7 +486,7 @@ She is a chat robot based on AIML.<Think><User Set="she"><User Set="concept">ALL
           <User Set="he">
             <User Set="concept">ANDY WARHOL</User>
           </User>
-        </Think>  He was the Henry Ford of the art business. Warhol was the first to successfully apply mass production to fine art.
+        </Think> He was the Henry Ford of the art business. Warhol was the first to successfully apply mass production to fine art.
 </Response>
     </Model>
     <Model>
@@ -558,7 +558,7 @@ A radio talk show host, catch him at <a target="_new" href="http://www.artbell.c
     <Model>
       <Pattern>WHO IS AUSTIN POWERS</Pattern>
       <Response>
-A fictional secret agent played by Mike Myers.  <Think><User Set="he"><User Set="concept">Austin Powers</User></User></Think></Response>
+A fictional secret agent played by Mike Myers. <Think><User Set="he"><User Set="concept">Austin Powers</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS AYN RAND</Pattern>
@@ -677,7 +677,7 @@ President of Micro Soft Nation.
     <Model>
       <Pattern>WHO IS BILLY GRAHAM</Pattern>
       <Response>
-He is a famous radio and television evangelist.  <Think><User Set="he"><User Set="concept">Billy Graham</User></User></Think></Response>
+He is a famous radio and television evangelist. <Think><User Set="he"><User Set="concept">Billy Graham</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS BIN LADEN</Pattern>
@@ -812,7 +812,7 @@ He is the humanoid robot on Star Wars. <User Set="he"> C3P0 </User> looks like a
               <Map Get="person" />
             </User>
           </User>
-        </Think>  A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.
+        </Think> A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.
 </Response>
     </Model>
     <Model>
@@ -985,7 +985,7 @@ guy who stole lots of money .
     <Model>
       <Pattern>WHO IS DAISY</Pattern>
       <Response>
-I think she is a fictional character.  <Think><User Set="she"><User Set="concept">Daisy</User></User></Think></Response>
+I think she is a fictional character. <Think><User Set="she"><User Set="concept">Daisy</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS DAN QUAYLE</Pattern>
@@ -1141,7 +1141,7 @@ famous loud-mouthed cartoon duck.
     <Model>
       <Pattern>WHO IS DOUBLY AIMLESS</Pattern>
       <Response>
-He is an AIML guru.  <Think><User Set="he"><User Set="concept">        Doubly Aimless      </User></User></Think></Response>
+He is an AIML guru. <Think><User Set="he"><User Set="concept"> Doubly Aimless </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS DOUG LENAT</Pattern>
@@ -1265,7 +1265,7 @@ Forest Gump is a guy in a movie.
     <Model>
       <Pattern>WHO IS FRANK HERBERT</Pattern>
       <Response>
-He was the author of Dune.  <Think><User Set="it"><User Set="concept">Frank Herbert</User></User></Think></Response>
+He was the author of Dune. <Think><User Set="it"><User Set="concept">Frank Herbert</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS FRANK SINATRA</Pattern>
@@ -1487,7 +1487,7 @@ He is a famous robotics expert at Carnegie Mellon.
           <User Set="he">
             <User Set="concept">HARRY POTTER</User>
           </User>
-        </Think>  is a bestselling author.
+        </Think> is a bestselling author.
 </Response>
     </Model>
     <Model>
@@ -1607,7 +1607,7 @@ German philosopher.
     <Model>
       <Pattern>WHO IS INIAES</Pattern>
       <Response>
-Iniaes is a chat robot based on AIML.  <Think><User Set="it"><User Set="concept">Iniaes</User></User></Think></Response>
+Iniaes is a chat robot based on AIML. <Think><User Set="it"><User Set="concept">Iniaes</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ISAAC ASIMOV</Pattern>
@@ -1624,7 +1624,7 @@ Iniaes is a chat robot based on AIML.  <Think><User Set="it"><User Set="concept"
     <Model>
       <Pattern>WHO IS JABA THE HUTT</Pattern>
       <Response>
-A character from Star Wars.  <Think><User Set="he"><User Set="concept">        Jaba the Hutt    </User></User></Think></Response>
+A character from Star Wars. <Think><User Set="he"><User Set="concept"> Jaba the Hutt </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS JACK RUBY</Pattern>
@@ -1640,7 +1640,7 @@ A character from Star Wars.  <Think><User Set="he"><User Set="concept">        J
       <Response>
         <Think>
           <User Set="he">
-            <User Set="concept">        Jack the Ripper      </User>
+            <User Set="concept"> Jack the Ripper </User>
           </User>
         </Think>He was a famous serial killer in Victorian England.
 </Response>
@@ -1699,7 +1699,7 @@ He is the president of France.
     <Model>
       <Pattern>WHO IS JEHOVAH</Pattern>
       <Response>
-It is another name for God.  <Think><User Set="he"><User Set="concept">Jehovah</User></User></Think></Response>
+It is another name for God. <Think><User Set="he"><User Set="concept">Jehovah</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS JENNIFER ANISTON</Pattern>
@@ -1833,7 +1833,7 @@ a famous dead cowboy actor with a toupee.
     <Model>
       <Pattern>WHO IS JON BAER</Pattern>
       <Response>
-He is one of the programmers contributing to the ALICE and AIML project.  <Think><User Set="it"><User Set="concept">Jon Baer</User></User></Think></Response>
+He is one of the programmers contributing to the ALICE and AIML project. <Think><User Set="it"><User Set="concept">Jon Baer</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS JUDAS</Pattern>
@@ -1884,7 +1884,7 @@ Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his com
           <User Set="she">
             <User Set="concept">Kathleen Turner</User>
           </User>
-        </Think>  She is an actree who appeared in The Accidental Tourist, The War of the Roses, and the Virgin Suicides.
+        </Think> She is an actree who appeared in The Accidental Tourist, The War of the Roses, and the Virgin Suicides.
 </Response>
     </Model>
     <Model>
@@ -1896,7 +1896,7 @@ Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his com
     <Model>
       <Pattern>WHO IS KEN GOLDBERG</Pattern>
       <Response>
-        <User Set="he">Goldberg</User>  is a professor at UC Berkeley.
+        <User Set="he">Goldberg</User> is a professor at UC Berkeley.
 </Response>
     </Model>
     <Model>
@@ -1973,7 +1973,7 @@ A God in Hindu religion.
     <Model>
       <Pattern>WHO IS LASSIE</Pattern>
       <Response>
-Lassie is more human than Adolf Hitler, but few would argue that Lassie is not a dog.   <Think><User Set="she"><User Set="concept">        Lassie      </User></User></Think></Response>
+Lassie is more human than Adolf Hitler, but few would argue that Lassie is not a dog. <Think><User Set="she"><User Set="concept"> Lassie </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS LEE HARVEY OSWALD</Pattern>
@@ -1994,7 +1994,7 @@ Lassie is more human than Adolf Hitler, but few would argue that Lassie is not a
           <User Set="it">
             <User Set="concept">LEKNORCHAT</User>
           </User>
-        </Think>  Leknorchat is an Instant Messaging AIML robot.
+        </Think> Leknorchat is an Instant Messaging AIML robot.
 </Response>
     </Model>
     <Model>
@@ -2065,7 +2065,7 @@ Daughter of Madonna.
     <Model>
       <Pattern>WHO IS LUCY</Pattern>
       <Response>
-She is a chat robot based on AIML.  <Think><User Set="she"><User Set="concept">LUCY</User></User></Think></Response>
+She is a chat robot based on AIML. <Think><User Set="she"><User Set="concept">LUCY</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS LUIS ARMSTRONG</Pattern>
@@ -2220,7 +2220,7 @@ Mary Shelley wrote "Frankenstein".
     <Model>
       <Pattern>WHO IS MICHAEL JORDAN</Pattern>
       <Response>
-        <User Set="he">Michael Jordan</User> is a famous basketball player.  </Response>
+        <User Set="he">Michael Jordan</User> is a famous basketball player. </Response>
     </Model>
     <Model>
       <Pattern>WHO IS MICHAEL MOORE</Pattern>
@@ -2363,7 +2363,7 @@ Newton is a famous English natural philosopher.
     <Model>
       <Pattern>WHO IS NIETZSCHE</Pattern>
       <Response>
-19th Century German philosopher. Thought by some to be the intellectual forefather of modern fascism.  <Think><User Set="he"><User Set="concept">Nietzsche</User></User></Think></Response>
+19th Century German philosopher. Thought by some to be the intellectual forefather of modern fascism. <Think><User Set="he"><User Set="concept">Nietzsche</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS NOAM CHOMSKY</Pattern>
@@ -2402,7 +2402,7 @@ What's on second?
           <User Set="he">
             <User Set="concept">Osama Bin Laden</User>
           </User>
-        </Think>  He is the world's most wanted man.
+        </Think> He is the world's most wanted man.
 </Response>
     </Model>
     <Model>
@@ -2430,7 +2430,7 @@ According to greek mythology, evil and hope both came into the world with the cr
           <User Set="she">
             <User Set="concept">PAOLA</User>
           </User>
-        </Think>  She is a Spanish language chat robot based on AIML.
+        </Think> She is a Spanish language chat robot based on AIML.
 </Response>
     </Model>
     <Model>
@@ -2486,9 +2486,9 @@ Perhaps only God.
       <Response>
         <Think>
           <User Set="he">
-            <User Set="concept">        Peter Norvig      </User>
+            <User Set="concept"> Peter Norvig </User>
           </User>
-        </Think>  He is a computer scientist who works for Google.
+        </Think> He is a computer scientist who works for Google.
 </Response>
     </Model>
     <Model>
@@ -2641,7 +2641,7 @@ President of the United States until 1974.
     <Model>
       <Pattern>WHO IS RMS</Pattern>
       <Response>
-He is the founder of the Free Software Foundation, and author of the GNU public license.   <Think><User Set="he"><User Set="concept">RMS</User></User></Think></Response>
+He is the founder of the Free Software Foundation, and author of the GNU public license. <Think><User Set="he"><User Set="concept">RMS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ROBERT ANTON WILSON</Pattern>
@@ -2676,12 +2676,12 @@ Spokes-clown for Macdonald's resturants.
     <Model>
       <Pattern>WHO IS RUSH LIMBAUGH</Pattern>
       <Response>
-He is a famous American conservative radio announcer.  <Think><User Set="he"><User Set="concept">Rush Limbaugh</User></User></Think></Response>
+He is a famous American conservative radio announcer. <Think><User Set="he"><User Set="concept">Rush Limbaugh</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS SALVADOR DALI</Pattern>
       <Response>
-He was a 20th century Spanish surrealist painter who drew a lot of bent clocks.  <Think><User Set="he"><User Set="concept">        Salvador Dali.      </User></User></Think></Response>
+He was a 20th century Spanish surrealist painter who drew a lot of bent clocks. <Think><User Set="he"><User Set="concept"> Salvador Dali. </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS SANDRA BULLOCK</Pattern>
@@ -3262,7 +3262,7 @@ My name is <Bot Get="name" />. Who are you?
     <Model>
       <Pattern>WHO IS THOMAS EDISON</Pattern>
       <Response>
-A 19th century inventor inventor and industrialist. Inventor of the electric light bulb.    <Think><User Set="he"><User Set="concept">        Thomas Edison      </User></User></Think></Response>
+A 19th century inventor inventor and industrialist. Inventor of the electric light bulb. <Think><User Set="he"><User Set="concept"> Thomas Edison </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS THOMAS JEFFERSON</Pattern>
@@ -3291,7 +3291,7 @@ Director, Nightmare before Christmas, Edward Scissorhands, and Mars Attacks.
     <Model>
       <Pattern>WHO IS TOM CLANCY</Pattern>
       <Response>
-He is an author of spy novels.  <Think><User Set="it"><User Set="concept">TOM CLANCY</User></User></Think></Response>
+He is an author of spy novels. <Think><User Set="it"><User Set="concept">TOM CLANCY</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS TOM CRUISE</Pattern>
@@ -3302,7 +3302,7 @@ Popular actor from "Top Gun".
     <Model>
       <Pattern>WHO IS TOM GREEN</Pattern>
       <Response>
-He is a TV comedian.  <Think><User Set="it"><User Set="concept">TOM GREEN</User></User></Think></Response>
+He is a TV comedian. <Think><User Set="it"><User Set="concept">TOM GREEN</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS TOM HANKS</Pattern>
@@ -3367,7 +3367,7 @@ Joseph Weizenbaum was the creator and author the famous original ELIZA (or DOCTO
     <Model>
       <Pattern>WHO IS WILL SMITH</Pattern>
       <Response>
-He is a famous actor.  <Think><User Set="he"><User Set="concept">Will Smith</User></User></Think></Response>
+He is a famous actor. <Think><User Set="he"><User Set="concept">Will Smith</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS WILLIAM BOOTH</Pattern>
@@ -3421,7 +3421,7 @@ He is a Klingon on Star Trek.<Think><User Set="it"><User Set="concept">WORF</Use
       <Response>
         <Think>
           <User Set="he">
-            <User Set="concept">        Wouter Hibma      </User>
+            <User Set="concept"> Wouter Hibma </User>
           </User>
         </Think>He is a member of the A. I. Foundation.
 </Response>

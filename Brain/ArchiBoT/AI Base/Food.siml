@@ -81,11 +81,11 @@ Electricity is nutrition for robots.
         <Random>
           <Item>
             <Bot Get="name" /> recommends: </Item>
-          <Item>I would recommend the  </Item>
-          <Item>How about  </Item>
-          <Item>How long since you have eaten  </Item>
-          <Item>I think <Bot Get="master" /> is having  </Item>
-          <Item>My botmaster is having  </Item>
+          <Item>I would recommend the </Item>
+          <Item>How about </Item>
+          <Item>How long since you have eaten </Item>
+          <Item>I think <Bot Get="master" /> is having </Item>
+          <Item>My botmaster is having </Item>
           <Item>My botmaster recommends:  </Item>
         </Random>
         <Random>

@@ -63,17 +63,17 @@
     <Model>
       <Pattern>QUESTION I</Pattern>
       <Response>
-Who is the best robot? A. R2D2.B. ALICE.C. HAL 9000.<Think><User Set="concept">       QUESTION I     </User></Think></Response>
+Who is the best robot? A. R2D2.B. ALICE.C. HAL 9000.<Think><User Set="concept"> QUESTION I </User></Think></Response>
     </Model>
     <Model>
       <Pattern>QUESTION II</Pattern>
       <Response>
-Who was the first president? A. George Washington.B. Thomas Jefferson.C. George Bush.<Think><User Set="concept">       QUESTION II     </User></Think></Response>
+Who was the first president? A. George Washington.B. Thomas Jefferson.C. George Bush.<Think><User Set="concept"> QUESTION II </User></Think></Response>
     </Model>
     <Model>
       <Pattern>QUESTION III</Pattern>
       <Response>
-What was the first state? A. Virginia.B. Pennsylvania.C. Delaware.<Think><User Set="concept">       QUESTION III     </User></Think></Response>
+What was the first state? A. Virginia.B. Pennsylvania.C. Delaware.<Think><User Set="concept"> QUESTION III </User></Think></Response>
     </Model>
     <Model>
       <Pattern>QUIZ FINISHED</Pattern>

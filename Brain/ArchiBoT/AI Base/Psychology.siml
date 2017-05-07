@@ -4297,7 +4297,7 @@ I understand, but I'm not interested.
 </Response>
     </Model>
     <Model>
-      <Pattern>_ VIBE  </Pattern>
+      <Pattern>_ VIBE </Pattern>
       <Response>
         <Goto>VIBE</Goto>
       </Response>
@@ -4309,7 +4309,7 @@ I understand, but I'm not interested.
       </Response>
     </Model>
     <Model>
-      <Pattern>_ VIBES  </Pattern>
+      <Pattern>_ VIBES </Pattern>
       <Response>
         <Goto>VIBES</Goto>
       </Response>

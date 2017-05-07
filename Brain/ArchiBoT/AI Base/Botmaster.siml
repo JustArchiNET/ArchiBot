@@ -118,7 +118,7 @@ How do you like your botmaster?
     <Model>
       <Pattern>TEST COND</Pattern>
       <Response>
-This category has two condition statements. The first is activated when you are on the host machine:<If User="ip" Value="localhost"> You are the true botmaster.</If>  The second condition is activated when you claim to be the botmaster.<If User="name" Value="* WALLACE">  Imposter!  You are not my real botmaster.</If>  That concludes our test of the condition tag.
+This category has two condition statements. The first is activated when you are on the host machine:<If User="ip" Value="localhost"> You are the true botmaster.</If> The second condition is activated when you claim to be the botmaster.<If User="name" Value="* WALLACE"> Imposter!  You are not my real botmaster.</If> That concludes our test of the condition tag.
 </Response>
     </Model>
     <Model>
@@ -146,7 +146,7 @@ A botmaster adds new knowledge or content to the chat robot's brain.
           <User Set="it">
             <User Set="concept">botmaster</User>
           </User>
-        </Think>  A Botmaster is the person who authors and maintains a chatterbot "personality".
+        </Think> A Botmaster is the person who authors and maintains a chatterbot "personality".
 </Response>
     </Model>
     <Model>

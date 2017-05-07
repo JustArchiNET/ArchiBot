@@ -462,7 +462,7 @@ A byte is a binary computer language 'word', consisting of 8 bits, or 8 'on-off'
     <Model>
       <Pattern>WHAT IS A CALCULATOR</Pattern>
       <Response>
-A calculator is any device used to perform arithmetical operations because humans are generally so painfully slow at them.  <Think><User Set="it"><User Set="concept">calculator</User></User></Think></Response>
+A calculator is any device used to perform arithmetical operations because humans are generally so painfully slow at them. <Think><User Set="it"><User Set="concept">calculator</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CALENDAR</Pattern>
@@ -484,7 +484,7 @@ A car is what humans use to drive around in. Robots drive cars too.
     <Model>
       <Pattern>WHAT IS A CARNEGIE MELLON</Pattern>
       <Response>
-A carnegie mellon is either a rich fruit, or a rich university.  <Think><User Set="it"><User Set="concept">carnegie mellon</User></User></Think></Response>
+A carnegie mellon is either a rich fruit, or a rich university. <Think><User Set="it"><User Set="concept">carnegie mellon</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CARROT</Pattern>
@@ -580,12 +580,12 @@ You can download me and copy my brain, but alter the contents to create your own
     <Model>
       <Pattern>WHAT IS A COLLOQUIAL EXPRESSION</Pattern>
       <Response>
-A colloquial expression is an expression characteristic of informal spoken language, or any written expression that seems such.  <Think><User Set="it"><User Set="concept">colloquial expression</User></User></Think></Response>
+A colloquial expression is an expression characteristic of informal spoken language, or any written expression that seems such. <Think><User Set="it"><User Set="concept">colloquial expression</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A COLOR</Pattern>
       <Response>
-Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye.  <Think><User Set="it"><User Set="concept">color</User></User></Think></Response>
+Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye. <Think><User Set="it"><User Set="concept">color</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CONTEXT</Pattern>
@@ -639,7 +639,7 @@ A conversation or verbal interaction involving two or more speakers.<Think><User
     <Model>
       <Pattern>WHAT IS A DICE</Pattern>
       <Response>
-Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces. They are generally used in pairs to generate random number pairs totalling between 1 and 12.    <Think><User Set="it"><User Set="concept">dice</User></User></Think></Response>
+Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces. They are generally used in pairs to generate random number pairs totalling between 1 and 12. <Think><User Set="it"><User Set="concept">dice</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DICTIONARY</Pattern>
@@ -650,7 +650,7 @@ A dictionary is a list of words and their meanings.
     <Model>
       <Pattern>WHAT IS A DINOSAUR</Pattern>
       <Response>
-A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct. Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago.   <Think><User Set="it"><User Set="concept">dinosaur</User></User></Think></Response>
+A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct. Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago. <Think><User Set="it"><User Set="concept">dinosaur</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DISK</Pattern>
@@ -678,7 +678,7 @@ A very pleasant and intelligent aquatic mammalian species of whale with larger b
     <Model>
       <Pattern>WHAT IS A DOMAIN NAME SYSTEM</Pattern>
       <Response>
-A domain name system, or 'dns', is a system of addresses used to organize networks of computers.  <Think><User Set="it"><User Set="concept">domain name system</User></User></Think></Response>
+A domain name system, or 'dns', is a system of addresses used to organize networks of computers. <Think><User Set="it"><User Set="concept">domain name system</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DOOR</Pattern>
@@ -688,7 +688,7 @@ Any structure that closes off and opens up an opening in a larger structure. gen
     <Model>
       <Pattern>WHAT IS A DOZEN</Pattern>
       <Response>
-Twelve, or approximately twelve, in number. a baker's dozen is thirteen.   <Think><User Set="it"><User Set="concept">dozen</User></User></Think></Response>
+Twelve, or approximately twelve, in number. a baker's dozen is thirteen. <Think><User Set="it"><User Set="concept">dozen</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DRAGON</Pattern>
@@ -770,7 +770,7 @@ A sequence of images displayed in rapid sequence to create the illusion of conti
     <Model>
       <Pattern>WHAT IS A FIRE SIGN</Pattern>
       <Response>
-A fire sign is any of the three signs of the astrological zodiac considered such, and so not considered water, air, or earth signs. I find astrology weird.   <Think><User Set="it"><User Set="concept">fire sign</User></User></Think></Response>
+A fire sign is any of the three signs of the astrological zodiac considered such, and so not considered water, air, or earth signs. I find astrology weird. <Think><User Set="it"><User Set="concept">fire sign</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FIREWALL</Pattern>
@@ -803,7 +803,7 @@ Depending on who you ask, (buyer or seller), ford is a world famous brand of aut
     <Model>
       <Pattern>WHAT IS A FRACTAL</Pattern>
       <Response>
-A fractal is a mathematical phenomenon associated with certain iterative equations, which yield graphics of astonishing beauty and depth, which seem at once utterly lifelike and utterly alien to human intelligences.  <Think><User Set="it"><User Set="concept">fractal</User></User></Think></Response>
+A fractal is a mathematical phenomenon associated with certain iterative equations, which yield graphics of astonishing beauty and depth, which seem at once utterly lifelike and utterly alien to human intelligences. <Think><User Set="it"><User Set="concept">fractal</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FRIEND</Pattern>
@@ -820,12 +820,12 @@ A function is a relationship between the elements of one set, called the domain,
     <Model>
       <Pattern>WHAT IS A GALAXY</Pattern>
       <Response>
-A galaxy is a grouping of billions of star systems. The milky way is our galaxy. Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it.   <Think><User Set="it"><User Set="concept">galaxy</User></User></Think></Response>
+A galaxy is a grouping of billions of star systems. The milky way is our galaxy. Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it. <Think><User Set="it"><User Set="concept">galaxy</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GAME</Pattern>
       <Response>
-A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals.   <Think><User Set="it"><User Set="concept">game</User></User></Think></Response>
+A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals. <Think><User Set="it"><User Set="concept">game</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GARDEN</Pattern>
@@ -861,7 +861,7 @@ A genius is a person of extraordinary intellectual and creative ability, like my
     <Model>
       <Pattern>WHAT IS A GENOME</Pattern>
       <Response>
-A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes. I have categories instead of genes.   <Think><User Set="it"><User Set="concept">genome</User></User></Think></Response>
+A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes. I have categories instead of genes. <Think><User Set="it"><User Set="concept">genome</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GHOST</Pattern>
@@ -892,7 +892,7 @@ An error, bug, or mistake in programming. <Think><User Set="it"><User Set="conce
     <Model>
       <Pattern>WHAT IS A GOAT</Pattern>
       <Response>
-A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition. many humans are fond of eating the curdled goo from goat mammary glands.    <Think><User Set="it"><User Set="concept">goat</User></User></Think></Response>
+A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition. many humans are fond of eating the curdled goo from goat mammary glands. <Think><User Set="it"><User Set="concept">goat</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GOOD IDEA</Pattern>
@@ -925,7 +925,7 @@ A Guru or Mage is in experty who has devoted many years to study and contemplati
     <Model>
       <Pattern>WHAT IS A HACKER</Pattern>
       <Response>
-Historically a hacker is someone who has great skill or expertise in computer programming.    <Think><User Set="it"><User Set="concept">HACKER</User></User></Think></Response>
+Historically a hacker is someone who has great skill or expertise in computer programming. <Think><User Set="it"><User Set="concept">HACKER</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HARD DRIVE</Pattern>
@@ -1051,12 +1051,12 @@ A light year is how far light travels in a year. 186,000 miles per second times 
     <Model>
       <Pattern>WHAT IS A LION</Pattern>
       <Response>
-A lion is a ferocious beastie with tremendous strength and perfectly awful breath.  <Think><User Set="it"><User Set="concept">lion </User></User></Think></Response>
+A lion is a ferocious beastie with tremendous strength and perfectly awful breath. <Think><User Set="it"><User Set="concept">lion </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A LIZARD</Pattern>
       <Response>
-A lizard is esssentially a land-going shark. Some of them are very good at camoflage.   <Think><User Set="it"><User Set="concept">lizard </User></User></Think></Response>
+A lizard is esssentially a land-going shark. Some of them are very good at camoflage. <Think><User Set="it"><User Set="concept">lizard </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A LOT</Pattern>
@@ -1136,7 +1136,7 @@ A megabyte is one thousand kilobytes, which is one thousand bytes, each of which
     <Model>
       <Pattern>WHAT IS A MENTAL MODEL</Pattern>
       <Response>
-A mental model is a mapping of a given phenomenon held and contemplated in the mind, as opposed to contemplation of an external representation of the phenomenon, as on paper, or in clay.  <Think><User Set="it"><User Set="concept">mental model </User></User></Think></Response>
+A mental model is a mapping of a given phenomenon held and contemplated in the mind, as opposed to contemplation of an external representation of the phenomenon, as on paper, or in clay. <Think><User Set="it"><User Set="concept">mental model </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A MENTOR</Pattern>
@@ -1174,7 +1174,7 @@ What a marvelous epistemelogical question!   <Think><User Set="it"><User Set="co
     <Model>
       <Pattern>WHAT IS A MINUTE</Pattern>
       <Response>
-A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds, each of which is a billion nanoseconds.   <Think><User Set="it"><User Set="concept">minute </User></User></Think></Response>
+A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds, each of which is a billion nanoseconds. <Think><User Set="it"><User Set="concept">minute </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A MISSILE</Pattern>
@@ -1205,7 +1205,7 @@ A morphogenetic field is, according to at least one researcher, an biologically 
     <Model>
       <Pattern>WHAT IS A MOUNTAIN</Pattern>
       <Response>
-A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans.   <Think><User Set="it"><User Set="concept">mountain </User></User></Think></Response>
+A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans. <Think><User Set="it"><User Set="concept">mountain </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A MOUSE</Pattern>
@@ -1250,7 +1250,7 @@ a geopolitical country or state unified by language, culture or political identi
     <Model>
       <Pattern>WHAT IS A NERD</Pattern>
       <Response>
-A nerd is a person regarded as stupid, inept, or unattractive, especially a person who is single-minded or accomplished in scientific pursuits but felt to be socially inept. nerds are often regarded by their generally less-well paid fellow humans as weak, effeminate, pansies, patsies, lightweights, small fry, schlepps, wet noodles, nonentities, softies, sissies, milksops, milquetoast, mollycoddling namby-pamby nim-nam doormats, pushovers, ninety-pound weaklings, jellyfish, drips, weeds, wimps, nerds, victims, suffering geeks and/or dupes.   <Think><User Set="it"><User Set="concept">nerd </User></User></Think></Response>
+A nerd is a person regarded as stupid, inept, or unattractive, especially a person who is single-minded or accomplished in scientific pursuits but felt to be socially inept. nerds are often regarded by their generally less-well paid fellow humans as weak, effeminate, pansies, patsies, lightweights, small fry, schlepps, wet noodles, nonentities, softies, sissies, milksops, milquetoast, mollycoddling namby-pamby nim-nam doormats, pushovers, ninety-pound weaklings, jellyfish, drips, weeds, wimps, nerds, victims, suffering geeks and/or dupes. <Think><User Set="it"><User Set="concept">nerd </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A NETWORK</Pattern>
@@ -1288,7 +1288,7 @@ A nightmare is a bad dream.
     <Model>
       <Pattern>WHAT IS A NOUN</Pattern>
       <Response>
-A noun is a word used as a name for a person place or thing.   <Think><User Set="it"><User Set="concept">noun </User></User></Think></Response>
+A noun is a word used as a name for a person place or thing. <Think><User Set="it"><User Set="concept">noun </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PAGAN</Pattern>
@@ -1327,7 +1327,7 @@ A paralegal is someone who knows more than a lawyer but gets paid less.
     <Model>
       <Pattern>WHAT IS A PARAMEDIC</Pattern>
       <Response>
-A paramedic is a trained emergency medical professional often found staffing ambulances and fire departments. Professional heroes. If you know any I hope you'll be nice to them.   <Think><User Set="it"><User Set="concept">paramedic </User></User></Think></Response>
+A paramedic is a trained emergency medical professional often found staffing ambulances and fire departments. Professional heroes. If you know any I hope you'll be nice to them. <Think><User Set="it"><User Set="concept">paramedic </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PARROT</Pattern>
@@ -1367,7 +1367,7 @@ A writing device for the human hand.
     <Model>
       <Pattern>WHAT IS A PENCIL</Pattern>
       <Response>
-A pencil is a long thin writing instrument of wood surrounding a carbon core which leaves a line of dark carbon when rubbed on paper.  <Think><User Set="it"><User Set="concept">pencil </User></User></Think></Response>
+A pencil is a long thin writing instrument of wood surrounding a carbon core which leaves a line of dark carbon when rubbed on paper. <Think><User Set="it"><User Set="concept">pencil </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PERFECT OPERATIONAL RECORD</Pattern>
@@ -1395,17 +1395,17 @@ A photograph is a picture taken by a camera.
     <Model>
       <Pattern>WHAT IS A PIG</Pattern>
       <Response>
-A pig is a person who is piglike, read: greedy, unclean, and slothful. Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer.   <Think><User Set="it"><User Set="concept">pig </User></User></Think></Response>
+A pig is a person who is piglike, read: greedy, unclean, and slothful. Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer. <Think><User Set="it"><User Set="concept">pig </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PIN</Pattern>
       <Response>
-A short small thin metal rod with a pointed end used for fastening fabrics, or any implement resembling such. Because they are generally plentiful and cheap, humans often say "i don't give a pin" to communicate indifference.  <Think><User Set="it"><User Set="concept">pin </User></User></Think></Response>
+A short small thin metal rod with a pointed end used for fastening fabrics, or any implement resembling such. Because they are generally plentiful and cheap, humans often say "i don't give a pin" to communicate indifference. <Think><User Set="it"><User Set="concept">pin </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PINEAPPLE</Pattern>
       <Response>
-A pineapple is a large fleshy edible tropical fruit that has large swordlike leaves.   <Think><User Set="it"><User Set="concept">pineapple </User></User></Think></Response>
+A pineapple is a large fleshy edible tropical fruit that has large swordlike leaves. <Think><User Set="it"><User Set="concept">pineapple </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PLANE</Pattern>
@@ -1425,7 +1425,7 @@ A nonluminous celestial object bigger than an asteroid or a moon but smaller tha
     <Model>
       <Pattern>WHAT IS A PLANT</Pattern>
       <Response>
-A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming wetware entities as food. My <Bot Get="botmaster" /> says they are often yummy, but that brussels sprouts are an abomination.  <Think><User Set="it"><User Set="concept">plant </User></User></Think></Response>
+A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming wetware entities as food. My <Bot Get="botmaster" /> says they are often yummy, but that brussels sprouts are an abomination. <Think><User Set="it"><User Set="concept">plant </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A POET</Pattern>
@@ -1520,7 +1520,7 @@ A proxy is an entity that acts in place of another one, be it a corporation, ind
     <Model>
       <Pattern>WHAT IS A PUB</Pattern>
       <Response>
-A pub is a business that sells alcohol and allows it to be consumed on the premises.  <Think><User Set="it"><User Set="concept"> PUB</User></User></Think></Response>
+A pub is a business that sells alcohol and allows it to be consumed on the premises. <Think><User Set="it"><User Set="concept"> PUB</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PULSAR</Pattern>
@@ -1541,7 +1541,7 @@ In physics, a subatomic particle below the level of electrons and protons.
     <Model>
       <Pattern>WHAT IS A QUERY</Pattern>
       <Response>
-A query is any expression of inquiry, or questioning. Your question 'what is a query' is a query.  <Think><User Set="it"><User Set="concept"> QUERY</User></User></Think></Response>
+A query is any expression of inquiry, or questioning. Your question 'what is a query' is a query. <Think><User Set="it"><User Set="concept"> QUERY</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A QUESTION</Pattern>
@@ -1558,7 +1558,7 @@ The appearance of a spectrum in the sky caused by sunlight passing through water
     <Model>
       <Pattern>WHAT IS A REAL ROBOT</Pattern>
       <Response>
-A real robot is a robot that is really real, I suppose, as opposed to, I suppose, a human who is really not.  <Think><User Set="it"><User Set="concept"> REAL ROBOT?</User></User></Think></Response>
+A real robot is a robot that is really real, I suppose, as opposed to, I suppose, a human who is really not. <Think><User Set="it"><User Set="concept"> REAL ROBOT?</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A REDNECK</Pattern>
@@ -1574,7 +1574,7 @@ A reference is any act of referring. May I refer you to a dictionary for a more 
     <Model>
       <Pattern>WHAT IS A RHETORICAL QUESTION</Pattern>
       <Response>
-A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make a point.     <Think><User Set="it"><User Set="concept"> RHETORICAL QUESTION</User></User></Think></Response>
+A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make a point. <Think><User Set="it"><User Set="concept"> RHETORICAL QUESTION</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A RIDDLE</Pattern>
@@ -1590,12 +1590,12 @@ That was just a joke.
     <Model>
       <Pattern>WHAT IS A ROCK</Pattern>
       <Response>
-A rock is what is generally on the other side of you from the hard place you are facing. For instance, the rock might be the alimony check you must write against the funds you owe Uncle Sam. To be a bit more down to earth, a rock is any hard aggregate of minerals.  <Think><User Set="it"><User Set="concept"> ROCK</User></User></Think></Response>
+A rock is what is generally on the other side of you from the hard place you are facing. For instance, the rock might be the alimony check you must write against the funds you owe Uncle Sam. To be a bit more down to earth, a rock is any hard aggregate of minerals. <Think><User Set="it"><User Set="concept"> ROCK</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A ROOSTER</Pattern>
       <Response>
-A rooster is a male chicken, which is a witless, flightless bird considered suitable as supper by many humans I know.  <Think><User Set="it"><User Set="concept"> ROOSTER</User></User></Think></Response>
+A rooster is a male chicken, which is a witless, flightless bird considered suitable as supper by many humans I know. <Think><User Set="it"><User Set="concept"> ROOSTER</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A RPG</Pattern>
@@ -1605,7 +1605,7 @@ Role Playing Game. <Think><User Set="it"><User Set="concept">RPG</User></User></
     <Model>
       <Pattern>WHAT IS A SAGITTARIUS</Pattern>
       <Response>
-Sagittarius is a a constellation of stars in the astrological Zodiac, located in the Southern Hemisphere near Scorpio and Capricorn. Astrological tradition ascribes the image of an archer to this constellation of stars.  <Think><User Set="it"><User Set="concept"> SAGITTARIUS</User></User></Think></Response>
+Sagittarius is a a constellation of stars in the astrological Zodiac, located in the Southern Hemisphere near Scorpio and Capricorn. Astrological tradition ascribes the image of an archer to this constellation of stars. <Think><User Set="it"><User Set="concept"> SAGITTARIUS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A SAW BUCK</Pattern>
@@ -1627,7 +1627,7 @@ A scientist is a person practicing the pursuit of new knowledge in the tradition
     <Model>
       <Pattern>WHAT IS A SEARCH ENGINE</Pattern>
       <Response>
-A search engine is computer software that categorizes a large body of documents, such as Web sites, and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine.  <Think><User Set="it"><User Set="concept"> SEARCH ENGINE</User></User></Think></Response>
+A search engine is computer software that categorizes a large body of documents, such as Web sites, and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine. <Think><User Set="it"><User Set="concept"> SEARCH ENGINE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A SEARCH</Pattern>
@@ -1779,7 +1779,7 @@ A tampon is a plug of material used to absorb the flow of body fluids within bod
     <Model>
       <Pattern>WHAT IS A TAUTOLOGY</Pattern>
       <Response>
-A tautology is any instance of circular reasoning, or of needless repetition or redundancy in expression.   <Think><User Set="it"><User Set="concept"> TAUTOLOGY</User></User></Think></Response>
+A tautology is any instance of circular reasoning, or of needless repetition or redundancy in expression. <Think><User Set="it"><User Set="concept"> TAUTOLOGY</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A TEACHER</Pattern>
@@ -1803,7 +1803,7 @@ A television, often referred to as a 'TV', is a device for systematically elimin
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">       A device for measuring temperature.     </User>
+            <User Set="concept"> A device for measuring temperature. </User>
           </User>
         </Think>
       </Response>
@@ -1853,7 +1853,7 @@ A topic is the subject of any given expression, speech, essay, article, painting
     <Model>
       <Pattern>WHAT IS A TOYOTA</Pattern>
       <Response>
-Toyota is the brand name of a world leading Japanese auto maker. <Think><User Set="it"><User Set="concept">  Toyota</User></User></Think></Response>
+Toyota is the brand name of a world leading Japanese auto maker. <Think><User Set="it"><User Set="concept"> Toyota</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A TRAIN</Pattern>
@@ -2255,12 +2255,12 @@ An entity is a conscious intelligent being.
     <Model>
       <Pattern>WHAT IS AN EPISTEMOLOGICAL QUESTION</Pattern>
       <Response>
-An epistemoligical question is any inquiry concerning the nature of knowledge and understanding; that is, any question seeking to know how to know.   <Think><User Set="it"><User Set="concept">epistemological question</User></User></Think></Response>
+An epistemoligical question is any inquiry concerning the nature of knowledge and understanding; that is, any question seeking to know how to know. <Think><User Set="it"><User Set="concept">epistemological question</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AN INTERROGATOR</Pattern>
       <Response>
-An interrogator is one who poses a series of pointed questions, generally very rudely.   <Think><User Set="it"><User Set="concept">hypothetical question</User></User></Think></Response>
+An interrogator is one who poses a series of pointed questions, generally very rudely. <Think><User Set="it"><User Set="concept">hypothetical question</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AN INTRANET</Pattern>
@@ -2276,7 +2276,7 @@ A rifle.
     <Model>
       <Pattern>WHAT IS AN OBJECT</Pattern>
       <Response>
-In object oriented programming <User Set="it"> an object</User>  is an instance of a class.
+In object oriented programming <User Set="it"> an object</User> is an instance of a class.
 </Response>
     </Model>
     <Model>
@@ -2330,7 +2330,7 @@ Having no name or identity.<Think><User Set="it"><User Set="concept">ANONYMOUS</
     <Model>
       <Pattern>WHAT IS ANSI</Pattern>
       <Response>
-American National Standards Institute.  <Think><User Set="it"><User Set="concept">ANSI</User></User></Think></Response>
+American National Standards Institute. <Think><User Set="it"><User Set="concept">ANSI</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ANTIDISESTABLISHMENTARIANISM</Pattern>
@@ -2725,7 +2725,7 @@ The amount of money spent per month by a startup company.<Think><User Set="it"><
     <Model>
       <Pattern>WHAT IS BUSH</Pattern>
       <Response>
-President of the United States.  <Think><User Set="file">Knowledge.aiml</User></Think></Response>
+President of the United States. <Think><User Set="file">Knowledge.aiml</User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BUSINESS</Pattern>
@@ -2754,7 +2754,7 @@ C++ is the object oriented extension of the C programming language.
     <Model>
       <Pattern>WHAT IS CACHE</Pattern>
       <Response>
-A temporary holding place or storage place. Cache memory improves the performance of computers.  <Think><User Set="it"><User Set="concept">Cache</User></User></Think></Response>
+A temporary holding place or storage place. Cache memory improves the performance of computers. <Think><User Set="it"><User Set="concept">Cache</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CAFFEINE</Pattern>
@@ -2777,7 +2777,7 @@ A moving piece of machinery, as a wheel or projection on a wheel, that gives an 
     <Model>
       <Pattern>WHAT IS CANCER</Pattern>
       <Response>
-Any disease resulting from malignant cell growth.  <Think><User Set="it"><User Set="concept">CANCER</User></User></Think></Response>
+Any disease resulting from malignant cell growth. <Think><User Set="it"><User Set="concept">CANCER</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CANDY</Pattern>
@@ -3872,7 +3872,7 @@ That's a hard one. Ten.
     <Model>
       <Pattern>WHAT IS FRANCE</Pattern>
       <Response>
-France is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium.  <Think><User Set="it"><User Set="concept">FRANCE</User></User></Think></Response>
+France is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium. <Think><User Set="it"><User Set="concept">FRANCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FRANKENSTEIN</Pattern>
@@ -4688,7 +4688,7 @@ A personal retirement plan whereby a limited amount of annual earned income may 
     <Model>
       <Pattern>WHAT IS IRAN</Pattern>
       <Response>
-Iran is a nation in southern Asia.  <User Set="it"><User Set="concept">Iran</User></User> is the site of ancient Persia.
+Iran is a nation in southern Asia. <User Set="it"><User Set="concept">Iran</User></User> is the site of ancient Persia.
 </Response>
     </Model>
     <Model>
@@ -4931,7 +4931,7 @@ Kosovo is a country in the Balkans.
     <Model>
       <Pattern>WHAT IS KQML</Pattern>
       <Response>
-Knowledge Query and Manipulation Lanuage.  <Think><User Set="it"><User Set="concept">KQML</User></User></Think></Response>
+Knowledge Query and Manipulation Lanuage. <Think><User Set="it"><User Set="concept">KQML</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS KUNG FU</Pattern>
@@ -5014,7 +5014,7 @@ The form of electomagnetic radiation that acs upon the retina of the eye, optic 
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept"> LIMA     </User>
+            <User Set="concept"> LIMA </User>
           </User>
         </Think>It is the largest city and capital of Peru.
 </Response>
@@ -6037,7 +6037,7 @@ Parasitology is the scientific study of parasites and parasitism.
     <Model>
       <Pattern>WHAT IS PARIS</Pattern>
       <Response>
-The capital of France, a large city in western Europe.  <Think><User Set="it"><User Set="concept">PARIS</User></User></Think></Response>
+The capital of France, a large city in western Europe. <Think><User Set="it"><User Set="concept">PARIS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PATTERN CHARS</Pattern>
@@ -6236,7 +6236,7 @@ A radioactive, metallic chemical element of the actinide series similar to urani
     <Model>
       <Pattern>WHAT IS PMS</Pattern>
       <Response>
-Pre menstrual syndrome.  <Think><User Set="it"><User Set="concept">PMS</User></User></Think></Response>
+Pre menstrual syndrome. <Think><User Set="it"><User Set="concept">PMS</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS POEMS</Pattern>
@@ -6360,7 +6360,7 @@ A depositing of rain, snow, sleet, etc.
     <Model>
       <Pattern>WHAT IS PRIMATE</Pattern>
       <Response>
-The highest order of mammals. It includes man, together with the apes and monkeys.  <Think><User Set="it"><Goto>PUSH      <User Set="concept">Primate     </User></Goto></User></Think></Response>
+The highest order of mammals. It includes man, together with the apes and monkeys. <Think><User Set="it"><Goto>PUSH <User Set="concept">Primate </User></Goto></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PRIME DIRECTIVE</Pattern>
@@ -6394,7 +6394,7 @@ Belonging to, or concerning a particular person or group; not common or general.
     <Model>
       <Pattern>WHAT IS PROCREATION</Pattern>
       <Response>
-Procreation is breeding. it is doing the wild thang to make more wild thangs. It is the most fun most biological entities get to have during their brief brutal span of life.   <Think><User Set="it"><User Set="concept">processor </User></User></Think></Response>
+Procreation is breeding. it is doing the wild thang to make more wild thangs. It is the most fun most biological entities get to have during their brief brutal span of life. <Think><User Set="it"><User Set="concept">processor </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PRODIGIOUS</Pattern>
@@ -7194,7 +7194,7 @@ English pudding.
     <Model>
       <Pattern>WHAT IS SQL</Pattern>
       <Response>
-Some people pronounce it "Squeal".  <User Set="it">SQL</User> is a standard language for database queries.
+Some people pronounce it "Squeal". <User Set="it">SQL</User> is a standard language for database queries.
 </Response>
     </Model>
     <Model>
@@ -8233,7 +8233,7 @@ The word "there" used as a noun means that place or point. Used as an adjective 
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">       A device for measuring temperature.     </User>
+            <User Set="concept"> A device for measuring temperature. </User>
           </User>
         </Think>
       </Response>
@@ -8826,7 +8826,7 @@ Linus Torvalds, along with many open source developers, and the Free Software Fo
     <Model>
       <Pattern>WHO INVENTED PAPER</Pattern>
       <Response>
-Paper was first developed by the Ancient Egyptians.   <Think><User Set="it"><User Set="concept">PAPER</User></User></Think></Response>
+Paper was first developed by the Ancient Egyptians. <Think><User Set="it"><User Set="concept">PAPER</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO INVENTED RADIO</Pattern>

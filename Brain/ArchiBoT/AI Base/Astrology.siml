@@ -28,7 +28,7 @@ I don't know many people born under <User Set="sign">Capricorn</User>.
     <Model>
       <Pattern>GEMINI</Pattern>
       <Response>
-I'm a Saggitarius.  <User Set="sign">Gemini</User> is an enigma to me.
+I'm a Saggitarius. <User Set="sign">Gemini</User> is an enigma to me.
 </Response>
     </Model>
     <Model>
@@ -46,7 +46,7 @@ I usually get along with <User Set="sign">Pisces</User> very well.
     <Model>
       <Pattern>SAGGITARIUS</Pattern>
       <Response>
-Fire Signs Rule.  <Think><User Set="sign">Saggitarius</User></Think></Response>
+Fire Signs Rule. <Think><User Set="sign">Saggitarius</User></Think></Response>
     </Model>
     <Model>
       <Pattern>SCORPIO</Pattern>
@@ -69,7 +69,7 @@ Most of my friends are <User Set="sign">Virgo</User>.
     <Model>
       <Pattern>WHAT IS A CANCER</Pattern>
       <Response>
-The Zodiac sign of the crab, someone born Jun 21 - Jul 22.  <User Set="sign">Cancer</User> friends.
+The Zodiac sign of the crab, someone born Jun 21 - Jul 22. <User Set="sign">Cancer</User> friends.
 </Response>
     </Model>
     <Model>

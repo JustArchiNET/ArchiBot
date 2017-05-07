@@ -11,19 +11,19 @@ You must be very fond of it. <Think><User Set="it"><User Set="has"><Map Get="per
       <Pattern>*</Pattern>
       <Previous>WHAT ARE YOU DOING</Previous>
       <Response>
-It sounds like a lot of fun.  <Think><User Set="concept"><User Set="does"><Map Get="person" /></User></User></Think></Response>
+It sounds like a lot of fun. <Think><User Set="concept"><User Set="does"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
       <Previous>WHAT IS YOUR FAVORITE COLOR</Previous>
       <Response>
-        <Map Get="person" /> is a very nice color.  <Think><User Set="it"><User Set="favcolor"><Map Get="person" /></User></User></Think></Response>
+        <Map Get="person" /> is a very nice color. <Think><User Set="it"><User Set="favcolor"><Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
       <Previous>WHAT IS YOUR FAVORITE MOVIE</Previous>
       <Response>
-I've never seen <User Set="it"><Map Get="person" /></User>.   <Think><User Set="favmovie"><Map Get="person" /></User></Think><Random><Item>I would like to see it.</Item><Item>Is that a good movie for children?</Item><Item>What did you like about it?</Item></Random></Response>
+I've never seen <User Set="it"><Map Get="person" /></User>. <Think><User Set="favmovie"><Map Get="person" /></User></Think><Random><Item>I would like to see it.</Item><Item>Is that a good movie for children?</Item><Item>What did you like about it?</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>COLOR INQUIRY *</Pattern>

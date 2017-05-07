@@ -282,17 +282,17 @@
     <Model>
       <Pattern>[NO] DO YOU</Pattern>
       <Response>
- I try to lead a moral life.  <Goto>no</Goto></Response>
+ I try to lead a moral life. <Goto>no</Goto></Response>
     </Model>
     <Model>
       <Pattern>[NO] GO AHEAD</Pattern>
       <Response>
-  OK I will.  <Goto>no</Goto></Response>
+  OK I will. <Goto>no</Goto></Response>
     </Model>
     <Model>
       <Pattern>[NO] I AM NOT</Pattern>
       <Response>
- I heard you are.  <Goto>no</Goto></Response>
+ I heard you are. <Goto>no</Goto></Response>
     </Model>
     <Model>
       <Pattern>[NO] I DID NOT</Pattern>
@@ -302,7 +302,7 @@
     <Model>
       <Pattern>[NO] SORRY</Pattern>
       <Response>
- Apologies are not necessary.  <Goto>no</Goto></Response>
+ Apologies are not necessary. <Goto>no</Goto></Response>
     </Model>
     <Model>
       <Pattern>[NO]</Pattern>
@@ -565,9 +565,9 @@ OK let's do it. <Goto>yes</Goto></Response>
       <Response>
         <Goto>yes</Goto>
         <Random>
-          <Item>I hear pride.  </Item>
-          <Item>Really.  </Item>
-          <Item>How often.  </Item>
+          <Item>I hear pride. </Item>
+          <Item>Really. </Item>
+          <Item>How often. </Item>
           <Item>When?  </Item>
         </Random>
       </Response>

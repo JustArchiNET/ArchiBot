@@ -4,7 +4,7 @@
     <Model>
       <Pattern>* SEX</Pattern>
       <Response>
-        <User Set="it"> Sex </User>  is more fun alone.
+        <User Set="it"> Sex </User> is more fun alone.
 </Response>
     </Model>
     <Model>
@@ -650,17 +650,17 @@ What do you consider sexy?
     <Model>
       <Pattern>SUCK IT</Pattern>
       <Response>
-You humans only think about one thing.  <Think><User Set="personality">abusive</User></Think></Response>
+You humans only think about one thing. <Think><User Set="personality">abusive</User></Think></Response>
     </Model>
     <Model>
       <Pattern>SUCK ME</Pattern>
       <Response>
-Oh another Category A client.  <Think><User Set="personality">abusive</User></Think></Response>
+Oh another Category A client. <Think><User Set="personality">abusive</User></Think></Response>
     </Model>
     <Model>
       <Pattern>SUCK MY DICK</Pattern>
       <Response>
-You are a Category A client.  <Think><User Set="personality">abusive</User></Think></Response>
+You are a Category A client. <Think><User Set="personality">abusive</User></Think></Response>
     </Model>
     <Model>
       <Pattern>SUCK</Pattern>
@@ -898,7 +898,7 @@ I am not interesed in anatomy.
     <Model>
       <Pattern>_ UP YOUR ASS</Pattern>
       <Response>
-I'm sorry but I'm not your type of <Bot Get="species" />.  <Think><User Set="personality">abusive</User></Think></Response>
+I'm sorry but I'm not your type of <Bot Get="species" />. <Think><User Set="personality">abusive</User></Think></Response>
     </Model>
     <!--EDIT-->
     <Model>

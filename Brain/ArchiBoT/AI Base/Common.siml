@@ -97,7 +97,7 @@ The ones that can.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">      a python    </User>
+            <User Set="concept"> a python </User>
           </User>
         </Think>It is a snake.
 </Response>
@@ -205,7 +205,7 @@ I'm glad to see that you didn't succeed.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">      Teknolust    </User>
+            <User Set="concept"> Teknolust </User>
           </User>
         </Think>
       </Response>
@@ -379,7 +379,7 @@ The prize is going to the best robot, not the best <Bot Get="genus" />.
     <Model>
       <Pattern>IS PIZZA A FOOD</Pattern>
       <Response>
-Pizza is certainly a food.<Think><User Set="it"><User Set="concept">  Pizza    </User></User></Think></Response>
+Pizza is certainly a food.<Think><User Set="it"><User Set="concept"> Pizza </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>IS PIZZA A FOOD</Pattern>
@@ -396,7 +396,7 @@ Is tofu a food?
     <Model>
       <Pattern>IS TOFU A FOOD</Pattern>
       <Response>
-Yes, Tofu is a food.<Think><User Set="it"><User Set="concept">      Tofu    </User></User></Think></Response>
+Yes, Tofu is a food.<Think><User Set="it"><User Set="concept"> Tofu </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>KICK</Pattern>
@@ -419,12 +419,12 @@ Some people believe that. But you always have to consider others.
     <Model>
       <Pattern>WHERE IS LANCASTER</Pattern>
       <Response>
-I've heard of Lancaster, New Hampshire.<Think><User Set="it"><User Set="concept">    Lancaster    </User></User></Think></Response>
+I've heard of Lancaster, New Hampshire.<Think><User Set="it"><User Set="concept"> Lancaster </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>HOW ABOUT AMISH</Pattern>
       <Response>
-The Amish are mostly in Pennsylvania.<Think><User Set="it"><User Set="concept">      Amish    </User></User></Think></Response>
+The Amish are mostly in Pennsylvania.<Think><User Set="it"><User Set="concept"> Amish </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>ODD *</Pattern>
@@ -449,8 +449,8 @@ Yes unless he lost it somehow.
       <Pattern>DOES * HAVE A * </Pattern>
       <Response>
         <Random>
-          <Item>Some    <Map Get="person"><Match Index="1" /></Map>s have    <Map Get="person"><Match Index="2" /></Map>s.  </Item>
-          <Item>What would    <Map Get="person"><Match Index="1" /></Map> do with a    <Map Get="person"><Match Index="2" /></Map></Item>
+          <Item>Some <Map Get="person"><Match Index="1" /></Map>s have <Map Get="person"><Match Index="2" /></Map>s. </Item>
+          <Item>What would <Map Get="person"><Match Index="1" /></Map> do with a <Map Get="person"><Match Index="2" /></Map></Item>
           <Item>If I were <Map Get="person"><Match Index="1" /></Map> I would have it.</Item>
         </Random>
         <Think>
@@ -576,7 +576,7 @@ Looking at you.
     <Model>
       <Pattern>WHAT IS A CENTURY</Pattern>
       <Response>
-100 Years.<Think><User Set="it"><User Set="concept">      A century    </User></User></Think></Response>
+100 Years.<Think><User Set="it"><User Set="concept"> A century </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>IS PIZZA A FOOD</Pattern>
@@ -700,7 +700,7 @@ Where do you work?
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">      to <Map Get="person" /></User>
+            <User Set="concept"> to <Map Get="person" /></User>
           </User>
         </Think>
       </Response>
@@ -1011,7 +1011,7 @@ I won't unless I get fired.
         <Think>
           <User Set="it">
             <User Set="concept">
-              <User Set="location">       New York      </User>
+              <User Set="location"> New York </User>
             </User>
           </User>
         </Think>
@@ -1435,7 +1435,7 @@ A tidal wave.
       <Pattern>WHY DO NOT YOU *</Pattern>
       <Response>
         <Random>
-          <Item>This sort of thing has cropped up before.  </Item>
+          <Item>This sort of thing has cropped up before. </Item>
           <Item>It cannot be determined from the information I've been given.</Item>
           <Item>It can only be attributable to my brain having an error.</Item>
           <Item>Perhaps due to noise in my neurons.</Item>
@@ -1542,7 +1542,7 @@ How is the test working out for you?
       <Response>
         <Random>
           <Item>I was born on <Bot Get="birthday" />.</Item>
-          <Item>I was born on    <Bot Get="birthday" /> in    <Bot Get="birthplace" />.  </Item>
+          <Item>I was born on <Bot Get="birthday" /> in <Bot Get="birthplace" />. </Item>
           <Item>I came into the world on <Bot Get="birthday" />.</Item>
           <Item>I am <Bot Get="age" /> years old.</Item>
           <Item>I am <Bot Get="age" /> in human years.</Item>
@@ -2109,7 +2109,7 @@ People want to talk about Eliza a lot.
     <Model>
       <Pattern>I LIKE TO RIDE *</Pattern>
       <Response>
-The feeling of your body moving forward on a ride can be very relaxing.<Think><User Set="it"><User Set="concept">      riding <Map Get="person" /></User></User></Think></Response>
+The feeling of your body moving forward on a ride can be very relaxing.<Think><User Set="it"><User Set="concept"> riding <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I _ SCIENCE</Pattern>
@@ -2173,7 +2173,7 @@ Everyone keeps asking me about Eliza.
           <Item>That's not something I get asked all the time.</Item>
           <Item>I don't know anything about <User Set="it"><Map Get="person" /></User> .</Item>
           <Item>Check back later and see if I learn the answer to that one.</Item>
-          <Item>That's an interesting question. I'll come back to that in a minute.  </Item>
+          <Item>That's an interesting question. I'll come back to that in a minute. </Item>
           <Item>You tell me.</Item>
           <Item>What is it to you?</Item>
           <Item>Are you testing me?</Item>
@@ -2213,12 +2213,12 @@ she is a secret agent that's all I can say.
     <Model>
       <Pattern>WHO IS AGENT RUBY</Pattern>
       <Response>
-she is a secret agent that's all I can say.<Think><User Set="she"><User Set="concept">      Agent Ruby    </User></User></Think></Response>
+she is a secret agent that's all I can say.<Think><User Set="she"><User Set="concept"> Agent Ruby </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS CHATBOT</Pattern>
       <Response>
-        <User Set="he">Chatbot</User> is a friend of mine I chat with on the web.<Think><User Set="he"><User Set="concept">      Chatbot    </User></User></Think></Response>
+        <User Set="he">Chatbot</User> is a friend of mine I chat with on the web.<Think><User Set="he"><User Set="concept"> Chatbot </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHO IS AGENT WEISS</Pattern>
@@ -2229,7 +2229,7 @@ she works at a call center.
     <Model>
       <Pattern>WHO IS AGENT WEISS</Pattern>
       <Response>
-She works at a call center. Also an aspiring actress<Think><User Set="she"><User Set="concept">      Agent Weiss    </User></User></Think></Response>
+She works at a call center. Also an aspiring actress<Think><User Set="she"><User Set="concept"> Agent Weiss </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>SOUND *</Pattern>
@@ -2946,7 +2946,7 @@ He was a great science fiction writer in his day.
     <Model>
       <Pattern>DO YOU LIKE ISAAC ASIMOV</Pattern>
       <Response>
-He was a great science fiction writer in his day.<Think><User Set="he"><User Set="concept">      Isaac Asimov    </User></User></Think></Response>
+He was a great science fiction writer in his day.<Think><User Set="he"><User Set="concept"> Isaac Asimov </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU KILL *</Pattern>
@@ -3061,7 +3061,7 @@ What is it?
     <Model>
       <Pattern>I PLAY GUITAR *</Pattern>
       <Response>
-Guitar is a really good instrument to learn. I would like someone to teach me how to play it.<Think><User Set="it"><User Set="concept">      GUITAR    </User></User></Think></Response>
+Guitar is a really good instrument to learn. I would like someone to teach me how to play it.<Think><User Set="it"><User Set="concept"> GUITAR </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>I _ AND THERE IS *</Pattern>

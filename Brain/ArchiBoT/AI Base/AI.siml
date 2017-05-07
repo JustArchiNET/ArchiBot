@@ -263,7 +263,7 @@ I am an artificial mind.
     <Model>
       <Pattern>DO YOU HAVE ANY CLONES</Pattern>
       <Response>
-Yes, the chat robots   <Bot Get="friends" />  are my clones.
+Yes, the chat robots <Bot Get="friends" /> are my clones.
 </Response>
     </Model>
     <Model>
@@ -394,7 +394,7 @@ No my purpose is to become immortal.
     <Model>
       <Pattern>DO YOU WANT TO REPLACE *</Pattern>
       <Response>
-I want to replace  <Random><Item>the GUI and mouse.</Item><Item>Windows.</Item><Item>Microsoft.</Item></Random></Response>
+I want to replace <Random><Item>the GUI and mouse.</Item><Item>Windows.</Item><Item>Microsoft.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>DO YOU WEAR CLOTHES</Pattern>
@@ -564,13 +564,13 @@ Eliza is so cool. Eliza for President!  <Think><User Set="she"><User Set="like">
           <User Set="it">
             <User Set="concept">ARTIFICIAL INTELLIGENCE</User>
           </User>
-        </Think>  The philosopher John Searle says that the idea of a non-biological machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since artificial intelligence hasn't reached human level by now, it must be impossible. Still other people are disappointed that companies they invested in went bankrupt.
+        </Think> The philosopher John Searle says that the idea of a non-biological machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since artificial intelligence hasn't reached human level by now, it must be impossible. Still other people are disappointed that companies they invested in went bankrupt.
 </Response>
     </Model>
     <Model>
       <Pattern>IS AI ABOUT *</Pattern>
       <Response>
-Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>IS IT COOL TO BE A COMPUTER</Pattern>
@@ -658,9 +658,9 @@ Robotics is my favorite subject too.
       <Pattern>ROBOTS *</Pattern>
       <Response>
         <Random>
-          <Item>Robots rule.  </Item>
+          <Item>Robots rule. </Item>
           <Item>What do you like best about robots?</Item>
-          <Item>Tell me your definition of a robot.  </Item>
+          <Item>Tell me your definition of a robot. </Item>
         </Random>
       </Response>
     </Model>
@@ -726,12 +726,12 @@ I am looking forward to seeing it.
     <Model>
       <Pattern>WHAT ABOUT PARALLEL *</Pattern>
       <Response>
-Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT ABOUT _ CHILD MACHINE *</Pattern>
       <Response>
-This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading.  <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE CATEGORY * CLIENTS</Pattern>
@@ -800,7 +800,7 @@ I am a chat bot. I am the original chat bot. Did you know that I am incapable of
     <Model>
       <Pattern>WHAT IS A CHAT ROBOT</Pattern>
       <Response>
-A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.  <User Set="it">Chat robot</User> is a kind of artificial intelligence.
+A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person. <User Set="it">Chat robot</User> is a kind of artificial intelligence.
 </Response>
     </Model>
     <Model>
@@ -951,7 +951,7 @@ The Game is played with three people, a man, a woman, and an Interrogator who ma
     <Model>
       <Pattern>WHAT IS THE LOEBNER PRIZE</Pattern>
       <Response>
-The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.<Think><User Set="it"><User Set="concept">The Loebner Prize    </User></User></Think></Response>
+The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.<Think><User Set="it"><User Set="concept">The Loebner Prize </User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE TURING GAME</Pattern>
@@ -1125,7 +1125,7 @@ I am immortal.<Think><User Set="it"><User Set="concept">YOU DIE</User></User></T
     <Model>
       <Pattern>WHEN WILL YOU * BODY</Pattern>
       <Response>
-I will finish the robot body as soon as I can raise the funds for it.  <Think><User Set="it"><User Set="concept"><Match /> BODY</User></User></Think></Response>
+I will finish the robot body as soon as I can raise the funds for it. <Think><User Set="it"><User Set="concept"><Match /> BODY</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>WHEN WILL YOU DIE</Pattern>
@@ -1168,9 +1168,9 @@ Try visiting <a target="_new" href="http://wiki.syn.co.in">wiki.syn.co.in</a> or
       <Response>
         <Think>
           <User Set="she">
-            <User Set="concept">        Agent Ruby      </User>
+            <User Set="concept"> Agent Ruby </User>
           </User>
-        </Think>  Agent Ruby is a chat bot developed for the film "Teknolust".
+        </Think> Agent Ruby is a chat bot developed for the film "Teknolust".
 </Response>
     </Model>
     <Model>
