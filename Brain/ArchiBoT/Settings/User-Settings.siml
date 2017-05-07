@@ -12,17 +12,17 @@
     <!-- Note, this is internal variable that is not declared as user variable here, but can be used freely in SIML files -->
     <!-- <Variable Name="ID" Value="unknown" /> -->
 
-    <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to UserID (if it's private message on given platform). -->
+    <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to ID (if it's private message on given platform). -->
     <Variable Name="SourceID" Value="unknown" />
 
-    <!-- Initialized to user's real name (if available) or nickname (if available), or UserID (otherwise) being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
-    <Variable Name="Name" Value="User" />
-
-    <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what UserID is for. -->
+    <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what ID is for. -->
     <Variable Name="Nickname" Value="unknown" />
 
     <!-- Initialized to user's real name (if available) being used on given platform. -->
     <Variable Name="FullName" Value="unknown" />
+
+    <!-- Initialized to user's FullName variable (if available) or Nickname variable (otherwise, if available) being used on given platform. Should NOT be used for user authentication, that's what ID is for. -->
+    <Variable Name="Name" Value="User" />
 
     <!-- Initialized to user's location (if available) being used on given platform. -->
     <Variable Name="Location" Value="unknown" />
