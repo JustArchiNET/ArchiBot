@@ -11,7 +11,7 @@
 			<Model>
 				<Pattern>DEBUG1</Pattern>
 				<Response>
-				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"=="<User Get="SourceID"/>";</Js></User></Think>
+				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
 					<Switch User="isBotPrivateChat">
 						<Case Value="True">You're in private chat... It worked :speak:</Case>
 						<Case Value="False">You're in a group chat... But it worked :speak:</Case>
