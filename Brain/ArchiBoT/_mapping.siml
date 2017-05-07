@@ -14,14 +14,13 @@
 -->
 
 	<!-- TODO: Remove me once User="" in <Concept> starts working -->
-	<!-- Also remind Archi to stop setting User[UserID] + remove it from User-Settings.siml, unless we use it for something else besides this -->
 	<Concept Name="_mapping_user">
 		<Model>
 			<Pattern>
 				<Item>WHO AM I</Item>
 			</Pattern>
 			<Response>
-				<Switch User="UserID">
+				<Switch User="ID">
 					<Case Value="steam-76561198006963719">
 						<Goto>WHO IS ARCHI</Goto>
 					</Case>
