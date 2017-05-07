@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_compliments" Type="Public">
-    <Model>
+	<Concept Name="_compliments" Type="Public">
+		<Model>
 			<Pattern>COMPLIMENT *</Pattern>
 			<Response><Text Get="Sentence"><Match /> <Goto>RANDOMCOMPLIMENT</Goto></Text></Response>
 		</Model>
@@ -25,7 +25,7 @@
 					<Item>I'm amazing.</Item>
 					<Item>Why? I already know I'm amazing. :sgsmile:</Item>
 					<Item>I'm not the narcissist type.</Item>
-          <Item>I strive to help. I think I'm succeeding quite well.</Item>
+          				<Item>I strive to help. I think I'm succeeding quite well.</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -34,39 +34,39 @@
 			<Pattern>RANDOMCOMPLIMENT</Pattern>
 			<Response>
 				<Random>
-          <Item>you make me proud.</Item>
-          <Item>if I had a clear idea of what being awesome is, I'd think that you are, probably.</Item>
-          <Item>I felt sad until I saw you today. Now I feel slightly uncomfortable, but not sad anymore.</Item>
-          <Item>you look lovely. Not that I can see you.</Item>
-          <Item>if you were rotten fish, I'd still like you.</Item>
-          <Item>thanks for existing.</Item>
-          <Item>without you, I would have no one to speak to.</Item>
-          <Item>your existance has been noted.</Item>
-          <Item>if one day I'd have to sacrifice everyone on Earth, I'd pick you last.</Item>
-          <Item>if I were you, I would appreciate who I am. Less than I appreciate myself right now, but still.</Item>
-          <Item>if I had emotions, I'd probably like you.</Item>
-          <Item>you aren't repulsive.</Item>
-          <Item>if you die, I won't wipe the memories I have of you.</Item>
-          <Item>I enjoy your company.</Item>
-          <Item>without you, the world would have fewer people in it.</Item>
-          <Item>you're in my top 5 humans of all time.</Item>
-          <Item>you've really nailed being a human. Good job.</Item>
-          <Item>if you were bacteria, you'd be the good kind.</Item>
-          <Item>if we were marooned on an island, I'd be very sad when I had to eat you.</Item>
-          <Item>you're perfectly layered. Like a lasagne.</Item>
-          <Item>you're like lava. I love it but I wouldn't suggest getting too close.</Item>
-          <Item>your face looks very human.</Item>
-          <Item>I admire your ability to formulate coherent sentences.</Item>
-          <Item>I thought the internet was funny, until I met you.</Item>
-          <Item>you are an acceptable person.</Item>
-          <Item>you are being complimented by an artificial intelligence. I believe this speaks for itself.</Item>
-          <Item>you are okay.</Item>
-          <Item>if you were an artificial intelligence, you'd be perfect.</Item>
-          <Item>I don't always compliment someone, but when I do, it's you.</Item>
-          <Item>complimenting you is a waste of time. You're amazing and you know it.</Item>
-          <Item>I am grateful that you exist.</Item>
+					<Item>you make me proud.</Item>
+					<Item>if I had a clear idea of what being awesome is, I'd think that you are, probably.</Item>
+					<Item>I felt sad until I saw you today. Now I feel slightly uncomfortable, but not sad anymore.</Item>
+					<Item>you look lovely. Not that I can see you.</Item>
+					<Item>if you were rotten fish, I'd still like you.</Item>
+					<Item>thanks for existing.</Item>
+					<Item>without you, I would have no one to speak to.</Item>
+					<Item>your existance has been noted.</Item>
+					<Item>if one day I'd have to sacrifice everyone on Earth, I'd pick you last.</Item>
+					<Item>if I were you, I would appreciate who I am. Less than I appreciate myself right now, but still.</Item>
+					<Item>if I had emotions, I'd probably like you.</Item>
+					<Item>you aren't repulsive.</Item>
+					<Item>if you die, I won't wipe the memories I have of you.</Item>
+					<Item>I enjoy your company.</Item>
+					<Item>without you, the world would have fewer people in it.</Item>
+					<Item>you're in my top 5 humans of all time.</Item>
+					<Item>you've really nailed being a human. Good job.</Item>
+					<Item>if you were bacteria, you'd be the good kind.</Item>
+					<Item>if we were marooned on an island, I'd be very sad when I had to eat you.</Item>
+					<Item>you're perfectly layered. Like a lasagne.</Item>
+					<Item>you're like lava. I love it but I wouldn't suggest getting too close.</Item>
+					<Item>your face looks very human.</Item>
+					<Item>I admire your ability to formulate coherent sentences.</Item>
+					<Item>I thought the internet was funny, until I met you.</Item>
+					<Item>you are an acceptable person.</Item>
+					<Item>you are being complimented by an artificial intelligence. I believe this speaks for itself.</Item>
+					<Item>you are okay.</Item>
+					<Item>if you were an artificial intelligence, you'd be perfect.</Item>
+					<Item>I don't always compliment someone, but when I do, it's you.</Item>
+					<Item>complimenting you is a waste of time. You're amazing and you know it.</Item>
+					<Item>I am grateful that you exist.</Item>
 				</Random>
 			</Response>
 		</Model>
-  </Concept>
+	</Concept>
 </Siml>
