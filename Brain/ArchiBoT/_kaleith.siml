@@ -19,14 +19,21 @@
 			</Pattern>
 			<Response><Js>randomIntBetween("<Match />","<Match Index="2" />");</Js></Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>
 				<Item>LASAGNA</Item>
 			</Pattern>
 			<Response>Archi's lasagna will be ready in <Js>secondsToString(1632701400 - Math.floor(Date.now()/1000))</Js></Response>
 		</Model>
-		
+
+		<Model>
+			<Pattern>
+				<Item>LENNY</Item>
+			</Pattern>
+			<Response>( ͡° ͜ʖ ͡°)</Response>
+		</Model>
+
 		<Model>
 			<Pattern>9BALL %</Pattern>
 			<Response>❾: <Goto>MAGICBALL %</Goto>

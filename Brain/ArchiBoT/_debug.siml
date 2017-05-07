@@ -3,8 +3,9 @@
 	<Concept Name="_debug" Type="Public">
 		<Model>
 			<Pattern>IDDEBUG GET</Pattern>
-			<Response><User Get="ID"/></Response>
+			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
+
 		<Model>
 			<Pattern>IDDEBUG SET *</Pattern>
 			<Response><User Set="ID"><Match/></User> was set as your user's ID</Response>
