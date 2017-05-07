@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_debug" Type="Public">
+		<Model>
+			<Pattern>IDDEBUG GET</Pattern>
+			<Response><User Get="ID"/></Response>
+		</Model>
+
+		<Model>
+			<Pattern>IDDEBUG SET *</Pattern>
+			<Response><User Set="ID"><Match /></User> was set as your user's ID</Response>
+		</Model>
+	</Concept>
+</Siml>
