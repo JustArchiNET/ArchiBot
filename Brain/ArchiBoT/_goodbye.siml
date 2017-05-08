@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_goodbye" Type="Public">
+    <Model>
+      <Pattern>GOODBYE *</Pattern>
+      <Pattern>BYE *</Pattern>
+      <Response><Goto>RANDOMGOODBYE</Goto>, <Match />.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>GOODBYE BOT</Item>
+        <Item>GOODBYE ARCHIBOT</Item>
+        <Item>BYE BOT</Item>
+        <Item>BYE ARCHIBOT</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>I'm not going anywhere.</Item>
+          <Item>No, you leave. :sgsmile:</Item>
+          <Item>I'm only leaving if my master desires so.</Item>
+          <Item>Am I going anywhere?</Item>
+          <Item>I'm not supposed to leave.</Item>
+        </Random>
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>RANDOMGOODBYE</Pattern>
+      <Response>
+        <Random>
+          <Item>Goodbye</Item>
+          <Item>Farewell</Item>
+          <Item>Take care<Item>
+          <item>Bye</Item>
+          <item>So long</Item>
+          <item>Sayonara</Item>
+          <item>Au revoir</Item>
+          <item>Godspeed</Item>
+          <Item>Adios</Item>
+        </Random>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>
