@@ -31,12 +31,12 @@
         <Random>
           <Item>Goodbye</Item>
           <Item>Farewell</Item>
-          <Item>Take care<Item>
-          <item>Bye</Item>
-          <item>So long</Item>
-          <item>Sayonara</Item>
-          <item>Au revoir</Item>
-          <item>Godspeed</Item>
+          <Item>Take care</Item>
+          <Item>Bye</Item>
+          <Item>So long</Item>
+          <Item>Sayonara</Item>
+          <Item>Au revoir</Item>
+          <Item>Godspeed</Item>
           <Item>Adios</Item>
         </Random>
       </Response>
