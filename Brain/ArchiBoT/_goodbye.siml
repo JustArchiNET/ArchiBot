@@ -2,17 +2,14 @@
 <Siml>
   <Concept Name="_goodbye" Type="Public">
     <Model>
-      <Pattern>GOODBYE *</Pattern>
-      <Pattern>BYE *</Pattern>
+      <Pattern>GB *</Pattern>
       <Response><Goto>RANDOMGOODBYE</Goto>, <Match />.</Response>
     </Model>
 
     <Model>
       <Pattern>
-        <Item>GOODBYE BOT</Item>
-        <Item>GOODBYE ARCHIBOT</Item>
-        <Item>BYE BOT</Item>
-        <Item>BYE ARCHIBOT</Item>
+        <Item>GB BOT</Item>
+        <Item>GB ARCHIBOT</Item>
       </Pattern>
       <Response>
         <Random>
@@ -31,13 +28,13 @@
         <Random>
           <Item>Goodbye</Item>
           <Item>Farewell</Item>
-          <Item>Take care</Item>
           <Item>Bye</Item>
           <Item>So long</Item>
           <Item>Sayonara</Item>
           <Item>Au revoir</Item>
           <Item>Godspeed</Item>
           <Item>Adios</Item>
+          <Item>You will be missed</Item>
         </Random>
       </Response>
     </Model>
