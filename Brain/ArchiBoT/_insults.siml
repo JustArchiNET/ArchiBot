@@ -129,14 +129,14 @@
 					<Item>I'd call you an asshole but they serve a purpose.</Item>
 					<Item>your mother was a hamster and your father smelt of elderberries.</Item>
 					<Item>I don't care what everybody else says, I think you're a pretty cool person.</Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
-					<Item><Text Get="Sentence"><Goto>YOMAMA</Goto></Text></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
+					<Item><Goto>YOMAMA</Goto></Item>
 				</Random>
 			</Response>
 		</Model>
