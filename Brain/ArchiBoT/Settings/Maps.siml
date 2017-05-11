@@ -49517,8 +49517,6 @@
     <MapItem Content="ǝ" Value="e" />
     <MapItem Content="ɔ" Value="c" />
     <MapItem Content="ɐ" Value="a" />
-    <MapItem Content="\" Value="/" />
-    <MapItem Content="/" Value="\" />
     <MapItem Content="|" Value="|" />
     <MapItem Content="#" Value="#" />
     <MapItem Content="¤" Value="¤" />

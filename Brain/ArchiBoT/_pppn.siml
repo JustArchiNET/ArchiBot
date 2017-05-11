@@ -3,7 +3,7 @@
 	<Concept Name="_pppn" Type="Public">
 		<Model>
 			<Pattern>FLIP *</Pattern>
-			<Response>(╯°□°）╯︵ <Text Get="Implode"><Map Get="letters2flipped"><Text Get="Explode"><Text Get="Reverse"><Text Get="Lowercase"><Match /></Text></Text></Text></Map></Text></Response>
+			<Response>(╯°□°）╯︵ <Text Get="Implode"><Text Get="Reverse"><Map Get="letters2flipped"><Text Get="Explode"><Match /></Text></Map></Text></Text></Response>
 		</Model>
 
 		<Model>
