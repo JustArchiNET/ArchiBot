@@ -468,5 +468,13 @@
 				</Goto>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>DEFINE %</Pattern>
+			<Response>
+				<Goto>NOTAICOMMAND DEFINE <Match />
+				</Goto>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>
