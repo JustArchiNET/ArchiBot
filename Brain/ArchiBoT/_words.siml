@@ -994,7 +994,6 @@
 			<Pattern>RANDOMADJECTIVE</Pattern>
 			<Response>
 				<Random>
-					<Item>Early</Item>
 					<Item>aback</Item>
 					<Item>abaft</Item>
 					<Item>abandoned</Item>
@@ -1004,48 +1003,76 @@
 					<Item>abiding</Item>
 					<Item>abject</Item>
 					<Item>ablaze</Item>
+					<Item>able</Item>
 					<Item>abnormal</Item>
 					<Item>aboard</Item>
 					<Item>aboriginal</Item>
 					<Item>abortive</Item>
 					<Item>abounding</Item>
+					<Item>above</Item>
 					<Item>abrasive</Item>
 					<Item>abrupt</Item>
 					<Item>absent</Item>
+					<Item>absolute</Item>
 					<Item>absorbed</Item>
 					<Item>absorbing</Item>
-					<Item>abstracted</Item>
+					<Item>abstract</Item>
 					<Item>absurd</Item>
 					<Item>abundant</Item>
 					<Item>abusive</Item>
+					<Item>academic</Item>
 					<Item>acceptable</Item>
+					<Item>accepted</Item>
 					<Item>accessible</Item>
 					<Item>accidental</Item>
 					<Item>accurate</Item>
+					<Item>accused</Item>
 					<Item>acoustic</Item>
 					<Item>acrid</Item>
+					<Item>active</Item>
+					<Item>actual</Item>
+					<Item>acute</Item>
 					<Item>ad hoc</Item>
 					<Item>adamant</Item>
 					<Item>adaptable</Item>
+					<Item>added</Item>
 					<Item>addicted</Item>
+					<Item>additional</Item>
+					<Item>adequate</Item>
 					<Item>adhesive</Item>
+					<Item>adjacent</Item>
 					<Item>adjoining</Item>
+					<Item>administrative</Item>
 					<Item>adorable</Item>
+					<Item>advanced</Item>
 					<Item>adventurous</Item>
+					<Item>adverse</Item>
+					<Item>advisory</Item>
+					<Item>aesthetic</Item>
 					<Item>afraid</Item>
+					<Item>african</Item>
+					<Item>aggregate</Item>
 					<Item>aggressive</Item>
 					<Item>agonizing</Item>
 					<Item>agreeable</Item>
+					<Item>agricultural</Item>
 					<Item>ahead</Item>
 					<Item>alcoholic</Item>
 					<Item>alert</Item>
 					<Item>alike</Item>
 					<Item>alive</Item>
 					<Item>alleged</Item>
+					<Item>allied</Item>
 					<Item>alluring</Item>
+					<Item>alone</Item>
 					<Item>aloof</Item>
+					<Item>alright</Item>
+					<Item>alternative</Item>
+					<Item>amateur</Item>
+					<Item>amazing</Item>
 					<Item>ambiguous</Item>
 					<Item>ambitious</Item>
+					<Item>american</Item>
 					<Item>amuck</Item>
 					<Item>amused</Item>
 					<Item>ancient</Item>
@@ -1053,44 +1080,78 @@
 					<Item>animated</Item>
 					<Item>annoyed</Item>
 					<Item>annoying</Item>
+					<Item>annual</Item>
+					<Item>anonymous</Item>
 					<Item>anxious</Item>
 					<Item>apathetic</Item>
+					<Item>appalling</Item>
+					<Item>apparent</Item>
+					<Item>applicable</Item>
+					<Item>appropriate</Item>
 					<Item>aquatic</Item>
+					<Item>arab</Item>
+					<Item>arbitrary</Item>
+					<Item>architectural</Item>
+					<Item>armed</Item>
 					<Item>aromatic</Item>
 					<Item>arrogant</Item>
+					<Item>artificial</Item>
+					<Item>artistic</Item>
 					<Item>ashamed</Item>
+					<Item>asian</Item>
+					<Item>asleep</Item>
 					<Item>aspiring</Item>
+					<Item>assistant</Item>
+					<Item>associated</Item>
 					<Item>assorted</Item>
 					<Item>astonishing</Item>
+					<Item>atomic</Item>
 					<Item>attractive</Item>
 					<Item>auspicious</Item>
+					<Item>australian</Item>
+					<Item>automatic</Item>
+					<Item>autonomous</Item>
 					<Item>available</Item>
 					<Item>average</Item>
+					<Item>awake</Item>
 					<Item>aware</Item>
 					<Item>awful</Item>
+					<Item>awkward</Item>
 					<Item>axiomatic</Item>
+					<Item>back</Item>
 					<Item>bad</Item>
+					<Item>balanced</Item>
 					<Item>barbarous</Item>
+					<Item>bare</Item>
 					<Item>bashful</Item>
+					<Item>basic</Item>
 					<Item>bawdy</Item>
 					<Item>beautiful</Item>
 					<Item>belligerent</Item>
+					<Item>beneficial</Item>
 					<Item>berserk</Item>
 					<Item>better</Item>
 					<Item>bewildered</Item>
 					<Item>big</Item>
 					<Item>billowy</Item>
+					<Item>binding</Item>
+					<Item>biological</Item>
 					<Item>bitter</Item>
 					<Item>bizarre</Item>
 					<Item>black</Item>
+					<Item>blank</Item>
+					<Item>blind</Item>
+					<Item>blonde</Item>
 					<Item>bloody</Item>
 					<Item>blue-eyed </Item>
 					<Item>blue</Item>
 					<Item>blushing</Item>
 					<Item>boiling</Item>
+					<Item>bold</Item>
 					<Item>boorish</Item>
 					<Item>bored</Item>
 					<Item>boring</Item>
+					<Item>bottom</Item>
 					<Item>boundless</Item>
 					<Item>brainy</Item>
 					<Item>brash</Item>
@@ -1100,61 +1161,146 @@
 					<Item>breezy</Item>
 					<Item>brief</Item>
 					<Item>bright</Item>
+					<Item>brilliant</Item>
+					<Item>british</Item>
 					<Item>broad</Item>
 					<Item>broken</Item>
+					<Item>brown</Item>
 					<Item>bumpy</Item>
 					<Item>burly</Item>
+					<Item>burning</Item>
 					<Item>busy</Item>
 					<Item>cagey</Item>
 					<Item>callous</Item>
 					<Item>calm</Item>
+					<Item>canadian</Item>
 					<Item>capable</Item>
+					<Item>capitalist</Item>
 					<Item>capricious</Item>
 					<Item>careful</Item>
+					<Item>casual</Item>
+					<Item>catholic</Item>
+					<Item>causal</Item>
 					<Item>cautious</Item>
 					<Item>ceaseless</Item>
+					<Item>central</Item>
+					<Item>certain</Item>
 					<Item>changeable</Item>
+					<Item>changing</Item>
+					<Item>characteristic</Item>
 					<Item>charming</Item>
+					<Item>cheap</Item>
 					<Item>cheerful</Item>
+					<Item>chemical</Item>
+					<Item>chief</Item>
 					<Item>childlike</Item>
 					<Item>chilly</Item>
+					<Item>chinese</Item>
 					<Item>chivalrous</Item>
+					<Item>chosen</Item>
+					<Item>christian</Item>
+					<Item>chronic</Item>
 					<Item>chubby</Item>
 					<Item>chunky</Item>
+					<Item>circular</Item>
+					<Item>civic</Item>
+					<Item>civil</Item>
+					<Item>civilian</Item>
 					<Item>clammy</Item>
+					<Item>classic</Item>
+					<Item>classical</Item>
 					<Item>classy</Item>
 					<Item>clean</Item>
 					<Item>clear</Item>
 					<Item>clever</Item>
+					<Item>clinical</Item>
 					<Item>cloistered</Item>
+					<Item>close</Item>
+					<Item>closed</Item>
 					<Item>cloudy</Item>
 					<Item>clumsy</Item>
+					<Item>coastal</Item>
+					<Item>cognitive</Item>
 					<Item>coherent</Item>
 					<Item>cold</Item>
+					<Item>collective</Item>
+					<Item>colonial</Item>
 					<Item>colorful</Item>
 					<Item>colossal</Item>
+					<Item>coloured</Item>
+					<Item>colourful</Item>
 					<Item>combative</Item>
+					<Item>combined</Item>
 					<Item>comfortable</Item>
+					<Item>coming</Item>
+					<Item>commercial</Item>
+					<Item>common</Item>
+					<Item>communist</Item>
+					<Item>compact</Item>
+					<Item>comparable</Item>
+					<Item>comparative</Item>
+					<Item>compatible</Item>
+					<Item>competent</Item>
+					<Item>competitive</Item>
+					<Item>complete</Item>
+					<Item>complex</Item>
+					<Item>complicated</Item>
+					<Item>comprehensive</Item>
+					<Item>compulsory</Item>
+					<Item>conceptual</Item>
 					<Item>concerned</Item>
+					<Item>concrete</Item>
 					<Item>condemned</Item>
+					<Item>confident</Item>
+					<Item>confidential</Item>
 					<Item>confused</Item>
+					<Item>conscious</Item>
+					<Item>conservation</Item>
+					<Item>conservative</Item>
+					<Item>considerable</Item>
+					<Item>consistent</Item>
+					<Item>constant</Item>
+					<Item>constitutional</Item>
+					<Item>contemporary</Item>
+					<Item>content</Item>
+					<Item>continental</Item>
+					<Item>continued</Item>
+					<Item>continuing</Item>
+					<Item>continuous</Item>
+					<Item>controlled</Item>
+					<Item>controversial</Item>
+					<Item>convenient</Item>
+					<Item>conventional</Item>
+					<Item>convinced</Item>
+					<Item>convincing</Item>
 					<Item>cooing</Item>
 					<Item>cool</Item>
 					<Item>cooperative</Item>
+					<Item>corporate</Item>
+					<Item>correct</Item>
+					<Item>corresponding</Item>
+					<Item>costly</Item>
 					<Item>courageous</Item>
 					<Item>cowardly</Item>
 					<Item>crabby</Item>
 					<Item>craven</Item>
 					<Item>crazy</Item>
+					<Item>creative</Item>
 					<Item>credible</Item>
 					<Item>creepy</Item>
+					<Item>criminal</Item>
+					<Item>critical</Item>
 					<Item>crooked</Item>
 					<Item>crowded</Item>
+					<Item>crucial</Item>
+					<Item>crude</Item>
 					<Item>cruel</Item>
 					<Item>cuddly</Item>
+					<Item>cultural</Item>
 					<Item>cultured</Item>
 					<Item>curious</Item>
 					<Item>curly</Item>
+					<Item>current</Item>
 					<Item>curved</Item>
 					<Item>cute</Item>
 					<Item>cynical</Item>
@@ -1170,87 +1316,173 @@
 					<Item>dazzling</Item>
 					<Item>dead</Item>
 					<Item>deadpan</Item>
+					<Item>deaf</Item>
 					<Item>deafening</Item>
+					<Item>dear</Item>
 					<Item>debonair</Item>
+					<Item>decent</Item>
 					<Item>decisive</Item>
 					<Item>decorous</Item>
 					<Item>deep</Item>
 					<Item>deeply</Item>
 					<Item>defeated</Item>
 					<Item>defective</Item>
+					<Item>defensive</Item>
 					<Item>defiant</Item>
+					<Item>definite</Item>
+					<Item>deliberate</Item>
+					<Item>delicate</Item>
 					<Item>delicious</Item>
+					<Item>delighted</Item>
 					<Item>delightful</Item>
+					<Item>democratic</Item>
 					<Item>demonic</Item>
+					<Item>dependent</Item>
 					<Item>depressed</Item>
 					<Item>deranged</Item>
 					<Item>deserted</Item>
+					<Item>desirable</Item>
+					<Item>desperate</Item>
 					<Item>detailed</Item>
 					<Item>determined</Item>
+					<Item>developed</Item>
+					<Item>developing</Item>
 					<Item>devilish</Item>
+					<Item>devoted</Item>
 					<Item>didactic</Item>
 					<Item>different</Item>
 					<Item>difficult</Item>
+					<Item>digital</Item>
 					<Item>diligent</Item>
+					<Item>diplomatic</Item>
+					<Item>direct</Item>
 					<Item>direful</Item>
 					<Item>dirty</Item>
+					<Item>disabled</Item>
 					<Item>disagreeable</Item>
+					<Item>disappointed</Item>
+					<Item>disastrous</Item>
+					<Item>disciplinary</Item>
 					<Item>discreet</Item>
 					<Item>disgusted</Item>
 					<Item>disillusioned</Item>
 					<Item>dispensable</Item>
+					<Item>distant</Item>
 					<Item>distinct</Item>
+					<Item>distinctive</Item>
+					<Item>distinguished</Item>
 					<Item>disturbed</Item>
+					<Item>disturbing</Item>
 					<Item>divergent</Item>
+					<Item>diverse</Item>
+					<Item>divine</Item>
 					<Item>dizzy</Item>
+					<Item>domestic</Item>
+					<Item>dominant</Item>
 					<Item>domineering</Item>
+					<Item>double</Item>
 					<Item>doubtful</Item>
 					<Item>drab</Item>
 					<Item>draconian</Item>
 					<Item>dramatic</Item>
+					<Item>dreadful</Item>
+					<Item>driving</Item>
 					<Item>drunk</Item>
 					<Item>dry</Item>
+					<Item>dual</Item>
+					<Item>due</Item>
 					<Item>dull</Item>
 					<Item>dusty</Item>
+					<Item>dutch</Item>
+					<Item>dying</Item>
 					<Item>dynamic</Item>
 					<Item>dysfunctional</Item>
 					<Item>eager</Item>
 					<Item>early</Item>
+					<Item>Early</Item>
 					<Item>earsplitting</Item>
 					<Item>earthy</Item>
+					<Item>eastern</Item>
 					<Item>easy</Item>
 					<Item>eatable</Item>
 					<Item>economic</Item>
 					<Item>educated</Item>
+					<Item>educational</Item>
+					<Item>eerie</Item>
+					<Item>effective</Item>
 					<Item>efficacious</Item>
 					<Item>efficient</Item>
+					<Item>elaborate</Item>
 					<Item>elated</Item>
 					<Item>elderly</Item>
+					<Item>eldest</Item>
+					<Item>electoral</Item>
+					<Item>electric</Item>
+					<Item>electrical</Item>
+					<Item>electronic</Item>
 					<Item>elegant</Item>
 					<Item>elfin</Item>
+					<Item>eligible</Item>
 					<Item>elite</Item>
 					<Item>embarrassed</Item>
+					<Item>embarrassing</Item>
 					<Item>eminent</Item>
+					<Item>emotional</Item>
+					<Item>empirical</Item>
 					<Item>empty</Item>
 					<Item>enchanting</Item>
 					<Item>encouraging</Item>
+					<Item>endless</Item>
 					<Item>endurable</Item>
 					<Item>energetic</Item>
+					<Item>english</Item>
+					<Item>enormous</Item>
 					<Item>entertaining</Item>
 					<Item>enthusiastic</Item>
+					<Item>entire</Item>
+					<Item>entitled</Item>
 					<Item>envious</Item>
+					<Item>environmental</Item>
 					<Item>equable</Item>
+					<Item>equal</Item>
+					<Item>equivalent</Item>
 					<Item>erect</Item>
 					<Item>erratic</Item>
+					<Item>essential</Item>
+					<Item>established</Item>
+					<Item>estimated</Item>
 					<Item>ethereal</Item>
+					<Item>ethical</Item>
+					<Item>ethnic</Item>
+					<Item>european</Item>
 					<Item>evanescent</Item>
 					<Item>evasive</Item>
+					<Item>eventual</Item>
+					<Item>everyday</Item>
+					<Item>evident</Item>
 					<Item>evil</Item>
+					<Item>evolutionary</Item>
+					<Item>exact</Item>
 					<Item>excellent</Item>
+					<Item>exceptional</Item>
+					<Item>excess</Item>
+					<Item>excessive</Item>
 					<Item>excited</Item>
+					<Item>exciting</Item>
 					<Item>exclusive</Item>
+					<Item>existing</Item>
 					<Item>exotic</Item>
+					<Item>expected</Item>
 					<Item>expensive</Item>
+					<Item>experienced</Item>
+					<Item>experimental</Item>
+					<Item>explicit</Item>
+					<Item>extended</Item>
+					<Item>extensive</Item>
+					<Item>external</Item>
+					<Item>extra</Item>
+					<Item>extraordinary</Item>
+					<Item>extreme</Item>
 					<Item>exuberant</Item>
 					<Item>exultant</Item>
 					<Item>fabulous</Item>
@@ -1259,49 +1491,87 @@
 					<Item>fair</Item>
 					<Item>faithful</Item>
 					<Item>fallacious</Item>
+					<Item>familiar</Item>
 					<Item>famous</Item>
 					<Item>fanatical</Item>
 					<Item>fancy</Item>
 					<Item>fantastic</Item>
+					<Item>far</Item>
 					<Item>fascinated</Item>
+					<Item>fascinating</Item>
+					<Item>fashionable</Item>
 					<Item>fast</Item>
 					<Item>fat</Item>
+					<Item>fatal</Item>
 					<Item>faulty</Item>
+					<Item>favourable</Item>
+					<Item>favourite</Item>
 					<Item>fearless</Item>
+					<Item>federal</Item>
 					<Item>feigned</Item>
+					<Item>fellow</Item>
+					<Item>female</Item>
+					<Item>feminist</Item>
 					<Item>fertile</Item>
 					<Item>festive</Item>
 					<Item>few</Item>
 					<Item>fierce</Item>
 					<Item>filthy</Item>
+					<Item>final</Item>
+					<Item>financial</Item>
 					<Item>fine</Item>
 					<Item>finicky</Item>
+					<Item>firm</Item>
+					<Item>fiscal</Item>
+					<Item>fit</Item>
+					<Item>fixed</Item>
 					<Item>flagrant</Item>
 					<Item>flaky</Item>
 					<Item>flashy</Item>
 					<Item>flat</Item>
 					<Item>flawless</Item>
+					<Item>flexible</Item>
 					<Item>flippant</Item>
 					<Item>flipped-out</Item>
 					<Item>flowery</Item>
 					<Item>fluffy</Item>
 					<Item>fluttering</Item>
+					<Item>flying</Item>
 					<Item>foamy</Item>
+					<Item>following</Item>
+					<Item>fond</Item>
 					<Item>foolish</Item>
 					<Item>foregoing</Item>
+					<Item>foreign</Item>
 					<Item>forgetful</Item>
+					<Item>formal</Item>
+					<Item>formidable</Item>
+					<Item>forthcoming</Item>
 					<Item>fortunate</Item>
+					<Item>forward</Item>
 					<Item>fragile</Item>
 					<Item>frail</Item>
 					<Item>frantic</Item>
+					<Item>free</Item>
 					<Item>freezing</Item>
+					<Item>french</Item>
+					<Item>frequent</Item>
 					<Item>fresh</Item>
 					<Item>fretful</Item>
 					<Item>friendly</Item>
 					<Item>frightened</Item>
+					<Item>front</Item>
+					<Item>frozen</Item>
+					<Item>fucking</Item>
+					<Item>full-time</Item>
+					<Item>full</Item>
+					<Item>fun</Item>
 					<Item>functional</Item>
+					<Item>fundamental</Item>
 					<Item>funny</Item>
+					<Item>furious</Item>
 					<Item>furtive</Item>
+					<Item>future</Item>
 					<Item>futuristic</Item>
 					<Item>fuzzy</Item>
 					<Item>gabby</Item>
@@ -1309,36 +1579,59 @@
 					<Item>gamy</Item>
 					<Item>gaping</Item>
 					<Item>garrulous</Item>
+					<Item>gastric</Item>
 					<Item>gaudy</Item>
+					<Item>gay</Item>
+					<Item>general</Item>
+					<Item>generous</Item>
+					<Item>genetic</Item>
 					<Item>gentle</Item>
+					<Item>genuine</Item>
+					<Item>geographical</Item>
+					<Item>german</Item>
 					<Item>giant</Item>
 					<Item>giddy</Item>
 					<Item>gifted</Item>
 					<Item>gigantic</Item>
+					<Item>given</Item>
+					<Item>glad</Item>
 					<Item>glamorous</Item>
 					<Item>gleaming</Item>
 					<Item>glib</Item>
+					<Item>global</Item>
 					<Item>glorious</Item>
 					<Item>glossy</Item>
 					<Item>godly</Item>
+					<Item>golden</Item>
 					<Item>good</Item>
 					<Item>goofy</Item>
 					<Item>gorgeous</Item>
+					<Item>gothic</Item>
+					<Item>governing</Item>
 					<Item>graceful</Item>
+					<Item>gradual</Item>
+					<Item>grand</Item>
 					<Item>grandiose</Item>
+					<Item>grateful</Item>
 					<Item>greasy</Item>
 					<Item>great</Item>
 					<Item>greedy</Item>
+					<Item>greek</Item>
 					<Item>green</Item>
+					<Item>grey</Item>
 					<Item>grieving</Item>
+					<Item>grim</Item>
 					<Item>groovy</Item>
+					<Item>gross</Item>
 					<Item>grotesque</Item>
 					<Item>grouchy</Item>
+					<Item>growing</Item>
 					<Item>grubby</Item>
 					<Item>gruesome</Item>
 					<Item>grumpy</Item>
 					<Item>guarded</Item>
 					<Item>guiltless</Item>
+					<Item>guilty</Item>
 					<Item>gullible</Item>
 					<Item>gusty</Item>
 					<Item>guttural</Item>
@@ -1346,6 +1639,7 @@
 					<Item>half</Item>
 					<Item>hallowed</Item>
 					<Item>halting</Item>
+					<Item>handicapped</Item>
 					<Item>handsome</Item>
 					<Item>handsomely</Item>
 					<Item>hapless</Item>
@@ -1353,6 +1647,7 @@
 					<Item>hard</Item>
 					<Item>harmonious</Item>
 					<Item>harsh</Item>
+					<Item>head</Item>
 					<Item>heady</Item>
 					<Item>healthy</Item>
 					<Item>heartbreaking</Item>
@@ -1362,22 +1657,30 @@
 					<Item>helpful</Item>
 					<Item>helpless</Item>
 					<Item>hesitant</Item>
+					<Item>hidden</Item>
 					<Item>high-pitched</Item>
 					<Item>high</Item>
 					<Item>highfalutin</Item>
 					<Item>hilarious</Item>
 					<Item>hissing</Item>
+					<Item>historic</Item>
 					<Item>historical</Item>
 					<Item>holistic</Item>
 					<Item>hollow</Item>
+					<Item>holy</Item>
 					<Item>homeless</Item>
 					<Item>homely</Item>
+					<Item>hon</Item>
+					<Item>honest</Item>
 					<Item>honorable</Item>
+					<Item>horizontal</Item>
 					<Item>horrible</Item>
 					<Item>hospitable</Item>
+					<Item>hostile</Item>
 					<Item>hot</Item>
 					<Item>huge</Item>
 					<Item>hulking</Item>
+					<Item>human</Item>
 					<Item>humdrum</Item>
 					<Item>humorous</Item>
 					<Item>hungry</Item>
@@ -1389,84 +1692,177 @@
 					<Item>hysterical</Item>
 					<Item>icky</Item>
 					<Item>icy</Item>
+					<Item>ideal</Item>
+					<Item>identical</Item>
+					<Item>ideological</Item>
 					<Item>idiotic</Item>
 					<Item>ignorant</Item>
 					<Item>ill</Item>
 					<Item>illegal</Item>
 					<Item>illustrious</Item>
 					<Item>imaginary</Item>
+					<Item>imaginative</Item>
+					<Item>immediate</Item>
 					<Item>immense</Item>
 					<Item>imminent</Item>
 					<Item>impartial</Item>
 					<Item>imperfect</Item>
+					<Item>imperial</Item>
+					<Item>implicit</Item>
 					<Item>important</Item>
 					<Item>imported</Item>
 					<Item>impossible</Item>
+					<Item>impressed</Item>
+					<Item>impressive</Item>
+					<Item>improved</Item>
+					<Item>inadequate</Item>
+					<Item>inappropriate</Item>
+					<Item>inc</Item>
 					<Item>incandescent</Item>
+					<Item>inclined</Item>
 					<Item>incompetent</Item>
 					<Item>inconclusive</Item>
+					<Item>increased</Item>
+					<Item>increasing</Item>
+					<Item>incredible</Item>
+					<Item>independent</Item>
+					<Item>indian</Item>
+					<Item>indirect</Item>
+					<Item>individual</Item>
+					<Item>industrial</Item>
 					<Item>industrious</Item>
+					<Item>inevitable</Item>
 					<Item>inexpensive</Item>
+					<Item>influential</Item>
+					<Item>informal</Item>
+					<Item>inherent</Item>
+					<Item>initial</Item>
+					<Item>injured</Item>
+					<Item>inland</Item>
 					<Item>innate</Item>
+					<Item>inner</Item>
 					<Item>innocent</Item>
+					<Item>innovative</Item>
 					<Item>inquisitive</Item>
+					<Item>instant</Item>
 					<Item>instinctive</Item>
+					<Item>institutional</Item>
+					<Item>insufficient</Item>
+					<Item>intact</Item>
+					<Item>integral</Item>
+					<Item>integrated</Item>
+					<Item>intellectual</Item>
+					<Item>intelligent</Item>
+					<Item>intense</Item>
+					<Item>intensive</Item>
+					<Item>interested</Item>
+					<Item>interesting</Item>
+					<Item>interim</Item>
+					<Item>interior</Item>
+					<Item>intermediate</Item>
 					<Item>internal</Item>
+					<Item>international</Item>
+					<Item>intimate</Item>
 					<Item>invincible</Item>
+					<Item>invisible</Item>
+					<Item>involved</Item>
+					<Item>iraqi</Item>
 					<Item>irate</Item>
+					<Item>irish</Item>
+					<Item>irrelevant</Item>
+					<Item>islamic</Item>
+					<Item>isolated</Item>
+					<Item>israeli</Item>
+					<Item>italian</Item>
 					<Item>itchy</Item>
 					<Item>jaded</Item>
 					<Item>jagged</Item>
+					<Item>japanese</Item>
 					<Item>jazzy</Item>
 					<Item>jealous</Item>
+					<Item>jewish</Item>
 					<Item>jittery</Item>
 					<Item>jobless</Item>
+					<Item>joint</Item>
 					<Item>jolly</Item>
 					<Item>joyous</Item>
+					<Item>judicial</Item>
 					<Item>judicious</Item>
 					<Item>juicy</Item>
 					<Item>jumbled</Item>
 					<Item>jumpy</Item>
+					<Item>junior</Item>
+					<Item>just</Item>
 					<Item>juvenile</Item>
 					<Item>kaput</Item>
+					<Item>keen</Item>
+					<Item>key</Item>
 					<Item>kind</Item>
 					<Item>kindhearted</Item>
 					<Item>knotty</Item>
 					<Item>knowing</Item>
 					<Item>knowledgeable</Item>
 					<Item>known</Item>
+					<Item>korean</Item>
 					<Item>labored</Item>
+					<Item>labour</Item>
 					<Item>lackadaisical</Item>
 					<Item>lacking</Item>
 					<Item>lamentable</Item>
 					<Item>languid</Item>
+					<Item>large-scale</Item>
 					<Item>large</Item>
 					<Item>late</Item>
+					<Item>latin</Item>
 					<Item>laughable</Item>
 					<Item>lavish</Item>
 					<Item>lazy</Item>
+					<Item>leading</Item>
 					<Item>lean</Item>
 					<Item>learned</Item>
+					<Item>left</Item>
 					<Item>legal</Item>
+					<Item>legislative</Item>
+					<Item>legitimate</Item>
+					<Item>lengthy</Item>
+					<Item>lesser</Item>
 					<Item>lethal</Item>
 					<Item>level</Item>
 					<Item>lewd</Item>
+					<Item>lexical</Item>
+					<Item>liable</Item>
+					<Item>liberal</Item>
 					<Item>light</Item>
+					<Item>like</Item>
 					<Item>likeable</Item>
+					<Item>likely</Item>
+					<Item>limited</Item>
+					<Item>linear</Item>
+					<Item>linguistic</Item>
+					<Item>liquid</Item>
+					<Item>literary</Item>
 					<Item>literate</Item>
 					<Item>little</Item>
+					<Item>live</Item>
 					<Item>lively</Item>
+					<Item>living</Item>
+					<Item>local</Item>
+					<Item>logical</Item>
 					<Item>lonely</Item>
+					<Item>long-term</Item>
 					<Item>long</Item>
 					<Item>longing</Item>
 					<Item>loose</Item>
 					<Item>lopsided</Item>
+					<Item>lost</Item>
 					<Item>loud</Item>
 					<Item>loutish</Item>
 					<Item>lovely</Item>
 					<Item>loving</Item>
 					<Item>low</Item>
 					<Item>lowly</Item>
+					<Item>loyal</Item>
+					<Item>ltd</Item>
 					<Item>lucky</Item>
 					<Item>ludicrous</Item>
 					<Item>lush</Item>
@@ -1475,151 +1871,305 @@
 					<Item>lyrical</Item>
 					<Item>macabre</Item>
 					<Item>macho</Item>
+					<Item>mad</Item>
 					<Item>maddening</Item>
 					<Item>madly</Item>
 					<Item>magenta</Item>
+					<Item>magic</Item>
 					<Item>magical</Item>
+					<Item>magnetic</Item>
 					<Item>magnificent</Item>
+					<Item>main</Item>
 					<Item>majestic</Item>
+					<Item>major</Item>
 					<Item>makeshift</Item>
+					<Item>male</Item>
 					<Item>malicious</Item>
 					<Item>mammoth</Item>
+					<Item>managerial</Item>
+					<Item>managing</Item>
 					<Item>maniacal</Item>
+					<Item>manual</Item>
 					<Item>many</Item>
+					<Item>marginal</Item>
+					<Item>marine</Item>
 					<Item>marked</Item>
+					<Item>married</Item>
+					<Item>marvellous</Item>
+					<Item>marxist</Item>
+					<Item>mass</Item>
 					<Item>massive</Item>
 					<Item>materialistic</Item>
+					<Item>mathematical</Item>
 					<Item>mature</Item>
+					<Item>maximum</Item>
+					<Item>mean</Item>
+					<Item>meaningful</Item>
 					<Item>measly</Item>
+					<Item>mechanical</Item>
+					<Item>medical</Item>
+					<Item>medieval</Item>
 					<Item>meek</Item>
 					<Item>melodic</Item>
 					<Item>melted</Item>
+					<Item>mental</Item>
 					<Item>merciful</Item>
 					<Item>mere</Item>
+					<Item>metropolitan</Item>
+					<Item>mid</Item>
+					<Item>middle-class</Item>
+					<Item>middle</Item>
 					<Item>mighty</Item>
+					<Item>mild</Item>
+					<Item>military</Item>
 					<Item>mindless</Item>
 					<Item>miniature</Item>
+					<Item>minimal</Item>
+					<Item>minimum</Item>
+					<Item>ministerial</Item>
 					<Item>minor</Item>
 					<Item>miscreant</Item>
+					<Item>miserable</Item>
+					<Item>misleading</Item>
+					<Item>missing</Item>
 					<Item>misty</Item>
+					<Item>mixed</Item>
 					<Item>moaning</Item>
+					<Item>mobile</Item>
+					<Item>moderate</Item>
 					<Item>modern</Item>
+					<Item>modest</Item>
 					<Item>moldy</Item>
+					<Item>molecular</Item>
 					<Item>momentous</Item>
+					<Item>monetary</Item>
+					<Item>monthly</Item>
+					<Item>moral</Item>
 					<Item>motionless</Item>
 					<Item>muddled</Item>
 					<Item>muddy</Item>
+					<Item>multiple</Item>
 					<Item>mundane</Item>
 					<Item>murky</Item>
 					<Item>mushy</Item>
+					<Item>musical</Item>
 					<Item>mute</Item>
+					<Item>mutual</Item>
 					<Item>mysterious</Item>
 					<Item>naive</Item>
+					<Item>naked</Item>
 					<Item>nappy</Item>
 					<Item>narrow</Item>
 					<Item>nasty </Item>
 					<Item>nasty</Item>
+					<Item>national</Item>
+					<Item>native</Item>
+					<Item>natural</Item>
 					<Item>naughty</Item>
 					<Item>nauseating</Item>
+					<Item>naval</Item>
+					<Item>near</Item>
+					<Item>nearby</Item>
+					<Item>neat</Item>
 					<Item>nebulous</Item>
+					<Item>necessary</Item>
 					<Item>needless</Item>
 					<Item>needy</Item>
+					<Item>negative</Item>
 					<Item>neighborly</Item>
+					<Item>neighbouring</Item>
 					<Item>nervous</Item>
+					<Item>net</Item>
+					<Item>neutral</Item>
 					<Item>new</Item>
 					<Item>nice</Item>
 					<Item>nifty</Item>
+					<Item>nineteenth-century</Item>
+					<Item>noble</Item>
 					<Item>noiseless</Item>
 					<Item>noisy</Item>
 					<Item>nonchalant</Item>
 					<Item>nondescript</Item>
 					<Item>nonstop</Item>
+					<Item>normal</Item>
+					<Item>northern</Item>
 					<Item>nostalgic</Item>
 					<Item>nosy</Item>
+					<Item>notable</Item>
+					<Item>novel</Item>
 					<Item>noxious</Item>
+					<Item>nuclear</Item>
 					<Item>null</Item>
 					<Item>numberless</Item>
 					<Item>numerous</Item>
+					<Item>nursing</Item>
 					<Item>nutritious</Item>
 					<Item>nutty</Item>
 					<Item>oafish</Item>
 					<Item>obedient</Item>
 					<Item>obeisant</Item>
+					<Item>objective</Item>
+					<Item>obliged</Item>
 					<Item>obnoxious</Item>
 					<Item>obscene</Item>
 					<Item>obsequious</Item>
 					<Item>observant</Item>
 					<Item>obsolete</Item>
 					<Item>obtainable</Item>
+					<Item>obvious</Item>
+					<Item>occasional</Item>
+					<Item>occupational</Item>
 					<Item>oceanic</Item>
 					<Item>odd</Item>
 					<Item>offbeat</Item>
+					<Item>official</Item>
+					<Item>ok</Item>
+					<Item>okay</Item>
 					<Item>old-fashioned</Item>
 					<Item>old</Item>
+					<Item>olympic</Item>
 					<Item>omniscient</Item>
 					<Item>onerous</Item>
+					<Item>only</Item>
 					<Item>open</Item>
+					<Item>operational</Item>
+					<Item>opposite</Item>
 					<Item>optimal</Item>
+					<Item>optimistic</Item>
+					<Item>oral</Item>
 					<Item>orange</Item>
 					<Item>ordinary</Item>
 					<Item>organic</Item>
+					<Item>organisational</Item>
+					<Item>original</Item>
+					<Item>orthodox</Item>
 					<Item>ossified</Item>
+					<Item>other</Item>
+					<Item>outdoor</Item>
+					<Item>outer</Item>
 					<Item>outrageous</Item>
+					<Item>outside</Item>
 					<Item>outstanding</Item>
 					<Item>oval</Item>
+					<Item>overall</Item>
 					<Item>overconfident</Item>
 					<Item>overjoyed</Item>
 					<Item>overrated</Item>
+					<Item>overseas</Item>
 					<Item>overt</Item>
+					<Item>overwhelming</Item>
 					<Item>overwrought</Item>
 					<Item>painful</Item>
 					<Item>painstaking</Item>
+					<Item>pale</Item>
+					<Item>palestinian</Item>
 					<Item>panicky</Item>
 					<Item>panoramic</Item>
+					<Item>parallel</Item>
 					<Item>parched</Item>
+					<Item>parental</Item>
+					<Item>parliamentary</Item>
 					<Item>parsimonious</Item>
+					<Item>part-time</Item>
+					<Item>partial</Item>
+					<Item>particular</Item>
+					<Item>passing</Item>
+					<Item>passive</Item>
+					<Item>past</Item>
 					<Item>pastoral</Item>
 					<Item>pathetic</Item>
+					<Item>patient</Item>
+					<Item>payable</Item>
 					<Item>peaceful</Item>
+					<Item>peculiar</Item>
 					<Item>penitent</Item>
 					<Item>perfect</Item>
 					<Item>periodic</Item>
+					<Item>permanent</Item>
 					<Item>permissible</Item>
 					<Item>perpetual</Item>
+					<Item>persistent</Item>
+					<Item>personal</Item>
 					<Item>petite</Item>
+					<Item>philosophical</Item>
 					<Item>phobic</Item>
+					<Item>physical</Item>
 					<Item>picayune</Item>
+					<Item>pink</Item>
 					<Item>piquant</Item>
 					<Item>placid</Item>
 					<Item>plain</Item>
+					<Item>planned</Item>
 					<Item>plastic</Item>
 					<Item>plausible</Item>
 					<Item>pleasant</Item>
+					<Item>pleased</Item>
 					<Item>plucky</Item>
 					<Item>pointless</Item>
 					<Item>poised</Item>
+					<Item>polish</Item>
+					<Item>polite</Item>
 					<Item>political</Item>
 					<Item>poor</Item>
+					<Item>popular</Item>
+					<Item>positive</Item>
 					<Item>possessive</Item>
+					<Item>possible</Item>
+					<Item>post-war</Item>
+					<Item>potential</Item>
 					<Item>powerful</Item>
+					<Item>practical</Item>
 					<Item>precious</Item>
+					<Item>precise</Item>
+					<Item>preferred</Item>
+					<Item>pregnant</Item>
+					<Item>preliminary</Item>
+					<Item>premier</Item>
 					<Item>premium</Item>
+					<Item>prepared</Item>
+					<Item>present</Item>
+					<Item>presidential</Item>
 					<Item>pretty</Item>
+					<Item>previous</Item>
 					<Item>prickly</Item>
+					<Item>primary</Item>
+					<Item>prime</Item>
+					<Item>primitive</Item>
+					<Item>principal</Item>
+					<Item>printed</Item>
+					<Item>prior</Item>
+					<Item>private</Item>
+					<Item>probable</Item>
 					<Item>productive</Item>
+					<Item>professional</Item>
+					<Item>profitable</Item>
+					<Item>profound</Item>
 					<Item>profuse</Item>
+					<Item>progressive</Item>
+					<Item>prominent</Item>
+					<Item>promising</Item>
+					<Item>proper</Item>
+					<Item>proposed</Item>
+					<Item>prospective</Item>
 					<Item>protective</Item>
+					<Item>protestant</Item>
 					<Item>proud</Item>
+					<Item>provincial</Item>
 					<Item>psychedelic</Item>
+					<Item>psychiatric</Item>
+					<Item>psychological</Item>
 					<Item>psychotic</Item>
+					<Item>public</Item>
 					<Item>puffy</Item>
 					<Item>pumped</Item>
 					<Item>puny</Item>
+					<Item>pure</Item>
 					<Item>purple</Item>
 					<Item>purring</Item>
 					<Item>puzzled</Item>
 					<Item>quack</Item>
 					<Item>quaint</Item>
+					<Item>qualified</Item>
 					<Item>quarrelsome</Item>
 					<Item>questionable</Item>
 					<Item>quick</Item>
@@ -1629,84 +2179,165 @@
 					<Item>quizzical</Item>
 					<Item>rabid</Item>
 					<Item>racial</Item>
+					<Item>radical</Item>
 					<Item>ragged</Item>
 					<Item>rainy</Item>
 					<Item>rambunctious</Item>
 					<Item>rampant</Item>
+					<Item>random</Item>
 					<Item>rapid</Item>
 					<Item>rare</Item>
 					<Item>raspy</Item>
+					<Item>rational</Item>
 					<Item>ratty</Item>
+					<Item>raw</Item>
+					<Item>ready</Item>
 					<Item>real</Item>
+					<Item>realistic</Item>
+					<Item>rear</Item>
+					<Item>reasonable</Item>
 					<Item>rebellious</Item>
+					<Item>recent</Item>
 					<Item>receptive</Item>
 					<Item>recondite</Item>
 					<Item>red</Item>
+					<Item>reduced</Item>
 					<Item>redundant</Item>
 					<Item>reflective</Item>
+					<Item>regional</Item>
+					<Item>registered</Item>
+					<Item>regular</Item>
+					<Item>regulatory</Item>
+					<Item>related</Item>
+					<Item>relative</Item>
+					<Item>relaxed</Item>
+					<Item>relevant</Item>
+					<Item>reliable</Item>
 					<Item>relieved</Item>
+					<Item>religious</Item>
+					<Item>reluctant</Item>
+					<Item>remaining</Item>
+					<Item>remarkable</Item>
 					<Item>reminiscent</Item>
+					<Item>remote</Item>
+					<Item>renewed</Item>
+					<Item>representative</Item>
 					<Item>repulsive</Item>
+					<Item>required</Item>
+					<Item>resident</Item>
+					<Item>residential</Item>
 					<Item>resolute</Item>
 					<Item>resonant</Item>
+					<Item>respectable</Item>
+					<Item>respective</Item>
+					<Item>responsible</Item>
+					<Item>resulting</Item>
+					<Item>retail</Item>
+					<Item>retired</Item>
+					<Item>revolutionary</Item>
 					<Item>rhetorical</Item>
 					<Item>rich</Item>
+					<Item>ridiculous</Item>
+					<Item>right</Item>
 					<Item>righteous</Item>
 					<Item>rightful</Item>
+					<Item>rigid</Item>
 					<Item>ripe</Item>
+					<Item>rising</Item>
 					<Item>ritzy</Item>
+					<Item>rival</Item>
 					<Item>roasted</Item>
 					<Item>robust</Item>
+					<Item>rolling</Item>
+					<Item>roman</Item>
 					<Item>romantic</Item>
 					<Item>roomy</Item>
 					<Item>rotten</Item>
 					<Item>rough</Item>
 					<Item>round</Item>
 					<Item>royal</Item>
+					<Item>rubber</Item>
 					<Item>ruddy</Item>
+					<Item>rude</Item>
+					<Item>ruling</Item>
+					<Item>running</Item>
 					<Item>rural</Item>
+					<Item>russian</Item>
 					<Item>rustic</Item>
 					<Item>ruthless</Item>
 					<Item>sable</Item>
+					<Item>sacred</Item>
 					<Item>sad</Item>
+					<Item>safe</Item>
 					<Item>salty</Item>
 					<Item>sassy</Item>
+					<Item>satisfactory</Item>
+					<Item>satisfied</Item>
 					<Item>satisfying</Item>
 					<Item>scandalous</Item>
 					<Item>scarce</Item>
+					<Item>scared</Item>
 					<Item>scary</Item>
 					<Item>scattered</Item>
 					<Item>scientific</Item>
 					<Item>scintillating</Item>
+					<Item>scornful</Item>
+					<Item>scottish</Item>
 					<Item>scrawny</Item>
 					<Item>screeching</Item>
+					<Item>secondary</Item>
+					<Item>secret</Item>
 					<Item>secretive</Item>
+					<Item>secure</Item>
 					<Item>sedate</Item>
 					<Item>seemly</Item>
+					<Item>select</Item>
+					<Item>selected</Item>
 					<Item>selective</Item>
 					<Item>selfish</Item>
+					<Item>semantic</Item>
+					<Item>senior</Item>
+					<Item>sensible</Item>
+					<Item>sensitive</Item>
+					<Item>separate</Item>
+					<Item>serious</Item>
+					<Item>severe</Item>
+					<Item>sexual</Item>
 					<Item>shaggy</Item>
 					<Item>shaky</Item>
 					<Item>shallow</Item>
+					<Item>shared</Item>
 					<Item>sharp</Item>
+					<Item>sheer</Item>
 					<Item>shiny</Item>
 					<Item>shivering</Item>
+					<Item>shocked</Item>
 					<Item>shocking</Item>
+					<Item>short-term</Item>
 					<Item>short</Item>
 					<Item>shrill</Item>
 					<Item>shy</Item>
+					<Item>sick</Item>
+					<Item>significant</Item>
 					<Item>silent</Item>
 					<Item>silky</Item>
 					<Item>silly</Item>
+					<Item>similar</Item>
+					<Item>simple</Item>
 					<Item>sincere</Item>
+					<Item>single</Item>
+					<Item>skilled</Item>
 					<Item>skillful</Item>
 					<Item>skinny</Item>
 					<Item>sleepy</Item>
+					<Item>slight</Item>
+					<Item>slim</Item>
 					<Item>slimy</Item>
 					<Item>slippery</Item>
 					<Item>sloppy</Item>
 					<Item>slow</Item>
 					<Item>small</Item>
+					<Item>smart</Item>
 					<Item>smelly</Item>
 					<Item>smiling</Item>
 					<Item>smoggy</Item>
@@ -1714,56 +2345,111 @@
 					<Item>sneaky</Item>
 					<Item>snobbish</Item>
 					<Item>snotty</Item>
+					<Item>so-called</Item>
+					<Item>social</Item>
+					<Item>socialist</Item>
 					<Item>soft</Item>
 					<Item>soggy</Item>
+					<Item>solar</Item>
+					<Item>sole</Item>
 					<Item>solid</Item>
 					<Item>somber</Item>
+					<Item>sophisticated</Item>
 					<Item>sordid</Item>
 					<Item>sore</Item>
+					<Item>sorry</Item>
+					<Item>sound</Item>
+					<Item>Sound</Item>
 					<Item>sour</Item>
+					<Item>southern</Item>
+					<Item>soviet</Item>
+					<Item>spanish</Item>
+					<Item>spare</Item>
 					<Item>sparkling</Item>
+					<Item>spatial</Item>
+					<Item>special</Item>
+					<Item>specific</Item>
+					<Item>specified</Item>
 					<Item>spectacular</Item>
 					<Item>spicy</Item>
 					<Item>spiffy</Item>
 					<Item>spiritual</Item>
 					<Item>splendid</Item>
+					<Item>spontaneous</Item>
 					<Item>spooky</Item>
+					<Item>sporting</Item>
 					<Item>spotless</Item>
+					<Item>spotty</Item>
 					<Item>spurious</Item>
 					<Item>squalid</Item>
 					<Item>square</Item>
 					<Item>squealing</Item>
 					<Item>squeamish</Item>
+					<Item>stable</Item>
 					<Item>staking</Item>
 					<Item>stale</Item>
+					<Item>standard</Item>
 					<Item>standing</Item>
+					<Item>static</Item>
+					<Item>statistical</Item>
 					<Item>statuesque</Item>
+					<Item>statutory</Item>
 					<Item>steadfast</Item>
 					<Item>steady</Item>
 					<Item>steep</Item>
 					<Item>stereotyped</Item>
 					<Item>sticky</Item>
+					<Item>stiff</Item>
+					<Item>still</Item>
 					<Item>stimulating</Item>
 					<Item>stingy</Item>
 					<Item>stormy</Item>
 					<Item>straight</Item>
+					<Item>straightforward</Item>
 					<Item>strange</Item>
+					<Item>strategic</Item>
+					<Item>strict</Item>
+					<Item>striking</Item>
+					<Item>striped</Item>
 					<Item>strong</Item>
+					<Item>structural</Item>
+					<Item>stuck</Item>
 					<Item>stupid</Item>
 					<Item>subdued</Item>
+					<Item>subjective</Item>
 					<Item>subsequent</Item>
 					<Item>substantial</Item>
+					<Item>subtle</Item>
 					<Item>successful</Item>
+					<Item>successive</Item>
 					<Item>succinct</Item>
+					<Item>sudden</Item>
+					<Item>sufficient</Item>
+					<Item>suitable</Item>
 					<Item>sulky</Item>
+					<Item>sunny</Item>
 					<Item>super</Item>
+					<Item>superb</Item>
+					<Item>superior</Item>
+					<Item>supporting</Item>
+					<Item>supposed</Item>
 					<Item>supreme</Item>
+					<Item>sure</Item>
+					<Item>surprised</Item>
+					<Item>surprising</Item>
+					<Item>surrounding</Item>
+					<Item>surviving</Item>
+					<Item>suspicious</Item>
 					<Item>swanky</Item>
 					<Item>sweet</Item>
 					<Item>sweltering</Item>
 					<Item>swift</Item>
+					<Item>swiss</Item>
+					<Item>symbolic</Item>
+					<Item>sympathetic</Item>
 					<Item>symptomatic</Item>
 					<Item>synonymous</Item>
+					<Item>systematic</Item>
 					<Item>taboo</Item>
 					<Item>tacit</Item>
 					<Item>tacky</Item>
@@ -1779,6 +2465,9 @@
 					<Item>tasty</Item>
 					<Item>tawdry</Item>
 					<Item>tearful</Item>
+					<Item>technical</Item>
+					<Item>technological</Item>
+					<Item>teenage</Item>
 					<Item>teeny-tiny</Item>
 					<Item>teeny</Item>
 					<Item>telling</Item>
@@ -1787,12 +2476,18 @@
 					<Item>tense</Item>
 					<Item>tenuous</Item>
 					<Item>terrible</Item>
+					<Item>territorial</Item>
 					<Item>tested</Item>
 					<Item>testy</Item>
 					<Item>thankful</Item>
+					<Item>then</Item>
+					<Item>theoretical</Item>
 					<Item>therapeutic</Item>
+					<Item>thick</Item>
+					<Item>thin</Item>
 					<Item>thinkable</Item>
 					<Item>thirsty</Item>
+					<Item>thorough</Item>
 					<Item>thoughtful</Item>
 					<Item>thoughtless</Item>
 					<Item>threatening</Item>
@@ -1803,58 +2498,115 @@
 					<Item>tired</Item>
 					<Item>tiresome</Item>
 					<Item>toothsome</Item>
+					<Item>top</Item>
 					<Item>torpid</Item>
+					<Item>tory</Item>
+					<Item>total</Item>
 					<Item>tough</Item>
 					<Item>towering</Item>
+					<Item>toxic</Item>
+					<Item>traditional</Item>
+					<Item>tragic</Item>
 					<Item>tranquil</Item>
 					<Item>trashy</Item>
+					<Item>tremendous</Item>
 					<Item>tricky</Item>
 					<Item>trite</Item>
+					<Item>tropical</Item>
 					<Item>troubled</Item>
 					<Item>truculent</Item>
+					<Item>turkish</Item>
 					<Item>typical</Item>
 					<Item>ubiquitous</Item>
 					<Item>ugliest</Item>
 					<Item>ugly</Item>
+					<Item>ultimate</Item>
 					<Item>ultra</Item>
 					<Item>unable</Item>
+					<Item>unacceptable</Item>
 					<Item>unaccountable</Item>
 					<Item>unadvised</Item>
 					<Item>unarmed</Item>
+					<Item>unaware</Item>
 					<Item>unbecoming</Item>
 					<Item>unbiased</Item>
+					<Item>uncertain</Item>
+					<Item>unchanged</Item>
+					<Item>uncomfortable</Item>
+					<Item>unconscious</Item>
 					<Item>uncovered</Item>
+					<Item>underground</Item>
+					<Item>underlying</Item>
 					<Item>understood</Item>
 					<Item>undesirable</Item>
+					<Item>unemployed</Item>
 					<Item>unequaled</Item>
 					<Item>uneven</Item>
+					<Item>unexpected</Item>
+					<Item>unfair</Item>
+					<Item>unfortunate</Item>
+					<Item>unhappy</Item>
+					<Item>uniform</Item>
 					<Item>uninterested</Item>
+					<Item>unique</Item>
+					<Item>united</Item>
+					<Item>universal</Item>
+					<Item>unknown</Item>
+					<Item>unlikely</Item>
+					<Item>unnecessary</Item>
+					<Item>unpleasant</Item>
 					<Item>unsightly</Item>
 					<Item>unsuitable</Item>
 					<Item>unusual</Item>
+					<Item>unwilling</Item>
 					<Item>upbeat</Item>
+					<Item>upper</Item>
 					<Item>uppity</Item>
 					<Item>upset</Item>
 					<Item>uptight</Item>
+					<Item>urban</Item>
+					<Item>urgent</Item>
 					<Item>used</Item>
+					<Item>useful</Item>
+					<Item>useless</Item>
+					<Item>usual</Item>
 					<Item>utopian</Item>
 					<Item>utter</Item>
 					<Item>uttermost</Item>
 					<Item>vacuous</Item>
 					<Item>vague</Item>
+					<Item>valid</Item>
+					<Item>valuable</Item>
+					<Item>variable</Item>
+					<Item>varied</Item>
 					<Item>various</Item>
+					<Item>varying</Item>
 					<Item>vast</Item>
 					<Item>vengeful</Item>
 					<Item>venomous</Item>
+					<Item>verbal</Item>
 					<Item>verdant</Item>
 					<Item>versed</Item>
+					<Item>vertical</Item>
+					<Item>very</Item>
+					<Item>victorian</Item>
 					<Item>victorious</Item>
+					<Item>video-taped</Item>
 					<Item>vigorous</Item>
+					<Item>violent</Item>
+					<Item>visible</Item>
+					<Item>visiting</Item>
+					<Item>visual</Item>
+					<Item>vital</Item>
 					<Item>vivacious</Item>
+					<Item>vivid</Item>
+					<Item>vocational</Item>
 					<Item>voiceless</Item>
 					<Item>volatile</Item>
+					<Item>voluntary</Item>
 					<Item>voracious</Item>
 					<Item>vulgar</Item>
+					<Item>vulnerable</Item>
 					<Item>wacky</Item>
 					<Item>waggish</Item>
 					<Item>wakeful</Item>
@@ -1870,14 +2622,25 @@
 					<Item>wealthy</Item>
 					<Item>weary</Item>
 					<Item>wee</Item>
+					<Item>weekly</Item>
+					<Item>weird</Item>
+					<Item>welcome</Item>
+					<Item>well-known</Item>
+					<Item>well</Item>
+					<Item>welsh</Item>
+					<Item>western</Item>
 					<Item>wet </Item>
 					<Item>wet</Item>
 					<Item>whimsical</Item>
+					<Item>whispering  </Item>
 					<Item>whispering</Item>
+					<Item>white</Item>
+					<Item>whole</Item>
 					<Item>wholesale</Item>
 					<Item>wicked</Item>
 					<Item>wide-eyed</Item>
 					<Item>wide</Item>
+					<Item>widespread</Item>
 					<Item>wild</Item>
 					<Item>willing</Item>
 					<Item>wiry</Item>
@@ -1890,10 +2653,17 @@
 					<Item>wooden</Item>
 					<Item>woozy</Item>
 					<Item>workable</Item>
+					<Item>working-class</Item>
+					<Item>working</Item>
+					<Item>worldwide</Item>
 					<Item>worried</Item>
+					<Item>worrying</Item>
 					<Item>worthless</Item>
+					<Item>worthwhile</Item>
+					<Item>worthy</Item>
 					<Item>wrathful</Item>
 					<Item>wretched</Item>
+					<Item>written</Item>
 					<Item>wrong</Item>
 					<Item>wry</Item>
 					<Item>x-rated</Item>
