@@ -48,7 +48,7 @@
 				<Item>TAIGONIZE</Item>
 				<Item>TAIGONIZE ME</Item>
 			</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto></Text> <User Get="name" /></Response>
+			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto></Text> <User Get="Nickname" /></Response>
 		</Model>
 
 		<Model>
