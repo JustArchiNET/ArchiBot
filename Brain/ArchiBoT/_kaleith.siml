@@ -30,6 +30,8 @@
 		<Model>
 			<Pattern>
 				<Item>LENNY</Item>
+				<Item>LENNYFACE</Item>
+				<Item>LENNY FACE</Item>
 			</Pattern>
 			<Response>( ͡° ͜ʖ ͡°)</Response>
 		</Model>
