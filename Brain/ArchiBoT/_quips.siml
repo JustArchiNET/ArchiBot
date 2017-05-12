@@ -43,6 +43,23 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>TAIGO ME</Item>
+				<Item>TAIGONIZE</Item>
+				<Item>TAIGONIZE ME</Item>
+			</Pattern>
+			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> <User Get="name" /></Text></Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>TAIGONIZE *</Item>
+				<Item>TAIGO *</Item>
+			</Pattern>
+			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> <Match /></Text></Response>
+		</Model>
+
+		<Model>
 			<Pattern>TAIGO</Pattern>
 			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> Taigo</Text></Response>
 		</Model>
