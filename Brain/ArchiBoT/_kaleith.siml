@@ -326,16 +326,7 @@
 
 		<Model>
 			<Pattern>ROLL</Pattern>
-			<Response>
-				<Random>
-					<Item>:dice1:</Item>
-					<Item>:dice2:</Item>
-					<Item>:dice3:</Item>
-					<Item>:dice4:</Item>
-					<Item>:dice5:</Item>
-					<Item>:dice6:</Item>
-				</Random>
-			</Response>
+			<Response>:dice<Js>1 + Math.floor(Math.random() * 6);</Js>:</Response>
 		</Model>
 
 		<Model>
@@ -389,7 +380,27 @@
 
 		<Model>
 			<Pattern>ROLL *</Pattern>
-			<Response>Roll one at a time or use !roll <Match /> :sgsmile:</Response>
+			<Response>
+				<Think><User Set="roll"><Match /></User></Think>
+				<If User="roll" LessThanOr="10">
+					<Switch User="roll">
+						<Case Value="0">*rolls nothing*</Case>
+						<Case Value="1"><Goto>ROLL</Goto></Case>
+						<Case Value="2"><Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="3"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="4"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="5"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="6"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="7"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="8"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="9"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Case Value="10"><Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto> <Goto>ROLL</Goto></Case>
+						<Default>Wait, what :doubt:</Default>
+					</Switch>
+				</If>
+				<ElseIf User="roll" GreaterThan="10">Archi didn't buy me that many dice :cry:</ElseIf>
+				<Else>You're supposed to give me a number. "Roll <Match />"? Really? :doubt:</Else>
+			</Response>
 		</Model>
 	</Concept>
 </Siml>
