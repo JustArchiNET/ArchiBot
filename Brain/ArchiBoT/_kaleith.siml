@@ -11,6 +11,7 @@
 
 		<Model>
 			<Pattern>
+				<Item>PICK A NUMBER * TO *</Item>
 				<Item>PICK A NUMBER BETWEEN * AND *</Item>
 				<Item>PICK A NUMBER BETWEEN * THROUGH *</Item>
 				<Item>PICK A RANDOM NUMBER BETWEEN * AND *</Item>
