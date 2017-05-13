@@ -166,8 +166,8 @@
 				<Random>
 					<Item>I've heard some corny birds / Who tried to sing / Still a cat's the only cat / Who knows how to swing // Who wants to dig a long-haired gig and stuff like that / When everybody wants to be a cat (Song: Everybody wants to be a cat - The Aristocats)</Item>
 					<Item>Wasurenai yo sugu soba ni / Kimi ga iru itsu no hi mo / Hoshizora ni kagayaite'ru / Namida yureru ashita mo (Song: Kaze ni Naru - Neko No Ongaeshi OST)</Item>
-					<Item>:Neko: meow meow meow meow~ meow meeeow♪</Item>
-					<Item>This is 10% puns, 20% skill, 15% concentrated power of memes, 5% fat, 50% fur and 100% reason to remember the name Kaleith. (Song: Remember the name Kaleith - Fort May-or-may-not be a Real Group)</Item>
+					<Item Weight="0.1">:Neko: meow meow meow meow~ meow meeeow♪</Item>
+					<Item Weight="0.5">This is 10% puns, 20% skill, 15% concentrated power of memes, 5% fat, 50% fur and 100% reason to remember the name Kaleith. (Song: Remember the name Kaleith - Fort May-or-may-not be a Real Group)</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -178,8 +178,8 @@
 				<Random>
 					<Item>:Neko:/</Item>
 					<Item>Just your friendly neighborhood cat :3</Item>
-					<Item>A majestic, 100% non-fat feline specimen :3</Item>
-					<Item>A fluffy ball of white fur (and not fat)</Item>
+					<Item Weight="0.25">A majestic, 100% non-fat feline specimen :3</Item>
+					<Item Weight="0.25">A fluffy ball of white fur (and not fat)</Item>
 					<Item>The winner of the title "Best Cat Named Kaleith" for 27 years in a row.</Item>
 				</Random>
 			</Response>
@@ -191,7 +191,7 @@
 				<Random>
 					<Item>I am required to hide Thielak's identity.</Item>
 					<Item>Someone who keeps fiddling with my AI (￢_￢;)</Item>
-					<Item>A majestic, 10-oh wait I'm not supposed to read from there NO MASTER PLEASE DON'T CHANGE MY BRAIN</Item>
+					<Item Weight="0.5">A majestic, 10-oh wait I'm not supposed to read from there NO MASTER PLEASE DON'T CHANGE MY BRAIN</Item>
 				</Random>
 			</Response>
 		</Model>

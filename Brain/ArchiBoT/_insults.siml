@@ -22,12 +22,9 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>You really thought I'd insult myself? :sgsmile:</Item>
+					<Item>Did you really think I would insult myself? :sgsmile:</Item>
 					<Item>Nice try :sgsmile:</Item>
-					<Item>How about I insult you instead? <Text Get="Sentence"><Goto>RANDOMINSULT</Goto></Text> :sgsmile:</Item>
-					<Item>How about I insult you instead? <Text Get="Sentence"><Goto>RANDOMINSULT</Goto></Text> :sgsmile:</Item>
-					<Item>How about I insult you instead? <Text Get="Sentence"><Goto>RANDOMINSULT</Goto></Text> :sgsmile:</Item>
-					<Item>How about I insult you instead? <Text Get="Sentence"><Goto>RANDOMINSULT</Goto></Text> :sgsmile:</Item>
+					<Item Weight="0.66">How about I insult you instead? <Text Get="Sentence"><Goto>RANDOMINSULT</Goto></Text> :sgsmile:</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -129,14 +126,7 @@
 					<Item>I'd call you an asshole but they serve a purpose.</Item>
 					<Item>your mother was a hamster and your father smelt of elderberries.</Item>
 					<Item>I don't care what everybody else says, I think you're a pretty cool person.</Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
-					<Item><Goto>YOMAMA</Goto></Item>
+					<Item Weight="0.08"><Goto>YOMAMA</Goto></Item>
 				</Random>
 			</Response>
 		</Model>

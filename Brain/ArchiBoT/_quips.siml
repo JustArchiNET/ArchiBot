@@ -5,18 +5,11 @@
 			<Pattern>FISTO</Pattern>	<!-- by DeltabladeX -->
 			<Response>
 				<Random>
-					<Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
-					<Item>Greetings. Fisto is programmed to please. :bigBetty:</Item>
-					<Item>Numbness will subside in several minutes. :bigBetty:</Item>
-					<Item>I am programmed for your pleasure. :bigBetty:</Item>
-					<Item>I am programmed for your pleasure. :bigBetty:</Item>
-					<Item>Please assume the position :bigBetty:</Item>
-					<Item>Please assume the position :bigBetty:</Item>
-					<Item>Assume The Position :bigBetty:</Item>
-					<Item>Assume The Position :bigBetty:</Item>
-					<Item>Assume The Position :bigBetty:</Item>
-					<Item>Assume The Position :bigBetty:</Item>
-					<Item>Assume The Position :bigBetty:</Item>
+					<Item Weight="0.15">Greetings. Fisto is programmed to please. :bigBetty:</Item>
+					<Item Weight="0.1">Numbness will subside in several minutes. :bigBetty:</Item>
+					<Item Weight="0.15">I am programmed for your pleasure. :bigBetty:</Item>
+					<Item Weight="0.15">Please assume the position :bigBetty:</Item>
+					<Item Weight="0.45">Assume The Position :bigBetty:</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -35,7 +28,7 @@
 					<Item>Did you know that the father of peanuts and peanut butter George Washington Carver had no nuts?</Item>
 					<Item>Did you know that Nut is the goddess of the sky in the ennead of ancient egyptian religion?</Item>
 					<Item>Did you know that coconuts are not nuts? They are technically drupes.</Item>
-					<Item>Did you know that u r mr gay?</Item>
+					<Item Weight="0.05">Did you know that u r mr gay?</Item>
 					<Item>Did you know that most Brazil nuts (which aren't even nuts) don't come from Brazil? The main exporter is Bolivia!</Item>
 					<Item>Did you know that until the mid-20th century, hazelnuts were called filberts?</Item>
 				</Random>
