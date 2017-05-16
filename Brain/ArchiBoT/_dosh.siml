@@ -381,5 +381,10 @@
 			<Pattern>BAIT</Pattern>
 			<Response>Dosh delivers high-quality bait: http://imgur.com/a/mgEmp</Response>
 		</Model>
+		
+		<Model>
+			<Pattern>WHAT IS PREY 2</Pattern>
+			<Response>The worst game never made.</Response>
+		</Model>
 	</Concept>
 </Siml>
