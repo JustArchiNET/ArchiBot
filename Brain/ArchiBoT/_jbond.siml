@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_jbond" Type="Public">
+		
+		<Model>
+			<Pattern>RIP</Pattern>
+			<Response>:ripgocha:</Pattern>
+		</Model>
+		
+		<Model>
+			<Pattern>RIP *</Pattern>
+			<Response>:ripgocha: <Match /></Response>
+		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>WHO IS JBOND</Item>
+				<Item>WHO IS JBONDGUY</Item>
+				<Item>WHO IS JBONDGUY007</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Not a member of 2hu giveaways.</Item>
+					<Item>Something like the human representation of a headache.</Item>
+					<Item>A dragon disguised as a human pretending to be a fictitious undercover MI6 agent.</Item>
+					<Item>That one guy who's always trying to do things he doesn't know how to do.</Item>
+					<Item>The laziest person. No contest.</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>CHALLENGE</Pattern>
+			<Response>
+				<Random>
+					<Item>CHALLENGE ACCEPTED</Item>
+					<Item>:hromeattack: CHALLENGE TIME :hromeattack:</Item>
+					<Item>PREPARE FOR CHALLENGE :bite:</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+	</Concept>
+</Siml>
