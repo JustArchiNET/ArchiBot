@@ -52,9 +52,9 @@
     <Text>=</Text>
     <Text>\</Text>
   </Filter>-->
-  <!-- COMMON TEXT REPLACEMENT-->
+  <!-- COMMON TEXT REPLACEMENT --- COMMENTED OUT UNDER GREAT LEADER DECREE
   <Filter Text="&gt;" Value="gt" />
-  <Filter Text="&lt;" Value="lt" />
+  <Filter Text="&lt;" Value="lt" /> -->
   <!--<Filter Text="-" Value="-" />-->
   <Filter Word="l a" Value="la" />
   <!--OK-->
