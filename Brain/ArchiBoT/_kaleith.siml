@@ -403,5 +403,18 @@
 				<Else>You're supposed to give me a number. "Roll <Match />"? Really? :doubt:</Else>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>WHAT IS THE TENTACLE MAFIA</Item>
+				<Item>WHAT IS TENTACLE MAFIA</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Nothing :zeemonster::sgsmile:</Item>
+					<Item>No idea :zeemonster::sgsmile:</Item>
+				</Random>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>
