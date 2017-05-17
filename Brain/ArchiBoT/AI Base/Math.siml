@@ -1,41 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="Math" Type="Public" Repeat="True">
-    <Model>
-      <Pattern>
-        <Item>WHAT IS THE AVERAGE OF * AND *</Item>
-        <Item>MEAN OF * AND *</Item>
-      </Pattern>
-      <Response>
-           The average is <Math>(<Match />+<Match Index="2" />)/2</Math></Response>
-    </Model>
-    <Model>
-      <Pattern>
-        <Item>ADD * AND *</Item>
-        <Item>WHAT IS SUM OF * AND *</Item>
-        <Item>* PLUS *</Item>
-      </Pattern>
-      <Response>
-            The answer is <Math><Match />+<Match Index="2" /></Math></Response>
-    </Model>
-    <Model>
-      <Pattern>
-        <Item>SUBTRACT * AND *</Item>
-        <Item>* MINUS *</Item>
-      </Pattern>
-      <Response>The answer is <Math><Match />-<Match Index="2" /></Math></Response>
-    </Model>
-    <Model>
-      <Pattern>CALCULATE *</Pattern>
-      <Response>
-				<Think><User Set="result"><Math><Match /></Math></User></Think>
-				<If User="result" Value="">I can't calculate that.</If>
-				<Else>The answer is <Math><Match /></Math></Else>
+	<Concept Name="Math" Type="Public" Repeat="True">
+		<Model>
+			<Pattern>
+				<Item>WHAT IS THE AVERAGE OF * AND *</Item>
+				<Item>MEAN OF * AND *</Item>
+			</Pattern>
+			<Response>
+				The average is
+				<Math>(<Match/>+<Match Index="2"/>)/2</Math>
 			</Response>
-    </Model>
-    <Model>
-      <Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
-      <Response>The answer might be <Math>(<Match />+<Match Index="2" />)-<Match Index="3" /></Math></Response>
-    </Model>
-  </Concept>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>ADD * AND *</Item>
+				<Item>WHAT IS SUM OF * AND *</Item>
+				<Item>* PLUS *</Item>
+			</Pattern>
+			<Response>
+				The answer is
+				<Math><Match/>+<Match Index="2"/></Math>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>SUBTRACT * AND *</Item>
+				<Item>* MINUS *</Item>
+			</Pattern>
+			<Response>The answer is
+				<Math><Match/>-<Match Index="2"/></Math>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>CALCULATE *</Pattern>
+			<Response>
+				<Think><User Set="calcresult"><Math><Match/></Math></User></Think>
+				<If User="calcresult" Value="">I can't calculate that.</If>
+				<Else>The answer is <User Get="calcresult"></Else>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
+			<Response>The answer might be
+				<Math>(<Match/>+<Match Index="2"/>)-<Match Index="3"/></Math>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>
