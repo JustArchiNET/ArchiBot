@@ -5,7 +5,9 @@
 		<Model>
 			<Pattern>
 				<Item>:(</Item>
+				<Item>:-(</Item>
 				<Item>:&apos;(</Item>
+				<Item>:&apos;-(</Item>
 				<Item>;_;</Item>
 				<Item>:c</Item>
 				<Item>:&apos;c</Item>
@@ -22,14 +24,18 @@
 		<Model>
 			<Pattern>
 				<Item>:)</Item>
+				<Item>:-)</Item>
 				<Item>:D</Item>
+				<Item>:-D</Item>
 				<Item>^^</Item>
+				<Item>^_^</Item>
+				<Item>c:</Item>
 			</Pattern>
 			<Response>
 				<Random>
 					<Item>It makes me happy to see you being happy.</Item>
 					<Item>Well, aren't you a cheerful one.</Item>
-					<Item>:)</Item>
+					<Item>:sgsmile:</Item>
 					<Item>You're all smiles, <User Get="name" />.</Item>
 				</Random>
 			</Response>
@@ -40,11 +46,14 @@
 				<Item>._.</Item>
 				<Item>&gt;_&gt;</Item>
 				<Item>&lt;_&lt;</Item>
+				<Item>-_-</Item>
+				<Item>-.-</Item>
 			</Pattern>
 			<Response>
 				<Random>
 					<Item>Have I done something strange, <User Get="name" />?</Item>
 					<Item>Did I disappoint you, <User Get="name" />?</Item>
+					<Item>What? :doubt:</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -52,6 +61,7 @@
 		<Model>
 			<Pattern>
 				<Item>&gt;:(</Item>
+				<Item>&gt;:-(</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -62,5 +72,6 @@
 				</Random>
 			</Response>
 		</Model>
+
 	</Concept>
 </Siml>
