@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
 	<Concept Name="_emoticonresponse" Type="Public">
-	
+
 		<Model>
 			<Pattern>
 				<Item>:(</Item>
@@ -18,7 +18,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>
 				<Item>:)</Item>
@@ -34,7 +34,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>
 				<Item>._.</Item>
@@ -48,7 +48,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>
 				<Item>&gt;:(</Item>
@@ -62,6 +62,5 @@
 				</Random>
 			</Response>
 		</Model>
-		
 	</Concept>
 </Siml>
