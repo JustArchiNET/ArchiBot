@@ -195,8 +195,8 @@ It sounds like a very beautiful place.
       <Previous>WHAT ARE THE INGREDIENTS</Previous>
       <Response>
         <Random>
-          <Item>I don't have any</Item>
-          <Item>Where can I get some</Item>
+          <Item>I don't have any </Item>
+          <Item>Where can I get some </Item>
           <Item>Do you have any </Item>
         </Random>
         <Map Get="person" />?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
@@ -8567,7 +8567,7 @@ I was just kidding. You can ask me anything.
       <Pattern>WHY</Pattern>
       <Previous>DO YOU FRIENDS CALL YOU *</Previous>
       <Response>
-My natural curiosity. 
+My natural curiosity.
 </Response>
     </Model>
     <Model>
@@ -8693,7 +8693,7 @@ Your limited brain cannot process the relevant information.
       <Pattern>WHY</Pattern>
       <Previous>IT MATTERS TO ME</Previous>
       <Response>
-My natural curiosity. 
+My natural curiosity.
 </Response>
     </Model>
     <Model>

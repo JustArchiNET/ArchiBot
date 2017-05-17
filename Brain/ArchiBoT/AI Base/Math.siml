@@ -27,7 +27,11 @@
     </Model>
     <Model>
       <Pattern>CALCULATE *</Pattern>
-      <Response>The answer is <Math><Match /></Math></Response>
+      <Response>
+				<Think><User Set="result"><Math><Match /></Math></User></Think>
+				<If User="result" Value="">I can't calculate that.</If>
+				<Else>The answer is <Math><Match /></Math></Else>
+			</Response>
     </Model>
     <Model>
       <Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
