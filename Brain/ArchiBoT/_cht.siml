@@ -94,6 +94,17 @@
 		</Model>
 
 		<Model>
+			<Pattern>PRAISE THE SUN</Pattern>
+			<Response>
+				<Random>
+					<Item Weight="0.66">\[T]/</Item>
+					<Item>( ﾉ ﾟｰﾟ)ﾉ☀️</Item>
+					<Item>☀️ヽ(ﾟｰﾟヽ)</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>RANDOMPRAISE</Pattern>
 			<Response>
 				<Random>
