@@ -36,7 +36,7 @@
 			<Response>
 				<Think><User Set="calcresult"><Math><Match/></Math></User></Think>
 				<If User="calcresult" Value="">I can't calculate that.</If>
-				<Else>The answer is <User Get="calcresult"></Else>
+				<Else>The answer is <User Get="calcresult" /></Else>
 			</Response>
 		</Model>
 		<Model>
