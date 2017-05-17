@@ -52,7 +52,8 @@
     <Text>=</Text>
     <Text>\</Text>
   </Filter>-->
-  <!-- COMMON TEXT REPLACEMENT --- COMMENTED OUT UNDER GREAT LEADER DECREE
+  <!-- COMMON TEXT REPLACEMENT
+	(COMMENTED OUT UNDER GREAT LEADER DECREE, no need for html stuff)
   <Filter Text="&gt;" Value="gt" />
   <Filter Text="&lt;" Value="lt" /> -->
   <!--<Filter Text="-" Value="-" />-->

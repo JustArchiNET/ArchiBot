@@ -1542,8 +1542,8 @@ Are you asking about my <Map Get="person" /> ?
       <Pattern>* OR *</Pattern>
       <Response>
         <Random>
-          <Item>If I have to choose one, I pick<Match />.</Item>
-          <Item>If I have to choose, I pick <Match Index="2" />.</Item>
+          <Item>If I have to choose one, I pick <Match />.</Item>
+          <Item>If I have to choose, I pick <Match Index="2" />.</Item>
           <Item>
             <Match />
           </Item>

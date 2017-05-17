@@ -12975,13 +12975,17 @@ My favorite color, <Bot Get="favoritecolor" />. <Think><User Set="it"><User Set=
           <Item>Better not tell you now. </Item>
           <Item>Ask again later. </Item>
         </Random>
+				<Random>
+          <Item Weight="0.9"></Item>
+          <Item Weight="0.1">Ask <Bot Get="friend" /> if it is.</Item>
+        </Random>
         <Think>
           <User Set="it">
             <User Set="concept">
               <Map Get="person" />
             </User>
           </User>
-        </Think> Ask <Bot Get="friend" /> if it is.
+        </Think>
 </Response>
     </Model>
     <Model>
