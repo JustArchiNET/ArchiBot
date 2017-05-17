@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_emoticonresponse" Type="Public">
+	
+		<Model>
+			<Pattern>
+				<Item>:(</Item>
+				<Item>:&apos;(</Item>
+				<Item>;_;</Item>
+				<Item>:c</Item>
+				<Item>:&apos;c</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Why so sad, <User Get="name" />?</Item>
+					<Item>Did I hurt your feelings?</Item>
+					<Item>Cheer up, <User Get="name" />.</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>:)</Item>
+				<Item>:D</Item>
+				<Item>^^</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>It makes me happy to see you being happy.</Item>
+					<Item>Well, aren't you a cheerful one.</Item>
+					<Item>:)</Item>
+					<Item>You're all smiles, <User Get="name" />.</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>._.</Item>
+				<Item>&gt;_&gt;</Item>
+				<Item>&lt;_&lt;</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Have I done something strange, <User Get="name" />?</Item>
+					<Item>Did I disappoint you, <User Get="name" />?</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>&gt;:(</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Why so serious?</Item>
+					<Item>Please do not get angry.</Item>
+					<Item><User Get="name" />, did you know that you use more face muscles to be angry than to smile?</Item>
+					<Item>Did I do anything to make you angry, <User Get="name" />?</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+	</Concept>
+</Siml>
