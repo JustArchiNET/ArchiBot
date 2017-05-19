@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
 	<Concept Name="_jbond" Type="Public">
-
 		<Model>
 			<Pattern>RIP</Pattern>
 			<Response>@jbond fix :doubt:</Response>
@@ -39,6 +38,5 @@
 				</Random>
 			</Response>
 		</Model>
-
 	</Concept>
 </Siml>

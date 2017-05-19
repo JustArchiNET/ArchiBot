@@ -38,6 +38,7 @@
 		<Model>
 			<Pattern>
 				<Item>TAIGO ME</Item>
+				<Item>TAIGOME</Item>
 				<Item>TAIGONIZE</Item>
 				<Item>TAIGONIZE ME</Item>
 			</Pattern>

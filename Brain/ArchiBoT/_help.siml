@@ -20,5 +20,10 @@
 			<Pattern>% RADIO %</Pattern>
 			<Response>You can listen to the Touhou radio here: https://radio.justarchi.net/touhou.opus For commands, check https://github.com/JustArchi/ArchiBoT/wiki/Archi's-Touhou-Radio ♪ \:bite:/ ♪</Response>
 		</Model>
+
+		<Model>
+			<Pattern>TODO</Pattern>
+			<Response>...kete? :sgsmile: Visit our TODO tracker: https://todo.justarchi.net Protip: add stuff for Mole, he'll love it! \:bite:/</Response>
+		</Model>
 	</Concept>
 </Siml>
