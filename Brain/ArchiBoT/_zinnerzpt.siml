@@ -14,6 +14,21 @@
 			</Pattern>
 			<Response>
 				<Random>
+					<Item Weight="0.35"><Goto>MISCFACT</Goto></Item>
+					<Item Weight="0.5"><Goto>2HUFACT</Goto></Item>
+					<Item><Goto>BUDGIE FACT</Goto></Item>
+					<Item Weight="0.05"><Goto>NUTFACT</Goto></Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>MISCFACT</Item>
+				<Item>ZINFACT</Item>
+			</Pattern>
+			<Response>
+				<Random>
 					<Item>Did you know you can add your own fortunes?</Item>
 					<Item>Did you know a bear has 42 teeth?</Item>
 					<Item>Did you know zin idled MGS V: The Phantom Pain on the release week?</Item>
@@ -22,7 +37,7 @@
 					<Item>Did you know zin was the first real mod of the group?</Item>
 					<Item>Did you know ArchiBoT was once Zed's waifu?</Item>
 					<Item>Did you know the did you know facts?</Item>
-					<Item>Did you know :Neko:MYON:Neko:?</Item>
+					<Item>Did you know :Neko: MYON :Neko:?</Item>
 					<Item>Did you know we have a mumble? Yeah me neither.</Item>
 					<Item>Did you know I'm a real person?</Item>
 					<Item>Did you know zin is a bot?</Item>
@@ -33,6 +48,19 @@
 					<Item>Did you know !nsfw?</Item>
 					<Item>Did you know if a frog eats enough fireflies, its stomach will glow.</Item>
 					<Item>Did you know that Madu is not only rude, but also madu?</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>BUDGIE FACT</Item>
+				<Item>BUDGIEFACT</Item>
+				<Item>BIRD FACT</Item>
+				<Item>BIRD FACTS</Item>
+			</Pattern>
+			<Response>
+				<Random>
 					<Item>Did you know budgies have a third eyelid that is not usually visible, but that is important for lubricating the eyes and keeping them clear of dirt and debris?</Item>
 					<Item>Did you know budgies have a very high resting respiration rate, ranging between 65-85 breaths per minute?</Item>
 					<Item>Did you know historically, the budgerigar has gone by a variety of different names, including the canary parrot, shell parrot, zebra parrot, warbling grass parakeet, and undulated parakeet?</Item>

@@ -39,18 +39,6 @@
 		</Model>
 
 		<Model>
-			<Pattern>9BALL %</Pattern>
-			<Response>❾: <Goto>MAGICBALL %</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>8BALL %</Pattern>
-			<Response>❽: <Goto>MAGICBALL %</Goto>
-			</Response>
-		</Model>
-
-		<Model>
 			<Pattern>_ XOR _</Pattern>
 			<Response>
 				<Random>
@@ -138,6 +126,24 @@
 					<Item>Windu: Why is nobody buying my $20 backgrounds :doubt:</Item>
 					<Item>Windu: Barter is dead, no more scams :doubt:</Item>
 					<Item>Windu: :doubt: man I made so many humble bundle accounts I can't remember which ones have the unlocks intact</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>GINBALL</Pattern>
+			<Response>
+				<Random>
+					<Item>Gin and Kat sitting in a tree, K-I-S-S-oh wait Gin is so fat that the branch snapped and he fell down. The end.</Item>
+					<Item>{MESSAGE EATEN BY GIN THE FAT CAT}</Item>
+					<Item>May Gin rest in pieces (he was so big they had to bury him in 12 different plots)</Item>
+					<Item>RIP Gin. He died like he lived. Fat.</Item>
+					<Item>Gin once donated one of his old T-shirts to the Reuse T-shirts Foundation. The shirt provided enough fabric to clothe a village of 800.</Item>
+					<Item>♫♪♩ Gin the cat ♪♪ is so fat ♪♪ that when on something he sat ♪♪ it went splat ♩♪♫</Item>
+					<Item>Gin is so fat that they say you can see him and the Great Wall of China from the Moon. I don't believe the wall part.</Item>
+					<Item>Elevators http://i.imgur.com/tigkM93.png</Item>
+					<Item>The Gin Diagram http://i.imgur.com/0PPHQym.jpg</Item>
+					<Item>LMGTFY http://i.imgur.com/lWab1x9.png</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -329,6 +335,18 @@
 		<Model>
 			<Pattern>ROLL</Pattern>
 			<Response>:dice<Js>1 + Math.floor(Math.random() * 6);</Js>:</Response>
+		</Model>
+
+		<Model>
+			<Pattern>9BALL %</Pattern>
+			<Response>❾: <Goto>MAGICBALL %</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>8BALL %</Pattern>
+			<Response>❽: <Goto>MAGICBALL %</Goto>
+			</Response>
 		</Model>
 
 		<Model>
