@@ -31,6 +31,14 @@
 
 		<Model>
 			<Pattern>
+				<Item>CUKIBALL</Item>
+				<Item>WHO IS CUKI</Item>
+			</Pattern>
+			<Response>o.o</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>LENNY</Item>
 				<Item>LENNYFACE</Item>
 				<Item>LENNY FACE</Item>

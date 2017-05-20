@@ -26,7 +26,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>MADU STREAM</Pattern>
+			<Pattern>
+				<Item>MADU STREAM</Item>
+				<Item>MADU STREAMING</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>📞 HALLO POLIZEI</Item>
