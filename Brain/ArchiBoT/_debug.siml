@@ -5,21 +5,40 @@
 			<Pattern>IDDEBUG GET</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
-		</Concept>
+	</Concept>
 
-		<Concept Name="kale test">
-			<Model>
-				<Pattern>DEBUG1</Pattern>
-				<Response>
-				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
-					<Switch User="isBotPrivateChat">
-						<Case Value="True">You're in private chat... It worked :speak:</Case>
-						<Case Value="False">You're in a group chat... But it worked :speak:</Case>
-						<Default>Something went wrong :cry: <User Get="isBotPrivateChat" /></Default>
-					</Switch>
-				</Response>
-			</Model>
-		</Concept>
+	<Concept Name="kale test">
+		<Model>
+			<Pattern>DEBUG1</Pattern>
+			<Response>
+			<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
+				<Switch User="isBotPrivateChat">
+					<Case Value="True">You're in private chat... It worked :speak:</Case>
+					<Case Value="False">You're in a group chat... But it worked :speak:</Case>
+					<Default>Something went wrong :cry: <User Get="isBotPrivateChat" /></Default>
+				</Switch>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>GOTODEBUG</Pattern>
+			<Response><Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto></Response>
+		</Model>
+
+		<Model>
+			<Pattern>ROLLDEBUG</Pattern>
+			<Response>
+				<Random>
+					<Item>1</Item>
+					<Item>2</Item>
+					<Item>3</Item>
+					<Item>4</Item>
+					<Item>5</Item>
+					<Item>6</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 
 	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
