@@ -20,10 +20,14 @@
 			</Response>
 		</Model>
 
-		<Model>
-			<Pattern>GOTODEBUG</Pattern>
-			<Response><Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto> <Goto>ROLLDEBUG</Goto></Response>
-		</Model>
+<Model>
+ <Pattern>GOTODEBUG *</Pattern>
+ <Response>
+  <Think><Var Set="count">0</Var></Think>
+  <Bind Key="{0}"><Match /></Bind>
+  <While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto> </While>
+ </Response>
+</Model>
 
 		<Model>
 			<Pattern>ROLLDEBUG</Pattern>
