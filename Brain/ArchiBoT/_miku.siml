@@ -57,5 +57,14 @@
 				</Random>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>WHAT TO DO % DAY IS DARK</Item>
+			</Pattern>
+			<Response>
+				<Item>alway rember happy day</Item>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>
