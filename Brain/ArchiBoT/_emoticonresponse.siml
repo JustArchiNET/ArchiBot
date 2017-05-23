@@ -43,7 +43,6 @@
 
 		<Model>
 			<Pattern>
-				<Item>._.</Item>
 				<Item>&gt;_&gt;</Item>
 				<Item>&lt;_&lt;</Item>
 				<Item>-_-</Item>
