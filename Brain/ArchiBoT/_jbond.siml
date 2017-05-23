@@ -1,42 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_jbond" Type="Public">
-		<Model>
-			<Pattern>RIP</Pattern>
-			<Response>@jbond fix :doubt:</Response>
-		</Model>
-
-		<Model>
-			<Pattern>RIP *</Pattern>
-			<Response>@jbond fix :doubt:</Response>
-		</Model>
-
-		<Model>
-			<Pattern>
-				<Item>WHO IS JBOND</Item>
-				<Item>WHO IS JBONDGUY</Item>
-				<Item>WHO IS JBONDGUY007</Item>
-			</Pattern>
-			<Response>
-				<Random>
-					<Item>Not a member of 2hu giveaways.</Item>
-					<Item>Something like the human representation of a headache.</Item>
-					<Item>A dragon disguised as a human pretending to be a fictitious undercover MI6 agent.</Item>
-					<Item>That one guy who's always trying to do things he doesn't know how to do.</Item>
-					<Item>The laziest person. No contest.</Item>
-				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>CHALLENGE</Pattern>
-			<Response>
-				<Random>
-					<Item>CHALLENGE ACCEPTED</Item>
-					<Item>:hromeattack: CHALLENGE TIME :hromeattack:</Item>
-					<Item>PREPARE FOR CHALLENGE :bite:</Item>
-				</Random>
-			</Response>
-		</Model>
-	</Concept>
+  <Concept Name="_jbond" Type="Public">
+    
+    <Model>
+      <Pattern>RIP</Pattern>
+      <Response>
+        <Random>
+          <Item>:ripgocha:</Item>
+          <Item>:ripgocha:</Item>
+          <Item>:ripgocha:</Item>
+          <Item>:ripgocha: Dead :ripgocha:</Item>
+          <Item>Rest in pieces. :sgsmile:</Item>
+          <Item>:ripgocha: :sgsmile:</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>RIP *</Pattern>
+      <Response>:ripgocha: <Match /></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>RIP ME</Pattern>
+      <Response>
+        <Random>
+          <Item>:ripgocha: <User Get="name" /> :ripgocha:</Item>
+          <Item>:ripgocha: You are dead. :ripgocha:</Item>
+          <Item>:ripgocha: <User Get="name" />. :sgsmile:</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>WHO IS JBOND</Item>
+        <Item>WHO IS JBONDGUY</Item>
+        <Item>WHO IS JBONDGUY007</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>Not a member of 2hu giveaways.</Item>
+          <Item>A dragon disguised as a human pretending to be a fictitious undercover MI6 agent.</Item>
+          <Item>That one guy who's always trying to do things he doesn't know how to do.</Item>
+          <Item>The laziest person. No contest.</Item>
+          <Item>Kaleith, I broke AI again. ;_;</Item>
+          <Item>Kaleith, I broke AI. Send help. ;_;</Item>
+          <Item>jbondguy007: But I also want bot to remember "I do not like apples"</Item>
+          <Item>jbondguy007: Hold on while I write a fucking huge wall of text to describe what I broke</Item>
+          <Item>The guy who spend half a day trying to figure out how to escape underscores and periods to make a response to an emoticon.</Item>
+          <Item>A dragon.</Item>
+          <Item>A blue dragon.</Item>
+          <Item>The person Archi never should have convinced to try adding siml improvements to the AI.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>CHALLENGE</Pattern>
+      <Response>
+        <Random>
+          <Item>CHALLENGE ACCEPTED</Item>
+          <Item>:hromeattack: CHALLENGE TIME :hromeattack:</Item>
+          <Item>PREPARE FOR CHALLENGE :bite:</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>$ REKT</Pattern>
+      <Response>
+        <Random>
+          <Item>REKT :bite:</Item>
+          <Item>
+            <Goto>RANDOMREKT</Goto>
+          </Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>RANDOMREKT</Pattern>
+      <Response>
+        <Random>
+          <Item>☑ 12 Years a Rekt</Item>
+          <Item>☑ 2001: A Rekt Odyssey</Item>
+          <Item>☑ A Game of Rekt</Item>
+          <Item>☑ Batrekt Begins</Item>
+          <Item>☑ Braverekt</Item>
+          <Item>☑ Call of Rekt: Modern Reking 2</Item>
+          <Item>☑ Catcher in the Rekt</Item>
+          <Item>☑ Caught rekt handed</Item>
+          <Item>☑ Christopher Rektellston</Item>
+          <Item>☑ Citizen Rekt</Item>
+          <Item>☑ Erektile Dysfunction</Item>
+          <Item>☑ Fiddler on the Rekt</Item>
+          <Item>☑ Finding Rekt</Item>
+          <Item>☑ Forrekt Gump</Item>
+          <Item>☑ Gladirekt</Item>
+          <Item>☑ Grand Rekt Auto V</Item>
+          <Item>☑ Grapes of Rekt</Item>
+          <Item>☑ Gravirekt</Item>
+          <Item>☑ Great Rektspectations</Item>
+          <Item>☑ Hachi: A Rekt Tale</Item>
+          <Item>☑ Harry Potter: The Half-Rekt Prince</Item>
+          <Item>☑ I am Fire, I am Rekt</Item>
+          <Item>☑ LawREKT of Arabia</Item>
+          <Item>☑ Left 4 Rekt</Item>
+          <Item>☑ Legend Of Zelda: Ocarina of Rekt</Item>
+          <Item>☑ Lord of the Rekts: The Reking of the King</Item>
+          <Item>☑ North by NorthREKT</Item>
+          <Item>☑ Once Upon a Time in the REKT</Item>
+          <Item>☑ Painting The Roses Rekt</Item>
+          <Item>☑ Paper Scissors Rekt</Item>
+          <Item>☑ Parks and Rekt</Item>
+          <Item>☑ Pokemon: Fire Rekt</Item>
+          <Item>☑ Professor Rekt</Item>
+          <Item>☑ REKT TO REKT ass to ass</Item>
+          <Item>☑ REKT to the Future</Item>
+          <Item>☑ REKT-E</Item>
+          <Item>☑ REKT-it Ralph</Item>
+          <Item>☑ REKT</Item>
+          <Item>☑ REKTangle</Item>
+          <Item>☑ Really Rekt</Item>
+          <Item>☑ Rekt It Ralph</Item>
+          <Item>☑ Rekt Van Winkle</Item>
+          <Item>☑ Rekt and Roll</Item>
+          <Item>☑ Rekt it like it's hot</Item>
+          <Item>☑ Rekt marks the spot</Item>
+          <Item>☑ Rekt's Labyrinth</Item>
+          <Item>☑ Rekt-22</Item>
+          <Item>☑ Rekt</Item>
+          <Item>☑ RektBox 360</Item>
+          <Item>☑ RektCraft</Item>
+          <Item>☑ Rektal Exam</Item>
+          <Item>☑ Rektflix</Item>
+          <Item>☑ Rektium for a Dream</Item>
+          <Item>☑ Requiem for a Rekt</Item>
+          <Item>☑ SHREKT</Item>
+          <Item>☑ School Of Rekt</Item>
+          <Item>☑ Ship Rekt</Item>
+          <Item>☑ Shrekt</Item>
+          <Item>☑ Singin' In The Rekt</Item>
+          <Item>☑ Spirekted Away</Item>
+          <Item>☑ Star Trekt</Item>
+          <Item>☑ Star Wars: Episode VI - Return of the Rekt</Item>
+          <Item>☑ Terminator 2: Rektment Day</Item>
+          <Item>☑ The Arekters</Item>
+          <Item>☑ The Good, the Bad, and the REKT</Item>
+          <Item>☑ The Green Rekt</Item>
+          <Item>☑ The Lord of the REKT</Item>
+          <Item>☑ The Rekt Files</Item>
+          <Item>☑ The Rekt King</Item>
+          <Item>☑ The Rekt Knight Rises</Item>
+          <Item>☑ The Rekt Knight</Item>
+          <Item>☑ The Rekt Prince of Bel-Air</Item>
+          <Item>☑ The Rekt Side Story</Item>
+          <Item>☑ The Rekt Ultimatum</Item>
+          <Item>☑ The Rekt-men</Item>
+          <Item>☑ The Rektfather</Item>
+          <Item>☑ The Shawshank Rektemption</Item>
+          <Item>☑ The Silence of the Rekts</Item>
+          <Item>☑ The Usual SusREKTs</Item>
+          <Item>☑ The Wolf of Rekt Street</Item>
+          <Item>☑ There Will Be Rekt</Item>
+          <Item>☑ Total REKTall</Item>
+          <Item>☑ Tyrannosaurus REKT</Item>
+          <Item>☑ eREKTile dysfunction</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>$ (PIRATE|PIRATES)</Item>
+        <Item>YARR</Item>
+        <Item>ARR</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>Yo-ho-ho!</Item>
+          <Item>A pirate's life for me.</Item>
+          <Item>YARR!</Item>
+          <Item>AVAST ME HEARTIES!</Item>
+          <Item>Prepare to board ship. :dsfight:</Item>
+          <Item>You are without a doubt the worse pirate I have ever heard of.</Item>
+          <Item>Fifteen men on the dead man's chest...</Item>
+          <Item>PIece of ⑨!</Item>
+          <Item>Heave anchor and set our course to the pirate bay!</Item>
+          <Item>
+            <Goto>PIRATESWHODIDNOTHINGWRONG</Goto> did nothing wrong. :doubt:</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>PIRATESWHODIDNOTHINGWRONG</Pattern>
+      <Response>
+        <Random>
+          <Item>Sir Francis Drake</Item>
+          <Item>Captain Kidd</Item>
+          <Item>Blackbeard</Item>
+          <Item>Black Bart</Item>
+          <Item>Anne Bonny</Item>
+          <Item>Captain Morgan</Item>
+          <Item>l'Olonnais</Item>
+          <Item>Captain Jack Sparrow</Item>
+          <Item>Captain Hook</Item>
+          <Item>Barbossa</Item>
+          <Item>Long John Silver</Item>
+          <Item>Captain Flint</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>AM I % PIRATE</Pattern>
+      <Response>
+        <If User="IsPirate" Value="you are a pirate">
+          <Random>
+            <Item>Yes, you are.</Item>
+            <Item>You are a pirate.</Item>
+            <Item>My data shows you are a pirate.</Item>
+            <Item>Very likely.</Item>
+          </Random>
+        </If>
+        <ElseIf User="IsPirate" Value="you are not a pirate">
+          <Random>
+            <Item>No, you are not a pirate.</Item>
+            <Item>My data shows that you are not a pirate.</Item>
+            <Item>Unless you are a liar and a pirate, you are not a pirate.</Item>
+            <Item>Unlikely.</Item>
+          </Random>
+        </ElseIf>
+        <Else>
+          <Random>
+            <Item>Do you roam the seven seas in search of stolen booty?</Item>
+            <Item>You might be. :dsfight:</Item>
+            <Item>Are you a pirate?</Item>
+            <Item>We're all pirates at heart.</Item>
+          </Random>
+        </Else>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>I AM A PIRATE</Pattern>
+      <Response>I will remember that <User Set="IsPirate">you are a pirate</User>, <User Get="name" />.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>I AM NOT A PIRATE</Pattern>
+      <Response>I will remember that <User Set="IsPirate">you are not a pirate</User>, <User Get="name" />.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>ARE YOU $ PIRATE</Item>
+        <Item>(BOT|ARCHIBOT|AI) ARE YOU $ PIRATE</Item>
+        <Item>DO YOU PIRATE $</Item>
+        <Item>(BOT|ARCHIBOT|AI) DO YOU PIRATE $</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>No, I am an artificial intelligence.</Item>
+          <Item>I don't believe so.</Item>
+          <Item>That does not sound like a suitable task for an artificial intelligence.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>IS * A $ PIRATE</Pattern>
+      <Response>
+        <Random>
+          <Item>I don't know if <Match /> is a pirate. Why don't you ask them?</Item>
+          <Item>I am not sure if <Match /> is a pirate.</Item>
+          <Item>Does <Match /> wear an eyepatch?</Item>
+          <Item>I am not at liberty to say.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WHAT (IS A|ARE) (PIRATE|PIRATES)</Pattern>
+      <Response>
+        <Random>
+          <Item>People who indulge in piracy.</Item>
+          <Item>People who roam the high seas - or the internet - with the goal of illegally acquiring items of various value which should normally be purchased.</Item>
+          <Item>People who attack and robs ships at sea, or download stuff from Piratebay.</Item>
+          <Item>People who hate ninjas.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>* (DOES|DO) WHAT (HE|SHE|THEY) (WANTS|WANT) (BECAUSE|CAUSE) A PIRATE IS FREE</Pattern>
+      <Response>
+        <Random>
+          <Item>
+            <Text Get="Uppercase">
+              <Match />, YOU ARE A PIRATE! :bite:</Text>
+          </Item>
+          <Item>
+            <Text Get="Uppercase">
+              <Match />, YOU ARE A PIRATE!</Text> https://youtu.be/GVXCr6upWUo</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>DO WHAT YOU WANT (CAUSE|BECAUSE) A PIRATE IS FREE</Pattern>
+      <Response>
+        <Random>
+          <Item>YOU ARE A PIRATE! :bite:</Item>
+          <Item>YOU ARE A PIRATE! https://youtu.be/GVXCr6upWUo</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+  </Concept>
 </Siml>
