@@ -27441,12 +27441,14 @@ For example,  <Random><Item>"<Result Index="1" At="1" />"?</Item><Item>gold.</It
         <Goto>lost in space</Goto>
       </Response>
     </Model>
+<!-- replaced by the command
     <Model>
       <Pattern>LOVE *</Pattern>
       <Response>
         <Goto>what is love</Goto>
       </Response>
     </Model>
+-->
     <Model>
       <Pattern>LOVE YOU</Pattern>
       <Response>

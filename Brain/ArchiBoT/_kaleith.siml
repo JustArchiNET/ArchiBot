@@ -435,6 +435,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>LOVE *</Pattern>
+			<Response>There's <Js>randomIntBetween(1,100);</Js>% between <Get User="Nickname" /> and <Match /></Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>WHAT IS THE TENTACLE MAFIA</Item>
 				<Item>WHAT IS TENTACLE MAFIA</Item>
