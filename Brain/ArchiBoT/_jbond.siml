@@ -6,9 +6,7 @@
       <Pattern>RIP</Pattern>
       <Response>
         <Random>
-          <Item>:ripgocha:</Item>
-          <Item>:ripgocha:</Item>
-          <Item>:ripgocha:</Item>
+          <Item Weight="0.5">:ripgocha:</Item>
           <Item>:ripgocha: Dead :ripgocha:</Item>
           <Item>Rest in pieces. :sgsmile:</Item>
           <Item>:ripgocha: :sgsmile:</Item>
@@ -99,6 +97,21 @@
           <Item>PREPARE FOR CHALLENGE :bite:</Item>
         </Random>
       </Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>
+    		<Item>(VIVE|VIVA) LA (REVOLUTION|REVOLUCION|révolution|revolución)</Item>
+    		<Item>(REVOLUTION|REVOLUCION|révolution|revolución)</Item>
+    	</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>Revolution! :bite:</Item>
+    			<Item>Down with the dictator! :bite:</Item>
+    			<Item>Revolution? :doubt:</Item>
+    			<Item>VIVE LA REVOLUTION! :bite:</Item>
+    		</Random>
+    	</Response>
     </Model>
     
     <Model>
