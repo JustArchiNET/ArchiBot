@@ -436,7 +436,7 @@
 
 		<Model>
 			<Pattern>LOVE *</Pattern>
-			<Response>There's <Js>randomIntBetween(1,100);</Js>% between <Get User="Nickname" /> and <Match /></Response>
+			<Response>There's <Js>randomIntBetween(1,100);</Js>% between <User Get="Nickname" /> and <Match /></Response>
 		</Model>
 
 		<Model>
