@@ -6,9 +6,7 @@
       <Pattern>RIP</Pattern>
       <Response>
         <Random>
-          <Item>:ripgocha:</Item>
-          <Item>:ripgocha:</Item>
-          <Item>:ripgocha:</Item>
+          <Item Weight="0.5">:ripgocha:</Item>
           <Item>:ripgocha: Dead :ripgocha:</Item>
           <Item>Rest in pieces. :sgsmile:</Item>
           <Item>:ripgocha: :sgsmile:</Item>
@@ -34,9 +32,7 @@
     
     <Model>
       <Pattern>
-        <Item>WHO IS JBOND</Item>
-        <Item>WHO IS JBONDGUY</Item>
-        <Item>WHO IS JBONDGUY007</Item>
+        <Item>WHO IS (JBOND|JBONDGUY|JBONDGUY007)</Item>
       </Pattern>
       <Response>
         <Random>
@@ -57,6 +53,42 @@
     </Model>
     
     <Model>
+    	<Pattern>WHERE IS (JBOND|JBONDGUY|JBONDGUY007)</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>If he isn't here, he's probably gaming or sleeping.</Item>
+    			<Item>He is probably AFK.</Item>
+    			<Item>Probably eating.</Item>
+    			<Item>I'm not sure.</Item>
+    			<Item>Confidential information.</Item>
+    			<Item>I can't say for sure. Ask me again later.</Item>
+    			<Item>Probably fell asleep at his desk. :sgsmile:</Item>
+    			<Item>Are we on the weekend? Probably at work.</Item>
+    			<Item>I'd rather not say.</Item>
+    			<Item>He told me not to disclose his current location to anyone.</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>WHAT DID (JBOND|JBONDGUY|JBONDGUY007) DO</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>Broke everything. :bite:</Item>
+    			<Item>Broke everything again, probably.</Item>
+    			<Item>What didn't jbond do?</Item>
+    			<Item>I'd rather not know.</Item>
+    			<Item>I'd rather not ask.</Item>
+    			<Item>You should ask him.</Item>
+    			<Item>Jbond, what did you do? :doubt:</Item>
+    			<Item>Something horrible, probably.</Item>
+    			<Item>Nothing bad, I hope.</Item>
+    			<Item>Aside from being generally annoying, you mean? :sgsmile:</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
       <Pattern>CHALLENGE</Pattern>
       <Response>
         <Random>
@@ -68,7 +100,22 @@
     </Model>
     
     <Model>
-      <Pattern>$ REKT</Pattern>
+    	<Pattern>
+    		<Item>(VIVE|VIVA) LA (REVOLUTION|REVOLUCION|révolution|revolución)</Item>
+    		<Item>(REVOLUTION|REVOLUCION|révolution|revolución)</Item>
+    	</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>Revolution! :bite:</Item>
+    			<Item>Down with the dictator! :bite:</Item>
+    			<Item>Revolution? :doubt:</Item>
+    			<Item>VIVE LA REVOLUTION! :bite:</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% REKT</Pattern>
       <Response>
         <Random>
           <Item>REKT :bite:</Item>
@@ -174,6 +221,7 @@
     <Model>
       <Pattern>
         <Item>$ (PIRATE|PIRATES)</Item>
+        <Item>EVERYONE $ (PIRATE|PIRATES)</Item>
         <Item>YARR</Item>
         <Item>ARR</Item>
       </Pattern>
@@ -283,7 +331,11 @@
     </Model>
     
     <Model>
-      <Pattern>WHAT (IS A|ARE) (PIRATE|PIRATES)</Pattern>
+      <Pattern>
+        <Item>WHAT IS A $ PIRATE</Item>
+        <Item>WHAT ARE $ PIRATES</Item>
+        <Item>WHO ARE $ PIRATES</Item>
+      </Pattern>
       <Response>
         <Random>
           <Item>People who indulge in piracy.</Item>
@@ -292,6 +344,15 @@
           <Item>People who hate ninjas.</Item>
         </Random>
       </Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>WHO IS A $ PIRATE</Pattern>
+    	<Response>
+    		<Random>
+    			<Item><Goto>PIRATESWHODIDNOTHINGWRONG</Goto>.</Item>
+    		</Random>
+    	</Response>
     </Model>
     
     <Model>
@@ -317,6 +378,108 @@
           <Item>YOU ARE A PIRATE! https://youtu.be/GVXCr6upWUo</Item>
         </Random>
       </Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>PIRATENAME *</Pattern>
+    	<Response><Text Get="Titlecase"><Goto>RANDOMPIRATERANK</Goto> <Match /> <Goto>RANDOMPIRATENAME</Goto></Text></Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>RANDOMPIRATERANK</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>First Mate</Item>
+    			<Item>Quartermaster</Item>
+    			<Item>Sailing Master</Item>
+    			<Item>Gunner</Item>
+    			<Item>Powder Monkey</Item>
+    			<Item>Boatswain</Item>
+    			<Item>Surgeon</Item>
+    			<Item>Cook</Item>
+    			<Item>Captain</Item>
+    			<Item>Carpenter</Item>
+    			<Item>Master Gunner</Item>
+    			<Item>Rigger</Item>
+    			<Item>Swabby</Item>
+    			<Item>Officer</Item>
+    			<Item>Navigator</Item>
+    			<Item>Striker</Item>
+    			<Item>Cabin Boy</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>RANDOMPIRATENAME</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>the land lubber</Item>
+    			<Item>the notorious</Item>
+    			<Item>the cutthroat</Item>
+    			<Item>the buccaneer</Item>
+    			<Item>the corsair</Item>
+    			<Item>the legendary</Item>
+    			<Item>the infamous</Item>
+    			<Item>the deadly</Item>
+    			<Item>the drunk</Item>
+    			<Item>the stinky</Item>
+    			<Item>the horrible</Item>
+    			<Item>the terrible</Item>
+    			<Item>the salty</Item>
+    			<Item>the angry</Item>
+    			<Item>the furious</Item>
+    			<Item>golden teeth</Item>
+    			<Item>the hook</Item>
+    			<Item>the smelly</Item>
+    			<Item>the dangerous</Item>
+    			<Item>the treasure hunter</Item>
+    			<Item>the beached</Item>
+    			<Item>the slasher</Item>
+    			<Item>dirty fingers</Item>
+    			<Item>the unlucky</Item>
+    			<Item>one-eye</Item>
+    			<Item>dead-eye</Item>
+    			<Item>peg-leg</Item>
+    			<Item>the ugly</Item>
+    			<Item>the bluebeard</Item>
+    			<Item>the redbeard</Item>
+    			<Item>the blackbeard</Item>
+    			<Item>the whitebeard</Item>
+    			<Item>the pale</Item>
+    			<Item>the dark</Item>
+    			<Item>of tortuga</Item>
+    			<Item>of port royal</Item>
+    			<Item>of barataria bay</Item>
+    			<Item>the marauder</Item>
+    			<Item>dirty face</Item>
+    			<Item>broken nose</Item>
+    			<Item>the sly</Item>
+    			<Item>seaweed</Item>
+    			<Item>the ocean strider</Item>
+    			<Item>the gold hunter</Item>
+    			<Item>eyepatch</Item>
+    			<Item>the cruel</Item>
+    			<Item>the fierce</Item>
+    			<Item>dirty hair</Item>
+    			<Item>the hairy</Item>
+    			<Item>the salvager</Item>
+    			<Item>the lost</Item>
+    			<Item>the unknown</Item>
+    			<Item>shark slayer</Item>
+    			<Item>rottenteeth</Item>
+    			<Item>brokenfingers</Item>
+    			<Item>the agile</Item>
+    			<Item>the hateful</Item>
+    			<Item>ratface</Item>
+    			<Item>blue eyes</Item>
+    			<Item>red eyes</Item>
+    			<Item>the skinny</Item>
+    			<Item>the fatty</Item>
+    			<Item>the sad</Item>
+    			<Item>the disgusting</Item>
+    		</Random>
+    	</Response>
     </Model>
     
   </Concept>
