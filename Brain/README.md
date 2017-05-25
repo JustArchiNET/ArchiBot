@@ -20,7 +20,7 @@ Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
 - Name it using your selected unique identifier, prefix with ```_``` and use ```.siml``` extension, e.g. ```_bob.siml```
 - Put default SIML content:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
 <Concept Name="_bob" Type="Public">
