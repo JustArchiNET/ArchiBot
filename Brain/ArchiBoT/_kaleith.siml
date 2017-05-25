@@ -27,6 +27,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>GIBNIER</Pattern>
+			<Response>Monmon should give away <Js>randomIntBetween(1,10);</Js> copies of NieR:Automata™ today \:sgsmile:/</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>LASAGNA</Item>
 				<Item>LASAGNE</Item>
