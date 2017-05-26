@@ -48,6 +48,8 @@
           <Item>A dragon.</Item>
           <Item>A blue dragon.</Item>
           <Item>The person Archi never should have convinced to try adding siml improvements to the AI.</Item>
+          <Item>Endless Windscreen Taigo: The guy who won't stop fucking with bottu :3</Item>
+          <Item>jbondguy007: Is sleeping a long-term form of productive</Item>
         </Random>
       </Response>
     </Model>
@@ -112,6 +114,11 @@
     			<Item>VIVE LA REVOLUTION! :bite:</Item>
     		</Random>
     	</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SHRUG</Pattern>
+      <Response>¯\_(ツ)_/¯</Response>
     </Model>
     
     <Model>
