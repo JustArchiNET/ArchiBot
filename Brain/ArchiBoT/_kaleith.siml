@@ -27,8 +27,11 @@
 		</Model>
 
 		<Model>
-			<Pattern>GIBNIER</Pattern>
-			<Response>Monmon should give away <Js>randomIntBetween(1,10);</Js> copies of NieR:Automata™ today \:sgsmile:/</Response>
+			<Pattern>
+				<Item>GIBNIER</Item>
+				<Item>GIB NIER</Item>
+			</Pattern>
+			<Response>Monmon will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/</Response>
 		</Model>
 
 		<Model>
@@ -36,7 +39,11 @@
 				<Item>LASAGNA</Item>
 				<Item>LASAGNE</Item>
 			</Pattern>
-			<Response>Archi's lasagna will be ready in <Js>secondsToString(1632701400 - Math.floor(Date.now()/1000))</Js></Response>
+			<Response>
+				<Think><Var Set="timetolasagna"><Js>1632701400 - Math.floor(Date.now()/1000)</Js></Var></Think>
+				<If Var="timetolasagna" GreaterThan="0">Archi's lasagna will be ready in <Js>secondsToString(<Var Get="timetolasagna" />);</Js></If>
+				<Else>Archi's lasagna has been ready for <Js>secondsToString(<Math Get="abs"><Var Get="timetolasagna" /></Math>);</Js> \:bite:/</Else>
+			</Response>
 		</Model>
 
 		<Model>
