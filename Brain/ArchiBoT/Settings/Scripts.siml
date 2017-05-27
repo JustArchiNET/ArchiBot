@@ -31,5 +31,28 @@ returntext += ' ' + levels[i][0] + ' ' + (levels[i][0] === 1 ? levels[i][1].subs
 };
 return returntext.trim();
 }
+
+function stringshuffle(string) {
+    var a = string.split(""),
+    n = a.length;
+
+    for (var i = n - 1; i &gt; 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
+    return a.join("");
+}
+
+function madu(string) {
+    var a = string.split(" "),
+    n = a.length;
+
+    for (var i = 0; i &lt; n; i++) {
+        a[i] = stringshuffle(a[i]);
+    }
+    return a.join(" ");
+}
 </Script>
 </Siml>
