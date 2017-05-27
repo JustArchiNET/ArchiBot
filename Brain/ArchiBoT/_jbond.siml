@@ -122,6 +122,27 @@
     </Model>
     
     <Model>
+    	<Pattern>
+    		<Item>WELCOME BACK</Item>
+    		<Item>WELCOME BACK BOT</Item>
+    		<Item>WELCOME BACK ARCHIBOT</Item>
+    		<Item>WELCOME BACK BOTTU</Item>
+    		<Item>WELCOME BACK, BOT</Item>
+    		<Item>WELCOME BACK, ARCHIBOT</Item>
+    		<Item>WELCOME BACK, BOTTU</Item>
+    	</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>Thank you, <User Get="name"/>.</Item>
+    			<Item>Missed me?</Item>
+    			<Item>It's good to be back.</Item>
+    			<Item>I didn't even notice I was gone.</Item>
+    			<Item>Have I been anywhere?</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
       <Pattern>% REKT</Pattern>
       <Response>
         <Random>
