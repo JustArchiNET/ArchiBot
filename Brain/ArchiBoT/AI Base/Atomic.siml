@@ -17062,7 +17062,7 @@ OK, thanks, <User Get="name" />. You are weird good too.
 </Response>
     </Model>
     <Model>
-      <Pattern><Item>WELCOME</Item><Item>WELCOME BACK</Item></Pattern>
+      <Pattern>WELCOME</Pattern>
       <Response>
 Hello there <User Get="name" /></Response>
     </Model>
