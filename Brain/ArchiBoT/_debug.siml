@@ -9,12 +9,12 @@
 
 	<Concept Name="kale test">
 		<Model>
-			<Pattern>DEBUG1</Pattern>
+			<Pattern>DEBUG ISPRIVATECHAT</Pattern>
 			<Response>
 				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
 				<Switch User="isBotPrivateChat">
 					<Case Value="True">You're in private chat... It worked :speak:</Case>
-					<Case Value="False">You're in a group chat... But it worked :speak:</Case>
+					<Case Value="False">You're in a group chat... Did it work? :speak:</Case>
 					<Default>Something went wrong :cry: <User Get="isBotPrivateChat" /></Default>
 				</Switch>
 			</Response>
@@ -43,6 +43,11 @@
 			<Response><Think><Bind Key="{0}"><Match /></Bind></Think>I will try to send another message in <Match /> seconds.
 				<Late Second="{0}">Success!</Late>
 			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>DEBUGSILENTLATE *</Pattern>
+			<Response><Think><Bind Key="{0}"><Match /></Bind></Think><Late Second="{0}">Success!</Late></Response>
 		</Model>
 
 <Model>
