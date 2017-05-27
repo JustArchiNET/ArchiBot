@@ -38,6 +38,13 @@
  </Response>
 </Model>
 
+<Model>
+  <Pattern>DEBUGLATE <Match /></Pattern>
+  <Response>I will try to send another message in <Match /> seconds.
+    <Late Second="{Bind:Match}">Success!</Late>
+  </Response>
+</Model>
+
 		<Model>
 			<Pattern>ROLLDEBUG</Pattern>
 			<Response>
