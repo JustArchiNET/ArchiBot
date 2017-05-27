@@ -27,7 +27,8 @@
 
 		<Model>
 			<Pattern>WHO IS (MAUD|MDAU|MDUA|MUAD|MUDA|AMUD|AMDU|ADUM|ADMU|AUDM|AUMD|DMAU|DMUA|DAMU|DAUM|DUMA|DUAM|UMDA|UMAD|UADM|UAMD|UDAM|UDMA)</Pattern>
-			<Response><Js>madu("<Goto>WHO IS MADU</Goto>");</Js></Response>
+			<Response xml:space="preserve">"Who is <Match />"? Ok... :doubt:
+<Text><Js>madu("<Random>(Rude, it's in the fucking name|I believe in the magic of idol music!|O żesz kurwa ja pierdole|KUP TERAZ|The game streaming outlaw who is not afraid of the long arm of the law|The man who gave up his power of teleportation in favor of anime|The guy whose mom has him as Anime in her phone|Anime Incarnate|Madurude - Sandstorm|MADUUUUUUUUU|Madu is the guy you don't want to make madu|OH DESIRE! :kinzo:)</Random>");</Js></Text></Response>
 		</Model>
 
 		<Model>
