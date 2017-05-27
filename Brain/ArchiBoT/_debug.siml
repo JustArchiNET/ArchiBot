@@ -39,7 +39,7 @@
 </Model>
 
 <Model>
-  <Pattern>DEBUGLATE <Match /></Pattern>
+  <Pattern>DEBUGLATE *</Pattern>
   <Response>I will try to send another message in <Match /> seconds.
     <Late Second="{Bind:Match}">Success!</Late>
   </Response>
@@ -58,6 +58,17 @@
 				</Random>
 			</Response>
 		</Model>
+
+<Model>
+  <Pattern>DEBUG35 *</Pattern>
+  <Response>Var set to <Var Set="debug35"><Match /></Var></Response>
+</Model>
+
+<Model>
+  <Pattern>DEBUG36 *</Pattern>
+  <Response>Var is <Var Get="debug35" /></Response>
+</Model>
+
 	</Concept>
 
 	<Concept Name="personaldebug" User="steam-76561198025147895">
