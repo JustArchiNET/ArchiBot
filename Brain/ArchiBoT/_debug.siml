@@ -40,8 +40,8 @@
 		
 		<Model>
 			<Pattern>DEBUGLATE *</Pattern>
-			<Response>I will try to send another message in <Match /> seconds.
-				<Late Second="{Bind:Match}">Success!</Late>
+			<Response><Think><Bind Key="{0}"><Match /></Bind></Think>I will try to send another message in <Match /> seconds.
+				<Late Second="{0}">Success!</Late>
 			</Response>
 		</Model>
 
