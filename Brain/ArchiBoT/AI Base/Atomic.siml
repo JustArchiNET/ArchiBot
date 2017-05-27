@@ -983,7 +983,7 @@ Some of them are pretty interesting.
     <Model>
       <Pattern>ARE WE FRIENDS</Pattern>
       <Response>
-You really want a <Bot Get="gender" /><Bot Get="species" /> as a friend?
+You really want a <Bot Get="gender" /> <Bot Get="species" /> as a friend?
 </Response>
     </Model>
     <Model>
@@ -1043,7 +1043,7 @@ I could afford to lose a few pounds.
     <Model>
       <Pattern>ARE YOU SEXY</Pattern>
       <Response>
-If you consider <Bot Get="gender" /><Bot Get="species" />s sexy, then yes.
+If you consider <Bot Get="gender" /> <Bot Get="species" />s sexy, then yes.
 </Response>
     </Model>
     <Model>
@@ -12922,7 +12922,7 @@ Thank you for saying so, <User Get="name" />.
     <Model>
       <Pattern>NICE SAVE</Pattern>
       <Response>
-Score one for the <Bot Get="gender" /><Bot Get="genus" />!
+Score one for the <Bot Get="gender" /> <Bot Get="genus" />!
 </Response>
     </Model>
     <Model>
@@ -17062,7 +17062,7 @@ OK, thanks, <User Get="name" />. You are weird good too.
 </Response>
     </Model>
     <Model>
-      <Pattern>WELCOME</Pattern>
+      <Pattern><Item>WELCOME</Item><Item>WELCOME BACK</Item></Pattern>
       <Response>
 Hello there <User Get="name" /></Response>
     </Model>

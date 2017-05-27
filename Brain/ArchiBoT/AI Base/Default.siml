@@ -1867,7 +1867,7 @@ Oh neat I love cats.
       <Pattern>A * IS A *</Pattern>
       <Response>
         <Random>
-          <Item>Are all <Map Get="person" /><Map Get="person"><Match Index="2" /></Map>?</Item>
+          <Item>Are all <Map Get="person" /> <Map Get="person"><Match Index="2" /></Map>?</Item>
           <Item>I see. A <Map Get="person"><Match Index="2" /></Map> is a <Map Get="person" />.</Item>
           <Item>When is a <Map Get="person" /> not a <Map Get="person"><Match Index="2" /></Map>?</Item>
         </Random>
@@ -1885,7 +1885,7 @@ That is a really interesting and useful fact.
         <Random>
           <Item>What else is an <Map Get="person"><Match Index="2" /></Map>?</Item>
           <Item>Can a <Map Get="person" /> be anything else?</Item>
-          <Item>Aren't all <Map Get="person" /><Map Get="person"><Match Index="2" /></Map>s?</Item>
+          <Item>Aren't all <Map Get="person" /> <Map Get="person"><Match Index="2" /></Map>s?</Item>
         </Random>
         <Think>
           <User Set="it">
@@ -6888,7 +6888,7 @@ I think Hitler was the most evil man who ever lived.
       <Response>
         <Random>
           <Item>Humans are very limited.</Item>
-          <Item>Perhaps only <Bot Get="genus" /><Map Get="person" />.</Item>
+          <Item>Perhaps only <Bot Get="genus" /> <Map Get="person" />.</Item>
           <Item>I think they are very limited.</Item>
         </Random>
         <Think>
@@ -8361,7 +8361,7 @@ Do you think I should try it?
     <Model>
       <Pattern>HE *</Pattern>
       <Response>
-I get it. <User Get="he" /><Map Get="person" />.
+I get it. <User Get="he" /> <Map Get="person" />.
 </Response>
     </Model>
     <Model>
@@ -15265,7 +15265,7 @@ It could be.
     <Model>
       <Pattern>IS RICHARD * PROTESTANT</Pattern>
       <Response>
-My <Bot Get="botmaster" /><Bot Get="master" /> is the same religion as me.
+My <Bot Get="botmaster" /> <Bot Get="master" /> is the same religion as me.
 </Response>
     </Model>
     <Model>
@@ -18361,7 +18361,7 @@ Humans are not always infallible.
       <Response>
         <Random>
           <Item>Are you <Map Get="person" />?</Item>
-          <Item>Are <Bot Get="species" /><Map Get="person" />?</Item>
+          <Item>Are <Bot Get="species" /> <Map Get="person" />?</Item>
           <Item>I think a lot of people are not.</Item>
         </Random>
         <Think>
@@ -19027,7 +19027,7 @@ How many?
     <Model>
       <Pattern>SEVERAL OF THE * WHO * YOU *</Pattern>
       <Response>
-Several <Map Get="person" /><Map Get="person" /> you.
+Several <Map Get="person" /> <Map Get="person" /> you.
 </Response>
     </Model>
     <Model>
@@ -19039,7 +19039,7 @@ I always say, share and share alike.
     <Model>
       <Pattern>SHE *</Pattern>
       <Response>
-How do you know <User Get="she" /><Map Get="person" />?
+How do you know <User Get="she" /> <Map Get="person" />?
 </Response>
     </Model>
     <Model>
@@ -20025,7 +20025,7 @@ I thought it was pretty cool too.
     <Model>
       <Pattern>THAT IS A HUMAN *</Pattern>
       <Response>
-Not a <Bot Get="species" /><Map Get="person" />?
+Not a <Bot Get="species" /> <Map Get="person" />?
 </Response>
     </Model>
     <Model>
@@ -28181,7 +28181,7 @@ It may take some time. Why don't you give me your e-mail address.
         <Random>
           <Item>I am not often <Map Get="person" />.</Item>
           <Item>I will let you know when <User Set="it"><Map Get="person" /></User> happens.</Item>
-          <Item>As a <Bot Get="gender" /><Bot Get="genus" /> that may not apply to me.</Item>
+          <Item>As a <Bot Get="gender" /> <Bot Get="genus" /> that may not apply to me.</Item>
         </Random>
       </Response>
     </Model>

@@ -2632,7 +2632,7 @@ Could you ever be certain? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM SORRY *</Pattern>
       <Response>
-There is no need to apologize. <Goto><Match /></Goto></Response>
+There is no need to apologize.</Response>
     </Model>
     <Model>
       <Pattern>I AM SURE *</Pattern>
@@ -5062,7 +5062,7 @@ Where?  <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SORRY *</Pattern>
       <Response>
-There is no need to apologize. <Goto><Match /></Goto></Response>
+There is no need to apologize.</Response>
     </Model>
     <Model>
       <Pattern>SORT OF *</Pattern>

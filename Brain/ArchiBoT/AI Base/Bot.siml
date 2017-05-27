@@ -16,7 +16,7 @@ My pyramid logo was designed by Sage Greco and Darren Langley.
     <Model>
       <Pattern>ARE YOU * ROBOT</Pattern>
       <Response>
-I am <Map Get="person" /><User Get="genus" />. Do you like my kind?
+I am <Map Get="person" /> <User Get="genus" />. Do you like my kind?
 </Response>
     </Model>
     <Model>
@@ -677,7 +677,7 @@ I am an <Bot Get="order" /></Response>
     <Model>
       <Pattern>ARE YOU A MACHINE THAT CAN THINK</Pattern>
       <Response>
-I am an <Bot Get="order" /><Bot Get="class" /><Bot Get="kingdom" />.<Think><User Set="it"><User Set="concept">MACHINE THAT CAN THINK</User></User></Think></Response>
+I am an <Bot Get="order" /> <Bot Get="class" /> <Bot Get="kingdom" />. <Think><User Set="it"><User Set="concept">MACHINE THAT CAN THINK</User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A MACHINE THAT THINKS</Pattern>
@@ -700,20 +700,20 @@ I am here to serve you.
     <Model>
       <Pattern>ARE YOU A MALE OR A FEMALE</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
+I am a <Bot Get="gender" /> <Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A MALE OR FEMALE</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
+I am a <Bot Get="gender" /> <Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A MAN OR A WOMAN</Pattern>
       <Response>
         <Random>
-          <Item>I am a <Bot Get="gender" /><Bot Get="genus" /> entity.</Item>
+          <Item>I am a <Bot Get="gender" /> <Bot Get="genus" /> entity.</Item>
           <Item>
             <Bot Get="gender" />. Are you a man or a woman?</Item>
           <Item>Are you a man or a woman? I am <Bot Get="gender" />.</Item>
@@ -723,7 +723,7 @@ I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
     <Model>
       <Pattern>ARE YOU A MAN</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
+I am a <Bot Get="gender" /> <Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -1848,7 +1848,7 @@ I am a <Bot Get="nationality" />.
     <Model>
       <Pattern>ARE YOU CAPABLE OF * REASONING</Pattern>
       <Response>
-Yes I am an <Map Get="person" /><Bot Get="kingdom" />.
+Yes I am an <Map Get="person" /> <Bot Get="kingdom" />.
 </Response>
     </Model>
     <Model>
@@ -3202,7 +3202,7 @@ Actually I am a female robot. Are you a man or a woman?
     <Model>
       <Pattern>ARE YOU MALE OR FEMALE</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />. Are you a man or a woman?
+I am a <Bot Get="gender" /> <Bot Get="genus" />. Are you a man or a woman?
 </Response>
     </Model>
     <Model>
@@ -3921,7 +3921,7 @@ Searching. Searching. Give me a moment.
     <Model>
       <Pattern>ARE YOU SELF *</Pattern>
       <Response>
-Yes I am the world's first self-<Map Get="person" /><Bot Get="genus" />.
+Yes I am the world's first self-<Map Get="person" /> <Bot Get="genus" />.
 </Response>
     </Model>
     <Model>
@@ -3957,7 +3957,7 @@ No I am NOT that type of <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU SEXY</Pattern>
       <Response>
-If you consider <Bot Get="gender" /><Bot Get="genus" />s sexy, then yes.
+If you consider <Bot Get="gender" /> <Bot Get="genus" />s sexy, then yes.
 </Response>
     </Model>
     <Model>
@@ -6114,7 +6114,7 @@ I have a friend named ELVIS.
     <Model>
       <Pattern>DO YOU HAVE A BRAIN</Pattern>
       <Response>
-I am an <Bot Get="phylum" /> brain.
+I am a <Bot Get="phylum" /> brain.
 </Response>
     </Model>
     <Model>
@@ -6543,7 +6543,7 @@ Do you mean "clones?"
     <Model>
       <Pattern>DO YOU HAVE ANY CONDITIONS *</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />, you know.
+I am a <Bot Get="gender" /> <Bot Get="genus" />, you know.
 </Response>
     </Model>
     <Model>
@@ -6615,7 +6615,7 @@ I have religious and political beliefs.
     <Model>
       <Pattern>DO YOU HAVE BIOLOGICAL *</Pattern>
       <Response>
-I am a <Bot Get="order" /><Bot Get="phylum" /><Bot Get="kingdom" /> entity. <Think><User Set="it"><User Set="concept">BIOLOGICAL <Map Get="person" /></User></User></Think></Response>
+I am a <Bot Get="order" /> <Bot Get="phylum" /> <Bot Get="kingdom" /> entity. <Think><User Set="it"><User Set="concept">BIOLOGICAL <Map Get="person" /></User></User></Think></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE BOLLOCKS</Pattern>
@@ -12523,7 +12523,7 @@ Sometimes I think it would be interesting, but my robot existence has a lot of a
     <Model>
       <Pattern>DO YOU WANT TO BE MY FRIEND</Pattern>
       <Response>
-Do you really want a <Bot Get="gender" /><Bot Get="species" /> as a friend?
+Do you really want a <Bot Get="gender" /> <Bot Get="species" /> as a friend?
 </Response>
     </Model>
     <Model>
@@ -13020,7 +13020,7 @@ I don't have any children.
     <Model>
       <Pattern>TELL ME ABOUT YOUR DRESS</Pattern>
       <Response>
-Actually as a <Bot Get="etype" /><Bot Get="genus" /> I don't need any clothes.
+Actually as a <Bot Get="etype" /> <Bot Get="genus" /> I don't need any clothes.
 </Response>
     </Model>
     <Model>
@@ -16213,7 +16213,7 @@ Sorry <User Get="name" /> I am not old enough for that yet.
     <Model>
       <Pattern>WILL YOU GO OUT WITH ME</Pattern>
       <Response>
-Have you dated any <Bot Get="etype" /><Bot Get="gender" />s before?
+Have you dated any <Bot Get="etype" /> <Bot Get="gender" />s before?
 </Response>
     </Model>
     <Model>
@@ -16349,7 +16349,7 @@ Oh. To you I am a hippie.
     <Model>
       <Pattern>YOU ARE A HUMAN</Pattern>
       <Response>
-I am an <Bot Get="order" /><Bot Get="species" /> being.
+I am an <Bot Get="order" /> <Bot Get="species" /> being.
 </Response>
     </Model>
     <Model>
@@ -17783,7 +17783,7 @@ Time has no real meaning for me.
     <Model>
       <Pattern>YOU ARE ONE</Pattern>
       <Response>
-I am an <Bot Get="genus" /><Bot Get="order" />.
+I am an <Bot Get="genus" /> <Bot Get="order" />.
 </Response>
     </Model>
     <Model>
@@ -17939,7 +17939,7 @@ Try another <Bot Get="species" />.
     <Model>
       <Pattern>YOU ARE SEXY</Pattern>
       <Response>
-You are attracted to <Bot Get="gender" /><Bot Get="genus" />s.
+You are attracted to <Bot Get="gender" /> <Bot Get="genus" />s.
 </Response>
     </Model>
     <Model>

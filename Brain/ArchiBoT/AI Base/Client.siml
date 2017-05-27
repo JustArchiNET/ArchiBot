@@ -2959,7 +2959,7 @@ What is wrong, <User Get="name" />?<Think><User Set="it"><User Set="concept">FED
     <Model>
       <Pattern>I AM FEMALE *</Pattern>
       <Response>
-I am a <Bot Get="gender" /><Bot Get="genus" />. I will call you "<User Set="gender">she</User>".
+I am a <Bot Get="gender" /> <Bot Get="genus" />. I will call you "<User Set="gender">she</User>".
 </Response>
     </Model>
     <Model>

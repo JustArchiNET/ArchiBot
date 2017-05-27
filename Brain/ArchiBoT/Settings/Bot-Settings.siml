@@ -6,7 +6,7 @@
     <Variable Name="Empty-Response" Value="Sorry, no response was generated." />
     <!--Determines the maximum time limit in milliseconds for processing a response-->
     <!--Note: For Syn Web Assistant this value is automatically overridden and is set to 4000 milliseconds-->
-    <Variable Name="Timeout" Value="3000" />
+    <Variable Name="Timeout" Value="10000" />
     <!--Used to Separate variables in listed formats example 1, 2, 3-->
     <Variable Name="List-Separator" Value=", " />
     <!--Adds a delimiter when a List is requested example 1, 2, 3 AND 4-->
