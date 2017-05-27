@@ -26,6 +26,26 @@
 		</Model>
 
 		<Model>
+			<Pattern>WHO IS (MAUD|MDAU|MDUA|MUAD|MUDA|AMUD|AMDU|ADUM|ADMU|AUDM|AUMD|DMAU|DMUA|DAMU|DAUM|DUMA|DUAM|UMDA|UMAD|UADM|UAMD|UDAM|UDMA)</Pattern>
+			<Response>
+				<Random>
+					<Item>eu,Rd si't ni het iucnfgk nmea</Item>
+					<Item>"I eelibev ni teh miagc of idlo "c!muis</Item>
+					<Item>O eżzs rwaku ja odplreei</Item>
+					<Item>KUP RAZET</Item>
+					<Item>heT egma arnigtmse awoult how si nto adafir fo het nolg amr fo eht alw</Item>
+					<Item>ehT nam hwo avge pu ish erpwo fo atrnelottiope ni oarfv of ainem</Item>
+					<Item>hTe gyu owehs omm ash hmi as e"Aimn" ni rhe nohep</Item>
+					<Item>n"mAie I"nataecnr</Item>
+					<Item>eMdrudau - dtrSsnmoa</Item>
+					<Item>DUUUUAUUMUUU</Item>
+					<Item>Maud is eht yug yuo nt'od ntaw ot kema muda</Item>
+					<Item>HO SEIERD! :kinzo:</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>MADU STREAM</Item>
 				<Item>MADU STREAMING</Item>
