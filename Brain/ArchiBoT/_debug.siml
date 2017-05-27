@@ -11,7 +11,7 @@
 		<Model>
 			<Pattern>DEBUG1</Pattern>
 			<Response>
-			<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
+				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
 				<Switch User="isBotPrivateChat">
 					<Case Value="True">You're in private chat... It worked :speak:</Case>
 					<Case Value="False">You're in a group chat... But it worked :speak:</Case>
@@ -20,30 +20,30 @@
 			</Response>
 		</Model>
 
-<Model>
- <Pattern>GOTODEBUG *</Pattern>
- <Response>
-  <Think><Var Set="count">0</Var></Think>
-  <Bind Key="{0}"><Match /></Bind>
-  <While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto> </While>
- </Response>
-</Model>
-
-<Model>
- <Pattern>GOTODEBUG2 *</Pattern>
- <Response>
-  <Think><Var Set="count">0</Var></Think>
-  <Bind Key="{0}"><Match /></Bind>
-  <While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto><Goto>ROLLDEBUG</Goto><Goto>ROLLDEBUG</Goto> </While>
- </Response>
-</Model>
-
-<Model>
-  <Pattern>DEBUGLATE *</Pattern>
-  <Response>I will try to send another message in <Match /> seconds.
-    <Late Second="{Bind:Match}">Success!</Late>
-  </Response>
-</Model>
+		<Model>
+			<Pattern>GOTODEBUG *</Pattern>
+			<Response>
+				<Think><Var Set="count">0</Var></Think>
+				<Bind Key="{0}"><Match /></Bind>
+				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto> </While>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>GOTODEBUG2 *</Pattern>
+			<Response>
+				<Think><Var Set="count">0</Var></Think>
+				<Bind Key="{0}"><Match /></Bind>
+				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto><Goto>ROLLDEBUG</Goto><Goto>		ROLLDEBUG</Goto> </While>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>DEBUGLATE *</Pattern>
+			<Response>I will try to send another message in <Match /> seconds.
+				<Late Second="{Bind:Match}">Success!</Late>
+			</Response>
+		</Model>
 
 		<Model>
 			<Pattern>ROLLDEBUG</Pattern>
@@ -59,16 +59,15 @@
 			</Response>
 		</Model>
 
-<Model>
-  <Pattern>DEBUG35 *</Pattern>
-  <Response>Var set to <Var Set="debug35"><Match /></Var></Response>
-</Model>
-
-<Model>
-  <Pattern>DEBUG36 *</Pattern>
-  <Response>Var is <Var Get="debug35" /></Response>
-</Model>
-
+		<Model>
+			<Pattern>DEBUG35 *</Pattern>
+			<Response>Var set to <Var Set="debug35"><Match /></Var></Response>
+		</Model>
+		
+		<Model>
+			<Pattern>DEBUG36 *</Pattern>
+			<Response>Var is <Var Get="debug35" /></Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="personaldebug" User="steam-76561198025147895">
@@ -78,7 +77,7 @@
 		</Model>
 	</Concept>
 
-	<Concept>
+	<Concept Name="publicpersonaldebug">
 		<Model>
 			<Pattern>TESTDEBUG</Pattern>
 			<Response>Nope :cry:</Response>
