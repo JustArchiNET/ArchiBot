@@ -2,7 +2,7 @@
 <Siml>
 	<Concept Name="_debug" Type="Public">
 		<Model>
-			<Pattern>IDDEBUG GET</Pattern>
+			<Pattern>DEBUGID GET</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
 	</Concept>
@@ -21,7 +21,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>GOTODEBUG *</Pattern>
+			<Pattern>DEBUGGOTO *</Pattern>
 			<Response>
 				<Think><Var Set="count">0</Var></Think>
 				<Bind Key="{0}"><Match /></Bind>
@@ -30,11 +30,11 @@
 		</Model>
 		
 		<Model>
-			<Pattern>GOTODEBUG2 *</Pattern>
+			<Pattern>DEBUGGOTO2 *</Pattern>
 			<Response>
 				<Think><Var Set="count">0</Var></Think>
 				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto><Goto>ROLLDEBUG</Goto><Goto>		ROLLDEBUG</Goto> </While>
+				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
 		
@@ -45,8 +45,16 @@
 			</Response>
 		</Model>
 
+<Model>
+<Pattern>COUNT TO *</Pattern>
+<Response>
+<Bind Key="{0}"><Match /></Bind>
+<Var Set="count">0</Var> <While Var="count" Not="{0}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
+</Response>
+</Model>
+
 		<Model>
-			<Pattern>ROLLDEBUG</Pattern>
+			<Pattern>DEBUGROLL</Pattern>
 			<Response>
 				<Random>
 					<Item>1</Item>
@@ -57,16 +65,6 @@
 					<Item>6</Item>
 				</Random>
 			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>INFINITELOOP</Pattern>
-			<Response><Goto>INFINITELOOP2</Goto></Response>
-		</Model>
-
-		<Model>
-			<Pattern>INFINITELOOP2</Pattern>
-			<Response><Goto>INFINITELOOP</Goto></Response>
 		</Model>
 
 		<Model>
@@ -82,14 +80,14 @@
 
 	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
-			<Pattern>TESTDEBUG</Pattern>
+			<Pattern>DEBUGTEST</Pattern>
 			<Response>Test successful :speak:</Response>
 		</Model>
 	</Concept>
 
 	<Concept Name="publicpersonaldebug">
 		<Model>
-			<Pattern>TESTDEBUG</Pattern>
+			<Pattern>DEBUGTEST</Pattern>
 			<Response>Nope :cry:</Response>
 		</Model>
 	</Concept>
