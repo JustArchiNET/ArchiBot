@@ -6480,7 +6480,7 @@ Yes <User Get="name" /> I record and save everything in my Permanent Memory.
     <Model>
       <Pattern>DO YOU LOVE *</Pattern>
       <Response>
-Yes <User Get="name" /><Bot Get="name" /> loves everyone and everything.
+Yes <User Get="name" /> <Bot Get="name" /> loves everyone and everything.
 </Response>
     </Model>
     <Model>
