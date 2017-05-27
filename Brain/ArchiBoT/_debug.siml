@@ -60,6 +60,16 @@
 		</Model>
 
 		<Model>
+			<Pattern>INFINITELOOP</Pattern>
+			<Response><Goto>INFINITELOOP2</Goto></Response>
+		</Model>
+
+		<Model>
+			<Pattern>INFINITELOOP2</Pattern>
+			<Response><Goto>INFINITELOOP</Goto></Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG35 *</Pattern>
 			<Response>Var set to <Var Set="debug35"><Match /></Var></Response>
 		</Model>
