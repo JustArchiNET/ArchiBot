@@ -15,11 +15,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>
-				<Item>COMPLIMENT BOT</Item>
-				<Item>COMPLIMENT ARCHIBOT</Item>
-				<Item>COMPLIMENT YOURSELF</Item>
-			</Pattern>
+			<Pattern>COMPLIMENT (BOT|ARCHIBOT|BOTTU|YOURSELF)</Pattern>
 			<Response>
 				<Random>
 					<Item>I'm amazing.</Item>

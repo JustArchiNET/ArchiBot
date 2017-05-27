@@ -230,10 +230,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>
-				<Item>WHAT IS TALISMANO</Item>
-				<Item>WHAT IS TALISMAN</Item>
-			</Pattern>
+			<Pattern>WHAT IS (TALISMAN|TALISMANO)</Pattern>
 			<Response>
 				<Random>
 					<Item>A game where up to 6 players battle using wits and luck and at the end the leprechaun wins.</Item>
@@ -463,6 +460,11 @@
 					<Item>No idea :zeemonster::sgsmile:</Item>
 				</Random>
 			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>EXPLAIN LASAGNA</Pattern>
+			<Response>Archi once tried to use "!remind 55m" (a non-existent bot command) to remind himself to take his pre-made lasagna out of the oven in 55 minutes. Kaleith raised the all-important question "what if the bot misunderstood 55m as 55 months? Thus, a meme was born. Did you know that <Goto>LASAGNA</Goto>? :sgsmile:</Response>
 		</Model>
 	</Concept>
 </Siml>
