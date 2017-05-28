@@ -21,6 +21,7 @@
   <Filter Value="">
     <Text>=reply</Text>
     <Text>name=reset</Text>
+    <Regex>\.+$</Regex>  <!-- should hopefully placate jbond's ire by removing trailing dots at the end of an input -->
   </Filter>
   <!--SMILE-->
   <Filter Value="smile">
