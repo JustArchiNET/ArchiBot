@@ -18,5 +18,10 @@
                 <Else>Sorry, I couldn't parse the time: <Text>{Time}</Text> (<Text>{TimeInSeconds}</Text> seconds)</Else>
             </Response>
         </Model>
+
+        <Model>
+            <Pattern>Remind me to _ in _</Pattern>
+            <Response><Goto>Remind me in <Match Index="2" /> to <Match /></Goto></Response>
+        </Model>
     </Concept>
 </Siml>
