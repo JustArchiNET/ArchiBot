@@ -216,3 +216,7 @@ pip-log.txt
 .mr.developer.cfg
 
 .idea
+
+## SublimeText
+*.sublime-project
+*.sublime-workspace
