@@ -45,8 +45,8 @@
 		
 		<Model>
 			<Pattern>DEBUGLATE *</Pattern>
-			<Response><Think><Bind Key="{0}"><Match /></Bind><Var Set="SourceID"><User Get="SourceID" /></Var></Think>I will try to send another message in <Match /> seconds.
-				<Late Second="{0}"><Var Get="SourceID" /> Success!</Late>
+			<Response><Think><Bind Key="{0}"><Match /></Bind><Bind Key="{source-id}"><User Get="SourceID" /></Bind></Think>I will try to the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
+				<Late Second="{0}"><Text>{source-id}</Text> Success!</Late>
 			</Response>
 		</Model>
 		
