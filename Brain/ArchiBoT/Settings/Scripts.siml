@@ -90,7 +90,7 @@ return a[index];
             day: 60 * 60 * 24
         };
 
-        var timeArray = trimTrailingComma(timeString).split(' ');
+        var timeArray = removeFromArray(trimTrailingComma(timeString).split(' '), 'and');
 
         if (timeArray.length === 1) {
             var timeInSeconds = parseInt(timeArray[0], 10); // We assume seconds are the default units
@@ -139,6 +139,21 @@ return a[index];
     function trimTrailingComma(string) {
         if (string[string.length - 1] === ',') return string.slice(0, -1);
         return string;
+    }
+
+    /**
+     * Removes given element from an array
+     * @param {Array} array
+     * @param element
+     */
+    function removeFromArray(array, element) {
+        for (var i = array.length; i--;) {
+            if (array[i] === element) {
+                array.splice(i, 1);
+            }
+        }
+
+        return array;
     }
 </Script>
 </Siml>
