@@ -64,6 +64,16 @@
 		</Model>
 
 		<Model>
+			<Pattern>( ͡° ͜ʖ ͡°)</Pattern>
+			<Response>( ͡°( ͡° ͜ʖ ͡°) ͡°)</Response>
+		</Model>
+
+		<Model>
+			<Pattern>( ͡°( ͡° ͜ʖ ͡°) ͡°)</Pattern>
+			<Response>( ͡°( ͡°( ͡° ͜ʖ ͡°) ͡°) ͡°)</Response>
+		</Model>
+
+		<Model>
 			<Pattern>_ XOR _</Pattern>
 			<Response>
 				<Random>

@@ -54,5 +54,27 @@ function madu(string) {
     }
     return a.join(" ");
 }
+
+function arrayofnumbers(n) {
+    var i, arr = [];
+
+    for (i = 0; i &lt; n; i++) {
+        arr.push(i + 1);
+    }
+    n = arr.length;
+
+    for (i = n - 1; i &gt; 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    }
+    return arr;
+}
+
+function pickfromarray(array, index) {
+var a = array.split(",");
+return a[index];
+}
 </Script>
 </Siml>
