@@ -13,7 +13,7 @@
                 </Think>
                 <If Var="timeToReminder" GreaterThan="0">
                     I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>
-                    <Late Seconds="{TimeInSeconds}">Remember to <Text>{Task}</Text></Late>
+                    <Late Second="{TimeInSeconds}">Remember to <Text>{Task}</Text></Late>
                 </If>
                 <Else>Sorry, I couldn't parse the time: <Text>{Time}</Text> (<Text>{TimeInSeconds}</Text>)</Else>
             </Response>
