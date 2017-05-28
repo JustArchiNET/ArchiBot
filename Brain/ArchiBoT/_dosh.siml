@@ -287,7 +287,6 @@
 					<Item>Please give me a weapon like the infinite power of nanoaugmentation. Agent O-range knows I like nanoaugmentation technology.</Item>
 					<Item>I'm not in the mood to kill my own son.</Item>
 					<Item>They're in the women's bathroom. The mole people keep me out cause they don't like women.</Item>
-					<Item>Maybe you should join Majestic 12... in a body bag.</Item>
 					<Item>I have some good news for both of you. I have contamination and mutants in my brain.</Item>
 					<Item>I'm a highly imperfect, unstable solution.</Item>
 					<Item>Do you have ANY IDEA how to MULTIPLY?</Item>
@@ -373,6 +372,7 @@
 					<Item>Electronic surveillance hardly inspires reverence. Perhaps fear and obedience, but not reverence.</Item>
 					<Item>No one will ever worship a software entity peering at them through a camera.</Item>
 					<Item>Take your best shot, Flatlander Woman.</Item>
+					<Item>Maybe you should join Majestic 12... in a body bag.</Item>
 				</Random>
 			</Response>
 		</Model>
