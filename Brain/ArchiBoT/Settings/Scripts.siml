@@ -13,7 +13,7 @@
 	}
 
 	function randomIntBetween(a, b) {
-		if (isInteger(Number(a)) &amp;&amp; isInteger(Number(b)) == true) {
+		if (isInteger(Number(a)) &amp;&amp; isInteger(Number(b))) {
 			var min = Math.min(a, b);
 			var max = Math.max(a, b);
 
@@ -37,7 +37,7 @@
     }
 
     function stringshuffle(string) {
-        var a = string.split(""),
+        var a = string.split("");
         var n = a.length;
 
         for (var i = n - 1; i &gt; 0; i--) {
@@ -51,7 +51,7 @@
     }
 
     function madu(string) {
-        var a = string.split(" "),
+        var a = string.split(" ");
         var n = a.length;
 
         for (var i = 0; i &lt; n; i++) {
@@ -80,7 +80,7 @@
         return arr;
     }
 
-    function pickfromarray(array, index) {
+    function pickfromarray(array, index) { // This one seems to accept a string, not an array.
         var a = array.split(",");
         return a[index];
     }
