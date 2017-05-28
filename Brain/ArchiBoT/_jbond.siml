@@ -110,7 +110,7 @@
     		<Random>
     			<Item>Revolution! :bite:</Item>
     			<Item>Down with the dictator! :bite:</Item>
-    			<Item>Revolution? :doubt:</Item>
+    			<Item>Revolution? :bite:</Item>
     			<Item>VIVE LA REVOLUTION! :bite:</Item>
     		</Random>
     	</Response>
@@ -140,6 +140,18 @@
     			<Item>Have I been anywhere?</Item>
     		</Random>
     	</Response>
+    </Model>
+    
+    <!-- STM Quick Link - Suggestion by Taigo -->
+    <Model>
+    	<Pattern>
+    		<Item>STM</Item>
+    		<Item>STEAMTRADEMATCHER</Item>
+    		<Item>STEAMTRADE MATCHER</Item>
+    		<Item>STEAM TRADE MATCHER</Item>
+    		<Item>% LINK % STM</Item>
+    	</Pattern>
+    	<Response>www.steamtradematcher.com</Response>
     </Model>
     
     <Model>
