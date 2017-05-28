@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+    <Concept Name="_mole">
+        <!-- Remind me, the javascript version -->
+        <Model>
+            <Pattern>Remind me in _ to _</Pattern>
+            <Response>
+                <Think>
+                    <Bind Key="{Time}"><Match /></Bind>
+                    <Bind Key="{TimeInSeconds}"><Js>convertTimeStringToSeconds('<Match />')</Js></Bind>
+                    <Bind Key="{Task}"><Match Index="2" /></Bind>
+                    <Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
+                </Think>
+                <If Var="timeToReminder" GreaterThan="0">
+                    I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>
+                    <Late Seconds="{TimeInSeconds}">Remember to <Text>{Task}</Text></Late>
+                </If>
+                <Else>Sorry, I couldn't parse the time: <Text>{Time}</Text> (<Text>{TimeInSeconds}</Text>)</Else>
+            </Response>
+        </Model>
+    </Concept>
+</Siml>

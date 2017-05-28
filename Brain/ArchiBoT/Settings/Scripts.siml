@@ -76,5 +76,69 @@ function pickfromarray(array, index) {
 var a = array.split(",");
 return a[index];
 }
+
+    /**
+     * Converts human time string to seconds. For easier use in SIML, returns -1 on error.
+     * @param {string} timeString - human readable time string (eg. '3 minutes')
+     * @returns {number} timeInSeconds
+     */
+    function convertTimeStringToSeconds(timeString) {
+        var timeUnits = {
+            second: 1,
+            minute: 60,
+            hour: 60 * 60,
+            day: 60 * 60 * 24
+        };
+
+        var timeArray = trimTrailingComma(timeString).split(' ');
+
+        if (timeArray.length === 1) {
+            var timeInSeconds = parseInt(timeArray[0], 10); // We assume seconds are the default units
+            if (isNaN(timeInSeconds)) return -1;
+            return timeInSeconds;
+        }
+
+        if (timeArray.length === 2) { // [value, unit]
+            var unit = singularizeTimeUnit(timeArray[1].toLowerCase());
+            if (isNaN(timeUnits[unit])) return -1;
+            var timeInSeconds = parseInt(timeArray[0], 10) * timeUnits[unit];
+            return timeInSeconds;
+        }
+
+        if (timeArray.length > 2 &amp;&amp; timeArray.length % 2 === 0) { // Multiple [value, unit] pairs
+            var timeInSeconds = 0;
+            var repeats = timeArray.length / 2;
+
+            for (var i = 0; i &lt; repeats; ++i) {
+                var secondsToAdd = convertTimeStringToSeconds([timeArray[i * 2], timeArray[(i * 2) + 1]].join(' '));
+                if (secondsToAdd > 0) timeInSeconds = timeInSeconds + secondsToAdd;
+            }
+
+            if (!timeInSeconds) return -1;
+            return timeInSeconds;
+        }
+
+        return -1;
+    }
+
+    /**
+     * Converts plural time unit forms to singulars by removing trailing 's'
+     * @param {string} unit
+     * @returns {string} unit
+     */
+    function singularizeTimeUnit(unit) {
+        if (['seconds', 'minutes', 'hours', 'days'].indexOf(unit) !== -1) return unit.slice(0, -1);
+        return unit;
+    }
+
+    /**
+     * Removes trailing commas in given string
+     * @param {string} string
+     * @returns {string} string
+     */
+    function trimTrailingComma(string) {
+        if (string[string.length - 1] === ',') return string.slice(0, -1);
+        return string;
+    }
 </Script>
 </Siml>
