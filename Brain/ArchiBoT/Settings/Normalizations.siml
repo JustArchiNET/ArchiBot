@@ -21,7 +21,6 @@
   <Filter Value="">
     <Text>=reply</Text>
     <Text>name=reset</Text>
-    <Text>"</Text>
   </Filter>
   <!--SMILE-->
   <Filter Value="smile">
