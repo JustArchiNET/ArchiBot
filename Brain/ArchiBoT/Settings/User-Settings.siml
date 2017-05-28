@@ -14,9 +14,6 @@
     <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to ID (if it's private message on given platform). -->
     <Variable Name="SourceID" Value="unknown" />
 
-    <!-- Not initialized directly, can be set in SIML for specifying TargetID in format of platform-ID, of upcoming <Late> responses. Expected usage includes setting this property to current SourceID in SIML before starting <Late> task, so ArchiBoT can remember source origin and respond on the same channel. When not set, SourceID of the last user message will be used instead. -->
-    <Variable Name="TargetID" Value="unknown" />
-
     <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what ID is for. -->
     <Variable Name="Nickname" Value="unknown" />
 
