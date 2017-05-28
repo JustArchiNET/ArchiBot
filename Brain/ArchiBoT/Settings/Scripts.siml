@@ -16,25 +16,29 @@
 		if (isInteger(Number(a)) &amp;&amp; isInteger(Number(b)) == true) {
 			var min = Math.min(a, b);
 			var max = Math.max(a, b);
+
 			return Math.floor(Math.random() * (max - min + 1) + min);
-		} else {
-			return "Please provide 2 integer numbers.";
 		}
+
+        return "Please provide 2 integer numbers.";
 	}
 
     function secondsToString(seconds) {
         var levels = [[Math.floor(seconds / 31536000), 'years'], [Math.floor((seconds % 31536000) / 86400), 'days'], [Math.floor(((seconds % 31536000) % 86400) / 3600), 'hours'], [Math.floor((((seconds % 31536000) % 86400) % 3600) / 60), 'minutes'], [(((seconds % 31536000) % 86400) % 3600) % 60, 'seconds'], ];
-        var returntext = '';
+
+        var secondsString = '';
+
         for (var i = 0, max = levels.length; i &lt; max; i++) {
             if (levels[i][0] === 0) continue;
-            returntext += ' ' + levels[i][0] + ' ' + (levels[i][0] === 1 ? levels[i][1].substr(0, levels[i][1].length - 1) : levels[i][1]);
+            secondsString += ' ' + levels[i][0] + ' ' + (levels[i][0] === 1 ? levels[i][1].substr(0, levels[i][1].length - 1) : levels[i][1]);
         };
-        return returntext.trim();
+
+        return secondsString.trim();
     }
 
     function stringshuffle(string) {
         var a = string.split(""),
-        n = a.length;
+        var n = a.length;
 
         for (var i = n - 1; i &gt; 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
@@ -42,16 +46,18 @@
             a[i] = a[j];
             a[j] = tmp;
         }
+
         return a.join("");
     }
 
     function madu(string) {
         var a = string.split(" "),
-        n = a.length;
+        var n = a.length;
 
         for (var i = 0; i &lt; n; i++) {
             a[i] = stringshuffle(a[i]);
         }
+
         return a.join(" ");
     }
 
@@ -61,7 +67,8 @@
         for (i = 0; i &lt; n; i++) {
             arr.push(i + 1);
         }
-        n = arr.length;
+
+        var n = arr.length;
 
         for (i = n - 1; i &gt; 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
@@ -69,6 +76,7 @@
             arr[i] = arr[j];
             arr[j] = tmp;
         }
+
         return arr;
     }
 
