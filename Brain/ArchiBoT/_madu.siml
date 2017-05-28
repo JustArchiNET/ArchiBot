@@ -28,7 +28,7 @@
 		<Model>
 			<Pattern>WHO IS (MAUD|MDAU|MDUA|MUAD|MUDA|AMUD|AMDU|ADUM|ADMU|AUDM|AUMD|DMAU|DMUA|DAMU|DAUM|DUMA|DUAM|UMDA|UMAD|UADM|UAMD|UDAM|UDMA)</Pattern>
 			<Response xml:space="preserve">"Who is <Match />"? Ok... :doubt:
-<Text><Goto>WORDSHUFFLE <Goto>WHO IS MADU</Goto></Goto></Text></Response>
+<Text><Goto>MADUNIZE <Goto>WHO IS MADU</Goto></Goto></Text></Response>
 		</Model>
 
 		<Model>
@@ -47,5 +47,44 @@
 				</Random>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>MADUNIZE _</Pattern>
+			<Response>
+				<Think>
+					<Var Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
+					<Bind Key="{wordcount}"><Var Get="wordcount" /></Bind>
+					<Var Set="wordshuffle-i">0</Var>
+				</Think>
+				<While Var="wordshuffle-i" Not="{wordcount}">
+						<Think>
+							<Var Set="wordshuffle-i"><Math Get="increment"><Var Get="wordshuffle-i" /></Math></Var>
+							<Bind Key="{2}"><Var Get="wordshuffle-i" /></Bind>
+						</Think>
+					<Text><Goto>STRINGSHUFFLE <Text WordAt="{2}"><Match /></Text></Goto> </Text>
+				</While>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>STRINGSHUFFLE _</Pattern>
+			<Response>
+				<Think>
+					<Var Set="chars"><Text Get="Length"><Match /></Text></Var>
+					<Bind Key="{0}"><Var Get="chars" /></Bind>
+					<Var Set="i">0</Var>
+					<Var Set="numberarray"><Js>arrayofnumbers("<Var Get="chars" />")</Js></Var>
+				</Think>
+				<While Var="i" Not="{0}">
+						<Think>
+							<Var Set="j"><Js>pickfromarray("<Var Get="numberarray" />","<Var Get="i" />");</Js></Var>
+							<Var Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
+							<Bind Key="{2}"><Var Get="j" /></Bind>
+						</Think>
+					<Text CharAt="{2}"><Match /></Text>
+				</While>
+			</Response>
+		</Model>
+
 	</Concept>
 </Siml>

@@ -9,44 +9,6 @@
 
 	<Concept Name="kale test">
 		<Model>
-			<Pattern>WORDSHUFFLE *</Pattern>
-			<Response>
-				<Think>
-					<Var Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
-					<Bind Key="{wordcount}"><Var Get="wordcount" /></Bind>
-					<Var Set="wordshuffle-i">0</Var>
-				</Think>
-				<While Var="wordshuffle-i" Not="{wordcount}">
-						<Think>
-							<Var Set="wordshuffle-i"><Math Get="increment"><Var Get="wordshuffle-i" /></Math></Var>
-							<Bind Key="{2}"><Var Get="wordshuffle-i" /></Bind>
-						</Think>
-					<Text><Goto>STRINGSHUFFLE <Text WordAt="{2}"><Match /></Text></Goto> </Text>
-				</While>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>STRINGSHUFFLE *</Pattern>
-			<Response>
-				<Think>
-					<Var Set="chars"><Text Get="Length"><Match /></Text></Var>
-					<Bind Key="{0}"><Var Get="chars" /></Bind>
-					<Var Set="i">0</Var>
-					<Var Set="numberarray"><Js>arrayofnumbers("<Var Get="chars" />")</Js></Var>
-				</Think>
-				<While Var="i" Not="{0}">
-						<Think>
-							<Var Set="j"><Js>pickfromarray("<Var Get="numberarray" />","<Var Get="i" />");</Js></Var>
-							<Var Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
-							<Bind Key="{2}"><Var Get="j" /></Bind>
-						</Think>
-					<Text CharAt="{2}"><Match /></Text>
-				</While>
-			</Response>
-		</Model>
-
-		<Model>
 			<Pattern>WORDAT *</Pattern>
 			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
 		</Model>
