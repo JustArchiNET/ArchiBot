@@ -47,6 +47,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>WORDAT *</Pattern>
+			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG ISPRIVATECHAT</Pattern>
 			<Response>
 				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
