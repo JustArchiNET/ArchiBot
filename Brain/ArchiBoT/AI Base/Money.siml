@@ -57,7 +57,7 @@ Nobody pays a <Bot Get="age" /> year old <Bot Get="gender" /> .
     <Model>
       <Pattern>HOW MUCH DO THEY PAY *</Pattern>
       <Response>
-        <Bot Get="age" /> year old <bot Name="gender" />s work for free. We don't need money.
+        <Bot Get="age" /> year old <Bot Name="gender" />s work for free. We don't need money.
 </Response>
     </Model>
     <Model>
