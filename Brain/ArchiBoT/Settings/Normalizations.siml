@@ -373,7 +373,7 @@
     <Word>:5</Word>
     <Word>: 5</Word>
   </Filter>
-  <!--POINTED NUMBERS
+  <!--POINTED NUMBERS not needed if the sentence splitters is kept as ". " instead of "."
   <Filter Word=".0" Value="point 0" />
   <Filter Word=".1" Value="point 1" />
   <Filter Word=".2" Value="point 3" />

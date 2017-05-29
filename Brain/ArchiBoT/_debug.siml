@@ -25,6 +25,8 @@
 			</Response>
 		</Model>
 
+		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>
+
 		<Model>
 			<Pattern>DEBUGGOTO *</Pattern>
 			<Response>
@@ -42,14 +44,28 @@
 				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>DEBUGLATE *</Pattern>
-			<Response><Think><Bind Key="{0}"><Match /></Bind><Bind Key="{source-id}"><User Get="SourceID" /></Bind></Think>I will try to the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
-				<Late Second="{0}"><Text>{source-id}</Text> Success!</Late>
+			<Response>I will try to send the message "Success!" in <Match /> seconds.
+				<Late Second="{Bind Match}">Success!</Late>
 			</Response>
 		</Model>
-		
+<!-- edit to test target-id in the future -->
+		<Model>
+			<Pattern>DEBUGLATESELF *</Pattern>
+			<Response><Think><Bind Key="{source-id}"><User Get="SourceID" /></Bind></Think>I will try to send the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
+				<Late Second="{Bind Match}"><Text>{source-id}</Text> Success!</Late>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>DEBUGLATE2HU *</Pattern>
+			<Response>I will try to send you a message in the Touhou Chat in <Match /> seconds.
+				<Late Second="{Bind Match}">Did you get this message in Touhou chat? :sgsmile:</Late>
+			</Response>
+		</Model>
+
 		<Model>
 			<Pattern>DEBUGSILENTLATE *</Pattern>
 			<Response><Think><Bind Key="{0}"><Match /></Bind></Think><Late Second="{0}">Success!</Late></Response>
