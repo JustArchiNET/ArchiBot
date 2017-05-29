@@ -23,5 +23,17 @@
             <Pattern>Remind me to _ in _</Pattern>
             <Response><Goto>Remind me in <Match Index="2" /> to <Match /></Goto></Response>
         </Model>
+
+        <!-- BWH -->
+        <!--
+            23:28 - Chat Exorcist Taigo: I want
+            23:28 - Chat Exorcist Taigo: A command to get measurements of anime girls
+        -->
+        <Model>
+            <Pattern>BWH _</Pattern>
+            <Response>
+                <Match />'s three sizes are <Js>randomIntBetween(60, 120)</Js>-<Js>randomIntBetween(45, 90)</Js>-<Js>randomIntBetween(60, 120)</Js>
+            </Response>
+        </Model>
     </Concept>
 </Siml>
