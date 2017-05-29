@@ -113,13 +113,13 @@
             return timeInSeconds;
         }
 
-        if (timeArray.length > 2 &amp;&amp; timeArray.length % 2 === 0) { // Multiple [value, unit] pairs
+        if (timeArray.length &gt; 2 &amp;&amp; timeArray.length % 2 === 0) { // Multiple [value, unit] pairs
             var timeInSeconds = 0;
             var repeats = timeArray.length / 2;
 
             for (var i = 0; i &lt; repeats; ++i) {
                 var secondsToAdd = convertTimeStringToSeconds([timeArray[i * 2], timeArray[(i * 2) + 1]].join(' '));
-                if (secondsToAdd > 0) timeInSeconds = timeInSeconds + secondsToAdd;
+                if (secondsToAdd &gt; 0) timeInSeconds = timeInSeconds + secondsToAdd;
             }
 
             if (!timeInSeconds) return -1;
