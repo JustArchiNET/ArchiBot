@@ -476,5 +476,10 @@
 			<Pattern>EXPLAIN LASAGNA</Pattern>
 			<Response>Archi once tried to use "!remind 55m" (a non-existent bot command) to remind himself to take his pre-made lasagna out of the oven in 55 minutes. Kaleith raised the all-important question "what if the bot misunderstood 55m as 55 months? Thus, a meme was born. Did you know that <Goto>LASAGNA</Goto>? :sgsmile:</Response>
 		</Model>
+
+		<Model>
+			<Pattern>ZLIA</Pattern>
+			<Response>Hi, slightly more social than me people, a lot more social than me people, people who claim they are less social than me and anyone else reading this message.</Response>
+		</Model>
 	</Concept>
 </Siml>
