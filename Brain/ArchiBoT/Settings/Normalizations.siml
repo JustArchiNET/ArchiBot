@@ -373,7 +373,7 @@
     <Word>:5</Word>
     <Word>: 5</Word>
   </Filter>
-  <!--POINTED NUMBERS-->
+  <!--POINTED NUMBERS
   <Filter Word=".0" Value="point 0" />
   <Filter Word=".1" Value="point 1" />
   <Filter Word=".2" Value="point 3" />
@@ -382,7 +382,7 @@
   <Filter Word=".6" Value="point 6" />
   <Filter Word=".7" Value="point 7" />
   <Filter Word=".8" Value="point 8" />
-  <Filter Word=".9" Value="point 9" />
+  <Filter Word=".9" Value="point 9" /> -->
   <!--DOCTOR-->
   <Filter Value="dr">
     <Word>dr.</Word>
