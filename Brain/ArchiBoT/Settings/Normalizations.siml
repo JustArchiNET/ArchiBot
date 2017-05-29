@@ -349,6 +349,7 @@
   </Filter>
   <Filter Word="{" Value="beginscript" />
   <Filter Word="}" Value="endscript" />
+<!--THIELAK no idea why you'd filter those
   <Filter Value="0">
     <Word>:0</Word>
     <Word>: 0</Word>
@@ -373,7 +374,8 @@
     <Word>:5</Word>
     <Word>: 5</Word>
   </Filter>
-  <!--POINTED NUMBERS not needed if the sentence splitters is kept as ". " instead of "."
+/THIELAK -->
+  <!--THIELAK: POINTED NUMBERS not needed if the sentence splitters is kept as ". " instead of "."
   <Filter Word=".0" Value="point 0" />
   <Filter Word=".1" Value="point 1" />
   <Filter Word=".2" Value="point 3" />
@@ -382,7 +384,8 @@
   <Filter Word=".6" Value="point 6" />
   <Filter Word=".7" Value="point 7" />
   <Filter Word=".8" Value="point 8" />
-  <Filter Word=".9" Value="point 9" /> -->
+  <Filter Word=".9" Value="point 9" /> 
+/THIELAK-->
   <!--DOCTOR-->
   <Filter Value="dr">
     <Word>dr.</Word>

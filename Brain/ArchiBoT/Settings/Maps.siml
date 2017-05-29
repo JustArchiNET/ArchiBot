@@ -49472,32 +49472,32 @@
     <MapItem Content="x" Value="x" />
     <MapItem Content="y" Value="ʎ" />
     <MapItem Content="z" Value="z" />
-	  <MapItem Content="A" Value="ɐ" />
-	  <MapItem Content="B" Value="q" />
-	  <MapItem Content="C" Value="ɔ" />
-	  <MapItem Content="D" Value="p" />
-	  <MapItem Content="E" Value="ǝ" />
-	  <MapItem Content="F" Value="ɟ" />
-	  <MapItem Content="G" Value="ƃ" />
-	  <MapItem Content="H" Value="ɥ" />
-	  <MapItem Content="I" Value="ᴉ" />
-	  <MapItem Content="J" Value="ɾ" />
-	  <MapItem Content="K" Value="ʞ" />
-	  <MapItem Content="L" Value="l" />
-	  <MapItem Content="M" Value="ɯ" />
-	  <MapItem Content="N" Value="u" />
-	  <MapItem Content="O" Value="o" />
-	  <MapItem Content="P" Value="d" />
-	  <MapItem Content="Q" Value="b" />
-	  <MapItem Content="R" Value="ɹ" />
-	  <MapItem Content="S" Value="s" />
-	  <MapItem Content="T" Value="ʇ" />
-	  <MapItem Content="U" Value="n" />
-	  <MapItem Content="V" Value="ʌ" />
-	  <MapItem Content="W" Value="ʍ" />
-	  <MapItem Content="X" Value="x" />
-	  <MapItem Content="Y" Value="ʎ" />
-	  <MapItem Content="Z" Value="z" />
+    <MapItem Content="A" Value="ɐ" />
+    <MapItem Content="B" Value="q" />
+    <MapItem Content="C" Value="ɔ" />
+    <MapItem Content="D" Value="p" />
+    <MapItem Content="E" Value="ǝ" />
+    <MapItem Content="F" Value="ɟ" />
+    <MapItem Content="G" Value="ƃ" />
+    <MapItem Content="H" Value="ɥ" />
+    <MapItem Content="I" Value="ᴉ" />
+    <MapItem Content="J" Value="ɾ" />
+    <MapItem Content="K" Value="ʞ" />
+    <MapItem Content="L" Value="l" />
+    <MapItem Content="M" Value="ɯ" />
+    <MapItem Content="N" Value="u" />
+    <MapItem Content="O" Value="o" />
+    <MapItem Content="P" Value="d" />
+    <MapItem Content="Q" Value="b" />
+    <MapItem Content="R" Value="ɹ" />
+    <MapItem Content="S" Value="s" />
+    <MapItem Content="T" Value="ʇ" />
+    <MapItem Content="U" Value="n" />
+    <MapItem Content="V" Value="ʌ" />
+    <MapItem Content="W" Value="ʍ" />
+    <MapItem Content="X" Value="x" />
+    <MapItem Content="Y" Value="ʎ" />
+    <MapItem Content="Z" Value="z" />
     <MapItem Content="ᵏ" Value="ʞ" />
     <MapItem Content="ᵉ" Value="ǝ" />
     <MapItem Content="ʳ" Value="ɹ" />
@@ -49531,13 +49531,13 @@
     <MapItem Content="$" Value="$" />
     <MapItem Content="~" Value="~" />
     <MapItem Content=":" Value=":" />
-		<MapItem Content="0" Value="0" />
+    <MapItem Content="0" Value="0" />
     <MapItem Content="1" Value="Ɩ" />
     <MapItem Content="2" Value="2" />
     <MapItem Content="3" Value="Ɛ" />
     <MapItem Content="4" Value="ㄣ" />
     <MapItem Content="5" Value="ϛ" />
-		<MapItem Content="6" Value="9" />
+    <MapItem Content="6" Value="9" />
     <MapItem Content="7" Value="ㄥ" />
     <MapItem Content="8" Value="8" />
     <MapItem Content="9" Value="6" />
