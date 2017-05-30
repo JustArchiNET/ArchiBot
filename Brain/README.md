@@ -41,3 +41,31 @@ Have you created your file already in the past and got approved? Great, it's eve
 - Modify it the way you want
 - When done, commit your changes and create a pull request for it
 - wait for approval :+1:
+
+---
+
+## SIML guidelines
+
+- If given `<Pattern>` is **not** expected to be called by user, it should be prefixed with `{Name}_` of the `<Concept>`.
+
+For example, instead of:
+
+```xml
+<Concept Name="_bob" Type="public">
+  <Model>
+    <Pattern>GET_RANDOM_CAT</Pattern>
+  </Model>
+</Concept>
+```
+
+It should be:
+
+```xml
+<Concept Name="_bob" Type="public">
+  <Model>
+    <Pattern>_bob_GET_RANDOM_CAT</Pattern>
+  </Model>
+</Concept>
+```
+
+Thanks to that we won't need to fight with potential conflicts if the same pattern is declared twice in two different files.
