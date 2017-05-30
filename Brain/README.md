@@ -55,7 +55,8 @@ For example, instead of:
   <Model>
     <Pattern>GET_RANDOM_CAT</Pattern>
   </Model>
-</Concept>```
+</Concept>
+```
 
 It should be:
 
@@ -64,6 +65,7 @@ It should be:
   <Model>
     <Pattern>_bob_GET_RANDOM_CAT</Pattern>
   </Model>
-</Concept>```
+</Concept>
+```
 
 Thanks to that we won't need to fight with potential conflicts if the same pattern is declared twice in two different files.
