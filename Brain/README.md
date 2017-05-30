@@ -51,21 +51,19 @@ Have you created your file already in the past and got approved? Great, it's eve
 For example, instead of:
 
 ```xml
-<Concept Name="_bob" Type="public">
+<Concept Name="_bob">
   <Model>
     <Pattern>GET_RANDOM_CAT</Pattern>
   </Model>
-</Concept>
-```
+</Concept>```
 
 It should be:
 
 ```xml
-<Concept Name="_bob" Type="public">
+<Concept Name="_bob">
   <Model>
     <Pattern>_bob_GET_RANDOM_CAT</Pattern>
   </Model>
-</Concept>
-```
+</Concept>```
 
 Thanks to that we won't need to fight with potential conflicts if the same pattern is declared twice in two different files.
