@@ -66,10 +66,10 @@
 		<Model>
 			<Pattern>SPAMTAIGO *</Pattern>
 			<Response>
-				<If User="ID" Value="steam-76561198025147895">
+				<If User="ID" Value="steam-76561198025147895">Let's spam TAIGO <Match /> times \:bite:/
 						<Think><Var Set="count">0</Var></Think>
 						<While Var="count" Not="{Bind Match}">
-							<Bind Key="{sec}"><Math><Var Get="count" />*10</Math></Bind>
+							<Bind Key="{sec}"><Math><Var Get="count" />*5</Math></Bind>
 							<Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
 							</Think>
 							<Late Second="{sec}"><Goto>TAIGO</Goto></Late>
