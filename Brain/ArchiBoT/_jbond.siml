@@ -154,6 +154,12 @@
     	<Response>www.steamtradematcher.com</Response>
     </Model>
     
+    <!-- Response to Sand - Suggestion by Taigo -->
+    <Model>
+    	<Pattern>% SAND</Pattern>
+    	<Response>I don't like sand. It's coarse and rough and irritating and it gets everywhere.</Response>
+    </Model>
+    
     <Model>
       <Pattern>% REKT</Pattern>
       <Response>
