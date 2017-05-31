@@ -19,7 +19,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>I'M A LOSER</Pattern>
+			<Pattern>I AM A LOSER</Pattern>
 			<Response>
 					<Random>
 						<Item>The stupid sun was in your eyes.</Item>
