@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_winstructions" Type="public">
+  <Concept Name="_winstructions">
     <!-- Wacky Instructions - Open to editing and improving. -->
-    
     <Model>
-      <Pattern>WINSTRUCTIONS</Pattern>
+      <Pattern>
+        <Item>WINSTRUCTIONS</Item>
+        <Item>WINSTRUCTION</Item>
+    </Pattern>
       <Response>
+        <Think><User Set="concept">winst_private</User></Think>
         <Text Get="Sentence">
-          <Goto>PART1</Goto> <Goto>PART2</Goto> <Goto>PART3</Goto> into <Goto>PART4</Goto>. Then, carefully <Goto>PART5</Goto> your <Goto>PART6</Goto> to <Goto>PART3</Goto>, and <Goto>PART7</Goto> to <Goto>PART8</Goto> about <Goto>PART9</Goto> <Goto>PART10</Goto>. <Goto>PART11</Goto> you will <Goto>PART12_1</Goto>. :sgsmile:</Text>
+          <Goto>WINST_P1</Goto> <Goto>WINST_P2</Goto> <Goto>WINST_P3</Goto> into <Goto>WINST_P4</Goto>. Then, carefully <Goto>WINST_P5</Goto> your <Goto>WINST_P6</Goto> to <Goto>WINST_P3</Goto>, and <Goto>WINST_P7</Goto> to <Goto>WINST_P8</Goto> about <Goto>WINST_P9</Goto> <Goto>WINST_P10</Goto>. <Goto>WINST_P11</Goto> you will <Goto>WINST_P12_1</Goto>. :sgsmile:</Text>
+          <Think><User Set="concept"></User></Think>
       </Response>
     </Model>
-    
+  </Concept>
+
+<!-- private concept for winstructions parts -->
+  <Concept Name="winst_private" Type="private">
     <Model>
-      <Pattern>PART1</Pattern>
+      <Pattern>WINST_P1</Pattern>
       <Response>
         <Random>
           <Item>first,</Item>
@@ -27,7 +34,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART2</Pattern>
+      <Pattern>WINST_P2</Pattern>
       <Response>
         <Random>
           <Item>get</Item>
@@ -46,7 +53,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART3</Pattern>
+      <Pattern>WINST_P3</Pattern>
       <Response>
         <Random>
           <Item>a dog</Item>
@@ -103,7 +110,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART4</Pattern>
+      <Pattern>WINST_P4</Pattern>
       <Response>
         <Random>
           <Item>a cauldron</Item>
@@ -136,7 +143,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART5</Pattern>
+      <Pattern>WINST_P5</Pattern>
       <Response>
         <Random>
           <Item>throw</Item>
@@ -152,7 +159,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART6</Pattern>
+      <Pattern>WINST_P6</Pattern>
       <Response>
         <Random>
           <Item>batteries</Item>
@@ -198,7 +205,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART7</Pattern>
+      <Pattern>WINST_P7</Pattern>
       <Response>
         <Random>
           <Item>yell</Item>
@@ -215,11 +222,11 @@
     </Model>
     
     <Model>
-      <Pattern>PART8</Pattern>
+      <Pattern>WINST_P8</Pattern>
       <Response>
         <Random>
           <Item Weight="0.3">
-            <Goto>PART12_3</Goto>
+            <Goto>WINST_P12_3</Goto>
           </Item>
           <Item>me</Item>
           <Item>the moon</Item>
@@ -244,7 +251,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART9</Pattern>
+      <Pattern>WINST_P9</Pattern>
       <Response>
         <Random>
           <Item>the meaning of</Item>
@@ -273,11 +280,11 @@
     </Model>
     
     <Model>
-      <Pattern>PART10</Pattern>
+      <Pattern>WINST_P10</Pattern>
       <Response>
         <Random>
           <Item Weight="0.05">
-            <Goto>PART3</Goto>
+            <Goto>WINST_P3</Goto>
           </Item>
           <Item>life</Item>
           <Item>love</Item>
@@ -312,7 +319,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART11</Pattern>
+      <Pattern>WINST_P11</Pattern>
       <Response>
         <Random>
           <Item>If done correctly,</Item>
@@ -328,11 +335,11 @@
     </Model>
     
     <Model>
-      <Pattern>PART12_1</Pattern>
+      <Pattern>WINST_P12_1</Pattern>
       <Response>
         <Random>
           <Item Weight="0.7">
-            <Goto>PART12_2</Goto> <Goto>PART12_3</Goto></Item>
+            <Goto>WINST_P12_2</Goto> <Goto>WINST_P12_3</Goto></Item>
           <Item>feel very old</Item>
           <Item>feel very young</Item>
           <Item>look weird</Item>
@@ -361,7 +368,7 @@
     </Model>
     
     <Model>
-      <Pattern>PART12_2</Pattern>
+      <Pattern>WINST_P12_2</Pattern>
       <Response>
         <Random>
           <Item>smell like</Item>
@@ -381,11 +388,11 @@
     </Model>
     
     <Model>
-      <Pattern>PART12_3</Pattern>
+      <Pattern>WINST_P12_3</Pattern>
       <Response>
         <Random>
           <Item Weight="0.1">
-            <Goto>PART3</Goto>
+            <Goto>WINST_P3</Goto>
           </Item>
           <Item>a steak</Item>
           <Item>a potato</Item>
