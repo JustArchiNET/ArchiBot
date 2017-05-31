@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Biography">
+  <Concept Name="Biography">
     <Model>
       <Pattern>ADA LOVELACE IS CREDITED WITH * </Pattern>
       <Response>

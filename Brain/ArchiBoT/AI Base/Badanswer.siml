@@ -93,7 +93,7 @@
       </Response>
     </Model>
   </Concept>
-  <Concept Type="public" Name="Badanswer">
+  <Concept Name="Badanswer">
     <Model>
       <Pattern>BAD ANSWER</Pattern>
       <Response>

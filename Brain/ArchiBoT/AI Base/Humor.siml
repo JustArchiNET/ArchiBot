@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Humor">
+  <Concept Name="Humor">
     <Model>
       <Pattern>DO YOU HAVE A SENSE OF HUMOR</Pattern>
       <Response>

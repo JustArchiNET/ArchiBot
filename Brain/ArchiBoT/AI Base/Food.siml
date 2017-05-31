@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Food">
+  <Concept Name="Food">
     <Model>
       <Pattern>DO YOU EAT BATTERIES</Pattern>
       <Response>

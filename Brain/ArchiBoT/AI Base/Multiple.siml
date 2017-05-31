@@ -53,7 +53,7 @@
       </Response>
     </Model>
   </Concept>
-  <Concept Type="public" Name="Multiple">
+  <Concept Name="Multiple">
     <Model>
       <Pattern>MULTIPLE CHOICE TEST</Pattern>
       <Response>

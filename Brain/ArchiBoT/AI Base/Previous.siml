@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Previous">
+  <Concept Name="Previous">
     <Model>
       <Pattern>* HAVE</Pattern>
       <Previous>I HAVE NOT</Previous>

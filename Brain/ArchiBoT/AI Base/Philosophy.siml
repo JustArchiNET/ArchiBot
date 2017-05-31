@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Philosophy">
+  <Concept Name="Philosophy">
     <Model>
       <Pattern>DO YOU HAVE A SUBCONSCIOUS</Pattern>
       <Response>

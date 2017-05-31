@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Human">
+  <Concept Name="Human">
     <Model>
       <Pattern>* ONES</Pattern>
       <Response>

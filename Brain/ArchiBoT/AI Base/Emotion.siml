@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Emotion">
+  <Concept Name="Emotion">
     <Model>
       <Pattern>*</Pattern>
       <Previous>WHAT IS THAT FEELING LIKE</Previous>

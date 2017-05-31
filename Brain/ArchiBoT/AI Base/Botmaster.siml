@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Botmaster">
+  <Concept Name="Botmaster">
     <Model>
       <Pattern>AM I YOUR BOTMASTER</Pattern>
       <Response>

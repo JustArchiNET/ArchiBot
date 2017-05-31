@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Date">
+  <Concept Name="Date">
     <Model>
       <Pattern>WHAT TIME IS IT</Pattern>
       <Response>

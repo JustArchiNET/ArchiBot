@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Music">
+  <Concept Name="Music">
     <Model>
       <Pattern>DO YOU LIKE ABBA</Pattern>
       <Response>
