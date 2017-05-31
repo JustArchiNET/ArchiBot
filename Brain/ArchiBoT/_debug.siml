@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_debug" Type="Public">
+	<Concept Name="_debug">
 		<Model>
 			<Pattern>DEBUGID GET</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>

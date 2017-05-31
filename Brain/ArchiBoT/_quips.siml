@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_quips" Type="Public">
+	<Concept Name="_quips">
 		<Model>
 			<Pattern>FISTO</Pattern>	<!-- by DeltabladeX -->
 			<Response>

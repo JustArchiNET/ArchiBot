@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_insults" Type="Public">
+	<Concept Name="_insults">
 		<Model>
 			<Pattern>INSULT *</Pattern>
 			<Response><Text Get="Sentence"><Match /> <Goto>RANDOMINSULT</Goto></Text></Response>

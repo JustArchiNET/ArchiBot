@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_words" Type="Public">
+	<Concept Name="_words">
 		<Model>
 			<Pattern>RANDOMNOUN</Pattern>
 			<Response>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_help" Type="Public">
+	<Concept Name="_help">
 		<Model>
 			<Pattern>% CHAT RELAY %</Pattern>
 			<Response>To use chat relay pm ArchiBoT with "!chat chat_id". You can find out the chat_id by typing !chatinfo in a group chat with ArchiBoT present. PROTIP: You can join the Touhou Giveaways relay chat with a simple "!chat 2hu"!</Response>

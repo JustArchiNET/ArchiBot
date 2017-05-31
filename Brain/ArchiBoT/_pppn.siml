@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_pppn" Type="Public">
+	<Concept Name="_pppn">
 		<Model>
 			<Pattern>FLIP *</Pattern>
 			<Response>(╯°□°）╯︵ <Text Get="Implode"><Text Get="Reverse"><Map Get="letters2flipped"><Text Get="Explode"><Match /></Text></Map></Text></Text></Response>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_errors" Type="Public">
+	<Concept Name="_errors">
 		<Model>
 			<Pattern>NOTAICOMMAND</Pattern>
 			<Response>That's not a command I recognize, are you sure it's AI-related? :doubt:</Response>

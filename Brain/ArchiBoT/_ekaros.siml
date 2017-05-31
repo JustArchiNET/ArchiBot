@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_ekaros" Type="Public">
+	<Concept Name="_ekaros">
 		<Model>
 			<Pattern>WHO IS EKAROS</Pattern>
 			<Response>

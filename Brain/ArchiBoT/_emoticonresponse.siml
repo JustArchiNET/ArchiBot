@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_emoticonresponse" Type="Public">
+	<Concept Name="_emoticonresponse">
 
 		<Model>
 			<Pattern>
