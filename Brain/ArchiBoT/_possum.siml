@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_possum">
+		<Model>
+			<Pattern>WHAT IS 素晴らしいポッサム</Pattern>
+			<Pattern>WHO IS 素晴らしいポッサム</Pattern>
+			<Pattern>Who is Possum</Pattern>
+			<Response>
+				<Random>
+					<Item>He's Awesome Possum!</Item>
+					<Item>He's kind of like a dead tree, except a little more alive, and more like a human than a tree...</Item>
+					<Item>He's that one guy who always talks about how much he wants to cuddle and pet cute anime girls. </Item>
+					<Item>Oh, that weirdo? He's no one important. Let's talk about Miyuu or someone else instead.</Item>
+					<Item>:doubt: Well, he's not a ferret, that's for sure.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>I'm a loser</Pattern>
+			<Response>
+					<Random>
+						<Item>The stupid sun was in your eyes.</Item>
+						<Item>Your keyboard wasn't working right.</Item>
+						<Item>You weren't ready yet.</Item>
+						<Item>Who changed your controls?</Item>
+						<Item>You forgot to use your good stuff, oops.</Item>
+						<Item>That was nice of you to let them win, I'm sure they're grateful.</Item>
+						<Item Weight="0.09">THOSE ****ING HACKERS! YOU TOTALLY SHOULD HAVE WON!</Item>
+						<Item Weight="0.01">There, there. It's okay to lose every now and then. *Pats head*</Item>
+					</Random>
+			</Response>
+		</Model>
+		
+	</Concept>
+</Siml>
