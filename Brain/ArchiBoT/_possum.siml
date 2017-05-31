@@ -2,9 +2,10 @@
 <Siml>
 	<Concept Name="_possum">
 		<Model>
-			<Pattern>WHAT IS 素晴らしいポッサム</Pattern>
-			<Pattern>WHO IS 素晴らしいポッサム</Pattern>
-			<Pattern>Who is Possum</Pattern>
+			<Pattern>
+				<Item>(WHAT|WHO) IS 素晴らしいポッサム</Item>
+				<Item>WHO IS POSSUM</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>He's Awesome Possum!</Item>
@@ -17,7 +18,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>I'm a loser</Pattern>
+			<Pattern>I'M A LOSER</Pattern>
 			<Response>
 					<Random>
 						<Item>The stupid sun was in your eyes.</Item>
