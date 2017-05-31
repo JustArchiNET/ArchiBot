@@ -32,10 +32,10 @@
 			<Response>
 				<Think><Var Set="count">0</Var></Think>
 				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>ROLLDEBUG</Goto> </While>
+				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>DEBUGGOTO2 *</Pattern>
 			<Response>
@@ -90,6 +90,24 @@
 					<Item>5</Item>
 					<Item>6</Item>
 				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>BADRANDOM *</Pattern>
+			<Response>
+				<Think><Var Set="count">0</Var></Think>
+				<Bind Key="{0}"><Match /></Bind>
+				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think>:dice<Goto>DEBUGROLL</Goto>:</While>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>GOODRANDOM *</Pattern>
+			<Response>
+				<Think><Var Set="count">0</Var></Think>
+				<Bind Key="{0}"><Match /></Bind>
+				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think>:dice<Random>(1|2|3|4|5|6)</Random></While>
 			</Response>
 		</Model>
 
