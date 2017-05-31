@@ -120,19 +120,36 @@
 			<Pattern>DEBUG36 *</Pattern>
 			<Response>Var is <Var Get="debug35" /></Response>
 		</Model>
-	</Concept>
 
-	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
-			<Pattern>DEBUGTEST</Pattern>
-			<Response>Test successful :speak:</Response>
+			<Pattern>SPAMTAIGO *</Pattern>
+			<Response>
+				<If User="ID" Value="steam-76561198025147895">Let's spam TAIGO <Match /> times \:bite:/
+						<Think><Var Set="count">0</Var></Think>
+						<While Var="count" Not="{Bind Match}">
+							<Bind Key="{sec}"><Math><Var Get="count" />*5</Math></Bind>
+							<Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
+							</Think>
+							<Late Second="{sec}"><Goto>TAIGO</Goto></Late>
+						</While>
+				</If>
+				<Else>Ask the nearest non-fat cat to use this for you :sgsmile:</Else>
+			</Response>
 		</Model>
+
 	</Concept>
 
 	<Concept Name="publicpersonaldebug">
 		<Model>
 			<Pattern>DEBUGTEST</Pattern>
-			<Response>Nope :cry:</Response>
+			<Response>Nope, you are <User Get="ID" /> :cry:</Response>
+		</Model>
+	</Concept>
+
+	<Concept Name="personaldebug" User="steam-76561198025147895">
+		<Model>
+			<Pattern>DEBUGTEST</Pattern>
+			<Response>You are <User Get="ID" />, Test successful :speak:</Response>
 		</Model>
 	</Concept>
 </Siml>
