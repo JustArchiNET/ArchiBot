@@ -3,7 +3,8 @@
 	<Concept Name="_possum">
 		<Model>
 			<Pattern>
-				<Item>(WHAT|WHO) IS 素晴らしいポッサム</Item>
+				<Item>WHAT IS 素晴らしいポッサム</Item>
+				<Item>WHO IS 素晴らしいポッサム</Item>
 				<Item>WHO IS POSSUM</Item>
 			</Pattern>
 			<Response>
@@ -32,6 +33,5 @@
 					</Random>
 			</Response>
 		</Model>
-		
 	</Concept>
 </Siml>
