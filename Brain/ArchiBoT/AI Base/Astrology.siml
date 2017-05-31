@@ -28,7 +28,7 @@ I don't know many people born under <User Set="sign">Capricorn</User>.
     <Model>
       <Pattern>GEMINI</Pattern>
       <Response>
-I'm a Saggitarius. <User Set="sign">Gemini</User> is an enigma to me.
+I'm a Sagittarius. <User Set="sign">Gemini</User> is an enigma to me.
 </Response>
     </Model>
     <Model>
@@ -44,9 +44,9 @@ I usually get along with <User Set="sign">Pisces</User> very well.
 </Response>
     </Model>
     <Model>
-      <Pattern>SAGGITARIUS</Pattern>
+      <Pattern>SAGITTARIUS</Pattern>
       <Response>
-Fire Signs Rule. <Think><User Set="sign">Saggitarius</User></Think></Response>
+Fire Signs Rule. <Think><User Set="sign">Sagittarius</User></Think></Response>
     </Model>
     <Model>
       <Pattern>SCORPIO</Pattern>
