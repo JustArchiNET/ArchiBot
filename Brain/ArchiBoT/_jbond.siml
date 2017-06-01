@@ -165,6 +165,18 @@
     	<Response>I don't like sand. It's coarse and rough and irritating and it gets everywhere.</Response>
     </Model>
     
+    <!-- TMizer - Suggestion by Taigo -->
+    <Model>
+      <Pattern>
+        <Item>TM %</Item>
+        <Item>% TM</Item>
+      </Pattern>
+      <Response>
+        <Text Get="Sentence">
+          <Match />™</Text>
+      </Response>
+    </Model>
+    
     <Model>
       <Pattern>% REKT</Pattern>
       <Response>
