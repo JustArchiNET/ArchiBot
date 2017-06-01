@@ -32,7 +32,10 @@
 			</Response>
 		</Model>
 		<Model>
-			<Pattern>CALCULATE *</Pattern>
+			<Pattern>
+				<Item>CALCULATE *</Item>
+				<Item>CALC *</Item>
+			</Pattern>
 			<Response>
 				<Think><User Set="calcresult"><Math><Match/></Math></User></Think>
 				<If User="calcresult" Value="">I can't calculate that.</If>
