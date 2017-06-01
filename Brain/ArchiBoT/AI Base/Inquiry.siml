@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Inquiry">
+  <Concept Name="Inquiry">
     <Model>
       <Pattern>*</Pattern>
       <Previous>TELL ME ONE OF YOUR FAVORITE POSSESSIONS</Previous>

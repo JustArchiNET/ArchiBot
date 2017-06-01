@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+    <Concept Name="_mole">
+        <!-- Remind me, the javascript version -->
+        <Model>
+            <Pattern>Remind me in _ to _</Pattern>
+            <Response>
+                <Think>
+                    <Bind Key="{Time}"><Match /></Bind>
+                    <Bind Key="{TimeInSeconds}"><Js>convertTimeStringToSeconds('<Match />')</Js></Bind>
+                    <Bind Key="{Task}"><Match Index="2" /></Bind>
+                    <Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
+                </Think>
+                <If Var="timeToReminder" GreaterThan="0">
+                    I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>
+                    <Late Second="{TimeInSeconds}">Remember to <Text>{Task}</Text></Late>
+                </If>
+                <Else>Sorry, I couldn't parse the time: <Text>{Time}</Text> (<Text>{TimeInSeconds}</Text> seconds)</Else>
+            </Response>
+        </Model>
+
+        <Model>
+            <Pattern>Remind me to _ in _</Pattern>
+            <Response><Goto>Remind me in <Match Index="2" /> to <Match /></Goto></Response>
+        </Model>
+
+        <!-- BWH -->
+        <!--
+            23:28 - Chat Exorcist Taigo: I want
+            23:28 - Chat Exorcist Taigo: A command to get measurements of anime girls
+        -->
+        <Model>
+            <Pattern>BWH _</Pattern>
+            <Response>
+                <Match />'s three sizes are <Js>randomIntBetween(60, 120)</Js>-<Js>randomIntBetween(45, 90)</Js>-<Js>randomIntBetween(60, 120)</Js>
+            </Response>
+        </Model>
+    </Concept>
+</Siml>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_quips" Type="Public">
+	<Concept Name="_quips">
 		<Model>
 			<Pattern>FISTO</Pattern>	<!-- by DeltabladeX -->
 			<Response>
@@ -42,7 +42,7 @@
 				<Item>TAIGONIZE</Item>
 				<Item>TAIGONIZE ME</Item>
 			</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto></Text> <User Get="Nickname" /></Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <User Get="Nickname" /></Response>
 		</Model>
 
 		<Model>
@@ -50,17 +50,17 @@
 				<Item>TAIGONIZE *</Item>
 				<Item>TAIGO *</Item>
 			</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto></Text> <Match /></Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <Match /></Response>
 		</Model>
 
 		<Model>
 			<Pattern>TAIGO</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> Taigo</Text></Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /> Taigo</Text></Response>
 		</Model>
 
 		<Model>
 			<Pattern>WHO IS TAIGO</Pattern>
-			<Response>Did you mean <Goto>TAIGO</Goto>?</Response>
+			<Response>Which one do you mean? <Goto>TAIGO</Goto> or <Goto>TAIGO</Goto>?</Response>
 		</Model>
 
 		<Model>

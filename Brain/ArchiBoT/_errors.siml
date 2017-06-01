@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_errors" Type="Public">
+	<Concept Name="_errors">
 		<Model>
 			<Pattern>NOTAICOMMAND</Pattern>
 			<Response>That's not a command I recognize, are you sure it's AI-related? :doubt:</Response>
@@ -476,5 +476,19 @@
 				</Goto>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>CONVERT %</Pattern>
+			<Response>
+				<Goto>NOTAICOMMAND CONVERT <Match />
+				</Goto>
+			</Response>
+		</Model>
+<!-- "No fun allowed" - Archi 2017-05-29
+		<Model>
+			<Pattern>CONVERT _~1 _~1 _</Pattern>
+			<Response><Match /> <Match Index="2"/> = <Js>randomIntBetween(1,100000)/100;</Js> <Random>(bananas|weebs|Neps|million dollars|bells|souls|credits|gold coins|meat|simoleons|oren|zeny|cats|dogs|potatoes|used condoms|used train tickets|chickens|nuyen|clams|oranges|Touhou Points|buckets|lolis|kicks)</Random></Response>
+		</Model>
+-->
 	</Concept>
 </Siml>

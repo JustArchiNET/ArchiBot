@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="Math" Type="Public" Repeat="True">
+	<Concept Name="Math" Repeat="True">
 		<Model>
 			<Pattern>
 				<Item>WHAT IS THE AVERAGE OF * AND *</Item>
@@ -32,7 +32,10 @@
 			</Response>
 		</Model>
 		<Model>
-			<Pattern>CALCULATE *</Pattern>
+			<Pattern>
+				<Item>CALCULATE *</Item>
+				<Item>CALC *</Item>
+			</Pattern>
 			<Response>
 				<Think><User Set="calcresult"><Math><Match/></Math></User></Think>
 				<If User="calcresult" Value="">I can't calculate that.</If>

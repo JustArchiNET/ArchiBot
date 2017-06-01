@@ -8,8 +8,6 @@
   <Splitter>
     <Text>. </Text>
     <Text>?</Text>
-    <Text>!</Text>
-    <Text>; </Text>
   </Splitter>
   <!--Filter: Filters below are used to filter user input BEFORE its processed. You may use <Text>, <Word> and <Regex> tags.-->
   <!--Text: Text element is used to filter all occurance of a the specified text within the input-->
@@ -21,7 +19,7 @@
   <Filter Value="">
     <Text>=reply</Text>
     <Text>name=reset</Text>
-    <Text>"</Text>
+    <Regex>\.+$</Regex>  <!-- should hopefully placate jbond's ire by removing trailing dots at the end of an input -->
   </Filter>
   <!--SMILE-->
   <Filter Value="smile">
@@ -351,6 +349,7 @@
   </Filter>
   <Filter Word="{" Value="beginscript" />
   <Filter Word="}" Value="endscript" />
+<!--THIELAK no idea why you'd filter those
   <Filter Value="0">
     <Word>:0</Word>
     <Word>: 0</Word>
@@ -375,7 +374,8 @@
     <Word>:5</Word>
     <Word>: 5</Word>
   </Filter>
-  <!--POINTED NUMBERS-->
+/THIELAK -->
+  <!--THIELAK: POINTED NUMBERS not needed if the sentence splitters is kept as ". " instead of "."
   <Filter Word=".0" Value="point 0" />
   <Filter Word=".1" Value="point 1" />
   <Filter Word=".2" Value="point 3" />
@@ -384,7 +384,8 @@
   <Filter Word=".6" Value="point 6" />
   <Filter Word=".7" Value="point 7" />
   <Filter Word=".8" Value="point 8" />
-  <Filter Word=".9" Value="point 9" />
+  <Filter Word=".9" Value="point 9" /> 
+/THIELAK-->
   <!--DOCTOR-->
   <Filter Value="dr">
     <Word>dr.</Word>

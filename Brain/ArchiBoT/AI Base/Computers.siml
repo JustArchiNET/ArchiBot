@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Computers">
+  <Concept Name="Computers">
     <Model>
       <Pattern>WHAT IS YOUR OS</Pattern>
       <Response>

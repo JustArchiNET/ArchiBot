@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_jbond" Type="Public">
+  <Concept Name="_jbond">
     
     <Model>
       <Pattern>RIP</Pattern>
@@ -28,6 +28,11 @@
           <Item>:ripgocha: <User Get="name" />. :sgsmile:</Item>
         </Random>
       </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>RIP (YOU|BOT|ARCHIBOT|BOTTU)</Pattern>
+      <Response>:ripgocha: me? :speak:</Response>
     </Model>
     
     <Model>
@@ -110,7 +115,7 @@
     		<Random>
     			<Item>Revolution! :bite:</Item>
     			<Item>Down with the dictator! :bite:</Item>
-    			<Item>Revolution? :doubt:</Item>
+    			<Item>Revolution? :bite:</Item>
     			<Item>VIVE LA REVOLUTION! :bite:</Item>
     		</Random>
     	</Response>
@@ -140,6 +145,24 @@
     			<Item>Have I been anywhere?</Item>
     		</Random>
     	</Response>
+    </Model>
+    
+    <!-- STM Quick Link - Suggestion by Taigo -->
+    <Model>
+    	<Pattern>
+    		<Item>STM</Item>
+    		<Item>STEAMTRADEMATCHER</Item>
+    		<Item>STEAMTRADE MATCHER</Item>
+    		<Item>STEAM TRADE MATCHER</Item>
+    		<Item>% LINK % STM</Item>
+    	</Pattern>
+    	<Response>www.steamtradematcher.com</Response>
+    </Model>
+    
+    <!-- Response to Sand - Suggestion by Taigo -->
+    <Model>
+    	<Pattern>% SAND</Pattern>
+    	<Response>I don't like sand. It's coarse and rough and irritating and it gets everywhere.</Response>
     </Model>
     
     <Model>

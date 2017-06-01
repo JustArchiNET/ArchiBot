@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_goodbye" Type="Public">
+  <Concept Name="_goodbye">
     <Model>
       <Pattern>GB *</Pattern>
       <Response><Goto>RANDOMGOODBYE</Goto>, <Match />.</Response>

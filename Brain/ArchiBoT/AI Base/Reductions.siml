@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Reductions">
+  <Concept Name="Reductions">
     <Model>
       <Pattern>BASICALLY</Pattern>
       <Response>
@@ -5099,12 +5099,6 @@ No. <Goto>what is your name</Goto></Response>
       <Pattern>CAKE</Pattern>
       <Response>
         <Goto>I like cake</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>CALCULATE *</Pattern>
-      <Response>
-        <Goto>calculator</Goto>
       </Response>
     </Model>
     <Model>

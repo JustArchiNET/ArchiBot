@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_winstructions">
+    <!-- Wacky Instructions - Open to editing and improving. -->
+    <Model>
+      <Pattern>
+        <Item>WINSTRUCTIONS</Item>
+        <Item>WINSTRUCTION</Item>
+    </Pattern>
+      <Response>
+        <Think><User Set="concept">winst_private</User></Think>
+        <Text Get="Sentence">
+          <Goto>WINST_P1</Goto> <Goto>WINST_P2</Goto> <Goto>WINST_P3</Goto> into <Goto>WINST_P4</Goto>. Then, carefully <Goto>WINST_P5</Goto> your <Goto>WINST_P6</Goto> to <Goto>WINST_P3</Goto>, and <Goto>WINST_P7</Goto> to <Goto>WINST_P8</Goto> about <Goto>WINST_P9</Goto> <Goto>WINST_P10</Goto>. <Goto>WINST_P11</Goto> you will <Goto>WINST_P12_1</Goto>. :sgsmile:</Text>
+          <Think><User Set="concept"></User></Think>
+      </Response>
+    </Model>
+  </Concept>
+
+<!-- private concept for winstructions parts -->
+  <Concept Name="winst_private" Type="private">
+    <Model>
+      <Pattern>WINST_P1</Pattern>
+      <Response>
+        <Random>
+          <Item>first,</Item>
+          <Item>follow these instructions:</Item>
+          <Item>do the following -</Item>
+          <Item>I suggest you</Item>
+          <Item>the easy way is</Item>
+          <Item>simply put,</Item>
+          <Item>it is recommended to</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P2</Pattern>
+      <Response>
+        <Random>
+          <Item>get</Item>
+          <Item>throw</Item>
+          <Item>slam</Item>
+          <Item>slice</Item>
+          <Item>dip</Item>
+          <Item>mash</Item>
+          <Item>put</Item>
+          <Item>place</Item>
+          <Item>drop</Item>
+          <Item>chop</Item>
+          <Item>shake</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P3</Pattern>
+      <Response>
+        <Random>
+          <Item>a dog</Item>
+          <Item>a cat</Item>
+          <Item>a carrot</Item>
+          <Item>a pillow</Item>
+          <Item>a bat</Item>
+          <Item>a laptop</Item>
+          <Item>a brick</Item>
+          <Item>a farmer</Item>
+          <Item>a weeb</Item>
+          <Item>a toad</Item>
+          <Item>a goat</Item>
+          <Item>a virgin</Item>
+          <Item>a bagel</Item>
+          <Item>a muffin</Item>
+          <Item>a log</Item>
+          <Item>a fruit</Item>
+          <Item>a tire</Item>
+          <Item>a bag</Item>
+          <Item>a relic</Item>
+          <Item>a shrine</Item>
+          <Item>a key</Item>
+          <Item>a watermelon</Item>
+          <Item>a mage's robe</Item>
+          <Item>a witch</Item>
+          <Item>a barbarian</Item>
+          <Item>a guitar</Item>
+          <Item>a tree</Item>
+          <Item>a mosquito</Item>
+          <Item>a plant of mint</Item>
+          <Item>a tomato plant</Item>
+          <Item>a sapling</Item>
+          <Item>a maple leaf</Item>
+          <Item>a pea</Item>
+          <Item>a rose</Item>
+          <Item>a petal of rose</Item>
+          <Item>a leaf of oregano</Item>
+          <Item>a noob</Item>
+          <Item>the potatoes</Item>
+          <Item>the birds</Item>
+          <Item>the people</Item>
+          <Item>the raw meat</Item>
+          <Item>the parsley</Item>
+          <Item>an artist</Item>
+          <Item>an army knife</Item>
+          <Item>an audio system</Item>
+          <Item>an alien</Item>
+          <Item>your hands</Item>
+          <Item>Hitler</Item>
+          <Item>Gabe Newell</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P4</Pattern>
+      <Response>
+        <Random>
+          <Item>a cauldron</Item>
+          <Item>the bath</Item>
+          <Item>hot water</Item>
+          <Item>cold water</Item>
+          <Item>beer</Item>
+          <Item>a kitchen</Item>
+          <Item>the sky</Item>
+          <Item>the yard</Item>
+          <Item>a box</Item>
+          <Item>the dining room</Item>
+          <Item>your mouth</Item>
+          <Item>the toilet</Item>
+          <Item>a graveyard</Item>
+          <Item>a bowl</Item>
+          <Item>the door</Item>
+          <Item>the window</Item>
+          <Item>the stove</Item>
+          <Item>a volcano</Item>
+          <Item>beet juice</Item>
+          <Item>bleach</Item>
+          <Item>drugs</Item>
+          <Item>the alcohol</Item>
+          <Item>the blood</Item>
+          <Item>the ants</Item>
+          <Item>the glue</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P5</Pattern>
+      <Response>
+        <Random>
+          <Item>throw</Item>
+          <Item>tie</Item>
+          <Item>screw</Item>
+          <Item>tape</Item>
+          <Item>glue</Item>
+          <Item>attach</Item>
+          <Item>fix</Item>
+          <Item>give</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P6</Pattern>
+      <Response>
+        <Random>
+          <Item>batteries</Item>
+          <Item>gearbox</Item>
+          <Item>capacitor</Item>
+          <Item>engine</Item>
+          <Item>wheels</Item>
+          <Item>pineapple</Item>
+          <Item>chair</Item>
+          <Item>generator</Item>
+          <Item>mouse</Item>
+          <Item>hammer</Item>
+          <Item>fork</Item>
+          <Item>fingers</Item>
+          <Item>oranges</Item>
+          <Item>cake</Item>
+          <Item>fans</Item>
+          <Item>remote control</Item>
+          <Item>antenna</Item>
+          <Item>television</Item>
+          <Item>hair</Item>
+          <Item>fur</Item>
+          <Item>robot arms</Item>
+          <Item>ice cubes</Item>
+          <Item>machine gun</Item>
+          <Item>meat</Item>
+          <Item>access codes</Item>
+          <Item>salmon</Item>
+          <Item>computer</Item>
+          <Item>raft</Item>
+          <Item>light bulbs</Item>
+          <Item>coat</Item>
+          <Item>hand</Item>
+          <Item>tools</Item>
+          <Item>lockpicks</Item>
+          <Item>compound bow</Item>
+          <Item>sweet rolls</Item>
+          <Item>sweets</Item>
+          <Item>swords</Item>
+          <Item>grenades</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P7</Pattern>
+      <Response>
+        <Random>
+          <Item>yell</Item>
+          <Item>sing</Item>
+          <Item>cry</Item>
+          <Item>confide</Item>
+          <Item>theorize</Item>
+          <Item>rant</Item>
+          <Item>whisper</Item>
+          <Item>talk</Item>
+          <Item>speak</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P8</Pattern>
+      <Response>
+        <Random>
+          <Item Weight="0.3">
+            <Goto>WINST_P12_3</Goto>
+          </Item>
+          <Item>me</Item>
+          <Item>the moon</Item>
+          <Item>a crowd</Item>
+          <Item>yourself</Item>
+          <Item>the chat</Item>
+          <Item>your knees</Item>
+          <Item>the sky</Item>
+          <Item>a pumpkin</Item>
+          <Item>the phone</Item>
+          <Item>your friends</Item>
+          <Item>the police</Item>
+          <Item>the customers</Item>
+          <Item>my master</Item>
+          <Item>everyone</Item>
+          <Item>your dog</Item>
+          <Item>your cat</Item>
+          <Item>jbond</Item>
+          <Item>a peanut</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P9</Pattern>
+      <Response>
+        <Random>
+          <Item>the meaning of</Item>
+          <Item>the destruction of</Item>
+          <Item>the creation of</Item>
+          <Item>deleting</Item>
+          <Item>burning</Item>
+          <Item>eating</Item>
+          <Item>destroying</Item>
+          <Item>interesting</Item>
+          <Item>creating</Item>
+          <Item>exorcizing</Item>
+          <Item>disgusting</Item>
+          <Item>intriguing</Item>
+          <Item>blowing up</Item>
+          <Item>resetting</Item>
+          <Item>improving</Item>
+          <Item>remaking</Item>
+          <Item>dancing with</Item>
+          <Item>laughing at</Item>
+          <Item>filthy</Item>
+          <Item>talking to</Item>
+          <Item>questioning</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P10</Pattern>
+      <Response>
+        <Random>
+          <Item Weight="0.05">
+            <Goto>WINST_P3</Goto>
+          </Item>
+          <Item>life</Item>
+          <Item>love</Item>
+          <Item>bees</Item>
+          <Item>death</Item>
+          <Item>inventions</Item>
+          <Item>bears</Item>
+          <Item>orange juice</Item>
+          <Item>things</Item>
+          <Item>anime trash</Item>
+          <Item>soap</Item>
+          <Item>measuring tapes</Item>
+          <Item>everything</Item>
+          <Item>books</Item>
+          <Item>craftsmanship</Item>
+          <Item>ArchiBoT</Item>
+          <Item>noodles</Item>
+          <Item>turkeys</Item>
+          <Item>buildings</Item>
+          <Item>sound quality</Item>
+          <Item>machinery</Item>
+          <Item>video games</Item>
+          <Item>sugar rush</Item>
+          <Item>ice cream</Item>
+          <Item>nerds</Item>
+          <Item>music</Item>
+          <Item>waifus</Item>
+          <Item>ghosts</Item>
+          <Item>fingernails</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P11</Pattern>
+      <Response>
+        <Random>
+          <Item>If done correctly,</Item>
+          <Item>When completed,</Item>
+          <Item>When these tasks are completed,</Item>
+          <Item>If successful,</Item>
+          <Item>In case of success,</Item>
+          <Item>You'll know it's right when</Item>
+          <Item>The following should happen -</Item>
+          <Item>If everything was done correctly,</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P12_1</Pattern>
+      <Response>
+        <Random>
+          <Item Weight="0.7">
+            <Goto>WINST_P12_2</Goto> <Goto>WINST_P12_3</Goto></Item>
+          <Item>feel very old</Item>
+          <Item>feel very young</Item>
+          <Item>look weird</Item>
+          <Item>have a vision</Item>
+          <Item>feel a chill</Item>
+          <Item>be in pain</Item>
+          <Item>get drunk</Item>
+          <Item>feel okay</Item>
+          <Item>drop your weapon</Item>
+          <Item>rip your shirt</Item>
+          <Item>wear a suit of armor</Item>
+          <Item>get angry</Item>
+          <Item>feel sick</Item>
+          <Item>prank someone</Item>
+          <Item>be kicked</Item>
+          <Item>be banned</Item>
+          <Item>be trolled</Item>
+          <Item>be shamed</Item>
+          <Item>be illuminated</Item>
+          <Item>gain knowledge</Item>
+          <Item>get confused</Item>
+          <Item>fix everything</Item>
+          <Item>improve everything</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P12_2</Pattern>
+      <Response>
+        <Random>
+          <Item>smell like</Item>
+          <Item>look like</Item>
+          <Item>feel like</Item>
+          <Item>dance like</Item>
+          <Item>speak like</Item>
+          <Item>taste like</Item>
+          <Item>die like</Item>
+          <Item>live like</Item>
+          <Item>be considered</Item>
+          <Item>be called</Item>
+          <Item>be</Item>
+          <Item>transform into</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WINST_P12_3</Pattern>
+      <Response>
+        <Random>
+          <Item Weight="0.1">
+            <Goto>WINST_P3</Goto>
+          </Item>
+          <Item>a steak</Item>
+          <Item>a potato</Item>
+          <Item>a pirate</Item>
+          <Item>James Bond</Item>
+          <Item>a troll</Item>
+          <Item>leather</Item>
+          <Item>an idiot</Item>
+          <Item>a mad person</Item>
+          <Item>a pirate</Item>
+          <Item>a cat</Item>
+          <Item>a clown</Item>
+          <Item>your waifu</Item>
+          <Item>a banana</Item>
+          <Item>garbage</Item>
+          <Item>shit</Item>
+          <Item>a robot</Item>
+          <Item>a bunny</Item>
+          <Item>corn</Item>
+          <Item>a failure</Item>
+          <Item>a fish</Item>
+          <Item>a bear</Item>
+          <Item>a skunk</Item>
+          <Item>paint</Item>
+          <Item>an old man</Item>
+          <Item>an old lady</Item>
+          <Item>a young woman</Item>
+          <Item>a young man</Item>
+          <Item>a God</Item>
+          <Item>the King</Item>
+          <Item>the Queen</Item>
+          <Item>a Princess</Item>
+          <Item>a Prince</Item>
+          <Item>a rat</Item>
+          <Item>a useless person</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>

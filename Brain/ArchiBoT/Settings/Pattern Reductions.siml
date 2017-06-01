@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <!--Note: All global pattern reductions should be stored in this file within the "Pattern Reductions" public Concept.-->
-  <Concept Name="Pattern Reductions" Type="public">
+  <Concept Name="Pattern Reductions">
     <Model>
       <Pattern>
         <Item>A BIT *</Item>

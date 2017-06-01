@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="_jokes" Type="Public">
+	<Concept Name="_jokes">
 		<Model>
 			<Pattern>RANDOMJOKE</Pattern>
 			<Response>

@@ -23,7 +23,7 @@ Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-<Concept Name="_bob" Type="Public">
+<Concept Name="_bob">
 
 </Concept>
 </Siml>
@@ -41,3 +41,9 @@ Have you created your file already in the past and got approved? Great, it's eve
 - Modify it the way you want
 - When done, commit your changes and create a pull request for it
 - wait for approval :+1:
+
+---
+
+## SIML guidelines
+
+Please follow our **[SIML guidelines](https://github.com/JustArchi/ArchiBoT/wiki/SIML-guidelines)** when writing SIML code.

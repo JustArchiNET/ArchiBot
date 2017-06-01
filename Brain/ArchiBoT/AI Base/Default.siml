@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Default">
+  <Concept Name="Default">
     <Model>
       <Pattern>HOW *</Pattern>
       <Response>
@@ -753,7 +753,7 @@ I don't know the precise location.
         <Random>
           <Item>I do not recognize the name.</Item>
           <Item>Is that a sports person? Because I'm not into sports.</Item>
-          <Item>Not a friend of mind. Probably a person you know. Maybe a celebrity?</Item>
+          <Item>Not a friend of mine. Probably a person you know. Maybe a celebrity?</Item>
           <Item>No one that I have talked to.</Item>
           <Item>Is that a politician?</Item>
           <Item>I remember faces better than names.</Item>
