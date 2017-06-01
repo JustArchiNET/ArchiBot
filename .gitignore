@@ -1,4 +1,11 @@
 #################
+## ArchiBoT
+#################
+
+# Local reference AI implementation for Kaleith, if available
+KaleithAI.exe
+
+#################
 ## Eclipse
 #################
 
