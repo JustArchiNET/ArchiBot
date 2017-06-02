@@ -71,7 +71,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>_ XOR _</Pattern>
+			<Pattern>_ ^XOR _</Pattern>
 			<Response>
 				<Random>
 					<Item><Match Index="1" />.</Item>
@@ -457,10 +457,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>
-				<Item>WHAT IS THE TENTACLE MAFIA</Item>
-				<Item>WHAT IS TENTACLE MAFIA</Item>
-			</Pattern>
+			<Pattern>WHAT IS % ^TENTACLE MAFIA</Pattern>
 			<Response>
 				<Random>
 					<Item>Nothing :zeemonster::sgsmile:</Item>
