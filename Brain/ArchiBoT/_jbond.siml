@@ -147,6 +147,36 @@
     	</Response>
     </Model>
     
+    <Model>
+      <Pattern>:STEAMSALTY:</Pattern>
+      <Response>
+        <Random>
+          <Item>:steamsalty:</Item>
+          <Item>It's time for :steamsalty:</Item>
+          <Item>Bring on the :steamsalty:</Item>
+          <Item>Archi's :steamsalty: Farm</Item>
+          <Item>You are cordially invited to participate in a pleasant evening of :steamsalty:</Item>
+          <Item>Prepare for :steamsalty:</Item>
+          <Item>Don't just witness the salt, BE the salt. :steamsalty:</Item>
+          <Item>Reminder to take your daily dose of :steamsalty:</Item>
+          <Item>Are you ready for :steamsalty:?</Item>
+          <Item>One :steamsalty: a day keeps the psychiatrist away.</Item>
+          <Item>Is it 100% :steamsalty: Juice time already? :doubt:</Item>
+          <Item>This place is saltier than the ocean.</Item>
+          <Item>
+            <Goto>% SALT LEVEL</Goto>
+          </Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% SALT LEVEL</Pattern>
+      <Response>:steamsalty: level is currently <Js>
+            randomIntBetween(1, 100);
+            </Js>%</Response>
+    </Model>
+    
     <!-- STM Quick Link - Suggestion by Taigo -->
     <Model>
     	<Pattern>
@@ -297,7 +327,7 @@
           <Item>Prepare to board ship. :dsfight:</Item>
           <Item>You are without a doubt the worse pirate I have ever heard of.</Item>
           <Item>Fifteen men on the dead man's chest...</Item>
-          <Item>PIece of ⑨!</Item>
+          <Item>Piece of ⑨!</Item>
           <Item>Heave anchor and set our course to the pirate bay!</Item>
           <Item>
             <Goto>PIRATESWHODIDNOTHINGWRONG</Goto> did nothing wrong. :doubt:</Item>
