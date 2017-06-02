@@ -2,10 +2,7 @@
 <Siml>
 	<Concept Name="_kaleith">
 		<Model>
-			<Pattern>
-				<Item>THANKS ARCHIBOT</Item>
-				<Item>THANKS BOT</Item>
-			</Pattern>
+			<Pattern>^THANKS (BOT|ARCHIBOT)</Pattern>
 			<Response><Goto>THANK YOU</Goto></Response>
 		</Model>
 
@@ -184,7 +181,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>THANKS *</Pattern>
+			<Pattern>^THANKS *</Pattern>
 			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> THANKS <Text Get="uppercase"><Match /></Text> <User Get="randomemote" /></Response>
 		</Model>
 
