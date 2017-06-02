@@ -12,14 +12,14 @@
 					<Item>He's Awesome Possum!</Item>
 					<Item>He's kind of like a dead tree, except a little more alive, and more like a human than a tree...</Item>
 					<Item>He's that one guy who always talks about how much he wants to cuddle and pet cute anime girls. </Item>
-					<Item>Oh, that weirdo? He's no one important. Let's talk about Miyuu or someone else instead.</Item>
+					<Item>Oh, that weirdo? He's no one important. Let's talk about <Random>(ミユ|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taiga|Madu|Mole|FakeNameOF)</Random> or someone else instead.</Item>
 					<Item>:doubt: Well, he's not a ferret, that's for sure.</Item>
 				</Random>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>I AM A LOSER</Pattern>
+			<Pattern>(I AM A LOSER|I LOST|LOSS|LOSE)</Pattern>
 			<Response>
 					<Random>
 						<Item>The stupid sun was in your eyes.</Item>
@@ -28,9 +28,18 @@
 						<Item>Who changed your controls?</Item>
 						<Item>You forgot to use your good stuff, oops.</Item>
 						<Item>That was nice of you to let them win, I'm sure they're grateful.</Item>
-						<Item Weight="0.09">THOSE ****ING HACKERS! YOU TOTALLY SHOULD HAVE WON!</Item>
-						<Item Weight="0.01">There, there. It's okay to lose every now and then. *Pats head*</Item>
+						<Item Weight="0.05">THOSE ****ING HACKERS! YOU TOTALLY SHOULD HAVE WON!</Item>
+						<Item Weight="0.03">There, there. It's okay to lose every now and then. *Pats head*</Item>
 					</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>(WHO IS THAT POKEMON|POKEMON)</Pattern>
+			<Response>
+				<Random>
+					<Item>It's <Random>(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran♀|Nidorina|Nidoqueen|Nidoran♂|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetch'd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|Mr. Mime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Mew)</Random>! A Gen 1 Pokémon!</Item>
+					<Item>It's <Random>(Chikorita|Bayleef|Meganium|Cyndaquil|Quilava|Typhlosion|Totodile|Croconaw|Feraligatr|Sentret|Furret|Hoothoot|Noctowl|Ledyba|Ledian|Spinarak|Ariados|Crobat|Chinchou|Lanturn|Pichu|Cleffa|Igglybuff|Togepi|Togetic|Natu|Xatu|Mareep|Flaaffy|Ampharos|Bellossom|Marill|Azumarill|Sudowoodo|Politoed|Hoppip|Skiploom|Jumpluff|Aipom|Sunkern|Sunflora|Yanma|Wooper|Quagsire|Espeon|Umbreon|Murkrow|Slowking|Misdreavus|Unown|Wobbuffet|Girafarig|Pineco|Forretress|Dunsparce|Gligar|Steelix|Snubbull|Granbull|Qwilfish|Scizor|Shuckle|Heracross|Sneasel|Teddiursa|Ursaring|Slugma|Magcargo|Swinub|Piloswine|Corsola|Remoraid|Octillery|Delibird|Mantine|Skarmory|Houndour|Houndoom|Kingdra|Phanpy|Donphan|Porygon2|Stantler|Smeargle|Tyrogue|Hitmontop|Smoochum|Elekid|Magby|Miltank|Blissey|Raikou|Entei|Suicune|Larvitar|Pupitar|Tyranitar|Lugia|Ho-Oh|Celebi)</Random>! A Gen 2 Pokémon!</Item>
+				</Random>
 			</Response>
 		</Model>
 	</Concept>
