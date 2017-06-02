@@ -148,7 +148,7 @@
     </Model>
     
     <Model>
-      <Pattern>:STEAMSALTY:</Pattern>
+      <Pattern>ːSTEAMSALTYː</Pattern>
       <Response>
         <Random>
           <Item>:steamsalty:</Item>
@@ -173,7 +173,7 @@
     <Model>
       <Pattern>
       	<Item>% SALT LEVEL</Item>
-      	<Item>% :STEAMSALTY: LEVEL</Item>
+      	<Item>% ːSTEAMSALTYː LEVEL</Item>
       </Pattern>
       <Response>:steamsalty: level is currently <Js>
             randomIntBetween(1, 100);
