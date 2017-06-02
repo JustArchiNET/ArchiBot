@@ -9,7 +9,7 @@
     </Pattern>
       <Response>
         <Text Get="Sentence">
-          <Random Get="_winst_P1" /> <Random Get="_winst_P2" /> <Random Get="_winst_P3" /> into <Random Get="_winst_P4" />. Then, carefully <Random Get="_winst_P5" /> your <Random Get="_winst_P6" /> to <Random Get="_winst_P3" />, and <Random Get="_winst_P7" /> to <Random Get="_winst_P8" /> about <Random Get="_winst_P9" /> <Random Get="_winst_P10" />. <Random Get="_winst_P11" /> you will <Random Get="_winst_P12_1" />. :sgsmile:</Text>
+          <Random Get="_winst_P1" /> <Random Get="_winst_P2" /> <Random Get="_winst_P3" /> into <Random Get="_winst_P4" />. Then, carefully <Random Get="_winst_P5" /> your <Random Get="_winst_P6" /> to <Random Get="_winst_P3" />, and <Random Get="_winst_P7" /> to <Random Get="_winst_P8" /> about <Random Get="_winst_P9" /> <Random Get="_winst_P10" />. <Random Get="_winst_P11" /> you will <Random Get="_winst_P12_1" />. :sgsmile:</Text>
       </Response>
     </Model>
   </Concept>
