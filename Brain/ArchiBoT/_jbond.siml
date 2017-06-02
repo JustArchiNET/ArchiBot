@@ -211,6 +211,11 @@
     </Model>
     
     <Model>
+    	<Pattern>% CHEER ME UP %</Pattern>
+    	<Response>How about a joke? <Goto>RANDOMJOKE</Goto></Response>
+    </Model>
+    
+    <Model>
       <Pattern>% REKT</Pattern>
       <Response>
         <Random>
