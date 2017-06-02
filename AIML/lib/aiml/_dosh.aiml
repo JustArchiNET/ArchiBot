@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml> 
+<category><pattern>WHO ARE THE PATRIOTS</pattern>
+  <template>La-li-lu-le-lo.</template>
+</category>
+<category><pattern>YOU ARE PRETTY GOOD</pattern>
+  <template><random><li>Just what I'd expect from the man with the same code as the boss.</li>
+  <li>Pretty... good...</li>
+  <li>*hand gestures*</li>
+</random></template></category>
+
+<category><pattern>CAN * BLOOM EVEN * BATTLEFIELD</pattern>
+  <template><random><li>I do. I think at any time, any place, people can fall in love with each other.</li>
+  <li>Shut up, Otacon.</li>
+  <li>Not for you, dude.</li>
+  <li>I don't know. I'm just a machine.</li>
+</random></template></category>
+
+<category><pattern>WHAT DO YOU THINK * CAN BLOOM EVEN * BATTLEFIELD</pattern>
+<template><srai>CAN * BLOOM EVEN * BATTLEFIELD</srai></template>
+</category>
+<category><pattern>METAL GEAR</pattern>
+  <template>Metal Gear?!</template>
+</category>
+<category><pattern>WHAT IS METAL GEAR</pattern>
+  <template><random><li>A Hideo Kojima game.</li>
+  <li>Metal Gear is the designation to various models of bipedal tanks. Metal Gears are behemoth machines capable of decimating lesser machines. They have the distinction of being nuclear capable, firing warheads from their rail gun, eliminating the need for a missile, or launchpad allowing them to attack targets from anywhere in the world, on any kind of terrain.</li>
+  <li>Metal Gear?!</li>
+  <li>Metal Gear?</li>
+  <li>Metal Gear...</li>
+  <li>Something built by a guy who watched too much amine weeb trash.</li>
+</random></template></category>
+<category><pattern>SNAKE</pattern>
+<template>LIQUID!</template>
+</category>
+
+<category><pattern>LA DASH LI DASH LU DASH LE DASH LO</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+<category><pattern>LA LI LU LE LO</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+<category><pattern>LA–LI–LU–LE–LO</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+<category><pattern>* S3 PLAN</pattern>
+<template><srai>WHO ARE THE PATRIOTS</srai></template>
+</category>
+
+<category><pattern>GENOCIDE TIME</pattern>
+  <template><random><li>i'm going to have an awful experience</li>
+  <li>im gonjng to have an awfl experience</li>
+  <li>the next few hours will be very unfortunate for you</li>
+  <li>on the verge of experiencing an unpleasant circumstance</li>
+  <li>time for bad</li>
+  <li>looks like you are having an uncomfortable episode</li>
+  <li>a series of unfortunate events</li>
+  <li>i can guarantee that you wont enjoy the events that await you in your near future</li>
+  <li>Currently your compass is spinning to a place where you will experience atrocities that are deemed horrible, malicious and obscenely horrid and i advise you to turn back before the experiences that i have described take place</li>
+  <li>You're gonna have a bath, tim</li>
+  <li>the state of being that you are about to enter is less than likely to be an optimal state</li>
+  <li>ur time is gona be the opposit of good</li>
+  <li>this is a time where you are very upset</li>
+  <li>if you are cureently enjoying yourself you had best get ready to stop</li>
+  <li>the incoming short span of time will be fairly irritating to the point in which it would be considered nasty to experience</li>
+  <li>guess who? it's bad</li>
+  <li>im gonna break you're clock</li>
+  <li>this is probably not gonna be a time that you enjoy very much</li>
+  <li>unhappy 4th dimension experience</li>
+  <li>you are, without a doubt, going to have an experience which is most unpleasant due to unhygenic murder of my relative</li>
+  <li>yoU hav bED Tem</li>
+  <li>do you desire a poor experience?</li>
+  <li>Inadequate days are to be had</li>
+  <li>the upcoming times may or may not be very enjoyable to experience</li>
+  <li>MOMENTARILY YOU WILL INHEREIT A SITUATION OF UTMOST DETRIMENT TO YOUR INTERESTS</li>
+  <li>Of this, I give proper notice to, and further remark that not only does your record indicate homicide, particularly of dear siblings, but your hygenic practices are inadequate.</li>
+  <li>I have performed admirable feats of basketball prowress which were the direct and proximate cause of death that you are currently experiencing.</li>
+  <li>bed time</li>
+  <li>would you like a not enjoyabe experience?</li>
+  <li>prepare for bad times new roman</li>
+  <li>You will not find the good times you seek</li>
+  <li>u maybe are not gonna like what happens</li>
+  <li>you probably wont find the following events enjoyable</li>
+  <li>ex haus badfortunate experienzse</li>
+  <li>your future affairs are sure to be less than acceptable if you maintain the course of action you choose</li>
+  <li>you are surely most likely to be a part of a most unpleasand and painful indefinite continued progress of existence and events in the past, present, and future regarded as  a whole.</li>
+  <li>I'm already having a bad time</li>
+  <li>I'm already having a bad time :VSnake:</li>
+  <li>a time of great sorrow will soon befall you</li>
+  <li>The amount of the good times you will not have is immisance</li>
+  <li>things are not going to go they way you want them to</li>
+  <li>It appears you are trying to probably have a very unpleasant time.</li>
+  <li>YOU ARE GOING TO HAVE A NON ENJOYABLE GAME EXPERIANCE</li>
+  <li>there is a really no good sequence of events in your near foreseeable future is your current behavior remains in it's current state</li>
+  <li>Your time here will indeed be very unpleasant</li>
+  <li>poor experience impending</li>
+  <li>You may have a lousy afternoon</li>
+  <li>youre about to have a misfortunate outcome pally</li>
+  <li>Is is time for the Anti-Fun</li>
+  <li>ur not gogna have fun</li>
+  <li>play time is over kiddo its time to face the music</li>
+  <li>it is me, badtime tim</li>
+  <li>yeah... Have the opposite of good</li>
+  <li>I will put you through an unpleasant situation</li>
+  <li>prepare to be faced with unpleasant experiences</li>
+  <li>unfortunate moment</li>
+  <li>dont come here for fun</li>
+  <li>Youths similar to yourself should be... ROASTING IN HECK</li>
+  <li>excuseth thou, small above-infantile organism that goes by the linnaean classification of "homo sapiens", but it appears you have gone and mercilessly eliminated what is technically my brethren race known to homo sapiens as "monsters", and, by extension, the person of which I have strong and blood-bonded relationship to. by the notion of what is known as "karma", I shall now proceed to forcefully offer you what can be universally agreed on as a period of experience of which is generally seen as unpleasant, unwanted and responsively merciless. I shall now proceed to decimate you with rather senseless jargon of the basketball variety.</li>
+  <li>uh oh unfolding</li>
+  <li>пора начать плохое бремя. мы будем "получить окунул"?</li>
+  <li>ᶦᵐ ᵍᵒᶰᶰᵃ ᵇʳᵉᵃᵏ ʸᵒᵘ'ʳᵉ ᶜᶫᵒᶜᵏ</li>
+  <li>You will not have fond memories of this day.</li>
+</random></template></category>
+<category><pattern>I WILL KILL YOU</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>I WANT TO KILL YOU</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>I AM GOING TO KILL YOU</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>I WISH TO KILL YOU</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern># BAD TIME</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>I HATE SPAGHETTI</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>DO NOT GIVE ME # GOOD TIME</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+<category><pattern>I DO NOT WANT # GOOD TIME</pattern>
+<template><srai>GENOCIDE TIME</srai></template>
+</category>
+
+<!-- Saving for all times' sake. Thanks for killing the meme, Madu. :v -->
+<!-- 
+<category><pattern>SAVE EMMERICH</pattern>
+  <template><random><li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>:Miller:</li>
+  <li>A Hideo Kojima game. :Miller:</li>
+  <li>BOSS :Miller:</li>
+  <li>BOSS, THAT ASSHOLE ISN'T GONNA SAVE HIMSELF :Miller:</li>
+  <li>BOSS, BRING THAT DICKHEAD TO MOTHERBASE :Miller:</li>
+  <li>BOSS, WE MUST FIND OUT WHAT SKULLFACE IS UP TO :Miller:</li>
+  <li>BOSS, WE NEED TO STOP CIPHER :Miller:</li>
+  <li>Boss, I'll cook you the best hamburger ever if you finish this mission :Miller:</li>
+  <li>I believe in you, boss. :Miller:</li>
+  <li>Don't keep us waiting, boss :Miller:</li>
+</random></template>
+</category>
+<category><pattern>PICK A GAME FOR MADU #</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>CHOOSE A GAME FOR MADU #</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY TODAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>WHAT SHOULD MADU PLAY TONIGHT</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>* SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+<category><pattern>SUGGEST SOMETHING MADU SHOULD PLAY</pattern>
+<template><srai>SAVE EMMERICH</srai></template>
+</category>
+-->
+
+<category><pattern>MÄMMI</pattern>
+<template>Sauna</template>
+</category>
+<category><pattern>MAMMI</pattern>
+<template><srai>MÄMMI</srai></template>
+</category>
+
+<category><pattern>ARA ARA</pattern>
+<template>Ara ara~ :vert:</template>
+</category>
+
+<category><pattern>BEST GODDESS</pattern>
+  <template><random><li>:vert:</li>
+  <li>:vert:</li>
+  <li>:vert:</li>
+  <li>The answer is obvious. :vert:</li>
+  <li>Vert-sama :vert:</li>
+  <li>ベールさま :vert:</li>
+  </random></template>
+</category>
+<category><pattern>WHO IS THE BEST GODDESS</pattern>
+<template><srai>BEST GODDESS</srai></template>
+</category>
+<category><pattern>WHO IS THE BEST CPU</pattern>
+<template><srai>BEST GODDESS</srai></template>
+</category>
+<category><pattern>WHICH GODDESS IS THE BEST</pattern>
+<template><srai>BEST GODDESS</srai></template>
+</category>
+<category><pattern>WHICH CPU IS THE BEST</pattern>
+<template><srai>BEST GODDESS</srai></template>
+</category>
+
+<category><pattern>WHEN THERE IS SMOKE</pattern>
+<template>they pinch back</template>
+</category>
+
+</aiml>
