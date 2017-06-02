@@ -19,7 +19,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>(I AM A LOSER|I LOST|LOSS|LOSE|LOSER)</Pattern>
+			<Pattern>(I AM A LOSER|I LOST|LOSS|LOSE|LOSER|I&apos;M A LOSER)</Pattern>
 			<Response>
 					<Random>
 						<Item>The stupid sun was in your eyes.</Item>
@@ -35,8 +35,7 @@
 		</Model>
 		<Model>
 			<Pattern>
-				<Item>POKEMON</Item>
-				<Item>WHOS THAT POKEMON?</Item>
+				<Item>(WHOS THAT POKEMON|WHO&apos;S THAT POKEMON|WHOS THAT POKEMON?|WHO&apos;S THAT POKEMON?|POKEMON)</Item>
 			</Pattern>
 			<Response>
 				<Random>
