@@ -5102,12 +5102,6 @@ No. <Goto>what is your name</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>CALCULATE *</Pattern>
-      <Response>
-        <Goto>calculator</Goto>
-      </Response>
-    </Model>
-    <Model>
       <Pattern>CALL ME JESUS * </Pattern>
       <Response>
         <Goto>call me jesus christ</Goto>

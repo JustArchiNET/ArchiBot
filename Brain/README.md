@@ -46,26 +46,4 @@ Have you created your file already in the past and got approved? Great, it's eve
 
 ## SIML guidelines
 
-- If given `<Pattern>` is **not** expected to be called by user, it should be prefixed with `{Name}_` of the `<Concept>`.
-
-For example, instead of:
-
-```xml
-<Concept Name="_bob">
-  <Model>
-    <Pattern>GET_RANDOM_CAT</Pattern>
-  </Model>
-</Concept>
-```
-
-It should be:
-
-```xml
-<Concept Name="_bob">
-  <Model>
-    <Pattern>_bob_GET_RANDOM_CAT</Pattern>
-  </Model>
-</Concept>
-```
-
-Thanks to that we won't need to fight with potential conflicts if the same pattern is declared twice in two different files.
+Please follow our **[SIML guidelines](https://github.com/JustArchi/ArchiBoT/wiki/SIML-guidelines)** when writing SIML code.

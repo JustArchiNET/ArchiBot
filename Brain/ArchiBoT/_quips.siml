@@ -42,7 +42,7 @@
 				<Item>TAIGONIZE</Item>
 				<Item>TAIGONIZE ME</Item>
 			</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto></Text> <User Get="Nickname" /></Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <User Get="Nickname" /></Response>
 		</Model>
 
 		<Model>
@@ -50,33 +50,17 @@
 				<Item>TAIGONIZE *</Item>
 				<Item>TAIGO *</Item>
 			</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto></Text> <Match /></Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <Match /></Response>
 		</Model>
 
 		<Model>
 			<Pattern>TAIGO</Pattern>
-			<Response><Text Get="titlecase"><Goto>RANDOMADJECTIVE</Goto> <Goto>RANDOMNOUN</Goto> Taigo</Text></Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /> Taigo</Text></Response>
 		</Model>
 
 		<Model>
 			<Pattern>WHO IS TAIGO</Pattern>
-			<Response>Did you mean <Goto>TAIGO</Goto>?</Response>
-		</Model>
-
-		<Model>
-			<Pattern>SPAMTAIGO *</Pattern>
-			<Response>
-				<If User="ID" Value="steam-76561198025147895">Let's spam TAIGO <Match /> times \:bite:/
-						<Think><Var Set="count">0</Var></Think>
-						<While Var="count" Not="{Bind Match}">
-							<Bind Key="{sec}"><Math><Var Get="count" />*5</Math></Bind>
-							<Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
-							</Think>
-							<Late Second="{sec}"><Goto>TAIGO</Goto></Late>
-						</While>
-				</If>
-				<Else>Ask the nearest non-fat cat to use this for you :sgsmile:</Else>
-			</Response>
+			<Response>Which one do you mean? <Goto>TAIGO</Goto> or <Goto>TAIGO</Goto>?</Response>
 		</Model>
 
 		<Model>

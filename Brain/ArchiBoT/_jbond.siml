@@ -31,6 +31,11 @@
     </Model>
     
     <Model>
+      <Pattern>RIP (YOU|BOT|ARCHIBOT|BOTTU)</Pattern>
+      <Response>:ripgocha: me? :speak:</Response>
+    </Model>
+    
+    <Model>
       <Pattern>
         <Item>WHO IS (JBOND|JBONDGUY|JBONDGUY007)</Item>
       </Pattern>
@@ -158,6 +163,18 @@
     <Model>
     	<Pattern>% SAND</Pattern>
     	<Response>I don't like sand. It's coarse and rough and irritating and it gets everywhere.</Response>
+    </Model>
+    
+    <!-- TMizer - Suggestion by Taigo -->
+    <Model>
+      <Pattern>
+        <Item>^TM %</Item>
+        <Item>% ^TM</Item>
+      </Pattern>
+      <Response>
+        <Text Get="Sentence">
+          <Match />™</Text>
+      </Response>
     </Model>
     
     <Model>
