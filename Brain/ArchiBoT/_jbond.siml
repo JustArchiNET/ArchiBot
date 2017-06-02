@@ -168,8 +168,8 @@
     <!-- TMizer - Suggestion by Taigo -->
     <Model>
       <Pattern>
-        <Item>TM %</Item>
-        <Item>% TM</Item>
+        <Item>^TM %</Item>
+        <Item>% ^TM</Item>
       </Pattern>
       <Response>
         <Text Get="Sentence">
