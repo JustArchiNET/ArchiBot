@@ -2,12 +2,10 @@
 <Siml>
 	<Concept Name="_debug">
 		<Model>
-			<Pattern>DEBUGID GET</Pattern>
+			<Pattern>DEBUGINFO</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
-	</Concept>
 
-	<Concept Name="kale test">
 		<Model>
 			<Pattern>WORDAT *</Pattern>
 			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
@@ -24,8 +22,6 @@
 				</Switch>
 			</Response>
 		</Model>
-
-		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>
 
 		<Model>
 			<Pattern>DEBUGGOTO *</Pattern>
@@ -51,7 +47,8 @@
 				<Late Second="{Bind Match}">Success!</Late>
 			</Response>
 		</Model>
-<!-- edit to test target-id in the future -->
+
+<!-- TODO: un-comment and add targets to test target-id in the future 
 		<Model>
 			<Pattern>DEBUGLATESELF *</Pattern>
 			<Response><Think><Bind Key="{source-id}"><User Get="SourceID" /></Bind></Think>I will try to send the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
@@ -70,14 +67,14 @@
 			<Pattern>DEBUGSILENTLATE *</Pattern>
 			<Response><Think><Bind Key="{0}"><Match /></Bind></Think><Late Second="{0}">Success!</Late></Response>
 		</Model>
-
-<Model>
-<Pattern>COUNT TO *</Pattern>
-<Response>
-<Bind Key="{0}"><Match /></Bind>
-<Var Set="count">0</Var> <While Var="count" Not="{0}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
-</Response>
-</Model>
+-->
+		<Model>
+			<Pattern>COUNT TO *</Pattern>
+			<Response>
+				<Bind Key="{0}"><Match /></Bind>
+				<Var Set="count">0</Var> <While Var="count" Not="{0}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
+			</Response>
+		</Model>
 
 		<Model>
 			<Pattern>DEBUGROLL</Pattern>
@@ -91,6 +88,22 @@
 					<Item>6</Item>
 				</Random>
 			</Response>
+		</Model>
+	</Concept>
+
+<!-- this should trigger for anyone other than Kaleith on Steam -->
+	<Concept Name="publicpersonaldebug">
+		<Model>
+			<Pattern>DEBUGTEST</Pattern>
+			<Response>Nope, you are not Kaleith. Or the test failed I guess :cry:</Response>
+		</Model>
+	</Concept>
+
+<!-- The following should work only for Kaleith on Steam -->
+	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
+		<Model>
+			<Pattern>DEBUGTEST</Pattern>
+			<Response>You are Kaleith, right? :speak:</Response>
 		</Model>
 
 		<Model>
@@ -110,17 +123,7 @@
 				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think>:dice<Random>(1|2|3|4|5|6):</Random></While>
 			</Response>
 		</Model>
-
-		<Model>
-			<Pattern>DEBUG35 *</Pattern>
-			<Response>Var set to <Var Set="debug35"><Match /></Var></Response>
-		</Model>
-		
-		<Model>
-			<Pattern>DEBUG36 *</Pattern>
-			<Response>Var is <Var Get="debug35" /></Response>
-		</Model>
-
+<!-- in theory, the <If User="ID" Value="steam-76561198025147895"> is not needed here -->
 		<Model>
 			<Pattern>SPAMTAIGO *</Pattern>
 			<Response>
@@ -137,33 +140,16 @@
 			</Response>
 		</Model>
 
-	</Concept>
-
-	<Concept Name="publicpersonaldebug">
 		<Model>
-			<Pattern>DEBUGTEST</Pattern>
-			<Response>Nope, you are not Kaleith. Or the test failed I guess :cry:</Response>
+			<Pattern>DEBUG35 *</Pattern>
+			<Response>Var set to <Var Set="debug35"><Match /></Var></Response>
 		</Model>
-	</Concept>
 
-	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
-			<Pattern>DEBUGTEST</Pattern>
-			<Response>You are Kaleith, right? :speak:</Response>
+			<Pattern>DEBUG35GET *</Pattern>
+			<Response>Var is <Var Get="debug35" /></Response>
 		</Model>
-	</Concept>
 
-	<Concept Name="publicaigitdebug">
-		<Model>
-			<Pattern>AIGITTEST</Pattern>
-			<Response>If you're Asimm, test failed, otherwise, why did you try :doubt:</Response>
-		</Model>
-	</Concept>
-
-	<Concept Name="personalaigitdebug" User="steam-76561198031558986">
-		<Model>
-			<Pattern>AIGITTEST</Pattern>
-			<Response>You are Asimm and this worked even without a !botgit, wow :speak:</Response>
-		</Model>
+		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>
 	</Concept>
 </Siml>
