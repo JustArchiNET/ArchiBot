@@ -189,6 +189,7 @@
 			<Pattern>
 				<Item>PANIC</Item>
 				<Item>:PETEBUTTON:</Item>
+				<Item>ːPETEBUTTONː</Item>
 			</Pattern>
 			<Response>
 				<Random>
