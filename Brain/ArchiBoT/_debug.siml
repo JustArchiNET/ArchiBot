@@ -60,6 +60,13 @@
 		</Model>
 
 		<Model>
+			<Pattern>DEBUGLATE2HU *</Pattern>
+			<Response>I will try to send you a message in the Touhou Chat in <Match /> seconds.
+				<Late Second="{Bind Match}">Did you get this message in Touhou chat? :sgsmile:</Late>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUGSILENTLATE *</Pattern>
 			<Response><Think><Bind Key="{0}"><Match /></Bind></Think><Late Second="{0}">Success!</Late></Response>
 		</Model>
