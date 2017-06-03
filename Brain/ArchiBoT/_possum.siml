@@ -54,10 +54,10 @@
 			<Response>
 				<Random>
 					<Item><Random Get="RANDOMNOUN" />mon</Item>
-					<Item><Random>(Miyuu|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taigo|Madu|Mole|Faku|Bottu|Ferret|Skatr|Ceejay)</Random>mon</Item>
+					<Item><Random>(Miyuu|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taiga|Madu|Mole|Faku|Bottu|Ferret|Skatr|Ceejay)</Random>mon</Item>
 					<Item Weight="0.05"><Random>(Alpha|Guil|Gallant|Crimson Gallant|Agu|Calu|Gabu|Omni|MetalGaruru|WarGrey|Susanoo)</Random>mon</Item>
-				</Random>
-			</Response>
+				<Random>
+			<Random>
 		</Model>
 		
 		<Model>
