@@ -273,7 +273,7 @@
   </Random>
 
   <Random Name="_winst_P12_1">
-    <Item Weight="0.7"><Random Get="_winst_P12_2" /> <Random Get="_winst_P12_3" /></Item>
+    <Item Weight="0.7"><Random Get="_winst_P12_2" /> <Random Get="_winst_P12_3" /></Item>
     <Item>feel very old</Item>
     <Item>feel very young</Item>
     <Item>look weird</Item>
