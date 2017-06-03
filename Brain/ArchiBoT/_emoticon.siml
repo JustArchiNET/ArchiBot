@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
 <!-- Pulled from http://steamcommunity.com/inventory/76561198069026042/753/6?l=english&count=5000&start_assetid=2295445409
-regex replace .+?"name":"(:.+?:)".+? with \t\t\t\t\t<Item>$1</Item> (:100oj: is not included using that url)-->
+regex replaced .+?"name":"(:.+?:)".+? with \t\t<Item>$1</Item>\n (:100oj: is not included using that url)-->
 	<Random Name="RANDOMEMOTE">
 		<!-- Keep alphabetical order, easier to maintain -->
 		<Item>:100oj:</Item>
