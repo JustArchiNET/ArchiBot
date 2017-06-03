@@ -142,14 +142,14 @@
 	<Concept Name="publicpersonaldebug">
 		<Model>
 			<Pattern>DEBUGTEST</Pattern>
-			<Response>Nope, you are <User Get="ID" /> :cry:</Response>
+			<Response>Nope, you are not Kaleith. Or the test failed I guess :cry:</Response>
 		</Model>
 	</Concept>
 
 	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
 			<Pattern>DEBUGTEST</Pattern>
-			<Response>You are <User Get="ID" />, Test successful :speak:</Response>
+			<Response>You are Kaleith, right? :speak:</Response>
 		</Model>
 	</Concept>
 
