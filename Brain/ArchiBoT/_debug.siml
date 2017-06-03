@@ -156,14 +156,14 @@
 	<Concept Name="publicaigitdebug">
 		<Model>
 			<Pattern>AIGITTEST</Pattern>
-			<Response>If you're Kaleith, test failed :cry:</Response>
+			<Response>If you're Asimm, test failed, otherwise, why did you try :doubt:</Response>
 		</Model>
 	</Concept>
 
-	<Concept Name="personalaigitdebug" User="steam-76561198025147895">
+	<Concept Name="personalaigitdebug" User="steam-76561198031558986">
 		<Model>
 			<Pattern>AIGITTEST</Pattern>
-			<Response>You are Kaleith and this worked after !aigit, wow :speak:</Response>
+			<Response>You are Asimm and this worked even without a !botgit, wow :speak:</Response>
 		</Model>
 	</Concept>
 </Siml>
