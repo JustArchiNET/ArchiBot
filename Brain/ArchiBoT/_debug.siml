@@ -152,4 +152,18 @@
 			<Response>You are <User Get="ID" />, Test successful :speak:</Response>
 		</Model>
 	</Concept>
+
+	<Concept Name="publicaigitdebug">
+		<Model>
+			<Pattern>AIGITTEST</Pattern>
+			<Response>If you're Kaleith, test failed :cry:</Response>
+		</Model>
+	</Concept>
+
+	<Concept Name="personalaigitdebug" User="steam-76561198025147895">
+		<Model>
+			<Pattern>AIGITTEST</Pattern>
+			<Response>You are Kaleith and this worked after !aigit, wow :speak:</Response>
+		</Model>
+	</Concept>
 </Siml>
