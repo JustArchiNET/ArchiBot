@@ -119,4 +119,21 @@
 			</Response>
 		</Model>
 	</Concept>
+<!-- demo of possible private concept, it would work once target is implemented
+	<Concept Name="archiprivate" User="steam-76561198006963719">
+		<Model>
+			<Pattern>
+				<Item>^STAFFANNOUNCE *</Item>
+				<Item>^STAFFANNOUNCEMENT *</Item>
+				<Item>^STAFFANN *</Item>
+			</Pattern>
+			<Response>
+				<Late Second="1">steam-76561198055520449 Hi Fake! Archi sent a new staff announcement: <Match /></Late>
+				<Late Second="2">steam-76561198042302314 Hi Mole! Archi sent a new staff announcement: <Match /></Late>
+				<Late Second="3">steam-76561198126971055 Hi Miku! Archi sent a new staff announcement: <Match /></Late>
+				<Late Second="4">steam-76561198025359736 Hi Madu! Archi sent a new staff announcement: <Match /></Late>
+				<Late Second="5">steam-76561198051592062 Hi Skat! Archi sent a new staff announcement: <Match /></Late>
+			</Response>
+		</Model>
+	</Concept> -->
 </Siml>
