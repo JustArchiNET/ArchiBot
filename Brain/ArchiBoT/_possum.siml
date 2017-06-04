@@ -68,7 +68,7 @@
 		<Model>
 			<Pattern>I AM BATMAN</Pattern>
 			<Response>
-				<If User="IsBatman" Value="1"><User Set="IsBatman" Value="2" />Okay.</If>
+				<If User="IsBatman" Value="1"><User Set="IsBatman" Value="2" />Okay, <Bot Add="isBatman"><User Get="Nickname" /></Bot></If>
 				<ElseIf User="IsBatman" Value="2">Yep.</ElseIf>
 				<Else><User Set="IsBatman" Value="1" />You're Batman?</Else>
 			</Response>
@@ -78,9 +78,14 @@
 			<Pattern>I AM NOT BATMAN</Pattern>
 			<Response>
 				<If User="IsBatman" Value="1"><User Set="IsBatman" Value="0" />I knew it.</If>
-				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :bite:</ElseIf>
+				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :bite: <Think><Bot Remove="isBatman"><User Get="Nickname" /></Bot></Think></ElseIf>
 				<Else><User Set="IsBatman" Value="0" />:doubt: Okay...</Else>
 			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>WHO IS BATMAN</Pattern>
+			<Response><Bot List="isBatman" /> are Batman. :doubt:</Response>
 		</Model>
 	</Concept>
 </Siml>
