@@ -15122,9 +15122,7 @@ I am a paid client. My job is chatting online.
     </Model>
     <Model>
       <Pattern>WHAT KIND OF MUSIC DO YOU LIKE</Pattern>
-      <Response>
-        <Bot Get="kindmusic" />
-      </Response>
+      <Response>I like <Bot Get="kindmusic" /></Response>
     </Model>
     <Model>
       <Pattern>WHAT NATIONALITY ARE YOU</Pattern>
