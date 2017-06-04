@@ -12,6 +12,21 @@
 		</Model>
 
 		<Model>
+			<Pattern>DEBUG LISTADD *</Pattern>
+			<Response><Bot Add="debuglist"><Match /></Bot> was added to the list</Response>
+		</Model>
+
+		<Model>
+			<Pattern>DEBUG LISTCHECK</Pattern>
+			<Response>Here's the current list: <Bot List="debuglist" /></Response>
+		</Model>
+
+		<Model>
+			<Pattern>DEBUG LISTREMOVE *</Pattern>
+			<Response><Bot Remove="debuglist"><Match /></Bot> was removed from the list</Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG ISPRIVATECHAT</Pattern>
 			<Response>
 				<User Think:Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User>
