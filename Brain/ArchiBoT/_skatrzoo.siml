@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_skatrzoo">
 		<Model>
 			<Pattern>MISFORTUNE</Pattern>
@@ -68,5 +68,248 @@
 				</Random>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>KICKUTODAY</Pattern>
+			<Response><Var Think:Set="kicked"><Random Get="2hus" /></Var>The following member has volunteered to sacrifice himself for the 2hu daily kicku: <Map Get="id2hu"><Var Get="kicked" /></Map> (<Var Get="kicked" />). Thanks for your noble offering :cry:7</Response>
+		</Model>
 	</Concept>
+
+	<Map Name="id2hu">
+		<MapItem Content="76561198006963719" Value="Archi" />
+		<MapItem Content="76561198069026042" Value="ArchiBoT" />
+		<MapItem Content="76561198042302314" Value="Mole" />
+		<MapItem Content="76561198055520449" Value="FakeNameOF" />
+		<MapItem Content="76561198126971055" Value="Miku" />
+		<MapItem Content="76561198025359736" Value="MaduRUDE" />
+		<MapItem Content="76561198051592062" Value="Skatrzoo" />
+		<MapItem Content="76561197962863579" Value="Mozambique" />
+		<MapItem Content="76561197996504787" Value="CoolDarkDragon" />
+		<MapItem Content="76561198040561960" Value="cowbabymoo" />
+		<MapItem Content="76561198045737785" Value="DakotaThrice" />
+		<MapItem Content="76561197962290563" Value="Dyna" />
+		<MapItem Content="76561198104222881" Value="Emma Stoned" />
+		<MapItem Content="76561198059462282" Value="Gonah" />
+		<MapItem Content="76561197985235696" Value="Heiluri" />
+		<MapItem Content="76561198160900075" Value="KingJZ" />
+		<MapItem Content="76561198031274500" Value="Lengray" />
+		<MapItem Content="76561198043727907" Value="morphicmetal" />
+		<MapItem Content="76561198062979402" Value="Narayan" />
+		<MapItem Content="76561198032785977" Value="Ninesto" />
+		<MapItem Content="76561198080410271" Value="rob" />
+		<MapItem Content="76561198248136782" Value="Shax" />
+		<MapItem Content="76561198107454289" Value="Skull18" />
+		<MapItem Content="76561198089299679" Value="wany1981" />
+		<MapItem Content="76561198054009991" Value="ミユ" />
+		<MapItem Content="76561198033104779" Value="Melody " />
+		<MapItem Content="76561198093655477" Value=".Purpur ᐂ Weltschmerz." />
+		<MapItem Content="76561198074850966" Value="ester" />
+		<MapItem Content="76561198065488139" Value="Andrewski" />
+		<MapItem Content="76561198080678402" Value="Blue Ϟ Lightning" />
+		<MapItem Content="76561198111297475" Value="Blue Knight Senpai" />
+		<MapItem Content="76561198034269068" Value="brock_clayton" />
+		<MapItem Content="76561198132278753" Value="Chat Sexorcist Taigo" />
+		<MapItem Content="76561197973009892" Value="Cos" />
+		<MapItem Content="76561198072201915" Value="Cynical Sundew" />
+		<MapItem Content="76561197961766540" Value="DarkMercy" />
+		<MapItem Content="76561198055915962" Value="Draco" />
+		<MapItem Content="76561197970727333" Value="Ekaros" />
+		<MapItem Content="76561198032315186" Value="Fallen Kal" />
+		<MapItem Content="76561198047127687" Value="Gooregu" />
+		<MapItem Content="76561198021096533" Value="Isaac30" />
+		<MapItem Content="76561198020520246" Value="Headcrab Rommel" />
+		<MapItem Content="76561198025147895" Value="Kaleith" />
+		<MapItem Content="76561197985759517" Value="keohookalani ChooChoo Fixin'" />
+		<MapItem Content="76561198004890110" Value="Khyhihihihihi - Umineko is trash" />
+		<MapItem Content="76561198067250392" Value="mgbnn." />
+		<MapItem Content="76561197978157828" Value="Omicron" />
+		<MapItem Content="76561198045642969" Value="Mr. Lewd Medic+" />
+		<MapItem Content="76561198039435685" Value="PMR" />
+		<MapItem Content="76561198141401549" Value="ReadingLies" />
+		<MapItem Content="76561198034249692" Value="Rosey" />
+		<MapItem Content="76561198123194054" Value="sheo" />
+		<MapItem Content="76561198107146761" Value="SilentGuy" />
+		<MapItem Content="76561198258689059" Value="Sora" />
+		<MapItem Content="76561198037251340" Value="Spanky Pie" />
+		<MapItem Content="76561198006005209" Value="Sviat" />
+		<MapItem Content="76561198068565970" Value="Tatatofly" />
+		<MapItem Content="76561198207484137" Value="Tchii" />
+		<MapItem Content="76561197996036318" Value="Big Dosh" />
+		<MapItem Content="76561198129510523" Value="watary" />
+		<MapItem Content="76561198165076891" Value="Zareh" />
+		<MapItem Content="76561197973865074" Value="BuBBy" />
+		<MapItem Content="76561198050478086" Value="Cuki" />
+		<MapItem Content="76561198079158823" Value="Spieler_02" />
+		<MapItem Content="76561197972529138" Value="diipadaapaduu" />
+		<MapItem Content="76561198025505534" Value="「Cristi075」" />
+		<MapItem Content="76561198066402732" Value="Awesome Possum" />
+		<MapItem Content="76561198002675684" Value="Ally" />
+		<MapItem Content="76561198163016672" Value="Annenouk" />
+		<MapItem Content="76561198031558986" Value="Asimmacovski" />
+		<MapItem Content="76561198115086953" Value="Bangledeschler" />
+		<MapItem Content="76561198250732560" Value="BarbaricGenie" />
+		<MapItem Content="76561198014913556" Value="Barboar" />
+		<MapItem Content="76561197993981459" Value="bllatiwonk" />
+		<MapItem Content="76561197992906798" Value="Cjcomplex" />
+		<MapItem Content="76561197971830246" Value="Cold Stone" />
+		<MapItem Content="76561197976796589" Value="Crossbourne" />
+		<MapItem Content="76561197985626087" Value="Daedalus" />
+		<MapItem Content="76561198060934212" Value="Daerphen" />
+		<MapItem Content="76561198025719023" Value="DeltaBladeX" />
+		<MapItem Content="76561198076042220" Value="Ducky of War" />
+		<MapItem Content="76561198048417087" Value="dufftech" />
+		<MapItem Content="76561198020386807" Value="ev" />
+		<MapItem Content="76561197996555572" Value="EvilBlackSheep" />
+		<MapItem Content="76561198053745959" Value="EvilBudgie" />
+		<MapItem Content="76561198048732179" Value="fourtonmantis" />
+		<MapItem Content="76561198010296742" Value="Gin the Mayo   " />
+		<MapItem Content="76561198053843295" Value="Golbez" />
+		<MapItem Content="76561198159007104" Value="Guacamolee" />
+		<MapItem Content="76561198053426429" Value="Guille36" />
+		<MapItem Content="76561198100451955" Value="Hot Bullet 8" />
+		<MapItem Content="76561197966088537" Value="Johnnie" />
+		<MapItem Content="76561198062670809" Value="KioKIzz" />
+		<MapItem Content="76561197993388708" Value="KKCryptic" />
+		<MapItem Content="76561198058268758" Value="Kletar" />
+		<MapItem Content="76561198025668277" Value="KnSYS" />
+		<MapItem Content="76561198092676316" Value="leniu" />
+		<MapItem Content="76561198114451931" Value="Maulen" />
+		<MapItem Content="76561198043605783" Value="morph" />
+		<MapItem Content="76561198258574803" Value="Morshock" />
+		<MapItem Content="76561198103033502" Value="nellyneko" />
+		<MapItem Content="76561198166929163" Value="qngage" />
+		<MapItem Content="76561198070205606" Value="Seawater" />
+		<MapItem Content="76561197998970873" Value="Efrye" />
+		<MapItem Content="76561198057758736" Value="ShandyAndy" />
+		<MapItem Content="76561198054213174" Value="siruChuwan" />
+		<MapItem Content="76561198058343801" Value="Smoku" />
+		<MapItem Content="76561198023181788" Value="Sundance85" />
+		<MapItem Content="76561198052905595" Value="Unnatural" />
+		<MapItem Content="76561198042796557" Value="Veckpreb" />
+		<MapItem Content="76561198032156222" Value="ViktorStahl" />
+		<MapItem Content="76561197975548356" Value="Wintermute" />
+		<MapItem Content="76561198047882270" Value="zelghadis MechaPilotBear" />
+		<MapItem Content="76561198005309964" Value="{MeTaL}Alucard" />
+		<MapItem Content="76561198031367834" Value="Drusilla" />
+		<MapItem Content="76561198063130763" Value="(ง'-')ง" />
+	</Map>
+
+	<Random Name="2hus">
+		<Item>76561198006963719</Item>
+		<Item>76561198069026042</Item>
+		<Item>76561198042302314</Item>
+		<Item>76561198055520449</Item>
+		<Item>76561198126971055</Item>
+		<Item>76561198025359736</Item>
+		<Item>76561198051592062</Item>
+		<Item>76561197962863579</Item>
+		<Item>76561197996504787</Item>
+		<Item>76561198040561960</Item>
+		<Item>76561198045737785</Item>
+		<Item>76561197962290563</Item>
+		<Item>76561198104222881</Item>
+		<Item>76561198059462282</Item>
+		<Item>76561197985235696</Item>
+		<Item>76561198160900075</Item>
+		<Item>76561198031274500</Item>
+		<Item>76561198043727907</Item>
+		<Item>76561198062979402</Item>
+		<Item>76561198032785977</Item>
+		<Item>76561198080410271</Item>
+		<Item>76561198248136782</Item>
+		<Item>76561198107454289</Item>
+		<Item>76561198089299679</Item>
+		<Item>76561198054009991</Item>
+		<Item>76561198033104779</Item>
+		<Item>76561198093655477</Item>
+		<Item>76561198074850966</Item>
+		<Item>76561198065488139</Item>
+		<Item>76561198080678402</Item>
+		<Item>76561198111297475</Item>
+		<Item>76561198034269068</Item>
+		<Item>76561198132278753</Item>
+		<Item>76561197973009892</Item>
+		<Item>76561198072201915</Item>
+		<Item>76561197961766540</Item>
+		<Item>76561198055915962</Item>
+		<Item>76561197970727333</Item>
+		<Item>76561198032315186</Item>
+		<Item>76561198047127687</Item>
+		<Item>76561198021096533</Item>
+		<Item>76561198020520246</Item>
+		<Item>76561198025147895</Item>
+		<Item>76561197985759517</Item>
+		<Item>76561198004890110</Item>
+		<Item>76561198067250392</Item>
+		<Item>76561197978157828</Item>
+		<Item>76561198045642969</Item>
+		<Item>76561198039435685</Item>
+		<Item>76561198141401549</Item>
+		<Item>76561198034249692</Item>
+		<Item>76561198123194054</Item>
+		<Item>76561198107146761</Item>
+		<Item>76561198258689059</Item>
+		<Item>76561198037251340</Item>
+		<Item>76561198006005209</Item>
+		<Item>76561198068565970</Item>
+		<Item>76561198207484137</Item>
+		<Item>76561197996036318</Item>
+		<Item>76561198129510523</Item>
+		<Item>76561198165076891</Item>
+		<Item>76561197973865074</Item>
+		<Item>76561198050478086</Item>
+		<Item>76561198079158823</Item>
+		<Item>76561197972529138</Item>
+		<Item>76561198025505534</Item>
+		<Item>76561198066402732</Item>
+		<Item>76561198002675684</Item>
+		<Item>76561198163016672</Item>
+		<Item>76561198031558986</Item>
+		<Item>76561198115086953</Item>
+		<Item>76561198250732560</Item>
+		<Item>76561198014913556</Item>
+		<Item>76561197993981459</Item>
+		<Item>76561197992906798</Item>
+		<Item>76561197971830246</Item>
+		<Item>76561197976796589</Item>
+		<Item>76561197985626087</Item>
+		<Item>76561198060934212</Item>
+		<Item>76561198025719023</Item>
+		<Item>76561198076042220</Item>
+		<Item>76561198048417087</Item>
+		<Item>76561198020386807</Item>
+		<Item>76561197996555572</Item>
+		<Item>76561198053745959</Item>
+		<Item>76561198048732179</Item>
+		<Item>76561198010296742</Item>
+		<Item>76561198053843295</Item>
+		<Item>76561198159007104</Item>
+		<Item>76561198053426429</Item>
+		<Item>76561198100451955</Item>
+		<Item>76561197966088537</Item>
+		<Item>76561198062670809</Item>
+		<Item>76561197993388708</Item>
+		<Item>76561198058268758</Item>
+		<Item>76561198025668277</Item>
+		<Item>76561198092676316</Item>
+		<Item>76561198114451931</Item>
+		<Item>76561198043605783</Item>
+		<Item>76561198258574803</Item>
+		<Item>76561198103033502</Item>
+		<Item>76561198166929163</Item>
+		<Item>76561198070205606</Item>
+		<Item>76561197998970873</Item>
+		<Item>76561198057758736</Item>
+		<Item>76561198054213174</Item>
+		<Item>76561198058343801</Item>
+		<Item>76561198023181788</Item>
+		<Item>76561198052905595</Item>
+		<Item>76561198042796557</Item>
+		<Item>76561198032156222</Item>
+		<Item>76561197975548356</Item>
+		<Item>76561198047882270</Item>
+		<Item>76561198005309964</Item>
+		<Item>76561198031367834</Item>
+		<Item>76561198063130763</Item>
+	</Random>
 </Siml>
