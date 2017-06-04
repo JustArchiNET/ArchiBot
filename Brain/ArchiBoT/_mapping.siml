@@ -30,6 +30,10 @@
 					<Case Value="steam-76561198126971055">
 						<Goto>WHO IS MIKE</Goto>
 					</Case>
+					<Case Value="steam-76561198066402732">
+						<If User="isBatman" Value="2">You're Batman, silly.</If>
+						<Else>An amnesiac weeb, apparently... See "Who is Possum": <Goto>WHO IS POSSUM</Goto></Else>
+					</Case>
 					<Default>You are <User Get="name" />, seeker.</Default>
 				</Switch>
 			</Response>
