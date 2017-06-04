@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_kaleith">
 		<Model>
 			<Pattern>^THANKS (BOT|ARCHIBOT)</Pattern>
@@ -37,7 +37,7 @@
 				<Item>LASAGNE</Item>
 			</Pattern>
 			<Response>
-				<Think><Var Set="timetolasagna"><Js>1632701400 - Math.floor(Date.now()/1000)</Js></Var></Think>
+				<Var Think:Set="timetolasagna"><Js>1632701400 - Math.floor(Date.now()/1000)</Js></Var>
 				<If Var="timetolasagna" GreaterThan="0">Archi's lasagna will be ready in <Js>secondsToString(<Var Get="timetolasagna" />);</Js></If>
 				<Else>Archi's lasagna has been ready for <Js>secondsToString(<Math Get="abs"><Var Get="timetolasagna" /></Math>);</Js> \:bite:/</Else>
 			</Response>
@@ -61,17 +61,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>( ͡° ͜ʖ ͡°)</Pattern>
-			<Response>( ͡°( ͡° ͜ʖ ͡°) ͡°)</Response>
-		</Model>
-
-		<Model>
-			<Pattern>( ͡°( ͡° ͜ʖ ͡°) ͡°)</Pattern>
-			<Response>( ͡°( ͡°( ͡° ͜ʖ ͡°) ͡°) ͡°)</Response>
-		</Model>
-
-		<Model>
-			<Pattern>_ XOR _</Pattern>
+			<Pattern>_ ^XOR _</Pattern>
 			<Response>
 				<Random>
 					<Item><Match Index="1" />.</Item>
@@ -182,13 +172,14 @@
 
 		<Model>
 			<Pattern>^THANKS *</Pattern>
-			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> THANKS <Text Get="uppercase"><Match /></Text> <User Get="randomemote" /></Response>
+			<Response><Var Set="randomemote"><Random Get="RANDOMEMOTE" /></Var> THANKS <Text Get="uppercase"><Match /></Text> <Var Get="randomemote" /></Response>
 		</Model>
 
 		<Model>
 			<Pattern>
 				<Item>PANIC</Item>
 				<Item>:PETEBUTTON:</Item>
+				<Item>ːPETEBUTTONː</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -429,20 +420,24 @@
 		</Model>
 
 		<Model>
+			<Pattern>GIT GUD</Pattern>
+			<Response>What? I'm already good. When will *YOU* git gud? :bite:</Response>
+		</Model>
+
+		<Model>
 			<Pattern>ROLL *</Pattern>
 			<Response>
-				<Think><Var Set="isInt"><Js>isInteger(Number("<Match />"));</Js></Var></Think>
+				<Var Think:Set="isInt"><Js>isInteger(Number("<Match />"));</Js></Var>
 				<If Var="isInt" Value="True">
-					<Think><Var Set="diceroll"><Match /></Var></Think>
+					<Var Think:Set="diceroll"><Match /></Var>
 					<Switch Var="diceroll">
 						<Case LessThan="0">Sure, let me roll negative dice :doubt:</Case>
 						<Case Value="0">*rolls nothing*</Case>
 						<Case LessThanOr="20">
 							<Think>
 								<Var Set="count">0</Var>
-								<Bind Key="{0}"><Var Get="diceroll" /></Bind>
 							</Think>
-							<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think>:dice<Random>(1|2|3|4|5|6)</Random>:</While>
+							<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6)</Random>:</While>
 						</Case>
 						<Default>Archi didn't buy me that many dice :cry:</Default>
 					</Switch>
@@ -457,14 +452,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>
-				<Item>WHAT IS THE TENTACLE MAFIA</Item>
-				<Item>WHAT IS TENTACLE MAFIA</Item>
-			</Pattern>
+			<Pattern>WHAT IS % ^TENTACLE MAFIA</Pattern>
 			<Response>
 				<Random>
 					<Item>Nothing :zeemonster::sgsmile:</Item>
 					<Item>No idea :zeemonster::sgsmile:</Item>
+					<Item>Just a group of friends :zeemonster::sgsmile:</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -477,6 +470,14 @@
 		<Model>
 			<Pattern>ZLIA</Pattern>
 			<Response>Hi, slightly more social than me people, a lot more social than me people, people who claim they are less social than me and anyone else reading this message.</Response>
+		</Model>
+	</Concept>
+
+<!-- Private Concept for user-exclusive commands --> 
+	<Concept Name="_kaleith_priv" User="steam-76561198025147895">
+		<Model>
+			<Pattern>SING A SONG FOR ME</Pattern>
+			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
 		</Model>
 	</Concept>
 </Siml>

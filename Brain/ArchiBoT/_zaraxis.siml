@@ -8,7 +8,7 @@
 
 		<Model>
 			<Pattern>MYON</Pattern>
-			<Response><User Set="randomemote"><Goto>RANDOMEMOTE</Goto></User> MYON <User Get="randomemote" /></Response>
+			<Response><Var Set="randomemote"><Random Get="RANDOMEMOTE" /></Var> MYON <Var Get="randomemote" /></Response>
 		</Model>
 
 		<Model>

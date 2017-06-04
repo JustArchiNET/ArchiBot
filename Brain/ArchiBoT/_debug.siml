@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_debug">
 		<Model>
-			<Pattern>DEBUGID GET</Pattern>
+			<Pattern>DEBUGINFO</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
-	</Concept>
 
-	<Concept Name="kale test">
 		<Model>
 			<Pattern>WORDAT *</Pattern>
 			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
@@ -16,7 +14,7 @@
 		<Model>
 			<Pattern>DEBUG ISPRIVATECHAT</Pattern>
 			<Response>
-				<Think><User Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User></Think>
+				<User Think:Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User>
 				<Switch User="isBotPrivateChat">
 					<Case Value="True">You're in private chat... It worked :speak:</Case>
 					<Case Value="False">You're in a group chat... Did it work? :speak:</Case>
@@ -25,23 +23,19 @@
 			</Response>
 		</Model>
 
-		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>
-
 		<Model>
 			<Pattern>DEBUGGOTO *</Pattern>
 			<Response>
-				<Think><Var Set="count">0</Var></Think>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>DEBUGROLL</Goto> </While>
+				<Var Think:Set="count">0</Var>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
 
 		<Model>
 			<Pattern>DEBUGGOTO2 *</Pattern>
 			<Response>
-				<Think><Var Set="count">0</Var></Think>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
+				<Var Think:Set="count">0</Var>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
 
@@ -51,10 +45,11 @@
 				<Late Second="{Bind Match}">Success!</Late>
 			</Response>
 		</Model>
-<!-- edit to test target-id in the future -->
+
+<!-- TODO: un-comment and add targets to test target-id in the future 
 		<Model>
 			<Pattern>DEBUGLATESELF *</Pattern>
-			<Response><Think><Bind Key="{source-id}"><User Get="SourceID" /></Bind></Think>I will try to send the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
+			<Response><Bind Key="{source-id}"><User Get="SourceID" /></Bind>I will try to send the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
 				<Late Second="{Bind Match}"><Text>{source-id}</Text> Success!</Late>
 			</Response>
 		</Model>
@@ -68,16 +63,15 @@
 
 		<Model>
 			<Pattern>DEBUGSILENTLATE *</Pattern>
-			<Response><Think><Bind Key="{0}"><Match /></Bind></Think><Late Second="{0}">Success!</Late></Response>
+			<Response><Late Second="{Bind Match}">Success!</Late></Response>
 		</Model>
-
-<Model>
-<Pattern>COUNT TO *</Pattern>
-<Response>
-<Bind Key="{0}"><Match /></Bind>
-<Var Set="count">0</Var> <While Var="count" Not="{0}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
-</Response>
-</Model>
+-->
+		<Model>
+			<Pattern>COUNT TO *</Pattern>
+			<Response>
+				<Var Set="count">0</Var> <While Var="count" Not="{Bind Match}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
+			</Response>
+		</Model>
 
 		<Model>
 			<Pattern>DEBUGROLL</Pattern>
@@ -92,44 +86,47 @@
 				</Random>
 			</Response>
 		</Model>
+	</Concept>
+
+<!-- this should trigger for anyone other than Kaleith on Steam -->
+	<Concept Name="publicpersonaldebug">
+		<Model>
+			<Pattern>DEBUGTEST</Pattern>
+			<Response>Nope, you are not Kaleith. Or the test failed I guess :cry:</Response>
+		</Model>
+	</Concept>
+
+<!-- The following should work only for Kaleith on Steam -->
+	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
+		<Model>
+			<Pattern>DEBUGTEST</Pattern>
+			<Response>You are Kaleith, right? :speak:</Response>
+		</Model>
 
 		<Model>
 			<Pattern>BADRANDOM *</Pattern>
 			<Response>
-				<Think><Var Set="count">0</Var></Think>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think>:dice<Random><Item>1</Item><Item>2</Item><Item>3</Item><Item>4</Item><Item>5</Item><Item>6</Item></Random>:</While>
+				<Var Think:Set="count">0</Var>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random><Item>1</Item><Item>2</Item><Item>3</Item><Item>4</Item><Item>5</Item><Item>6</Item></Random>:</While>
 			</Response>
 		</Model>
 
 		<Model>
 			<Pattern>GOODRANDOM *</Pattern>
 			<Response>
-				<Think><Var Set="count">0</Var></Think>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var></Think>:dice<Random>(1|2|3|4|5|6):</Random></While>
+				<Var Think:Set="count">0</Var>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6):</Random></While>
 			</Response>
 		</Model>
-
-		<Model>
-			<Pattern>DEBUG35 *</Pattern>
-			<Response>Var set to <Var Set="debug35"><Match /></Var></Response>
-		</Model>
-		
-		<Model>
-			<Pattern>DEBUG36 *</Pattern>
-			<Response>Var is <Var Get="debug35" /></Response>
-		</Model>
-
+<!-- in theory, the <If User="ID" Value="steam-76561198025147895"> is not needed here -->
 		<Model>
 			<Pattern>SPAMTAIGO *</Pattern>
 			<Response>
 				<If User="ID" Value="steam-76561198025147895">Let's spam TAIGO <Match /> times \:bite:/
-						<Think><Var Set="count">0</Var></Think>
+						<Var Think:Set="count">0</Var>
 						<While Var="count" Not="{Bind Match}">
 							<Bind Key="{sec}"><Math><Var Get="count" />*5</Math></Bind>
-							<Think><Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
-							</Think>
+							<Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
 							<Late Second="{sec}"><Goto>TAIGO</Goto></Late>
 						</While>
 				</If>
@@ -137,19 +134,16 @@
 			</Response>
 		</Model>
 
-	</Concept>
-
-	<Concept Name="publicpersonaldebug">
 		<Model>
-			<Pattern>DEBUGTEST</Pattern>
-			<Response>Nope, you are <User Get="ID" /> :cry:</Response>
+			<Pattern>DEBUG35 *</Pattern>
+			<Response>Var set to <Var Set="debug35"><Match /></Var></Response>
 		</Model>
-	</Concept>
 
-	<Concept Name="personaldebug" User="steam-76561198025147895">
 		<Model>
-			<Pattern>DEBUGTEST</Pattern>
-			<Response>You are <User Get="ID" />, Test successful :speak:</Response>
+			<Pattern>DEBUG35GET *</Pattern>
+			<Response>Var is <Var Get="debug35" /></Response>
 		</Model>
+
+		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>
 	</Concept>
 </Siml>
