@@ -472,4 +472,12 @@
 			<Response>Hi, slightly more social than me people, a lot more social than me people, people who claim they are less social than me and anyone else reading this message.</Response>
 		</Model>
 	</Concept>
+
+<!-- Private Concept for user-exclusive commands --> 
+	<Concept Name="_kaleith_priv" User="steam-76561198025147895">
+		<Model>
+			<Pattern>SING A SONG FOR ME</Pattern>
+			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
+		</Model>
+	</Concept>
 </Siml>
