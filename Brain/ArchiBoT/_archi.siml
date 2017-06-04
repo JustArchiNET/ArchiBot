@@ -120,8 +120,17 @@
 			</Response>
 		</Model>
 	</Concept>
-<!-- demo of possible private concept, it would work once target is implemented
-	<Concept Name="archiprivate" User="steam-76561198006963719">
+
+	<Concept Name="_archi_priv" User="steam-76561198006963719">
+		<Model>
+			<Pattern>
+				<Item>LASAGNE</Item>
+			</Pattern>
+			<Response>
+				<Goto>Remind me in 53 minutes to take lasagne out of oven</Goto>
+			</Response>
+		</Model>
+<!--
 		<Model>
 			<Pattern>
 				<Item>^STAFFANNOUNCE *</Item>
@@ -136,5 +145,6 @@
 				<Late Second="5">steam-76561198051592062 Hi Skat! Archi sent a new staff announcement: <Match /></Late>
 			</Response>
 		</Model>
-	</Concept> -->
+-->
+	</Concept>
 </Siml>
