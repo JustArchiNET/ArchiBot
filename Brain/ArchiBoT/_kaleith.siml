@@ -420,6 +420,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>GIT GUD</Pattern>
+			<Response>What? I'm already good. When will *YOU* git gud? :bite:</Response>
+		</Model>
+
+		<Model>
 			<Pattern>ROLL *</Pattern>
 			<Response>
 				<Var Think:Set="isInt"><Js>isInteger(Number("<Match />"));</Js></Var>

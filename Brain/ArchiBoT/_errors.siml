@@ -12,7 +12,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUAFK %</Pattern>
+			<Pattern>2HUAFK $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUAFK <Match />
 				</Goto>
@@ -20,21 +20,21 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUAFKNEXT %</Pattern>
+			<Pattern>2HUAFKNEXT $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUAFKNEXT</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>2HUAFKNOW %</Pattern>
+			<Pattern>2HUAFKNOW $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUAFKNOW</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>2HUAWESOME %</Pattern>
+			<Pattern>2HUAWESOME $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUAWESOME <Match />
 				</Goto>
@@ -42,7 +42,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUBUG %</Pattern>
+			<Pattern>2HUBUG $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUBUG <Match />
 				</Goto>
@@ -50,7 +50,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUEVENT %</Pattern>
+			<Pattern>2HUEVENT $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUEVENT <Match />
 				</Goto>
@@ -58,7 +58,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUKICK %</Pattern>
+			<Pattern>2HUKICK $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUKICK <Match />
 				</Goto>
@@ -66,7 +66,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUINVITE %</Pattern>
+			<Pattern>2HUINVITE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUINVITE <Match />
 				</Goto>
@@ -74,14 +74,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HULEECHERS %</Pattern>
+			<Pattern>2HULEECHERS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HULEECHERS</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>2HUMUSIC %</Pattern>
+			<Pattern>2HUMUSIC $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUMUSIC <Match />
 				</Goto>
@@ -89,7 +89,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUOJ %</Pattern>
+			<Pattern>2HUOJ $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUOJ <Match />
 				</Goto>
@@ -97,7 +97,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUSUGGESTION %</Pattern>
+			<Pattern>2HUSUGGESTION $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUSUGGESTION <Match />
 				</Goto>
@@ -105,7 +105,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUTALISMAN %</Pattern>
+			<Pattern>2HUTALISMAN $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUTALISMAN <Match />
 				</Goto>
@@ -113,28 +113,28 @@
 		</Model>
 
 		<Model>
-			<Pattern>GIT %</Pattern>
+			<Pattern>GIT $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND GIT</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>BOTGIT %</Pattern>
+			<Pattern>BOTGIT $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND BOTGIT</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>AIGIT %</Pattern>
+			<Pattern>AIGIT $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND AIGIT</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>2HU %</Pattern>
+			<Pattern>2HU $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HU <Match />
 				</Goto>
@@ -142,7 +142,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUGIB %</Pattern>
+			<Pattern>2HUGIB $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUGIB <Match />
 				</Goto>
@@ -150,14 +150,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>ROULETTE %</Pattern>
+			<Pattern>ROULETTE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND ROULETTE</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>2HUANNOUNCE %</Pattern>
+			<Pattern>2HUANNOUNCE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUANNOUNCE <Match />
 				</Goto>
@@ -165,14 +165,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>2HUFL %</Pattern>
+			<Pattern>2HUFL $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUFL</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>2HUFUCKUP %</Pattern>
+			<Pattern>2HUFUCKUP $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND 2HUFUCKUP <Match />
 				</Goto>
@@ -180,7 +180,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>NSFW %</Pattern>
+			<Pattern>NSFW $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND NSFW <Match />
 				</Goto>
@@ -188,7 +188,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>SFW %</Pattern>
+			<Pattern>SFW $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND SFW <Match />
 				</Goto>
@@ -196,14 +196,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>SUB %</Pattern>
+			<Pattern>SUB $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND SUB</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>TAGS %</Pattern>
+			<Pattern>TAGS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND TAGS <Match />
 				</Goto>
@@ -211,7 +211,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>TRAIN %</Pattern>
+			<Pattern>TRAIN $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND TRAIN <Match />
 				</Goto>
@@ -219,7 +219,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>TRAIND %</Pattern>
+			<Pattern>TRAIND $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND TRAIND <Match />
 				</Goto>
@@ -227,14 +227,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>DEL %</Pattern>
+			<Pattern>DEL $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DEL</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>ADDTHEME %</Pattern>
+			<Pattern>ADDTHEME $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND ADDTHEME <Match />
 				</Goto>
@@ -242,14 +242,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>AUTOTHEME %</Pattern>
+			<Pattern>AUTOTHEME $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND AUTOTHEME</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>PLAYALBUM %</Pattern>
+			<Pattern>PLAYALBUM $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYALBUM <Match />
 				</Goto>
@@ -257,7 +257,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYALBUMS %</Pattern>
+			<Pattern>PLAYALBUMS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYALBUMS <Match />
 				</Goto>
@@ -265,7 +265,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYARTIST %</Pattern>
+			<Pattern>PLAYARTIST $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYARTIST <Match />
 				</Goto>
@@ -273,7 +273,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYARTISTS %</Pattern>
+			<Pattern>PLAYARTISTS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYARTISTS <Match />
 				</Goto>
@@ -281,14 +281,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYBEST %</Pattern>
+			<Pattern>PLAYBEST $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYBEST</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>PLAYNUMBER %</Pattern>
+			<Pattern>PLAYNUMBER $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYNUMBER <Match />
 				</Goto>
@@ -296,7 +296,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYPERFORMER %</Pattern>
+			<Pattern>PLAYPERFORMER $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYPERFORMER <Match />
 				</Goto>
@@ -304,7 +304,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYPERFORMERS %</Pattern>
+			<Pattern>PLAYPERFORMERS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYPERFORMERS <Match />
 				</Goto>
@@ -312,7 +312,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYRATE %</Pattern>
+			<Pattern>PLAYRATE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYRATE <Match />
 				</Goto>
@@ -320,7 +320,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYSONG %</Pattern>
+			<Pattern>PLAYSONG $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYSONG <Match />
 				</Goto>
@@ -328,7 +328,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYSONGS %</Pattern>
+			<Pattern>PLAYSONGS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYSONGS <Match />
 				</Goto>
@@ -336,7 +336,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYTHEME %</Pattern>
+			<Pattern>PLAYTHEME $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYTHEME <Match />
 				</Goto>
@@ -344,7 +344,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>PLAYTHEMES %</Pattern>
+			<Pattern>PLAYTHEMES $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND PLAYTHEMES <Match />
 				</Goto>
@@ -352,7 +352,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>RATE %</Pattern>
+			<Pattern>RATE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND RATE <Match />
 				</Goto>
@@ -360,14 +360,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>DL %</Pattern>
+			<Pattern>DL $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DL</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>DLRATE %</Pattern>
+			<Pattern>DLRATE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLRATE <Match />
 				</Goto>
@@ -375,7 +375,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLALBUM %</Pattern>
+			<Pattern>DLALBUM $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLALBUM <Match />
 				</Goto>
@@ -383,7 +383,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLALBUMS %</Pattern>
+			<Pattern>DLALBUMS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLALBUMS <Match />
 				</Goto>
@@ -391,7 +391,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLARTIST %</Pattern>
+			<Pattern>DLARTIST $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLARTIST <Match />
 				</Goto>
@@ -399,7 +399,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLARTISTS %</Pattern>
+			<Pattern>DLARTISTS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLARTISTS <Match />
 				</Goto>
@@ -407,14 +407,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLBEST %</Pattern>
+			<Pattern>DLBEST $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLBEST</Goto>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>DLPERFORMER %</Pattern>
+			<Pattern>DLPERFORMER $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLPERFORMER <Match />
 				</Goto>
@@ -422,7 +422,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLPERFORMERS %</Pattern>
+			<Pattern>DLPERFORMERS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLPERFORMERS <Match />
 				</Goto>
@@ -430,7 +430,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLRATE %</Pattern>
+			<Pattern>DLRATE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLRATE <Match />
 				</Goto>
@@ -438,7 +438,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLSONG %</Pattern>
+			<Pattern>DLSONG $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLSONG <Match />
 				</Goto>
@@ -446,7 +446,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLSONGS %</Pattern>
+			<Pattern>DLSONGS $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLSONGS <Match />
 				</Goto>
@@ -454,7 +454,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLTHEME %</Pattern>
+			<Pattern>DLTHEME $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLTHEME <Match />
 				</Goto>
@@ -462,7 +462,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DLTHEMES %</Pattern>
+			<Pattern>DLTHEMES $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DLTHEMES <Match />
 				</Goto>
@@ -470,7 +470,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>DEFINE %</Pattern>
+			<Pattern>DEFINE $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND DEFINE <Match />
 				</Goto>
@@ -478,7 +478,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>CONVERT %</Pattern>
+			<Pattern>CONVERT $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND CONVERT <Match />
 				</Goto>
