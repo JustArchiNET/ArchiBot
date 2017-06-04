@@ -27,8 +27,7 @@
 			<Pattern>DEBUGGOTO *</Pattern>
 			<Response>
 				<Var Think:Set="count">0</Var>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto> </While>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
 
@@ -36,8 +35,7 @@
 			<Pattern>DEBUGGOTO2 *</Pattern>
 			<Response>
 				<Var Think:Set="count">0</Var>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
 
@@ -65,14 +63,13 @@
 
 		<Model>
 			<Pattern>DEBUGSILENTLATE *</Pattern>
-			<Response><Bind Key="{0}"><Match /></Bind><Late Second="{0}">Success!</Late></Response>
+			<Response><Late Second="{Bind Match}">Success!</Late></Response>
 		</Model>
 -->
 		<Model>
 			<Pattern>COUNT TO *</Pattern>
 			<Response>
-				<Bind Key="{0}"><Match /></Bind>
-				<Var Set="count">0</Var> <While Var="count" Not="{0}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
+				<Var Set="count">0</Var> <While Var="count" Not="{Bind Match}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
 			</Response>
 		</Model>
 
@@ -110,8 +107,7 @@
 			<Pattern>BADRANDOM *</Pattern>
 			<Response>
 				<Var Think:Set="count">0</Var>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random><Item>1</Item><Item>2</Item><Item>3</Item><Item>4</Item><Item>5</Item><Item>6</Item></Random>:</While>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random><Item>1</Item><Item>2</Item><Item>3</Item><Item>4</Item><Item>5</Item><Item>6</Item></Random>:</While>
 			</Response>
 		</Model>
 
@@ -119,8 +115,7 @@
 			<Pattern>GOODRANDOM *</Pattern>
 			<Response>
 				<Var Think:Set="count">0</Var>
-				<Bind Key="{0}"><Match /></Bind>
-				<While Var="count" Not="{0}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6):</Random></While>
+				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6):</Random></While>
 			</Response>
 		</Model>
 <!-- in theory, the <If User="ID" Value="steam-76561198025147895"> is not needed here -->
