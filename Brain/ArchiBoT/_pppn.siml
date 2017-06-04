@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_pppn">
 		<Model>
 			<Pattern>FLIP *</Pattern>
@@ -30,7 +30,7 @@
 		<Model>
 			<Pattern>THROW TABLE</Pattern>
 			<Response>
-				<Think><User Set="_pppn_table_state">thrown</User></Think>
+				<User Think:Set="_pppn_table_state">thrown</User>
 				<Random>
 					<Item>(┛◉Д◉)┛彡┻━┻</Item>
 					<Item>(ノಠ益ಠ)ノ彡┻━┻</Item>
@@ -52,7 +52,7 @@
 				<Item>SETU TABLE</Item>
 			</Pattern>
 			<Response>
-				<Think><User Set="_pppn_table_state">set</User></Think>
+				<User Think:Set="_pppn_table_state">set</User>
 				<Random>
 					<Item>┬──┬ ノ( ゜-゜ノ)</Item>
 					<Item>┬──┬﻿ ¯\_(ツ)</Item>
@@ -65,7 +65,7 @@
 		<Model>
 			<Pattern>PPPN FLIPPING TABLE</Pattern>
 			<Response>
-				<Think><User Set="_pppn_table_state">flipped</User></Think>
+				<User Think:Set="_pppn_table_state">flipped</User>
 				<Random>
 					<Item>(╯°□°）╯︵ ┻━┻</Item>
 					<Item>(ﾉ≧∇≦)ﾉ ﾐ ┸━┸</Item>
