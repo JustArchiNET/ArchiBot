@@ -27,8 +27,7 @@
 
 		<Model>
 			<Pattern>WHO IS (MAUD|MDAU|MDUA|MUAD|MUDA|AMUD|AMDU|ADUM|ADMU|AUDM|AUMD|DMAU|DMUA|DAMU|DAUM|DUMA|DUAM|UMDA|UMAD|UADM|UAMD|UDAM|UDMA)</Pattern>
-			<Response xml:space="preserve">"Who is <Match />"? Ok... :doubt:
-<Text><Goto>MADUNIZE <Goto>WHO IS MADU</Goto></Goto></Text></Response>
+			<Response>"Who is <Match />"? Ok... :doubt:&#xD;<Goto>MADUNIZE <Goto>WHO IS MADU</Goto></Goto></Response>
 		</Model>
 
 		<Model>

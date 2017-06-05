@@ -71,8 +71,7 @@
 
 		<Model>
 			<Pattern>KICKUTODAY</Pattern>
-			<Response><Var Think:Set="kicked"><Random Get="2hus" /></Var>The following member has volunteered to sacrifice himself for the 2hu daily kicku: <Map Get="id2hu"><Var Get="kicked" /></Map> (<Var Get="kicked" />).<Text xml:space="preserve">
-Thanks for your noble offering :cry:7</Text></Response>
+			<Response><Var Think:Set="kicked"><Random Get="2hus" /></Var>The following member has volunteered to sacrifice himself for the 2hu daily kicku: <Map Get="id2hu"><Var Get="kicked" /></Map> (<Var Get="kicked" />).&#xD;Thanks for your noble offering :cry:7</Response>
 		</Model>
 	</Concept>
 
@@ -102,7 +101,7 @@ Thanks for your noble offering :cry:7</Text></Response>
 		<MapItem Content="76561198107454289" Value="Skull18" />
 		<MapItem Content="76561198089299679" Value="wany1981" />
 		<MapItem Content="76561198054009991" Value="ミユ" />
-		<MapItem Content="76561198033104779" Value="Melody " />
+		<MapItem Content="76561198033104779" Value="Melody" />
 		<MapItem Content="76561198093655477" Value=".Purpur ᐂ Weltschmerz." />
 		<MapItem Content="76561198074850966" Value="ester" />
 		<MapItem Content="76561198065488139" Value="Andrewski" />
@@ -163,7 +162,7 @@ Thanks for your noble offering :cry:7</Text></Response>
 		<MapItem Content="76561197996555572" Value="EvilBlackSheep" />
 		<MapItem Content="76561198053745959" Value="EvilBudgie" />
 		<MapItem Content="76561198048732179" Value="fourtonmantis" />
-		<MapItem Content="76561198010296742" Value="Gin the Mayo   " />
+		<MapItem Content="76561198010296742" Value="Gin the Cat" />
 		<MapItem Content="76561198053843295" Value="Golbez" />
 		<MapItem Content="76561198159007104" Value="Guacamolee" />
 		<MapItem Content="76561198053426429" Value="Guille36" />
