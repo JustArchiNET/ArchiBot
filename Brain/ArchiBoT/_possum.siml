@@ -115,7 +115,7 @@
 					<Case Value="2">
 						<Bind Key="{nickname}"><User Get="Nickname" /></Bind>
 						<If Bot="BatmanList" Contains="{nickname}">Yes you are! :sgsmile:</If>
-						<Else>Weird, you weren't on the list. I guess I'll add you :doubt:</Else>
+						<Else>Weird, you are but for some reason you weren't on the list. I guess I'll add you :bite:</Else>
 					</Case>
 					<Default>I'm not sure. Are you Batman?</Default>
 				</Switch>
