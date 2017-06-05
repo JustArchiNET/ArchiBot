@@ -75,7 +75,7 @@
 			<Response>
 				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></If>
 				<ElseIf User="IsBatman" Value="2">Yep.</ElseIf>
-				<Else><User Think:Set="IsBatman" Value="1" />You're Batman?</Else>
+				<Else><User Think:Set="IsBatman" Value="1" />Are you Batman?</Else>
 			</Response>
 		</Model>
 		
@@ -102,18 +102,30 @@
 			</Response>
 		</Model>
 
+		<!-- Lists all users who are Batman -->
+		<Model>
+			<Pattern>AM I BATMAN</Pattern>
+			<Response>
+				<Switch User="IsBatman">
+					<Case Value="0">No, you're not Batman :doubt:</Case>
+					<Case Value="2">Yes you are! :sgsmile:</Case>
+					<Default>I'm not sure. Are you Batman?</Default>
+				</Switch>
+			</Response>
+		</Model>
+
 		<!-- Yes response possibile instead of needing 2 "I am Batman"s -->
 		<Model>
 			<Pattern>YES %</Pattern>
-			<Previous>You are Batman</Previous>
-			<Response><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></Response>
+			<Previous>ARE YOU BATMAN</Previous>
+			<Response><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot>, you are Batman now.</Response>
 		</Model>
 
 		<!-- No response if you decided you aren't Batman -->
 		<Model>
 			<Pattern>NO %</Pattern>
-			<Previous>You are Batman</Previous>
-			<Response><User Think:Set="IsBatman" Value="0" />Didn't think so.</Response>
+			<Previous>ARE YOU BATMAN</Previous>
+			<Response><User Think:Set="IsBatman" Value="0" />I didn't think you were.</Response>
 		</Model>
 	</Concept>
 </Siml>
