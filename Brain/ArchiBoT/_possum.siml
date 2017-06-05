@@ -84,7 +84,7 @@
 			<Pattern>I AM NOT BATMAN</Pattern>
 			<Response>
 				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="0" />I knew it.</If>
-				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :cry: <Think><Bot Remove="BatmanList"><User Get="Nickname" /></Bot></Think></ElseIf>
+				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :cry:<User Think:Set="IsBatman" Value="0" /><Bot Think:Remove="BatmanList"><User Get="Nickname" /></Bot></ElseIf>
 				<Else><User Think:Set="IsBatman" Value="0" />:doubt: Okay...?</Else>
 			</Response>
 		</Model>
