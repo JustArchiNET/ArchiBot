@@ -71,5 +71,23 @@
 				</Random>
 			</Response>
 		</Model>
+		
+		<Model>
+    			<Pattern>
+    				<Item>D:</Item>
+    				<Item>:O</Item>
+    				<Item>O:</Item>
+    				<Item>0_0</Item>
+    				<Item>O_O</Item>
+    			</Pattern>
+    			<Response>
+    				<Random>
+    					<Item>What's so surprising?</Item>
+    					<Item>Isn't that normal?</Item>
+    					<Item>You appear aggitated.</Item>
+    					<Item>You seem surprised.</Item>
+    				</Random>
+    			</Response>
+    		</Model>
 	</Concept>
 </Siml>
