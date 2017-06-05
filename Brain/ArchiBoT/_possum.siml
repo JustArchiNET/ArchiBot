@@ -68,9 +68,7 @@
 			<Pattern>(PRESIDENT|US PRESIDENT|USA PRESIDENT|PRESIDENTS|US PRESIDENTS|USA PRESIDENTS)</Pattern>
 			<Response><Random>(George Washington|John Adams|Thomas Jefferson|James Madison|James Monroe|John Quincy Adams|Andrew Jackson|Martin Van Buren|William Henry Harrison|John Tyler|James K. Polk|Zachary Taylor|Millard Fillmore|Franklin Pierce|James Buchanan|Abraham Lincoln|Andrew Johnson|Ulysses S. Grant|Rutherford B. Hayes|James A. Garfield|Chester A. Arthur|Grover Cleveland|Benjamin Harrison|William McKinley|Theodore Roosevelt|William Howard Taft|Woodrow Wilson|Warren G. Harding|Calvin Coolidge|Herbert Hoover|Franklin D. Roosevelt|Harry S. Truman|Dwight D. Eisenhower|John F. Kennedy|Lyndon B. Johnson|Richard Nixon|Gerald Ford|Jimmy Carter|Ronald Reagan|George H. W. Bush|Bill Clinton|George W. Bush|Barack Obama|Donald Trump)</Random><Random>(!|.|?)</Random></Response>
 		</Model>
-		
-		
-		
+
 		<!-- Will make User Batman -->
 		<Model>
 			<Pattern>I AM BATMAN</Pattern>
@@ -94,22 +92,28 @@
 		<!-- Lists all users who are Batman -->
 		<Model>
 			<Pattern>WHO IS BATMAN</Pattern>
-			<Response><Bot List="BatmanList" /> are Batman. :doubt:</Response>
+			<Response>
+				<Var Think:Set="BatmanCount"><Text Get="WordCount"><Bot List="BatmanList" /></Text></Var>
+				<Switch Var="BatmanCount">
+					<Case Value="0">No one is Batman :doubt:</Case>
+					<Case Value="1"><Bot Get="BatmanList" /> is Batman :doubt:</Case>
+					<Default><Bot List="BatmanList" /> are Batman. :doubt:</Default>
+				</Switch>
+			</Response>
 		</Model>
-		
+
 		<!-- Yes response possibile instead of needing 2 "I am Batman"s -->
 		<Model>
-			<Pattern>YES</Pattern>
+			<Pattern>YES %</Pattern>
 			<Previous>You are Batman</Previous>
 			<Response><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></Response>
 		</Model>
-		
+
 		<!-- No response if you decided you aren't Batman -->
 		<Model>
-			<Pattern>NO</Pattern>
+			<Pattern>NO %</Pattern>
 			<Previous>You are Batman</Previous>
 			<Response><User Think:Set="IsBatman" Value="0" />Didn't think so.</Response>
 		</Model>
-		
 	</Concept>
 </Siml>
