@@ -77,7 +77,7 @@
 				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></If>
 				<ElseIf User="IsBatman" Value="2">
 					<If Bot="BatmanList" Contains="{nickname}">Yep.</If>
-					<Else>Weird, you weren't on the list. I guess I'll add you :doubt:</Else>
+					<Else>Weird, you weren't on the list. I guess I'll add you, <Bot Add="BatmanList"><User Get="Nickname" /></Bot> :doubt:</Else>
 				</ElseIf>
 				<Else><User Think:Set="IsBatman" Value="1" />Are you Batman?</Else>
 			</Response>
@@ -115,7 +115,7 @@
 					<Case Value="2">
 						<Bind Key="{nickname}"><User Get="Nickname" /></Bind>
 						<If Bot="BatmanList" Contains="{nickname}">Yes you are! :sgsmile:</If>
-						<Else>Weird, you are but for some reason you weren't on the list. I guess I'll add you :bite:</Else>
+						<Else>Weird, you are Batman but for some reason you weren't on the list. I guess I'll add you, <Bot Add="BatmanList"><User Get="Nickname" /></Bot> :bite:</Else>
 					</Case>
 					<Default>I'm not sure. Are you Batman?</Default>
 				</Switch>
