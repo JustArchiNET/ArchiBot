@@ -75,6 +75,7 @@
 		</Model>
 	</Concept>
 
+<!-- Maps steamid to a Nickname -->
 	<Map Name="id2hu">
 		<MapItem Content="76561198006963719" Value="Archi" />
 		<MapItem Content="76561198069026042" Value="ArchiBoT" />
@@ -83,7 +84,7 @@
 		<MapItem Content="76561198126971055" Value="Miku" />
 		<MapItem Content="76561198025359736" Value="MaduRUDE" />
 		<MapItem Content="76561198051592062" Value="Skatrzoo" />
-		<MapItem Content="76561197962863579" Value="Mozambique" />
+		<MapItem Content="76561197962863579" Value="ℒℯ ℳᎯℴ 🐱" />
 		<MapItem Content="76561197996504787" Value="CoolDarkDragon" />
 		<MapItem Content="76561198040561960" Value="cowbabymoo" />
 		<MapItem Content="76561198045737785" Value="DakotaThrice" />
@@ -96,7 +97,7 @@
 		<MapItem Content="76561198043727907" Value="morphicmetal" />
 		<MapItem Content="76561198062979402" Value="Narayan" />
 		<MapItem Content="76561198032785977" Value="Ninesto" />
-		<MapItem Content="76561198080410271" Value="rob" />
+		<MapItem Content="76561198080410271" Value="ralph1017" />
 		<MapItem Content="76561198248136782" Value="Shax" />
 		<MapItem Content="76561198107454289" Value="Skull18" />
 		<MapItem Content="76561198089299679" Value="wany1981" />
@@ -119,11 +120,11 @@
 		<MapItem Content="76561198021096533" Value="Isaac30" />
 		<MapItem Content="76561198020520246" Value="Headcrab Rommel" />
 		<MapItem Content="76561198025147895" Value="Kaleith" />
-		<MapItem Content="76561197985759517" Value="keohookalani ChooChoo Fixin'" />
-		<MapItem Content="76561198004890110" Value="Khyhihihihihi - Umineko is trash" />
+		<MapItem Content="76561197985759517" Value="keohookalani" />
+		<MapItem Content="76561198004890110" Value="Khy" />
 		<MapItem Content="76561198067250392" Value="mgbnn." />
 		<MapItem Content="76561197978157828" Value="Omicron" />
-		<MapItem Content="76561198045642969" Value="Mr. Lewd Medic+" />
+		<MapItem Content="76561198045642969" Value="Mr.Ferret" />
 		<MapItem Content="76561198039435685" Value="PMR" />
 		<MapItem Content="76561198141401549" Value="ReadingLies" />
 		<MapItem Content="76561198034249692" Value="Rosey" />
@@ -134,13 +135,13 @@
 		<MapItem Content="76561198006005209" Value="Sviat" />
 		<MapItem Content="76561198068565970" Value="Tatatofly" />
 		<MapItem Content="76561198207484137" Value="Tchii" />
-		<MapItem Content="76561197996036318" Value="Big Dosh" />
+		<MapItem Content="76561197996036318" Value="Vapor Dosh" />
 		<MapItem Content="76561198129510523" Value="watary" />
 		<MapItem Content="76561198165076891" Value="Zareh" />
 		<MapItem Content="76561197973865074" Value="BuBBy" />
 		<MapItem Content="76561198050478086" Value="Cuki" />
 		<MapItem Content="76561198079158823" Value="Spieler_02" />
-		<MapItem Content="76561197972529138" Value="diipadaapaduu" />
+		<MapItem Content="76561197972529138" Value="theemu" />
 		<MapItem Content="76561198025505534" Value="「Cristi075」" />
 		<MapItem Content="76561198066402732" Value="Awesome Possum" />
 		<MapItem Content="76561198002675684" Value="Ally" />
@@ -188,12 +189,13 @@
 		<MapItem Content="76561198042796557" Value="Veckpreb" />
 		<MapItem Content="76561198032156222" Value="ViktorStahl" />
 		<MapItem Content="76561197975548356" Value="Wintermute" />
-		<MapItem Content="76561198047882270" Value="zelghadis MechaPilotBear" />
+		<MapItem Content="76561198047882270" Value="zelghadis" />
 		<MapItem Content="76561198005309964" Value="{MeTaL}Alucard" />
 		<MapItem Content="76561198031367834" Value="Drusilla" />
-		<MapItem Content="76561198063130763" Value="(ง'-')ง" />
+		<MapItem Content="76561198063130763" Value="i2apier" />
 	</Map>
 
+<!-- list of 2hus, will be updated from http://steamcommunity.com/groups/touhou-ga/memberslistxml/?xml=1 periodically -->
 	<Random Name="2hus">
 		<Item>76561198006963719</Item>
 		<Item>76561198069026042</Item>

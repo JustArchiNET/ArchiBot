@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
 	<Concept Name="_quips">
+	<!-- suggested by DeltabladeX -->
 		<Model>
-			<Pattern>FISTO</Pattern>	<!-- by DeltabladeX -->
+			<Pattern>FISTO</Pattern>
 			<Response>
 				<Random>
 					<Item Weight="0.15">Greetings. Fisto is programmed to please. :bigBetty:</Item>
@@ -13,10 +14,10 @@
 				</Random>
 			</Response>
 		</Model>
-
+	<!-- suggested by Taigo -->
 		<Model>
 			<Pattern>
-				<Item>NUTFACT</Item>			<!-- by Taigo -->
+				<Item>NUTFACT</Item>
 				<Item>NUTFACTS</Item>
 				<Item>% NUT FACTS</Item>
 				<Item>% NUT FACT</Item>
