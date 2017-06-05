@@ -429,7 +429,7 @@
 			<Response>
 				<Var Think:Set="isInt"><Js>isInteger(Number("<Match />"));</Js></Var>
 				<If Var="isInt" Value="True">
-					<Var Think:Set="diceroll"><Match /></Var>
+					<Var Think:Set="diceroll" Value="{Bind Match}" />
 					<Switch Var="diceroll">
 						<Case LessThan="0">Sure, let me roll negative dice :doubt:</Case>
 						<Case Value="0">*rolls nothing*</Case>

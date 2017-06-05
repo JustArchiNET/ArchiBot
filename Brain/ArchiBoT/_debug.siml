@@ -41,7 +41,7 @@
 		<Model>
 			<Pattern>DEBUGGOTO *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
@@ -49,7 +49,7 @@
 		<Model>
 			<Pattern>DEBUGGOTO2 *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
@@ -84,7 +84,7 @@
 		<Model>
 			<Pattern>COUNT TO *</Pattern>
 			<Response>
-				<Var Set="count">0</Var> <While Var="count" Not="{Bind Match}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
+				<Var Set="count" Value="0" /> <While Var="count" Not="{Bind Match}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
 			</Response>
 		</Model>
 
@@ -121,7 +121,7 @@
 		<Model>
 			<Pattern>BADRANDOM *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random><Item>1</Item><Item>2</Item><Item>3</Item><Item>4</Item><Item>5</Item><Item>6</Item></Random>:</While>
 			</Response>
 		</Model>
@@ -129,7 +129,7 @@
 		<Model>
 			<Pattern>GOODRANDOM *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6):</Random></While>
 			</Response>
 		</Model>
@@ -138,7 +138,7 @@
 			<Pattern>SPAMTAIGO *</Pattern>
 			<Response>
 				<If User="ID" Value="steam-76561198025147895">Let's spam TAIGO <Match /> times \:bite:/
-						<Var Think:Set="count">0</Var>
+						<Var Think:Set="count" Value="0" />
 						<While Var="count" Not="{Bind Match}">
 							<Bind Key="{sec}"><Math><Var Get="count" />*5</Math></Bind>
 							<Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
