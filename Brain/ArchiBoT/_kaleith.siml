@@ -399,6 +399,20 @@
 		</Model>
 
 		<Model>
+			<Pattern>RIGGEDBALL %</Pattern>
+			<Response>
+				<Random>
+					<Item>●: It is certain</Item>
+					<Item>●: It is decidedly so</Item>
+					<Item>●: Without a doubt</Item>
+					<Item>●: Yes definitely</Item>
+					<Item>●: You may rely on it</Item>
+					<Item>●: As I see it, yes</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>TRANSLATE %</Pattern>
 			<Response>
 				<Random>

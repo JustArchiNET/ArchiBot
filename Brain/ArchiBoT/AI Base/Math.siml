@@ -38,8 +38,12 @@
 			</Pattern>
 			<Response>
 				<Think><User Set="calcresult"><Math><Match/></Math></User></Think>
-				<If User="calcresult" Value="">I can't calculate that.</If>
-				<Else>The answer is <User Get="calcresult" /></Else>
+				<Switch User="calcresult">
+					<Case Value="">I can't calculate that.</Case>
+					<Case Value="∞">The answer is too big, I don't have enough fingers :cry:</Case>
+					<Case Value="-∞">The answer is too small, I got confused :cry:</Case>
+					<Default>The answer is <User Get="calcresult" /></Default>
+				</Switch>
 			</Response>
 		</Model>
 		<Model>
