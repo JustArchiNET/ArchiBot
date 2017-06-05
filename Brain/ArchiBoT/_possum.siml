@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_possum">
 		<Model>
 			<Pattern>
@@ -10,14 +10,15 @@
 			<Response>
 				<Random>
 					<Item>He's Awesome Possum!</Item>
-					<Item>He's kind of like a dead tree, except a little more alive, and more like a human than a tree...</Item>
 					<Item>He's that one guy who always talks about how much he wants to cuddle and pet cute anime girls. </Item>
-					<Item>Oh, that weirdo? He's no one important. Let's talk about <Random>(ミユ|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taiga|Madu|Mole|Faku)</Random> or someone else instead.</Item>
+					<Item>He's kind of like a dead tree, except a little more alive, and more like a human than a tree...</Item>
+					<Item>Oh, that weirdo? He's no one important. Let's talk about <Random>(ミユ|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taigo|Madu|Mole|Faku)</Random> or someone else instead.</Item>
 					<Item>:doubt: Well, he's not a ferret, that's for sure.</Item>
 				</Random>
 			</Response>
 		</Model>
-
+		
+		<!-- Loss excuses (Need to come up with more)-->
 		<Model>
 			<Pattern>(I AM A LOSER|I LOST|LOSS|LOSE)</Pattern>
 			<Response>
@@ -33,7 +34,8 @@
 					</Random>
 			</Response>
 		</Model>
-
+		
+		<!-- Pokemon list -->
 		<Model>
 			<Pattern>WHO IS THAT (POKEMON|POKÉMON|POKÈMON)</Pattern>
 			<Response>
@@ -44,25 +46,70 @@
 					<Item>It's <Random>(Turtwig|Grotle|Torterra|Chimchar|Monferno|Infernape|Piplup|Prinplup|Empoleon|Starly|Staravia|Staraptor|Bidoof|Bibarel|Kricketot|Kricketune|Shinx|Luxio|Luxray|Budew|Roserade|Cranidos|Rampardos|Shieldon|Bastiodon|Burmy|Wormadam|Mothim|Combee|Vespiquen|Pachirisu|Buizel|Floatzel|Cherubi|Cherrim|Shellos|Gastrodon|Ambipom|Drifloon|Drifblim|Buneary|Lopunny|Mismagius|Honchkrow|Glameow|Purugly|Chingling|Stunky|Skuntank|Bronzor|Bronzong|Bonsly|Mime Jr.|Happiny|Chatot|Spiritomb|Gible|Gabite|Garchomp|Munchlax|Riolu|Lucario|Hippopotas|Hippowdon|Skorupi|Drapion|Croagunk|Toxicroak|Carnivine|Finneon|Lumineon|Mantyke|Snover|Abomasnow|Weavile|Magnezone|Lickilicky|Rhyperior|Tangrowth|Electivire|Magmortar|Togekiss|Yanmega|Leafeon|Glaceon|Gliscor|Mamoswine|Porygon-Z|Gallade|Probopass|Dusknoir|Froslass|Rotom|Uxie|Mesprit|Azelf|Dialga|Palkia|Heatran|Regigigas|Giratina|Cresselia|Phione|Manaphy|Darkrai|Shaymin|Arceus)</Random>! A Gen 4 Pokémon!</Item>
 					<Item>It's <Random>(Victini|Snivy|Servine|Serperior|Tepig|Pignite|Emboar|Oshawott|Dewott|Samurott|Patrat|Watchog|Lillipup|Herdier|Stoutland|Purrloin|Liepard|Pansage|Simisage|Pansear|Simisear|Panpour|Simipour|Munna|Musharna|Pidove|Tranquill|Unfezant|Blitzle|Zebstrika|Roggenrola|Boldore|Gigalith|Woobat|Swoobat|Drilbur|Excadrill|Audino|Timburr|Gurdurr|Conkeldurr|Tympole|Palpitoad|Seismitoad|Throh|Sawk|Sewaddle|Swadloon|Leavanny|Venipede|Whirlipede|Scolipede|Cottonee|Whimsicott|Petilil|Lilligant|Basculin|Sandile|Krokorok|Krookodile|Darumaka|Darmanitan|Maractus|Dwebble|Crustle|Scraggy|Scrafty|Sigilyph|Yamask|Cofagrigus|Tirtouga|Carracosta|Archen|Archeops|Trubbish|Garbodor|Zorua|Zoroark|Minccino|Cinccino|Gothita|Gothorita|Gothitelle|Solosis|Duosion|Reuniclus|Ducklett|Swanna|Vanillite|Vanillish|Vanilluxe|Deerling|Sawsbuck|Emolga|Karrablast|Escavalier|Foongus|Amoonguss|Frillish|Jellicent|Alomomola|Joltik|Galvantula|Ferroseed|Ferrothorn|Klink|Klang|Klinklang|Tynamo|Eelektrik|Eelektross|Elgyem|Beheeyem|Litwick|Lampent|Chandelure|Axew|Fraxure|Haxorus|Cubchoo|Beartic|Cryogonal|Shelmet|Accelgor|Stunfisk|Mienfoo|Mienshao|Druddigon|Golett|Golurk|Pawniard|Bisharp|Bouffalant|Rufflet|Braviary|Vullaby|Mandibuzz|Heatmor|Durant|Deino|Zweilous|Hydreigon|Larvesta|Volcarona|Cobalion|Terrakion|Virizion|Tornadus|Thundurus|Reshiram|Zekrom|Landorus|Kyurem|Keldeo|Meloetta|Genesect)</Random>! A Gen 5 Pokémon!</Item>
 					<Item>It's <Random>(Chespin|Quilladin|Chesnaught|Fennekin|Braixen|Delphox|Froakie|Frogadier|Greninja|Bunnelby|Diggersby|Fletchling|Fletchinder|Talonflame|Scatterbug|Spewpa|Vivillon|Litleo|Pyroar|Flabébé|Floette|Florges|Skiddo|Gogoat|Pancham|Pangoro|Furfrou|Espurr|Meowstic|Honedge|Doublade|Aegislash|Spritzee|Aromatisse|Swirlix|Slurpuff|Inkay|Malamar|Binacle|Barbaracle|Skrelp|Dragalge|Clauncher|Clawitzer|Helioptile|Heliolisk|Tyrunt|Tyrantrum|Amaura|Aurorus|Sylveon|Hawlucha|Dedenne|Carbink|Goomy|Sliggoo|Goodra|Klefki|Phantump|Trevenant|Pumpkaboo|Gourgeist|Bergmite|Avalugg|Noibat|Noivern|Xerneas|Yveltal|Zygarde|Diancie)</Random>! A Gen 6 Pokémon!</Item>
-					<Item Weight="0.01">It's Batman! :doubt: Wait, is he a Pokémon? What generation?</Item>
+					<Item Weight="0.01">It's Batman! :doubt: <If User="IsBatman" Value="2">Wait, aren't you Batman? Are you a Pokémon?</If><Else>Wait, is he a Pokémon? What generation?</Else></Item>
 				</Random>
 			</Response>
 		</Model>
 		
+		<!-- Digimon Name Generator -->
 		<Model>
 			<Pattern>DIGIMON</Pattern>
 			<Response>
 				<Random>
 					<Item><Random Get="RANDOMNOUN" />mon</Item>
-					<Item><Random>(Miyuu|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taigo|Madu|Mole|Faku|Bottu|Ferret|Skatr|Ceejay)</Random>mon</Item>
+					<Item><Random>(Miyuu|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taigo|Madu|Mole|Faku|Bottu|Ferret|Skatr|Ceejay|Possu)</Random>mon</Item>
 					<Item Weight="0.05"><Random>(Alpha|Guil|Gallant|Crimson Gallant|Agu|Calu|Gabu|Omni|MetalGaruru|WarGrey|Susanoo)</Random>mon</Item>
 				</Random>
 			</Response>
 		</Model>
 		
+		<!-- Gives a random US President followed by a . ? or ! randomly -->
 		<Model>
 			<Pattern>(PRESIDENT|US PRESIDENT|USA PRESIDENT|PRESIDENTS|US PRESIDENTS|USA PRESIDENTS)</Pattern>
 			<Response><Random>(George Washington|John Adams|Thomas Jefferson|James Madison|James Monroe|John Quincy Adams|Andrew Jackson|Martin Van Buren|William Henry Harrison|John Tyler|James K. Polk|Zachary Taylor|Millard Fillmore|Franklin Pierce|James Buchanan|Abraham Lincoln|Andrew Johnson|Ulysses S. Grant|Rutherford B. Hayes|James A. Garfield|Chester A. Arthur|Grover Cleveland|Benjamin Harrison|William McKinley|Theodore Roosevelt|William Howard Taft|Woodrow Wilson|Warren G. Harding|Calvin Coolidge|Herbert Hoover|Franklin D. Roosevelt|Harry S. Truman|Dwight D. Eisenhower|John F. Kennedy|Lyndon B. Johnson|Richard Nixon|Gerald Ford|Jimmy Carter|Ronald Reagan|George H. W. Bush|Bill Clinton|George W. Bush|Barack Obama|Donald Trump)</Random><Random>(!|.|?)</Random></Response>
 		</Model>
+		
+		
+		
+		<!-- Will make User Batman -->
+		<Model>
+			<Pattern>I AM BATMAN</Pattern>
+			<Response>
+				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></If>
+				<ElseIf User="IsBatman" Value="2">Yep.</ElseIf>
+				<Else><User Think:Set="IsBatman" Value="1" />You're Batman?</Else>
+			</Response>
+		</Model>
+		
+		<!-- Resets isBatman so User is no longer Batman -->
+		<Model>
+			<Pattern>I AM NOT BATMAN</Pattern>
+			<Response>
+				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="0" />I knew it.</If>
+				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :cry: <Think><Bot Remove="BatmanList"><User Get="Nickname" /></Bot></Think></ElseIf>
+				<Else><User Think:Set="IsBatman" Value="0" />:doubt: Okay...?</Else>
+			</Response>
+		</Model>
+		
+		<!-- Lists all users who are Batman -->
+		<Model>
+			<Pattern>WHO IS BATMAN</Pattern>
+			<Response><Bot List="BatmanList" /> are Batman. :doubt:</Response>
+		</Model>
+		
+		<!-- Yes response possibile instead of needing 2 "I am Batman"s -->
+		<Model>
+			<Pattern>YES</Pattern>
+			<Previous>You are Batman</Previous>
+			<Response><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></Response>
+		</Model>
+		
+		<!-- No response if you decided you aren't Batman -->
+		<Model>
+			<Pattern>NO</Pattern>
+			<Previous>You are Batman</Previous>
+			<Response><User Think:Set="IsBatman" Value="0" />Didn't think so.</Response>
+		</Model>
+		
 	</Concept>
 </Siml>
