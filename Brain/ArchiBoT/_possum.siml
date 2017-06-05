@@ -17,10 +17,15 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Loss excuses (Need to come up with more)-->
 		<Model>
-			<Pattern>(I AM A LOSER|I LOST|LOSS|LOSE)</Pattern>
+			<Pattern>
+				<Item>I AM A LOSER</Item>
+				<Item>I LOST</Item>
+				<Item>LOSS</Item>
+				<Item>LOSE</Item>
+			</Pattern>
 			<Response>
 					<Random>
 						<Item>The stupid sun was in your eyes.</Item>
@@ -34,7 +39,7 @@
 					</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Pokemon list -->
 		<Model>
 			<Pattern>WHO IS THAT (POKEMON|POKÉMON|POKÈMON)</Pattern>
@@ -50,7 +55,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Digimon Name Generator -->
 		<Model>
 			<Pattern>DIGIMON</Pattern>
@@ -62,7 +67,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Gives a random US President followed by a . ? or ! randomly -->
 		<Model>
 			<Pattern>(PRESIDENT|US PRESIDENT|USA PRESIDENT|PRESIDENTS|US PRESIDENTS|USA PRESIDENTS)</Pattern>
@@ -82,7 +87,7 @@
 				<Else><User Think:Set="IsBatman" Value="1" />Are you Batman?</Else>
 			</Response>
 		</Model>
-		
+
 		<!-- Resets isBatman so User is no longer Batman -->
 		<Model>
 			<Pattern>I AM NOT BATMAN</Pattern>
@@ -92,7 +97,7 @@
 				<Else><User Think:Set="IsBatman" Value="0" />:doubt: Okay...?</Else>
 			</Response>
 		</Model>
-		
+
 		<!-- Lists all users who are Batman -->
 		<Model>
 			<Pattern>WHO IS BATMAN</Pattern>
