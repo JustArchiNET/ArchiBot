@@ -73,8 +73,12 @@
 		<Model>
 			<Pattern>I AM BATMAN</Pattern>
 			<Response>
+				<Bind Key="{nickname}"><User Get="Nickname" /></Bind>
 				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></If>
-				<ElseIf User="IsBatman" Value="2">Yep.</ElseIf>
+				<ElseIf User="IsBatman" Value="2">
+					<If Bot="BatmanList" Contains="{nickname}">Yep.</If>
+					<Else>Weird, you weren't on the list. I guess I'll add you :doubt:</Else>
+				</ElseIf>
 				<Else><User Think:Set="IsBatman" Value="1" />Are you Batman?</Else>
 			</Response>
 		</Model>
@@ -108,7 +112,11 @@
 			<Response>
 				<Switch User="IsBatman">
 					<Case Value="0">No, you're not Batman :doubt:</Case>
-					<Case Value="2">Yes you are! :sgsmile:</Case>
+					<Case Value="2">
+						<Bind Key="{nickname}"><User Get="Nickname" /></Bind>
+						<If Bot="BatmanList" Contains="{nickname}">Yes you are! :sgsmile:</If>
+						<Else>Weird, you weren't on the list. I guess I'll add you :doubt:</Else>
+					</Case>
 					<Default>I'm not sure. Are you Batman?</Default>
 				</Switch>
 			</Response>
