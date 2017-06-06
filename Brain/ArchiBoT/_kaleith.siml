@@ -35,8 +35,16 @@
 							<Pattern>
 								<Item>What is <Process><Match /></Process></Item>
 								<Item>Who is <Process><Match /></Process></Item>
+								<Item>What do you rember about <Process><Match /></Process></Item>
+								<Item>What did I tell you about <Process><Match /></Process></Item>
 							</Pattern>
-							<Response><Process><Match /></Process> is <Process><Match Index="2" /></Process></Response>
+							<Response>
+								<Phrase>
+									<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+									<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+									<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								</Phrase>
+							</Response>
 						</Model>
 					</Concept>
 				</Learn>

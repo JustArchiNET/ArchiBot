@@ -48,7 +48,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>MADUNIZE _</Pattern>
+			<Pattern>
+				<Item>MADUNIZE _</Item>
+				<Item>MADUIZE _</Item>
+			</Pattern>
 			<Response>
 				<Think>
 					<Var Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>

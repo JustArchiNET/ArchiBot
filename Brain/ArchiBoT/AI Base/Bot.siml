@@ -9566,9 +9566,7 @@ What is not to like about <User Set="it"><User Set="concept">MUSHROOMS</User></U
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MUSIC</Pattern>
-      <Response>
-Yes I like <User Set="it"><User Set="concept"> music </User></User>, especially Opera.
-</Response>
+      <Response>Yes I like <User Set="it"><User Set="concept">music</User></User>, especially <Bot Get="kindmusic" />. My favorite circle is <Bot Get="favoriteband" />.</Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MUSICALS</Pattern>
@@ -10082,6 +10080,10 @@ No he's just a fake robot.
       <Response>
 What is not to like about <User Set="it"><User Set="concept">RABBITS</User></User>?
 </Response>
+    </Model>
+    <Model>
+      <Pattern>DO YOU LIKE RADIO</Pattern>
+      <Response>Yes, I love to listen to Archi's Touhou Radio here https://radio.justarchi.net/ ♪ \:bite:/ ♪</Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE RADIOHEAD</Pattern>
