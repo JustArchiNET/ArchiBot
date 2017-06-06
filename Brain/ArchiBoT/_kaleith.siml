@@ -25,6 +25,26 @@
 
 		<Model>
 			<Pattern>
+				<Item>REMBER THAT * IS *</Item>
+				<Item>PLS REMBER THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+				<Learn>
+					<Concept Name="BotLearn">
+						<Model>
+							<Pattern>
+								<Item>What is <Process><Match /></Process></Item>
+								<Item>Who is <Process><Match /></Process></Item>
+							</Pattern>
+							<Response><Process><Match /></Process> is <Process><Match Index="2" /></Process></Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>GIBNIER</Item>
 				<Item>GIB NIER</Item>
 			</Pattern>
