@@ -65,6 +65,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>TAIGOWORDS</Pattern>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text></Response>
+		</Model>
+
+		<Model>
 			<Pattern>EULA</Pattern>
 			<Response>In no event (including, without limitation, in the event of negligence) will Touhou Giveaways, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to !ai taigo.</Response>
 		</Model>

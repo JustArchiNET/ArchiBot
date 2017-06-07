@@ -8,216 +8,272 @@
 
 		<Model>
 			<Pattern>RANDOMGAME *</Pattern>
-			<Response>
-				<Random>
-					<Item>8-Bit <Match /></Item>
-					<Item>A Boy and His <Match /></Item>
-					<Item>Action <Match /></Item>
-					<Item>Advanced <Match /></Item>
-					<Item>Adventures of the <Match /></Item>
-					<Item>Aero <Match /></Item>
-					<Item>Alien <Match /></Item>
-					<Item>Amazing <Match /></Item>
-					<Item>Android <Match /></Item>
-					<Item>Angry <Match /></Item>
-					<Item>Art of <Match /></Item>
-					<Item>Attack of the <Match /></Item>
-					<Item>Atomic <Match /></Item>
-					<Item>Awesome <Match /></Item>
-					<Item>Children of the <Match /></Item>
-					<Item>Crazy <Match /></Item>
-					<Item>Create Your Own <Match /></Item>
-					<Item>Creepy <Match /></Item>
-					<Item>Cthulhu's <Match /></Item>
-					<Item>Curse of the <Match /></Item>
-					<Item>Cyber <Match /></Item>
-					<Item>Dance Dance <Match /></Item>
-					<Item>Dangerous <Match /></Item>
-					<Item>Darkest <Match /></Item>
-					<Item>Day of the <Match /></Item>
-					<Item><Match /> or Alive</Item>
-					<Item>Deadly <Match /></Item>
-					<Item>Disney's <Match /></Item>
-					<Item>Dr. <Match /></Item>
-					<Item><Match /> Nukem</Item>
-					<Item>Dynamite <Match /></Item>
-					<Item>Elite <Match /></Item>
-					<Item>Epic <Match /></Item>
-					<Item>Escape from the <Match /></Item>
-					<Item>Explosive <Match /></Item>
-					<Item>Extreme <Match /></Item>
-					<Item><Match /> Fantasy</Item>
-					<Item>Fatal <Match /></Item>
-					<Item>Final <Match /></Item>
-					<Item>First-Person <Match /></Item>
-					<Item>Forgotten <Match /></Item>
-					<Item>Full Metal <Match /></Item>
-					<Item>Funky <Match /></Item>
-					<Item>Furry <Match /></Item>
-					<Item>Galactic <Match /></Item>
-					<Item>Giant <Match /></Item>
-					<Item>Go Go <Match /></Item>
-					<Item>God of <Match /></Item>
-					<Item>Heroic <Match /></Item>
-					<Item>History of the <Match /></Item>
-					<Item>In Search of <Match /></Item>
-					<Item>Infinite <Match /></Item>
-					<Item>It's a Mad, Mad <Match /></Item>
-					<Item>Jackie Chan's <Match /></Item>
-					<Item>John Romero's <Match /></Item>
-					<Item>Killer <Match /></Item>
-					<Item>King of <Match /></Item>
-					<Item>Kirby's <Match /></Item>
-					<Item>Legend of <Match /></Item>
-					<Item>Leisure Suit <Match /></Item>
-					<Item>Lethal <Match /></Item>
-					<Item>Little <Match /></Item>
-					<Item>Lord of the <Match /></Item>
-					<Item>Magic <Match /></Item>
-					<Item>Maniac <Match /></Item>
-					<Item>Mega <Match /></Item>
-					<Item>Metal <Match /></Item>
-					<Item>Micro <Match /></Item>
-					<Item>Mighty <Match /></Item>
-					<Item>Mr. <Match /></Item>
-					<Item>My Little <Match /></Item>
-					<Item>My Very Own <Match /></Item>
-					<Item>Neo <Match /></Item>
-					<Item>No One Can Stop the <Match /></Item>
-					<Item>Planet of the <Match /></Item>
-					<Item>Pro Evolution <Match /></Item>
-					<Item>Queen of the <Match /></Item>
-					<Item>Radical <Match /></Item>
-					<Item>Radioactive <Match /></Item>
-					<Item>Raging <Match /></Item>
-					<Item>Retro <Match /></Item>
-					<Item>Return of the <Match /></Item>
-					<Item>Revenge of the <Match /></Item>
-					<Item>Rise of the <Match /></Item>
-					<Item>Robot <Match /></Item>
-					<Item>Samba de <Match /></Item>
-					<Item>Search for the <Match /></Item>
-					<Item>Secret of the <Match /></Item>
-					<Item>Shadow of the <Match /></Item>
-					<Item>Sid Meier's <Match /></Item>
-					<Item>Spirit of the <Match /></Item>
-					<Item>Super <Match /></Item>
-					<Item>Supreme <Match /></Item>
-					<Item>Tactical <Match /></Item>
-					<Item>The Castle of the <Match /></Item>
-					<Item>The Great <Match /></Item>
-					<Item>The Incredible <Match /></Item>
-					<Item>The Infernal <Match /></Item>
-					<Item>The Last <Match /></Item>
-					<Item>The Secret Weapon of the <Match /></Item>
-					<Item>The Six Million Dollar <Match /></Item>
-					<Item>Tiny <Match /></Item>
-					<Item>War of the <Match /></Item>
-					<Item><Match /> Chess</Item>
-				</Random> <Random>
-					<Item Weight="0.3"></Item>
-					<Item>- 2nd Impact</Item>
-					<Item>- 3rd Strike</Item>
-					<Item>1942</Item>
-					<Item>25th Anniversary Edition</Item>
-					<Item>2K</Item>
-					<Item>2000</Item>
-					<Item>3000</Item>
-					<Item>3D</Item>
-					<Item>64</Item>
-					<Item>Advance</Item>
-					<Item>All-Stars</Item>
-					<Item>Alpha</Item>
-					<Item>&amp; Knuckles</Item>
-					<Item>Anthology</Item>
-					<Item>Apocalypse</Item>
-					<Item>Arena</Item>
-					<Item>Assault</Item>
-					<Item>at the Olympics</Item>
-					<Item>Attack</Item>
-					<Item>Battle</Item>
-					<Item>Beta</Item>
-					<Item>CD</Item>
-					<Item>- Collector's Edition</Item>
-					<Item>DX</Item>
-					<Item>EX</Item>
-					<Item>Fantasy</Item>
-					<Item>Fever</Item>
-					<Item>Fiesta</Item>
-					<Item>from Hell</Item>
-					<Item>from Mars</Item>
-					<Item>from Outer Space</Item>
-					<Item>Gold</Item>
-					<Item>GT</Item>
-					<Item>Heroes</Item>
-					<Item>Horror</Item>
-					<Item>- Hot Pursuit</Item>
-					<Item>II</Item>
-					<Item>III</Item>
-					<Item>in Space</Item>
-					<Item>in the Dark</Item>
-					<Item>in the Magic Kingdom</Item>
-					<Item>in the Sky</Item>
-					<Item>Kombat</Item>
-					<Item>Legends</Item>
-					<Item>- Limited Edition</Item>
-					<Item>Madness</Item>
-					<Item>Mania</Item>
-					<Item>Melee</Item>
-					<Item>of Death</Item>
-					<Item>of Doom</Item>
-					<Item>of Fury</Item>
-					<Item>of Love</Item>
-					<Item>of Might and Magic</Item>
-					<Item>of the Blood God</Item>
-					<Item>of the Damned</Item>
-					<Item>of the Dead</Item>
-					<Item>of the Deep</Item>
-					<Item>of the Third Reich</Item>
-					<Item>Omega</Item>
-					<Item>Online</Item>
-					<Item>Plus</Item>
-					<Item>Pro</Item>
-					<Item>Quest</Item>
-					<Item>Rave</Item>
-					<Item>Reloaded</Item>
-					<Item>Remix</Item>
-					<Item>Returns</Item>
-					<Item>Revenge</Item>
-					<Item>Revolution</Item>
-					<Item>Saga</Item>
-					<Item>Showdown</Item>
-					<Item>Siege</Item>
-					<Item>Simulator</Item>
-					<Item>Special Edition</Item>
-					<Item>Starring Mickey Mouse</Item>
-					<Item>Tactics</Item>
-					<Item>- The Card Game</Item>
-					<Item>- The Dark Project</Item>
-					<Item>- The Gathering Storm</Item>
-					<Item>- The Lost Levels</Item>
-					<Item>- The Movie</Item>
-					<Item>- The Next Generation</Item>
-					<Item>- The Quickening</Item>
-					<Item>- The Resistance</Item>
-					<Item>- The Revenge</Item>
-					<Item>Through Time</Item>
-					<Item>- Total War</Item>
-					<Item>Turbo</Item>
-					<Item>Underground</Item>
-					<Item>Underworld</Item>
-					<Item>Universe</Item>
-					<Item>Unleashed</Item>
-					<Item>Uprising</Item>
-					<Item>vs. Capcom</Item>
-					<Item>vs. Street Fighter</Item>
-					<Item>vs. The Space Mutants</Item>
-					<Item>with Friends</Item>
-					<Item>World Tour</Item>
-					<Item>X</Item>
-					<Item>X-treme</Item>
-				</Random>
-			</Response>
+			<Response><Random Get="_randomgame_1" /> <Random><Item Weight="0.8"></Item><Item Weight="0.2"><Random>(and|vs.)</Random> the <Goto>TAIGOWORDS</Goto> </Item></Random><Random><Item Weight="0.25"></Item><Item><Random Get="_randomgame_2" /></Item><Item Weight="0.1"><Random Get="_randomgame_2" /> <Random Get="_randomgame_2" /></Item></Random></Response>
 		</Model>
 	</Concept>
+
+	<Random Name="_randomgame_1">
+		<Item>8-Bit <Match /></Item>
+		<Item><Match /> Volleyball</Item>
+		<Item><Match /> Ace Attorney</Item>
+		<Item><Match /> Chess</Item>
+		<Item><Match /> Fantasy</Item>
+		<Item><Match /> Hair Salon</Item>
+		<Item><Match /> Hawk</Item>
+		<Item><Match /> Jones and the <Goto>TAIGOWORDS</Goto></Item>
+		<Item><Match /> Kart</Item>
+		<Item><Match /> Kong</Item>
+		<Item><Match /> Nukem</Item>
+		<Item><Match /> or Alive</Item>
+		<Item><Match /> Sudoku</Item>
+		<Item><Match /> Sumo</Item>
+		<Item><Match /> the Mechanized <Random Get="RANDOMNOUN" /></Item>
+		<Item><Match /> the <Random Get="RANDOMNOUN" /></Item>
+		<Item><Match /> the Frog</Item>
+		<Item><Match /> the Police Officer</Item>
+		<Item><Match /> the Thief</Item>
+		<Item><Match /> the Wizard</Item>
+		<Item>A Boy and His <Match /></Item>
+		<Item>Action <Match /></Item>
+		<Item>Advanced <Match /></Item>
+		<Item>Adventures of the <Match /></Item>
+		<Item>Aero <Match /></Item>
+		<Item>Alcoholic <Match /></Item>
+		<Item>Alien <Match /></Item>
+		<Item>Amazing <Match /></Item>
+		<Item>Android <Match /></Item>
+		<Item>Angry <Match /></Item>
+		<Item>Arousing <Match /></Item>
+		<Item>Art of <Match /></Item>
+		<Item>Atomic <Match /></Item>
+		<Item>Attack of the <Match /></Item>
+		<Item>Awesome <Match /></Item>
+		<Item>Children of the <Match /></Item>
+		<Item>Crazy <Match /></Item>
+		<Item>Create Your Own <Match /></Item>
+		<Item>Creepy <Match /></Item>
+		<Item>Cthulhu's <Match /></Item>
+		<Item>Curse of the <Match /></Item>
+		<Item>Cyber <Match /></Item>
+		<Item>Dance Dance <Match /></Item>
+		<Item>Dangerous <Match /></Item>
+		<Item>Darkest <Match /></Item>
+		<Item>Day of the <Match /></Item>
+		<Item>Deadly <Match /></Item>
+		<Item>Disney's <Match /></Item>
+		<Item>Donkey Kong's <Match /></Item>
+		<Item>Dr. <Match /></Item>
+		<Item>Dynamite <Match /></Item>
+		<Item>Elite <Match /></Item>
+		<Item>Epic <Match /></Item>
+		<Item>Escape from the <Match /></Item>
+		<Item>Explosive <Match /></Item>
+		<Item>Extreme <Match /></Item>
+		<Item>Fatal <Match /></Item>
+		<Item>Final <Match /></Item>
+		<Item>Fire <Match /></Item>
+		<Item>First-Person <Match /></Item>
+		<Item>Fishing with <Match /></Item>
+		<Item>Forgotten <Match /></Item>
+		<Item>Full Metal <Match /></Item>
+		<Item>Funky <Match /></Item>
+		<Item>Furry <Match /></Item>
+		<Item>Galactic <Match /></Item>
+		<Item>Giant <Match /></Item>
+		<Item>Go Go <Match /></Item>
+		<Item>God of <Match /></Item>
+		<Item>Heroic <Match /></Item>
+		<Item>History of the <Match /></Item>
+		<Item>In Search of <Match /></Item>
+		<Item>Inappropriate <Match /></Item>
+		<Item>Infinite <Match /></Item>
+		<Item>It's a Mad, Mad <Match /></Item>
+		<Item>Jackie Chan's <Match /></Item>
+		<Item>John Romero's <Match /></Item>
+		<Item>Kermit's <Match /></Item>
+		<Item>Killer <Match /></Item>
+		<Item>King of <Match /></Item>
+		<Item>Kirby's <Match /></Item>
+		<Item>Legend of <Match /></Item>
+		<Item>Leisure Suit <Match /></Item>
+		<Item>Lethal <Match /></Item>
+		<Item>Little <Match /></Item>
+		<Item>Lord of the <Match /></Item>
+		<Item>M.C. Escher's <Match /></Item>
+		<Item>Magic <Match /></Item>
+		<Item>Maniac <Match /></Item>
+		<Item>Mega <Match /></Item>
+		<Item>Metal <Match /></Item>
+		<Item>Micro <Match /></Item>
+		<Item>Mighty <Match /></Item>
+		<Item>Mr. <Match /></Item>
+		<Item>My Little <Match /></Item>
+		<Item>My Very Own <Match /></Item>
+		<Item>Mysterious <Match /></Item>
+		<Item>Neo <Match /></Item>
+		<Item>Night of the <Match /></Item>
+		<Item>No One Can Stop the <Match /></Item>
+		<Item>Nuclear <Match /></Item>
+		<Item>Planet of the <Match />s</Item>
+		<Item>Pro Evolution <Match /></Item>
+		<Item>Queen of the <Match /></Item>
+		<Item>Radical <Match /></Item>
+		<Item>Radioactive <Match /></Item>
+		<Item>Raging <Match /></Item>
+		<Item>Retro <Match /></Item>
+		<Item>Return of the <Match /></Item>
+		<Item>Revenge of the <Match /></Item>
+		<Item>Rise of the <Match /></Item>
+		<Item>Robot <Match /></Item>
+		<Item>Samba de <Match /></Item>
+		<Item>Search for the <Match /></Item>
+		<Item>Secret of the <Match /></Item>
+		<Item>Shadow of the <Match /></Item>
+		<Item>Sid Meier's <Match /></Item>
+		<Item>Spider <Match /></Item>
+		<Item>Spirit of the <Match /></Item>
+		<Item>Super <Match /></Item>
+		<Item>Super Smash <Match /></Item>
+		<Item>Supreme <Match /></Item>
+		<Item>Tactical <Match /></Item>
+		<Item>The Almighty <Match /></Item>
+		<Item>The Castle of the <Match /></Item>
+		<Item>The Great <Match /></Item>
+		<Item>The Hunt For the <Match /></Item>
+		<Item>The Incredible <Match /></Item>
+		<Item>The Infernal <Match /></Item>
+		<Item>The Last <Match /></Item>
+		<Item>The Secret Weapon of the <Match /></Item>
+		<Item>The Six Million Dollar <Match /></Item>
+		<Item>Tiny <Match /></Item>
+		<Item>Unstoppable <Match /></Item>
+		<Item>Wandering <Match /></Item>
+		<Item>War of the <Match /></Item>
+		<Item>Weight Loss with <Match /></Item>
+		<Item>Werewolf <Match /></Item>
+		<Item>Zombie <Match /></Item>
+	</Random>
+
+	<Random Name="_randomgame_2">
+		<Item Weight="0.05">- <Goto>TAIGO Edition</Goto></Item>
+		<Item>&amp; Knuckles</Item>
+		<Item>- 2nd Impact</Item>
+		<Item>- 3rd Strike</Item>
+		<Item>- Collector's Edition</Item>
+		<Item>- Hot Pursuit</Item>
+		<Item>- Limited Edition</Item>
+		<Item>- The Card Game</Item>
+		<Item>- The Dark Project</Item>
+		<Item>- The Gathering Storm</Item>
+		<Item>- The Lost Levels</Item>
+		<Item>- The Movie</Item>
+		<Item>- The Next Generation</Item>
+		<Item>- The Resistance</Item>
+		<Item>- The Revenge</Item>
+		<Item>- Total War</Item>
+		<Item>1942</Item>
+		<Item>2000</Item>
+		<Item>25th Anniversary Edition</Item>
+		<Item>2K</Item>
+		<Item>3000</Item>
+		<Item>3D</Item>
+		<Item>64</Item>
+		<Item>Advance</Item>
+		<Item>All-Stars</Item>
+		<Item>Alpha</Item>
+		<Item>Anthology</Item>
+		<Item>Apocalypse</Item>
+		<Item>Arena</Item>
+		<Item>Armada</Item>
+		<Item>Assault</Item>
+		<Item>at the Olympics</Item>
+		<Item>Attack</Item>
+		<Item>Battle</Item>
+		<Item>Beta</Item>
+		<Item>CD</Item>
+		<Item>Colosseum</Item>
+		<Item>Crime Scene Investigation</Item>
+		<Item>Dance Mix</Item>
+		<Item>Dance Party</Item>
+		<Item>Dash</Item>
+		<Item>Deathmatch</Item>
+		<Item>DX</Item>
+		<Item>EX</Item>
+		<Item>Fandango</Item>
+		<Item>Fantasy</Item>
+		<Item>Featuring Dante From The Devil May Cry Series</Item>
+		<Item>Fever</Item>
+		<Item>Fiesta</Item>
+		<Item>Fight Club</Item>
+		<Item>For Kids</Item>
+		<Item>from Hell</Item>
+		<Item>from Mars</Item>
+		<Item>from Outer Space</Item>
+		<Item>Gold</Item>
+		<Item>GT</Item>
+		<Item>Heroes</Item>
+		<Item>Horror</Item>
+		<Item>II</Item>
+		<Item>III</Item>
+		<Item>in Crazyland</Item>
+		<Item>in Middle-Earth</Item>
+		<Item>in Space</Item>
+		<Item>in the Dark</Item>
+		<Item>in the Hood</Item>
+		<Item>in the Magic Kingdom</Item>
+		<Item>in the Sky</Item>
+		<Item>Kombat</Item>
+		<Item>Legends</Item>
+		<Item>Madness</Item>
+		<Item>Mania</Item>
+		<Item>Melee</Item>
+		<Item>of Death</Item>
+		<Item>of Doom</Item>
+		<Item>of Fury</Item>
+		<Item>of Love</Item>
+		<Item>of Might and Magic</Item>
+		<Item>of the Blood God</Item>
+		<Item>of the Damned</Item>
+		<Item>of the Dead</Item>
+		<Item>of the Deep</Item>
+		<Item>of the Third Reich</Item>
+		<Item>Omega</Item>
+		<Item>On The Road</Item>
+		<Item>Online</Item>
+		<Item>Plus</Item>
+		<Item>Pro</Item>
+		<Item>Quest</Item>
+		<Item>Rave</Item>
+		<Item>Reloaded</Item>
+		<Item>Remix</Item>
+		<Item>Returns</Item>
+		<Item>Revenge</Item>
+		<Item>Revolution</Item>
+		<Item>Saga</Item>
+		<Item>Showdown</Item>
+		<Item>Siege</Item>
+		<Item>Simulator</Item>
+		<Item>Special Edition</Item>
+		<Item>Starring Mickey Mouse</Item>
+		<Item>Strike Force</Item>
+		<Item>Superstar</Item>
+		<Item>Tactics</Item>
+		<Item>Through Time</Item>
+		<Item>Turbo</Item>
+		<Item>Uncensored</Item>
+		<Item>Underground</Item>
+		<Item>Underworld</Item>
+		<Item>Universe</Item>
+		<Item>Unleashed</Item>
+		<Item>Uprising</Item>
+		<Item>vs. Capcom</Item>
+		<Item>vs. Street Fighter</Item>
+		<Item>vs. The Space Mutants</Item>
+		<Item>with Friends</Item>
+		<Item>World Tour</Item>
+		<Item>X-treme</Item>
+		<Item>X</Item>
+		<Item>XXX</Item>
+		<Item>Z</Item>
+	</Random>
 </Siml>
