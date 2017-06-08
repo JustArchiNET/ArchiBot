@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="BotLearn_Rember_{subject}">
+  <Concept Name="{subject}">
     <Model>
       <Pattern>
-        <Item>What is Miku</Item>
-        <Item>Who is Miku</Item>
-        <Item>What do you rember about Miku</Item>
-        <Item>What did I tell you about Miku</Item>
+        <Item>What is archoochoo</Item>
+        <Item>Who is archoochoo</Item>
+        <Item>What do you rember about archoochoo</Item>
+        <Item>What did I tell you about archoochoo</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>Miku is a weeblord</Item>
-          <Item>You told me that Miku is a weeblord</Item>
-          <Item>I rember that Miku is a weeblord</Item>
+          <Item>archoochoo is a train</Item>
+          <Item>You told me that archoochoo is a train</Item>
+          <Item>I rember that archoochoo is a train</Item>
         </Phrase>
       </Response>
     </Model>
