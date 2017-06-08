@@ -3,16 +3,16 @@
   <Concept Name="BotLearn">
     <Model>
       <Pattern>
-        <Item>What is taigo</Item>
-        <Item>Who is taigo</Item>
-        <Item>What do you rember about taigo</Item>
-        <Item>What did I tell you about taigo</Item>
+        <Item>What is Miku</Item>
+        <Item>Who is Miku</Item>
+        <Item>What do you rember about Miku</Item>
+        <Item>What did I tell you about Miku</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>taigo is a weeb</Item>
-          <Item>You told me that taigo is a weeb</Item>
-          <Item>I rember that taigo is a weeb</Item>
+          <Item>Miku is not a lolicon</Item>
+          <Item>You told me that Miku is not a lolicon</Item>
+          <Item>I rember that Miku is not a lolicon</Item>
         </Phrase>
       </Response>
     </Model>
