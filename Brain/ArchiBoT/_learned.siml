@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="BBB">
+  <Concept Name="AAA">
     <Model>
       <Pattern>ARCHI IS A WEEB</Pattern>
-      <Response>Yes he still is.</Response>
+      <Response>Yes he is.</Response>
     </Model>
   </Concept>
 </Siml>
