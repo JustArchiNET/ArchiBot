@@ -38,5 +38,14 @@
 			</Pattern>
 			<Response>You can submit a 248x248 gif or png with transparency, together with a name, price and optional additional requirements by either asking MaduRUDE directly or posting a TODO for him on our tracker. If you need a guideline you can use the .pdf here https://touhou.justarchi.net/img/custom_border.psd</Response>
 		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>$ GITHUB $</Item>
+				<Item>$ REPO $</Item>
+				<Item>$ REPOSITORY $</Item>
+			</Pattern>
+			<Response>Here is a link to my Github Repository. https://github.com/JustArchi/ArchiBoT</Response>
+		</Model>
 	</Concept>
 </Siml>
