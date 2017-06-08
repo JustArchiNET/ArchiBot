@@ -201,10 +201,8 @@
         <Text Get="Sentence">
           <Match Index="1" /> level is <Random>(about|approximately|around)</Random> <Js>
 
-                randomIntBetween(0, 100);
-                </Js>.<Js>
-
-                randomIntBetween(1, 99);
+                randomIntBetween(0, 10000)/100;
+                
                 </Js>%</Text>
       </Response>
     </Model>
@@ -217,10 +215,8 @@
       <Response>
         <Text Get="Sentence">Your <Match /> level is <Random>(probably|most likely|possibly)</Random> <Js>
 
-                randomIntBetween(0, 100);
-                </Js>.<Js>
-
-                randomIntBetween(1, 99);
+                randomIntBetween(0, 10000)/100;
+                
                 </Js>%</Text>
       </Response>
     </Model>
@@ -247,10 +243,8 @@
       <Previous>% IS MY % LEVEL RELEVANT</Previous>
       <Response>Oh. If you must know, it is <Random>(about|approximately|around)</Random> <Js>
 
-            randomIntBetween(0, 100);
-            </Js>.<Js>
-
-            randomIntBetween(1, 99);
+            randomIntBetween(0, 10000)/100;
+            
             </Js>%.</Response>
     </Model>
     
