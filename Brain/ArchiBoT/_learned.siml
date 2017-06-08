@@ -1,20 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_kaleith_priv" Type="Public" Repeat="true">
+  <Concept Name="AAA">
     <Model>
-      <Pattern>
-        <Item>What is taigo</Item>
-        <Item>Who is taigo</Item>
-        <Item>What do you rember about taigo</Item>
-        <Item>What did I tell you about taigo</Item>
-      </Pattern>
-      <Response>
-        <Phrase>
-          <Item>taigo is someone who should be kicked</Item>
-          <Item>You told me that taigo is someone who should be kicked</Item>
-          <Item>I rember that taigo is someone who should be kicked</Item>
-        </Phrase>
-      </Response>
+      <Pattern>ARCHI IS A WEEB</Pattern>
+      <Response>Yes he is.</Response>
     </Model>
   </Concept>
 </Siml>
