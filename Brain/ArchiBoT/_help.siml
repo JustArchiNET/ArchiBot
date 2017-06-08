@@ -45,6 +45,7 @@
 				<Item>$ REPO $</Item>
 				<Item>$ REPOSITORY $</Item>
 			</Pattern>
+			<Response>Here is a link to my Github Repository. https://github.com/JustArchi/ArchiBoT</Response>
 		</Model>
 	</Concept>
 </Siml>
