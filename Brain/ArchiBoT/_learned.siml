@@ -1,9 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="BBB">
+  <Concept Name="_kaleith_priv" Type="Public" Repeat="true">
     <Model>
-      <Pattern>ARCHI IS A WEEB</Pattern>
-      <Response>Yes he still is.</Response>
+      <Pattern>
+        <Item>What is Sviat</Item>
+        <Item>Who is Sviat</Item>
+        <Item>What do you rember about Sviat</Item>
+        <Item>What did I tell you about Sviat</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>Sviat is someone who is going to buy us NieR</Item>
+          <Item>You told me that Sviat is someone who is going to buy us NieR</Item>
+          <Item>I rember that Sviat is someone who is going to buy us NieR</Item>
+        </Phrase>
+      </Response>
     </Model>
   </Concept>
 </Siml>
