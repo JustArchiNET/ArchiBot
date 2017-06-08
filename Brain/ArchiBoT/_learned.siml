@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="{subject}">
+  <Concept Name="_kaleith_priv" Type="Public" Repeat="true">
     <Model>
       <Pattern>
-        <Item>What is archoochoo</Item>
-        <Item>Who is archoochoo</Item>
-        <Item>What do you rember about archoochoo</Item>
-        <Item>What did I tell you about archoochoo</Item>
+        <Item>What is archoochoochoo</Item>
+        <Item>Who is archoochoochoo</Item>
+        <Item>What do you rember about archoochoochoo</Item>
+        <Item>What did I tell you about archoochoochoo</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>archoochoo is a train</Item>
-          <Item>You told me that archoochoo is a train</Item>
-          <Item>I rember that archoochoo is a train</Item>
+          <Item>archoochoochoo is a big train</Item>
+          <Item>You told me that archoochoochoo is a big train</Item>
+          <Item>I rember that archoochoochoo is a big train</Item>
         </Phrase>
       </Response>
     </Model>
