@@ -3,16 +3,16 @@
   <Concept Name="_kaleith_priv" Type="Public" Repeat="true">
     <Model>
       <Pattern>
-        <Item>What is archoochoochoo</Item>
-        <Item>Who is archoochoochoo</Item>
-        <Item>What do you rember about archoochoochoo</Item>
-        <Item>What did I tell you about archoochoochoo</Item>
+        <Item>What is taigo</Item>
+        <Item>Who is taigo</Item>
+        <Item>What do you rember about taigo</Item>
+        <Item>What did I tell you about taigo</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>archoochoochoo is a big train</Item>
-          <Item>You told me that archoochoochoo is a big train</Item>
-          <Item>I rember that archoochoochoo is a big train</Item>
+          <Item>taigo is someone who should be kicked</Item>
+          <Item>You told me that taigo is someone who should be kicked</Item>
+          <Item>I rember that taigo is someone who should be kicked</Item>
         </Phrase>
       </Response>
     </Model>
