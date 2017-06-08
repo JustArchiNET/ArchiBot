@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="BotLearn">
+  <Concept Name="BotLearn_Rember_{subject}">
     <Model>
       <Pattern>
         <Item>What is Miku</Item>
@@ -10,9 +10,9 @@
       </Pattern>
       <Response>
         <Phrase>
-          <Item>Miku is a lolicon</Item>
-          <Item>You told me that Miku is a lolicon</Item>
-          <Item>I rember that Miku is a lolicon</Item>
+          <Item>Miku is a weeblord</Item>
+          <Item>You told me that Miku is a weeblord</Item>
+          <Item>I rember that Miku is a weeblord</Item>
         </Phrase>
       </Response>
     </Model>
