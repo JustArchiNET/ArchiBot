@@ -495,6 +495,34 @@
 		</Model>
 
 		<Model>
+			<Pattern>REMBERTESTAAA</Pattern>
+			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept AAA
+				<Learn>
+					<Concept Name="AAA">
+						<Model>
+							<Pattern>ARCHI IS A WEEB</Pattern>
+							<Response>Yes he is.</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>REMBERTESTBBB</Pattern>
+			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept BBB
+				<Learn>
+					<Concept Name="BBB">
+						<Model>
+							<Pattern>ARCHI IS A WEEB</Pattern>
+							<Response>Yes he still is.</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>REMBER THAT * IS *</Item>
 				<Item>PLS REMBER THAT * IS *</Item>
