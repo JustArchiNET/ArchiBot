@@ -493,7 +493,6 @@
 			<Pattern>SING A SONG FOR ME</Pattern>
 			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
 		</Model>
-	</Concept>
 
 		<Model>
 			<Pattern>
@@ -553,4 +552,5 @@
 				</Remember>
 			</Response>
 		</Model>
+	</Concept>
 </Siml>
