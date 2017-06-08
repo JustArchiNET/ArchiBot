@@ -25,62 +25,6 @@
 
 		<Model>
 			<Pattern>
-				<Item>REMBER THAT * IS *</Item>
-				<Item>PLS REMBER THAT * IS *</Item>
-			</Pattern>
-			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
-				<Learn>
-					<Concept Name="BotLearn">
-						<Model>
-							<Pattern>
-								<Item>What is <Process><Match /></Process></Item>
-								<Item>Who is <Process><Match /></Process></Item>
-								<Item>What do you rember about <Process><Match /></Process></Item>
-								<Item>What did I tell you about <Process><Match /></Process></Item>
-							</Pattern>
-							<Response>
-								<Phrase>
-									<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-									<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-									<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								</Phrase>
-							</Response>
-						</Model>
-					</Concept>
-				</Learn>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>
-				<Item>REMBER USERLY THAT * IS *</Item>
-				<Item>PLS REMBER USERLY THAT * IS *</Item>
-			</Pattern>
-			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
-				<Remember>
-					<Concept Name="BotRember">
-						<Model>
-							<Pattern>
-								<Item>What is <Process><Match /></Process></Item>
-								<Item>Who is <Process><Match /></Process></Item>
-								<Item>What do you rember about <Process><Match /></Process></Item>
-								<Item>What did I tell you about <Process><Match /></Process></Item>
-							</Pattern>
-							<Response>
-								<Phrase>
-									<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-									<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-									<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								</Phrase>
-							</Response>
-						</Model>
-					</Concept>
-				</Remember>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>
 				<Item>GIBNIER</Item>
 				<Item>GIB NIER</Item>
 			</Pattern>
@@ -550,4 +494,63 @@
 			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
 		</Model>
 	</Concept>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER THAT * IS *</Item>
+				<Item>PLS REMBER THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+			<Bind Key="{subject}"><Match /></Bind>
+				<Learn>
+					<Concept Name="BotLearn_Rember_{subject}">
+						<Model>
+							<Pattern>
+								<Item>What is <Process><Match /></Process></Item>
+								<Item>Who is <Process><Match /></Process></Item>
+								<Item>What do you rember about <Process><Match /></Process></Item>
+								<Item>What did I tell you about <Process><Match /></Process></Item>
+							</Pattern>
+							<Response>
+								<Phrase>
+									<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+									<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+									<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								</Phrase>
+							</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER USERLY THAT * IS *</Item>
+				<Item>PLS REMBER USERLY THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match Index="2" />
+			<Bind Key="{subject}"><Match /></Bind>
+			<Bind Key="{userid}"><User Get="ID" /></Bind>
+				<Remember>
+					<Concept Name="BotRember_Rember_{subject}" User="{userid}">
+						<Model>
+							<Pattern>
+								<Item>What is <Process><Match /></Process></Item>
+								<Item>Who is <Process><Match /></Process></Item>
+								<Item>What do you rember about <Process><Match /></Process></Item>
+								<Item>What did I tell you about <Process><Match /></Process></Item>
+							</Pattern>
+							<Response>
+								<Phrase>
+									<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+									<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+									<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								</Phrase>
+							</Response>
+						</Model>
+					</Concept>
+				</Remember>
+			</Response>
+		</Model>
 </Siml>
