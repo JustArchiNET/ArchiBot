@@ -500,9 +500,9 @@
 				<Item>PLS REMBER THAT * IS *</Item>
 			</Pattern>
 			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
-			<Bind Key="{subject}"><Match /></Bind>
+			<Bind Key="{subject}">BotLearn_Rember_<Match /></Bind>
 				<Learn>
-					<Concept Name="BotLearn_Rember_{subject}">
+					<Concept Name="{subject}">
 						<Model>
 							<Pattern>
 								<Item>What is <Process><Match /></Process></Item>
