@@ -3,16 +3,16 @@
   <Concept Name="BotLearn_Rember_{subject}">
     <Model>
       <Pattern>
-        <Item>What is Archi</Item>
-        <Item>Who is Archi</Item>
-        <Item>What do you rember about Archi</Item>
-        <Item>What did I tell you about Archi</Item>
+        <Item>What is Miku</Item>
+        <Item>Who is Miku</Item>
+        <Item>What do you rember about Miku</Item>
+        <Item>What did I tell you about Miku</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>Archi is a weebmaster</Item>
-          <Item>You told me that Archi is a weebmaster</Item>
-          <Item>I rember that Archi is a weebmaster</Item>
+          <Item>Miku is a weeblord</Item>
+          <Item>You told me that Miku is a weeblord</Item>
+          <Item>I rember that Miku is a weeblord</Item>
         </Phrase>
       </Response>
     </Model>
