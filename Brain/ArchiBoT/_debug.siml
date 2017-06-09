@@ -159,6 +159,15 @@
 			<Response>Var is <Var Get="debug35" /></Response>
 		</Model>
 
+		<Model>
+			<Pattern>MATHROLL</Pattern>
+			<Response>
+				Rolling 50 dice:
+				<Var Think:Set="count" Value="0" />
+				<While Var="count" Not="50"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Math Get="random" Min="1" Max="6" /> </While>
+			</Response>
+		</Model>
+
 		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>
 	</Concept>
 </Siml>
