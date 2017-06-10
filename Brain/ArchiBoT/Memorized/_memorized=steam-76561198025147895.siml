@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_kaleith_priv" Type="Public" Repeat="true" User="steam-76561198025147895">
+  <Concept Name="_kaleith_priv" User="steam-76561198025147895">
     <Model>
       <Pattern>
-        <Item>What is Faku</Item>
-        <Item>Who is Faku</Item>
-        <Item>What do you rember about Faku</Item>
-        <Item>What did I tell you about Faku</Item>
+        <Item>What is archibot</Item>
+        <Item>Who is archibot</Item>
+        <Item>What do you rember about archibot</Item>
+        <Item>What did I tell you about archibot</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>Faku is "Asian</Item>
-          <Item>You told me that Faku is "Asian</Item>
-          <Item>I rember that Faku is "Asian</Item>
+          <Item>archibot is secretly a human</Item>
+          <Item>You told me that archibot is secretly a human</Item>
+          <Item>I rember that archibot is secretly a human</Item>
         </Phrase>
       </Response>
     </Model>
