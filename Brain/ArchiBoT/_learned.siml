@@ -46,6 +46,21 @@
         </Phrase>
       </Response>
     </Model>
+    <Model>
+      <Pattern>
+        <Item>What is madu</Item>
+        <Item>Who is madu</Item>
+        <Item>What do you rember about madu</Item>
+        <Item>What did I tell you about madu</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>madu is hungry</Item>
+          <Item>You told me that madu is hungry</Item>
+          <Item>I rember that madu is hungry</Item>
+        </Phrase>
+      </Response>
+    </Model>
   </Concept>
   <Concept Name="_kaleith_priv" Type="Public" Repeat="true">
     <Model>
