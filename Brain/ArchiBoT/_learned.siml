@@ -1,3 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
+  <Concept Name="_archi_priv" Type="Public" Repeat="true">
+    <Model>
+      <Pattern>
+        <Item>What is faku</Item>
+        <Item>Who is faku</Item>
+        <Item>What do you rember about faku</Item>
+        <Item>What did I tell you about faku</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>faku is a weeb</Item>
+          <Item>You told me that faku is a weeb</Item>
+          <Item>I rember that faku is a weeb</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
 </Siml>
