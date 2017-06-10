@@ -63,6 +63,21 @@
         </Phrase>
       </Response>
     </Model>
+    <Model>
+      <Pattern>
+        <Item>What is Skat</Item>
+        <Item>Who is Skat</Item>
+        <Item>What do you rember about Skat</Item>
+        <Item>What did I tell you about Skat</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>Skat is the person that decides who gets permabanned next</Item>
+          <Item>You told me that Skat is the person that decides who gets permabanned next</Item>
+          <Item>I rember that Skat is the person that decides who gets permabanned next</Item>
+        </Phrase>
+      </Response>
+    </Model>
   </Concept>
   <Concept Name="AAA">
     <Model>
