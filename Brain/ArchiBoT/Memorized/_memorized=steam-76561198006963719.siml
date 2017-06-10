@@ -1,35 +1,3 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="_archi_priv" User="steam-76561198006963719">
-    <Model>
-      <Pattern>
-        <Item>What is madu</Item>
-        <Item>Who is madu</Item>
-        <Item>What do you rember about madu</Item>
-        <Item>What did I tell you about madu</Item>
-      </Pattern>
-      <Response>
-        <Phrase>
-          <Item>madu is yyy</Item>
-          <Item>You told me that madu is yyy</Item>
-          <Item>I rember that madu is yyy</Item>
-        </Phrase>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>
-        <Item>What is madu</Item>
-        <Item>Who is madu</Item>
-        <Item>What do you rember about madu</Item>
-        <Item>What did I tell you about madu</Item>
-      </Pattern>
-      <Response>
-        <Phrase>
-          <Item>madu is xxx</Item>
-          <Item>You told me that madu is xxx</Item>
-          <Item>I rember that madu is xxx</Item>
-        </Phrase>
-      </Response>
-    </Model>
-  </Concept>
 </Siml>
