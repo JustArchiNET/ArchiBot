@@ -16,5 +16,20 @@
         </Phrase>
       </Response>
     </Model>
+    <Model>
+      <Pattern>
+        <Item>What is faku2</Item>
+        <Item>Who is faku2</Item>
+        <Item>What do you rember about faku2</Item>
+        <Item>What did I tell you about faku2</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>faku2 is a weeb</Item>
+          <Item>You told me that faku2 is a weeb</Item>
+          <Item>I rember that faku2 is a weeb</Item>
+        </Phrase>
+      </Response>
+    </Model>
   </Concept>
 </Siml>
