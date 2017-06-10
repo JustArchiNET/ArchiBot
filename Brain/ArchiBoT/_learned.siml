@@ -48,5 +48,20 @@
         </Phrase>
       </Response>
     </Model>
+    <Model>
+      <Pattern>
+        <Item>What is Archi</Item>
+        <Item>Who is Archi</Item>
+        <Item>What do you rember about Archi</Item>
+        <Item>What did I tell you about Archi</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>Archi is a scammer</Item>
+          <Item>You told me that Archi is a scammer</Item>
+          <Item>I rember that Archi is a scammer</Item>
+        </Phrase>
+      </Response>
+    </Model>
   </Concept>
 </Siml>
