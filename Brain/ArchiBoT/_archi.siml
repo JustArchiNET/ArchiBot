@@ -121,42 +121,6 @@
 		</Model>
 	</Concept>
 
-<!-- Private Concept for user-exclusive commands --> 
-	<Concept Name="_kaleith_priv" User="steam-76561198025147895">
-		<Model>
-			<Pattern>SING A SONG FOR ME</Pattern>
-			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
-		</Model>
-
-		<Model>
-			<Pattern>REMBERTESTAAA</Pattern>
-			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept AAA
-				<Learn>
-					<Concept Name="AAA">
-						<Model>
-							<Pattern>ARCHI IS A WEEB</Pattern>
-							<Response>Yes he is.</Response>
-						</Model>
-					</Concept>
-				</Learn>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>REMBERTESTBBB</Pattern>
-			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept BBB
-				<Learn>
-					<Concept Name="BBB">
-						<Model>
-							<Pattern>ARCHI IS A WEEB</Pattern>
-							<Response>Yes he still is.</Response>
-						</Model>
-					</Concept>
-				</Learn>
-			</Response>
-		</Model>
-	</Concept>
-
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
 		<Model>
 			<Pattern>
