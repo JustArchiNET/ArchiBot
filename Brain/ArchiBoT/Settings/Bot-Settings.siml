@@ -22,7 +22,7 @@
     <!--Default: Value that is returned if a Get function is used for an undefined variable-->
     <Variable Name="Default" Value="Unknown" />
     <!--test for override-->
-    <Variable Name="override-pattern" Value="true"/>
+    <Variable Name="override-pattern" Value="false"/>
     <!--General Bot Settings: You may change the following values-->
     <Variable Name="VERSION" Value="1.0" />
     <Variable Name="OS" Value="Linux" />
