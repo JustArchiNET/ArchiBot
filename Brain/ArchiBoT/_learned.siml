@@ -32,4 +32,21 @@
       </Response>
     </Model>
   </Concept>
+  <Concept Name="_kaleith_priv" Type="Public" Repeat="true">
+    <Model>
+      <Pattern>
+        <Item>What is faku3</Item>
+        <Item>Who is faku3</Item>
+        <Item>What do you rember about faku3</Item>
+        <Item>What did I tell you about faku3</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>faku3 is a weeb</Item>
+          <Item>You told me that faku3 is a weeb</Item>
+          <Item>I rember that faku3 is a weeb</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
 </Siml>
