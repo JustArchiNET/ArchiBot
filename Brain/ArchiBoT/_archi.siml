@@ -121,6 +121,42 @@
 		</Model>
 	</Concept>
 
+<!-- Private Concept for user-exclusive commands --> 
+	<Concept Name="_kaleith_priv" User="steam-76561198025147895">
+		<Model>
+			<Pattern>SING A SONG FOR ME</Pattern>
+			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
+		</Model>
+
+		<Model>
+			<Pattern>REMBERTESTAAA</Pattern>
+			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept AAA
+				<Learn>
+					<Concept Name="AAA">
+						<Model>
+							<Pattern>ARCHI IS A WEEB</Pattern>
+							<Response>Yes he is.</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>REMBERTESTBBB</Pattern>
+			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept BBB
+				<Learn>
+					<Concept Name="BBB">
+						<Model>
+							<Pattern>ARCHI IS A WEEB</Pattern>
+							<Response>Yes he still is.</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+	</Concept>
+
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
 		<Model>
 			<Pattern>
@@ -128,6 +164,58 @@
 			</Pattern>
 			<Response>
 				<Goto>Remind me in 53 minutes to take lasagne out of oven</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER THAT * IS *</Item>
+				<Item>PLS REMBER THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+				<Learn>
+					<Model>
+						<Pattern>
+							<Item>What is <Process><Match /></Process></Item>
+							<Item>Who is <Process><Match /></Process></Item>
+							<Item>What do you rember about <Process><Match /></Process></Item>
+							<Item>What did I tell you about <Process><Match /></Process></Item>
+						</Pattern>
+						<Response>
+							<Phrase>
+								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+							</Phrase>
+						</Response>
+					</Model>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER USERLY THAT * IS *</Item>
+				<Item>PLS REMBER USERLY THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match Index="2" />
+				<Remember>
+					<Model>
+						<Pattern>
+							<Item>What is <Process><Match /></Process></Item>
+							<Item>Who is <Process><Match /></Process></Item>
+							<Item>What do you rember about <Process><Match /></Process></Item>
+							<Item>What did I tell you about <Process><Match /></Process></Item>
+						</Pattern>
+						<Response>
+							<Phrase>
+								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+							</Phrase>
+						</Response>
+					</Model>
+				</Remember>
 			</Response>
 		</Model>
 <!--
