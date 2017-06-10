@@ -47,4 +47,21 @@
       </Response>
     </Model>
   </Concept>
+  <Concept Name="_kaleith_priv">
+    <Model>
+      <Pattern>
+        <Item>What is abc</Item>
+        <Item>Who is abc</Item>
+        <Item>What do you rember about abc</Item>
+        <Item>What did I tell you about abc</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>abc is yyy</Item>
+          <Item>You told me that abc is yyy</Item>
+          <Item>I rember that abc is yyy</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
 </Siml>
