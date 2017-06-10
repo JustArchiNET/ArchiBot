@@ -3,16 +3,16 @@
   <Concept Name="_kaleith_priv" Type="Public" Repeat="true" User="steam-76561198025147895">
     <Model>
       <Pattern>
-        <Item>What is archi</Item>
-        <Item>Who is archi</Item>
-        <Item>What do you rember about archi</Item>
-        <Item>What did I tell you about archi</Item>
+        <Item>What is Faku</Item>
+        <Item>Who is Faku</Item>
+        <Item>What do you rember about Faku</Item>
+        <Item>What did I tell you about Faku</Item>
       </Pattern>
       <Response>
         <Phrase>
-          <Item>archi is a scam artist</Item>
-          <Item>You told me that archi is a scam artist</Item>
-          <Item>I rember that archi is a scam artist</Item>
+          <Item>Faku is "Asian</Item>
+          <Item>You told me that Faku is "Asian</Item>
+          <Item>I rember that Faku is "Asian</Item>
         </Phrase>
       </Response>
     </Model>
