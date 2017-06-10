@@ -16,5 +16,20 @@
         </Phrase>
       </Response>
     </Model>
+    <Model>
+      <Pattern>
+        <Item>What is xxx</Item>
+        <Item>Who is xxx</Item>
+        <Item>What do you rember about xxx</Item>
+        <Item>What did I tell you about xxx</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>xxx is zzz</Item>
+          <Item>You told me that xxx is zzz</Item>
+          <Item>I rember that xxx is zzz</Item>
+        </Phrase>
+      </Response>
+    </Model>
   </Concept>
 </Siml>
