@@ -21,8 +21,8 @@
     <Variable Name="Undefined" Value="" />
     <!--Default: Value that is returned if a Get function is used for an undefined variable-->
     <Variable Name="Default" Value="Unknown" />
-    <!--test for override-->
-    <Variable Name="override-pattern" Value="false"/>
+    <!--Overrides older patterns with newer ones if set to true. Default: false (older is used over newer)-->
+    <Variable Name="override-pattern" Value="true" />
     <!--General Bot Settings: You may change the following values-->
     <Variable Name="VERSION" Value="1.0" />
     <Variable Name="OS" Value="Linux" />
