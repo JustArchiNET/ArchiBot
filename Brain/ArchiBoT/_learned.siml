@@ -69,6 +69,10 @@
       <Pattern>ARCHI IS A WEEB</Pattern>
       <Response>Yes he is.</Response>
     </Model>
+    <Model>
+      <Pattern>ARCHI IS A WEEB</Pattern>
+      <Response>Yes he is.</Response>
+    </Model>
   </Concept>
   <Concept Name="BBB">
     <Model>
