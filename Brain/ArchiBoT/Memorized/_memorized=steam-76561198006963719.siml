@@ -1,3 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
+  <Concept Name="_archi_priv" Type="Public" Repeat="true" User="steam-76561198006963719">
+    <Model>
+      <Pattern>
+        <Item>What is xxx</Item>
+        <Item>Who is xxx</Item>
+        <Item>What do you rember about xxx</Item>
+        <Item>What did I tell you about xxx</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>xxx is yyy</Item>
+          <Item>You told me that xxx is yyy</Item>
+          <Item>I rember that xxx is yyy</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
 </Siml>
