@@ -16,5 +16,20 @@
         </Phrase>
       </Response>
     </Model>
+    <Model>
+      <Pattern>
+        <Item>What is maduu</Item>
+        <Item>Who is maduu</Item>
+        <Item>What do you rember about maduu</Item>
+        <Item>What did I tell you about maduu</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>maduu is yyy</Item>
+          <Item>You told me that maduu is yyy</Item>
+          <Item>I rember that maduu is yyy</Item>
+        </Phrase>
+      </Response>
+    </Model>
   </Concept>
 </Siml>
