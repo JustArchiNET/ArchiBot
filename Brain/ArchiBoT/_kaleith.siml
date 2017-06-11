@@ -416,6 +416,34 @@
 		</Model>
 
 		<Model>
+			<Pattern>9KUGEL %</Pattern>
+			<Response>
+				<Random>
+					<Item>❾: Es ist sicher</Item>
+					<Item>❾: Es ist entschieden so</Item>
+					<Item>❾: Ohne einen Zweifel</Item>
+					<Item>❾: Definitiv ja</Item>
+					<Item>❾: Darauf kannst du dich verlassen</Item>
+					<Item>❾: Wie ich es sehe ja</Item>
+					<Item>❾: Höchstwahrscheinlich</Item>
+					<Item>❾: Gute Aussichten</Item>
+					<Item>❾: Ja</Item>
+					<Item>❾: Zeichen deuten auf ja</Item>
+					<Item>❾: Antwort unklar, versuchs nochmal</Item>
+					<Item>❾: Frag später nochmal</Item>
+					<Item>❾: Ich sags dir jetzt lieber nicht</Item>
+					<Item>❾: Kann es jetzt nicht vorhersagen</Item>
+					<Item>❾: Nicht so gute Aussichten</Item>
+					<Item>❾: In millionen jahren – auch nicht!</Item>
+					<Item>❾: Meine antwort ist nein</Item>
+					<Item>❾: Meine quellen sagen nein</Item>
+					<Item>❾: Nicht so gute aussichten</Item>
+					<Item>❾: Sehr zweifelhaft</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>TRANSLATE %</Pattern>
 			<Response>
 				<Random>
