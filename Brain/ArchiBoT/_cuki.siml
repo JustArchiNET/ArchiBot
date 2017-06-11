@@ -16,7 +16,7 @@
 				<Item>^RANDOMGAME ME</Item>
 				<Item>^RANDOMGAME</Item>
 			</Pattern>
-			<Response><Goto>RANDOMGAME <User Get="Nickname" /></Goto></Response>
+			<Response><Goto>RANDOMGAME <If User="Nickname" Not="me"><User Get="Nickname" /></If><Else>Weeb</Else></Goto></Response>
 		</Model>
 	</Concept>
 
@@ -35,8 +35,8 @@
 		<Item><Match /> or Alive</Item>
 		<Item><Match /> Sudoku</Item>
 		<Item><Match /> Sumo</Item>
-		<Item><Match /> the Mechanized <Random Get="RANDOMNOUN" /></Item>
-		<Item><Match /> the <Random Get="RANDOMNOUN" /></Item>
+		<Item><Match /> the Mechanized <Text Get="titlecase"><Random Get="RANDOMNOUN" /></Text></Item>
+		<Item><Match /> the <Text Get="titlecase"><Random Get="RANDOMNOUN" /></Text></Item>
 		<Item><Match /> the Police Officer</Item>
 		<Item>A Boy and His <Match /></Item>
 		<Item>Action <Match /></Item>
