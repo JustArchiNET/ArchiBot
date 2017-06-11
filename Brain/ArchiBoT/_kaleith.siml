@@ -520,7 +520,7 @@
 					<Case Value="">I can't calculate that.</Case>
 					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
 					<Case Value="-∞">The answer is too small, are you freezing? :cry:</Case>
-					<Default><Match />°F=<Var Get="convert" />°C</Default>
+					<Default><Match />°F = <Var Get="convert" />°C</Default>
 				</Switch>
 			</Response>
 		</Model>
