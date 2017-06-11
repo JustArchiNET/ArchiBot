@@ -492,8 +492,8 @@
 		<Model>
 			<Pattern>
 				<Item>CTOF *</Item>
-				<Item>* CTOF</Item>
-				<Item>* C TO F</Item>
+				<Item>* ^CTOF</Item>
+				<Item>* ^C TO F</Item>
 				<Item>CONVERT _ (C|Celtius|°C) $ (F|FAHRENHEIT|°F)</Item>
 			</Pattern>
 			<Response>
@@ -502,7 +502,7 @@
 					<Case Value="">I can't calculate that.</Case>
 					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
 					<Case Value="-∞">The answer is too small, are you freezing? :cry:</Case>
-					<Default><Match />°C=<Var Get="convert" />°F</Default>
+					<Default><Match />°C = <Var Get="convert" />°F</Default>
 				</Switch>
 			</Response>
 		</Model>
@@ -510,8 +510,8 @@
 		<Model>
 			<Pattern>
 				<Item>FTOC *</Item>
-				<Item>* FTOC</Item>
-				<Item>* F TO C</Item>
+				<Item>* ^FTOC</Item>
+				<Item>* ^F TO C</Item>
 				<Item>CONVERT _ (F|FAHRENHEIT|°F) TO (C|Celtius|°C)</Item>
 			</Pattern>
 			<Response>
