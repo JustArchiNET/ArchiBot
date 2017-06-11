@@ -37,12 +37,12 @@
 				<Item>CALC *</Item>
 			</Pattern>
 			<Response>
-				<Think><User Set="calcresult"><Math><Match/></Math></User></Think>
-				<Switch User="calcresult">
+				<Think><Var Set="calcresult"><Math><Match/></Math></Var></Think>
+				<Switch Var="calcresult">
 					<Case Value="">I can't calculate that.</Case>
 					<Case Value="∞">The answer is too big, I don't have enough fingers :cry:</Case>
 					<Case Value="-∞">The answer is too small, I got confused :cry:</Case>
-					<Default>The answer is <User Get="calcresult" /></Default>
+					<Default>The answer is <Var Get="calcresult" /></Default>
 				</Switch>
 			</Response>
 		</Model>

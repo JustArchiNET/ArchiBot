@@ -488,6 +488,32 @@
 			<Pattern>ZLIA</Pattern>
 			<Response>Hi, slightly more social than me people, a lot more social than me people, people who claim they are less social than me and anyone else reading this message.</Response>
 		</Model>
+
+		<Model>
+			<Pattern>CTOF *</Pattern>
+			<Response>
+				<Think><Var Set="convert"><Math Round="2"><Match />*9/5+32</Math></Var></Think>
+				<Switch Var="convert">
+					<Case Value="">I can't calculate that.</Case>
+					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
+					<Case Value="-∞">The answer is too small, are you freezing? :cry:</Case>
+					<Default><Match />°C=<Var Get="convert" />°F</Default>
+				</Switch>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>FTOC *</Pattern>
+			<Response>
+				<Think><Var Set="convert"><Math Round="2">(<Match />-32)*5/9</Math></Var></Think>
+				<Switch Var="convert">
+					<Case Value="">I can't calculate that.</Case>
+					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
+					<Case Value="-∞">The answer is too small, are you freezing? :cry:</Case>
+					<Default><Match />°F=<Var Get="convert" />°C</Default>
+				</Switch>
+			</Response>
+		</Model>
 	</Concept>
 
 <!-- Private Concept for user-exclusive commands --> 
