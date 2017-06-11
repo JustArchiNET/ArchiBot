@@ -490,7 +490,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>CTOF *</Pattern>
+			<Pattern>
+				<Item>CTOF *</Item>
+				<Item>* CTOF</Item>
+				<Item>* C TO F</Item>
+				<Item>CONVERT _ (C|Celtius|°C) $ (F|FAHRENHEIT|°F)</Item>
+			</Pattern>
 			<Response>
 				<Think><Var Set="convert"><Math Round="2"><Match />*9/5+32</Math></Var></Think>
 				<Switch Var="convert">
@@ -503,7 +508,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>FTOC *</Pattern>
+			<Pattern>
+				<Item>FTOC *</Item>
+				<Item>* FTOC</Item>
+				<Item>* F TO C</Item>
+				<Item>CONVERT _ (F|FAHRENHEIT|°F) TO (C|Celtius|°C)</Item>
+			</Pattern>
 			<Response>
 				<Think><Var Set="convert"><Math Round="2">(<Match />-32)*5/9</Math></Var></Think>
 				<Switch Var="convert">
