@@ -484,6 +484,14 @@
 				</Goto>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>CONVERT $</Pattern>
+			<Response>
+				<Goto>NOTAICOMMAND WEATHER <Match />
+				</Goto>
+			</Response>
+		</Model>
 <!-- "No fun allowed" - Archi 2017-05-29
 		<Model>
 			<Pattern>CONVERT _~1 _~1 _</Pattern>
