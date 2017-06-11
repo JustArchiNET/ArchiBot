@@ -416,7 +416,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>9KUGEL %</Pattern>
+			<Pattern>
+				<Item>9KUGEL %</Item>
+				<Item>NEINBALL %</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>❾: Es ist sicher</Item>
