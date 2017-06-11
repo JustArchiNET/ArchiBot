@@ -140,6 +140,7 @@
 					<Item>пора начать плохое бремя. мы будем "получить окунул"?</Item>
 					<Item>ᶦᵐ ᵍᵒᶰᶰᵃ ᵇʳᵉᵃᵏ ʸᵒᵘ'ʳᵉ ᶜᶫᵒᶜᵏ</Item>
 					<Item>You will not have fond memories of this day.</Item>
+					<Item>It's <Js>new Date(Math.floor(Math.random() * 86400000)).toISOString().substr(11, 8);</Js>!</Item>
 				</Random>
 			</Response>
 		</Model>
