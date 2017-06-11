@@ -486,7 +486,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>CONVERT $</Pattern>
+			<Pattern>WEATHER $</Pattern>
 			<Response>
 				<Goto>NOTAICOMMAND WEATHER <Match />
 				</Goto>
