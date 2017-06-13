@@ -120,6 +120,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>DEBUG RANDOMUSER2</Pattern>
+			<Response>Here's a random user from this chat: <ArchiRandomChannelUserNickname><User Get="SourceID" /></ArchiRandomChannelUserNickname></Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUGTEST</Pattern>
 			<Response>You are Kaleith, right? :speak:</Response>
 		</Model>
