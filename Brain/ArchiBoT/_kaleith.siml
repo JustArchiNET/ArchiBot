@@ -482,9 +482,7 @@
 						<Case LessThan="0">Sure, let me roll negative dice :doubt:</Case>
 						<Case Value="0">*rolls nothing*</Case>
 						<Case LessThanOr="20">
-							<Think>
-								<Var Set="count">0</Var>
-							</Think>
+							<Var Think:Set="count" Value="0" />
 							<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6)</Random>:</While>
 						</Case>
 						<Default>Archi didn't buy me that many dice :cry:</Default>
@@ -528,7 +526,7 @@
 				<Item>CONVERT _ (C|Celtius|°C) $ (F|FAHRENHEIT|°F)</Item>
 			</Pattern>
 			<Response>
-				<Think><Var Set="convert"><Math Round="2"><Match />*9/5+32</Math></Var></Think>
+				<Var Think:Set="convert"><Math Round="2"><Match />*9/5+32</Math></Var>
 				<Switch Var="convert">
 					<Case Value="">I can't calculate that.</Case>
 					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
@@ -546,7 +544,7 @@
 				<Item>CONVERT _ (F|FAHRENHEIT|°F) TO (C|Celtius|°C)</Item>
 			</Pattern>
 			<Response>
-				<Think><Var Set="convert"><Math Round="2">(<Match />-32)*5/9</Math></Var></Think>
+				<Var Think:Set="convert"><Math Round="2">(<Match />-32)*5/9</Math></Var>
 				<Switch Var="convert">
 					<Case Value="">I can't calculate that.</Case>
 					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>

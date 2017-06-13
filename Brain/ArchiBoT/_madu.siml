@@ -53,17 +53,13 @@
 				<Item>MADUIZE _</Item>
 			</Pattern>
 			<Response>
-				<Think>
-					<Var Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
+					<Var Think:Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
 					<Bind Key="{wordcount}"><Var Get="wordcount" /></Bind>
-					<Var Set="wordshuffle-i">0</Var>
-				</Think>
+					<Var Think:Set="wordshuffle-i" Value="0" />
 				<While Var="wordshuffle-i" Not="{wordcount}">
-						<Think>
-							<Var Set="wordshuffle-i"><Math Get="increment"><Var Get="wordshuffle-i" /></Math></Var>
-							<Bind Key="{2}"><Var Get="wordshuffle-i" /></Bind>
-						</Think>
-					<Text><Goto>STRINGSHUFFLE <Text WordAt="{2}"><Match /></Text></Goto> </Text>
+					<Var Think:Set="wordshuffle-i"><Math Get="increment"><Var Get="wordshuffle-i" /></Math></Var>
+					<Bind Key="{wordindex}"><Var Get="wordshuffle-i" /></Bind>
+					<Text><Goto>STRINGSHUFFLE <Text WordAt="{wordindex}"><Match /></Text></Goto> </Text>
 				</While>
 			</Response>
 		</Model>
@@ -85,7 +81,6 @@
 				<Text>
 					<While Var="i" Not="{charnumber}">
 						<Var Think:Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
-						<Bind Key="{index}"><Var Get="i" /></Bind>
 						<User Remove="chararray"><Random Get="chararray" Source="User" /></User>
 					</While>
 				</Text>
