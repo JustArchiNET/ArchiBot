@@ -12,6 +12,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>DEBUG WEATHER *</Pattern>
+			<Response>This is the message Archi's thing is returning: [<ArchiWeather><Match /></ArchiWeather>]</Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG LISTADD *</Pattern>
 			<Response><Bot Add="debuglist"><Match /></Bot> was added to the list</Response>
 		</Model>
