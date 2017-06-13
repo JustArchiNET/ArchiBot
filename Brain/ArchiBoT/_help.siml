@@ -49,6 +49,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>$ PATREON $</Pattern>
+			<Response>https://www.patreon.com/JustArchi gib money pls :sgsmile:</Response>
+		</Model>
+
+		<Model>
 			<Pattern>MUMBLE</Pattern>
 			<Response>It's ded :cry:</Response>
 		</Model>
