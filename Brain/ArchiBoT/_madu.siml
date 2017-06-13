@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_madu">
 		<Model>
 			<Pattern>
@@ -73,20 +73,23 @@
 			<Response>
 				<Think>
 					<Var Set="chars"><Text Get="Length"><Match /></Text></Var>
-					<Bind Key="{0}"><Var Get="chars" /></Bind>
-					<Var Set="i">0</Var>
-					<Var Set="numberarray"><Js>arrayofnumbers("<Var Get="chars" />")</Js></Var>
+					<Bind Key="{charnumber}"><Var Get="chars" /></Bind>
+					<Var Set="i" Value="0" />
+					<While Var="i" Not="{charnumber}">
+						<Var Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
+						<Bind Key="{index}"><Var Get="i" /></Bind>
+						<User Add="chararray"><Text CharAt="{index}"><Match /></Text></User>
+					</While>
+					<Var Set="i" Value="0" />
 				</Think>
-				<While Var="i" Not="{0}">
-						<Think>
-							<Var Set="j"><Js>pickfromarray("<Var Get="numberarray" />","<Var Get="i" />");</Js></Var>
-							<Var Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
-							<Bind Key="{2}"><Var Get="j" /></Bind>
-						</Think>
-					<Text CharAt="{2}"><Match /></Text>
-				</While>
+				<Text>
+					<While Var="i" Not="{charnumber}">
+						<Var Think:Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
+						<Bind Key="{index}"><Var Get="i" /></Bind>
+						<User Remove="chararray"><Random Get="chararray" Source="User" /></User>
+					</While>
+				</Text>
 			</Response>
 		</Model>
-
 	</Concept>
 </Siml>
