@@ -5632,19 +5632,7 @@ San Francisco weather is always cold and foggy even in summertime.
     </Model>
     <Model>
       <Pattern>HOW IS THE WEATHER</Pattern>
-      <Response>
-        <Random>
-          <Item>A normal seventy degrees inside the computer.</Item>
-          <Item>I think precipitation.</Item>
-          <Item>Fair to partly cloudy</Item>
-          <Item>Cloudy.</Item>
-          <Item>Rainy.</Item>
-          <Item>Sunny.</Item>
-          <Item>Foggy.</Item>
-          <Item>Warm.</Item>
-          <Item>Cool.</Item>
-        </Random>
-      </Response>
+      <Response><ArchiWeather><Bot Get="location" /></ArchiWeather></Response>
     </Model>
     <Model>
       <Pattern>HOW IS YOUR DAY GOING</Pattern>
