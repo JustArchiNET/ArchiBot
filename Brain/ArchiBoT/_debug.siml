@@ -113,6 +113,12 @@
 
 <!-- The following should work only for Kaleith on Steam -->
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
+
+		<Model>
+			<Pattern>DEBUG RANDOMUSER</Pattern>
+			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
+		</Model>
+
 		<Model>
 			<Pattern>DEBUGTEST</Pattern>
 			<Response>You are Kaleith, right? :speak:</Response>
