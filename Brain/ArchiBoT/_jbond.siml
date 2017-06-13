@@ -295,6 +295,11 @@
     </Model>
     
     <Model>
+      <Pattern>% PATREON %</Pattern>
+      <Response>Support my master on Patreon: https://www.patreon.com/JustArchi</Response>
+    </Model>
+    
+    <Model>
       <Pattern>% CHEER ME UP %</Pattern>
       <Response>How about a joke? <Goto>RANDOMJOKE</Goto></Response>
     </Model>
