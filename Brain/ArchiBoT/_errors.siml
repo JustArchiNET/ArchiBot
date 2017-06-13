@@ -64,7 +64,6 @@
 				<Item>DLTHEMES $</Item>
 				<Item>DEFINE $</Item>
 				<Item>CONVERT $</Item>
-				<Item>WEATHER $</Item>
 			</Pattern>
 			<Response>Maybe try "!<User Get="Message" />" instead :sgsmile:</Response>
 		</Model>

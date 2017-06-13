@@ -35,6 +35,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>WEATHER $</Pattern>
+			<Response><ArchiWeather><Match /></ArchiWeather></Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>LASAGNA</Item>
 				<Item>LASAGNE</Item>

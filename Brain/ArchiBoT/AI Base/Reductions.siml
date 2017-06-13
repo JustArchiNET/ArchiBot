@@ -33239,12 +33239,6 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       </Response>
     </Model>
     <Model>
-      <Pattern>WEATHER</Pattern>
-      <Response>
-        <Goto>what is the weather</Goto>
-      </Response>
-    </Model>
-    <Model>
       <Pattern>WEB ACCEPT * </Pattern>
       <Response>
         <Goto>web accept connection</Goto>
