@@ -90,7 +90,6 @@
 		<MapItem Content="76561198045737785" Value="DakotaThrice" />
 		<MapItem Content="76561197962290563" Value="Dyna" />
 		<MapItem Content="76561198104222881" Value="Emma Stoned" />
-		<MapItem Content="76561198059462282" Value="Gonah" />
 		<MapItem Content="76561197985235696" Value="Heiluri" />
 		<MapItem Content="76561198160900075" Value="KingJZ" />
 		<MapItem Content="76561198031274500" Value="Lengray" />
@@ -144,7 +143,6 @@
 		<MapItem Content="76561197972529138" Value="theemu" />
 		<MapItem Content="76561198025505534" Value="「Cristi075」" />
 		<MapItem Content="76561198066402732" Value="Awesome Possum" />
-		<MapItem Content="76561198002675684" Value="Ally" />
 		<MapItem Content="76561198163016672" Value="Annenouk" />
 		<MapItem Content="76561198031558986" Value="Asimmacovski" />
 		<MapItem Content="76561198115086953" Value="Bangledeschler" />
@@ -185,7 +183,6 @@
 		<MapItem Content="76561198054213174" Value="siruChuwan" />
 		<MapItem Content="76561198058343801" Value="Smoku" />
 		<MapItem Content="76561198023181788" Value="Sundance85" />
-		<MapItem Content="76561198052905595" Value="Unnatural" />
 		<MapItem Content="76561198042796557" Value="Veckpreb" />
 		<MapItem Content="76561198032156222" Value="ViktorStahl" />
 		<MapItem Content="76561197975548356" Value="Wintermute" />
@@ -258,7 +255,6 @@
 		<Item>76561198048732179</Item>
 		<Item>76561198050478086</Item>
 		<Item>76561198051592062</Item>
-		<Item>76561198052905595</Item>
 		<Item>76561198053426429</Item>
 		<Item>76561198053745959</Item>
 		<Item>76561198053843295</Item>
@@ -269,7 +265,6 @@
 		<Item>76561198057758736</Item>
 		<Item>76561198058268758</Item>
 		<Item>76561198058343801</Item>
-		<Item>76561198059462282</Item>
 		<Item>76561198060934212</Item>
 		<Item>76561198062670809</Item>
 		<Item>76561198062979402</Item>
@@ -312,6 +307,5 @@
 		<Item>76561198250732560</Item>
 		<Item>76561198258574803</Item>
 		<Item>76561198258689059</Item>
-<!--	<Item>76561198002675684</Item> Ally left-->
 	</Random>
 </Siml>
