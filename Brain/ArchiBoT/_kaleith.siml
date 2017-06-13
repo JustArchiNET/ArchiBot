@@ -42,7 +42,7 @@
 					<Switch User="location">
 						<Case Value="">I don't know where you are, how would I know what's the weather like there? :doubt:</Case>
 						<Case Value="Unknown">I don't know where you are, how would I know what's the weather like there? :doubt:</Case>
-						<Default><ArchiWeather><Match /></ArchiWeather></Default>
+						<Default><ArchiWeather><User Get="location" /></ArchiWeather></Default>
 					</Switch>
 				</If>
 				<Else><ArchiWeather><Match /></ArchiWeather></Else>
