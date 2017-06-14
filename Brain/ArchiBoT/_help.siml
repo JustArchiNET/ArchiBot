@@ -54,6 +54,15 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>$ ASF $</Item>
+				<Item>$ ARCHI STEAM FARM $</Item>
+				<Item>$ ARCHI'S STEAM FARM $</Item>
+			</Pattern>
+			<Response>https://github.com/JustArchi/ArchiSteamFarm</Response>
+		</Model>
+		
+		<Model>
 			<Pattern>MUMBLE</Pattern>
 			<Response>It's ded :cry:</Response>
 		</Model>
