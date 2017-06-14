@@ -37,15 +37,9 @@
 		<Model>
 			<Pattern>WEATHER $</Pattern>
 			<Response>
-				<Var Think:Set="place" Value="{Bind Match}" />
-				<If Var="place" Value="">
-					<Switch User="location">
-						<Case Value="">I don't know where you are, how would I know what's the weather like there? :doubt:</Case>
-						<Case Value="Unknown">I don't know where you are, how would I know what's the weather like there? :doubt:</Case>
-						<Default><ArchiWeather><User Get="location" /></ArchiWeather></Default>
-					</Switch>
-				</If>
-				<Else><ArchiWeather><Match /></ArchiWeather></Else>
+				<Var Think:Set="inputloc" Value="{Bind Match}" />
+				<Var Think:Set="weather"><ArchiWeather><If Var="inputloc" Value=""><User Get="location" /></If><Else><Match /></Else></ArchiWeather></Var>
+				<If Var="weather" Contains="Nothing found!">I don't know what to tell you :cry:</If><Else><Var Get="weather" /></Else>
 			</Response>
 		</Model>
 
