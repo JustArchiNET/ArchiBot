@@ -39,7 +39,11 @@
 			<Response>
 				<Var Think:Set="inputloc" Value="{Bind Match}" />
 				<Var Think:Set="weather"><ArchiWeather><If Var="inputloc" Value=""><User Get="location" /></If><Else><Match /></Else></ArchiWeather></Var>
-				<If Var="weather" Contains="Nothing found!">I don't know what to tell you :cry:</If><Else><Var Get="weather" /></Else>
+				<Switch Var="weather">
+					<Case Contains="Nothing found!">I don't know what to tell you :cry:</Case>
+					<Case Value="">You haven't set a location in your profile, I don't know where you are :doubt:</Case>
+					<Default><Var Get="weather" /></Default>
+				</Switch>
 			</Response>
 		</Model>
 
