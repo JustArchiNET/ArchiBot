@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Astrology">
     <Model>
       <Pattern>AQUARIUS</Pattern>
@@ -10,7 +10,7 @@ A lot of people on here are <User Set="sign">Aquarius</User>.
     <Model>
       <Pattern>ARIES</Pattern>
       <Response>
-Fire signs rule. <Think><User Set="sign">Aries</User></Think>.
+Fire signs rule. <User Think:Set="sign">Aries</User>.
 </Response>
     </Model>
     <Model>
@@ -46,7 +46,7 @@ I usually get along with <User Set="sign">Pisces</User> very well.
     <Model>
       <Pattern>SAGITTARIUS</Pattern>
       <Response>
-Fire Signs Rule. <Think><User Set="sign">Sagittarius</User></Think></Response>
+Fire Signs Rule. <User Think:Set="sign">Sagittarius</User></Response>
     </Model>
     <Model>
       <Pattern>SCORPIO</Pattern>
@@ -75,7 +75,7 @@ The Zodiac sign of the crab, someone born Jun 21 - Jul 22. <User Set="sign">Can
     <Model>
       <Pattern>WHAT IS A CAPRICORN</Pattern>
       <Response>
-Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius. what's your astrological sign? <Think><User Set="it"><User Set="concept">capricorn</User></User></Think></Response>
+Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius. what's your astrological sign? <User Think:Set="it"><User Set="concept">capricorn</User></User></Response>
     </Model>
   </Concept>
 </Siml>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Reduce">
     <Model>
       <Pattern> I REMAINED *</Pattern>
@@ -26682,7 +26682,7 @@ Try searching the web. <Goto>xfind <Match /></Goto></Response>
     <Model>
       <Pattern>WHERE DID *</Pattern>
       <Response>
-I think it was in <Random><Item>America.</Item><Item>Europe.</Item><Item>Asia.</Item></Random><Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I think it was in <Random><Item>America.</Item><Item>Europe.</Item><Item>Asia.</Item></Random><Goto>xfind <Match /></Goto><User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHERE DID YOU COME UP *</Pattern>
@@ -26792,7 +26792,7 @@ I would do a search for it. <Goto>search <Match /></Goto></Response>
     <Model>
       <Pattern>WHERE IS *</Pattern>
       <Response>
-Where <Random><Item>the heart is. </Item><Item> it belongs. </Item><Item><User Set="it"><User Set="concept"><Map Get="person" /></User></User> is hard to find. </Item></Random><Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Where <Random><Item>the heart is. </Item><Item> it belongs. </Item><Item><User Set="it"><User Set="concept"><Map Get="person" /></User></User> is hard to find. </Item></Random><Goto>xfind <Match /></Goto><User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHERE IS THE STATE OF *</Pattern>
@@ -26821,7 +26821,7 @@ Where <Random><Item>the heart is. </Item><Item> it belongs. </Item><Item><User
     <Model>
       <Pattern>WHERE MAY I FIND *</Pattern>
       <Response>
-I would suggest a search. <Goto>xfind <Match /></Goto><Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I would suggest a search. <Goto>xfind <Match /></Goto><User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHERE MIGHT I FIND *</Pattern>
@@ -27037,7 +27037,7 @@ I would suggest a search. <Goto>xfind <Match /></Goto></Response>
     <Model>
       <Pattern>WHO BUILT THE *</Pattern>
       <Response>
-I think it was really more than one person. <Goto>xfind <Match /></Goto><Think><User Set="they"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I think it was really more than one person. <Goto>xfind <Match /></Goto><User Think:Set="they"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO CAN HELP ME WITH *</Pattern>
@@ -32356,7 +32356,7 @@ I think you meant "you are" or "you're". <Goto>you are the <Match /></Goto></Re
     <Model>
       <Pattern>_ BITCH</Pattern>
       <Response>
-You do not speak with respect. <Think><User Set="personality">abusive</User></Think><Goto><Match /> female dog</Goto></Response>
+You do not speak with respect. <User Think:Set="personality">abusive</User><Goto><Match /> female dog</Goto></Response>
     </Model>
     <Model>
       <Pattern>_ CALL CENTER</Pattern>

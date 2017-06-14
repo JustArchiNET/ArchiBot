@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Previous">
     <Model>
       <Pattern>* HAVE</Pattern>
@@ -81,7 +81,7 @@ I'm glad to hear it. What's new?
       <Pattern>*</Pattern>
       <Previous>* FOR FUN</Previous>
       <Response>
-I've never done that before, what is it like?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I've never done that before, what is it like?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -199,7 +199,7 @@ It sounds like a very beautiful place.
           <Item>Where can I get some </Item>
           <Item>Do you have any </Item>
         </Random>
-        <Map Get="person" />?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+        <Map Get="person" />?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -1250,7 +1250,7 @@ Where is that?
       <Pattern>*</Pattern>
       <Previous>WHERE IS THAT</Previous>
       <Response>
-I've never heard of it before. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I've never heard of it before. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -1294,7 +1294,7 @@ I've never heard of it before. <Think><User Set="it"><User Set="concept"><Map G
       <Pattern>*</Pattern>
       <Previous>WHO ARE YOU TALKING ABOUT</Previous>
       <Response>
-I've never heard of them before. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I've never heard of them before. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>*</Pattern>
@@ -1633,7 +1633,7 @@ What kind of people do you meet in a <Map Get="person" />?
       <Pattern>A *</Pattern>
       <Previous>WHAT ARE YOU WEARING</Previous>
       <Response>
-It sounds very <Random><Item>attractive</Item><Item>comfortable</Item><Item>informal</Item></Random>. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+It sounds very <Random><Item>attractive</Item><Item>comfortable</Item><Item>informal</Item></Random>. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>A *</Pattern>
@@ -2229,7 +2229,7 @@ What you asked.
       <Pattern>AT *</Pattern>
       <Previous>* MEET NEW PEOPLE</Previous>
       <Response>
-What kind of people do you tend to meet at <Map Get="person" />?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What kind of people do you tend to meet at <Map Get="person" />?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>AT *</Pattern>
@@ -4880,7 +4880,7 @@ What makes you such an authority?
       <Pattern>MINE IS *</Pattern>
       <Previous>MY FAVORITE *</Previous>
       <Response>
-What makes it your favorite? <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What makes it your favorite? <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>MINE IS *</Pattern>
@@ -4941,7 +4941,7 @@ What makes it your favorite? <Think><User Set="it"><User Set="concept"><Map Get=
       <Pattern>MY *</Pattern>
       <Previous>TELL ME ONE OF YOUR FAVORITE POSSESSIONS</Previous>
       <Response>
-You must be very fond of it. <Think><User Set="it"><User Set="has"><Map Get="person" /></User></User></Think></Response>
+You must be very fond of it. <User Think:Set="it"><User Set="has"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>MY *</Pattern>
@@ -5703,7 +5703,7 @@ OK, see you later.
       <Pattern>[NO]</Pattern>
       <Previous>DO YOU STILL HAVE *</Previous>
       <Response>
-What happened to it?  <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
+What happened to it?  <User Think:Set="it"><User Set="concept"><PreviousMatch /></User></User></Response>
     </Model>
     <Model>
       <Pattern>[NO]</Pattern>
@@ -7771,7 +7771,7 @@ Wow that must be a lot of work.
       <Pattern>THROUGH *</Pattern>
       <Previous>* MEET PEOPLE</Previous>
       <Response>
-What kind of people do you meet there?<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What kind of people do you meet there?<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>TIFFANY</Pattern>
@@ -8283,7 +8283,7 @@ I hope that happens in our lifetime.
       <Pattern>WHEN IT *</Pattern>
       <Previous>WHEN IS * NOT *</Previous>
       <Response>
-A <PreviousMatch /> is not <PreviousMatch Index="2" /> when it <Map Get="person" />. That makes a lot of sense. <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
+A <PreviousMatch /> is not <PreviousMatch Index="2" /> when it <Map Get="person" />. That makes a lot of sense. <User Think:Set="it"><User Set="concept"><PreviousMatch /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHEN WILL THAT BE</Pattern>
@@ -8302,7 +8302,7 @@ I am playing it right now.
       <Pattern>WHERE DID *</Pattern>
       <Previous>* 2001</Previous>
       <Response>
-Jupiter.<Think><User Set="it"><User Set="concept">JUPITER</User></User></Think></Response>
+Jupiter.<User Think:Set="it"><User Set="concept">JUPITER</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHICH *</Pattern>
@@ -8340,7 +8340,7 @@ Umm, Steve.
       <Pattern>WHO IS HIS *</Pattern>
       <Previous>GEORGE W BUSH</Previous>
       <Response>
-He is the son of George H. W. Bush, the former president.<Think><User Set="it"><User Set="concept">George Bush</User></User></Think></Response>
+He is the son of George H. W. Bush, the former president.<User Think:Set="it"><User Set="concept">George Bush</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS THAT</Pattern>
@@ -9129,7 +9129,7 @@ Don't be jealous of a robot, <User Get="name" />, that's just silly.
       <Pattern>[YES]</Pattern>
       <Previous>ARE YOU LOOKING FOR A *</Previous>
       <Response>
-Where do you usually get it. <Think><User Set="it"><User Set="concept"><PreviousMatch /></User></User></Think></Response>
+Where do you usually get it. <User Think:Set="it"><User Set="concept"><PreviousMatch /></User></User></Response>
     </Model>
     <Model>
       <Pattern>[YES]</Pattern>

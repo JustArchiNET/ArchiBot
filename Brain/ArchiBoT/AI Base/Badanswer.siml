@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Type="private" Name="BADANSWER-PRELIM">
     <Model>
       <Pattern>_</Pattern>
@@ -9,8 +9,8 @@
             <Match />
           </User>
         </Think>
-        <If User="star" Value="yes">	OK, what should I have said?<Think><User Set="concept">learning new answers</User></Think></If>
-        <ElseIf User="star" Value="no">	OK, let's forget it then.<Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <If User="star" Value="yes">	OK, what should I have said?<User Think:Set="concept">learning new answers</User></If>
+        <ElseIf User="star" Value="no">	OK, let's forget it then.<User Think:Set="concept">learning new answers</User></ElseIf>
         <Else>Yes or No?</Else>
       </Response>
     </Model>
@@ -44,8 +44,8 @@
           </If>
         </Think>
         <If User="response1" Value="OK, what should I have said" />
-        <ElseIf User="star" Value="no">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><Think><User Set="concept">learning new answers</User></Think></ElseIf>
-        <ElseIf User="star" Value="yes">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" if I have just said "<User Get="badanswer-that-full" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Previous><Process><Text Get="uppercase"><User Get="badanswer-that" /></Text></Process></Previous><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <ElseIf User="star" Value="no">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
+        <ElseIf User="star" Value="yes">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" if I have just said "<User Get="badanswer-that-full" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Previous><Process><Text Get="uppercase"><User Get="badanswer-that" /></Text></Process></Previous><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
         <Else>Yes or No?</Else>
       </Response>
     </Model>
@@ -79,8 +79,8 @@
           </If>
         </Think>
         <If User="response1" Value="OK, what should I have said" />
-        <ElseIf User="star" Value="yes">Fine. I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><Think><User Set="concept">learning new answers</User></Think></ElseIf>
-        <ElseIf User="star" Value="no">OK, let's forget it then.<Think><User Set="concept">learning new answers</User></Think></ElseIf>
+        <ElseIf User="star" Value="yes">Fine. I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
+        <ElseIf User="star" Value="no">OK, let's forget it then.<User Think:Set="concept">learning new answers</User></ElseIf>
         <Else>Yes or No?</Else>
       </Response>
     </Model>
@@ -115,7 +115,7 @@
       <Pattern>_</Pattern>
       <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
       <Response>
-"<User Set="badanswer-newresp"><Input Index="1" /></User>..."?<If User="badanswer-that" Defined="True"><Think><User Set="concept">BADANSWER</User></Think>	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><Think><User Set="concept">BADANSWER2</User></Think>	Do you want me to remember that?</Else></Response>
+"<User Set="badanswer-newresp"><Input Index="1" /></User>..."?<If User="badanswer-that" Defined="True"><User Think:Set="concept">BADANSWER</User>	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><User Think:Set="concept">BADANSWER2</User>	Do you want me to remember that?</Else></Response>
     </Model>
     <Model>
       <Pattern>_ _</Pattern>

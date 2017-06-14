@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Stories">
     <Model>
       <Pattern>[NO] HELP WITH CYC</Pattern>
@@ -34,7 +34,7 @@
     <Model>
       <Pattern>THIS CONVERSATION *</Pattern>
       <Response>
-I was rather enjoying <Think><User Set="it"><User Set="concept"> this conversation </User></User></Think></Response>
+I was rather enjoying <User Think:Set="it"><User Set="concept"> this conversation </User></User></Response>
     </Model>
     <Model>
       <Pattern>[NO] HELP AT ALL</Pattern>

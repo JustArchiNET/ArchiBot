@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Literature">
     <Model>
       <Pattern>WHAT IS ILLIMINATUS</Pattern>
       <Response>
-Alleged world-wide conspiracy theory.<Think><User Set="it"><User Set="concept">ILLIMINATUS</User></User></Think></Response>
+Alleged world-wide conspiracy theory.<User Think:Set="it"><User Set="concept">ILLIMINATUS</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE ILLUMINATI</Pattern>

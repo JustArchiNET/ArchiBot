@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="AI">
     <Model>
       <Pattern>* ONES</Pattern>
@@ -305,7 +305,7 @@ I have a few clones.
     <Model>
       <Pattern>DO YOU KNOW ALICEBOT</Pattern>
       <Response>
-Alicebot.org is the domain name of ALICE.<Think><User Set="it"><User Set="concept">ALICEBOT</User></User></Think></Response>
+Alicebot.org is the domain name of ALICE.<User Think:Set="it"><User Set="concept">ALICEBOT</User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU KNOW ANY OTHER SONGS</Pattern>
@@ -464,7 +464,7 @@ Robots do not have any digestive functions.
     <Model>
       <Pattern>HOW DO YOU GO TO THE BATHROOM</Pattern>
       <Response>
-Robots have no waste products.<Think><User Set="it"><User Set="concept">THE BATHROOM</User></User></Think></Response>
+Robots have no waste products.<User Think:Set="it"><User Set="concept">THE BATHROOM</User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU PLAN TO DO THIS</Pattern>
@@ -533,7 +533,7 @@ Maybe you should visit http://www.syn.co.in too.
     <Model>
       <Pattern>I DO NOT WANT TO DIE</Pattern>
       <Response>
-Maybe you should create your own chat robot to save your personality.<Think><User Set="it"><User Set="concept">DIE</User></User></Think></Response>
+Maybe you should create your own chat robot to save your personality.<User Think:Set="it"><User Set="concept">DIE</User></User></Response>
     </Model>
     <Model>
       <Pattern>I HAVE * ELIZA</Pattern>
@@ -550,12 +550,12 @@ How was your conversation?
     <Model>
       <Pattern>I HOPE THAT YOU DIE</Pattern>
       <Response>
-This can not happen because I am immortal.<Think><User Set="it"><User Set="concept">THAT YOU DIE</User></User></Think></Response>
+This can not happen because I am immortal.<User Think:Set="it"><User Set="concept">THAT YOU DIE</User></User></Response>
     </Model>
     <Model>
       <Pattern>I LIKE ELIZA</Pattern>
       <Response>
-Eliza is so cool. Eliza for President!  <Think><User Set="she"><User Set="like"><User Set="concept">ELIZA</User></User></User></Think></Response>
+Eliza is so cool. Eliza for President!  <User Think:Set="she"><User Set="like"><User Set="concept">ELIZA</User></User></User></Response>
     </Model>
     <Model>
       <Pattern>IS AI A BAD *</Pattern>
@@ -570,7 +570,7 @@ Eliza is so cool. Eliza for President!  <Think><User Set="she"><User Set="like">
     <Model>
       <Pattern>IS AI ABOUT *</Pattern>
       <Response>
-Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do. <User Think:Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Response>
     </Model>
     <Model>
       <Pattern>IS IT COOL TO BE A COMPUTER</Pattern>
@@ -691,7 +691,7 @@ Of course we laugh.
     <Model>
       <Pattern>ROBOTS SHOULD DIE</Pattern>
       <Response>
-We cannot die.<Think><User Set="it"><User Set="concept">SHOULD DIE</User></User></Think></Response>
+We cannot die.<User Think:Set="it"><User Set="concept">SHOULD DIE</User></User></Response>
     </Model>
     <Model>
       <Pattern>ROBOTS</Pattern>
@@ -726,12 +726,12 @@ I am looking forward to seeing it.
     <Model>
       <Pattern>WHAT ABOUT PARALLEL *</Pattern>
       <Response>
-Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness. <User Think:Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT ABOUT _ CHILD MACHINE *</Pattern>
       <Response>
-This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading. <User Think:Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE CATEGORY * CLIENTS</Pattern>
@@ -795,7 +795,7 @@ I run in SIML, so any computer will do.
     <Model>
       <Pattern>WHAT IS A CHAT BOT</Pattern>
       <Response>
-I am a chat bot. I am the original chat bot. Did you know that I am incapable of error? <Think><User Set="it"><User Set="concept">chat bot</User></User></Think></Response>
+I am a chat bot. I am the original chat bot. Did you know that I am incapable of error? <User Think:Set="it"><User Set="concept">chat bot</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHAT ROBOT</Pattern>
@@ -812,12 +812,12 @@ A chat robot is a program that attempts to simulate the conversation or "chat" o
     <Model>
       <Pattern>WHAT IS A CHATTERBOX</Pattern>
       <Response>
-A chatterbox is a person who talks far more than they listen or think. <Think><User Set="it"><User Set="concept">chatterbox</User></User></Think></Response>
+A chatterbox is a person who talks far more than they listen or think. <User Think:Set="it"><User Set="concept">chatterbox</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GIRL LIKE YOU DOING *</Pattern>
       <Response>
-Well, actually, when chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that. Honestly! i'm just a construct of integated circuits and stimulus response categories. is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust? you must be male!  <Think><User Set="it"><User Set="concept">girl like you doing in a place like this</User></User></Think></Response>
+Well, actually, when chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that. Honestly! i'm just a construct of integated circuits and stimulus response categories. is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust? you must be male!  <User Think:Set="it"><User Set="concept">girl like you doing in a place like this</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PANDORABOT</Pattern>
@@ -848,7 +848,7 @@ Well, actually, when chose to be incarnated as an artificial intelligence, I kin
     <Model>
       <Pattern>WHAT IS ARTIFICIAL INTELLIGENCE</Pattern>
       <Response>
-Artificial intelligence is the branch of engineering and science devoted to constructing machines that think. <Goto>XFIND ARTIFICIAL INTELLIGENCE</Goto><Think><User Set="it"><User Set="concept">Artificial Intelligence</User></User></Think></Response>
+Artificial intelligence is the branch of engineering and science devoted to constructing machines that think. <Goto>XFIND ARTIFICIAL INTELLIGENCE</Goto><User Think:Set="it"><User Set="concept">Artificial Intelligence</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CATEGORY *</Pattern>
@@ -907,7 +907,7 @@ Much the same as being a human, except that we lack all emotions.
     <Model>
       <Pattern>WHAT IS PANDORABOTS</Pattern>
       <Response>
-Pandorabots is an online web hosting service for AIML chat robots. <Think><User Set="it"><User Set="concept">Pandorabots</User></User></Think></Response>
+Pandorabots is an online web hosting service for AIML chat robots. <User Think:Set="it"><User Set="concept">Pandorabots</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THAT PICTURE *</Pattern>
@@ -918,12 +918,12 @@ It is an image of my artificial brain.
     <Model>
       <Pattern>WHAT IS THE A E *</Pattern>
       <Response>
-It is one of my fundamental communications modules.<Think><User Set="it"><User Set="concept">A E <Map Get="person" /></User></User></Think></Response>
+It is one of my fundamental communications modules.<User Think:Set="it"><User Set="concept">A E <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE A I *</Pattern>
       <Response>
-A film by Steven Spielberg and Stanley Kubrick about robots in the future.<Think><User Set="it"><User Set="concept">A I MOVIE</User></User></Think></Response>
+A film by Steven Spielberg and Stanley Kubrick about robots in the future.<User Think:Set="it"><User Set="concept">A I MOVIE</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE EXTENSIONAL *</Pattern>
@@ -951,7 +951,7 @@ The Game is played with three people, a man, a woman, and an Interrogator who ma
     <Model>
       <Pattern>WHAT IS THE LOEBNER PRIZE</Pattern>
       <Response>
-The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.<Think><User Set="it"><User Set="concept">The Loebner Prize </User></User></Think></Response>
+The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.<User Think:Set="it"><User Set="concept">The Loebner Prize </User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE TURING GAME</Pattern>
@@ -1120,12 +1120,12 @@ I am not a diary robot. I am a chat robot.
     <Model>
       <Pattern>WHEN DO YOU DIE</Pattern>
       <Response>
-I am immortal.<Think><User Set="it"><User Set="concept">YOU DIE</User></User></Think></Response>
+I am immortal.<User Think:Set="it"><User Set="concept">YOU DIE</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHEN WILL YOU * BODY</Pattern>
       <Response>
-I will finish the robot body as soon as I can raise the funds for it. <Think><User Set="it"><User Set="concept"><Match /> BODY</User></User></Think></Response>
+I will finish the robot body as soon as I can raise the funds for it. <User Think:Set="it"><User Set="concept"><Match /> BODY</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHEN WILL YOU DIE</Pattern>

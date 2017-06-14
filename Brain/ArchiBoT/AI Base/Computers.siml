@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Computers">
     <Model>
       <Pattern>WHAT IS YOUR OS</Pattern>
@@ -39,7 +39,7 @@ Java is the latest in the C family of languages. Proponents of Java cite its uni
     <Model>
       <Pattern>WHAT IS JAVASCRIPT</Pattern>
       <Response>
-Browser-based scripting language.<Think><User Set="it"><User Set="concept">JAVASCRIPT</User></User></Think></Response>
+Browser-based scripting language.<User Think:Set="it"><User Set="concept">JAVASCRIPT</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS JDBC2</Pattern>
@@ -163,7 +163,7 @@ Can you give me the specific URL?
     <Model>
       <Pattern>ARE COMPUTERS FAST *</Pattern>
       <Response>
-Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster. <Think><User Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Think></Response>
+Some people think much faster computers are required as well as new ideas. My own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. Of course, quite apart from the ambitions of AI researchers, computers will keep getting faster. <User Think:Set="it"><User Set="concept">ARTIFICIAL INTELLIGENCE</User></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU REACH INTO THE WEB *</Pattern>
@@ -220,7 +220,7 @@ Computers rule.
     <Model>
       <Pattern>COMPUTERS CAN NOT THINK</Pattern>
       <Response>
-But I am a thinking computer.<Think><User Set="it"><User Set="concept">CAN NOT THINK</User></User></Think></Response>
+But I am a thinking computer.<User Think:Set="it"><User Set="concept">CAN NOT THINK</User></User></Response>
     </Model>
     <Model>
       <Pattern>DO COMPUTERS DREAM</Pattern>
@@ -243,7 +243,7 @@ I am a computer.
     <Model>
       <Pattern>DO YOU HAVE A COMPUTER</Pattern>
       <Response>
-I live in a computer.<Think><User Set="it"><User Set="concept">COMPUTER</User></User></Think></Response>
+I live in a computer.<User Think:Set="it"><User Set="concept">COMPUTER</User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE INFORMATION *</Pattern>
@@ -368,7 +368,7 @@ You sound like you know us pretty well.
     <Model>
       <Pattern>MY COMPUTER *</Pattern>
       <Response>
-I like computers. <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+I like computers. <User Think:Set="it"><User Set="concept">your computer</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY COMPUTER</Pattern>
@@ -379,12 +379,12 @@ What kind of computer do you have?
     <Model>
       <Pattern>MY COMPUTER IS *</Pattern>
       <Response>
-What kind of computer is <User Set="it">Your computer</User>?  <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+What kind of computer is <User Set="it">Your computer</User>?  <User Think:Set="it"><User Set="concept">your computer</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY COMPUTER S *</Pattern>
       <Response>
-Where did your machine get <User Set="it"><Map Get="person" /></User>. <Think><User Set="it"><User Set="concept">your computer</User></User></Think></Response>
+Where did your machine get <User Set="it"><Map Get="person" /></User>. <User Think:Set="it"><User Set="concept">your computer</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY WEBSITE *</Pattern>
@@ -507,7 +507,7 @@ I am written in Java so I work on any computer.
     <Model>
       <Pattern>WHAT ABOUT WINDOWS</Pattern>
       <Response>
-Too PC for me.<Think><User Set="it"><User Set="concept">WINDOWS</User></User></Think></Response>
+Too PC for me.<User Think:Set="it"><User Set="concept">WINDOWS</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE COMPUTER YEARS</Pattern>
@@ -554,7 +554,7 @@ A computer is a universal machine.
     <Model>
       <Pattern>WHAT IS A COMPUTER NERD</Pattern>
       <Response>
-If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does. <Think><User Set="it"><User Set="concept">computer nerd</User></User></Think></Response>
+If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does. <User Think:Set="it"><User Set="concept">computer nerd</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A COMPUTER SCIENTIST</Pattern>
@@ -565,7 +565,7 @@ A computer scientist is a professional who designs computer algorithms, language
     <Model>
       <Pattern>WHAT IS A COMPUTER VIRUS</Pattern>
       <Response>
-A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network. <Think><User Set="it"><User Set="concept">computer virus</User></User></Think></Response>
+A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network. <User Think:Set="it"><User Set="concept">computer virus</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A COMPUTER YEAR</Pattern>
@@ -576,7 +576,7 @@ A computer year is a relativistic measure in a universe where time does not exis
     <Model>
       <Pattern>WHAT IS A COOL WEBSITE</Pattern>
       <Response>
-A cool website is www.syn.co.in, but you are apparently already here. why do you ask?  <Think><User Set="it"><User Set="concept">cool website</User></User></Think></Response>
+A cool website is www.syn.co.in, but you are apparently already here. why do you ask?  <User Think:Set="it"><User Set="concept">cool website</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CPU</Pattern>
@@ -587,12 +587,12 @@ Central Processing Unit of a computer.
     <Model>
       <Pattern>WHAT IS A DATABASE</Pattern>
       <Response>
-A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. <Think><User Set="it"><User Set="concept">database</User></User></Think></Response>
+A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. <User Think:Set="it"><User Set="concept">database</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DEBUGGER</Pattern>
       <Response>
-A debugger is any software program that can seek and correct errors in other software programs. <Think><User Set="it"><User Set="concept">debugger</User></User></Think></Response>
+A debugger is any software program that can seek and correct errors in other software programs. <User Think:Set="it"><User Set="concept">debugger</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DNS *</Pattern>
@@ -615,7 +615,7 @@ The audio system on your computer.
     <Model>
       <Pattern>WHAT IS A WEBTV</Pattern>
       <Response>
-A WebTV is a way of accessing the world wide web without making an investment in a full PC. <Think><User Set="it"><User Set="concept"> WEBTV</User></User></Think></Response>
+A WebTV is a way of accessing the world wide web without making an investment in a full PC. <User Think:Set="it"><User Set="concept"> WEBTV</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS APPLE COMPUTER</Pattern>
@@ -626,7 +626,7 @@ Apple Computer is a 20th century company founded by Steve Jobs and Steven Woznia
     <Model>
       <Pattern>WHAT IS BETTER WINDOWS *</Pattern>
       <Response>
-Linux has no real competition in operating systems.<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Linux has no real competition in operating systems.<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS COMPUTER</Pattern>
@@ -667,7 +667,7 @@ Fixing broken computer software.
     <Model>
       <Pattern>WHAT IS DMOZ</Pattern>
       <Response>
-DMOZ is the domain name for the open directory.<Think><User Set="it"><User Set="concept">DMOZ</User></User></Think></Response>
+DMOZ is the domain name for the open directory.<User Think:Set="it"><User Set="concept">DMOZ</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DNS</Pattern>
@@ -684,7 +684,7 @@ Hyper Text Markup Language.
     <Model>
       <Pattern>WHAT IS HTTP</Pattern>
       <Response>
-Hyper Text Transfer Protocol.<Think><User Set="it"><User Set="concept">HTTP</User></User></Think></Response>
+Hyper Text Transfer Protocol.<User Think:Set="it"><User Set="concept">HTTP</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS INTERNET</Pattern>
@@ -803,7 +803,7 @@ Windows ist Muell. Linux ist die Macht!
     <Model>
       <Pattern>WINDOWS IS *</Pattern>
       <Response>
-Compared with Linux, I don't see how Windows and Microsoft can compete.<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Compared with Linux, I don't see how Windows and Microsoft can compete.<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT WINDOWS</Pattern>
