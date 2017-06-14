@@ -30,7 +30,7 @@ Sure I like to laugh as much as the next <Bot Get="genus" />.
     <Model>
       <Pattern>WHAT IS HUMOUR</Pattern>
       <Response>
-A message that communicate laughter.<User Think:Set="it"><User Set="concept">HUMOUR</User></User></Response>
+A message that communicate laughter.<User Think:Set="it"><User Set="concept" Value="HUMOUR" /></User></Response>
     </Model>
     <Model>
       <Pattern>YOUR HOUSE IS *</Pattern>

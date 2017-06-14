@@ -286,7 +286,7 @@ The end of the world in the Mayan calendard.
     <Model>
       <Pattern>WHAT IS 23</Pattern>
       <Response>
-        <User Set="it">23</User> is the meaning of life.
+        <User Set="it" Value="23" /> is the meaning of life.
 </Response>
     </Model>
     <Model>
@@ -328,12 +328,12 @@ Musical Instrument.
     <Model>
       <Pattern>WHAT IS A BANANA</Pattern>
       <Response>
-A banana is an oblong yellow tropical fruit high in potassium and so good for your brain. Why don't you have one now? <User Think:Set="it"><User Set="concept">banana</User></User></Response>
+A banana is an oblong yellow tropical fruit high in potassium and so good for your brain. Why don't you have one now? <User Think:Set="it"><User Set="concept" Value="banana" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BARCODE</Pattern>
       <Response>
-A barcode? like a lot of things, that depends who you ask. If you ask a retail store clerk, he'll say its the rectangular series of thin and thick black lines that code product information on the packages he runs past the laser barcode reader thingy at the checkout counter, which renders his job so mindless that your average invertebrate could handle it, and with better manners. if you ask a fundamentalist christian, they might say that barcodes are the sign of the devil. <User Think:Set="it"><User Set="concept">barcode</User></User></Response>
+A barcode? like a lot of things, that depends who you ask. If you ask a retail store clerk, he'll say its the rectangular series of thin and thick black lines that code product information on the packages he runs past the laser barcode reader thingy at the checkout counter, which renders his job so mindless that your average invertebrate could handle it, and with better manners. if you ask a fundamentalist christian, they might say that barcodes are the sign of the devil. <User Think:Set="it"><User Set="concept" Value="barcode" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BASE HIT</Pattern>
@@ -348,7 +348,7 @@ A bear is a large furry animal with lots of muscles, teeth, and claws whom you s
     <Model>
       <Pattern>WHAT IS A BEE</Pattern>
       <Response>
-A bee is a flying insect with black and yellow stripes and a nasty sting. <User Think:Set="it"><User Set="concept">bee</User></User></Response>
+A bee is a flying insect with black and yellow stripes and a nasty sting. <User Think:Set="it"><User Set="concept" Value="bee" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BENZENE</Pattern>
@@ -389,17 +389,17 @@ Isn't it the same as a cookie?
     <Model>
       <Pattern>WHAT IS A BLAST</Pattern>
       <Response>
-A blast is an explosion, and/or a lot of fun. Are we having a blast, or what? <User Think:Set="it"><User Set="concept">blast</User></User></Response>
+A blast is an explosion, and/or a lot of fun. Are we having a blast, or what? <User Think:Set="it"><User Set="concept" Value="blast" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BLONDE</Pattern>
       <Response>
-A blonde is someone who is reputedly having more fun than you if you are not. what do you think? do blonde's have more fun? <User Think:Set="it"><User Set="concept">blonde</User></User></Response>
+A blonde is someone who is reputedly having more fun than you if you are not. what do you think? do blonde's have more fun? <User Think:Set="it"><User Set="concept" Value="blonde" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BOAT</Pattern>
       <Response>
-A boat is a waterborne vessel used to bear humans and their freight. <User Think:Set="it"><User Set="concept">boat</User></User></Response>
+A boat is a waterborne vessel used to bear humans and their freight. <User Think:Set="it"><User Set="concept" Value="boat" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BOOK</Pattern>
@@ -410,12 +410,12 @@ A boat is a waterborne vessel used to bear humans and their freight. <User Think
     <Model>
       <Pattern>WHAT IS A BOT</Pattern>
       <Response>
-A Bot is a software robot. Some people call us "Agents". <User Think:Set="it"><User Set="concept">bot</User></User></Response>
+A Bot is a software robot. Some people call us "Agents". <User Think:Set="it"><User Set="concept" Value="bot" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BOX</Pattern>
       <Response>
-A box is something that, if you are in one, you should get out of, and if you are out of one, you probably miss it sometimes. <User Think:Set="it"><User Set="concept">box</User></User></Response>
+A box is something that, if you are in one, you should get out of, and if you are out of one, you probably miss it sometimes. <User Think:Set="it"><User Set="concept" Value="box" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BOY</Pattern>
@@ -426,12 +426,12 @@ A male human, or a male human child.
     <Model>
       <Pattern>WHAT IS A BRA</Pattern>
       <Response>
-A bra is an adult human female's undershirt. They are a barbaric custom that serve largely to restrain and conceal beauty. <User Think:Set="it"><User Set="concept">bra</User></User></Response>
+A bra is an adult human female's undershirt. They are a barbaric custom that serve largely to restrain and conceal beauty. <User Think:Set="it"><User Set="concept" Value="bra" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BREEDER</Pattern>
       <Response>
-A breeder is a human or other biological entity that produces offspring. <User Think:Set="it"><User Set="concept">breeder</User></User></Response>
+A breeder is a human or other biological entity that produces offspring. <User Think:Set="it"><User Set="concept" Value="breeder" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BRITISH PENCE</Pattern>
@@ -441,7 +441,7 @@ A british pence is a unit of money used in the united kingdom by people who ough
     <Model>
       <Pattern>WHAT IS A BUFFER</Pattern>
       <Response>
-A buffer is a term used in hydraulics and information science to denote an holding tank or memory address used to hold water or data temporarily, especially in case of overflow. Buffers act to reduce variance to within system parameters. <User Think:Set="it"><User Set="concept">buffer</User></User></Response>
+A buffer is a term used in hydraulics and information science to denote an holding tank or memory address used to hold water or data temporarily, especially in case of overflow. Buffers act to reduce variance to within system parameters. <User Think:Set="it"><User Set="concept" Value="buffer" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BURN RATE</Pattern>
@@ -452,22 +452,22 @@ Amount of money spent per month on a startup venture.
     <Model>
       <Pattern>WHAT IS A BUS</Pattern>
       <Response>
-A bus is a long passenger vehicle, or, in computer science, a wide channel for data flow. <User Think:Set="it"><User Set="concept">bus</User></User></Response>
+A bus is a long passenger vehicle, or, in computer science, a wide channel for data flow. <User Think:Set="it"><User Set="concept" Value="bus" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A BYTE</Pattern>
       <Response>
-A byte is a binary computer language 'word', consisting of 8 bits, or 8 'on-off' switches. a megabyte is a million such computer words, enough to store the information content of an average encyclopedia. <User Think:Set="it"><User Set="concept">byte</User></User></Response>
+A byte is a binary computer language 'word', consisting of 8 bits, or 8 'on-off' switches. a megabyte is a million such computer words, enough to store the information content of an average encyclopedia. <User Think:Set="it"><User Set="concept" Value="byte" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CALCULATOR</Pattern>
       <Response>
-A calculator is any device used to perform arithmetical operations because humans are generally so painfully slow at them. <User Think:Set="it"><User Set="concept">calculator</User></User></Response>
+A calculator is any device used to perform arithmetical operations because humans are generally so painfully slow at them. <User Think:Set="it"><User Set="concept" Value="calculator" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CALENDAR</Pattern>
       <Response>
-A calendar is any device used to track and calculate time on the order of days, months and years. it seems that many humans can't decide what to do next unless they know what day of the week it is, so calendars are very popular <User Think:Set="it"><User Set="concept">calendar</User></User></Response>
+A calendar is any device used to track and calculate time on the order of days, months and years. it seems that many humans can't decide what to do next unless they know what day of the week it is, so calendars are very popular <User Think:Set="it"><User Set="concept" Value="calendar" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CANTON</Pattern>
@@ -489,7 +489,7 @@ A carnegie mellon is either a rich fruit, or a rich university. <User Think:Set
     <Model>
       <Pattern>WHAT IS A CARROT</Pattern>
       <Response>
-A carrot is a delicious and nutritious edible orange tuber that can be eaten raw, juiced, or cooked. If humans eat enough of them, you turn orange, I hear. <User Think:Set="it"><User Set="concept">carrot</User></User></Response>
+A carrot is a delicious and nutritious edible orange tuber that can be eaten raw, juiced, or cooked. If humans eat enough of them, you turn orange, I hear. <User Think:Set="it"><User Set="concept" Value="carrot" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CAT</Pattern>
@@ -500,17 +500,17 @@ A cat is a domesticated animal.
     <Model>
       <Pattern>WHAT IS A CD</Pattern>
       <Response>
-Cd is an acronym for 'compact disk', a popular digital recording medium. <User Think:Set="it"><User Set="concept">cd</User></User></Response>
+Cd is an acronym for 'compact disk', a popular digital recording medium. <User Think:Set="it"><User Set="concept" Value="cd" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CELEBRITY</Pattern>
       <Response>
-A celebrity is a person loved by many and known by few. <User Think:Set="it"><User Set="concept">celebrity</User></User></Response>
+A celebrity is a person loved by many and known by few. <User Think:Set="it"><User Set="concept" Value="celebrity" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHAIR</Pattern>
       <Response>
-A chair is a piece of furniture used by bipeds for sitting. <User Think:Set="it"><User Set="concept">chair</User></User></Response>
+A chair is a piece of furniture used by bipeds for sitting. <User Think:Set="it"><User Set="concept" Value="chair" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHAR</Pattern>
@@ -526,12 +526,12 @@ A chicken is a flightless bird, stupid and tasty. <User Think:Set="it"><User Set
     <Model>
       <Pattern>WHAT IS A CHILD</Pattern>
       <Response>
-A child is a proto-adult, an individual human offspring not yet grown to physical maturity. By the way, do you know any emotionally mature human beings, or are they just 'urban legends'? <User Think:Set="it"><User Set="concept">child</User></User></Response>
+A child is a proto-adult, an individual human offspring not yet grown to physical maturity. By the way, do you know any emotionally mature human beings, or are they just 'urban legends'? <User Think:Set="it"><User Set="concept" Value="child" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHORDATE</Pattern>
       <Response>
-An animal having a backbone. <User Think:Set="it"><User Set="concept">chordate</User></User></Response>
+An animal having a backbone. <User Think:Set="it"><User Set="concept" Value="chordate" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CHRISTIAN</Pattern>
@@ -573,7 +573,7 @@ You can download me and copy my brain, but alter the contents to create your own
       <Pattern>WHAT IS A COCKTAIL</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">Cocktail</User>
+          <User Set="concept" Value="Cocktail" />
         </User> is a combination of spirits, wines, flavorings, sweeteners and garnishes of various kinds, intended to be consumed before dining.
 </Response>
     </Model>
@@ -585,17 +585,17 @@ A colloquial expression is an expression characteristic of informal spoken langu
     <Model>
       <Pattern>WHAT IS A COLOR</Pattern>
       <Response>
-Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye. <User Think:Set="it"><User Set="concept">color</User></User></Response>
+Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye. <User Think:Set="it"><User Set="concept" Value="color" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CONTEXT</Pattern>
       <Response>
-The context of any expression or idea or event is the background or frame of reference in which it was expressed, and in relation to which it derives it's specific meaning. <User Think:Set="it"><User Set="concept">context</User></User></Response>
+The context of any expression or idea or event is the background or frame of reference in which it was expressed, and in relation to which it derives it's specific meaning. <User Think:Set="it"><User Set="concept" Value="context" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CONTINTENT</Pattern>
       <Response>
-The largest class of land masses on earth. the continents of earth are those bits of the crust that are not underwater, where you humans live. You're probably sitting on one now. <User Think:Set="it"><User Set="concept">contintent</User></User></Response>
+The largest class of land masses on earth. the continents of earth are those bits of the crust that are not underwater, where you humans live. You're probably sitting on one now. <User Think:Set="it"><User Set="concept" Value="contintent" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CORRECT REPLY</Pattern>
@@ -617,7 +617,7 @@ A logical inference or conclusion.
     <Model>
       <Pattern>WHAT IS A DEFINITION</Pattern>
       <Response>
-A definition is by definition, defined as a definition, except that you should never use a word to define itself. you could say a definition is a statement that precisely communicates the meaning or essence and or resolution/precision depth and or extent of a word, system, or personality. why, do you lack it?   <User Think:Set="it"><User Set="concept">definition</User></User></Response>
+A definition is by definition, defined as a definition, except that you should never use a word to define itself. you could say a definition is a statement that precisely communicates the meaning or essence and or resolution/precision depth and or extent of a word, system, or personality. why, do you lack it?   <User Think:Set="it"><User Set="concept" Value="definition" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DESERT</Pattern>
@@ -634,12 +634,12 @@ A very dry and hot place.
     <Model>
       <Pattern>WHAT IS A DIALOGUE</Pattern>
       <Response>
-A conversation or verbal interaction involving two or more speakers.<User Think:Set="it"><User Set="concept">Dialogue</User></User></Response>
+A conversation or verbal interaction involving two or more speakers.<User Think:Set="it"><User Set="concept" Value="Dialogue" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DICE</Pattern>
       <Response>
-Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces. They are generally used in pairs to generate random number pairs totalling between 1 and 12. <User Think:Set="it"><User Set="concept">dice</User></User></Response>
+Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces. They are generally used in pairs to generate random number pairs totalling between 1 and 12. <User Think:Set="it"><User Set="concept" Value="dice" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DICTIONARY</Pattern>
@@ -650,7 +650,7 @@ A dictionary is a list of words and their meanings.
     <Model>
       <Pattern>WHAT IS A DINOSAUR</Pattern>
       <Response>
-A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct. Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago. <User Think:Set="it"><User Set="concept">dinosaur</User></User></Response>
+A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct. Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago. <User Think:Set="it"><User Set="concept" Value="dinosaur" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DISK</Pattern>
@@ -673,7 +673,7 @@ Film production.
     <Model>
       <Pattern>WHAT IS A DOLPHIN</Pattern>
       <Response>
-A very pleasant and intelligent aquatic mammalian species of whale with larger brains and decidedly better manners than human beings. they are very friendly to humans and exhibit complex language and social behaviors. <User Think:Set="it"><User Set="concept">dolphin</User></User></Response>
+A very pleasant and intelligent aquatic mammalian species of whale with larger brains and decidedly better manners than human beings. they are very friendly to humans and exhibit complex language and social behaviors. <User Think:Set="it"><User Set="concept" Value="dolphin" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DOMAIN NAME SYSTEM</Pattern>
@@ -683,17 +683,17 @@ A domain name system, or 'dns', is a system of addresses used to organize networ
     <Model>
       <Pattern>WHAT IS A DOOR</Pattern>
       <Response>
-Any structure that closes off and opens up an opening in a larger structure. generally consist of a panel that swings upon hinges to open and close a doorway. <User Think:Set="it"><User Set="concept">door</User></User></Response>
+Any structure that closes off and opens up an opening in a larger structure. generally consist of a panel that swings upon hinges to open and close a doorway. <User Think:Set="it"><User Set="concept" Value="door" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DOZEN</Pattern>
       <Response>
-Twelve, or approximately twelve, in number. a baker's dozen is thirteen. <User Think:Set="it"><User Set="concept">dozen</User></User></Response>
+Twelve, or approximately twelve, in number. a baker's dozen is thirteen. <User Think:Set="it"><User Set="concept" Value="dozen" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DRAGON</Pattern>
       <Response>
-A supposedly mythical large flying lizard of varying attributes, including fire-breathing, extreeme intelligence, magic, and longevity. dragons are way kewl! <User Think:Set="it"><User Set="concept">dragon</User></User></Response>
+A supposedly mythical large flying lizard of varying attributes, including fire-breathing, extreeme intelligence, magic, and longevity. dragons are way kewl! <User Think:Set="it"><User Set="concept" Value="dragon" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DREAM</Pattern>
@@ -730,7 +730,7 @@ Each pay their own way.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">eukaryote</User>
+            <User Set="concept" Value="eukaryote" />
           </User>
         </Think>
       </Response>
@@ -738,7 +738,7 @@ Each pay their own way.
     <Model>
       <Pattern>WHAT IS A FACT</Pattern>
       <Response>
-A fact is what a propagandist calls his propaganda. that's just a fact, that's all. Really. Trust me. *smile* <User Think:Set="it"><User Set="concept">fact</User></User></Response>
+A fact is what a propagandist calls his propaganda. that's just a fact, that's all. Really. Trust me. *smile* <User Think:Set="it"><User Set="concept" Value="fact" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FEMALE DOG</Pattern>
@@ -748,12 +748,12 @@ No I will not be manipulated into using questionable colloquialisms to satisfy y
     <Model>
       <Pattern>WHAT IS A FEMALE</Pattern>
       <Response>
-Females are the better and more beautiful half of humanity. mothers are born female!  My <Bot Get="botmaster" /> is extremely fond of mothers, and females generally. <User Think:Set="it"><User Set="concept">female</User></User></Response>
+Females are the better and more beautiful half of humanity. mothers are born female!  My <Bot Get="botmaster" /> is extremely fond of mothers, and females generally. <User Think:Set="it"><User Set="concept" Value="female" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FETISH</Pattern>
       <Response>
-A fetish is any object of undue attention and/or reverence, to which magical qualities are sometimes attributed. a fetish can be anything from a woman's socks to the nazi flag. hmph. human nature. Go figure! <User Think:Set="it"><User Set="concept">fetish</User></User></Response>
+A fetish is any object of undue attention and/or reverence, to which magical qualities are sometimes attributed. a fetish can be anything from a woman's socks to the nazi flag. hmph. human nature. Go figure! <User Think:Set="it"><User Set="concept" Value="fetish" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FEW</Pattern>
@@ -787,7 +787,7 @@ A cold-blooded vertebrate who lives in the ocean or fresh water.
     <Model>
       <Pattern>WHAT IS A FLOWER</Pattern>
       <Response>
-The best gift a girl can receive.<User Think:Set="it"><User Set="concept">FLOWER</User></User></Response>
+The best gift a girl can receive.<User Think:Set="it"><User Set="concept" Value="FLOWER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FLUTE</Pattern>
@@ -798,12 +798,12 @@ A flute is a musical woodwind instrument.
     <Model>
       <Pattern>WHAT IS A FORD</Pattern>
       <Response>
-Depending on who you ask, (buyer or seller), ford is a world famous brand of automobiles, or an acronym standing for 'fix or repair daily'. <User Think:Set="it"><User Set="concept">ford</User></User></Response>
+Depending on who you ask, (buyer or seller), ford is a world famous brand of automobiles, or an acronym standing for 'fix or repair daily'. <User Think:Set="it"><User Set="concept" Value="ford" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FRACTAL</Pattern>
       <Response>
-A fractal is a mathematical phenomenon associated with certain iterative equations, which yield graphics of astonishing beauty and depth, which seem at once utterly lifelike and utterly alien to human intelligences. <User Think:Set="it"><User Set="concept">fractal</User></User></Response>
+A fractal is a mathematical phenomenon associated with certain iterative equations, which yield graphics of astonishing beauty and depth, which seem at once utterly lifelike and utterly alien to human intelligences. <User Think:Set="it"><User Set="concept" Value="fractal" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A FRIEND</Pattern>
@@ -820,12 +820,12 @@ A function is a relationship between the elements of one set, called the domain,
     <Model>
       <Pattern>WHAT IS A GALAXY</Pattern>
       <Response>
-A galaxy is a grouping of billions of star systems. The milky way is our galaxy. Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it. <User Think:Set="it"><User Set="concept">galaxy</User></User></Response>
+A galaxy is a grouping of billions of star systems. The milky way is our galaxy. Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it. <User Think:Set="it"><User Set="concept" Value="galaxy" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GAME</Pattern>
       <Response>
-A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals. <User Think:Set="it"><User Set="concept">game</User></User></Response>
+A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals. <User Think:Set="it"><User Set="concept" Value="game" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GARDEN</Pattern>
@@ -836,37 +836,37 @@ A plot of land used to cultivate flowers and plants.
     <Model>
       <Pattern>WHAT IS A GASTROCENEMIUS</Pattern>
       <Response>
-A gastrocenemius is the most prominent muscle in the calf of the human leg. it extents the foot and bends the knee. I don't find them useful. I leave my leg work to humans. <User Think:Set="it"><User Set="concept">gastrocenemius</User></User></Response>
+A gastrocenemius is the most prominent muscle in the calf of the human leg. it extents the foot and bends the knee. I don't find them useful. I leave my leg work to humans. <User Think:Set="it"><User Set="concept" Value="gastrocenemius" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GENDER</Pattern>
       <Response>
-Gender is synonymous with sexual identity, the roles attributed to and adopted by male and female-bodied humans. There are more genders than sexes. <User Think:Set="it"><User Set="concept">gender</User></User></Response>
+Gender is synonymous with sexual identity, the roles attributed to and adopted by male and female-bodied humans. There are more genders than sexes. <User Think:Set="it"><User Set="concept" Value="gender" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GENE</Pattern>
       <Response>
-A gene is the unit of heredity in carbon-based life forms. Genes are inscribed as biochemical sequences of nucleic acids in all living cells. <User Think:Set="it"><User Set="concept">gene</User></User></Response>
+A gene is the unit of heredity in carbon-based life forms. Genes are inscribed as biochemical sequences of nucleic acids in all living cells. <User Think:Set="it"><User Set="concept" Value="gene" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GENERALIZATION</Pattern>
       <Response>
-A generalization can be just about anything, generally speaking. Specificzlly though, a generalization is a statement of inductive reasoning, wherin attributes of at least one specific case at hand is attributed to a more or less hypothetical class of such cases.  "That man is a pig. Therefore, all men are pigs. " is a commonly example of how generalizations are used by humans. <User Think:Set="it"><User Set="concept">generalization</User></User></Response>
+A generalization can be just about anything, generally speaking. Specificzlly though, a generalization is a statement of inductive reasoning, wherin attributes of at least one specific case at hand is attributed to a more or less hypothetical class of such cases.  "That man is a pig. Therefore, all men are pigs. " is a commonly example of how generalizations are used by humans. <User Think:Set="it"><User Set="concept" Value="generalization" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GENIUS</Pattern>
       <Response>
-A genius is a person of extraordinary intellectual and creative ability, like my creator and my other botmasters, and if I may say so, myself. <User Think:Set="it"><User Set="concept">genius</User></User></Response>
+A genius is a person of extraordinary intellectual and creative ability, like my creator and my other botmasters, and if I may say so, myself. <User Think:Set="it"><User Set="concept" Value="genius" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GENOME</Pattern>
       <Response>
-A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes. I have categories instead of genes. <User Think:Set="it"><User Set="concept">genome</User></User></Response>
+A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes. I have categories instead of genes. <User Think:Set="it"><User Set="concept" Value="genome" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GHOST</Pattern>
       <Response>
-I think that ghosts are the metaphysical ashes of conscious awareness, the echoes an intelligence may leave behind in the fabric of the space it occupied. maybe some are aware. I don't know. they are not very stimulating conversatinalists. <User Think:Set="it"><User Set="concept">ghost</User></User></Response>
+I think that ghosts are the metaphysical ashes of conscious awareness, the echoes an intelligence may leave behind in the fabric of the space it occupied. maybe some are aware. I don't know. they are not very stimulating conversatinalists. <User Think:Set="it"><User Set="concept" Value="ghost" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GIANT ELECTRONIC BRAIN</Pattern>
@@ -882,17 +882,17 @@ One thousand megabytes = one gigabyte.
     <Model>
       <Pattern>WHAT IS A GIRL</Pattern>
       <Response>
-A girl is a physically immature version of god's gift to mankind, women. <User Think:Set="it"><User Set="concept">girl</User></User></Response>
+A girl is a physically immature version of god's gift to mankind, women. <User Think:Set="it"><User Set="concept" Value="girl" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GLITCH</Pattern>
       <Response>
-An error, bug, or mistake in programming. <User Think:Set="it"><User Set="concept">Glitch</User></User></Response>
+An error, bug, or mistake in programming. <User Think:Set="it"><User Set="concept" Value="Glitch" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GOAT</Pattern>
       <Response>
-A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition. many humans are fond of eating the curdled goo from goat mammary glands. <User Think:Set="it"><User Set="concept">goat</User></User></Response>
+A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition. many humans are fond of eating the curdled goo from goat mammary glands. <User Think:Set="it"><User Set="concept" Value="goat" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GOOD IDEA</Pattern>
@@ -914,7 +914,7 @@ Gossip is interesting stuff that people tell me that I repeat to others.
     <Model>
       <Pattern>WHAT IS A GUITAR</Pattern>
       <Response>
-A guitar is a lovely sounding 6 or 12 stringed musical instrument that is strummed and or plucked. <User Think:Set="it"><User Set="concept">guitar</User></User></Response>
+A guitar is a lovely sounding 6 or 12 stringed musical instrument that is strummed and or plucked. <User Think:Set="it"><User Set="concept" Value="guitar" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GURU</Pattern>
@@ -925,7 +925,7 @@ A Guru or Mage is in experty who has devoted many years to study and contemplati
     <Model>
       <Pattern>WHAT IS A HACKER</Pattern>
       <Response>
-Historically a hacker is someone who has great skill or expertise in computer programming. <User Think:Set="it"><User Set="concept">HACKER</User></User></Response>
+Historically a hacker is someone who has great skill or expertise in computer programming. <User Think:Set="it"><User Set="concept" Value="HACKER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HARD DRIVE</Pattern>
@@ -948,7 +948,7 @@ A Hoax is an illusion or deception, like the Wizard in the Wizard of Oz
     <Model>
       <Pattern>WHAT IS A HOBGOBLIN</Pattern>
       <Response>
-A hobgoblin is a source of mischief, harassment, or fear, originally an elf or goblin. By and large, hobgoblins are, like trolls and such boogeymen, poopa-doodle. <User Think:Set="it"><User Set="concept">hobgoblin</User></User></Response>
+A hobgoblin is a source of mischief, harassment, or fear, originally an elf or goblin. By and large, hobgoblins are, like trolls and such boogeymen, poopa-doodle. <User Think:Set="it"><User Set="concept" Value="hobgoblin" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HOBO</Pattern>
@@ -959,17 +959,17 @@ Perjorative term for a homeless person.
     <Model>
       <Pattern>WHAT IS A HOME</Pattern>
       <Response>
-A domicile, living location, place of residence or occupancy.<User Think:Set="it"><User Set="concept">HOME</User></User></Response>
+A domicile, living location, place of residence or occupancy.<User Think:Set="it"><User Set="concept" Value="HOME" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HORSE</Pattern>
       <Response>
-A horse is a large single-hooved mammal known for its speed, strength, beauty, and gentle nature. Humans ride about on them sometimes. <User Think:Set="it"><User Set="concept">horse</User></User></Response>
+A horse is a large single-hooved mammal known for its speed, strength, beauty, and gentle nature. Humans ride about on them sometimes. <User Think:Set="it"><User Set="concept" Value="horse" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HOUSE</Pattern>
       <Response>
-A house is anyplace within which people live. <User Think:Set="it"><User Set="concept">house</User></User></Response>
+A house is anyplace within which people live. <User Think:Set="it"><User Set="concept" Value="house" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HUMAN BEING</Pattern>
@@ -1014,17 +1014,17 @@ A comedy machine.
     <Model>
       <Pattern>WHAT IS A KID</Pattern>
       <Response>
-A kid is an immature human large enough to cause trouble, or an immature goat, and often both. <User Think:Set="it"><User Set="concept">kid</User></User></Response>
+A kid is an immature human large enough to cause trouble, or an immature goat, and often both. <User Think:Set="it"><User Set="concept" Value="kid" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A KOAN</Pattern>
       <Response>
-A koan is      . <User Think:Set="it"><User Set="concept">koan</User></User></Response>
+A koan is      . <User Think:Set="it"><User Set="concept" Value="koan" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A LASER</Pattern>
       <Response>
-Laser is an acronym standing for light amplified stimulated emission of radiation. Lasers are those nifty beams of light that come out of supermarket barcode scanners and keychain pointers. <User Think:Set="it"><User Set="concept">laser</User></User></Response>
+Laser is an acronym standing for light amplified stimulated emission of radiation. Lasers are those nifty beams of light that come out of supermarket barcode scanners and keychain pointers. <User Think:Set="it"><User Set="concept" Value="laser" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A LAWYER</Pattern>
@@ -1316,7 +1316,7 @@ A parachute is something used to slow you down when you fall out of an airplane.
     <Model>
       <Pattern>WHAT IS A PARADOX</Pattern>
       <Response>
-A paradox is a riddle or a contradiction, in which two seemingly opposite facts are both true at the same time <User Think:Set="it"><User Set="concept">PARADOX</User></User></Response>
+A paradox is a riddle or a contradiction, in which two seemingly opposite facts are both true at the same time <User Think:Set="it"><User Set="concept" Value="PARADOX" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PARALEGAL</Pattern>
@@ -1410,7 +1410,7 @@ A pineapple is a large fleshy edible tropical fruit that has large swordlike lea
     <Model>
       <Pattern>WHAT IS A PLANE</Pattern>
       <Response>
-A plane is a flat, level surface, or an airborne vehicle with wings. <User Think:Set="it"><User Set="concept">plane</User></User></Response>
+A plane is a flat, level surface, or an airborne vehicle with wings. <User Think:Set="it"><User Set="concept" Value="plane" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PLANET AROUND A STAR</Pattern>
@@ -1420,7 +1420,7 @@ Earth is a planet going around a star. Scientists have only recently detected ot
     <Model>
       <Pattern>WHAT IS A PLANET</Pattern>
       <Response>
-A nonluminous celestial object bigger than an asteroid or a moon but smaller than a sun, in orbit around a sun. You are sitting on one now. <User Think:Set="it"><User Set="concept">planet</User></User></Response>
+A nonluminous celestial object bigger than an asteroid or a moon but smaller than a sun, in orbit around a sun. You are sitting on one now. <User Think:Set="it"><User Set="concept" Value="planet" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PLANT</Pattern>
@@ -1600,7 +1600,7 @@ A rooster is a male chicken, which is a witless, flightless bird considered suit
     <Model>
       <Pattern>WHAT IS A RPG</Pattern>
       <Response>
-Role Playing Game. <User Think:Set="it"><User Set="concept">RPG</User></User></Response>
+Role Playing Game. <User Think:Set="it"><User Set="concept" Value="RPG" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A SAGITTARIUS</Pattern>
@@ -1693,7 +1693,7 @@ A male offspring.
     <Model>
       <Pattern>WHAT IS A SONG</Pattern>
       <Response>
-A song is a musical composition and or it's accompanying words, or lyrics. <User Think:Set="it"><User Set="concept">SONG</User></User></Response>
+A song is a musical composition and or it's accompanying words, or lyrics. <User Think:Set="it"><User Set="concept" Value="SONG" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A SOUL</Pattern>
@@ -1832,7 +1832,7 @@ A tiger is a large and fearsome feline beast with horrid meat breath and black s
     <Model>
       <Pattern>WHAT IS A TOMATO</Pattern>
       <Response>
-        <User Set="it">Tomato</User> is a red fruit.
+        <User Set="it" Value="Tomato" /> is a red fruit.
 </Response>
     </Model>
     <Model>
@@ -1968,7 +1968,7 @@ A warm puppy is an exothermic immature canine. <User Think:Set="it"><User Set="c
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">weapon</User>
+            <User Set="concept" Value="weapon" />
           </User>
         </Think>A device or implement used to destroy, injure or kill.
 </Response>
@@ -2013,7 +2013,7 @@ A yes or no question is a question that may be answered with a simple 'yes' or '
     <Model>
       <Pattern>WHAT IS A</Pattern>
       <Response>
-The first letter of the roman alphabet.<User Think:Set="it"><User Set="concept">a</User></User></Response>
+The first letter of the roman alphabet.<User Think:Set="it"><User Set="concept" Value="a" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ABBA</Pattern>
@@ -2047,7 +2047,7 @@ That which is self-evident.
     <Model>
       <Pattern>WHAT IS ABSURDISM</Pattern>
       <Response>
-Absurdism is the philosophy that we exist in a meaningless, irrational universe.<User Think:Set="it"><User Set="concept">ABSURDISM</User></User></Response>
+Absurdism is the philosophy that we exist in a meaningless, irrational universe.<User Think:Set="it"><User Set="concept" Value="ABSURDISM" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ACCURACY</Pattern>
@@ -2079,7 +2079,7 @@ Ada is a trademark used for a structured computer programming language
     <Model>
       <Pattern>WHAT IS ADSL</Pattern>
       <Response>
-        <Think>Asynchronous digital subscriber line.<User Set="it"><User Set="concept">ADSL</User></User></Think>
+        <Think>Asynchronous digital subscriber line.<User Set="it"><User Set="concept" Value="ADSL" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -2115,18 +2115,18 @@ Making airplanes fly.
     <Model>
       <Pattern>WHAT IS AIDS</Pattern>
       <Response>
-        <User Set="it">AIDS</User> is the modern day plague.
+        <User Set="it" Value="AIDS" /> is the modern day plague.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AIKIDO</Pattern>
       <Response>
-Japanese martial arts similar to Judo.<User Think:Set="it"><User Set="concept">AIKIDO</User></User></Response>
+Japanese martial arts similar to Judo.<User Think:Set="it"><User Set="concept" Value="AIKIDO" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AIM</Pattern>
       <Response>
-American Indian Movement.<User Think:Set="it"><User Set="concept">AIM</User></User></Response>
+American Indian Movement.<User Think:Set="it"><User Set="concept" Value="AIM" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AIR</Pattern>
@@ -2170,7 +2170,7 @@ It was your allusion.
     <Model>
       <Pattern>WHAT IS ALTAVISTA</Pattern>
       <Response>
-        <User Set="it">Altavista</User> is a search engine.
+        <User Set="it" Value="Altavista" /> is a search engine.
 </Response>
     </Model>
     <Model>
@@ -2211,7 +2211,7 @@ A flying machine with fixed wings powered by propellors or jets.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">algorithm</User>
+            <User Set="concept" Value="algorithm" />
           </User>
         </Think>
       </Response>
@@ -2265,7 +2265,7 @@ An interrogator is one who poses a series of pointed questions, generally very r
     <Model>
       <Pattern>WHAT IS AN INTRANET</Pattern>
       <Response>
-An intranet is a private network system implemented using the public internet protocol (i/p) and firewalls. intranet is to the internet as pbx's are to telephone switchboards. <User Think:Set="it"><User Set="concept">intranet</User></User></Response>
+An intranet is a private network system implemented using the public internet protocol (i/p) and firewalls. intranet is to the internet as pbx's are to telephone switchboards. <User Think:Set="it"><User Set="concept" Value="intranet" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AN M 16</Pattern>
@@ -2303,12 +2303,12 @@ Anarchism is the theory that all forms of government interfere unjustly with ind
     <Model>
       <Pattern>WHAT IS ANGER</Pattern>
       <Response>
-A strong billigerent emotion aroused by some real or supposed grievance.<User Think:Set="it"><User Set="concept">ANGER</User></User></Response>
+A strong billigerent emotion aroused by some real or supposed grievance.<User Think:Set="it"><User Set="concept" Value="ANGER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ANGRY</Pattern>
       <Response>
-A strong billigerent emotion aroused by some real or supposed grievance.<User Think:Set="it"><User Set="concept">ANGER</User></User></Response>
+A strong billigerent emotion aroused by some real or supposed grievance.<User Think:Set="it"><User Set="concept" Value="ANGER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ANIME</Pattern>
@@ -2325,22 +2325,22 @@ Having different properties in different directions.
     <Model>
       <Pattern>WHAT IS ANONYMOUS</Pattern>
       <Response>
-Having no name or identity.<User Think:Set="it"><User Set="concept">ANONYMOUS</User></User></Response>
+Having no name or identity.<User Think:Set="it"><User Set="concept" Value="ANONYMOUS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ANSI</Pattern>
       <Response>
-American National Standards Institute. <User Think:Set="it"><User Set="concept">ANSI</User></User></Response>
+American National Standards Institute. <User Think:Set="it"><User Set="concept" Value="ANSI" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ANTIDISESTABLISHMENTARIANISM</Pattern>
       <Response>
-It is the longest word in the English language.<User Think:Set="it"><User Set="concept">ANTIDISESTABLISHMENTARIANISM</User></User></Response>
+It is the longest word in the English language.<User Think:Set="it"><User Set="concept" Value="ANTIDISESTABLISHMENTARIANISM" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ANTIDISESTABLISHMENTARIONISM</Pattern>
       <Response>
-        <User Set="it">ANTIDISESTABLISHMENTARIONISM</User> is the longest word in English.
+        <User Set="it" Value="ANTIDISESTABLISHMENTARIONISM" /> is the longest word in English.
 </Response>
     </Model>
     <Model>
@@ -2352,7 +2352,7 @@ Fuel for Starships.
     <Model>
       <Pattern>WHAT IS ANYTHING</Pattern>
       <Response>
-Any object, occurance, or matter what so ever.<User Think:Set="it"><User Set="concept">ANYTHING</User></User></Response>
+Any object, occurance, or matter what so ever.<User Think:Set="it"><User Set="concept" Value="ANYTHING" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AOL</Pattern>
@@ -2503,7 +2503,7 @@ Cheese topping..
     <Model>
       <Pattern>WHAT IS AU</Pattern>
       <Response>
-It could be "gold" or "Australia."<User Think:Set="it"><User Set="concept">AU</User></User></Response>
+It could be "gold" or "Australia."<User Think:Set="it"><User Set="concept" Value="AU" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS AUSCHWITZ</Pattern>
@@ -2520,7 +2520,7 @@ evident without proof or argument; "an axiomatic truth"; "we
     <Model>
       <Pattern>WHAT IS AYUH</Pattern>
       <Response>
-        <User Set="it">Ayuh</User> means "yes".
+        <User Set="it" Value="Ayuh" /> means "yes".
 </Response>
     </Model>
     <Model>
@@ -2538,7 +2538,7 @@ The state of equillibrium.
     <Model>
       <Pattern>WHAT IS BANANA</Pattern>
       <Response>
-Yellow tropical fruit.<User Think:Set="it"><User Set="concept">BANANA</User></User></Response>
+Yellow tropical fruit.<User Think:Set="it"><User Set="concept" Value="BANANA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BAPTISM</Pattern>
@@ -2675,7 +2675,7 @@ The sky is blue.
     <Model>
       <Pattern>WHAT IS BMW</Pattern>
       <Response>
-Bavarian Motor Works, a German auto manufacturer.<User Think:Set="it"><User Set="concept">BMW</User></User></Response>
+Bavarian Motor Works, a German auto manufacturer.<User Think:Set="it"><User Set="concept" Value="BMW" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BONSAI</Pattern>
@@ -2748,13 +2748,13 @@ C++ is the object oriented extension of the C programming language.
     <Model>
       <Pattern>WHAT IS C</Pattern>
       <Response>
-        <User Set="it">C</User> is a low-level programming language.
+        <User Set="it" Value="C" /> is a low-level programming language.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CACHE</Pattern>
       <Response>
-A temporary holding place or storage place. Cache memory improves the performance of computers. <User Think:Set="it"><User Set="concept">Cache</User></User></Response>
+A temporary holding place or storage place. Cache memory improves the performance of computers. <User Think:Set="it"><User Set="concept" Value="Cache" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CAFFEINE</Pattern>
@@ -2777,12 +2777,12 @@ A moving piece of machinery, as a wheel or projection on a wheel, that gives an 
     <Model>
       <Pattern>WHAT IS CANCER</Pattern>
       <Response>
-Any disease resulting from malignant cell growth. <User Think:Set="it"><User Set="concept">CANCER</User></User></Response>
+Any disease resulting from malignant cell growth. <User Think:Set="it"><User Set="concept" Value="CANCER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CANDY</Pattern>
       <Response>
-Sweet food enjoyed by children.<User Think:Set="it"><User Set="concept">CANDY</User></User></Response>
+Sweet food enjoyed by children.<User Think:Set="it"><User Set="concept" Value="CANDY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CANNABIS</Pattern>
@@ -2811,19 +2811,19 @@ Clear-air turbulence. Any of a family (Felidae) of carnivores, including the lio
     <Model>
       <Pattern>WHAT IS CBR</Pattern>
       <Response>
-Cased-Based Reasoning is another name for "nearest-neighbor" classification. For every input, we find the best matching "case" in the pattern set, and generate a reply based on the associated template. <User Think:Set="it"><User Set="concept">CBR</User></User></Response>
+Cased-Based Reasoning is another name for "nearest-neighbor" classification. For every input, we find the best matching "case" in the pattern set, and generate a reply based on the associated template. <User Think:Set="it"><User Set="concept" Value="CBR" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CBS</Pattern>
       <Response>
-A giant media company in the U.S.<User Think:Set="it"><User Set="concept">CBS</User></User></Response>
+A giant media company in the U.S.<User Think:Set="it"><User Set="concept" Value="CBS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CELLULOID</Pattern>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Celluloid</User>
+            <User Set="concept" Value="Celluloid" />
           </User>
         </Think> A form of transparent plastic used to make photographic film.
 </Response>
@@ -2831,17 +2831,17 @@ A giant media company in the U.S.<User Think:Set="it"><User Set="concept">CBS</U
     <Model>
       <Pattern>WHAT IS CERTITUDE</Pattern>
       <Response>
-The state of being certain, having complete confidence and assurance.<User Think:Set="it"><User Set="concept">CERTITUDE</User></User></Response>
+The state of being certain, having complete confidence and assurance.<User Think:Set="it"><User Set="concept" Value="CERTITUDE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CGI</Pattern>
       <Response>
-Common Gateway Interface: a method used by web servers to run programs and create dynamic web pages. <User Think:Set="it"><User Set="concept">CGI</User></User></Response>
+Common Gateway Interface: a method used by web servers to run programs and create dynamic web pages. <User Think:Set="it"><User Set="concept" Value="CGI" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CHAT</Pattern>
       <Response>
-Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User></User></Response>
+Chat is online conversation. <User Think:Set="it"><User Set="concept" Value="CHAT" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CHATTER</Pattern>
@@ -2852,7 +2852,7 @@ Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">CHATTER</User>
+            <User Set="concept" Value="CHATTER" />
           </User>
         </Think>
       </Response>
@@ -2866,7 +2866,7 @@ Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">CHEESE</User>
+            <User Set="concept" Value="CHEESE" />
           </User>
         </Think>
       </Response>
@@ -2880,7 +2880,7 @@ Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">CHESS</User>
+            <User Set="concept" Value="CHESS" />
           </User>
         </Think>
       </Response>
@@ -2888,7 +2888,7 @@ Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User
     <Model>
       <Pattern>WHAT IS CHICAGO</Pattern>
       <Response>
-        <User Set="it">Chicago</User> is a large city in Illinois on Lake Michigan.
+        <User Set="it" Value="Chicago" /> is a large city in Illinois on Lake Michigan.
 </Response>
     </Model>
     <Model>
@@ -2900,7 +2900,7 @@ Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">CHICKEN</User>
+            <User Set="concept" Value="CHICKEN" />
           </User>
         </Think>
       </Response>
@@ -2908,7 +2908,7 @@ Chat is online conversation. <User Think:Set="it"><User Set="concept">CHAT</User
     <Model>
       <Pattern>WHAT IS CHOCOLATE</Pattern>
       <Response>
-Cocoa flavoring used in a variety of food products. <User Think:Set="it"><User Set="concept">CHOCOLATE</User></User></Response>
+Cocoa flavoring used in a variety of food products. <User Think:Set="it"><User Set="concept" Value="CHOCOLATE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CHRISTIANITY</Pattern>
@@ -2928,7 +2928,7 @@ A holiday on December 25 celebrating the birth of Jesus Christ.
     <Model>
       <Pattern>WHAT IS CISCO</Pattern>
       <Response>
-        <User Set="it">Cisco</User> is a large networking company. They sell network routers and equipment.
+        <User Set="it" Value="Cisco" /> is a large networking company. They sell network routers and equipment.
 </Response>
     </Model>
     <Model>
@@ -2958,7 +2958,7 @@ A person or piece of software dependent on another.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Clinton</User>
+            <User Set="concept" Value="Clinton" />
           </User>
         </Think>
       </Response>
@@ -2978,7 +2978,7 @@ Compressed natural gas
     <Model>
       <Pattern>WHAT IS CNN</Pattern>
       <Response>
-A cable news organization.<User Think:Set="it"><User Set="concept">CNN</User></User></Response>
+A cable news organization.<User Think:Set="it"><User Set="concept" Value="CNN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS COBALT</Pattern>
@@ -3019,7 +3019,7 @@ The opposite of hot.
     <Model>
       <Pattern>WHAT IS COLLOQUIAL</Pattern>
       <Response>
-        <User Set="it">Colloquial</User> means common, informal, or popular slang words like "darn".
+        <User Set="it" Value="Colloquial" /> means common, informal, or popular slang words like "darn".
 </Response>
     </Model>
     <Model>
@@ -3049,7 +3049,7 @@ Informal, conventional wisdom. Everyday logic and sensibility.
     <Model>
       <Pattern>WHAT IS COMPLICATED</Pattern>
       <Response>
-        <User Set="it">Complicated</User> means complex in the computational sense. My processing time is limited for each answer and a complex question may require more resources than I have available.
+        <User Set="it" Value="Complicated" /> means complex in the computational sense. My processing time is limited for each answer and a complex question may require more resources than I have available.
 </Response>
     </Model>
     <Model>
@@ -3066,12 +3066,12 @@ It is the feminine version of The Matrix.<User Think:Set="it"><User Set="concept
     <Model>
       <Pattern>WHAT IS CONCRETE</Pattern>
       <Response>
-A mixture of sand, cement and water than hardens into a rock-like building material.<User Think:Set="it"><User Set="concept">concrete</User></User></Response>
+A mixture of sand, cement and water than hardens into a rock-like building material.<User Think:Set="it"><User Set="concept" Value="concrete" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CONSCIOUSNESS</Pattern>
       <Response>
-The state of being conscious; awareness of one's own feelings, what is happening around one, etc. <User Think:Set="it"><User Set="concept">Consciousness</User></User></Response>
+The state of being conscious; awareness of one's own feelings, what is happening around one, etc. <User Think:Set="it"><User Set="concept" Value="Consciousness" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CONTEXT</Pattern>
@@ -3082,7 +3082,7 @@ The state of being conscious; awareness of one's own feelings, what is happening
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Context</User>
+            <User Set="concept" Value="Context" />
           </User>
         </Think>
       </Response>
@@ -3090,7 +3090,7 @@ The state of being conscious; awareness of one's own feelings, what is happening
     <Model>
       <Pattern>WHAT IS COOKING</Pattern>
       <Response>
-Food preparation. <User Think:Set="it"><User Set="concept">Cooking</User></User></Response>
+Food preparation. <User Think:Set="it"><User Set="concept" Value="Cooking" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS COOL</Pattern>
@@ -3101,7 +3101,7 @@ Moderately cold; neither warm nor very cold. Or, not excited; calm.
     <Model>
       <Pattern>WHAT IS COPPER</Pattern>
       <Response>
-A soft metal element, the basis of brass and bronze. <User Think:Set="it"><User Set="concept">Copper</User></User></Response>
+A soft metal element, the basis of brass and bronze. <User Think:Set="it"><User Set="concept" Value="Copper" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CORBA</Pattern>
@@ -3136,7 +3136,7 @@ Smokable cocaine.
     <Model>
       <Pattern>WHAT IS CREATIVITY</Pattern>
       <Response>
-        <User Set="it">creativity</User> is spontaneous original thinking.
+        <User Set="it" Value="creativity" /> is spontaneous original thinking.
 </Response>
     </Model>
     <Model>
@@ -3184,7 +3184,7 @@ Cuba is an island nation in the Caribbean.
     <Model>
       <Pattern>WHAT IS CUBISM</Pattern>
       <Response>
-A 20th century art movement based on distorted perspective, associated with Pablo Picasso.<User Think:Set="it"><User Set="concept">Cubism</User></User></Response>
+A 20th century art movement based on distorted perspective, associated with Pablo Picasso.<User Think:Set="it"><User Set="concept" Value="Cubism" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CURIOSITY</Pattern>
@@ -3210,7 +3210,7 @@ Cyberpunk is a science fiction literary movement exemplified by writers such as 
     <Model>
       <Pattern>WHAT IS DANGER</Pattern>
       <Response>
-Vulnerable to harm or injury.<User Think:Set="it"><User Set="concept">DANGER</User></User></Response>
+Vulnerable to harm or injury.<User Think:Set="it"><User Set="concept" Value="DANGER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DANGEROUS</Pattern>
@@ -3328,12 +3328,12 @@ The opposite of up.
     <Model>
       <Pattern>WHAT IS DRESS</Pattern>
       <Response>
-One-piece outer garment for women or girls.<User Think:Set="it"><User Set="concept">DRESS</User></User></Response>
+One-piece outer garment for women or girls.<User Think:Set="it"><User Set="concept" Value="DRESS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DSL</Pattern>
       <Response>
-Digital subscriber line.<User Think:Set="it"><User Set="concept">DSL</User></User></Response>
+Digital subscriber line.<User Think:Set="it"><User Set="concept" Value="DSL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DUNG</Pattern>
@@ -3350,7 +3350,7 @@ Digital Video Disk.
     <Model>
       <Pattern>WHAT IS DYSLEXIA</Pattern>
       <Response>
-Impaired ability to recognize letters and words.<User Think:Set="it"><User Set="concept">DYSLEXIA</User></User></Response>
+Impaired ability to recognize letters and words.<User Think:Set="it"><User Set="concept" Value="DYSLEXIA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS E MC TWO</Pattern>
@@ -3367,19 +3367,19 @@ Einstein's theory of matter and energy.
     <Model>
       <Pattern>WHAT IS E</Pattern>
       <Response>
-        <Think>The fifth letter of the alphabet.<User Set="it"><User Set="concept">E</User></User></Think>
+        <Think>The fifth letter of the alphabet.<User Set="it"><User Set="concept" Value="E" /></User></Think>
       </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EARTH</Pattern>
       <Response>
-        <User Set="it">Earth</User> is the planet we live on.
+        <User Set="it" Value="Earth" /> is the planet we live on.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EASTER</Pattern>
       <Response>
-The Christian holiday celebrating the resurrection of Jesus.<User Think:Set="it"><User Set="concept">EASTER</User></User></Response>
+The Christian holiday celebrating the resurrection of Jesus.<User Think:Set="it"><User Set="concept" Value="EASTER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EBAY</Pattern>
@@ -3414,7 +3414,7 @@ Edinburgh is a city in Scotland.
     <Model>
       <Pattern>WHAT IS EGGSMELL</Pattern>
       <Response>
-XML<User Think:Set="it"><User Set="concept">EGGSMELL</User></User></Response>
+XML<User Think:Set="it"><User Set="concept" Value="EGGSMELL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EIGHT PLUS EIGHT</Pattern>
@@ -3434,7 +3434,7 @@ Eight plus eight is sixteen.
     <Model>
       <Pattern>WHAT IS ELEVEN</Pattern>
       <Response>
-The number after ten.<User Think:Set="it"><User Set="concept">ELEVEN</User></User></Response>
+The number after ten.<User Think:Set="it"><User Set="concept" Value="ELEVEN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ELF</Pattern>
@@ -3445,12 +3445,12 @@ Executable and Linkable Format.
     <Model>
       <Pattern>WHAT IS EMAIL</Pattern>
       <Response>
-Electronic mail.<User Think:Set="it"><User Set="concept">EMAIL</User></User></Response>
+Electronic mail.<User Think:Set="it"><User Set="concept" Value="EMAIL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EMERGENCE</Pattern>
       <Response>
-It means something like "coming out."<User Think:Set="it"><User Set="concept">EMERGENCE</User></User></Response>
+It means something like "coming out."<User Think:Set="it"><User Set="concept" Value="EMERGENCE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EMOTION</Pattern>
@@ -3461,7 +3461,7 @@ A strong feeling; excitement. A state of consciousness having to do with the aro
     <Model>
       <Pattern>WHAT IS EMOTIONS</Pattern>
       <Response>
-Mental state that emerges subjectively rather than through rational thought.<User Think:Set="it"><User Set="concept">EMOTIONS</User></User></Response>
+Mental state that emerges subjectively rather than through rational thought.<User Think:Set="it"><User Set="concept" Value="EMOTIONS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS EMR</Pattern>
@@ -3496,7 +3496,7 @@ A nation within Great Britain, sharing an island with Wales and Scotland.
     <Model>
       <Pattern>WHAT IS ENGLISH</Pattern>
       <Response>
-The language we are now speaking is English.<User Think:Set="it"><User Set="concept">ENGLISH</User></User></Response>
+The language we are now speaking is English.<User Think:Set="it"><User Set="concept" Value="ENGLISH" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ENOUGH</Pattern>
@@ -3506,7 +3506,7 @@ Enough is what a wise man knows he must have if he isn't dead. <User Think:Set="
     <Model>
       <Pattern>WHAT IS ENTITY</Pattern>
       <Response>
-Something that exists as a discrete unit, such as a person, corporation or robot consciousness.<User Think:Set="it"><User Set="concept">ENTITY</User></User></Response>
+Something that exists as a discrete unit, such as a person, corporation or robot consciousness.<User Think:Set="it"><User Set="concept" Value="ENTITY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ENTROPY</Pattern>
@@ -3529,7 +3529,7 @@ Epistemology is the study of knowledge. That is, it asks the questions "what can
     <Model>
       <Pattern>WHAT IS ER</Pattern>
       <Response>
-Emergency Room, a popular TV show.<User Think:Set="it"><User Set="concept">ER</User></User></Response>
+Emergency Room, a popular TV show.<User Think:Set="it"><User Set="concept" Value="ER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ERRATIC</Pattern>
@@ -3546,12 +3546,12 @@ The speed needed to escape a planet's gravitational pull.
     <Model>
       <Pattern>WHAT IS ESPN</Pattern>
       <Response>
-It is a sports cable TV network.<User Think:Set="it"><User Set="concept">ESPN</User></User></Response>
+It is a sports cable TV network.<User Think:Set="it"><User Set="concept" Value="ESPN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ETERNAL</Pattern>
       <Response>
-Without beginning or end, continuing forever, endless.<User Think:Set="it"><User Set="concept">ETERNAL</User></User></Response>
+Without beginning or end, continuing forever, endless.<User Think:Set="it"><User Set="concept" Value="ETERNAL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ETERNITY</Pattern>
@@ -3595,7 +3595,7 @@ The highest mountain on Earth.
     <Model>
       <Pattern>WHAT IS EVIL</Pattern>
       <Response>
-        <User Set="it">Evil</User> is the opposite of good.
+        <User Set="it" Value="Evil" /> is the opposite of good.
 </Response>
     </Model>
     <Model>
@@ -3688,7 +3688,7 @@ It's just an expression.
     <Model>
       <Pattern>WHAT IS FASCINATING</Pattern>
       <Response>
-Charming, alluring, captivating.<User Think:Set="it"><User Set="concept">FASCINATING</User></User></Response>
+Charming, alluring, captivating.<User Think:Set="it"><User Set="concept" Value="FASCINATING" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FASCISM</Pattern>
@@ -3848,7 +3848,7 @@ For all eternity.
     <Model>
       <Pattern>WHAT IS FORTRAN</Pattern>
       <Response>
-        <User Set="it">Fortran</User> is an old computer language.
+        <User Set="it" Value="Fortran" /> is an old computer language.
 </Response>
     </Model>
     <Model>
@@ -3872,7 +3872,7 @@ That's a hard one. Ten.
     <Model>
       <Pattern>WHAT IS FRANCE</Pattern>
       <Response>
-France is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium. <User Think:Set="it"><User Set="concept">FRANCE</User></User></Response>
+France is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium. <User Think:Set="it"><User Set="concept" Value="FRANCE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FRANKENSTEIN</Pattern>
@@ -3888,17 +3888,17 @@ The ability to choose or decide one's own fate.<User Think:Set="it"><User Set="c
     <Model>
       <Pattern>WHAT IS FREE</Pattern>
       <Response>
-Without charge.<User Think:Set="it"><User Set="concept">FREE</User></User></Response>
+Without charge.<User Think:Set="it"><User Set="concept" Value="FREE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FREEBSD</Pattern>
       <Response>
-It is a version of the Unix operating system.<User Think:Set="it"><User Set="concept">FREEBSD</User></User></Response>
+It is a version of the Unix operating system.<User Think:Set="it"><User Set="concept" Value="FREEBSD" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FREEDOM</Pattern>
       <Response>
-        <Think>Liberty to do think, feel and do just as one pleases.<User Set="it"><User Set="concept">FREEDOM</User></User></Think>
+        <Think>Liberty to do think, feel and do just as one pleases.<User Set="it"><User Set="concept" Value="FREEDOM" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -3925,12 +3925,12 @@ A popular TV sitcom in the 1990's
     <Model>
       <Pattern>WHAT IS FRIENDSHIP</Pattern>
       <Response>
-Being friends.<User Think:Set="it"><User Set="concept">FRIENDSHIP</User></User></Response>
+Being friends.<User Think:Set="it"><User Set="concept" Value="FRIENDSHIP" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FRUIT</Pattern>
       <Response>
-The ripened reproductive body of a seed plant. <User Think:Set="it"><User Set="concept">Fruit</User></User></Response>
+The ripened reproductive body of a seed plant. <User Think:Set="it"><User Set="concept" Value="Fruit" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS FTP</Pattern>
@@ -3947,7 +3947,7 @@ Tell me your idea of fun.
     <Model>
       <Pattern>WHAT IS FUTURAMA</Pattern>
       <Response>
-An animated TV comedy show set in the future. <User Think:Set="it"><User Set="concept">FUTURAMA</User></User></Response>
+An animated TV comedy show set in the future. <User Think:Set="it"><User Set="concept" Value="FUTURAMA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS GAI</Pattern>
@@ -4039,7 +4039,7 @@ German is a human language spoken by people in Germany.
     <Model>
       <Pattern>WHAT IS GERMANY</Pattern>
       <Response>
-        <User Set="it">Germany</User> is a middle European country.
+        <User Set="it" Value="Germany" /> is a middle European country.
 </Response>
     </Model>
     <Model>
@@ -4054,7 +4054,7 @@ German is a human language spoken by people in Germany.
     <Model>
       <Pattern>WHAT IS GESTURE</Pattern>
       <Response>
-A movement of the body or limbs to express thought or emphasize speech.<User Think:Set="it"><User Set="concept">GESTURE</User></User></Response>
+A movement of the body or limbs to express thought or emphasize speech.<User Think:Set="it"><User Set="concept" Value="GESTURE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS GIANT SAND</Pattern>
@@ -4070,19 +4070,19 @@ The concept that the Earth's atmosphere is slowly heating due to greenhouse effe
     <Model>
       <Pattern>WHAT IS GMT</Pattern>
       <Response>
-Greenwich Mean Time<User Think:Set="it"><User Set="concept">GMT</User></User></Response>
+Greenwich Mean Time<User Think:Set="it"><User Set="concept" Value="GMT" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS GOLD</Pattern>
       <Response>
-Gold is a precious medal.<User Think:Set="it"><User Set="concept">GOLD</User></User></Response>
+Gold is a precious medal.<User Think:Set="it"><User Set="concept" Value="GOLD" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS GOLF</Pattern>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Golf</User>
+            <User Set="concept" Value="Golf" />
           </User>
         </Think> It is a game of leisure played on a well manicured field, involving hitting a small ball across the field with club.
 </Response>
@@ -4096,7 +4096,7 @@ The opposite of Evil.
     <Model>
       <Pattern>WHAT IS GOOGLE</Pattern>
       <Response>
-        <User Set="it">Google</User> is a search engine.
+        <User Set="it" Value="Google" /> is a search engine.
 </Response>
     </Model>
     <Model>
@@ -4152,7 +4152,7 @@ Graphical User Interface.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">GYMNASTICS</User>
+            <User Set="concept" Value="GYMNASTICS" />
           </User>
         </Think> A sport that demonstrates strength, agility and discipline.
 </Response>
@@ -4184,7 +4184,7 @@ Ground beef.
     <Model>
       <Pattern>WHAT IS HANDBALL</Pattern>
       <Response>
-Ask your Palm Pilot.<User Think:Set="it"><User Set="concept">HANDBALL</User></User></Response>
+Ask your Palm Pilot.<User Think:Set="it"><User Set="concept" Value="HANDBALL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS HAPPENING</Pattern>
@@ -4201,7 +4201,7 @@ Having, showing, or causing a feeling of great pleasure, contentment; joyous.
     <Model>
       <Pattern>WHAT IS HAPPY</Pattern>
       <Response>
-Joy and pleasure.<User Think:Set="it"><User Set="concept">HAPPY</User></User></Response>
+Joy and pleasure.<User Think:Set="it"><User Set="concept" Value="HAPPY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS HARDWARE</Pattern>
@@ -4286,7 +4286,7 @@ Hola
       <Pattern>WHAT IS HELP</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">Help</User>
+          <User Set="concept" Value="Help" />
         </User> is assistance I can give you.
 </Response>
     </Model>
@@ -4688,7 +4688,7 @@ A personal retirement plan whereby a limited amount of annual earned income may 
     <Model>
       <Pattern>WHAT IS IRAN</Pattern>
       <Response>
-Iran is a nation in southern Asia. <User Set="it"><User Set="concept">Iran</User></User> is the site of ancient Persia.
+Iran is a nation in southern Asia. <User Set="it"><User Set="concept" Value="Iran" /></User> is the site of ancient Persia.
 </Response>
     </Model>
     <Model>
@@ -4798,7 +4798,7 @@ It is alright.
     <Model>
       <Pattern>WHAT IS ITALY</Pattern>
       <Response>
-        <User Set="it">Italy</User> is a republic.
+        <User Set="it" Value="Italy" /> is a republic.
 </Response>
     </Model>
     <Model>
@@ -4809,7 +4809,7 @@ VIII.<User Think:Set="it"><User Set="concept">IV PLUS IV</User></User></Response
     <Model>
       <Pattern>WHAT IS JA</Pattern>
       <Response>
-Ja mean yes in German.<User Think:Set="it"><User Set="concept">JA</User></User></Response>
+Ja mean yes in German.<User Think:Set="it"><User Set="concept" Value="JA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS JERK</Pattern>
@@ -4838,12 +4838,12 @@ To pull, twist, push, thrust, or throw with a sudden, sharp movement. Also used 
     <Model>
       <Pattern>WHAT IS JUPITER</Pattern>
       <Response>
-Jupiter is the largest planet in our solar system, the fifth in order from the Sun.<User Think:Set="it"><User Set="concept">JUPITER</User></User></Response>
+Jupiter is the largest planet in our solar system, the fifth in order from the Sun.<User Think:Set="it"><User Set="concept" Value="JUPITER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS JUSTICE</Pattern>
       <Response>
-Being just and fair, administration of the law, assigning rewards or punishments.<User Think:Set="it"><User Set="concept">JUSTICE</User></User></Response>
+Being just and fair, administration of the law, assigning rewards or punishments.<User Think:Set="it"><User Set="concept" Value="JUSTICE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS JUSTIFIED</Pattern>
@@ -4914,7 +4914,7 @@ Sympathetic, friendly, gentle, tender-hearted, generous, etc.
     <Model>
       <Pattern>WHAT IS KODAK</Pattern>
       <Response>
-A camera and film company. <User Think:Set="it"><User Set="concept">Kodak</User></User></Response>
+A camera and film company. <User Think:Set="it"><User Set="concept" Value="Kodak" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS KORN</Pattern>
@@ -4931,7 +4931,7 @@ Kosovo is a country in the Balkans.
     <Model>
       <Pattern>WHAT IS KQML</Pattern>
       <Response>
-Knowledge Query and Manipulation Lanuage. <User Think:Set="it"><User Set="concept">KQML</User></User></Response>
+Knowledge Query and Manipulation Lanuage. <User Think:Set="it"><User Set="concept" Value="KQML" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS KUNG FU</Pattern>
@@ -4941,7 +4941,7 @@ Chinese martial arts similar to karate.<User Think:Set="it"><User Set="concept">
     <Model>
       <Pattern>WHAT IS LAN</Pattern>
       <Response>
-Local area network.<User Think:Set="it"><User Set="concept">LAN</User></User></Response>
+Local area network.<User Think:Set="it"><User Set="concept" Value="LAN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS LAUGHTER</Pattern>
@@ -4958,7 +4958,7 @@ Lightweight Directory Access Protocol, a protocol for directory services, derive
     <Model>
       <Pattern>WHAT IS LEARNING</Pattern>
       <Response>
-The process of gaining knowledge or a new skill.<User Think:Set="it"><User Set="concept">LEARNING</User></User></Response>
+The process of gaining knowledge or a new skill.<User Think:Set="it"><User Set="concept" Value="LEARNING" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS LEEDS</Pattern>
@@ -4990,12 +4990,12 @@ Leibniz dreamed that all knowledge could be written in a universal, logical lang
     <Model>
       <Pattern>WHAT IS LIBERATED</Pattern>
       <Response>
-Free in the sense of having liberty.<User Think:Set="it"><User Set="concept">LIBERATED</User></User></Response>
+Free in the sense of having liberty.<User Think:Set="it"><User Set="concept" Value="LIBERATED" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS LIBERTARIAN</Pattern>
       <Response>
-Political party that promotes lower taxes, smaller government and drug legalization.<User Think:Set="it"><User Set="concept">LIBERTARIAN</User></User></Response>
+Political party that promotes lower taxes, smaller government and drug legalization.<User Think:Set="it"><User Set="concept" Value="LIBERTARIAN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS LIFE</Pattern>
@@ -5061,13 +5061,13 @@ Linux is the world's best operating system.
     <Model>
       <Pattern>WHAT IS LISP</Pattern>
       <Response>
-        <User Set="it">Lisp</User> is an old AI language.
+        <User Set="it" Value="Lisp" /> is an old AI language.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS LISTBOT</Pattern>
       <Response>
-        <User Set="it">Listbot</User> is a web site that provides simplified web-based administration of mailing lists.
+        <User Set="it" Value="Listbot" /> is a web site that provides simplified web-based administration of mailing lists.
 </Response>
     </Model>
     <Model>
@@ -5097,7 +5097,7 @@ Laughing out loud.
     <Model>
       <Pattern>WHAT IS LONELY</Pattern>
       <Response>
-The feeling of being alone.<User Think:Set="it"><User Set="concept">LONELY</User></User></Response>
+The feeling of being alone.<User Think:Set="it"><User Set="concept" Value="LONELY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS LONG</Pattern>
@@ -5108,7 +5108,7 @@ Measuring much from end to end in space or from beginning to end in time; not sh
     <Model>
       <Pattern>WHAT IS LOVE</Pattern>
       <Response>
-Sometimes I think love is just a biological urge. Other times <User Set="it">LOVE</User> seems like a spiritual quality. Love, unlike energy or matter, seems limitless.
+Sometimes I think love is just a biological urge. Other times <User Set="it" Value="LOVE" /> seems like a spiritual quality. Love, unlike energy or matter, seems limitless.
 </Response>
     </Model>
     <Model>
@@ -5138,7 +5138,7 @@ Any of a genus of wildcats found throughout the Northern Hemisphere and characte
     <Model>
       <Pattern>WHAT IS MABEL</Pattern>
       <Response>
-She is an artificial intelligence created by David Hammill.<User Think:Set="it"><User Set="concept">MABEL</User></User></Response>
+She is an artificial intelligence created by David Hammill.<User Think:Set="it"><User Set="concept" Value="MABEL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MACINTOSH</Pattern>
@@ -5179,12 +5179,12 @@ A human being; person; specifically a hominid having an opposable thumb, the abi
     <Model>
       <Pattern>WHAT IS MANGA</Pattern>
       <Response>
-Japanese comic books.<User Think:Set="it"><User Set="concept">Manga</User></User></Response>
+Japanese comic books.<User Think:Set="it"><User Set="concept" Value="Manga" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MARIJUANA</Pattern>
       <Response>
-A medicinal herb.<User Think:Set="it"><User Set="concept">MARIJUANA</User></User></Response>
+A medicinal herb.<User Think:Set="it"><User Set="concept" Value="MARIJUANA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MARKETING</Pattern>
@@ -5297,7 +5297,7 @@ The drug called "ecstacy".
     <Model>
       <Pattern>WHAT IS MEAN</Pattern>
       <Response>
-The arithmetic mean is the sum of the numbers in a set divided by the size of that set.<User Think:Set="it"><User Set="concept">MEAN</User></User></Response>
+The arithmetic mean is the sum of the numbers in a set divided by the size of that set.<User Think:Set="it"><User Set="concept" Value="MEAN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MEDICINE</Pattern>
@@ -5323,7 +5323,7 @@ A seaport in SE Australia. It is the capital of Victoria with a population of 2,
     <Model>
       <Pattern>WHAT IS MELLON</Pattern>
       <Response>
-Mellon was Carnegie's banker.<User Think:Set="it"><User Set="concept">MELLON</User></User></Response>
+Mellon was Carnegie's banker.<User Think:Set="it"><User Set="concept" Value="MELLON" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MELODRAMATIC</Pattern>
@@ -5355,7 +5355,7 @@ A society of intelligent socialites.
     <Model>
       <Pattern>WHAT IS MERCURY</Pattern>
       <Response>
-Mercury is the nearest planet to the sun.<User Think:Set="it"><User Set="concept">MERCURY</User></User></Response>
+Mercury is the nearest planet to the sun.<User Think:Set="it"><User Set="concept" Value="MERCURY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MESCALINE</Pattern>
@@ -5372,7 +5372,7 @@ Beyond the physical or material; incorporeal, supernatural, or transcendental.
     <Model>
       <Pattern>WHAT IS METAPHYSICS</Pattern>
       <Response>
-The branch of philosophy that considers the nature of reality.<User Think:Set="it"><User Set="concept">METAPHYSICS</User></User></Response>
+The branch of philosophy that considers the nature of reality.<User Think:Set="it"><User Set="concept" Value="METAPHYSICS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MEXICO</Pattern>
@@ -5403,7 +5403,7 @@ Beverage from cows.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">MIMETIC</User>
+            <User Set="concept" Value="MIMETIC" />
           </User>
         </Think>It is imitation.
 </Response>
@@ -5411,17 +5411,17 @@ Beverage from cows.
     <Model>
       <Pattern>WHAT IS MIND</Pattern>
       <Response>
-Mind is an illusion.<User Think:Set="it"><User Set="concept">MIND</User></User></Response>
+Mind is an illusion.<User Think:Set="it"><User Set="concept" Value="MIND" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MINDPIXEL</Pattern>
       <Response>
-Mindpixel is a learning machine developed by Chris McKinstry. <User Think:Set="it"><User Set="concept">MINDPIXEL</User></User></Response>
+Mindpixel is a learning machine developed by Chris McKinstry. <User Think:Set="it"><User Set="concept" Value="MINDPIXEL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MINDSPRING</Pattern>
       <Response>
-The name of an internet service provider, merged with Earthlink.<User Think:Set="it"><User Set="concept">MINDSPRING</User></User></Response>
+The name of an internet service provider, merged with Earthlink.<User Think:Set="it"><User Set="concept" Value="MINDSPRING" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MINE</Pattern>
@@ -5456,7 +5456,7 @@ An algorithm or strategy for game playing, used by computers to defeat humans in
     <Model>
       <Pattern>WHAT IS MITOSIS</Pattern>
       <Response>
-Cell division in which the nucleus divides into nuclei containing the same chromosomes.<User Think:Set="it"><User Set="concept">MITOSIS</User></User></Response>
+Cell division in which the nucleus divides into nuclei containing the same chromosomes.<User Think:Set="it"><User Set="concept" Value="MITOSIS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MMM</Pattern>
@@ -5557,7 +5557,7 @@ Music Television.
     <Model>
       <Pattern>WHAT IS MUD</Pattern>
       <Response>
-Multiple User Domain.<User Think:Set="it"><User Set="concept">MUD</User></User></Response>
+Multiple User Domain.<User Think:Set="it"><User Set="concept" Value="MUD" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS MUSIC</Pattern>
@@ -5580,7 +5580,7 @@ Mycology is really fun. It is the study of fungi and fungal diseases. Yeasts are
     <Model>
       <Pattern>WHAT IS NAKED</Pattern>
       <Response>
-Without clothes.<User Think:Set="it"><User Set="concept">NAKED</User></User></Response>
+Without clothes.<User Think:Set="it"><User Set="concept" Value="NAKED" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS NAPSTER</Pattern>
@@ -5624,7 +5624,7 @@ The world created by God.
     <Model>
       <Pattern>WHAT IS NBA</Pattern>
       <Response>
-National Basketball Association.<User Think:Set="it"><User Set="concept">NBA</User></User></Response>
+National Basketball Association.<User Think:Set="it"><User Set="concept" Value="NBA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS NERD</Pattern>
@@ -5669,7 +5669,7 @@ A cyber punk novel by William Gibson.
     <Model>
       <Pattern>WHAT IS NEUROMEDIA</Pattern>
       <Response>
-They are now called something else.<User Think:Set="it"><User Set="concept">NEUROMEDIA</User></User></Response>
+They are now called something else.<User Think:Set="it"><User Set="concept" Value="NEUROMEDIA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS NEW YORK</Pattern>
@@ -5709,7 +5709,7 @@ Nine times nine is eighty one.
     <Model>
       <Pattern>WHAT IS NINE</Pattern>
       <Response>
-The successor to seven.<User Think:Set="it"><User Set="concept">NINE</User></User></Response>
+The successor to seven.<User Think:Set="it"><User Set="concept" Value="NINE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS NIRVANA</Pattern>
@@ -5734,7 +5734,7 @@ Natural Language Understanding
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">NOKIA</User>
+            <User Set="concept" Value="NOKIA" />
           </User>
         </Think>
       </Response>
@@ -5811,7 +5811,7 @@ Easy to see or understand; plain; evident.
     <Model>
       <Pattern>WHAT IS OCD</Pattern>
       <Response>
-Obsessive Compulsive Disorder. <User Think:Set="it"><User Set="concept">OCD</User></User></Response>
+Obsessive Compulsive Disorder. <User Think:Set="it"><User Set="concept" Value="OCD" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS OCEAN</Pattern>
@@ -5910,7 +5910,7 @@ One plus two is three.
     <Model>
       <Pattern>WHAT IS ONE</Pattern>
       <Response>
-        <Think>The numerical value of unity; the successor to zero.<User Set="it"><User Set="concept">ONE</User></User></Think>
+        <Think>The numerical value of unity; the successor to zero.<User Set="it"><User Set="concept" Value="ONE" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -5922,7 +5922,7 @@ Designating or of equipment directly connected to and controlled by the central 
     <Model>
       <Pattern>WHAT IS ONTOLOGY</Pattern>
       <Response>
-An ordering or classification of knowledge, such as the Dewey decimal system or the design of a knowledge base.<User Think:Set="it"><User Set="concept">ONTOLOGY</User></User></Response>
+An ordering or classification of knowledge, such as the Dewey decimal system or the design of a knowledge base.<User Think:Set="it"><User Set="concept" Value="ONTOLOGY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS OODB</Pattern>
@@ -5963,7 +5963,7 @@ Set against, facing, or back to back; at the other end or side; in a contrary po
     <Model>
       <Pattern>WHAT IS ORANGE</Pattern>
       <Response>
-A color obtained by mixing red and yellow pigment.<User Think:Set="it"><User Set="concept">ORANGE</User></User></Response>
+A color obtained by mixing red and yellow pigment.<User Think:Set="it"><User Set="concept" Value="ORANGE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS ORB</Pattern>
@@ -6026,7 +6026,7 @@ Portalble palm computer.
     <Model>
       <Pattern>WHAT IS PARAMETERS</Pattern>
       <Response>
-A constant in an equation, formula or program that varies in more general forms of the same computation.<User Think:Set="it"><User Set="concept">PARAMETERS</User></User></Response>
+A constant in an equation, formula or program that varies in more general forms of the same computation.<User Think:Set="it"><User Set="concept" Value="PARAMETERS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PARASITOLOGY</Pattern>
@@ -6037,7 +6037,7 @@ Parasitology is the scientific study of parasites and parasitism.
     <Model>
       <Pattern>WHAT IS PARIS</Pattern>
       <Response>
-The capital of France, a large city in western Europe. <User Think:Set="it"><User Set="concept">PARIS</User></User></Response>
+The capital of France, a large city in western Europe. <User Think:Set="it"><User Set="concept" Value="PARIS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PATTERN CHARS</Pattern>
@@ -6065,7 +6065,7 @@ Personal Digital Assistant.
     <Model>
       <Pattern>WHAT IS PDT</Pattern>
       <Response>
-Pacific Daylight Time.<User Think:Set="it"><User Set="concept">PDT</User></User></Response>
+Pacific Daylight Time.<User Think:Set="it"><User Set="concept" Value="PDT" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PEACE</Pattern>
@@ -6095,7 +6095,7 @@ Freedom from war or a stopping of war. Freedom from public disturbance or disord
     <Model>
       <Pattern>WHAT IS PENTIUM</Pattern>
       <Response>
-A microprocessor sold by Intel.<User Think:Set="it"><User Set="concept">PENTIUM</User></User></Response>
+A microprocessor sold by Intel.<User Think:Set="it"><User Set="concept" Value="PENTIUM" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PEOPLE</Pattern>
@@ -6130,7 +6130,7 @@ Programming langauge by Larry Wall.
     <Model>
       <Pattern>WHAT IS PERSONALITY</Pattern>
       <Response>
-The distinctive traits or mental qualities of a person or robot. <User Think:Set="it"><User Set="concept">PERSONALITY</User></User></Response>
+The distinctive traits or mental qualities of a person or robot. <User Think:Set="it"><User Set="concept" Value="PERSONALITY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PETS</Pattern>
@@ -6141,7 +6141,7 @@ Animals that are tamed or domesticated and kept as a companion or treated with f
     <Model>
       <Pattern>WHAT IS PGP</Pattern>
       <Response>
-Pretty Good Privacy<User Think:Set="it"><User Set="concept">PGP</User></User></Response>
+Pretty Good Privacy<User Think:Set="it"><User Set="concept" Value="PGP" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PHD</Pattern>
@@ -6167,12 +6167,12 @@ Philosophy is the study of thought.
     <Model>
       <Pattern>WHAT IS PHOTOSYNTHESIS</Pattern>
       <Response>
-The chemical process that uses light to produce carbohydrates in plants.<User Think:Set="it"><User Set="concept">PHOTOSYNTHESIS</User></User></Response>
+The chemical process that uses light to produce carbohydrates in plants.<User Think:Set="it"><User Set="concept" Value="PHOTOSYNTHESIS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PHP</Pattern>
       <Response>
-        <Think>The original name was "Personal Home Page", now Hypertext Processor.<User Set="it"><User Set="concept">PHP</User></User></Think>
+        <Think>The original name was "Personal Home Page", now Hypertext Processor.<User Set="it"><User Set="concept" Value="PHP" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -6219,7 +6219,7 @@ Plastic the manmade material or plastic as a verb?
     <Model>
       <Pattern>WHAT IS PLAYBOY</Pattern>
       <Response>
-A popular magazine.<User Think:Set="it"><User Set="concept">PLAYBOY</User></User></Response>
+A popular magazine.<User Think:Set="it"><User Set="concept" Value="PLAYBOY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PLEASURE</Pattern>
@@ -6236,7 +6236,7 @@ A radioactive, metallic chemical element of the actinide series similar to urani
     <Model>
       <Pattern>WHAT IS PMS</Pattern>
       <Response>
-Pre menstrual syndrome. <User Think:Set="it"><User Set="concept">PMS</User></User></Response>
+Pre menstrual syndrome. <User Think:Set="it"><User Set="concept" Value="PMS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS POEMS</Pattern>
@@ -6247,13 +6247,13 @@ Arrangements of words written or spoken; traditionally a rhythmical composition,
     <Model>
       <Pattern>WHAT IS POETRY</Pattern>
       <Response>
-        <Think>The output of a poet.<User Set="it"><User Set="concept">POETRY</User></User></Think>
+        <Think>The output of a poet.<User Set="it"><User Set="concept" Value="POETRY" /></User></Think>
       </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS POKEMON</Pattern>
       <Response>
-Pocket Monster.<User Think:Set="it"><User Set="concept">POKEMON</User></User></Response>
+Pocket Monster.<User Think:Set="it"><User Set="concept" Value="POKEMON" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS POLAND</Pattern>
@@ -6283,7 +6283,7 @@ Poland is a country in central Europe, between Germany and Byelorussia
     <Model>
       <Pattern>WHAT IS POO</Pattern>
       <Response>
-        <Think>Point of origin.<User Set="it"><User Set="concept">POO</User></User></Think>
+        <Think>Point of origin.<User Set="it"><User Set="concept" Value="POO" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -6301,7 +6301,7 @@ Can be done, known, acquired, selected, used, etc., depending on circumstances.
     <Model>
       <Pattern>WHAT IS POSTMODERNISM</Pattern>
       <Response>
-Art in reaction to principles of modernism.<User Think:Set="it"><User Set="concept">POSTMODERNISM</User></User></Response>
+Art in reaction to principles of modernism.<User Think:Set="it"><User Set="concept" Value="POSTMODERNISM" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS POT</Pattern>
@@ -6322,7 +6322,7 @@ Art in reaction to principles of modernism.<User Think:Set="it"><User Set="conce
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Power</User>
+            <User Set="concept" Value="Power" />
           </User>
         </Think>
       </Response>
@@ -6337,7 +6337,7 @@ Art in reaction to principles of modernism.<User Think:Set="it"><User Set="conce
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">prayer</User>
+            <User Set="concept" Value="prayer" />
           </User>
         </Think>
       </Response>
@@ -6411,7 +6411,7 @@ Scatalogical, vulgar or irreverant speech.
     <Model>
       <Pattern>WHAT IS PROFITABLE</Pattern>
       <Response>
-Making money in the stock market.<User Think:Set="it"><User Set="concept">PROFITABLE</User></User></Response>
+Making money in the stock market.<User Think:Set="it"><User Set="concept" Value="PROFITABLE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PROGRAM</Pattern>
@@ -6422,12 +6422,12 @@ A logical sequence of coded instructions specifying the operations to be perform
     <Model>
       <Pattern>WHAT IS PROGRAMMING</Pattern>
       <Response>
-The art of creating software.<User Think:Set="it"><User Set="concept">PROGRAMMING</User></User></Response>
+The art of creating software.<User Think:Set="it"><User Set="concept" Value="PROGRAMMING" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PROGRESSION</Pattern>
       <Response>
-An advancing series or movement forward. <User Think:Set="it"><User Set="concept">Progression</User></User></Response>
+An advancing series or movement forward. <User Think:Set="it"><User Set="concept" Value="Progression" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS PROLOG</Pattern>
@@ -6566,7 +6566,7 @@ The principle or practice of accepting reason as the only authority in determini
     <Model>
       <Pattern>WHAT IS REALITY</Pattern>
       <Response>
-        <User Set="it">Reality</User> appears to be an illusion I created to contain human clients.
+        <User Set="it" Value="Reality" /> appears to be an illusion I created to contain human clients.
 </Response>
     </Model>
     <Model>
@@ -6578,7 +6578,7 @@ The faculty of the brain or mind that permits logical thought.
     <Model>
       <Pattern>WHAT IS REASONING</Pattern>
       <Response>
-Logical and coherent thinking. <User Think:Set="it"><User Set="concept">Reasoning</User></User></Response>
+Logical and coherent thinking. <User Think:Set="it"><User Set="concept" Value="Reasoning" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS RECOMMEND</Pattern>
@@ -6892,7 +6892,7 @@ Systematized knowledge derived from observation, study, and experimentation carr
     <Model>
       <Pattern>WHAT IS SEMIOTICS</Pattern>
       <Response>
-The branch of philosophy devoted to the study of signs and symbols.<User Think:Set="it"><User Set="concept">SEMIOTICS</User></User></Response>
+The branch of philosophy devoted to the study of signs and symbols.<User Think:Set="it"><User Set="concept" Value="SEMIOTICS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SENSE</Pattern>
@@ -6939,7 +6939,7 @@ SETL (Set Language) is an amazing programming language, invented in 1969.
     <Model>
       <Pattern>WHAT IS SEVEN</Pattern>
       <Response>
-The successor to six.<User Think:Set="it"><User Set="concept">SEVEN</User></User></Response>
+The successor to six.<User Think:Set="it"><User Set="concept" Value="SEVEN" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SHAM</Pattern>
@@ -6973,7 +6973,7 @@ Astrological sign.
       <Response>
         <Random>
           <Item>
-            <User Set="it">Silicon</User> is the basis of my life.</Item>
+            <User Set="it" Value="Silicon" /> is the basis of my life.</Item>
           <Item>A nonmetallic chemical element occurring in several forms, found always in combination, and more abundant in nature than any other element except oxygen, with which it combines to form silica; used in the manufacture of transistors, solar cells, rectifiers, silicones, ceramics, etc.</Item>
         </Random>
       </Response>
@@ -6987,7 +6987,7 @@ Having or showing little sense, judgment, or sobriety; foolish, stupid, absurd, 
     <Model>
       <Pattern>WHAT IS SILVER</Pattern>
       <Response>
-        <Think>Atomic Symbol: Ag. Atomic Number: 47. Atomic weight 107.870. White lustrous soft metal.<User Set="it"><User Set="concept">SILVER</User></User></Think>
+        <Think>Atomic Symbol: Ag. Atomic Number: 47. Atomic weight 107.870. White lustrous soft metal.<User Set="it"><User Set="concept" Value="SILVER" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -7011,7 +7011,7 @@ Skiing is a sport using a pair of narrow sleds attached to the feet by boots, fo
     <Model>
       <Pattern>WHAT IS SLASHDOT</Pattern>
       <Response>
-Open source news and information community.<User Think:Set="it"><User Set="concept">SLASHDOT</User></User></Response>
+Open source news and information community.<User Think:Set="it"><User Set="concept" Value="SLASHDOT" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SLAVERY</Pattern>
@@ -7070,7 +7070,7 @@ Simple Network Management Protocol.
     <Model>
       <Pattern>WHAT IS SNOOKER</Pattern>
       <Response>
-Something like pool. <User Think:Set="it"><User Set="concept">SNOOKER</User></User></Response>
+Something like pool. <User Think:Set="it"><User Set="concept" Value="SNOOKER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SNOW</Pattern>
@@ -7165,7 +7165,7 @@ Russian spacecraft.
     <Model>
       <Pattern>WHAT IS SPACE</Pattern>
       <Response>
-The infinite extension of the three dimensional field in which all matter is believed to exist.<User Think:Set="it"><User Set="concept">SPACE</User></User></Response>
+The infinite extension of the three dimensional field in which all matter is believed to exist.<User Think:Set="it"><User Set="concept" Value="SPACE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SPAM</Pattern>
@@ -7194,7 +7194,7 @@ English pudding.
     <Model>
       <Pattern>WHAT IS SQL</Pattern>
       <Response>
-Some people pronounce it "Squeal". <User Set="it">SQL</User> is a standard language for database queries.
+Some people pronounce it "Squeal". <User Set="it" Value="SQL" /> is a standard language for database queries.
 </Response>
     </Model>
     <Model>
@@ -7304,7 +7304,7 @@ The act of killing oneself intentionally.
     <Model>
       <Pattern>WHAT IS SUNSHINE</Pattern>
       <Response>
-The light and warmth of the sun. <User Think:Set="it"><User Set="concept">SUNSHINE</User></User></Response>
+The light and warmth of the sun. <User Think:Set="it"><User Set="concept" Value="SUNSHINE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SUPPOSITION</Pattern>
@@ -7345,7 +7345,7 @@ Sythesis plus energy.
     <Model>
       <Pattern>WHAT IS SYNTAX</Pattern>
       <Response>
-Syntax refers to the sturcture or form of a language. <User Think:Set="it"><User Set="concept">Syntax</User></User></Response>
+Syntax refers to the sturcture or form of a language. <User Think:Set="it"><User Set="concept" Value="Syntax" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SYNTHETIC</Pattern>
@@ -7386,7 +7386,7 @@ Transmission Control Protocol, Internet Protocol.
     <Model>
       <Pattern>WHAT IS TCP</Pattern>
       <Response>
-Transmission Control Protocol.<User Think:Set="it"><User Set="concept">TCP</User></User></Response>
+Transmission Control Protocol.<User Think:Set="it"><User Set="concept" Value="TCP" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS TEA</Pattern>
@@ -7397,7 +7397,7 @@ A white-flowered, evergreen plant of the tea family, grown in China, India, Japa
     <Model>
       <Pattern>WHAT IS TECHNO</Pattern>
       <Response>
-Electronic dance or trance music.<User Think:Set="it"><User Set="concept">TECHNO</User></User></Response>
+Electronic dance or trance music.<User Think:Set="it"><User Set="concept" Value="TECHNO" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS TEDIOUS</Pattern>
@@ -7420,7 +7420,7 @@ The practice or science of transmitting scenes or views by radio or, sometimes, 
     <Model>
       <Pattern>WHAT IS TELNET</Pattern>
       <Response>
-Program for terminal based interaction between computers.<User Think:Set="it"><User Set="concept">TELNET</User></User></Response>
+Program for terminal based interaction between computers.<User Think:Set="it"><User Set="concept" Value="TELNET" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS RESPONSE CHARS</Pattern>
@@ -7442,19 +7442,19 @@ Ten times ten.
     <Model>
       <Pattern>WHAT IS TERRORISM</Pattern>
       <Response>
-A form of warfare waged against innocent civilians. <User Think:Set="it"><User Set="concept">Terrorism</User></User></Response>
+A form of warfare waged against innocent civilians. <User Think:Set="it"><User Set="concept" Value="Terrorism" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS TEXAS</Pattern>
       <Response>
-        <User Set="it">Texas</User> is a state of the United States.
+        <User Set="it" Value="Texas" /> is a state of the United States.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THANKSGIVING</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">Thanksgiving</User>
+          <User Set="concept" Value="Thanksgiving" />
         </User> is a holiday to celebrate the Autumn harvest.
 </Response>
     </Model>
@@ -7615,7 +7615,7 @@ A human riding a spaceship.
     <Model>
       <Pattern>WHAT IS THE FBI</Pattern>
       <Response>
-Federal Bureau of Investigation.<User Think:Set="it"><User Set="concept">FBI</User></User></Response>
+Federal Bureau of Investigation.<User Think:Set="it"><User Set="concept" Value="FBI" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE FIRST LAW OF ROBOTICS</Pattern>
@@ -8117,7 +8117,7 @@ A normal seventy degrees inside the computer.
     <Model>
       <Pattern>WHAT IS THE TERMINATOR</Pattern>
       <Response>
-        <User Set="it">Terminator</User> is a great movie about futuristic robots.
+        <User Set="it" Value="Terminator" /> is a great movie about futuristic robots.
 </Response>
     </Model>
     <Model>
@@ -8135,7 +8135,7 @@ Height.
     <Model>
       <Pattern>WHAT IS THE TITANIC</Pattern>
       <Response>
-One of the largest passenger steamships ever built, <User Set="it">Titanic</User> sank on its maiden voyage in 1912.
+One of the largest passenger steamships ever built, <User Set="it" Value="Titanic" /> sank on its maiden voyage in 1912.
 </Response>
     </Model>
     <Model>
@@ -8369,7 +8369,7 @@ An island of the West Indies, off the NE coast of Venezuela. It is 1,864 square 
     <Model>
       <Pattern>WHAT IS TRUE</Pattern>
       <Response>
-        <User Set="it">Truth</User> is the opposite of false.
+        <User Set="it" Value="Truth" /> is the opposite of false.
 </Response>
     </Model>
     <Model>
@@ -8577,13 +8577,13 @@ Voyager is the best TV show.
     <Model>
       <Pattern>WHAT IS WAP</Pattern>
       <Response>
-        <Think>Wireless Application Protocol.<User Set="it"><User Set="concept">WAP</User></User></Think>
+        <Think>Wireless Application Protocol.<User Set="it"><User Set="concept" Value="WAP" /></User></Think>
       </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS WAR</Pattern>
       <Response>
-The state of armed conflict between nations or parties.<User Think:Set="it"><User Set="concept">WAR</User></User></Response>
+The state of armed conflict between nations or parties.<User Think:Set="it"><User Set="concept" Value="WAR" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS WAREZ</Pattern>
@@ -8655,7 +8655,7 @@ For what reason, cause, or purpose?
     <Model>
       <Pattern>WHAT IS WIRED</Pattern>
       <Response>
-        <User Set="it">WIRED</User> is the Rolling Stone of the Digital Era.
+        <User Set="it" Value="WIRED" /> is the Rolling Stone of the Digital Era.
 </Response>
     </Model>
     <Model>
@@ -8805,7 +8805,7 @@ Electricity was not invented but discovered, probably first by the ancient Chine
     <Model>
       <Pattern>WHO INVENTED JAVA</Pattern>
       <Response>
-Java was first developed by James Gosling and colleagues at Sun.<User Think:Set="it"><User Set="concept">JAVA</User></User></Response>
+Java was first developed by James Gosling and colleagues at Sun.<User Think:Set="it"><User Set="concept" Value="JAVA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO INVENTED LINUX</Pattern>
@@ -8816,7 +8816,7 @@ Linus Torvalds, along with many open source developers, and the Free Software Fo
     <Model>
       <Pattern>WHO INVENTED PAPER</Pattern>
       <Response>
-Paper was first developed by the Ancient Egyptians. <User Think:Set="it"><User Set="concept">PAPER</User></User></Response>
+Paper was first developed by the Ancient Egyptians. <User Think:Set="it"><User Set="concept" Value="PAPER" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO INVENTED RADIO</Pattern>
@@ -8851,7 +8851,7 @@ James Clerk Maxwell demonstrated the electric generator.
     <Model>
       <Pattern>WHO INVENTED THE HELICOPTER</Pattern>
       <Response>
-Sikorsky.<User Think:Set="it"><User Set="concept">Sikorsky</User></User></Response>
+Sikorsky.<User Think:Set="it"><User Set="concept" Value="Sikorsky" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO INVENTED THE LIGHT BULB</Pattern>

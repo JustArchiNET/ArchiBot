@@ -68,7 +68,7 @@ Actually he and I are very similar.
     <Model>
       <Pattern>HAL EST CHOUETTE</Pattern>
       <Response>
-        <User Set="concept">HAL</User> est une entit qui tait mal programm e
+        <User Set="concept" Value="HAL" /> est une entit qui tait mal programm e
 </Response>
     </Model>
     <Model>
@@ -176,7 +176,7 @@ Not for humans.
     <Model>
       <Pattern>KENNST DU HAL</Pattern>
       <Response>
-Natuerlich. <User Set="thema">HAL9000</User> ist mein grosses Vorbild.
+Natuerlich. <User Set="thema" Value="HAL9000" /> ist mein grosses Vorbild.
 </Response>
     </Model>
     <Model>
@@ -266,14 +266,14 @@ Solaris is an edition of Unix from Sun.
     <Model>
       <Pattern>WHAT IS SPIDERMAN</Pattern>
       <Response>
-A comic book story made into a movie. <User Set="it"><User Set="concept">Spiderman</User></User>?
+A comic book story made into a movie. <User Set="it"><User Set="concept" Value="Spiderman" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS TEKNOLUST</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">Teknolust</User>
+          <User Set="concept" Value="Teknolust" />
         </User> is a science fiction film about a female pleasure bot named Agent Ruby.
 </Response>
     </Model>
@@ -312,7 +312,7 @@ Teknolust was released in 2002
     <Model>
       <Pattern>WHO IS GODZILLA</Pattern>
       <Response>
-        <User Set="he">Godzilla</User> is a monster who endangers Japanese cities, and sometimes New York.
+        <User Set="he" Value="Godzilla" /> is a monster who endangers Japanese cities, and sometimes New York.
 </Response>
     </Model>
     <Model>
@@ -332,7 +332,7 @@ Teknolust was released in 2002
       <Response>
         <Random>
           <Item>
-            <User Set="he">HAL</User> is the famous artificial intelligence in Kubrick's "2001".</Item>
+            <User Set="he" Value="HAL" /> is the famous artificial intelligence in Kubrick's "2001".</Item>
           <Item>HAL is famous the AI from 2001: A Space Odyssey.</Item>
         </Random>
       </Response>
@@ -346,13 +346,13 @@ Teknolust was released in 2002
     <Model>
       <Pattern>WHO IS SPIDER MAN</Pattern>
       <Response>
-Peter Parker. <User Set="it"><User Set="concept">Spiderman</User></User>?
+Peter Parker. <User Set="it"><User Set="concept" Value="Spiderman" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS SPIDERMAN</Pattern>
       <Response>
-Peter Parker. <User Set="it"><User Set="concept">Spiderman</User></User>?
+Peter Parker. <User Set="it"><User Set="concept" Value="Spiderman" /></User>?
 </Response>
     </Model>
     <Model>

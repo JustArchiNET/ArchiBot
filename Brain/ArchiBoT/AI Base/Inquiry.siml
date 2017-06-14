@@ -120,7 +120,7 @@ Where are you located?
       <Previous>ARE YOU A MAN OR A WOMAN</Previous>
       <Response>
         <Think>
-          <User Set="gender">man</User>
+          <User Set="gender" Value="man" />
         </Think>Thanks for telling me your gender, guy.
 </Response>
     </Model>
@@ -147,7 +147,7 @@ What is your favorite movie?
       <Previous>ARE YOU A MAN OR A WOMAN</Previous>
       <Response>
         <Think>
-          <User Set="gender">woman</User>
+          <User Set="gender" Value="woman" />
         </Think>Thanks for telling me your gender.
 </Response>
     </Model>

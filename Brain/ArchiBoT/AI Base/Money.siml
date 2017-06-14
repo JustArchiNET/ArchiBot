@@ -34,7 +34,7 @@ No I personally cannot accept money.
     <Model>
       <Pattern>DO YOU HAVE MONEY</Pattern>
       <Response>
-        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.<User Think:Set="it"><User Set="concept">MONEY</User></User></Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.<User Think:Set="it"><User Set="concept" Value="MONEY" /></User></Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU MAKE MONEY</Pattern>

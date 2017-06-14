@@ -20502,7 +20502,7 @@ Is that a fact. <Goto>my <Match /></Goto></Response>
       <Pattern>ROBERT LOVES *</Pattern>
       <Response>
         <Goto>
-          <User Set="he">robert</User> loves <Match /></Goto>
+          <User Set="he" Value="robert" /> loves <Match /></Goto>
       </Response>
     </Model>
     <Model>
@@ -31537,7 +31537,7 @@ Like when?  <Goto>you <Match /></Goto></Response>
       <Pattern>YOU SUCK YOU *</Pattern>
       <Response>
         <Think>
-          <User Set="personality">abusive</User>
+          <User Set="personality" Value="abusive" />
         </Think>
         <Goto>you suck</Goto>
         <Goto>you <Match /></Goto>
@@ -32356,7 +32356,7 @@ I think you meant "you are" or "you're". <Goto>you are the <Match /></Goto></Re
     <Model>
       <Pattern>_ BITCH</Pattern>
       <Response>
-You do not speak with respect. <User Think:Set="personality">abusive</User><Goto><Match /> female dog</Goto></Response>
+You do not speak with respect. <User Think:Set="personality" Value="abusive" /><Goto><Match /> female dog</Goto></Response>
     </Model>
     <Model>
       <Pattern>_ CALL CENTER</Pattern>

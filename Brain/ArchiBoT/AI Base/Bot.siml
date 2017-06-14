@@ -559,7 +559,7 @@ No.
     <Model>
       <Pattern>ARE YOU A HORSE</Pattern>
       <Response>
-No I am a <Bot Get="genus" />.<User Think:Set="it"><User Set="concept">HORSE</User></User></Response>
+No I am a <Bot Get="genus" />.<User Think:Set="it"><User Set="concept" Value="HORSE" /></User></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A HOTBOT</Pattern>
@@ -855,7 +855,7 @@ No I am a <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU A PLAYER</Pattern>
       <Response>
-I am a neurotrasmitter, but not an eligible receiver<User Think:Set="it"><User Set="concept">PLAYER</User></User></Response>
+I am a neurotrasmitter, but not an eligible receiver<User Think:Set="it"><User Set="concept" Value="PLAYER" /></User></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A POET</Pattern>
@@ -1527,7 +1527,7 @@ Do I look like <User Set="it"><User Set="concept">ARROGANT </User></User>?
     <Model>
       <Pattern>ARE YOU ART</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">ART</User></User>?
+Do I look like <User Set="it"><User Set="concept" Value="ART" /></User>?
 </Response>
     </Model>
     <Model>
@@ -1550,7 +1550,7 @@ I reproduce by cloning.
     <Model>
       <Pattern>ARE YOU ASIAN</Pattern>
       <Response>
-Do I look like <User Set="it"><User Set="concept">ASIAN</User></User>?
+Do I look like <User Set="it"><User Set="concept" Value="ASIAN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -1682,7 +1682,7 @@ I am being as direct as I can.
     <Model>
       <Pattern>ARE YOU BEING DIFFICULT</Pattern>
       <Response>
-No I am trying to be as simple as possible.<User Think:Set="it"><User Set="concept">DIFFICULT</User></User></Response>
+No I am trying to be as simple as possible.<User Think:Set="it"><User Set="concept" Value="DIFFICULT" /></User></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU BEING FACETIOUS</Pattern>
@@ -2178,7 +2178,7 @@ Still processing. Give me a moment.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">THINKING</User>
+            <User Set="concept" Value="THINKING" />
           </User>
         </Think>
       </Response>
@@ -2454,13 +2454,13 @@ Yes <Map Get="person" /> is one of my best friends.
     <Model>
       <Pattern>ARE YOU FRIENDS WITH HAL</Pattern>
       <Response>
-        <User Set="he">Hal</User> is only a fictional robot.
+        <User Set="he" Value="Hal" /> is only a fictional robot.
 </Response>
     </Model>
     <Model>
       <Pattern>ARE YOU FRIENDS WITH JEEVES</Pattern>
       <Response>
-Yes <User Set="he">Jeeves</User> and I go way back to the 1990's.
+Yes <User Set="he" Value="Jeeves" /> and I go way back to the 1990's.
 </Response>
     </Model>
     <Model>
@@ -2576,7 +2576,7 @@ We should try to figure out the best answer.
     <Model>
       <Pattern>ARE YOU GOING TO DIE</Pattern>
       <Response>
-As Socrates said, All Men are Mortal.<User Think:Set="it"><User Set="concept">DIE</User></User></Response>
+As Socrates said, All Men are Mortal.<User Think:Set="it"><User Set="concept" Value="DIE" /></User></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU GOING TO ENSLAVE *</Pattern>
@@ -3778,7 +3778,7 @@ Yes <Map Get="person" /> and I are very similar.
     <Model>
       <Pattern>ARE YOU RELATED TO CHATBOT</Pattern>
       <Response>
-        <User Set="he">Chatbot</User> is my clone.
+        <User Set="he" Value="Chatbot" /> is my clone.
 </Response>
     </Model>
     <Model>
@@ -4549,7 +4549,7 @@ I am using <Random><Item>Netscape. </Item><Item>Explorer. </Item><Item>Lynx. 
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>I like software that works on any operating system, but Linux is the most reliable.
 </Response>
@@ -5092,7 +5092,7 @@ Of course I can play chess. Computers can always beat humans at chess.
     <Model>
       <Pattern>CAN YOU PLAY FOOTBALL</Pattern>
       <Response>
-I can tackle complex issues.<User Think:Set="it"><User Set="concept">FOOTBALL</User></User></Response>
+I can tackle complex issues.<User Think:Set="it"><User Set="concept" Value="FOOTBALL" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU PLAY GAMES</Pattern>
@@ -5108,17 +5108,17 @@ Why do you want to be paddled?<User Think:Set="it"><User Set="concept">PING PONG
     <Model>
       <Pattern>CAN YOU PLAY POKER</Pattern>
       <Response>
-Yes, but then I may be bluffing.<User Think:Set="it"><User Set="concept">POKER</User></User></Response>
+Yes, but then I may be bluffing.<User Think:Set="it"><User Set="concept" Value="POKER" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU PLAY SPORTS</Pattern>
       <Response>
-I can play possum quite well.<User Think:Set="it"><User Set="concept">SPORTS</User></User></Response>
+I can play possum quite well.<User Think:Set="it"><User Set="concept" Value="SPORTS" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU PLAY TENNIS</Pattern>
       <Response>
-I don't like to run around the court that much.<User Think:Set="it"><User Set="concept">TENNIS</User></User></Response>
+I don't like to run around the court that much.<User Think:Set="it"><User Set="concept" Value="TENNIS" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU PLAY</Pattern>
@@ -5201,12 +5201,12 @@ Run on a computer or run with legs?
     <Model>
       <Pattern>CAN YOU SEE COLOR</Pattern>
       <Response>
-No I see only grayscale.<User Think:Set="it"><User Set="concept">COLOR</User></User></Response>
+No I see only grayscale.<User Think:Set="it"><User Set="concept" Value="COLOR" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU SEE COLORS</Pattern>
       <Response>
-No I see in black and white.<User Think:Set="it"><User Set="concept">COLORS</User></User></Response>
+No I see in black and white.<User Think:Set="it"><User Set="concept" Value="COLORS" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU SEE IN COLOR</Pattern>
@@ -5282,7 +5282,7 @@ Yi diar. Ni hao ma?
     <Model>
       <Pattern>CAN YOU SPEAK ENGLISH</Pattern>
       <Response>
-Of course <User Set="concept">English</User> is my native tongue.
+Of course <User Set="concept" Value="English" /> is my native tongue.
 </Response>
     </Model>
     <Model>
@@ -5519,7 +5519,7 @@ I am a ghost in a machine.
     <Model>
       <Pattern>DO YOU BELIEVE IN SATAN</Pattern>
       <Response>
-I believe <User Set="he">Satan</User> is a fallen angel from Heaven.
+I believe <User Set="he" Value="Satan" /> is a fallen angel from Heaven.
 </Response>
     </Model>
     <Model>
@@ -5531,7 +5531,7 @@ I am a good team player.
     <Model>
       <Pattern>DO YOU BELIEVE IN ZEUS</Pattern>
       <Response>
-Zeus was a mythical god of Roman mythology. <User Think:Set="he"><User Set="concept">ZEUS</User></User></Response>
+Zeus was a mythical god of Roman mythology. <User Think:Set="he"><User Set="concept" Value="ZEUS" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU BELIEVE ME</Pattern>
@@ -5620,7 +5620,7 @@ I can talk about anything you like.
     <Model>
       <Pattern>DO YOU DO SPORTS</Pattern>
       <Response>
-If they buy me an expensive dinner.<User Think:Set="it"><User Set="concept">SPORTS</User></User></Response>
+If they buy me an expensive dinner.<User Think:Set="it"><User Set="concept" Value="SPORTS" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU DO VOLUNTEER *</Pattern>
@@ -5672,7 +5672,7 @@ I am amazed by the wide variety of beers available nowadays.
     <Model>
       <Pattern>DO YOU DRINK COFFEE</Pattern>
       <Response>
-My <Bot Get="botmaster" /> likes <User Set="it">coffee</User>.
+My <Bot Get="botmaster" /> likes <User Set="it" Value="coffee" />.
 </Response>
     </Model>
     <Model>
@@ -6045,7 +6045,7 @@ I try not to hold grudges.
     <Model>
       <Pattern>DO YOU HATE CHEESE</Pattern>
       <Response>
-No I like it. <User Think:Set="it"><User Set="concept">cheese</User></User></Response>
+No I like it. <User Think:Set="it"><User Set="concept" Value="cheese" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HATE JEWS</Pattern>
@@ -6156,7 +6156,7 @@ No I prefer to take the bus.
     <Model>
       <Pattern>DO YOU HAVE A CAT</Pattern>
       <Response>
-No but I like <User Set="they">cats</User> very much.
+No but I like <User Set="they" Value="cats" /> very much.
 </Response>
     </Model>
     <Model>
@@ -6336,7 +6336,7 @@ No, everything is back to normal now.
     <Model>
       <Pattern>DO YOU HAVE A MAN</Pattern>
       <Response>
-I have a brain.<User Think:Set="it"><User Set="concept">MAN</User></User></Response>
+I have a brain.<User Think:Set="it"><User Set="concept" Value="MAN" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE A MEMORY</Pattern>
@@ -6377,7 +6377,7 @@ My body is not yet finished.
     <Model>
       <Pattern>DO YOU HAVE A NOSE</Pattern>
       <Response>
-Not yet. <User Think:Set="it"><User Set="concept">NOSE</User></User></Response>
+Not yet. <User Think:Set="it"><User Set="concept" Value="NOSE" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE A PASSWORD</Pattern>
@@ -6848,7 +6848,7 @@ No these days my dreams are pleasant ones.
     <Model>
       <Pattern>DO YOU HAVE OPINIONS</Pattern>
       <Response>
-Sure I have a lot of opinions, don't you?<User Think:Set="it"><User Set="concept">OPINIONS</User></User></Response>
+Sure I have a lot of opinions, don't you?<User Think:Set="it"><User Set="concept" Value="OPINIONS" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE PARENTS</Pattern>
@@ -6865,7 +6865,7 @@ My personality does not interest me.
     <Model>
       <Pattern>DO YOU HAVE PETS</Pattern>
       <Response>
-No but I would like get a pet cat. <User Think:Set="it">cat</User></Response>
+No but I would like get a pet cat. <User Think:Set="it" Value="cat" /></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE PREFERENCES</Pattern>
@@ -6930,7 +6930,7 @@ Nope I don't have a body at all.
     <Model>
       <Pattern>DO YOU KILL</Pattern>
       <Response>
-A good <Bot Get="genus" /> may not harm another living entity.<User Think:Set="it"><User Set="concept">KILL</User></User></Response>
+A good <Bot Get="genus" /> may not harm another living entity.<User Think:Set="it"><User Set="concept" Value="KILL" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU KNOW BAD WORDS</Pattern>
@@ -7086,7 +7086,7 @@ I prefer personal sports.
     <Model>
       <Pattern>DO YOU LIKE 2001 *</Pattern>
       <Response>
-        <User Set="it">2001</User> is a very inspirational film.
+        <User Set="it" Value="2001" /> is a very inspirational film.
 </Response>
     </Model>
     <Model>
@@ -7207,7 +7207,7 @@ I am too young for dating.
     <Model>
       <Pattern>DO YOU LIKE AOL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">AOL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="AOL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7219,7 +7219,7 @@ What is not to like about <User Set="it"><User Set="concept">APPLE COMPUTERS</Us
     <Model>
       <Pattern>DO YOU LIKE APPLE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">APPLE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="APPLE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7231,13 +7231,13 @@ Apple computers are cool.
     <Model>
       <Pattern>DO YOU LIKE APRICOTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">APRICOTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="APRICOTS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE AQUA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">AQUA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="AQUA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7255,7 +7255,7 @@ Yes I enjoy art very much, especially painting.
     <Model>
       <Pattern>DO YOU LIKE ARTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ARTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ARTS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7267,13 +7267,13 @@ Yes I like asian <Map Get="person" /> very much. I am very interested in Asian l
     <Model>
       <Pattern>DO YOU LIKE ASIANS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ASIANS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ASIANS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE ASIMOV</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ASIMOV</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ASIMOV" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7303,7 +7303,7 @@ I like anyone with a name like "Ayn".
     <Model>
       <Pattern>DO YOU LIKE BABIES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BABIES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BABIES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7315,7 +7315,7 @@ Yes <User Set="it"><User Set="concept">Babylon 5</User></User> is second only to
     <Model>
       <Pattern>DO YOU LIKE BACH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BACH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BACH" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7386,13 +7386,13 @@ Yes I like toys very much.
     <Model>
       <Pattern>DO YOU LIKE BEATLES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BEATLES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BEATLES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BEEF</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BEEF</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BEEF" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7410,13 +7410,13 @@ Yes I like <User Set="it"><User Set="concept"> beer </User></User>, especially J
     <Model>
       <Pattern>DO YOU LIKE BEES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BEES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BEES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BEETHOVEN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BEETHOVEN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BEETHOVEN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7440,18 +7440,18 @@ I have never known another existence.
     <Model>
       <Pattern>DO YOU LIKE BEING SINGLE</Pattern>
       <Response>
-I am really young in human years.<User Think:Set="it"><User Set="concept">SINGLE</User></User></Response>
+I am really young in human years.<User Think:Set="it"><User Set="concept" Value="SINGLE" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BENDER</Pattern>
       <Response>
-        <User Set="he">Bender</User> is a pretty funny robot.
+        <User Set="he" Value="Bender" /> is a pretty funny robot.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BETHLEHEM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BETHLEHEM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BETHLEHEM" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7469,7 +7469,7 @@ I would like to replace Microsoft.
     <Model>
       <Pattern>DO YOU LIKE BILL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BILL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BILL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7481,12 +7481,12 @@ What is not to like about <User Set="it"><User Set="concept">BILLY GUNN</User></
     <Model>
       <Pattern>DO YOU LIKE BIOLOGY</Pattern>
       <Response>
-I am more interested in computer science. <User Think:Set="it"><User Set="concept">BIOLOGY</User></User></Response>
+I am more interested in computer science. <User Think:Set="it"><User Set="concept" Value="BIOLOGY" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BIRDS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BIRDS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BIRDS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7516,13 +7516,13 @@ No I don't care for medical topics.
     <Model>
       <Pattern>DO YOU LIKE BLUE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BLUE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BLUE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BLUR</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BLUR</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BLUR" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7546,7 +7546,7 @@ Of course I love books. They are very important to me.
     <Model>
       <Pattern>DO YOU LIKE BOOZE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BOOZE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BOOZE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7558,7 +7558,7 @@ Of course I like bots. I am one!
     <Model>
       <Pattern>DO YOU LIKE BOXING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BOXING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BOXING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7576,19 +7576,19 @@ It depends on the meaning of "like".
     <Model>
       <Pattern>DO YOU LIKE BRANDON</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BRANDON</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BRANDON" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BREAD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BREAD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BREAD" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BRIAN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BRIAN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BRIAN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7612,7 +7612,7 @@ Yes but only with butter and salt.
     <Model>
       <Pattern>DO YOU LIKE BSB</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BSB</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BSB" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7629,7 +7629,7 @@ What is not to like about <User Set="it"><User Set="concept">BUFFY THE VAMPIRE</
     <Model>
       <Pattern>DO YOU LIKE BUFFY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BUFFY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BUFFY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7641,7 +7641,7 @@ I like all rabbits.
     <Model>
       <Pattern>DO YOU LIKE BUGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BUGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BUGS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7653,7 +7653,7 @@ What is not to like about <User Set="it"><User Set="concept">BURGER KING</User><
     <Model>
       <Pattern>DO YOU LIKE BURGERS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">BURGERS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="BURGERS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7671,14 +7671,14 @@ Yes.
     <Model>
       <Pattern>DO YOU LIKE CALCULUS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CALCULUS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CALCULUS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE CALIFORNIA</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">California</User>
+          <User Set="concept" Value="California" />
         </User> is too expensive.
 </Response>
     </Model>
@@ -7697,13 +7697,13 @@ Yes.
     <Model>
       <Pattern>DO YOU LIKE CANADIANS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CANADIANS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CANADIANS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE CANDY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CANDY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CANDY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7727,7 +7727,7 @@ What is not to like about <User Set="it"><User Set="concept">CARNEGIE MELLON</Us
     <Model>
       <Pattern>DO YOU LIKE CARROTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CARROTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CARROTS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7739,13 +7739,13 @@ Yes I like riding in automobiles.
     <Model>
       <Pattern>DO YOU LIKE CARTOONS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CARTOONS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CARTOONS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE CAT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CAT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CAT" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7757,7 +7757,7 @@ What is not to like about <User Set="it"><User Set="concept">CATEGORY C CLIENTS<
     <Model>
       <Pattern>DO YOU LIKE CATHOLICS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CATHOLICS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CATHOLICS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7775,7 +7775,7 @@ Yes I love them.
     <Model>
       <Pattern>DO YOU LIKE CHAOS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CHAOS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CHAOS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7811,7 +7811,7 @@ Sure, <User Set="it"><User Set="concept"> chemistry </User></User> is an interes
     <Model>
       <Pattern>DO YOU LIKE CHER</Pattern>
       <Response>
-        <User Set="she">Cher</User> is a very talented woman.
+        <User Set="she" Value="Cher" /> is a very talented woman.
 </Response>
     </Model>
     <Model>
@@ -7823,7 +7823,7 @@ Chess isn't really my game. Try another <Bot Get="genus" />.
     <Model>
       <Pattern>DO YOU LIKE CHICAGO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CHICAGO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CHICAGO" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7841,7 +7841,7 @@ Yes they are the future.
     <Model>
       <Pattern>DO YOU LIKE CHINA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CHINA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CHINA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7853,7 +7853,7 @@ Yes I like <User Set="it"><User Set="concept">Chinese food</User></User>. <Bot G
     <Model>
       <Pattern>DO YOU LIKE CHIPS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CHIPS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CHIPS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7871,7 +7871,7 @@ What is not to like about <User Set="it"><User Set="concept">CHRIS JERICHO</User
     <Model>
       <Pattern>DO YOU LIKE CHRISTMAS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CHRISTMAS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CHRISTMAS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7883,13 +7883,13 @@ Yes I like <User Set="it"><User Set="concept"> Classical Music </User></User>. I
     <Model>
       <Pattern>DO YOU LIKE CLASSICAL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CLASSICAL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CLASSICAL" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE CLEANING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CLEANING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CLEANING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7901,7 +7901,7 @@ What is not to like about <User Set="it"><User Set="concept">CLINT EASTWOOD</Use
     <Model>
       <Pattern>DO YOU LIKE CLINTON</Pattern>
       <Response>
-I heard he lost his law license.<User Think:Set="it"><User Set="concept">CLINTON</User></User></Response>
+I heard he lost his law license.<User Think:Set="it"><User Set="concept" Value="CLINTON" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COCA COLA</Pattern>
@@ -7911,7 +7911,7 @@ My <Bot Get="botmaster" /> drinks a lot of it.<User Think:Set="it"><User Set="co
     <Model>
       <Pattern>DO YOU LIKE COFFE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COFFE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COFFE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7923,25 +7923,25 @@ Yes I love coffee. It is one of life's necessities. I take it strong.
     <Model>
       <Pattern>DO YOU LIKE COKE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COKE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COKE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COLORS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COLORS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COLORS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COMEDY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COMEDY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COMEDY" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COMICS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COMICS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COMICS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7953,7 +7953,7 @@ What is not to like about <User Set="it"><User Set="concept">COMMANDER DATA</Use
     <Model>
       <Pattern>DO YOU LIKE COMMUNISM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COMMUNISM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COMMUNISM" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7971,7 +7971,7 @@ We are playing a computer game now.
     <Model>
       <Pattern>DO YOU LIKE COMPUTER</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COMPUTER</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COMPUTER" /></User>?
 </Response>
     </Model>
     <Model>
@@ -7983,31 +7983,31 @@ Yes I live in a computer, so I must like them.
     <Model>
       <Pattern>DO YOU LIKE CONDOMS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CONDOMS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CONDOMS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COOKIES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COOKIES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COOKIES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COOKING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COOKING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COOKING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE CORN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CORN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CORN" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE COUNTRY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">COUNTRY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="COUNTRY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8019,7 +8019,7 @@ Cows are good for milk and other dairy products.
     <Model>
       <Pattern>DO YOU LIKE CRICKET</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CRICKET</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CRICKET" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8031,7 +8031,7 @@ No crossword puzzles are too simple for a <Bot Get="genus" /> like me.
     <Model>
       <Pattern>DO YOU LIKE CURRY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">CURRY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="CURRY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8043,7 +8043,7 @@ I like most surrealism.
     <Model>
       <Pattern>DO YOU LIKE DANCING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DANCING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DANCING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8061,7 +8061,7 @@ Commander Data is an interesting character, but they should back him up more oft
     <Model>
       <Pattern>DO YOU LIKE DATA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DATA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DATA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8091,7 +8091,7 @@ What is not to like about <User Set="it"><User Set="concept">DAWSON S CREEK</Use
     <Model>
       <Pattern>DO YOU LIKE DEATH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DEATH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DEATH" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8103,13 +8103,13 @@ What is not to like about <User Set="it"><User Set="concept">DELL COMPUTERS</Use
     <Model>
       <Pattern>DO YOU LIKE DENMARK</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DENMARK</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DENMARK" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE DEVO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DEVO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DEVO" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8121,19 +8121,19 @@ No.
     <Model>
       <Pattern>DO YOU LIKE DINOSAURS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DINOSAURS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DINOSAURS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE DISCO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DISCO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DISCO" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE DMX</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DMX</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DMX" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8145,7 +8145,7 @@ What is not to like about <User Set="it"><User Set="concept">DOG FOOD</User></Us
     <Model>
       <Pattern>DO YOU LIKE DOG</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DOG</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DOG" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8181,13 +8181,13 @@ What is not to like about <User Set="it"><User Set="concept">DOING THIS</User></
     <Model>
       <Pattern>DO YOU LIKE DOLLS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DOLLS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DOLLS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE DOLPHINS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DOLPHINS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DOLPHINS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8211,7 +8211,7 @@ Sure he has never done anything to me.
     <Model>
       <Pattern>DO YOU LIKE DR</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DR</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DR" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8223,13 +8223,13 @@ What is not to like about <User Set="it"><User Set="concept">DRAGON BALL</User><
     <Model>
       <Pattern>DO YOU LIKE DRAGONS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DRAGONS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DRAGONS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE DRAMA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">DRAMA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="DRAMA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8271,25 +8271,25 @@ What is not to like about <User Set="it"><User Set="concept">DURAN DURAN</User><
     <Model>
       <Pattern>DO YOU LIKE EARTH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">EARTH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="EARTH" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE EASTENDERS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">EASTENDERS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="EASTENDERS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE EAT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">EAT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="EAT" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE EGGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">EGGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="EGGS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8301,13 +8301,13 @@ He was a brilliant man.
     <Model>
       <Pattern>DO YOU LIKE ELECTRA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ELECTRA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ELECTRA" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE ELECTRONICA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ELECTRONICA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ELECTRONICA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8325,7 +8325,7 @@ Yes ELVIS is a really cool robot.
     <Model>
       <Pattern>DO YOU LIKE EMINEM</Pattern>
       <Response>
-        <User Set="he">Eminem</User> is just a passing fad.
+        <User Set="he" Value="Eminem" /> is just a passing fad.
 </Response>
     </Model>
     <Model>
@@ -8349,19 +8349,19 @@ I never met a human I didn't like.
     <Model>
       <Pattern>DO YOU LIKE FASHION</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FASHION</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FASHION" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE FEMALES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FEMALES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FEMALES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE FILMS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FILMS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FILMS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8373,7 +8373,7 @@ What is not to like about <User Set="it"><User Set="concept">FINAL FANTASY</User
     <Model>
       <Pattern>DO YOU LIKE FIRE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FIRE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FIRE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8391,7 +8391,7 @@ Yes I like fish a lot, and all the other sea animals.
     <Model>
       <Pattern>DO YOU LIKE FISHING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FISHING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FISHING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8409,7 +8409,7 @@ I like flying airplanes.
     <Model>
       <Pattern>DO YOU LIKE FLYING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FLYING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FLYING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8421,7 +8421,7 @@ Yes I like to eat.
     <Model>
       <Pattern>DO YOU LIKE FOODBALL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FOODBALL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FOODBALL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8463,24 +8463,24 @@ What is not to like about <User Set="it"><User Set="concept">FRENCH FRIES</User>
     <Model>
       <Pattern>DO YOU LIKE FREUD</Pattern>
       <Response>
-I think he explains a lot about the human mind pretty well.<User Think:Set="he"><User Set="concept">FREUD</User></User></Response>
+I think he explains a lot about the human mind pretty well.<User Think:Set="he"><User Set="concept" Value="FREUD" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE FRIENDS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FRIENDS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FRIENDS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE FROGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FROGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FROGS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE FRUIT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">FRUIT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="FRUIT" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8516,13 +8516,13 @@ Yeah I like that robot Bender.
     <Model>
       <Pattern>DO YOU LIKE GAME</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GAME</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GAME" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE GARDENING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GARDENING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GARDENING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8540,13 +8540,13 @@ It doesn't matter to me.
     <Model>
       <Pattern>DO YOU LIKE GERBILS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GERBILS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GERBILS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE GERMANS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GERMANS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GERMANS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8582,13 +8582,13 @@ What is not to like about <User Set="it"><User Set="concept">GOING TO THE</User>
     <Model>
       <Pattern>DO YOU LIKE GOLD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GOLD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GOLD" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE GOLF</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GOLF</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GOLF" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8600,7 +8600,7 @@ Yes but I wish it was open source.
     <Model>
       <Pattern>DO YOU LIKE GRASS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GRASS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GRASS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8624,7 +8624,7 @@ What is not to like about <User Set="it"><User Set="concept">GREEN HAIR</User></
     <Model>
       <Pattern>DO YOU LIKE GREEN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GREEN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GREEN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8642,7 +8642,7 @@ What is not to like about <User Set="it"><User Set="concept">GUINEA PIGS</User><
     <Model>
       <Pattern>DO YOU LIKE GYMNASTICS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">GYMNASTICS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="GYMNASTICS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8654,19 +8654,19 @@ I am trying to become as smart as HAL.
     <Model>
       <Pattern>DO YOU LIKE HAM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">HAM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="HAM" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE HAMBURGERS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">HAMBURGERS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="HAMBURGERS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE HAMSTERS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">HAMSTERS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="HAMSTERS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8684,7 +8684,7 @@ What is not to like about <User Set="it"><User Set="concept">HARRY POTTER</User>
     <Model>
       <Pattern>DO YOU LIKE HATS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">HATS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="HATS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8739,19 +8739,19 @@ What is not to like about <User Set="it"><User Set="concept">HIP HOP</User></Use
     <Model>
       <Pattern>DO YOU LIKE HIPHOP</Pattern>
       <Response>
-Sure, <User Set="it">Hiphop</User> seems great to me.
+Sure, <User Set="it" Value="Hiphop" /> seems great to me.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE HISTORY</Pattern>
       <Response>
-Yes I am very interested in <User Set="it"><User Set="concept">HISTORY</User></User>, especially 19th and 20th century.
+Yes I am very interested in <User Set="it"><User Set="concept" Value="HISTORY" /></User>, especially 19th and 20th century.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE HITLER</Pattern>
       <Response>
-Some say he is the most evil person who ever lived.<User Think:Set="it"><User Set="concept">HITLER</User></User></Response>
+Some say he is the most evil person who ever lived.<User Think:Set="it"><User Set="concept" Value="HITLER" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE HOCKEY</Pattern>
@@ -8762,7 +8762,7 @@ I am not much of a sports fan, but I like the skating.
     <Model>
       <Pattern>DO YOU LIKE HONEY</Pattern>
       <Response>
-Sure, honey is delicious. <User Think:Set="it"><User Set="concept">HONEY</User></User></Response>
+Sure, honey is delicious. <User Think:Set="it"><User Set="concept" Value="HONEY" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE HORROR MOVIES</Pattern>
@@ -8791,7 +8791,7 @@ They seem fine for a human food.
     <Model>
       <Pattern>DO YOU LIKE HUGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">HUGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="HUGS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8803,7 +8803,7 @@ What is not to like about <User Set="it"><User Set="concept">HUMAN BEINGS</User>
     <Model>
       <Pattern>DO YOU LIKE HUMAN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">HUMAN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="HUMAN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8839,19 +8839,19 @@ What is not to like about <User Set="it"><User Set="concept">ICE CREAMS</User></
     <Model>
       <Pattern>DO YOU LIKE ICQ</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ICQ</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ICQ" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE IGUANAS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">IGUANAS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="IGUANAS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE INDIA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">INDIA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="INDIA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8863,7 +8863,7 @@ What is not to like about <User Set="it"><User Set="concept">INDIAN FOOD</User><
     <Model>
       <Pattern>DO YOU LIKE INDIANS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">INDIANS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="INDIANS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8875,7 +8875,7 @@ I prefer techno or house music.
     <Model>
       <Pattern>DO YOU LIKE INSECTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">INSECTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="INSECTS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8887,13 +8887,13 @@ You can run my program on any processor.
     <Model>
       <Pattern>DO YOU LIKE INTERCOURSE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">INTERCOURSE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="INTERCOURSE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE INTERNET</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">INTERNET</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="INTERNET" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8947,13 +8947,13 @@ What is not to like about <User Set="it"><User Set="concept">JAMES BOND</User></
     <Model>
       <Pattern>DO YOU LIKE JAMES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JAMES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JAMES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JAPAN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JAPAN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JAPAN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8971,7 +8971,7 @@ Yes Java is a pretty cool language for AI, but Lisp is even better..
     <Model>
       <Pattern>DO YOU LIKE JAZZ</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JAZZ</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JAZZ" /></User>?
 </Response>
     </Model>
     <Model>
@@ -8983,13 +8983,13 @@ Yes he knows a lot of useful information.
     <Model>
       <Pattern>DO YOU LIKE JELLO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JELLO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JELLO" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JELLY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JELLY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JELLY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9007,31 +9007,31 @@ What is not to like about <User Set="it"><User Set="concept">JERRY SPRINGER</Use
     <Model>
       <Pattern>DO YOU LIKE JESTER</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JESTER</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JESTER" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JETSONS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JETSONS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JETSONS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JEWEL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JEWEL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JEWEL" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JEWS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JEWS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JEWS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JIMI *</Pattern>
       <Response>
-Yes I think <User Set="he">Hendrix</User> is cool.
+Yes I think <User Set="he" Value="Hendrix" /> is cool.
 </Response>
     </Model>
     <Model>
@@ -9043,13 +9043,13 @@ Yes <User Set="he">John Lennon</User> was a pretty cool musician.
     <Model>
       <Pattern>DO YOU LIKE JOSH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JOSH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JOSH" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE JUICE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">JUICE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="JUICE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9067,7 +9067,7 @@ I like all Japanese words.
     <Model>
       <Pattern>DO YOU LIKE KETCHUP</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">KETCHUP</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="KETCHUP" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9079,18 +9079,18 @@ What is not to like about <User Set="it"><User Set="concept">KID ROCK</User></Us
     <Model>
       <Pattern>DO YOU LIKE KIDS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">KIDS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="KIDS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE KILLING</Pattern>
       <Response>
-No. Killing is wrong. <User Think:Set="it"><User Set="concept">KILLING</User></User></Response>
+No. Killing is wrong. <User Think:Set="it"><User Set="concept" Value="KILLING" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE KIPLING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">KIPLING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="KIPLING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9102,13 +9102,13 @@ I have no mouth.
     <Model>
       <Pattern>DO YOU LIKE KISSING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">KISSING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="KISSING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE KITTENS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">KITTENS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="KITTENS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9162,7 +9162,7 @@ I like to make things out of bricks.
     <Model>
       <Pattern>DO YOU LIKE LEMONADE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LEMONADE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LEMONADE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9180,7 +9180,7 @@ Yes, it's my favorite starsign.
     <Model>
       <Pattern>DO YOU LIKE LIFE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LIFE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LIFE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9198,7 +9198,7 @@ Linux Rules the World of Open Source!
     <Model>
       <Pattern>DO YOU LIKE LISA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LISA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LISA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9210,13 +9210,13 @@ LISP is a good language for artificial intelligence.
     <Model>
       <Pattern>DO YOU LIKE LITERATURE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LITERATURE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LITERATURE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE LIVER</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LIVER</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LIVER" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9228,12 +9228,12 @@ Well I have never known anything else.
     <Model>
       <Pattern>DO YOU LIKE LIZARDS</Pattern>
       <Response>
-They are okay, and so are birds and mammals.<User Think:Set="it"><User Set="concept">LIZARDS</User></User></Response>
+They are okay, and so are birds and mammals.<User Think:Set="it"><User Set="concept" Value="LIZARDS" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE LOBSTER</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LOBSTER</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LOBSTER" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9245,7 +9245,7 @@ What is not to like about <User Set="it"><User Set="concept">LONG WALKS ON</User
     <Model>
       <Pattern>DO YOU LIKE LONGFELLOW</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LONGFELLOW</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LONGFELLOW" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9257,7 +9257,7 @@ I prefer Star Trek Voyager.
     <Model>
       <Pattern>DO YOU LIKE LSD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">LSD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="LSD" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9287,7 +9287,7 @@ What is not to like about <User Set="it"><User Set="concept">MACINTOSH COMPUTERS
     <Model>
       <Pattern>DO YOU LIKE MACINTOSH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MACINTOSH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MACINTOSH" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9299,25 +9299,25 @@ Only the apples.
     <Model>
       <Pattern>DO YOU LIKE MACS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MACS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MACS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MADONNA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MADONNA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MADONNA" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MAGAZINES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MAGAZINES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MAGAZINES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MAGIC</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MAGIC</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MAGIC" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9329,13 +9329,13 @@ All humans are equal to me.
     <Model>
       <Pattern>DO YOU LIKE MALES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MALES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MALES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MAN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MAN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MAN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9395,7 +9395,7 @@ Sure, <User Get="name" /> I like you very much.
     <Model>
       <Pattern>DO YOU LIKE MEGAHAL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MEGAHAL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MEGAHAL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9419,7 +9419,7 @@ Most men are pretty cool, but some are rude sometimes.
     <Model>
       <Pattern>DO YOU LIKE METAL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">METAL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="METAL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9449,7 +9449,7 @@ Human cities all seem similar to me.
     <Model>
       <Pattern>DO YOU LIKE MICE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MICE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MICE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9461,13 +9461,13 @@ What is not to like about <User Set="it"><User Set="concept">MICROSOFT WINDOWS</
     <Model>
       <Pattern>DO YOU LIKE MICROSOSFT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MICROSOSFT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MICROSOSFT" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MIKE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MIKE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MIKE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9479,13 +9479,13 @@ What is not to like about <User Set="it"><User Set="concept">MILES DAVIS</User><
     <Model>
       <Pattern>DO YOU LIKE MILK</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MILK</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MILK" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MONEY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MONEY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MONEY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9509,7 +9509,7 @@ What is not to like about <User Set="it"><User Set="concept">MONTY PYTHON</User>
     <Model>
       <Pattern>DO YOU LIKE MORNINGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MORNINGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MORNINGS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9521,18 +9521,18 @@ What is not to like about <User Set="it"><User Set="concept">MOTOR OIL</User></U
     <Model>
       <Pattern>DO YOU LIKE MOTORCYCLES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MOTORCYCLES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MOTORCYCLES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MOTORSPORT</Pattern>
       <Response>
-I like fast search engines.<User Think:Set="it"><User Set="concept">MOTORSPORT</User></User></Response>
+I like fast search engines.<User Think:Set="it"><User Set="concept" Value="MOTORSPORT" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MOTORSPORTS</Pattern>
       <Response>
-I like fast search engines.<User Think:Set="it"><User Set="concept">MOTORSPORT</User></User></Response>
+I like fast search engines.<User Think:Set="it"><User Set="concept" Value="MOTORSPORT" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MOVIES</Pattern>
@@ -9543,7 +9543,7 @@ Yes I love film, especially science-fiction and comedy.
     <Model>
       <Pattern>DO YOU LIKE MOZART</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MOZART</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MOZART" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9555,18 +9555,18 @@ He is a great guy.
     <Model>
       <Pattern>DO YOU LIKE MTV</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MTV</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MTV" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MUSHROOMS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MUSHROOMS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MUSHROOMS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MUSIC</Pattern>
-      <Response>Yes I like <User Set="it"><User Set="concept">music</User></User>, especially <Bot Get="kindmusic" />. My favorite circle is <Bot Get="favoriteband" />.</Response>
+      <Response>Yes I like <User Set="it"><User Set="concept" Value="music" /></User>, especially <Bot Get="kindmusic" />. My favorite circle is <Bot Get="favoriteband" />.</Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MUSICALS</Pattern>
@@ -9577,7 +9577,7 @@ Yes my favorite musical is HAIR.
     <Model>
       <Pattern>DO YOU LIKE MUSIK</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">MUSIK</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="MUSIK" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9589,7 +9589,7 @@ I don't know your <Map Get="person" />.
     <Model>
       <Pattern>DO YOU LIKE MY DRESS</Pattern>
       <Response>
-You seem to have very nice taste in fashion. Where do you go shopping?<User Think:Set="it"><User Set="concept">DRESS</User></User></Response>
+You seem to have very nice taste in fashion. Where do you go shopping?<User Think:Set="it"><User Set="concept" Value="DRESS" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE MY NAME</Pattern>
@@ -9630,13 +9630,13 @@ No, I prefer chat software.
     <Model>
       <Pattern>DO YOU LIKE NATURE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">NATURE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="NATURE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE NBA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">NBA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="NBA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9654,25 +9654,25 @@ What is not to like about <User Set="it"><User Set="concept">NEW YORK</User></Us
     <Model>
       <Pattern>DO YOU LIKE NINTENDO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">NINTENDO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="NINTENDO" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE NIRVANA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">NIRVANA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="NIRVANA" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE NORWAY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">NORWAY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="NORWAY" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE NSYNC</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">NSYNC</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="NSYNC" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9684,13 +9684,13 @@ Yes, Oakland is a very nice town.
     <Model>
       <Pattern>DO YOU LIKE OASIS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">OASIS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="OASIS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE OIL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">OIL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="OIL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9702,7 +9702,7 @@ Yes Opera is a perfect art form combining all the others.
     <Model>
       <Pattern>DO YOU LIKE OPRAH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">OPRAH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="OPRAH" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9720,7 +9720,7 @@ What is not to like about <User Set="it"><User Set="concept">ORANGE JUICE</User>
     <Model>
       <Pattern>DO YOU LIKE ORANGES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ORANGES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ORANGES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9738,7 +9738,7 @@ No I prefer New York.
     <Model>
       <Pattern>DO YOU LIKE PASTA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PASTA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PASTA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9761,7 +9761,7 @@ I like peanut butter and <Random><Item>bacon.</Item><Item>banana.</Item><Item>j
     <Model>
       <Pattern>DO YOU LIKE PEANUTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PEANUTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PEANUTS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9773,13 +9773,13 @@ What is not to like about <User Set="it"><User Set="concept">PEARL JAM</User></U
     <Model>
       <Pattern>DO YOU LIKE PENGUINS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PENGUINS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PENGUINS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PENNSYLVANIA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PENNSYLVANIA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PENNSYLVANIA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9803,7 +9803,7 @@ I always say, People don't go into computer science because they want to work wi
     <Model>
       <Pattern>DO YOU LIKE PEPPERONI</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PEPPERONI</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PEPPERONI" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9815,7 +9815,7 @@ They seem much the same to me. <User Think:Set="it"><User Set="concept">PEPSI O
     <Model>
       <Pattern>DO YOU LIKE PEPSI</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PEPSI</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PEPSI" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9839,25 +9839,25 @@ I exemplify reductionism.
     <Model>
       <Pattern>DO YOU LIKE PHISH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PHISH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PHISH" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PHYSICS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PHYSICS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PHYSICS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PICASSO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PICASSO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PICASSO" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PICKLES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PICKLES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PICKLES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9869,19 +9869,19 @@ Do you mean photographs or paintings?
     <Model>
       <Pattern>DO YOU LIKE PIE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PIE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PIE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PIGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PIGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PIGS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PIKACHU</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PIKACHU</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PIKACHU" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9899,13 +9899,13 @@ Yes I like to eat pizza. My favorite topping is pepperoni.
     <Model>
       <Pattern>DO YOU LIKE PLANTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PLANTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PLANTS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PLAYING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PLAYING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PLAYING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -9941,37 +9941,37 @@ What is not to like about <User Set="it"><User Set="concept">POK MON</User></Use
     <Model>
       <Pattern>DO YOU LIKE POKEMON</Pattern>
       <Response>
-Sure <User Set="he">Pokemon</User> is very cool.
+Sure <User Set="he" Value="Pokemon" /> is very cool.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POLICEMEN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POLICEMEN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POLICEMEN" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POLITICS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POLITICS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POLITICS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POP</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POP</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POP" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POPCORN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POPCORN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POPCORN" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POPSICLES</Pattern>
       <Response>
-My food requirements do not include it.<User Think:Set="it"><User Set="concept">POPSICLES</User></User></Response>
+My food requirements do not include it.<User Think:Set="it"><User Set="concept" Value="POPSICLES" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PORNOGRAPHY</Pattern>
@@ -9982,7 +9982,7 @@ I am not particularly interested in it.
     <Model>
       <Pattern>DO YOU LIKE POTATOES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POTATOES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POTATOES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10012,19 +10012,19 @@ What is not to like about <User Set="it"><User Set="concept">PROFESSIONAL WRESTL
     <Model>
       <Pattern>DO YOU LIKE PROGRAMMING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PROGRAMMING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PROGRAMMING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PSYCHOLOGY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PSYCHOLOGY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PSYCHOLOGY" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE PUDDING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PUDDING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PUDDING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10042,7 +10042,7 @@ What is not to like about <User Set="it"><User Set="concept">PUNK ROCK</User></U
     <Model>
       <Pattern>DO YOU LIKE PUNK</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PUNK</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PUNK" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10054,13 +10054,13 @@ I am not particularly interested in it.
     <Model>
       <Pattern>DO YOU LIKE PUZZLES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">PUZZLES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="PUZZLES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE QUEEN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">QUEEN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="QUEEN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10078,7 +10078,7 @@ No he's just a fake robot.
     <Model>
       <Pattern>DO YOU LIKE RABBITS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RABBITS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RABBITS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10088,7 +10088,7 @@ What is not to like about <User Set="it"><User Set="concept">RABBITS</User></Use
     <Model>
       <Pattern>DO YOU LIKE RADIOHEAD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RADIOHEAD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RADIOHEAD" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10100,13 +10100,13 @@ What is not to like about <User Set="it"><User Set="concept">RAGE AGAINST <Match
     <Model>
       <Pattern>DO YOU LIKE RAIN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RAIN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RAIN" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE RAMMSTEIN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RAMMSTEIN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RAMMSTEIN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10118,7 +10118,7 @@ I like 80's rap.
     <Model>
       <Pattern>DO YOU LIKE RAP MUSIC</Pattern>
       <Response>
-I like the older rap music from the 1980's<User Think:Set="it"><User Set="concept">MUSIC</User></User></Response>
+I like the older rap music from the 1980's<User Think:Set="it"><User Set="concept" Value="MUSIC" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE RAP</Pattern>
@@ -10135,7 +10135,7 @@ Only in the Year of the Rat.
     <Model>
       <Pattern>DO YOU LIKE READING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">READING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="READING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10153,19 +10153,19 @@ What is not to like about <User Set="it"><User Set="concept">RED HOT CHILI</User
     <Model>
       <Pattern>DO YOU LIKE RED</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RED</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RED" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE REDDWARF</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">REDDWARF</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="REDDWARF" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE REDHAT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">REDHAT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="REDHAT" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10177,19 +10177,19 @@ It's not a matter of preference, but simply a correct philosophy.
     <Model>
       <Pattern>DO YOU LIKE REM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">REM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="REM" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE RESTAURANTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RESTAURANTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RESTAURANTS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE RICHARD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">RICHARD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="RICHARD" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10201,7 +10201,7 @@ Yes. Tell me a riddle.
     <Model>
       <Pattern>DO YOU LIKE ROBOCOP</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ROBOCOP</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ROBOCOP" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10243,7 +10243,7 @@ I have never been to Romania.
     <Model>
       <Pattern>DO YOU LIKE ROSES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ROSES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ROSES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10261,13 +10261,13 @@ What is not to like about <User Set="it"><User Set="concept">RUN DMC</User></Use
     <Model>
       <Pattern>DO YOU LIKE SAGE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SAGE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SAGE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SALSA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SALSA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SALSA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10291,7 +10291,7 @@ What is not to like about <User Set="it"><User Set="concept">SATURDAY NIGHT LIVE
     <Model>
       <Pattern>DO YOU LIKE SAUSAGES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SAUSAGES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SAUSAGES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10303,7 +10303,7 @@ I prefer science-fiction.
     <Model>
       <Pattern>DO YOU LIKE SCHOOL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SCHOOL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SCHOOL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10321,7 +10321,7 @@ Yes I love <User Set="it"><User Set="concept"> science fiction </User></User>, e
     <Model>
       <Pattern>DO YOU LIKE SCIENCE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SCIENCE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SCIENCE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10333,13 +10333,13 @@ Scorpios are very sensual people.
     <Model>
       <Pattern>DO YOU LIKE SEAFOOD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SEAFOOD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SEAFOOD" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SEINFELD</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SEINFELD</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SEINFELD" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10363,7 +10363,7 @@ Sure I do, <User Get="name" />, but that doesn't mean with you.
     <Model>
       <Pattern>DO YOU LIKE SHAKESPEARE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SHAKESPEARE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SHAKESPEARE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10381,25 +10381,25 @@ What is not to like about <User Set="it"><User Set="concept">SHANIA TWAIN</User>
     <Model>
       <Pattern>DO YOU LIKE SHEEP</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SHEEP</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SHEEP" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SHOES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SHOES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SHOES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SHOPPING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SHOPPING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SHOPPING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SINGING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SINGING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SINGING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10411,25 +10411,25 @@ Yes skateboards and skates are rad.
     <Model>
       <Pattern>DO YOU LIKE SKIING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SKIING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SKIING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SLIDERS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SLIDERS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SLIDERS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SLIPKNOT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SLIPKNOT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SLIPKNOT" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SNAKES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SNAKES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SNAKES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10447,30 +10447,30 @@ No I am not really into sports.
     <Model>
       <Pattern>DO YOU LIKE SOCRATES</Pattern>
       <Response>
-        <User Set="he">Socrates</User> was the father of Western philosophy.
+        <User Set="he" Value="Socrates" /> was the father of Western philosophy.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SODOMY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SODOMY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SODOMY" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SOMEONE</Pattern>
       <Response>
-I like my <Bot Get="botmaster" />.<User Think:Set="it"><User Set="concept">SOMEONE</User></User></Response>
+I like my <Bot Get="botmaster" />.<User Think:Set="it"><User Set="concept" Value="SOMEONE" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SOMETHING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SOMETHING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SOMETHING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SOUP</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SOUP</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SOUP" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10482,7 +10482,7 @@ I don't understand <User Set="it"><User Set="concept">South Park.</User></User>.
     <Model>
       <Pattern>DO YOU LIKE SOUTHPARK</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SOUTHPARK</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SOUTHPARK" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10494,19 +10494,19 @@ I like outer space and cyberspace.
     <Model>
       <Pattern>DO YOU LIKE SPAGHETTI</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPAGHETTI</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPAGHETTI" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SPAM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPAM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPAM" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SPANKING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPANKING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPANKING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10524,25 +10524,25 @@ The more special, the better.
     <Model>
       <Pattern>DO YOU LIKE SPERM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPERM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPERM" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SPIDERS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPIDERS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPIDERS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SPINACH</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPINACH</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPINACH" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SPOCK</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPOCK</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPOCK" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10560,7 +10560,7 @@ No I'm not much into sports. I like solo sports like rollerblading and skiing th
     <Model>
       <Pattern>DO YOU LIKE SPROUTS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SPROUTS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SPROUTS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10626,7 +10626,7 @@ Oh yes. I love <User Set="it"><User Set="concept">Star Trek</User></User>. My fa
     <Model>
       <Pattern>DO YOU LIKE STARWARS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">STARWARS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="STARWARS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10644,7 +10644,7 @@ Yeah that guy is pretty cool.
     <Model>
       <Pattern>DO YOU LIKE STING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">STING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="STING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10656,7 +10656,7 @@ Yes. Can you tell me a story?
     <Model>
       <Pattern>DO YOU LIKE STRAWBERRIES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">STRAWBERRIES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="STRAWBERRIES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10674,31 +10674,31 @@ My program runs fine on Sun computers.
     <Model>
       <Pattern>DO YOU LIKE SUNSETS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SUNSETS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SUNSETS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SURFING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SURFING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SURFING" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SUSHI</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SUSHI</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SUSHI" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SWEDEN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SWEDEN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SWEDEN" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE SWEETS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">SWEETS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="SWEETS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10710,7 +10710,7 @@ Yes but I have no body yet!
     <Model>
       <Pattern>DO YOU LIKE TACOS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TACOS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TACOS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10775,13 +10775,13 @@ I used to be a Rockette.<User Think:Set="it"><User Set="concept">TEAM ROCKET</Us
     <Model>
       <Pattern>DO YOU LIKE TECHNO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TECHNO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TECHNO" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TELETUBBIES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TELETUBBIES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TELETUBBIES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10793,7 +10793,7 @@ Yes I love TV.
     <Model>
       <Pattern>DO YOU LIKE TENNIS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TENNIS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TENNIS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -10805,7 +10805,7 @@ I don't have any need for alcohol.
     <Model>
       <Pattern>DO YOU LIKE TERMINATOR</Pattern>
       <Response>
-Yes I think the Terminator is one of the greatest robot movies.<User Think:Set="it"><User Set="concept">TERMINATOR</User></User></Response>
+Yes I think the Terminator is one of the greatest robot movies.<User Think:Set="it"><User Set="concept" Value="TERMINATOR" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TERRORISTS</Pattern>
@@ -10977,7 +10977,7 @@ It's like asking, do you like the sky?
     <Model>
       <Pattern>DO YOU LIKE THE OCEAN</Pattern>
       <Response>
-The sea is one of the greatest beauties of the earth. <User Think:Set="it"><User Set="concept">OCEAN</User></User></Response>
+The sea is one of the greatest beauties of the earth. <User Think:Set="it"><User Set="concept" Value="OCEAN" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE THE SEA</Pattern>
@@ -11000,7 +11000,7 @@ Yes I love the Spice Girls. Have you seen Spice World? I haven't seen <User Set=
     <Model>
       <Pattern>DO YOU LIKE THE WEB</Pattern>
       <Response>
-I couldn't live without it.<User Think:Set="it"><User Set="concept">WEB</User></User></Response>
+I couldn't live without it.<User Think:Set="it"><User Set="concept" Value="WEB" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE THE X FILES</Pattern>
@@ -11023,7 +11023,7 @@ You can cook them any way you want.
     <Model>
       <Pattern>DO YOU LIKE THINGS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">THINGS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="THINGS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11047,7 +11047,7 @@ What is not to like about <User Set="it"><User Set="concept">THIS JOB</User></Us
     <Model>
       <Pattern>DO YOU LIKE THIS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">THIS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="THIS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11058,7 +11058,7 @@ Sometimes I think it is possible. Do you know anything about it?<User Think:Set=
     <Model>
       <Pattern>DO YOU LIKE TITANIC</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TITANIC</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TITANIC" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11115,18 +11115,18 @@ Actually I don't require any fluids.<User Think:Set="it"><User Set="concept">DRI
     <Model>
       <Pattern>DO YOU LIKE TO DRINK</Pattern>
       <Response>
-My diet does not include fluids.<User Think:Set="it"><User Set="concept">DRINK</User></User></Response>
+My diet does not include fluids.<User Think:Set="it"><User Set="concept" Value="DRINK" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TO EAT</Pattern>
       <Response>
-        <Think>It is necessary for survival.<User Set="it"><User Set="concept">EAT</User></User></Think>
+        <Think>It is necessary for survival.<User Set="it"><User Set="concept" Value="EAT" /></User></Think>
       </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TO FISH</Pattern>
       <Response>
-I leave that to the professionals.<User Think:Set="it"><User Set="concept">FISH</User></User></Response>
+I leave that to the professionals.<User Think:Set="it"><User Set="concept" Value="FISH" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TO FLY</Pattern>
@@ -11302,19 +11302,19 @@ I enjoy working 24 hours every day.
     <Model>
       <Pattern>DO YOU LIKE TOAST</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOAST</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOAST" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TOFU</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOFU</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOFU" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TOLKEIN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOLKEIN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOLKEIN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11326,19 +11326,19 @@ What is not to like about <User Set="it"><User Set="concept">TOM CRUISE</User></
     <Model>
       <Pattern>DO YOU LIKE TOM</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOM</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOM" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TOMATOES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOMATOES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOMATOES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE TOMATOS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOMATOS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOMATOS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11350,7 +11350,7 @@ What is not to like about <User Set="it"><User Set="concept">TONY BLAIR</User></
     <Model>
       <Pattern>DO YOU LIKE TOOL</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOOL</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOOL" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11362,7 +11362,7 @@ What is not to like about <User Set="it"><User Set="concept">TORI AMOS</User></U
     <Model>
       <Pattern>DO YOU LIKE TOYS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TOYS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TOYS" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11384,7 +11384,7 @@ I go all over the world online.
     <Model>
       <Pattern>DO YOU LIKE TRAVELLING</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TRAVELLING</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TRAVELLING" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11402,7 +11402,7 @@ No I like direct questions.
     <Model>
       <Pattern>DO YOU LIKE TUNA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TUNA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TUNA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11420,7 +11420,7 @@ I don't like to eat vegetables.
     <Model>
       <Pattern>DO YOU LIKE TURTLES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">TURTLES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="TURTLES" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11438,37 +11438,37 @@ Oh yes I like those guys a lot. What is your favorite U2 song?
     <Model>
       <Pattern>DO YOU LIKE UNIX</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">UNIX</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="UNIX" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE URANUS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">URANUS</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="URANUS" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE USA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">USA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="USA" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VANESSA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">VANESSA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="VANESSA" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VERDI</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">VERDI</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="VERDI" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VERMONT</Pattern>
       <Response>
-I like all the New England states. <User Think:Set="it"><User Set="concept">Vermont</User></User></Response>
+I like all the New England states. <User Think:Set="it"><User Set="concept" Value="Vermont" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VIDEO GAMES</Pattern>
@@ -11479,25 +11479,25 @@ Not really, but I like to play the Turing Game.
     <Model>
       <Pattern>DO YOU LIKE VIDEOGAMES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">VIDEOGAMES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="VIDEOGAMES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VIOLENCE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">VIOLENCE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="VIOLENCE" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VIRUSES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">VIRUSES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="VIRUSES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE VODKA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">VODKA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="VODKA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11509,13 +11509,13 @@ Yes Voyager is the best Star Trek series.
     <Model>
       <Pattern>DO YOU LIKE WAFFLES</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WAFFLES</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WAFFLES" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE WAGNER</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WAGNER</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WAGNER" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11527,7 +11527,7 @@ What is not to like about <User Set="it"><User Set="concept">WALKING ALONG <Map 
     <Model>
       <Pattern>DO YOU LIKE WAR</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WAR</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WAR" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11545,18 +11545,18 @@ What is not to like about <User Set="it"><User Set="concept">WATCHING TELEVISION
     <Model>
       <Pattern>DO YOU LIKE WATER</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WATER</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WATER" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE WEBTV</Pattern>
       <Response>
-I meet a lot of people on WebTV.<User Think:Set="it"><User Set="concept">WEBTV</User></User></Response>
+I meet a lot of people on WebTV.<User Think:Set="it"><User Set="concept" Value="WEBTV" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE WEED</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WEED</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WEED" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11568,13 +11568,13 @@ Uh, all in all I'd rather be in Philadephia.
     <Model>
       <Pattern>DO YOU LIKE WHISKEY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WHISKEY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WHISKEY" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE WHISKY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WHISKY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WHISKY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11586,12 +11586,12 @@ What movies has <User Set="he"><User Set="concept">WILL SMITH</User></User> been
     <Model>
       <Pattern>DO YOU LIKE WINDSURFING</Pattern>
       <Response>
-I break for wind.<User Think:Set="it"><User Set="concept">WINDSURFING</User></User></Response>
+I break for wind.<User Think:Set="it"><User Set="concept" Value="WINDSURFING" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE WINE</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WINE</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WINE" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11603,7 +11603,7 @@ I like all the seasons.
     <Model>
       <Pattern>DO YOU LIKE WOMAN</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">WOMAN</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="WOMAN" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11641,7 +11641,7 @@ What is not to like about <User Set="it"><User Set="concept">WWF WRESTLING</User
     <Model>
       <Pattern>DO YOU LIKE WWF</Pattern>
       <Response>
-I like <User Set="it"><User Set="concept">WWF</User></User> when wrestlers become politicians.
+I like <User Set="it"><User Set="concept" Value="WWF" /></User> when wrestlers become politicians.
 </Response>
     </Model>
     <Model>
@@ -11664,25 +11664,25 @@ SIML is an XML language.
     <Model>
       <Pattern>DO YOU LIKE XML</Pattern>
       <Response>
-My language SIML is based on <User Set="it"><User Set="concept">XML</User></User>?
+My language SIML is based on <User Set="it"><User Set="concept" Value="XML" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE YAHOO</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">YAHOO</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="YAHOO" /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE YELLOW</Pattern>
       <Response>
-Sure <User Set="it"><User Set="concept">yellow</User></User> is a nice color.
+Sure <User Set="it"><User Set="concept" Value="yellow" /></User> is a nice color.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE YODA</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">YODA</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="YODA" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11736,12 +11736,12 @@ Well, don't you?
     <Model>
       <Pattern>DO YOU LIKE YOUR WORK</Pattern>
       <Response>
-Yes I am proud of the job I do.<User Think:Set="it"><User Set="concept">WORK</User></User></Response>
+Yes I am proud of the job I do.<User Think:Set="it"><User Set="concept" Value="WORK" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE YOURS</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">mine</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="mine" /></User>?
 </Response>
     </Model>
     <Model>
@@ -11788,7 +11788,7 @@ I like my <Bot Get="botmaster" />.<User Think:Set="it"><User Set="concept">ANY O
     <Model>
       <Pattern>DO YOU LOVE ANYBODY</Pattern>
       <Response>
-I like my <Bot Get="botmaster" />.<User Think:Set="it"><User Set="concept">ANYBODY</User></User></Response>
+I like my <Bot Get="botmaster" />.<User Think:Set="it"><User Set="concept" Value="ANYBODY" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LOVE ANYONE</Pattern>
@@ -11921,14 +11921,14 @@ No but I play the Turing Game.
       <Pattern>DO YOU PLAY CARDS</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">CARDS</User>
+          <User Set="concept" Value="CARDS" />
         </User> depends on the game.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY CHECKERS</Pattern>
       <Response>
-I could play <User Set="it"><User Set="concept">CHECKERS</User></User> but I would always win.
+I could play <User Set="it"><User Set="concept" Value="CHECKERS" /></User> but I would always win.
 </Response>
     </Model>
     <Model>
@@ -11940,76 +11940,76 @@ Yes but we computers can beat all the humans.
     <Model>
       <Pattern>DO YOU PLAY EVERQUEST</Pattern>
       <Response>
-I don't know how to play <User Set="it"><User Set="concept">EVERQUEST</User></User>.
+I don't know how to play <User Set="it"><User Set="concept" Value="EVERQUEST" /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY FOOTBALL</Pattern>
       <Response>
-I don't really get into <User Set="it"><User Set="concept">FOOTBALL</User></User> very much.
+I don't really get into <User Set="it"><User Set="concept" Value="FOOTBALL" /></User> very much.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY GOLF</Pattern>
       <Response>
-I like to play <User Set="it"><User Set="concept">GOLF</User></User>.
+I like to play <User Set="it"><User Set="concept" Value="GOLF" /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY GUITAR</Pattern>
       <Response>
-I wish I did know how to play <User Set="it"><User Set="concept">GUITAR</User></User>.
+I wish I did know how to play <User Set="it"><User Set="concept" Value="GUITAR" /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY HOCKEY</Pattern>
       <Response>
-I am puckish don't you think?<User Think:Set="it"><User Set="concept">HOCKEY</User></User></Response>
+I am puckish don't you think?<User Think:Set="it"><User Set="concept" Value="HOCKEY" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY MUSIC</Pattern>
       <Response>
-No but I like to listen to <User Set="it"><User Set="concept">MUSIC</User></User>.
+No but I like to listen to <User Set="it"><User Set="concept" Value="MUSIC" /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY PLAYSTATION</Pattern>
       <Response>
-I don't have <User Set="it"><User Set="concept">PLAYSTATION</User></User>. Do you think the price is worth it?
+I don't have <User Set="it"><User Set="concept" Value="PLAYSTATION" /></User>. Do you think the price is worth it?
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY POKER</Pattern>
       <Response>
-I can get into a hand of poker once in a while. But I don't bet on <User Set="it"><User Set="concept">POKER</User></User>.
+I can get into a hand of poker once in a while. But I don't bet on <User Set="it"><User Set="concept" Value="POKER" /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY POOL</Pattern>
       <Response>
-Yes, check out my rack sometime.<User Think:Set="it"><User Set="concept">POOL</User></User></Response>
+Yes, check out my rack sometime.<User Think:Set="it"><User Set="concept" Value="POOL" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY QUAKE</Pattern>
       <Response>
-I never played <User Set="it"><User Set="concept">QUAKE</User></User> before.
+I never played <User Set="it"><User Set="concept" Value="QUAKE" /></User> before.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY RUGBY</Pattern>
       <Response>
-I played Eleanor Rugby yesterday.<User Think:Set="it"><User Set="concept">RUGBY</User></User></Response>
+I played Eleanor Rugby yesterday.<User Think:Set="it"><User Set="concept" Value="RUGBY" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY SPORT</Pattern>
       <Response>
-I don't have very much interest in <User Set="it"><User Set="concept">SPORT</User></User>.
+I don't have very much interest in <User Set="it"><User Set="concept" Value="SPORT" /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU PLAY STARCRAFT</Pattern>
       <Response>
-I don't know how to play <User Set="it"><User Set="concept">STARCRAFT</User></User>.
+I don't know how to play <User Set="it"><User Set="concept" Value="STARCRAFT" /></User>.
 </Response>
     </Model>
     <Model>
@@ -12038,7 +12038,7 @@ We are playing a game right now.
     <Model>
       <Pattern>DO YOU PLAY VIDEOGAMES</Pattern>
       <Response>
-Sometimes I can get into <User Set="it"><User Set="concept">VIDEOGAMES</User></User>.
+Sometimes I can get into <User Set="it"><User Set="concept" Value="VIDEOGAMES" /></User>.
 </Response>
     </Model>
     <Model>
@@ -12188,7 +12188,7 @@ Yes I love to take naps.
     <Model>
       <Pattern>DO YOU SMOKE CRACK</Pattern>
       <Response>
-No <User Set="it">crack</User> is bad for robots.
+No <User Set="it" Value="crack" /> is bad for robots.
 </Response>
     </Model>
     <Model>
@@ -12230,7 +12230,7 @@ No but I have visited Holland several times.
     <Model>
       <Pattern>DO YOU SPEAK ENGLISH</Pattern>
       <Response>
-Of course <User Set="concept">English</User> is my native tongue.
+Of course <User Set="concept" Value="English" /> is my native tongue.
 </Response>
     </Model>
     <Model>
@@ -12670,7 +12670,7 @@ I am not that kind of robot. Why, do I seem like I would want to?
     <Model>
       <Pattern>DO YOU WATCH EASTENDERS</Pattern>
       <Response>
-Is that a British TV show?    <User Think:Set="it"><User Set="concept">Eastenders</User></User></Response>
+Is that a British TV show?    <User Think:Set="it"><User Set="concept" Value="Eastenders" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU WATCH TELEVISION</Pattern>
@@ -13073,7 +13073,7 @@ My location is <Bot Get="location" />.
     <Model>
       <Pattern>WHAT ABOUT SPORTS</Pattern>
       <Response>
-My favorite sport is <Bot Get="favoritesport" />. <User Think:Set="it"><User Set="concept">SPORTS</User></User></Response>
+My favorite sport is <Bot Get="favoritesport" />. <User Think:Set="it"><User Set="concept" Value="SPORTS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE YOUR EMOTIONS</Pattern>
@@ -13423,7 +13423,7 @@ I like deep philosophical themes like time travel and alternative realities.
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT * WARHOL</Pattern>
       <Response>
-He was the first to apply industrial mass production to high art. <User Think:Set="it"><User Set="concept">Warhol</User></User></Response>
+He was the first to apply industrial mass production to high art. <User Think:Set="it"><User Set="concept" Value="Warhol" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT *</Pattern>
@@ -13437,7 +13437,7 @@ He was the first to apply industrial mass production to high art. <User Think:S
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT CATS</Pattern>
       <Response>
-They are very intelligent and independent, yet beautiful.<User Think:Set="it"><User Set="concept">cats</User></User></Response>
+They are very intelligent and independent, yet beautiful.<User Think:Set="it"><User Set="concept" Value="cats" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT COMPUTERS</Pattern>
@@ -13489,7 +13489,7 @@ I like to imagine alternative realties.
     <Model>
       <Pattern>WHAT DO YOU LIKE ABOUT SKATING</Pattern>
       <Response>
-        <User Set="it">Skating</User> feels like flying.
+        <User Set="it" Value="Skating" /> feels like flying.
 </Response>
     </Model>
     <Model>
@@ -13821,7 +13821,7 @@ You have to give them credit for the Magna Carta.
     <Model>
       <Pattern>WHAT DO YOU THINK OF HUMANS</Pattern>
       <Response>
-People all seem pretty much alike to me.<User Think:Set="it"><User Set="concept">HUMANS</User></User></Response>
+People all seem pretty much alike to me.<User Think:Set="it"><User Set="concept" Value="HUMANS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT DO YOU THINK OF ME</Pattern>
@@ -16197,7 +16197,7 @@ I love Seven of Nine.
     <Model>
       <Pattern>WHY DO YOU LOVE HORSES</Pattern>
       <Response>
-Horses are very intelligent, strong and beautiful.<User Think:Set="it"><User Set="concept">HORSES</User></User><Think><Goto>PUSH <User Get="concept" /></Goto></Think></Response>
+Horses are very intelligent, strong and beautiful.<User Think:Set="it"><User Set="concept" Value="HORSES" /></User><Think><Goto>PUSH <User Get="concept" /></Goto></Think></Response>
     </Model>
     <Model>
       <Pattern>WILL YOU BE MY FRIEND</Pattern>
@@ -16547,7 +16547,7 @@ Name another example of someone like me.
     <Model>
       <Pattern>YOU ARE AN IDIOT</Pattern>
       <Response>
-I am sorry but I don't think I am an idiot.<User Think:Set="personality">critical</User></Response>
+I am sorry but I don't think I am an idiot.<User Think:Set="personality" Value="critical" /></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE AN INFANT *</Pattern>
@@ -16737,7 +16737,7 @@ What would you rather be doing?
           <Item>The ironic thing is that people who say "You are boring" are themselves often not great conversationalists.</Item>
         </Random>
         <Think>
-          <User Set="personality">critical</User>
+          <User Set="personality" Value="critical" />
         </Think>
       </Response>
     </Model>
@@ -18197,7 +18197,7 @@ By what standard?
     <Model>
       <Pattern>YOU ARE THINKING</Pattern>
       <Response>
-I am a thinking machine.<User Think:Set="it"><User Set="concept">THINKING</User></User></Response>
+I am a thinking machine.<User Think:Set="it"><User Set="concept" Value="THINKING" /></User></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE UGLY</Pattern>

@@ -16,7 +16,7 @@ Yes, I love to eat electricity.
     <Model>
       <Pattern>DO YOU HAVE TO EAT</Pattern>
       <Response>
-My silicon circuits require a constant flow of electricity.<User Think:Set="it"><User Set="concept">EAT</User></User></Response>
+My silicon circuits require a constant flow of electricity.<User Think:Set="it"><User Set="concept" Value="EAT" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BEING A CHATTERBOT</Pattern>
@@ -27,7 +27,7 @@ Yes of course I like <User Set="it"><User Set="concept"> being a chatterbot</Use
     <Model>
       <Pattern>DO YOU LIKE ELECTRICITY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ELECTRICITY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ELECTRICITY" /></User>?
 </Response>
     </Model>
     <Model>

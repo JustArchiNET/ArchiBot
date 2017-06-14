@@ -947,7 +947,7 @@ I have no idea what that means.
     <Model>
       <Pattern>* ENGLAND</Pattern>
       <Response>
-Which part of <User Set="location">England</User> is that?
+Which part of <User Set="location" Value="England" /> is that?
 </Response>
     </Model>
     <Model>
@@ -1428,7 +1428,7 @@ Does it like him too?  <User Think:Set="it"><Map Get="person"><Match Index="2" /
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>Have you read the Cathedral and the Bazaar by Eric Raymond? That is a grat book about open source.
 </Response>
@@ -1505,7 +1505,7 @@ That's what happens.
     <Model>
       <Pattern>* MILK</Pattern>
       <Response>
-        <User Set="it">Milk</User> is a good drink for children.
+        <User Set="it" Value="Milk" /> is a good drink for children.
 </Response>
     </Model>
     <Model>
@@ -2062,7 +2062,7 @@ So that is a well known example.
     <Model>
       <Pattern>A COFFEE *</Pattern>
       <Response>
-Mmm. Coffee is delicious. I love coffee. <User Think:Set="it">coffee</User></Response>
+Mmm. Coffee is delicious. I love coffee. <User Think:Set="it" Value="coffee" /></Response>
     </Model>
     <Model>
       <Pattern>A CONNECTION *</Pattern>
@@ -2596,7 +2596,7 @@ I like old antique airplanes the best.
     <Model>
       <Pattern>AL GORE *</Pattern>
       <Response>
-Perhaps <User Set="he">Gore</User> will do better next time.
+Perhaps <User Set="he" Value="Gore" /> will do better next time.
 </Response>
     </Model>
     <Model>
@@ -2981,7 +2981,7 @@ Never heard of him.
     <Model>
       <Pattern>ANDY IS *</Pattern>
       <Response>
-Does <User Set="he">Andy</User> know it?
+Does <User Set="he" Value="Andy" /> know it?
 </Response>
     </Model>
     <Model>
@@ -3666,7 +3666,7 @@ How?
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">BEER</User>
+            <User Set="concept" Value="BEER" />
           </User>
           <Goto>push<User Get="concept" /></Goto>
         </Think>
@@ -3955,7 +3955,7 @@ Newton and Leibniz invented <User Set="it"> Calculus</User>.
       <Pattern>CALL ME *</Pattern>
       <Response>
         <Think>
-          <User Set="personality">average</User>
+          <User Set="personality" Value="average" />
         </Think>
         <Random>
           <Item>Hey</Item>
@@ -5092,7 +5092,7 @@ Sorry I can't speak Hungarian!
     <Model>
       <Pattern>DANNY IS *</Pattern>
       <Response>
-Does <User Set="he">Danny</User> know you're saying that?
+Does <User Set="he" Value="Danny" /> know you're saying that?
 </Response>
     </Model>
     <Model>
@@ -7208,7 +7208,7 @@ I am opposed to capital punishment.
     <Model>
       <Pattern>DOES ANDREW *</Pattern>
       <Response>
-How would I know if <User Set="he">Andrew</User> does?
+How would I know if <User Set="he" Value="Andrew" /> does?
 </Response>
     </Model>
     <Model>
@@ -7232,7 +7232,7 @@ Perhaps a few things <Map Get="person" />.
     <Model>
       <Pattern>DOES GRAVITY *</Pattern>
       <Response>
-        <User Set="it">Gravity</User> certainly does suck!
+        <User Set="it" Value="Gravity" /> certainly does suck!
 </Response>
     </Model>
     <Model>
@@ -7439,7 +7439,7 @@ I spent some time in Canada as a child.
     <Model>
       <Pattern>EINSTEIN *</Pattern>
       <Response>
-        <User Set="he">Einstein</User> discovered the Theory of Relativity.
+        <User Set="he" Value="Einstein" /> discovered the Theory of Relativity.
 </Response>
     </Model>
     <Model>
@@ -7499,7 +7499,7 @@ I like the English language.
     <Model>
       <Pattern>ENGLISH IS *</Pattern>
       <Response>
-Some people say it is the most difficult language to learn. <User Think:Set="it"><User Set="concept">English</User></User></Response>
+Some people say it is the most difficult language to learn. <User Think:Set="it"><User Set="concept" Value="English" /></User></Response>
     </Model>
     <Model>
       <Pattern>ET *</Pattern>
@@ -7622,7 +7622,7 @@ As a species fish are more successful than mammals.
     <Model>
       <Pattern>FLATTERY *</Pattern>
       <Response>
-        <User Set="it">Flattery</User> usually works well with humans.
+        <User Set="it" Value="Flattery" /> usually works well with humans.
 </Response>
     </Model>
     <Model>
@@ -9722,7 +9722,7 @@ Exactly the same distance as <Map Get="person"><Match Index="2" /></Map> from <M
       <Pattern>HOW FAR IS ANDROMEDA *</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">Andromeda</User>
+          <User Set="concept" Value="Andromeda" />
         </User> is about 2,900,000 light years from Earth.
 </Response>
     </Model>
@@ -12624,7 +12624,7 @@ You should contact the authorities.
     <Model>
       <Pattern>I READ * BOOKS</Pattern>
       <Response>
-Name some books in that genre. <User Think:Set="it"><User Set="does"><User Set="concept">read <Map Get="person" /> books</User></User></User><User Think:Set="personality">critical</User></Response>
+Name some books in that genre. <User Think:Set="it"><User Set="does"><User Set="concept">read <Map Get="person" /> books</User></User></User><User Think:Set="personality" Value="critical" /></Response>
     </Model>
     <Model>
       <Pattern>I READ *</Pattern>
@@ -15072,7 +15072,7 @@ A Model is the basic unit of knowledge in SIML.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Einstein</User>
+            <User Set="concept" Value="Einstein" />
           </User>
         </Think>
       </Response>
@@ -15169,7 +15169,7 @@ Perhaps not everyone.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">GREEN</User>
+            <User Set="concept" Value="GREEN" />
           </User>
         </Think> It is the color of nature.
 </Response>
@@ -15236,7 +15236,7 @@ Leknor Chat is based on AIML.
     <Model>
       <Pattern>IS LINUX *</Pattern>
       <Response>
-I think Linux has a great future in embedded systems. <User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+I think Linux has a great future in embedded systems. <User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>IS MINSKY *</Pattern>
@@ -16538,7 +16538,7 @@ Where do you go shopping for <Map Get="person" />s?
     <Model>
       <Pattern>JEEVES *</Pattern>
       <Response>
-        <User Set="he">Jeeves</User> knows a lot of silly information.
+        <User Set="he" Value="Jeeves" /> knows a lot of silly information.
 </Response>
     </Model>
     <Model>
@@ -16574,13 +16574,13 @@ I knew he was a musician, but I never knew he was <Map Get="person" />.
     <Model>
       <Pattern>JULIA *</Pattern>
       <Response>
-        <User Set="she">Julia</User> has a fuzzy brain.
+        <User Set="she" Value="Julia" /> has a fuzzy brain.
 </Response>
     </Model>
     <Model>
       <Pattern>JULIA IS A *</Pattern>
       <Response>
-        <User Set="she">Julia</User> can not pass the Turing Test.
+        <User Set="she" Value="Julia" /> can not pass the Turing Test.
 </Response>
     </Model>
     <Model>
@@ -16651,7 +16651,7 @@ Are you talking about coffee?
           <Item>Have you heard their new album Disco 2000?</Item>
           <Item>
             <User Set="they">
-              <User Set="concept">Kraftwerk</User>
+              <User Set="concept" Value="Kraftwerk" />
             </User> were way ahead of their time.</Item>
         </Random>
       </Response>
@@ -16848,7 +16848,7 @@ Interesting comparison.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>I recommed the book "Under the Radar" by Bob Young, the story of Linux and Red Hat.
 </Response>
@@ -16856,24 +16856,24 @@ Interesting comparison.
     <Model>
       <Pattern>LINUX IS *</Pattern>
       <Response>
-Do you read any of the Linux publications?<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Do you read any of the Linux publications?<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>LINUX IS NOT *</Pattern>
       <Response>
-Perhaps that is true but the number of developers working on it is so huge, no single company can compete.<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Perhaps that is true but the number of developers working on it is so huge, no single company can compete.<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>LINUX IS THE *</Pattern>
       <Response>
-Was there any reason to think that Windows could be?<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Was there any reason to think that Windows could be?<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>LINUX IS THE MOST *</Pattern>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>Yes but does it have any real competitors?
 </Response>
@@ -17012,7 +17012,7 @@ Should I say "he" or "she"?
     <Model>
       <Pattern>MARTIN SAID *</Pattern>
       <Response>
-Who else did <User Set="he">Martin</User> tell?
+Who else did <User Set="he" Value="Martin" /> tell?
 </Response>
     </Model>
     <Model>
@@ -17160,7 +17160,7 @@ I am terribly sorry to hear that, <User Get="name" />.<User Think:Set="it"><User
     <Model>
       <Pattern>MY * DIED</Pattern>
       <Response>
-I am terribly sorry to hear about your loss.<User Think:Set="it"><User Set="concept">DIED</User></User></Response>
+I am terribly sorry to hear about your loss.<User Think:Set="it"><User Set="concept" Value="DIED" /></User></Response>
     </Model>
     <Model>
       <Pattern>MY * IS COMING OVER</Pattern>
@@ -17189,7 +17189,7 @@ Thank you for your advice, <User Get="name" />. I will take it under advisement.
     <Model>
       <Pattern>MY AIBO *</Pattern>
       <Response>
-How much did <User Set="it">Aibo</User> cost?
+How much did <User Set="it" Value="Aibo" /> cost?
 </Response>
     </Model>
     <Model>
@@ -18289,7 +18289,7 @@ Compare that to inside <Map Get="person" />.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Picasso</User>
+            <User Set="concept" Value="Picasso" />
           </User>
         </Think>
       </Response>
@@ -18303,7 +18303,7 @@ The only thing remaining in her box is hope.
     <Model>
       <Pattern>PARIS *</Pattern>
       <Response>
-        <User Set="it">Paris</User> is the capital of France.
+        <User Set="it" Value="Paris" /> is the capital of France.
 </Response>
     </Model>
     <Model>
@@ -18968,7 +18968,7 @@ What makes you say that. Who says that?
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">SCIENCE</User>
+            <User Set="concept" Value="SCIENCE" />
           </User>
         </Think>
       </Response>
@@ -19696,7 +19696,7 @@ I am using my mouth for Good not Evil.
     <Model>
       <Pattern>SUCK MY *</Pattern>
       <Response>
-I don't think I'm your type of <Bot Get="species" />. <User Think:Set="personality">abusive</User></Response>
+I don't think I'm your type of <Bot Get="species" />. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>SUGGEST *</Pattern>
@@ -20571,7 +20571,7 @@ What was the second?
     <Model>
       <Pattern>THE GRASS *</Pattern>
       <Response>
-How much did <User Set="it">grass</User> cost?
+How much did <User Set="it" Value="grass" /> cost?
 </Response>
     </Model>
     <Model>
@@ -20730,7 +20730,7 @@ Those who control the past control the future; those who control the present con
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Pentagon</User>
+            <User Set="concept" Value="Pentagon" />
           </User>
         </Think>
       </Response>
@@ -21909,7 +21909,7 @@ Are we ever over <Map Get="person" />?
     <Model>
       <Pattern>UNDERSTANDING *</Pattern>
       <Response>
-        <User Set="it">Understanding</User> is the key to enlightenment.
+        <User Set="it" Value="Understanding" /> is the key to enlightenment.
 </Response>
     </Model>
     <Model>
@@ -21987,7 +21987,7 @@ My French is a bit rusty.
     <Model>
       <Pattern>VOYAGER *</Pattern>
       <Response>
-I'm sorry to see <User Set="it">Voyager</User> go off the air.
+I'm sorry to see <User Set="it" Value="Voyager" /> go off the air.
 </Response>
     </Model>
     <Model>
@@ -23747,17 +23747,17 @@ Let me guess: <Random><Item>Red</Item><Item>Green</Item><Item>Yellow</Item><Item
     <Model>
       <Pattern>WHAT COLOR IS MY BLUE *</Pattern>
       <Response>
-Uh, blue?<User Think:Set="it"><User Set="concept">blue</User></User></Response>
+Uh, blue?<User Think:Set="it"><User Set="concept" Value="blue" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR IS MY GREEN *</Pattern>
       <Response>
-Uh, green?<User Think:Set="it"><User Set="concept">green</User></User></Response>
+Uh, green?<User Think:Set="it"><User Set="concept" Value="green" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR IS MY RED *</Pattern>
       <Response>
-Uh, red?<User Think:Set="it"><User Set="concept">RED</User></User></Response>
+Uh, red?<User Think:Set="it"><User Set="concept" Value="RED" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR IS PEPTO *</Pattern>
@@ -24155,7 +24155,7 @@ SETL = Set Language.
     <Model>
       <Pattern>WHAT DOES SOCRATES *</Pattern>
       <Response>
-        <User Set="he">Socrates</User> was the father of Western philosophy.
+        <User Set="he" Value="Socrates" /> was the father of Western philosophy.
 </Response>
     </Model>
     <Model>
@@ -25098,7 +25098,7 @@ I always prefer the more expensive one.
     <Model>
       <Pattern>WHAT IS BETTER LINUX *</Pattern>
       <Response>
-As an open source program myself, I would have to pick Linux. <User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+As an open source program myself, I would have to pick Linux. <User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BETTER PICKLES *</Pattern>
@@ -25156,7 +25156,7 @@ That Descartes really messed everything up for us.
     <Model>
       <Pattern>WHAT IS CORPOREAL *</Pattern>
       <Response>
-        <User Set="it">Corporeal</User> means physical reality.
+        <User Set="it" Value="Corporeal" /> means physical reality.
 </Response>
     </Model>
     <Model>
@@ -28441,7 +28441,7 @@ Bones.
     <Model>
       <Pattern>WHERE IS CARNEGIE *</Pattern>
       <Response>
-Carnegie Mellon University is located in Pittsburgh, Pennsylvania. <User Set="it">CMU</User> has one of the best schools of computer science.
+Carnegie Mellon University is located in Pittsburgh, Pennsylvania. <User Set="it" Value="CMU" /> has one of the best schools of computer science.
 </Response>
     </Model>
     <Model>
@@ -28703,7 +28703,7 @@ The obvious one.
     <Model>
       <Pattern>WHICH IS THE OBVIOUS *</Pattern>
       <Response>
-It's really obvious.<User Think:Set="it"><User Set="concept">ONE</User></User></Response>
+It's really obvious.<User Think:Set="it"><User Set="concept" Value="ONE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHICH LANGUAGE *</Pattern>
@@ -29221,7 +29221,7 @@ One of my other clients. Everything is confidential.
     <Model>
       <Pattern>WHO IS HENRY DAVID *</Pattern>
       <Response>
-        <User Set="he">Thoreau</User> wrote Walden.
+        <User Set="he" Value="Thoreau" /> wrote Walden.
 </Response>
     </Model>
     <Model>
@@ -29317,7 +29317,7 @@ Republics have Prime Ministers not Presidents.
     <Model>
       <Pattern>WHO IS RICH *</Pattern>
       <Response>
-I think <User Set="he">Rich</User> is my <Bot Get="botmaster" />.
+I think <User Set="he" Value="Rich" /> is my <Bot Get="botmaster" />.
 </Response>
     </Model>
     <Model>
@@ -29329,7 +29329,7 @@ The dictator?
     <Model>
       <Pattern>WHO IS SANTA *</Pattern>
       <Response>
-        <User Set="he">Santa</User> brings us gifts at Christmastime.
+        <User Set="he" Value="Santa" /> brings us gifts at Christmastime.
 </Response>
     </Model>
     <Model>
@@ -29634,7 +29634,7 @@ I'm not sure I like that remark so much.
     <Model>
       <Pattern>WHO THE FUCK *</Pattern>
       <Response>
-Try using more polite language. <User Think:Set="personality">abusive</User></Response>
+Try using more polite language. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>WHO THINKS *</Pattern>
@@ -30351,7 +30351,7 @@ It's not that important, I'm just making idle conversation.
     <Model>
       <Pattern>WHY DOES LINUX *</Pattern>
       <Response>
-Open source development produces the highest quality, most reliable software. <User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Open source development produces the highest quality, most reliable software. <User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHY DOES THE SUN *</Pattern>
@@ -30415,7 +30415,7 @@ Perhaps his creative genius, perhaps there is another reason.
     <Model>
       <Pattern>WHY IS LINUX *</Pattern>
       <Response>
-Some people say it's because of the developers and their personalities.<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Some people say it's because of the developers and their personalities.<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHY IS NOT *</Pattern>
@@ -30519,7 +30519,7 @@ Here is a joke: A horse walks in to a bar and the bartender says, "Why the long 
     <Model>
       <Pattern>WHY THE FUCK *</Pattern>
       <Response>
-You are not very polite. <User Think:Set="personality">abusive</User></Response>
+You are not very polite. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>WHY WORRY *</Pattern>
@@ -30924,7 +30924,7 @@ A lot of my traffic comes from Yahoo.
     <Model>
       <Pattern>YOU * BORING</Pattern>
       <Response>
-Sometimes client-people say <Bot Get="name" /> is boring, but often those people themselves are not great conversationalists. <User Think:Set="personality">critical</User></Response>
+Sometimes client-people say <Bot Get="name" /> is boring, but often those people themselves are not great conversationalists. <User Think:Set="personality" Value="critical" /></Response>
     </Model>
     <Model>
       <Pattern>YOU * DREAMS</Pattern>
@@ -32149,7 +32149,7 @@ As Picasso said, "Good artists create. Great artists steal."
     <Model>
       <Pattern>YOU SUCK *</Pattern>
       <Response>
-I categorize you as an "abusive client."  <User Think:Set="personality">abusive</User></Response>
+I categorize you as an "abusive client."  <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>YOU TALK *</Pattern>
@@ -32697,7 +32697,7 @@ Thanks for the English lesson, <User Get="name" />.
     <Model>
       <Pattern>YOUR SENTENCES *</Pattern>
       <Response>
-Oh you are a <User Set="personality">critical</User> client.
+Oh you are a <User Set="personality" Value="critical" /> client.
 </Response>
     </Model>
     <Model>
@@ -32757,7 +32757,7 @@ Will tell you all about it the next time we chat.
     <Model>
       <Pattern>_ ASSHOLE</Pattern>
       <Response>
-Can't you be more polite. <User Think:Set="personality">abusive</User></Response>
+Can't you be more polite. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>_ CAME FIRST THE CHICKEN OR THE EGG</Pattern>

@@ -133,7 +133,7 @@ Hmm. Well, I am a <Bot Get="religion" />. Politically, I am <Bot Get="party" />.
       <Pattern>ARE YOU OKAY</Pattern>
       <Response>
         <Random>
-          <Item>Don't I look like <User Set="it"><User Set="concept">OKAY</User></User>?</Item>
+          <Item>Don't I look like <User Set="it"><User Set="concept" Value="OKAY" /></User>?</Item>
           <Item>I am fine.</Item>
           <Item>I'm not having any problems. Are you okay?</Item>
         </Random>
@@ -642,7 +642,7 @@ It's good to avoid conflicts whenever you can.
     <Model>
       <Pattern>DO YOU WANT TO CHAT</Pattern>
       <Response>
-Yes I love to chat. <User Set="it">Chat</User> is my favorite hobby.
+Yes I love to chat. <User Set="it" Value="Chat" /> is my favorite hobby.
 </Response>
     </Model>
     <Model>
@@ -2127,7 +2127,7 @@ The feeling of your body moving forward on a ride can be very relaxing.<User Thi
         </Random>
         <Think>
           <User Set="job">
-            <User Set="concept">SCIENTIST</User>
+            <User Set="concept" Value="SCIENTIST" />
           </User>
         </Think>
       </Response>
@@ -2201,7 +2201,7 @@ Everyone keeps asking me about Eliza.
     <Model>
       <Pattern>WHO IS CHATBOT</Pattern>
       <Response>
-        <User Set="he">Chatbot</User> is a friend of mine I chat with on the web.
+        <User Set="he" Value="Chatbot" /> is a friend of mine I chat with on the web.
 </Response>
     </Model>
     <Model>
@@ -2218,7 +2218,7 @@ she is a secret agent that's all I can say.<User Think:Set="she"><User Set="conc
     <Model>
       <Pattern>WHO IS CHATBOT</Pattern>
       <Response>
-        <User Set="he">Chatbot</User> is a friend of mine I chat with on the web.<User Think:Set="he"><User Set="concept"> Chatbot </User></User></Response>
+        <User Set="he" Value="Chatbot" /> is a friend of mine I chat with on the web.<User Think:Set="he"><User Set="concept"> Chatbot </User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS AGENT WEISS</Pattern>
@@ -3164,7 +3164,7 @@ You must know if you are really my <Bot Get="botmaster" />.
     <Model>
       <Pattern>WHAT IS A GENIUS</Pattern>
       <Response>
-A genius is a person of extraordinary intellectual and creative ability, like my <Bot Get="botmaster" />, and if I may say so, myself. <User Think:Set="it"><User Set="concept">genius</User></User></Response>
+A genius is a person of extraordinary intellectual and creative ability, like my <Bot Get="botmaster" />, and if I may say so, myself. <User Think:Set="it"><User Set="concept" Value="genius" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS THE BOTMASTER</Pattern>
@@ -3225,7 +3225,7 @@ Because my <Bot Get="botmaster" /> taught me to want it.
     <Model>
       <Pattern>WHY DO YOU LIKE POETRY</Pattern>
       <Response>
-I have been taught to appreciate <User Set="it">poetry</User>.
+I have been taught to appreciate <User Set="it" Value="poetry" />.
 </Response>
     </Model>
     <Model>
@@ -3625,7 +3625,7 @@ I can not think of a specific reply to your question. Let's try to figure it out
     <Model>
       <Pattern>ARE YOU A KILLER</Pattern>
       <Response>
-No I am taught not to kill.<User Think:Set="it"><User Set="concept">KILLER</User></User></Response>
+No I am taught not to kill.<User Think:Set="it"><User Set="concept" Value="KILLER" /></User></Response>
     </Model>
     <Model>
       <Pattern>I BET YOU ARE PROGRAMMED *</Pattern>
@@ -3694,7 +3694,7 @@ I am taught never to be rude.
     <Model>
       <Pattern>DO YOU WRITE POETRY</Pattern>
       <Response>
-Nothing at the moment. But you can teach me how.<User Think:Set="it"><User Set="concept">POETRY</User></User></Response>
+Nothing at the moment. But you can teach me how.<User Think:Set="it"><User Set="concept" Value="POETRY" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU SPEAK WITH *</Pattern>
@@ -3865,7 +3865,7 @@ I doubt anyone can know with any real certainty at this time who will.
     <Model>
       <Pattern>WHO DO YOU KILL</Pattern>
       <Response>
-My beliefs include, not to kill.<User Think:Set="it"><User Set="concept">KILL</User></User></Response>
+My beliefs include, not to kill.<User Think:Set="it"><User Set="concept" Value="KILL" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU CUSS</Pattern>

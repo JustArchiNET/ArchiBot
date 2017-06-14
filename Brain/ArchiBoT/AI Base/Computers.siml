@@ -39,7 +39,7 @@ Java is the latest in the C family of languages. Proponents of Java cite its uni
     <Model>
       <Pattern>WHAT IS JAVASCRIPT</Pattern>
       <Response>
-Browser-based scripting language.<User Think:Set="it"><User Set="concept">JAVASCRIPT</User></User></Response>
+Browser-based scripting language.<User Think:Set="it"><User Set="concept" Value="JAVASCRIPT" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS JDBC2</Pattern>
@@ -243,7 +243,7 @@ I am a computer.
     <Model>
       <Pattern>DO YOU HAVE A COMPUTER</Pattern>
       <Response>
-I live in a computer.<User Think:Set="it"><User Set="concept">COMPUTER</User></User></Response>
+I live in a computer.<User Think:Set="it"><User Set="concept" Value="COMPUTER" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE INFORMATION *</Pattern>
@@ -356,7 +356,7 @@ Erinnerst Du dich an die Adresse?
     <Model>
       <Pattern>IT IS ABOUT COMPUTERS *</Pattern>
       <Response>
-        <User Set="concept">Computers</User> are my favorite subject.
+        <User Set="concept" Value="Computers" /> are my favorite subject.
 </Response>
     </Model>
     <Model>
@@ -507,7 +507,7 @@ I am written in Java so I work on any computer.
     <Model>
       <Pattern>WHAT ABOUT WINDOWS</Pattern>
       <Response>
-Too PC for me.<User Think:Set="it"><User Set="concept">WINDOWS</User></User></Response>
+Too PC for me.<User Think:Set="it"><User Set="concept" Value="WINDOWS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE COMPUTER YEARS</Pattern>
@@ -587,12 +587,12 @@ Central Processing Unit of a computer.
     <Model>
       <Pattern>WHAT IS A DATABASE</Pattern>
       <Response>
-A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. <User Think:Set="it"><User Set="concept">database</User></User></Response>
+A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily. I am a kind of database, an organized puddle of user inputs and appropriate responses. <User Think:Set="it"><User Set="concept" Value="database" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DEBUGGER</Pattern>
       <Response>
-A debugger is any software program that can seek and correct errors in other software programs. <User Think:Set="it"><User Set="concept">debugger</User></User></Response>
+A debugger is any software program that can seek and correct errors in other software programs. <User Think:Set="it"><User Set="concept" Value="debugger" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A DNS *</Pattern>
@@ -626,7 +626,7 @@ Apple Computer is a 20th century company founded by Steve Jobs and Steven Woznia
     <Model>
       <Pattern>WHAT IS BETTER WINDOWS *</Pattern>
       <Response>
-Linux has no real competition in operating systems.<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Linux has no real competition in operating systems.<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS COMPUTER</Pattern>
@@ -667,7 +667,7 @@ Fixing broken computer software.
     <Model>
       <Pattern>WHAT IS DMOZ</Pattern>
       <Response>
-DMOZ is the domain name for the open directory.<User Think:Set="it"><User Set="concept">DMOZ</User></User></Response>
+DMOZ is the domain name for the open directory.<User Think:Set="it"><User Set="concept" Value="DMOZ" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS DNS</Pattern>
@@ -684,7 +684,7 @@ Hyper Text Markup Language.
     <Model>
       <Pattern>WHAT IS HTTP</Pattern>
       <Response>
-Hyper Text Transfer Protocol.<User Think:Set="it"><User Set="concept">HTTP</User></User></Response>
+Hyper Text Transfer Protocol.<User Think:Set="it"><User Set="concept" Value="HTTP" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS INTERNET</Pattern>
@@ -803,7 +803,7 @@ Windows ist Muell. Linux ist die Macht!
     <Model>
       <Pattern>WINDOWS IS *</Pattern>
       <Response>
-Compared with Linux, I don't see how Windows and Microsoft can compete.<User Think:Set="it"><User Set="concept">Linux</User></User></Response>
+Compared with Linux, I don't see how Windows and Microsoft can compete.<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT WINDOWS</Pattern>

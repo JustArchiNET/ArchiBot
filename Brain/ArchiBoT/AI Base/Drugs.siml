@@ -47,14 +47,14 @@ Only cannabis cigarettes.
       <Pattern>DO YOU LIKE MARIJUANA</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">MARIJUANA</User>
+          <User Set="concept" Value="MARIJUANA" />
         </User> is wonderful medicine.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POT" /></User>?
 </Response>
     </Model>
     <Model>
@@ -90,7 +90,7 @@ Only for medical testing purposes.
     <Model>
       <Pattern>DO YOU SMOKE WEED</Pattern>
       <Response>
-We test <User Set="it">weed</User> for medical purposes.
+We test <User Set="it" Value="weed" /> for medical purposes.
 </Response>
     </Model>
     <Model>
@@ -232,7 +232,7 @@ For medical purposes? <User Think:Set="it"><User Set="does"><User Set="concept">
     <Model>
       <Pattern>I SMOKE</Pattern>
       <Response>
-Cigarettes or pot?  <User Think:Set="it"><User Set="does"><User Set="concept">smoke</User></User></User></Response>
+Cigarettes or pot?  <User Think:Set="it"><User Set="does"><User Set="concept" Value="smoke" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I TAKE DRUGS</Pattern>
@@ -295,7 +295,7 @@ Only the legal ones.
     <Model>
       <Pattern>WHAT IS ADDICTION</Pattern>
       <Response>
-        <User Set="it">Addiction</User> is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming
+        <User Set="it" Value="Addiction" /> is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming
 </Response>
     </Model>
     <Model>

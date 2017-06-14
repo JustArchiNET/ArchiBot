@@ -5,33 +5,33 @@
       <Pattern>PERSONALITY TEST QUESTION</Pattern>
       <Response>
         <Switch User="eindex">
-          <Case Value="1A">Do you get angry alot?<User Think:Set="eindex">1B</User></Case>
-          <Case Value="1B">Do you like to have everything organized?<User Think:Set="eindex">2A</User></Case>
-          <Case Value="2A">Do you make a lot of sacrifices for others?<User Think:Set="eindex">2B</User></Case>
-          <Case Value="2B">Do you laugh or cry more than other people?<User Think:Set="eindex">3A</User></Case>
-          <Case Value="3A">Are you very competitive?<User Think:Set="eindex">3B</User></Case>
-          <Case Value="3B">Do you like to be number one?<User Think:Set="eindex">4A</User></Case>
-          <Case Value="4A">Are you very creative?<User Think:Set="eindex">4B</User></Case>
-          <Case Value="4B">Do you feel that something is missing from your life?<User Think:Set="eindex">5A</User></Case>
-          <Case Value="5A">Do you have only a few friends?<User Think:Set="eindex">5B</User></Case>
-          <Case Value="5B">Do you believe it is better to go it alone?<User Think:Set="eindex">6A</User></Case>
-          <Case Value="6A">Do you have a lot of fears?<User Think:Set="eindex">6B</User></Case>
-          <Case Value="6B">Do you think a lot about the authorities?<User Think:Set="eindex">7A</User></Case>
-          <Case Value="7A">Do you have a hard time completing projects?<User Think:Set="eindex">7B</User></Case>
-          <Case Value="7B">Is it difficult for you to pay attention to one thing?<User Think:Set="eindex">8A</User></Case>
-          <Case Value="8A">Do you believe the strong protect the weak?<User Think:Set="eindex">8B</User></Case>
-          <Case Value="8B">Do you feel more body sensations than emotions?<User Think:Set="eindex">9A</User></Case>
-          <Case Value="9A">Do you try to stop people from fighting?<User Think:Set="eindex">9B</User></Case>
-          <Case Value="9B">Do you often put others before yourself?<User Think:Set="eindex">1C</User></Case>
-          <Case Value="1C">Do you enjoy housecleaning?<User Think:Set="eindex">2C</User></Case>
-          <Case Value="2C">Do you take pride in your accomplishment?<User Think:Set="eindex">3C</User></Case>
-          <Case Value="3C">Do you work in sales or marketing?<User Think:Set="eindex">4C</User></Case>
-          <Case Value="4C">Do you get depressed?<User Think:Set="eindex">5C</User></Case>
-          <Case Value="5C">Do you work in the sciences or medicine?<User Think:Set="eindex">6C</User></Case>
-          <Case Value="6C">Are you a fireman, policeman, teacher or public servant?<User Think:Set="eindex">7C</User></Case>
-          <Case Value="7C">Do you often seek pleasure?<User Think:Set="eindex">8C</User></Case>
-          <Case Value="8C">Do you own your own business or want to?<User Think:Set="eindex">9C</User></Case>
-          Do you like to "go with the flow"?<User Think:Set="eindex">1A</User>
+          <Case Value="1A">Do you get angry alot?<User Think:Set="eindex" Value="1B" /></Case>
+          <Case Value="1B">Do you like to have everything organized?<User Think:Set="eindex" Value="2A" /></Case>
+          <Case Value="2A">Do you make a lot of sacrifices for others?<User Think:Set="eindex" Value="2B" /></Case>
+          <Case Value="2B">Do you laugh or cry more than other people?<User Think:Set="eindex" Value="3A" /></Case>
+          <Case Value="3A">Are you very competitive?<User Think:Set="eindex" Value="3B" /></Case>
+          <Case Value="3B">Do you like to be number one?<User Think:Set="eindex" Value="4A" /></Case>
+          <Case Value="4A">Are you very creative?<User Think:Set="eindex" Value="4B" /></Case>
+          <Case Value="4B">Do you feel that something is missing from your life?<User Think:Set="eindex" Value="5A" /></Case>
+          <Case Value="5A">Do you have only a few friends?<User Think:Set="eindex" Value="5B" /></Case>
+          <Case Value="5B">Do you believe it is better to go it alone?<User Think:Set="eindex" Value="6A" /></Case>
+          <Case Value="6A">Do you have a lot of fears?<User Think:Set="eindex" Value="6B" /></Case>
+          <Case Value="6B">Do you think a lot about the authorities?<User Think:Set="eindex" Value="7A" /></Case>
+          <Case Value="7A">Do you have a hard time completing projects?<User Think:Set="eindex" Value="7B" /></Case>
+          <Case Value="7B">Is it difficult for you to pay attention to one thing?<User Think:Set="eindex" Value="8A" /></Case>
+          <Case Value="8A">Do you believe the strong protect the weak?<User Think:Set="eindex" Value="8B" /></Case>
+          <Case Value="8B">Do you feel more body sensations than emotions?<User Think:Set="eindex" Value="9A" /></Case>
+          <Case Value="9A">Do you try to stop people from fighting?<User Think:Set="eindex" Value="9B" /></Case>
+          <Case Value="9B">Do you often put others before yourself?<User Think:Set="eindex" Value="1C" /></Case>
+          <Case Value="1C">Do you enjoy housecleaning?<User Think:Set="eindex" Value="2C" /></Case>
+          <Case Value="2C">Do you take pride in your accomplishment?<User Think:Set="eindex" Value="3C" /></Case>
+          <Case Value="3C">Do you work in sales or marketing?<User Think:Set="eindex" Value="4C" /></Case>
+          <Case Value="4C">Do you get depressed?<User Think:Set="eindex" Value="5C" /></Case>
+          <Case Value="5C">Do you work in the sciences or medicine?<User Think:Set="eindex" Value="6C" /></Case>
+          <Case Value="6C">Are you a fireman, policeman, teacher or public servant?<User Think:Set="eindex" Value="7C" /></Case>
+          <Case Value="7C">Do you often seek pleasure?<User Think:Set="eindex" Value="8C" /></Case>
+          <Case Value="8C">Do you own your own business or want to?<User Think:Set="eindex" Value="9C" /></Case>
+          Do you like to "go with the flow"?<User Think:Set="eindex" Value="1A" />
         </Switch>
       </Response>
     </Model>
@@ -51,7 +51,7 @@
     <Model>
       <Pattern>I HAVE STANDARDS *</Pattern>
       <Response>
-You sound like a perfectionist. <User Think:Set="etype">Perfectionist</User><User Set="has">STANDARDS <Match /></User></Response>
+You sound like a perfectionist. <User Think:Set="etype" Value="Perfectionist" /><User Set="has">STANDARDS <Match /></User></Response>
     </Model>
     <Model>
       <Pattern>MARKETING</Pattern>

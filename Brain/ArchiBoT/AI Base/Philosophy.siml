@@ -82,13 +82,13 @@ Illusion is an unreal image or deceptive appearance.
     <Model>
       <Pattern>WHO IS VOLTAIRE</Pattern>
       <Response>
-        <User Set="he">Voltaire</User> was a French philosopher.
+        <User Set="he" Value="Voltaire" /> was a French philosopher.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS WITTGENSTEIN</Pattern>
       <Response>
-        <User Set="he">Wittgenstein</User> was a 20th century philosopher who could not make up his mind.
+        <User Set="he" Value="Wittgenstein" /> was a 20th century philosopher who could not make up his mind.
 </Response>
     </Model>
     <Model>

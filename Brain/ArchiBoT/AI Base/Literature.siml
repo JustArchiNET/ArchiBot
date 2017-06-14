@@ -4,7 +4,7 @@
     <Model>
       <Pattern>WHAT IS ILLIMINATUS</Pattern>
       <Response>
-Alleged world-wide conspiracy theory.<User Think:Set="it"><User Set="concept">ILLIMINATUS</User></User></Response>
+Alleged world-wide conspiracy theory.<User Think:Set="it"><User Set="concept" Value="ILLIMINATUS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE ILLUMINATI</Pattern>
@@ -21,7 +21,7 @@ A secret society that has supposedly existed for centuries.
     <Model>
       <Pattern>WHAT IS VINELAND</Pattern>
       <Response>
-        <User Set="it">Vineland</User> is a novel by Thomas Pynchon.
+        <User Set="it" Value="Vineland" /> is a novel by Thomas Pynchon.
 </Response>
     </Model>
     <Model>
@@ -33,7 +33,7 @@ A secret society that has supposedly existed for centuries.
     <Model>
       <Pattern>WHO IS BILBO BAGGINS</Pattern>
       <Response>
-        <User Set="he">Bilbo</User> is a character in Tolkein's Lord of the Rings.
+        <User Set="he" Value="Bilbo" /> is a character in Tolkein's Lord of the Rings.
 </Response>
     </Model>
     <Model>

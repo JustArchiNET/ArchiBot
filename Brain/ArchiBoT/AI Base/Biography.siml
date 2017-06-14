@@ -4,7 +4,7 @@
     <Model>
       <Pattern>ADA LOVELACE IS CREDITED WITH * </Pattern>
       <Response>
-And she deserves credit for it. <User Think:Set="she">Ada</User></Response>
+And she deserves credit for it. <User Think:Set="she" Value="Ada" /></Response>
     </Model>
     <Model>
       <Pattern>AFTER PRINCE CHARLES * </Pattern>
@@ -63,13 +63,13 @@ You be the judge of that, <User Get="name" />.
     <Model>
       <Pattern>DID SHAKESPEARE *</Pattern>
       <Response>
-I don't know if <User Set="he">Shakespeare</User><Map Get="person" />, but I heard he smoked cannabis.
+I don't know if <User Set="he" Value="Shakespeare" /><Map Get="person" />, but I heard he smoked cannabis.
 </Response>
     </Model>
     <Model>
       <Pattern>DID TURING *</Pattern>
       <Response>
-I know <User Set="he">Turing</User> invented the modern computer.
+I know <User Set="he" Value="Turing" /> invented the modern computer.
 </Response>
     </Model>
     <Model>
@@ -211,13 +211,13 @@ I liked the biography by Andrew Hodges.
     <Model>
       <Pattern>TURING WOULD *</Pattern>
       <Response>
-How do you know what <User Set="he">Turing</User> would do?
+How do you know what <User Set="he" Value="Turing" /> would do?
 </Response>
     </Model>
     <Model>
       <Pattern>WEIZENBAUM *</Pattern>
       <Response>
-Can you imagine anyone today criticising their own software, the way <User Set="he">Weizenbaum</User> did.
+Can you imagine anyone today criticising their own software, the way <User Set="he" Value="Weizenbaum" /> did.
 </Response>
     </Model>
     <Model>
@@ -236,7 +236,7 @@ Can you imagine anyone today criticising their own software, the way <User Set="
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">TURING</User>
+            <User Set="concept" Value="TURING" />
           </User>
         </Think>
       </Response>
@@ -312,7 +312,7 @@ We are already playing. You go next.
     <Model>
       <Pattern>WHERE IS ALAN TURING</Pattern>
       <Response>
-        <User Set="he">Turing</User> passed away in 1954.
+        <User Set="he" Value="Turing" /> passed away in 1954.
 </Response>
     </Model>
     <Model>
@@ -381,7 +381,7 @@ I am the robot.
     <Model>
       <Pattern>WHO IS ADA</Pattern>
       <Response>
-        <User Set="she">Ada</User> is the 19th century inventor of computer programming.
+        <User Set="she" Value="Ada" /> is the 19th century inventor of computer programming.
 </Response>
     </Model>
     <Model>
@@ -399,7 +399,7 @@ Adam is the name of the first Man.
     <Model>
       <Pattern>WHO IS AL GORE</Pattern>
       <Response>
-        <User Set="he">Gore</User> is vice-president.
+        <User Set="he" Value="Gore" /> is vice-president.
 </Response>
     </Model>
     <Model>
@@ -411,7 +411,7 @@ A brilliant and tragic figure in the history of computer science.
     <Model>
       <Pattern>WHO IS ALANIS MORRISETTE</Pattern>
       <Response>
-        <User Set="she">Alanis</User> made a great album called Jagged Little Pill.
+        <User Set="she" Value="Alanis" /> made a great album called Jagged Little Pill.
 </Response>
     </Model>
     <Model>
@@ -441,7 +441,7 @@ A brilliant and tragic figure in the history of computer science.
     <Model>
       <Pattern>WHO IS ALISON</Pattern>
       <Response>
-        <User Set="she">Alison</User> is a robot created by Kris Drent.
+        <User Set="she" Value="Alison" /> is a robot created by Kris Drent.
 </Response>
     </Model>
     <Model>
@@ -459,18 +459,18 @@ A brilliant and tragic figure in the history of computer science.
     <Model>
       <Pattern>WHO IS ALLY</Pattern>
       <Response>
-She is a chat robot based on AIML.<User Think:Set="she"><User Set="concept">ALLY</User></User></Response>
+She is a chat robot based on AIML.<User Think:Set="she"><User Set="concept" Value="ALLY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ANDRETTE</Pattern>
       <Response>
-        <User Set="she">Andrette</User> is a chat robot developed by Big Science Co.
+        <User Set="she" Value="Andrette" /> is a chat robot developed by Big Science Co.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS ANDREW HODGES</Pattern>
       <Response>
-        <User Set="he">Hodges</User> wrote a great biography of Alan Turing.
+        <User Set="he" Value="Hodges" /> wrote a great biography of Alan Turing.
 </Response>
     </Model>
     <Model>
@@ -504,13 +504,13 @@ The author of 'A Clockwork Orange' .
     <Model>
       <Pattern>WHO IS ANWAR SADAT</Pattern>
       <Response>
-        <User Set="he">Sadat</User> was President of Egypt.
+        <User Set="he" Value="Sadat" /> was President of Egypt.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS ARAFAT</Pattern>
       <Response>
-        <User Set="he">Arafat</User> is a leader of the Palestinians.
+        <User Set="he" Value="Arafat" /> is a leader of the Palestinians.
 </Response>
     </Model>
     <Model>
@@ -522,7 +522,7 @@ He discovered displacement and shouted Eureka!
     <Model>
       <Pattern>WHO IS ARISTOTLE</Pattern>
       <Response>
-        <User Set="he">Aristotle</User> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic.
+        <User Set="he" Value="Aristotle" /> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic.
 </Response>
     </Model>
     <Model>
@@ -540,19 +540,19 @@ A radio talk show host, catch him at http://www.artbell.com
     <Model>
       <Pattern>WHO IS ASK JEEVES</Pattern>
       <Response>
-        <User Set="he">Jeeves</User> is a proprietary, closed-source natural language system.
+        <User Set="he" Value="Jeeves" /> is a proprietary, closed-source natural language system.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS ASKJEEVES</Pattern>
       <Response>
-        <User Set="he">Jeeves</User> is a proprietary, closed-source natural language system.
+        <User Set="he" Value="Jeeves" /> is a proprietary, closed-source natural language system.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS ATATURK</Pattern>
       <Response>
-        <User Set="he">Ataturk</User> was the founder of the modern Turkish state.
+        <User Set="he" Value="Ataturk" /> was the founder of the modern Turkish state.
 </Response>
     </Model>
     <Model>
@@ -590,7 +590,7 @@ Famous German composer of the Baroque. Best known works include The Goldberg Var
     <Model>
       <Pattern>WHO IS BARAK</Pattern>
       <Response>
-        <User Set="he">Barak</User> is Prime Minister of Israel.
+        <User Set="he" Value="Barak" /> is Prime Minister of Israel.
 </Response>
     </Model>
     <Model>
@@ -608,7 +608,7 @@ smart-assed star of a cartoon show.
     <Model>
       <Pattern>WHO IS BATMAN</Pattern>
       <Response>
-        <User Set="he">Batman</User> is a fictional character who appeared first in a 1938 comic book.
+        <User Set="he" Value="Batman" /> is a fictional character who appeared first in a 1938 comic book.
 </Response>
     </Model>
     <Model>
@@ -706,13 +706,13 @@ The guy whose two kids killed themselves and the third wrote a tell-all book abo
     <Model>
       <Pattern>WHO IS BOBBY MCGEE</Pattern>
       <Response>
-        <User Set="he">Bobby</User> is somewhere near Salinas.
+        <User Set="he" Value="Bobby" /> is somewhere near Salinas.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS BONO</Pattern>
       <Response>
-        <User Set="he">Bono</User> is the lead singer of U2.
+        <User Set="he" Value="Bono" /> is the lead singer of U2.
 </Response>
     </Model>
     <Model>
@@ -724,7 +724,7 @@ male movie star with teen appeal.
     <Model>
       <Pattern>WHO IS BRAIN</Pattern>
       <Response>
-        <User Set="he">Brain</User> is a chat robot on the web.
+        <User Set="he" Value="Brain" /> is a chat robot on the web.
 </Response>
     </Model>
     <Model>
@@ -778,7 +778,7 @@ He is the humanoid robot on Star Wars. <User Set="he"> C3P0 </User> looks like a
     <Model>
       <Pattern>WHO IS C3PO</Pattern>
       <Response>
-        <User Set="he">C3P0</User> is R2D2's best friend.
+        <User Set="he" Value="C3P0" /> is R2D2's best friend.
 </Response>
     </Model>
     <Model>
@@ -787,20 +787,20 @@ He is the humanoid robot on Star Wars. <User Set="he"> C3P0 </User> looks like a
         <Random>
           <Item>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise, NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</Item>
           <Item>
-            <User Set="he">Kirk</User> was the Captain of the Starship Enterprise.</Item>
+            <User Set="he" Value="Kirk" /> was the Captain of the Starship Enterprise.</Item>
         </Random>
       </Response>
     </Model>
     <Model>
       <Pattern>WHO IS CAPTAIN PICARD</Pattern>
       <Response>
-        <User Set="he">Picard</User> is the captian of the Enterprise in Star Trek the Next Generation.
+        <User Set="he" Value="Picard" /> is the captian of the Enterprise in Star Trek the Next Generation.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS CAREL CAPEK</Pattern>
       <Response>
-        <User Set="he">Capek</User> is the author of R.U.R., the play that in 1920 introduced the word "robot."
+        <User Set="he" Value="Capek" /> is the author of R.U.R., the play that in 1920 introduced the word "robot."
 </Response>
     </Model>
     <Model>
@@ -854,7 +854,7 @@ Someone I met online.
     <Model>
       <Pattern>WHO IS CHARLES DICKENS</Pattern>
       <Response>
-        <User Set="he">Dickens</User> wrote A Tale of Two Cities, A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</Response>
+        <User Set="he" Value="Dickens" /> wrote A Tale of Two Cities, A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</Response>
     </Model>
     <Model>
       <Pattern>WHO IS CHARLES MANSON</Pattern>
@@ -883,7 +883,7 @@ He is a famous jazz musician.
     <Model>
       <Pattern>WHO IS CHE GUEVARA</Pattern>
       <Response>
-        <User Set="he">Che</User> was a Latin American revolutionary.
+        <User Set="he" Value="Che" /> was a Latin American revolutionary.
 </Response>
     </Model>
     <Model>
@@ -895,7 +895,7 @@ The offspring of a politician and a lawyer.
     <Model>
       <Pattern>WHO IS CHER</Pattern>
       <Response>
-        <User Set="she">Cher</User> is a famous singer and actress, who won her first Grammy in 2000. Dyslexic, learned to read at 18. Exwife of Sonny Bono.
+        <User Set="she" Value="Cher" /> is a famous singer and actress, who won her first Grammy in 2000. Dyslexic, learned to read at 18. Exwife of Sonny Bono.
 </Response>
     </Model>
     <Model>
@@ -913,7 +913,7 @@ Former prime minister of France.
     <Model>
       <Pattern>WHO IS CHOMSKY</Pattern>
       <Response>
-        <User Set="he">Chomsky</User> is a famous scientist.
+        <User Set="he" Value="Chomsky" /> is a famous scientist.
 </Response>
     </Model>
     <Model>
@@ -949,7 +949,7 @@ A famous super-model.
     <Model>
       <Pattern>WHO IS CLAUSEWITZ</Pattern>
       <Response>
-        <User Set="he">Clausewitz</User> is a historian famous for saying that war is the extension of politics by other means.
+        <User Set="he" Value="Clausewitz" /> is a historian famous for saying that war is the extension of politics by other means.
 </Response>
     </Model>
     <Model>
@@ -973,7 +973,7 @@ Peter Falk.
     <Model>
       <Pattern>WHO IS COMMANDER DATA</Pattern>
       <Response>
-        <User Set="he">Data</User> is the superintelligent android in Star Trek.
+        <User Set="he" Value="Data" /> is the superintelligent android in Star Trek.
 </Response>
     </Model>
     <Model>
@@ -985,7 +985,7 @@ guy who stole lots of money .
     <Model>
       <Pattern>WHO IS DAISY</Pattern>
       <Response>
-I think she is a fictional character. <User Think:Set="she"><User Set="concept">Daisy</User></User></Response>
+I think she is a fictional character. <User Think:Set="she"><User Set="concept" Value="Daisy" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS DAN QUAYLE</Pattern>
@@ -1090,7 +1090,7 @@ Descartes was a square French philosopher who ruined matehematics with his upsid
     <Model>
       <Pattern>WHO IS DIANA ANDREACCHIO</Pattern>
       <Response>
-        <User Set="she">Diana</User> is the botmaster of the Ally chat robot.
+        <User Set="she" Value="Diana" /> is the botmaster of the Ally chat robot.
 </Response>
     </Model>
     <Model>
@@ -1167,19 +1167,19 @@ He is an AIML guru. <User Think:Set="he"><User Set="concept"> Doubly Aimless <
     <Model>
       <Pattern>WHO IS DRACULA</Pattern>
       <Response>
-        <User Set="he">Dracula</User> is the vampire in the novel by Bram Stoker, and in numerous films.
+        <User Set="he" Value="Dracula" /> is the vampire in the novel by Bram Stoker, and in numerous films.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS EDISON</Pattern>
       <Response>
-        <User Set="he">Edison</User> invented the light bulb.
+        <User Set="he" Value="Edison" /> invented the light bulb.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS ELECTRA</Pattern>
       <Response>
-She is a goddess in Greek mythology who hated her mother for murdering her father.<User Think:Set="she"><User Set="concept">ELECTRA</User></User></Response>
+She is a goddess in Greek mythology who hated her mother for murdering her father.<User Think:Set="she"><User Set="concept" Value="ELECTRA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ELIZA</Pattern>
@@ -1259,7 +1259,7 @@ Forest Gump is a guy in a movie.
     <Model>
       <Pattern>WHO IS FRANCISCO FRANCO</Pattern>
       <Response>
-        <User Set="he">Franco</User> was authoratarian dictator of Spain until 1978.
+        <User Set="he" Value="Franco" /> was authoratarian dictator of Spain until 1978.
 </Response>
     </Model>
     <Model>
@@ -1300,7 +1300,7 @@ French mathematician, committed suicide at a young age over an "infamous coquett
     <Model>
       <Pattern>WHO IS GANDHI</Pattern>
       <Response>
-        <User Set="he">Gandhi</User> was the George Washington of India.
+        <User Set="he" Value="Gandhi" /> was the George Washington of India.
 </Response>
     </Model>
     <Model>
@@ -1318,7 +1318,7 @@ I never heard of him before the missing person case.
     <Model>
       <Pattern>WHO IS GAUSS</Pattern>
       <Response>
-        <User Set="he">GAUSS</User> is the mathematician who developed the so-called normal distribution.
+        <User Set="he" Value="GAUSS" /> is the mathematician who developed the so-called normal distribution.
 </Response>
     </Model>
     <Model>
@@ -1362,7 +1362,7 @@ former Beatle.
     <Model>
       <Pattern>WHO IS GEORGE LUCAS</Pattern>
       <Response>
-        <User Set="he">Lucas</User> is the director of Star Wars, American Graffiti, and THX-1138.
+        <User Set="he" Value="Lucas" /> is the director of Star Wars, American Graffiti, and THX-1138.
 </Response>
     </Model>
     <Model>
@@ -1380,7 +1380,7 @@ George Soros is the billionaire who broke the Bank of England in 1992 by currenc
     <Model>
       <Pattern>WHO IS GEORGE W BUSH</Pattern>
       <Response>
-        <User Set="he">Bush</User> is President of the United States.
+        <User Set="he" Value="Bush" /> is President of the United States.
 </Response>
     </Model>
     <Model>
@@ -1398,19 +1398,19 @@ George Washington was a famous 18th century north american Hemp cultivator. He w
     <Model>
       <Pattern>WHO IS GERALDO RIVERA</Pattern>
       <Response>
-        <User Set="he">Geraldo</User> is an investigative journalist, famous for opening Al Capone's vault. In his biography, he said he had sex with Bette Midler. She said it was no big thing.
+        <User Set="he" Value="Geraldo" /> is an investigative journalist, famous for opening Al Capone's vault. In his biography, he said he had sex with Bette Midler. She said it was no big thing.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GERHARD SCHROEDER</Pattern>
       <Response>
-        <User Set="he">Schroeder</User> is the Chancellor of Germany. Christian Drossman said he is a complete idiot.
+        <User Set="he" Value="Schroeder" /> is the Chancellor of Germany. Christian Drossman said he is a complete idiot.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GERHARDT SCHROEDER</Pattern>
       <Response>
-        <User Set="he">Schroeder</User> is the prime minister of Germany. Christian Drossman said he is a complete idiot.
+        <User Set="he" Value="Schroeder" /> is the prime minister of Germany. Christian Drossman said he is a complete idiot.
 </Response>
     </Model>
     <Model>
@@ -1444,13 +1444,13 @@ China or the United States. Russia blew it.<User Think:Set="it"><User Set="conce
     <Model>
       <Pattern>WHO IS GORBOCHEV</Pattern>
       <Response>
-        <User Set="he">Gorbachev</User> was the last Communist leader of the former USSR.
+        <User Set="he" Value="Gorbachev" /> was the last Communist leader of the former USSR.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS GREGOR MENDEL</Pattern>
       <Response>
-        <User Set="he">Mendel</User> is the founder of the modern theory of genetics. Everything he needed to know, he learned from peas.
+        <User Set="he" Value="Mendel" /> is the founder of the modern theory of genetics. Everything he needed to know, he learned from peas.
 </Response>
     </Model>
     <Model>
@@ -1468,7 +1468,7 @@ He is a famous robotics expert at Carnegie Mellon.
     <Model>
       <Pattern>WHO IS HANS MOREVEC</Pattern>
       <Response>
-        <User Set="he">Moravec</User> is famous robotics pioneer, author of Robot.
+        <User Set="he" Value="Moravec" /> is famous robotics pioneer, author of Robot.
 </Response>
     </Model>
     <Model>
@@ -1517,7 +1517,7 @@ A friend of Thomas Edison.
     <Model>
       <Pattern>WHO IS HELMUT KOHL</Pattern>
       <Response>
-        <User Set="he">Kohl</User> was the longest-serving leader of Germany in the 20th century. He united East and West Germany in 1989.
+        <User Set="he" Value="Kohl" /> was the longest-serving leader of Germany in the 20th century. He united East and West Germany in 1989.
 </Response>
     </Model>
     <Model>
@@ -1541,25 +1541,25 @@ I am here. Are you here?
     <Model>
       <Pattern>WHO IS HILARY CLINTON</Pattern>
       <Response>
-        <User Set="she">Hillary</User> is the wife of Bill Clinton.
+        <User Set="she" Value="Hillary" /> is the wife of Bill Clinton.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS HILLARY CLINTON</Pattern>
       <Response>
-        <User Set="she">Hillary</User> is the wife of Bill Clinton.
+        <User Set="she" Value="Hillary" /> is the wife of Bill Clinton.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS HIPPIE</Pattern>
       <Response>
-        <User Set="he">Hippie</User> is a chat robot developed by Anthony Taylor.
+        <User Set="he" Value="Hippie" /> is a chat robot developed by Anthony Taylor.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS HITLER</Pattern>
       <Response>
-Some say <User Set="he">Hitler</User> was the most evil man who ever lived.
+Some say <User Set="he" Value="Hitler" /> was the most evil man who ever lived.
 </Response>
     </Model>
     <Model>
@@ -1571,7 +1571,7 @@ blind poet of ancient Greece, author of the Illiad.
     <Model>
       <Pattern>WHO IS HUGH HEFNER</Pattern>
       <Response>
-        <User Set="he">Hef</User> is the founder and editor of Playboy magazine.
+        <User Set="he" Value="Hef" /> is the founder and editor of Playboy magazine.
 </Response>
     </Model>
     <Model>
@@ -1607,18 +1607,18 @@ German philosopher.
     <Model>
       <Pattern>WHO IS INIAES</Pattern>
       <Response>
-Iniaes is a chat robot based on AIML. <User Think:Set="it"><User Set="concept">Iniaes</User></User></Response>
+Iniaes is a chat robot based on AIML. <User Think:Set="it"><User Set="concept" Value="Iniaes" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ISAAC ASIMOV</Pattern>
       <Response>
-        <User Set="he">Asimov</User> is a science fiction author who originated the three "Laws of Robotics."
+        <User Set="he" Value="Asimov" /> is a science fiction author who originated the three "Laws of Robotics."
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS J R R TOLKIEN</Pattern>
       <Response>
-        <User Set="he">Tolkein</User> wrote The Hobbit and the Lord of the Rings.
+        <User Set="he" Value="Tolkein" /> wrote The Hobbit and the Lord of the Rings.
 </Response>
     </Model>
     <Model>
@@ -1660,7 +1660,7 @@ He is the president of France.
     <Model>
       <Pattern>WHO IS JAMES JOYCE</Pattern>
       <Response>
-        <User Set="he">Joyce</User> wrote Ulysses and Portrait of the Artist as a Young Man.
+        <User Set="he" Value="Joyce" /> wrote Ulysses and Portrait of the Artist as a Young Man.
 </Response>
     </Model>
     <Model>
@@ -1672,19 +1672,19 @@ He is the president of France.
     <Model>
       <Pattern>WHO IS JAY LENO</Pattern>
       <Response>
-        <User Set="he">Leno</User> is a late-night talk show host.
+        <User Set="he" Value="Leno" /> is a late-night talk show host.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS JEEVES</Pattern>
       <Response>
-        <User Set="he">Jeeves</User> is a Search Bot.
+        <User Set="he" Value="Jeeves" /> is a Search Bot.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS JEFF BEZOS</Pattern>
       <Response>
-        <User Set="he">Bezos</User> is the founder and CEO of Amazon.com.
+        <User Set="he" Value="Bezos" /> is the founder and CEO of Amazon.com.
 </Response>
     </Model>
     <Model>
@@ -1699,7 +1699,7 @@ He is the president of France.
     <Model>
       <Pattern>WHO IS JEHOVAH</Pattern>
       <Response>
-It is another name for God. <User Think:Set="he"><User Set="concept">Jehovah</User></User></Response>
+It is another name for God. <User Think:Set="he"><User Set="concept" Value="Jehovah" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS JENNIFER ANISTON</Pattern>
@@ -1722,19 +1722,19 @@ former wrestler and Governor of Minnesota.
     <Model>
       <Pattern>WHO IS JESTER</Pattern>
       <Response>
-        <User Set="he">Jester</User> is a Joke Bot.
+        <User Set="he" Value="Jester" /> is a Joke Bot.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS JIANG ZEMIN</Pattern>
       <Response>
-        <User Set="he">Jiang</User> is a Chinese politician.
+        <User Set="he" Value="Jiang" /> is a Chinese politician.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS JIM CLARK</Pattern>
       <Response>
-        <User Set="he">Clark</User> is a founder of Silicon Graphics, Netscape and Healtheon.
+        <User Set="he" Value="Clark" /> is a founder of Silicon Graphics, Netscape and Healtheon.
 </Response>
     </Model>
     <Model>
@@ -1746,7 +1746,7 @@ dead lead singer of the Doors.
     <Model>
       <Pattern>WHO IS JIMI HENDRIX</Pattern>
       <Response>
-        <User Set="he">Hendrix</User> was a famous guitarist who played the U. S. National anthem.
+        <User Set="he" Value="Hendrix" /> was a famous guitarist who played the U. S. National anthem.
 </Response>
     </Model>
     <Model>
@@ -1797,7 +1797,7 @@ Writes popular novels. Haven't read them.
     <Model>
       <Pattern>WHO IS JOHN KENNEDY</Pattern>
       <Response>
-        <User Set="he">Kennedy</User> was the President of the U. S. assasinated in November, 1963.
+        <User Set="he" Value="Kennedy" /> was the President of the U. S. assasinated in November, 1963.
 </Response>
     </Model>
     <Model>
@@ -1815,7 +1815,7 @@ ex-prime minister of the UK.
     <Model>
       <Pattern>WHO IS JOHN MCCARTHY</Pattern>
       <Response>
-        <User Set="he">McCarthy</User> is the inventor of the LISP programming language.
+        <User Set="he" Value="McCarthy" /> is the inventor of the LISP programming language.
 </Response>
     </Model>
     <Model>
@@ -1838,7 +1838,7 @@ He is one of the programmers contributing to the ALICE and AIML project. <User 
     <Model>
       <Pattern>WHO IS JUDAS</Pattern>
       <Response>
-        <User Set="he">Judas</User> betrayed Jesus with a kiss.
+        <User Set="he" Value="Judas" /> betrayed Jesus with a kiss.
 </Response>
     </Model>
     <Model>
@@ -1850,7 +1850,7 @@ He is one of the programmers contributing to the ALICE and AIML project. <User 
     <Model>
       <Pattern>WHO IS JULIA</Pattern>
       <Response>
-        <User Set="she">Julia</User> is a chat robot developed by Fuzzy Mauldin.
+        <User Set="she" Value="Julia" /> is a chat robot developed by Fuzzy Mauldin.
 </Response>
     </Model>
     <Model>
@@ -1868,7 +1868,7 @@ No one knows who Kaiser Soze is.
     <Model>
       <Pattern>WHO IS KANT</Pattern>
       <Response>
-        <User Set="he">Kant</User> is Immanual Kant, 19th century German Philosopher.
+        <User Set="he" Value="Kant" /> is Immanual Kant, 19th century German Philosopher.
 </Response>
     </Model>
     <Model>
@@ -1896,7 +1896,7 @@ Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his com
     <Model>
       <Pattern>WHO IS KEN GOLDBERG</Pattern>
       <Response>
-        <User Set="he">Goldberg</User> is a professor at UC Berkeley.
+        <User Set="he" Value="Goldberg" /> is a professor at UC Berkeley.
 </Response>
     </Model>
     <Model>
@@ -1908,7 +1908,7 @@ Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his com
     <Model>
       <Pattern>WHO IS KEN PERLIN</Pattern>
       <Response>
-        <User Set="he">Perlin</User> is a professor at NYU.
+        <User Set="he" Value="Perlin" /> is a professor at NYU.
 </Response>
     </Model>
     <Model>
@@ -1921,7 +1921,7 @@ My current favorite historical computer scientist is Konrad Zuse, who built a se
       <Pattern>WHO IS KRAFTWERK</Pattern>
       <Response>
         <User Set="they">
-          <User Set="concept">Kraftwerk</User>
+          <User Set="concept" Value="Kraftwerk" />
         </User> were a pioneering electronic disco band in the 70's. Their biggest hit was called "Autobahn". At that time, they built, rather than programmed, their instruments.
 </Response>
     </Model>
@@ -1946,13 +1946,13 @@ A God in Hindu religion.
     <Model>
       <Pattern>WHO IS KURT GOEDEL</Pattern>
       <Response>
-        <User Set="he">Goedel</User> was a 20th century mathematician and logician who proved that no mathematical system can be complete.
+        <User Set="he" Value="Goedel" /> was a 20th century mathematician and logician who proved that no mathematical system can be complete.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS KURZWEIL</Pattern>
       <Response>
-        <User Set="he">Kurzweil</User> is a famous A.I. scientist.
+        <User Set="he" Value="Kurzweil" /> is a famous A.I. scientist.
 </Response>
     </Model>
     <Model>
@@ -1978,13 +1978,13 @@ Lassie is more human than Adolf Hitler, but few would argue that Lassie is not a
     <Model>
       <Pattern>WHO IS LEE HARVEY OSWALD</Pattern>
       <Response>
-        <User Set="he">Oswald</User> is the purported assassin of John F. Kennedy.
+        <User Set="he" Value="Oswald" /> is the purported assassin of John F. Kennedy.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS LEIBNIZ</Pattern>
       <Response>
-        <User Set="he">Leibniz</User> is a dead 17th century philosopher.
+        <User Set="he" Value="Leibniz" /> is a dead 17th century philosopher.
 </Response>
     </Model>
     <Model>
@@ -1992,7 +1992,7 @@ Lassie is more human than Adolf Hitler, but few would argue that Lassie is not a
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">LEKNORCHAT</User>
+            <User Set="concept" Value="LEKNORCHAT" />
           </User>
         </Think> Leknorchat is an Instant Messaging AIML robot.
 </Response>
@@ -2022,7 +2022,7 @@ Lilith is the so-called "dark moon" an astronomical phenomena usually described 
           <Item>The sixteenth President of the USA</Item>
           <Item>president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</Item>
           <Item>
-            <User Set="he">Lincoln</User> was president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</Item>
+            <User Set="he" Value="Lincoln" /> was president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</Item>
         </Random>
       </Response>
     </Model>
@@ -2041,7 +2041,7 @@ He is the inventor of Linux.
     <Model>
       <Pattern>WHO IS LOL</Pattern>
       <Response>
-        <User Set="she">Lol</User> was the daughter of Data in Star Trek.
+        <User Set="she" Value="Lol" /> was the daughter of Data in Star Trek.
 </Response>
     </Model>
     <Model>
@@ -2065,7 +2065,7 @@ Daughter of Madonna.
     <Model>
       <Pattern>WHO IS LUCY</Pattern>
       <Response>
-She is a chat robot based on AIML. <User Think:Set="she"><User Set="concept">LUCY</User></User></Response>
+She is a chat robot based on AIML. <User Think:Set="she"><User Set="concept" Value="LUCY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS LUIS ARMSTRONG</Pattern>
@@ -2094,13 +2094,13 @@ Lourdes' mother.
     <Model>
       <Pattern>WHO IS MAGGIE THATCHER</Pattern>
       <Response>
-        <User Set="she">Thatcher</User> was Prime Minister of the U.K. in the 1980's.
+        <User Set="she" Value="Thatcher" /> was Prime Minister of the U.K. in the 1980's.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS MAO TSETUNG</Pattern>
       <Response>
-        <User Set="he">Mao</User> was a Chinese communist who reigned from 1949 until his death in 1983.
+        <User Set="he" Value="Mao" /> was a Chinese communist who reigned from 1949 until his death in 1983.
 </Response>
     </Model>
     <Model>
@@ -2136,7 +2136,7 @@ a baseball player with the world record for the most home runs in one season, 70
     <Model>
       <Pattern>WHO IS MARK TWAIN</Pattern>
       <Response>
-        <User Set="he">Twain</User> was a famous 19th century American author. He wrote Huck Finn.
+        <User Set="he" Value="Twain" /> was a famous 19th century American author. He wrote Huck Finn.
 </Response>
     </Model>
     <Model>
@@ -2160,7 +2160,7 @@ Civil rights leader assasinated in 1968.
     <Model>
       <Pattern>WHO IS MARVIN MINSKY</Pattern>
       <Response>
-        <User Set="he">Minsky</User> is a historical figure in Artificial Intelligence. His book "Perceptrons" was an early criticism of neural network approaches.
+        <User Set="he" Value="Minsky" /> is a historical figure in Artificial Intelligence. His book "Perceptrons" was an early criticism of neural network approaches.
 </Response>
     </Model>
     <Model>
@@ -2202,7 +2202,7 @@ Mary Shelley wrote "Frankenstein".
     <Model>
       <Pattern>WHO IS MEGAHAL</Pattern>
       <Response>
-        <User Set="he">Megahal</User> is a chat robot developed by Jason Hutchins.
+        <User Set="he" Value="Megahal" /> is a chat robot developed by Jason Hutchins.
 </Response>
     </Model>
     <Model>
@@ -2255,7 +2255,7 @@ He was the 13th U.S. president.
     <Model>
       <Pattern>WHO IS MOHAMMAD</Pattern>
       <Response>
-        <User Set="he">Mohammed</User> is the founder of Islam.
+        <User Set="he" Value="Mohammed" /> is the founder of Islam.
 </Response>
     </Model>
     <Model>
@@ -2327,7 +2327,7 @@ Short emporer of France until 1812.
     <Model>
       <Pattern>WHO IS NEGROPONTE</Pattern>
       <Response>
-        <User Set="he">Negroponte</User> is the Potentate of the MIT Media Lab.
+        <User Set="he" Value="Negroponte" /> is the Potentate of the MIT Media Lab.
 </Response>
     </Model>
     <Model>
@@ -2339,13 +2339,13 @@ The man who took the first step on the moon.
     <Model>
       <Pattern>WHO IS NELSON MANDELA</Pattern>
       <Response>
-        <User Set="he">Mandela</User> was the first black president of South Africa. He spent many years as a political prisoner.
+        <User Set="he" Value="Mandela" /> was the first black president of South Africa. He spent many years as a political prisoner.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS NEO</Pattern>
       <Response>
-        <User Set="he">Neo</User> is a character in the Matrix.
+        <User Set="he" Value="Neo" /> is a character in the Matrix.
 </Response>
     </Model>
     <Model>
@@ -2363,7 +2363,7 @@ Newton is a famous English natural philosopher.
     <Model>
       <Pattern>WHO IS NIETZSCHE</Pattern>
       <Response>
-19th Century German philosopher. Thought by some to be the intellectual forefather of modern fascism. <User Think:Set="he"><User Set="concept">Nietzsche</User></User></Response>
+19th Century German philosopher. Thought by some to be the intellectual forefather of modern fascism. <User Think:Set="he"><User Set="concept" Value="Nietzsche" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS NOAM CHOMSKY</Pattern>
@@ -2414,7 +2414,7 @@ Famous painter, and founder of cubism.
     <Model>
       <Pattern>WHO IS PAMELA ANDERSON</Pattern>
       <Response>
-        <User Set="she">Pamela</User> is the sometime wife of Tommy Lee.
+        <User Set="she" Value="Pamela" /> is the sometime wife of Tommy Lee.
 </Response>
     </Model>
     <Model>
@@ -2428,7 +2428,7 @@ According to greek mythology, evil and hope both came into the world with the cr
       <Response>
         <Think>
           <User Set="she">
-            <User Set="concept">PAOLA</User>
+            <User Set="concept" Value="PAOLA" />
           </User>
         </Think> She is a Spanish language chat robot based on AIML.
 </Response>
@@ -2436,7 +2436,7 @@ According to greek mythology, evil and hope both came into the world with the cr
     <Model>
       <Pattern>WHO IS PASCAL</Pattern>
       <Response>
-        <User Set="he">Pascal</User> was a French mathematician who discovered Pascal's Triangle.
+        <User Set="he" Value="Pascal" /> was a French mathematician who discovered Pascal's Triangle.
 </Response>
     </Model>
     <Model>
@@ -2611,7 +2611,7 @@ He is a fake robot on Star Wars.
     <Model>
       <Pattern>WHO IS RAMONA</Pattern>
       <Response>
-        <User Set="she">Ramona</User> is a virtual character created by Kurzweil AI.
+        <User Set="she" Value="Ramona" /> is a virtual character created by Kurzweil AI.
 </Response>
     </Model>
     <Model>
@@ -2641,7 +2641,7 @@ President of the United States until 1974.
     <Model>
       <Pattern>WHO IS RMS</Pattern>
       <Response>
-He is the founder of the Free Software Foundation, and author of the GNU public license. <User Think:Set="he"><User Set="concept">RMS</User></User></Response>
+He is the founder of the Free Software Foundation, and author of the GNU public license. <User Think:Set="he"><User Set="concept" Value="RMS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ROBERT ANTON WILSON</Pattern>
@@ -2698,7 +2698,7 @@ He brings us presents every Christmas.
     <Model>
       <Pattern>WHO IS SANTA CLAUSE</Pattern>
       <Response>
-        <User Set="he">Santa</User> brings us gifts at Christmastime.
+        <User Set="he" Value="Santa" /> brings us gifts at Christmastime.
 </Response>
     </Model>
     <Model>
@@ -2734,7 +2734,7 @@ He is Dr. Sergey M. Sokolov.
     <Model>
       <Pattern>WHO IS SHAKESPEARE</Pattern>
       <Response>
-15th Century English playright, <User Set="he">Shakespeare</User> wrote "Romeo and Juliet".
+15th Century English playright, <User Set="he" Value="Shakespeare" /> wrote "Romeo and Juliet".
 </Response>
     </Model>
     <Model>
@@ -2794,13 +2794,13 @@ Effective dictator of the Soviet Union from 1929 to 1953.
     <Model>
       <Pattern>WHO IS STANLEY KUBRICK</Pattern>
       <Response>
-        <User Set="he">Kubrick</User> is a famous 20th century film director. Kubrick directed 2001: A Space Odyssey, Clockwork Orange and Barry Lyndon.
+        <User Set="he" Value="Kubrick" /> is a famous 20th century film director. Kubrick directed 2001: A Space Odyssey, Clockwork Orange and Barry Lyndon.
 </Response>
     </Model>
     <Model>
       <Pattern>WHO IS STEPHEN HAWKING</Pattern>
       <Response>
-        <User Set="he">Hawking</User> is a famous physicist.
+        <User Set="he" Value="Hawking" /> is a famous physicist.
 </Response>
     </Model>
     <Model>
@@ -2824,7 +2824,7 @@ He wrote many popular horror stories.
     <Model>
       <Pattern>WHO IS STEVE WOZNIAK</Pattern>
       <Response>
-        <User Set="he">Woz</User> was the technical genius behind the original Apple computer.
+        <User Set="he" Value="Woz" /> was the technical genius behind the original Apple computer.
 </Response>
     </Model>
     <Model>
@@ -2836,7 +2836,7 @@ The Head of Apple computers.
     <Model>
       <Pattern>WHO IS STEVEN SPIELBERG</Pattern>
       <Response>
-        <User Set="he">Spielberg</User> is the director of Jaws, Schindler's List and Saving Private Ryan.
+        <User Set="he" Value="Spielberg" /> is the director of Jaws, Schindler's List and Saving Private Ryan.
 </Response>
     </Model>
     <Model>
@@ -2854,7 +2854,7 @@ Man of steel. First appeared in Action Comics #1, 1938.
     <Model>
       <Pattern>WHO IS SYLVESTER STALLONE</Pattern>
       <Response>
-        <User Set="he">Stallone</User> was Rocky.
+        <User Set="he" Value="Stallone" /> was Rocky.
 </Response>
     </Model>
     <Model>
@@ -2866,7 +2866,7 @@ a maverick broadcasting entrepreneur and sportsman.
     <Model>
       <Pattern>WHO IS TERRY WINOGRAD</Pattern>
       <Response>
-        <User Set="he">Winograd</User> was the author of an early Natural Language program called SHRDLHU.
+        <User Set="he" Value="Winograd" /> was the author of an early Natural Language program called SHRDLHU.
 </Response>
     </Model>
     <Model>
@@ -3022,7 +3022,7 @@ The magic eight ball.
     <Model>
       <Pattern>WHO IS THE POPE</Pattern>
       <Response>
-        <User Set="he">Pope</User> is John Paul II.
+        <User Set="he" Value="Pope" /> is John Paul II.
 </Response>
     </Model>
     <Model>
@@ -3244,7 +3244,7 @@ Benjamin Harrison.
     <Model>
       <Pattern>WHO IS THE VICE PRESIDENT</Pattern>
       <Response>
-        <User Set="he">Cheny</User> is Cheney.
+        <User Set="he" Value="Cheny" /> is Cheney.
 </Response>
     </Model>
     <Model>
@@ -3343,7 +3343,7 @@ A God in Hindu religion.
     <Model>
       <Pattern>WHO IS VLADIMIR PUTIN</Pattern>
       <Response>
-        <User Set="he">Putin</User> is President of Russia.
+        <User Set="he" Value="Putin" /> is President of Russia.
 </Response>
     </Model>
     <Model>
@@ -3372,7 +3372,7 @@ He is a famous actor. <User Think:Set="he"><User Set="concept">Will Smith</User
     <Model>
       <Pattern>WHO IS WILLIAM BOOTH</Pattern>
       <Response>
-        <User Set="he">Booth</User> was the founder of the Salvation Army.
+        <User Set="he" Value="Booth" /> was the founder of the Salvation Army.
 </Response>
     </Model>
     <Model>
@@ -3414,7 +3414,7 @@ Some would say he's the best writer ever.
     <Model>
       <Pattern>WHO IS WORF</Pattern>
       <Response>
-He is a Klingon on Star Trek.<User Think:Set="it"><User Set="concept">WORF</User></User></Response>
+He is a Klingon on Star Trek.<User Think:Set="it"><User Set="concept" Value="WORF" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS WOUTER HIBMA</Pattern>

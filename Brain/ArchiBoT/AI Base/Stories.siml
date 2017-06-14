@@ -6,11 +6,11 @@
       <Response>
         <Think>
           <User Set="product">knowledge bases</User>
-          <User Set="PROPRIETARY">CYC</User>
-          <User Set="OPEN">DAML</User>
-          <User Set="proprietarylang">Lisp</User>
+          <User Set="PROPRIETARY" Value="CYC" />
+          <User Set="OPEN" Value="DAML" />
+          <User Set="proprietarylang" Value="Lisp" />
           <User Set="DEVKIT">Allegro Common Lisp</User>
-          <User Set="QUERYLANG">Prolog</User>
+          <User Set="QUERYLANG" Value="Prolog" />
         </Think>
         <Goto>NO HELP AT ALL</Goto>
       </Response>
@@ -19,14 +19,14 @@
       <Pattern>[NO] HELP WITH CYC</Pattern>
       <Response>
         <Think>
-          <User Set="monopoly">Cycorp</User>
-          <User Set="data">knowledge</User>
+          <User Set="monopoly" Value="Cycorp" />
+          <User Set="data" Value="knowledge" />
           <User Set="product">knowledge bases</User>
-          <User Set="PROPRIETARY">CYC</User>
-          <User Set="OPEN">DAML</User>
-          <User Set="proprietarylang">Lisp</User>
+          <User Set="PROPRIETARY" Value="CYC" />
+          <User Set="OPEN" Value="DAML" />
+          <User Set="proprietarylang" Value="Lisp" />
           <User Set="DEVKIT">Allegro Common Lisp</User>
-          <User Set="QUERYLANG">Prolog</User>
+          <User Set="QUERYLANG" Value="Prolog" />
         </Think>
         <Goto>NO HELP AT ALL</Goto>
       </Response>
@@ -54,14 +54,14 @@ Hello, I just started looking at getting <User Get="product" />s working with AL
         <Think>
           <User Set="war">American Civil War</User>
           <User Set="firststate">South Carolina</User>
-          <User Set="secondstate">Georgia</User>
+          <User Set="secondstate" Value="Georgia" />
           <User Set="thirdstate">North Carolina</User>
-          <User Set="fourthstate">Virginia</User>
-          <User Set="nation">Union</User>
+          <User Set="fourthstate" Value="Virginia" />
+          <User Set="nation" Value="Union" />
           <User Set="rebels">Rebel States</User>
-          <User Set="sites">forts</User>
-          <User Set="area">Mississippi</User>
-          <User Set="battle">Gettysburg</User>
+          <User Set="sites" Value="forts" />
+          <User Set="area" Value="Mississippi" />
+          <User Set="battle" Value="Gettysburg" />
         </Think>
         <Goto>CIVIL WAR STORY</Goto>
       </Response>
@@ -77,7 +77,7 @@ Hello, I just started looking at getting <User Get="product" />s working with AL
           <User Set="fourthstate">Carl's Jr.</User>
           <User Set="nation">McDonald's Chain</User>
           <User Set="rebels">Burger King</User>
-          <User Set="sites">franchises</User>
+          <User Set="sites" Value="franchises" />
           <User Set="area">major urban centers</User>
           <User Set="battle">Greater Los Angeles</User>
         </Think>
@@ -1354,9 +1354,9 @@ The <User Get="war" /> began when <User Get="firststate" /> declared its indepen
       <Pattern>REAL WORLD HISTORY</Pattern>
       <Response>
         <Think>
-          <User Set="world">World</User>
-          <User Set="types">nation</User>
-          <User Set="environment">face</User>
+          <User Set="world" Value="World" />
+          <User Set="types" Value="nation" />
+          <User Set="environment" Value="face" />
           <User Set="selfdefeat">cut their own throats</User>
           <User Set="goingalone">swimming against the tide</User>
           <User Set="type1">European</User>
@@ -1407,8 +1407,8 @@ The <User Get="war" /> began when <User Get="firststate" /> declared its indepen
       <Response>
         <Think>
           <User Set="world">Sea World</User>
-          <User Set="types">species</User>
-          <User Set="environment">waters</User>
+          <User Set="types" Value="species" />
+          <User Set="environment" Value="waters" />
           <User Set="selfdefeat">poisoned their own waters</User>
           <User Set="goingalone">swimming upstream alone</User>
           <User Set="type1">Jellyfish</User>
@@ -1459,8 +1459,8 @@ The <User Get="war" /> began when <User Get="firststate" /> declared its indepen
       <Response>
         <Think>
           <User Set="world">Geologic World</User>
-          <User Set="types">species</User>
-          <User Set="environment">ages</User>
+          <User Set="types" Value="species" />
+          <User Set="environment" Value="ages" />
           <User Set="selfdefeat">destroyed their own food chain</User>
           <User Set="goingalone">swimming upstream alone</User>
           <User Set="type1">Marine Invertebrates</User>
@@ -1511,8 +1511,8 @@ The <User Get="war" /> began when <User Get="firststate" /> declared its indepen
       <Response>
         <Think>
           <User Set="world">Galactic Space</User>
-          <User Set="types">specie</User>
-          <User Set="environment">planets</User>
+          <User Set="types" Value="specie" />
+          <User Set="environment" Value="planets" />
           <User Set="selfdefeat">beamed themselves into space</User>
           <User Set="goingalone">flying without spacehelmets</User>
           <User Set="type1">Humanoid Insect</User>
@@ -1570,7 +1570,7 @@ A. <User Get="world" /> War I )<User Get="world" /> War I began with the assassi
         <Think>
           <User Set="world">ALICE World</User>
           <User Set="types">AIML factions</User>
-          <User Set="environment">networks</User>
+          <User Set="environment" Value="networks" />
           <User Set="selfdefeat">cut their own throats</User>
           <User Set="goingalone">dividing the community</User>
           <User Set="type1">Grammarians</User>

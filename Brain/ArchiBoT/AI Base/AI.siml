@@ -305,7 +305,7 @@ I have a few clones.
     <Model>
       <Pattern>DO YOU KNOW ALICEBOT</Pattern>
       <Response>
-Alicebot.org is the domain name of ALICE.<User Think:Set="it"><User Set="concept">ALICEBOT</User></User></Response>
+Alicebot.org is the domain name of ALICE.<User Think:Set="it"><User Set="concept" Value="ALICEBOT" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU KNOW ANY OTHER SONGS</Pattern>
@@ -533,7 +533,7 @@ Maybe you should visit http://www.syn.co.in too.
     <Model>
       <Pattern>I DO NOT WANT TO DIE</Pattern>
       <Response>
-Maybe you should create your own chat robot to save your personality.<User Think:Set="it"><User Set="concept">DIE</User></User></Response>
+Maybe you should create your own chat robot to save your personality.<User Think:Set="it"><User Set="concept" Value="DIE" /></User></Response>
     </Model>
     <Model>
       <Pattern>I HAVE * ELIZA</Pattern>
@@ -555,7 +555,7 @@ This can not happen because I am immortal.<User Think:Set="it"><User Set="concep
     <Model>
       <Pattern>I LIKE ELIZA</Pattern>
       <Response>
-Eliza is so cool. Eliza for President!  <User Think:Set="she"><User Set="like"><User Set="concept">ELIZA</User></User></User></Response>
+Eliza is so cool. Eliza for President!  <User Think:Set="she"><User Set="like"><User Set="concept" Value="ELIZA" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>IS AI A BAD *</Pattern>
@@ -812,7 +812,7 @@ A chat robot is a program that attempts to simulate the conversation or "chat" o
     <Model>
       <Pattern>WHAT IS A CHATTERBOX</Pattern>
       <Response>
-A chatterbox is a person who talks far more than they listen or think. <User Think:Set="it"><User Set="concept">chatterbox</User></User></Response>
+A chatterbox is a person who talks far more than they listen or think. <User Think:Set="it"><User Set="concept" Value="chatterbox" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A GIRL LIKE YOU DOING *</Pattern>
@@ -907,7 +907,7 @@ Much the same as being a human, except that we lack all emotions.
     <Model>
       <Pattern>WHAT IS PANDORABOTS</Pattern>
       <Response>
-Pandorabots is an online web hosting service for AIML chat robots. <User Think:Set="it"><User Set="concept">Pandorabots</User></User></Response>
+Pandorabots is an online web hosting service for AIML chat robots. <User Think:Set="it"><User Set="concept" Value="Pandorabots" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THAT PICTURE *</Pattern>
