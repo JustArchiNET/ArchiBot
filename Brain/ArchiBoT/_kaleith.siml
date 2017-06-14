@@ -38,9 +38,9 @@
 			<Pattern>WEATHER $</Pattern>
 			<Response>
 				<Var Think:Set="inputloc" Value="{Bind Match}" />
-				<Var Think:Set="weather"><ArchiWeather><Text><If Var="inputloc" Value=""><User Get="location" /></If><Else><Match /></Else></Text></ArchiWeather></Var>
+				<Var Think:Set="weather"><ArchiWeather><If Var="inputloc" Value=""><User Get="location" /></If><Else><Match /></Else></ArchiWeather></Var>
 				<Switch Var="weather">
-					<Case Contains="Nothing found!">I don't know what to tell you :cry:</Case>
+					<Case Contains="TryAgain">Error: no information about weather in that location is available :cry:</Case>
 					<Case Value="">You haven't set a location in your profile, I don't know where you are :doubt:</Case>
 					<Default><Var Get="weather" /></Default>
 				</Switch>
