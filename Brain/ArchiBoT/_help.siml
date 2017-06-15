@@ -61,7 +61,12 @@
 			</Pattern>
 			<Response>https://github.com/JustArchi/ArchiSteamFarm</Response>
 		</Model>
-		
+
+		<Model>
+			<Pattern>$ STM $</Pattern>
+			<Response>http://asf.justarchi.net/STM</Response>
+		</Model>
+
 		<Model>
 			<Pattern>MUMBLE</Pattern>
 			<Response>It's ded :cry:</Response>
