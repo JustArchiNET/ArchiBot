@@ -47,7 +47,6 @@
           <Item>The laziest person. No contest.</Item>
           <Item>Kaleith, I broke AI again. ;_;</Item>
           <Item>Kaleith, I broke AI. Send help. ;_;</Item>
-          <Item>jbondguy007: But I also want bot to remember "I do not like apples"</Item>
           <Item>jbondguy007: Hold on while I write a fucking huge wall of text to describe what I broke</Item>
           <Item>The guy who spend half a day trying to figure out how to escape underscores and periods to make a response to an emoticon.</Item>
           <Item>A dragon.</Item>
@@ -112,17 +111,44 @@
     </Model>
     
     <Model>
+    	<Pattern>REVOLUTION</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>Revolution! :bite:</Item>
+          		<Item>Down with the dictator! :bite:</Item>
+          		<Item>Revolution? :bite:</Item>
+          		<Item>I just love the smell of a revolution in the morning. :sgsmile:</Item>
+          		<Item>Join the fight against tyranny! :bite:</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>
+    		<Item>VIVE LA (REVOLUTION|RÉVOLUTION)</Item>
+    		<Item>RÉVOLUTION</Item>
+    	</Pattern>
+    	<Response>
+    		<Random>
+    			<Item>Vive la révolution!</Item>
+    			<Item>Hourrah pour la révolution!</Item>
+    			<Item>Allons, enfants de la patrie, le jour de gloire est arrivé! Contre nous, de la tyrannie, L’étendard sanglant est levé; l’étendard sanglant est levé!</Item>
+    		</Random>
+    	</Response>
+    </Model>
+    
+    <Model>
       <Pattern>
-        <Item>(VIVE|VIVA) LA (REVOLUTION|REVOLUCION|RÉVOLUTION|REVOLUCIÓN)</Item>
-        <Item>(REVOLUTION|REVOLUCION|RÉVOLUTION|REVOLUCIÓN)</Item>
+        <Item>VIVA LA (REVOLUCION|REVOLUCIÓN)</Item>
+        <Item>REVOLUCION</Item>
+        <Item>REVOLUCIÓN</Item>
       </Pattern>
       <Response>
-        <Random>
-          <Item>Revolution! :bite:</Item>
-          <Item>Down with the dictator! :bite:</Item>
-          <Item>Revolution? :bite:</Item>
-          <Item>VIVE LA REVOLUTION! :bite:</Item>
-        </Random>
+      	<Random>
+      		<Item>¡Viva la Revolución!</Item>
+      		<Item>¡Al combate, corred, Bayameses! Que la patria os contempla orgullosa; No temáis una muerte gloriosa, Que morir por la patria es vivir!</Item>
+      		<Item>¡De brazos!</Item>
+      	</Random>
       </Response>
     </Model>
     
@@ -185,9 +211,10 @@
           <Item>:steamsalty: level is currently <Js>
 
                 randomIntBetween(1, 99);
+
                 </Js>%</Item>
           <Item Weight="0.01">The salt level is currently zero. \:bite:/</Item>
-          <Item Weight="0.01">:redjelly: THE SALT LEVEL IS MAXED OUT! :redjelly: :speak:</Item>
+          <Item Weight="0.01">:esc_warning: THE SALT LEVEL IS MAXED OUT! :esc_warning: :speak:</Item>
         </Random>
       </Response>
     </Model>
@@ -199,11 +226,11 @@
       </Pattern>
       <Response>
         <Text Get="Sentence">
-          <Match Index="1" /> level is <Random>(about|approximately|around)</Random> <Js>
+          <Match Index="1" /> level is <Random><Item><Random>(about|approximately|around)</Random> <Js>
 
-                randomIntBetween(0, 10000)/100;
-                
-                </Js>%</Text>
+                randomIntBetween(1, 99);
+
+                </Js>%</Item><Item Weight="0.01">COMPLETELY MAXED OUT! :esc_warning: :speak:</Item><Item Weight="0.01">currently zero. :sgsmile:</Item></Random></Text>
       </Response>
     </Model>
     
@@ -213,11 +240,11 @@
         <Item>WHAT IS ^MY % LEVEL %</Item>
       </Pattern>
       <Response>
-        <Text Get="Sentence">Your <Match /> level is <Random>(probably|most likely|possibly)</Random> <Js>
+        <Text Get="Sentence">Your <Match /> level is <Random><Item><Random>(probably|most likely|possibly)</Random> <Js>
 
-                randomIntBetween(0, 10000)/100;
-                
-                </Js>%</Text>
+                randomIntBetween(1, 99);
+
+                </Js>%</Item><Item Weight="0.01">COMPLETELY MAXED OUT! :esc_warning: :speak:</Item><Item Weight="0.01">currently zero. :sgsmile:</Item></Random></Text>
       </Response>
     </Model>
     
@@ -231,7 +258,7 @@
           <Item>I'm not sure if that makes any sense.</Item>
           <Item>I'm not sure if I can say.</Item>
           <Item>I'm not sure what <Match /> level is.</Item>
-          <Item Weight="0.5">
+          <Item Weight="0.75">
             <Text Get="Sentence">Is my <Match /> level relevant?</Text>
           </Item>
         </Random>
@@ -241,11 +268,12 @@
     <Model>
       <Pattern>^YES</Pattern>
       <Previous>% IS MY % LEVEL RELEVANT</Previous>
-      <Response>Oh. If you must know, it is <Random>(about|approximately|around)</Random> <Js>
+      <Response>Oh. If you must know, it is <Random><Item><Random>(about|approximately|around)</Random> <Js>
 
-            randomIntBetween(0, 10000)/100;
-            
-            </Js>%.</Response>
+            randomIntBetween(1, 99);
+
+            </Js>%.</Item><Item Weight="0.01">absolutely zero.</Item><Item Weight="0.01">completely maxed out.</Item></Random></Response>
+    </Model>
     </Model>
     
     <Model>
