@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="_jbond">
-    
     <Model>
       <Pattern>RIP</Pattern>
       <Response>
@@ -273,7 +272,6 @@
             randomIntBetween(1, 99);
 
             </Js>%.</Item><Item Weight="0.01">absolutely zero.</Item><Item Weight="0.01">completely maxed out.</Item></Random></Response>
-    </Model>
     </Model>
     
     <Model>
