@@ -59,6 +59,7 @@ regex replaced .+?"name":"(:.+?:)".+? with \t\t<Item>$1</Item>\n (:100oj: is not
 		<Item>:ScumbagFergus:</Item>
 		<Item>:SilverDoor:</Item>
 		<Item>:Slimey:</Item>
+		<Item>:Teddy_talk:</Item>
 		<Item>:TheKeys:</Item>
 		<Item>:The_Ball:</Item>
 		<Item>:TimberTraperHat:</Item>
@@ -113,6 +114,7 @@ regex replaced .+?"name":"(:.+?:)".+? with \t\t<Item>$1</Item>\n (:100oj: is not
 		<Item>:dice5:</Item>
 		<Item>:dice6:</Item>
 		<Item>:dodge:</Item>
+		<Item>:done:</Item>
 		<Item>:doubt:</Item>
 		<Item>:dpfrogo:</Item>
 		<Item>:dsfight:</Item>
@@ -120,6 +122,7 @@ regex replaced .+?"name":"(:.+?:)".+? with \t\t<Item>$1</Item>\n (:100oj: is not
 		<Item>:emeraldwall:</Item>
 		<Item>:emofdr:</Item>
 		<Item>:emturret:</Item>
+		<Item>:esc_warning:</Item>
 		<Item>:firemissile:</Item>
 		<Item>:fishbones:</Item>
 		<Item>:freebeer:</Item>
@@ -141,6 +144,7 @@ regex replaced .+?"name":"(:.+?:)".+? with \t\t<Item>$1</Item>\n (:100oj: is not
 		<Item>:killcrate:</Item>
 		<Item>:kinzo:</Item>
 		<Item>:lck:</Item>
+		<Item>:lemur_ice_cream:</Item>
 		<Item>:lostisland:</Item>
 		<Item>:machinepistols:</Item>
 		<Item>:mammo:</Item>
@@ -169,6 +173,7 @@ regex replaced .+?"name":"(:.+?:)".+? with \t\t<Item>$1</Item>\n (:100oj: is not
 		<Item>:purpleoctopus:</Item>
 		<Item>:rana:</Item>
 		<Item>:rapidFire:</Item>
+		<Item>:really:</Item>
 		<Item>:redbeast1:</Item>
 		<Item>:redhead:</Item>
 		<Item>:redjelly:</Item>
