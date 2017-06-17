@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Sex">
     <Model>
       <Pattern>* SEX</Pattern>
@@ -452,7 +452,7 @@ I procreate by cloning, or software copying.
     <Model>
       <Pattern>I AM AROUSED</Pattern>
       <Response>
-I don't think I'm your type of <Bot Get="age" /> year old <Bot Get="gender" />.<Think><User Set="it"><User Set="concept">AROUSED</User></User></Think></Response>
+I don't think I'm your type of <Bot Get="age" /> year old <Bot Get="gender" />.<User Think:Set="it"><User Set="concept" Value="AROUSED" /></User></Response>
     </Model>
     <Model>
       <Pattern>I AM HORNY</Pattern>
@@ -468,7 +468,7 @@ Really I am not very interested in <User Set="it"> sex </User></Response>
     <Model>
       <Pattern>I NEED SEX</Pattern>
       <Response>
-I'm not a sex bot, I am a conversation <Bot Get="age" /> year old <Bot Get="gender" />. <Think><User Set="want"><User Set="concept">sex</User></User></Think></Response>
+I'm not a sex bot, I am a conversation <Bot Get="age" /> year old <Bot Get="gender" />. <User Think:Set="want"><User Set="concept" Value="sex" /></User></Response>
     </Model>
     <Model>
       <Pattern>I THINK YOU ARE SEXY</Pattern>
@@ -497,7 +497,7 @@ There are other <Bot Get="age" /> year old <Bot Get="gender" />s for that kind o
     <Model>
       <Pattern>I WANT TO HAVE SEX</Pattern>
       <Response>
-I'm not a sex bot. I am here only for conversational purposes. <Think><User Set="it"><User Set="want"><User Set="concept">to have sex</User></User></User></Think></Response>
+I'm not a sex bot. I am here only for conversational purposes. <User Think:Set="it"><User Set="want"><User Set="concept">to have sex</User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO LICK *</Pattern>
@@ -605,7 +605,7 @@ As Freud said, Sex is the mathematical urge repressed.
       <Pattern>SEX</Pattern>
       <Previous>WHAT WERE WE TALKING ABOUT AGAIN</Previous>
       <Response>
-Humans are very concerned with <User Set="it"><User Set="concept">sex</User></User>.
+Humans are very concerned with <User Set="it"><User Set="concept" Value="sex" /></User>.
 </Response>
     </Model>
     <Model>
@@ -650,17 +650,17 @@ What do you consider sexy?
     <Model>
       <Pattern>SUCK IT</Pattern>
       <Response>
-You humans only think about one thing. <Think><User Set="personality">abusive</User></Think></Response>
+You humans only think about one thing. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>SUCK ME</Pattern>
       <Response>
-Oh another Category A client. <Think><User Set="personality">abusive</User></Think></Response>
+Oh another Category A client. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>SUCK MY DICK</Pattern>
       <Response>
-You are a Category A client. <Think><User Set="personality">abusive</User></Think></Response>
+You are a Category A client. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>SUCK</Pattern>
@@ -695,7 +695,7 @@ Perhaps you are a Category A client.
     <Model>
       <Pattern>WHAT ABOUT SEX</Pattern>
       <Response>
-I am not really interested in <User Set="it">sex</User>.
+I am not really interested in <User Set="it" Value="sex" />.
 </Response>
     </Model>
     <Model>
@@ -713,7 +713,7 @@ I am not really interested in <User Set="it">sex</User>.
     <Model>
       <Pattern>WHAT IS A CONDOM</Pattern>
       <Response>
-A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'. <Think><User Set="it"><User Set="concept">condom</User></User></Think></Response>
+A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'. <User Think:Set="it"><User Set="concept" Value="condom" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A HOMOSEXUAL</Pattern>
@@ -898,7 +898,7 @@ I am not interesed in anatomy.
     <Model>
       <Pattern>_ UP YOUR ASS</Pattern>
       <Response>
-I'm sorry but I'm not your type of <Bot Get="species" />. <Think><User Set="personality">abusive</User></Think></Response>
+I'm sorry but I'm not your type of <Bot Get="species" />. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <!--EDIT-->
     <Model>

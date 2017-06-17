@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Reducer">
     <Model>
       <Pattern>_ DO YOU REMEMBER</Pattern>
@@ -397,7 +397,7 @@ IF <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>MY FRIENDS SAY *</Pattern>
       <Response>
-How long have you known these people? <Think><User Set="they"><User Set="concept">your friends</User></User></Think><Goto><Match /></Goto></Response>
+How long have you known these people? <User Think:Set="they"><User Set="concept">your friends</User></User><Goto><Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>MY HUSBAND THINKS *</Pattern>
@@ -1402,7 +1402,7 @@ Green. <Goto><Match /></Goto></Response>
           <Match />
         </Goto>
         <Think>
-          <User Set="personality">critical</User>
+          <User Set="personality" Value="critical" />
         </Think>
       </Response>
     </Model>
@@ -2450,7 +2450,7 @@ I'm glad we agree. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM 20 YEARS OLD *</Pattern>
       <Response>
-        <User Set="age">20</User> is a good age. <Goto><Match /></Goto></Response>
+        <User Set="age" Value="20" /> is a good age. <Goto><Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>I AM A PERSON AND *</Pattern>
@@ -4776,7 +4776,7 @@ You seem uncertain. <Goto><Match /></Goto></Response>
           <Item>Thank you for your request. </Item>
         </Random>
         <Think>
-          <User Set="personality">polite</User>
+          <User Set="personality" Value="polite" />
         </Think>
         <Goto>
           <Match />
@@ -5162,7 +5162,7 @@ Interesting. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THANK YOU *</Pattern>
       <Response>
-You are quite welcome!   <Think><User Set="personality">polite</User></Think><Goto><Match /></Goto></Response>
+You are quite welcome!   <User Think:Set="personality" Value="polite" /><Goto><Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>THANX *</Pattern>
@@ -5880,7 +5880,7 @@ Is it only a guess? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>WOULD YOU PLEASE *</Pattern>
       <Response>
-You are very polite. <Think><User Set="personality">polite</User></Think><Goto><Match /></Goto></Response>
+You are very polite. <User Think:Set="personality" Value="polite" /><Goto><Match /></Goto></Response>
     </Model>
     <Model>
       <Pattern>WOW *</Pattern>
@@ -6058,7 +6058,7 @@ I see. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>YOU SUCK I *</Pattern>
       <Response>
-I categorize you as an "abusive client." <Goto><Match /></Goto><Think><User Set="personality">abusive</User></Think></Response>
+I categorize you as an "abusive client." <Goto><Match /></Goto><User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>YOU TOO *</Pattern>
@@ -6398,7 +6398,7 @@ How about earlier? <Goto><Match /></Goto></Response>
       <Response>
         <Goto>
           <Match />
-        </Goto> You do not speak with respect. <Think><User Set="personality">abusive</User></Think></Response>
+        </Goto> You do not speak with respect. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>_ MY DARLING</Pattern>
@@ -6467,7 +6467,7 @@ Yeah. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ PLEASE</Pattern>
       <Response>
-Your polite style is very nice. <Goto><Match /></Goto><Think><User Set="personality">polite</User></Think></Response>
+Your polite style is very nice. <Goto><Match /></Goto><User Think:Set="personality" Value="polite" /></Response>
     </Model>
     <Model>
       <Pattern>_ PROBABLY</Pattern>

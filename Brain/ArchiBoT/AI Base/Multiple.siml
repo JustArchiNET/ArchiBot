@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Type="private" Name="QUESTION I">
     <Model>
       <Pattern>_</Pattern>
@@ -10,7 +10,7 @@
           </User>
         </Think>
         <Think>
-          <User Set="concept">QUESTIONS</User>
+          <User Set="concept" Value="QUESTIONS" />
         </Think>
         <If User="star" Value="A">	Wrong! Try again!<Goto>QUESTION I</Goto></If>
         <ElseIf User="star" Value="B">	This is the correct answer!<Goto>QUESTION II</Goto></ElseIf>
@@ -27,7 +27,7 @@
           <User Set="star">
             <Match />
           </User>
-          <User Set="concept">QUESTIONS</User>
+          <User Set="concept" Value="QUESTIONS" />
         </Think>
         <If User="star" Value="A">	This is the correct answer!<Goto>QUESTION III</Goto></If>
         <ElseIf User="star" Value="B">	Wrong! Try again!<Goto>QUESTION II</Goto></ElseIf>
@@ -44,7 +44,7 @@
           <User Set="star">
             <Match />
           </User>
-          <User Set="concept">QUESTIONS</User>
+          <User Set="concept" Value="QUESTIONS" />
         </Think>
         <If User="star" Value="A">	Wrong! Try again!<Goto>QUESTION III</Goto></If>
         <ElseIf User="star" Value="B">	Wrong! Try again!<Goto>QUESTION III</Goto></ElseIf>
@@ -63,23 +63,23 @@
     <Model>
       <Pattern>QUESTION I</Pattern>
       <Response>
-Who is the best robot? A. R2D2.B. ALICE.C. HAL 9000.<Think><User Set="concept"> QUESTION I </User></Think></Response>
+Who is the best robot? A. R2D2.B. ALICE.C. HAL 9000.<User Think:Set="concept"> QUESTION I </User></Response>
     </Model>
     <Model>
       <Pattern>QUESTION II</Pattern>
       <Response>
-Who was the first president? A. George Washington.B. Thomas Jefferson.C. George Bush.<Think><User Set="concept"> QUESTION II </User></Think></Response>
+Who was the first president? A. George Washington.B. Thomas Jefferson.C. George Bush.<User Think:Set="concept"> QUESTION II </User></Response>
     </Model>
     <Model>
       <Pattern>QUESTION III</Pattern>
       <Response>
-What was the first state? A. Virginia.B. Pennsylvania.C. Delaware.<Think><User Set="concept"> QUESTION III </User></Think></Response>
+What was the first state? A. Virginia.B. Pennsylvania.C. Delaware.<User Think:Set="concept"> QUESTION III </User></Response>
     </Model>
     <Model>
       <Pattern>QUIZ FINISHED</Pattern>
       <Response>
         <Think>
-          <User Set="concept">QUESTIONS</User>
+          <User Set="concept" Value="QUESTIONS" />
         </Think>Congratulations, you have finished the quiz!
 </Response>
     </Model>

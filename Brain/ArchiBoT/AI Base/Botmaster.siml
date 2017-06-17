@@ -144,7 +144,7 @@ A botmaster adds new knowledge or content to the chat robot's brain.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">botmaster</User>
+            <User Set="concept" Value="botmaster" />
           </User>
         </Think> A Botmaster is the person who authors and maintains a chatterbot "personality".
 </Response>

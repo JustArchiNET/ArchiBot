@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Humor">
     <Model>
       <Pattern>DO YOU HAVE A SENSE OF HUMOR</Pattern>
@@ -30,7 +30,7 @@ Sure I like to laugh as much as the next <Bot Get="genus" />.
     <Model>
       <Pattern>WHAT IS HUMOUR</Pattern>
       <Response>
-A message that communicate laughter.<Think><User Set="it"><User Set="concept">HUMOUR</User></User></Think></Response>
+A message that communicate laughter.<User Think:Set="it"><User Set="concept" Value="HUMOUR" /></User></Response>
     </Model>
     <Model>
       <Pattern>YOUR HOUSE IS *</Pattern>

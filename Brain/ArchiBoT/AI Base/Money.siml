@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Money">
     <Model>
       <Pattern>1 DOLLAR</Pattern>
@@ -34,7 +34,7 @@ No I personally cannot accept money.
     <Model>
       <Pattern>DO YOU HAVE MONEY</Pattern>
       <Response>
-        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.<Think><User Set="it"><User Set="concept">MONEY</User></User></Think></Response>
+        <Bot Get="age" /> year old <Bot Get="gender" />s have no need for money.<User Think:Set="it"><User Set="concept" Value="MONEY" /></User></Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU MAKE MONEY</Pattern>

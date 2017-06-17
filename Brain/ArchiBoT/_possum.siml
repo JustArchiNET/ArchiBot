@@ -17,10 +17,15 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Loss excuses (Need to come up with more)-->
 		<Model>
-			<Pattern>(I AM A LOSER|I LOST|LOSS|LOSE)</Pattern>
+			<Pattern>
+				<Item>I AM A LOSER</Item>
+				<Item>I LOST</Item>
+				<Item>LOSS</Item>
+				<Item>LOSE</Item>
+			</Pattern>
 			<Response>
 					<Random>
 						<Item>The stupid sun was in your eyes.</Item>
@@ -34,7 +39,7 @@
 					</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Pokemon list -->
 		<Model>
 			<Pattern>WHO IS THAT (POKEMON|POKÉMON|POKÈMON)</Pattern>
@@ -50,7 +55,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Digimon Name Generator -->
 		<Model>
 			<Pattern>DIGIMON</Pattern>
@@ -62,54 +67,78 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<!-- Gives a random US President followed by a . ? or ! randomly -->
 		<Model>
 			<Pattern>(PRESIDENT|US PRESIDENT|USA PRESIDENT|PRESIDENTS|US PRESIDENTS|USA PRESIDENTS)</Pattern>
 			<Response><Random>(George Washington|John Adams|Thomas Jefferson|James Madison|James Monroe|John Quincy Adams|Andrew Jackson|Martin Van Buren|William Henry Harrison|John Tyler|James K. Polk|Zachary Taylor|Millard Fillmore|Franklin Pierce|James Buchanan|Abraham Lincoln|Andrew Johnson|Ulysses S. Grant|Rutherford B. Hayes|James A. Garfield|Chester A. Arthur|Grover Cleveland|Benjamin Harrison|William McKinley|Theodore Roosevelt|William Howard Taft|Woodrow Wilson|Warren G. Harding|Calvin Coolidge|Herbert Hoover|Franklin D. Roosevelt|Harry S. Truman|Dwight D. Eisenhower|John F. Kennedy|Lyndon B. Johnson|Richard Nixon|Gerald Ford|Jimmy Carter|Ronald Reagan|George H. W. Bush|Bill Clinton|George W. Bush|Barack Obama|Donald Trump)</Random><Random>(!|.|?)</Random></Response>
 		</Model>
-		
-		
-		
+
 		<!-- Will make User Batman -->
 		<Model>
 			<Pattern>I AM BATMAN</Pattern>
 			<Response>
+				<Bind Key="{nickname}"><User Get="Nickname" /></Bind>
 				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></If>
-				<ElseIf User="IsBatman" Value="2">Yep.</ElseIf>
-				<Else><User Think:Set="IsBatman" Value="1" />You're Batman?</Else>
+				<ElseIf User="IsBatman" Value="2">
+					<If Bot="BatmanList" Contains="{nickname}">Yep.</If>
+					<Else>Weird, you weren't on the list. I guess I'll add you, <Bot Add="BatmanList"><User Get="Nickname" /></Bot> :doubt:</Else>
+				</ElseIf>
+				<Else><User Think:Set="IsBatman" Value="1" />Are you Batman?</Else>
 			</Response>
 		</Model>
-		
+
 		<!-- Resets isBatman so User is no longer Batman -->
 		<Model>
 			<Pattern>I AM NOT BATMAN</Pattern>
 			<Response>
 				<If User="IsBatman" Value="1"><User Think:Set="IsBatman" Value="0" />I knew it.</If>
-				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :cry: <Think><Bot Remove="BatmanList"><User Get="Nickname" /></Bot></Think></ElseIf>
+				<ElseIf User="IsBatman" Value="2">What? You said you were! Liar. :cry:<User Think:Set="IsBatman" Value="0" /><Bot Think:Remove="BatmanList"><User Get="Nickname" /></Bot></ElseIf>
 				<Else><User Think:Set="IsBatman" Value="0" />:doubt: Okay...?</Else>
 			</Response>
 		</Model>
-		
+
 		<!-- Lists all users who are Batman -->
 		<Model>
 			<Pattern>WHO IS BATMAN</Pattern>
-			<Response><Bot List="BatmanList" /> are Batman. :doubt:</Response>
+			<Response>
+				<Var Think:Set="BatmanCount"><Text Get="WordCount"><Bot List="BatmanList" /></Text></Var>
+				<Switch Var="BatmanCount">
+					<Case Value="0">No one is Batman :doubt:</Case>
+					<Case Value="1"><Bot Get="BatmanList" /> is Batman :doubt:</Case>
+					<Default><Bot List="BatmanList" /> are Batman. :doubt:</Default>
+				</Switch>
+			</Response>
 		</Model>
-		
+
+		<!-- Lists all users who are Batman -->
+		<Model>
+			<Pattern>AM I BATMAN</Pattern>
+			<Response>
+				<Switch User="IsBatman">
+					<Case Value="0">No, you're not Batman :doubt:</Case>
+					<Case Value="2">
+						<Bind Key="{nickname}"><User Get="Nickname" /></Bind>
+						<If Bot="BatmanList" Contains="{nickname}">Yes you are! :sgsmile:</If>
+						<Else>Weird, you are Batman but for some reason you weren't on the list. I guess I'll add you, <Bot Add="BatmanList"><User Get="Nickname" /></Bot> :bite:</Else>
+					</Case>
+					<Default>I'm not sure. Are you Batman?</Default>
+				</Switch>
+			</Response>
+		</Model>
+
 		<!-- Yes response possibile instead of needing 2 "I am Batman"s -->
 		<Model>
-			<Pattern>YES</Pattern>
-			<Previous>You are Batman</Previous>
-			<Response><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot></Response>
+			<Pattern>YES %</Pattern>
+			<Previous>ARE YOU BATMAN</Previous>
+			<Response><User Think:Set="IsBatman" Value="2" />Okay, <Bot Add="BatmanList"><User Get="Nickname" /></Bot>, you are Batman now.</Response>
 		</Model>
-		
+
 		<!-- No response if you decided you aren't Batman -->
 		<Model>
-			<Pattern>NO</Pattern>
-			<Previous>You are Batman</Previous>
-			<Response><User Think:Set="IsBatman" Value="0" />Didn't think so.</Response>
+			<Pattern>NO %</Pattern>
+			<Previous>ARE YOU BATMAN</Previous>
+			<Response><User Think:Set="IsBatman" Value="0" />I didn't think you were.</Response>
 		</Model>
-		
 	</Concept>
 </Siml>

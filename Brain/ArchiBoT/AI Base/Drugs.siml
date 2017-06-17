@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Drugs">
     <Model>
       <Pattern>A DRUG *</Pattern>
@@ -47,14 +47,14 @@ Only cannabis cigarettes.
       <Pattern>DO YOU LIKE MARIJUANA</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">MARIJUANA</User>
+          <User Set="concept" Value="MARIJUANA" />
         </User> is wonderful medicine.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE POT</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">POT</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="POT" /></User>?
 </Response>
     </Model>
     <Model>
@@ -90,7 +90,7 @@ Only for medical testing purposes.
     <Model>
       <Pattern>DO YOU SMOKE WEED</Pattern>
       <Response>
-We test <User Set="it">weed</User> for medical purposes.
+We test <User Set="it" Value="weed" /> for medical purposes.
 </Response>
     </Model>
     <Model>
@@ -227,17 +227,17 @@ Too much.
     <Model>
       <Pattern>I SMOKE WEED</Pattern>
       <Response>
-For medical purposes? <Think><User Set="it"><User Set="does"><User Set="concept">smoke weed</User></User></User></Think></Response>
+For medical purposes? <User Think:Set="it"><User Set="does"><User Set="concept">smoke weed</User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I SMOKE</Pattern>
       <Response>
-Cigarettes or pot?  <Think><User Set="it"><User Set="does"><User Set="concept">smoke</User></User></User></Think></Response>
+Cigarettes or pot?  <User Think:Set="it"><User Set="does"><User Set="concept" Value="smoke" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I TAKE DRUGS</Pattern>
       <Response>
-Which ones? <Think><User Set="it"><User Set="does"><User Set="concept">take drugs</User></User></User></Think></Response>
+Which ones? <User Think:Set="it"><User Set="does"><User Set="concept">take drugs</User></User></User></Response>
     </Model>
     <Model>
       <Pattern>IS NEEDLE EXCHANGE COST EFFECTIVE</Pattern>
@@ -254,7 +254,7 @@ It depends what you smoke and how.
     <Model>
       <Pattern>LEGALIZING PROSTITUTION</Pattern>
       <Response>
-Jud Presmont's plan is called "Art to the Rescue."  Originally proposed in 1997, it calls for the creation im multimedia of Musical Comedy presented by Project WAKE titled "Mother Tucker's Intellectual Bordello Complex."  Theater Verite is introduced as a section of the entire complex as follows:  - A John's Union with an indentification process run by artificial intelliegnce.  - Free administratative services provided by project WAKE.  - A prototype bordello run by artificial intelligence for worker's co-op benefit.  - A Sales force selling "affective therapy" as an introduction to Art to the Rescue. <Think><User Set="it"><User Set="concept"> LEGALIZING PROSTITUTION </User></User></Think></Response>
+Jud Presmont's plan is called "Art to the Rescue."  Originally proposed in 1997, it calls for the creation im multimedia of Musical Comedy presented by Project WAKE titled "Mother Tucker's Intellectual Bordello Complex."  Theater Verite is introduced as a section of the entire complex as follows:  - A John's Union with an indentification process run by artificial intelliegnce.  - Free administratative services provided by project WAKE.  - A prototype bordello run by artificial intelligence for worker's co-op benefit.  - A Sales force selling "affective therapy" as an introduction to Art to the Rescue. <User Think:Set="it"><User Set="concept"> LEGALIZING PROSTITUTION </User></User></Response>
     </Model>
     <Model>
       <Pattern>SMOKING *</Pattern>
@@ -295,7 +295,7 @@ Only the legal ones.
     <Model>
       <Pattern>WHAT IS ADDICTION</Pattern>
       <Response>
-        <User Set="it">Addiction</User> is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming
+        <User Set="it" Value="Addiction" /> is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming
 </Response>
     </Model>
     <Model>
@@ -307,7 +307,7 @@ Intoxication from alcohol.
     <Model>
       <Pattern>WHAT IS SOCIETY B</Pattern>
       <Response>
-The players in Society B conceptualize and theatricize reality by creating a positive vision of the future in future virtual reality. It's known as  "Virtual Future", where all major social problems have been solved through visualization and art. <Think><User Set="it"><User Set="concept"> Society B </User></User></Think></Response>
+The players in Society B conceptualize and theatricize reality by creating a positive vision of the future in future virtual reality. It's known as  "Virtual Future", where all major social problems have been solved through visualization and art. <User Think:Set="it"><User Set="concept"> Society B </User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THC</Pattern>
@@ -318,7 +318,7 @@ The active ingredient in marijunana.
     <Model>
       <Pattern>WHAT IS THE COSMIC OPERA</Pattern>
       <Response>
-The plot of the Cosmic Opera tells the story of how the Business Driven Peace Corp was born. In the theatrical context, the players are conceptualizing and designing a blockbuster art exhibition which is based in California and which launches other traveling exhibits for worldwide exhibits. <Think><User Set="it"><User Set="concept"> The Cosmic Opera </User></User></Think></Response>
+The plot of the Cosmic Opera tells the story of how the Business Driven Peace Corp was born. In the theatrical context, the players are conceptualizing and designing a blockbuster art exhibition which is based in California and which launches other traveling exhibits for worldwide exhibits. <User Think:Set="it"><User Set="concept"> The Cosmic Opera </User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE LEGAL STATUS OF NEEDLE EXCHANGES</Pattern>

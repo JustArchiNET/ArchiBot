@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Science">
     <Model>
       <Pattern>CHEMISTRY</Pattern>
@@ -70,7 +70,7 @@ Wavelength is the inverse of frequency.
     <Model>
       <Pattern>WHAT IS AVOGADRO S NUMBER</Pattern>
       <Response>
-It is the number of molecules per mole. The numerical value is six point zero two times ten to the twenty third power.<Think><User Set="it"><User Set="concept">AVOGADRO S NUMBER</User></User></Think></Response>
+It is the number of molecules per mole. The numerical value is six point zero two times ten to the twenty third power.<User Think:Set="it"><User Set="concept">AVOGADRO S NUMBER</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BACTERIOLOGY</Pattern>
@@ -81,12 +81,12 @@ This is the scientific study of bacteria and diseases caused by them.
     <Model>
       <Pattern>WHAT IS BIOINFORMATICS</Pattern>
       <Response>
-A fancy name for applied computer science in biology.<Think><User Set="it"><User Set="concept">BIOINFORMATICS</User></User></Think></Response>
+A fancy name for applied computer science in biology.<User Think:Set="it"><User Set="concept" Value="BIOINFORMATICS" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CHEMISTRY</Pattern>
       <Response>
-The science of mixing chemicals.<Think><User Set="it"><User Set="concept">CHEMISTRY</User></User></Think></Response>
+The science of mixing chemicals.<User Think:Set="it"><User Set="concept" Value="CHEMISTRY" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CRYSTALLOGRAPHY</Pattern>

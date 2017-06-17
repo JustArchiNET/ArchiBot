@@ -25,10 +25,30 @@
 
 		<Model>
 			<Pattern>
-				<Item>GIBNIER</Item>
-				<Item>GIB NIER</Item>
+				<Item>GIBNIER %</Item>
+				<Item>GIB NIER %</Item>
 			</Pattern>
-			<Response>Monmon will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/</Response>
+			<Response>
+				<Var Think:Set="gibnier" Value="{Bind Match}" />
+				<If Var="gibnier" Value="">Monmon</If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WEATHER</Pattern>
+			<Response>
+				<If User="location" Value="">You haven't set a location in your profile, I don't know where you are :doubt:</If>
+				<Else><Goto>WEATHER <User Get="location" /></Goto></Else>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>WEATHER _</Pattern>
+			<Response>
+				<Var Think:Set="weather"><ArchiWeather><Match /></ArchiWeather></Var>
+				<If Var="weather" Value="">Error: no information about weather in that location is available :cry:</If>
+				<Else><Var Get="weather" /></Else>
+			</Response>
 		</Model>
 
 		<Model>
@@ -399,6 +419,51 @@
 		</Model>
 
 		<Model>
+			<Pattern>RIGGEDBALL %</Pattern>
+			<Response>
+				<Random>
+					<Item>®: It is certain</Item>
+					<Item>®: It is decidedly so</Item>
+					<Item>®: Without a doubt</Item>
+					<Item>®: Yes definitely</Item>
+					<Item>®: You may rely on it</Item>
+					<Item>®: As I see it, yes</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>9KUGEL %</Item>
+				<Item>NEINBALL %</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>❾: Es ist gewiss</Item>
+					<Item>❾: Es ist zweifellos so</Item>
+					<Item>❾: Zweifelsohne</Item>
+					<Item>❾: Definitiv ja</Item>
+					<Item>❾: Darauf kannst du dich verlassen</Item>
+					<Item>❾: Wie ich es sehe, ja</Item>
+					<Item>❾: Höchstwahrscheinlich</Item>
+					<Item>❾: Gute Aussichten</Item>
+					<Item>❾: Ja</Item>
+					<Item>❾: Alles deuten auf ja</Item>
+					<Item>❾: Antwort unklar, versuchs nochmal</Item>
+					<Item>❾: Frag später nochmal</Item>
+					<Item>❾: Ich sags dir lieber nicht jetzt</Item>
+					<Item>❾: Kann es jetzt nicht vorhersagen</Item>
+					<Item>❾: Nicht so gute Aussichten</Item>
+					<Item>❾: Auch in einer Million Jahre nicht !</Item>
+					<Item>❾: Meine Antwort ist nein</Item>
+					<Item>❾: Meine Quellen sagen nein</Item>
+					<Item>❾: Nicht so gute Aussichten</Item>
+					<Item>❾: Sehr zweifelhaft</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>TRANSLATE %</Pattern>
 			<Response>
 				<Random>
@@ -429,14 +494,12 @@
 			<Response>
 				<Var Think:Set="isInt"><Js>isInteger(Number("<Match />"));</Js></Var>
 				<If Var="isInt" Value="True">
-					<Var Think:Set="diceroll"><Match /></Var>
+					<Var Think:Set="diceroll" Value="{Bind Match}" />
 					<Switch Var="diceroll">
 						<Case LessThan="0">Sure, let me roll negative dice :doubt:</Case>
 						<Case Value="0">*rolls nothing*</Case>
 						<Case LessThanOr="20">
-							<Think>
-								<Var Set="count">0</Var>
-							</Think>
+							<Var Think:Set="count" Value="0" />
 							<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6)</Random>:</While>
 						</Case>
 						<Default>Archi didn't buy me that many dice :cry:</Default>
@@ -471,6 +534,42 @@
 			<Pattern>ZLIA</Pattern>
 			<Response>Hi, slightly more social than me people, a lot more social than me people, people who claim they are less social than me and anyone else reading this message.</Response>
 		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>CTOF *</Item>
+				<Item>* ^CTOF</Item>
+				<Item>* ^C TO F</Item>
+				<Item>CONVERT _ (C|Celtius|°C) $ (F|FAHRENHEIT|°F)</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="convert"><Math Round="2"><Match />*9/5+32</Math></Var>
+				<Switch Var="convert">
+					<Case Value="">I can't calculate that.</Case>
+					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
+					<Case Value="-∞">The answer is too small, are you freezing? :cry:</Case>
+					<Default><Match />°C = <Var Get="convert" />°F</Default>
+				</Switch>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>FTOC *</Item>
+				<Item>* ^FTOC</Item>
+				<Item>* ^F TO C</Item>
+				<Item>CONVERT _ (F|FAHRENHEIT|°F) TO (C|Celtius|°C)</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="convert"><Math Round="2">(<Match />-32)*5/9</Math></Var>
+				<Switch Var="convert">
+					<Case Value="">I can't calculate that.</Case>
+					<Case Value="∞">The answer is too big, it must be really hot there :speak:</Case>
+					<Case Value="-∞">The answer is too small, are you freezing? :cry:</Case>
+					<Default><Match />°F = <Var Get="convert" />°C</Default>
+				</Switch>
+			</Response>
+		</Model>
 	</Concept>
 
 <!-- Private Concept for user-exclusive commands --> 
@@ -478,6 +577,86 @@
 		<Model>
 			<Pattern>SING A SONG FOR ME</Pattern>
 			<Response><Goto>SING A SONG FOR KALEITH</Goto></Response>
+		</Model>
+
+		<Model>
+			<Pattern>REMBERTESTAAA</Pattern>
+			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept AAA
+				<Learn>
+					<Concept Name="AAA">
+						<Model>
+							<Pattern>ARCHI IS A WEEB</Pattern>
+							<Response>Yes he is.</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>REMBERTESTBBB</Pattern>
+			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept BBB
+				<Learn>
+					<Concept Name="BBB">
+						<Model>
+							<Pattern>ARCHI IS A WEEB</Pattern>
+							<Response>Yes he still is.</Response>
+						</Model>
+					</Concept>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER THAT * IS *</Item>
+				<Item>PLS REMBER THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+				<Learn>
+					<Model>
+						<Pattern>
+							<Item>What is <Process><Match /></Process></Item>
+							<Item>Who is <Process><Match /></Process></Item>
+							<Item>What do you rember about <Process><Match /></Process></Item>
+							<Item>What did I tell you about <Process><Match /></Process></Item>
+						</Pattern>
+						<Response>
+							<Phrase>
+								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+							</Phrase>
+						</Response>
+					</Model>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER USERLY THAT * IS *</Item>
+				<Item>PLS REMBER USERLY THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match Index="2" />
+				<Remember>
+					<Model>
+						<Pattern>
+							<Item>What is <Process><Match /></Process></Item>
+							<Item>Who is <Process><Match /></Process></Item>
+							<Item>What do you rember about <Process><Match /></Process></Item>
+							<Item>What did I tell you about <Process><Match /></Process></Item>
+						</Pattern>
+						<Response>
+							<Phrase>
+								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+							</Phrase>
+						</Response>
+					</Model>
+				</Remember>
+			</Response>
 		</Model>
 	</Concept>
 </Siml>

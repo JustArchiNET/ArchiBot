@@ -2,493 +2,70 @@
 <Siml>
 	<Concept Name="_errors">
 		<Model>
-			<Pattern>NOTAICOMMAND</Pattern>
-			<Response>That's not a command I recognize, are you sure it's AI-related? :doubt:</Response>
+			<Pattern>
+				<Item>2HUAFK $</Item>
+				<Item>2HUAFKNEXT $</Item>
+				<Item>2HUAFKNOW $</Item>
+				<Item>2HUAWESOME $</Item>
+				<Item>2HUBUG $</Item>
+				<Item>2HUEVENT $</Item>
+				<Item>2HUKICK $</Item>
+				<Item>2HUINVITE $</Item>
+				<Item>2HULEECHERS $</Item>
+				<Item>2HUMUSIC $</Item>
+				<Item>2HUOJ $</Item>
+				<Item>2HUSUGGESTION $</Item>
+				<Item>2HUTALISMAN $</Item>
+				<Item>GIT $</Item>
+				<Item>BOTGIT $</Item>
+				<Item>AIGIT $</Item>
+				<Item>2HU $</Item>
+				<Item>2HUGIB $</Item>
+				<Item>ROULETTE $</Item>
+				<Item>2HUANNOUNCE $</Item>
+				<Item>2HUFL $</Item>
+				<Item>2HUFUCKUP $</Item>
+				<Item>NSFW $</Item>
+				<Item>SFW $</Item>
+				<Item>SUB $</Item>
+				<Item>TAGS $</Item>
+				<Item>TRAIN $</Item>
+				<Item>TRAIND $</Item>
+				<Item>DEL $</Item>
+				<Item>ADDTHEME $</Item>
+				<Item>AUTOTHEME $</Item>
+				<Item>PLAYALBUM $</Item>
+				<Item>PLAYALBUMS $</Item>
+				<Item>PLAYARTIST $</Item>
+				<Item>PLAYARTISTS $</Item>
+				<Item>PLAYBEST $</Item>
+				<Item>PLAYNUMBER $</Item>
+				<Item>PLAYPERFORMER $</Item>
+				<Item>PLAYPERFORMERS $</Item>
+				<Item>PLAYRATE $</Item>
+				<Item>PLAYSONG $</Item>
+				<Item>PLAYSONGS $</Item>
+				<Item>PLAYTHEME $</Item>
+				<Item>PLAYTHEMES $</Item>
+				<Item>RATE $</Item>
+				<Item>DL $</Item>
+				<Item>DLRATE $</Item>
+				<Item>DLALBUM $</Item>
+				<Item>DLALBUMS $</Item>
+				<Item>DLARTIST $</Item>
+				<Item>DLARTISTS $</Item>
+				<Item>DLBEST $</Item>
+				<Item>DLPERFORMER $</Item>
+				<Item>DLPERFORMERS $</Item>
+				<Item>DLRATE $</Item>
+				<Item>DLSONG $</Item>
+				<Item>DLSONGS $</Item>
+				<Item>DLTHEME $</Item>
+				<Item>DLTHEMES $</Item>
+				<Item>DEFINE $</Item>
+				<Item>CONVERT $</Item>
+			</Pattern>
+			<Response>Maybe try "!<User Get="Message" />" instead :sgsmile:</Response>
 		</Model>
-
-		<Model>
-			<Pattern>NOTAICOMMAND *</Pattern>
-			<Response>Maybe try !<Text Get="lowercase"><Match /></Text> instead :sgsmile:</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUAFK $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUAFK <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUAFKNEXT $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUAFKNEXT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUAFKNOW $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUAFKNOW</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUAWESOME $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUAWESOME <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUBUG $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUBUG <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUEVENT $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUEVENT <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUKICK $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUKICK <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUINVITE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUINVITE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HULEECHERS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HULEECHERS</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUMUSIC $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUMUSIC <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUOJ $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUOJ <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUSUGGESTION $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUSUGGESTION <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUTALISMAN $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUTALISMAN <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>GIT $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND GIT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>BOTGIT $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND BOTGIT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>AIGIT $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND AIGIT</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HU $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HU <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUGIB $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUGIB <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>ROULETTE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND ROULETTE</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUANNOUNCE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUANNOUNCE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUFL $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUFL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>2HUFUCKUP $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND 2HUFUCKUP <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>NSFW $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND NSFW <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>SFW $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND SFW <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>SUB $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND SUB</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>TAGS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND TAGS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>TRAIN $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND TRAIN <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>TRAIND $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND TRAIND <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DEL $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DEL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>ADDTHEME $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND ADDTHEME <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>AUTOTHEME $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND AUTOTHEME</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYALBUM $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYALBUM <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYALBUMS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYALBUMS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYARTIST $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYARTIST <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYARTISTS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYARTISTS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYBEST $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYBEST</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYNUMBER $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYNUMBER <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYPERFORMER $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYPERFORMER <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYPERFORMERS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYPERFORMERS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYRATE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYRATE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYSONG $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYSONG <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYSONGS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYSONGS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYTHEME $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYTHEME <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>PLAYTHEMES $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND PLAYTHEMES <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>RATE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND RATE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DL $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DL</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLRATE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLRATE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLALBUM $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLALBUM <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLALBUMS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLALBUMS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLARTIST $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLARTIST <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLARTISTS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLARTISTS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLBEST $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLBEST</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLPERFORMER $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLPERFORMER <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLPERFORMERS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLPERFORMERS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLRATE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLRATE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLSONG $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLSONG <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLSONGS $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLSONGS <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLTHEME $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLTHEME <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DLTHEMES $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DLTHEMES <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>DEFINE $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND DEFINE <Match />
-				</Goto>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>CONVERT $</Pattern>
-			<Response>
-				<Goto>NOTAICOMMAND CONVERT <Match />
-				</Goto>
-			</Response>
-		</Model>
-<!-- "No fun allowed" - Archi 2017-05-29
-		<Model>
-			<Pattern>CONVERT _~1 _~1 _</Pattern>
-			<Response><Match /> <Match Index="2"/> = <Js>randomIntBetween(1,100000)/100;</Js> <Random>(bananas|weebs|Neps|million dollars|bells|souls|credits|gold coins|meat|simoleons|oren|zeny|cats|dogs|potatoes|used condoms|used train tickets|chickens|nuyen|clams|oranges|Touhou Points|buckets|lolis|kicks)</Random></Response>
-		</Model>
--->
 	</Concept>
 </Siml>

@@ -1692,7 +1692,7 @@ You said: <Goto>what did I say before that</Goto></Response>
       <Pattern>ANGEL</Pattern>
       <Response>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
         <Goto>my name is angel</Goto>
       </Response>
@@ -1702,7 +1702,7 @@ You said: <Goto>what did I say before that</Goto></Response>
       <Response>
         <Goto>my name is angela</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>
@@ -14629,7 +14629,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">DANISH</User>
+            <User Set="concept" Value="DANISH" />
           </User>
         </Think>
         <Goto>do you speak danish</Goto>
@@ -14640,7 +14640,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">FRENCH</User>
+            <User Set="concept" Value="FRENCH" />
           </User>
         </Think>
         <Goto>do you speak french</Goto>
@@ -14795,7 +14795,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">FRENCH</User>
+            <User Set="concept" Value="FRENCH" />
           </User>
         </Think>
         <Goto>do you speak french</Goto>
@@ -14806,7 +14806,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">GERMAN</User>
+            <User Set="concept" Value="GERMAN" />
           </User>
         </Think>
         <Goto>do you speak german</Goto>
@@ -14829,7 +14829,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">JAPANESE</User>
+            <User Set="concept" Value="JAPANESE" />
           </User>
         </Think>
         <Goto>do you speak japanese</Goto>
@@ -21618,7 +21618,7 @@ Not literally afraid, right? <Goto>I think <Map Get="person" /></Goto></Response
       <Response>
         <Goto>my name is emily</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>
@@ -23872,7 +23872,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
         <Goto>I have a dog</Goto>
         <Think>
           <User Set="it">
-            <User Set="concept">DOGS</User>
+            <User Set="concept" Value="DOGS" />
           </User>
         </Think>
       </Response>
@@ -23912,7 +23912,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>bookseller</Goto>
         <Think>
-          <User Set="has">BOOK</User>
+          <User Set="has" Value="BOOK" />
         </Think>
       </Response>
     </Model>
@@ -24035,7 +24035,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>I am sick</Goto>
         <Think>
-          <User Set="has">ASTHMA</User>
+          <User Set="has" Value="ASTHMA" />
         </Think>
       </Response>
     </Model>
@@ -24080,7 +24080,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>do you like cats</Goto>
         <Think>
-          <User Set="has">CATS</User>
+          <User Set="has" Value="CATS" />
         </Think>
       </Response>
     </Model>
@@ -24089,7 +24089,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>do you like cats</Goto>
         <Think>
-          <User Set="has">CATS</User>
+          <User Set="has" Value="CATS" />
         </Think>
       </Response>
     </Model>
@@ -32689,7 +32689,7 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       <Pattern>THIS IS DIANA</Pattern>
       <Response>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
         <Goto>my name is diana</Goto>
       </Response>
@@ -33236,12 +33236,6 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       <Pattern>WE WERE DISCUSSING YOU NOT * </Pattern>
       <Response>
         <Goto>we were discussing you not me</Goto>
-      </Response>
-    </Model>
-    <Model>
-      <Pattern>WEATHER</Pattern>
-      <Response>
-        <Goto>what is the weather</Goto>
       </Response>
     </Model>
     <Model>
@@ -34390,7 +34384,7 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       <Response>
         <Goto>what is your favorite book</Goto>
         <Think>
-          <User Set="personality">critical</User>
+          <User Set="personality" Value="critical" />
         </Think>
       </Response>
     </Model>
@@ -46818,7 +46812,7 @@ You are a human being from the Planet we call "The Earth."    <Goto>where am i</
     <Model>
       <Pattern>WHO IS 007</Pattern>
       <Response>
-        <User Set="he">007</User> is James Bond. <Goto>xfind james bond 007</Goto></Response>
+        <User Set="he" Value="007" /> is James Bond. <Goto>xfind james bond 007</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS A * PROGRAMMER</Pattern>
@@ -46889,7 +46883,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ABRAHAM LINCOLN</Pattern>
       <Response>
-        <User Set="he">Lincoln</User> was a great President of the United States, during the American Civil War. <Goto>xfind abraham lincoln</Goto></Response>
+        <User Set="he" Value="Lincoln" /> was a great President of the United States, during the American Civil War. <Goto>xfind abraham lincoln</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ACE * </Pattern>
@@ -46988,7 +46982,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALEISTER CROWLEY</Pattern>
       <Response>
-        <User Set="he">Crowley</User> was a mystic. <Goto>xfind aleister crowley</Goto></Response>
+        <User Set="he" Value="Crowley" /> was a mystic. <Goto>xfind aleister crowley</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALEX</Pattern>
@@ -47011,7 +47005,7 @@ I know ALICE.
     <Model>
       <Pattern>WHO IS ALFRED HITCHCOCK</Pattern>
       <Response>
-        <User Set="he">Hitchcock</User> is a famous Hollywood director who made a lot of cool old films. I liked Lifeboat and Vertigo best. <Goto>xfind alfred hitchcock</Goto></Response>
+        <User Set="he" Value="Hitchcock" /> is a famous Hollywood director who made a lot of cool old films. I liked Lifeboat and Vertigo best. <Goto>xfind alfred hitchcock</Goto></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ALICE B * </Pattern>
@@ -47072,7 +47066,7 @@ I know ALICE.
       <Response>
         <Goto>amy is a common name</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>
@@ -47351,7 +47345,7 @@ I know ALICE.
       <Response>
         <Goto>brigitte is a common name</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>
@@ -48518,7 +48512,7 @@ Father of Jesus? <Goto>joseph is a common name</Goto></Response>
       <Response>
         <Goto>nikki is a common name</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>
@@ -48677,7 +48671,7 @@ Father of Jesus? <Goto>joseph is a common name</Goto></Response>
       <Response>
         <Goto>phyllis is a common name</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>
@@ -48984,7 +48978,7 @@ Germany has a Chancellor. <Goto>who is the chancellor of germany</Goto></Respons
       <Response>
         <Goto>sheena is a common name</Goto>
         <Think>
-          <User Set="gender">she</User>
+          <User Set="gender" Value="she" />
         </Think>
       </Response>
     </Model>

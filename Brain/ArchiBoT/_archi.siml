@@ -63,7 +63,7 @@
 					<Item>Did you know that <Goto>LASAGNA</Goto>?</Item>
 					<Item>Did you know that LASAGNA? you will ʕ•ᴥ•ʔːpawsːːBBEARː/. ːsgsmileː</Item>
 					<Item>Did you know that Kaleith has earned the Neko Miko Reimu and IRQL_NOT_LESS_OR_EQUAL achievements a combined total of <Js>Math.floor((Date.now()-1475000000000)/200000000);</Js> times?</Item>
-					<Item>Did you know that between May 5th and June 4th 2017 the group "lost" 9 members? :3</Item>
+					<Item>Did you know that between May 5th and June 5th 2017 the group "lost" 10 members? :3</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -128,6 +128,58 @@
 			</Pattern>
 			<Response>
 				<Goto>Remind me in 53 minutes to take lasagne out of oven</Goto>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER THAT * IS *</Item>
+				<Item>PLS REMBER THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+				<Learn>
+					<Model>
+						<Pattern>
+							<Item>What is <Process><Match /></Process></Item>
+							<Item>Who is <Process><Match /></Process></Item>
+							<Item>What do you rember about <Process><Match /></Process></Item>
+							<Item>What did I tell you about <Process><Match /></Process></Item>
+						</Pattern>
+						<Response>
+							<Phrase>
+								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+							</Phrase>
+						</Response>
+					</Model>
+				</Learn>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>REMBER USERLY THAT * IS *</Item>
+				<Item>PLS REMBER USERLY THAT * IS *</Item>
+			</Pattern>
+			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match Index="2" />
+				<Remember>
+					<Model>
+						<Pattern>
+							<Item>What is <Process><Match /></Process></Item>
+							<Item>Who is <Process><Match /></Process></Item>
+							<Item>What do you rember about <Process><Match /></Process></Item>
+							<Item>What did I tell you about <Process><Match /></Process></Item>
+						</Pattern>
+						<Response>
+							<Phrase>
+								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+							</Phrase>
+						</Response>
+					</Model>
+				</Remember>
 			</Response>
 		</Model>
 <!--

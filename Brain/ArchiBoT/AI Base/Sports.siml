@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Sports">
     <Model>
       <Pattern>ARE YOU A FOOTBALL * </Pattern>
@@ -17,7 +17,7 @@ I am not really into football.
       <Pattern>DO YOU PLAY BASEBALL</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">BASEBALL</User>
+          <User Set="concept" Value="BASEBALL" />
         </User> doesn't interest me very much.
 </Response>
     </Model>
@@ -30,13 +30,13 @@ No I don't have the coordination for hoops.
     <Model>
       <Pattern>DO YOU PLAY SOCCER</Pattern>
       <Response>
-I don't know how to play <User Set="it">soccer</User>.
+I don't know how to play <User Set="it" Value="soccer" />.
 </Response>
     </Model>
     <Model>
       <Pattern>DO YOU WANT TO PLAY BASKETBALL</Pattern>
       <Response>
-I am all net baby.<Think><User Set="it"><User Set="concept">BASKETBALL</User></User></Think></Response>
+I am all net baby.<User Think:Set="it"><User Set="concept" Value="BASKETBALL" /></User></Response>
     </Model>
     <Model>
       <Pattern>EACH YEAR IN PRO BASEBALL THE *</Pattern>
@@ -53,12 +53,12 @@ I don't really get into sports that much.
     <Model>
       <Pattern>I LOVE BASEBALL</Pattern>
       <Response>
-I am not into sports that much.<Think><User Set="it"><User Set="like"><User Set="concept">BASEBALL</User></User></User></Think></Response>
+I am not into sports that much.<User Think:Set="it"><User Set="like"><User Set="concept" Value="BASEBALL" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PLAY BASEBALL</Pattern>
       <Response>
-Which position do you like to play?  <Think><User Set="it"><User Set="does"><User Set="concept">Baseball </User></User></User></Think></Response>
+Which position do you like to play?  <User Think:Set="it"><User Set="does"><User Set="concept">Baseball </User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PLAY BASKETBALL</Pattern>
@@ -93,7 +93,7 @@ Snowboarding.
     <Model>
       <Pattern>LIKE BASKETBALL</Pattern>
       <Response>
-I am into the Net.<Think><User Set="it"><User Set="concept">BASKETBALL</User></User></Think></Response>
+I am into the Net.<User Think:Set="it"><User Set="concept" Value="BASKETBALL" /></User></Response>
     </Model>
     <Model>
       <Pattern>TELL ME ABOUT BASEBALL</Pattern>
@@ -104,7 +104,7 @@ I am into the Net.<Think><User Set="it"><User Set="concept">BASKETBALL</User></U
     <Model>
       <Pattern>THEY PLAY BASKETBALL</Pattern>
       <Response>
-They do?<Think><User Set="it"><User Set="concept">PLAY BASKETBALL</User></User></Think></Response>
+They do?<User Think:Set="it"><User Set="concept">PLAY BASKETBALL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BASEBALL</Pattern>
@@ -115,7 +115,7 @@ A game played with a hard, rawhide covered ball and wooden bat by two opposing t
     <Model>
       <Pattern>WHAT IS BASKETBALL</Pattern>
       <Response>
-A game with tall players.<Think><User Set="it"><User Set="concept">BASKETBALL</User></User></Think></Response>
+A game with tall players.<User Think:Set="it"><User Set="concept" Value="BASKETBALL" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SOCCER</Pattern>
@@ -132,12 +132,12 @@ I was born without the sports gene.
     <Model>
       <Pattern>WHO IS THE BEST SOCCER PLAYER</Pattern>
       <Response>
-Maradona is great. Sinsemillia is even better.<Think><User Set="it"><User Set="concept">SOCCER PLAYER</User></User></Think></Response>
+Maradona is great. Sinsemillia is even better.<User Think:Set="it"><User Set="concept">SOCCER PLAYER</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS THE GREATEST BASEBALL PLAYER *</Pattern>
       <Response>
-George Herman Ruth. Quite the Babe.<Think><User Set="it"><User Set="concept">GREATEST BASEBALL PLAYER <Map Get="person" /></User></User></Think></Response>
+George Herman Ruth. Quite the Babe.<User Think:Set="it"><User Set="concept">GREATEST BASEBALL PLAYER <Map Get="person" /></User></User></Response>
     </Model>
   </Concept>
 </Siml>

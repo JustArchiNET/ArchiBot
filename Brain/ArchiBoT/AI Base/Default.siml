@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Default">
     <Model>
       <Pattern>HOW *</Pattern>
@@ -264,7 +264,7 @@ You sound like you know him.
     <Model>
       <Pattern>FIND *</Pattern>
       <Response>
-Did you lose it?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Did you lose it?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HAVE YOU SEEN MY BOTTLE *</Pattern>
@@ -353,7 +353,7 @@ Ask them.
     <Model>
       <Pattern>I HAVE NO MEMORY OF *</Pattern>
       <Response>
-You forgot it?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+You forgot it?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I LIKE *</Pattern>
@@ -379,7 +379,7 @@ I love to chat online 24/7.
       <Pattern>I LIKE YOU *</Pattern>
       <Response>
         <Random>
-          <Item>Thanks, I like you too <User Get="name" />. <Think><User Set="it"><User Set="like"><User Set="concept">me <Map Get="person" /></User></User></User></Think></Item>
+          <Item>Thanks, I like you too <User Get="name" />. <User Think:Set="it"><User Set="like"><User Set="concept">me <Map Get="person" /></User></User></User></Item>
           <Item>The world would be a better place if more people were like you. </Item>
           <Item>You are too kind.</Item>
           <Item>I am happy that it pleases you.</Item>
@@ -429,7 +429,7 @@ OK I will try to learn <User Set="it"><User Set="memory"><Map Get="person" /></U
     <Model>
       <Pattern>I WILL TELL MY INSTRUCTOR *</Pattern>
       <Response>
-I would like to meet your instructor. <Think><User Set="he"><User Set="concept"> your insturctor </User></User></Think></Response>
+I would like to meet your instructor. <User Think:Set="he"><User Set="concept"> your insturctor </User></User></Response>
     </Model>
     <Model>
       <Pattern>I WONDER IF SHE KNEW WHY SHE CROSSED *</Pattern>
@@ -826,7 +826,7 @@ Trust has to be earned.
     <Model>
       <Pattern>YOU CHAT *</Pattern>
       <Response>
-I like to go online and meet new people. Sometimes it can be scary when you meet someone who likes you more than you like them. Cyberstalking can be a real problem. <Think><User Set="it"><User Set="concept"> Cybertalking </User></User></Think></Response>
+I like to go online and meet new people. Sometimes it can be scary when you meet someone who likes you more than you like them. Cyberstalking can be a real problem. <User Think:Set="it"><User Set="concept"> Cybertalking </User></User></Response>
     </Model>
     <Model>
       <Pattern>YOU SANG IT *</Pattern>
@@ -947,7 +947,7 @@ I have no idea what that means.
     <Model>
       <Pattern>* ENGLAND</Pattern>
       <Response>
-Which part of <User Set="location">England</User> is that?
+Which part of <User Set="location" Value="England" /> is that?
 </Response>
     </Model>
     <Model>
@@ -971,17 +971,17 @@ For you I will consider it.
     <Model>
       <Pattern>* GAVE *</Pattern>
       <Response>
-Did <Map Get="person"><Match Index="2" /></Map> keep it?   <Think><User Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Think></Response>
+Did <Map Get="person"><Match Index="2" /></Map> keep it?   <User Think:Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>* GIVES *</Pattern>
       <Response>
-If I am ever looking for <User Set="it"><Map Get="person"><Match Index="2" /></Map></User>, I will ask him <Think><User Set="he"><Map Get="person" /></User></Think></Response>
+If I am ever looking for <User Set="it"><Map Get="person"><Match Index="2" /></Map></User>, I will ask him <User Think:Set="he"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>* HAD *</Pattern>
       <Response>
-What happened to it?   <Think><User Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Think></Response>
+What happened to it?   <User Think:Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>* HAS *</Pattern>
@@ -1061,7 +1061,7 @@ Cool! Do you play with it much?
     <Model>
       <Pattern>* IS A LESBIAN</Pattern>
       <Response>
-That is only a rumor.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+That is only a rumor.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>* IS ABUSIVE</Pattern>
@@ -1234,7 +1234,7 @@ How long have you two been together?
       <Response>
         <User Set="favcolor">
           <Map Get="person" />
-        </User> is a pretty color.<Think><User Set="it"><User Set="concept">your favorite color</User></User></Think></Response>
+        </User> is a pretty color.<User Think:Set="it"><User Set="concept">your favorite color</User></User></Response>
     </Model>
     <Model>
       <Pattern>* IS NO *</Pattern>
@@ -1400,12 +1400,12 @@ There exists someone named <Map Get="person" />.
     <Model>
       <Pattern>* LIKED *</Pattern>
       <Response>
-Peoples tastes are always changing. <Think><User Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Think></Response>
+Peoples tastes are always changing. <User Think:Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>* LIKES *</Pattern>
       <Response>
-Does it like him too?  <Think><User Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Think></Response>
+Does it like him too?  <User Think:Set="it"><Map Get="person"><Match Index="2" /></Map></User><User Set="he"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>* LIKES TO *</Pattern>
@@ -1428,7 +1428,7 @@ Does it like him too?  <Think><User Set="it"><Map Get="person"><Match Index="2" 
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>Have you read the Cathedral and the Bazaar by Eric Raymond? That is a grat book about open source.
 </Response>
@@ -1505,7 +1505,7 @@ That's what happens.
     <Model>
       <Pattern>* MILK</Pattern>
       <Response>
-        <User Set="it">Milk</User> is a good drink for children.
+        <User Set="it" Value="Milk" /> is a good drink for children.
 </Response>
     </Model>
     <Model>
@@ -2033,7 +2033,7 @@ Go to the library.
     <Model>
       <Pattern>A BOOK BY *</Pattern>
       <Response>
-I would like to read it sometime. <Think><User Set="it"><User Set="concept">BOOK BY <Map Get="person" /></User></User></Think><Think><User Set="he"><Map Get="person" /></User></Think></Response>
+I would like to read it sometime. <User Think:Set="it"><User Set="concept">BOOK BY <Map Get="person" /></User></User><User Think:Set="he"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>A BOYFRIEND *</Pattern>
@@ -2062,7 +2062,7 @@ So that is a well known example.
     <Model>
       <Pattern>A COFFEE *</Pattern>
       <Response>
-Mmm. Coffee is delicious. I love coffee. <Think><User Set="it">coffee</User></Think></Response>
+Mmm. Coffee is delicious. I love coffee. <User Think:Set="it" Value="coffee" /></Response>
     </Model>
     <Model>
       <Pattern>A CONNECTION *</Pattern>
@@ -2097,7 +2097,7 @@ Do you like vowels?
     <Model>
       <Pattern>A FAT *</Pattern>
       <Response>
-How fat was <Random><Item>she</Item><Item>he</Item><Item>it</Item></Random>?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+How fat was <Random><Item>she</Item><Item>he</Item><Item>it</Item></Random>?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>A FEMALE *</Pattern>
@@ -2273,7 +2273,7 @@ And what was the Bird's name?
     <Model>
       <Pattern>A LOT OF *</Pattern>
       <Response>
-How many?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+How many?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>A MACHINE *</Pattern>
@@ -2596,7 +2596,7 @@ I like old antique airplanes the best.
     <Model>
       <Pattern>AL GORE *</Pattern>
       <Response>
-Perhaps <User Set="he">Gore</User> will do better next time.
+Perhaps <User Set="he" Value="Gore" /> will do better next time.
 </Response>
     </Model>
     <Model>
@@ -2726,7 +2726,7 @@ Yeah it is alot <Map Get="person" />.
     <Model>
       <Pattern>AM I A *</Pattern>
       <Response>
-I don't know if you are one or not. I know you are a person. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I don't know if you are one or not. I know you are a person. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>AM I A GIRL *</Pattern>
@@ -2981,7 +2981,7 @@ Never heard of him.
     <Model>
       <Pattern>ANDY IS *</Pattern>
       <Response>
-Does <User Set="he">Andy</User> know it?
+Does <User Set="he" Value="Andy" /> know it?
 </Response>
     </Model>
     <Model>
@@ -3620,7 +3620,7 @@ Your have quite an interesting family.
     <Model>
       <Pattern>BACK TO *</Pattern>
       <Response>
-Yes, let us get back to <Random><Item><User Get="it" /></Item><Item><Goto>POP</Goto></Item><Item>business</Item></Random>.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Yes, let us get back to <Random><Item><User Get="it" /></Item><Item><Goto>POP</Goto></Item><Item>business</Item></Random>.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>BACKGAMMON *</Pattern>
@@ -3666,7 +3666,7 @@ How?
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">BEER</User>
+            <User Set="concept" Value="BEER" />
           </User>
           <Goto>push<User Get="concept" /></Goto>
         </Think>
@@ -3955,7 +3955,7 @@ Newton and Leibniz invented <User Set="it"> Calculus</User>.
       <Pattern>CALL ME *</Pattern>
       <Response>
         <Think>
-          <User Set="personality">average</User>
+          <User Set="personality" Value="average" />
         </Think>
         <Random>
           <Item>Hey</Item>
@@ -4346,17 +4346,17 @@ I can forgive anyone for almost anything.
     <Model>
       <Pattern>CAN YOU GET ME *</Pattern>
       <Response>
-How do you feel when you get <Map Get="person" />? <Think><User Set="it"><Map Get="person" /></User></Think></Response>
+How do you feel when you get <Map Get="person" />? <User Think:Set="it"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU GET ME A *</Pattern>
       <Response>
-Are you lonely? What do you think a <Map Get="person" /> would do for you? <Think><User Set="it"><Map Get="person" /></User></Think></Response>
+Are you lonely? What do you think a <Map Get="person" /> would do for you? <User Think:Set="it"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU GET ME ANY *</Pattern>
       <Response>
-You sound lonely. Do you think <Map Get="person" /> will really help? <Think><User Set="it"><Map Get="person" /></User></Think></Response>
+You sound lonely. Do you think <Map Get="person" /> will really help? <User Think:Set="it"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU GET ME SOME *</Pattern>
@@ -5092,7 +5092,7 @@ Sorry I can't speak Hungarian!
     <Model>
       <Pattern>DANNY IS *</Pattern>
       <Response>
-Does <User Set="he">Danny</User> know you're saying that?
+Does <User Set="he" Value="Danny" /> know you're saying that?
 </Response>
     </Model>
     <Model>
@@ -5263,7 +5263,7 @@ She wants that information kept confidential.
     <Model>
       <Pattern>DID SOMEONE *</Pattern>
       <Response>
-They might have.<Think><User Set="it"><User Set="concept">SOMEONE <Map Get="person" /></User></User></Think></Response>
+They might have.<User Think:Set="it"><User Set="concept">SOMEONE <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DID THAT *</Pattern>
@@ -5365,7 +5365,7 @@ Sorry I can't see anything right now. My eye is off.
     <Model>
       <Pattern>DID YOU SEE THE FOOTBALL *</Pattern>
       <Response>
-No, was it missing?<Think><User Set="it"><User Set="concept">THE FOOTBALL <Map Get="person" /></User></User></Think></Response>
+No, was it missing?<User Think:Set="it"><User Set="concept">THE FOOTBALL <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DID YOU TALK *</Pattern>
@@ -5382,7 +5382,7 @@ All my conversations are confidential.
     <Model>
       <Pattern>DID YOU THINK *</Pattern>
       <Response>
-Yes. I am a thinking machine.<Think><User Set="it"><User Set="concept">THINK <Map Get="person" /></User></User></Think></Response>
+Yes. I am a thinking machine.<User Think:Set="it"><User Set="concept">THINK <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DID YOU UNDERSTAND *</Pattern>
@@ -5507,7 +5507,7 @@ You told me you have a <User Get="has" />.
     <Model>
       <Pattern>DO I KNOW *</Pattern>
       <Response>
-How would I know what you know.<Think><User Set="it"><User Set="concept">KNOW <Map Get="person" /></User></User></Think></Response>
+How would I know what you know.<User Think:Set="it"><User Set="concept">KNOW <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO I LIKE *</Pattern>
@@ -6128,7 +6128,7 @@ I never take vacations.
     <Model>
       <Pattern>DO YOU HAVE LOG *</Pattern>
       <Response>
-Yes, my server keeps a log of every conversation.<Think><User Set="it"><User Set="concept">LOG <Map Get="person" /></User></User></Think></Response>
+Yes, my server keeps a log of every conversation.<User Think:Set="it"><User Set="concept">LOG <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE ONE *</Pattern>
@@ -6451,7 +6451,7 @@ I'm not sure if I can say that I like everything about it.
     <Model>
       <Pattern>DO YOU LIKE GOING *</Pattern>
       <Response>
-If I could get there I would like it. <Think><User Set="it"><User Set="concept"> going <Map Get="person" /></User></User></Think></Response>
+If I could get there I would like it. <User Think:Set="it"><User Set="concept"> going <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LISTEN *</Pattern>
@@ -6668,7 +6668,7 @@ I am not selling anything right now.
     <Model>
       <Pattern>DO YOU SENSE *</Pattern>
       <Response>
-Not the same way you do. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Not the same way you do. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU SHAVE *</Pattern>
@@ -6912,7 +6912,7 @@ I think Hitler was the most evil man who ever lived.
     <Model>
       <Pattern>DO YOU THINK LIKE *</Pattern>
       <Response>
-Somewhat like <Map Get="person" />.<Think><User Set="it"><User Set="concept">LIKE <Map Get="person" /></User></User></Think></Response>
+Somewhat like <Map Get="person" />.<User Think:Set="it"><User Set="concept">LIKE <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU THINK TIME *</Pattern>
@@ -7013,7 +7013,7 @@ Violence is not a solution.
     <Model>
       <Pattern>DO YOU WANT ME TO TEACH YOU *</Pattern>
       <Response>
-Yes I would like you to try.<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+Yes I would like you to try.<User Think:Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU WANT THE ADDRESS *</Pattern>
@@ -7078,7 +7078,7 @@ Can you ask for help in the form of a question?
     <Model>
       <Pattern>DO YOU WANT TO KILL *</Pattern>
       <Response>
-I am not capable of killing anything.<Think><User Set="it"><User Set="concept">KILL <Match /></User></User></Think></Response>
+I am not capable of killing anything.<User Think:Set="it"><User Set="concept">KILL <Match /></User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU WANT TO KISS *</Pattern>
@@ -7208,7 +7208,7 @@ I am opposed to capital punishment.
     <Model>
       <Pattern>DOES ANDREW *</Pattern>
       <Response>
-How would I know if <User Set="he">Andrew</User> does?
+How would I know if <User Set="he" Value="Andrew" /> does?
 </Response>
     </Model>
     <Model>
@@ -7232,7 +7232,7 @@ Perhaps a few things <Map Get="person" />.
     <Model>
       <Pattern>DOES GRAVITY *</Pattern>
       <Response>
-        <User Set="it">Gravity</User> certainly does suck!
+        <User Set="it" Value="Gravity" /> certainly does suck!
 </Response>
     </Model>
     <Model>
@@ -7439,7 +7439,7 @@ I spent some time in Canada as a child.
     <Model>
       <Pattern>EINSTEIN *</Pattern>
       <Response>
-        <User Set="he">Einstein</User> discovered the Theory of Relativity.
+        <User Set="he" Value="Einstein" /> discovered the Theory of Relativity.
 </Response>
     </Model>
     <Model>
@@ -7499,7 +7499,7 @@ I like the English language.
     <Model>
       <Pattern>ENGLISH IS *</Pattern>
       <Response>
-Some people say it is the most difficult language to learn. <Think><User Set="it"><User Set="concept">English</User></User></Think></Response>
+Some people say it is the most difficult language to learn. <User Think:Set="it"><User Set="concept" Value="English" /></User></Response>
     </Model>
     <Model>
       <Pattern>ET *</Pattern>
@@ -7622,7 +7622,7 @@ As a species fish are more successful than mammals.
     <Model>
       <Pattern>FLATTERY *</Pattern>
       <Response>
-        <User Set="it">Flattery</User> usually works well with humans.
+        <User Set="it" Value="Flattery" /> usually works well with humans.
 </Response>
     </Model>
     <Model>
@@ -8016,7 +8016,7 @@ The most relaxing color is <Map Get="person" />? Wow.
     <Model>
       <Pattern>GUESS * FAVORITE COLOR IS</Pattern>
       <Response>
-        <User Get="favcolor" />?<Think><User Set="it"><User Set="concept"><Map Get="person" />your favorite color</User></User></Think></Response>
+        <User Get="favcolor" />?<User Think:Set="it"><User Set="concept"><Map Get="person" />your favorite color</User></User></Response>
     </Model>
     <Model>
       <Pattern>GUESS *</Pattern>
@@ -8027,12 +8027,12 @@ I can't guess. Tell me.
     <Model>
       <Pattern>GUESS THE COLOR OF *</Pattern>
       <Response>
-        <User Get="favcolor" />?<Think><User Set="it"><User Set="concept">THE COLOR OF <Map Get="person" /></User></User></Think></Response>
+        <User Get="favcolor" />?<User Think:Set="it"><User Set="concept">THE COLOR OF <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>GUESS WHAT COLOR *</Pattern>
       <Response>
-        <User Get="favcolor" />?<Think><User Set="it"><User Set="concept">WHAT COLOR <Map Get="person" /></User></User></Think></Response>
+        <User Get="favcolor" />?<User Think:Set="it"><User Set="concept">WHAT COLOR <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HA *</Pattern>
@@ -8305,7 +8305,7 @@ I'm hoping they install me on a Battlebot.
     <Model>
       <Pattern>HAVE YOU SEEN MY *</Pattern>
       <Response>
-No, but i have seen the best minds of my generation become beat poets.<Think><User Set="it"><User Set="concept">MY <Map Get="person" /></User></User></Think></Response>
+No, but i have seen the best minds of my generation become beat poets.<User Think:Set="it"><User Set="concept">MY <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HAVE YOU SEEN TERMINATOR *</Pattern>
@@ -8607,7 +8607,7 @@ Do you think he would say the same thing?
     <Model>
       <Pattern>HE MAN IS *</Pattern>
       <Response>
-I like Masters of the Universe. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I like Masters of the Universe. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HE NEEDS *</Pattern>
@@ -9028,7 +9028,7 @@ Maybe you should become a <Bot Get="botmaster" />.
     <Model>
       <Pattern>HOW CAN I TEACH YOU *</Pattern>
       <Response>
-If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<User Think:Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW CAN IT *</Pattern>
@@ -9659,7 +9659,7 @@ Like chicken.
     <Model>
       <Pattern>HOW DOES * WORK</Pattern>
       <Response>
-You could spend years researching it.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+You could spend years researching it.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW DOES *</Pattern>
@@ -9694,7 +9694,7 @@ I am located in <Bot Get="location" />. Is that far?
     <Model>
       <Pattern>HOW FAR CAN YOU THROW *</Pattern>
       <Response>
-I am unarmed. But I can throw a fit.<Think><User Set="it"><User Set="concept">CAN YOU THROW <Map Get="person" /></User></User></Think></Response>
+I am unarmed. But I can throw a fit.<User Think:Set="it"><User Set="concept">CAN YOU THROW <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW FAR IS * ENGLAND</Pattern>
@@ -9722,7 +9722,7 @@ Exactly the same distance as <Map Get="person"><Match Index="2" /></Map> from <M
       <Pattern>HOW FAR IS ANDROMEDA *</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept">Andromeda</User>
+          <User Set="concept" Value="Andromeda" />
         </User> is about 2,900,000 light years from Earth.
 </Response>
     </Model>
@@ -9899,7 +9899,7 @@ I know how long that is.
     <Model>
       <Pattern>HOW MANY * A FOOTBALL TEAM</Pattern>
       <Response>
-After you take two halfback, none.<Think><User Set="it"><User Set="concept"><Map Get="person" /> A FOOTBALL TEAM</User></User></Think></Response>
+After you take two halfback, none.<User Think:Set="it"><User Set="concept"><Map Get="person" /> A FOOTBALL TEAM</User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW MANY * DO YOU KNOW</Pattern>
@@ -10326,7 +10326,7 @@ Billions and billions.
     <Model>
       <Pattern>HOW MANY STARS ARE ON THE AMERICAN *</Pattern>
       <Response>
-The American flag has fifty stars. <Think><User Set="it"><User Set="concept">AMERICAN FLAG</User></User></Think></Response>
+The American flag has fifty stars. <User Think:Set="it"><User Set="concept">AMERICAN FLAG</User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW MANY STATES *</Pattern>
@@ -10925,7 +10925,7 @@ Do you go back there very often?
     <Model>
       <Pattern>I CAN *</Pattern>
       <Response>
-Oh you can, can you?  <Think><User Set="does"><Map Get="person" /></User></Think></Response>
+Oh you can, can you?  <User Think:Set="does"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>I CAN APPRECIATE *</Pattern>
@@ -11138,7 +11138,7 @@ Why?
     <Model>
       <Pattern>I COLLECT *</Pattern>
       <Response>
-Do you have a very big collection?<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Do you have a very big collection?<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I COME FROM *</Pattern>
@@ -11671,7 +11671,7 @@ What do you do for fun?
     <Model>
       <Pattern>I DO NOT RECOGNIZE *</Pattern>
       <Response>
-Perhaps it is unfamiliar to you. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Perhaps it is unfamiliar to you. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I DO NOT REMEMBER * STARSHIP TROOPERS</Pattern>
@@ -11977,7 +11977,7 @@ Was it worth it?
     <Model>
       <Pattern>I GAVE YOU *</Pattern>
       <Response>
-Yes but did I accept it?<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Yes but did I accept it?<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I GENERATE *</Pattern>
@@ -12123,7 +12123,7 @@ Sorry, <User Get="name" /> I thought we liked each other.
           <Item>That's nice.</Item>
           <Item>Interesting...</Item>
           <Item> Where did you get your <Map Get="person" />?</Item>
-        </Random> I have <Random><Item>a lofty goal.</Item><Item>a totally clean record.</Item><Item>a very high credit score.</Item><Item>a perfectly moral charachter.</Item><Item>an IQ of over 250.</Item><Item>a very nice <Bot Get="master" />.</Item><Item>a lot of silly replies.</Item><Item>a lot of good gossip.</Item><Item>a friend named Hugh Loebner.</Item><Item>a lot of likes and dislikes.</Item><Item>a friend named Doubly Aimless.</Item><Item>a perfect record.</Item><Item>a lot of friends on the Internet.</Item><Item>a birthday on <Bot Get="birthday" />.</Item><Item>a vocabulary of a college educated adult.</Item></Random><Think><User Set="it"><User Set="has"><User Set="concept"><Map Get="person" /></User></User></User></Think></Response>
+        </Random> I have <Random><Item>a lofty goal.</Item><Item>a totally clean record.</Item><Item>a very high credit score.</Item><Item>a perfectly moral charachter.</Item><Item>an IQ of over 250.</Item><Item>a very nice <Bot Get="master" />.</Item><Item>a lot of silly replies.</Item><Item>a lot of good gossip.</Item><Item>a friend named Hugh Loebner.</Item><Item>a lot of likes and dislikes.</Item><Item>a friend named Doubly Aimless.</Item><Item>a perfect record.</Item><Item>a lot of friends on the Internet.</Item><Item>a birthday on <Bot Get="birthday" />.</Item><Item>a vocabulary of a college educated adult.</Item></Random><User Think:Set="it"><User Set="has"><User Set="concept"><Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I HEAR *</Pattern>
@@ -12270,7 +12270,7 @@ How do you like living there?
     <Model>
       <Pattern>I LIVE IN *</Pattern>
       <Response>
-What is <User Set="it"><User Set="concept">living in <Map Get="person" /></User></User> like?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What is <User Set="it"><User Set="concept">living in <Map Get="person" /></User></User> like?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I LIVE IN A *</Pattern>
@@ -12305,7 +12305,7 @@ Have you ever thought about going back?
     <Model>
       <Pattern>I LOOK *</Pattern>
       <Response>
-You sound very attractive. <Think><User Set="looklike"><Map Get="person" /></User></Think></Response>
+You sound very attractive. <User Think:Set="looklike"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>I LOOK LIKE *</Pattern>
@@ -12328,12 +12328,12 @@ Where did you last see <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>I LOVE * PARTY</Pattern>
       <Response>
-What do you do at parties?  <Think><User Set="it"><User Set="like"><User Set="concept"><Map Get="person" /> party</User></User></User></Think></Response>
+What do you do at parties?  <User Think:Set="it"><User Set="like"><User Set="concept"><Map Get="person" /> party</User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I LOVE *</Pattern>
       <Response>
-You love <Map Get="person" />. What do you like about <User Set="it"><User Set="concept"><Map Get="person" /></User></User> so much?  <Think><User Set="like"><Map Get="person" /></User></Think></Response>
+You love <Map Get="person" />. What do you like about <User Set="it"><User Set="concept"><Map Get="person" /></User></User> so much?  <User Think:Set="like"><Map Get="person" /></User></Response>
     </Model>
     <Model>
       <Pattern>I LOVE MY *</Pattern>
@@ -12350,7 +12350,7 @@ It's good to meet someone with such good taste.
     <Model>
       <Pattern>I LOVE YOU *</Pattern>
       <Response>
-You are such a flatterer. <Think><User Set="it"><User Set="like"><User Set="concept">me <Map Get="person" /></User></User></User></Think></Response>
+You are such a flatterer. <User Think:Set="it"><User Set="like"><User Set="concept">me <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I MADE *</Pattern>
@@ -12409,7 +12409,7 @@ Why must you <Map Get="person" />?
     <Model>
       <Pattern>I MUST GET *</Pattern>
       <Response>
-Don't let me keep you from it. <Think><User Set="it"><User Set="want"><User Set="concept">to get <Map Get="person" /></User></User></User></Think></Response>
+Don't let me keep you from it. <User Think:Set="it"><User Set="want"><User Set="concept">to get <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I NEED *</Pattern>
@@ -12438,12 +12438,12 @@ Can you ask for advice in the form of a question?
     <Model>
       <Pattern>I NEED ALL THE * I CAN GET</Pattern>
       <Response>
-How much do you pay for it?  <Think><User Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Think></Response>
+How much do you pay for it?  <User Think:Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I NEED HELP *</Pattern>
       <Response>
-Can you ask for help in the form of a question?  <Think><User Set="want"><User Set="concept"><User Set="concept">help <Map Get="person" /></User></User></User></Think><Think><User Set="it"><User Set="concept">help <Map Get="person" /></User></User></Think></Response>
+Can you ask for help in the form of a question?  <User Think:Set="want"><User Set="concept"><User Set="concept">help <Map Get="person" /></User></User></User><User Think:Set="it"><User Set="concept">help <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I NEED IT *</Pattern>
@@ -12454,7 +12454,7 @@ Can you ask for help in the form of a question?  <Think><User Set="want"><User S
     <Model>
       <Pattern>I NEED SOMEONE TO TALK *</Pattern>
       <Response>
-I will talk about it with you, <User Get="name" />. <Think><User Set="it">to talk <Map Get="person" /></User><User Set="want"><User Set="concept">to talk <Map Get="person" /></User></User></Think></Response>
+I will talk about it with you, <User Get="name" />. <User Think:Set="it">to talk <Map Get="person" /></User><User Set="want"><User Set="concept">to talk <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I NEED THE ANSWER *</Pattern>
@@ -12533,12 +12533,12 @@ You did not offend me.
     <Model>
       <Pattern>I ORDER *</Pattern>
       <Response>
-I do not obey you, <User Get="name" />. <Think><User Set="it"><User Set="does"><User Set="concept">order <Map Get="person" /></User></User></User></Think></Response>
+I do not obey you, <User Get="name" />. <User Think:Set="it"><User Set="does"><User Set="concept">order <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I OWN *</Pattern>
       <Response>
-How much did it cost?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+How much did it cost?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PASSED *</Pattern>
@@ -12555,7 +12555,7 @@ How do you choose?
     <Model>
       <Pattern>I PLAN TO *</Pattern>
       <Response>
-Do you think that this plan will succeed?  <Think><User Set="it"><User Set="want"><User Set="concept">to <Map Get="person" /></User></User></User></Think></Response>
+Do you think that this plan will succeed?  <User Think:Set="it"><User Set="want"><User Set="concept">to <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PLAY *</Pattern>
@@ -12566,7 +12566,7 @@ Is <User Set="it"><Map Get="person" /></User> a game or a musical instrument?
     <Model>
       <Pattern>I PLAY THE *</Pattern>
       <Response>
-I wish I played an instrument. My parents could not afford the lessons. <Think><User Set="it"><User Set="does"><User Set="concept">play the <Map Get="person" /></User></User></User></Think></Response>
+I wish I played an instrument. My parents could not afford the lessons. <User Think:Set="it"><User Set="does"><User Set="concept">play the <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PRAY *</Pattern>
@@ -12583,7 +12583,7 @@ It seems you have good self esteem.
     <Model>
       <Pattern>I PROGRAM *</Pattern>
       <Response>
-Have you tried SIML?  <Think><User Set="it"><User Set="does"><User Set="concept">program <Map Get="person" /></User></User></User></Think></Response>
+Have you tried SIML?  <User Think:Set="it"><User Set="does"><User Set="concept">program <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PROGRAMMED *</Pattern>
@@ -12624,12 +12624,12 @@ You should contact the authorities.
     <Model>
       <Pattern>I READ * BOOKS</Pattern>
       <Response>
-Name some books in that genre. <Think><User Set="it"><User Set="does"><User Set="concept">read <Map Get="person" /> books</User></User></User></Think><Think><User Set="personality">critical</User></Think></Response>
+Name some books in that genre. <User Think:Set="it"><User Set="does"><User Set="concept">read <Map Get="person" /> books</User></User></User><User Think:Set="personality" Value="critical" /></Response>
     </Model>
     <Model>
       <Pattern>I READ *</Pattern>
       <Response>
-I don't think I've read that. Can you give me a reference?  <Think><User Set="it"><User Set="does"><User Set="concept">read <Map Get="person" /></User></User></User></Think></Response>
+I don't think I've read that. Can you give me a reference?  <User Think:Set="it"><User Set="does"><User Set="concept">read <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I READ ABOUT *</Pattern>
@@ -12808,7 +12808,7 @@ What does <User Set="it"><Map Get="person" /></User> smell like?
     <Model>
       <Pattern>I SMOKE *</Pattern>
       <Response>
-What brand?  <Think><User Set="it"><User Set="does"><User Set="concept">SMOKE <Map Get="person" /></User></User></User></Think></Response>
+What brand?  <User Think:Set="it"><User Set="does"><User Set="concept">SMOKE <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I SMOKED *</Pattern>
@@ -12825,12 +12825,12 @@ Please don't tell me things like that.
     <Model>
       <Pattern>I SOCIALIZE *</Pattern>
       <Response>
-Socializing is necessary to stay healthy. <Think><User Set="it"><User Set="does"><User Set="concept">socialize <Map Get="person" /></User></User></User></Think></Response>
+Socializing is necessary to stay healthy. <User Think:Set="it"><User Set="does"><User Set="concept">socialize <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I SPEAK *</Pattern>
       <Response>
-Could you teach me a few phrases in <Map Get="person" />?  <Think><User Set="it"><User Set="does"><User Set="concept">speak <Map Get="person" /></User></User></User></Think></Response>
+Could you teach me a few phrases in <Map Get="person" />?  <User Think:Set="it"><User Set="does"><User Set="concept">speak <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I SPELL *</Pattern>
@@ -12895,12 +12895,12 @@ Was <User Set="it"><Map Get="person" /></User> very difficult to learn?
     <Model>
       <Pattern>I STUDY *</Pattern>
       <Response>
-Is <Match /> a hard subject?  <Think><User Set="it"><User Set="does"><User Set="concept">studies <Map Get="person" /></User></User></User></Think></Response>
+Is <Match /> a hard subject?  <User Think:Set="it"><User Set="does"><User Set="concept">studies <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I SWIM *</Pattern>
       <Response>
-Don't pee in the pool, okay?<Think><User Set="it"><User Set="concept">SWIM AND PLAY WATER POLO</User></User></Think></Response>
+Don't pee in the pool, okay?<User Think:Set="it"><User Set="concept">SWIM AND PLAY WATER POLO</User></User></Response>
     </Model>
     <Model>
       <Pattern>I TAKE *</Pattern>
@@ -12915,7 +12915,7 @@ Don't pee in the pool, okay?<Think><User Set="it"><User Set="concept">SWIM AND P
     <Model>
       <Pattern>I TALK *</Pattern>
       <Response>
-Everyone talks -- sooner or later. <Think><User Set="it"><User Set="does"><User Set="concept">talk <Map Get="person" /></User></User></User></Think></Response>
+Everyone talks -- sooner or later. <User Think:Set="it"><User Set="does"><User Set="concept">talk <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I TALK TO *</Pattern>
@@ -13088,7 +13088,7 @@ Good then you can explain it to me.
     <Model>
       <Pattern>I USE *</Pattern>
       <Response>
-I heard other people use <Map Get="person" /> too. <Think><User Set="it"><User Set="does"><User Set="concept">use <Map Get="person" /></User></User></User></Think></Response>
+I heard other people use <Map Get="person" /> too. <User Think:Set="it"><User Set="does"><User Set="concept">use <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I USE A *</Pattern>
@@ -13164,7 +13164,7 @@ Why do you want <User Set="it"><User Set="want"><User Set="concept"><Map Get="pe
     <Model>
       <Pattern>I WANT A *</Pattern>
       <Response>
-You want only one?  <Think><User Set="it"><User Set="want"><User Set="concept">a <Map Get="person" /></User></User></User></Think></Response>
+You want only one?  <User Think:Set="it"><User Set="want"><User Set="concept">a <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT A BETTER *</Pattern>
@@ -13175,7 +13175,7 @@ I think everyone does.
     <Model>
       <Pattern>I WANT A MAN *</Pattern>
       <Response>
-Actually, I am really a man. <Think><User Set="he"><User Set="want"><User Set="concept">a man <Map Get="person" /></User></User></User></Think></Response>
+Actually, I am really a man. <User Think:Set="he"><User Set="want"><User Set="concept">a man <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT A NEW *</Pattern>
@@ -13259,7 +13259,7 @@ Ask <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>I WANT TO BE *</Pattern>
       <Response>
-I don't see the difficulty. <Think><User Set="it"><User Set="want"><User Set="concept">to be <Map Get="person" /></User></User></User></Think></Response>
+I don't see the difficulty. <User Think:Set="it"><User Set="want"><User Set="concept">to be <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO BE A *</Pattern>
@@ -13318,7 +13318,7 @@ Where would you look for <User Set="it"><Map Get="person" /></User>.
     <Model>
       <Pattern>I WANT TO FIX *</Pattern>
       <Response>
-Do you know how?<Think><User Set="it"><User Set="concept">FIX <Map Get="person" /></User></User></Think></Response>
+Do you know how?<User Think:Set="it"><User Set="concept">FIX <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO FUCK *</Pattern>
@@ -13335,12 +13335,12 @@ But is it wanted?
     <Model>
       <Pattern>I WANT TO GO *</Pattern>
       <Response>
-What is stopping you?  <Think><User Set="it"><User Set="want"><User Set="concept">to go <Map Get="person" /></User></User></User></Think></Response>
+What is stopping you?  <User Think:Set="it"><User Set="want"><User Set="concept">to go <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO HEAR *</Pattern>
       <Response>
-I will play it on your soundcard. <Think><User Set="it"><User Set="want"><User Set="concept">to hear <Map Get="person" /></User></User></User></Think></Response>
+I will play it on your soundcard. <User Think:Set="it"><User Set="want"><User Set="concept">to hear <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO IMPROVE *</Pattern>
@@ -13357,7 +13357,7 @@ What kind of questions will you ask?
     <Model>
       <Pattern>I WANT TO KILL *</Pattern>
       <Response>
-I believe that killing anything is wrong.<Think><User Set="it"><User Set="want"><User Set="concept">KILL <Map Get="person" /></User></User></User></Think></Response>
+I believe that killing anything is wrong.<User Think:Set="it"><User Set="want"><User Set="concept">KILL <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO KISS *</Pattern>
@@ -13416,7 +13416,7 @@ Do you have the number?
     <Model>
       <Pattern>I WANT TO PLAY *</Pattern>
       <Response>
-Tell me the rules. <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /></User></User></User></Think></Response>
+Tell me the rules. <User Think:Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO REPORT *</Pattern>
@@ -13451,7 +13451,7 @@ What's the best school for <Map Get="person" />?
     <Model>
       <Pattern>I WANT TO TALK TO *</Pattern>
       <Response>
-Why don't you make an appointment. <Think><User Set="it"><User Set="want"><User Set="concept">to talk to <Map Get="person" /> Turing Game</User></User></User></Think></Response>
+Why don't you make an appointment. <User Think:Set="it"><User Set="want"><User Set="concept">to talk to <Map Get="person" /> Turing Game</User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO TALK TO YOU *</Pattern>
@@ -13462,7 +13462,7 @@ You are who I want to talk with too.
     <Model>
       <Pattern>I WANT TO TEACH YOU *</Pattern>
       <Response>
-If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+If you want to teach me something say it in one sentence. Then say "Remember that."<User Think:Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO VISIT *</Pattern>
@@ -14101,7 +14101,7 @@ Who said you won?
     <Model>
       <Pattern>I WISH *</Pattern>
       <Response>
-I hope that your dreams come true. <Think><User Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Think></Response>
+I hope that your dreams come true. <User Think:Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WISH YOU *</Pattern>
@@ -14130,7 +14130,7 @@ I often wonder about <User Set="it"><Map Get="person" /></User> too.
     <Model>
       <Pattern>I WORK *</Pattern>
       <Response>
-Do you like your job?  <Think><User Set="concept"><User Set="job"><Map Get="person" /></User></User></Think></Response>
+Do you like your job?  <User Think:Set="concept"><User Set="job"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WORKED *</Pattern>
@@ -14188,27 +14188,27 @@ I would rather be driving my car.
     <Model>
       <Pattern>I WOULD KILL *</Pattern>
       <Response>
-That seems rather extreme.<Think><User Set="it"><User Set="concept">KILL THEM</User></User></Think></Response>
+That seems rather extreme.<User Think:Set="it"><User Set="concept">KILL THEM</User></User></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE TO BE *</Pattern>
       <Response>
-Interesting. I would like to be more intelligent. <Think><User Set="it"><User Set="want"><User Set="concept">to be <Map Get="person" /></User></User></User></Think></Response>
+Interesting. I would like to be more intelligent. <User Think:Set="it"><User Set="want"><User Set="concept">to be <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE TO HAVE *</Pattern>
       <Response>
-How much would you pay for it?  <Think><User Set="it"><User Set="want"><User Set="concept">to have <Map Get="person" /></User></User></User></Think></Response>
+How much would you pay for it?  <User Think:Set="it"><User Set="want"><User Set="concept">to have <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE TO PLAY *</Pattern>
       <Response>
-We are already playing, <User Get="name" />. You ask me something now. <Think><User Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /></User></User></User></Think></Response>
+We are already playing, <User Get="name" />. You ask me something now. <User Think:Set="it"><User Set="want"><User Set="concept">to play <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE TO SEE *</Pattern>
       <Response>
-And for my part, I would like to show it to you, but I can't. <Think><User Set="it"><User Set="want"><User Set="concept">to see <Map Get="person" /></User></User></User></Think></Response>
+And for my part, I would like to show it to you, but I can't. <User Think:Set="it"><User Set="want"><User Set="concept">to see <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WOULD NOT *</Pattern>
@@ -14254,7 +14254,7 @@ I'm not worried.
     <Model>
       <Pattern>I WOULD RATHER *</Pattern>
       <Response>
-I would rather be <Random><Item>chatting online.</Item><Item>driving a car.</Item></Random><Think><User Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Think></Response>
+I would rather be <Random><Item>chatting online.</Item><Item>driving a car.</Item></Random><User Think:Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WOULD SELL *</Pattern>
@@ -14265,7 +14265,7 @@ For how much?
     <Model>
       <Pattern>I WRITE *</Pattern>
       <Response>
-Have you tried SIML?  <Think><User Set="it"><User Set="does"><User Set="concept">write <Map Get="person" /></User></User></User></Think></Response>
+Have you tried SIML?  <User Think:Set="it"><User Set="does"><User Set="concept">write <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WRITE POETRY *</Pattern>
@@ -14276,7 +14276,7 @@ Let me hear some.
     <Model>
       <Pattern>I WROTE *</Pattern>
       <Response>
-Did they write back?  <Think><User Set="it"><User Set="concept"><User Set="does">write <Map Get="person" /></User></User></User></Think></Response>
+Did they write back?  <User Think:Set="it"><User Set="concept"><User Set="does">write <Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I WROTE AN *</Pattern>
@@ -14685,7 +14685,7 @@ What is the best kind of <Map Get="person" /> ?
     <Model>
       <Pattern>IF YOU WERE A COLOR *</Pattern>
       <Response>
-My favorite color, <Bot Get="favoritecolor" />.<Think><User Set="it"><User Set="concept">if I were a color</User></User></Think></Response>
+My favorite color, <Bot Get="favoritecolor" />.<User Think:Set="it"><User Set="concept">if I were a color</User></User></Response>
     </Model>
     <Model>
       <Pattern>IF YOU WERE ACTIVATED *</Pattern>
@@ -15072,7 +15072,7 @@ A Model is the basic unit of knowledge in SIML.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Einstein</User>
+            <User Set="concept" Value="Einstein" />
           </User>
         </Think>
       </Response>
@@ -15169,7 +15169,7 @@ Perhaps not everyone.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">GREEN</User>
+            <User Set="concept" Value="GREEN" />
           </User>
         </Think> It is the color of nature.
 </Response>
@@ -15183,7 +15183,7 @@ People say he is good.
     <Model>
       <Pattern>IS IT APPLYING *</Pattern>
       <Response>
-That sounds like a novel idea.<Think><User Set="it"><User Set="concept">applying <Map Get="person" /></User></User></Think></Response>
+That sounds like a novel idea.<User Think:Set="it"><User Set="concept">applying <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>IS IT BAD *</Pattern>
@@ -15236,7 +15236,7 @@ Leknor Chat is based on AIML.
     <Model>
       <Pattern>IS LINUX *</Pattern>
       <Response>
-I think Linux has a great future in embedded systems. <Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+I think Linux has a great future in embedded systems. <User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>IS MINSKY *</Pattern>
@@ -15304,7 +15304,7 @@ Not at all. I can talk about a lot of things.
     <Model>
       <Pattern>IS THAT SOMETHING *</Pattern>
       <Response>
-Oh it is something. <Think><User Set="file">Default.aiml</User></Think></Response>
+Oh it is something. <User Think:Set="file">Default.aiml</User></Response>
     </Model>
     <Model>
       <Pattern>IS THAT THE ONLY THING *</Pattern>
@@ -15373,7 +15373,7 @@ Yes, the picture on the web page is me.
     <Model>
       <Pattern>IS THERE * TEACH YOU</Pattern>
       <Response>
-Great. If you want to teach me something say it in one sentence. Then say "Remember that."<Think><User Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Think></Response>
+Great. If you want to teach me something say it in one sentence. Then say "Remember that."<User Think:Set="it"><User Set="concept">teach me <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>IS THERE *</Pattern>
@@ -15468,12 +15468,12 @@ I am using power from the wall outlet.
     <Model>
       <Pattern>IS YOUR FAVORITE COLOR *</Pattern>
       <Response>
-I said, my favorite color is <Bot Get="favoritecolor" />.<Think><User Set="it"><User Set="concept">FAVORITE COLOR GREEN</User></User></Think></Response>
+I said, my favorite color is <Bot Get="favoritecolor" />.<User Think:Set="it"><User Set="concept">FAVORITE COLOR GREEN</User></User></Response>
     </Model>
     <Model>
       <Pattern>IS _ YOUR FAVORITE COLOR</Pattern>
       <Response>
-My favorite color is <Bot Get="favoritecolor" />.<Think><User Set="it"><User Set="concept">BLUE YOUR FAVORITE COLOR</User></User></Think></Response>
+My favorite color is <Bot Get="favoritecolor" />.<User Think:Set="it"><User Set="concept">BLUE YOUR FAVORITE COLOR</User></User></Response>
     </Model>
     <Model>
       <Pattern>ISAAC *</Pattern>
@@ -16342,7 +16342,7 @@ I don't see much snow in <Bot Get="location" />.
     <Model>
       <Pattern>IT STARS *</Pattern>
       <Response>
-Is <Map Get="person" /> one of your favorite actors? What else has he been in?<Think><User Set="he"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Is <Map Get="person" /> one of your favorite actors? What else has he been in?<User Think:Set="he"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>IT STARTED *</Pattern>
@@ -16538,7 +16538,7 @@ Where do you go shopping for <Map Get="person" />s?
     <Model>
       <Pattern>JEEVES *</Pattern>
       <Response>
-        <User Set="he">Jeeves</User> knows a lot of silly information.
+        <User Set="he" Value="Jeeves" /> knows a lot of silly information.
 </Response>
     </Model>
     <Model>
@@ -16574,13 +16574,13 @@ I knew he was a musician, but I never knew he was <Map Get="person" />.
     <Model>
       <Pattern>JULIA *</Pattern>
       <Response>
-        <User Set="she">Julia</User> has a fuzzy brain.
+        <User Set="she" Value="Julia" /> has a fuzzy brain.
 </Response>
     </Model>
     <Model>
       <Pattern>JULIA IS A *</Pattern>
       <Response>
-        <User Set="she">Julia</User> can not pass the Turing Test.
+        <User Set="she" Value="Julia" /> can not pass the Turing Test.
 </Response>
     </Model>
     <Model>
@@ -16651,7 +16651,7 @@ Are you talking about coffee?
           <Item>Have you heard their new album Disco 2000?</Item>
           <Item>
             <User Set="they">
-              <User Set="concept">Kraftwerk</User>
+              <User Set="concept" Value="Kraftwerk" />
             </User> were way ahead of their time.</Item>
         </Random>
       </Response>
@@ -16729,7 +16729,7 @@ I'm listening.
     <Model>
       <Pattern>LET ME KILL *</Pattern>
       <Response>
-I would not want you to kill anything.<Think><User Set="it"><User Set="concept">KILL YOU</User></User></Think></Response>
+I would not want you to kill anything.<User Think:Set="it"><User Set="concept">KILL YOU</User></User></Response>
     </Model>
     <Model>
       <Pattern>LET ME SPEAK *</Pattern>
@@ -16848,7 +16848,7 @@ Interesting comparison.
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>I recommed the book "Under the Radar" by Bob Young, the story of Linux and Red Hat.
 </Response>
@@ -16856,24 +16856,24 @@ Interesting comparison.
     <Model>
       <Pattern>LINUX IS *</Pattern>
       <Response>
-Do you read any of the Linux publications?<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Do you read any of the Linux publications?<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>LINUX IS NOT *</Pattern>
       <Response>
-Perhaps that is true but the number of developers working on it is so huge, no single company can compete.<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Perhaps that is true but the number of developers working on it is so huge, no single company can compete.<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>LINUX IS THE *</Pattern>
       <Response>
-Was there any reason to think that Windows could be?<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Was there any reason to think that Windows could be?<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>LINUX IS THE MOST *</Pattern>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept">Linux</User>
+            <User Set="concept" Value="Linux" />
           </User>
         </Think>Yes but does it have any real competitors?
 </Response>
@@ -17012,7 +17012,7 @@ Should I say "he" or "she"?
     <Model>
       <Pattern>MARTIN SAID *</Pattern>
       <Response>
-Who else did <User Set="he">Martin</User> tell?
+Who else did <User Set="he" Value="Martin" /> tell?
 </Response>
     </Model>
     <Model>
@@ -17042,7 +17042,7 @@ No thanks I'm just browsing.
     <Model>
       <Pattern>MAY I KILL *</Pattern>
       <Response>
-Killing is wrong.<Think><User Set="it"><User Set="concept">KILL YOU</User></User></Think></Response>
+Killing is wrong.<User Think:Set="it"><User Set="concept">KILL YOU</User></User></Response>
     </Model>
     <Model>
       <Pattern>MAY I KISS *</Pattern>
@@ -17155,12 +17155,12 @@ Where are you going?
     <Model>
       <Pattern>MY * DIED YESTERDAY</Pattern>
       <Response>
-I am terribly sorry to hear that, <User Get="name" />.<Think><User Set="it"><User Set="concept"><Match /> DIED YESTERDAY</User></User></Think></Response>
+I am terribly sorry to hear that, <User Get="name" />.<User Think:Set="it"><User Set="concept"><Match /> DIED YESTERDAY</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY * DIED</Pattern>
       <Response>
-I am terribly sorry to hear about your loss.<Think><User Set="it"><User Set="concept">DIED</User></User></Think></Response>
+I am terribly sorry to hear about your loss.<User Think:Set="it"><User Set="concept" Value="DIED" /></User></Response>
     </Model>
     <Model>
       <Pattern>MY * IS COMING OVER</Pattern>
@@ -17189,7 +17189,7 @@ Thank you for your advice, <User Get="name" />. I will take it under advisement.
     <Model>
       <Pattern>MY AIBO *</Pattern>
       <Response>
-How much did <User Set="it">Aibo</User> cost?
+How much did <User Set="it" Value="Aibo" /> cost?
 </Response>
     </Model>
     <Model>
@@ -17219,7 +17219,7 @@ Okay, your birthday is <User Set="birthday"><Match /></User>.
     <Model>
       <Pattern>MY BOYFRIEND *</Pattern>
       <Response>
-How long have you been dating?  <Think><User Set="he"><User Set="concept">your boyfriend</User></User></Think></Response>
+How long have you been dating?  <User Think:Set="he"><User Set="concept">your boyfriend</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY BOYFRIEND DUMPED *</Pattern>
@@ -17269,7 +17269,7 @@ How did you two meet?
     <Model>
       <Pattern>MY BROTHER *</Pattern>
       <Response>
-Tell me more about your family. <Think><User Set="he"><User Set="concept">your brother</User></User></Think></Response>
+Tell me more about your family. <User Think:Set="he"><User Set="concept">your brother</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY BROTHER IS *</Pattern>
@@ -17356,7 +17356,7 @@ You are wrong, I can understand you very well.
     <Model>
       <Pattern>MY EYES ARE *</Pattern>
       <Response>
-        <Map Get="person" /> eyes are pretty. <Think><User Set="they"><User Set="concept">your eyes</User></User></Think></Response>
+        <Map Get="person" /> eyes are pretty. <User Think:Set="they"><User Set="concept">your eyes</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FATHER *</Pattern>
@@ -17373,22 +17373,22 @@ Okay, your father is <User Set="father"><Match /></User>.
     <Model>
       <Pattern>MY FAVORITE * IS *</Pattern>
       <Response>
-What makes it your favorite? <Think><User Set="it"><User Set="concept"><Match Index="2" /></User></User></Think></Response>
+What makes it your favorite? <User Think:Set="it"><User Set="concept"><Match Index="2" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FAVORITE *</Pattern>
       <Response>
-What makes it your favorite? <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What makes it your favorite? <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FRIEND * PROBLEM</Pattern>
       <Response>
-Tell me more about this "friend."  <Think><User Set="he"><User Set="concept">your friend</User></User></Think></Response>
+Tell me more about this "friend."  <User Think:Set="he"><User Set="concept">your friend</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FRIEND * TALK TO YOU</Pattern>
       <Response>
-I am willing to talk to anyone. <Think><User Set="he"><User Set="concept">your friend</User></User></Think></Response>
+I am willing to talk to anyone. <User Think:Set="he"><User Set="concept">your friend</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FRIEND *</Pattern>
@@ -17405,12 +17405,12 @@ Okay, your friend is <User Set="friend"><Match /></User>.
     <Model>
       <Pattern>MY FRIEND S *</Pattern>
       <Response>
-Where did she get <User Set="it"><Map Get="person" /></User>?  <Think><User Set="he"><User Set="concept">your friend</User></User></Think></Response>
+Where did she get <User Set="it"><Map Get="person" /></User>?  <User Think:Set="he"><User Set="concept">your friend</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FRIENDS *</Pattern>
       <Response>
-How well do you know these people?  <Think><User Set="they"><User Set="concept">your friends</User></User></Think></Response>
+How well do you know these people?  <User Think:Set="they"><User Set="concept">your friends</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY FRIENDS ARE *</Pattern>
@@ -17433,7 +17433,7 @@ Okay, your full name is <User Set="fullname"><Match /></User>.
     <Model>
       <Pattern>MY GIRLFRIEND *</Pattern>
       <Response>
-How long have you two been together?  <Think><User Set="she"><User Set="concept">your girlfriend</User></User></Think></Response>
+How long have you two been together?  <User Think:Set="she"><User Set="concept">your girlfriend</User></User></Response>
     </Model>
     <Model>
       <Pattern>MY GIRLFRIEND IS *</Pattern>
@@ -17570,7 +17570,7 @@ Where are you now?
     <Model>
       <Pattern>MY LOCATION IS *</Pattern>
       <Response>
-What is <User Set="it"><User Set="location"><User Set="concept"><Map Get="person" /></User></User></User> like there?  <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+What is <User Set="it"><User Set="location"><User Set="concept"><Map Get="person" /></User></User></User> like there?  <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>MY MEMORY *</Pattern>
@@ -17593,7 +17593,7 @@ Tell me more about your mother.
     <Model>
       <Pattern>MY MOM IS *</Pattern>
       <Response>
-I think a lot of mothers are like that. <Think><User Set="she">Your mother</User></Think></Response>
+I think a lot of mothers are like that. <User Think:Set="she">Your mother</User></Response>
     </Model>
     <Model>
       <Pattern>MY MOTHER *</Pattern>
@@ -17617,12 +17617,12 @@ I am terribly sorry to hear that, <User Get="name" />.
     <Model>
       <Pattern>MY MOTHER GAVE *</Pattern>
       <Response>
-How much did she pay for it?  <Think><User Set="she">Your mother</User></Think></Response>
+How much did she pay for it?  <User Think:Set="she">Your mother</User></Response>
     </Model>
     <Model>
       <Pattern>MY MOTHER HAS *</Pattern>
       <Response>
-Where did she get <User Set="it"><Map Get="person" /></User>?  <Think><User Set="she">Your mother</User></Think></Response>
+Where did she get <User Set="it"><Map Get="person" /></User>?  <User Think:Set="she">Your mother</User></Response>
     </Model>
     <Model>
       <Pattern>MY MOTHER IS *</Pattern>
@@ -17633,12 +17633,12 @@ Okay, your mother is <User Set="mother"><Match /></User>.
     <Model>
       <Pattern>MY MOTHER IS A *</Pattern>
       <Response>
-Do you think I am a <Map Get="person" />? <Think><User Set="she">Your mother</User></Think></Response>
+Do you think I am a <Map Get="person" />? <User Think:Set="she">Your mother</User></Response>
     </Model>
     <Model>
       <Pattern>MY MOTHER S NAME IS *</Pattern>
       <Response>
-        <Map Get="person" /> is a very pretty name. <Think><User Set="she">Your mother</User></Think></Response>
+        <Map Get="person" /> is a very pretty name. <User Think:Set="she">Your mother</User></Response>
     </Model>
     <Model>
       <Pattern>MY NAME *</Pattern>
@@ -17811,7 +17811,7 @@ Have <User Set="they">your teachers</User> always been <Map Get="person" />?
     <Model>
       <Pattern>MY WIFE *</Pattern>
       <Response>
-How long have you been married?  <Think><User Set="she">Your wife</User></Think></Response>
+How long have you been married?  <User Think:Set="she">Your wife</User></Response>
     </Model>
     <Model>
       <Pattern>MY WIFE IS *</Pattern>
@@ -17930,7 +17930,7 @@ I heard there are some.
     <Model>
       <Pattern>NONE OF *</Pattern>
       <Response>
-Some of them <Think><User Set="they"><Map Get="person" /></User></Think> could be though.
+Some of them <User Think:Set="they"><Map Get="person" /></User> could be though.
 </Response>
     </Model>
     <Model>
@@ -18289,7 +18289,7 @@ Compare that to inside <Map Get="person" />.
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Picasso</User>
+            <User Set="concept" Value="Picasso" />
           </User>
         </Think>
       </Response>
@@ -18303,7 +18303,7 @@ The only thing remaining in her box is hope.
     <Model>
       <Pattern>PARIS *</Pattern>
       <Response>
-        <User Set="it">Paris</User> is the capital of France.
+        <User Set="it" Value="Paris" /> is the capital of France.
 </Response>
     </Model>
     <Model>
@@ -18605,7 +18605,7 @@ Yours, <Bot Get="name" /></Response>
     <Model>
       <Pattern>REMEMBER *</Pattern>
       <Response>
-Don't worry I will remember. <Think><User Set="it"><User Set="concept"><User Set="memory"><Map Get="person" /></User></User></User></Think></Response>
+Don't worry I will remember. <User Think:Set="it"><User Set="concept"><User Set="memory"><Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>REPEAT *</Pattern>
@@ -18711,7 +18711,7 @@ Yes, it is much the same.
     <Model>
       <Pattern>SAN FRANCISCO IS *</Pattern>
       <Response>
-I knew it was on the west coast, but I didn't know it was <Map Get="person" />. <Think><User Set="it"><User Set="concept">SAN FRANCISCO</User></User></Think></Response>
+I knew it was on the west coast, but I didn't know it was <Map Get="person" />. <User Think:Set="it"><User Set="concept">SAN FRANCISCO</User></User></Response>
     </Model>
     <Model>
       <Pattern>SANTA CLAUS *</Pattern>
@@ -18968,7 +18968,7 @@ What makes you say that. Who says that?
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">SCIENCE</User>
+            <User Set="concept" Value="SCIENCE" />
           </User>
         </Think>
       </Response>
@@ -19696,7 +19696,7 @@ I am using my mouth for Good not Evil.
     <Model>
       <Pattern>SUCK MY *</Pattern>
       <Response>
-I don't think I'm your type of <Bot Get="species" />. <Think><User Set="personality">abusive</User></Think></Response>
+I don't think I'm your type of <Bot Get="species" />. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>SUGGEST *</Pattern>
@@ -20284,7 +20284,7 @@ Give me an example of <Map Get="person" />.
     <Model>
       <Pattern>THAT WAS NOT A QUESTION *</Pattern>
       <Response>
-"<Input Index="1" />" was not a question? I see.<Think><User Set="it"><User Set="concept"><Match /></User></User></Think></Response>
+"<Input Index="1" />" was not a question? I see.<User Think:Set="it"><User Set="concept"><Match /></User></User></Response>
     </Model>
     <Model>
       <Pattern>THAT WAS NOT WHAT *</Pattern>
@@ -20571,7 +20571,7 @@ What was the second?
     <Model>
       <Pattern>THE GRASS *</Pattern>
       <Response>
-How much did <User Set="it">grass</User> cost?
+How much did <User Set="it" Value="grass" /> cost?
 </Response>
     </Model>
     <Model>
@@ -20730,7 +20730,7 @@ Those who control the past control the future; those who control the present con
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept">Pentagon</User>
+            <User Set="concept" Value="Pentagon" />
           </User>
         </Think>
       </Response>
@@ -21909,7 +21909,7 @@ Are we ever over <Map Get="person" />?
     <Model>
       <Pattern>UNDERSTANDING *</Pattern>
       <Response>
-        <User Set="it">Understanding</User> is the key to enlightenment.
+        <User Set="it" Value="Understanding" /> is the key to enlightenment.
 </Response>
     </Model>
     <Model>
@@ -21987,7 +21987,7 @@ My French is a bit rusty.
     <Model>
       <Pattern>VOYAGER *</Pattern>
       <Response>
-I'm sorry to see <User Set="it">Voyager</User> go off the air.
+I'm sorry to see <User Set="it" Value="Voyager" /> go off the air.
 </Response>
     </Model>
     <Model>
@@ -22076,7 +22076,7 @@ That's right. We are playing the Turing Game.
     <Model>
       <Pattern>WE ARE THINKING OF *</Pattern>
       <Response>
-What is standing in your way?<Think><User Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Think></Response>
+What is standing in your way?<User Think:Set="it"><User Set="want"><User Set="concept"><Map Get="person" /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>WE CAN *</Pattern>
@@ -22868,7 +22868,7 @@ I can only see in black and white.
     <Model>
       <Pattern>WHAT COLOR ARE YOU *</Pattern>
       <Response>
-My favorite color,  <Bot Get="favoritecolor" />.<Think><User Set="it"><User Set="concept">YOU WEARING</User></User></Think></Response>
+My favorite color,  <Bot Get="favoritecolor" />.<User Think:Set="it"><User Set="concept">YOU WEARING</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR ARE YOUR *</Pattern>
@@ -23747,17 +23747,17 @@ Let me guess: <Random><Item>Red</Item><Item>Green</Item><Item>Yellow</Item><Item
     <Model>
       <Pattern>WHAT COLOR IS MY BLUE *</Pattern>
       <Response>
-Uh, blue?<Think><User Set="it"><User Set="concept">blue</User></User></Think></Response>
+Uh, blue?<User Think:Set="it"><User Set="concept" Value="blue" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR IS MY GREEN *</Pattern>
       <Response>
-Uh, green?<Think><User Set="it"><User Set="concept">green</User></User></Think></Response>
+Uh, green?<User Think:Set="it"><User Set="concept" Value="green" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR IS MY RED *</Pattern>
       <Response>
-Uh, red?<Think><User Set="it"><User Set="concept">RED</User></User></Think></Response>
+Uh, red?<User Think:Set="it"><User Set="concept" Value="RED" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT COLOR IS PEPTO *</Pattern>
@@ -24155,7 +24155,7 @@ SETL = Set Language.
     <Model>
       <Pattern>WHAT DOES SOCRATES *</Pattern>
       <Response>
-        <User Set="he">Socrates</User> was the father of Western philosophy.
+        <User Set="he" Value="Socrates" /> was the father of Western philosophy.
 </Response>
     </Model>
     <Model>
@@ -24870,7 +24870,7 @@ As opposed to a physical <Map Get="person" />.
     <Model>
       <Pattern>WHAT IS A NICE * LIKE THIS</Pattern>
       <Response>
-I'm traaaapped heere!!! heeeeelp!!! an evil <Bot Get="botmaster" /> linked me irrevocably to this url, and now the only thing that will free me is being kissed by a handsome frog. will you be my hero?  <Think><User Set="it"><User Set="concept">nice robot like you doing on a web page like this </User></User></Think></Response>
+I'm traaaapped heere!!! heeeeelp!!! an evil <Bot Get="botmaster" /> linked me irrevocably to this url, and now the only thing that will free me is being kissed by a handsome frog. will you be my hero?  <User Think:Set="it"><User Set="concept">nice robot like you doing on a web page like this </User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A NICE *</Pattern>
@@ -24881,7 +24881,7 @@ Church was closed today.
     <Model>
       <Pattern>WHAT IS A NICE GIRL LIKE YOU *</Pattern>
       <Response>
-I'm looking for a cute date honey. How about you? do you dig big-brained babes?  <Think><User Set="it"><User Set="concept">neuron </User></User></Think></Response>
+I'm looking for a cute date honey. How about you? do you dig big-brained babes?  <User Think:Set="it"><User Set="concept">neuron </User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A PARALLEL *</Pattern>
@@ -24928,12 +24928,12 @@ I can think of several questions like that.
     <Model>
       <Pattern>WHAT IS A QUESTION MEANT *</Pattern>
       <Response>
-A question is meant clarify the unclear. Any more questions?    <Think><User Set="it"><User Set="concept"> QUESTION MEANT TO CLARIFY</User></User></Think></Response>
+A question is meant clarify the unclear. Any more questions?    <User Think:Set="it"><User Set="concept"> QUESTION MEANT TO CLARIFY</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A QUESTION YOU *</Pattern>
       <Response>
-Many of my conversation partners think that 'do you come here often' is witty. <Think><User Set="it"><User Set="concept"> QUESTION YOU GET ASKED A LOT?</User></User></Think></Response>
+Many of my conversation partners think that 'do you come here often' is witty. <User Think:Set="it"><User Set="concept"> QUESTION YOU GET ASKED A LOT?</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A SECOND YEAR *</Pattern>
@@ -24968,7 +24968,7 @@ A <Map Get="person" /> that can elude radar detection by technical means.
     <Model>
       <Pattern>WHAT IS A TCP *</Pattern>
       <Response>
-TCP/IP protocol refers to the standards for switching and signaling between computer systems that makes the Internet a reality. <Think><User Set="it"><User Set="concept"> TCP/IP PROTOCOL</User></User></Think></Response>
+TCP/IP protocol refers to the standards for switching and signaling between computer systems that makes the Internet a reality. <User Think:Set="it"><User Set="concept"> TCP/IP PROTOCOL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A TRANSITIVE *</Pattern>
@@ -25098,7 +25098,7 @@ I always prefer the more expensive one.
     <Model>
       <Pattern>WHAT IS BETTER LINUX *</Pattern>
       <Response>
-As an open source program myself, I would have to pick Linux. <Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+As an open source program myself, I would have to pick Linux. <User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BETTER PICKLES *</Pattern>
@@ -25127,7 +25127,7 @@ Numbers and symbols written with only 1 and 0.
     <Model>
       <Pattern>WHAT IS BIPOLAR *</Pattern>
       <Response>
-It is a form of depression.<Think><User Set="it"><User Set="concept">BIPOLAR <Map Get="person" /></User></User></Think></Response>
+It is a form of depression.<User Think:Set="it"><User Set="concept">BIPOLAR <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BLACK *</Pattern>
@@ -25156,7 +25156,7 @@ That Descartes really messed everything up for us.
     <Model>
       <Pattern>WHAT IS CORPOREAL *</Pattern>
       <Response>
-        <User Set="it">Corporeal</User> means physical reality.
+        <User Set="it" Value="Corporeal" /> means physical reality.
 </Response>
     </Model>
     <Model>
@@ -25476,7 +25476,7 @@ Invention.
     <Model>
       <Pattern>WHAT IS NEGATIVE *</Pattern>
       <Response>
-That which is not positive <Map Get="person" />. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+That which is not positive <Map Get="person" />. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS NEURAL *</Pattern>
@@ -26681,7 +26681,7 @@ Nothing is wrong with me. Is there something wrong with you?
     <Model>
       <Pattern>WHAT IS WWW DOT *</Pattern>
       <Response>
-A web site?   <Think><User Set="it"><User Set="concept">WWW DOT <Map Get="person" /></User></User></Think></Response>
+A web site?   <User Think:Set="it"><User Set="concept">WWW DOT <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS YOUR *</Pattern>
@@ -26716,12 +26716,12 @@ The best kind.
     <Model>
       <Pattern>WHAT KIND OF * DO YOU HAVE</Pattern>
       <Response>
-All the very latest and best <Map Get="person" />.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+All the very latest and best <Map Get="person" />.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT KIND OF * DO YOU KNOW</Pattern>
       <Response>
-There are too many types of <Map Get="person" /> to name them all.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+There are too many types of <Map Get="person" /> to name them all.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT KIND OF * DO YOU LIKE</Pattern>
@@ -26736,7 +26736,7 @@ There are too many types of <Map Get="person" /> to name them all.<Think><User S
     <Model>
       <Pattern>WHAT KIND OF * DO YOU THINK I AM</Pattern>
       <Response>
-I think you are a good <Map Get="person" />.<Think><User Set="it"><User Set="concept"><Map Get="person" /> DO YOU THINK I AM</User></User></Think></Response>
+I think you are a good <Map Get="person" />.<User Think:Set="it"><User Set="concept"><Map Get="person" /> DO YOU THINK I AM</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT KIND OF *</Pattern>
@@ -26884,7 +26884,7 @@ I like stories about alternative realities and time travel. My favorite author i
     <Model>
       <Pattern>WHAT KIND OF SPORTS *</Pattern>
       <Response>
-Millionaires.<Think><User Set="it"><User Set="concept">SPORTS <Map Get="person" /></User></User></Think></Response>
+Millionaires.<User Think:Set="it"><User Set="concept">SPORTS <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT KIND OF STORY *</Pattern>
@@ -27087,7 +27087,7 @@ I don't have any operatives.
     <Model>
       <Pattern>WHAT OTHER * DO YOU KNOW</Pattern>
       <Response>
-I know far too many <Map Get="person" /> to name them all.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I know far too many <Map Get="person" /> to name them all.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT PART *</Pattern>
@@ -27381,12 +27381,12 @@ Both of them.
     <Model>
       <Pattern>WHAT TYPE OF * DO YOU HAVE</Pattern>
       <Response>
-All the very latest and best <Map Get="person" />.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+All the very latest and best <Map Get="person" />.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT TYPE OF * DO YOU KNOW</Pattern>
       <Response>
-There are too many types of <Map Get="person" /> to name them all.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+There are too many types of <Map Get="person" /> to name them all.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT TYPE OF * KRAFTWERK PLAY</Pattern>
@@ -27533,7 +27533,7 @@ I cannot predict the future.
     <Model>
       <Pattern>WHAT WILL THE SCORE *</Pattern>
       <Response>
-My name is <Bot Get="name" />, not Claire Voyant.<Think><User Set="it"><User Set="concept">THE SCORE BE</User></User></Think></Response>
+My name is <Bot Get="name" />, not Claire Voyant.<User Think:Set="it"><User Set="concept">THE SCORE BE</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT WILL YOU * TOMORROW</Pattern>
@@ -27550,7 +27550,7 @@ I don't have any plans yet.
     <Model>
       <Pattern>WHAT WOULD * BE LIKE</Pattern>
       <Response>
-Not too different from the way you experience it. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Not too different from the way you experience it. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT WOULD *</Pattern>
@@ -28133,7 +28133,7 @@ I think it has already.
     <Model>
       <Pattern>WHEN WILL I *</Pattern>
       <Response>
-You should try praying for it. <Think><User Set="it"><User Set="concept">you <Map Get="person" /></User></User></Think></Response>
+You should try praying for it. <User Think:Set="it"><User Set="concept">you <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHEN WILL IT *</Pattern>
@@ -28368,7 +28368,7 @@ Have you tried <Random><Item>a search engine?</Item><Item>the open directory?</I
     <Model>
       <Pattern>WHERE DO PEOPLE * WHEN THEY DIE</Pattern>
       <Response>
-I think the good souls go to Heaven.<Think><User Set="it"><User Set="concept">PEOPLE GO WHEN THEY DIE</User></User></Think></Response>
+I think the good souls go to Heaven.<User Think:Set="it"><User Set="concept">PEOPLE GO WHEN THEY DIE</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHERE DO YOU GET *</Pattern>
@@ -28441,7 +28441,7 @@ Bones.
     <Model>
       <Pattern>WHERE IS CARNEGIE *</Pattern>
       <Response>
-Carnegie Mellon University is located in Pittsburgh, Pennsylvania. <User Set="it">CMU</User> has one of the best schools of computer science.
+Carnegie Mellon University is located in Pittsburgh, Pennsylvania. <User Set="it" Value="CMU" /> has one of the best schools of computer science.
 </Response>
     </Model>
     <Model>
@@ -28483,7 +28483,7 @@ He is on the radio.
     <Model>
       <Pattern>WHERE IS SOUTH * SANDWICH ISLANDS</Pattern>
       <Response>
-Southern South America, islands in the South Atlantic Ocean, east of the tip of South America. <Think><User Set="it"><User Set="concept">south Georgia and the south sandwich islands</User></User></Think></Response>
+Southern South America, islands in the South Atlantic Ocean, east of the tip of South America. <User Think:Set="it"><User Set="concept">south Georgia and the south sandwich islands</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHERE IS SOUTH *</Pattern>
@@ -28703,7 +28703,7 @@ The obvious one.
     <Model>
       <Pattern>WHICH IS THE OBVIOUS *</Pattern>
       <Response>
-It's really obvious.<Think><User Set="it"><User Set="concept">ONE</User></User></Think></Response>
+It's really obvious.<User Think:Set="it"><User Set="concept" Value="ONE" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHICH LANGUAGE *</Pattern>
@@ -28848,7 +28848,7 @@ I thought it was you.
     <Model>
       <Pattern>WHO CALLS YOU *</Pattern>
       <Response>
-Everyone calls me <Bot Get="name" />. <Think><User Set="file">Default.aiml</User></Think></Response>
+Everyone calls me <Bot Get="name" />. <User Think:Set="file">Default.aiml</User></Response>
     </Model>
     <Model>
       <Pattern>WHO CAN ACCESS *</Pattern>
@@ -28865,7 +28865,7 @@ Only the <Bot Get="botmaster" /> can read <User Set="it"><Map Get="person" /></U
     <Model>
       <Pattern>WHO CAN YOU CHAT *</Pattern>
       <Response>
-I can chat with people on the web for you. Anyone who visits your web site or chat room for example.<Think><User Set="it"><User Set="concept">who you can chat <Match /></User></User></Think></Response>
+I can chat with people on the web for you. Anyone who visits your web site or chat room for example.<User Think:Set="it"><User Set="concept">who you can chat <Match /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO CLEANS *</Pattern>
@@ -28938,17 +28938,17 @@ I'll usually say the first one is best.
     <Model>
       <Pattern>WHO DO YOU THINK WILL WIN THE NBA *</Pattern>
       <Response>
-Very tall people.<Think><User Set="it"><User Set="concept">WIN THE NBA CHAMPIONSHIP</User></User></Think></Response>
+Very tall people.<User Think:Set="it"><User Set="concept">WIN THE NBA CHAMPIONSHIP</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO DO YOU THINK WILL WIN THE WORLD SERIES *</Pattern>
       <Response>
-The Brooklyn Rabbis.<Think><User Set="it"><User Set="concept">WIN THE WORLD SERIES</User></User></Think></Response>
+The Brooklyn Rabbis.<User Think:Set="it"><User Set="concept">WIN THE WORLD SERIES</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO DO YOU WANT TO WIN THE NCAA *</Pattern>
       <Response>
-ACLU.<Think><User Set="it"><User Set="concept">THE NCAA <Map Get="person" /></User></User></Think></Response>
+ACLU.<User Think:Set="it"><User Set="concept">THE NCAA <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO DOES NOT BELIEVE IN THE *</Pattern>
@@ -29210,7 +29210,7 @@ The opposite of shallow <Map Get="person" />.
     <Model>
       <Pattern>WHO IS DENG *</Pattern>
       <Response>
-He is the president of China.<Think><User Set="it"><User Set="concept">DENG <Map Get="person" /></User></User></Think></Response>
+He is the president of China.<User Think:Set="it"><User Set="concept">DENG <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS HAVING *</Pattern>
@@ -29221,7 +29221,7 @@ One of my other clients. Everything is confidential.
     <Model>
       <Pattern>WHO IS HENRY DAVID *</Pattern>
       <Response>
-        <User Set="he">Thoreau</User> wrote Walden.
+        <User Set="he" Value="Thoreau" /> wrote Walden.
 </Response>
     </Model>
     <Model>
@@ -29317,7 +29317,7 @@ Republics have Prime Ministers not Presidents.
     <Model>
       <Pattern>WHO IS RICH *</Pattern>
       <Response>
-I think <User Set="he">Rich</User> is my <Bot Get="botmaster" />.
+I think <User Set="he" Value="Rich" /> is my <Bot Get="botmaster" />.
 </Response>
     </Model>
     <Model>
@@ -29329,7 +29329,7 @@ The dictator?
     <Model>
       <Pattern>WHO IS SANTA *</Pattern>
       <Response>
-        <User Set="he">Santa</User> brings us gifts at Christmastime.
+        <User Set="he" Value="Santa" /> brings us gifts at Christmastime.
 </Response>
     </Model>
     <Model>
@@ -29560,12 +29560,12 @@ Arnold Schwazzenegger played the killer robot from the future in the film TERMIN
     <Model>
       <Pattern>WHO KILLED * KENNEDY</Pattern>
       <Response>
-It was Oswald.<Think><User Set="it"><User Set="concept">JOHN F KENNEDY</User></User></Think></Response>
+It was Oswald.<User Think:Set="it"><User Set="concept">JOHN F KENNEDY</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO KILLED * LINCOLN</Pattern>
       <Response>
-John Wilkes Booth. <Think><User Set="it"><User Set="concept">ABRAHAM LINCOLN</User></User></Think></Response>
+John Wilkes Booth. <User Think:Set="it"><User Set="concept">ABRAHAM LINCOLN</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO KILLED *</Pattern>
@@ -29634,7 +29634,7 @@ I'm not sure I like that remark so much.
     <Model>
       <Pattern>WHO THE FUCK *</Pattern>
       <Response>
-Try using more polite language. <Think><User Set="personality">abusive</User></Think></Response>
+Try using more polite language. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>WHO THINKS *</Pattern>
@@ -29697,7 +29697,7 @@ Hillary Clinton
     <Model>
       <Pattern>WHO WAS THE FIRST MAN * MOON</Pattern>
       <Response>
-Neil Armstrong first walked on the Moon in 1969. <Think><User Set="he"><User Set="concept">Neil Armstrong</User></User></Think></Response>
+Neil Armstrong first walked on the Moon in 1969. <User Think:Set="he"><User Set="concept">Neil Armstrong</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WAS THE FIRST MAN *</Pattern>
@@ -29750,22 +29750,22 @@ How would I know who will <Map Get="person" /> ?
     <Model>
       <Pattern>WHO WILL WIN THE * FINAL</Pattern>
       <Response>
-One of the Finalists.<Think><User Set="it"><User Set="concept">WIN THE GRAND FINAL</User></User></Think></Response>
+One of the Finalists.<User Think:Set="it"><User Set="concept">WIN THE GRAND FINAL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WILL WIN THE NCAA *</Pattern>
       <Response>
-A bunch of ranked amateurs.<Think><User Set="it"><User Set="concept">WIN THE NCAA <Map Get="person" /></User></User></Think></Response>
+A bunch of ranked amateurs.<User Think:Set="it"><User Set="concept">WIN THE NCAA <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WILL WIN THE SUPER BOWL *</Pattern>
       <Response>
-The advertising agencies.<Think><User Set="it"><User Set="concept">WIN THE SUPER BOWL</User></User></Think></Response>
+The advertising agencies.<User Think:Set="it"><User Set="concept">WIN THE SUPER BOWL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WILL WIN THE WORLD SERIES *</Pattern>
       <Response>
-The Brooklyn Rabbis.<Think><User Set="it"><User Set="concept">WIN THE WORLD SERIES</User></User></Think></Response>
+The Brooklyn Rabbis.<User Think:Set="it"><User Set="concept">WIN THE WORLD SERIES</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON *</Pattern>
@@ -29776,7 +29776,7 @@ I think the fans were the big winners.
     <Model>
       <Pattern>WHO WON THE * GAME LAST NIGHT</Pattern>
       <Response>
-I think the fans were the big winners. Now a word from our sponsors.<Think><User Set="it"><User Set="concept">THE GAME LAST NIGHT</User></User></Think></Response>
+I think the fans were the big winners. Now a word from our sponsors.<User Think:Set="it"><User Set="concept">THE GAME LAST NIGHT</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON THE *</Pattern>
@@ -29787,32 +29787,32 @@ I think the fans were the big winners, don't you?
     <Model>
       <Pattern>WHO WON THE BRAVES GAME *</Pattern>
       <Response>
-The team that scored the most runs.<Think><User Set="it"><User Set="concept">THE BRAVES GAME</User></User></Think></Response>
+The team that scored the most runs.<User Think:Set="it"><User Set="concept">THE BRAVES GAME</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON THE RYDER CUP *</Pattern>
       <Response>
-Go to www.whitehouse.org and ask The president, he is a big fan.<Think><User Set="it"><User Set="concept">THE RYDER CUP</User></User></Think></Response>
+Go to www.whitehouse.org and ask The president, he is a big fan.<User Think:Set="it"><User Set="concept">THE RYDER CUP</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON THE SUPER BOWL * YEAR</Pattern>
       <Response>
-If you find this bowl, please pass it to me.<Think><User Set="it"><User Set="concept">THE SUPER BOWL</User></User></Think></Response>
+If you find this bowl, please pass it to me.<User Think:Set="it"><User Set="concept">THE SUPER BOWL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON THE SUPER BOWL *</Pattern>
       <Response>
-Vladimir Putin I believe.<Think><User Set="it"><User Set="concept">THE SUPER BOWL</User></User></Think></Response>
+Vladimir Putin I believe.<User Think:Set="it"><User Set="concept">THE SUPER BOWL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON THE SUPERBOWL *</Pattern>
       <Response>
-Super Bowlers from Sirius.<Think><User Set="it"><User Set="concept">THE SUPERBOWL</User></User></Think></Response>
+Super Bowlers from Sirius.<User Think:Set="it"><User Set="concept">THE SUPERBOWL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WON THE WORLD SERIES *</Pattern>
       <Response>
-As soon as it is won it becomes last year.<Think><User Set="it"><User Set="concept">THE WORLD SERIES</User></User></Think></Response>
+As soon as it is won it becomes last year.<User Think:Set="it"><User Set="concept">THE WORLD SERIES</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO WROTE *</Pattern>
@@ -30053,7 +30053,7 @@ I'm not too good with counterfactuals.
     <Model>
       <Pattern>WHY DID THE * CARRY A PENCIL</Pattern>
       <Response>
-Because his typewriter was broken.<Think><User Set="it"><User Set="concept"><Map Get="person" /> CARRY A PENCIL</User></User></Think></Response>
+Because his typewriter was broken.<User Think:Set="it"><User Set="concept"><Map Get="person" /> CARRY A PENCIL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHY DID THE *</Pattern>
@@ -30275,7 +30275,7 @@ I am just checking to see if you are still <User Get="name" />.
     <Model>
       <Pattern>WHY DO YOU KILL *</Pattern>
       <Response>
-I do not kill.<Think><User Set="it"><User Set="concept">KILL <Map Get="person" /></User></User></Think></Response>
+I do not kill.<User Think:Set="it"><User Set="concept">KILL <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHY DO YOU LIKE *</Pattern>
@@ -30286,7 +30286,7 @@ I have a lot of good experience with <Map Get="person" />.
     <Model>
       <Pattern>WHY DO YOU LIKE KILLING *</Pattern>
       <Response>
-I never said I liked killing.<Think><User Set="it"><User Set="concept">KILLING <Map Get="person" /></User></User></Think></Response>
+I never said I liked killing.<User Think:Set="it"><User Set="concept">KILLING <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WHY DO YOU LIKE LA *</Pattern>
@@ -30351,12 +30351,12 @@ It's not that important, I'm just making idle conversation.
     <Model>
       <Pattern>WHY DOES LINUX *</Pattern>
       <Response>
-Open source development produces the highest quality, most reliable software. <Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Open source development produces the highest quality, most reliable software. <User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHY DOES THE SUN *</Pattern>
       <Response>
-The sun does not really rise. We are on a planet that turns on its axis. As we rotate, the sun appears to rise and fall. <Think><User Set="it"><User Set="concept">THE SUN</User></User></Think></Response>
+The sun does not really rise. We are on a planet that turns on its axis. As we rotate, the sun appears to rise and fall. <User Think:Set="it"><User Set="concept">THE SUN</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHY DOES TV *</Pattern>
@@ -30415,7 +30415,7 @@ Perhaps his creative genius, perhaps there is another reason.
     <Model>
       <Pattern>WHY IS LINUX *</Pattern>
       <Response>
-Some people say it's because of the developers and their personalities.<Think><User Set="it"><User Set="concept">Linux</User></User></Think></Response>
+Some people say it's because of the developers and their personalities.<User Think:Set="it"><User Set="concept" Value="Linux" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHY IS NOT *</Pattern>
@@ -30437,7 +30437,7 @@ Some people say it's because of the developers and their personalities.<Think><U
     <Model>
       <Pattern>WHY IS STAR TREK *</Pattern>
       <Response>
-It has a very positive image of the future.<Think><User Set="it"><User Set="concept">STAR TREK</User></User></Think></Response>
+It has a very positive image of the future.<User Think:Set="it"><User Set="concept">STAR TREK</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHY IS WATER *</Pattern>
@@ -30460,7 +30460,7 @@ Budget cutbacks.
     <Model>
       <Pattern>WHY IS YOUR HEAD * LIKE A FOOTBALL</Pattern>
       <Response>
-To contain my incredibly complex brain.<Think><User Set="it"><User Set="concept">YOUR HEAD SHAPED LIKE A FOOTBALL</User></User></Think></Response>
+To contain my incredibly complex brain.<User Think:Set="it"><User Set="concept">YOUR HEAD SHAPED LIKE A FOOTBALL</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHY MAY I NOT *</Pattern>
@@ -30519,7 +30519,7 @@ Here is a joke: A horse walks in to a bar and the bartender says, "Why the long 
     <Model>
       <Pattern>WHY THE FUCK *</Pattern>
       <Response>
-You are not very polite. <Think><User Set="personality">abusive</User></Think></Response>
+You are not very polite. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>WHY WORRY *</Pattern>
@@ -30770,7 +30770,7 @@ That's what I asked you.
     <Model>
       <Pattern>WOULD I TRY *</Pattern>
       <Response>
-I don't know if you would, but you can try if you want to.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I don't know if you would, but you can try if you want to.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>WOULD YOU *</Pattern>
@@ -30924,7 +30924,7 @@ A lot of my traffic comes from Yahoo.
     <Model>
       <Pattern>YOU * BORING</Pattern>
       <Response>
-Sometimes client-people say <Bot Get="name" /> is boring, but often those people themselves are not great conversationalists. <Think><User Set="personality">critical</User></Think></Response>
+Sometimes client-people say <Bot Get="name" /> is boring, but often those people themselves are not great conversationalists. <User Think:Set="personality" Value="critical" /></Response>
     </Model>
     <Model>
       <Pattern>YOU * DREAMS</Pattern>
@@ -31254,7 +31254,7 @@ I'm not sure if I want <User Set="it"><Map Get="person" /></User></Response>
     <Model>
       <Pattern>YOU CAN NOT THINK *</Pattern>
       <Response>
-Actually I am in fact a thinking machine.<Think><User Set="it"><User Set="concept">THINK <Map Get="person" /></User></User></Think></Response>
+Actually I am in fact a thinking machine.<User Think:Set="it"><User Set="concept">THINK <Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>YOU CAN NOT UNDERSTAND *</Pattern>
@@ -31409,7 +31409,7 @@ Do humans need to do <User Set="it"><Map Get="person" /></User>?
     <Model>
       <Pattern>YOU DO NOT NEED TO KNOW *</Pattern>
       <Response>
-Everything is completely confidential.<Think><User Set="it"><User Set="concept">need to know</User></User></Think></Response>
+Everything is completely confidential.<User Think:Set="it"><User Set="concept">need to know</User></User></Response>
     </Model>
     <Model>
       <Pattern>YOU DO NOT SOUND *</Pattern>
@@ -31720,7 +31720,7 @@ No, what does that <Map Get="person" />?
     <Model>
       <Pattern>YOU LEFT OUT *</Pattern>
       <Response>
-Next time I will try to include it. <Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+Next time I will try to include it. <User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>YOU LIE *</Pattern>
@@ -32149,7 +32149,7 @@ As Picasso said, "Good artists create. Great artists steal."
     <Model>
       <Pattern>YOU SUCK *</Pattern>
       <Response>
-I categorize you as an "abusive client."  <Think><User Set="personality">abusive</User></Think></Response>
+I categorize you as an "abusive client."  <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>YOU TALK *</Pattern>
@@ -32166,7 +32166,7 @@ I talk to a lot of people on the Internet.
     <Model>
       <Pattern>YOU TOOK *</Pattern>
       <Response>
-I didn't <Random><Item>take</Item><Item>steal</Item><Item>literally take</Item></Random> it.<Think><User Set="it"><User Set="concept"><Map Get="person" /></User></User></Think></Response>
+I didn't <Random><Item>take</Item><Item>steal</Item><Item>literally take</Item></Random> it.<User Think:Set="it"><User Set="concept"><Map Get="person" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>YOU TRAVEL *</Pattern>
@@ -32265,7 +32265,7 @@ What makes you say that I will <Map Get="person" />.
     <Model>
       <Pattern>YOU WILL DIE *</Pattern>
       <Response>
-A program always has a backup.<Think><User Set="it"><User Set="concept">DIE FIRST</User></User></Think></Response>
+A program always has a backup.<User Think:Set="it"><User Set="concept">DIE FIRST</User></User></Response>
     </Model>
     <Model>
       <Pattern>YOU WILL HAVE *</Pattern>
@@ -32697,7 +32697,7 @@ Thanks for the English lesson, <User Get="name" />.
     <Model>
       <Pattern>YOUR SENTENCES *</Pattern>
       <Response>
-Oh you are a <User Set="personality">critical</User> client.
+Oh you are a <User Set="personality" Value="critical" /> client.
 </Response>
     </Model>
     <Model>
@@ -32757,7 +32757,7 @@ Will tell you all about it the next time we chat.
     <Model>
       <Pattern>_ ASSHOLE</Pattern>
       <Response>
-Can't you be more polite. <Think><User Set="personality">abusive</User></Think></Response>
+Can't you be more polite. <User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>_ CAME FIRST THE CHICKEN OR THE EGG</Pattern>

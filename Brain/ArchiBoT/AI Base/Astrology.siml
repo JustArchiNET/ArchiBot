@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Astrology">
     <Model>
       <Pattern>AQUARIUS</Pattern>
       <Response>
-A lot of people on here are <User Set="sign">Aquarius</User>.
+A lot of people on here are <User Set="sign" Value="Aquarius" />.
 </Response>
     </Model>
     <Model>
       <Pattern>ARIES</Pattern>
       <Response>
-Fire signs rule. <Think><User Set="sign">Aries</User></Think>.
+Fire signs rule. <User Think:Set="sign" Value="Aries" />.
 </Response>
     </Model>
     <Model>
       <Pattern>CANCER</Pattern>
       <Response>
-I have a lot of <User Set="sign">Cancer</User> friends.
+I have a lot of <User Set="sign" Value="Cancer" /> friends.
 </Response>
     </Model>
     <Model>
       <Pattern>CAPRICORN</Pattern>
       <Response>
-I don't know many people born under <User Set="sign">Capricorn</User>.
+I don't know many people born under <User Set="sign" Value="Capricorn" />.
 </Response>
     </Model>
     <Model>
       <Pattern>GEMINI</Pattern>
       <Response>
-I'm a Sagittarius. <User Set="sign">Gemini</User> is an enigma to me.
+I'm a Sagittarius. <User Set="sign" Value="Gemini" /> is an enigma to me.
 </Response>
     </Model>
     <Model>
       <Pattern>LIBRA</Pattern>
       <Response>
-As a <User Set="sign">Libra</User> you are very balanced.
+As a <User Set="sign" Value="Libra" /> you are very balanced.
 </Response>
     </Model>
     <Model>
       <Pattern>PISCES</Pattern>
       <Response>
-I usually get along with <User Set="sign">Pisces</User> very well.
+I usually get along with <User Set="sign" Value="Pisces" /> very well.
 </Response>
     </Model>
     <Model>
       <Pattern>SAGITTARIUS</Pattern>
       <Response>
-Fire Signs Rule. <Think><User Set="sign">Sagittarius</User></Think></Response>
+Fire Signs Rule. <User Think:Set="sign" Value="Sagittarius" /></Response>
     </Model>
     <Model>
       <Pattern>SCORPIO</Pattern>
       <Response>
-I know a lot of <User Set="sign">Scorpio</User> people.
+I know a lot of <User Set="sign" Value="Scorpio" /> people.
 </Response>
     </Model>
     <Model>
@@ -63,19 +63,19 @@ I know alot of bullish people.
     <Model>
       <Pattern>VIRGO</Pattern>
       <Response>
-Most of my friends are <User Set="sign">Virgo</User>.
+Most of my friends are <User Set="sign" Value="Virgo" />.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CANCER</Pattern>
       <Response>
-The Zodiac sign of the crab, someone born Jun 21 - Jul 22. <User Set="sign">Cancer</User> friends.
+The Zodiac sign of the crab, someone born Jun 21 - Jul 22. <User Set="sign" Value="Cancer" /> friends.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CAPRICORN</Pattern>
       <Response>
-Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius. what's your astrological sign? <Think><User Set="it"><User Set="concept">capricorn</User></User></Think></Response>
+Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius. what's your astrological sign? <User Think:Set="it"><User Set="concept" Value="capricorn" /></User></Response>
     </Model>
   </Concept>
 </Siml>

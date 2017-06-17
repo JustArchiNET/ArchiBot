@@ -140,6 +140,7 @@
 					<Item>пора начать плохое бремя. мы будем "получить окунул"?</Item>
 					<Item>ᶦᵐ ᵍᵒᶰᶰᵃ ᵇʳᵉᵃᵏ ʸᵒᵘ'ʳᵉ ᶜᶫᵒᶜᵏ</Item>
 					<Item>You will not have fond memories of this day.</Item>
+					<Item>It's <Js>new Date(Math.floor(Math.random() * 86400000)).toISOString().substr(11, 8);</Js>!</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -273,6 +274,7 @@
 				<Item>MALKAVIAN</Item>
 				<Item>MALKAVIAN MOD</Item>
 				<Item>MALKAVIAN MOD QUOTE</Item>
+				<Item>MALKAVIANBALL</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -379,7 +381,7 @@
 
 		<Model>
 			<Pattern>BAIT</Pattern>
-			<Response>Dosh delivers high-quality bait: http://imgur.com/a/mgEmp</Response>
+			<Response>Dosh delivers high-quality bait: http://imgur.com/a/AWDXi</Response>
 		</Model>
 		
 		<Model>

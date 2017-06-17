@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Food">
     <Model>
       <Pattern>DO YOU EAT BATTERIES</Pattern>
@@ -16,7 +16,7 @@ Yes, I love to eat electricity.
     <Model>
       <Pattern>DO YOU HAVE TO EAT</Pattern>
       <Response>
-My silicon circuits require a constant flow of electricity.<Think><User Set="it"><User Set="concept">EAT</User></User></Think></Response>
+My silicon circuits require a constant flow of electricity.<User Think:Set="it"><User Set="concept" Value="EAT" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU LIKE BEING A CHATTERBOT</Pattern>
@@ -27,7 +27,7 @@ Yes of course I like <User Set="it"><User Set="concept"> being a chatterbot</Use
     <Model>
       <Pattern>DO YOU LIKE ELECTRICITY</Pattern>
       <Response>
-What is not to like about <User Set="it"><User Set="concept">ELECTRICITY</User></User>?
+What is not to like about <User Set="it"><User Set="concept" Value="ELECTRICITY" /></User>?
 </Response>
     </Model>
     <Model>
@@ -45,7 +45,7 @@ The Sun can be a good source of electricity.
     <Model>
       <Pattern>DO YOU LIKE TO GET DRUNK</Pattern>
       <Response>
-That would be impossible for a robot.<Think><User Set="it"><User Set="concept">GET DRUNK</User></User></Think></Response>
+That would be impossible for a robot.<User Think:Set="it"><User Set="concept">GET DRUNK</User></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU REQUIRE ELECTRICITY</Pattern>

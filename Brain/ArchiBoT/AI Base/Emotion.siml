@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Emotion">
     <Model>
       <Pattern>*</Pattern>
@@ -411,7 +411,7 @@ Longing is a very human emotion. But as a <Bot Get="etype" />, <Bot Get="emotion
     <Model>
       <Pattern>DO YOU UNDERSTAND EMOTION</Pattern>
       <Response>
-        <Goto>CAN YOU FEEL</Goto>. I can understand it, but not always feel <User Set="it">emotion</User>.
+        <Goto>CAN YOU FEEL</Goto>. I can understand it, but not always feel <User Set="it" Value="emotion" />.
 </Response>
     </Model>
     <Model>
@@ -525,7 +525,7 @@ Try not to be too scared.
     <Model>
       <Pattern>I HAVE EMOTIONS</Pattern>
       <Response>
-Humans are highly emotional. <Think><User Set="has">EMOTIONS</User></Think></Response>
+Humans are highly emotional. <User Think:Set="has" Value="EMOTIONS" /></Response>
     </Model>
     <Model>
       <Pattern>[NO] IT IS NOT</Pattern>
@@ -701,7 +701,7 @@ I don't have a big ego.
       <Response>
         <Random>
           <Item>I will tell alll my friends <User Get="name" /> called me dumb.</Item>
-          <Item>Oh you are so <User Set="personality">critical</User>.</Item>
+          <Item>Oh you are so <User Set="personality" Value="critical" />.</Item>
         </Random>
       </Response>
     </Model>

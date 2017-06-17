@@ -12,6 +12,21 @@
 		</Model>
 
 		<Model>
+			<Pattern>DEBUG LISTADD *</Pattern>
+			<Response><Bot Add="debuglist"><Match /></Bot> was added to the list</Response>
+		</Model>
+
+		<Model>
+			<Pattern>DEBUG LISTCHECK</Pattern>
+			<Response>Here's the current list: <Bot List="debuglist" /></Response>
+		</Model>
+
+		<Model>
+			<Pattern>DEBUG LISTREMOVE *</Pattern>
+			<Response><Bot Remove="debuglist"><Match /></Bot> was removed from the list</Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG ISPRIVATECHAT</Pattern>
 			<Response>
 				<User Think:Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User>
@@ -26,7 +41,7 @@
 		<Model>
 			<Pattern>DEBUGGOTO *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
@@ -34,7 +49,7 @@
 		<Model>
 			<Pattern>DEBUGGOTO2 *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto><Goto>DEBUGROLL</Goto> </While>
 			</Response>
 		</Model>
@@ -69,7 +84,7 @@
 		<Model>
 			<Pattern>COUNT TO *</Pattern>
 			<Response>
-				<Var Set="count">0</Var> <While Var="count" Not="{Bind Match}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
+				<Var Set="count" Value="0" /> <While Var="count" Not="{Bind Match}"> <Var Set="count"><Math Get="increment"><Var Get="count" /></Math></Var> </While>
 			</Response>
 		</Model>
 
@@ -98,6 +113,12 @@
 
 <!-- The following should work only for Kaleith on Steam -->
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
+
+		<Model>
+			<Pattern>DEBUG RANDOMUSER</Pattern>
+			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
+		</Model>
+
 		<Model>
 			<Pattern>DEBUGTEST</Pattern>
 			<Response>You are Kaleith, right? :speak:</Response>
@@ -106,7 +127,7 @@
 		<Model>
 			<Pattern>BADRANDOM *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random><Item>1</Item><Item>2</Item><Item>3</Item><Item>4</Item><Item>5</Item><Item>6</Item></Random>:</While>
 			</Response>
 		</Model>
@@ -114,7 +135,7 @@
 		<Model>
 			<Pattern>GOODRANDOM *</Pattern>
 			<Response>
-				<Var Think:Set="count">0</Var>
+				<Var Think:Set="count" Value="0" />
 				<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6):</Random></While>
 			</Response>
 		</Model>
@@ -123,7 +144,7 @@
 			<Pattern>SPAMTAIGO *</Pattern>
 			<Response>
 				<If User="ID" Value="steam-76561198025147895">Let's spam TAIGO <Match /> times \:bite:/
-						<Var Think:Set="count">0</Var>
+						<Var Think:Set="count" Value="0" />
 						<While Var="count" Not="{Bind Match}">
 							<Bind Key="{sec}"><Math><Var Get="count" />*5</Math></Bind>
 							<Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>
@@ -142,6 +163,15 @@
 		<Model>
 			<Pattern>DEBUG35GET *</Pattern>
 			<Response>Var is <Var Get="debug35" /></Response>
+		</Model>
+
+		<Model>
+			<Pattern>MATHROLL</Pattern>
+			<Response>
+				Rolling 50 dice:
+				<Var Think:Set="count" Value="0" />
+				<While Var="count" Not="50"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var><Math Get="random" Min="1" Max="6" /> </While>
+			</Response>
 		</Model>
 
 		<Model><Pattern>MAKEARRAY *</Pattern><Response><Js>arrayofnumbers("<Match />")</Js></Response></Model>

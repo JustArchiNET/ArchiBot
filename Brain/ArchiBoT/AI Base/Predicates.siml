@@ -24,30 +24,30 @@ The meta Predicate is set.
       <Response>
         <Think>
           <User Set="age">how many</User>
-          <User Set="heard">where</User>
-          <User Set="gender">he</User>
-          <User Set="he">he</User>
-          <User Set="her">her</User>
-          <User Set="him">him</User>
+          <User Set="heard" Value="where" />
+          <User Set="gender" Value="he" />
+          <User Set="he" Value="he" />
+          <User Set="her" Value="her" />
+          <User Set="him" Value="him" />
           <User Set="is">a client</User>
-          <User Set="it">it</User>
+          <User Set="it" Value="it" />
           <User Set="job">your job</User>
           <User Set="like">to chat</User>
-          <User Set="location">where</User>
+          <User Set="location" Value="where" />
           <User Set="looklike">a person</User>
-          <User Set="memory">nothing</User>
-          <User Set="meta">set</User>
-          <User Set="name">judge</User>
-          <User Set="personality">average</User>
-          <User Set="she">she</User>
+          <User Set="memory" Value="nothing" />
+          <User Set="meta" Value="set" />
+          <User Set="name" Value="judge" />
+          <User Set="personality" Value="average" />
+          <User Set="she" Value="she" />
           <User Set="sign">your starsign</User>
-          <User Set="them">them</User>
-          <User Set="they">they</User>
-          <User Set="thought">nothing</User>
+          <User Set="them" Value="them" />
+          <User Set="they" Value="they" />
+          <User Set="thought" Value="nothing" />
           <User Set="want">to talk to me</User>
-          <User Set="we">we</User>
-          <User Set="etype">Unknown</User>
-          <User Set="eindex">1A</User>
+          <User Set="we" Value="we" />
+          <User Set="etype" Value="Unknown" />
+          <User Set="eindex" Value="1A" />
         </Think>
       </Response>
     </Model>

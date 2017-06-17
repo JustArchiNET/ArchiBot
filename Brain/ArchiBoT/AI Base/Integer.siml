@@ -5,7 +5,7 @@
       <Pattern>CALCULATE 0 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>0
 </Response>
     </Model>
@@ -13,7 +13,7 @@
       <Pattern>CALCULATE 0 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>1
 </Response>
     </Model>
@@ -21,7 +21,7 @@
       <Pattern>CALCULATE 0 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>2
 </Response>
     </Model>
@@ -29,7 +29,7 @@
       <Pattern>CALCULATE 0 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>3
 </Response>
     </Model>
@@ -37,7 +37,7 @@
       <Pattern>CALCULATE 0 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>4
 </Response>
     </Model>
@@ -45,7 +45,7 @@
       <Pattern>CALCULATE 0 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>5
 </Response>
     </Model>
@@ -53,7 +53,7 @@
       <Pattern>CALCULATE 0 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -61,7 +61,7 @@
       <Pattern>CALCULATE 0 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -69,7 +69,7 @@
       <Pattern>CALCULATE 0 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -77,7 +77,7 @@
       <Pattern>CALCULATE 0 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -85,7 +85,7 @@
       <Pattern>CALCULATE 1 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>1
 </Response>
     </Model>
@@ -93,7 +93,7 @@
       <Pattern>CALCULATE 1 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>2
 </Response>
     </Model>
@@ -101,7 +101,7 @@
       <Pattern>CALCULATE 1 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>3
 </Response>
     </Model>
@@ -109,7 +109,7 @@
       <Pattern>CALCULATE 1 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>4
 </Response>
     </Model>
@@ -117,7 +117,7 @@
       <Pattern>CALCULATE 1 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>5
 </Response>
     </Model>
@@ -125,7 +125,7 @@
       <Pattern>CALCULATE 1 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -133,7 +133,7 @@
       <Pattern>CALCULATE 1 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -141,7 +141,7 @@
       <Pattern>CALCULATE 1 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -149,7 +149,7 @@
       <Pattern>CALCULATE 1 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -157,7 +157,7 @@
       <Pattern>CALCULATE 1 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -165,7 +165,7 @@
       <Pattern>CALCULATE 2 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>2
 </Response>
     </Model>
@@ -173,7 +173,7 @@
       <Pattern>CALCULATE 2 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>3
 </Response>
     </Model>
@@ -181,7 +181,7 @@
       <Pattern>CALCULATE 2 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>4
 </Response>
     </Model>
@@ -189,7 +189,7 @@
       <Pattern>CALCULATE 2 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>5
 </Response>
     </Model>
@@ -197,7 +197,7 @@
       <Pattern>CALCULATE 2 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -205,7 +205,7 @@
       <Pattern>CALCULATE 2 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -213,7 +213,7 @@
       <Pattern>CALCULATE 2 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -221,7 +221,7 @@
       <Pattern>CALCULATE 2 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -229,7 +229,7 @@
       <Pattern>CALCULATE 2 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -237,7 +237,7 @@
       <Pattern>CALCULATE 2 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -245,7 +245,7 @@
       <Pattern>CALCULATE 3 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>3
 </Response>
     </Model>
@@ -253,7 +253,7 @@
       <Pattern>CALCULATE 3 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>4
 </Response>
     </Model>
@@ -261,7 +261,7 @@
       <Pattern>CALCULATE 3 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>5
 </Response>
     </Model>
@@ -269,7 +269,7 @@
       <Pattern>CALCULATE 3 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -277,7 +277,7 @@
       <Pattern>CALCULATE 3 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -285,7 +285,7 @@
       <Pattern>CALCULATE 3 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -293,7 +293,7 @@
       <Pattern>CALCULATE 3 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -301,7 +301,7 @@
       <Pattern>CALCULATE 3 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -309,7 +309,7 @@
       <Pattern>CALCULATE 3 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -317,7 +317,7 @@
       <Pattern>CALCULATE 3 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -325,7 +325,7 @@
       <Pattern>CALCULATE 4 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>4
 </Response>
     </Model>
@@ -333,7 +333,7 @@
       <Pattern>CALCULATE 4 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>5
 </Response>
     </Model>
@@ -341,7 +341,7 @@
       <Pattern>CALCULATE 4 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -349,7 +349,7 @@
       <Pattern>CALCULATE 4 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -357,7 +357,7 @@
       <Pattern>CALCULATE 4 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -365,7 +365,7 @@
       <Pattern>CALCULATE 4 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -373,7 +373,7 @@
       <Pattern>CALCULATE 4 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -381,7 +381,7 @@
       <Pattern>CALCULATE 4 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -389,7 +389,7 @@
       <Pattern>CALCULATE 4 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -397,7 +397,7 @@
       <Pattern>CALCULATE 4 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>3
 </Response>
     </Model>
@@ -405,7 +405,7 @@
       <Pattern>CALCULATE 5 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>5
 </Response>
     </Model>
@@ -413,7 +413,7 @@
       <Pattern>CALCULATE 5 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -421,7 +421,7 @@
       <Pattern>CALCULATE 5 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -429,7 +429,7 @@
       <Pattern>CALCULATE 5 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -437,7 +437,7 @@
       <Pattern>CALCULATE 5 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -445,7 +445,7 @@
       <Pattern>CALCULATE 5 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -453,7 +453,7 @@
       <Pattern>CALCULATE 5 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -461,7 +461,7 @@
       <Pattern>CALCULATE 5 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -469,7 +469,7 @@
       <Pattern>CALCULATE 5 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>3
 </Response>
     </Model>
@@ -477,7 +477,7 @@
       <Pattern>CALCULATE 5 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>4
 </Response>
     </Model>
@@ -485,7 +485,7 @@
       <Pattern>CALCULATE 6 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>6
 </Response>
     </Model>
@@ -493,7 +493,7 @@
       <Pattern>CALCULATE 6 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -501,7 +501,7 @@
       <Pattern>CALCULATE 6 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -509,7 +509,7 @@
       <Pattern>CALCULATE 6 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -517,7 +517,7 @@
       <Pattern>CALCULATE 6 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -525,7 +525,7 @@
       <Pattern>CALCULATE 6 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -533,7 +533,7 @@
       <Pattern>CALCULATE 6 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -541,7 +541,7 @@
       <Pattern>CALCULATE 6 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>3
 </Response>
     </Model>
@@ -549,7 +549,7 @@
       <Pattern>CALCULATE 6 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>4
 </Response>
     </Model>
@@ -557,7 +557,7 @@
       <Pattern>CALCULATE 6 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>5
 </Response>
     </Model>
@@ -565,7 +565,7 @@
       <Pattern>CALCULATE 7 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>7
 </Response>
     </Model>
@@ -573,7 +573,7 @@
       <Pattern>CALCULATE 7 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -581,7 +581,7 @@
       <Pattern>CALCULATE 7 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -589,7 +589,7 @@
       <Pattern>CALCULATE 7 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -597,7 +597,7 @@
       <Pattern>CALCULATE 7 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -605,7 +605,7 @@
       <Pattern>CALCULATE 7 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -613,7 +613,7 @@
       <Pattern>CALCULATE 7 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>3
 </Response>
     </Model>
@@ -621,7 +621,7 @@
       <Pattern>CALCULATE 7 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>4
 </Response>
     </Model>
@@ -629,7 +629,7 @@
       <Pattern>CALCULATE 7 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>5
 </Response>
     </Model>
@@ -637,7 +637,7 @@
       <Pattern>CALCULATE 7 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>6
 </Response>
     </Model>
@@ -645,7 +645,7 @@
       <Pattern>CALCULATE 8 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>8
 </Response>
     </Model>
@@ -653,7 +653,7 @@
       <Pattern>CALCULATE 8 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -661,7 +661,7 @@
       <Pattern>CALCULATE 8 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -669,7 +669,7 @@
       <Pattern>CALCULATE 8 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -677,7 +677,7 @@
       <Pattern>CALCULATE 8 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -685,7 +685,7 @@
       <Pattern>CALCULATE 8 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>3
 </Response>
     </Model>
@@ -693,7 +693,7 @@
       <Pattern>CALCULATE 8 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>4
 </Response>
     </Model>
@@ -701,7 +701,7 @@
       <Pattern>CALCULATE 8 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>5
 </Response>
     </Model>
@@ -709,7 +709,7 @@
       <Pattern>CALCULATE 8 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>6
 </Response>
     </Model>
@@ -717,7 +717,7 @@
       <Pattern>CALCULATE 8 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>7
 </Response>
     </Model>
@@ -725,7 +725,7 @@
       <Pattern>CALCULATE 9 PLUS 0</Pattern>
       <Response>
         <Think>
-          <User Set="carry">0</User>
+          <User Set="carry" Value="0" />
         </Think>9
 </Response>
     </Model>
@@ -733,7 +733,7 @@
       <Pattern>CALCULATE 9 PLUS 1</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>0
 </Response>
     </Model>
@@ -741,7 +741,7 @@
       <Pattern>CALCULATE 9 PLUS 2</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>1
 </Response>
     </Model>
@@ -749,7 +749,7 @@
       <Pattern>CALCULATE 9 PLUS 3</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>2
 </Response>
     </Model>
@@ -757,7 +757,7 @@
       <Pattern>CALCULATE 9 PLUS 4</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>3
 </Response>
     </Model>
@@ -765,7 +765,7 @@
       <Pattern>CALCULATE 9 PLUS 5</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>4
 </Response>
     </Model>
@@ -773,7 +773,7 @@
       <Pattern>CALCULATE 9 PLUS 6</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>5
 </Response>
     </Model>
@@ -781,7 +781,7 @@
       <Pattern>CALCULATE 9 PLUS 7</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>6
 </Response>
     </Model>
@@ -789,7 +789,7 @@
       <Pattern>CALCULATE 9 PLUS 8</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>7
 </Response>
     </Model>
@@ -797,7 +797,7 @@
       <Pattern>CALCULATE 9 PLUS 9</Pattern>
       <Response>
         <Think>
-          <User Set="carry">1</User>
+          <User Set="carry" Value="1" />
         </Think>8
 </Response>
     </Model>
@@ -914,7 +914,7 @@
           </Case>
           
             <Think>
-              <User Set="carry">0</User>
+              <User Set="carry" Value="0" />
             </Think>
             <Match Index="2" />
           
@@ -931,7 +931,7 @@
           </Case>
           
             <Think>
-              <User Set="carry">0</User>
+              <User Set="carry" Value="0" />
             </Think>
             <Match Index="3" />
           
