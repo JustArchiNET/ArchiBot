@@ -54,6 +54,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>$ ASF STM $</Pattern>
+			<Response>http://asf.justarchi.net/STM</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>$ ASF $</Item>
 				<Item>$ ARCHI STEAM FARM $</Item>
@@ -62,9 +67,17 @@
 			<Response>https://github.com/JustArchi/ArchiSteamFarm</Response>
 		</Model>
 
+	<!-- STM Quick Link - Suggestion by Taigo -->
+
 		<Model>
-			<Pattern>$ STM $</Pattern>
-			<Response>http://asf.justarchi.net/STM</Response>
+			<Pattern>
+				<Item>STM</Item>
+				<Item>STEAMTRADEMATCHER</Item>
+				<Item>STEAMTRADE MATCHER</Item>
+				<Item>STEAM TRADE MATCHER</Item>
+				<Item>% LINK % STM</Item>
+			</Pattern>
+			<Response>www.steamtradematcher.com</Response>
 		</Model>
 
 		<Model>
