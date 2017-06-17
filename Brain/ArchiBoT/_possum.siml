@@ -14,6 +14,31 @@
 					<Item>He's kind of like a dead tree, except a little more alive, and more like a human than a tree...</Item>
 					<Item>Oh, that weirdo? He's no one important. Let's talk about <Random>(ミユ|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taigo|Madu|Mole|Faku)</Random> or someone else instead.</Item>
 					<Item>:doubt: Well, he's not a ferret, that's for sure.</Item>
+					<Item Weight="0.02">I think he's too weeb...</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<!-- Helps you determine if you are too weeb -->
+		<Model>
+			<Pattern>
+				<Item>TOO WEEB</Item>
+				<Item>OTAKU</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>You're too weeb if you can spend hours at a time petting a pillow and wishing it was your waifu... :cry:</Item>
+					<Item>You're too weeb if you skip meals so you can cuddle with a pillow, dreaming it was your waifu... :cry:</Item>
+					<Item>You're too weeb if you can't do anything for days at a time because you just want to be with your waifu... :cry:</Item>
+					<Item>You're too weeb if your waifu is your whole laifu... :doubt:?</Item>
+					<Item>You're too weeb if you buy games on Steam even though they aren't in your language, just for the cute anime girls... :doubt:</Item>
+					<Item>You're too weeb if you own :awoo:... :doubt:</Item>
+					<Item>You're too weeb if you dream of petting waifus... :doubt:</Item>
+					<Item>You're too weeb if life without anime girls is torture... :cry:</Item>
+					<Item>Kaleith thinks you're too weeb if you like anime... :bite:</Item>
+					<Item Weight="0.02">You're too weeb if you are like Possum... :bite:</Item>
+					<Item Weight="0.05">Too weeb? :trance: No such thing.</Item>
+					<Item>You're too weeb if you can't get by without your daily dose of lolis... :blanc:</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -33,6 +58,7 @@
 						<Item>You weren't ready yet.</Item>
 						<Item>Who changed your controls?</Item>
 						<Item>You forgot to use your good stuff, oops.</Item>
+						<Item>Your game wasn't running right.</Item>
 						<Item>That was nice of you to let them win, I'm sure they're grateful.</Item>
 						<Item Weight="0.05">THOSE ****ING HACKERS! YOU TOTALLY SHOULD HAVE WON!</Item>
 						<Item Weight="0.03">There, there. It's okay to lose every now and then. *Pats head*</Item>
