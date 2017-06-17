@@ -17,4 +17,7 @@
       </Response>
     </Model>
   </Concept>
+  <Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
+    <Model>&lt;Pattern&gt;WHAT IS STRATEGI GIVEAWAYS&lt;/Pattern&gt;&lt;Response&gt;&lt;Item&gt;A group of friends&lt;/Item&gt;&lt;Item&gt;The next step in ascension&lt;/Item&gt;&lt;Item&gt;Try looking for it on the SteamGifts forum&lt;/Item&gt;&lt;/Response&gt;</Model>
+  </Concept>
 </Siml>
