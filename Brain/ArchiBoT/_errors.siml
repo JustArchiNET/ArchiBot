@@ -3,67 +3,77 @@
 	<Concept Name="_errors">
 		<Model>
 			<Pattern>
+				<Item>2HU $</Item>
 				<Item>2HUAFK $</Item>
-				<Item>2HUAFKNEXT $</Item>
-				<Item>2HUAFKNOW $</Item>
+				<Item>2HUAFKNEXT</Item>
+				<Item>2HUAFKNOW</Item>
+				<Item>2HUANNOUNCE $</Item>
 				<Item>2HUAWESOME $</Item>
 				<Item>2HUBUG $</Item>
 				<Item>2HUEVENT $</Item>
-				<Item>2HUKICK $</Item>
+				<Item>2HUFL</Item>
+				<Item>2HUFUCKUP $</Item>
+				<Item>2HUGIB $</Item>
 				<Item>2HUINVITE $</Item>
-				<Item>2HULEECHERS $</Item>
+				<Item>2HUKICK $</Item>
+				<Item>2HULEECHERS</Item>
 				<Item>2HUMUSIC $</Item>
 				<Item>2HUOJ $</Item>
 				<Item>2HUSUGGESTION $</Item>
 				<Item>2HUTALISMAN $</Item>
-				<Item>GIT $</Item>
-				<Item>BOTGIT $</Item>
-				<Item>AIGIT $</Item>
-				<Item>2HU $</Item>
-				<Item>2HUGIB $</Item>
-				<Item>ROULETTE $</Item>
-				<Item>2HUANNOUNCE $</Item>
-				<Item>2HUFL $</Item>
-				<Item>2HUFUCKUP $</Item>
+				<Item>9BALL $</Item>
+				<Item>ACCEPT</Item>
+				<Item>ADDLICENSE $</Item>
+				<Item>ADDME</Item>
+				<Item>AI $</Item>
+				<Item>AIGIT</Item>
+				<Item>ASCII $</Item>
+				<Item>BOTGIT</Item>
+				<Item>CARD $</Item>
+				<Item>CG</Item>
+				<Item>CHAT $</Item>
+				<Item>CHATBAN $</Item>
+				<Item>CHATINFO</Item>
+				<Item>CHATUSERS</Item>
+				<Item>COIN</Item>
+				<Item>CONVERT $</Item>
+				<Item>CREATEGIB $</Item>
+				<Item>DATE</Item>
+				<Item>DEBUG $</Item>
+				<Item>DEFINE $</Item>
+				<Item>DUEL $</Item>
+				<Item>DUELCHARS</Item>
+				<Item>EMOTICONS</Item>
+				<Item>EXIT</Item>
+				<Item>FEED $</Item>
+				<Item>GIT</Item>
+				<Item>INV</Item>
+				<Item>LEAVE</Item>
+				<Item>LOCK</Item>
+				<Item>LOOT</Item>
+				<Item>LOOTME</Item>
+				<Item>LOVE $</Item>
+				<Item>MAKEROOM $</Item>
+				<Item>NEWTHEME $</Item>
 				<Item>NSFW $</Item>
+				<Item>PLAYGAME $</Item>
+				<Item>POKER $</Item>
+				<Item>RESTART</Item>
+				<Item>ROLL $</Item>
+				<Item>ROULETTE</Item>
+				<Item>RPS</Item>
+				<Item>RUN</Item>
+				<Item>SAY $</Item>
+				<Item>SAYTO $</Item>
 				<Item>SFW $</Item>
-				<Item>SUB $</Item>
+				<Item>SUB</Item>
 				<Item>TAGS $</Item>
 				<Item>TRAIN $</Item>
 				<Item>TRAIND $</Item>
-				<Item>DEL $</Item>
-				<Item>ADDTHEME $</Item>
-				<Item>AUTOTHEME $</Item>
-				<Item>PLAYALBUM $</Item>
-				<Item>PLAYALBUMS $</Item>
-				<Item>PLAYARTIST $</Item>
-				<Item>PLAYARTISTS $</Item>
-				<Item>PLAYBEST $</Item>
-				<Item>PLAYNUMBER $</Item>
-				<Item>PLAYPERFORMER $</Item>
-				<Item>PLAYPERFORMERS $</Item>
-				<Item>PLAYRATE $</Item>
-				<Item>PLAYSONG $</Item>
-				<Item>PLAYSONGS $</Item>
-				<Item>PLAYTHEME $</Item>
-				<Item>PLAYTHEMES $</Item>
-				<Item>RATE $</Item>
-				<Item>DL $</Item>
-				<Item>DLRATE $</Item>
-				<Item>DLALBUM $</Item>
-				<Item>DLALBUMS $</Item>
-				<Item>DLARTIST $</Item>
-				<Item>DLARTISTS $</Item>
-				<Item>DLBEST $</Item>
-				<Item>DLPERFORMER $</Item>
-				<Item>DLPERFORMERS $</Item>
-				<Item>DLRATE $</Item>
-				<Item>DLSONG $</Item>
-				<Item>DLSONGS $</Item>
-				<Item>DLTHEME $</Item>
-				<Item>DLTHEMES $</Item>
-				<Item>DEFINE $</Item>
-				<Item>CONVERT $</Item>
+				<Item>TRANSLATE $</Item>
+				<Item>UNLOCK</Item>
+				<Item>VERSION</Item>
+				<Item>WEATHER $</Item>
 			</Pattern>
 			<Response>Maybe try "!<User Get="Message" />" instead :sgsmile:</Response>
 		</Model>
