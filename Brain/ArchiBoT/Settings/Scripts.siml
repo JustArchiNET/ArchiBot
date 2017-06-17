@@ -4,6 +4,15 @@
 <!--Note: Declaring a value for the "Type" attribute is mandatory-->
 <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
 <Script Type="javascript">
+    function addCommand(str) {
+    var arr = str.split("/");
+    var returntext = "&lt;Pattern&gt;" + arr[0] + "&lt;/Pattern&gt;" + "&lt;Response&gt;";
+    for (i = 1; i &lt; arr.length; i++) {
+        returntext += "&lt;Item&gt;" + arr[i] + "&lt;/Item&gt;";
+    }
+    return returntext + "&lt;/Response&gt;"
+}
+
 	function isFloat(n) {
 		return n === +n &amp;&amp; n !== (n | 0);
 	}

@@ -114,6 +114,15 @@
 <!-- The following should work only for Kaleith on Steam -->
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
 
+<Model>
+	<Pattern>ADDCOMMAND _</Pattern>
+		<Response>
+			<Remember>
+				<Model><Process><Js>addCommand("<Match />")</Js></Process></Model>
+			</Remember>
+		</Response>
+	</Model>
+
 		<Model>
 			<Pattern>DEBUG RANDOMUSER</Pattern>
 			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
