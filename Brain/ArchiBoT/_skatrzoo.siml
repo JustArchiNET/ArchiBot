@@ -73,6 +73,11 @@
 			<Pattern>KICKUTODAY</Pattern>
 			<Response><Var Think:Set="kicked"><Random Get="2hus" /></Var>The following member has volunteered to sacrifice himself for the 2hu daily kicku: <Map Get="id2hu"><Var Get="kicked" /></Map> (<Var Get="kicked" />).&#xD;Thanks for your noble offering :cry:7</Response>
 		</Model>
+
+		<Model>
+			<Pattern>WHAT IS 2HU</Pattern>
+			<Response>https://www.youtube.com/watch?v=fGhy4x1tRMQ</Response>
+		</Model>
 	</Concept>
 
 <!-- Maps steamid to a Nickname -->
