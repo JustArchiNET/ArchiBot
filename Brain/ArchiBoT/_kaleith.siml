@@ -462,7 +462,7 @@
 				</Random>
 			</Response>
 		</Model>
-
+<!-- People complained about it
 		<Model>
 			<Pattern>TRANSLATE %</Pattern>
 			<Response>
@@ -478,7 +478,7 @@
 				</Random>
 			</Response>
 		</Model>
-
+-->
 		<Model>
 			<Pattern>FLIP</Pattern>
 			<Response>Flip what :sgsmile:</Response>
