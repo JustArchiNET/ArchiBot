@@ -43,7 +43,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>WEATHER _</Pattern>
+			<Pattern>^WEATHER _</Pattern>
 			<Response>
 				<Var Think:Set="weather"><ArchiWeather><Match /></ArchiWeather></Var>
 				<If Var="weather" Value="">Error: no information about weather in that location is available :cry:</If>
