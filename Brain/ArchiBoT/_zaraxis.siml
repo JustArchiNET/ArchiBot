@@ -8,7 +8,7 @@
 
 		<Model>
 			<Pattern>MYON</Pattern>
-			<Response><Var Set="randomemote"><Random Get="RANDOMEMOTE" /></Var> MYON <Var Get="randomemote" /></Response>
+			<Response><Var Set="randomemote"><ArchiSteamRandomEmoticon /></Var> MYON <Var Get="randomemote" /></Response>
 		</Model>
 
 		<Model>

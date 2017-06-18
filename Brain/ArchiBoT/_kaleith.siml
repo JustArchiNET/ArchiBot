@@ -207,7 +207,7 @@
 
 		<Model>
 			<Pattern>^THANKS *</Pattern>
-			<Response><Var Set="randomemote"><Random Get="RANDOMEMOTE" /></Var> THANKS <Text Get="uppercase"><Match /></Text> <Var Get="randomemote" /></Response>
+			<Response><Var Set="randomemote"><ArchiSteamRandomEmoticon /></Var> THANKS <Text Get="uppercase"><Match /></Text> <Var Get="randomemote" /></Response>
 		</Model>
 
 		<Model>
