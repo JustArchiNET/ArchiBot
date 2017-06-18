@@ -4,6 +4,13 @@
 <!--Note: Declaring a value for the "Type" attribute is mandatory-->
 <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
 <Script Type="javascript">
+    function calcSteamLevelXP(lvl){
+    var d = Math.floor(lvl/10);
+    var u = lvl-d*10;
+    var level = 100*(d+1)*(5*d+u);
+    return level
+    }
+
     function addCommand(str) {
     var arr = str.split("/");
     var returntext = "&lt;Pattern&gt;" + arr[0] + "&lt;/Pattern&gt;" + "&lt;Response&gt;";

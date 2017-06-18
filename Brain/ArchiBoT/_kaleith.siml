@@ -19,6 +19,19 @@
 		</Model>
 
 		<Model>
+			<Pattern>STEAMLEVEL * TO *</Pattern>
+			<Response>
+				<Var Think:Set="calcresult"><Js>calcSteamLevelXP(<Match Index="2" />)-calcSteamLevelXP(<Match />)</Js></Var>
+				<Switch Var="calcresult">
+					<Case Value="">I can't calculate that.</Case>
+					<Case Value="∞">The answer is too big, I don't have enough fingers :cry:</Case>
+					<Case Value="-∞">The answer is too small, I got confused :cry:</Case>
+					<Default>To level up from <Match /> to <Match Index="2" /> you need <Var Get="calcresult" /> XP (100XP per set)</Default>
+				</Switch>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>NEWRATIO</Pattern>
 			<Response>Today's ratio is: <Math Round="2"><Goto>RANDOMINT 50 100</Goto>/100</Math></Response>
 		</Model>
