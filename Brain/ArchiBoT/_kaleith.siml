@@ -19,16 +19,18 @@
 		</Model>
 
 		<Model>
-			<Pattern>STEAMLEVEL * TO *</Pattern>
+			<Pattern>^STEAMLEVEL @PositiveInteger ^TO @PositiveInteger</Pattern>
 			<Response>
-				<Var Think:Set="calcresult"><Js>calcSteamLevelXP(<Match Index="2" />)-calcSteamLevelXP(<Match />)</Js></Var>
-				<Switch Var="calcresult">
-					<Case Value="">I can't calculate that.</Case>
-					<Case Value="∞">The answer is too big, I don't have enough fingers :cry:</Case>
-					<Case Value="-∞">The answer is too small, I got confused :cry:</Case>
-					<Default>To level up from <Match /> to <Match Index="2" /> you need <Var Get="calcresult" /> XP (100XP per set)</Default>
-				</Switch>
+				<Var Think:Set="SLmin"><Js>Math.min(<Match />,<Match Index="2" />);</Js></Var>
+				<Var Think:Set="SLmax"><Js>Math.max(<Match />,<Match Index="2" />);</Js></Var>
+				<Var Think:Set="calcresult"><Js>calcSteamLevelXP(<Var Get="SLmax" />)-calcSteamLevelXP(<Var Get="SLmin" />);</Js></Var>
+				To level up from <Var Get="SLmin" /> to <Var Get="SLmax" /> you need <Var Get="calcresult" /> XP.
 			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^STEAMLEVEL *</Pattern>
+			<Response>Parsing error: please provide two integer numbers as the starting and target levels.</Response>
 		</Model>
 
 		<Model>
