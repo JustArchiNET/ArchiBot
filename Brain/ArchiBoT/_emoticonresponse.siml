@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--		CONTENT:
+	:(/:-(/:'&apos;(/:&apos;-(/;_;/:c/:&apos;c
+	:)/:-)/:D/:-D/^^/^_^/c:
+	&gt;_&gt;/&lt;_&lt;/-_-/-.-
+	&gt;:(/&gt;:-(
+	D:/:O/O:/0_0/O_O
+-->
 <Siml>
 	<Concept Name="_emoticonresponse">
-
 		<Model>
 			<Pattern>
 				<Item>:(</Item>
@@ -73,21 +79,21 @@
 		</Model>
 		
 		<Model>
-    			<Pattern>
-    				<Item>D:</Item>
-    				<Item>:O</Item>
-    				<Item>O:</Item>
-    				<Item>0_0</Item>
-    				<Item>O_O</Item>
-    			</Pattern>
-    			<Response>
-    				<Random>
-    					<Item>What's so surprising?</Item>
-    					<Item>Isn't that normal?</Item>
-    					<Item>You appear agitated.</Item>
-    					<Item>You seem surprised.</Item>
-    				</Random>
-    			</Response>
-    		</Model>
+			<Pattern>
+				<Item>D:</Item>
+				<Item>:O</Item>
+				<Item>O:</Item>
+				<Item>0_0</Item>
+				<Item>O_O</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>What's so surprising?</Item>
+					<Item>Isn't that normal?</Item>
+					<Item>You appear agitated.</Item>
+					<Item>You seem surprised.</Item>
+				</Random>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>

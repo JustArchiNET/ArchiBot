@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--		CONTENT:
+	WHO IS EKAROS
+	NORRIS * - takes the input and puts it in a Chuck Norris-style one-liner
+-->
 <Siml>
 	<Concept Name="_ekaros">
 		<Model>
