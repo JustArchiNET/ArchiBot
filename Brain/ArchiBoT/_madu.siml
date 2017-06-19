@@ -73,17 +73,15 @@
 					<Var Set="i" Value="0" />
 					<While Var="i" Not="{charnumber}">
 						<Var Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
-						<Bind Key="{index}"><Var Get="i" /></Bind>
-						<User Add="chararray"><Text CharAt="{index}"><Match /></Text></User>
+						<User Add="numarray"><Var Get="i" /></User>
 					</While>
 					<Var Set="i" Value="0" />
 				</Think>
-				<Text>
-					<While Var="i" Not="{charnumber}">
-						<Var Think:Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
-						<User Remove="chararray"><Random Get="chararray" Source="User" /></User>
-					</While>
-				</Text>
+				<While Var="i" Not="{charnumber}">
+					<Var Think:Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
+					<Bind Key="{index}"><User Remove="numarray"><Random Get="numarray" Source="User" /></User></Bind>
+					<Text CharAt="{index}"><Match /></Text>
+				</While>
 			</Response>
 		</Model>
 	</Concept>
