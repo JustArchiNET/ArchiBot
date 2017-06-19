@@ -4,11 +4,16 @@
 <!--Note: Declaring a value for the "Type" attribute is mandatory-->
 <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
 <Script Type="javascript">
+    /**
+     * Converts Steam level into the xp required to attain it
+     * @param {number} lvl - the level you want to convert (eg. '25')
+     * @returns {number} xp - exp required to obtain the level requested
+     */
     function calcSteamLevelXP(lvl){
-    var d = Math.floor(lvl/10);
-    var u = lvl-d*10;
-    var level = 100*(d+1)*(5*d+u);
-    return level
+    var tens = Math.floor(lvl/10);
+    var units = lvl-tens*10;
+    var xp = tens*(tens+1)*(5*tens+units);
+    return xp
     }
 
     function addCommand(str) {
@@ -20,25 +25,30 @@
     return returntext + "&lt;/Response&gt;"
 }
 
-	function isFloat(n) {
-		return n === +n &amp;&amp; n !== (n | 0);
-	}
+    function isFloat(n) {
+        return n === +n &amp;&amp; n !== (n | 0);
+    }
 
-	function isInteger(n) {
-		return n === +n &amp;&amp; n === (n | 0);
-	}
+    function isInteger(n) {
+        return n === +n &amp;&amp; n === (n | 0);
+    }
 
-	function randomIntBetween(a, b) {
-		if (isInteger(Number(a)) &amp;&amp; isInteger(Number(b))) {
-			var min = Math.min(a, b);
-			var max = Math.max(a, b);
+    function randomIntBetween(a, b) {
+        if (isInteger(Number(a)) &amp;&amp; isInteger(Number(b))) {
+            var min = Math.min(a, b);
+            var max = Math.max(a, b);
 
-			return Math.floor(Math.random() * (max - min + 1) + min);
-		}
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
 
         return "Please provide 2 integer numbers.";
-	}
+    }
 
+    /**
+     * Converts a number of seconds into a human-readable string
+     * @param {number} seconds - the number of seconds you wish to convert (eg. '186')
+     * @returns {string} secondsString - a string representing the input value as a human-readable string (e.g. '3 minutes 6 seconds')
+     */
     function secondsToString(seconds) {
         var levels = [[Math.floor(seconds / 31536000), 'years'], [Math.floor((seconds % 31536000) / 86400), 'days'], [Math.floor(((seconds % 31536000) % 86400) / 3600), 'hours'], [Math.floor((((seconds % 31536000) % 86400) % 3600) / 60), 'minutes'], [(((seconds % 31536000) % 86400) % 3600) % 60, 'seconds'], ];
 
