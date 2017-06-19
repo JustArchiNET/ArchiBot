@@ -1,4 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--		CONTENT:
+	2HUFACT - Returns a random fact about the group
+	WHO IS CJ/KERO/MOLE/ARCHI - self-explanatory
+			PRIVATE CONTENT:
+	LASAGNE - unlike the Public counterpart, this Archi-only command sets a 53 minutes timer
+-->
 <Siml>
 	<Concept Name="_archi">
 		<Model>

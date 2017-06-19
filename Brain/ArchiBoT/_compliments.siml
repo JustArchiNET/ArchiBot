@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--		CONTENT:
+	RANDOMCOMPLIMENT - returns a random complimenting phrase
+	COMPLIMENT */ME/BOT/... - takes the input name and compliments them with a RANDOMCOMPLIMENT
+-->
 <Siml>
 	<Concept Name="_compliments">
 		<Model>

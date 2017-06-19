@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--		CONTENT:
+	STILL ALIVE - Returns a random piece from the "Still alive" song lyrics
+-->
 <Siml>
 	<Concept Name="_blacksheep">
 		<Model>

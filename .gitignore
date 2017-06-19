@@ -227,3 +227,6 @@ pip-log.txt
 ## SublimeText
 *.sublime-project
 *.sublime-workspace
+
+# Kaleith temp stuff
+Kaletemp/

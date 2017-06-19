@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--		CONTENT:
+	WHO IS CHT - self-explanatory
+	WHAT IS DOTO - self-explanatory
+	SING A SONG FOR CHT - self-explanatory
+	HOW TO WASTE TIME - self-explanatory
+	SAVE CIRI - self-explanatory
+	2HUFAME - Random quotes from chat users
+	PRAISE THE SUN - returns a random emote praising the Sun
+	RANDOMPRAISE - returns a random praising quote
+	PRAISE * - takes the input name and praises them with a RANDOMPRAISE
+-->
 <Siml>
 	<Concept Name="_cht">
 		<Model>
