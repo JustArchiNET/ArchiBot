@@ -7,7 +7,7 @@
   <Regex Name="Email" Pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+" />
   <!--@Integer-->
   <Regex Name="Integer" Pattern="[\-\+]?\s*\d+\s*" />
-  <Regex Name="PositiveInteger" Pattern="[\+]?\d*" />
+  <Regex Name="PositiveInteger" Pattern="[\+]?\d+" />
   <!--@URL-->
   <Regex Name="URL" Pattern="((http|https)://)?[a-zA-Z]\w*(\.\w+)+(/\w*(\.\w+)*)*(\?.+)*" />
 </Siml>
