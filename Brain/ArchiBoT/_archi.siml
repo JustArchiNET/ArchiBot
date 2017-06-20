@@ -7,7 +7,7 @@
 	LASAGNE - unlike the Public counterpart, this command sets a 53 minutes timer
 	^STAFFANNOUNCE * - (not working yet) make ArchiBoT send a private message to all staff members
 -->
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_archi">
 		<Model>
 			<Pattern>2HUFACT</Pattern>
