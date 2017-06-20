@@ -671,7 +671,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>Countdown in _ for _</Pattern>
+			<Pattern>Countdown _ for _</Pattern>
 			<Response>
 				<Think>
 					<Bind Key="{Time}"><Match /></Bind>
@@ -687,10 +687,12 @@
 				<Late Second="{TimeInSeconds}">2...</Late>
 				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-3</Math></Bind>
 				<Late Second="{TimeInSeconds}">3...</Late>
+<!--
 				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-4</Math></Bind>
 				<Late Second="{TimeInSeconds}">4...</Late>
 				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-5</Math></Bind>
 				<Late Second="{TimeInSeconds}">5...</Late>
+-->
 			</Response>
 		</Model>
 	</Concept>
