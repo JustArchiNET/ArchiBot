@@ -80,14 +80,6 @@
 
 		<Model>
 			<Pattern>
-				<Item>CUKIBALL</Item>
-				<Item>WHO IS CUKI</Item>
-			</Pattern>
-			<Response>o.o</Response>
-		</Model>
-
-		<Model>
-			<Pattern>
 				<Item>LENNY</Item>
 				<Item>LENNYFACE</Item>
 				<Item>LENNY FACE</Item>
@@ -139,6 +131,7 @@
 					<Item>Faku: As I see it, yes :3</Item>
 					<Item>Faku: Affirmative :3</Item>
 					<Item>Faku: Of course :3</Item>
+					<Item Weight="0.3">Faku: Only if it's <ArchiTime>Seattle</ArchiTime> :3</Item>
 				</Random>
 			</Response>
 		</Model>
