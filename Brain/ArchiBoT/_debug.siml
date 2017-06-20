@@ -114,9 +114,24 @@
 <!-- The following should work only for Kaleith on Steam -->
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
 
-<Model>
+	<Model>
 	<Pattern>DEBUG PATREON</Pattern>
 		<Response>Game Maker's Toolkit is making <ArchiPatreonCampaignPledge>157042</ArchiPatreonCampaignPledge></Response>
+	</Model>
+
+	<Model>
+	<Pattern>DEBUG DATE _</Pattern>
+		<Response>Input: <Match />. Output: <ArchiDate><Match /></ArchiDate></Response>
+	</Model>
+
+	<Model>
+	<Pattern>DEBUG TIME _</Pattern>
+		<Response>Input: <Match />. Output: <ArchiTime><Match /></ArchiTime></Response>
+	</Model>
+
+	<Model>
+	<Pattern>DEBUG DATETIME _</Pattern>
+		<Response>Input: <Match />. Output: <ArchiDateTime><Match /></ArchiDateTime></Response>
 	</Model>
 
 <Model>
