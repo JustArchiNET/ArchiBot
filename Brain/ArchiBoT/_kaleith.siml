@@ -669,5 +669,29 @@
 				</Remember>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>Countdown in _ for _</Pattern>
+			<Response>
+				<Think>
+					<Bind Key="{Time}"><Match /></Bind>
+					<Bind Key="{TimeInSeconds}"><Js>convertTimeStringToSeconds('<Match />')</Js></Bind>
+					<Bind Key="{Task}"><Match Index="2" /></Bind>
+					<Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
+				</Think>
+				I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>
+				<Late Second="{TimeInSeconds}"><Text>{Task}</Text> time!</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-1</Math></Bind>
+				<Late Second="{TimeInSeconds}">1...</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-2</Math></Bind>
+				<Late Second="{TimeInSeconds}">2...</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-3</Math></Bind>
+				<Late Second="{TimeInSeconds}">3...</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-4</Math></Bind>
+				<Late Second="{TimeInSeconds}">4...</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-5</Math></Bind>
+				<Late Second="{TimeInSeconds}">5...</Late>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>
