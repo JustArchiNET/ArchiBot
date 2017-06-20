@@ -2,6 +2,7 @@
 <!--		CONTENT:
 	2HUFACT - Returns a random fact about the group
 	WHO IS CJ/KERO/MOLE/ARCHI - self-explanatory
+	HOW RICH IS ARCHI/YOUR MASTER - states how rich Archi is from Patreon
 			PRIVATE ARCHI-ONLY CONTENT:
 	LASAGNE - unlike the Public counterpart, this command sets a 53 minutes timer
 	^STAFFANNOUNCE * - (not working yet) make ArchiBoT send a private message to all staff members
@@ -127,9 +128,27 @@
 				</Random>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>HOW RICH IS (ARCHI|YOUR MASTER)</Pattern>
+			<Response>
+				<Var Think:Set="patreon"><ArchiPatreonTotalCampaignPledge>316025</ArchiPatreonTotalCampaignPledge></Var>
+				<If Var="patreon" Value="">Error: I don't know :cry:</If>
+				<Else>Archi is currently getting <Var Get="patreon" /> from his patrons monthly! \:bite:/</Else>
+			</Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
+		<Model>
+			<Pattern>
+				<Item>HOW RICH AM I</Item>
+			</Pattern>
+			<Response>
+				<Goto>HOW RICH IS ARCHI</Goto>
+			</Response>
+		</Model>
+
 		<Model>
 			<Pattern>
 				<Item>LASAGNE</Item>
