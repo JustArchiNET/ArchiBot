@@ -427,7 +427,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>RIGGEDBALL %</Pattern>
+			<Pattern>
+				<Item>RIGGEDBALL %</Item>
+				<Item>RBALL %</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>®: It is certain</Item>
