@@ -132,9 +132,9 @@
 		<Model>
 			<Pattern>HOW RICH IS (ARCHI|YOUR MASTER)</Pattern>
 			<Response>
-				<Var Think:Set="patreon"><ArchiPatreonTotalCampaignPledge>316025</ArchiPatreonTotalCampaignPledge></Var>
+				<Var Think:Set="patreon"><ArchiPatreonCampaignPledge>316025</ArchiPatreonCampaignPledge></Var>
 				<If Var="patreon" Value="">Error: I don't know :cry:</If>
-				<Else>Archi is currently getting <Var Get="patreon" /> from his patrons monthly! \:bite:/</Else>
+				<Else>Archi is currently getting <Var Get="patreon" /> from his patrons! \:bite:/</Else>
 			</Response>
 		</Model>
 	</Concept>
