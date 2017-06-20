@@ -115,6 +115,11 @@
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
 
 <Model>
+	<Pattern>DEBUG PATREON</Pattern>
+		<Response>Game Maker's Toolkit is making <ArchiPatreonCampaignPledge>157042</ArchiPatreonCampaignPledge></Response>
+	</Model>
+
+<Model>
 	<Pattern>ADDCOMMAND _</Pattern>
 		<Response>
 			<Remember>
