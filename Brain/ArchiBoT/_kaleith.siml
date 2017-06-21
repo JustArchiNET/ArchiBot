@@ -131,7 +131,7 @@
 					<Item>Faku: As I see it, yes :3</Item>
 					<Item>Faku: Affirmative :3</Item>
 					<Item>Faku: Of course :3</Item>
-					<Item Weight="0.4">Faku: Only if it's timetoAMPM("<ArchiTime>Seattle</ArchiTime>") :3</Item>
+					<Item Weight="0.4">Faku: Only if it's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Item>
 				</Random>
 			</Response>
 		</Model>
