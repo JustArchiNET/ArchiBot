@@ -131,7 +131,7 @@
 					<Item>Faku: As I see it, yes :3</Item>
 					<Item>Faku: Affirmative :3</Item>
 					<Item>Faku: Of course :3</Item>
-					<Item Weight="0.3">Faku: Only if it's <ArchiTime>Seattle</ArchiTime> :3</Item>
+					<Item Weight="0.4">Faku: Only if it's timetoAMPM("<ArchiTime>Seattle</ArchiTime>") :3</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -668,6 +668,60 @@
 					</Model>
 				</Remember>
 			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>HUMBLE _</Pattern>
+			<Response>Humble bundle set in
+				<Var Set="timeToReminder"><Js>function nexttime(t) {
+<!--    if (new Date().getUTCHours() &gt;= t) {
+        t += 24;
+    }
+TODO: try Goto createlatetask seconds name maybe
+
+-->
+    return Math.floor((new Date().setUTCHours(t, 0, 0, 0) - Date.now()) / 1000);
+}
+nexttime(<Match />);</Js></Var> seconds!
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" /></Math></Bind>
+				<Late Second="{TimeInSeconds}">Humble time!</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-1</Math></Bind>
+				<Late Second="{TimeInSeconds}">1...</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-2</Math></Bind>
+				<Late Second="{TimeInSeconds}">2...</Late>
+				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-3</Math></Bind>
+				<Late Second="{TimeInSeconds}">3...</Late>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>HUMBLE2 _</Pattern>
+			<Response>Humble bundle with goto set in
+				<Var Set="timeToReminder"><Js>function nexttime(t) {
+<!--    if (new Date().getUTCHours() &gt;= t) {
+        t += 24;
+    }
+TODO: try Goto createlatetask seconds name maybe
+
+-->
+    return Math.floor((new Date().setUTCHours(t, 43, 10, 0) - Date.now()) / 1000);
+}
+nexttime(<Match />);</Js></Var> seconds!
+				<Var Think:Set="i" Value="10" />
+				<While Var="i" Not="0">
+					<Var Think:Set="i"><Math Get="decrement"><Var Get="i" /></Math></Var>
+					<Think>
+						<Var Set="timer"><Math><Var Get="timeToReminder" />-<Var Get="i" /></Math></Var>
+						<Bind Key="{i}"><Var Get="i" /></Bind>
+						<Goto>CREATELATETASK <Var Get="timer" /> {i}...</Goto>
+					</Think>
+				</While>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>CREATELATETASK _1 _</Pattern>
+			<Response><Late Second="{Bind Match}"><Match Index="2" /></Late></Response>
 		</Model>
 
 		<Model>

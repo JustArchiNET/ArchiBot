@@ -15,6 +15,20 @@
     var xp = tens*(tens+1)*(5*tens+units);
     return xp
     }
+    /**
+    * Converts time to hh:mm AM/PM
+    *
+    */
+    function timetoAMPM(time) {
+        var t = new Date(time);
+        var h = t.getHours();
+        var m = t.getMinutes();
+        var ampm = h &gt;= 12 ? 'PM' : 'AM';
+        h = h % 12;
+        h = h ? h : 12; // the hour '0' should be '12'
+        m = m &lt; 10 ? '0' + m : m;
+        return h + ":" + m + " " + ampm
+    }
 
     function addCommand(str) {
     var arr = str.split("/");
