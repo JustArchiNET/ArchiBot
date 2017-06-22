@@ -154,7 +154,7 @@
 				<Item>FAKUTIME</Item>
 				<Item>FAKETIME</Item>
 			</Pattern>
-			<Response>It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Response>
+			<Response>Faku: It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Response>
 		</Model>
 
 		<Model>
