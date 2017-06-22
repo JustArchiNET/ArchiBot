@@ -150,6 +150,14 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>FAKUTIME</Item>
+				<Item>FAKETIME</Item>
+			</Pattern>
+			<Response>It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Response>
+		</Model>
+
+		<Model>
 			<Pattern>WINDUBALL</Pattern>
 			<Response>
 				<Random>
