@@ -56,8 +56,8 @@
 
 		<Model>
 			<Pattern>DEBUGLATE *</Pattern>
-			<Response>I will try to send the message "Success!" in <Match /> seconds.
-				<Late Second="{Bind Match}">Success!</Late>
+			<Response>I will try to send the message "<Match />" in 1 minute.
+				<Late Second="60">{Bind Match}</Late>
 			</Response>
 		</Model>
 
