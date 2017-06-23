@@ -55,9 +55,9 @@
 		</Model>
 
 		<Model>
-			<Pattern>DEBUGLATE *</Pattern>
+			<Pattern>^DEBUGLATE _</Pattern>
 			<Response>I will try to send the message "<Match />" in 1 minute.
-				<Late Second="60">{Bind Match}</Late>
+				<Late Second="60"><Match /></Late>
 			</Response>
 		</Model>
 
