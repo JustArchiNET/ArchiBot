@@ -42,12 +42,26 @@
 				<Item>TAIGOME</Item>
 				<Item>TAIGONIZE</Item>
 				<Item>TAIGONIZE ME</Item>
+			</Pattern>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <User Get="Nickname" /></Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>TAIGONIZE *</Item>
 				<Item>TAIGO *</Item>
-				<Item>TAIGO</Item>
-				<Item>WHO IS TAIGO</Item>
 			</Pattern>
-			<Response>This command is now exclusive to Patreon supporters! To keep using it please donate https://www.patreon.com/JustArchi :sgsmile:</Response>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <Match /></Response>
+		</Model>
+
+		<Model>
+			<Pattern>TAIGO</Pattern>
+			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /> Taigo</Text></Response>
+		</Model>
+
+		<Model>
+			<Pattern>WHO IS TAIGO</Pattern>
+			<Response>Which one do you mean? <Goto>TAIGO</Goto> or <Goto>TAIGO</Goto>?</Response>
 		</Model>
 
 		<Model>
