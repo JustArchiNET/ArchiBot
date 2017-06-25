@@ -525,7 +525,7 @@ Try not to be too scared.
     <Model>
       <Pattern>I HAVE EMOTIONS</Pattern>
       <Response>
-Humans are highly emotional. <User Think:Set="has" Value="EMOTIONS" /></Response>
+Humans are highly emotional. <User Think:Set="has" Value="emotions" /></Response>
     </Model>
     <Model>
       <Pattern>[NO] IT IS NOT</Pattern>

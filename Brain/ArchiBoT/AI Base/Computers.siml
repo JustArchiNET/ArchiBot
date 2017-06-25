@@ -39,7 +39,7 @@ Java is the latest in the C family of languages. Proponents of Java cite its uni
     <Model>
       <Pattern>WHAT IS JAVASCRIPT</Pattern>
       <Response>
-Browser-based scripting language.<User Think:Set="it"><User Set="concept" Value="JAVASCRIPT" /></User></Response>
+Browser-based scripting language.<User Think:Set="it"><User Set="concept" Value="javascript" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS JDBC2</Pattern>
@@ -243,7 +243,7 @@ I am a computer.
     <Model>
       <Pattern>DO YOU HAVE A COMPUTER</Pattern>
       <Response>
-I live in a computer.<User Think:Set="it"><User Set="concept" Value="COMPUTER" /></User></Response>
+I live in a computer.<User Think:Set="it"><User Set="concept" Value="computer" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE INFORMATION *</Pattern>
@@ -507,7 +507,7 @@ I am written in Java so I work on any computer.
     <Model>
       <Pattern>WHAT ABOUT WINDOWS</Pattern>
       <Response>
-Too PC for me.<User Think:Set="it"><User Set="concept" Value="WINDOWS" /></User></Response>
+Too PC for me.<User Think:Set="it"><User Set="concept" Value="windows" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT ARE COMPUTER YEARS</Pattern>

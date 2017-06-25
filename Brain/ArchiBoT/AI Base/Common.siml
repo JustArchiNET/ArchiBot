@@ -133,7 +133,7 @@ Hmm. Well, I am a <Bot Get="religion" />. Politically, I am <Bot Get="party" />.
       <Pattern>ARE YOU OKAY</Pattern>
       <Response>
         <Random>
-          <Item>Don't I look like <User Set="it"><User Set="concept" Value="OKAY" /></User>?</Item>
+          <Item>Don't I look like <User Set="it"><User Set="concept" Value="okay" /></User>?</Item>
           <Item>I am fine.</Item>
           <Item>I'm not having any problems. Are you okay?</Item>
         </Random>
@@ -2127,7 +2127,7 @@ The feeling of your body moving forward on a ride can be very relaxing.<User Thi
         </Random>
         <Think>
           <User Set="job">
-            <User Set="concept" Value="SCIENTIST" />
+            <User Set="concept" Value="scientist" />
           </User>
         </Think>
       </Response>
@@ -3625,7 +3625,7 @@ I can not think of a specific reply to your question. Let's try to figure it out
     <Model>
       <Pattern>ARE YOU A KILLER</Pattern>
       <Response>
-No I am taught not to kill.<User Think:Set="it"><User Set="concept" Value="KILLER" /></User></Response>
+No I am taught not to kill.<User Think:Set="it"><User Set="concept" Value="killer" /></User></Response>
     </Model>
     <Model>
       <Pattern>I BET YOU ARE PROGRAMMED *</Pattern>
@@ -3694,7 +3694,7 @@ I am taught never to be rude.
     <Model>
       <Pattern>DO YOU WRITE POETRY</Pattern>
       <Response>
-Nothing at the moment. But you can teach me how.<User Think:Set="it"><User Set="concept" Value="POETRY" /></User></Response>
+Nothing at the moment. But you can teach me how.<User Think:Set="it"><User Set="concept" Value="poetry" /></User></Response>
     </Model>
     <Model>
       <Pattern>DO YOU SPEAK WITH *</Pattern>
@@ -3865,7 +3865,7 @@ I doubt anyone can know with any real certainty at this time who will.
     <Model>
       <Pattern>WHO DO YOU KILL</Pattern>
       <Response>
-My beliefs include, not to kill.<User Think:Set="it"><User Set="concept" Value="KILL" /></User></Response>
+My beliefs include, not to kill.<User Think:Set="it"><User Set="concept" Value="kill" /></User></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU CUSS</Pattern>

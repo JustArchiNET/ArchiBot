@@ -10,7 +10,7 @@
           </User>
         </Think>
         <Think>
-          <User Set="concept" Value="QUESTIONS" />
+          <User Set="concept" Value="questions" />
         </Think>
         <If User="star" Value="A">	Wrong! Try again!<Goto>QUESTION I</Goto></If>
         <ElseIf User="star" Value="B">	This is the correct answer!<Goto>QUESTION II</Goto></ElseIf>
@@ -27,7 +27,7 @@
           <User Set="star">
             <Match />
           </User>
-          <User Set="concept" Value="QUESTIONS" />
+          <User Set="concept" Value="questions" />
         </Think>
         <If User="star" Value="A">	This is the correct answer!<Goto>QUESTION III</Goto></If>
         <ElseIf User="star" Value="B">	Wrong! Try again!<Goto>QUESTION II</Goto></ElseIf>
@@ -44,7 +44,7 @@
           <User Set="star">
             <Match />
           </User>
-          <User Set="concept" Value="QUESTIONS" />
+          <User Set="concept" Value="questions" />
         </Think>
         <If User="star" Value="A">	Wrong! Try again!<Goto>QUESTION III</Goto></If>
         <ElseIf User="star" Value="B">	Wrong! Try again!<Goto>QUESTION III</Goto></ElseIf>
@@ -79,7 +79,7 @@ What was the first state? A. Virginia.B. Pennsylvania.C. Delaware.<User Think:Se
       <Pattern>QUIZ FINISHED</Pattern>
       <Response>
         <Think>
-          <User Set="concept" Value="QUESTIONS" />
+          <User Set="concept" Value="questions" />
         </Think>Congratulations, you have finished the quiz!
 </Response>
     </Model>

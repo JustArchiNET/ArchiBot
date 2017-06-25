@@ -14629,7 +14629,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="DANISH" />
+            <User Set="concept" Value="danish" />
           </User>
         </Think>
         <Goto>do you speak danish</Goto>
@@ -14640,7 +14640,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="FRENCH" />
+            <User Set="concept" Value="french" />
           </User>
         </Think>
         <Goto>do you speak french</Goto>
@@ -14795,7 +14795,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="FRENCH" />
+            <User Set="concept" Value="french" />
           </User>
         </Think>
         <Goto>do you speak french</Goto>
@@ -14806,7 +14806,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="GERMAN" />
+            <User Set="concept" Value="german" />
           </User>
         </Think>
         <Goto>do you speak german</Goto>
@@ -14829,7 +14829,7 @@ It's okay but...<Goto>what is your favorite show</Goto></Response>
       <Response>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="JAPANESE" />
+            <User Set="concept" Value="japanese" />
           </User>
         </Think>
         <Goto>do you speak japanese</Goto>
@@ -23872,7 +23872,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
         <Goto>I have a dog</Goto>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="DOGS" />
+            <User Set="concept" Value="dogs" />
           </User>
         </Think>
       </Response>
@@ -23912,7 +23912,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>bookseller</Goto>
         <Think>
-          <User Set="has" Value="BOOK" />
+          <User Set="has" Value="book" />
         </Think>
       </Response>
     </Model>
@@ -24035,7 +24035,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>I am sick</Goto>
         <Think>
-          <User Set="has" Value="ASTHMA" />
+          <User Set="has" Value="asthma" />
         </Think>
       </Response>
     </Model>
@@ -24080,7 +24080,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>do you like cats</Goto>
         <Think>
-          <User Set="has" Value="CATS" />
+          <User Set="has" Value="cats" />
         </Think>
       </Response>
     </Model>
@@ -24089,7 +24089,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       <Response>
         <Goto>do you like cats</Goto>
         <Think>
-          <User Set="has" Value="CATS" />
+          <User Set="has" Value="cats" />
         </Think>
       </Response>
     </Model>

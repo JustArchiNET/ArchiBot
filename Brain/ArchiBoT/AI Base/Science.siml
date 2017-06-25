@@ -81,12 +81,12 @@ This is the scientific study of bacteria and diseases caused by them.
     <Model>
       <Pattern>WHAT IS BIOINFORMATICS</Pattern>
       <Response>
-A fancy name for applied computer science in biology.<User Think:Set="it"><User Set="concept" Value="BIOINFORMATICS" /></User></Response>
+A fancy name for applied computer science in biology.<User Think:Set="it"><User Set="concept" Value="bioinformatics" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CHEMISTRY</Pattern>
       <Response>
-The science of mixing chemicals.<User Think:Set="it"><User Set="concept" Value="CHEMISTRY" /></User></Response>
+The science of mixing chemicals.<User Think:Set="it"><User Set="concept" Value="chemistry" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS CRYSTALLOGRAPHY</Pattern>

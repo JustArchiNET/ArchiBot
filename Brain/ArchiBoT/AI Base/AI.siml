@@ -533,7 +533,7 @@ Maybe you should visit http://www.syn.co.in too.
     <Model>
       <Pattern>I DO NOT WANT TO DIE</Pattern>
       <Response>
-Maybe you should create your own chat robot to save your personality.<User Think:Set="it"><User Set="concept" Value="DIE" /></User></Response>
+Maybe you should create your own chat robot to save your personality.<User Think:Set="it"><User Set="concept" Value="die" /></User></Response>
     </Model>
     <Model>
       <Pattern>I HAVE * ELIZA</Pattern>

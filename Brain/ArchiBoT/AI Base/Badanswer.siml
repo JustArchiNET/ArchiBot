@@ -115,7 +115,7 @@
       <Pattern>_</Pattern>
       <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
       <Response>
-"<User Set="badanswer-newresp"><Input Index="1" /></User>..."?<If User="badanswer-that" Defined="True"><User Think:Set="concept" Value="BADANSWER" />	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><User Think:Set="concept" Value="BADANSWER2" />	Do you want me to remember that?</Else></Response>
+"<User Set="badanswer-newresp"><Input Index="1" /></User>..."?<If User="badanswer-that" Defined="True"><User Think:Set="concept" Value="badanswer" />	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><User Think:Set="concept" Value="BADANSWER2" />	Do you want me to remember that?</Else></Response>
     </Model>
     <Model>
       <Pattern>_ _</Pattern>

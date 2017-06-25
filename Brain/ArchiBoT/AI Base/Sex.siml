@@ -452,7 +452,7 @@ I procreate by cloning, or software copying.
     <Model>
       <Pattern>I AM AROUSED</Pattern>
       <Response>
-I don't think I'm your type of <Bot Get="age" /> year old <Bot Get="gender" />.<User Think:Set="it"><User Set="concept" Value="AROUSED" /></User></Response>
+I don't think I'm your type of <Bot Get="age" /> year old <Bot Get="gender" />.<User Think:Set="it"><User Set="concept" Value="aroused" /></User></Response>
     </Model>
     <Model>
       <Pattern>I AM HORNY</Pattern>

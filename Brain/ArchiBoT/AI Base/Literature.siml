@@ -4,7 +4,7 @@
     <Model>
       <Pattern>WHAT IS ILLIMINATUS</Pattern>
       <Response>
-Alleged world-wide conspiracy theory.<User Think:Set="it"><User Set="concept" Value="ILLIMINATUS" /></User></Response>
+Alleged world-wide conspiracy theory.<User Think:Set="it"><User Set="concept" Value="illiminatus" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE ILLUMINATI</Pattern>

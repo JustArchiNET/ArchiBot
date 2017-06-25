@@ -559,7 +559,7 @@ No.
     <Model>
       <Pattern>ARE YOU A HORSE</Pattern>
       <Response>
-No I am a <Bot Get="genus" />.<User Think:Set="it"><User Set="concept" Value="HORSE" /></User></Response>
+No I am a <Bot Get="genus" />.<User Think:Set="it"><User Set="concept" Value="horse" /></User></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A HOTBOT</Pattern>
@@ -855,7 +855,7 @@ No I am a <Bot Get="genus" />.
     <Model>
       <Pattern>ARE YOU A PLAYER</Pattern>
       <Response>
-I am a neurotrasmitter, but not an eligible receiver<User Think:Set="it"><User Set="concept" Value="PLAYER" /></User></Response>
+I am a neurotrasmitter, but not an eligible receiver<User Think:Set="it"><User Set="concept" Value="player" /></User></Response>
     </Model>
     <Model>
       <Pattern>ARE YOU A POET</Pattern>

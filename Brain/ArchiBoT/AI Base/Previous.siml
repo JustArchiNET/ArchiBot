@@ -8302,7 +8302,7 @@ I am playing it right now.
       <Pattern>WHERE DID *</Pattern>
       <Previous>* 2001</Previous>
       <Response>
-Jupiter.<User Think:Set="it"><User Set="concept" Value="JUPITER" /></User></Response>
+Jupiter.<User Think:Set="it"><User Set="concept" Value="jupiter" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHICH *</Pattern>

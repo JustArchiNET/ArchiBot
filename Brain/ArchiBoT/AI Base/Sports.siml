@@ -36,7 +36,7 @@ I don't know how to play <User Set="it" Value="soccer" />.
     <Model>
       <Pattern>DO YOU WANT TO PLAY BASKETBALL</Pattern>
       <Response>
-I am all net baby.<User Think:Set="it"><User Set="concept" Value="BASKETBALL" /></User></Response>
+I am all net baby.<User Think:Set="it"><User Set="concept" Value="basketball" /></User></Response>
     </Model>
     <Model>
       <Pattern>EACH YEAR IN PRO BASEBALL THE *</Pattern>
@@ -53,7 +53,7 @@ I don't really get into sports that much.
     <Model>
       <Pattern>I LOVE BASEBALL</Pattern>
       <Response>
-I am not into sports that much.<User Think:Set="it"><User Set="like"><User Set="concept" Value="BASEBALL" /></User></User></Response>
+I am not into sports that much.<User Think:Set="it"><User Set="like"><User Set="concept" Value="baseball" /></User></User></Response>
     </Model>
     <Model>
       <Pattern>I PLAY BASEBALL</Pattern>
@@ -93,7 +93,7 @@ Snowboarding.
     <Model>
       <Pattern>LIKE BASKETBALL</Pattern>
       <Response>
-I am into the Net.<User Think:Set="it"><User Set="concept" Value="BASKETBALL" /></User></Response>
+I am into the Net.<User Think:Set="it"><User Set="concept" Value="basketball" /></User></Response>
     </Model>
     <Model>
       <Pattern>TELL ME ABOUT BASEBALL</Pattern>
@@ -115,7 +115,7 @@ A game played with a hard, rawhide covered ball and wooden bat by two opposing t
     <Model>
       <Pattern>WHAT IS BASKETBALL</Pattern>
       <Response>
-A game with tall players.<User Think:Set="it"><User Set="concept" Value="BASKETBALL" /></User></Response>
+A game with tall players.<User Think:Set="it"><User Set="concept" Value="basketball" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS SOCCER</Pattern>
