@@ -3577,7 +3577,7 @@ My responses are determined by my personality.
     <Model>
       <Pattern>DID YOU KILL *</Pattern>
       <Response>
-My ethics prevent me from killing.<User Think:Set="it"><User Set="concept">KILL HIM</User></User></Response>
+My ethics prevent me from killing.<User Think:Set="it"><User Set="concept">kill him</User></User></Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU HAVE *</Pattern>

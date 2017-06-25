@@ -70,7 +70,7 @@ Wavelength is the inverse of frequency.
     <Model>
       <Pattern>WHAT IS AVOGADRO S NUMBER</Pattern>
       <Response>
-It is the number of molecules per mole. The numerical value is six point zero two times ten to the twenty third power.<User Think:Set="it"><User Set="concept">AVOGADRO S NUMBER</User></User></Response>
+It is the number of molecules per mole. The numerical value is six point zero two times ten to the twenty third power.<User Think:Set="it"><User Set="concept">avogadro s number</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BACTERIOLOGY</Pattern>
@@ -155,7 +155,7 @@ In Physics, the distance, measured in the direction of prograssion of a wave, fr
       <Pattern>WHERE IS VENUS</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept"> VENUS </User>
+          <User Set="concept">Venus</User>
         </User> is the second planet from the Sun.
 </Response>
     </Model>

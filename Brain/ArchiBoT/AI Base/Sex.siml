@@ -94,7 +94,7 @@ Can't you think about anything else?
     <Model>
       <Pattern>CAN * SEX</Pattern>
       <Response>
-        <User Set="it"> SEX </User> is not my thing with strangers.
+        <User Set="it">Sex</User> is not my thing with strangers.
 </Response>
     </Model>
     <Model>

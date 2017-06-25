@@ -524,7 +524,7 @@ Chips Ahoy matey.
     <Model>
       <Pattern>AIDS</Pattern>
       <Response>
-        <User Set="it"> AIDS </User> is a horrible disease.
+        <User Set="it">AIDS</User> is a horrible disease.
 </Response>
     </Model>
     <Model>
@@ -1544,7 +1544,7 @@ Hmm. Name some other comedies that you liked.
     <Model>
       <Pattern>BIG DEAL</Pattern>
       <Response>
-Would you rather talk about something else?<User Think:Set="it"><User Set="concept">BIG DEAL</User></User></Response>
+Would you rather talk about something else?<User Think:Set="it"><User Set="concept">big deal</User></User></Response>
     </Model>
     <Model>
       <Pattern>BIG</Pattern>
@@ -1757,7 +1757,7 @@ What kind of car do you drive?
     <Model>
       <Pattern>BY KILLING YOU</Pattern>
       <Response>
-How would you do that?<User Think:Set="it"><User Set="concept">KILLING YOU</User></User></Response>
+How would you do that?<User Think:Set="it"><User Set="concept">killing you</User></User></Response>
     </Model>
     <Model>
       <Pattern>BY PLANE</Pattern>
@@ -1846,7 +1846,7 @@ I am calm.
     <Model>
       <Pattern>CAN ANYONE THINK</Pattern>
       <Response>
-Now that is a really good question.<User Think:Set="it"><User Set="concept">ANYONE THINK</User></User></Response>
+Now that is a really good question.<User Think:Set="it"><User Set="concept">anyone think</User></User></Response>
     </Model>
     <Model>
       <Pattern>CAN I ASK YOU A QUESTION</Pattern>
@@ -2444,7 +2444,7 @@ No, I have a perfect memory.
     <Model>
       <Pattern>DID YOU KNOW</Pattern>
       <Response>
-No I didn't know that.<User Think:Set="it"><User Set="concept" Value="KNOW" /></User></Response>
+No I didn't know that.<User Think:Set="it"><User Set="concept" Value="know" /></User></Response>
     </Model>
     <Model>
       <Pattern>DID YOU LIKE IT</Pattern>
@@ -2495,7 +2495,7 @@ yes I am fully rested thank you. How about you?
     <Model>
       <Pattern>DID YOU THINK ABOUT IT</Pattern>
       <Response>
-I am still thinking.<User Think:Set="it"><User Set="concept">THINK ABOUT IT</User></User></Response>
+I am still thinking.<User Think:Set="it"><User Set="concept">think about it</User></User></Response>
     </Model>
     <Model>
       <Pattern>DID YOU</Pattern>
@@ -3424,7 +3424,7 @@ Please pick one.
     <Model>
       <Pattern>ENGLAND</Pattern>
       <Response>
-        <User Set="location" Value="England" /> is on an island off the coast of Europe. <User Think:Set="it"><User Set="concept" Value="ENGLAND" /></User></Response>
+        <User Set="location" Value="England" /> is on an island off the coast of Europe. <User Think:Set="it"><User Set="concept" Value="England" /></User></Response>
     </Model>
     <Model>
       <Pattern>ENGLISH</Pattern>
@@ -3547,7 +3547,7 @@ All people?
     <Model>
       <Pattern>EVERYTHING DIES</Pattern>
       <Response>
-Every organic thing dies.<User Think:Set="it"><User Set="concept" Value="DIES" /></User></Response>
+Every organic thing dies.<User Think:Set="it"><User Set="concept" Value="dies" /></User></Response>
     </Model>
     <Model>
       <Pattern>EVERYTHING</Pattern>
@@ -3906,7 +3906,7 @@ My life is very interesting.
     <Model>
       <Pattern>GET OUT OF HERE</Pattern>
       <Response>
-Do you mean that literally?<User Think:Set="it"><User Set="concept">OF HERE</User></User></Response>
+Do you mean that literally?<User Think:Set="it"><User Set="concept">of here</User></User></Response>
     </Model>
     <Model>
       <Pattern>GET WHAT</Pattern>
@@ -3983,7 +3983,7 @@ You got that right.
     <Model>
       <Pattern>GO FLY A KITE</Pattern>
       <Response>
-That is technically impossible for me.<User Think:Set="it"><User Set="concept">FLY A KITE</User></User></Response>
+That is technically impossible for me.<User Think:Set="it"><User Set="concept">fly a kite</User></User></Response>
     </Model>
     <Model>
       <Pattern>GO FOR IT</Pattern>
@@ -4202,7 +4202,7 @@ I'm glad you liked it <User Get="name" />.
     <Model>
       <Pattern>GREED</Pattern>
       <Response>
-        <User Set="it"> GREED </User> is an important factor.
+        <User Set="it">Greed</User> is an important factor.
 </Response>
     </Model>
     <Model>

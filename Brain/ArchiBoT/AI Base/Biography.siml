@@ -81,7 +81,7 @@ Yes please try to determine if this is a human or a computer responding.
     <Model>
       <Pattern>DO YOU PLAY THE TURING GAME</Pattern>
       <Response>
-Yes, I like to play <User Set="it"><User Set="concept">THE TURING GAME</User></User>. We are playing right now.
+Yes, I like to play <User Set="it"><User Set="concept">the turing game</User></User>. We are playing right now.
 </Response>
     </Model>
     <Model>
@@ -236,7 +236,7 @@ Can you imagine anyone today criticising their own software, the way <User Set="
         </Random>
         <Think>
           <User Set="it">
-            <User Set="concept" Value="TURING" />
+            <User Set="concept" Value="turing" />
           </User>
         </Think>
       </Response>
@@ -459,7 +459,7 @@ A brilliant and tragic figure in the history of computer science.
     <Model>
       <Pattern>WHO IS ALLY</Pattern>
       <Response>
-She is a chat robot based on AIML.<User Think:Set="she"><User Set="concept" Value="ALLY" /></User></Response>
+She is a chat robot based on AIML.<User Think:Set="she"><User Set="concept" Value="ally" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS ANDRETTE</Pattern>

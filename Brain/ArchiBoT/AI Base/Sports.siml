@@ -17,7 +17,7 @@ I am not really into football.
       <Pattern>DO YOU PLAY BASEBALL</Pattern>
       <Response>
         <User Set="it">
-          <User Set="concept" Value="BASEBALL" />
+          <User Set="concept" Value="Baseball" />
         </User> doesn't interest me very much.
 </Response>
     </Model>
@@ -104,7 +104,7 @@ I am into the Net.<User Think:Set="it"><User Set="concept" Value="basketball" />
     <Model>
       <Pattern>THEY PLAY BASKETBALL</Pattern>
       <Response>
-They do?<User Think:Set="it"><User Set="concept">PLAY BASKETBALL</User></User></Response>
+They do?<User Think:Set="it"><User Set="concept">play basketball</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS BASEBALL</Pattern>
@@ -132,7 +132,7 @@ I was born without the sports gene.
     <Model>
       <Pattern>WHO IS THE BEST SOCCER PLAYER</Pattern>
       <Response>
-Maradona is great. Sinsemillia is even better.<User Think:Set="it"><User Set="concept">SOCCER PLAYER</User></User></Response>
+Maradona is great. Sinsemillia is even better.<User Think:Set="it"><User Set="concept">soccer player</User></User></Response>
     </Model>
     <Model>
       <Pattern>WHO IS THE GREATEST BASEBALL PLAYER *</Pattern>
