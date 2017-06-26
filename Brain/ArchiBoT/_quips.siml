@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_quips">
 	<!-- suggested by DeltabladeX -->
 		<Model>
@@ -29,7 +29,7 @@
 					<Item>Did you know that the father of peanuts and peanut butter George Washington Carver had no nuts?</Item>
 					<Item>Did you know that Nut is the goddess of the sky in the ennead of ancient egyptian religion?</Item>
 					<Item>Did you know that coconuts are not nuts? They are technically drupes.</Item>
-					<Item Weight="0.05">Did you know that u r mr gay?</Item>
+					<Item Weight="0.02">Did you know that u r mr gay?</Item>
 					<Item>Did you know that most Brazil nuts (which aren't even nuts) don't come from Brazil? The main exporter is Bolivia!</Item>
 					<Item>Did you know that until the mid-20th century, hazelnuts were called filberts?</Item>
 				</Random>
@@ -38,37 +38,20 @@
 
 		<Model>
 			<Pattern>
-				<Item>TAIGO ME</Item>
-				<Item>TAIGOME</Item>
-				<Item>TAIGONIZE</Item>
-				<Item>TAIGONIZE ME</Item>
+				<Item>^TAIGO %</Item>
+				<Item>^TAIGONIZE %</Item>
 			</Pattern>
 			<Response>
 				<Random>
-					<Item><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <User Get="Nickname" /></Item>
-					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
-				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>
-				<Item>TAIGONIZE *</Item>
-				<Item>TAIGO *</Item>
-			</Pattern>
-			<Response>
-				<Random>
-					<Item><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text> <Match /></Item>
-					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
-				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>TAIGO</Pattern>
-			<Response>
-				<Random>
-					<Item><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /> Taigo</Text></Item>
+					<Item><Goto>TAIGOWORDS</Goto> <Text>
+						<Var Think:Set="taigoname"><Text Get="lowercase"><Match /></Text></Var>
+						<Switch Var="taigoname">
+							<Case Value="">Taigo</Case>
+							<Case Value="me"><User Get="Nickname" /></Case>
+							<Case Value="yourself"><Bot Get="NAME" /></Case>
+							<Default><Match /></Default>
+						</Switch></Text>
+					</Item>
 					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
 				</Random>
 			</Response>
