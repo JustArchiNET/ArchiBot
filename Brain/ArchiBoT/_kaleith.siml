@@ -534,6 +534,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^TRANSLATE _</Pattern>
+			<Response><ArchiTranslate><Match /></ArchiTranslate></Response>
+		</Model>
+
+		<Model>
 			<Pattern>WHAT IS % ^TENTACLE MAFIA</Pattern>
 			<Response>
 				<Random>
