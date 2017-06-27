@@ -68,6 +68,15 @@
 		</Model>
 
 		<Model>
+			<Pattern>CSD2</Pattern>
+			<Response>
+				<Var Think:Set="timetocsd2"><Js>1503594000 - Math.floor(Date.now()/1000)</Js></Var>
+				<If Var="timetocsd2" GreaterThan="0">Taigo has <Js>secondsToString(<Var Get="timetocsd2" />);</Js> left to gather $12.99 \:sgsmile:</If>
+				<Else>CSD2 has been out for <Js>secondsToString(<Math Get="abs"><Var Get="timetocsd2" /></Math>);</Js>, I wonder if Taigo got the money in time :doubt:</Else>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>EULA</Pattern>
 			<Response>In no event (including, without limitation, in the event of negligence) will Touhou Giveaways, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to !ai taigo.</Response>
 		</Model>
