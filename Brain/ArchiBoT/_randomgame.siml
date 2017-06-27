@@ -9,7 +9,7 @@
 				<Item>^RANDOMGAME *</Item>
 				<Item>^RG *</Item>
 			</Pattern>
-			<Response><Random Get="_randomgame_1" /> <Random><Item Weight="0.8"></Item><Item Weight="0.2"><Random>(and|vs.)</Random> the <Goto>TAIGOWORDS</Goto> </Item></Random><Random><Item Weight="0.15"></Item><Item><Random Get="_randomgame_2" /></Item><Item Weight="0.15"><Random Get="_randomgame_2" /> <Random Get="_randomgame_2" /></Item></Random></Response>
+			<Response><Random Get="_randomgame_1" /> <Random><Item Weight="0.8"></Item><Item Weight="0.2"><Random>(and|vs)</Random> the <Goto>TAIGOWORDS</Goto> </Item></Random><Random><Item Weight="0.15"></Item><Item><Random Get="_randomgame_2" /></Item><Item Weight="0.15"><Random Get="_randomgame_2" /> <Random Get="_randomgame_2" /></Item></Random></Response>
 		</Model>
 
 		<Model>
@@ -274,9 +274,9 @@
 		<Item>Universe</Item>
 		<Item>Unleashed</Item>
 		<Item>Uprising</Item>
-		<Item>vs. Capcom</Item>
-		<Item>vs. Street Fighter</Item>
-		<Item>vs. The Space Mutants</Item>
+		<Item>vs Capcom</Item>
+		<Item>vs Street Fighter</Item>
+		<Item>vs The Space Mutants</Item>
 		<Item>with Friends</Item>
 		<Item>World Tour</Item>
 		<Item>X-treme</Item>
