@@ -100,6 +100,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>HOW RICH IS *</Pattern>
+			<Response><Match /> is probably getting $0 per month from their patrons :cry:7</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>FAKUBALL, KICK _ OR _</Item>
 				<Item>FAKUBALL KICK _ OR _</Item>
