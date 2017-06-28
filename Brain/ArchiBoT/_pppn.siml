@@ -13,7 +13,7 @@
 				<Item>FLIPU TABLE</Item>
 			</Pattern>
 			<Response>
-				<Switch User="_pppn_table_state">
+				<Switch Bot="_pppn_table_state">
 					<Case Value="flipped">
 						<Goto>SET TABLE</Goto>
 					</Case>
@@ -30,7 +30,7 @@
 		<Model>
 			<Pattern>THROW TABLE</Pattern>
 			<Response>
-				<User Think:Set="_pppn_table_state">thrown</User>
+				<Bot Think:Set="_pppn_table_state">thrown</Bot>
 				<Random>
 					<Item>(┛◉Д◉)┛彡┻━┻</Item>
 					<Item>(ノಠ益ಠ)ノ彡┻━┻</Item>
@@ -52,7 +52,7 @@
 				<Item>SETU TABLE</Item>
 			</Pattern>
 			<Response>
-				<User Think:Set="_pppn_table_state">set</User>
+				<Bot Think:Set="_pppn_table_state">set</Bot>
 				<Random>
 					<Item>┬──┬ ノ( ゜-゜ノ)</Item>
 					<Item>┬──┬﻿ ¯\_(ツ)</Item>
@@ -65,7 +65,7 @@
 		<Model>
 			<Pattern>PPPN FLIPPING TABLE</Pattern>
 			<Response>
-				<User Think:Set="_pppn_table_state">flipped</User>
+				<Bot Think:Set="_pppn_table_state">flipped</Bot>
 				<Random>
 					<Item>(╯°□°）╯︵ ┻━┻</Item>
 					<Item>(ﾉ≧∇≦)ﾉ ﾐ ┸━┸</Item>
