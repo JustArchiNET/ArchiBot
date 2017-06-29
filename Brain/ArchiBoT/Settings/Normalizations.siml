@@ -395,22 +395,9 @@
   <Filter Word="mr." Value="mr" />
   <Filter Word="mrs." Value="mrs" />
   <Filter Word="st." Value="st" />
-  <Filter Word="www." Value="www dot" />
   <Filter Word="botspot." Value="botspot dot" />
   <Filter Word="amused.com" Value="amused dot com" />
   <Filter Word="whatis." Value="whatis dot" />
-  <Filter Word=".com" Value="dot com" />
-  <Filter Word=".net" Value="dot net" />
-  <Filter Word=".org" Value="dot org" />
-  <Filter Word=".org.uk" Value="dot org dot uk" />
-  <Filter Word=".co.uk" Value="dot co dot uk" />
-  <Filter Word=".edu" Value="dot edu" />
-  <Filter Word=".uk" Value="dot uk" />
-  <Filter Word=".jp" Value="dot jp" />
-  <Filter Word=".au" Value="dot au" />
-  <Filter Word=".co" Value="dot co" />
-  <Filter Word=".ac" Value="dot ac" />
-  <Filter Word="l.l." Value="l l" />
   <!--USA-->
   <Filter Value="usa">
     <Word>u s a</Word>
