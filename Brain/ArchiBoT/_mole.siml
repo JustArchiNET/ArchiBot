@@ -24,6 +24,13 @@
             <Response><Goto>Remind me in <Match Index="2" /> to <Match /></Goto></Response>
         </Model>
 
+        <Model>
+            <Pattern>
+                <Item>DO NOT REMIND ME</Item>
+                <Item>FORGET REMINDERS</Item>
+            </Pattern>
+            <Response>Ok <User Get="Nickname" />, I will forget anything you asked me to remind you.<ArchiSynBotLateTasksClear /></Response>
+        </Model>
         <!-- BWH -->
         <!--
             23:28 - Chat Exorcist Taigo: I want
