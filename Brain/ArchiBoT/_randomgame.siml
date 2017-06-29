@@ -2,24 +2,32 @@
 <!--		CONTENT:
 	^RANDOMGAME * - Builds a random game name using the input and other random pieces from _randomgame_1, _randomgame_2, TAIGOWORDS
 -->
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_randomgame">
 		<Model>
 			<Pattern>
-				<Item>^RANDOMGAME *</Item>
-				<Item>^RG *</Item>
+				<Item>^RANDOMGAME %</Item>
+				<Item>^RG %</Item>
 			</Pattern>
-			<Response><Random Get="_randomgame_1" /> <Random><Item Weight="0.8"></Item><Item Weight="0.2"><Random>(and|vs)</Random> the <Goto>TAIGOWORDS</Goto> </Item></Random><Random><Item Weight="0.15"></Item><Item><Random Get="_randomgame_2" /></Item><Item Weight="0.15"><Random Get="_randomgame_2" /> <Random Get="_randomgame_2" /></Item></Random></Response>
+			<Response>
+				<User Think:Set="Concept" Value="_randomgame_private" />
+				<Var Think:Set="basename"><Text Get="lowercase"><Match /></Text></Var>
+				<User Set="lastrandomgame"><Goto>RANDOMGAMEBUILDER <Text>
+				<Switch Var="basename">
+					<Case Value=""><If User="lastrandomgame" Defined="true"><User Get="lastrandomgame" /></If><ElseIf User="Nickname" Not="me"><User Get="Nickname" /></ElseIf><Else>Weeb</Else></Case>
+					<Case Value="yourself"><Bot Get="NAME" /></Case>
+					<Case Value="me"><If User="Nickname" Not="me"><User Get="Nickname" /></If><Else>Weeb</Else></Case>
+					<Default><Match /></Default>
+				</Switch></Text></Goto></User>
+				<User Think:Set="Concept" Value="" />
+			</Response>
 		</Model>
+	</Concept>
 
+	<Concept Name="_randomgame_private" Type="private">
 		<Model>
-			<Pattern>
-				<Item>^RANDOMGAME ME</Item>
-				<Item>^RANDOMGAME</Item>
-				<Item>^RG ME</Item>
-				<Item>^RG</Item>
-			</Pattern>
-			<Response><Goto>RANDOMGAME <If User="Nickname" Not="me"><User Get="Nickname" /></If><Else>Weeb</Else></Goto></Response>
+			<Pattern>^RANDOMGAMEBUILDER _</Pattern>
+			<Response><Random Get="_randomgame_1" /> <Random><Item Weight="0.8"></Item><Item Weight="0.2"><Random>(and|vs)</Random> the <Goto>TAIGOWORDS</Goto> </Item></Random><Random><Item Weight="0.15"></Item><Item><Random Get="_randomgame_2" /></Item><Item Weight="0.15"><Random Get="_randomgame_2" /> <Random Get="_randomgame_2" /></Item></Random></Response>
 		</Model>
 	</Concept>
 
@@ -70,7 +78,7 @@
 		<Item>Deadly <Match /></Item>
 		<Item>Disney's <Match /></Item>
 		<Item>Donkey Kong's <Match /></Item>
-		<Item>Dr. <Match /></Item>
+		<Item>Dr.<Match /></Item>
 		<Item>Dynamite <Match /></Item>
 		<Item>Elite <Match /></Item>
 		<Item>Epic <Match /></Item>
@@ -107,14 +115,14 @@
 		<Item>Lethal <Match /></Item>
 		<Item>Little <Match /></Item>
 		<Item>Lord of the <Match /></Item>
-		<Item>M.C. Escher's <Match /></Item>
+		<Item>M.C.Escher's <Match /></Item>
 		<Item>Magic <Match /></Item>
 		<Item>Maniac <Match /></Item>
 		<Item>Mega <Match /></Item>
 		<Item>Metal <Match /></Item>
 		<Item>Micro <Match /></Item>
 		<Item>Mighty <Match /></Item>
-		<Item>Mr. <Match /></Item>
+		<Item>Mr.<Match /></Item>
 		<Item>My Little <Match /></Item>
 		<Item>My Very Own <Match /></Item>
 		<Item>Mysterious <Match /></Item>
