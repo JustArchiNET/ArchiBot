@@ -154,7 +154,7 @@
 				<Item>LASAGNE</Item>
 			</Pattern>
 			<Response>
-				<Goto>Remind me in 53 minutes to take lasagne out of oven</Goto>
+				<Goto>Remind me in 52 minutes to take lasagne out of oven</Goto>
 			</Response>
 		</Model>
 
