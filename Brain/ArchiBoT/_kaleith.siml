@@ -101,9 +101,13 @@
 
 		<Model>
 			<Pattern>HOW RICH IS *</Pattern>
-			<Response><Match /> is probably getting $0 per month from their patrons :cry:7</Response>
+			<Response><Match /> is probably receiving $0 per month from their patrons :cry:7</Response>
 		</Model>
 
+		<Model>
+			<Pattern>HOW RICH AM I</Pattern>
+			<Response>You are probably receiving $0 per month from your patrons :cry:7</Response>
+		</Model>
 		<Model>
 			<Pattern>
 				<Item>FAKUBALL, KICK _ OR _</Item>
