@@ -37,8 +37,8 @@
 			<Pattern>MY ^WISHLIST</Pattern>
 			<Response>
 				<Var Think:Set="wlid"><Js>steamID("<User Get="ID" />")</Js></Var>
-				<If Var="wlid" Value="error">I don't know where your wishlist is :cry:</If>
-				<Else><User Get="Nickname" />'s wishlist link is http://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist.</Else>
+				<If Var="wlid" Value="error">I don't know where your wishlist is :(</If>
+				<Else><User Get="Nickname" />'s wishlist link is http://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist :sgsmile:</Else>
 			</Response>
 		</Model>
 
