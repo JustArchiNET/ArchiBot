@@ -204,13 +204,12 @@
         return array;
     }
 
-function steamID(usergetid) {
+function steamID(userid) {
     if (/^steam-/.test(userid)) {
         return userid.substr(6);
     } else {
         return "error";
     }
 }
-steamID("<User Get="ID" />")
 </Script>
 </Siml>
