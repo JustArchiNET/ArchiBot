@@ -34,6 +34,14 @@
 		</Model>
 
 		<Model>
+			<Pattern>MY ^WISHLIST</Pattern>
+			<Response>
+				<If User="ID" Contains="steam-">My wishlist link is: http://steamcommunity.com/profiles/<Js>var tmp = "<User Get="ID" />";tmp.substr(6);</Js>/wishlist</If>
+				<Else>I don't know where your wishlist is :cry:</Else>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>NEWRATIO</Pattern>
 			<Response>Today's ratio is: <Math Round="2"><Goto>RANDOMINT 50 100</Goto>/100</Math></Response>
 		</Model>
