@@ -119,5 +119,6 @@
     <Variable Name="THOUGHT" Value="unknown" />
     <Variable Name="WANT" Value="unknown" />
     <Variable Name="WE" Value="unknown" />
+    <Variable Name="LEAK" Value="40000" />
   </BotSettings>
 </Siml>

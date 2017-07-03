@@ -46,6 +46,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^LEAK</Pattern>
+			<Response>I'm using <Bot Set="leak"><Math><Bot Get="leak" />+<Math Get="random" Min="15000" Max="60000" /></Math></Bot> KB now! :sgsmile:</Response>
+		</Model>
+
+		<Model>
 			<Pattern>NEWRATIO</Pattern>
 			<Response>Today's ratio is: <Math Round="2"><Goto>RANDOMINT 50 100</Goto>/100</Math></Response>
 		</Model>
