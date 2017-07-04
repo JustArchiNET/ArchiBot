@@ -96,6 +96,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>:3&lt;</Pattern>
+			<Response>:3&lt;</Response>
+		</Model>
+
+		<Model>
 			<Pattern>WHO IS FAKENAME</Pattern>
 			<Response>
 				<Random>
