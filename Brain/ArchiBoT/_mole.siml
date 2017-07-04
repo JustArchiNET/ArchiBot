@@ -27,7 +27,8 @@
         <Model>
             <Pattern>
                 <Item>DO NOT REMIND ME</Item>
-                <Item>FORGET REMINDERS</Item>
+                <Item>FORGET MY (REMINDER|REMINDERS)</Item>
+                <Item>FORGET (REMINDER|REMINDERS)</Item>
             </Pattern>
             <Response>Ok <User Get="Nickname" />, I will forget anything you asked me to remind you.<ArchiSynBotLateTasksClear /></Response>
         </Model>
