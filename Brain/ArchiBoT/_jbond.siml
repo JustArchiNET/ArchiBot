@@ -318,7 +318,7 @@
     <Model>
       <Pattern>NICKY</Pattern>
       <Response>http://www.imdb.com/name/nm0000115/</Response>
-    <Model>
+    </Model>
     
     <Model>
       <Pattern>% CHEER ME UP %</Pattern>
