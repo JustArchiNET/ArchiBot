@@ -778,13 +778,13 @@ nexttime(<Match />);</Js></Var> seconds!
 					<Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
 				</Think>
 				I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>
+				<Bind Key="{Tminus1}"><Math><Var Get="timeToReminder" />-1</Math></Bind>
+				<Bind Key="{Tminus2}"><Math><Var Get="timeToReminder" />-2</Math></Bind>
+				<Bind Key="{Tminus3}"><Math><Var Get="timeToReminder" />-3</Math></Bind>
+				<Late Second="{Tminus3}">3...</Late>
+				<Late Second="{Tminus2}">2...</Late>
+				<Late Second="{Tminus1}">1...</Late>
 				<Late Second="{TimeInSeconds}"><Text>{Task}</Text> time!</Late>
-				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-1</Math></Bind>
-				<Late Second="{TimeInSeconds}">1...</Late>
-				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-2</Math></Bind>
-				<Late Second="{TimeInSeconds}">2...</Late>
-				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-3</Math></Bind>
-				<Late Second="{TimeInSeconds}">3...</Late>
 <!--
 				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" />-4</Math></Bind>
 				<Late Second="{TimeInSeconds}">4...</Late>
