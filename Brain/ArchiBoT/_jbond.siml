@@ -313,6 +313,13 @@
       </Response>
     </Model>
     
+    <!-- Nicky - Suggestion by Taigo -->
+    
+    <Model>
+      <Pattern>NICKY</Pattern>
+      <Response>http://www.imdb.com/name/nm0000115/</Response>
+    <Model>
+    
     <Model>
       <Pattern>% CHEER ME UP %</Pattern>
       <Response>How about a joke? <Goto>RANDOMJOKE</Goto></Response>
