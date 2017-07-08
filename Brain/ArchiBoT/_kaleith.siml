@@ -627,6 +627,14 @@
 		</Model>
 	</Concept>
 
+
+	<Concept Name="jbondjoke" User="steam-76561198073764076">
+		<Model>
+			<Pattern>_</Pattern>
+			<Response>You are banned from using or changing my AI, sorry :sgsmile:</Response>
+		</Model>
+	</Concept>
+
 <!-- Private Concept for user-exclusive commands --> 
 	<Concept Name="_kaleith_priv" User="steam-76561198025147895">
 		<Model>
