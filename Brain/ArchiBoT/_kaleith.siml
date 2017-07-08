@@ -635,6 +635,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>WHO IS (JBOND|JBONDGUY|JBONDGUY007)</Pattern>
+			<Response>Someone who is banned from ever touching my AI again.</Response>
+		</Model>
+
+		<Model>
 			<Pattern>REMBERTESTAAA</Pattern>
 			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept AAA
 				<Learn>
@@ -719,12 +724,12 @@
 			<Response>Humble bundle set in
 				<Var Set="timeToReminder"><Js>function nexttime(t) {
 <!--    if (new Date().getUTCHours() &gt;= t) {
-        t += 24;
-    }
+		t += 24;
+	}
 TODO: try Goto createlatetask seconds name maybe
 
 -->
-    return Math.floor((new Date().setUTCHours(t, 0, 0, 0) - Date.now()) / 1000);
+	return Math.floor((new Date().setUTCHours(t, 0, 0, 0) - Date.now()) / 1000);
 }
 nexttime(<Match />);</Js></Var> seconds!
 				<Bind Key="{TimeInSeconds}"><Math><Var Get="timeToReminder" /></Math></Bind>
@@ -743,12 +748,12 @@ nexttime(<Match />);</Js></Var> seconds!
 			<Response>Humble bundle with goto set in
 				<Var Set="timeToReminder"><Js>function nexttime(t) {
 <!--    if (new Date().getUTCHours() &gt;= t) {
-        t += 24;
-    }
+		t += 24;
+	}
 TODO: try Goto createlatetask seconds name maybe
 
 -->
-    return Math.floor((new Date().setUTCHours(t, 43, 10, 0) - Date.now()) / 1000);
+	return Math.floor((new Date().setUTCHours(t, 43, 10, 0) - Date.now()) / 1000);
 }
 nexttime(<Match />);</Js></Var> seconds!
 				<Var Think:Set="i" Value="10" />
