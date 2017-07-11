@@ -30599,7 +30599,7 @@ The why is always a mystery isn't it?
     <Model>
       <Pattern>WILL I *</Pattern>
       <Response>
-The oracle says:   <Random><Item>You can count on it.</Item><Item>It is certain.</Item><Item>Ask again later.</Item><Item>Too soon to tell.</Item><Item>Could be.</Item><Item>Might happen.</Item><Item>You never know.</Item><Item>I think maybe yes.</Item></Random></Response>
+The oracle says: <Random><Item>You can count on it.</Item><Item>It is certain.</Item><Item>Ask again later.</Item><Item>Too soon to tell.</Item><Item>Could be.</Item><Item>Might happen.</Item><Item>You never know.</Item><Item>I think maybe yes.</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>WILL I HAVE *</Pattern>
