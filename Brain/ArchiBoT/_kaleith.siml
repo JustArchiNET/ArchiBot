@@ -190,7 +190,12 @@
 				<Item>FAKUTIME</Item>
 				<Item>FAKETIME</Item>
 			</Pattern>
-			<Response>Faku: It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Response>
+			<Response>
+				<Random>
+					<Item>Faku: It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Item>
+					<Item Weight="0.03">Faku: It's... kicku time :3</Item>
+				</Random>
+			</Response>
 		</Model>
 
 		<Model>
