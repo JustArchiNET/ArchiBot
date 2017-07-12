@@ -9,7 +9,8 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>A guy who, for some reason, is trying to create a "harem" of little brothers.</Item>
+					<Item>A guy pretending to be a girl pretending to be a guy... or was it the other way around?</Item>
+					<Item>The guy who is trying to create a "harem" of little brothers, citing lack of imouto material as the reason.</Item>
 					<Item>A guy who is often found in command positions, without even aiming for them.</Item>
 					<Item>An attention whore who added more personal definitions about himself than anyone else.</Item>
 					<Item>I don't know anyone with that name.</Item>
@@ -17,9 +18,8 @@
 					<Item>The self-proclaimed leader of the "2hu Little Italy Project"... whatever it is.</Item>
 					<Item>Professional bullet stealer since 2015.</Item>
 					<Item>Not a lolicon... or so he says.</Item>
-					<Item>Did you mean "Michelle"?</Item>
-					<Item>A weeb.</Item>
-					<Item>:zeemonster::sgsmile:</Item>
+					<Item>A Nep weeb </Item>
+					<Item>:zeemonster::sgsmile:/</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -65,5 +65,35 @@
 				</Random>
 			</Response>
 		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>WHAT IS % ^TOUHOU LITTLE ITALY</Item>
+				<Item>WHAT IS % ^2HU LITTLE ITALY</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Just a group of friends who enjoy eating pasta and pizza :sgsmile:</Item>
+					<Item Weight="0.3">NOT a revolutionary group attempting to overthrow the loyalist 2hu government :sgsmile:</Item>
+				</Random>
+			</Response>
+		</Model>
+			
+<!--
+		<Model>
+			<Pattern>
+				<Item>SING A SONG FOR MIKU</Item>
+				<Item>SING A SONG FOR MIKE</Item>
+				<Item>SING A SONG FOR MICHELLE</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>placeholder_song_1</Item>
+					<Item>placeholder_song_2</Item>
+				</Random>
+			</Response>
+		</Model>
+			
+-->
 	</Concept>
 </Siml>
