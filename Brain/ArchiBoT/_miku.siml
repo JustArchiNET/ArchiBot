@@ -68,8 +68,8 @@
 		
 		<Model>
 			<Pattern>
-				<Item>WHAT IS % ^TOUHOU LITTLE ITALY</Item>
-				<Item>WHAT IS % ^2HU LITTLE ITALY</Item>
+				<Item>^WHAT IS % TOUHOU LITTLE ITALY</Item>
+				<Item>^WHAT IS % 2HU LITTLE ITALY</Item>
 			</Pattern>
 			<Response>
 				<Random>
