@@ -77,7 +77,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>CATBALL %</Pattern>
+			<Pattern>
+				<Item>CATBALL %</Item>
+				<Item>NEKOBALL %</Item>
+				<Item>:NEKO:BALL %</Item>
+				<Item>ːNEKOːBALL %</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>:Neko: *licks <Random>(left|right)</Random> ball*</Item>
