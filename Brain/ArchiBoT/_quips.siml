@@ -80,7 +80,7 @@
 			<Pattern>CATBALL %</Pattern>
 			<Response>
 				<Random>
-					<Item>:Neko *licks <Random>(left|right)</Random> ball*</Item>
+					<Item>:Neko: *licks <Random>(left|right)</Random> ball*</Item>
 					<Item>:Neko: *looks at you as if saying "I'm a cat, why are you asking me?"*</Item>
 					<Item>:Neko:: [meow in a foreign language]</Item>
 					<Item>:Neko: *purring noises*</Item>
