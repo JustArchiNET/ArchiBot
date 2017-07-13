@@ -1320,7 +1320,7 @@ I've never heard of them before. <User Think:Set="it"><User Set="concept"><Map 
       <Pattern>_</Pattern>
       <Previous>WHO IS THERE</Previous>
       <Response>
-        <Map Get="person" /> Who?
+        <Map Get="person" /> who?
 </Response>
     </Model>
     <Model>
