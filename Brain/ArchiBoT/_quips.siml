@@ -81,7 +81,7 @@
 			<Response>
 				<Random>
 					<Item>:Neko *licks <Random>(left|right)</Random> ball*</Item>
-					<Item>:Neko: I'm a cat, why are you asking me :3</Item>
+					<Item>:Neko: *looks at you as if saying "I'm a cat, why are you asking me?"*</Item>
 					<Item>:Neko:: [meow in a foreign language]</Item>
 					<Item>:Neko: *purring noises*</Item>
 					<Item>:Neko: *dry heaving noises*</Item>
@@ -97,6 +97,7 @@
 					<Item>:Neko: *plays with charger cord*</Item>
 					<Item>:Neko: *stares at you, then at the food bowl*</Item>
 					<Item>:Neko: *scratches the door to go outside*</Item>
+					<Item>:Neko: *tries to mind control you into adding wet food to the bowl*</Item>
 				</Random>
 			</Response>
 		</Model>
