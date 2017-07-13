@@ -78,10 +78,10 @@
 
 		<Model>
 			<Pattern>
-				<Item>CATBALL %</Item>
-				<Item>NEKOBALL %</Item>
-				<Item>:NEKO:BALL %</Item>
-				<Item>ːNEKOːBALL %</Item>
+				<Item>^CATBALL %</Item>
+				<Item>^NEKOBALL %</Item>
+				<Item>^:NEKO:BALL %</Item>
+				<Item>^ːNEKOːBALL %</Item>
 			</Pattern>
 			<Response>
 				<Random>
