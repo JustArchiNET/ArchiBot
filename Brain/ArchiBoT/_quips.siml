@@ -77,6 +77,31 @@
 		</Model>
 
 		<Model>
+			<Pattern>CATBALL %</Pattern>
+			<Response>
+				<Random>
+					<Item>:Neko *licks <Random>(left|right)</Random> ball*</Item>
+					<Item>:Neko: I'm a cat, why are you asking me :3</Item>
+					<Item>:Neko:: [meow in a foreign language]</Item>
+					<Item>:Neko: *purring noises*</Item>
+					<Item>:Neko: *dry heaving noises*</Item>
+					<Item>:Neko:: hiss</Item>
+					<Item>:Neko:: mrrroww</Item>
+					<Item>:Neko:: nya?</Item>
+					<Item>:Neko:: にゃーにゃーお</Item>
+					<Item>:Neko:: ごろごろ</Item>
+					<Item>:Neko:: WOOF WOOF</Item>
+					<Item>:Neko: *rubs up against your leg*</Item>
+					<Item>:Neko: *stares blankly at you*</Item>
+					<Item>:Neko: [random cat noises]</Item>
+					<Item>:Neko: *plays with charger cord*</Item>
+					<Item>:Neko: *stares at you, then at the food bowl*</Item>
+					<Item>:Neko: *scratches the door to go outside*</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>EULA</Pattern>
 			<Response>In no event (including, without limitation, in the event of negligence) will Touhou Giveaways, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to !ai taigo.</Response>
 		</Model>
