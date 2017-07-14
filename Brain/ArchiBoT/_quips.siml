@@ -78,25 +78,43 @@
 
 		<Model>
 			<Pattern>
-				<Item>^CATBALL %</Item>
-				<Item>^NEKOBALL %</Item>
-				<Item>^:NEKO:BALL %</Item>
-				<Item>^ːNEKOːBALL %</Item>
+				<Item>^CATBALL _</Item>
+				<Item>^NEKOBALL _</Item>
+				<Item>^:NEKO:BALL _</Item>
+				<Item>^ːNEKOːBALL _</Item>
+				<Item>^NYANBALL _</Item>
 			</Pattern>
 			<Response>
 				<Random>
 					<Item>:Neko:: hiss</Item>
-					<Item>:Neko:: mrrroww</Item>
-					<Item>:Neko:: nya?</Item>
-					<Item>:Neko:: にゃーにゃーお</Item>
-					<Item>:Neko:: ごろごろ</Item>
-					<Item>:Neko:: WOOF WOOF</Item>
-					<Item>:Neko:: [meow in a foreign language]</Item>
-					<Item>:Neko: [random cat noises]</Item>
+					<Item>:Neko:: hiss definitely</Item>
+					<Item>:Neko:: Signs point to hiss</Item>
+					<Item>:Neko:: Ask again after you give me food</Item>
+					<Item>:Neko:: Better not tell you before my nap</Item>
+					<Item>:Neko:: Busy pooping, ask later</Item>
+					<Item>:Neko: *using an invisible telegraph* MEOW MEOW STOP MEOW STOP</Item>
+					<Item>:Neko:: [answer in ancient catspeak]</Item>
+					<Item>:Neko: *stares at you as if asking "I'm a cat, why are you asking me?"</Item>
+					<Item>:Neko: *ignores the question and licks his <Random>(left|right)</Random> ball*</Item>
+					<Item>:Neko:: my sources say nya</Item>
+					<Item>:Neko:: nya</Item>
+					<Item>:Neko:: My reply is nyan</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^CATBALL</Item>
+				<Item>^NEKOBALL</Item>
+				<Item>^:NEKO:BALL</Item>
+				<Item>^ːNEKOːBALL</Item>
+				<Item>^NYANBALL</Item>
+			</Pattern>
+			<Response>
+				<Random>
 					<Item>:Neko: *purring noises*</Item>
 					<Item>:Neko: *dry heaving noises*</Item>
-					<Item>:Neko: *licks <Random>(left|right)</Random> ball*</Item>
-					<Item>:Neko: *looks at you as if saying "I'm a cat, why are you asking me?"*</Item>
 					<Item>:Neko: *plays with charger cord*</Item>
 					<Item>:Neko: *rubs up against your leg*</Item>
 					<Item>:Neko: *stares blankly at you*</Item>
@@ -105,7 +123,6 @@
 					<Item>:Neko: *tries to mind control you into adding wet food to the bowl*</Item>
 					<Item>:Neko: *conjures a dead bird out of nowhere and starts playing with it*</Item>
 					<Item>:Neko: *looks at you expecting tuna*</Item>
-					<Item>:Neko: *using an invisible telegraph* MEOW MEOW STOP MEOW STOP</Item>
 				</Random>
 			</Response>
 		</Model>
