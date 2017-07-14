@@ -3,7 +3,7 @@
     <Concept Name="_mole">
         <!-- Remind me, the javascript version -->
         <Model>
-            <Pattern>Remind me in _ to _</Pattern>
+            <Pattern>^REMIND ME IN _ TO _</Pattern>
             <Response>
                 <Think>
                     <Bind Key="{Time}"><Match /></Bind>
@@ -20,15 +20,15 @@
         </Model>
 
         <Model>
-            <Pattern>Remind me to _ in _</Pattern>
+            <Pattern>^REMIND ME TO _ IN _</Pattern>
             <Response><Goto>Remind me in <Match Index="2" /> to <Match /></Goto></Response>
         </Model>
 
         <Model>
             <Pattern>
-                <Item>DO NOT REMIND ME</Item>
-                <Item>FORGET MY (REMINDER|REMINDERS)</Item>
-                <Item>FORGET (REMINDER|REMINDERS)</Item>
+                <Item>^DO NOT REMIND ME</Item>
+                <Item>^FORGET MY (REMINDER|REMINDERS)</Item>
+                <Item>^FORGET (REMINDER|REMINDERS)</Item>
             </Pattern>
             <Response>Ok <User Get="Nickname" />, I will forget anything you asked me to remind you.<ArchiSynBotLateTasksClear /></Response>
         </Model>
@@ -38,7 +38,7 @@
             23:28 - Chat Exorcist Taigo: A command to get measurements of anime girls
         -->
         <Model>
-            <Pattern>BWH _</Pattern>
+            <Pattern>^BWH _</Pattern>
             <Response>
                 <Match />'s three sizes are <Js>randomIntBetween(60, 120)</Js>-<Js>randomIntBetween(45, 90)</Js>-<Js>randomIntBetween(60, 120)</Js>
             </Response>
