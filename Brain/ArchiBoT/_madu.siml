@@ -3,9 +3,9 @@
 	<Concept Name="_madu">
 		<Model>
 			<Pattern>
-				<Item>WHO IS MADU</Item>
-				<Item>WHO IS MADURUDE</Item>
-				<Item>WHO IS MADUMIUS</Item>
+				<Item>^WHO IS MADU</Item>
+				<Item>^WHO IS MADURUDE</Item>
+				<Item>^WHO IS MADUMIUS</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -26,14 +26,14 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHO IS (MAUD|MDAU|MDUA|MUAD|MUDA|AMUD|AMDU|ADUM|ADMU|AUDM|AUMD|DMAU|DMUA|DAMU|DAUM|DUMA|DUAM|UMDA|UMAD|UADM|UAMD|UDAM|UDMA)</Pattern>
+			<Pattern>^WHO IS (MAUD|MDAU|MDUA|MUAD|MUDA|AMUD|AMDU|ADUM|ADMU|AUDM|AUMD|DMAU|DMUA|DAMU|DAUM|DUMA|DUAM|UMDA|UMAD|UADM|UAMD|UDAM|UDMA)</Pattern>
 			<Response>"Who is <Match />"? Ok... :doubt:&#xD;<Goto>MADUNIZE <Goto>WHO IS MADU</Goto></Goto></Response>
 		</Model>
 
 		<Model>
 			<Pattern>
-				<Item>MADU STREAM</Item>
-				<Item>MADU STREAMING</Item>
+				<Item>^MADU STREAM</Item>
+				<Item>^MADU STREAMING</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -49,8 +49,8 @@
 
 		<Model>
 			<Pattern>
-				<Item>MADUNIZE _</Item>
-				<Item>MADUIZE _</Item>
+				<Item>^MADUNIZE _</Item>
+				<Item>^MADUIZE _</Item>
 			</Pattern>
 			<Response>
 					<Var Think:Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
@@ -65,7 +65,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>STRINGSHUFFLE _</Pattern>
+			<Pattern>^STRINGSHUFFLE _</Pattern>
 			<Response>
 				<Think>
 					<Var Set="chars"><Text Get="Length"><Match /></Text></Var>
