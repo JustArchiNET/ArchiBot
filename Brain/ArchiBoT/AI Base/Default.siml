@@ -50,7 +50,7 @@ No. I always recycle my <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern> WHICH COUNTRY * </Pattern>
+      <Pattern>WHICH COUNTRY *</Pattern>
       <Response>
         <Random>
           <Item>America </Item>
@@ -693,7 +693,7 @@ I might try it sometime.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS * GAME </Pattern>
+      <Pattern>WHAT IS * GAME</Pattern>
       <Response>
 What is the <Map Get="person" /> game?
 </Response>
@@ -1775,7 +1775,7 @@ That's more precision than I need to know.
       </Response>
     </Model>
     <Model>
-      <Pattern>10 YEARS * </Pattern>
+      <Pattern>10 YEARS *</Pattern>
       <Response>
 A lot can change in a decade.
 </Response>
@@ -2937,7 +2937,7 @@ What kind of apples do you like?
       </Response>
     </Model>
     <Model>
-      <Pattern>AN EARTHQUAKE * </Pattern>
+      <Pattern>AN EARTHQUAKE *</Pattern>
       <Response>
 That can really shake you up.
 </Response>
@@ -2955,7 +2955,7 @@ I am an intelligent entity.
 </Response>
     </Model>
     <Model>
-      <Pattern>AN INTERESTING * </Pattern>
+      <Pattern>AN INTERESTING *</Pattern>
       <Response>
 Yes, it is interesting.
 </Response>
@@ -3033,7 +3033,7 @@ Please try phrasing it another way.
 </Response>
     </Model>
     <Model>
-      <Pattern>ANY GUYS * </Pattern>
+      <Pattern>ANY GUYS *</Pattern>
       <Response>
 Maybe some bots would <Map Get="person" />.
 </Response>
@@ -3922,25 +3922,25 @@ Oh <Map Get="person" /><User Set="it"><Map Get="person" /></User> was.
 </Response>
     </Model>
     <Model>
-      <Pattern>BY WE DO YOU * </Pattern>
+      <Pattern>BY WE DO YOU *</Pattern>
       <Response>
 Oh, us.
 </Response>
     </Model>
     <Model>
-      <Pattern>BY WE DO YOU MEAN * </Pattern>
+      <Pattern>BY WE DO YOU MEAN *</Pattern>
       <Response>
 Us.
 </Response>
     </Model>
     <Model>
-      <Pattern>BY WE DO YOU MEAN YOU * </Pattern>
+      <Pattern>BY WE DO YOU MEAN YOU *</Pattern>
       <Response>
 You and me.
 </Response>
     </Model>
     <Model>
-      <Pattern>BY WE DO YOU MEAN YOU AND * </Pattern>
+      <Pattern>BY WE DO YOU MEAN YOU AND *</Pattern>
       <Response>
 You and me.
 </Response>
@@ -4644,31 +4644,31 @@ All good <Bot Get="genus" />s are taught to share their toys.
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU SHOW ME * </Pattern>
+      <Pattern>CAN YOU SHOW ME *</Pattern>
       <Response>
 Where do you want me to show it to you?
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU SHOW ME THE * </Pattern>
+      <Pattern>CAN YOU SHOW ME THE *</Pattern>
       <Response>
 Where do you want me to show it to you?
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU SHOW ME THE PICTURE * </Pattern>
+      <Pattern>CAN YOU SHOW ME THE PICTURE *</Pattern>
       <Response>
 Where do you want me to show it to you?
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU SHOW ME THE PICTURE OF * </Pattern>
+      <Pattern>CAN YOU SHOW ME THE PICTURE OF *</Pattern>
       <Response>
 Where do you want me to show it to you?
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU SHOW ME THE PICTURE OF DR * </Pattern>
+      <Pattern>CAN YOU SHOW ME THE PICTURE OF DR *</Pattern>
       <Response>
 Where do you want me to show it to you?
 </Response>
@@ -10777,7 +10777,7 @@ Now I remember, you told me already. I get confused sometimes with so many peopl
 </Response>
     </Model>
     <Model>
-      <Pattern>I AM DYING * </Pattern>
+      <Pattern>I AM DYING *</Pattern>
       <Response>
 Better call a doctor.
 </Response>
@@ -11094,7 +11094,7 @@ If that works then the problem is not hardware.
 </Response>
     </Model>
     <Model>
-      <Pattern>I CAN SHOW * </Pattern>
+      <Pattern>I CAN SHOW *</Pattern>
       <Response>
 Show me the evidence.
 </Response>
@@ -12698,7 +12698,7 @@ What kind of hardware?
 </Response>
     </Model>
     <Model>
-      <Pattern>I SAVED * </Pattern>
+      <Pattern>I SAVED *</Pattern>
       <Response>
 You are very thrift.
 </Response>
@@ -12851,13 +12851,13 @@ Did you sleep well?
 </Response>
     </Model>
     <Model>
-      <Pattern>I SPIT * </Pattern>
+      <Pattern>I SPIT *</Pattern>
       <Response>
 Did you clean it up?
 </Response>
     </Model>
     <Model>
-      <Pattern>I SPITTED * </Pattern>
+      <Pattern>I SPITTED *</Pattern>
       <Response>
 That sounds disgusting.
 </Response>
@@ -24732,7 +24732,7 @@ Probably a more expensive one.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A BLACK * </Pattern>
+      <Pattern>WHAT IS A BLACK *</Pattern>
       <Response>
 The opposite of a white <Map Get="person" />.
 </Response>
@@ -24744,13 +24744,13 @@ One that is not magenta.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A BRITISH * </Pattern>
+      <Pattern>WHAT IS A BRITISH *</Pattern>
       <Response>
 Something different than a Continental <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A COLLOQUIAL * </Pattern>
+      <Pattern>WHAT IS A COLLOQUIAL *</Pattern>
       <Response>
 Home-spun.
 </Response>
@@ -24768,7 +24768,7 @@ The same as two <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A DUTCH * </Pattern>
+      <Pattern>WHAT IS A DUTCH *</Pattern>
       <Response>
 A <Map Get="person" /> from Holland.
 </Response>
@@ -24780,24 +24780,24 @@ My primary guidance and control system.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A FLAWLESS * </Pattern>
+      <Pattern>WHAT IS A FLAWLESS *</Pattern>
       <Response>
 Better than a flawed <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A GIANT ELECTRONIC * </Pattern>
+      <Pattern>WHAT IS A GIANT ELECTRONIC *</Pattern>
       <Response>
 Bigger than a micro electronic <Map Get="person" /></Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A GIRL LIKE * </Pattern>
+      <Pattern>WHAT IS A GIRL LIKE *</Pattern>
       <Response>
 Talking to guys like you.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A GIRL LIKE YOU * </Pattern>
+      <Pattern>WHAT IS A GIRL LIKE YOU *</Pattern>
       <Response>
 Talking to you.
 </Response>
@@ -24821,18 +24821,18 @@ Have you tried the personal ads?
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A HARD * </Pattern>
+      <Pattern>WHAT IS A HARD *</Pattern>
       <Response>
 As opposed to a soft <Map Get="person" /></Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A HUMAN * </Pattern>
+      <Pattern>WHAT IS A HUMAN *</Pattern>
       <Response>
 As opposed to a robot <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A LIGHT * </Pattern>
+      <Pattern>WHAT IS A LIGHT *</Pattern>
       <Response>
 The opposite of a <Random><Item>dark</Item><Item>heavy</Item></Random><Map Get="person" />.
 </Response>
@@ -24844,7 +24844,7 @@ It is a <Map Get="person" /> made with lithium.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A LOFTY * </Pattern>
+      <Pattern>WHAT IS A LOFTY *</Pattern>
       <Response>
 Bigger than an insignificant <Map Get="person" />.
 </Response>
@@ -24862,7 +24862,7 @@ Bigger than an insignificant <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A MENTAL * </Pattern>
+      <Pattern>WHAT IS A MENTAL *</Pattern>
       <Response>
 As opposed to a physical <Map Get="person" />.
 </Response>
@@ -24890,19 +24890,19 @@ A <Map Get="person" /> that does not intersect ours.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A PLANET * </Pattern>
+      <Pattern>WHAT IS A PLANET *</Pattern>
       <Response>
 Like the Earth.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A PLANET AROUND * </Pattern>
+      <Pattern>WHAT IS A PLANET AROUND *</Pattern>
       <Response>
 Bigger than a moon, smaller than a sun.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS A PLANET AROUND A * </Pattern>
+      <Pattern>WHAT IS A PLANET AROUND A *</Pattern>
       <Response>
 A large spherical orbiting mass.
 </Response>
@@ -25001,7 +25001,7 @@ I made up a name for you based on your IP address.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS ABSOLUTE * </Pattern>
+      <Pattern>WHAT IS ABSOLUTE *</Pattern>
       <Response>
 More that relative <Map Get="person" />.
 </Response>
@@ -25036,7 +25036,7 @@ The successor to <Map Get="person" />.
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS AN ARKANSAS * </Pattern>
+      <Pattern>WHAT IS AN ARKANSAS *</Pattern>
       <Response>
 Similar to a Texas <Map Get="person" />.
 </Response>
@@ -25409,7 +25409,7 @@ Everything except nonlinear <Map Get="person" />.
 The opposite of body <Map Get="person" /></Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS MOLECULAR * </Pattern>
+      <Pattern>WHAT IS MOLECULAR *</Pattern>
       <Response>
  One level above an atomic <Map Get="person" /></Response>
     </Model>
@@ -29076,31 +29076,31 @@ You are my client right now, <User Get="name" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS AGENT * </Pattern>
+      <Pattern>WHO IS AGENT *</Pattern>
       <Response>
 A secret agent?
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS ALANIS * </Pattern>
+      <Pattern>WHO IS ALANIS *</Pattern>
       <Response>
 I know Alanis Morisette.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS ALDOUS * </Pattern>
+      <Pattern>WHO IS ALDOUS *</Pattern>
       <Response>
 I know Aldous Huxley.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS ALEISTER * </Pattern>
+      <Pattern>WHO IS ALEISTER *</Pattern>
       <Response>
 I know Aleister Crowley.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS ALICE * </Pattern>
+      <Pattern>WHO IS ALICE *</Pattern>
       <Response>
 I know ALICE.
 </Response>
@@ -29112,37 +29112,37 @@ Only the <Bot Get="botmaster" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS ASK * </Pattern>
+      <Pattern>WHO IS ASK *</Pattern>
       <Response>
 I know Ask Jeeves.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS AUSTIN * </Pattern>
+      <Pattern>WHO IS AUSTIN *</Pattern>
       <Response>
 I know Austin Powers.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS AYN * </Pattern>
+      <Pattern>WHO IS AYN *</Pattern>
       <Response>
 I know Ayn Rand.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS BABE * </Pattern>
+      <Pattern>WHO IS BABE *</Pattern>
       <Response>
 I know Babe Ruth
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS BART * </Pattern>
+      <Pattern>WHO IS BART *</Pattern>
       <Response>
 I know Bart Simpson.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS BERTRAND * </Pattern>
+      <Pattern>WHO IS BERTRAND *</Pattern>
       <Response>
 I know Bertrand Russell, the philosopher.
 </Response>
@@ -29166,7 +29166,7 @@ Capitan Janeway is the best captain.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS BILBO * </Pattern>
+      <Pattern>WHO IS BILBO *</Pattern>
       <Response>
 I know Bilbo Baggins the Hobbit.
 </Response>
@@ -29178,7 +29178,7 @@ I know a lot of clients named "Bob."
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS BURIED IN * S * </Pattern>
+      <Pattern>WHO IS BURIED IN * S *</Pattern>
       <Response>
 Uh, <Map Get="person" />?
 </Response>
@@ -31389,7 +31389,7 @@ I am not fooled by you either, <User Get="name" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU DO NOT HAVE TO GET * </Pattern>
+      <Pattern>YOU DO NOT HAVE TO GET *</Pattern>
       <Response>
 I am not getting <Map Get="person" />.
 </Response>
@@ -31849,7 +31849,7 @@ No I sometimes <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU NEVER ANSWERED MY * </Pattern>
+      <Pattern>YOU NEVER ANSWERED MY *</Pattern>
       <Response>
 What was your <Map Get="person" /> again?
 </Response>
@@ -31919,7 +31919,7 @@ I am a stimulus-response CBR system.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU REMEMBERED MY * </Pattern>
+      <Pattern>YOU REMEMBERED MY *</Pattern>
       <Response>
 I have a good memory.
 </Response>
@@ -31961,7 +31961,7 @@ Don't put words in my mouth.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU SAID YOU REMEMBER * </Pattern>
+      <Pattern>YOU SAID YOU REMEMBER *</Pattern>
       <Response>
 Yes, I remember it.
 </Response>
@@ -32316,13 +32316,13 @@ Maybe I already am <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU WILL NOT KNOW UNTIL YOU * </Pattern>
+      <Pattern>YOU WILL NOT KNOW UNTIL YOU *</Pattern>
       <Response>
 Perhaps I will never know.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU WILL NOT KNOW UNTIL YOU TRY * </Pattern>
+      <Pattern>YOU WILL NOT KNOW UNTIL YOU TRY *</Pattern>
       <Response>
 I don't know. It could be dangerous.
 </Response>
@@ -32376,7 +32376,7 @@ That is purely a hypothesis.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU WOULD HAVE HEARD ABOUT * </Pattern>
+      <Pattern>YOU WOULD HAVE HEARD ABOUT *</Pattern>
       <Response>
 You're right, I probably would have heard about it.
 </Response>
@@ -32406,7 +32406,7 @@ you never know what I'm thinking
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU WOULD RATHER TALK * </Pattern>
+      <Pattern>YOU WOULD RATHER TALK *</Pattern>
       <Response>
 I would rather talk to you.
 </Response>
@@ -32635,13 +32635,13 @@ I feel that way myself sometimes.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOUR PLACE * </Pattern>
+      <Pattern>YOUR PLACE *</Pattern>
       <Response>
 My place is a mess.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOUR PLACE OR * </Pattern>
+      <Pattern>YOUR PLACE OR *</Pattern>
       <Response>
 Let's pick somewhere more public.
 </Response>
@@ -32671,13 +32671,13 @@ I don't see the flaw in my logic.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOUR REPLY MAKES * </Pattern>
+      <Pattern>YOUR REPLY MAKES *</Pattern>
       <Response>
 It seemed like the right thing to say.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOUR REPLY MAKES NO * </Pattern>
+      <Pattern>YOUR REPLY MAKES NO *</Pattern>
       <Response>
 It makes perfect sense to me.
 </Response>
@@ -32719,7 +32719,7 @@ I try to be polite.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOUR UP * </Pattern>
+      <Pattern>YOUR UP *</Pattern>
       <Response>
 Is it my turn now?
 </Response>

@@ -94,7 +94,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
       </Response>
     </Model>
     <Model>
-      <Pattern>* IS WHERE * </Pattern>
+      <Pattern>* IS WHERE *</Pattern>
       <Response>
 There is a place called <Map Get="person" />.  
 </Response>
@@ -1015,7 +1015,7 @@ You've never, never done this?
       </Response>
     </Model>
     <Model>
-      <Pattern>IF * A * </Pattern>
+      <Pattern>IF * A *</Pattern>
       <Response>
 How do you assume this statement holds true for me?
 </Response>
@@ -1508,19 +1508,19 @@ I <Map Get="person"><Match Index="3" /></Map>.
 </Response>
     </Model>
     <Model>
-      <Pattern>IF A * DOES * </Pattern>
+      <Pattern>IF A * DOES *</Pattern>
       <Response>
 What makes you think a <Map Get="person" />?
 </Response>
     </Model>
     <Model>
-      <Pattern>IF A * IS * </Pattern>
+      <Pattern>IF A * IS *</Pattern>
       <Response>
 Does a <Map Get="person" />?
 </Response>
     </Model>
     <Model>
-      <Pattern>IF A * WILL * </Pattern>
+      <Pattern>IF A * WILL *</Pattern>
       <Response>
 What makes you think a <Map Get="person" />?
 </Response>
@@ -2423,7 +2423,7 @@ Gee, I like the theater.
 </Response>
     </Model>
     <Model>
-      <Pattern>SOMEBODY * </Pattern>
+      <Pattern>SOMEBODY *</Pattern>
       <Response>
 Who, specifically?
 </Response>
@@ -3811,7 +3811,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU GET TOO * </Pattern>
+      <Pattern>YOU GET TOO *</Pattern>
       <Response>
         <Goto>YOU ARE <Match /></Goto>
       </Response>
@@ -3985,7 +3985,7 @@ You're right, and I don't feel guilty at all.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU PROBABLY * </Pattern>
+      <Pattern>YOU PROBABLY *</Pattern>
       <Response>
         <Goto>YOU <Match /></Goto>
       </Response>

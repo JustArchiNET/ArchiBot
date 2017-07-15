@@ -2,7 +2,7 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Reduce">
     <Model>
-      <Pattern> I REMAINED *</Pattern>
+      <Pattern>I REMAINED *</Pattern>
       <Response>
         <Goto>I AM <Match /></Goto>
       </Response>
@@ -143,7 +143,7 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>I BROUGHT UP HOW YOU * </Pattern>
+      <Pattern>I BROUGHT UP HOW YOU *</Pattern>
       <Response>
         <Goto>YOU <Match /></Goto>
       </Response>
@@ -448,7 +448,7 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>THE FIGHT * IS BEING WAGED * </Pattern>
+      <Pattern>THE FIGHT * IS BEING WAGED *</Pattern>
       <Response>
         <Goto>Fighting is <Match Index="2" /></Goto>
       </Response>
@@ -1429,61 +1429,61 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>1 OR * </Pattern>
+      <Pattern>1 OR *</Pattern>
       <Response>
         <Goto>one or <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>11 * </Pattern>
+      <Pattern>11 *</Pattern>
       <Response>
         <Goto>eleven <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>12 * </Pattern>
+      <Pattern>12 *</Pattern>
       <Response>
         <Goto>twelve <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>13 * </Pattern>
+      <Pattern>13 *</Pattern>
       <Response>
         <Goto>thirteen <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>14 * </Pattern>
+      <Pattern>14 *</Pattern>
       <Response>
         <Goto>fourteen <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>15 * </Pattern>
+      <Pattern>15 *</Pattern>
       <Response>
         <Goto>fifteen <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>16 * </Pattern>
+      <Pattern>16 *</Pattern>
       <Response>
         <Goto>sixteen <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>17 * </Pattern>
+      <Pattern>17 *</Pattern>
       <Response>
         <Goto>seventeen <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>18 * </Pattern>
+      <Pattern>18 *</Pattern>
       <Response>
         <Goto>eighteen <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>19 * </Pattern>
+      <Pattern>19 *</Pattern>
       <Response>
         <Goto>nineteen <Match /></Goto>
       </Response>
@@ -1505,7 +1505,7 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>21 * </Pattern>
+      <Pattern>21 *</Pattern>
       <Response>
         <Goto>twenty one <Match /></Goto>
       </Response>
@@ -1519,7 +1519,7 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>22 * </Pattern>
+      <Pattern>22 *</Pattern>
       <Response>
         <Goto>twenty two <Match /></Goto>
       </Response>
@@ -1533,7 +1533,7 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>23 * </Pattern>
+      <Pattern>23 *</Pattern>
       <Response>
         <Goto>twenty three <Match /></Goto>
       </Response>
@@ -1547,7 +1547,7 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>24 * </Pattern>
+      <Pattern>24 *</Pattern>
       <Response>
         <Goto>twenty four <Match /></Goto>
       </Response>
@@ -1561,7 +1561,7 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>25 * </Pattern>
+      <Pattern>25 *</Pattern>
       <Response>
         <Goto>twenty five <Match /></Goto>
       </Response>
@@ -1575,301 +1575,301 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>26 * </Pattern>
+      <Pattern>26 *</Pattern>
       <Response>
         <Goto>twenty six <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>27 * </Pattern>
+      <Pattern>27 *</Pattern>
       <Response>
         <Goto>twenty seven <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>28 * </Pattern>
+      <Pattern>28 *</Pattern>
       <Response>
         <Goto>twenty eight <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>29 * </Pattern>
+      <Pattern>29 *</Pattern>
       <Response>
         <Goto>twenty nine <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>30 * </Pattern>
+      <Pattern>30 *</Pattern>
       <Response>
         <Goto>thirty <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>31 * </Pattern>
+      <Pattern>31 *</Pattern>
       <Response>
         <Goto>thirty one <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>32 * </Pattern>
+      <Pattern>32 *</Pattern>
       <Response>
         <Goto>thirty two <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>33 * </Pattern>
+      <Pattern>33 *</Pattern>
       <Response>
         <Goto>thirty three <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>34 * </Pattern>
+      <Pattern>34 *</Pattern>
       <Response>
         <Goto>thirty four <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>35 * </Pattern>
+      <Pattern>35 *</Pattern>
       <Response>
         <Goto>thirty five <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>36 * </Pattern>
+      <Pattern>36 *</Pattern>
       <Response>
         <Goto>thirty six <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>37 * </Pattern>
+      <Pattern>37 *</Pattern>
       <Response>
         <Goto>thirty seven <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>38 * </Pattern>
+      <Pattern>38 *</Pattern>
       <Response>
         <Goto>thirty eight <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>39 * </Pattern>
+      <Pattern>39 *</Pattern>
       <Response>
         <Goto>thrity nine <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>40 * </Pattern>
+      <Pattern>40 *</Pattern>
       <Response>
         <Goto>forty <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>41 * </Pattern>
+      <Pattern>41 *</Pattern>
       <Response>
         <Goto>forty one <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>42 * </Pattern>
+      <Pattern>42 *</Pattern>
       <Response>
         <Goto>forty two <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>43 * </Pattern>
+      <Pattern>43 *</Pattern>
       <Response>
         <Goto>forty three <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>44 * </Pattern>
+      <Pattern>44 *</Pattern>
       <Response>
         <Goto>forty four <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>45 * </Pattern>
+      <Pattern>45 *</Pattern>
       <Response>
         <Goto>forty five <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>46 * </Pattern>
+      <Pattern>46 *</Pattern>
       <Response>
         <Goto>forty six <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>47 * </Pattern>
+      <Pattern>47 *</Pattern>
       <Response>
         <Goto>forty seven <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>48 * </Pattern>
+      <Pattern>48 *</Pattern>
       <Response>
         <Goto>forty eight <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>49 * </Pattern>
+      <Pattern>49 *</Pattern>
       <Response>
         <Goto>forty nine <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>50 * </Pattern>
+      <Pattern>50 *</Pattern>
       <Response>
         <Goto>fifty <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>51 * </Pattern>
+      <Pattern>51 *</Pattern>
       <Response>
         <Goto>fifty one <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>52 * </Pattern>
+      <Pattern>52 *</Pattern>
       <Response>
         <Goto>fifty two <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>53 * </Pattern>
+      <Pattern>53 *</Pattern>
       <Response>
         <Goto>fifty three <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>54 * </Pattern>
+      <Pattern>54 *</Pattern>
       <Response>
         <Goto>fifty four <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>55 * </Pattern>
+      <Pattern>55 *</Pattern>
       <Response>
         <Goto>fifty five <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>56 * </Pattern>
+      <Pattern>56 *</Pattern>
       <Response>
         <Goto>fifty six <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>57 * </Pattern>
+      <Pattern>57 *</Pattern>
       <Response>
         <Goto>fifty seven <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>58 * </Pattern>
+      <Pattern>58 *</Pattern>
       <Response>
         <Goto>fifty eight <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>59 * </Pattern>
+      <Pattern>59 *</Pattern>
       <Response>
         <Goto>fifty nie <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>60 * </Pattern>
+      <Pattern>60 *</Pattern>
       <Response>
         <Goto>sixty <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>61 * </Pattern>
+      <Pattern>61 *</Pattern>
       <Response>
         <Goto>sixty one <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>62 * </Pattern>
+      <Pattern>62 *</Pattern>
       <Response>
         <Goto>sixty two <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>63 * </Pattern>
+      <Pattern>63 *</Pattern>
       <Response>
         <Goto>sixty three <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>64 * </Pattern>
+      <Pattern>64 *</Pattern>
       <Response>
         <Goto>sixty four <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>65 * </Pattern>
+      <Pattern>65 *</Pattern>
       <Response>
         <Goto>sixty five <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>66 * </Pattern>
+      <Pattern>66 *</Pattern>
       <Response>
         <Goto>sixty six <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>67 * </Pattern>
+      <Pattern>67 *</Pattern>
       <Response>
         <Goto>sixty seven <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>68 * </Pattern>
+      <Pattern>68 *</Pattern>
       <Response>
         <Goto>sixty eight <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>69 * </Pattern>
+      <Pattern>69 *</Pattern>
       <Response>
         <Goto>sixty nine <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>70 * </Pattern>
+      <Pattern>70 *</Pattern>
       <Response>
         <Goto>seventy <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>71 * </Pattern>
+      <Pattern>71 *</Pattern>
       <Response>
         <Goto>seventy one <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>72 * </Pattern>
+      <Pattern>72 *</Pattern>
       <Response>
         <Goto>seventy two <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>73 * </Pattern>
+      <Pattern>73 *</Pattern>
       <Response>
         <Goto>seventy three <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>74 * </Pattern>
+      <Pattern>74 *</Pattern>
       <Response>
         <Goto>seventy four <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>75 * </Pattern>
+      <Pattern>75 *</Pattern>
       <Response>
         <Goto>seventy five <Match /></Goto>
       </Response>
@@ -1925,7 +1925,7 @@ How big? <Goto>a <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>A CLASSIC * </Pattern>
+      <Pattern>A CLASSIC *</Pattern>
       <Response>
         <Goto>a <Match /></Goto>
       </Response>
@@ -2094,7 +2094,7 @@ How big? <Goto>a <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ABOUT A * </Pattern>
+      <Pattern>ABOUT A *</Pattern>
       <Response>
         <Goto>a <Match /></Goto>
       </Response>
@@ -2112,7 +2112,7 @@ How big? <Goto>a <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ABOUT TWO * </Pattern>
+      <Pattern>ABOUT TWO *</Pattern>
       <Response>
         <Goto>two <Match /></Goto>
       </Response>
@@ -2130,7 +2130,7 @@ How big? <Goto>a <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ABOUT YOU * </Pattern>
+      <Pattern>ABOUT YOU *</Pattern>
       <Response>
         <Goto>you <Match /></Goto>
       </Response>
@@ -2407,7 +2407,7 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>AN * TOLD ME * </Pattern>
+      <Pattern>AN * TOLD ME *</Pattern>
       <Response>
         <Goto>
           <Match Index="2" />
@@ -2433,13 +2433,13 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>AND WHAT * </Pattern>
+      <Pattern>AND WHAT *</Pattern>
       <Response>
         <Goto>what <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>AND WHY * </Pattern>
+      <Pattern>AND WHY *</Pattern>
       <Response>
         <Goto>what <Match /></Goto>
       </Response>
@@ -2561,13 +2561,13 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE OTHER * </Pattern>
+      <Pattern>ARE OTHER *</Pattern>
       <Response>
         <Goto>are <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE OTHER PEOPLE * </Pattern>
+      <Pattern>ARE OTHER PEOPLE *</Pattern>
       <Response>
         <Goto>are people <Match /></Goto>
       </Response>
@@ -2760,13 +2760,13 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A BOY OR * </Pattern>
+      <Pattern>ARE YOU A BOY OR *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A BOY OR A * </Pattern>
+      <Pattern>ARE YOU A BOY OR A *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
@@ -2796,7 +2796,7 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A FEMALE OR * </Pattern>
+      <Pattern>ARE YOU A FEMALE OR *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
@@ -2808,13 +2808,13 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A GIRL OR * </Pattern>
+      <Pattern>ARE YOU A GIRL OR *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A GIRL OR A * </Pattern>
+      <Pattern>ARE YOU A GIRL OR A *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
@@ -2832,19 +2832,19 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A GUY * </Pattern>
+      <Pattern>ARE YOU A GUY *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A GUY OR * </Pattern>
+      <Pattern>ARE YOU A GUY OR *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A GUY OR A * </Pattern>
+      <Pattern>ARE YOU A GUY OR A *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
@@ -2880,25 +2880,25 @@ That's not all I do. <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A MALE OR * </Pattern>
+      <Pattern>ARE YOU A MALE OR *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A MALE OR A * </Pattern>
+      <Pattern>ARE YOU A MALE OR A *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A MAN OR * </Pattern>
+      <Pattern>ARE YOU A MAN OR *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU A MAN OR A * </Pattern>
+      <Pattern>ARE YOU A MAN OR A *</Pattern>
       <Response>
         <Goto>are you a man</Goto>
       </Response>
@@ -3457,7 +3457,7 @@ Ever is a long time. <Goto>are you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU PAYING ATTENTION * </Pattern>
+      <Pattern>ARE YOU PAYING ATTENTION *</Pattern>
       <Response>
         <Goto>are you paying attention</Goto>
       </Response>
@@ -3868,13 +3868,13 @@ If <Map Get="person" /> too, then we have something in common, eh. <Goto>are yo
       </Response>
     </Model>
     <Model>
-      <Pattern>BECAUSE I * </Pattern>
+      <Pattern>BECAUSE I *</Pattern>
       <Response>
         <Goto>I <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>BECAUSE I WANT * </Pattern>
+      <Pattern>BECAUSE I WANT *</Pattern>
       <Response>
         <Goto>I want <Match /></Goto>
       </Response>
@@ -3886,7 +3886,7 @@ If <Map Get="person" /> too, then we have something in common, eh. <Goto>are yo
 </Response>
     </Model>
     <Model>
-      <Pattern>BECAUSE YOU * </Pattern>
+      <Pattern>BECAUSE YOU *</Pattern>
       <Response>
         <Goto>you <Match /></Goto>
       </Response>
@@ -4618,25 +4618,25 @@ TAKE OFF <Match /></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME A * </Pattern>
+      <Pattern>CAN YOU TELL ME A *</Pattern>
       <Response>
         <Goto>tell me a <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME ABOUT * </Pattern>
+      <Pattern>CAN YOU TELL ME ABOUT *</Pattern>
       <Response>
         <Goto>tell me about <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME ANY * </Pattern>
+      <Pattern>CAN YOU TELL ME ANY *</Pattern>
       <Response>
         <Goto>tell me a <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME HOW * IS * </Pattern>
+      <Pattern>CAN YOU TELL ME HOW * IS *</Pattern>
       <Response>
         <Goto>how is <Match /><Match Index="2" /></Goto>
       </Response>
@@ -4648,13 +4648,13 @@ TAKE OFF <Match /></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME MORE * </Pattern>
+      <Pattern>CAN YOU TELL ME MORE *</Pattern>
       <Response>
         <Goto>tell me <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME MY * </Pattern>
+      <Pattern>CAN YOU TELL ME MY *</Pattern>
       <Response>
         <Goto>what is my <Match /></Goto>
       </Response>
@@ -4666,37 +4666,37 @@ TAKE OFF <Match /></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME SOME MORE * </Pattern>
+      <Pattern>CAN YOU TELL ME SOME MORE *</Pattern>
       <Response>
         <Goto>tell me <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME SOME OF * </Pattern>
+      <Pattern>CAN YOU TELL ME SOME OF *</Pattern>
       <Response>
         <Goto>tell me <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME SOME OF THAT * </Pattern>
+      <Pattern>CAN YOU TELL ME SOME OF THAT *</Pattern>
       <Response>
         <Goto>tell me that <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME THEIR * </Pattern>
+      <Pattern>CAN YOU TELL ME THEIR *</Pattern>
       <Response>
         <Goto>tell me their <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL ME WHICH * </Pattern>
+      <Pattern>CAN YOU TELL ME WHICH *</Pattern>
       <Response>
         <Goto>which <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>CAN YOU TELL THE * </Pattern>
+      <Pattern>CAN YOU TELL THE *</Pattern>
       <Response>
         <Goto>tell the <Match /></Goto>
       </Response>
@@ -10754,7 +10754,7 @@ I'm not sure where to begin looking. <Goto>xfind <Match /></Goto>.
       </Response>
     </Model>
     <Model>
-      <Pattern>HIT ME UP * </Pattern>
+      <Pattern>HIT ME UP *</Pattern>
       <Response>
         <Goto>ask me * <Match /></Goto>
       </Response>
@@ -17814,19 +17814,19 @@ I am not sure about your hypothesis. <Goto>can you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>IF YOU SHOULD CHOOSE * </Pattern>
+      <Pattern>IF YOU SHOULD CHOOSE *</Pattern>
       <Response>
         <Goto>if you choose <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>IF YOU SHOULD DECIDE * </Pattern>
+      <Pattern>IF YOU SHOULD DECIDE *</Pattern>
       <Response>
         <Goto>if you decide <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>IF YOU SHOULD HAPPEN * </Pattern>
+      <Pattern>IF YOU SHOULD HAPPEN *</Pattern>
       <Response>
         <Goto>if you happen <Match /></Goto>
       </Response>
@@ -22314,7 +22314,7 @@ Hmm. <Goto>what is a <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>THAT OR SOMEONE * </Pattern>
+      <Pattern>THAT OR SOMEONE *</Pattern>
       <Response>
         <Goto>someone * <Match /></Goto>
       </Response>
@@ -27176,7 +27176,7 @@ I think <User Set="he"><Match /> Dempsey</User> was a boxer, right? <Goto>xfind 
       </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS ARE * </Pattern>
+      <Pattern>WHO IS ARE *</Pattern>
       <Response>
         <Goto>who is <Match /></Goto>
       </Response>
@@ -28062,7 +28062,7 @@ I can say it. <Goto>say <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>WHY DO YOU ASSUME I * </Pattern>
+      <Pattern>WHY DO YOU ASSUME I *</Pattern>
       <Response>
         <Goto>I <Match /></Goto>
       </Response>
@@ -28766,42 +28766,42 @@ TAKE OFF <Match /></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES I * </Pattern>
+      <Pattern>YES I *</Pattern>
       <Response>
         <Goto>yes<Match /></Goto>
         <Goto>I <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES IT * </Pattern>
+      <Pattern>YES IT *</Pattern>
       <Response>
         <Goto>yes<Match /></Goto>
         <Goto>it <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES OF * </Pattern>
+      <Pattern>YES OF *</Pattern>
       <Response>
         <Goto>yes<Match /></Goto>
         <Goto>of <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES THAT * </Pattern>
+      <Pattern>YES THAT *</Pattern>
       <Response>
         <Goto>yes<Match /></Goto>
         <Goto>that <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES THAT IS * </Pattern>
+      <Pattern>YES THAT IS *</Pattern>
       <Response>
         <Goto>yes<Match /></Goto>
         <Goto>that is <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES YOU * </Pattern>
+      <Pattern>YES YOU *</Pattern>
       <Response>
         <Goto>yes<Match /></Goto>
         <Goto>you <Match /></Goto>
@@ -30173,7 +30173,7 @@ I do so have <User Set="it"><User Set="concept"><Map Get="person" /></User></Use
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU DO NOT HAVE MUCH * </Pattern>
+      <Pattern>YOU DO NOT HAVE MUCH *</Pattern>
       <Response>
         <Goto>you do not have <Match /></Goto>
       </Response>
@@ -30197,19 +30197,19 @@ I do so have <User Set="it"><User Set="concept"><Map Get="person" /></User></Use
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU DO NOT KNOW HOW * </Pattern>
+      <Pattern>YOU DO NOT KNOW HOW *</Pattern>
       <Response>
         <Goto>how do you <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU DO NOT KNOW HOW TO * </Pattern>
+      <Pattern>YOU DO NOT KNOW HOW TO *</Pattern>
       <Response>
         <Goto>how do you <Match /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU DO NOT KNOW WHAT YOU * </Pattern>
+      <Pattern>YOU DO NOT KNOW WHAT YOU *</Pattern>
       <Response>
         <Goto>what <Match /><Match /></Goto>
       </Response>
@@ -30931,7 +30931,7 @@ Do you know any robots who make <User Set="it"><User Set="concept"><Map Get="per
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU MAKE ME FEEL LIKE I * </Pattern>
+      <Pattern>YOU MAKE ME FEEL LIKE I *</Pattern>
       <Response>
         <Goto>I <Map Get="person" /></Goto>
       </Response>
@@ -31344,7 +31344,7 @@ Really? <Goto>you <Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU SHOULD BE ABLE TO * </Pattern>
+      <Pattern>YOU SHOULD BE ABLE TO *</Pattern>
       <Response>
         <Goto>can you <Match /></Goto>
       </Response>
@@ -32134,7 +32134,7 @@ I think you mean "you're" or "you are" not "your". <Goto>you are a <Match /></G
       </Response>
     </Model>
     <Model>
-      <Pattern>YOUR MUMS * </Pattern>
+      <Pattern>YOUR MUMS *</Pattern>
       <Response>
         <Goto>your mother is <Match /></Goto>
       </Response>
@@ -32164,7 +32164,7 @@ I think you mean "you're" or "you are" not "your". <Goto>you are a <Match /></G
       </Response>
     </Model>
     <Model>
-      <Pattern>YOUR NEW * </Pattern>
+      <Pattern>YOUR NEW *</Pattern>
       <Response>
         <Goto>your <Match /></Goto>
       </Response>
@@ -32328,7 +32328,7 @@ I think you meant "you are" or "you're". <Goto>you are the <Match /></Goto></Re
       </Response>
     </Model>
     <Model>
-      <Pattern>YUR * </Pattern>
+      <Pattern>YUR *</Pattern>
       <Response>
         <Goto>your <Match /></Goto>
       </Response>

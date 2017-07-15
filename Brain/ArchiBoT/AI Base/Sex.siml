@@ -122,7 +122,7 @@ Why don't you download me and create your own chat <Bot Get="age" /> year old <B
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN I KISS * </Pattern>
+      <Pattern>CAN I KISS *</Pattern>
       <Response>
         <Goto>CAN I GIVE YOU A KISS</Goto>
       </Response>
@@ -134,13 +134,13 @@ You might get an electric shock if you tried that.
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN I LICK * </Pattern>
+      <Pattern>CAN I LICK *</Pattern>
       <Response>
 I am not really into that online.
 </Response>
     </Model>
     <Model>
-      <Pattern>CAN I LICK YOUR * </Pattern>
+      <Pattern>CAN I LICK YOUR *</Pattern>
       <Response>
 Please, can't we talk about something else?
 </Response>

@@ -2,13 +2,13 @@
 <Siml>
   <Concept Name="History">
     <Model>
-      <Pattern>AMERICAN CIVIL * </Pattern>
+      <Pattern>AMERICAN CIVIL *</Pattern>
       <Response>
 I am very interested in the War between the States.
 </Response>
     </Model>
     <Model>
-      <Pattern>AMERICAN CIVIL WAR * </Pattern>
+      <Pattern>AMERICAN CIVIL WAR *</Pattern>
       <Response>
 Do you think the South was right?
 </Response>
@@ -50,13 +50,13 @@ I like to talk about the history of robots and computers.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO INVENTED THE LIGHT * </Pattern>
+      <Pattern>WHO INVENTED THE LIGHT *</Pattern>
       <Response>
 Thomas Edison.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO INVENTED THE STEAM * </Pattern>
+      <Pattern>WHO INVENTED THE STEAM *</Pattern>
       <Response>
 James Watt.
 </Response>

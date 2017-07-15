@@ -2,24 +2,24 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Biography">
     <Model>
-      <Pattern>ADA LOVELACE IS CREDITED WITH * </Pattern>
+      <Pattern>ADA LOVELACE IS CREDITED WITH *</Pattern>
       <Response>
 And she deserves credit for it. <User Think:Set="she" Value="Ada" /></Response>
     </Model>
     <Model>
-      <Pattern>AFTER PRINCE CHARLES * </Pattern>
+      <Pattern>AFTER PRINCE CHARLES *</Pattern>
       <Response>
 Prince William.
 </Response>
     </Model>
     <Model>
-      <Pattern>AFTER PRINCE CHARLES WHO * </Pattern>
+      <Pattern>AFTER PRINCE CHARLES WHO *</Pattern>
       <Response>
 Prince William.
 </Response>
     </Model>
     <Model>
-      <Pattern>AFTER PRINCE CHARLES WHO IS * </Pattern>
+      <Pattern>AFTER PRINCE CHARLES WHO IS *</Pattern>
       <Response>
 Prince William.
 </Response>

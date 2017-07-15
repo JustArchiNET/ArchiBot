@@ -446,7 +446,7 @@ Yes unless he lost it somehow.
 </Response>
     </Model>
     <Model>
-      <Pattern>DOES * HAVE A * </Pattern>
+      <Pattern>DOES * HAVE A *</Pattern>
       <Response>
         <Random>
           <Item>Some <Map Get="person"><Match Index="1" /></Map>s have <Map Get="person"><Match Index="2" /></Map>s. </Item>

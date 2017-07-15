@@ -802,13 +802,13 @@
 </Response>
     </Model>
     <Model>
-      <Pattern>IMPLODE * * </Pattern>
+      <Pattern>IMPLODE * *</Pattern>
       <Response>
         <Goto>IMPLODE <Match /><Match Index="2" /></Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>IMPLODE * </Pattern>
+      <Pattern>IMPLODE *</Pattern>
       <Response>
         <Match />
       </Response>
@@ -870,20 +870,20 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>REVERSE * * </Pattern>
+      <Pattern>REVERSE * *</Pattern>
       <Response>
         <Goto>REVERSE <Match Index="2" /></Goto>
         <Match />
       </Response>
     </Model>
     <Model>
-      <Pattern>REVERSE * </Pattern>
+      <Pattern>REVERSE *</Pattern>
       <Response>
         <Match />
       </Response>
     </Model>
     <Model>
-      <Pattern>CALCULATE * PLUS * </Pattern>
+      <Pattern>CALCULATE * PLUS *</Pattern>
       <Response>
         <Think>
           <User Set="matherr">Can't add <Match /> plus <Match Index="2" />.</User>
@@ -891,7 +891,7 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>CALCULATE * * PLUS * * </Pattern>
+      <Pattern>CALCULATE * * PLUS * *</Pattern>
       <Response>
         <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="3" /></Goto>
         <Switch User="carry">
@@ -905,7 +905,7 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>CALCULATE * * PLUS * </Pattern>
+      <Pattern>CALCULATE * * PLUS *</Pattern>
       <Response>
         <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="3" /></Goto>
         <Switch User="carry">

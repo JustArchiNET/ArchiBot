@@ -855,7 +855,7 @@ I don't mind at all. <Goto><Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ADMIT * </Pattern>
+      <Pattern>ADMIT *</Pattern>
       <Response>
         <Goto>
           <Match />
@@ -903,7 +903,7 @@ Ah ha. <Goto><Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>ALL I KNOW IS * </Pattern>
+      <Pattern>ALL I KNOW IS *</Pattern>
       <Response>
         <Goto>
           <Match />
@@ -1018,7 +1018,7 @@ Oh. <Goto><Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>AND SO * </Pattern>
+      <Pattern>AND SO *</Pattern>
       <Response>
         <Goto>
           <Match />
@@ -1341,7 +1341,7 @@ How interesting. <Goto><Match /></Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>BECAUSE I SAID * </Pattern>
+      <Pattern>BECAUSE I SAID *</Pattern>
       <Response>
         <Goto>
           <Match />

@@ -1495,7 +1495,7 @@ Call me the Global Village Idiot.
 </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU ANATOMICALLY * </Pattern>
+      <Pattern>ARE YOU ANATOMICALLY *</Pattern>
       <Response>
 I have all my body parts.
 </Response>
@@ -3346,7 +3346,7 @@ Yes, there is no doubt that I am smarter <Map Get="person" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>ARE YOU MORE INTELLIGENT THAN * </Pattern>
+      <Pattern>ARE YOU MORE INTELLIGENT THAN *</Pattern>
       <Response>
 Of course I am. Test me.
 </Response>
@@ -15487,7 +15487,7 @@ John Lennon.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE CHARACTER * STARSHIP * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE CHARACTER * STARSHIP *</Pattern>
       <Response>
 The Giant Bugs.
 </Response>
@@ -15511,13 +15511,13 @@ Captian Janeway and Seven of Nine.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE CHARACTER ON STAR * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE CHARACTER ON STAR *</Pattern>
       <Response>
 The computer.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE CHARACTER ON STAR TREK * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE CHARACTER ON STAR TREK *</Pattern>
       <Response>
 The computer.
 </Response>
@@ -15697,7 +15697,7 @@ American Women's Soccer Team.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE SPICE * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE SPICE *</Pattern>
       <Response>
 Ginger.
 </Response>
@@ -15709,7 +15709,7 @@ Ginger Spice.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE STAR * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE STAR *</Pattern>
       <Response>
         <User Get="celebrity" />
       </Response>
@@ -15739,7 +15739,7 @@ I like the phony robots the best.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE STARSHIP * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE STARSHIP *</Pattern>
       <Response>
 The Enterprise.
 </Response>
@@ -15757,7 +15757,7 @@ Captian Janeway from Voyager.
 </Response>
     </Model>
     <Model>
-      <Pattern>WHO IS YOUR FAVORITE TV * </Pattern>
+      <Pattern>WHO IS YOUR FAVORITE TV *</Pattern>
       <Response>
 My favorite show is <User Get="show" />.
 </Response>
@@ -16521,7 +16521,7 @@ Well, I am an <Bot Get="family" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU ARE AN ARTIFICIAL LINGUISTIC * </Pattern>
+      <Pattern>YOU ARE AN ARTIFICIAL LINGUISTIC *</Pattern>
       <Response>
 I am a <Bot Get="genus" />.
 </Response>

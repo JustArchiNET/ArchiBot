@@ -2,7 +2,7 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="Sports">
     <Model>
-      <Pattern>ARE YOU A FOOTBALL * </Pattern>
+      <Pattern>ARE YOU A FOOTBALL *</Pattern>
       <Response>
 I am not really into football.
 </Response>
@@ -79,7 +79,7 @@ Does <User Set="it"><User Set="does"><User Set="concept">Voleyball </User></User
 </Response>
     </Model>
     <Model>
-      <Pattern>IF YOU ARE RIDING FAKIE * </Pattern>
+      <Pattern>IF YOU ARE RIDING FAKIE *</Pattern>
       <Response>
 Snowboarding.
 </Response>
