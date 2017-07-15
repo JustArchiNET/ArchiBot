@@ -78,52 +78,45 @@
 
 		<Model>
 			<Pattern>
-				<Item>^CATBALL _</Item>
-				<Item>^NEKOBALL _</Item>
-				<Item>^:NEKO:BALL _</Item>
-				<Item>^ːNEKOːBALL _</Item>
-				<Item>^NYANBALL _</Item>
+				<Item>^CATBALL %</Item>
+				<Item>^NEKOBALL %</Item>
+				<Item>^:NEKO:BALL %</Item>
+				<Item>^ːNEKOːBALL %</Item>
+				<Item>^NYANBALL %</Item>
 			</Pattern>
 			<Response>
-				<Random>
-					<Item>:Neko:: hiss</Item>
-					<Item>:Neko:: hiss definitely</Item>
-					<Item>:Neko:: Signs point to hiss</Item>
-					<Item>:Neko:: Ask again after you give me food</Item>
-					<Item>:Neko:: Better not tell you before my nap</Item>
-					<Item>:Neko:: Busy pooping, ask later</Item>
-					<Item>:Neko: *using an invisible telegraph* MEOW MEOW STOP MEOW STOP</Item>
-					<Item>:Neko:: [answer in ancient catspeak]</Item>
-					<Item>:Neko: *stares at you as if asking "I'm a cat, why are you asking me?"</Item>
-					<Item>:Neko: *ignores the question and licks his <Random>(left|right)</Random> ball*</Item>
-					<Item>:Neko:: my sources say nya</Item>
-					<Item>:Neko:: nya</Item>
-					<Item>:Neko:: My reply is nyan</Item>
-				</Random>
-			</Response>
-		</Model>
-
-		<Model>
-			<Pattern>
-				<Item>^CATBALL</Item>
-				<Item>^NEKOBALL</Item>
-				<Item>^:NEKO:BALL</Item>
-				<Item>^ːNEKOːBALL</Item>
-				<Item>^NYANBALL</Item>
-			</Pattern>
-			<Response>
-				<Random>
-					<Item>:Neko: *purring noises*</Item>
-					<Item>:Neko: *dry heaving noises*</Item>
-					<Item>:Neko: *plays with charger cord*</Item>
-					<Item>:Neko: *rubs up against your leg*</Item>
-					<Item>:Neko: *stares blankly at you*</Item>
-					<Item>:Neko: *stares at you, then at the food bowl*</Item>
-					<Item>:Neko: *scratches at the door and leaves once you open it*</Item>
-					<Item>:Neko: *tries to mind control you into adding wet food to the bowl*</Item>
-					<Item>:Neko: *conjures a dead bird out of nowhere and starts playing with it*</Item>
-					<Item>:Neko: *looks at you expecting tuna*</Item>
-				</Random>
+				<Var Think:Set="tempinput" Value="{Bind Match}" />
+				<If Var="tempinput" Value="">
+					<Random>
+						<Item>:Neko: *purring noises*</Item>
+						<Item>:Neko: *dry heaving noises*</Item>
+						<Item>:Neko: *plays with charger cord*</Item>
+						<Item>:Neko: *rubs up against your leg*</Item>
+						<Item>:Neko: *stares blankly at you*</Item>
+						<Item>:Neko: *stares at you, then at the food bowl*</Item>
+						<Item>:Neko: *scratches at the door and leaves once you open it*</Item>
+						<Item>:Neko: *tries to mind control you into adding wet food to the bowl*</Item>
+						<Item>:Neko: *conjures a dead bird out of nowhere and starts playing with it*</Item>
+						<Item>:Neko: *looks at you expecting tuna*</Item>
+					</Random>
+				</If>
+				<Else>
+					<Random>
+						<Item>:Neko:: hiss</Item>
+						<Item>:Neko:: hiss definitely</Item>
+						<Item>:Neko:: Signs point to hiss</Item>
+						<Item>:Neko:: Ask again after you give me food</Item>
+						<Item>:Neko:: Better not tell you before my nap</Item>
+						<Item>:Neko:: Busy pooping, ask later</Item>
+						<Item>:Neko: *using an invisible telegraph* MEOW MEOW STOP MEOW STOP</Item>
+						<Item>:Neko:: [answer in ancient catspeak]</Item>
+						<Item>:Neko: *stares at you as if asking "I'm a cat, why are you asking me?"</Item>
+						<Item>:Neko: *ignores the question and licks his <Random>(left|right)</Random> ball*</Item>
+						<Item>:Neko:: my sources say nya</Item>
+						<Item>:Neko:: nya</Item>
+						<Item>:Neko:: My reply is nyan</Item>
+					</Random>
+				</Else>
 			</Response>
 		</Model>
 
