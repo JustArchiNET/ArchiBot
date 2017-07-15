@@ -5512,7 +5512,7 @@ How would I know what you know.<User Think:Set="it"><User Set="concept">KNOW <Ma
     <Model>
       <Pattern>DO I LIKE *</Pattern>
       <Response>
-I know you like <get_likes />.
+I know you like <User Get="like" />.
 </Response>
     </Model>
     <Model>
