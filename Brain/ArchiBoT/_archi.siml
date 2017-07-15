@@ -137,6 +137,11 @@
 				<Else>Archi is currently getting <Var Get="patreon" /> from his patrons! \:bite:/</Else>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>(GRIND|GRINDU) DECK</Pattern>
+			<Response>3x Piggy Bank, Holy Night, Nice Jingle, Dash, Passionate Research (DLC1), Completion Reward (DLC2), Play of the Gods (DLC2), Scrambled Eve (DLC2)</Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
