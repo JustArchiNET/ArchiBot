@@ -71,7 +71,7 @@
 
 		<Model>
 			<Pattern>KICKUTODAY</Pattern>
-			<Response><Var Think:Set="kicked"><Random Get="2hus" /></Var>The following member has volunteered to sacrifice themselves for the 2hu daily kicku: <Map Get="id2hu"><Var Get="kicked" /></Map> (<Var Get="kicked" />).&#xD;Thanks for your noble offering :cry:7</Response>
+			<Response>The following member has volunteered to sacrifice themselves for the 2hu daily kicku: <ArchiSteamGroupRandomUserNickname>103582791437445144</ArchiSteamGroupRandomUserNickname>.&#xD;Thanks for your noble offering :cry:7</Response>
 		</Model>
 
 		<Model>
