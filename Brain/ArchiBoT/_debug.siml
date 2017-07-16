@@ -2,6 +2,11 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_debug">
 		<Model>
+			<Pattern><If User="ID" Value="steam-76561198073764076" /></Pattern>
+			<Response>You are banned from !ai, jbondo :sgsmile:</Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUGINFO</Pattern>
 			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
 		</Model>
