@@ -171,7 +171,7 @@
 	</Random>
 
 	<Random Name="_randomgame_2">
-		<Item Weight="0.05">- <Goto>TAIGO Edition</Goto></Item>
+		<Item Weight="0.05">- <Goto>TAIGOWORDS</Goto> Edition</Item>
 		<Item>&amp; Knuckles</Item>
 		<Item>- 2nd Impact</Item>
 		<Item>- 3rd Strike</Item>
