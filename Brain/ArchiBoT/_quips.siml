@@ -58,13 +58,18 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHO IS TAIGO</Pattern>
+			<Pattern>^WHO IS ^TAIGO</Pattern>
 			<Response>Which one do you mean? <Text><Goto>TAIGOWORDS</Goto> Taigo or <Goto>TAIGOWORDS</Goto> Taigo?</Text></Response>
 		</Model>
 
 		<Model>
-			<Pattern>TAIGOWORDS</Pattern>
+			<Pattern>^TAIGOWORDS</Pattern>
 			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text></Response>
+		</Model>
+
+		<Model>
+			<Pattern>^TAIGO ^JBONDO</Pattern>
+			<Response>Free Jotun Jbondo</Response>
 		</Model>
 
 		<Model>

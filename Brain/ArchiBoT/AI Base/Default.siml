@@ -6609,7 +6609,7 @@ I am a friend of the environment.
     <Model>
       <Pattern>DO YOU REMEMBER *</Pattern>
       <Response>
-Yes <User Get="name" /> I remember everything:  <User Get="memory" /></Response>
+Yes <User Get="name" /> I remember everything: <User Get="memory" /></Response>
     </Model>
     <Model>
       <Pattern>DO YOU REMEMBER WHEN *</Pattern>
