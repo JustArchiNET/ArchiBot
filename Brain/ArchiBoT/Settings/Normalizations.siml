@@ -385,8 +385,7 @@
   <Filter Word=".7" Value="point 7" />
   <Filter Word=".8" Value="point 8" />
   <Filter Word=".9" Value="point 9" /> 
-/THIELAK-->
-  <!--DOCTOR-->
+  DOCTOR
   <Filter Value="dr">
     <Word>dr.</Word>
     <Word>dr .</Word>
@@ -398,6 +397,7 @@
   <Filter Word="botspot." Value="botspot dot" />
   <Filter Word="amused.com" Value="amused dot com" />
   <Filter Word="whatis." Value="whatis dot" />
+/THIELAK-->
   <!--USA-->
   <Filter Value="usa">
     <Word>u s a</Word>
