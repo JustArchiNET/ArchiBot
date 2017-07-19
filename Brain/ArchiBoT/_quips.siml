@@ -73,6 +73,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^RANDOMTAIGO</Pattern>
+			<Response><Goto>TAIGO <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Goto></Response>
+		</Model>
+
+		<Model>
 			<Pattern>CSD2</Pattern>
 			<Response>
 				<Var Think:Set="timetocsd2"><Js>1503594000 - Math.floor(Date.now()/1000)</Js></Var>
