@@ -650,6 +650,16 @@
 		</Model>
 
 		<Model>
+			<Pattern>^BAN (JBOND|JBONDO)</Pattern>
+			<Response><Bot Think:Set="jbondban" Value="true" />Jbond is now banned!</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^UNBAN (JBOND|JBONDO)</Pattern>
+			<Response><Bot Think:Set="jbondban" Value="false" />Jbond is now unbanned!</Response>
+		</Model>
+
+		<Model>
 			<Pattern>REMBERTESTAAA</Pattern>
 			<Response>Alright <User Get="Nickname" />, creating a Model in the Concept AAA
 				<Learn>
