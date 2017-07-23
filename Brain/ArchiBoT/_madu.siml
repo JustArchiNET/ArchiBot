@@ -49,6 +49,14 @@
 
 		<Model>
 			<Pattern>
+				<Item>^BIN2ASCII @BIN</Item>
+				<Item>^BINTOASCII @BIN</Item>
+			</Pattern>
+			<Response><Js>binToAscii('<Text Get="implode"><Match /></Text>');</Js></Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>^MADUNIZE _</Item>
 				<Item>^MADUIZE _</Item>
 			</Pattern>

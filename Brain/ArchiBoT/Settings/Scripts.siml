@@ -211,5 +211,20 @@ function steamID(userid) {
         return "error";
     }
 }
+
+function asciiToBin(str) {
+    var pad = '00000000';
+    return str.replace(/./g, function (c) {
+        var bin = c.charCodeAt(0).toString(2);
+        return pad.substring(bin.length) + bin;
+    });
+};
+
+function binToAscii(bin) {
+    bin = bin.replace(/(\r\n|\n|\r)/gm,"");
+    return bin.replace(/[01]{8}/g, function (v) {
+        return String.fromCharCode(parseInt(v, 2));
+    });
+};
 </Script>
 </Siml>

@@ -10,4 +10,5 @@
   <Regex Name="PositiveInteger" Pattern="[\+]?\d+" />
   <!--@URL-->
   <Regex Name="URL" Pattern="((http|https)://)?[a-zA-Z]\w*(\.\w+)+(/\w*(\.\w+)*)*(\?.+)*" />
+  <Regex Name="Bin" Pattern="[01 ]+" />
 </Siml>
