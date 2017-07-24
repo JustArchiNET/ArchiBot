@@ -87,7 +87,7 @@
 				</Think>
 				<While Var="i" Not="{charnumber}">
 					<Var Think:Set="i"><Math Get="increment"><Var Get="i" /></Math></Var>
-					<Bind Key="{index}"><User Remove="numarray"><Random Get="numarray" Source="User" /></User></Bind>
+					<Bind Key="{index}"><User Remove="numarray"><Random Get.User="numarray" /></User></Bind>
 					<Text CharAt="{index}"><Match /></Text>
 				</While>
 			</Response>
