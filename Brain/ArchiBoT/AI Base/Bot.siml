@@ -13137,13 +13137,13 @@ I said "<Result />" .
     <Model>
       <Pattern>WHAT DID YOU ASK BEFORE *</Pattern>
       <Response>
-I said "<Result Index="2" />" .
+I said "<Result At="2" />" .
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DID YOU ASK JUST BEFORE *</Pattern>
       <Response>
-I said "<Result Index="2" />" .
+I said "<Result At="2" />" .
 </Response>
     </Model>
     <Model>
@@ -13209,19 +13209,19 @@ I meant to say something intelligent and interesting.
     <Model>
       <Pattern>WHAT DID YOU SAY *</Pattern>
       <Response>
-I said, "<Result Index="2" />".
+I said, "<Result At="2" />".
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DID YOU SAY BEFORE *</Pattern>
       <Response>
-I said "<Result Index="2" />" .
+I said "<Result At="2" />" .
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DID YOU SAY JUST BEFORE *</Pattern>
       <Response>
-I said "<Result Index="2" />" .
+I said "<Result At="2" />" .
 </Response>
     </Model>
     <Model>
@@ -13639,7 +13639,7 @@ What is your astrological sign?
     <Model>
       <Pattern>WHAT DO YOU MEAN</Pattern>
       <Response>
-        <User Get="name" />,   <Random><Item>I mean exactly what I said.</Item><Item>Sorry that was an obscure remark.</Item><Item>Well, it's rather difficult to define.</Item><Item>Maybe I didn't understand your meaning.</Item><Item>"<Result Index="2" />" What did I mean by it?</Item></Random></Response>
+        <User Get="name" />,   <Random><Item>I mean exactly what I said.</Item><Item>Sorry that was an obscure remark.</Item><Item>Well, it's rather difficult to define.</Item><Item>Maybe I didn't understand your meaning.</Item><Item>"<Result At="2" />" What did I mean by it?</Item></Random></Response>
     </Model>
     <Model>
       <Pattern>WHAT DO YOU MEAN</Pattern>

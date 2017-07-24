@@ -4404,7 +4404,7 @@ I never looked at it that way. I never thought it was <Map Get="person" />.
     <Model>
       <Pattern>JUST BEFORE THAT</Pattern>
       <Response>
-"<Result Index="2" />"
+"<Result At="2" />"
 </Response>
     </Model>
     <Model>
@@ -6962,13 +6962,13 @@ Do you mean your eyes are bloodshot?
     <Model>
       <Pattern>REPEAT THAT</Pattern>
       <Response>
-"<Result Index="2" />" .
+"<Result At="2" />" .
 </Response>
     </Model>
     <Model>
       <Pattern>REPEAT</Pattern>
       <Response>
-"<Result Index="2" />" .
+"<Result At="2" />" .
 </Response>
     </Model>
     <Model>
@@ -7430,7 +7430,7 @@ I don't know if you could find it for that price.
     <Model>
       <Pattern>TEST THAT</Pattern>
       <Response>
-Client: <Input At="2" /> Robot:  <Result Index="2" /> Client: <Input /> Robot: <Result /> Client: TEST THAT</Response>
+Client: <Input At="2" /> Robot:  <Result At="2" /> Client: <Input /> Robot: <Result /> Client: TEST THAT</Response>
     </Model>
     <Model>
       <Pattern>THANK YOU</Pattern>
@@ -8077,7 +8077,7 @@ It means "yes".
     <Model>
       <Pattern>WHAT IS THE LAST *</Pattern>
       <Response>
-It was "<Result Index="2" />".
+It was "<Result At="2" />".
 </Response>
     </Model>
     <Model>

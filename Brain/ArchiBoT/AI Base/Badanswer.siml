@@ -102,7 +102,7 @@
             <Input At="2" />
           </User>
           <User Set="badanswer-that">
-            <Result Index="2" />
+            <Result At="2" />
           </User>
           <User Set="badanswer-that-full">
             <Result At="2" />
