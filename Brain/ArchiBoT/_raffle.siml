@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
+	<Concept Name="_raffle">
+		<Model>
+			<Pattern>^RAFFLE</Pattern>
+			<Response>
+				<Bind Key="{userid}"><User Get="Nickname" /></Bind>
+				<If User="SourceID" Not="steam-110338190878500888">Error: the Raffle command only works in the Touhou Giveaways chat (for now) :cry:7</If>
+				<ElseIf Bot="raffleactive" Not="true">The raffle is not currently active :speak:</ElseIf>
+				<ElseIf Bot="rafflelist" Contains="{userid}">You have already entered this raffle :doubt:</ElseIf>
+				<Else><Bot Think:Add="rafflelist" Value="{userid}" /><User Get="Nickname" /> entered the raffle! \:bite:/</Else>
+			</Response>
+		</Model>
+	</Concept>
+
+	<Concept Name="_raffle_admin" User="steam-76561198025147895">
+		<Model>
+			<Pattern>^STARTRAFFLE</Pattern>
+			<Response>
+				<Bot Think:Set="rafflelist" Value="" />
+				<Bot Think:Set="raffleactive" Value="true" />
+				<Text>A new raffle is now active, type "!ai raffle" without quotes to join it \:sgsmile:</Text>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^STOPRAFFLE</Pattern>
+			<Response>
+				<Bot Think:Set="raffleactive" Value="false" />
+				<Text>The raffle is now closed, who will win? :speak:</Text>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^ROLLRAFFLE</Pattern>
+			<Response>
+				<Bot Think:Set="raffleactive" Value="false" />
+				<Var Think:Set="winner"><Bot Remove="rafflelist"><Random Get="rafflelist" Source="Bot" /></Bot></Var>
+				<If Var="winner" Value="">No one joined the raffle :doubt:</If>
+				<Else><Var Get="winner" /> won the raffle \:bite:/</Else>
+			</Response>
+		</Model>
+	</Concept>
+<!-- Replace with this one once Archi implements steamid -> nickname Custom Adapter (and we are on SIML 2.0)
+	<Concept Name="_raffle">
+		<Model>
+			<Pattern>
+				<Item>^RAFFLE</Item>
+				<Item>^RG %</Item>
+			</Pattern>
+			<Response>
+				<Bind Key="{userid}"><User Get="ID" /></Bind>
+				<If User="SourceID" Not="steam-110338190878500888">Error: the Raffle command only works in the Touhou Giveaways chat (for now) :cry:7</If>
+				<ElseIf Bot="raffleactive" Not="true">The raffle is not currently active :speak:</ElseIf>
+				<ElseIf Bot="rafflelist" Contains="{userid}">You have already entered this raffle :doubt:</ElseIf>
+				<Else><Bot Think:Add="rafflelist" Value="{userid}" /><User Get="Nickname" /> entered the raffle! \:bite:/</Else>
+			</Response>
+		</Model>
+	</Concept>
+
+	<Concept Name="_raffle_admin" User="steam-76561198025147895">
+		<Model>
+			<Pattern>^STARTRAFFLE</Pattern>
+			<Response>
+				<Bot Think:Set="rafflelist" Value="" />
+				<Bot Think:Set="raffleactive" Value="true" />
+				<Text>A new raffle is now active, type "!ai raffle" without quotes to join it \:sgsmile:</Text>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^STOPRAFFLE</Pattern>
+			<Response>
+				<Bot Think:Set="raffleactive" Value="false" />
+				<Text>The raffle is now closed, who will win? :speak:</Text>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^ROLLRAFFLE</Pattern>
+			<Response>
+				<Bot Think:Set="raffleactive" Value="false" />
+				<Var Think:Set="winner"><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot></Var>
+				<If Var="winner" Value="">No one joined the raffle :doubt:</If>
+				<Else><Var Get="winner" /> won the raffle \:bite:/</Else>
+			</Response>
+		</Model>
+	</Concept>
+-->
+</Siml>
