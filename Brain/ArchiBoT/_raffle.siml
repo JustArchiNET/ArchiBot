@@ -11,6 +11,15 @@
 				<Else><Bot Think:Add="rafflelist" Value="{userid}" /><User Get="Nickname" /> entered the raffle! \:bite:/</Else>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^STARTRAFFLE</Item>
+				<Item>^STOPRAFFLE</Item>
+				<Item>^ROLLRAFFLE</Item>
+			</Pattern>
+			<Response>Nice try :sgsmile:</Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_raffle_admin" User="steam-76561198025147895">
