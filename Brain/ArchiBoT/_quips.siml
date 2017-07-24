@@ -44,7 +44,7 @@
 			<Response>
 				<Random>
 					<Item><Goto>TAIGOWORDS</Goto> <Text>
-						<Var Think:Set="taigoname"><Text Get="lowercase"><Match /></Text></Var>
+						<Var Think:Set="taigoname"><Text Get="lower"><Match /></Text></Var>
 						<Switch Var="taigoname">
 							<Case Value="">Taigo</Case>
 							<Case Value="me"><User Get="Nickname" /></Case>
@@ -64,7 +64,7 @@
 
 		<Model>
 			<Pattern>^TAIGOWORDS</Pattern>
-			<Response><Text Get="titlecase"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text></Response>
+			<Response><Text Get="title"><Random Get="RANDOMADJECTIVE" /> <Random Get="RANDOMNOUN" /></Text></Response>
 		</Model>
 
 		<Model>
@@ -81,7 +81,7 @@
 			<Pattern>CSD2</Pattern>
 			<Response>
 				<Var Think:Set="timetocsd2"><Js>1503594000 - Math.floor(Date.now()/1000)</Js></Var>
-				<If Var="timetocsd2" GreaterThan="0">Taigo has <Js>secondsToString(<Var Get="timetocsd2" />);</Js> left to gather $12.99 \:sgsmile:</If>
+				<If Var="timetocsd2" GT="0">Taigo has <Js>secondsToString(<Var Get="timetocsd2" />);</Js> left to gather $12.99 \:sgsmile:</If>
 				<Else>CSD2 has been out for <Js>secondsToString(<Math Get="abs"><Var Get="timetocsd2" /></Math>);</Js>, I wonder if Taigo got the money in time :doubt:</Else>
 			</Response>
 		</Model>
