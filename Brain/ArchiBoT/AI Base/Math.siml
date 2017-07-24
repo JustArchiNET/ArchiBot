@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-	<Concept Name="Math" Repeat="True">
+	<Concept Name="Math">
 		<Model>
 			<Pattern>
 				<Item>WHAT IS THE AVERAGE OF * AND *</Item>
