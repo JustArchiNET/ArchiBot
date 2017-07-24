@@ -100,7 +100,7 @@
 			</Pattern>
 			<Response>
 				<Var Think:Set="timetolasagna"><Js>1632701400 - Math.floor(Date.now()/1000)</Js></Var>
-				<If Var="timetolasagna" GT="0">Archi's lasagna will be ready in <Js>secondsToString(<Var Get="timetolasagna" />);</Js></If>
+				<If Var="timetolasagna" GreaterThan="0">Archi's lasagna will be ready in <Js>secondsToString(<Var Get="timetolasagna" />);</Js></If>
 				<Else>Archi's lasagna has been ready for <Js>secondsToString(<Math Get="abs"><Var Get="timetolasagna" /></Math>);</Js> \:bite:/</Else>
 			</Response>
 		</Model>
@@ -249,7 +249,7 @@
 
 		<Model>
 			<Pattern>^THANKS *</Pattern>
-			<Response><Var Set="randomemote"><ArchiSteamRandomEmoticon /></Var> THANKS <Text Get="upper"><Match /></Text> <Var Get="randomemote" /></Response>
+			<Response><Var Set="randomemote"><ArchiSteamRandomEmoticon /></Var> THANKS <Text Get="uppercase"><Match /></Text> <Var Get="randomemote" /></Response>
 		</Model>
 
 		<Model>
@@ -556,9 +556,9 @@
 				<If Var="isInt" Value="True">
 					<Var Think:Set="diceroll" Value="{Bind Match}" />
 					<Switch Var="diceroll">
-						<Case LT="0">Sure, let me roll negative dice :doubt:</Case>
+						<Case LessThan="0">Sure, let me roll negative dice :doubt:</Case>
 						<Case Value="0">*rolls nothing*</Case>
-						<Case LTE="20">
+						<Case LessThanOr="20">
 							<Var Think:Set="count" Value="0" />
 							<While Var="count" Not="{Bind Match}"><Var Think:Set="count"><Math Get="increment"><Var Get="count" /></Math></Var>:dice<Random>(1|2|3|4|5|6)</Random>:</While>
 						</Case>

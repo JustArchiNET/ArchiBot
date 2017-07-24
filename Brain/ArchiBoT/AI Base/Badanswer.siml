@@ -44,8 +44,8 @@
           </If>
         </Think>
         <If User="response1" Value="OK, what should I have said" />
-        <ElseIf User="star" Value="no">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="upper"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
-        <ElseIf User="star" Value="yes">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" if I have just said "<User Get="badanswer-that-full" />" <Remember><Model><Pattern><Process><Text Get="upper"><User Get="badanswer-input" /></Text></Process></Pattern><Previous><Process><Text Get="upper"><User Get="badanswer-that" /></Text></Process></Previous><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
+        <ElseIf User="star" Value="no">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
+        <ElseIf User="star" Value="yes">I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" if I have just said "<User Get="badanswer-that-full" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Previous><Process><Text Get="uppercase"><User Get="badanswer-that" /></Text></Process></Previous><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
         <Else>Yes or No?</Else>
       </Response>
     </Model>
@@ -79,7 +79,7 @@
           </If>
         </Think>
         <If User="response1" Value="OK, what should I have said" />
-        <ElseIf User="star" Value="yes">Fine. I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="upper"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
+        <ElseIf User="star" Value="yes">Fine. I'll try to remember to respond, "<User Get="badanswer-newresp" />" when you say, "<User Get="badanswer-input" />" <Remember><Model><Pattern><Process><Text Get="uppercase"><User Get="badanswer-input" /></Text></Process></Pattern><Response><Process><User Get="badanswer-newresp" /></Process></Response></Model></Remember><User Think:Set="concept">learning new answers</User></ElseIf>
         <ElseIf User="star" Value="no">OK, let's forget it then.<User Think:Set="concept">learning new answers</User></ElseIf>
         <Else>Yes or No?</Else>
       </Response>

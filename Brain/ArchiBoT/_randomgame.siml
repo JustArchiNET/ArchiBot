@@ -11,7 +11,7 @@
 			</Pattern>
 			<Response>
 				<User Think:Set="Concept" Value="_randomgame_private" />
-				<Var Think:Set="basename"><Text Get="lower"><Match /></Text></Var>
+				<Var Think:Set="basename"><Text Get="lowercase"><Match /></Text></Var>
 				<User Set="lastrandomgame"><Goto>RANDOMGAMEBUILDER <Text>
 				<Switch Var="basename">
 					<Case Value=""><If User="lastrandomgame" Defined="true"><User Get="lastrandomgame" /></If><ElseIf User="Nickname" Not="me"><User Get="Nickname" /></ElseIf><Else>Weeb</Else></Case>
@@ -46,8 +46,8 @@
 		<Item><Match /> or Alive</Item>
 		<Item><Match /> Sudoku</Item>
 		<Item><Match /> Sumo</Item>
-		<Item><Match /> the Mechanized <Text Get="title"><Random Get="RANDOMNOUN" /></Text></Item>
-		<Item><Match /> the <Text Get="title"><Random Get="RANDOMNOUN" /></Text></Item>
+		<Item><Match /> the Mechanized <Text Get="titlecase"><Random Get="RANDOMNOUN" /></Text></Item>
+		<Item><Match /> the <Text Get="titlecase"><Random Get="RANDOMNOUN" /></Text></Item>
 		<Item><Match /> the Police Officer</Item>
 		<Item>A Boy and His <Match /></Item>
 		<Item>Action <Match /></Item>

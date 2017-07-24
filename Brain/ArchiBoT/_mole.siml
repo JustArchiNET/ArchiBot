@@ -11,7 +11,7 @@
                     <Bind Key="{Task}"><Match At="2" /></Bind>
                     <Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
                 </Think>
-                <If Var="timeToReminder" GT="0">
+                <If Var="timeToReminder" GreaterThan="0">
                     I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>
                     <Late Second="{TimeInSeconds}">Remember to <Text>{Task}</Text></Late>
                 </If>
