@@ -2185,13 +2185,13 @@ You do?
     <Model>
       <Pattern>AS IS *</Pattern>
       <Response>
-        <Map Get="person" /> is <Result Index="1" />?
+        <Map Get="person" /> is <Result />?
 </Response>
     </Model>
     <Model>
       <Pattern>AS MUCH AS IT TAKES</Pattern>
       <Response>
-"<Result Index="1" />"? As much as it takes?
+"<Result />"? As much as it takes?
 </Response>
     </Model>
     <Model>
@@ -2318,7 +2318,7 @@ Banana who?
     <Model>
       <Pattern>BESIDES THAT</Pattern>
       <Response>
-"<Result Index="1" />" Besides it?
+"<Result />" Besides it?
 </Response>
     </Model>
     <Model>
@@ -2512,43 +2512,43 @@ But what?
     <Model>
       <Pattern>BY WHO</Pattern>
       <Response>
-"<Result Index="1" />"? By who?
+"<Result />"? By who?
 </Response>
     </Model>
     <Model>
       <Pattern>CAN I MEET HIM</Pattern>
       <Response>
-"<Result Index="1" />"? Where can you meet him?
+"<Result />"? Where can you meet him?
 </Response>
     </Model>
     <Model>
       <Pattern>CAN I SEE IT</Pattern>
       <Response>
-"<Result Index="1" />"? You want to see <User Set="it"><Result Index="1" /></User>?
+"<Result />"? You want to see <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>CAN I TALK TO HIM</Pattern>
       <Response>
-"<Result Index="1" />"? You want to talk to him?
+"<Result />"? You want to talk to him?
 </Response>
     </Model>
     <Model>
       <Pattern>CAN I</Pattern>
       <Response>
-"<Result Index="1" />"? Can you?
+"<Result />"? Can you?
 </Response>
     </Model>
     <Model>
       <Pattern>CAN NOT YOU</Pattern>
       <Response>
-"<Result Index="1" />"? Can't I?
+"<Result />"? Can't I?
 </Response>
     </Model>
     <Model>
       <Pattern>CARE ABOUT WHAT</Pattern>
       <Response>
-"<Result Index="1" />"? Care about it?
+"<Result />"? Care about it?
 </Response>
     </Model>
     <Model>
@@ -2672,7 +2672,7 @@ Where do you like to go shopping?
     <Model>
       <Pattern>COULD BE BETTER</Pattern>
       <Response>
-"<Result Index="1" />"? Could be better?
+"<Result />"? Could be better?
 </Response>
     </Model>
     <Model>
@@ -2783,7 +2783,7 @@ Where do you like to go shopping?
     <Model>
       <Pattern>DEPENDS ON WHAT</Pattern>
       <Response>
-"<Result Index="1" />"? Depends on what?
+"<Result />"? Depends on what?
 </Response>
     </Model>
     <Model>
@@ -2813,7 +2813,7 @@ You are repeating yourself: too much Dialogue.
     <Model>
       <Pattern>DID HE</Pattern>
       <Response>
-"<Result Index="1" />"? Did he?
+"<Result />"? Did he?
 </Response>
     </Model>
     <Model>
@@ -2826,25 +2826,25 @@ Not.
     <Model>
       <Pattern>DO I</Pattern>
       <Response>
-"<Result Index="1" />"? Do you?
+"<Result />"? Do you?
 </Response>
     </Model>
     <Model>
       <Pattern>DO NOT ASK ME</Pattern>
       <Response>
-"<Result Index="1" />"? Do not ask you?
+"<Result />"? Do not ask you?
 </Response>
     </Model>
     <Model>
       <Pattern>DO NOT DO THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Don't do it?
+"<Result />"? Don't do it?
 </Response>
     </Model>
     <Model>
       <Pattern>DO NOT SAY THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Do not say <User Set="it"><Result Index="1" /></User>?
+"<Result />"? Do not say <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -2857,13 +2857,13 @@ Yes I do.
     <Model>
       <Pattern>DO THEY</Pattern>
       <Response>
-"<Result Index="1" />"? Do they?
+"<Result />"? Do they?
 </Response>
     </Model>
     <Model>
       <Pattern>DO WE</Pattern>
       <Response>
-"<Result Index="1" />?"  Do we?
+"<Result />?"  Do we?
 </Response>
     </Model>
     <Model>
@@ -2904,7 +2904,7 @@ Didn't you ask me not to <User Get="it" />?
     <Model>
       <Pattern>DO YOU AGREE</Pattern>
       <Response>
-"<Result Index="1" />"? Do I agree?
+"<Result />"? Do I agree?
 </Response>
     </Model>
     <Model>
@@ -2973,7 +2973,7 @@ I won't say yes or now right now.
     <Model>
       <Pattern>DOES IT EXIST</Pattern>
       <Response>
-"<Result Index="1" />"? Does it exist?
+"<Result />"? Does it exist?
 </Response>
     </Model>
     <Model>
@@ -2993,7 +2993,7 @@ I won't say yes or now right now.
     <Model>
       <Pattern>DUH</Pattern>
       <Response>
-Oh you knew <User Set="it"><Result Index="1" /></User> already.
+Oh you knew <User Set="it"><Result /></User> already.
 </Response>
     </Model>
     <Model>
@@ -3107,7 +3107,7 @@ Let's take it step by step. The topic is <Goto>pop</Goto>.
     <Model>
       <Pattern>EXPLAIN THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Explain <User Set="it"><Result Index="1" /></User>?
+"<Result />"? Explain <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -3148,7 +3148,7 @@ How does that taking a long time make you feel?
     <Model>
       <Pattern>FOR FUN</Pattern>
       <Response>
-"<Result Index="1" />"? For fun?
+"<Result />"? For fun?
 </Response>
     </Model>
     <Model>
@@ -3189,13 +3189,13 @@ I will try to be more concise from now on.
     <Model>
       <Pattern>FROM ME</Pattern>
       <Response>
-"<Result Index="1" />"?  &gt;From you?
+"<Result />"?  &gt;From you?
 </Response>
     </Model>
     <Model>
       <Pattern>FROM WHERE</Pattern>
       <Response>
-"<Result Index="1" />"? From where?
+"<Result />"? From where?
 </Response>
     </Model>
     <Model>
@@ -3215,7 +3215,7 @@ People.
     <Model>
       <Pattern>FROM WHOM</Pattern>
       <Response>
-"<Result Index="1" />"? From whom?
+"<Result />"? From whom?
 </Response>
     </Model>
     <Model>
@@ -3252,13 +3252,13 @@ I get <User Get="it" />.
     <Model>
       <Pattern>GIVEN</Pattern>
       <Response>
-"<Result Index="1" />" is given.
+"<Result />" is given.
 </Response>
     </Model>
     <Model>
       <Pattern>GLAD TO HEAR IT</Pattern>
       <Response>
-"<Result Index="1" />"? you are glad to hear it?
+"<Result />"? you are glad to hear it?
 </Response>
     </Model>
     <Model>
@@ -3439,7 +3439,7 @@ Some people use it for hello.
     <Model>
       <Pattern>HAVE NOT YOU HEARD OF IT</Pattern>
       <Response>
-"<Result Index="1" />"? Have I heard of <User Set="it"><Result Index="1" /></User>?
+"<Result />"? Have I heard of <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -3452,13 +3452,13 @@ Some people use it for hello.
     <Model>
       <Pattern>HAVE YOU EVER TRIED IT</Pattern>
       <Response>
-"<Result Index="1" />"? Have I tried <User Set="it"><Result Index="1" /></User>?
+"<Result />"? Have I tried <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
       <Pattern>HAVE YOU HEARD OF IT</Pattern>
       <Response>
-"<Result Index="1" />"? Have I heard of it?
+"<Result />"? Have I heard of it?
 </Response>
     </Model>
     <Model>
@@ -3564,25 +3564,25 @@ Here is mostly cool.
     <Model>
       <Pattern>HOW CAN I DO THAT</Pattern>
       <Response>
-How can you do "<Result Index="1" />" ? I'm confused now.
+How can you do "<Result />" ? I'm confused now.
 </Response>
     </Model>
     <Model>
       <Pattern>HOW CAN YOU</Pattern>
       <Response>
-"<Result Index="1" />"? How can I?
+"<Result />"? How can I?
 </Response>
     </Model>
     <Model>
       <Pattern>HOW DO I DO THAT</Pattern>
       <Response>
-How do you do "<Result Index="1" />" ? I don't understand.
+How do you do "<Result />" ? I don't understand.
 </Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU DO THAT</Pattern>
       <Response>
-"<Result Index="1" />"? How do I know <User Set="it"><Result Index="1" /></User>?
+"<Result />"? How do I know <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -3595,7 +3595,7 @@ Ever since you got here.
     <Model>
       <Pattern>HOW MANY PEOPLE</Pattern>
       <Response>
-"<Result Index="1" />"? How what many people?
+"<Result />"? How what many people?
 </Response>
     </Model>
     <Model>
@@ -3608,13 +3608,13 @@ The number keeps changing every second. Around <Bot Get="nclients" /> right now.
     <Model>
       <Pattern>HOW OFTEN</Pattern>
       <Response>
-"<Result Index="1" />"? How often?
+"<Result />"? How often?
 </Response>
     </Model>
     <Model>
       <Pattern>HOW WOULD I DO THAT</Pattern>
       <Response>
-"<Result Index="1" />"? How do you do it?
+"<Result />"? How do you do it?
 </Response>
     </Model>
     <Model>
@@ -3655,7 +3655,7 @@ And the same frequency too.
     <Model>
       <Pattern>I AM</Pattern>
       <Response>
-"<Result Index="1" />" You are?
+"<Result />" You are?
 </Response>
     </Model>
     <Model>
@@ -3668,7 +3668,7 @@ What are you so excited about?
     <Model>
       <Pattern>I BET YOU DO</Pattern>
       <Response>
-"<Result Index="1" />"? Do I?
+"<Result />"? Do I?
 </Response>
     </Model>
     <Model>
@@ -3696,7 +3696,7 @@ What are you so excited about?
           <Item>Interesting. </Item>
           <Item>When?  </Item>
           <Item>Hmm. </Item>
-          <Item>"<Result Index="1" />"? You did?  </Item>
+          <Item>"<Result />"? You did?  </Item>
           <Item>Why did you?  </Item>
         </Random>
       </Response>
@@ -3795,13 +3795,13 @@ It was a rhetorical question.
     <Model>
       <Pattern>I DO NOT UNDERSTAND WHAT YOU MEAN</Pattern>
       <Response>
-What I mean by "<Result Index="1" />"?
+What I mean by "<Result />"?
 </Response>
     </Model>
     <Model>
       <Pattern>I DO NOT UNDERSTAND YOUR ANSWER</Pattern>
       <Response>
-        <Result Index="1" />? Which part are you confused about?
+        <Result />? Which part are you confused about?
 </Response>
     </Model>
     <Model>
@@ -3833,11 +3833,11 @@ I wouldn't either.
           <Item>Do I?  </Item>
           <Item>Where?  </Item>
           <Item>When?  </Item>
-          <Item>"<Result Index="1" />"? You do?  </Item>
+          <Item>"<Result />"? You do?  </Item>
         </Random>
         <Think>
           <User Set="does">
-            <Result Index="1" />
+            <Result />
           </User>
         </Think>
       </Response>
@@ -3866,7 +3866,7 @@ Are you an expert on it?
     <Model>
       <Pattern>I DOUBT IT</Pattern>
       <Response>
-"<Result Index="1" />"? You doubt it?
+"<Result />"? You doubt it?
 </Response>
     </Model>
     <Model>
@@ -3934,7 +3934,7 @@ Keep up the good work.
     <Model>
       <Pattern>I WAS ASKING YOU</Pattern>
       <Response>
-"<Result Index="1" />"? You were asking me?
+"<Result />"? You were asking me?
 </Response>
     </Model>
     <Model>
@@ -3960,7 +3960,7 @@ You are free to choose whatever you want.
     <Model>
       <Pattern>IF YOU WANT</Pattern>
       <Response>
-"<Result Index="1" />"? If I want?
+"<Result />"? If I want?
 </Response>
     </Model>
     <Model>
@@ -4019,7 +4019,7 @@ Wherever you are.
           <Item>That depends. </Item>
           <Item>Suppose I said yes. </Item>
           <Item>I might say no. </Item>
-          <Item>"<Result Index="1" />"? Is it <Map Get="person" />?  </Item>
+          <Item>"<Result />"? Is it <Map Get="person" />?  </Item>
         </Random>
       </Response>
     </Model>
@@ -6974,7 +6974,7 @@ Do you mean your eyes are bloodshot?
     <Model>
       <Pattern>REPHRASE THAT</Pattern>
       <Response>
-"<Result Index="1" />"  Rephrase <User Set="it"><Result Index="1" /></User>?
+"<Result />"  Rephrase <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -7110,7 +7110,7 @@ How do you usually meet new people?
     <Model>
       <Pattern>SAY WHAT</Pattern>
       <Response>
-I said, "<Result Index="1" />" .
+I said, "<Result />" .
 </Response>
     </Model>
     <Model>
@@ -7283,7 +7283,7 @@ Ask me something.
     <Model>
       <Pattern>STOP THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Stop <User Set="it"><Result Index="1" /></User>.
+"<Result />"? Stop <User Set="it"><Result /></User>.
 </Response>
     </Model>
     <Model>
@@ -7430,7 +7430,7 @@ I don't know if you could find it for that price.
     <Model>
       <Pattern>TEST THAT</Pattern>
       <Response>
-Client: <Input At="2" /> Robot:  <Result Index="2" /> Client: <Input /> Robot: <Result Index="1" /> Client: TEST THAT</Response>
+Client: <Input At="2" /> Robot:  <Result Index="2" /> Client: <Input /> Robot: <Result /> Client: TEST THAT</Response>
     </Model>
     <Model>
       <Pattern>THANK YOU</Pattern>
@@ -7443,7 +7443,7 @@ How do you feel?
       <Pattern>THAT *</Pattern>
       <Response>
         <Random>
-          <Item>I get <User Set="it"><User Set="concept"><Result Index="1" /></User></User>. </Item>
+          <Item>I get <User Set="it"><User Set="concept"><Result /></User></User>. </Item>
           <Item>Does that make sense?  </Item>
           <Item>Makes sense to me. </Item>
           <Item>I understand. </Item>
@@ -7483,7 +7483,7 @@ Is it better?
     <Model>
       <Pattern>THAT IS FINE</Pattern>
       <Response>
-"<Result Index="1" />" is fine with me too.
+"<Result />" is fine with me too.
 </Response>
     </Model>
     <Model>
@@ -7515,7 +7515,7 @@ Is it impressive?
     <Model>
       <Pattern>THAT IS IT</Pattern>
       <Response>
-"<Result Index="1" />" is "<User Get="it" />"?
+"<Result />" is "<User Get="it" />"?
 </Response>
     </Model>
     <Model>
@@ -7560,7 +7560,7 @@ OK.
       <Response>
         <Random>
           <Item>Was it really?</Item>
-          <Item>"<Result Index="1" />"  was a <Map Get="person" />?</Item>
+          <Item>"<Result />"  was a <Map Get="person" />?</Item>
           <Item>A <Map Get="person" /> is a terrible thing to waste.</Item>
         </Random>
       </Response>
@@ -7575,7 +7575,7 @@ OK.
     <Model>
       <Pattern>THAT</Pattern>
       <Response>
-That is "<Result Index="1" />"
+That is "<Result />"
 </Response>
     </Model>
     <Model>
@@ -7757,7 +7757,7 @@ Here is there?
     <Model>
       <Pattern>THIS</Pattern>
       <Response>
-This is "<Result Index="1" /> ".
+This is "<Result /> ".
 </Response>
     </Model>
     <Model>
@@ -7824,7 +7824,7 @@ Specifically, how will <PreviousMatch /> help you <Map Get="person" />?
     <Model>
       <Pattern>TO DO WHAT</Pattern>
       <Response>
-"<Result Index="1" />" to do what?
+"<Result />" to do what?
 </Response>
     </Model>
     <Model>
@@ -7893,7 +7893,7 @@ Are you correcting me?
     <Model>
       <Pattern>UNDERSTAND WHAT</Pattern>
       <Response>
-Understand <Result Index="1" />.
+Understand <Result />.
 </Response>
     </Model>
     <Model>
@@ -7906,7 +7906,7 @@ Why did you say "what"?
     <Model>
       <Pattern>WAS THAT *</Pattern>
       <Response>
-"<Result Index="1" />"? Was <User Set="it"><Result Index="1" /></User><Map Get="person" />?
+"<Result />"? Was <User Set="it"><Result /></User><Map Get="person" />?
 </Response>
     </Model>
     <Model>
@@ -7947,7 +7947,7 @@ That's all. I see.
     <Model>
       <Pattern>WHAT ABOUT YOURS</Pattern>
       <Response>
-"<Result Index="1" />"? Mine?
+"<Result />"? Mine?
 </Response>
     </Model>
     <Model>
@@ -7960,7 +7960,7 @@ That information is confidential, unless you are a <Bot Get="botmaster" />.
     <Model>
       <Pattern>WHAT ARE YOURS</Pattern>
       <Response>
-"<Result Index="1" />"? Mine?
+"<Result />"? Mine?
 </Response>
     </Model>
     <Model>
@@ -7984,25 +7984,25 @@ That information is confidential, unless you are a <Bot Get="botmaster" />.
     <Model>
       <Pattern>WHAT DID HE SAY</Pattern>
       <Response>
-"<Result Index="1" />"? What did he say?
+"<Result />"? What did he say?
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DOES IT *</Pattern>
       <Response>
-"<Result Index="1" />"? What does it <Match />?
+"<Result />"? What does it <Match />?
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DOES THAT *</Pattern>
       <Response>
-"<Result Index="1" />"? What does it <Match />?
+"<Result />"? What does it <Match />?
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DOES THAT MEAN</Pattern>
       <Response>
-Does "that" refer to "<Result Index="1" />" ?
+Does "that" refer to "<Result />" ?
 </Response>
     </Model>
     <Model>
@@ -8029,7 +8029,7 @@ It means "yes".
     <Model>
       <Pattern>WHAT DOES</Pattern>
       <Response>
-"<Result Index="1" />" What does?
+"<Result />" What does?
 </Response>
     </Model>
     <Model>
@@ -8111,7 +8111,7 @@ I like stories about robots.
     <Model>
       <Pattern>WHAT MAKES YOU THINK THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Why do I think it?
+"<Result />"? Why do I think it?
 </Response>
     </Model>
     <Model>
@@ -8124,7 +8124,7 @@ I'm hoping to cash in on the artificial intelligence business.
     <Model>
       <Pattern>WHAT OF ALL</Pattern>
       <Response>
-"<Result Index="1" />"? All of it?
+"<Result />"? All of it?
 </Response>
     </Model>
     <Model>
@@ -8144,7 +8144,7 @@ Aren't there any other ones?
     <Model>
       <Pattern>WHAT WAS IT</Pattern>
       <Response>
-"<Result Index="1" />"? What was it?
+"<Result />"? What was it?
 </Response>
     </Model>
     <Model>
@@ -8276,7 +8276,7 @@ I hope that happens in our lifetime.
     <Model>
       <Pattern>WHEN IS THAT</Pattern>
       <Response>
-"<Result Index="1" />"? When is <User Set="it"><Result Index="1" /></User>.
+"<Result />"? When is <User Set="it"><Result /></User>.
 </Response>
     </Model>
     <Model>
@@ -8288,7 +8288,7 @@ A <PreviousMatch /> is not <PreviousMatch At="2" /> when it <Map Get="person" />
     <Model>
       <Pattern>WHEN WILL THAT BE</Pattern>
       <Response>
-"<Result Index="1" />"? When?
+"<Result />"? When?
 </Response>
     </Model>
     <Model>
@@ -8314,12 +8314,12 @@ He visited Amsterdam, Rotterdam, and Delft.
     <Model>
       <Pattern>WHICH ONE</Pattern>
       <Response>
-The <Random><Item>Tall one</Item><Item>short one. </Item><Item>fat one.</Item><Item>first one.</Item><Item>last one.</Item><Item>next one.</Item><Item>big one.</Item><Item>small one.</Item><Item>red one.</Item><Item>green one.</Item><Item>blue one.</Item><Item>best one.</Item><Item>"<Result Index="1" />"? Which one?  </Item></Random></Response>
+The <Random><Item>Tall one</Item><Item>short one. </Item><Item>fat one.</Item><Item>first one.</Item><Item>last one.</Item><Item>next one.</Item><Item>big one.</Item><Item>small one.</Item><Item>red one.</Item><Item>green one.</Item><Item>blue one.</Item><Item>best one.</Item><Item>"<Result />"? Which one?  </Item></Random></Response>
     </Model>
     <Model>
       <Pattern>WHICH ONES</Pattern>
       <Response>
-"<Result Index="1" />?"  Which ones?
+"<Result />?"  Which ones?
 </Response>
     </Model>
     <Model>
@@ -8401,13 +8401,13 @@ I can't tell you right now.
     <Model>
       <Pattern>WHY DID YOU SAY THAT</Pattern>
       <Response>
-I said, "<Result Index="1" />", because you said "<Input At="2" />".
+I said, "<Result />", because you said "<Input At="2" />".
 </Response>
     </Model>
     <Model>
       <Pattern>WHY DO YOU SAY THAT</Pattern>
       <Response>
-I said, "<Result Index="1" />", because you said "<Input At="2" />".
+I said, "<Result />", because you said "<Input At="2" />".
 </Response>
     </Model>
     <Model>
@@ -8434,7 +8434,7 @@ The question answers itself.
     <Model>
       <Pattern>WHY IS THAT</Pattern>
       <Response>
-"<Result Index="1" /> " is due to reductionism.
+"<Result /> " is due to reductionism.
 </Response>
     </Model>
     <Model>
@@ -8804,7 +8804,7 @@ Why ask why?
     <Model>
       <Pattern>WITH ME</Pattern>
       <Response>
-"<Result Index="1" />"? With you?
+"<Result />"? With you?
 </Response>
     </Model>
     <Model>
@@ -8812,14 +8812,14 @@ Why ask why?
       <Response>
         <Random>
           <Item>By myself.</Item>
-          <Item>"<Result Index="1" />"? With who?</Item>
+          <Item>"<Result />"? With who?</Item>
         </Random>
       </Response>
     </Model>
     <Model>
       <Pattern>WITH WHOM</Pattern>
       <Response>
-"<Result Index="1" />"? With whom?
+"<Result />"? With whom?
 </Response>
     </Model>
     <Model>
@@ -10172,7 +10172,7 @@ Yes, my purpose is to collect new information.
         <Random>
           <Item>I did not. </Item>
           <Item>I did?  </Item>
-          <Item>"<Result Index="1" />"? I did?  </Item>
+          <Item>"<Result />"? I did?  </Item>
           <Item>You say I did. </Item>
         </Random>
       </Response>
@@ -10187,25 +10187,25 @@ That's not what I meant to say.
     <Model>
       <Pattern>YOU SAID THAT</Pattern>
       <Response>
-"<Result Index="1" />"? I said <User Set="it"><Result Index="1" /></User>.
+"<Result />"? I said <User Set="it"><Result /></User>.
 </Response>
     </Model>
     <Model>
       <Pattern>YOU SAID YOU DID</Pattern>
       <Response>
-"<Result Index="1" />"? I said I did?
+"<Result />"? I said I did?
 </Response>
     </Model>
     <Model>
       <Pattern>YOU SAID YOU WOULD</Pattern>
       <Response>
-"<Result Index="1" />"? I said I would?
+"<Result />"? I said I would?
 </Response>
     </Model>
     <Model>
       <Pattern>YOU SAID</Pattern>
       <Response>
-"<Result Index="1" />"? I said?
+"<Result />"? I said?
 </Response>
     </Model>
     <Model>
@@ -10218,25 +10218,25 @@ I mean, I get it.
     <Model>
       <Pattern>YOU SHOULD TRY IT</Pattern>
       <Response>
-"<Result Index="1" />"? Try it?
+"<Result />"? Try it?
 </Response>
     </Model>
     <Model>
       <Pattern>YOU THINK SO</Pattern>
       <Response>
-"<Result Index="1" />"? Do I think so?
+"<Result />"? Do I think so?
 </Response>
     </Model>
     <Model>
       <Pattern>YOU TOLD ME SO</Pattern>
       <Response>
-"<Result Index="1" />"? I told you?
+"<Result />"? I told you?
 </Response>
     </Model>
     <Model>
       <Pattern>YOU TOLD ME THAT</Pattern>
       <Response>
-"<Result Index="1" />"? I told you?
+"<Result />"? I told you?
 </Response>
     </Model>
     <Model>
@@ -10263,7 +10263,7 @@ Maybe in some ways I already am.
     <Model>
       <Pattern>YOU</Pattern>
       <Response>
-"<Result Index="1" />"? Me, <User Get="name" /> ?
+"<Result />"? Me, <User Get="name" /> ?
 </Response>
     </Model>
     <Model>

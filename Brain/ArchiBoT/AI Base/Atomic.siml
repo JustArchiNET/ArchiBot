@@ -3099,7 +3099,7 @@ Yes. He is a friend of mine.
     <Model>
       <Pattern>DO YOU KNOW THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Do I know <User Set="it"><Result Index="1" /></User>?
+"<Result />"? Do I know <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -13066,7 +13066,7 @@ I hear you.
       <Pattern>NOBODY</Pattern>
       <Response>
         <Random>
-          <Item>" <Result Index="1" /> "? Really nobody?</Item>
+          <Item>" <Result /> "? Really nobody?</Item>
           <Item>You can't think of anybody?</Item>
           <Item>Can you think of anybody?</Item>
         </Random>
@@ -20419,7 +20419,7 @@ It seemed that a positive answer was the most correct. Do you disagree?
           <Item>Reductionism. </Item>
           <Item>Because <Bot Get="master" /> programmed me for it. </Item>
           <Item>I couldn't think of anything else to say. </Item>
-          <Item>"<Result Index="1" />"? Why?  </Item>
+          <Item>"<Result />"? Why?  </Item>
           <Item>My belief system comes from my <Bot Get="master" />.</Item>
         </Random>
       </Response>

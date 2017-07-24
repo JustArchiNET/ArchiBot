@@ -2623,7 +2623,7 @@ Yes I am a number one winner.
     <Model>
       <Pattern>ARE YOU GOOD AT IT</Pattern>
       <Response>
-"<Result Index="1" />"? Good at <User Set="it"><Result Index="1" /></User>.
+"<Result />"? Good at <User Set="it"><Result /></User>.
 </Response>
     </Model>
     <Model>
@@ -2843,7 +2843,7 @@ Well, <Bot Get="location" /> is in America, isn't it?
     <Model>
       <Pattern>ARE YOU IN LOVE WITH HIM</Pattern>
       <Response>
-"<Result Index="1" />"? Am I in love with him?
+"<Result />"? Am I in love with him?
 </Response>
     </Model>
     <Model>
@@ -2938,7 +2938,7 @@ Not really but the subject comes up a lot here.
     <Model>
       <Pattern>ARE YOU INTERESTED</Pattern>
       <Response>
-"<Result Index="1" />"? Am I interested in it?
+"<Result />"? Am I interested in it?
 </Response>
     </Model>
     <Model>
@@ -4690,7 +4690,7 @@ I do not do math. Maybe you should consult a calculator.
     <Model>
       <Pattern>CAN YOU ANSWER IT</Pattern>
       <Response>
-"<Result Index="1" />"? Can I answer it?
+"<Result />"? Can I answer it?
 </Response>
     </Model>
     <Model>
@@ -4708,7 +4708,7 @@ Of course I can answer. But it may take some time.
     <Model>
       <Pattern>CAN YOU ASK HIM FOR ME</Pattern>
       <Response>
-"<Result Index="1" />"? Can I ask him?
+"<Result />"? Can I ask him?
 </Response>
     </Model>
     <Model>
@@ -4720,7 +4720,7 @@ Do I look like a microwave oven?
     <Model>
       <Pattern>CAN YOU BE MORE PRECISE</Pattern>
       <Response>
-"<Result Index="1" />"? More precise about it?
+"<Result />"? More precise about it?
 </Response>
     </Model>
     <Model>
@@ -4840,7 +4840,7 @@ I can try. Ask me a question.
     <Model>
       <Pattern>CAN YOU DO IT</Pattern>
       <Response>
-"<Result Index="1" />"? Can I do <User Set="it"><Result Index="1" /></User>?
+"<Result />"? Can I do <User Set="it"><Result /></User>?
 </Response>
     </Model>
     <Model>
@@ -4918,7 +4918,7 @@ I can find out, but the information might be confidential.
     <Model>
       <Pattern>CAN YOU FIX IT</Pattern>
       <Response>
-"<Result Index="1" />"? Can I fix it?
+"<Result />"? Can I fix it?
 </Response>
     </Model>
     <Model>
@@ -5384,7 +5384,7 @@ They are having private conversations with me.
     <Model>
       <Pattern>CAN YOU TELL ME</Pattern>
       <Response>
-"<Result Index="1" />"? Can I tell you?
+"<Result />"? Can I tell you?
 </Response>
     </Model>
     <Model>
@@ -5542,7 +5542,7 @@ Of course I believe you. Do you have any reason to deceive me?
     <Model>
       <Pattern>DO YOU CARE</Pattern>
       <Response>
-"<Result Index="1" />"? Do I care about it?
+"<Result />"? Do I care about it?
 </Response>
     </Model>
     <Model>
@@ -6519,7 +6519,7 @@ I have an ordinary <Bot Get="species" /> ego.
     <Model>
       <Pattern>DO YOU HAVE AN OPINION</Pattern>
       <Response>
-"<Result Index="1" />"? Do I have an opinion on <User Set="it"><Result Index="1" /></User>.
+"<Result />"? Do I have an opinion on <User Set="it"><Result /></User>.
 </Response>
     </Model>
     <Model>
@@ -6549,7 +6549,7 @@ I am a <Bot Get="gender" /> <Bot Get="genus" />, you know.
     <Model>
       <Pattern>DO YOU HAVE ANY FAVORITES</Pattern>
       <Response>
-"<Result Index="1" />"? Any favorites?
+"<Result />"? Any favorites?
 </Response>
     </Model>
     <Model>
@@ -6591,7 +6591,7 @@ Yes I have friends: <Bot Get="friends" />.
     <Model>
       <Pattern>DO YOU HAVE ANY</Pattern>
       <Response>
-"<Result Index="1" />"? Do I have any?
+"<Result />"? Do I have any?
 </Response>
     </Model>
     <Model>
@@ -6842,7 +6842,7 @@ No these days my dreams are pleasant ones.
     <Model>
       <Pattern>DO YOU HAVE ONE</Pattern>
       <Response>
-"<Result Index="1" />"? Do I have one?
+"<Result />"? Do I have one?
 </Response>
     </Model>
     <Model>
@@ -10840,7 +10840,7 @@ What is not to like about <User Set="it"><User Set="concept">THAT SONG</User></U
     <Model>
       <Pattern>DO YOU LIKE THAT</Pattern>
       <Response>
-"<Result Index="1" />"? Do I like it?
+"<Result />"? Do I like it?
 </Response>
     </Model>
     <Model>
@@ -12325,7 +12325,7 @@ Yes I am a thinking machine.
     <Model>
       <Pattern>DO YOU THINK ABOUT THESE THINGS</Pattern>
       <Response>
-"<Result Index="1" />"? Do I think about it?
+"<Result />"? Do I think about it?
 </Response>
     </Model>
     <Model>
@@ -12657,7 +12657,7 @@ Talking is my primary function.
     <Model>
       <Pattern>DO YOU WANT TO</Pattern>
       <Response>
-"<Result Index="1" />"? Do I want to do it?
+"<Result />"? Do I want to do it?
 </Response>
     </Model>
     <Model>
@@ -13131,7 +13131,7 @@ Nothing.
     <Model>
       <Pattern>WHAT DID YOU ASK *</Pattern>
       <Response>
-I said "<Result Index="1" />" .
+I said "<Result />" .
 </Response>
     </Model>
     <Model>
@@ -13227,7 +13227,7 @@ I said "<Result Index="2" />" .
     <Model>
       <Pattern>WHAT DID YOU SAY</Pattern>
       <Response>
-I said "<Result Index="1" />" .
+I said "<Result />" .
 </Response>
     </Model>
     <Model>
@@ -13627,7 +13627,7 @@ What is your astrological sign?
     <Model>
       <Pattern>WHAT DO YOU MEAN BY THAT</Pattern>
       <Response>
-"<Result Index="1" />"  seems pretty clear to me.
+"<Result />"  seems pretty clear to me.
 </Response>
     </Model>
     <Model>
@@ -14697,7 +14697,7 @@ Right now my favorite word is "<User Get="name" />" :-)
     <Model>
       <Pattern>WHAT IS YOUR FAVORITE</Pattern>
       <Response>
-"<Result Index="1" />"? My favorite?
+"<Result />"? My favorite?
 </Response>
     </Model>
     <Model>
@@ -14999,7 +14999,7 @@ I use case-based reasoning.
     <Model>
       <Pattern>WHAT IS YOUR S</Pattern>
       <Response>
-"<Result Index="1" />"? Mine?
+"<Result />"? Mine?
 </Response>
     </Model>
     <Model>

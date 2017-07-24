@@ -22051,7 +22051,7 @@ Hmm. <Goto>what is a <Match /></Goto></Response>
     <Model>
       <Pattern>THAT IS MY FAVORITE *</Pattern>
       <Response>
-        <Goto>my favorite <Match /> is <Result Index="1" /></Goto>
+        <Goto>my favorite <Match /> is <Result /></Goto>
       </Response>
     </Model>
     <Model>
