@@ -100,7 +100,7 @@
     <Model>
       <Pattern>ALAS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -402,7 +402,7 @@ How long have you known these people? <User Think:Set="they"><User Set="concept"
     <Model>
       <Pattern>MY HUSBAND THINKS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -568,7 +568,7 @@ To <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>WHAT TO DO WHAT TO DO *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>

@@ -19,7 +19,7 @@
     <Model>
       <Pattern>_ _</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
   </Concept>
@@ -54,7 +54,7 @@
     <Model>
       <Pattern>_ _</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
   </Concept>
@@ -89,7 +89,7 @@
     <Model>
       <Pattern>_ _</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
   </Concept>
@@ -121,7 +121,7 @@
       <Pattern>_ _</Pattern>
       <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>

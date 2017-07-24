@@ -28575,7 +28575,7 @@ New York City or New York State? <Goto>I am in new york</Goto></Response>
       <Pattern>OKIE *</Pattern>
       <Response>
         <Goto>ok</Goto>
-        <GotoMatch />
+        <Goto />
         <Think>
           <User Set="file">Reduce.aiml</User>
         </Think>
@@ -33088,7 +33088,7 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       <Pattern>WASS UP *</Pattern>
       <Response>
         <Goto>what is up</Goto>
-        <GotoMatch />
+        <Goto />
         <Think>
           <User Set="file">Reduce.aiml</User>
         </Think>

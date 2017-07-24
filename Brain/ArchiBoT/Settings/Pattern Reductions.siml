@@ -887,7 +887,7 @@
         <Item>_ YESTERDAY</Item>
       </Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>

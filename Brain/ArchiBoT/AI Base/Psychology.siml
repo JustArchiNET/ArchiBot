@@ -266,7 +266,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
     <Model>
       <Pattern>ARE YOU AWARE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -290,7 +290,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
     <Model>
       <Pattern>BUT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -332,7 +332,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
     <Model>
       <Pattern>DO THEY REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -380,7 +380,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
     <Model>
       <Pattern>DO YOU REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -412,19 +412,19 @@ I understand, but I'm not interested in buying anything.
     <Model>
       <Pattern>DOES HE REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>DOES SHE REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>EVEN *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -442,7 +442,7 @@ I understand, but I'm not interested in buying anything.
     <Model>
       <Pattern>EXCEPT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -454,13 +454,13 @@ I understand, but I'm not interested in buying anything.
     <Model>
       <Pattern>GOSH *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>HAPPILY *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -490,7 +490,7 @@ I understand, but I'm not interested in buying anything.
     <Model>
       <Pattern>HE IS AWARE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -508,7 +508,7 @@ I understand, but I'm not interested in buying anything.
     <Model>
       <Pattern>HE REALIZES THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -532,7 +532,7 @@ I understand, but I'm not interested.
     <Model>
       <Pattern>I AM AWARE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -832,7 +832,7 @@ Let's think of a name for your problem, like "purple". Think of what it is like 
     <Model>
       <Pattern>I MEAN *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -862,7 +862,7 @@ You've never, never done this?
     <Model>
       <Pattern>I REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -892,7 +892,7 @@ You've never, never done this?
     <Model>
       <Pattern>I SAY THAT BECAUSE *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -952,7 +952,7 @@ You've never, never done this?
     <Model>
       <Pattern>I WILL BET *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2031,7 +2031,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS BITCHIN  *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2043,13 +2043,13 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS BITCHIN THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS FAR OUT  *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2061,31 +2061,31 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS FAR OUT THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS FORTUNATE  *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS FORTUNATE FOR YOU *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS FORTUNATE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS GROOVY  *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2097,7 +2097,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS GROOVY THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2115,13 +2115,13 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS LUCKY THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS NECESSARY *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2133,7 +2133,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS NECESSARY THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2157,13 +2157,13 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS ODD THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>IT IS OUT OF SIGHT  *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2175,7 +2175,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT IS OUT OF SIGHT THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2238,25 +2238,25 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>IT WOULD HAVE BEEN NICE BUT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>JUST *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>LET ME ASK YOU A QUESTION *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>LET ME ASK YOU ONE QUESTION *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2274,7 +2274,7 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>MY BET IS THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2292,13 +2292,13 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>MY POINTING IT OUT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>NECESSARILY *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2322,13 +2322,13 @@ What makes you think I would <Map Get="person" />?
     <Model>
       <Pattern>ONE OF THESE DAYS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
       <Pattern>ONLY *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2389,7 +2389,7 @@ Gee, I like the theater.
     <Model>
       <Pattern>SHE IS AWARE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2407,7 +2407,7 @@ Gee, I like the theater.
     <Model>
       <Pattern>SHE REALIZES THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2509,7 +2509,7 @@ Yes, I can imagine it is a big load on your mind.
     <Model>
       <Pattern>THEN *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2569,7 +2569,7 @@ Yes, sometimes I think I have hit rock bottom.
     <Model>
       <Pattern>THEY ARE AWARE THAT</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2581,7 +2581,7 @@ They are a bit wrinkled, aren't they.
     <Model>
       <Pattern>THEY REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2719,7 +2719,7 @@ Vibrating how, specifically?
     <Model>
       <Pattern>WE ARE AWARE THAT</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2761,7 +2761,7 @@ Specifically, what kind of problem?
     <Model>
       <Pattern>WE REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2810,7 +2810,7 @@ How specifically do I make you <Map Get="person"><Match At="2" /></Map></Respons
     <Model>
       <Pattern>WHETHER WE ADMIT IT OR NOT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2876,7 +2876,7 @@ I understand how you feel, but I'm not interested.
     <Model>
       <Pattern>YESTERDAY *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -3176,7 +3176,7 @@ I always say, if you see an ass go by, kiss it.
     <Model>
       <Pattern>YOU ARE AWARE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -4011,7 +4011,7 @@ I did, didn't I?
     <Model>
       <Pattern>YOU REALIZE THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>

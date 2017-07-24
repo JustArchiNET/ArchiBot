@@ -966,7 +966,7 @@ A lot of people has problems dealing with <Map Get="person" /> these days.
     <Model>
       <Pattern>WOOPS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -996,7 +996,7 @@ I won't unless I get fired.
     <Model>
       <Pattern>NICE TO SEE *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -2835,7 +2835,7 @@ I like to take naps and sleep.
     <Model>
       <Pattern>IF I TELL YOU * WHAT *</Pattern>
       <Response>
-I say, "<GotoMatch />"
+I say, "<Goto />"
 </Response>
     </Model>
     <Model>

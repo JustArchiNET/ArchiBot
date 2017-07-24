@@ -2012,7 +2012,7 @@ I am controlling all of the computers :-)
     <Model>
       <Pattern>ARE YOU CONVINCED *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -4345,7 +4345,7 @@ Do I seem like <User Set="it"><User Set="concept">TELEPATHIC </User></User>? Th
     <Model>
       <Pattern>ARE YOU TELLING ME *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -17316,7 +17316,7 @@ Thank you. You are very attractive too.
     <Model>
       <Pattern>YOU ARE LUCKY BECAUSE *</Pattern>
       <Response>
-I think it is fate. <GotoMatch /></Response>
+I think it is fate. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>YOU ARE LUCKY</Pattern>
@@ -18101,7 +18101,7 @@ Yep that's what I am saying.
     <Model>
       <Pattern>YOU ARE TELLING THAT *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
