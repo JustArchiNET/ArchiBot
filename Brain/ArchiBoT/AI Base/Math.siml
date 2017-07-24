@@ -8,7 +8,7 @@
 			</Pattern>
 			<Response>
 				The average is
-				<Math>(<Match/>+<Match Index="2"/>)/2</Math>
+				<Math>(<Match/>+<Match At="2" />)/2</Math>
 			</Response>
 		</Model>
 		<Model>
@@ -19,7 +19,7 @@
 			</Pattern>
 			<Response>
 				The answer is
-				<Math><Match/>+<Match Index="2"/></Math>
+				<Math><Match/>+<Match At="2" /></Math>
 			</Response>
 		</Model>
 		<Model>
@@ -28,7 +28,7 @@
 				<Item>* MINUS *</Item>
 			</Pattern>
 			<Response>The answer is
-				<Math><Match/>-<Match Index="2"/></Math>
+				<Math><Match/>-<Match At="2" /></Math>
 			</Response>
 		</Model>
 		<Model>
@@ -49,7 +49,7 @@
 		<Model>
 			<Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
 			<Response>The answer might be
-				<Math>(<Match/>+<Match Index="2"/>)-<Match Index="3"/></Math>
+				<Math>(<Match/>+<Match At="2" />)-<Match At="3" /></Math>
 			</Response>
 		</Model>
 	</Concept>

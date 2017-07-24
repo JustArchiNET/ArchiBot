@@ -15,14 +15,14 @@
 				<Item>^PICK A RANDOM NUMBER BETWEEN * THROUGH *</Item>
 				<Item>^RANDOMINT * *</Item>
 			</Pattern>
-			<Response><Js>randomIntBetween("<Match />","<Match Index="2" />");</Js></Response>
+			<Response><Js>randomIntBetween("<Match />","<Match At="2" />");</Js></Response>
 		</Model>
 
 		<Model>
 			<Pattern>^STEAMLEVEL @PositiveInteger ^TO @PositiveInteger</Pattern>
 			<Response>
-				<Var Think:Set="SLmin"><Js>Math.min(<Match />,<Match Index="2" />);</Js></Var>
-				<Var Think:Set="SLmax"><Js>Math.max(<Match />,<Match Index="2" />);</Js></Var>
+				<Var Think:Set="SLmin"><Js>Math.min(<Match />,<Match At="2" />);</Js></Var>
+				<Var Think:Set="SLmax"><Js>Math.max(<Match />,<Match At="2" />);</Js></Var>
 				<Var Think:Set="calcresult"><Js>calcSteamLevelXP(<Var Get="SLmax" />)-calcSteamLevelXP(<Var Get="SLmin" />);</Js></Var>
 				To level up from <Var Get="SLmin" /> to <Var Get="SLmax" /> you need <Var Get="calcresult" /> XP.
 			</Response>
@@ -118,10 +118,10 @@
 			<Pattern>_ ^XOR _</Pattern>
 			<Response>
 				<Random>
-					<Item><Match Index="1" />.</Item>
-					<Item><Match Index="2" />.</Item>
-					<Item>If I had to choose, I'd pick <Match Index="1" />.</Item>
-					<Item>If I had to choose, I'd pick <Match Index="2" />.</Item>
+					<Item><Match />.</Item>
+					<Item><Match At="2" />.</Item>
+					<Item>If I had to choose, I'd pick <Match />.</Item>
+					<Item>If I had to choose, I'd pick <Match At="2" />.</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -142,10 +142,10 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>Faku: Kick <Match Index="1" /> :3</Item>
-					<Item>Faku: Kick <Match Index="2" /> :3</Item>
-					<Item>Faku: Time to kick <Match Index="1" /> :3</Item>
-					<Item>Faku: Time to kick <Match Index="2" /> :3</Item>
+					<Item>Faku: Kick <Match /> :3</Item>
+					<Item>Faku: Kick <Match At="2" /> :3</Item>
+					<Item>Faku: Time to kick <Match /> :3</Item>
+					<Item>Faku: Time to kick <Match At="2" /> :3</Item>
 					<Item>Faku: Why not both? :3</Item>
 				</Random>
 			</Response>
@@ -692,7 +692,7 @@
 				<Item>REMBER THAT * IS *</Item>
 				<Item>PLS REMBER THAT * IS *</Item>
 			</Pattern>
-			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match At="2" />
 				<Learn>
 					<Model>
 						<Pattern>
@@ -703,9 +703,9 @@
 						</Pattern>
 						<Response>
 							<Phrase>
-								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item><Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
 							</Phrase>
 						</Response>
 					</Model>
@@ -718,7 +718,7 @@
 				<Item>REMBER USERLY THAT * IS *</Item>
 				<Item>PLS REMBER USERLY THAT * IS *</Item>
 			</Pattern>
-			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match Index="2" />
+			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match At="2" />
 				<Remember>
 					<Model>
 						<Pattern>
@@ -729,9 +729,9 @@
 						</Pattern>
 						<Response>
 							<Phrase>
-								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item><Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
 							</Phrase>
 						</Response>
 					</Model>
@@ -790,7 +790,7 @@ nexttime(<Match />);</Js></Var> seconds!
 
 		<Model>
 			<Pattern>CREATELATETASK _1 _</Pattern>
-			<Response><Late Second="{Bind Match}"><Match Index="2" /></Late></Response>
+			<Response><Late Second="{Bind Match}"><Match At="2" /></Late></Response>
 		</Model>
 
 		<Model>
@@ -799,7 +799,7 @@ nexttime(<Match />);</Js></Var> seconds!
 				<Think>
 					<Bind Key="{Time}"><Match /></Bind>
 					<Bind Key="{TimeInSeconds}"><Js>convertTimeStringToSeconds('<Match />')</Js></Bind>
-					<Bind Key="{Task}"><Match Index="2" /></Bind>
+					<Bind Key="{Task}"><Match At="2" /></Bind>
 					<Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
 				</Think>
 				I'll remind you in <Text>{Time}</Text> to <Text>{Task}</Text>

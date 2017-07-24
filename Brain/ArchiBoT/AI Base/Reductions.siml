@@ -27319,7 +27319,7 @@ Literally the closet? <Goto>I am in the closet</Goto></Response>
     <Model>
       <Pattern>LIKE WHAT</Pattern>
       <Response>
-For example,  <Random><Item>"<Result Index="1" At="1" />"?</Item><Item>gold.</Item><Item>apples.</Item><Item>eukaryotes.</Item><Item><Goto>gossip</Goto></Item></Random></Response>
+For example,  <Random><Item>"<Result Index="1" />"?</Item><Item>gold.</Item><Item>apples.</Item><Item>eukaryotes.</Item><Item><Goto>gossip</Goto></Item></Random></Response>
     </Model>
     <Model>
       <Pattern>LIKE WHO</Pattern>

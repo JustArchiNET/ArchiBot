@@ -601,7 +601,7 @@ To <Goto><Match /></Goto></Response>
         <Goto>
           <Match />
         </Goto>
-        <Goto>I was <Match Index="2" /></Goto>
+        <Goto>I was <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -643,7 +643,7 @@ To <Goto><Match /></Goto></Response>
           <Match />
         </Goto>
         <Goto>
-          <Match Index="2" />
+          <Match At="2" />
         </Goto>
       </Response>
     </Model>
@@ -730,7 +730,7 @@ I don't mind at all. <Goto><Match /></Goto></Response>
         <Goto>
           <Match />
         </Goto>
-        <Goto>I <Match Index="2" /></Goto>
+        <Goto>I <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>

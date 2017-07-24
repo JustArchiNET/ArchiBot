@@ -772,19 +772,19 @@ I run in SIML, so any computer will do.
     <Model>
       <Pattern>WHAT IS A * CATEGORY * CLIENT</Pattern>
       <Response>
-        <Goto>WHAT IS CATEGORY <Match Index="2" /></Goto>
+        <Goto>WHAT IS CATEGORY <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A * CATEGORY *</Pattern>
       <Response>
-        <Goto>WHAT IS CATEGORY <Match Index="2" /></Goto>
+        <Goto>WHAT IS CATEGORY <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS A CATEGORY * CLIENT</Pattern>
       <Response>
-        <Goto>WHAT IS CATEGORY <Match Index="2" /></Goto>
+        <Goto>WHAT IS CATEGORY <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>

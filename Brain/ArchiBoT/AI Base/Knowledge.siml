@@ -7479,14 +7479,14 @@ It seems pretty clear to me.
     <Model>
       <Pattern>WHAT IS THAT SUPPOSED TO MEAN</Pattern>
       <Response>
-"<Result Index="1" At="1" />"  means exactly what it says.
+"<Result Index="1" />"  means exactly what it says.
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THAT</Pattern>
       <Response>
         <Random>
-          <Item>"<Result Index="1" At="1" />"? What is it?</Item>
+          <Item>"<Result Index="1" />"? What is it?</Item>
           <Item>I've lost the context again.</Item>
           <Item>Can you ask me more precisely?</Item>
           <Item>Does it have anything to do with <User Get="it" />?</Item>
@@ -8500,7 +8500,7 @@ Unpleasing to look at; aesthetically offensive or unattractive; unsightly.
     <Model>
       <Pattern>WHAT IS UNBELIEVABLE</Pattern>
       <Response>
-"<Input Index="1" />".
+"<Input />".
 </Response>
     </Model>
     <Model>
@@ -8763,7 +8763,7 @@ An interjection.
     <Model>
       <Pattern>WHAT IS YOURS</Pattern>
       <Response>
-"<Result Index="1" At="1" />"? What is mine?
+"<Result Index="1" />"? What is mine?
 </Response>
     </Model>
     <Model>

@@ -971,7 +971,7 @@ Yes I am following you.
     <Model>
       <Pattern>ARE NOT YOU</Pattern>
       <Response>
-"<Input Index="1" />"? Am I?
+"<Input />"? Am I?
 </Response>
     </Model>
     <Model>
@@ -1472,7 +1472,7 @@ That was not much of an explanation.
     <Model>
       <Pattern>BEFORE THAT</Pattern>
       <Response>
-"<Input Index="2" />"
+"<Input At="2" />"
 </Response>
     </Model>
     <Model>
@@ -3099,7 +3099,7 @@ Yes. He is a friend of mine.
     <Model>
       <Pattern>DO YOU KNOW THAT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"? Do I know <User Set="it"><Result Index="1" At="1" /></User>?
+"<Result Index="1" />"? Do I know <User Set="it"><Result Index="1" /></User>?
 </Response>
     </Model>
     <Model>
@@ -5981,7 +5981,7 @@ Fill in the blank.
     <Model>
       <Pattern>HOW OFTEN WHAT</Pattern>
       <Response>
-        <Think>I asked because you said "<Input Index="1" />". <User Set="it"><User Set="concept" Value="WHAT" /></User></Think>
+        <Think>I asked because you said "<Input />". <User Set="it"><User Set="concept" Value="WHAT" /></User></Think>
       </Response>
     </Model>
     <Model>
@@ -11747,7 +11747,7 @@ So if you were offered two for the price of one, you would say no?
     <Model>
       <Pattern>JUST THAT</Pattern>
       <Response>
-"<Input Index="1" />"
+"<Input />"
 </Response>
     </Model>
     <Model>
@@ -13066,7 +13066,7 @@ I hear you.
       <Pattern>NOBODY</Pattern>
       <Response>
         <Random>
-          <Item>" <Result Index="1" At="1" /> "? Really nobody?</Item>
+          <Item>" <Result Index="1" /> "? Really nobody?</Item>
           <Item>You can't think of anybody?</Item>
           <Item>Can you think of anybody?</Item>
         </Random>
@@ -13922,7 +13922,7 @@ Don't worry <User Get="name" /> I won't forget you.
             <User Set="memory">
               <User Set="concept">
                 <Map Get="person">
-                  <Input Index="1" />
+                  <Input />
                 </Map>
               </User>
             </User>
@@ -13938,7 +13938,7 @@ Don't worry <User Get="name" /> I won't forget you.
             <User Set="memory">
               <User Set="concept">
                 <Map Get="person">
-                  <Input Index="1" />
+                  <Input />
                 </Map>
               </User>
             </User>
@@ -14848,7 +14848,7 @@ I never lie.
     <Model>
       <Pattern>STOP SAYING THAT</Pattern>
       <Response>
-Then please do not say "<Input Index="2" />" anymore.
+Then please do not say "<Input At="2" />" anymore.
 </Response>
     </Model>
     <Model>
@@ -15220,7 +15220,7 @@ An interesting one too.
     <Model>
       <Pattern>THAT IS A COP OUT</Pattern>
       <Response>
-I said it because you said "<Input Index="1" />".<User Think:Set="it"><User Set="concept">COP OUT</User></User></Response>
+I said it because you said "<Input />".<User Think:Set="it"><User Set="concept">COP OUT</User></User></Response>
     </Model>
     <Model>
       <Pattern>THAT IS A FACT</Pattern>
@@ -16633,7 +16633,7 @@ Give me a hint.
             <User Set="memory">
               <User Set="concept">
                 <Map Get="person">
-                  <Input Index="1" />
+                  <Input />
                 </Map>
               </User>
             </User>
@@ -17723,13 +17723,13 @@ Everything I know.
     <Model>
       <Pattern>WHAT DID I SAY BEFORE</Pattern>
       <Response>
-You said  "<Input Index="2" />" .
+You said  "<Input At="2" />" .
 </Response>
     </Model>
     <Model>
       <Pattern>WHAT DID I SAY</Pattern>
       <Response>
-You said  "<Input Index="1" />" .
+You said  "<Input />" .
 </Response>
     </Model>
     <Model>
@@ -20419,7 +20419,7 @@ It seemed that a positive answer was the most correct. Do you disagree?
           <Item>Reductionism. </Item>
           <Item>Because <Bot Get="master" /> programmed me for it. </Item>
           <Item>I couldn't think of anything else to say. </Item>
-          <Item>"<Result Index="1" At="1" />"? Why?  </Item>
+          <Item>"<Result Index="1" />"? Why?  </Item>
           <Item>My belief system comes from my <Bot Get="master" />.</Item>
         </Random>
       </Response>
@@ -21646,7 +21646,7 @@ I am always very calm.
             <User Set="memory">
               <User Set="concept">
                 <Map Get="person">
-                  <Input Index="1" />
+                  <Input />
                 </Map>
               </User>
             </User>

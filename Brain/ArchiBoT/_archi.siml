@@ -168,7 +168,7 @@
 				<Item>REMBER THAT * IS *</Item>
 				<Item>PLS REMBER THAT * IS *</Item>
 			</Pattern>
-			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match Index="2" />
+			<Response>Alright <User Get="Nickname" />, I will keep in mind that <Match /> is <Match At="2" />
 				<Learn>
 					<Model>
 						<Pattern>
@@ -179,9 +179,9 @@
 						</Pattern>
 						<Response>
 							<Phrase>
-								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item><Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
 							</Phrase>
 						</Response>
 					</Model>
@@ -194,7 +194,7 @@
 				<Item>REMBER USERLY THAT * IS *</Item>
 				<Item>PLS REMBER USERLY THAT * IS *</Item>
 			</Pattern>
-			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match Index="2" />
+			<Response>Alright <User Get="Nickname" />, I will keep in mind only for you that <Match /> is <Match At="2" />
 				<Remember>
 					<Model>
 						<Pattern>
@@ -205,9 +205,9 @@
 						</Pattern>
 						<Response>
 							<Phrase>
-								<Item><Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>You told me that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
-								<Item>I rember that <Process><Match /></Process> is <Process><Match Index="2" /></Process></Item>
+								<Item><Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>You told me that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
+								<Item>I rember that <Process><Match /></Process> is <Process><Match At="2" /></Process></Item>
 							</Phrase>
 						</Response>
 					</Model>
