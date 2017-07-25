@@ -14,7 +14,7 @@
 
 		<Model>
 			<Pattern>
-				<Item>^STARTRAFFLE</Item>
+				<Item>^STARTRAFFLE %</Item>
 				<Item>^STOPRAFFLE</Item>
 				<Item>^ROLLRAFFLE</Item>
 			</Pattern>
@@ -24,11 +24,13 @@
 
 	<Concept Name="_raffle_admin" User="steam-76561198025147895">
 		<Model>
-			<Pattern>^STARTRAFFLE</Pattern>
+			<Pattern>^STARTRAFFLE %</Pattern>
 			<Response>
 				<Bot Think:Set="rafflelist" Value="" />
 				<Bot Think:Set="raffleactive" Value="true" />
-				<Text>A new raffle is now active, type "!ai raffle" without quotes to join it \:sgsmile:</Text>
+				<Bot Think:Set="raffleprize" Value="{Bind Match}" />
+				<If Bot="raffleprize" Not=""></If>
+				<Text>A new raffle is now active, type "!ai raffle" without quotes to join it! <If Bot="raffleprize" Not="">The winner will receive <Bot Get="raffleprize" /> </If>\:sgsmile:</Text>
 			</Response>
 		</Model>
 
@@ -36,7 +38,7 @@
 			<Pattern>^STOPRAFFLE</Pattern>
 			<Response>
 				<Bot Think:Set="raffleactive" Value="false" />
-				<Text>The raffle is now closed, who will win? :speak:</Text>
+				<Text>The raffle is now closed, who will win<If Bot="raffleprize" Not=""> <Bot Get="raffleprize" /></If>? :speak:</Text>
 			</Response>
 		</Model>
 
@@ -46,7 +48,7 @@
 				<Bot Think:Set="raffleactive" Value="false" />
 				<Var Think:Set="winner"><Bot Remove="rafflelist"><Random Get="rafflelist" Source="Bot" /></Bot></Var>
 				<If Var="winner" Value="">No one joined the raffle :doubt:</If>
-				<Else><Var Get="winner" /> won the raffle \:bite:/</Else>
+				<Else><Var Get="winner" /> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></Else>
 			</Response>
 		</Model>
 	</Concept>
