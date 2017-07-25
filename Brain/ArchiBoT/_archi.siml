@@ -142,6 +142,17 @@
 			<Pattern>(GRIND|GRINDU) DECK</Pattern>
 			<Response>3x Piggy Bank, Holy Night, Nice Jingle, Dash, Passionate Research (DLC1), Completion Reward (DLC2), Play of the Gods (DLC2), Scrambled Eve (DLC2)</Response>
 		</Model>
+
+		<Model>
+			<Pattern>^ARCHISUGAR</Pattern>
+			<Response>Archi's sugar level is <Var Set="sugar"><Math Get="random" Min="40" Max="320" /></Var>, <Switch Var="sugar">
+				<Case LessThan="60">so low :speak:</Case>
+				<Case LessThan="100">all is fine :sgsmile:</Case>
+				<Case LessThan="180">a bit high, it's fine I guess ¯\_(ツ)_/¯</Case>
+				<Case LessThan="250">pls don't die :cry:</Case>
+				<Default>RIP, never forget, alway rember :cry:7</Default></Switch>
+			</Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
