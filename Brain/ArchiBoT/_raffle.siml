@@ -54,8 +54,8 @@
 			<Pattern>^ROLLRAFFLE</Pattern>
 			<Response>
 				<Bot Think:Set="raffleactive" Value="false" />
-				<If Bot="raffleparticipants" GreaterThan="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />+1</Math></Bot><Bot Remove="rafflelist"><Random Get="rafflelist" Source="Bot" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
-				<Else>No one joined the raffle :doubt:</Else>
+				<If Bot="raffleparticipants" GreaterThan="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><Bot Remove="rafflelist"><Random Get="rafflelist" Source="Bot" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
+				<Else>There's no one in the list :doubt:</Else>
 			</Response>
 		</Model>
 	</Concept>
