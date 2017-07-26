@@ -635,6 +635,11 @@
 				</Switch>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern><If Bot="banlist" Contains="{Bind User:ID}"></If></Pattern>
+			<Response>You're banned from AI :sgsmile:</Response>
+		</Model>
 	</Concept>
 
 <!-- Private Concept for user-exclusive commands --> 
@@ -650,13 +655,13 @@
 		</Model>
 
 		<Model>
-			<Pattern>^BAN (JBOND|JBONDO)</Pattern>
-			<Response><Bot Think:Set="jbondban" Value="true" />Jbond is now banned!</Response>
+			<Pattern>^BAN _</Pattern>
+			<Response><Bot Think:Add="banlist">steam-<Match /></Bot><Match /> added to the banlist :sgsmile:7</Response>
 		</Model>
 
 		<Model>
-			<Pattern>^UNBAN (JBOND|JBONDO)</Pattern>
-			<Response><Bot Think:Set="jbondban" Value="false" />Jbond is now unbanned!</Response>
+			<Pattern>^UNBAN _</Pattern>
+			<Response><Bot Think:Remove="banlist">steam-<Match /></Bot><Match /> removed from the banlist :sgsmile:7</Response>
 		</Model>
 
 		<Model>
