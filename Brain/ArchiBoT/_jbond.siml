@@ -577,11 +577,11 @@
       <Response>
         <Random>
           <Item>
-            <Text Get="Uppercase">
+            <Text Get="upper">
               <Match />, YOU ARE A PIRATE! :bite:</Text>
           </Item>
           <Item>
-            <Text Get="Uppercase">
+            <Text Get="upper">
               <Match />, YOU ARE A PIRATE!</Text> https://youtu.be/GVXCr6upWUo</Item>
         </Random>
       </Response>
@@ -600,7 +600,7 @@
     <Model>
       <Pattern>PIRATENAME *</Pattern>
       <Response>
-        <Text Get="Titlecase">
+        <Text Get="title">
           <Goto>RANDOMPIRATERANK</Goto> <Match /> <Goto>RANDOMPIRATENAME</Goto></Text>
       </Response>
     </Model>
