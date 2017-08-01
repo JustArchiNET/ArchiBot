@@ -4,13 +4,12 @@
 		<Model>
 			<Pattern>^RAFFLE</Pattern>
 			<Response>
-				<Bind Key="{userid}"><User Get="Nickname" /></Bind>
 				<If User="SourceID" Not="steam-110338190878500888">Error: the Raffle command only works in the Touhou Giveaways chat (for now) :cry:7</If>
 				<ElseIf Bot="raffleactive" Not="true">The raffle is not currently active :speak:</ElseIf>
-				<ElseIf Bot="rafflelist" Contains="{userid}">You have already entered this raffle :doubt:</ElseIf>
+				<ElseIf Bot="rafflelist" Contains="{Bind User:ID}">You have already entered this raffle :doubt:</ElseIf>
 				<Else><User Get="Nickname" /> entered the raffle! \:bite:/
 					<Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />+1</Math></Bot>
-					<Bot Think:Add="rafflelist" Value="{userid}" />
+					<Bot Think:Add="rafflelist" Value="{Bind User:ID}" />
 				</Else>
 			</Response>
 		</Model>
@@ -54,19 +53,9 @@
 			<Pattern>^ROLLRAFFLE</Pattern>
 			<Response>
 				<Bot Think:Set="raffleactive" Value="false" />
-				<If Bot="raffleparticipants" GT="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
+				<If Bot="raffleparticipants" GT="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><ArchiSynBotUserGet><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot> Nickname</ArchiSynBotUserGet> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
 				<Else>There's no one in the list :doubt:</Else>
 			</Response>
 		</Model>
 	</Concept>
-<!-- Replace with this one once Archi implements steamid -> nickname Custom Adapter
-^RAFFLE changes:
-				<Bind Key="{userid}"><User Get="ID" /></Bind>
-				<If User="SourceID" Not="steam-110338190878500888">Error: the Raffle command only works in the Touhou Giveaways chat (for now) :cry:7</If>
-				<ElseIf Bot="raffleactive" Not="true">The raffle is not currently active :speak:</ElseIf>
-				<ElseIf Bot="rafflelist" Contains="{userid}">You have already entered this raffle :doubt:</ElseIf>
-				<Else><Bot Think:Add="rafflelist" Value="{userid}" /><User Get="Nickname" /> entered the raffle! \:bite:/</Else>
-^ROLLRAFFLE changes:
-<Conversiontonicknamething><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot></Conversiontonicknamething>
--->
 </Siml>
