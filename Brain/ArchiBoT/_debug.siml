@@ -144,8 +144,8 @@
 	</Model>
 -->
 		<Model>
-			<Pattern>^DEBUG ^USERGET *1 *</Pattern>
-			<Response><ArchiSynBotUserGet><Match /> <Match At="2" /></ArchiSynBotUserGet></Response>
+			<Pattern>^DEBUG ^USERGET</Pattern>
+			<Response>Kaleith's Nickname: <ArchiSynBotUserGet>steam-76561198025147895 Nickname</ArchiSynBotUserGet>, Archi's Name: <ArchiSynBotUserGet>steam-76561198006963719 Name</ArchiSynBotUserGet></Response>
 		</Model>
 
 		<Model>
