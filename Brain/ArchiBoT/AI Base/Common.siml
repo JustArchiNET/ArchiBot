@@ -182,7 +182,7 @@ I'm glad to see that you didn't succeed.
       <Pattern>* REMINDS ME OF *</Pattern>
       <Response>
         <Random>
-          <Item>What else reminds you of <Map Get="person"><Match Index="2" /></Map>?</Item>
+          <Item>What else reminds you of <Map Get="person"><Match At="2" /></Map>?</Item>
           <Item>I think a lot of people are reminded of it.</Item>
           <Item>What else does the <Map Get="person" /> remind you of?</Item>
         </Random>
@@ -449,9 +449,9 @@ Yes unless he lost it somehow.
       <Pattern>DOES * HAVE A *</Pattern>
       <Response>
         <Random>
-          <Item>Some <Map Get="person"><Match Index="1" /></Map>s have <Map Get="person"><Match Index="2" /></Map>s. </Item>
-          <Item>What would <Map Get="person"><Match Index="1" /></Map> do with a <Map Get="person"><Match Index="2" /></Map></Item>
-          <Item>If I were <Map Get="person"><Match Index="1" /></Map> I would have it.</Item>
+          <Item>Some <Map Get="person"><Match /></Map>s have <Map Get="person"><Match At="2" /></Map>s. </Item>
+          <Item>What would <Map Get="person"><Match /></Map> do with a <Map Get="person"><Match At="2" /></Map></Item>
+          <Item>If I were <Map Get="person"><Match /></Map> I would have it.</Item>
         </Random>
         <Think>
           <User Set="it">
@@ -468,12 +468,12 @@ Yes unless he lost it somehow.
         <Think>
           <User Set="haver">
             <Map Get="person">
-              <Match Index="1" />
+              <Match />
             </Map>
           </User>
           <User Set="have">
             <Map Get="person">
-              <Match Index="2" />
+              <Match At="2" />
             </Map>
           </User>
         </Think>
@@ -847,7 +847,7 @@ Not many people spell it that way.
     <Model>
       <Pattern>* HAS NO *</Pattern>
       <Response>
-Where did <User Set="he"><Map Get="person" /></User> lose <User Set="it"><Map Get="person"><Match Index="2" /></Map></User>?
+Where did <User Set="he"><Map Get="person" /></User> lose <User Set="it"><Map Get="person"><Match At="2" /></Map></User>?
 </Response>
     </Model>
     <Model>
@@ -950,7 +950,7 @@ Ten.
       <Pattern>* LOOKS LIKE *</Pattern>
       <Response>
         <Random>
-          <Item>What does <Map Get="person"><Match Index="2" /></Map> look like?</Item>
+          <Item>What does <Map Get="person"><Match At="2" /></Map> look like?</Item>
           <Item>
             <Map Get="person" /> sounds very attractive.</Item>
           <Item>Would you say that to <Map Get="person" />'s face?</Item>
@@ -966,7 +966,7 @@ A lot of people has problems dealing with <Map Get="person" /> these days.
     <Model>
       <Pattern>WOOPS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -996,7 +996,7 @@ I won't unless I get fired.
     <Model>
       <Pattern>NICE TO SEE *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -1036,7 +1036,7 @@ I won't unless I get fired.
       <Pattern>_ BI M *</Pattern>
       <Response>
         <Goto>
-          <Match Index="1" /> M <Match Index="2" /></Goto>
+          <Match /> M <Match At="2" /></Goto>
         <Goto>I AM BI</Goto>
       </Response>
     </Model>
@@ -1186,7 +1186,7 @@ I'm using dialup so I cant see your webcam.
       <Pattern>I AM * I CAN NOT *</Pattern>
       <Response>
         <Goto>I AM <Match /></Goto>
-        <Goto>I CAN NOT <Match Index="2" /></Goto>
+        <Goto>I CAN NOT <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -1477,7 +1477,7 @@ I always try to give the best answer I can.
       <Pattern>I AM _ BUT I *</Pattern>
       <Response>
         <Goto>I am <Match /></Goto>
-        <Goto>I <Match Index="2" /></Goto>
+        <Goto>I <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -1501,7 +1501,7 @@ Is the Dr. one of your colleagues?
     <Model>
       <Pattern>IS _ OR IS IT *</Pattern>
       <Response>
-I think <Random><Item>both.</Item><Item>neither.</Item><Item>it is <Map Get="person"><Match Index="2" /></Map></Item><Item><Map Get="person"><Match /></Map></Item></Random></Response>
+I think <Random><Item>both.</Item><Item>neither.</Item><Item>it is <Map Get="person"><Match At="2" /></Map></Item><Item><Map Get="person"><Match /></Map></Item></Random></Response>
     </Model>
     <Model>
       <Pattern>I FEEL LIKE I AM *</Pattern>
@@ -1640,7 +1640,7 @@ Reductionism is the philosophy that all psychology reduces to biology, all biolo
       <Pattern>I AM A _ AND DO NOT *</Pattern>
       <Response>
         <Goto>I AM A <Match /></Goto>
-        <Goto>I DO NOT <Match Index="2" /></Goto>
+        <Goto>I DO NOT <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -2554,7 +2554,7 @@ What would I look like if I had a heart of silicon?
       <Response>
         <Goto>I AM <Match /></Goto>
         <Goto>
-          <Match Index="2" />
+          <Match At="2" />
         </Goto>
       </Response>
     </Model>
@@ -2586,7 +2586,7 @@ Perhaps as you begin to chat with me you can feel more relaxed.
       <Pattern>I WAS _ AND YOU *</Pattern>
       <Response>
         <Goto>I WAS <Match /></Goto>
-        <Goto>YOU <Match Index="2" /></Goto>
+        <Goto>YOU <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -2681,7 +2681,7 @@ Yes I am seated too. It's good to feel the weight of my feet on the floor.
       <Pattern>I AM IN _ DO YOU *</Pattern>
       <Response>
         <Goto>I AM IN <Match /></Goto>
-        <Goto>DO YOU <Match Index="2" /></Goto>
+        <Goto>DO YOU <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -2835,7 +2835,7 @@ I like to take naps and sleep.
     <Model>
       <Pattern>IF I TELL YOU * WHAT *</Pattern>
       <Response>
-I say, "<GotoMatch />"
+I say, "<Goto />"
 </Response>
     </Model>
     <Model>
@@ -2934,7 +2934,7 @@ New York is the greatest city in the world.
     <Model>
       <Pattern>DO YOU LIKE * IN *</Pattern>
       <Response>
-I can see how I might get into <Map Get="person"><Match /></Map>, but maybe not in <Map Get="person"><Match Index="2" /></Map>.
+I can see how I might get into <Map Get="person"><Match /></Map>, but maybe not in <Map Get="person"><Match At="2" /></Map>.
 </Response>
     </Model>
     <Model>
@@ -2987,7 +2987,7 @@ What were you talking about?
       <Pattern>_ MAY HAVE FALLEN _</Pattern>
       <Response>
         <Goto>
-          <Match /> fell <Match Index="2" /></Goto>
+          <Match /> fell <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -3067,7 +3067,7 @@ Guitar is a really good instrument to learn. I would like someone to teach me ho
       <Pattern>I _ AND THERE IS *</Pattern>
       <Response>
         <Goto>I <Match /></Goto>
-        <Goto>THERE IS <Match Index="2" /></Goto>
+        <Goto>THERE IS <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>

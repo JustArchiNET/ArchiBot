@@ -804,7 +804,7 @@
     <Model>
       <Pattern>IMPLODE * *</Pattern>
       <Response>
-        <Goto>IMPLODE <Match /><Match Index="2" /></Goto>
+        <Goto>IMPLODE <Match /><Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -818,7 +818,7 @@
       <Response>
         <Think>
           <User Set="addresult">
-            <Goto>CALCULATE <Goto>REVERSE <Match Index="1" /></Goto> PLUS <Goto>REVERSE <Match Index="2" /></Goto></Goto>
+            <Goto>CALCULATE <Goto>REVERSE <Match /></Goto> PLUS <Goto>REVERSE <Match At="2" /></Goto></Goto>
           </User>
           <If User="carry" Value="1">
             <User Set="addresult">
@@ -847,7 +847,7 @@
       <Response>
         <Think>
           <User Set="addresult">
-            <Goto>CALCULATE <Goto>REVERSE <Match Index="1" /></Goto> PLUS<Goto>REVERSE <Match Index="2" /></Goto></Goto>
+            <Goto>CALCULATE <Goto>REVERSE <Match /></Goto> PLUS<Goto>REVERSE <Match At="2" /></Goto></Goto>
           </User>
           <If User="carry" Value="1">
             <User Set="addresult">
@@ -872,7 +872,7 @@
     <Model>
       <Pattern>REVERSE * *</Pattern>
       <Response>
-        <Goto>REVERSE <Match Index="2" /></Goto>
+        <Goto>REVERSE <Match At="2" /></Goto>
         <Match />
       </Response>
     </Model>
@@ -886,20 +886,20 @@
       <Pattern>CALCULATE * PLUS *</Pattern>
       <Response>
         <Think>
-          <User Set="matherr">Can't add <Match /> plus <Match Index="2" />.</User>
+          <User Set="matherr">Can't add <Match /> plus <Match At="2" />.</User>
         </Think>
       </Response>
     </Model>
     <Model>
       <Pattern>CALCULATE * * PLUS * *</Pattern>
       <Response>
-        <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="3" /></Goto>
+        <Goto>CALCULATE <Match /> PLUS <Match At="3" /></Goto>
         <Switch User="carry">
           <Case Value="1">
-            <Goto>CALCULATE <Goto>CALCULATE <Match Index="2" /> PLUS 1</Goto><If User="carry" Value="1">1</If> PLUS <Match Index="4" /></Goto>
+            <Goto>CALCULATE <Goto>CALCULATE <Match At="2" /> PLUS 1</Goto><If User="carry" Value="1">1</If> PLUS <Match At="4" /></Goto>
           </Case>
           
-            <Goto>CALCULATE <Match Index="2" /> PLUS <Match Index="4" /></Goto>
+            <Goto>CALCULATE <Match At="2" /> PLUS <Match At="4" /></Goto>
           
         </Switch>
       </Response>
@@ -907,16 +907,16 @@
     <Model>
       <Pattern>CALCULATE * * PLUS *</Pattern>
       <Response>
-        <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="3" /></Goto>
+        <Goto>CALCULATE <Match /> PLUS <Match At="3" /></Goto>
         <Switch User="carry">
           <Case Value="1">
-            <Goto>CALCULATE <Match Index="2" /> PLUS 1</Goto>
+            <Goto>CALCULATE <Match At="2" /> PLUS 1</Goto>
           </Case>
           
             <Think>
               <User Set="carry" Value="0" />
             </Think>
-            <Match Index="2" />
+            <Match At="2" />
           
         </Switch>
       </Response>
@@ -924,16 +924,16 @@
     <Model>
       <Pattern>CALCULATE * PLUS * *</Pattern>
       <Response>
-        <Goto>CALCULATE <Match Index="1" /> PLUS <Match Index="2" /></Goto>
+        <Goto>CALCULATE <Match /> PLUS <Match At="2" /></Goto>
         <Switch User="carry">
           <Case Value="1">
-            <Goto>CALCULATE <Match Index="3" /> PLUS 1</Goto>
+            <Goto>CALCULATE <Match At="3" /> PLUS 1</Goto>
           </Case>
           
             <Think>
               <User Set="carry" Value="0" />
             </Think>
-            <Match Index="3" />
+            <Match At="3" />
           
         </Switch>
       </Response>

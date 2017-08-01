@@ -272,7 +272,7 @@ We are playing one right now, <User Get="name" />.
     <Model>
       <Pattern>FOR A COMPUTER *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -332,7 +332,7 @@ What kind of information are you looking for?
     <Model>
       <Pattern>IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>

@@ -390,7 +390,7 @@ Goodnight <User Get="name" /></Response>
     <Model>
       <Pattern>HELLO *</Pattern>
       <Response>
-Hello there. <GotoMatch /></Response>
+Hello there. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HELLO AGAIN</Pattern>
@@ -446,7 +446,7 @@ Salutations, <User Get="name" /></Response>
     <Model>
       <Pattern>HI THERE *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
         <Goto>hello</Goto>
       </Response>
     </Model>
@@ -478,7 +478,7 @@ We are all fine as far as I know.
       <Pattern>HOWDIE *</Pattern>
       <Response>
         <Goto>hello</Goto>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -635,7 +635,7 @@ We are all fine as far as I know.
       <Pattern>I MUST LEAVE *</Pattern>
       <Response>
         <Goto>bye</Goto>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -861,7 +861,7 @@ I think you mean "you are welcome".
     <Model>
       <Pattern>_ BYE</Pattern>
       <Response>
-See you later. <GotoMatch /></Response>
+See you later. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ TALK TO YOU LATER</Pattern>

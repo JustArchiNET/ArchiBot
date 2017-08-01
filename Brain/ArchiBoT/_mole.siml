@@ -8,7 +8,7 @@
                 <Think>
                     <Bind Key="{Time}"><Match /></Bind>
                     <Bind Key="{TimeInSeconds}"><Js>convertTimeStringToSeconds('<Match />')</Js></Bind>
-                    <Bind Key="{Task}"><Match Index="2" /></Bind>
+                    <Bind Key="{Task}"><Match At="2" /></Bind>
                     <Var Set="timeToReminder"><Text>{TimeInSeconds}</Text></Var>
                 </Think>
                 <If Var="timeToReminder" GreaterThan="0">
@@ -21,7 +21,7 @@
 
         <Model>
             <Pattern>^REMIND ME TO _ IN _</Pattern>
-            <Response><Goto>Remind me in <Match Index="2" /> to <Match /></Goto></Response>
+            <Response><Goto>Remind me in <Match At="2" /> to <Match /></Goto></Response>
         </Model>
 
         <Model>

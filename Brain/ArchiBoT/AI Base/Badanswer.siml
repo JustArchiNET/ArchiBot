@@ -19,7 +19,7 @@
     <Model>
       <Pattern>_ _</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
   </Concept>
@@ -32,14 +32,14 @@
             <Match />
           </User>
           <User Set="response1">
-            <Result Index="1" />
+            <Result />
           </User>
           <User Set="response2">
-            <Result Index="2" />
+            <Result At="2" />
           </User>
           <If User="response2" Value="OK, what should I have said">
             <User Set="badanswer-newresp">
-              <Request Index="1" />
+              <Request />
             </User>
           </If>
         </Think>
@@ -54,7 +54,7 @@
     <Model>
       <Pattern>_ _</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
   </Concept>
@@ -67,14 +67,14 @@
             <Match />
           </User>
           <User Set="response1">
-            <Result Index="1" />
+            <Result />
           </User>
           <User Set="response2">
-            <Result Index="2" />
+            <Result At="2" />
           </User>
           <If User="response2" Value="OK, what should I have said">
             <User Set="badanswer-newresp">
-              <Request Index="1" />
+              <Request />
             </User>
           </If>
         </Think>
@@ -89,7 +89,7 @@
     <Model>
       <Pattern>_ _</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
   </Concept>
@@ -99,13 +99,13 @@
       <Response>
         <Think>
           <User Set="badanswer-input">
-            <Input Index="2" />
+            <Input At="2" />
           </User>
           <User Set="badanswer-that">
-            <Result Index="2" At="1" />
+            <Result At="2" />
           </User>
           <User Set="badanswer-that-full">
-            <Result Index="2" />
+            <Result At="2" />
           </User>
           <User Set="concept">badanswer-prelim</User>
         </Think>Would you like to teach me a new answer to "<User Get="badanswer-input" />"?
@@ -115,13 +115,13 @@
       <Pattern>_</Pattern>
       <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
       <Response>
-"<User Set="badanswer-newresp"><Input Index="1" /></User>..."?<If User="badanswer-that" Defined="True"><User Think:Set="concept" Value="badanswer" />	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><User Think:Set="concept" Value="BADANSWER2" />	Do you want me to remember that?</Else></Response>
+"<User Set="badanswer-newresp"><Input /></User>..."?<If User="badanswer-that" Defined="True"><User Think:Set="concept" Value="badanswer" />	Does this depend on me having just said, "<User Get="badanswer-that-full" />"? </If><Else><User Think:Set="concept" Value="BADANSWER2" />	Do you want me to remember that?</Else></Response>
     </Model>
     <Model>
       <Pattern>_ _</Pattern>
       <Previous>OK WHAT SHOULD I HAVE SAID</Previous>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>

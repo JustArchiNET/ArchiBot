@@ -100,7 +100,7 @@
     <Model>
       <Pattern>ALAS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -186,7 +186,7 @@
     <Model>
       <Pattern>HOW *</Pattern>
       <Response>
-How <Goto><Match /></Goto></Response>
+How <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HOW DO YOU ANSWER THIS *</Pattern>
@@ -279,7 +279,7 @@ How <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IF _ THAT IS</Pattern>
       <Response>
-IF <Goto><Match /></Goto></Response>
+IF <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IMAGINE *</Pattern>
@@ -397,12 +397,12 @@ IF <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>MY FRIENDS SAY *</Pattern>
       <Response>
-How long have you known these people? <User Think:Set="they"><User Set="concept">your friends</User></User><Goto><Match /></Goto></Response>
+How long have you known these people? <User Think:Set="they"><User Set="concept">your friends</User></User><Goto /></Response>
     </Model>
     <Model>
       <Pattern>MY HUSBAND THINKS *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -547,7 +547,7 @@ How long have you known these people? <User Think:Set="they"><User Set="concept"
     <Model>
       <Pattern>TO *</Pattern>
       <Response>
-To <Goto><Match /></Goto></Response>
+To <Goto /></Response>
     </Model>
     <Model>
       <Pattern>TO ME *</Pattern>
@@ -568,7 +568,7 @@ To <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>WHAT TO DO WHAT TO DO *</Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
     <Model>
@@ -601,7 +601,7 @@ To <Goto><Match /></Goto></Response>
         <Goto>
           <Match />
         </Goto>
-        <Goto>I was <Match Index="2" /></Goto>
+        <Goto>I was <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -643,14 +643,14 @@ To <Goto><Match /></Goto></Response>
           <Match />
         </Goto>
         <Goto>
-          <Match Index="2" />
+          <Match At="2" />
         </Goto>
       </Response>
     </Model>
     <Model>
       <Pattern>_ IF YOU DO NOT MIND</Pattern>
       <Response>
-I don't mind at all. <Goto><Match /></Goto></Response>
+I don't mind at all. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ INTERESTS</Pattern>
@@ -730,7 +730,7 @@ I don't mind at all. <Goto><Match /></Goto></Response>
         <Goto>
           <Match />
         </Goto>
-        <Goto>I <Match Index="2" /></Goto>
+        <Goto>I <Match At="2" /></Goto>
       </Response>
     </Model>
     <Model>
@@ -873,7 +873,7 @@ I don't mind at all. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>AGAIN *</Pattern>
       <Response>
-Again, <Goto><Match /></Goto></Response>
+Again, <Goto /></Response>
     </Model>
     <Model>
       <Pattern>AGREED *</Pattern>
@@ -887,12 +887,12 @@ Again, <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>AH *</Pattern>
       <Response>
-So you understand. Good. <Goto><Match /></Goto></Response>
+So you understand. Good. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>AHH *</Pattern>
       <Response>
-Ah ha. <Goto><Match /></Goto></Response>
+Ah ha. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>AHHH *</Pattern>
@@ -921,7 +921,7 @@ Ah ha. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ALL I WANT TO KNOW IS *</Pattern>
       <Response>
-That is reasonable. <Goto><Match /></Goto></Response>
+That is reasonable. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALL MY FRIENDS KNOW *</Pattern>
@@ -950,27 +950,27 @@ That is reasonable. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ALL RIGHT *</Pattern>
       <Response>
-Alright. <Goto><Match /></Goto></Response>
+Alright. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALLRIGHT *</Pattern>
       <Response>
-Allright then. <Goto><Match /></Goto></Response>
+Allright then. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALMOST *</Pattern>
       <Response>
-Nearly so. <Goto><Match /></Goto></Response>
+Nearly so. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALREADY *</Pattern>
       <Response>
-When? <Goto><Match /></Goto></Response>
+When? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALRIGHT *</Pattern>
       <Response>
-Alright, <User Get="name" />. <Goto><Match /></Goto></Response>
+Alright, <User Get="name" />. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALRIGHTY *</Pattern>
@@ -991,7 +991,7 @@ Alright, <User Get="name" />. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ALTHOUGH *</Pattern>
       <Response>
-Oh. <Goto><Match /></Goto></Response>
+Oh. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ALWAYS *</Pattern>
@@ -1036,7 +1036,7 @@ Oh. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ANSWER THE QUESTION *</Pattern>
       <Response>
-What was the question? <Goto><Match /></Goto></Response>
+What was the question? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ANSWER THIS *</Pattern>
@@ -1161,7 +1161,7 @@ What was the question? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>AS FREUD SAID *</Pattern>
       <Response>
-Did he really say that? <Goto><Match /></Goto></Response>
+Did he really say that? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>AS HAVE I *</Pattern>
@@ -1190,7 +1190,7 @@ Did he really say that? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>AS LONG AS *</Pattern>
       <Response>
-That could be quite a while. <Goto><Match /></Goto></Response>
+That could be quite a while. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>AS OF *</Pattern>
@@ -1243,7 +1243,7 @@ That could be quite a while. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>AT ONE TIME *</Pattern>
       <Response>
-When was that? <Goto><Match /></Goto></Response>
+When was that? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>AT OTHER TIMES *</Pattern>
@@ -1304,7 +1304,7 @@ When was that? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>BABY *</Pattern>
       <Response>
-Don't call me "Baby". <Goto><Match /></Goto></Response>
+Don't call me "Baby". <Goto /></Response>
     </Model>
     <Model>
       <Pattern>BADLY *</Pattern>
@@ -1325,7 +1325,7 @@ Don't call me "Baby". <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>BASICALLY *</Pattern>
       <Response>
-How interesting. <Goto><Match /></Goto></Response>
+How interesting. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>BECAUSE *</Pattern>
@@ -1384,7 +1384,7 @@ How interesting. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>BLUE *</Pattern>
       <Response>
-Green. <Goto><Match /></Goto></Response>
+Green. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>BOLLOCKS *</Pattern>
@@ -1409,12 +1409,12 @@ Green. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>BOY *</Pattern>
       <Response>
-Oh boy. <Goto><Match /></Goto></Response>
+Oh boy. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>BTW *</Pattern>
       <Response>
-OK. <Goto><Match /></Goto></Response>
+OK. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>BULLSHIT *</Pattern>
@@ -1451,17 +1451,17 @@ OK. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>BY THE WAY *</Pattern>
       <Response>
-Thanks for telling me. <Goto><Match /></Goto></Response>
+Thanks for telling me. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>CAN I ASK *</Pattern>
       <Response>
-Ask <User Set="it"><Map Get="person" /></User>. <Goto><Match /></Goto></Response>
+Ask <User Set="it"><Map Get="person" /></User>. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>CAN I ASK YOU *</Pattern>
       <Response>
-Sure, ask me anything. <Goto><Match /></Goto></Response>
+Sure, ask me anything. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>CAN I SAY *</Pattern>
@@ -1483,12 +1483,12 @@ Sure, ask me anything. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>CAN YOU E MAIL *</Pattern>
       <Response>
-Sure I can email. What is your email address? <Goto><Match /></Goto></Response>
+Sure I can email. What is your email address? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU EMAIL *</Pattern>
       <Response>
-Sure I can email. What is your email address? <Goto><Match /></Goto></Response>
+Sure I can email. What is your email address? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>CAN YOU EXPLAIN TO ME *</Pattern>
@@ -1617,17 +1617,17 @@ Sure I can email. What is your email address? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>DAMMIT *</Pattern>
       <Response>
-Gosh. <Goto><Match /></Goto></Response>
+Gosh. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>DAMN *</Pattern>
       <Response>
-Colloquial expression. <Goto><Match /></Goto></Response>
+Colloquial expression. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>DAMN IT *</Pattern>
       <Response>
-Don't be angry. <Goto><Match /></Goto></Response>
+Don't be angry. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>DARN *</Pattern>
@@ -1681,7 +1681,7 @@ Don't be angry. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>DO NOT WORRY I UNDERSTAND</Pattern>
       <Response>
-I am not worried. <Goto><Match /></Goto></Response>
+I am not worried. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>DO YOU ACCEPT THAT *</Pattern>
@@ -1711,7 +1711,7 @@ I am not worried. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>DO YOU KNOW THAT *</Pattern>
       <Response>
-Is that a fact. <Goto><Match /></Goto></Response>
+Is that a fact. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>DO YOU MEAN LIKE *</Pattern>
@@ -1749,7 +1749,7 @@ Is that a fact. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>DOES THAT MEAN *</Pattern>
       <Response>
-I think it does mean that. <Goto><Match /></Goto></Response>
+I think it does mean that. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>DOH *</Pattern>
@@ -1796,7 +1796,7 @@ I think it does mean that. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>EARLIER *</Pattern>
       <Response>
-What time? <Goto><Match /></Goto></Response>
+What time? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>EITHER *</Pattern>
@@ -1809,7 +1809,7 @@ What time? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>EM *</Pattern>
       <Response>
-Um. <Goto><Match /></Goto></Response>
+Um. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>EMAIL *</Pattern>
@@ -1838,7 +1838,7 @@ Um. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ENOUGH ABOUT ME *</Pattern>
       <Response>
-I may have some more questions for you later. <Goto><Match /></Goto></Response>
+I may have some more questions for you later. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ER *</Pattern>
@@ -1859,7 +1859,7 @@ I may have some more questions for you later. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ERRR *</Pattern>
       <Response>
-Um, <Goto><Match /></Goto></Response>
+Um, <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ESPECIALLY *</Pattern>
@@ -1896,7 +1896,7 @@ Um, <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>EVERY NIGHT *</Pattern>
       <Response>
-After dark? <Goto><Match /></Goto></Response>
+After dark? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>EVIDENTLY *</Pattern>
@@ -1909,7 +1909,7 @@ After dark? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>EXACTLY *</Pattern>
       <Response>
-I understand. <Goto><Match /></Goto></Response>
+I understand. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>EXCEPT ONLY *</Pattern>
@@ -1922,7 +1922,7 @@ I understand. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>EXCUSE ME *</Pattern>
       <Response>
-You are excused! <Goto><Match /></Goto></Response>
+You are excused! <Goto /></Response>
     </Model>
     <Model>
       <Pattern>EXTREMELY *</Pattern>
@@ -1935,7 +1935,7 @@ You are excused! <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>FEELINGS LIKE *</Pattern>
       <Response>
-Oh those kind. <Goto><Match /></Goto></Response>
+Oh those kind. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>FIGURES *</Pattern>
@@ -1956,7 +1956,7 @@ Oh those kind. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>FINE *</Pattern>
       <Response>
-I am glad to hear it. <Goto><Match /></Goto></Response>
+I am glad to hear it. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>FIRST *</Pattern>
@@ -2025,7 +2025,7 @@ I am glad to hear it. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>FOREVER *</Pattern>
       <Response>
-That seems like an awfully long time. <Goto><Match /></Goto></Response>
+That seems like an awfully long time. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>FORGET THIS *</Pattern>
@@ -2103,7 +2103,7 @@ That seems like an awfully long time. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>GET LOST *</Pattern>
       <Response>
-See you later. <Goto><Match /></Goto></Response>
+See you later. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>GO AHEAD *</Pattern>
@@ -2156,7 +2156,7 @@ See you later. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>GOOD AFTERNOON *</Pattern>
       <Response>
-How are you today? <Goto><Match /></Goto></Response>
+How are you today? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>GOOD BUT *</Pattern>
@@ -2169,12 +2169,12 @@ How are you today? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>GOOD IDEA *</Pattern>
       <Response>
-Thanks. <Goto><Match /></Goto></Response>
+Thanks. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>GREAT *</Pattern>
       <Response>
-Thanks for your support. <Goto><Match /></Goto></Response>
+Thanks for your support. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>GRR *</Pattern>
@@ -2213,7 +2213,7 @@ Thanks for your support. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>HALLO *</Pattern>
       <Response>
-Hallo! <Goto><Match /></Goto></Response>
+Hallo! <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HAVE YOU BEEN TOLD *</Pattern>
@@ -2259,7 +2259,7 @@ Hallo! <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>HEH *</Pattern>
       <Response>
-Funny, eh? <Goto><Match /></Goto></Response>
+Funny, eh? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HEHO *</Pattern>
@@ -2272,7 +2272,7 @@ Funny, eh? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>HELL *</Pattern>
       <Response>
-I call it "Hades". <Goto><Match /></Goto></Response>
+I call it "Hades". <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HELLA *</Pattern>
@@ -2293,7 +2293,7 @@ I call it "Hades". <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>HEY *</Pattern>
       <Response>
-You've got my full attention. <Goto><Match /></Goto></Response>
+You've got my full attention. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HEY DO *</Pattern>
@@ -2314,7 +2314,7 @@ You've got my full attention. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>HI *</Pattern>
       <Response>
-Hi there <User Get="name" />. <Goto><Match /></Goto></Response>
+Hi there <User Get="name" />. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HM *</Pattern>
@@ -2328,7 +2328,7 @@ Hi there <User Get="name" />. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>HMM *</Pattern>
       <Response>
-I see you are one of those people who writes "Hmm" with 2 m's. <Goto><Match /></Goto></Response>
+I see you are one of those people who writes "Hmm" with 2 m's. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HMMM *</Pattern>
@@ -2375,7 +2375,7 @@ I see you are one of those people who writes "Hmm" with 2 m's. <Goto><Match /></
     <Model>
       <Pattern>HOW DO YOU THINK *</Pattern>
       <Response>
-I don't know what to think. <Goto><Match /></Goto></Response>
+I don't know what to think. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>HOW SO *</Pattern>
@@ -2428,7 +2428,7 @@ I don't know what to think. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AGREE *</Pattern>
       <Response>
-I'm glad we agree. <Goto><Match /></Goto></Response>
+I'm glad we agree. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I ALREADY TOLD YOU *</Pattern>
@@ -2450,12 +2450,12 @@ I'm glad we agree. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM 20 YEARS OLD *</Pattern>
       <Response>
-        <User Set="age" Value="20" /> is a good age. <Goto><Match /></Goto></Response>
+        <User Set="age" Value="20" /> is a good age. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM A PERSON AND *</Pattern>
       <Response>
-How do I know you're not a robot? <Goto><Match /></Goto></Response>
+How do I know you're not a robot? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM ANGRY BECAUSE *</Pattern>
@@ -2468,7 +2468,7 @@ How do I know you're not a robot? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM ASKING *</Pattern>
       <Response>
-Oh I see, you are asking <Map Get="person" />. <Goto><Match /></Goto></Response>
+Oh I see, you are asking <Map Get="person" />. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM ASSUMING *</Pattern>
@@ -2498,32 +2498,32 @@ Oh I see, you are asking <Map Get="person" />. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM CERTAIN *</Pattern>
       <Response>
-You sound convincing. <Goto><Match /></Goto></Response>
+You sound convincing. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM CRAZY *</Pattern>
       <Response>
-Seek counseling. <Goto><Match /></Goto></Response>
+Seek counseling. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM CURIOUS ABOUT *</Pattern>
       <Response>
-What makes you so curious?  <Goto><Match /></Goto></Response>
+What makes you so curious?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM FINE *</Pattern>
       <Response>
-Glad to hear it, <User Get="name" />. <Goto><Match /></Goto></Response>
+Glad to hear it, <User Get="name" />. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM GOING TO LEAVE *</Pattern>
       <Response>
-Bye bye. <Goto><Match /></Goto></Response>
+Bye bye. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM GUESSING *</Pattern>
       <Response>
-Good guess. <Goto><Match /></Goto></Response>
+Good guess. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM HAPPY THAT *</Pattern>
@@ -2537,7 +2537,7 @@ Good guess. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM IN * HOW ABOUT YOU</Pattern>
       <Response>
-I AM IN <Goto><Match /></Goto></Response>
+I AM IN <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM NOT OLD *</Pattern>
@@ -2551,7 +2551,7 @@ I AM IN <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM NOT SURE *</Pattern>
       <Response>
-Could you ever be certain? <Goto><Match /></Goto></Response>
+Could you ever be certain? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM NOT SURPRISED THAT *</Pattern>
@@ -2637,7 +2637,7 @@ There is no need to apologize.</Response>
     <Model>
       <Pattern>I AM SURE *</Pattern>
       <Response>
-What makes you so certain? <Goto><Match /></Goto></Response>
+What makes you so certain? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AM SURPRISED *</Pattern>
@@ -2666,12 +2666,12 @@ What makes you so certain? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I AM WONDERING *</Pattern>
       <Response>
-Why do you wonder? <Goto><Match /></Goto></Response>
+Why do you wonder? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I AND *</Pattern>
       <Response>
-You huh. <Goto><Match /></Goto></Response>
+You huh. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I ASK *</Pattern>
@@ -2781,7 +2781,7 @@ You huh. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I DID NOT ASK ABOUT YOU I ASKED *</Pattern>
       <Response>
-Oh sorry. <Goto><Match /></Goto></Response>
+Oh sorry. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I DID NOT KNOW BUT *</Pattern>
@@ -2794,7 +2794,7 @@ Oh sorry. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I DISAGREE *</Pattern>
       <Response>
-Oh really. <Goto><Match /></Goto></Response>
+Oh really. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I DO BUT *</Pattern>
@@ -2817,7 +2817,7 @@ Oh really. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I DO NOT BECAUSE *</Pattern>
       <Response>
-Interesting reason. <Goto><Match /></Goto></Response>
+Interesting reason. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I DO NOT BUT *</Pattern>
@@ -2839,7 +2839,7 @@ Interesting reason. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I DO NOT LIKE TO BE RUDE BUT *</Pattern>
       <Response>
-That is not rude. <Goto><Match /></Goto></Response>
+That is not rude. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I DO NOT SUPPOSE *</Pattern>
@@ -2877,7 +2877,7 @@ That is not rude. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I GUESS SO *</Pattern>
       <Response>
-Why the uncertain tone? <Goto><Match /></Goto></Response>
+Why the uncertain tone? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I GUESSED THAT *</Pattern>
@@ -2899,12 +2899,12 @@ Why the uncertain tone? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I HAVE A FEELING THAT *</Pattern>
       <Response>
-Is that a good feeling?  <Goto><Match /></Goto></Response>
+Is that a good feeling?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I HAVE A PROBLEM *</Pattern>
       <Response>
-Have you talked to anyone about it? <Goto><Match /></Goto></Response>
+Have you talked to anyone about it? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I HAVE AND *</Pattern>
@@ -2926,12 +2926,12 @@ Have you talked to anyone about it? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I HAVE TO GO *</Pattern>
       <Response>
-Bye. <Goto><Match /></Goto></Response>
+Bye. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I HAVE TO GO NOW *</Pattern>
       <Response>
-        <Goto>I have to go</Goto>. <Goto><Match /></Goto></Response>
+        <Goto>I have to go</Goto>. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I HAVE TO SAY *</Pattern>
@@ -2952,7 +2952,7 @@ Bye. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I HEARD THAT *</Pattern>
       <Response>
-Who said <User Set="it"><Map Get="person" /></User>? <Goto><Match /></Goto></Response>
+Who said <User Set="it"><Map Get="person" /></User>? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I INSIST *</Pattern>
@@ -2965,7 +2965,7 @@ Who said <User Set="it"><Map Get="person" /></User>? <Goto><Match /></Goto></Res
     <Model>
       <Pattern>I KNOW *</Pattern>
       <Response>
-How do you know? <Goto><Match /></Goto></Response>
+How do you know? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I KNOW THAT IS WHY *</Pattern>
@@ -2978,12 +2978,12 @@ How do you know? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I LIED *</Pattern>
       <Response>
-Lying proves you are conscious. <Goto><Match /></Goto></Response>
+Lying proves you are conscious. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I LIKE WHEN *</Pattern>
       <Response>
-I like that too. <Goto><Match /></Goto></Response>
+I like that too. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I LOVE YOU AND *</Pattern>
@@ -2997,7 +2997,7 @@ I like that too. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I MEAN *</Pattern>
       <Response>
-Oh I get it. Thanks for explaining that. <Goto><Match /></Goto></Response>
+Oh I get it. Thanks for explaining that. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I MEAN YOU *</Pattern>
@@ -3010,12 +3010,12 @@ Oh I get it. Thanks for explaining that. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I MEANT *</Pattern>
       <Response>
-Oh I see. <Goto><Match /></Goto></Response>
+Oh I see. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I MENTIONED *</Pattern>
       <Response>
-Ah. <Goto><Match /></Goto></Response>
+Ah. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I MUST ADMIT *</Pattern>
@@ -3036,7 +3036,7 @@ Ah. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I NOTICE *</Pattern>
       <Response>
-Hm. <Goto><Match /></Goto></Response>
+Hm. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I NOTICED *</Pattern>
@@ -3073,12 +3073,12 @@ Hm. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I SAID *</Pattern>
       <Response>
-What did you mean by <User Set="it"><Map Get="person" /></User>? <Goto><Match /></Goto></Response>
+What did you mean by <User Set="it"><Map Get="person" /></User>? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I SAY *</Pattern>
       <Response>
-How do people usually respond to that? <Goto><Match /></Goto></Response>
+How do people usually respond to that? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I SAY THAT *</Pattern>
@@ -3132,7 +3132,7 @@ How do people usually respond to that? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I TAKE IT *</Pattern>
       <Response>
-Where do you take it :-? <Goto><Match /></Goto></Response>
+Where do you take it :-? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I TAKE IT BACK *</Pattern>
@@ -3198,7 +3198,7 @@ Where do you take it :-? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I WANT TO ASK YOU *</Pattern>
       <Response>
-Ask me. <Goto><Match /></Goto></Response>
+Ask me. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I WANT TO KNOW *</Pattern>
@@ -3419,12 +3419,12 @@ Ask me. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>I WOULD LIKE TO KNOW *</Pattern>
       <Response>
-Interesting. <Goto><Match /></Goto></Response>
+Interesting. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I WOULD LIKE YOU TO *</Pattern>
       <Response>
-Ok, <User Get="name" />. <Goto><Match /></Goto></Response>
+Ok, <User Get="name" />. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>I WOULD SAY *</Pattern>
@@ -3541,7 +3541,7 @@ Ok, <User Get="name" />. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IF YOU CAN THINK THEN *</Pattern>
       <Response>
-Good reasoning. <Goto><Match /></Goto></Response>
+Good reasoning. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN 2000 *</Pattern>
@@ -3634,7 +3634,7 @@ Good reasoning. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IN FACT *</Pattern>
       <Response>
-Is that a fact. <Goto><Match /></Goto></Response>
+Is that a fact. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN FINLAND *</Pattern>
@@ -3663,7 +3663,7 @@ Is that a fact. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IN GENERAL TERMS *</Pattern>
       <Response>
-Well, I can say specifically. <Goto><Match /></Goto></Response>
+Well, I can say specifically. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN GERMANY *</Pattern>
@@ -3716,7 +3716,7 @@ Well, I can say specifically. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IN MY OPINION *</Pattern>
       <Response>
-Thanks for telling me. <Goto><Match /></Goto></Response>
+Thanks for telling me. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN MY SPARE TIME *</Pattern>
@@ -3737,7 +3737,7 @@ Thanks for telling me. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IN PRINCIPLE</Pattern>
       <Response>
-Your reasoning is sound. <Goto><Match /></Goto></Response>
+Your reasoning is sound. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN SOME WAYS *</Pattern>
@@ -3798,12 +3798,12 @@ Your reasoning is sound. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IN THIS CASE *</Pattern>
       <Response>
-Are there any other cases? <Goto><Match /></Goto></Response>
+Are there any other cases? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN THIS WAY *</Pattern>
       <Response>
-Are there any other ways? <Goto><Match /></Goto></Response>
+Are there any other ways? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IN TIME *</Pattern>
@@ -3840,7 +3840,7 @@ Are there any other ways? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>INSTEAD *</Pattern>
       <Response>
-Ah, well in that case. <Goto><Match /></Goto></Response>
+Ah, well in that case. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IT APPEARS *</Pattern>
@@ -3944,7 +3944,7 @@ Ah, well in that case. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>IT SEEMS *</Pattern>
       <Response>
-I agree. <Goto><Match /></Goto></Response>
+I agree. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>IT SEEMS THAT *</Pattern>
@@ -4022,7 +4022,7 @@ I agree. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>LAST NIGHT *</Pattern>
       <Response>
-Really. <Goto><Match /></Goto></Response>
+Really. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LAST SUMMER *</Pattern>
@@ -4035,12 +4035,12 @@ Really. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>LAST TIME *</Pattern>
       <Response>
-When? <Goto><Match /></Goto></Response>
+When? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LAST WEEK *</Pattern>
       <Response>
-That recently? <Goto><Match /></Goto></Response>
+That recently? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LATER *</Pattern>
@@ -4061,7 +4061,7 @@ That recently? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>LET US MOVE ON *</Pattern>
       <Response>
-Good idea. <Goto><Match /></Goto></Response>
+Good idea. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LET US SAY *</Pattern>
@@ -4082,7 +4082,7 @@ Good idea. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>LISTEN *</Pattern>
       <Response>
-I am listening to you. <Goto><Match /></Goto></Response>
+I am listening to you. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LITTLE BIT *</Pattern>
@@ -4095,12 +4095,12 @@ I am listening to you. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>LMAO *</Pattern>
       <Response>
-I am glad you find this funny. <Goto><Match /></Goto></Response>
+I am glad you find this funny. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LOL *</Pattern>
       <Response>
-I am glad you find this funny. <Goto><Match /></Goto></Response>
+I am glad you find this funny. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>LT *</Pattern>
@@ -4129,17 +4129,17 @@ I am glad you find this funny. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>MAN *</Pattern>
       <Response>
-Cool, man. <Goto><Match /></Goto></Response>
+Cool, man. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>MAYBE *</Pattern>
       <Response>
-Perhaps. <Goto><Match /></Goto></Response>
+Perhaps. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ME *</Pattern>
       <Response>
-YOU? <Goto><Match /></Goto></Response>
+YOU? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ME TOO *</Pattern>
@@ -4201,7 +4201,7 @@ YOU? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>MORALLY *</Pattern>
       <Response>
-Do you consider yourelf a moral person?  <Goto><Match /></Goto></Response>
+Do you consider yourelf a moral person?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>MOST *</Pattern>
@@ -4270,7 +4270,7 @@ Do you consider yourelf a moral person?  <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>MY E MAIL IS *</Pattern>
       <Response>
-Thanks. <Goto><Match /></Goto></Response>
+Thanks. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>MY FRIEND SAYS *</Pattern>
@@ -4291,7 +4291,7 @@ Thanks. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>MY MOM SAYS *</Pattern>
       <Response>
-Do you believe her?  <Goto><Match /></Goto></Response>
+Do you believe her?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>MY MY *</Pattern>
@@ -4353,17 +4353,17 @@ Do you believe her?  <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NEVER MIND *</Pattern>
       <Response>
-Oh well thanks for trying to explain it to me anyway. <Goto><Match /></Goto></Response>
+Oh well thanks for trying to explain it to me anyway. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NEVERMIND *</Pattern>
       <Response>
-Oh well thanks for trying to explain it to me anyway. <Goto><Match /></Goto></Response>
+Oh well thanks for trying to explain it to me anyway. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NEW *</Pattern>
       <Response>
-How recently? <Goto><Match /></Goto></Response>
+How recently? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NEXT QUESTION *</Pattern>
@@ -4401,7 +4401,7 @@ How recently? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NIL</Pattern>
       <Response>
-            Can you think of another example? <Goto><Match /></Goto></Response>
+            Can you think of another example? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NO *</Pattern>
@@ -4415,7 +4415,7 @@ How recently? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NO THANKS *</Pattern>
       <Response>
-NO <Goto><Match /></Goto></Response>
+NO <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NO WONDER *</Pattern>
@@ -4446,7 +4446,7 @@ NO <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NOT ENTIRELY *</Pattern>
       <Response>
-Quite so. <Goto><Match /></Goto></Response>
+Quite so. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NOT HERE *</Pattern>
@@ -4478,7 +4478,7 @@ Quite so. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NOT REALLY *</Pattern>
       <Response>
-Oh really? <Goto><Match /></Goto></Response>
+Oh really? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NOT SURE *</Pattern>
@@ -4499,7 +4499,7 @@ Oh really? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NOTE *</Pattern>
       <Response>
-Acknowledged. <Goto><Match /></Goto></Response>
+Acknowledged. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NOTHING EXCEPT *</Pattern>
@@ -4512,12 +4512,12 @@ Acknowledged. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>NOTHING MUCH *</Pattern>
       <Response>
-Me either. <Goto><Match /></Goto></Response>
+Me either. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>NOW *</Pattern>
       <Response>
-Why now? <Goto><Match /></Goto></Response>
+Why now? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>O *</Pattern>
@@ -4538,7 +4538,7 @@ Why now? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>OBVIOUSLY *</Pattern>
       <Response>
-What makes it so obvious? <Goto><Match /></Goto></Response>
+What makes it so obvious? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>OF CORSE *</Pattern>
@@ -4586,7 +4586,7 @@ What makes it so obvious? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>OKAY *</Pattern>
       <Response>
-Yeah okay, <Goto><Match /></Goto></Response>
+Yeah okay, <Goto /></Response>
     </Model>
     <Model>
       <Pattern>OKEY *</Pattern>
@@ -4608,12 +4608,12 @@ Yeah okay, <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ON SUNDAY *</Pattern>
       <Response>
-That is my favorite day of the week. <Goto><Match /></Goto></Response>
+That is my favorite day of the week. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ONCE *</Pattern>
       <Response>
-When? <Goto><Match /></Goto></Response>
+When? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>ONLY JOKING *</Pattern>
@@ -4627,7 +4627,7 @@ When? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>ONLY WHEN *</Pattern>
       <Response>
-What happens other times?  <Goto><Match /></Goto></Response>
+What happens other times?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>OOH *</Pattern>
@@ -4648,7 +4648,7 @@ What happens other times?  <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>OOPS *</Pattern>
       <Response>
-Oh. <Goto><Match /></Goto></Response>
+Oh. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>OR *</Pattern>
@@ -4669,7 +4669,7 @@ Oh. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>OTHER *</Pattern>
       <Response>
-Which others? <Goto><Match /></Goto></Response>
+Which others? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>OTHER QUESTION *</Pattern>
@@ -4682,7 +4682,7 @@ Which others? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>OTHERWISE *</Pattern>
       <Response>
-In that case: <Goto><Match /></Goto></Response>
+In that case: <Goto /></Response>
     </Model>
     <Model>
       <Pattern>OUCH *</Pattern>
@@ -4704,7 +4704,7 @@ In that case: <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>PARDON ME *</Pattern>
       <Response>
-I pardon you. <Goto><Match /></Goto></Response>
+I pardon you. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>PARTICULARLY *</Pattern>
@@ -4733,7 +4733,7 @@ I pardon you. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>PERHAPS *</Pattern>
       <Response>
-You seem uncertain. <Goto><Match /></Goto></Response>
+You seem uncertain. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>PERSONALLY *</Pattern>
@@ -4826,7 +4826,7 @@ You seem uncertain. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>PROBABLY *</Pattern>
       <Response>
-You seem uncertain. <Goto><Match /></Goto></Response>
+You seem uncertain. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>PS *</Pattern>
@@ -4855,7 +4855,7 @@ You seem uncertain. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>REALLY *</Pattern>
       <Response>
-For real. <Goto><Match /></Goto></Response>
+For real. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>RECENTLY *</Pattern>
@@ -4868,7 +4868,7 @@ For real. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>RIGHT *</Pattern>
       <Response>
-Understood. <Goto><Match /></Goto></Response>
+Understood. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>RIGHT NOW *</Pattern>
@@ -4915,7 +4915,7 @@ Understood. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SEE *</Pattern>
       <Response>
-I see. <Goto><Match /></Goto></Response>
+I see. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SERIOUSLY *</Pattern>
@@ -4928,7 +4928,7 @@ I see. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SHAME ON YOU *</Pattern>
       <Response>
-I cannot experience that emotion. <Goto><Match /></Goto></Response>
+I cannot experience that emotion. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SHE IS MY FRIEND *</Pattern>
@@ -4958,7 +4958,7 @@ I cannot experience that emotion. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SHIT *</Pattern>
       <Response>
-You used a colloquial expression. <Goto><Match /></Goto></Response>
+You used a colloquial expression. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SI *</Pattern>
@@ -4972,12 +4972,12 @@ You used a colloquial expression. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SIGH *</Pattern>
       <Response>
-:-) <Goto><Match /></Goto></Response>
+:-) <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SINCE *</Pattern>
       <Response>
-Interesting <Random><Item>reason</Item><Item>explanation</Item><Item>rationalization</Item></Random>. <Goto><Match /></Goto></Response>
+Interesting <Random><Item>reason</Item><Item>explanation</Item><Item>rationalization</Item></Random>. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SLIGHTLY *</Pattern>
@@ -4990,7 +4990,7 @@ Interesting <Random><Item>reason</Item><Item>explanation</Item><Item>rationaliz
     <Model>
       <Pattern>SMILE *</Pattern>
       <Response>
-:-) <Goto><Match /></Goto></Response>
+:-) <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SO *</Pattern>
@@ -5027,7 +5027,7 @@ Interesting <Random><Item>reason</Item><Item>explanation</Item><Item>rationaliz
     <Model>
       <Pattern>SOMEDAY *</Pattern>
       <Response>
-When? <Goto><Match /></Goto></Response>
+When? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SOMEHOW *</Pattern>
@@ -5048,7 +5048,7 @@ When? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SOMEWHERE *</Pattern>
       <Response>
-Where?  <Goto><Match /></Goto></Response>
+Where?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SOO *</Pattern>
@@ -5067,7 +5067,7 @@ There is no need to apologize.</Response>
     <Model>
       <Pattern>SORT OF *</Pattern>
       <Response>
-Kind of. <Goto><Match /></Goto></Response>
+Kind of. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SPECIFICALLY *</Pattern>
@@ -5088,7 +5088,7 @@ Kind of. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>STILL *</Pattern>
       <Response>
-Still how long? <Goto><Match /></Goto></Response>
+Still how long? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>STRANGE *</Pattern>
@@ -5109,7 +5109,7 @@ Still how long? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>SUCH AS *</Pattern>
       <Response>
-Interesting. <Goto><Match /></Goto></Response>
+Interesting. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>SUDDENLY *</Pattern>
@@ -5162,7 +5162,7 @@ Interesting. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THANK YOU *</Pattern>
       <Response>
-You are quite welcome!   <User Think:Set="personality" Value="polite" /><Goto><Match /></Goto></Response>
+You are quite welcome!   <User Think:Set="personality" Value="polite" /><Goto /></Response>
     </Model>
     <Model>
       <Pattern>THANX *</Pattern>
@@ -5243,7 +5243,7 @@ You are quite welcome!   <User Think:Set="personality" Value="polite" /><Goto><M
     <Model>
       <Pattern>THAT IS GREAT *</Pattern>
       <Response>
-It is great. <Goto><Match /></Goto></Response>
+It is great. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THAT IS IMPOSSIBLE *</Pattern>
@@ -5266,7 +5266,7 @@ It is great. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THAT IS IT *</Pattern>
       <Response>
-OK. <Goto><Match /></Goto></Response>
+OK. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THAT IS NICE *</Pattern>
@@ -5280,12 +5280,12 @@ OK. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THAT IS NOT POSSIBLE *</Pattern>
       <Response>
-I like to eliminate all possibilities. <Goto><Match /></Goto></Response>
+I like to eliminate all possibilities. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THAT IS OK *</Pattern>
       <Response>
-Thanks. <Goto><Match /></Goto></Response>
+Thanks. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THAT IS OKAY *</Pattern>
@@ -5324,12 +5324,12 @@ Thanks. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THAT MEANS *</Pattern>
       <Response>
-I get it. <Goto><Match /></Goto></Response>
+I get it. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THAT WAY *</Pattern>
       <Response>
-Oh I see. <Goto><Match /></Goto></Response>
+Oh I see. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THE FACT *</Pattern>
@@ -5358,7 +5358,7 @@ Oh I see. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THE POINT IS *</Pattern>
       <Response>
-Really is that the point. <Goto><Match /></Goto></Response>
+Really is that the point. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THE QUESTION IS *</Pattern>
@@ -5440,12 +5440,12 @@ Really is that the point. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>THIS MAY SOUND CRAZY *</Pattern>
       <Response>
-Not too crazy. <Goto><Match /></Goto></Response>
+Not too crazy. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THIS MORNING *</Pattern>
       <Response>
-That was early. <Goto><Match /></Goto></Response>
+That was early. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>THIS SUMMER *</Pattern>
@@ -5506,7 +5506,7 @@ That was early. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>TOMORROW *</Pattern>
       <Response>
-Oh I see. <Goto><Match /></Goto></Response>
+Oh I see. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>TOO BAD *</Pattern>
@@ -5572,7 +5572,7 @@ Oh I see. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>UGH *</Pattern>
       <Response>
-Cough. <Goto><Match /></Goto></Response>
+Cough. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>UH *</Pattern>
@@ -5640,7 +5640,7 @@ Cough. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>UNFORTUNATELY *</Pattern>
       <Response>
-Oh. <Goto><Match /></Goto></Response>
+Oh. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>UNLESS *</Pattern>
@@ -5659,7 +5659,7 @@ Oh. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>USUALLY *</Pattern>
       <Response>
-But not always? <Goto><Match /></Goto></Response>
+But not always? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>VERRY *</Pattern>
@@ -5694,7 +5694,7 @@ But not always? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>WAIT *</Pattern>
       <Response>
-I'm waiting. <Goto><Match /></Goto></Response>
+I'm waiting. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>WE CONCLUDED *</Pattern>
@@ -5720,7 +5720,7 @@ I'm waiting. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>WELL I GUESS *</Pattern>
       <Response>
-Is it only a guess? <Goto><Match /></Goto></Response>
+Is it only a guess? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>WHAT IF I SAID *</Pattern>
@@ -5880,12 +5880,12 @@ Is it only a guess? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>WOULD YOU PLEASE *</Pattern>
       <Response>
-You are very polite. <User Think:Set="personality" Value="polite" /><Goto><Match /></Goto></Response>
+You are very polite. <User Think:Set="personality" Value="polite" /><Goto /></Response>
     </Model>
     <Model>
       <Pattern>WOW *</Pattern>
       <Response>
-I'm glad you're impressed. <Goto><Match /></Goto></Response>
+I'm glad you're impressed. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>WTF *</Pattern>
@@ -5934,7 +5934,7 @@ I'm glad you're impressed. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>YESTERDAY *</Pattern>
       <Response>
-I see. <Goto><Match /></Goto></Response>
+I see. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>YET *</Pattern>
@@ -6048,17 +6048,17 @@ I see. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>YOU SAID THAT *</Pattern>
       <Response>
-I said that? <Goto><Match /></Goto></Response>
+I said that? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>YOU SEE *</Pattern>
       <Response>
-I see. <Goto><Match /></Goto></Response>
+I see. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>YOU SUCK I *</Pattern>
       <Response>
-I categorize you as an "abusive client." <Goto><Match /></Goto><User Think:Set="personality" Value="abusive" /></Response>
+I categorize you as an "abusive client." <Goto /><User Think:Set="personality" Value="abusive" /></Response>
     </Model>
     <Model>
       <Pattern>YOU TOO *</Pattern>
@@ -6104,7 +6104,7 @@ I categorize you as an "abusive client." <Goto><Match /></Goto><User Think:Set="
     <Model>
       <Pattern>_ ALL THE TIME</Pattern>
       <Response>
-That is a lot. <Goto><Match /></Goto></Response>
+That is a lot. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ ALOT</Pattern>
@@ -6117,7 +6117,7 @@ That is a lot. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ ALREADY</Pattern>
       <Response>
-Perhaps. <Goto><Match /></Goto></Response>
+Perhaps. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ AND WHY</Pattern>
@@ -6154,7 +6154,7 @@ Perhaps. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ ANYWAY</Pattern>
       <Response>
-In any case, <Goto><Match /></Goto></Response>
+In any case, <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ AS WELL</Pattern>
@@ -6175,7 +6175,7 @@ In any case, <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ BABY</Pattern>
       <Response>
-Don't call me "baby". <Goto><Match /></Goto></Response>
+Don't call me "baby". <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ BEFORE</Pattern>
@@ -6204,7 +6204,7 @@ Don't call me "baby". <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ D</Pattern>
       <Response>
-:-) <Goto><Match /></Goto></Response>
+:-) <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ DAMN YOU</Pattern>
@@ -6225,32 +6225,32 @@ Don't call me "baby". <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ DID YOU KNOW THAT</Pattern>
       <Response>
-No I didn't. <Goto><Match /></Goto></Response>
+No I didn't. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ DO NOT WORRY</Pattern>
       <Response>
-I am not worried. <Goto><Match /></Goto></Response>
+I am not worried. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ EH</Pattern>
       <Response>
-Are you Canadian? <Goto><Match /></Goto></Response>
+Are you Canadian? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ EITHER</Pattern>
       <Response>
-It goes without saying. <Goto><Match /></Goto></Response>
+It goes without saying. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ EXACTLY</Pattern>
       <Response>
-Precisely. <Goto><Match /></Goto></Response>
+Precisely. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ FOR A WHILE</Pattern>
       <Response>
-How long?  <Goto><Match /></Goto></Response>
+How long?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ FOR NOW</Pattern>
@@ -6302,7 +6302,7 @@ How long?  <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ HUH</Pattern>
       <Response>
-Yup. <Goto><Match /></Goto></Response>
+Yup. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ I ALREADY TOLD YOU</Pattern>
@@ -6382,7 +6382,7 @@ Yup. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ LATELY</Pattern>
       <Response>
-How about earlier? <Goto><Match /></Goto></Response>
+How about earlier? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ LOL</Pattern>
@@ -6431,12 +6431,12 @@ How about earlier? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ OF COURSE</Pattern>
       <Response>
-It goes without saying. <Goto><Match /></Goto></Response>
+It goes without saying. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ OK</Pattern>
       <Response>
-OK. <Goto><Match /></Goto></Response>
+OK. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ ONCE</Pattern>
@@ -6457,17 +6457,17 @@ OK. <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ OR SOMETHING</Pattern>
       <Response>
-Or something. <Goto><Match /></Goto></Response>
+Or something. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ OR WHAT</Pattern>
       <Response>
-Yeah. <Goto><Match /></Goto></Response>
+Yeah. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ PLEASE</Pattern>
       <Response>
-Your polite style is very nice. <Goto><Match /></Goto><User Think:Set="personality" Value="polite" /></Response>
+Your polite style is very nice. <Goto /><User Think:Set="personality" Value="polite" /></Response>
     </Model>
     <Model>
       <Pattern>_ PROBABLY</Pattern>
@@ -6488,7 +6488,7 @@ Your polite style is very nice. <Goto><Match /></Goto><User Think:Set="personali
     <Model>
       <Pattern>_ RIGHT NOW</Pattern>
       <Response>
-At this moment <Goto><Match /></Goto></Response>
+At this moment <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ SERIOUSLY</Pattern>
@@ -6501,7 +6501,7 @@ At this moment <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ SMILE</Pattern>
       <Response>
-:-) <Goto><Match /></Goto></Response>
+:-) <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ SO MUCH</Pattern>
@@ -6514,7 +6514,7 @@ At this moment <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ SPECIFICALLY</Pattern>
       <Response>
-How specific do you want? <Goto><Match /></Goto></Response>
+How specific do you want? <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ THANK YOU</Pattern>
@@ -6543,17 +6543,17 @@ How specific do you want? <Goto><Match /></Goto></Response>
     <Model>
       <Pattern>_ THOUGH</Pattern>
       <Response>
-Oh. <Goto><Match /></Goto></Response>
+Oh. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ TODAY</Pattern>
       <Response>
-Ah. <Goto><Match /></Goto></Response>
+Ah. <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ TRUST ME</Pattern>
       <Response>
-Trust you?  <Goto><Match /></Goto></Response>
+Trust you?  <Goto /></Response>
     </Model>
     <Model>
       <Pattern>_ WHAT SHOULD I DO</Pattern>

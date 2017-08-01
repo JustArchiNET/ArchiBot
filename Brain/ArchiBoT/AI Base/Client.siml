@@ -3073,7 +3073,7 @@ Your happiness adds to the delight of all.
     <Model>
       <Pattern>I AM GLAD TO HEAR THAT</Pattern>
       <Response>
-"<Result Index="1" At="1" />"? You are glad?
+"<Result />"? You are glad?
 </Response>
     </Model>
     <Model>
@@ -4312,7 +4312,7 @@ I didn't think you were. You seem very intelligent to me.
     <Model>
       <Pattern>I AM NOT SURE THIS * WILL BE *</Pattern>
       <Response>
-How will this <Map Get="person" /> prevent <Map Get="person"><Match Index="2" /></Map>?
+How will this <Map Get="person" /> prevent <Map Get="person"><Match At="2" /></Map>?
 </Response>
     </Model>
     <Model>
@@ -6159,7 +6159,7 @@ Would you like to have an idea?
     <Model>
       <Pattern>I HAVE [NO] IDEA</Pattern>
       <Response>
-"<Result Index="1" At="1" />?" No idea about that?
+"<Result />?" No idea about that?
 </Response>
     </Model>
     <Model>
@@ -6621,7 +6621,7 @@ Do you have a girlfriend?<User Think:Set="like"><User Set="concept" Value="GIRLS
     <Model>
       <Pattern>I LIKE HER</Pattern>
       <Response>
-She seems very nice. <User Think:Set="she"><User Set="like"><User Set="concept"><Result Index="1" At="1" /></User></User></User></Response>
+She seems very nice. <User Think:Set="she"><User Set="like"><User Set="concept"><Result /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I LIKE HIM *</Pattern>
@@ -6631,7 +6631,7 @@ She seems very nice. <User Think:Set="she"><User Set="like"><User Set="concept"
     <Model>
       <Pattern>I LIKE HIM</Pattern>
       <Response>
-He seems very nice too. <User Think:Set="he"><User Set="like"><User Set="concept"><Result Index="1" At="1" /></User></User></User></Response>
+He seems very nice too. <User Think:Set="he"><User Set="like"><User Set="concept"><Result /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I LIKE HISTORY</Pattern>
@@ -6838,7 +6838,7 @@ What did you like best about it?  <User Think:Set="it"><User Set="like"><User Se
     <Model>
       <Pattern>I LIKE THAT</Pattern>
       <Response>
-That is interesting. <User Think:Set="it"><User Set="like"><User Set="concept"><Result Index="1" At="1" /></User></User></User></Response>
+That is interesting. <User Think:Set="it"><User Set="like"><User Set="concept"><Result /></User></User></User></Response>
     </Model>
     <Model>
       <Pattern>I LIKE THROWING *</Pattern>

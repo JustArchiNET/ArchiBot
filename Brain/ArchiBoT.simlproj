@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<simlproject>
-  <name>ArchiBoT AI</name>
-  <directory>ArchiBoT</directory>
-  <botname>ArchiBoT</botname>
-  <personality>Female English Bot</personality>
-  <author>Touhou Giveaways Group</author>
-  <description>This is a bot for the Touhou Giveaways group based on the default English SIML template.</description>
-  <date>2 May, 2017</date>
-  <notes></notes>
-</simlproject>
+<SimlProject>
+  <Profile>Classic</Profile>
+  <Name>ArchiBoT AI</Name>
+  <Directory>ArchiBoT</Directory>
+  <BotName>ArchiBoT</BotName>
+  <Personality>Female English Bot</Personality>
+  <Author>Touhou Giveaways Group</Author>
+  <Description>This is a bot for the Touhou Giveaways group based on the default English SIML template.</Description>
+  <Date>17-05-02 12:00:00.000</Date>
+  <Notes></Notes>
+</SimlProject>

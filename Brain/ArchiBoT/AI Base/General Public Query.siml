@@ -4,7 +4,7 @@
     <!--What is better to buy Apple or Asus-->
     <Model>
       <Pattern>WHAT IS BETTER TO BUY * OR *</Pattern>
-      <Response>I would personally buy from <Match /> instead of <Match Index="2" />.</Response>
+      <Response>I would personally buy from <Match /> instead of <Match At="2" />.</Response>
     </Model>
     <Model>
       <Pattern>DO YOU HAVE AN INTERNET SPIDER</Pattern>

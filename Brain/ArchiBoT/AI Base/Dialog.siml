@@ -6,13 +6,13 @@
       <Response>
         <Think>
           <User Set="input4">
-            <Input Index="4" />
+            <Input At="4" />
           </User>
           <User Set="input3">
-            <Input Index="3" />
+            <Input At="3" />
           </User>
           <User Set="input2">
-            <Input Index="2" />
+            <Input At="2" />
           </User>
           <User Set="input1">
             <Input />
@@ -21,38 +21,38 @@
         <If User="input4" Defined="True">
           
           
-            Human: <Input Index="4" />
+            Human: <Input At="4" />
           
           
           
-            <Match />: <Result Index="4" />
+            <Match />: <Result At="4" />
         </If>
         <If User="input3" Defined="True">
           
           
-            Human: <Input Index="3" />
+            Human: <Input At="3" />
           
           
           
-            <Match />: <Result Index="3" />
+            <Match />: <Result At="3" />
         </If>
         <If User="input2" Defined="True">
           
           
-            Human: <Input Index="2" />
+            Human: <Input At="2" />
           
           
           
-            <Match />: <Result Index="2" />
+            <Match />: <Result At="2" />
         </If>
         <If User="input1" Defined="True">
           
           
-            Human: <Input Index="1" />
+            Human: <Input />
           
           
           
-            <Match />: <Result Index="1" />
+            <Match />: <Result />
         </If>
       </Response>
     </Model>
@@ -61,13 +61,13 @@
       <Response>
         <Think>
           <User Set="input4">
-            <Input Index="4" />
+            <Input At="4" />
           </User>
           <User Set="input3">
-            <Input Index="3" />
+            <Input At="3" />
           </User>
           <User Set="input2">
-            <Input Index="2" />
+            <Input At="2" />
           </User>
           <User Set="input1">
             <Input />
@@ -76,38 +76,38 @@
         <If User="input4" Defined="True">
           
           
-            Human: <Input Index="4" />
+            Human: <Input At="4" />
           
           
           
-            <Bot Get="name" />: <Result Index="4" />
+            <Bot Get="name" />: <Result At="4" />
         </If>
         <If User="input3" Defined="True">
           
           
-            Human: <Input Index="3" />
+            Human: <Input At="3" />
           
           
           
-            <Bot Get="name" />: <Result Index="3" />
+            <Bot Get="name" />: <Result At="3" />
         </If>
         <If User="input2" Defined="True">
           
           
-            Human: <Input Index="2" />
+            Human: <Input At="2" />
           
           
           
-            <Bot Get="name" />: <Result Index="2" />
+            <Bot Get="name" />: <Result At="2" />
         </If>
         <If User="input1" Defined="True">
           
           
-            Human: <Input Index="1" />
+            Human: <Input />
           
           
           
-            <Bot Get="name" />: <Result Index="1" />
+            <Bot Get="name" />: <Result />
         </If>
       </Response>
     </Model>
@@ -116,24 +116,24 @@
       <Response>
         <Think>
           <User Set="input4">
-            <Input Index="4" />
+            <Input At="4" />
           </User>
           <User Set="input3">
-            <Input Index="3" />
+            <Input At="3" />
           </User>
           <User Set="input2">
-            <Input Index="2" />
+            <Input At="2" />
           </User>
           <User Set="input1">
             <Input />
           </User>
         </Think>
         <If User="input4" Defined="True">
-          You said, "<Input Index="4" />". I replied,"<Result Index="3" />"</If>
+          You said, "<Input At="4" />". I replied,"<Result At="3" />"</If>
         <If User="input3" Defined="True">
-          You said, "<Input Index="3" />". I replied,"<Result Index="2" />"</If>
+          You said, "<Input At="3" />". I replied,"<Result At="2" />"</If>
         <If User="input2" Defined="True">
-          You said, "<Input Index="2" />". I replied,"<Result Index="1" />"</If>
+          You said, "<Input At="2" />". I replied,"<Result />"</If>
         
       </Response>
     </Model>

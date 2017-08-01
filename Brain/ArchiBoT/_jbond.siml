@@ -234,7 +234,7 @@
       </Pattern>
       <Response>
         <Text Get="Sentence">
-          <Match Index="1" /> level is <Random><Item><Random>(about|approximately|around)</Random> <Js>
+          <Match /> level is <Random><Item><Random>(about|approximately|around)</Random> <Js>
 
                 randomIntBetween(1, 99);
 

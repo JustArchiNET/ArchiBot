@@ -11,16 +11,16 @@
       <If User="Repeat:Is-Partial">
         <Switch User="Repeat:Count">
           <Case Value="1">And I have already mentioned <Echo /></Case>
-          <Case Value="2">And I think you already know <Echo /> and <Echo Index="2" /></Case>
-          <Case Value="3">And If you recall our conversation you would know <Echo Index="1" />, <Echo Index="2" /> and <Echo Index="3" /></Case>
+          <Case Value="2">And I think you already know <Echo /> and <Echo At="2" /></Case>
+          <Case Value="3">And If you recall our conversation you would know <Echo />, <Echo At="2" /> and <Echo At="3" /></Case>
           <Default>And I do not like to repeat myself.</Default>
         </Switch>
       </If>
       <Else>
         <Switch User="Repeat:Count">
           <Case Value="1">I have already mentioned <Echo /></Case>
-          <Case Value="2">I think you already know <Echo /> and <Echo Index="2" /></Case>
-          <Case Value="3">If you recall our conversation you would know <Echo />, <Echo Index="2" /> and <Echo Index="3" /></Case>
+          <Case Value="2">I think you already know <Echo /> and <Echo At="2" /></Case>
+          <Case Value="3">If you recall our conversation you would know <Echo />, <Echo At="2" /> and <Echo At="3" /></Case>
           <Default>I do not like to repeat myself.</Default>
         </Switch>
       </Else>

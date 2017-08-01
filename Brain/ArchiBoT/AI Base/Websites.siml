@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="Websites" Repeat="True">
+  <Concept Name="Websites">
     <Model>
       <Pattern>DUCKDUCKGO</Pattern>
       <Response>The safest search engine on the planet.</Response>
