@@ -144,6 +144,11 @@
 	</Model>
 -->
 		<Model>
+			<Pattern>^DEBUG ^USERGET *1 *</Pattern>
+			<Response><ArchiSynBotUserGet><Match /> <Match At="2" /></ArchiSynBotUserGet></Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG RANDOMUSER</Pattern>
 			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
 		</Model>
