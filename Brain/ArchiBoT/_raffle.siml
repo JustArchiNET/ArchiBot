@@ -34,6 +34,7 @@
 			<Pattern>^STARTRAFFLE %</Pattern>
 			<Response>
 				<Bot Think:Set="rafflelist" Value="" />
+				<Bot Think:Remove="rafflelist" Value="" />
 				<Bot Think:Set="raffleactive" Value="true" />
 				<Bot Think:Set="raffleprize" Value="{Bind Match}" />
 				<Bot Think:Set="raffleparticipants" Value="0" />
