@@ -7,10 +7,14 @@
 				<Bind Key="{userid}"><User Get="ID" /></Bind> 
 				<If User="SourceID" Not="steam-110338190878500888">Error: the Raffle command only works in the Touhou Giveaways chat (for now) :cry:7</If>
 				<ElseIf Bot="raffleactive" Not="true">The raffle is not currently active :speak:</ElseIf>
-				<ElseIf Bot="rafflelist" Contains="{userid}">You have already entered this raffle :doubt:</ElseIf>
-				<Else><User Get="Nickname" /> entered the raffle! \:bite:/
-					<Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />+1</Math></Bot>
-					<Bot Think:Add="rafflelist" Value="{userid}" />
+				<Else>
+					<Var Think:Set="isparticipating"><Js>"<Bot List="rafflelist" />".indexOf("<User Get="ID" />")</Js></Var>
+					<If Var="isparticipating" Value="-1"><User Get="Nickname" /> entered the raffle! \:bite:/
+						<Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />+1</Math></Bot>
+						<Bot Think:Add="rafflelist" Value="{userid}" />
+					</If>
+					<ElseIf Var="isparticipating" GTE="0">You're already participating in the raffle :doubt:</ElseIf>
+					<Else>Error: this is not supposed to happen, pls fix :cry:</Else>
 				</Else>
 			</Response>
 		</Model>
