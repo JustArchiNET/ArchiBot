@@ -54,12 +54,12 @@
 			<Pattern>^ROLLRAFFLE</Pattern>
 			<Response>
 				<Bot Think:Set="raffleactive" Value="false" />
-				<If Bot="raffleparticipants" GreaterThan="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><Bot Remove="rafflelist"><Random Get="rafflelist" Source="Bot" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
+				<If Bot="raffleparticipants" GreaterThan="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
 				<Else>There's no one in the list :doubt:</Else>
 			</Response>
 		</Model>
 	</Concept>
-<!-- Replace with this one once Archi implements steamid -> nickname Custom Adapter (and we are on SIML 2.0)
+<!-- Replace with this one once Archi implements steamid -> nickname Custom Adapter
 ^RAFFLE changes:
 				<Bind Key="{userid}"><User Get="ID" /></Bind>
 				<If User="SourceID" Not="steam-110338190878500888">Error: the Raffle command only works in the Touhou Giveaways chat (for now) :cry:7</If>
