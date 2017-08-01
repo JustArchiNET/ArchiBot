@@ -146,10 +146,10 @@
 		<Model>
 			<Pattern>^ARCHISUGAR</Pattern>
 			<Response>Archi's sugar level is <Var Set="sugar"><Math Get="random" Min="40" Max="320" /></Var>, <Switch Var="sugar">
-				<Case LessThan="60">so low :speak:</Case>
-				<Case LessThan="100">all is fine :sgsmile:</Case>
-				<Case LessThan="180">a bit high, it's fine I guess ¯\_(ツ)_/¯</Case>
-				<Case LessThan="250">pls don't die :cry:</Case>
+				<Case LT="60">so low :speak:</Case>
+				<Case LT="100">all is fine :sgsmile:</Case>
+				<Case LT="180">a bit high, it's fine I guess ¯\_(ツ)_/¯</Case>
+				<Case LT="250">pls don't die :cry:</Case>
 				<Default>RIP, never forget, alway rember :cry:7</Default></Switch>
 			</Response>
 		</Model>

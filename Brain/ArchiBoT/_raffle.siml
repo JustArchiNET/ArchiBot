@@ -44,7 +44,7 @@
 				<Switch Bot="raffleparticipants">
 					<Case Value="0">No one joined the raffle, was <If Bot="raffleprize" Not=""><Bot Get="raffleprize" /></If><Else>it</Else> really that bad of a prize? :doubt:</Case>
 					<Case Value="1">Only one person joined, I wonder who will win :sgsmile:</Case>
-					<Case GreaterThan="1">The raffle is now closed, who will win<If Bot="raffleprize" Not=""> <Bot Get="raffleprize" /></If>? :speak:</Case>
+					<Case GT="1">The raffle is now closed, who will win<If Bot="raffleprize" Not=""> <Bot Get="raffleprize" /></If>? :speak:</Case>
 					<Default>This error is not supposed to display, something broke :doubt:&#xD;Bot's raffleparticipants value is: <Bot Get="raffleparticipants" /></Default>
 				</Switch>
 			</Response>
@@ -54,7 +54,7 @@
 			<Pattern>^ROLLRAFFLE</Pattern>
 			<Response>
 				<Bot Think:Set="raffleactive" Value="false" />
-				<If Bot="raffleparticipants" GreaterThan="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
+				<If Bot="raffleparticipants" GT="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
 				<Else>There's no one in the list :doubt:</Else>
 			</Response>
 		</Model>
