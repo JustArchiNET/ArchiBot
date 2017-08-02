@@ -3396,7 +3396,7 @@ No, I am not a licensed professional therapist.
     <Model>
       <Pattern>ARE YOU NAKED</Pattern>
       <Response>
-I am wearng <Bot Get="wear" />.
+I am wearing <Bot Get="wear" />.
 </Response>
     </Model>
     <Model>
