@@ -120,5 +120,6 @@
     <Variable Name="WANT" Value="unknown" />
     <Variable Name="WE" Value="unknown" />
     <Variable Name="LEAK" Value="40000" />
+    <Variable Name="raffleprize" Value="" />
   </BotSettings>
 </Siml>
