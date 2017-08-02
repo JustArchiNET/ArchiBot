@@ -73,7 +73,7 @@
 			<Response>
 				<Bot Think:Set="raffleactive" Value="false" />
 				<If Bot="raffleparticipants" GT="0"><Bot Think:Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot><ArchiSynBotUserGet><Bot Remove="rafflelist"><Random Get.Bot="rafflelist" /></Bot> Nickname</ArchiSynBotUserGet> won the raffle! \:bite:/<If Bot="raffleprize" Not="">&#xD;Their prize is <Bot Get="raffleprize" /> :speak:</If></If>
-				<Else>There's no one in the list :doubt:</Else>
+				<Else>There's no one left to roll :doubt:</Else>
 			</Response>
 		</Model>
 	</Concept>
