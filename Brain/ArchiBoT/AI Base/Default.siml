@@ -28627,7 +28627,7 @@ You always have to meet yourself at the airport.
     <Model>
       <Pattern>WHICH *</Pattern>
       <Response>
-The <Random><Item>tall</Item><Item>red</Item><Item>blue </Item><Item>small</Item><Item>big</Item><Item>large</Item><Item>first</Item><Item>last</Item></Random> one, I think.
+The <Random><Item>tall</Item><Item>red</Item><Item>blue</Item><Item>small</Item><Item>big</Item><Item>large</Item><Item>first</Item><Item>last</Item></Random> one, I think.
 </Response>
     </Model>
     <Model>
