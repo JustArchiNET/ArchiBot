@@ -75,5 +75,15 @@
 				<Else>There's no one left to roll :doubt:</Else>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>^RAFFLELIST</Pattern>
+			<Response><Bot List="rafflelist" /> (<Bot Get="raffleparticipants" /> participants)</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^RESETRAFFLELIST</Pattern>
+			<Response><While Bot="raffleparticipants" GT="0"><Bot Think:Remove="rafflelist"><Bot Get="rafflelist" /></Bot><Bot Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot></While><Bot Think:Set="raffleparticipants" Value="0" /></Response>
+		</Model>
 	</Concept>
 </Siml>
