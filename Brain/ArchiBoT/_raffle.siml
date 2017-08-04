@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
-	<Concept Name="_raffle">
+<!--	<Concept Name="_raffle">
 		<Model>
 			<Pattern>^RAFFLE</Pattern>
 			<Response>
@@ -86,4 +86,5 @@
 			<Response><While Bot="raffleparticipants" GT="0"><Bot Think:Remove="rafflelist"><Bot Get="rafflelist" /></Bot><Bot Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot></While><Bot Think:Set="raffleparticipants" Value="0" /></Response>
 		</Model>
 	</Concept>
+-->
 </Siml>
