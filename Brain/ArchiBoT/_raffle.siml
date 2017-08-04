@@ -24,7 +24,7 @@
 			<Response>
 				<Switch Bot="raffleactive">
 					<Case Not="true">The raffle is not currently active :sgsmile:</Case>
-					<Default>The raffle is currently active (<Bot Get="raffleparticipants" /> participant<If Bot="raffleparticipants" Not="1">s</If>, type "!ai raffle" without quotes to join it! <If Bot="raffleprize" Not="">The winner will receive <Bot Get="raffleprize" /> </If>\:sgsmile:</Default>
+					<Default>The raffle is currently active (<Bot Get="raffleparticipants" /> participant<If Bot="raffleparticipants" Not="1">s</If>), type "!ai raffle" without quotes to join it! <If Bot="raffleprize" Not="">The winner will receive <Bot Get="raffleprize" /> </If>\:sgsmile:</Default>
 				</Switch>
 			</Response>
 		</Model>
