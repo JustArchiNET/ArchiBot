@@ -45,8 +45,7 @@
 			<Response>
 				<If	Bot="raffleactive" Value="true">Error: A raffle is already active, please stop it with "stopraffle" first.</If>
 				<Else>
-					<Bot Think:Set="rafflelist" Value="" />
-					<Bot Think:Remove="rafflelist" Value="" />
+					<While Bot="raffleparticipants" GT="0"><Bot Think:Remove="rafflelist"><Bot Get="rafflelist" /></Bot><Bot Set="raffleparticipants"><Math><Bot Get="raffleparticipants" />-1</Math></Bot></While>
 					<Bot Think:Set="raffleactive" Value="true" />
 					<Bot Think:Set="raffleprize" Value="{Bind Match}" />
 					<Bot Think:Set="raffleparticipants" Value="0" />
