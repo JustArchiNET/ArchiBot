@@ -121,5 +121,6 @@
     <Variable Name="WE" Value="unknown" />
     <Variable Name="LEAK" Value="40000" />
     <Variable Name="raffleprize" Value="" />
+    <Variable Name="ktemp" Value="40" />
   </BotSettings>
 </Siml>

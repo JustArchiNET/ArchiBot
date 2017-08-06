@@ -823,5 +823,10 @@ nexttime(<Match />);</Js></Var> seconds!
 -->
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>WEATHER</Pattern>
+			<Response><Bot Think:Set="ktemp"><Math><Bot Get="ktemp" />+<Math Get="random" Min="1" Max="10" /></Math></Bot>Lecce, PU, Italy | <Bot Get="ktemp" />°C/<Math Round="0"><Bot Get="ktemp" />*9/5+32</Math>°F | Sunny</Response>
+		</Model>
 	</Concept>
 </Siml>
