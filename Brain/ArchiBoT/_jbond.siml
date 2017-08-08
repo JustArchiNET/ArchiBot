@@ -6,16 +6,16 @@
       <Response>
         <Random>
           <Item Weight="0.5">:ripgocha:</Item>
-          <Item>:ripgocha: Dead :ripgocha:</Item>
-          <Item>Rest in pieces. :sgsmile:</Item>
-          <Item>:ripgocha: :sgsmile:</Item>
+          <Item>:ripgocha: :cry:7</Item>
+          <Item>Rest in pieces. <Random>(:sgsmile:|:cry:)</Random></Item>
+          <Item>:ripgocha: <Random>(:sgsmile:|:cry:)</Random></Item>
         </Random>
       </Response>
     </Model>
     
     <Model>
       <Pattern>RIP *</Pattern>
-      <Response>:ripgocha: <Match /></Response>
+      <Response>:ripgocha: <Match /> <Random>(|:cry:7)</Random></Response>
     </Model>
     
     <Model>
@@ -46,15 +46,16 @@
           <Item>The laziest person. No contest.</Item>
           <Item>Kaleith, I broke AI again. ;_;</Item>
           <Item>Kaleith, I broke AI. Send help. ;_;</Item>
-          <Item>jbondguy007: Hold on while I write a fucking huge wall of text to describe what I broke</Item>
+          <Item>"jbondguy007: Hold on while I write a fucking huge wall of text to describe what I broke"</Item>
           <Item>The guy who spend half a day trying to figure out how to escape underscores and periods to make a response to an emoticon.</Item>
           <Item>A dragon.</Item>
           <Item>A blue dragon.</Item>
           <Item>The person Archi never should have convinced to try adding siml improvements to the AI.</Item>
-          <Item>Endless Windscreen Taigo: The guy who won't stop fucking with bottu :3</Item>
-          <Item>jbondguy007: Is sleeping a long-term form of productive</Item>
+          <Item>"Endless Windscreen Taigo: The guy who won't stop fucking with bottu :3"</Item>
+          <Item>"jbondguy007: Is sleeping a long-term form of productive"</Item>
           <Item>The person who missed 2hu swing. :bite:</Item>
-          <Item>jbondguy007: I'M FOLLOWING THE INSTRUCTIONS WHY IS IT NOT WORKING ;_;</Item>
+          <Item>"jbondguy007: I'M FOLLOWING THE INSTRUCTIONS WHY IS IT NOT WORKING ;_;"</Item>
+          <Item>"jbondguy007: And yes, I am stupid."</Item>
         </Random>
       </Response>
     </Model>
@@ -73,7 +74,7 @@
           <Item>Are we on the weekend? Probably at work.</Item>
           <Item>Who knows? :sgsmile:</Item>
           <Item>He told me not to disclose his current location to anyone.</Item>
-          <Item>Archi: @jbond missing swing again</Item>
+          <Item>"Archi: @jbond missing swing again"</Item>
         </Random>
       </Response>
     </Model>
@@ -98,7 +99,7 @@
           <Item>Don't ask. For your sanity. :sgsmile:</Item>
           <Item>Trust me, I wish I knew. :doubt:</Item>
           <Item>He missed 2hu swing. Again. :doubt:</Item>
-          <Item>Archi: @jbond missing swing again</Item>
+          <Item>"Archi: @jbond missing swing again"</Item>
         </Random>
       </Response>
     </Model>
@@ -232,6 +233,7 @@
       <Pattern>
         <Item>WHAT IS THE % LEVEL</Item>
         <Item>WHAT IS % LEVEL %</Item>
+        <Item>* LEVEL</Item>
       </Pattern>
       <Response>
         <Text Get="Sentence">
@@ -247,6 +249,7 @@
       <Pattern>
         <Item>WHAT IS ^MY % LEVEL</Item>
         <Item>WHAT IS ^MY % LEVEL %</Item>
+        <Item>MY * LEVEL</Item>
       </Pattern>
       <Response>
         <Text Get="Sentence">Your <Match /> level is <Random><Item><Random>(probably|most likely|possibly)</Random> <Js>
@@ -261,6 +264,7 @@
       <Pattern>
         <Item>WHAT IS ^YOUR % LEVEL</Item>
         <Item>WHAT IS ^YOUR % LEVEL %</Item>
+        <Item>YOUR * LEVEL</Item>
       </Pattern>
       <Response>
         <Random>
@@ -288,6 +292,7 @@
       <Pattern>
         <Item>^WHAT IS LEVEL</Item>
         <Item>^WHAT IS THE LEVEL</Item>
+        <Item>LEVEL</Item>
       </Pattern>
       <Response>
         <Random>
@@ -603,6 +608,18 @@
       <Response>
         <Text Get="title">
           <Goto>RANDOMPIRATERANK</Goto> <Match /> <Goto>RANDOMPIRATENAME</Goto></Text>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+      	<Item>PIRATENAME</Item>
+      	<Item>PIRATENAME ME</Item>
+      </Pattern>
+      <Response>
+      	<Text Get="title">
+      		<Goto>RANDOMPIRATERANK</Goto> <User Get="name"/> <Goto>RANDOMPIRATENAME</Goto>
+      	</Text>
       </Response>
     </Model>
     
