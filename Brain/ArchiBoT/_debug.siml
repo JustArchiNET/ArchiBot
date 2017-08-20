@@ -113,26 +113,43 @@
 
 <!-- The following should work only for Kaleith on Steam -->
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
+		<Model>
+			<Pattern>^DEBUG 2HUTARGET _</Pattern>
+			<Response>
+				<Bind Key="{Message}"><Match /></Bind>
+				<Text>I'll send that to 2hus soon :sgsmile:</Text>
+				<Late Second="2">steam-110338190878500888 <Text>{Message}</Text></Late>
+			</Response>
+		</Model>
 
-	<Model>
-	<Pattern>DEBUG PATREON</Pattern>
-		<Response>Game Maker's Toolkit is making <ArchiPatreonCampaignPledge>157042</ArchiPatreonCampaignPledge></Response>
-	</Model>
+		<Model>
+			<Pattern>^DEBUG PRIVTARGET _</Pattern>
+			<Response>
+				<Bind Key="{Message}"><Match /></Bind>
+				<Text>I'll send that to you privately soon :sgsmile:</Text>
+				<Late Second="2">steam-76561198025147895 <Text>{Message}</Text></Late>
+			</Response>
+		</Model>
 
-	<Model>
-	<Pattern>DEBUG DATE _</Pattern>
-		<Response>Input: <Match />. Output: <ArchiDate><Match /></ArchiDate></Response>
-	</Model>
+		<Model>
+			<Pattern>DEBUG PATREON</Pattern>
+			<Response>Game Maker's Toolkit is making <ArchiPatreonCampaignPledge>157042</ArchiPatreonCampaignPledge></Response>
+		</Model>
 
-	<Model>
-	<Pattern>DEBUG TIME _</Pattern>
-		<Response>Input: <Match />. Output: <ArchiTime><Match /></ArchiTime></Response>
-	</Model>
+		<Model>
+			<Pattern>DEBUG DATE _</Pattern>
+			<Response>Input: <Match />. Output: <ArchiDate><Match /></ArchiDate></Response>
+		</Model>
 
-	<Model>
-	<Pattern>DEBUG DATETIME _</Pattern>
-		<Response>Input: <Match />. Output: <ArchiDateTime><Match /></ArchiDateTime></Response>
-	</Model>
+		<Model>
+			<Pattern>DEBUG TIME _</Pattern>
+			<Response>Input: <Match />. Output: <ArchiTime><Match /></ArchiTime></Response>
+		</Model>
+
+		<Model>
+			<Pattern>DEBUG DATETIME _</Pattern>
+			<Response>Input: <Match />. Output: <ArchiDateTime><Match /></ArchiDateTime></Response>
+		</Model>
 <!-- TEST
 	<Model>
 		<Pattern>ADDCOMMAND _</Pattern>
@@ -151,11 +168,6 @@
 		<Model>
 			<Pattern>DEBUG RANDOMUSER</Pattern>
 			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
-		</Model>
-
-		<Model>
-			<Pattern>DEBUGTEST</Pattern>
-			<Response>You are Kaleith, right? :speak:</Response>
 		</Model>
 
 		<Model>
