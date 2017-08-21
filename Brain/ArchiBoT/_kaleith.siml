@@ -72,7 +72,7 @@
 			</Pattern>
 			<Response>
 				<Var Think:Set="gibnier" Value="{Bind Match}" />
-				<If Var="gibnier" Value="">Monmon</If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
+				<If Var="gibnier" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
 			</Response>
 		</Model>
 
