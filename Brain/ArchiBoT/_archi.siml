@@ -144,6 +144,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^ARCHIPOLICE</Pattern>
+			<Response>:coolpolice: https://i.imgur.com/xMdc2cD.jpg</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^ARCHISUGAR</Pattern>
 			<Response>Archi's sugar level is <Var Set="sugar"><Math Get="random" Min="40" Max="320" /></Var>, <Switch Var="sugar">
 				<Case LT="60">so low :speak:</Case>
