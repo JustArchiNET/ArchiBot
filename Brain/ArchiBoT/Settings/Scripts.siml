@@ -133,9 +133,15 @@
     function convertTimeStringToSeconds(timeString) {
         var timeUnits = {
             second: 1,
+            sec: 1,
+            s: 1,
             minute: 60,
+            min: 60,
+            m: 60,
             hour: 60 * 60,
-            day: 60 * 60 * 24
+            h: 60 * 60,
+            day: 60 * 60 * 24,
+            d: 60 * 60 * 24
         };
 
         var timeArray = removeFromArray(trimTrailingComma(timeString).split(' '), 'and');
@@ -175,7 +181,7 @@
      * @returns {string} unit
      */
     function singularizeTimeUnit(unit) {
-        if (['seconds', 'minutes', 'hours', 'days'].indexOf(unit) !== -1) return unit.slice(0, -1);
+        if (['seconds', 'secs', 'minutes', 'mins', 'hours', 'days'].indexOf(unit) !== -1) return unit.slice(0, -1);
         return unit;
     }
 
