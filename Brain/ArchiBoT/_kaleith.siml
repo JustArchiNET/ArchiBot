@@ -192,7 +192,7 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>Faku: It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> :3</Item>
+					<Item>Faku: It's <Js>timetoAMPM("<ArchiTime>Seattle</ArchiTime>")</Js> <Random><Item>:3</Item><Item>:3&lt;</Item></Random></Item>
 					<Item Weight="0.03">Faku: It's... kicku time :3</Item>
 				</Random>
 			</Response>
