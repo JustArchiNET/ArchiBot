@@ -149,6 +149,37 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>^ARCHIWORK</Item>
+				<Item>^ARCHIWORKER</Item>
+				<Item>^WIP</Item>
+			</Pattern>
+			<Response>👷 https://i.imgur.com/q5s1b9o.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHIDOC</Item>
+				<Item>^ARCHIDOCTOR</Item>
+				<Item>^DOCTOR ARCHI</Item>
+			</Pattern>
+			<Response>👨 https://i.imgur.com/G8VCUmG.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^DICTATOR ARCHI</Item>
+				<Item>(GLORIOUS|BENEVOLENT) ^LEADER</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/oXkz4yA.png</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^ARCHGYVER</Pattern>
+			<Response>https://i.imgur.com/zTDHQTv.png + https://www.youtube.com/watch?v=UKTNWI0eYJ4</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^ARCHISUGAR</Pattern>
 			<Response>Archi's sugar level is <Var Set="sugar"><Math Get="random" Min="40" Max="320" /></Var>, <Switch Var="sugar">
 				<Case LT="60">so low :speak:</Case>
