@@ -51,6 +51,15 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>$ ^2HU WISHLIST $</Item>
+				<Item>$ ^TOUHOU WISHLIST $</Item>
+				<Item>$ ^GROUP WISHLIST $</Item>
+			</Pattern>
+			<Response>https://www.steamgifts.com/group/QSYeL/touhou-ga/wishlist</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^LEAK</Pattern>
 			<Response>I'm using <Bot Set="leak"><Math><Bot Get="leak" />+<Math Get="random" Min="15000" Max="60000" /></Math></Bot> KB now! :sgsmile:</Response>
 		</Model>
