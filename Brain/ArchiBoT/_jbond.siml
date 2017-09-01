@@ -105,7 +105,21 @@
     </Model>
     
     <Model>
-      <Pattern>jbond disclaimer</Pattern>
+      <Pattern>
+        <Item>NEP</Item>
+        <Item>NEP NEP</Item>
+        <Item>NEPNEP</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>https://youtu.be/EKxio8HZiNA</Item>
+          <Item>Neppu neppu~</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>JBOND DISCLAIMER</Pattern>
       <Response>"jbondguy007", "jbond", "jbondo", and any names or nicknames referencing to the individual known as "jbondguy007" has no direct or immediate obligation to provide any form of substantial explanation for breaking the AI. Any event and/or events leading to a broken AI is the direct responsibility of the bot master and/or bot masters involved.</Response>
     </Model>
     
