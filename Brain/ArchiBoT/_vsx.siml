@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_vsx">
+    <Model>
+      <Pattern>WHO IS (VSX|VENA|VENATUS|VENATUSSIMPLEX)</Pattern>
+      <Response>
+        <Random>
+          <Item Weight="0.65">I do not have such person in my database.</Item>
+          <Item>If I tell you, he may break me!</Item>
+          <Item>He is a loyal revolutionist.</Item>
+          <Item>A local person who bribes 2hu with monthly gibs.</Item>
+          <Item>A refuge, hiding from Glorious Leader's conscription</Item>
+          <Item Weight="0.1">A fool, as defined by Archi.</Item>
+        </Random>
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>WHERE IS (VSX|VENA|VENATUS|VENATUSSIMPLEX)</Pattern>
+      <Response>Kaleith: @vsx</Response>
+    </Model>
+  </Concept>
+</Siml>
