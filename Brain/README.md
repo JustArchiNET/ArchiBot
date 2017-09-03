@@ -16,7 +16,7 @@ I have included a .simlproj file compatible with it, so just clone the repo (or 
 ---
 
 Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
-- Create a **[new file](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT)**
+- Create a **[new file](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom)**
 - Name it using your selected unique identifier, prefix with ```_``` and use ```.siml``` extension, e.g. ```_bob.siml```
 - Put default SIML content:
 
@@ -31,7 +31,7 @@ Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
 
 - Fill the body of ```<Concept>``` with your content.
 
-If you are unsure on how to proceed you can take a look at **[some of the files](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT)** that other people have created and maybe use them as your starting point.
+If you are unsure on how to proceed you can take a look at **[some of the files](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom)** that other people have created and maybe use them as your starting point.
 
 ---
 
