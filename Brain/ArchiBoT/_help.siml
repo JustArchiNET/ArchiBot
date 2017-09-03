@@ -80,6 +80,11 @@
 			<Response>https://github.com/JustArchi/ArchiSteamFarm</Response>
 		</Model>
 
+		<Model>
+			<Pattern>DONATE</Pattern>
+			<Response>To donate to Archi please visit one of these links: https://www.paypal.me/JustArchi/ https://www.patreon.com/JustArchi</Response>
+		</Model>
+
 	<!-- STM Quick Link - Suggestion by Taigo -->
 
 		<Model>
