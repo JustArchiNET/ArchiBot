@@ -19,5 +19,16 @@
       <Pattern>WHERE IS (VSX|VENA|VENATUS|VENATUSSIMPLEX)</Pattern>
       <Response>Kaleith: @vsx</Response>
     </Model>
+
+    <Model>
+      <Pattern>ADD MEME * (CALL|CALLED|NAME|NAMED|WITH LINK|LINK|LINKED) *</Pattern>
+      <Response>Meme added.</Response>
+      <Learn>
+        <Model>
+          <Pattern><Process><Match /></Process></Pattern>
+          <Response><Process><Match At="2"/></Process></Response>
+        </Model>
+      </Learn>
+    </Model>
   </Concept>
 </Siml>
