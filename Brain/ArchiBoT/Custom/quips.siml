@@ -69,7 +69,7 @@
 
 		<Model>
 			<Pattern>^TAIGO ^JBONDO</Pattern>
-			<Response>\:bite:/ Happy Birthday Jbondo \:bite:/</Response>
+			<Response>Free Jotun Jbondo</Response>
 		</Model>
 
 		<Model>
