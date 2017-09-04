@@ -22,13 +22,15 @@
 
     <Model>
       <Pattern>ADD MEME * (CALL|CALLED|NAME|NAMED|WITH LINK|LINK|LINKED) *</Pattern>
-      <Response>Meme added.</Response>
-      <Learn>
-        <Model>
-          <Pattern><Process><Match /></Process></Pattern>
-          <Response><Process><Match At="2"/></Process></Response>
-        </Model>
-      </Learn>
+      <Response>
+        Meme added.
+        <Learn>
+          <Model>
+            <Pattern><Process><Match /></Process></Pattern>
+            <Response><Process><Match At="3"/></Process></Response>
+          </Model>
+        </Learn>
+      </Response>
     </Model>
   </Concept>
 </Siml>
