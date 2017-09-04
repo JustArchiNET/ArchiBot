@@ -136,6 +136,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^TUNAPIZZA</Pattern>
+			<Response>:Neko:/ https://i.imgur.com/TmQRyhZ.jpg</Response>
+		</Model>
+
+		<Model>
 			<Pattern>HOW RICH IS *</Pattern>
 			<Response><Match /> is probably receiving $0 per month from their patrons :cry:7</Response>
 		</Model>
