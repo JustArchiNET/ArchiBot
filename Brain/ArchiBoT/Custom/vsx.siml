@@ -26,8 +26,8 @@
         Meme added.
         <Learn>
           <Model>
-            <Pattern><Process><Match /></Process></Pattern>
-            <Response><Process><Match At="3"/></Process></Response>
+            <Pattern><Process><Match At="3"/></Process></Pattern>
+            <Response><Process><Match /></Process></Response>
           </Model>
         </Learn>
       </Response>
