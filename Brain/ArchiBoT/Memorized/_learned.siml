@@ -2,8 +2,8 @@
 <Siml>
   <Concept Name="_vsx" Type="Public" Repeat="true">
     <Model>
-      <Pattern>https://iimgur.com/TmQRyhZ.jpg</Pattern>
-      <Response>tunatester</Response>
+      <Pattern>tunatester</Pattern>
+      <Response>https://iimgur.com/TmQRyhZ.jpg</Response>
     </Model>
   </Concept>
 </Siml>
