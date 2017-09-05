@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
-  <Concept Name="_vsx" Type="Public" Repeat="true">
-    <Model>
-      <Pattern>tunatester</Pattern>
-      <Response>https://iimgur.com/TmQRyhZ.jpg</Response>
-    </Model>
-  </Concept>
-</Siml>
