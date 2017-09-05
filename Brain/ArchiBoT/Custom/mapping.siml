@@ -13,7 +13,7 @@
 	</Concept>
 -->
 
-	<!-- TODO: Remove me once User="" in <Concept> starts working -->
+	<!-- User="" in <Concept> works now, it's probably still better to keep this as it's all in one place -->
 	<Concept Name="_mapping_user">
 		<Model>
 			<Pattern>
