@@ -30,7 +30,7 @@
     <Variable Name="OS" Value="Linux" />
     <Variable Name="Arch" Value="Linux" />
     <Variable Name="NAME" Value="ArchiBot" />
-    <Variable Name="AGE" Value="2" />
+    <Variable Name="AGE" Value="3" />
     <Variable Name="BOTMASTER" Value="creator" />
     <Variable Name="MASTER" Value="Archi" />
     <Variable Name="AUTHOR" Value="SIN and ArchiNet" />
