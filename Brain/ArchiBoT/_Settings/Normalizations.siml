@@ -405,6 +405,7 @@
     <Word>u.s.a.</Word>
     <Word>u.s.</Word>
   </Filter>
+<!-- THIELAK: POINTED LETTERS not needed if the sentence splitters is kept as ". " instead of "."
   <Filter Word="a." Value="a" />
   <Filter Word="b." Value="b" />
   <Filter Word="c." Value="c" />
@@ -433,6 +434,7 @@
   <Filter Word="z." Value="z" />
   <Filter Word=".jar" Value="jar" />
   <Filter Word=".zip" Value="zip" />
+-->
   <!--FULLSTOP-->
   <Filter Value=".">
     <Word>, but</Word>
