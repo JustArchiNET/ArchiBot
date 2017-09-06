@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_archi_priv" Type="Public" Repeat="true">
+    <Model>
+      <Pattern>
+        <Item>What is delta</Item>
+        <Item>Who is delta</Item>
+        <Item>What do you rember about delta</Item>
+        <Item>What did I tell you about delta</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>delta is a weeb</Item>
+          <Item>You told me that delta is a weeb</Item>
+          <Item>I rember that delta is a weeb</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>
