@@ -8,6 +8,24 @@
 
 		<Model>
 			<Pattern>
+				<Item>^PICK A NUMBER @PositiveInteger TO @PositiveInteger</Item>
+				<Item>^PICK A NUMBER BETWEEN @PositiveInteger AND @PositiveInteger</Item>
+				<Item>^PICK A NUMBER BETWEEN @PositiveInteger THROUGH @PositiveInteger</Item>
+				<Item>^PICK A RANDOM NUMBER BETWEEN @PositiveInteger AND @PositiveInteger</Item>
+				<Item>^PICK A RANDOM NUMBER BETWEEN @PositiveInteger THROUGH @PositiveInteger</Item>
+				<Item>^RANDOMINT * *</Item>
+			</Pattern>
+			<Response>
+				<Bind Key="{NumpickMin}"><Js>Math.min(<Match />,<Match At="2" />);</Js></Bind>
+				<Bind Key="{NumpickMax}"><Js>Math.max(<Match />,<Match At="2" />);</Js></Bind>
+				<Var Think:Set="NumpickResult"><Math Get="Random" Min="{NumpickMin}" Max="{NumpickMax}" /></Var>
+				<If Var="NumpickResult" Value="">This message should never trigger :doubt:</If>
+				<Else><Var Get="NumpickResult" /></Else>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>^PICK A NUMBER * TO *</Item>
 				<Item>^PICK A NUMBER BETWEEN * AND *</Item>
 				<Item>^PICK A NUMBER BETWEEN * THROUGH *</Item>
@@ -15,7 +33,7 @@
 				<Item>^PICK A RANDOM NUMBER BETWEEN * THROUGH *</Item>
 				<Item>^RANDOMINT * *</Item>
 			</Pattern>
-			<Response><Js>randomIntBetween("<Match />","<Match At="2" />");</Js></Response>
+			<Response>Error: Please provide 2 valid positive integers.</Response>
 		</Model>
 
 		<Model>
