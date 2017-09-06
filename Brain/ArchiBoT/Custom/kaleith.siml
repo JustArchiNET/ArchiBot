@@ -13,7 +13,7 @@
 				<Item>^PICK A NUMBER BETWEEN @PositiveInteger THROUGH @PositiveInteger</Item>
 				<Item>^PICK A RANDOM NUMBER BETWEEN @PositiveInteger AND @PositiveInteger</Item>
 				<Item>^PICK A RANDOM NUMBER BETWEEN @PositiveInteger THROUGH @PositiveInteger</Item>
-				<Item>^RANDOMINT * *</Item>
+				<Item>^RANDOMINT @PositiveInteger @PositiveInteger</Item>
 			</Pattern>
 			<Response>
 				<Bind Key="{NumpickMin}"><Js>Math.min(<Match />,<Match At="2" />);</Js></Bind>
