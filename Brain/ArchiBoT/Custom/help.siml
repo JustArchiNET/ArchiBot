@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_help">
 		<Model>
 			<Pattern>$ CHAT RELAY $</Pattern>
@@ -68,7 +68,15 @@
 				<Item>2HU ^EVENT</Item>
 				<Item>^2HUE $</Item>
 			</Pattern>
-			<Response>The Touhou Event for Cirno Day (9/9) is coming \:bite:/&#xD;To contribute send me a message with "!2hue XXXXX", where XXXXX is the 5 letter code for an already started, invite-only giveaway ending on the 18th of September at midnight (your time).</Response>
+			<Response>
+				<Var Think:Set="Date"><Date Format="yyyyMMdd" /></Var>
+				<Switch Var="Date">
+					<Case LT="20170909">The Touhou Event for Cirno Day (❾/❾) is coming \:bite:/&#xD;To contribute send me a message with "!2hue XXXXX", where XXXXX is the 5 letter code for an already started, invite-only giveaway ending on the 18th of September at midnight (your time).</Case>
+					<Case Value="20170909">Cirno Day is here, go celebrate ♪ \:bite:/ ♪ https://www.youtube.com/watch?v=<Random>(COoYz0wWmJs|5wFDWP5JwSM|pjXN_xPQd0M|e4WnqqwdrcU|H8OWSlqz1h4|uv6yK47m564|ZFxDC7CnzvY)</Random></Case>
+					<Case GT="20170909">Rember wen you could contribute for the evento? :cry:7</Case>
+					<Default>How did this break :doubt:</Default>
+				</Switch>
+			</Response>
 		</Model>
 
 		<Model>
