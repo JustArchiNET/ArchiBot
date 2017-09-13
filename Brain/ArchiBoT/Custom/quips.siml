@@ -80,9 +80,9 @@
 		<Model>
 			<Pattern>CSD2</Pattern>
 			<Response>
-				<Var Think:Set="timetocsd2"><Js>1505322000 - Math.floor(Date.now()/1000)</Js></Var>
-				<If Var="timetocsd2" GT="0">Taigo has <Js>secondsToString(<Var Get="timetocsd2" />);</Js> left to gather $11.99 :cry:7</If>
-				<Else>CSD2 has been out for <Js>secondsToString(<Math Get="abs"><Var Get="timetocsd2" /></Math>);</Js>, I wonder if Taigo got the money in time :doubt:</Else>
+				<Var Think:Set="timetocsd2"><Js>1505350800 - Math.floor(Date.now()/1000)</Js></Var>
+				<If Var="timetocsd2" GT="0">Taigo has up to <Js>secondsToString(<Var Get="timetocsd2" />);</Js> left to gather $11.99 :speak:</If>
+				<Else>CSD2 has been out for at least <Js>secondsToString(<Math Get="abs"><Var Get="timetocsd2" /></Math>);</Js>, I wonder if Taigo got the money in time :doubt:</Else>
 			</Response>
 		</Model>
 

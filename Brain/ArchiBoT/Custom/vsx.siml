@@ -21,7 +21,10 @@
     </Model>
 
     <Model>
-      <Pattern>ADD MEME * (CALL|CALLED|NAME|NAMED|WITH LINK|LINK|LINKED) *</Pattern>
+      <Pattern>
+        <Item>ADD MEME * (CALL|CALLED|NAME|NAMED|WITH LINK|LINK|LINKED) *</Item>
+        <Item>^ADDCOMMAND * (NAMED|CALLED) *</Item>
+      </Pattern>
       <Response>
         Meme added.
         <Learn>
