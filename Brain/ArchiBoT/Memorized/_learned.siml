@@ -9,5 +9,9 @@
       <Pattern>taigo ^alibondo</Pattern>
       <Response>Old News Alibondo</Response>
     </Model>
+    <Model>
+      <Pattern>^taigo ^alibondo</Pattern>
+      <Response>Old News Alibondo</Response>
+    </Model>
   </Concept>
 </Siml>
