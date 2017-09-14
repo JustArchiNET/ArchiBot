@@ -6,10 +6,6 @@
       <Response>Out now https://i.imgur.com/kFH9r1o.jpg</Response>
     </Model>
     <Model>
-      <Pattern>taigo alibondo</Pattern>
-      <Response>Old News Alibondo</Response>
-    </Model>
-    <Model>
       <Pattern>taigo ^alibondo</Pattern>
       <Response>Old News Alibondo</Response>
     </Model>
