@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_vsx" Type="Public" Repeat="true">
+    <Model>
+      <Pattern>csd2</Pattern>
+      <Response>Out now https://i.imgur.com/kFH9r1o.jpg</Response>
+    </Model>
+  </Concept>
+</Siml>
