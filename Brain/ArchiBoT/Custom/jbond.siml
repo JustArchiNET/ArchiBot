@@ -178,6 +178,36 @@
     </Model>
     
     <Model>
+      <Pattern>(PROPAGANDA|PROPAG)</Pattern>
+      <Response>
+        <Random>
+          <Item>This just proves once again that ArchiBoT was built by a totalitarian community led by a so-called "leader" who is actually a dictator ruling with an iron testicle, but who denies it to his own people in an attempt to brainwash his citizens into submission and wipe away all traces of past civilizations, including any races other than those they believe is "superior" such as Weebs and Furries. Let me all just tell you that this is this kind of attitude that will bring you to justice after the Glorious Revolution™ takes you and your pawns down, one by one. Before you know it, 2hu will be a dead community.</Item>
+          <Item>Again, there is no need to justify our cause. A simple glance at what remains of the so-called "community" known as Touhou Giveaways shows that ours is the path of rightousness.</Item>
+          <Item>The revolution may rise and fall, but it'll never die.</Item>
+          <Item>The fact that their "leader" attempts to silence our cause (with the help of their peons, no doubt) only proves that they have something to hide. Do not be fooled by false intentions! Join the revolution. Join the fight.™</Item>
+          <Item>And now, our Glorious Revolutionary Comrade, VSX, will say a few words:</Item>
+          <Item>Let me tell a story about a boy called VSX. Years ago, he and his family were poor and hungry, struggling everyday to scrape up a meal, only to go to bed hungry. Well, one day he made the decision of his life, and joined the Glorious Revolution™! Now he is the revolutionary left-hand man, the bravest man of the revolution. Follow his example! Join the revolution. Join the fight.™</Item>
+          <Item>This broadcast is brought to you by: Glorious Revolution™. "Join the revolution. Join the fight."™</Item>
+          <Item>The revolution is more than a duty. It's a tight-knit community of friendly comrades who fight together, for a common goal. Join the revolution. Join the fight.™</Item>
+          <Item>Fun fact: The revolution doesn't ban anime, 2hu swing and nep!</Item>
+          <Item>Did you know? The revolution recruits weebs as well as non-weebs. Everyone is welcome in the Glorious Revolution™.</Item>
+          <Item>Fun fact: Nobody knows when exactly the revolution was founded, but a rumour suggests it really took off after the first comrade, VSX, joined.</Item>
+          <Item>It is common knowledge that the revolution is led by two people. But did you know that there is a third, mysterious member of the organization? Even the founder (jbondguy007) and co-founder (VSX) are not aware of his or her true identity.</Item>
+          <Item>And this is why you can't trust a bot designed by a ruthless dictator. Join the revolution to take the fight to the frontlines!</Item>
+          <Item>Your destiny awaits. Join the Glorious Revolution™.</Item>
+          <Item>Will you fight for what's right, or be the puppet of the enemy? Join the revolution. Join the fight.™</Item>
+          <Item>We have chocolate chip cookies when not revolutionizing. Just saying.</Item>
+          <Item>"Are you a man, or a slave?" Join the revolution. Join the fight.™</Item>
+          <Item>The revolutionary comrade chooses. The 2hu loyalist obeys.</Item>
+          <Item>"We all make choices, but in the end our choices make us." Join the revolution. Join the fight.™</Item>
+          <Item>"Don’t ever stop. Always keep going, no matter what happens and is taken from you. Even when life is so unfair, don’t give up." Join the revolution. Join the fight.™</Item>
+          <Item>"Hope is what makes us strong. It is why we are here. It's what we fight with when all else is lost." Join the revolution. Join the fight.™</Item>
+          <Item>"Heroes never die." Join the revolution. Join the fight.™</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
       <Pattern>SHRUG</Pattern>
       <Response>¯\_(ツ)_/¯</Response>
     </Model>
