@@ -122,5 +122,6 @@
     <Variable Name="LEAK" Value="40000" />
     <Variable Name="raffleprize" Value="" />
     <Variable Name="ktemp" Value="40" />
+    <Variable Name="JbondoFreeGame" Value="Jotun" />
   </BotSettings>
 </Siml>

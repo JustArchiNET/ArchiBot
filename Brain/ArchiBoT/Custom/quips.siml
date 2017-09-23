@@ -69,7 +69,12 @@
 
 		<Model>
 			<Pattern>^TAIGO ^JBONDO</Pattern>
-			<Response>Free Jotun Jbondo</Response>
+			<Response>Free <Bot Get="JbondoFreeGame" /> Jbondo</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^SETGAME *</Pattern>
+			<Response><Bot Set="JbondoFreeGame" Value="{Bind Match}" /> has been set as the current free game!</Response>
 		</Model>
 
 		<Model>
