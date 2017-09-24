@@ -17,19 +17,19 @@ I have included a .simlproj file compatible with it, so just clone the repo (or 
 
 Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
 - Create a **[new file](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom)**
-- Name it using your selected unique identifier, prefix with ```_``` and use ```.siml``` extension, e.g. ```_bob.siml```
+- Name it using your selected unique identifier and use `.siml` extension, e.g. `bob.siml`
 - Put default SIML content:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
-<Concept Name="_bob">
+<Concept Name="bob">
 
 </Concept>
 </Siml>
 ```
 
-- Fill the body of ```<Concept>``` with your content.
+- Change `Name` of your `Concept` appropriately to match your file name, then fill it with your content.
 
 If you are unsure on how to proceed you can take a look at **[some of the files](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom)** that other people have created and maybe use them as your starting point.
 
