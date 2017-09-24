@@ -5,9 +5,9 @@
     <!-- Education Purposes -->
     <Model>
       <Pattern>
-        <Item>WHAT IS (RAILGUN|TOARU|RAILDEX)</Item>
-        <Item>Define (RAILGUN|TOARU|RAILDEX)</Item>
-        <Item>(RAILGUN|TOARU|RAILDEX)</Item>
+        <Item>WHAT IS (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
+        <Item>DEFINE (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
+        <Item>(RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
       </Pattern>
       <Response>
         <Random>
@@ -21,8 +21,23 @@
 
     <Model>
       <Pattern>
-        <Item>Who is (MISAKA|RAILGUN)</Item>
-        <Item>Define MISAKA</Item>
+        <Item>WHAT IS (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
+        <Item>DEFINE (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
+        <Item>(INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>Index is the parent series of railgun. (This message brought to you by your local weeb blue)</Item>
+          <Item>Anime Weeb Trash.</Item>
+          <Item>Why don't you ask blue weeb :3</Item>
+        </Random>
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>WHO IS (MISAKA|RAILGUN)</Item>
+        <Item>DEFINE MISAKA</Item>
       </Pattern>
       <Response>Blue's waifu.</Response>
     </Model>
