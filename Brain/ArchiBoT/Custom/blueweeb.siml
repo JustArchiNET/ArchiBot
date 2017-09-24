@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_blueweeb">
+
+    <!-- Education Purposes -->
+    <Model>
+      <Pattern>
+        <Item>WHAT IS (RAILGUN|TOARU|RAILDEX)</Item>
+        <Item>Define (RAILGUN|TOARU|RAILDEX)</Item>
+        <Item>(RAILGUN|TOARU|RAILDEX)</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>Railgun is a spin off of the anime index and supirior in every way. (This message brought to you by your local weeb blue)</Item>
+          <Item>Anime Weeb Trash.</Item>
+          <Item>Why don't you ask blue weeb :3</Item>
+          <Item>Why is my brain full of weeb trash - railgun is anime.</Item>
+        </Random>
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>Who is (MISAKA|RAILGUN)</Item>
+        <Item>Define MISAKA</Item>
+      </Pattern>
+      <Response>Blue's waifu.</Response>
+    </Model>
+
+  </Concept>
+</Siml>
