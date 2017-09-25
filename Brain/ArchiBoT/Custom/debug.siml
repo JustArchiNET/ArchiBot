@@ -20,7 +20,7 @@
 			<Pattern>^GERMANTAIGO %</Pattern>
 			<Response>
 				<Random>
-					<Item><Text Get="upper"><ArchiTranslateTo>DE <Goto>TAIGOWORDS</Goto></ArchiTranslateTo></Text> <Text>
+					<Item><Text Get="title"><ArchiTranslateTo>DE <Goto>TAIGOWORDS</Goto></ArchiTranslateTo></Text> <Text>
 						<Var Think:Set="taigoname"><Text Get="lower"><Match /></Text></Var>
 						<Switch Var="taigoname">
 							<Case Value="">Taigo</Case>
