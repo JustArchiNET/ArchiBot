@@ -17,6 +17,24 @@
 		</Model>
 
 		<Model>
+			<Pattern>^GERMANTAIGO %</Pattern>
+			<Response>
+				<Random>
+					<Item><Text Get="upper"><ArchiTranslateTo>DE <Goto>TAIGOWORDS</Goto></ArchiTranslateTo></Text> <Text>
+						<Var Think:Set="taigoname"><Text Get="lower"><Match /></Text></Var>
+						<Switch Var="taigoname">
+							<Case Value="">Taigo</Case>
+							<Case Value="me"><User Get="Nickname" /></Case>
+							<Case Value="yourself"><Bot Get="NAME" /></Case>
+							<Default><Match /></Default>
+						</Switch></Text>
+					</Item>
+					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>WORDAT *</Pattern>
 			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
 		</Model>
