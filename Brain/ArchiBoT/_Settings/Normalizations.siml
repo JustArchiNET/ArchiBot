@@ -5,10 +5,12 @@
   <!--Word: Splits the user input wherever the given word ( separated by SPACE ) is found.-->
   <!--Regex: Splits the user input wherever the given Regular Expression matches.-->
   <!--Note: The order/priority of splitting the user input is proportional to the order of elements within this Splitter element-->
+  <!-- TESTING REMOVING SPLITTERS
   <Splitter>
     <Text>. </Text>
     <Text>?</Text>
   </Splitter>
+-->
   <!--Filter: Filters below are used to filter user input BEFORE its processed. You may use <Text>, <Word> and <Regex> tags.-->
   <!--Text: Text element is used to filter all occurance of a the specified text within the input-->
   <!--Word: Word element is used to filter individual words that may be separated by a SPACE character-->
