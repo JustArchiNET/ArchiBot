@@ -12,6 +12,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^WEEBIFY *</Pattern>
+			<Response><ArchiTranslateTo>en <ArchiTranslateTo>ja <ArchiTranslateTo>en <ArchiTranslateTo>ja <ArchiTranslateTo>en <ArchiTranslateTo>ja <ArchiTranslateTo>en <ArchiTranslateTo>ja <Match /></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></Response>
+		</Model>
+
+		<Model>
 			<Pattern>WORDAT *</Pattern>
 			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
 		</Model>
