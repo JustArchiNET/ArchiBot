@@ -13,7 +13,7 @@
 
 		<Model>
 			<Pattern>^WEEBIFY *</Pattern>
-			<Response><ArchiTranslateTo>en <ArchiTranslateTo>ja <ArchiTranslateTo>en <ArchiTranslateTo>ja <ArchiTranslateTo>en <ArchiTranslateTo>ja <ArchiTranslateTo>en <ArchiTranslateTo>ja <Match /></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></Response>
+			<Response><ArchiTranslateFromTo>ja en <ArchiTranslateFromTo>en ja <ArchiTranslateFromTo>ja en <ArchiTranslateFromTo>en ja <ArchiTranslateFromTo>ja en <ArchiTranslateFromTo>en ja <ArchiTranslateFromTo>ja en <ArchiTranslateFromTo>en ja <ArchiTranslate><Match /></ArchiTranslate></ArchiTranslateFromTo></ArchiTranslateFromTo></ArchiTranslateFromTo></ArchiTranslateFromTo></ArchiTranslateFromTo></ArchiTranslateFromTo></ArchiTranslateFromTo></ArchiTranslateFromTo></Response>
 		</Model>
 
 		<Model>
