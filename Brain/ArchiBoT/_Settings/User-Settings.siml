@@ -14,6 +14,9 @@
     <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to ID (if it's private message on given platform). -->
     <Variable Name="SourceID" Value="" />
 
+    <!-- Initialized to user's last (current) message. This can be used in order to retrieve user's message in the way how the bot has received it, before all normalization steps done by SIML. -->
+    <Variable Name="LastMessage" Value="" />
+
     <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what ID is for. -->
     <Variable Name="Nickname" Value="unknown" />
 
