@@ -58,6 +58,24 @@
 		</Model>
 
 		<Model>
+			<Pattern>^TAIGOTO _1 %</Pattern>
+			<Response>
+				<Random>
+					<Item><Text Get="title"><ArchiTranslateTo><Match /> <Goto>TAIGOWORDS</Goto></ArchiTranslateTo></Text> <Text>
+						<Var Think:Set="taigoname"><Text Get="lower"><Match Index="2" /></Text></Var>
+						<Switch Var="taigoname">
+							<Case Value="">Taigo</Case>
+							<Case Value="me"><User Get="Nickname" /></Case>
+							<Case Value="yourself"><Bot Get="NAME" /></Case>
+							<Default><Match Index="2" /></Default>
+						</Switch></Text>
+					</Item>
+					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^WHO IS ^TAIGO</Pattern>
 			<Response>Which one do you mean? <Text><Goto>TAIGOWORDS</Goto> Taigo or <Goto>TAIGOWORDS</Goto> Taigo?</Text></Response>
 		</Model>
