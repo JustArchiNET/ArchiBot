@@ -60,18 +60,18 @@
 		<Model>
 			<Pattern>^TAIGOTO _1 %</Pattern>
 			<Response>
-				<Random>
-					<Item><Text Get="title"><ArchiTranslateTo><Match /> <Text Get="lower"><Goto>TAIGOWORDS</Goto></Text></ArchiTranslateTo></Text> <Text>
-						<Var Think:Set="taigoname"><Text Get="lower"><Match Index="2" /></Text></Var>
-						<Switch Var="taigoname">
+				<Var Think:Set="translatedwords"><Text Get="title"><ArchiTranslateFromTo>en <Match /> <Text Get="lower"><Goto>TAIGOWORDS</Goto></Text></ArchiTranslateFromTo></Text></Var>
+				<If Var="translatedwords" Value="">Error: Please provide a 2-letter language code followed by the name to taigo. Check the list of codes here https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes :sgsmile:</If>
+				<Else>
+					<Var Think:Set="taigoname"><Text Get="lower"><Match Index="2" /></Text></Var>
+					<Text><Var Get="translatedwords" /> <Switch Var="taigoname">
 							<Case Value="">Taigo</Case>
 							<Case Value="me"><User Get="Nickname" /></Case>
 							<Case Value="yourself"><Bot Get="NAME" /></Case>
 							<Default><Match Index="2" /></Default>
-						</Switch></Text>
-					</Item>
-					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
-				</Random>
+						</Switch>
+					</Text>
+				</Else>
 			</Response>
 		</Model>
 
