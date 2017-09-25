@@ -61,7 +61,7 @@
 			<Pattern>^TAIGOTO _1 %</Pattern>
 			<Response>
 				<Random>
-					<Item><Text Get="title"><ArchiTranslateTo><Match /> <Goto>TAIGOWORDS</Goto></ArchiTranslateTo></Text> <Text>
+					<Item><Text Get="title"><ArchiTranslateTo><Match /> <Text Get="lower"><Goto>TAIGOWORDS</Goto></Text></ArchiTranslateTo></Text> <Text>
 						<Var Think:Set="taigoname"><Text Get="lower"><Match Index="2" /></Text></Var>
 						<Switch Var="taigoname">
 							<Case Value="">Taigo</Case>
