@@ -7,6 +7,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^DEBUGTRANSLATETO *</Pattern>
+			<Response><ArchiTranslateTo>en <ArchiTranslateTo>zh <ArchiTranslateTo>fr <ArchiTranslateTo>it <ArchiTranslateTo>es <ArchiTranslateTo>pt <ArchiTranslateTo>ja <ArchiTranslateTo>de <Match /></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></ArchiTranslateTo></Response>
+		</Model>
+
+		<Model>
 			<Pattern>WORDAT *</Pattern>
 			<Response>Word count: <Text Get="wordcount"><Match /></Text>. The first word is: <Text WordAt="1"><Match /></Text></Response>
 		</Model>
