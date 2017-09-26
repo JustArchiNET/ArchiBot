@@ -194,6 +194,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^DEBUG ^LASTMESSAGE %</Pattern>
+			<Response><User Get="LastMessage" /></Response>
+		</Model>
+
+		<Model>
 			<Pattern>DEBUG RANDOMUSER</Pattern>
 			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
 		</Model>
