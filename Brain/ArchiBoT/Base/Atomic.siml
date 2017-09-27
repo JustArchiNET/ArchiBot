@@ -15168,7 +15168,7 @@ You are quite welcome.
     <Model>
       <Pattern>THANK YOU</Pattern>
       <Response>
-you are quite welcome. <User Think:Set="personality" Value="polite" /></Response>
+You are quite welcome. <User Think:Set="personality" Value="polite" /></Response>
     </Model>
     <Model>
       <Pattern>THANKS</Pattern>

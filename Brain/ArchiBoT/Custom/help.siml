@@ -8,53 +8,53 @@
 
 		<Model>
 			<Pattern>
-				<Item>$ CHAT GIVEAWAYS $</Item>
-				<Item>$ CHAT GIVEAWAY $</Item>
-				<Item>$ CHAT GIB $</Item>
-				<Item>$ CHAT GIBS $</Item>
+				<Item>$ ^CHAT GIVEAWAYS $</Item>
+				<Item>$ ^CHAT GIVEAWAY $</Item>
+				<Item>$ ^CHAT GIB $</Item>
+				<Item>$ ^CHAT GIBS $</Item>
 			</Pattern>
 			<Response>To find info about chat giveaways go to https://github.com/JustArchi/ArchiBoT/wiki/Chat-giveaways :sgsmile:</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ RADIO $</Pattern>
+			<Pattern>$ ^RADIO $</Pattern>
 			<Response>You can listen to the Touhou radio here: https://radio.justarchi.net/touhou.opus For commands, check https://github.com/JustArchi/ArchiBoT/wiki/Archi's-Touhou-Radio ♪ \:bite:/ ♪</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ ASF WIKI $</Pattern>
+			<Pattern>$ ^ASF WIKI $</Pattern>
 			<Response>https://github.com/JustArchi/ArchiSteamFarm/wiki Go read \:doubt:</Response>
 		</Model>
 
 		<Model>
-			<Pattern>TODO</Pattern>
+			<Pattern>^TODO</Pattern>
 			<Response>...kete? :sgsmile:&#xD;Visit our TODO tracker: https://todo.justarchi.net&#xD;Protip: add stuff for Mole, he'll love it! \:bite:/</Response>
 		</Model>
 
 		<Model>
 			<Pattern>
-				<Item>$ CUSTOM BORDER $</Item>
-				<Item>PSD</Item>
+				<Item>$ CUSTOM ^BORDER $</Item>
+				<Item>^PSD</Item>
 			</Pattern>
 			<Response>You can submit a 248x248 gif or png with transparency, together with a name, price and optional additional requirements by either asking MaduRUDE directly or posting a TODO for him on our tracker. If you need a guideline you can use the .pdf here https://touhou.justarchi.net/img/custom_border.psd</Response>
 		</Model>
 
 		<Model>
 			<Pattern>
-				<Item>$ GITHUB $</Item>
-				<Item>$ REPO $</Item>
-				<Item>$ REPOSITORY $</Item>
+				<Item>$ ^GITHUB $</Item>
+				<Item>$ ^REPO $</Item>
+				<Item>$ ^REPOSITORY $</Item>
 			</Pattern>
 			<Response>Here is a link to my Github Repository. https://github.com/JustArchi/ArchiBoT</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ PATREON $</Pattern>
+			<Pattern>$ ^PATREON $</Pattern>
 			<Response>Support my master on Patreon: https://www.patreon.com/JustArchi :sgsmile:</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ ASF STM $</Pattern>
+			<Pattern>$ ASF ^STM $</Pattern>
 			<Response>http://asf.justarchi.net/STM</Response>
 		</Model>
 
@@ -101,11 +101,11 @@
 
 		<Model>
 			<Pattern>
-				<Item>STM</Item>
-				<Item>STEAMTRADEMATCHER</Item>
-				<Item>STEAMTRADE MATCHER</Item>
-				<Item>STEAM TRADE MATCHER</Item>
-				<Item>% LINK % STM</Item>
+				<Item>^STM</Item>
+				<Item>^STEAMTRADEMATCHER</Item>
+				<Item>^STEAMTRADE MATCHER</Item>
+				<Item>^STEAM TRADE MATCHER</Item>
+				<Item>% LINK % ^STM</Item>
 			</Pattern>
 			<Response>www.steamtradematcher.com</Response>
 		</Model>
