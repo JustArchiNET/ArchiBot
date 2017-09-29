@@ -15,5 +15,26 @@
 			<Pattern>ᵏᵉʳᵒ</Pattern>
 			<Response>ᵏᵉ~ʳᵒ ᵏᵉ~ʳᵒ ᵏᵉʳᵒ♪</Response>
 		</Model>
+
+		<Model>
+			<Pattern>^PUN</Pattern>
+			<Response>
+				<Random>
+					<Item>Why was Cinderella thrown off the basketball team? She ran away from the ball.</Item>
+					<Item>Thieves had broken into my house and stolen everything except my soap, shower gel, towels and deodorant. Dirty bastards.</Item>
+					<Item>Don't trust atoms, they make up everything.</Item>
+					<Item>I wasn't originally going to get a brain transplant, but then I changed my mind.</Item>
+					<Item>Peter Pan punched a lost boy into the sky last week. They say he'll Neverland.</Item>
+					<Item>I don't trust stairs because they're always up to something.</Item>
+					<Item>Never discuss infinity with a mathematician, they can go on about it forever.</Item>
+					<Item>The other day I held the door open for a clown. I thought it was a nice jester.</Item>
+					<Item>Which day do chickens hate the most? Friday.</Item>
+					<Item>A book just fell on my head. I've only got my shelf to blame.</Item>
+					<Item>I hate insect puns, they really bug me.</Item>
+					<Item>What did the grape say when it got stepped on? Nothing - but it let out a little whine.</Item>
+					<Item>Yesterday I accidentally swallowed some food coloring. The doctor says I'm OK, but I feel like I've dyed a little inside.</Item>
+				</Random>
+			</Response>
+		</Model>
 	</Concept>
 </Siml>
