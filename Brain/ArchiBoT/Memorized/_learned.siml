@@ -13,5 +13,9 @@
       <Pattern>^taigo ^alibondo</Pattern>
       <Response>Old News Alibondo</Response>
     </Model>
+    <Model>
+      <Pattern>archistream</Pattern>
+      <Response>https://www.twitch.tv/justarchi</Response>
+    </Model>
   </Concept>
 </Siml>
