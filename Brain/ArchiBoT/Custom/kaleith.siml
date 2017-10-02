@@ -110,7 +110,7 @@
 			</Pattern>
 			<Response>
 				<Var Think:Set="gibnioh" Value="{Bind Match}" />
-				<If Var="gibnioh" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnioh" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of <Random><Item>Nioh: Complete Edition today \:sgsmile:/</Item><Item Weight="0.1">Nioh:Automata™ today \:sgsmile:/&#xD;...wait what \:doubt:/</Item>
+				<If Var="gibnioh" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnioh" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of <Random><Item>Nioh: Complete Edition today \:sgsmile:/</Item><Item Weight="0.1">Nioh:Automata™ today \:sgsmile:/&#xD;...wait what \:doubt:/</Item></Random>
 			</Response>
 		</Model>
 
