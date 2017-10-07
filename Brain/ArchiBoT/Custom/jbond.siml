@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="_jbond">
+  
+    <Model>
+      <Pattern>PURGE %</Pattern>
+      <Response><Text Get="Uppercase">PURGING <Match />... COMMENCING </Text><Random>(:detonator2:|:esc_warning:)</Random></Response>
+    </Model>
+      
     <Model>
       <Pattern>RIP</Pattern>
       <Response>
