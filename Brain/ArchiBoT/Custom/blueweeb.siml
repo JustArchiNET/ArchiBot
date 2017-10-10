@@ -4,7 +4,7 @@
     <Model>
       <Pattern>
         <Item>^WHAT (IS|ARE) (WEEB|WEEABOO)(|S)</Item>
-        <Item>^(DEFINE|EXPLAIN) (WEEB|WEEABOO)(|S)
+        <Item>^(DEFINE|EXPLAIN) (WEEB|WEEABOO)(|S)</Item>
       <Response>
         <Random>
           <!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
