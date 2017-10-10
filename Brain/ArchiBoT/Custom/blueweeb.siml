@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Siml>
+﻿<Siml>
   <Concept Name="_blueweeb">
+    
     <Model>
       <Pattern>
-        <Item>^WHAT (IS|ARE) (WEEB|WEEABOO)(|S)</Item>
-        <Item>^(DEFINE|EXPLAIN) (WEEB|WEEABOO)(|S)</Item>
-	  </Pattern>
+        <Item>WHAT IS A ^WEEB</Item>
+        <Item>WhAT ARE ^WEEBS</Item>
+        <Item>WHAT IS A ^WEEABOO</Item>
+        <Item>WhAT ARE ^WEEABOOS</Item>
+        <Item>DEFINE ^WEEB</Item>
+        <Item>EXPLAIN ^WEEBS</Item>
+      </Pattern>
       <Response>
         <Random>
           <!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
@@ -26,12 +30,12 @@
         </Random>
       </Response>
     </Model>
-
+    
     <!-- Education Purposes -->
     <Model>
       <Pattern>
         <Item>^WHAT IS (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
-        <Item>^(DEFINE|EXPLAIN) (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
+        <Item>^DEFINE (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
         <Item>(RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
       </Pattern>
       <Response>
@@ -43,11 +47,12 @@
         </Random>
       </Response>
     </Model>
-
+    
     <Model>
       <Pattern>
         <Item>^WHAT IS (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
-        <Item>^(DEFINE|EXPLAIN) (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
+        <Item>^DEFINE (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
+        <Item>^EXPLAIN (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
         <Item>(INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
       </Pattern>
       <Response>
@@ -58,13 +63,15 @@
         </Random>
       </Response>
     </Model>
-
+    
     <Model>
       <Pattern>
         <Item>^WHO IS (MISAKA|RAILGUN)</Item>
-        <Item>^DEFINE MISAKA</Item>
+        <Item>DEFINE ^MISAKA</Item>
+        <Item>EXPLAIN ^MISAKA</Item>
       </Pattern>
       <Response>Blue's waifu.</Response>
     </Model>
+    
   </Concept>
 </Siml>
