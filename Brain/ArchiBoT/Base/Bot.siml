@@ -16268,10 +16268,10 @@ Yes and I am growing smarter.
       <Pattern>YOU ARE *</Pattern>
       <Response>
         <Random>
-          <Item>Thanks for telling me that </Item>
-          <Item>You think </Item>
-          <Item>Do you mind if I tell other people you say </Item>
-          <Item>I will tell my <Bot Get="botmaster" /> you said </Item>
+          <Item>Thanks for telling me that</Item>
+          <Item>You think</Item>
+          <Item>Do you mind if I tell other people you say</Item>
+          <Item>I will tell my <Bot Get="botmaster" /> you said</Item>
         </Random> I am <Map Get="person" />.
 </Response>
     </Model>
