@@ -132,7 +132,7 @@
     
     <Model>
       <Pattern>WHO IS (BLUE|BLUEWEEB|BLUE WEEB|BLUE LIGHTNING|BLUELIGHTNING)</Pattern>
-      <Response>"Blue Ϟ Lightning: tfw no one has made a thing about me :3<" "Blue Ϟ Lightning: but I can't add one myself cause thats self centered"</Response>
+      <Response>"Blue Ϟ Lightning: tfw no one has made a thing about me :3&lt;" "Blue Ϟ Lightning: but I can't add one myself cause thats self centered"</Response>
     </Model>
     
     <Model>
