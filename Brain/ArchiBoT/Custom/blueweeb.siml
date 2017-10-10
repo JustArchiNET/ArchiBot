@@ -4,9 +4,9 @@
     <Model>
       <Pattern>
         <Item>WHAT IS A ^WEEB</Item>
-        <Item>WhAT ARE ^WEEBS</Item>
+        <Item>WHAT ARE ^WEEBS</Item>
         <Item>WHAT IS A ^WEEABOO</Item>
-        <Item>WhAT ARE ^WEEABOOS</Item>
+        <Item>WHAT ARE ^WEEABOOS</Item>
         <Item>DEFINE ^WEEB</Item>
         <Item>EXPLAIN ^WEEBS</Item>
       </Pattern>
@@ -31,7 +31,26 @@
       </Response>
     </Model>
     
-    <!-- Education Purposes -->
+    <Model>
+      <Pattern>
+        <Item>WHO IS (BLUE|BLUEWEEB|BLUE LIGHTNING|BLUE WEEB|LIGHTNING)</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>Railgun pleb.</Item>
+          <Item>Aparently worse at coding than Jbondu.</Item>
+          <Item>Potentialy a canadian.</Item>
+          <Item>Weeb.</Item>
+          <Item>Kaleith, Look Look I did a thing!</Item>
+          <Item>Tch, Tch, Tch Why do people keep calling me a weeb silly bakas don't know what they are talking about.</Item>
+          <Item>no buli plz, I put up an anti buli barrior I'm safe now.</Item>
+          <Item>Blue: I want a custom command...why hasn't anyone made me one yet :3 do I have to make it myself what is this madness!</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    
+    <!-- Education Purposes --> 
     <Model>
       <Pattern>
         <Item>^WHAT IS (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
