@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-﻿<Siml>
+<Siml>
   <Concept Name="_blueweeb">
-
     <Model>
       <Pattern>
         <Item>WHAT IS A ^WEEB</Item>
@@ -103,6 +102,5 @@
       </Pattern>
       <Response>Blue's waifu.</Response>
     </Model>
-
   </Concept>
 </Siml>
