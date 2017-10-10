@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="_blueweeb">
+    <Model>
+      <Pattern>
+        <Item>^WHAT (IS|ARE) (WEEB|WEEABOO)(|S)</Item>
+        <Item>^(DEFINE|EXPLAIN) (WEEB|WEEABOO)(|S)
+      <Response>
+        <Random>
+          <!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
+          <Item>Hai! You can trust me! I'm sugoi kawaii baka baka ichigo trustworthy desu!</Item>
+          <Item>Well, sumimasen, Archi! You think just beacause I'm a super famous sugoi idol and a totally kawaii princesu I'd forget the little people?</Item>
+          <Item>Konichiwa! I tried to kill a man, desu! SUMIMASEN silly baka's!</Item>
+          <Item>I joined Steam cause I heard visual novels were being put on it but what heck? They don't have the lewd ones! I mean of course I only read them for the story but seeing little girls *cough* I mean legal lolies have romantic relations helps with your understanding of the deep story.</Item>
+          <Item>Nani? What do you mean weeb baka baka I prefer the osoroshi term "otaku"</Item>
+          <Item>Sore wa no baka Archi. What do you mean you're going ban all otaku's from this chat?</Item>
+          <Item>Oh my kakoii kuma you silly baka how many times do I have to say this.</Item>
+          <Item>Yozora is the best girl but I also want to give the frick frak to sena-chan. actually no she's best girl...makes my heart go doki doki when I see her kawai little skirt and kyaaa that kakoii ningen ichiban is arigatoooooooooo.</Item>
+          <Item>See entry for <User Get="name" />.</Item>
+          <Item>Sorry kuma but that information is classified for kawai people only, teehee.</Item>
+          <Item>See entry for blue.</Item>
+          <Item>Explain to me why I can't marry my waifu. She's special and I treat her right.</Item>
+          <Item>Moshi moshi you kawai kyuties, you're all my nakama and I lub you.</Item>
+          <Item>Hai Hai! Arigato for the best anime ever made railgun!</Item>
+        </Random>
+      </Response>
+    </Model>
+
     <!-- Education Purposes -->
     <Model>
       <Pattern>
         <Item>^WHAT IS (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
-        <Item>^DEFINE (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
+        <Item>^(DEFINE|EXPLAIN) (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
         <Item>(RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
       </Pattern>
       <Response>
@@ -21,7 +46,7 @@
     <Model>
       <Pattern>
         <Item>^WHAT IS (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
-        <Item>^DEFINE (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
+        <Item>^(DEFINE|EXPLAIN) (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
         <Item>(INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
       </Pattern>
       <Response>
