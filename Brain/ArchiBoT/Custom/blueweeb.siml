@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 ﻿<Siml>
   <Concept Name="_blueweeb">
-    
+
     <Model>
       <Pattern>
         <Item>WHAT IS A ^WEEB</Item>
@@ -30,7 +31,7 @@
         </Random>
       </Response>
     </Model>
-    
+
     <Model>
       <Pattern>
         <Item>WHO IS (BLUE|BLUEWEEB|BLUE LIGHTNING|BLUE WEEB|LIGHTNING)</Item>
@@ -48,9 +49,20 @@
         </Random>
       </Response>
     </Model>
-    
-    
-    <!-- Education Purposes --> 
+
+    <Model>
+      <Pattern>
+        <Item>^TABS OR ^SPACES?</Item>
+        <Item>^SPACES OR ^TABS</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>TAB MASTERRACE!</Item>
+        </Random>
+      </Response>
+    </Model>
+
+    <!-- Education Purposes -->
     <Model>
       <Pattern>
         <Item>^WHAT IS (RAILGUN|TOARU KAGAKU NO RAILGUN|とある科学の超電磁砲)</Item>
@@ -66,7 +78,7 @@
         </Random>
       </Response>
     </Model>
-    
+
     <Model>
       <Pattern>
         <Item>^WHAT IS (INDEX|TOARU MAJUTSU NO INDEX|とある魔術の禁書目録)</Item>
@@ -82,7 +94,7 @@
         </Random>
       </Response>
     </Model>
-    
+
     <Model>
       <Pattern>
         <Item>^WHO IS (MISAKA|RAILGUN)</Item>
@@ -91,6 +103,6 @@
       </Pattern>
       <Response>Blue's waifu.</Response>
     </Model>
-    
+
   </Concept>
 </Siml>
