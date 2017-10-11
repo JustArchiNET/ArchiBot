@@ -3,6 +3,109 @@
   <Concept Name="_jbond">
   
     <Model>
+  		<Pattern>^RLIST _ OR _</Pattern>
+  		<Response>Use "!ai [item1] xor/or [item2]" instead. :sgsmile:</Response>
+  	</Model>
+  
+  	<Model>
+      <Pattern>^RLIST _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+        </Random>
+      </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^RLIST _ OR _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+          <Item><Match At="4"/></Item>
+        </Random>
+        </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^RLIST _ OR _ OR _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+          <Item><Match At="4"/></Item>
+          <Item><Match At="5"/></Item>
+        </Random>
+        </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^RLIST _ OR _ OR _ OR _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+          <Item><Match At="4"/></Item>
+          <Item><Match At="5"/></Item>
+          <Item><Match At="6"/></Item>
+        </Random>
+        </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>^RLIST _ OR _ OR _ OR _ OR _ OR _ OR _</Pattern>
+    	<Response>This list exceeds the allowed number of items (6). :esc_warning:</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>(NOCONTEXT|NO CONTEXT|ZERO CONTEXT|0CONTEXT|0 CONTEXT|ZEROCONTEXT|NCT|ZCT)</Pattern>
+      <Response>
+        <Random>
+          <Item>"Sviat: chicken lolis"</Item>
+          <Item>"Archi: nep is the best rpg I've ever played"</Item>
+          <Item>"Skatrzoo: incredibly accurate, but it's still hard"</Item>
+          <Item>"Heiluri: sniffing bicycle saddles :-)"</Item>
+          <Item>"CHT a.k.a Death Cruzer: And unfuck will work."</Item>
+          <Item>"VSX: So I can shoot archi finally"</Item>
+          <Item>"Rosey: We need to get more dicks to Finland!"</Item>
+          <Item>"Adorable Howl Madu: memo: don't floss your froth teeth"</Item>
+          <Item>"Archi: WELCOME IN POLAND"</Item>
+          <Item>"Asimmacovski: no lolis"</Item>
+          <Item>"Archi: suggest him nep"</Item>
+          <Item>"Agonizing Version Taigo: that's 2 million mcdonalds burgers"</Item>
+          <Item>"Agonizing Version Taigo: 3 lolis and a soda pop"</Item>
+          <Item>"Heiluri: it's calling bananas from beyond the death ? o.o"</Item>
+          <Item>"Miku: And about the banana in the pantsu"</Item>
+          <Item>"Tristetea: I recall some rapper had pussy juice in the us"</Item>
+          <Item>"Asimmacovski: even girls have dicks in their hearts"</Item>
+          <Item>"Archi: SEMEN"</Item>
+          <Item>"Tuna Man Taigo: Why is jbond fisting dosh"</Item>
+          <Item>"jbondguy007: Note to self: No more dosh fisting"</Item>
+          <Item>"FakeNameOF: Come on build that libido :3"</Item>
+          <Item>"ambidot: has anyone here played cuckhead yet"</Item>
+          <Item>"ArchiBoT: I'm Vladimir Pudding"</Item>
+          <Item>"Vapor Dosh: COMMANDO CHICKEN!</Item>
+          <Item>"Asimmacovski: wish plutia would force feed me a sandwich"</Item>
+          <Item>"Kaleith: are we talking about drugs :bite:</Item>
+          <Item>"Barmherziger Feind Madu: what's wrong with dick of this guy"</Item>
+        </Random>
+      </Response>
+    </Model>
+  
+    <Model>
       <Pattern>PURGE %</Pattern>
       <Response><Text Get="Uppercase">PURGING <Match />... COMMENCING </Text><Random>(:detonator2:|:esc_warning:)</Random></Response>
     </Model>
@@ -42,7 +145,7 @@
     
     <Model>
       <Pattern>
-        <Item>WHO IS (JBOND|JBONDGUY|JBONDGUY007)</Item>
+        <Item>WHO IS (JBOND|JBONDGUY|JBONDGUY007|JBONDO)</Item>
       </Pattern>
       <Response>
         <Random>
@@ -68,7 +171,7 @@
     </Model>
     
     <Model>
-      <Pattern>WHERE IS (JBOND|JBONDGUY|JBONDGUY007)</Pattern>
+      <Pattern>WHERE IS (JBOND|JBONDGUY|JBONDGUY007|JBONDO)</Pattern>
       <Response>
         <Random>
           <Item>If he isn't here, he's probably gaming or sleeping.</Item>
@@ -87,7 +190,7 @@
     </Model>
     
     <Model>
-      <Pattern>WHAT DID (JBOND|JBONDGUY|JBONDGUY007) DO</Pattern>
+      <Pattern>WHAT DID (JBOND|JBONDGUY|JBONDGUY007|JBONDO) DO</Pattern>
       <Response>
         <Random>
           <Item>Broke everything. :bite:</Item>
@@ -95,7 +198,6 @@
           <Item>What didn't jbond do?</Item>
           <Item>I'd rather not know.</Item>
           <Item>I'd rather not ask.</Item>
-          <Item>You should ask him.</Item>
           <Item>Jbond, what did you do? :doubt:</Item>
           <Item>Something horrible, probably.</Item>
           <Item>Nothing bad, I hope.</Item>
@@ -113,9 +215,7 @@
     
     <Model>
       <Pattern>
-        <Item>NEP</Item>
-        <Item>NEP NEP</Item>
-        <Item>NEPNEP</Item>
+        <Item>(NEP|NEP NEP|NEPNEP|NEPPU|NEPPU NEPPU)</Item>
       </Pattern>
       <Response>
         <Random>
@@ -128,22 +228,6 @@
     <Model>
       <Pattern>JBOND DISCLAIMER</Pattern>
       <Response>"jbondguy007", "jbond", "jbondo", and any names or nicknames referencing to the individual known as "jbondguy007" has no direct or immediate obligation to provide any form of substantial explanation for breaking the AI. Any event and/or events leading to a broken AI is the direct responsibility of the bot master and/or bot masters involved.</Response>
-    </Model>
-    
-    <Model>
-      <Pattern>WHO IS (BLUE|BLUEWEEB|BLUE WEEB|BLUE LIGHTNING|BLUELIGHTNING)</Pattern>
-      <Response>"Blue Ϟ Lightning: tfw no one has made a thing about me :3&lt;" "Blue Ϟ Lightning: but I can't add one myself cause thats self centered"</Response>
-    </Model>
-    
-    <Model>
-      <Pattern>CHALLENGE</Pattern>
-      <Response>
-        <Random>
-          <Item>CHALLENGE ACCEPTED</Item>
-          <Item>:hromeattack: CHALLENGE TIME :hromeattack:</Item>
-          <Item>PREPARE FOR CHALLENGE :bite:</Item>
-        </Random>
-      </Response>
     </Model>
     
     <Model>
@@ -227,12 +311,8 @@
     <Model>
       <Pattern>
         <Item>WELCOME BACK</Item>
-        <Item>WELCOME BACK BOT</Item>
-        <Item>WELCOME BACK ARCHIBOT</Item>
-        <Item>WELCOME BACK BOTTU</Item>
-        <Item>WELCOME BACK, BOT</Item>
-        <Item>WELCOME BACK, ARCHIBOT</Item>
-        <Item>WELCOME BACK, BOTTU</Item>
+        <Item>WELCOME BACK (BOT|ARCHIBOT|BOTTU|AI)</Item>
+        <Item>WELCOME BACK, (BOT|ARCHIBOT|BOTTU|AI)</Item>
       </Pattern>
       <Response>
         <Random>
@@ -776,5 +856,16 @@
         </Random>
       </Response>
     </Model>
+  </Concept>
+  
+  <Concept Name="_jbond_priv" User="steam-76561198073764076">
+  	
+  	<Model>
+  		<Pattern>WHAT DID I DO</Pattern>
+  		<Response>
+  			<Goto>WHAT DID JBOND DO</Goto>
+  		</Response>
+  	</Model>
+
   </Concept>
 </Siml>
