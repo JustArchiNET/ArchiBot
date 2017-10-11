@@ -21,5 +21,9 @@
       <Pattern>^speak</Pattern>
       <Response>:speak:</Response>
     </Model>
+    <Model>
+      <Pattern>^bite</Pattern>
+      <Response>:bite:</Response>
+    </Model>
   </Concept>
 </Siml>
