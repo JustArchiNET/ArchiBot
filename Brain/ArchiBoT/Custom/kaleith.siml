@@ -354,7 +354,7 @@
 				<Item>^ARCHIJOINER</Item>
 			</Pattern>
 			<Response>
-				<Switch User="SourceID">
+				<Switch User="ID">
 					<Case Value="steam-76561198025147895">Autojoiner engaged... Please wait...
 						<Bind Key="{Gibnumber}"><Math Get="random" Min="5" Max="25" /></Bind>
 						<Late Second="2"><Text>{Gibnumber}</Text> eligible giveaways found for the account "Kaleith". Processing...</Late>
