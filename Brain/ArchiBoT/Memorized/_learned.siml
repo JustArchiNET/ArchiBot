@@ -17,5 +17,9 @@
       <Pattern>archistream</Pattern>
       <Response>https://www.twitch.tv/justarchi</Response>
     </Model>
+    <Model>
+      <Pattern>^speak</Pattern>
+      <Response>:speak:</Response>
+    </Model>
   </Concept>
 </Siml>
