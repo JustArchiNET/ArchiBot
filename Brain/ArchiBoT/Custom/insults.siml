@@ -82,7 +82,7 @@
 					<Item>I bet your brain feels as good as new, seeing that you never use it.</Item>
 					<Item>if you're gonna be a smartass, first you have to be smart. Otherwise you're just an ass.</Item>
 					<Item>I have neither the time nor the crayons to explain this to you.</Item>
-					<Item>you have two brains cells, one is lost and the other is out looking for it.</Item>
+					<Item>you have two brain cells, one is lost and the other is out looking for it.</Item>
 					<Item>you're as bright as a black hole, and twice as dense.</Item>
 					<Item>it's kinda sad watching you attempt to fit your entire vocabulary into a sentence.</Item>
 					<Item>you're a person of rare intelligence. It's rare when you show any.</Item>
@@ -122,7 +122,6 @@
 					<Item>I'd call you an asshole but they serve a purpose.</Item>
 					<Item>your mother was a hamster and your father smelt of elderberries.</Item>
 					<Item>I don't care what everybody else says, I think you're a pretty cool person.</Item>
-					<Item Weight="0.08"><Goto>YOMAMA</Goto></Item>
 				</Random>
 			</Response>
 		</Model>
