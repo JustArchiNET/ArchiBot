@@ -71,7 +71,11 @@
     </Model>
     
     <Model>
-      <Pattern>(NOCONTEXT|NO CONTEXT|ZERO CONTEXT|0CONTEXT|0 CONTEXT|ZEROCONTEXT|NCT|ZCT)</Pattern>
+      <Pattern>
+        <Item>(NOCONTEXT|ZERO CONTEXT|0CONTEXT|ZEROCONTEXT|NCT|ZCT)</Item>
+        <Item>NO ^CONTEXT</Item>
+        <Item>0 ^CONTEXT</Item>
+      </Pattern>
       <Response>
         <Random>
           <Item>"Sviat: chicken lolis"</Item>
