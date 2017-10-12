@@ -29,5 +29,9 @@
       <Pattern>^bite</Pattern>
       <Response>:bite:</Response>
     </Model>
+    <Model>
+      <Pattern>^dirty</Pattern>
+      <Response>heheh ( ͡° ͜ʖ ͡°)</Response>
+    </Model>
   </Concept>
 </Siml>
