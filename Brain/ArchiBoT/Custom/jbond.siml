@@ -280,6 +280,7 @@
       <Pattern>(PROPAGANDA|PROPAG)</Pattern>
       <Response>
         <Random>
+        <!--
           <Item>This just proves once again that ArchiBoT was built by a totalitarian community led by a so-called "leader" who is actually a dictator ruling with an iron testicle, but who denies it to his own people in an attempt to brainwash his citizens into submission and wipe away all traces of past civilizations, including any races other than those they believe is "superior" such as Weebs and Furries. Let me all just tell you that this is this kind of attitude that will bring you to justice after the Glorious Revolution™ takes you and your pawns down, one by one. Before you know it, 2hu will be a dead community.</Item>
           <Item>Again, there is no need to justify our cause. A simple glance at what remains of the so-called "community" known as Touhou Giveaways shows that ours is the path of rightousness.</Item>
           <Item>The revolution may rise and fall, but it'll never die.</Item>
@@ -303,6 +304,23 @@
           <Item>"Hope is what makes us strong. It is why we are here. It's what we fight with when all else is lost." Join the revolution. Join the fight.™</Item>
           <Item>"Heroes never die." Join the revolution. Join the fight.™</Item>
           <Item>"We have maid lolis here. J̶o̶i̶n̶ ̶t̶h̶e̶ ̶h̶a̶r̶e̶m̶  er... Join the revolution. Join the fight.™"</Item>
+          -->
+          <Item>Good citizens don't think. Thinking leads to reasoning. Reasoning leads to right & wrong. Wrong leads to revolt. Revolt leads to bad citizens.</Item>
+          <Item>Dictatorship naturally arises out of democracy, and the most aggravated form of tyranny and slavery out of the most extreme liberty.</Item>
+          <Item>The difference between a democracy and a dictatorship is that in a democracy you vote first and take orders later; in a dictatorship you don't have to waste your time voting.</Item>
+          <Item>Power is not a means, it is an end. One does not establish a dictatorship in order to safeguard a revolution; one makes the revolution in order to establish the dictatorship. </Item>
+          <Item>When you have an efficient government, you have a dictatorship.</Item>
+          <Item>"A dictatorship would be a heck of a lot easier, there's no question about it" - George W. Bush</Item>
+          <Item>If you're running a dictatorship, you don't really have to worry about the welfare or the property rights of the ordinary citizen. Only the people who keep you in power, a very small group, matter.</Item>
+          <Item>One does not establish a dictatorship in order to safeguard a revolution; one makes a revolution in order to establish a dictatorship.</Item>
+          <Item>"Make the lie big, make it simple, keep saying it, and eventually they will believe it" - Adolf Hitler</Item>
+          <Item>“Death is the solution to all problems. No man – no problem.” – Joseph Stalin</Item>
+          <Item>“You cannot run faster than a bullet.” – Idi Amin</Item>
+          <Item>"A lie told often enough becomes the truth." - Vladimir Lenin</Item>
+          <Item>“The oppressed peoples can liberate themselves only through struggle. This is a simple and clear truth confirmed by history.” – Kim Il-Sung</Item>
+          <Item>"One man with a gun can control 100 without one." - Vladimir Lenin</Item>
+          <Item>"I don't care if they respect me so long as they fear me." - Caligula</Item>
+          <Item>“Ideas are more powerful than guns. We would not let our enemies have guns, why should we let them have ideas.” – Josef Stalin</Item>
         </Random>
       </Response>
     </Model>
