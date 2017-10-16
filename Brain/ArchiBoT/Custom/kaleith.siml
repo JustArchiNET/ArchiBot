@@ -165,7 +165,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>^TUNAPIZZA</Pattern>
+			<Pattern>
+				<Item>^TUNAPIZZA</Item>
+				<Item>^TUNA PIZZA</Item>
+				<Item>^PIZZA TUNA</Item>
+				<Item>^PIZZATUNA</Item>
+			</Pattern>
 			<Response>:Neko:/ https://i.imgur.com/TmQRyhZ.jpg</Response>
 		</Model>
 
