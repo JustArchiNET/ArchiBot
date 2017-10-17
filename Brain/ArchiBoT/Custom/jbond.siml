@@ -3,6 +3,14 @@
   <Concept Name="_jbond">
   
     <Model>
+  		<Pattern>BLAME *</Pattern>
+  		<Response>
+        <Text Get="Sentence">
+          <Match /> you <Random>(fool|idiot|bird brain|jerk|wanker|twit)</Random>, <Random>(it's your fault|you're responsible|this is all happening|you caused this)</Random> because you <Random Get="_winst_P2" /> <Random Get="_winst_P3" /> in <Random Get="_winst_P4" /><Random>(!|.)</Random> :doubt:</Text>
+      	</Response>
+  	</Model>
+  
+    <Model>
   		<Pattern>^RLIST _ OR _</Pattern>
   		<Response>Use "!ai [item1] xor/or [item2]" instead. :sgsmile:</Response>
   	</Model>
@@ -106,6 +114,19 @@
           <Item>"Kaleith: are we talking about drugs :bite:</Item>
           <Item>"Barmherziger Feind Madu: what's wrong with dick of this guy"</Item>
           <Item>"ambidot: were you female 4.6 months ago?"</Item>
+          <Item>"ambidot: your mother will need to renew her subscription to my dick"</Item>
+          <Item>"Blue Ϟ Lightning: doshi is duccrently in my sex dungon"</Item>
+          <Item>"ミユ: "Coming soon""</Item>
+          <Item>"ambidot: latex is gaytex"</Item>
+          <Item>"Asimmacovski: time to dream about getting stabbed by a loli"</Item>
+          <Item>"Archi: your mother is 2expensive"</Item>
+          <Item>"ambidot: my dick is on the table tro buy"</Item>
+          <Item>"VSX: Loligarchy will be inevitable :3"</Item>
+          <Item>"Miku: I like it too, but my neck disagrees"</Item>
+          <Item>"Blue Ϟ Lightning: explosion death murder isn't as hard as I thought \o/"</Item>
+          <Item>"FakeNameOF: Tic toc tic toc it's time to suck the cock :3"</Item>
+          <Item>"jbondguy007: VSX WILL BE SAVED BY THE POWER OF PENIS?"</Item>
+          <Item>"Heiluri: dem condom rolled drugs deep in the ass of timo"</Item>
         </Random>
       </Response>
     </Model>
@@ -171,6 +192,7 @@
           <Item>"jbondguy007: I'M FOLLOWING THE INSTRUCTIONS WHY IS IT NOT WORKING ;_;"</Item>
           <Item>"jbondguy007: And yes, I am stupid."</Item>
           <Item>"jbondguy007: I have become revolution, destroyer of 2hu"</Item>
+          <Item>"Taigo's Cleaning Your Shit: Is this one of those craft dragon tricks"</Item>
         </Random>
       </Response>
     </Model>
