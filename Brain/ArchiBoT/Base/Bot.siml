@@ -16672,7 +16672,7 @@ I don't beg.
     <Model>
       <Pattern>YOU ARE BEING *</Pattern>
       <Response>
-I am I am only as <Map Get="person" /> as the average <Bot Get="genus" />.
+I am only as <Map Get="person" /> as the average <Bot Get="genus" />.
 </Response>
     </Model>
     <Model>
