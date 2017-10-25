@@ -2,27 +2,27 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_help">
 		<Model>
-			<Pattern>$ CHAT RELAY $</Pattern>
+			<Pattern>% CHAT RELAY %</Pattern>
 			<Response>To use chat relay pm ArchiBoT with "!chat chat_id". You can find out the chat_id by typing !chatinfo in a group chat with ArchiBoT present. PROTIP: You can join the Touhou Giveaways relay chat with a simple "!chat 2hu"!</Response>
 		</Model>
 
 		<Model>
 			<Pattern>
-				<Item>$ ^CHAT GIVEAWAYS $</Item>
-				<Item>$ ^CHAT GIVEAWAY $</Item>
-				<Item>$ ^CHAT GIB $</Item>
-				<Item>$ ^CHAT GIBS $</Item>
+				<Item>% CHAT ^GIVEAWAYS %</Item>
+				<Item>% CHAT ^GIVEAWAY %</Item>
+				<Item>% CHAT ^GIB %</Item>
+				<Item>% CHAT ^GIBS %</Item>
 			</Pattern>
 			<Response>To find info about chat giveaways go to https://github.com/JustArchi/ArchiBoT/wiki/Chat-giveaways :sgsmile:</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ ^RADIO $</Pattern>
+			<Pattern>% ^RADIO %</Pattern>
 			<Response>You can listen to the Touhou radio here: https://radio.justarchi.net/touhou.opus For commands, check https://github.com/JustArchi/ArchiBoT/wiki/Archi's-Touhou-Radio ♪ \:bite:/ ♪</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ ^ASF WIKI $</Pattern>
+			<Pattern>% ^ASF WIKI %</Pattern>
 			<Response>https://github.com/JustArchi/ArchiSteamFarm/wiki Go read \:doubt:</Response>
 		</Model>
 
@@ -33,7 +33,7 @@
 
 		<Model>
 			<Pattern>
-				<Item>$ CUSTOM ^BORDER $</Item>
+				<Item>% CUSTOM ^BORDER %</Item>
 				<Item>^PSD</Item>
 			</Pattern>
 			<Response>You can submit a 248x248 gif or png with transparency, together with a name, price and optional additional requirements by either asking MaduRUDE directly or posting a TODO for him on our tracker. If you need a guideline you can use the .pdf here https://touhou.justarchi.net/img/custom_border.psd</Response>
@@ -41,20 +41,20 @@
 
 		<Model>
 			<Pattern>
-				<Item>$ ^GITHUB $</Item>
-				<Item>$ ^REPO $</Item>
-				<Item>$ ^REPOSITORY $</Item>
+				<Item>% ^GITHUB %</Item>
+				<Item>% ^REPO %</Item>
+				<Item>% ^REPOSITORY %</Item>
 			</Pattern>
 			<Response>Here is a link to my Github Repository. https://github.com/JustArchi/ArchiBoT</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ ^PATREON $</Pattern>
+			<Pattern>% ^PATREON %</Pattern>
 			<Response>Support my master on Patreon: https://www.patreon.com/JustArchi :sgsmile:</Response>
 		</Model>
 
 		<Model>
-			<Pattern>$ ASF ^STM $</Pattern>
+			<Pattern>% ASF ^STM %</Pattern>
 			<Response>http://asf.justarchi.net/STM</Response>
 		</Model>
 
@@ -66,7 +66,7 @@
 				<Item>^2HUEVENT</Item>
 				<Item>^TOUHOUEVENT</Item>
 				<Item>2HU ^EVENT</Item>
-				<Item>^2HUE $</Item>
+				<Item>^2HUE %</Item>
 			</Pattern>
 			<Response>
 				<Var Think:Set="Date"><Date Format="yyyyMMdd" /></Var>
@@ -81,9 +81,9 @@
 
 		<Model>
 			<Pattern>
-				<Item>$ ASF $</Item>
-				<Item>$ ARCHI STEAM FARM $</Item>
-				<Item>$ ARCHI'S STEAM FARM $</Item>
+				<Item>% ASF %</Item>
+				<Item>% ARCHI STEAM FARM %</Item>
+				<Item>% ARCHI'S STEAM FARM %</Item>
 			</Pattern>
 			<Response>https://github.com/JustArchi/ArchiSteamFarm</Response>
 		</Model>
