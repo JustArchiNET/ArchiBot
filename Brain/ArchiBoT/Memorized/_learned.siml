@@ -41,5 +41,9 @@
       <Pattern>who is cathugger</Pattern>
       <Response>A guy that fixed what was broken ːcryː7</Response>
     </Model>
+    <Model>
+      <Pattern>touhou swing</Pattern>
+      <Response>https://i.imgur.com/ThUyXHn.png</Response>
+    </Model>
   </Concept>
 </Siml>
