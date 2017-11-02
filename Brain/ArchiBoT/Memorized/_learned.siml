@@ -37,5 +37,9 @@
       <Pattern>sgsmile</Pattern>
       <Response>ːsgsmileː</Response>
     </Model>
+    <Model>
+      <Pattern>who is cathugger</Pattern>
+      <Response>A guy that fixed what was broken ːcryː7</Response>
+    </Model>
   </Concept>
 </Siml>
