@@ -33,5 +33,9 @@
       <Pattern>^dirty</Pattern>
       <Response>heheh ( ͡° ͜ʖ ͡°)</Response>
     </Model>
+    <Model>
+      <Pattern>sgsmile</Pattern>
+      <Response>ːsgsmileː</Response>
+    </Model>
   </Concept>
 </Siml>
