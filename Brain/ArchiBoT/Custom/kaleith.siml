@@ -132,6 +132,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>^RANDOMUSER</Pattern>
+			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>LASAGNA</Item>
 				<Item>LASAGNE</Item>
