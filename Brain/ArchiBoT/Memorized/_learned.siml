@@ -45,5 +45,9 @@
       <Pattern>touhou swing</Pattern>
       <Response>https://i.imgur.com/ThUyXHn.png</Response>
     </Model>
+    <Model>
+      <Pattern>where is touhou swing</Pattern>
+      <Response>https://i.imgur.com/ThUyXHn.png</Response>
+    </Model>
   </Concept>
 </Siml>
