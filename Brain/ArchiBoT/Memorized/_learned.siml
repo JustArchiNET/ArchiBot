@@ -49,5 +49,9 @@
       <Pattern>where is touhou swing</Pattern>
       <Response>https://i.imgur.com/ThUyXHn.png</Response>
     </Model>
+    <Model>
+      <Pattern>who is nic</Pattern>
+      <Response>a weeb</Response>
+    </Model>
   </Concept>
 </Siml>
