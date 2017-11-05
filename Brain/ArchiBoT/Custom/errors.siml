@@ -40,7 +40,7 @@
 				<Item>CHATUSERS</Item>
 				<Item>CONVERT $</Item>
 				<Item>CREATEGIB $</Item>
-				<Item>DEBUG $</Item>
+				<Item>DEBUG</Item>
 				<Item>DEFINE $</Item>
 				<Item>DEL $</Item>
 				<Item>DL $</Item>
@@ -61,7 +61,7 @@
 				<Item>EMOTICONS</Item>
 				<Item>EXIT</Item>
 				<Item>FEED $</Item>
-				<Item>GIT $</Item>
+				<Item>GIT</Item>
 				<Item>INV</Item>
 				<Item>LEAVE</Item>
 				<Item>LOCK</Item>
