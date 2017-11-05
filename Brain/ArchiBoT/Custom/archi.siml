@@ -199,6 +199,11 @@
 				<Default>RIP, never forget, alway rember :cry:7</Default></Switch>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>HI MICHELLE</Pattern>
+			<Response>https://my.mixtape.moe/ehfzlo.mp4</Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
