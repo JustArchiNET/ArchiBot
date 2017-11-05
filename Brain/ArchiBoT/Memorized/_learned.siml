@@ -57,5 +57,9 @@
       <Pattern>pineapplepizza</Pattern>
       <Response>https://i.imgur.com/3IhW8iJ.jpg</Response>
     </Model>
+    <Model>
+      <Pattern>fishlove</Pattern>
+      <Response>https://imgur.com/gallery/GhdgA</Response>
+    </Model>
   </Concept>
 </Siml>
