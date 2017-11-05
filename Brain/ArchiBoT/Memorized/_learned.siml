@@ -53,5 +53,9 @@
       <Pattern>who is nic</Pattern>
       <Response>a weeb</Response>
     </Model>
+    <Model>
+      <Pattern>pineapplepizza</Pattern>
+      <Response>https://i.imgur.com/3IhW8iJ.jpg</Response>
+    </Model>
   </Concept>
 </Siml>
