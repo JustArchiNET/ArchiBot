@@ -219,8 +219,8 @@
           <Item>A dragon disguised as a human pretending to be a fictitious undercover MI6 agent.</Item>
           <Item>That one guy who's always trying to do things he doesn't know how to do.</Item>
           <Item>The laziest person. No contest.</Item>
-          <Item>Kaleith, I broke AI again. ;_;</Item>
-          <Item>Kaleith, I broke AI. Send help. ;_;</Item>
+          <Item>"Kaleith, I broke AI again. ;_;"</Item>
+          <Item>"Kaleith, I broke AI. Send help. ;_;"</Item>
           <Item>"jbondguy007: Hold on while I write a fucking huge wall of text to describe what I broke"</Item>
           <Item>The guy who spend half a day trying to figure out how to escape underscores and periods to make a response to an emoticon.</Item>
           <Item>A dragon.</Item>
@@ -410,7 +410,11 @@
     </Model>
     
     <Model>
-      <Pattern>ːSTEAMSALTYː</Pattern>
+      <Pattern>
+        <Item>ːSTEAMSALTYː</Item>
+        <Item>% SALT %</Item>
+        <Item>% SALTY %</Item>
+      </Pattern>
       <Response>
         <Random>
           <Item>:steamsalty:</Item>
@@ -425,6 +429,12 @@
           <Item>One :steamsalty: a day keeps the psychiatrist away.</Item>
           <Item>Is it 100% :steamsalty: Juice time already? :doubt:</Item>
           <Item>This place is saltier than the ocean.</Item>
+          <Item>At one time salt bars were the standard currency of Ethiopia.</Item>
+          <Item>Approximately 1 gram of salt per kilogram of weight is necessary to be killed by over-consumption of salt.</Item>
+          <Item>The Via Salaria, an ancient Roman road in Italy, eventually ran from Rome (from Porta Salaria in the Aurelian Walls) to Castrum Truentinum (Porto d'Ascoli) on the Adriatic coast - a distance of 242 kilometres (150 mi).</Item>
+          <Item>The word ‘salary’ comes from the Latin for ‘salt’, and may derive from the fact that Roman soldiers often bought salt with the money they were paid.</Item>
+          <Item>The Palacio de Sal Hotel and Spa in Bolivia is completely made out of salt.</Item>
+          <Item>Death by salt over-consumption was a method of suicide in ancient China.</Item>
           <Item>
             <Goto>% SALT LEVEL</Goto>
           </Item>
@@ -487,22 +497,7 @@
         <Item>WHAT IS ^YOUR % LEVEL %</Item>
         <Item>YOUR * LEVEL</Item>
       </Pattern>
-      <Response>
-        <Random>
-          <Item>I'm not sure if that makes any sense.</Item>
-          <Item>I'm not sure if I can say.</Item>
-          <Item>I'm not sure what <Match /> level is.</Item>
-          <Item Weight="0.75">
-            <Text Get="Sentence">Is my <Match /> level relevant?</Text>
-          </Item>
-        </Random>
-      </Response>
-    </Model>
-    
-    <Model>
-      <Pattern>^YES</Pattern>
-      <Previous>% IS MY % LEVEL RELEVANT</Previous>
-      <Response>Oh. If you must know, it is <Random><Item><Random>(about|approximately|around)</Random> <Js>
+      <Response>If you must know, it is <Random><Item><Random>(about|approximately|around)</Random> <Js>
 
             randomIntBetween(1, 99);
 
