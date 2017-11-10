@@ -1,82 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="_jbond">
-  
-    <Model>
-  		<Pattern>BLAME *</Pattern>
-  		<Response>
-        <Text Get="Sentence">
-          <Match /> you <Random>(fool|idiot|bird brain|jerk|wanker|twit)</Random>, <Random>(it's your fault|you're responsible|this is all happening|you caused this)</Random> because you <Random Get="_winst_P2" /> <Random Get="_winst_P3" /> in <Random Get="_winst_P4" /><Random>(!|.)</Random> :doubt:</Text>
-      	</Response>
-  	</Model>
-  
-    <Model>
-  		<Pattern>^RLIST _ OR _</Pattern>
-  		<Response>Use "!ai [item1] xor/or [item2]" instead. :sgsmile:</Response>
-  	</Model>
-  
-  	<Model>
-      <Pattern>^RLIST _ OR _ OR _</Pattern>
-      <Response>
-      <Text Get="Sentence">
-        <Random>
-          <Item><Match /></Item>
-          <Item><Match At="2"/></Item>
-          <Item><Match At="3"/></Item>
-        </Random>
-      </Text>.
-      </Response>
-    </Model>
-    
-    <Model>
-      <Pattern>^RLIST _ OR _ OR _ OR _</Pattern>
-      <Response>
-      <Text Get="Sentence">
-        <Random>
-          <Item><Match /></Item>
-          <Item><Match At="2"/></Item>
-          <Item><Match At="3"/></Item>
-          <Item><Match At="4"/></Item>
-        </Random>
-        </Text>.
-      </Response>
-    </Model>
-    
-    <Model>
-      <Pattern>^RLIST _ OR _ OR _ OR _ OR _</Pattern>
-      <Response>
-      <Text Get="Sentence">
-        <Random>
-          <Item><Match /></Item>
-          <Item><Match At="2"/></Item>
-          <Item><Match At="3"/></Item>
-          <Item><Match At="4"/></Item>
-          <Item><Match At="5"/></Item>
-        </Random>
-        </Text>.
-      </Response>
-    </Model>
-    
-    <Model>
-      <Pattern>^RLIST _ OR _ OR _ OR _ OR _ OR _</Pattern>
-      <Response>
-      <Text Get="Sentence">
-        <Random>
-          <Item><Match /></Item>
-          <Item><Match At="2"/></Item>
-          <Item><Match At="3"/></Item>
-          <Item><Match At="4"/></Item>
-          <Item><Match At="5"/></Item>
-          <Item><Match At="6"/></Item>
-        </Random>
-        </Text>.
-      </Response>
-    </Model>
-    
-    <Model>
-    	<Pattern>^RLIST _ OR _ OR _ OR _ OR _ OR _ OR _</Pattern>
-    	<Response>This list exceeds the allowed number of items (6). :esc_warning:</Response>
-    </Model>
     
     <Model>
       <Pattern>
@@ -178,6 +102,106 @@
       <Pattern>PURGE %</Pattern>
       <Response><Text Get="Uppercase">PURGING <Match />... COMMENCING </Text><Random>(:detonator2:|:esc_warning:)</Random></Response>
     </Model>
+    
+    <Model>
+      <Pattern>^FREEGAME</Pattern>
+      <Response>
+        <If Bot="FreeGame" Value="NoFreeGame">There are currently no free games.</If>
+        <ElseIf Bot="FreeGame" Value="Unknown">There are currently no free games.</ElseIf>
+        <Else><Bot Get="FreeGame" /> is currently free here: <Bot Get="FreeGameLink" /></Else>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^SETFREEGAME</Pattern>
+      <Response>To set the current free game, do "!ai setfreegame [game] on/at [link]"</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^SETFREEGAME _ (ON|AT) _</Pattern>
+      <Response>Done! The current free game was set as <Bot Set="FreeGame" Value="{Bind Match}" />, with this link: <Bot Set="FreeGameLink" Value="{Bind Match:3}" /></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^SETFREEGAME (NONE|N/A|NOTHING|NO|NOFREEGAME)</Pattern>
+      <Response>Done! The current free game was set to: <Bot Set="FreeGame" Value="NoFreeGame" /></Response>
+    </Model>
+  
+    <Model>
+  		<Pattern>BLAME *</Pattern>
+  		<Response>
+        <Text Get="Sentence">
+          <Match /> you <Random>(fool|idiot|bird brain|jerk|wanker|twit)</Random>, <Random>(it's your fault|you're responsible|this is all happening|you caused this)</Random> because you <Random Get="_winst_P2" /> <Random Get="_winst_P3" /> in <Random Get="_winst_P4" /><Random>(!|.)</Random> :doubt:</Text>
+      	</Response>
+  	</Model>
+  
+    <Model>
+  		<Pattern>^RLIST _ OR _</Pattern>
+  		<Response>Use "!ai [item1] xor/or [item2]" instead. :sgsmile:</Response>
+  	</Model>
+  
+  	<Model>
+      <Pattern>^RLIST _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+        </Random>
+      </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^RLIST _ OR _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+          <Item><Match At="4"/></Item>
+        </Random>
+        </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^RLIST _ OR _ OR _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+          <Item><Match At="4"/></Item>
+          <Item><Match At="5"/></Item>
+        </Random>
+        </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>^RLIST _ OR _ OR _ OR _ OR _ OR _</Pattern>
+      <Response>
+      <Text Get="Sentence">
+        <Random>
+          <Item><Match /></Item>
+          <Item><Match At="2"/></Item>
+          <Item><Match At="3"/></Item>
+          <Item><Match At="4"/></Item>
+          <Item><Match At="5"/></Item>
+          <Item><Match At="6"/></Item>
+        </Random>
+        </Text>.
+      </Response>
+    </Model>
+    
+    <Model>
+    	<Pattern>^RLIST _ OR _ OR _ OR _ OR _ OR _ OR _</Pattern>
+    	<Response>This list exceeds the allowed number of items (6). :esc_warning:</Response>
+    </Model>
       
     <Model>
       <Pattern>RIP</Pattern>
@@ -236,6 +260,7 @@
           <Item>"jbondguy007: And yes, I am stupid."</Item>
           <Item>"jbondguy007: I have become revolution, destroyer of 2hu"</Item>
           <Item>"Taigo's Cleaning Your Shit: Is this one of those craft dragon tricks"</Item>
+          <Item>"Asim Is Nellie: regular jbond solution?"</Item>
         </Random>
       </Response>
     </Model>
