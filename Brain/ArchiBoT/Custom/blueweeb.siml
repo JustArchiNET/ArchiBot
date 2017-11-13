@@ -13,6 +13,22 @@
       <Response>
         <Random>
           <!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
+          <Item>See entry for <User Get="name" />.</Item>
+          <Item>See entry for blue.</Item>
+		  <Item>Nic: !nsfw loli.</Item>
+        </Random>
+      </Response>
+    </Model>
+	
+	<Model>
+      <Pattern>
+        <Item>^WEEB</Item>
+		<Item>^WEEBPHRASE</Item>
+		<Item>SAY SOMETHING ^WEEB</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
           <Item>Hai! You can trust me! I'm sugoi kawaii baka baka ichigo trustworthy desu!</Item>
           <Item>Well, sumimasen, Archi! You think just beacause I'm a super famous sugoi idol and a totally kawaii princesu I'd forget the little people?</Item>
           <Item>Konichiwa! I tried to kill a man, desu! SUMIMASEN silly baka's!</Item>
@@ -21,16 +37,19 @@
           <Item>Sore wa no baka Archi. What do you mean you're going ban all otaku's from this chat?</Item>
           <Item>Oh my kakoii kuma you silly baka how many times do I have to say this.</Item>
           <Item>Yozora is the best girl but I also want to give the frick frak to sena-chan. actually no she's best girl...makes my heart go doki doki when I see her kawai little skirt and kyaaa that kakoii ningen ichiban is arigatoooooooooo.</Item>
-          <Item>See entry for <User Get="name" />.</Item>
           <Item>Sorry kuma but that information is classified for kawai people only, teehee.</Item>
-          <Item>See entry for blue.</Item>
           <Item>Explain to me why I can't marry my waifu. She's special and I treat her right.</Item>
+		  <Item>Nic: !nsfw loli.</Item>
+		  <Item>Super sugoi sillys I have seen the light! no longer will I be able to moshi moshi with people before the sleepu time.</Item>
           <Item>Moshi moshi you kawai kyuties, you're all my nakama and I lub you.</Item>
           <Item>Hai Hai! Arigato for the best anime ever made railgun!</Item>
         </Random>
       </Response>
     </Model>
+	
 
+	
+	
     <Model>
       <Pattern>
         <Item>WHO IS (BLUE|BLUEWEEB|BLUE LIGHTNING|BLUE WEEB|LIGHTNING)</Item>
@@ -45,13 +64,14 @@
           <Item>Tch, Tch, Tch Why do people keep calling me a weeb silly bakas don't know what they are talking about.</Item>
           <Item>no buli plz, I put up an anti buli barrior I'm safe now.</Item>
           <Item>Blue: I want a custom command...why hasn't anyone made me one yet :3 do I have to make it myself what is this madness!</Item>
+		   <Item>just cause I want to cum in misaka doesn't mean I'm a weeaboo :3</Item>
         </Random>
       </Response>
     </Model>
 
     <Model>
       <Pattern>
-        <Item>^TABS OR ^SPACES?</Item>
+        <Item>^TABS OR ^SPACES</Item>
         <Item>^SPACES OR ^TABS</Item>
       </Pattern>
       <Response>
