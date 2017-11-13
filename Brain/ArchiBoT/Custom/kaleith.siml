@@ -708,10 +708,12 @@
 			</Response>
 		</Model>
 
+<!--
 		<Model>
 			<Pattern><If Bot="banlist" Contains="{Bind User:ID}"></If></Pattern>
 			<Response>You're banned from AI :sgsmile:</Response>
 		</Model>
+-->
 	</Concept>
 
 <!-- Private Concept for user-exclusive commands --> 
