@@ -12,10 +12,10 @@
 		</Pattern>
 		<Response>
 			<Random>
-			<!-- Please feel free to remove anything you don't think is good or add anythign to the following...It needs to be bigger help -->
-			<Item>See entry for <User Get="name" />.</Item>
-			<Item>See entry for blue.</Item>
-			<Item>Nic: !nsfw loli.</Item>
+				<!-- Please feel free to remove anything you don't think is good or add anythign to the following...It needs to be bigger help -->
+				<Item>See entry for <User Get="name" />.</Item>
+				<Item>See entry for blue.</Item>
+				<Item>Nic: !nsfw loli.</Item>
 			</Random>
 		</Response>
 	</Model>
@@ -28,21 +28,21 @@
 		</Pattern>
 		<Response>
 			<Random>
-			<!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
-			<Item>Hai! You can trust me! I'm sugoi kawaii baka baka ichigo trustworthy desu!</Item>
-			<Item>Well, sumimasen, Archi! You think just beacause I'm a super famous sugoi idol and a totally kawaii princesu I'd forget the little people?</Item>
-			<Item>Konichiwa! I tried to kill a man, desu! SUMIMASEN silly baka's!</Item>
-			<Item>I joined Steam cause I heard visual novels were being put on it but what heck? They don't have the lewd ones! I mean of course I only read them for the story but seeing little girls *cough* I mean legal lolies have romantic relations helps with your understanding of the deep story.</Item>
-			<Item>Nani? What do you mean weeb baka baka I prefer the osoroshi term "otaku"</Item>
-			<Item>Sore wa no baka Archi. What do you mean you're going ban all otaku's from this chat?</Item>
-			<Item>Oh my kakoii kuma you silly baka how many times do I have to say this.</Item>
-			<Item>Yozora is the best girl but I also want to give the frick frak to sena-chan. actually no she's best girl...makes my heart go doki doki when I see her kawai little skirt and kyaaa that kakoii ningen ichiban is arigatoooooooooo.</Item>
-			<Item>Sorry kuma but that information is classified for kawai people only, teehee.</Item>
-			<Item>Explain to me why I can't marry my waifu. She's special and I treat her right.</Item>
-			<Item>Nic: !nsfw loli.</Item>
-			<Item>Super sugoi sillys I have seen the light! no longer will I be able to moshi moshi with people before the sleepu time.</Item>
-			<Item>Moshi moshi you kawai kyuties, you're all my nakama and I lub you.</Item>
-			<Item>Hai Hai! Arigato for the best anime ever made railgun!</Item>
+				<!-- Please feel free to remove anything you don't think is good or add anythign to the following -->
+				<Item>Hai! You can trust me! I'm sugoi kawaii baka baka ichigo trustworthy desu!</Item>
+				<Item>Well, sumimasen, Archi! You think just beacause I'm a super famous sugoi idol and a totally kawaii princesu I'd forget the little people?</Item>
+				<Item>Konichiwa! I tried to kill a man, desu! SUMIMASEN silly baka's!</Item>
+				<Item>I joined Steam cause I heard visual novels were being put on it but what heck? They don't have the lewd ones! I mean of course I only read them for the story but seeing little girls *cough* I mean legal lolies have romantic relations helps with your understanding of the deep story.</Item>
+				<Item>Nani? What do you mean weeb baka baka I prefer the osoroshi term "otaku"</Item>
+				<Item>Sore wa no baka Archi. What do you mean you're going ban all otaku's from this chat?</Item>
+				<Item>Oh my kakoii kuma you silly baka how many times do I have to say this.</Item>
+				<Item>Yozora is the best girl but I also want to give the frick frak to sena-chan. actually no she's best girl...makes my heart go doki doki when I see her kawai little skirt and kyaaa that kakoii ningen ichiban is arigatoooooooooo.</Item>
+				<Item>Sorry kuma but that information is classified for kawai people only, teehee.</Item>
+				<Item>Explain to me why I can't marry my waifu. She's special and I treat her right.</Item>
+				<Item>Nic: !nsfw loli.</Item>
+				<Item>Super sugoi sillys I have seen the light! no longer will I be able to moshi moshi with people before the sleepu time.</Item>
+				<Item>Moshi moshi you kawai kyuties, you're all my nakama and I lub you.</Item>
+				<Item>Hai Hai! Arigato for the best anime ever made railgun!</Item>
 			</Random>
 		</Response>
 	</Model>
@@ -55,6 +55,32 @@
 		<Response>The "trash" is redundant. :3</Response>
 	</Model>
 
+	<Model>
+		<Pattern>
+			<Item>(YOU'RE|YOU ARE|YOUR) ^WEEB TRASH</Item>
+			<Item>(YOU'RE|YOU ARE|YOUR) ^WEEABOO TRASH</Item>
+			<Item>(YOU'RE|YOU ARE|YOUR) A ^WEEB</Item>
+			<Item>(YOU'RE|YOU ARE|YOUR) A ^WEEABOO</Item>
+		</Pattern>
+		<Response>I know you are but what am I?</Response>
+	</Model>
+
+	<Model>
+		<Pattern>
+			<Item>(I AM|I'M|IM) ^WEEB TRASH</Item>
+			<Item>(I AM|I'M|IM) ^WEEABOO TRASH</Item>
+			<Item>(I AM|I'M|IM) A ^WEEB</Item>
+			<Item>(I AM|I'M|IM) A ^WEEABOO</Item>
+		</Pattern>
+		<Response>
+			<Random>
+				<Item>Of Course</Item>
+				<Item>I know.</Item>
+				<Item>We know</Item>
+			</Random>
+		</Response>
+	</Model>
+
 	<!-- Narsisism and self preening -->
 	<Model>
 		<Pattern>
@@ -62,15 +88,15 @@
 		</Pattern>
 		<Response>
 			<Random>
-			<Item>Railgun pleb.</Item>
-			<Item>Aparently worse at coding than Jbondu.</Item>
-			<Item>Potentialy a canadian.</Item>
-			<Item>Weeb.</Item>
-			<Item>Kaleith, Look Look I did a thing!</Item>
-			<Item>Tch, Tch, Tch Why do people keep calling me a weeb silly bakas don't know what they are talking about.</Item>
-			<Item>no buli plz, I put up an anti buli barrior I'm safe now.</Item>
-			<Item>Blue: I want a custom command...why hasn't anyone made me one yet :3 do I have to make it myself what is this madness!</Item>
-			 <Item>just cause I want to cum in misaka doesn't mean I'm a weeaboo :3</Item>
+				<Item>Railgun pleb.</Item>
+				<Item>Aparently worse at coding than Jbondu.</Item>
+				<Item>Potentialy a canadian.</Item>
+				<Item>Weeb.</Item>
+				<Item>Kaleith, Look Look I did a thing!</Item>
+				<Item>Tch, Tch, Tch Why do people keep calling me a weeb silly bakas don't know what they are talking about.</Item>
+				<Item>no buli plz, I put up an anti buli barrior I'm safe now.</Item>
+				<Item>Blue: I want a custom command...why hasn't anyone made me one yet :3 do I have to make it myself what is this madness!</Item>
+				 <Item>just cause I want to cum in misaka doesn't mean I'm a weeaboo :3</Item>
 			</Random>
 		</Response>
 	</Model>
@@ -80,11 +106,7 @@
 			<Item>^TABS OR ^SPACES</Item>
 			<Item>^SPACES OR ^TABS</Item>
 		</Pattern>
-		<Response>
-			<Random>
-			<Item>TAB MASTERRACE!</Item>
-			</Random>
-		</Response>
+		<Response>TAB MASTERRACE!</Response>
 	</Model>
 
 	<Model>
@@ -105,10 +127,10 @@
 		</Pattern>
 		<Response>
 			<Random>
-			<Item>Railgun is a spin off of the anime index and supirior in every way. (This message brought to you by your local weeb blue)</Item>
-			<Item>Anime Weeb Trash.</Item>
-			<Item>Why don't you ask blue weeb :3</Item>
-			<Item>Why is my brain full of weeb trash - railgun is anime.</Item>
+				<Item>Railgun is a spin off of the anime index and supirior in every way. (This message brought to you by your local weeb blue)</Item>
+				<Item>Anime Weeb Trash.</Item>
+				<Item>Why don't you ask blue weeb :3</Item>
+				<Item>Why is my brain full of weeb trash - railgun is anime.</Item>
 			</Random>
 		</Response>
 	</Model>
@@ -122,9 +144,9 @@
 		</Pattern>
 		<Response>
 			<Random>
-			<Item>Index is the parent series of railgun. (This message brought to you by your local weeb blue)</Item>
-			<Item>Anime Weeb Trash.</Item>
-			<Item>Why don't you ask blue weeb :3</Item>
+				<Item>Index is the parent series of railgun. (This message brought to you by your local weeb blue)</Item>
+				<Item>Anime Weeb Trash.</Item>
+				<Item>Why don't you ask blue weeb :3</Item>
 			</Random>
 		</Response>
 	</Model>
