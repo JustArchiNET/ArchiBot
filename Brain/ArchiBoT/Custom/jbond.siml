@@ -101,6 +101,8 @@
           <Item>"Archi: even when I masturbate I have practical purpose and excellent reasoning"</Item>
           <Item>"Detective Taigo's Packing Heat: More anal misadventures"</Item>
           <Item>"Asimmacovski: I like 'em raw and bloody like my lolis"</Item>
+          <Item>"FakeNameOF: My package came! :3"</Item>
+          <Item>"Asimmacovski: and go hardo modo"</Item>
         </Random>
       </Response>
     </Model>
@@ -471,7 +473,8 @@
           <Item>The word ‘salary’ comes from the Latin for ‘salt’, and may derive from the fact that Roman soldiers often bought salt with the money they were paid.</Item>
           <Item>The Palacio de Sal Hotel and Spa in Bolivia is completely made out of salt.</Item>
           <Item>Death by salt over-consumption was a method of suicide in ancient China.</Item>
-          <Item>
+          <Item>https://i.imgur.com/sFiI8x0.png</Item>
+          <Item Weight="0.2">
             <Goto>% SALT LEVEL</Goto>
           </Item>
         </Random>
@@ -585,6 +588,11 @@
     
     <Model>
       <Pattern>% CHEER ME UP %</Pattern>
+      <Response>How about a joke? <Goto>RANDOMJOKE</Goto></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>% CHEER UP %</Pattern>
       <Response>How about a joke? <Goto>RANDOMJOKE</Goto></Response>
     </Model>
     
