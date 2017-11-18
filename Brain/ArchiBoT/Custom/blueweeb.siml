@@ -96,7 +96,7 @@
 				<Item>Tch, Tch, Tch Why do people keep calling me a weeb silly bakas don't know what they are talking about.</Item>
 				<Item>no buli plz, I put up an anti buli barrior I'm safe now.</Item>
 				<Item>Blue: I want a custom command...why hasn't anyone made me one yet :3 do I have to make it myself what is this madness!</Item>
-				 <Item>just cause I want to cum in misaka doesn't mean I'm a weeaboo :3</Item>
+				<Item>just cause I want to cum in misaka doesn't mean I'm a weeaboo :3</Item>
 			</Random>
 		</Response>
 	</Model>
@@ -113,7 +113,6 @@
 		<Pattern>
 			<Item>:CAVEMANBANANA:</Item>
 			<Item>ːCAVEMANBANANAː</Item>
-			<Item> % BANANA % </Item>
 		</Pattern>
 		<Response>Incarnation of Asim ːCavemanBananaː</Response>
 	</Model>
