@@ -61,5 +61,9 @@
       <Pattern>fishlove</Pattern>
       <Response>https://imgur.com/gallery/GhdgA</Response>
     </Model>
+    <Model>
+      <Pattern>doubt</Pattern>
+      <Response>:doubt:</Response>
+    </Model>
   </Concept>
 </Siml>
