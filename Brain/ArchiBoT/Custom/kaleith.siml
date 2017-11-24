@@ -571,26 +571,26 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>❾: Es ist gewiss</Item>
-					<Item>❾: Es ist zweifellos so</Item>
-					<Item>❾: Zweifelsohne</Item>
-					<Item>❾: Definitiv ja</Item>
-					<Item>❾: Darauf kannst du dich verlassen</Item>
-					<Item>❾: Wie ich es sehe, ja</Item>
-					<Item>❾: Höchstwahrscheinlich</Item>
-					<Item>❾: Gute Aussichten</Item>
-					<Item>❾: Ja</Item>
-					<Item>❾: Alles deuten auf ja</Item>
-					<Item>❾: Antwort unklar, versuchs nochmal</Item>
-					<Item>❾: Frag später nochmal</Item>
-					<Item>❾: Ich sags dir lieber nicht jetzt</Item>
-					<Item>❾: Kann es jetzt nicht vorhersagen</Item>
-					<Item>❾: Nicht so gute Aussichten</Item>
-					<Item>❾: Auch in einer Million Jahre nicht !</Item>
-					<Item>❾: Meine Antwort ist nein</Item>
-					<Item>❾: Meine Quellen sagen nein</Item>
-					<Item>❾: Nicht so gute Aussichten</Item>
-					<Item>❾: Sehr zweifelhaft</Item>
+					<Item>:f_germany:: Es ist gewiss</Item>
+					<Item>:f_germany:: Es ist zweifellos so</Item>
+					<Item>:f_germany:: Zweifelsohne</Item>
+					<Item>:f_germany:: Definitiv ja</Item>
+					<Item>:f_germany:: Darauf kannst du dich verlassen</Item>
+					<Item>:f_germany:: Wie ich es sehe, ja</Item>
+					<Item>:f_germany:: Höchstwahrscheinlich</Item>
+					<Item>:f_germany:: Gute Aussichten</Item>
+					<Item>:f_germany:: Ja</Item>
+					<Item>:f_germany:: Alles deuten auf ja</Item>
+					<Item>:f_germany:: Antwort unklar, versuchs nochmal</Item>
+					<Item>:f_germany:: Frag später nochmal</Item>
+					<Item>:f_germany:: Ich sags dir lieber nicht jetzt</Item>
+					<Item>:f_germany:: Kann es jetzt nicht vorhersagen</Item>
+					<Item>:f_germany:: Nicht so gute Aussichten</Item>
+					<Item>:f_germany:: Auch in einer Million Jahre nicht !</Item>
+					<Item>:f_germany:: Meine Antwort ist nein</Item>
+					<Item>:f_germany:: Meine Quellen sagen nein</Item>
+					<Item>:f_germany:: Nicht so gute Aussichten</Item>
+					<Item>:f_germany:: Sehr zweifelhaft</Item>
 				</Random>
 			</Response>
 		</Model>
