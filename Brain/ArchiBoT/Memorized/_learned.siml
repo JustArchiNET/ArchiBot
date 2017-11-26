@@ -65,5 +65,9 @@
       <Pattern>doubt</Pattern>
       <Response>:doubt:</Response>
     </Model>
+    <Model>
+      <Pattern>brain</Pattern>
+      <Response>https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom</Response>
+    </Model>
   </Concept>
 </Siml>
