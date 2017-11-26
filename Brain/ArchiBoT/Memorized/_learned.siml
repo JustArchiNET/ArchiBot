@@ -73,5 +73,9 @@
       <Pattern>smile</Pattern>
       <Response>:smile:</Response>
     </Model>
+    <Model>
+      <Pattern>sgsmile</Pattern>
+      <Response>:sgsmile:</Response>
+    </Model>
   </Concept>
 </Siml>
