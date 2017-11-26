@@ -34,7 +34,7 @@
       <Response>heheh ( ͡° ͜ʖ ͡°)</Response>
     </Model>
     <Model>
-      <Pattern>sgsmile</Pattern>
+      <Pattern>smile</Pattern>
       <Response>ːsgsmileː</Response>
     </Model>
     <Model>
@@ -68,14 +68,6 @@
     <Model>
       <Pattern>brain</Pattern>
       <Response>https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom</Response>
-    </Model>
-    <Model>
-      <Pattern>smile</Pattern>
-      <Response>:smile:</Response>
-    </Model>
-    <Model>
-      <Pattern>sgsmile</Pattern>
-      <Response>:sgsmile:</Response>
     </Model>
   </Concept>
 </Siml>
