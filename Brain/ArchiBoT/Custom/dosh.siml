@@ -293,6 +293,14 @@
 
 		<Model>
 			<Pattern>
+				<Item>WHO IS DÛSH</Item>
+				<Item>WHO IS DUSH</Item>
+			</Pattern>
+			<Response>He is Dûsh https://i.imgur.com/0T7jQf5.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>MALKAVIAN</Item>
 				<Item>MALKAVIAN MOD</Item>
 				<Item>MALKAVIAN MOD QUOTE</Item>
