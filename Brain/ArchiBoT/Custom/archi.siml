@@ -168,6 +168,8 @@
 
 		<Model>
 			<Pattern>
+				<Item>^ARCHIDICTATOR</Item>
+				<Item>^ARCHI DICTATOR</Item>
 				<Item>^DICTATOR ARCHI</Item>
 				<Item>(GLORIOUS|BENEVOLENT) ^LEADER</Item>
 			</Pattern>
