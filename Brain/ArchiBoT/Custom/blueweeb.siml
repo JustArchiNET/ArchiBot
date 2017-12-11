@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Siml>
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="_blueweeb">
 	<Model>
 		<Pattern>
@@ -88,7 +88,7 @@
 			<If User="ID" Not="{source-id}">The command is only available in private chats :3&lt;</If>
 			<Else>
 				<Random>
-					<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:sgsmile:/ I'm the best!</Item>
+					<Item><Var Think:Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:sgsmile:/ I'm the best!</Item>
 					<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I'm going spin the Slot Machine now&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:doubt:/ Wait what how did that happen.</Item>
 					<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;You Won! \:sgsmile:/ I cheated to get 3 in a row \o/</Item>
 				</Random>
