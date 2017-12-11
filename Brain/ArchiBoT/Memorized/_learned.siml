@@ -69,5 +69,9 @@
       <Pattern>brain</Pattern>
       <Response>https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom</Response>
     </Model>
+    <Model>
+      <Pattern>VSX QUOTE</Pattern>
+      <Response>"VSX: i only gib unbundleds :3"</Response>
+    </Model>
   </Concept>
 </Siml>
