@@ -13,7 +13,7 @@
 		<Response>
 			<Random>
 				<!-- Please feel free to remove anything you don't think is good or add anythign to the following...It needs to be bigger help -->
-				<Item>See entry for <User Get="name" />.</Item>
+				<Item>See entry for <ArchiChannelRandomUserNickname>steam-110338190878500888</ArchiChannelRandomUserNickname>.</Item>
 				<Item>See entry for blue.</Item>
 				<Item>Nic: !nsfw loli.</Item>
 			</Random>
@@ -115,6 +115,17 @@
 			<Item>ːCAVEMANBANANAː</Item>
 		</Pattern>
 		<Response>Incarnation of Asim ːCavemanBananaː</Response>
+	</Model>
+
+	<Model>
+		<Pattern>CIRNOSLOTS</Pattern>
+		<Response>
+			<Random>
+				<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>&#xD;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;You Won! \:sgsmile:/ I'm the best!</Item>
+				<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>&#xD;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;You Won! \:sgsmile:/ Wait what how did that happen</Item>
+				<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>&#xD;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;You Won! \:sgsmile:/ I cheated to get 3 in a row \o/</Item>
+			</Random>
+		</Response>
 	</Model>
 
 	<!-- Education Purposes -->
