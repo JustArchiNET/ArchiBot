@@ -84,7 +84,8 @@
 	<Model>
 		<Pattern>CIRNOSLOTS</Pattern>
 		<Response>
-			<If User="ID" Not="{User:SourceID}">The command is only available in private chats :3&lt;</If>
+			<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+			<If User="ID" Not="{source-id}">The command is only available in private chats :3&lt;</If>
 			<Else>
 				<Random>
 					<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:sgsmile:/ I'm the best!</Item>
