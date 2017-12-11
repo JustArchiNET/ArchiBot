@@ -13,7 +13,7 @@
 		<Response>
 			<Random>
 				<!-- Please feel free to remove anything you don't think is good or add anythign to the following...It needs to be bigger help -->
-				<Item>See entry for <User Get="name" />.</Item>
+				<Item>See entry for <ArchiChannelRandomUserNickname>steam-110338190878500888</ArchiChannelRandomUserNickname>.</Item>
 				<Item>See entry for blue.</Item>
 				<Item>Nic: !nsfw loli.</Item>
 			</Random>
@@ -55,32 +55,6 @@
 		<Response>The "trash" is redundant. :3</Response>
 	</Model>
 
-	<Model>
-		<Pattern>
-			<Item>(YOU'RE|YOU ARE|YOUR) ^WEEB TRASH</Item>
-			<Item>(YOU'RE|YOU ARE|YOUR) ^WEEABOO TRASH</Item>
-			<Item>(YOU'RE|YOU ARE|YOUR) A ^WEEB</Item>
-			<Item>(YOU'RE|YOU ARE|YOUR) A ^WEEABOO</Item>
-		</Pattern>
-		<Response>I know you are but what am I?</Response>
-	</Model>
-
-	<Model>
-		<Pattern>
-			<Item>(I AM|I'M|IM) ^WEEB TRASH</Item>
-			<Item>(I AM|I'M|IM) ^WEEABOO TRASH</Item>
-			<Item>(I AM|I'M|IM) A ^WEEB</Item>
-			<Item>(I AM|I'M|IM) A ^WEEABOO</Item>
-		</Pattern>
-		<Response>
-			<Random>
-				<Item>Of Course</Item>
-				<Item>I know.</Item>
-				<Item>We know</Item>
-			</Random>
-		</Response>
-	</Model>
-
 	<!-- Narsisism and self preening -->
 	<Model>
 		<Pattern>
@@ -110,11 +84,14 @@
 	</Model>
 
 	<Model>
-		<Pattern>
-			<Item>:CAVEMANBANANA:</Item>
-			<Item>ːCAVEMANBANANAː</Item>
-		</Pattern>
-		<Response>Incarnation of Asim ːCavemanBananaː</Response>
+		<Pattern>CIRNOSLOTS</Pattern>
+		<Response>
+			<Random>
+				<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:sgsmile:/ I'm the best!</Item>
+				<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I'm going spin the Slot Machine now&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:doubt:/ Wait what how did that happen.</Item>
+				<Item><Var Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;You Won! \:sgsmile:/ I cheated to get 3 in a row \o/</Item>
+			</Random>
+		</Response>
 	</Model>
 
 	<!-- Education Purposes -->
