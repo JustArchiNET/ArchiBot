@@ -55,32 +55,6 @@
 		<Response>The "trash" is redundant. :3</Response>
 	</Model>
 
-	<Model>
-		<Pattern>
-			<Item>(YOU'RE|YOU ARE|YOUR) ^WEEB TRASH</Item>
-			<Item>(YOU'RE|YOU ARE|YOUR) ^WEEABOO TRASH</Item>
-			<Item>(YOU'RE|YOU ARE|YOUR) A ^WEEB</Item>
-			<Item>(YOU'RE|YOU ARE|YOUR) A ^WEEABOO</Item>
-		</Pattern>
-		<Response>I know you are but what am I?</Response>
-	</Model>
-
-	<Model>
-		<Pattern>
-			<Item>(I AM|I'M|IM) ^WEEB TRASH</Item>
-			<Item>(I AM|I'M|IM) ^WEEABOO TRASH</Item>
-			<Item>(I AM|I'M|IM) A ^WEEB</Item>
-			<Item>(I AM|I'M|IM) A ^WEEABOO</Item>
-		</Pattern>
-		<Response>
-			<Random>
-				<Item>Of Course</Item>
-				<Item>I know.</Item>
-				<Item>We know</Item>
-			</Random>
-		</Response>
-	</Model>
-
 	<!-- Narsisism and self preening -->
 	<Model>
 		<Pattern>
@@ -107,14 +81,6 @@
 			<Item>^SPACES OR ^TABS</Item>
 		</Pattern>
 		<Response>TAB MASTERRACE!</Response>
-	</Model>
-
-	<Model>
-		<Pattern>
-			<Item>:CAVEMANBANANA:</Item>
-			<Item>ːCAVEMANBANANAː</Item>
-		</Pattern>
-		<Response>Incarnation of Asim ːCavemanBananaː</Response>
 	</Model>
 
 	<Model>
