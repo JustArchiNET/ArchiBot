@@ -115,6 +115,17 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>GIBTUNA %</Item>
+				<Item>GIB TUNA %</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="gibtuna" Value="{Bind Match}" />
+				<If Var="gibtuna" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibtuna" /></Else> will give away <Js>randomIntBetween(2,100);</Js> tunas to Kaleith today \:catpuzzle:/
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>WEATHER</Pattern>
 			<Response>
 				<If User="location" Value="">You haven't set a location in your profile, I don't know where you are :doubt:</If>
