@@ -460,8 +460,10 @@
 		<Model>
 			<Pattern>^NCT MISC</Pattern>
 			<Response>
-				<Item Weight="0.001"><Goto>NCT</Goto></Item>
-				<!-- Add <Item> here -->
+				<Random>
+					<Item Weight="0.001"><Goto>NCT</Goto></Item>
+					<!-- Add <Item> here -->
+				</Random>
 			</Response>
 		</Model>
 
