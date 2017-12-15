@@ -98,8 +98,12 @@
 				<Item>GIB NIER %</Item>
 			</Pattern>
 			<Response>
-				<Var Think:Set="gibnier" Value="{Bind Match}" />
-				<If Var="gibnier" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
+				<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+				<If User="ID" Value="{source-id}">I'm not gonna give you NieR :doubt:</If>
+				<Else>
+					<Var Think:Set="gibnier" Value="{Bind Match}" />
+					<If Var="gibnier" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
+				</Else>
 			</Response>
 		</Model>
 
@@ -109,8 +113,12 @@
 				<Item>GIB NIOH %</Item>
 			</Pattern>
 			<Response>
-				<Var Think:Set="gibnioh" Value="{Bind Match}" />
-				<If Var="gibnioh" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnioh" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of <Random><Item>Nioh: Complete Edition today \:sgsmile:/</Item><Item Weight="0.1">Nioh:Automata™ today \:sgsmile:/&#xD;...wait what \:doubt:/</Item></Random>
+				<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+				<If User="ID" Value="{source-id}">I'm not gonna give you Nioh :doubt:</If>
+				<Else>
+					<Var Think:Set="gibnioh" Value="{Bind Match}" />
+					<If Var="gibnioh" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnioh" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of <Random><Item>Nioh: Complete Edition today \:sgsmile:/</Item><Item Weight="0.1">Nioh:Automata™ today \:sgsmile:/&#xD;...wait what \:doubt:/</Item></Random>
+				</Else>
 			</Response>
 		</Model>
 
@@ -120,8 +128,12 @@
 				<Item>GIB TUNA %</Item>
 			</Pattern>
 			<Response>
-				<Var Think:Set="gibtuna" Value="{Bind Match}" />
-				<If Var="gibtuna" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibtuna" /></Else> will give away <Js>randomIntBetween(2,100);</Js> tunas to Kaleith today \:catpuzzle:/
+				<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+				<If User="ID" Value="{source-id}">I'm not gonna give Kaleith tuna :doubt:</If>
+				<Else>
+					<Var Think:Set="gibtuna" Value="{Bind Match}" />
+					<If Var="gibtuna" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibtuna" /></Else> will give away <Js>randomIntBetween(2,100);</Js> tunas to Kaleith today \:catpuzzle:/
+				</Else>
 			</Response>
 		</Model>
 
