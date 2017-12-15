@@ -6,7 +6,7 @@
   <!--Regex: Splits the user input wherever the given Regular Expression matches.-->
   <!--Note: The order/priority of splitting the user input is proportional to the order of elements within this Splitter element-->
   <Splitter>
-    <Text>. </Text>
+    <Text>.</Text>
     <Text>?</Text>
   </Splitter>
   <!--Filter: Filters below are used to filter user input BEFORE its processed. You may use <Text>, <Word> and <Regex> tags.-->
@@ -19,7 +19,6 @@
   <Filter Value="">
     <Text>=reply</Text>
     <Text>name=reset</Text>
-    <Regex>\.+$</Regex>  <!-- should hopefully placate jbond's ire by removing trailing dots at the end of an input -->
   </Filter>
   <!--SMILE-->
   <Filter Value="smile">
