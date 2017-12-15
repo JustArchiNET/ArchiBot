@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_nct">
+
+		<!-- NCT commands and stuff. Scroll down to add to the file. -->
+		<!-- Don't know what the fuck you're doing? Look for the user manual at the bottom of this document. :bite: -->
+
+		<Model>
+			<Pattern>
+				<Item>(NOCONTEXT|ZERO CONTEXT|0CONTEXT|ZEROCONTEXT|ZCT)</Item>
+				<Item>NO ^CONTEXT</Item>
+				<Item>0 ^CONTEXT</Item>
+			</Pattern>
+			<Response>
+				<Goto>NCT</Goto>
+			</Response>
+		</Model>
+			
+		<!-- General NCT - If you add a user, add their nick in the list. -->
+		
+		<Model>
+			<Pattern>^NCT</Pattern>
+			<Response>
+				<Random>
+					<Item><Goto>NCT <Random>(ALI|AMBI|ARCHI|ARCHIBOT|ASIM|BLUE|CHT|CJ|DELTA|DOSH|DRACO|FERRET|FAKE|HEILURI|JBOND|JENNI|KALEITH|KHY|MADU|MIKU|MIYUU|NIC|PURPUR|ROSEY|SKATR|SVIAT|TAIGO|TRIST|VSX|ZARA|MISC)</Random></Goto></Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>NO ^CONTEXT _</Item>
+				<Item>^NOCONTEXT _</Item>
+				<Item>0 ^CONTEXT _</Item>
+				<Item>^0CONTEXT _</Item>
+				<Item>ZERO ^CONTEXT _</Item>
+				<Item>^ZEROCONTEXT _</Item>
+				<Item>^ZCT _</Item>
+			</Pattern>
+			<Response><Goto>NCT <Match /></Goto></Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>NO CONTEXT *</Item>
+				<Item>NOCONTEXT *</Item>
+				<Item>0 CONTEXT *</Item>
+				<Item>0CONTEXT *</Item>
+				<Item>ZERO CONTEXT *</Item>
+				<Item>ZEROCONTEXT *</Item>
+				<Item>ZCT *</Item>
+				<Item>NCT *</Item>
+			</Pattern>
+			<Response>No user found!</Response>
+		</Model>
+
+		<!-- Users registry. Add NCT quotes to users, or add a new user if the person you are looking for is missing. :bite: -->
+		<!-- Please add users by alphabetical order - For example, Archi would be before Kaleith, etc -->
+		
+		<Model>
+			<Pattern>^NCT (ALI|ALI RAZA)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Ali Raza: Any command to check out the list if all the balls?"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (AMBI|AMBIDOT)</Pattern>
+			<Response>
+				<Random>
+					<Item>"ambidot: has anyone here played cuckhead yet"</Item>
+					<Item>"ambidot: latex is gaytex"</Item>
+					<Item>"ambidot: my dick is on the table tro buy"</Item>
+					<Item>"ambidot: were you female 4.6 months ago?"</Item>
+					<Item>"ambidot: working with your mother is pure pleasure"</Item>
+					<Item>"ambidot: your mother will need to renew her subscription to my dick"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT ARCHI</Pattern>
+			<Response>
+				<Random>
+					<Item>"Archi: @kaleith did you find your butthole yet"</Item>
+					<Item>"Archi: I already have ideas where to hide stuff"</Item>
+					<Item>"Archi: I appreciate traps"</Item>
+					<Item>"Archi: I prepared my usb stick"</Item>
+					<Item>"Archi: MAYBE I SHOULD PLAY NEP"</Item>
+					<Item>"Archi: SEMEN"</Item>
+					<Item>"Archi: WELCOME IN POLAND"</Item>
+					<Item>"Archi: a reward can be a photo of my dick"</Item>
+					<Item>"Archi: ambo bundled your mother"</Item>
+					<Item>"Archi: can't eat it all by myself"</Item>
+					<Item>"Archi: doshie stop it hurts"</Item>
+					<Item>"Archi: even when I masturbate I have practical purpose and excellent reasoning"</Item>
+					<Item>"Archi: nep is the best rpg I've ever played"</Item>
+					<Item>"Archi: nep mvp"</Item>
+					<Item>"Archi: suggest him nep"</Item>
+					<Item>"Archi: your mother is 2expensive"</Item>
+					<Item>"Archi: cock suck delicious*"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (ARCHIBOT|BOT|BOTTU|AI)</Pattern>
+			<Response>
+				<Random>
+					<Item>"ArchiBoT: Flipped-out Revolution ambidot"</Item>
+					<Item>"ArchiBoT: I don't know whether or not I am being penetrated. I am well respected as a computer software."</Item>
+					<Item>"ArchiBoT: I'm Vladimir Pudding"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (ASIMMACOVSKI|ASIM)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Asim Is Forever 17: Yes but getting wet implies something going horribly wrong"</Item>
+					<Item>"Asim is Forever 17: Can I visit your underwater park?"</Item>
+					<Item>"Asimmacovski: I like 'em raw and bloody like my lolis"</Item>
+					<Item>"Asimmacovski: I play myself every night"</Item>
+					<Item>"Asimmacovski: [H] pumpkins [W] lolis"</Item>
+					<Item>"Asimmacovski: a cave full of lolis... hmm"</Item>
+					<Item>"Asimmacovski: all I want is a loli to bully me"</Item>
+					<Item>"Asimmacovski: and go hardo modo"</Item>
+					<Item>"Asimmacovski: beer and bananas?"</Item>
+					<Item>"Asimmacovski: better hack your net than your ass"</Item>
+					<Item>"Asimmacovski: cracking the code to the hidden loli island?"</Item>
+					<Item>"Asimmacovski: even girls have dicks in their hearts"</Item>
+					<Item>"Asimmacovski: get cold free banana"</Item>
+					<Item>"Asimmacovski: no lolis"</Item>
+					<Item>"Asimmacovski: time to dream about getting stabbed by a loli"</Item>
+					<Item>"Asimmacovski: wish plutia would force feed me a sandwich"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (BLUE|BLUE LIGHTNING|BLUE LIGHTING|BLUE WEEB|BLUEWEEB)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Blue Ϟ Lightning: I can teleport with my butt \o/"</Item>
+					<Item>"Blue Ϟ Lightning: I want to be bulied and taken care of"</Item>
+					<Item>"Blue Ϟ Lightning: doshi is duccrently in my sex dungon"</Item>
+					<Item>"Blue Ϟ Lightning: explosion death murder isn't as hard as I thought \o/"</Item>
+					<Item>"Blue Ϟ Lightning: let me lay first"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT CHT</Pattern>
+			<Response>
+				<Random>
+					<Item>"CHT a.k.a Death Cruzer: And unfuck will work."</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^NCT (CJ|CJC|CJCOMPLEX)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Cj: brb, nature is calling D:"</Item>
+					<Item>"Cjcomplex: Huh I'm cheaper than BR for some reason..."</Item>
+					<Item>"Cjcomplex: afk, off to buy drugs"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (DELTA|DELTABLADE|DELTABLADEX)</Pattern>
+			<Response>
+				<Random>
+					<Item>"DeltaBladeX: I'm dripping hot wax onto zombie twat."</Item>
+					<Item>"DeltaBladeX: Youngest in my bed."</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (DOSH|VAPOR DOSH)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Vapor Dosh: Archi really wants me to suck his dick for that bitcoin"</Item>
+					<Item>"Vapor Dosh: COMMANDO CHICKEN!"</Item>
+					<Item>"Vapor Dosh: I would xbone Vert if I could :sgsmile:</Item>
+					<Item>"Vapor Dosh: Maybe something like bull testicles from Spain :speak:"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT DRACO</Pattern>
+			<Response>
+				<Random>
+					<Item>"Draco: :sgsmile:"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (FERRET|EVIL FERRET|EVILFERRET|BRYAN)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Evil Ferret™: time to spread seed?"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (FAKE|FAKENAME|FAKENAMEOF)</Pattern>
+			<Response>
+				<Random>
+					<Item>"FakeNameOF: But do you have a 4K dick to have her suck on :3"</Item>
+					<Item>"FakeNameOF: Come on build that libido :3"</Item>
+					<Item>"FakeNameOF: It's like an avalanche in my pants outside :3"</Item>
+					<Item>"FakeNameOF: My package came! :3"</Item>
+					<Item>"FakeNameOF: Pokemon Ultra Fuck You and Ultra Suck My Dick :3"</Item>
+					<Item>"FakeNameOF: Tic toc tic toc it's time to suck the cock :3"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (HEILURI|HEIL)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Heiluri: dem condom rolled drugs deep in the ass of timo"</Item>
+					<Item>"Heiluri: everyone is watching lolis and wanking, guess it's a gaming time then o.-"</Item>
+					<Item>"Heiluri: farting under pelicans asses o.o"</Item>
+					<Item>"Heiluri: i thought you played with children :p"</Item>
+					<Item>"Heiluri: it's calling bananas from beyond the death ? o.o"</Item>
+					<Item>"Heiluri: now i started to wonder how good bj feel from person without teeth o.-"</Item>
+					<Item>"Heiluri: oh my towel slipped right when jbond did come here, but no it's not free"</Item>
+					<Item>"Heiluri: sniffing bicycle saddles :-)"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (JBOND|JBONDO|JBONDGUY007)</Pattern>
+			<Response>
+				<Random>
+					<Item>"jbondguy007: I have a self-pulling flag"</Item>
+					<Item>"jbondguy007: It stands at around 45cm"</Item>
+					<Item>"jbondguy007: No trap then"</Item>
+					<Item>"jbondguy007: Note to self: No more dosh fisting"</Item>
+					<Item>"jbondguy007: VSX WILL BE SAVED BY THE POWER OF PENIS?"</Item>
+					<Item>"jbondguy007: dicks out for poland"</Item>
+					<Item>"jbondguy007: Oh wow, yours is bigger"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (JENNI|JENNIFER|TREE|TREEB)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Jenni the Emo Duchess: nigga, what? Google stfu, how is trappa anything like booty drank, fuck off"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (KALEITH|KAL)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Kaleith: I don't use make-up"</Item>
+					<Item>"Kaleith: I like my lolis like I like my coffee... with a dick"</Item>
+					<Item>"Kaleith: are we talking about drugs :bite:"</Item>
+					<Item>"Kaleith: how hard is it"</Item>
+					<Item>"Kaleith: rubbing lolis is inspiring"</Item>
+					<Item>"Kaleith: what if the lolis have dicks"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT KHY</Pattern>
+			<Response>
+				<Random>
+					<Item>"Khy - Squid Edition: clue inside lolis"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (MADU|MADURUDE)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Barmherziger Feind Madu: I am feeling my ass already"</Item>
+					<Item>"Barmherziger Feind Madu: I can't properly bend over anymore"</Item>
+					<Item>"Barmherziger Feind Madu: and my brother doesn't let me play with his"</Item>
+					<Item>"Barmherziger Feind Madu: what's wrong with dick of this guy"</Item>
+					<Item>"Adorable Howl Madu: memo: don't floss your froth teeth"</Item>
+					<Item>"Profuse Kick Madu: I need 2 DDs"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (MIKU|MICHELLE)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Miku: And about the banana in the pantsu"</Item>
+					<Item>"Miku: I like it too, but my neck disagrees"</Item>
+					<Item>"Miku: pls donate traps"</Item>
+					<Item>"Miku: Only when you aren't breaking it though :3"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (MIYUU|ミユ)</Pattern>
+			<Response>
+				<Random>
+					<Item>"ミユ: "Coming soon""</Item>
+					<Item>"ミユ: Anything's a waifu if you're brave enough :3"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT NIC</Pattern>
+			<Response>
+				<Random>
+					<Item>"Nic333: but here people don't buy sperm"</Item>
+					<Item>"Nic333: so i was happy as fuck and my dick was hard"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (PURPUR|PUR)</Pattern>
+			<Response>
+				<Random>
+					<Item>".Purpur ▵ᐂ▵ Weltschmerz.: no panties = no service :3"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT ROSEY</Pattern>
+			<Response>
+				<Random>
+					<Item>"Rosey: I want to feel your ass."</Item>
+					<Item>"Rosey: We need to get more dicks to Finland!"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (SKATR|SKATRZOO)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Skatrzoo: incredibly accurate, but it's still hard"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT SVIAT</Pattern>
+			<Response>
+				<Random>
+					<Item>"Sviat: chicken lolis"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT TAIGO</Pattern>
+			<Response>
+				<Random>
+					<Item>"Agonizing Version Taigo: 3 lolis and a soda pop"</Item>
+					<Item>"Agonizing Version Taigo: that's 2 million mcdonalds burgers"</Item>
+					<Item>"Detective Taigo's Packing Heat: I left to fondle packages"</Item>
+					<Item>"Detective Taigo's Packing Heat: More anal misadventures"</Item>
+					<Item>"Historical Feeder Taigo: It has to be big"</Item>
+					<Item>"Historical Feeder Taigo: trying to get to madu so we can play with each others animals"</Item>
+					<Item>"Taigo's Hunting Tricksters Again: I collect other peoples e-penises"</Item>
+					<Item>"Tuna Man Taigo: Why is jbond fisting dosh"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (TRISTETEA|TRIST|TRIS)</Pattern>
+			<Response>
+				<Random>
+					<Item>"(♉ ) Tristetea: I'll just search under your nuts then :3"</Item>
+					<Item>"(♉ ) Tristetea: get your ass in here"</Item>
+					<Item>"(♉ ) Tristetea: shit in 4 different flavours :3"</Item>
+					<Item>"Tristetea: I recall some rapper had pussy juice in the us"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT VSX</Pattern>
+			<Response>
+				<Random>
+					<Item>"VSX: Loligarchy will be inevitable :3"</Item>
+					<Item>"VSX: So I can shoot archi finally"</Item>
+					<Item>"VSX: Someone pls ask bsod to stop violating me ;-;"</Item>
+					<Item>"VSX: you're a penis thief?"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (ZARA|ZARAXIS)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Zaraxis: Doshie joins group I want to be face fucked. ;3&lt;"</Item>
+				</Random>
+			</Response>
+		</Model>
+
+
+		<!-- MISC NCT: Confused? Just add the quote here - I'll categorize it under the correct user later. :3 -->
+		
+		<Model>
+			<Pattern>^NCT MISC</Pattern>
+			<Response>
+				<Item Weight="0.001"><Goto>NCT</Goto></Item>
+				<!-- Add <Item> here -->
+			</Response>
+		</Model>
+
+		<!--
+						USER MANUAL
+						
+						
+						[Adding a quote]
+	
+		To add a quote, simply find the name of the user in this file, and add a new <Item> to the others, with quotation marks:
+		
+		<Item>"jbondguy007: Oh wow, yours is bigger">/Item>
+		
+		
+						[Adding a new user]
+		
+		To add a new user, follow the pattern as seen above, with the nick (or nicks) of the user. You can do this to add multiple nicknames:
+
+		<Pattern>^NCT (JBOND|JBONDO|JBONDGUY007)</Pattern>
+		
+		Then, add the user to the main NCT command. THIS IS IMPORTANT. Else nobody will see the NCT quotes when doing the !ai nct command. :3
+
+		If a user is missing and you're too afraid of fucking up to try adding them, no worries - Add to the "MISC NCT" category
+		(right above this User Manual) and I'll take care of the rest, later.™
+
+		-->
+    
+	</Concept>
+</Siml>
