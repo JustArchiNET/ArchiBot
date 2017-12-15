@@ -187,8 +187,20 @@
 		</Model>
 
 		<Model>
-			<Pattern>^ARCHIPIZZA</Pattern>
+			<Pattern>
+				<Item>^ARCHIPIZZA</Item>
+				<Item>^ARCHI PIZZA</Item>
+			</Pattern>
 			<Response>https://i.imgur.com/WYbVFDW.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHIDETECTIVE</Item>
+				<Item>^ARCHI DETECTIVE</Item>
+				<Item>^DETECTIVE ARCHI</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/DmzqLHA.jpg</Response>
 		</Model>
 
 		<Model>
