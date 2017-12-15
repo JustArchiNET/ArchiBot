@@ -15,14 +15,46 @@
 				<Goto>NCT</Goto>
 			</Response>
 		</Model>
-			
+
 		<!-- General NCT - If you add a user, add their nick in the list. -->
-		
+
 		<Model>
 			<Pattern>^NCT</Pattern>
 			<Response>
 				<Random>
-					<Item><Goto>NCT <Random>(ALI|AMBI|ARCHI|ARCHIBOT|ASIM|BLUE|CHT|CJ|DELTA|DOSH|DRACO|FERRET|FAKE|HEILURI|JBOND|JENNI|KALEITH|KHY|MADU|MIKU|MIYUU|NIC|PURPUR|ROSEY|SKATR|SVIAT|TAIGO|TRIST|VSX|ZARA|MISC)</Random></Goto></Item>
+					<Item><Goto>NCT <Random>
+					<Item Weight="0.008">ALI</Item>
+					<Item Weight="0.048">AMBI</Item>
+					<Item Weight="0.136">ARCHI</Item>
+					<Item Weight="0.024">ARCHIBOT</Item>
+					<Item Weight="0.128">ASIM</Item>
+					<Item Weight="0.04">BLUE</Item>
+					<Item Weight="0.008">CHT</Item>
+					<Item Weight="0.024">CJ</Item>
+					<Item Weight="0.016">DELTA</Item>
+					<Item Weight="0.032">DOSH</Item>
+					<Item Weight="0.008">DRACO</Item>
+					<Item Weight="0.008">FERRET</Item>
+					<Item Weight="0.048">FAKE</Item>
+					<Item Weight="0.064">HEILURI</Item>
+					<Item Weight="0.056">JBOND</Item>
+					<Item Weight="0.008">JENNI</Item>
+					<Item Weight="0.048">KALEITH</Item>
+					<Item Weight="0.008">KHY</Item>
+					<Item Weight="0.048">MADU</Item>
+					<Item Weight="0.032">MIKU</Item>
+					<Item Weight="0.016">MIYUU</Item>
+					<Item Weight="0.016">NIC</Item>
+					<Item Weight="0.008">PURPUR</Item>
+					<Item Weight="0.016">ROSEY</Item>
+					<Item Weight="0.008">SKATR</Item>
+					<Item Weight="0.008">SVIAT</Item>
+					<Item Weight="0.064">TAIGO</Item>
+					<Item Weight="0.032">TRIST</Item>
+					<Item Weight="0.032">VSX</Item>
+					<Item Weight="0.008">ZARA</Item>
+					<Item>MISC</Item>
+					</Random></Goto></Item>
 				</Random>
 			</Response>
 		</Model>
@@ -56,7 +88,7 @@
 
 		<!-- Users registry. Add NCT quotes to users, or add a new user if the person you are looking for is missing. :bite: -->
 		<!-- Please add users by alphabetical order - For example, Archi would be before Kaleith, etc -->
-		
+
 		<Model>
 			<Pattern>^NCT (ALI|ALI RAZA)</Pattern>
 			<Response>
@@ -65,7 +97,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (AMBI|AMBIDOT)</Pattern>
 			<Response>
@@ -79,7 +111,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT ARCHI</Pattern>
 			<Response>
@@ -104,7 +136,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (ARCHIBOT|BOT|BOTTU|AI)</Pattern>
 			<Response>
@@ -115,7 +147,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (ASIMMACOVSKI|ASIM)</Pattern>
 			<Response>
@@ -139,7 +171,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (BLUE|BLUE LIGHTNING|BLUE LIGHTING|BLUE WEEB|BLUEWEEB)</Pattern>
 			<Response>
@@ -152,7 +184,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT CHT</Pattern>
 			<Response>
@@ -172,7 +204,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (DELTA|DELTABLADE|DELTABLADEX)</Pattern>
 			<Response>
@@ -182,7 +214,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (DOSH|VAPOR DOSH)</Pattern>
 			<Response>
@@ -194,7 +226,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT DRACO</Pattern>
 			<Response>
@@ -203,7 +235,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (FERRET|EVIL FERRET|EVILFERRET|BRYAN)</Pattern>
 			<Response>
@@ -212,7 +244,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (FAKE|FAKENAME|FAKENAMEOF)</Pattern>
 			<Response>
@@ -226,7 +258,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (HEILURI|HEIL)</Pattern>
 			<Response>
@@ -242,7 +274,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (JBOND|JBONDO|JBONDGUY007)</Pattern>
 			<Response>
@@ -257,7 +289,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (JENNI|JENNIFER|TREE|TREEB)</Pattern>
 			<Response>
@@ -266,7 +298,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (KALEITH|KAL)</Pattern>
 			<Response>
@@ -280,7 +312,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT KHY</Pattern>
 			<Response>
@@ -289,7 +321,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (MADU|MADURUDE)</Pattern>
 			<Response>
@@ -303,7 +335,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (MIKU|MICHELLE)</Pattern>
 			<Response>
@@ -315,7 +347,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (MIYUU|ミユ)</Pattern>
 			<Response>
@@ -325,7 +357,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT NIC</Pattern>
 			<Response>
@@ -335,7 +367,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (PURPUR|PUR)</Pattern>
 			<Response>
@@ -344,7 +376,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT ROSEY</Pattern>
 			<Response>
@@ -354,7 +386,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (SKATR|SKATRZOO)</Pattern>
 			<Response>
@@ -363,7 +395,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT SVIAT</Pattern>
 			<Response>
@@ -372,7 +404,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT TAIGO</Pattern>
 			<Response>
@@ -388,7 +420,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (TRISTETEA|TRIST|TRIS)</Pattern>
 			<Response>
@@ -400,7 +432,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT VSX</Pattern>
 			<Response>
@@ -412,7 +444,7 @@
 				</Random>
 			</Response>
 		</Model>
-		
+
 		<Model>
 			<Pattern>^NCT (ZARA|ZARAXIS)</Pattern>
 			<Response>
@@ -424,7 +456,7 @@
 
 
 		<!-- MISC NCT: Confused? Just add the quote here - I'll categorize it under the correct user later. :3 -->
-		
+
 		<Model>
 			<Pattern>^NCT MISC</Pattern>
 			<Response>
@@ -435,10 +467,10 @@
 
 		<!--
 						USER MANUAL
-						
-						
+		
+		
 						[Adding a quote]
-	
+		
 		To add a quote, simply find the name of the user in this file, and add a new <Item> to the others, with quotation marks:
 		
 		<Item>"jbondguy007: Oh wow, yours is bigger">/Item>
@@ -447,15 +479,15 @@
 						[Adding a new user]
 		
 		To add a new user, follow the pattern as seen above, with the nick (or nicks) of the user. You can do this to add multiple nicknames:
-
+		
 		<Pattern>^NCT (JBOND|JBONDO|JBONDGUY007)</Pattern>
 		
 		Then, add the user to the main NCT command. THIS IS IMPORTANT. Else nobody will see the NCT quotes when doing the !ai nct command. :3
-
+		
 		If a user is missing and you're too afraid of fucking up to try adding them, no worries - Add to the "MISC NCT" category
 		(right above this User Manual) and I'll take care of the rest, later.™
 
 		-->
-    
+
 	</Concept>
 </Siml>
