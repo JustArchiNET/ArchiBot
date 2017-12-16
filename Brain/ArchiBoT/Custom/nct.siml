@@ -99,7 +99,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (AMBI|AMBIDOT)</Pattern>
+			<Pattern>^NCT (AMBI|AMBIDOT|AMBO)</Pattern>
 			<Response>
 				<Random>
 					<Item>"ambidot: has anyone here played cuckhead yet"</Item>
@@ -113,7 +113,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT ARCHI</Pattern>
+			<Pattern>^NCT (ARCHI|ARCHO)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Archi: @kaleith did you find your butthole yet"</Item>
@@ -206,7 +206,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (DELTA|DELTABLADE|DELTABLADEX)</Pattern>
+			<Pattern>^NCT (DELTA|DELTABLADE|DELTABLADEX|DELTO)</Pattern>
 			<Response>
 				<Random>
 					<Item>"DeltaBladeX: I'm dripping hot wax onto zombie twat."</Item>
@@ -216,7 +216,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (DOSH|VAPOR DOSH)</Pattern>
+			<Pattern>^NCT (DOSH|VAPOR DOSH|DUSH|DÛSH|VAPOR DUSH|VAPOR DÛSH|DOSHIE|DÛSHIE|DUSHIE)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Vapor Dosh: Archi really wants me to suck his dick for that bitcoin"</Item>
@@ -232,12 +232,13 @@
 			<Response>
 				<Random>
 					<Item>"Draco: :sgsmile:"</Item>
+					<Item Weight="0.1">"Draco: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"</Item>
 				</Random>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (FERRET|EVIL FERRET|EVILFERRET|BRYAN)</Pattern>
+			<Pattern>^NCT (FERRET|EVIL FERRET|EVILFERRET|BRYAN|FERRETTO)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Evil Ferret™: time to spread seed?"</Item>
@@ -246,7 +247,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (FAKE|FAKENAME|FAKENAMEOF)</Pattern>
+			<Pattern>^NCT (FAKE|FAKENAME|FAKENAMEOF|FAKU|FAKUNAMU)</Pattern>
 			<Response>
 				<Random>
 					<Item>"FakeNameOF: But do you have a 4K dick to have her suck on :3"</Item>
@@ -276,7 +277,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (JBOND|JBONDO|JBONDGUY007)</Pattern>
+			<Pattern>^NCT (JBOND|JBONDO|JBONDGUY007|JBOD)</Pattern>
 			<Response>
 				<Random>
 					<Item>"jbondguy007: I have a self-pulling flag"</Item>
@@ -300,7 +301,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (KALEITH|KAL)</Pattern>
+			<Pattern>^NCT (KALEITH|KAL|NEKO|CAT|KALE)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Kaleith: I don't use make-up"</Item>
@@ -323,7 +324,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (MADU|MADURUDE)</Pattern>
+			<Pattern>^NCT (MADU|MADURUDE|MADOO)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Barmherziger Feind Madu: I am feeling my ass already"</Item>
@@ -337,7 +338,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (MIKU|MICHELLE)</Pattern>
+			<Pattern>^NCT (MIKU|MICHELLE|MIKE)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Miku: And about the banana in the pantsu"</Item>
@@ -349,7 +350,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (MIYUU|ミユ)</Pattern>
+			<Pattern>^NCT (MIYUU|ミユ|MEW)</Pattern>
 			<Response>
 				<Random>
 					<Item>"ミユ: "Coming soon""</Item>
@@ -388,7 +389,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (SKATR|SKATRZOO)</Pattern>
+			<Pattern>^NCT (SKATR|SKATRZOO|SKAT)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Skatrzoo: incredibly accurate, but it's still hard"</Item>
@@ -441,12 +442,13 @@
 					<Item>"VSX: So I can shoot archi finally"</Item>
 					<Item>"VSX: Someone pls ask bsod to stop violating me ;-;"</Item>
 					<Item>"VSX: you're a penis thief?"</Item>
+					<Item>"VSX: FINGERS BEING NAUGHTY"</Item>
 				</Random>
 			</Response>
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (ZARA|ZARAXIS)</Pattern>
+			<Pattern>^NCT (ZARA|ZARAXIS|ZAX|ZAXIO|ZARAXIO)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Zaraxis: Doshie joins group I want to be face fucked. ;3&lt;"</Item>
