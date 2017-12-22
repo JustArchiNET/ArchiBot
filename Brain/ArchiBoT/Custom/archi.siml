@@ -144,7 +144,12 @@
 		</Model>
 
 		<Model>
-			<Pattern>^ARCHIPOLICE</Pattern>
+			<Pattern>
+				<Item>^ARCHIPOLICE</Item>
+				<Item>^ARCHI POLICE</Item>
+				<Item>^ARCHICOP</Item>
+				<Item>^ARCHI COP</Item>
+			</Pattern>
 			<Response>:coolpolice: https://i.imgur.com/xMdc2cD.jpg</Response>
 		</Model>
 
@@ -182,7 +187,10 @@
 		</Model>
 
 		<Model>
-			<Pattern>^ARCHICHEF</Pattern>
+			<Pattern>
+				<Item>^ARCHICHEF</Item>
+				<Item>^ARCHI CHEF</Item>
+			</Pattern>
 			<Response>https://i.imgur.com/kFH9r1o.jpg</Response>
 		</Model>
 
@@ -201,6 +209,17 @@
 				<Item>^DETECTIVE ARCHI</Item>
 			</Pattern>
 			<Response>https://i.imgur.com/DmzqLHA.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHISANTA</Item>
+				<Item>^ARCHI SANTA</Item>
+				<Item>^SANTAARCHI</Item>
+				<Item>^SANTA ARCHI</Item>
+				<Item>^SANTARCHI</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/HhHQoDK.jpg</Response>
 		</Model>
 
 		<Model>
