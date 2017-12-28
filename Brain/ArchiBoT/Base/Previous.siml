@@ -10262,8 +10262,7 @@ Maybe in some ways I already am.
     </Model>
     <Model>
       <Pattern>YOU</Pattern>
-      <Response>
-"<Result />"? Me, <User Get="name" /> ?
+      <Response>Me, <User Get="name" />?
 </Response>
     </Model>
     <Model>
