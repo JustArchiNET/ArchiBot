@@ -9,11 +9,10 @@
      * @param {number} lvl - the level you want to convert (eg. '25')
      * @returns {number} xp - exp required to obtain the level requested
      */
-    function calcSteamLevelXP(lvl){
-    var tens = Math.floor(lvl/10);
-    var units = lvl-tens*10;
-    var xp = tens*(tens+1)*(5*tens+units);
-    return xp
+    function calcSteamLevelXP(lvl) {
+        var tens = Math.floor(lvl / 10)
+        var units = lvl - tens * 10;
+        return (tens + 1) * (tens * 5 + units) * 100
     }
     /**
     * Converts time to hh:mm AM/PM
