@@ -44652,12 +44652,6 @@ Gossip is trivia people tell me about themselves. For example, <Goto>gossip</Got
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT YEAR IS IT</Pattern>
-      <Response>
-        <Goto>what time is it</Goto>
-      </Response>
-    </Model>
-    <Model>
       <Pattern>WHAT YOU ARE *</Pattern>
       <Response>
         <Goto>what you are doing</Goto>
