@@ -202,6 +202,7 @@
 					<Item>"Cj: brb, nature is calling D:"</Item>
 					<Item>"Cjcomplex: Huh I'm cheaper than BR for some reason..."</Item>
 					<Item>"Cjcomplex: afk, off to buy drugs"</Item>
+					<Item>"Cjcomplex: Near a Tomato?"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -222,7 +223,7 @@
 				<Random>
 					<Item>"Vapor Dosh: Archi really wants me to suck his dick for that bitcoin"</Item>
 					<Item>"Vapor Dosh: COMMANDO CHICKEN!"</Item>
-					<Item>"Vapor Dosh: I would xbone Vert if I could :sgsmile:</Item>
+					<Item>"Vapor Dosh: I would xbone Vert if I could :sgsmile:"</Item>
 					<Item>"Vapor Dosh: Maybe something like bull testicles from Spain :speak:"</Item>
 				</Random>
 			</Response>
@@ -366,6 +367,7 @@
 				<Random>
 					<Item>"Nic333: but here people don't buy sperm"</Item>
 					<Item>"Nic333: so i was happy as fuck and my dick was hard"</Item>
+					<Item>"Christimas-Style Nic333: so your dick is on fire"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -403,6 +405,7 @@
 			<Response>
 				<Random>
 					<Item>"Sviat: chicken lolis"</Item>
+					<Item>"Sviat: that's big :3"</Item>
 				</Random>
 			</Response>
 		</Model>
