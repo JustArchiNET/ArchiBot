@@ -73,6 +73,20 @@
 		</Response>
 	</Model>
 
+	<!-- Super important -bottu does not support buli -->
+		<Model>
+		<Pattern>NO ^BULI</Pattern>
+		<Response>
+			<Random>
+				<Item>no buliiiiiiii!!!. https://i.imgur.com/jGiVi7M.png</Item>
+				<Item>dont buli iz not nice https://i.imgur.com/d1rWXPF.png</Item>
+				<Item>Transform anti buli ranger! https://i.imgur.com/H9fxzAY.png</Item>
+				<Item>buli is rood! https://i.imgur.com/JVD4Obo.png</Item>
+				<Item>plz no buli https://i.imgur.com/DBWjHN7.png</Item>
+			</Random>
+		</Response>
+	</Model>
+
 	<Model>
 		<Pattern>
 			<Item>^TABS OR ^SPACES</Item>
