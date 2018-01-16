@@ -23,7 +23,7 @@
     
     <Model>
       <Pattern>^SETFREEGAME _ (ON|AT) _</Pattern>
-      <Response>Done! The current free game was set as <Bot Set="FreeGame" Value="{Bind Match}" />, with this link: <Bot Set="FreeGameLink" Value="{Bind Match:3}" /></Response>
+      <Response>Done! The current free game was set as <Bot Set="FreeGame" Value="{Bind Match}" /><Think><Bot Set="JbondoFreeGame" Value="{Bind Match}" /></Think>, with this link: <Bot Set="FreeGameLink" Value="{Bind Match:3}" /></Response>
     </Model>
     
     <Model>
