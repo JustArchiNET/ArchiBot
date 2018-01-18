@@ -16,8 +16,8 @@
 			<Pattern>WHO IS CHT</Pattern>
 			<Response>
 				<Random>
-					<Item>Chatter in 2hu gibs.</Item>
-					<Item>Chat stalker, found in its natural habitat 2hu gibs.</Item>
+					<Item>Chatter, now member, in 2hu gibs.</Item>
+					<Item>Chat stalker, found in its natural habitat 2hu gibs chat.</Item>
 					<Item>One noob in programming that makes stuff based on "templates".</Item>
 					<Item>A noob in programming that managed to crash a program with just one character.</Item>
 				</Random>
