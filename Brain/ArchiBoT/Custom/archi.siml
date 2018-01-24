@@ -231,6 +231,14 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>^ARCHI WIZARD</Item>
+				<Item>^ARCHIWIZARD</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/8dzRVWP.jpg</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^ARCHISUGAR</Pattern>
 			<Response>Archi's sugar level is <Var Set="sugar"><Math Get="random" Min="40" Max="320" /></Var>, <Switch Var="sugar">
 				<Case LT="60">so low :speak:</Case>
