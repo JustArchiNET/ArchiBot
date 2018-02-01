@@ -77,5 +77,9 @@
       <Pattern>what is devil daggers</Pattern>
       <Response>high-speed crowd control</Response>
     </Model>
+    <Model>
+      <Pattern>who is heiluri</Pattern>
+      <Response>o.-</Response>
+    </Model>
   </Concept>
 </Siml>
