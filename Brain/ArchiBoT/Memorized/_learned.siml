@@ -73,5 +73,9 @@
       <Pattern>VSX QUOTE</Pattern>
       <Response>"VSX: i only gib unbundleds :3"</Response>
     </Model>
+    <Model>
+      <Pattern>what is devil daggers</Pattern>
+      <Response>high-speed crowd control</Response>
+    </Model>
   </Concept>
 </Siml>
