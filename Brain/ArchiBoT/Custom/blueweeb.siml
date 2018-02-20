@@ -95,6 +95,18 @@
 		<Response>TAB MASTERRACE!</Response>
 	</Model>
 
+	<!-- Any other aliases to add to this? -->
+	<Model>
+		<Pattern>
+			<Item>COMMANDS</Item>
+			<Item>(COMMANDS|COMMAND) List</Item>
+			<Item>CMDS</Item>
+			<Item>HELP</Item>
+			<Item>FAQ</Item>
+		</Pattern>
+		<Response>https://github.com/JustArchi/ArchiBoT/wiki/Commands</Response>
+	</Model>
+
 	<Model>
 		<Pattern>CIRNOSLOTS</Pattern>
 		<Response>
