@@ -81,5 +81,9 @@
       <Pattern>who is heiluri</Pattern>
       <Response>o.-</Response>
     </Model>
+    <Model>
+      <Pattern>archi shop</Pattern>
+      <Response>https://www.steamtrades.com/trade/8lcTA/abc-shop-h-bundle-games-w-keyspaypalgemsbundle-games</Response>
+    </Model>
   </Concept>
 </Siml>
