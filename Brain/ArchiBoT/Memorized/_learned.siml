@@ -85,5 +85,9 @@
       <Pattern>archi shop</Pattern>
       <Response>https://www.steamtrades.com/trade/8lcTA/abc-shop-h-bundle-games-w-keyspaypalgemsbundle-games</Response>
     </Model>
+    <Model>
+      <Pattern>archicoin</Pattern>
+      <Response>https://i.imgur.com/pAzD15y.png</Response>
+    </Model>
   </Concept>
 </Siml>
