@@ -89,5 +89,9 @@
       <Pattern>archicoin</Pattern>
       <Response>https://i.imgur.com/pAzD15y.png</Response>
     </Model>
+    <Model>
+      <Pattern>archicoin</Pattern>
+      <Response>https://i.imgur.com/WCBD8sn.png</Response>
+    </Model>
   </Concept>
 </Siml>
