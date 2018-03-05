@@ -97,5 +97,9 @@
       <Pattern>who is nic</Pattern>
       <Response>a catfucker</Response>
     </Model>
+    <Model>
+      <Pattern>who is aurea</Pattern>
+      <Response>the guy that stoles archi kingdom</Response>
+    </Model>
   </Concept>
 </Siml>
