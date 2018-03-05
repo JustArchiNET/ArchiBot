@@ -109,5 +109,9 @@
       <Pattern>who is aurea</Pattern>
       <Response>The guy that stole Archi's Kingdom</Response>
     </Model>
+    <Model>
+      <Pattern>say something gud</Pattern>
+      <Response>I love you Aurea</Response>
+    </Model>
   </Concept>
 </Siml>
