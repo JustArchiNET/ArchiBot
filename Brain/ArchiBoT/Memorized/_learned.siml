@@ -101,5 +101,9 @@
       <Pattern>who is aurea</Pattern>
       <Response>the guy that stoles archi kingdom</Response>
     </Model>
+    <Model>
+      <Pattern>who is aurea</Pattern>
+      <Response>the guy that stole archi kingdom</Response>
+    </Model>
   </Concept>
 </Siml>
