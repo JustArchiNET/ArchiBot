@@ -93,5 +93,9 @@
       <Pattern>archicoin</Pattern>
       <Response>https://i.imgur.com/WCBD8sn.png</Response>
     </Model>
+    <Model>
+      <Pattern>who is nic</Pattern>
+      <Response>a catfucker</Response>
+    </Model>
   </Concept>
 </Siml>
