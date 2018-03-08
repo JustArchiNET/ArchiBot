@@ -4,7 +4,7 @@
 		<Model>
 			<Pattern>AISUGGEST _ ^CALLED _</Pattern>
 			<Response>
-				<Var Think:Set="issueid"><ArchiMantisSubmitIssue>Default&#x9;Feature&#x9;<Match At="2" />&#x9;<Match /></ArchiMantisSubmitIssue></Var>
+				<Var Think:Set="issueid"><ArchiMantisSubmitIssue>Default&#x9;Feature&#x9;<Match At="2" /><Text xml:space="preserve">&#09;</Text><Match /></ArchiMantisSubmitIssue></Var>
 				<Switch Var="issueid">
 					<Case Value="">ERROR: There was an issue while submitting your suggestion, please notify Archi or try again later</Case>
 					<Case GTE="0">The issue has been submitted: https://mantis.justarchi.net/view.php?id=<Var Get="issueid" /></Case>
