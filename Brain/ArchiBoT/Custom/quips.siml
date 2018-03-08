@@ -63,12 +63,12 @@
 				<Var Think:Set="translatedwords"><Text Get="title"><ArchiTranslateFromTo>en <Text WordAt="2"><User Get="LastMessage" /></Text> <Text Get="lower"><Goto>TAIGOWORDS</Goto></Text></ArchiTranslateFromTo></Text></Var>
 				<If Var="translatedwords" Value="">Error: Please provide a 2-letter language code followed by the name to taigo. Check the list of codes here https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes :sgsmile:</If>
 				<Else>
-					<Var Think:Set="taigoname"><Text Get="lower"><Match Index="2" /></Text></Var>
+					<Var Think:Set="taigoname"><Text Get="lower"><Match At="2" /></Text></Var>
 					<Text><Var Get="translatedwords" /> <Switch Var="taigoname">
 							<Case Value="">Taigo</Case>
 							<Case Value="me"><User Get="Nickname" /></Case>
 							<Case Value="yourself"><Bot Get="NAME" /></Case>
-							<Default><Match Index="2" /></Default>
+							<Default><Match At="2" /></Default>
 						</Switch>
 					</Text>
 				</Else>
