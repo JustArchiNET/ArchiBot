@@ -141,13 +141,6 @@
 
 <!-- The following should work only for Kaleith on Steam -->
 	<Concept Name="kaleithprivatedebug" User="steam-76561198025147895">
-
-		<Model>
-			<Pattern>^DEBUG SUBMITISSUE</Pattern>
-			<Response>The issue has been submitted: https://mantis.justarchi.net/view.php?id=<ArchiMantisSubmitIssue>Default&#x9;Feature&#x9;Debug command for ai suggestions&#x9;I think it would be nice to have a simple hardcoded command to check if the thing is working</ArchiMantisSubmitIssue>
-			</Response>
-		</Model>
-
 		<Model>
 			<Pattern>^DEBUG 2HUTARGET _</Pattern>
 			<Response>

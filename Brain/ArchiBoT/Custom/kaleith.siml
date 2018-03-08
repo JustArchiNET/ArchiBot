@@ -2,6 +2,18 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_kaleith">
 		<Model>
+			<Pattern>AISUGGEST _ ^CALLED _</Pattern>
+			<Response>
+				<Var Think:Set="issueid"><ArchiMantisSubmitIssue>Default&#x9;Feature&#x9;<Match At="2" />&#x9;<Match /></ArchiMantisSubmitIssue></Var>
+				<Switch Var="issueid">
+					<Case Value="">ERROR: There was an issue while submitting your suggestion, please notify Archi or try again later</Case>
+					<Case GTE="0">The issue has been submitted: https://mantis.justarchi.net/view.php?id=<Var Get="issueid"></Var></Case>
+					<Default>ERROR: This message should never be displayed, something's broken :(</Default>
+				</Switch>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^THANKS (BOT|ARCHIBOT)</Pattern>
 			<Response><Goto>THANK YOU</Goto></Response>
 		</Model>
