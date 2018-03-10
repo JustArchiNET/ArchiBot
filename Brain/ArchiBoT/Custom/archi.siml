@@ -257,6 +257,11 @@
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
 		<Model>
+			<Pattern>DEBUGUSERID *</Pattern>
+			<Response><ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID></Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>HOW RICH AM I</Item>
 			</Pattern>
