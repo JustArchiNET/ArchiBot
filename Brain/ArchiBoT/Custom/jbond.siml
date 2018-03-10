@@ -2,10 +2,25 @@
 <Siml>
   <Concept Name="_jbond">
 
-	  <Model>
-      <Pattern>MAINTENANCE</Pattern>
-      <Response>https://vignette.wikia.nocookie.net/kancolle/images/d/df/Maintenance.jpg</Response>
-	  </Model>
+	<Model>
+		<Pattern>
+			<Item>^COMPARESTEAM *</Item>
+			<Item>^COMPARE WITH *</Item>
+			<Item>^COMPARE STEAM WITH *</Item>
+			<Item>^COMPARE GAMES WITH *</Item>
+			<Item>^COMPARE LIBRARY WITH *</Item>
+		</Pattern>
+		<Response>
+			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID></Var>
+			<If Var="compareid" Value="">No user found!</If>
+			<Else>http://steamcommunity.com/profiles/<Js>steamID("<Var Get="compareid" />")</Js>/games?tab=all&amp;games_in_common=1</Else>
+		</Response>
+	</Model>
+
+	<Model>
+		<Pattern>MAINTENANCE</Pattern>
+		<Response>https://vignette.wikia.nocookie.net/kancolle/images/d/df/Maintenance.jpg</Response>
+	</Model>
 
     <Model>
       <Pattern>PURGE %</Pattern>
