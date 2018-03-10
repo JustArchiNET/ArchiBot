@@ -113,5 +113,9 @@
       <Pattern>say something gud</Pattern>
       <Response>I love you Aurea</Response>
     </Model>
+    <Model>
+      <Pattern>what is faku's favorite anime</Pattern>
+      <Response>Chuunibyou demo Koi ga Shitai! :3</Response>
+    </Model>
   </Concept>
 </Siml>
