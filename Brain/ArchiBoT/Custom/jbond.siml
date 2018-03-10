@@ -13,7 +13,7 @@
 		<Response>
 			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID></Var>
 			<If Var="compareid" Value="">No user found!</If>
-			<Else>http://steamcommunity.com/profiles/<Js>steamID("<Var Get="compareid" />")</Js>/games?tab=all&amp;games_in_common=1</Else>
+			<Else>https://steamcommunity.com/profiles/<Js>steamID("<Var Get="compareid" />")</Js>/games?tab=all&amp;games_in_common=1</Else>
 		</Response>
 	</Model>
 
