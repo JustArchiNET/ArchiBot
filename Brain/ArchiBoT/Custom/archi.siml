@@ -258,7 +258,7 @@
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
 		<Model>
 			<Pattern>DEBUGUSERID *</Pattern>
-			<Response><ArchiChannelUserID><User Get="SourceID" />&nbsp;<Match /></ArchiChannelUserID></Response>
+			<Response><ArchiChannelUserID><User Get="SourceID" />&#x9;<Match /></ArchiChannelUserID></Response>
 		</Model>
 
 		<Model>
