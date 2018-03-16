@@ -139,6 +139,15 @@
 		</Model>
 
 		<Model>
+			<Pattern>
+				<Item>^TRADE WITH ARCHI</Item>
+				<Item>^ARCHITRADE</Item>
+				<Item>^ARCHI TRADE</Item>
+			</Pattern>
+			<Response>Trade with Archi with this link: https://steamcommunity.com/tradeoffer/new/?partner=46697991</Response>
+		</Model>
+
+		<Model>
 			<Pattern>(GRIND|GRINDU) DECK</Pattern>
 			<Response>3x Piggy Bank, Holy Night, Nice Jingle, Dash, Passionate Research (DLC1), Completion Reward (DLC2), Play of the Gods (DLC2), Scrambled Eve (DLC2)</Response>
 		</Model>
