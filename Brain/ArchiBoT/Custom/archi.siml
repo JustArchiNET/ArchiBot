@@ -144,7 +144,7 @@
 				<Item>^ARCHITRADE</Item>
 				<Item>^ARCHI TRADE</Item>
 			</Pattern>
-			<Response>Trade with Archi with this link: https://steamcommunity.com/tradeoffer/new/?partner=46697991&token=0ix2Ruv_</Response>
+			<Response>Trade with Archi with this link: https://steamcommunity.com/tradeoffer/new/?partner=46697991&amp;token=0ix2Ruv_</Response>
 		</Model>
 
 		<Model>
