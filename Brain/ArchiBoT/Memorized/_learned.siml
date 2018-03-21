@@ -117,5 +117,9 @@
       <Pattern>what is faku's favorite anime</Pattern>
       <Response>Chuunibyou demo Koi ga Shitai! :3</Response>
     </Model>
+    <Model>
+      <Pattern>archisteamstream</Pattern>
+      <Response>http://steamcommunity.com/broadcast/watch/76561198006963719</Response>
+    </Model>
   </Concept>
 </Siml>
