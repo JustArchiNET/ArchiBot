@@ -25,6 +25,7 @@
 					<Item><Goto>NCT <Random>
 					<Item Weight="0.008">ALI</Item>
 					<Item Weight="0.048">AMBI</Item>
+					<Item Weight="0.008">ANXEAL</Item>
 					<Item Weight="0.136">ARCHI</Item>
 					<Item Weight="0.024">ARCHIBOT</Item>
 					<Item Weight="0.128">ASIM</Item>
@@ -42,6 +43,7 @@
 					<Item Weight="0.048">KALEITH</Item>
 					<Item Weight="0.008">KHY</Item>
 					<Item Weight="0.048">MADU</Item>
+					<Item Weight="0.008">MGBNN</Item>
 					<Item Weight="0.032">MIKU</Item>
 					<Item Weight="0.016">MIYUU</Item>
 					<Item Weight="0.016">NIC</Item>
@@ -110,6 +112,15 @@
 					<Item>"ambidot: your mother will need to renew her subscription to my dick"</Item>
 					<Item>"ambidot: Please wait while Setup installs my dick on your computer."</Item>
 					<Item>"ambidot: your mother is filing for dick bankruptcy"</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^NCT (ANXEAL|ANX)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Anxeal: I want Archi to probe deep inside me"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -243,6 +254,7 @@
 				<Random>
 					<Item>"Draco: :sgsmile:"</Item>
 					<Item>"Draco: why are you watching people pee, Doshie :doubt:"</Item>
+					<Item>"Draco: @Ali with butter is good"</Item>
 					<Item Weight="0.1">"Draco: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"</Item>
 				</Random>
 			</Response>
@@ -338,6 +350,7 @@
 			<Response>
 				<Random>
 					<Item>"Khy - Squid Edition: clue inside lolis"</Item>
+					<Item>"Khy - North-North Edition: 1+ for salt fapping"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -353,6 +366,16 @@
 					<Item>"Adorable Howl Madu: memo: don't floss your froth teeth"</Item>
 					<Item>"Profuse Kick Madu: I need 2 DDs"</Item>
 					<Item>"So-called Watt Madu: and I have no pants on but I am coming"</Item>
+					<Item>"Innovative Fuel Madu: "SHAVE YOU MOTHERFUCKER""</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^NCT (mgbnn.|mgbnn)</Pattern>
+			<Response>
+				<Random>
+					<Item>"mgbnn.: and the head is too big :doubt:"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -398,6 +421,7 @@
 			<Response>
 				<Random>
 					<Item>".Purpur ▵ᐂ▵ Weltschmerz.: no panties = no service :3"</Item>
+					<Item>".Purpur ▵ᐂ▵ Weltschmerz.: around 25cm in sitting position?"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -447,6 +471,8 @@
 					<Item>"Intellectual Rapist Taigo: "the lady at the junk shop fucked me over"</Item>
 					<Item>"Taigo's Hunting Tricksters Again: I collect other peoples e-penises"</Item>
 					<Item>"Tuna Man Taigo: Why is jbond fisting dosh"</Item>
+					<Item>"Unfair Hill Taigo: This situation right now is like if 9/11 happened and my dick was the airplane"</Item>
+					<Item>"Idiotic Tuba Taigo: I dare you to fuck a tree"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -474,6 +500,7 @@
 					<Item>"VSX: you're a penis thief?"</Item>
 					<Item>"VSX: FINGERS BEING NAUGHTY"</Item>
 					<Item>"VSX: i swear i hit my P hard and steady"</Item>
+					<Item>"VSX: Is that a dildo penetrating a head"</Item>
 				</Random>
 			</Response>
 		</Model>
