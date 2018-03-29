@@ -139,6 +139,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>WHO IS THE BEST 2HU</Pattern>
+			<Response>https://www.youtube.com/watch?v=cmE-EhQ265Q</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>^TRADE WITH ARCHI</Item>
 				<Item>^ARCHITRADE</Item>
