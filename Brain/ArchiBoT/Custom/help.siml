@@ -57,7 +57,7 @@
 			<Pattern>% ASF ^STM %</Pattern>
 			<Response>http://asf.justarchi.net/STM</Response>
 		</Model>
-
+<!-- uncomment and edit for Cirno day
 		<Model>
 			<Pattern>
 				<Item>^EVENTO</Item>
@@ -74,6 +74,27 @@
 					<Case LT="20170909">The Touhou Event for Cirno Day (❾/❾) is coming \:bite:/&#xD;To contribute send me a message with "!2hue XXXXX", where XXXXX is the 5 letter code for an already started, invite-only giveaway ending on the 18th of September at midnight (your time).</Case>
 					<Case Value="20170909">Cirno Day is here, go celebrate ♪ \:bite:/ ♪ https://www.youtube.com/watch?v=<Random>(COoYz0wWmJs|5wFDWP5JwSM|pjXN_xPQd0M|e4WnqqwdrcU|H8OWSlqz1h4|uv6yK47m564|ZFxDC7CnzvY)</Random></Case>
 					<Case GT="20170909">Rember wen Touhous made eventos? :cry:7</Case>
+					<Default>How did this break :doubt:</Default>
+				</Switch>
+			</Response>
+		</Model>
+-->
+
+		<Model>
+			<Pattern>
+				<Item>^EVENTO</Item>
+				<Item>^EVENT</Item>
+				<Item>^2HUEVENT</Item>
+				<Item>^TOUHOUEVENT</Item>
+				<Item>2HU ^EVENT</Item>
+				<Item>^2HUE %</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="Date"><Date Format="yyyyMMdd" /></Var>
+				<Switch Var="Date">
+					<Case LT="20180415">The Touhou ARG Event is coming \:bite:/&#xD;To contribute send me a message with "!2hue XXXXX", where XXXXX is the 5 letter code for an already started, invite-only giveaway ending at any time on the 15th of April (your timezone).</Case>
+					<Case Value="20180415">Gibs should be ending right now, go join before it's too late :speak:</Case>
+					<Case GT="20180415">Rember wen Touhous made eventos? :cry:7</Case>
 					<Default>How did this break :doubt:</Default>
 				</Switch>
 			</Response>
