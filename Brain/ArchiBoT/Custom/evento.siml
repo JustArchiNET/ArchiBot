@@ -3,15 +3,7 @@
 	<Concept Name="_evento">
 		<Model>
 			<Pattern>^The secret of getting ahead is getting started</Pattern>
-			<Response>"Was that you who &lt;put jbondo what did he do random here&gt;"?</Response>
-				<Model>
-					<Pattern>^Yes</Pattern>
-					<Response>The giveaway code is BuTtS</Response>
-				</Model>
-				<Model>
-					<Pattern>_</Pattern>
-					<Response>U mom.</Response>
-				</Model>
+			<Response><ArchiEvento /></Response>
 		</Model>
 	</Concept>
 </Siml>
