@@ -3,6 +3,48 @@
   <Concept Name="_jbond">
 
 	<Model>
+		<Pattern>CONGRATULATE *</Pattern>
+		<Response><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random>, <Match />. :sgsmile:</Response>
+	</Model>
+	
+	<Model>
+		<Pattern>CONGRATULATE * (ON|FOR|WITH) (HIS|HER|THEIR) *</Pattern>
+		<Response><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random> with your <Match Index="4"/>, <Match />. :sgsmile:</Response>
+	</Model>
+	
+	<Model>
+		<Pattern>CONGRATULATE * (ON|FOR|WITH) *</Pattern>
+		<Response><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random> with <Match Index="3"/>, <Match />. :sgsmile:</Response>
+	</Model>
+	
+	<Model>
+		<Pattern>CONGRATULATE (HIM|HER|THEM)</Pattern>
+		<Response>Who? :doubt:</Response>
+	</Model>
+
+	<Model>
+		<Pattern>CONGRATULATE (BOT|ARCHIBOT|YOURSELF|BOTTU|YOU)</Pattern>
+		<Response>
+			<Random>
+				<Item>Why would I congratulate myself? :doubt:</Item>
+				<Item>I don't have a conceited nature.</Item>
+			</Random>
+		</Response>
+	</Model>
+	
+	<Model>
+		<Pattern>CONGRATULATE ME</Pattern>
+		<Response>
+			<Random>
+				<Item>You want me to congratulate you? What for? :doubt:</Item>
+				<Item>That's pretty conceited.</Item>
+				<Item>Do you deserve congratulations, <User Get="name" />?</Item>
+				<Item><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random>, <User Get="Name" />. :sgsmile:</Item>
+			</Random>
+		</Response>
+	</Model>
+
+	<Model>
 		<Pattern>
 			<Item>^COMPARESTEAM *</Item>
 			<Item>^COMPARE WITH *</Item>
