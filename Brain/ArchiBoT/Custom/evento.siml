@@ -3,7 +3,7 @@
 	<Concept Name="_evento">
 		<Model>
 			<Pattern>^The secret of getting ahead is getting started</Pattern>
-			<Response><ArchiEvento /></Response>
+			<Response>You might need this code to proceed: <ArchiEvento />. Good luck agent!</Response>
 		</Model>
 	</Concept>
 </Siml>
