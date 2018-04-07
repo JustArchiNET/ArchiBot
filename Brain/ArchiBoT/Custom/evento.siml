@@ -2,7 +2,7 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_evento">
 		<Model>
-			<Pattern>^The secret of getting ahead is getting started</Pattern>
+			<Pattern>^The secret of getting ahead is getting (started|started.)</Pattern>
 			<Response>You might need this code to proceed: <ArchiEvento />. Good luck agent!</Response>
 		</Model>
 	</Concept>
