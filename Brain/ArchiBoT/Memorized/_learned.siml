@@ -121,5 +121,9 @@
       <Pattern>archisteamstream</Pattern>
       <Response>http://steamcommunity.com/broadcast/watch/76561198006963719</Response>
     </Model>
+    <Model>
+      <Pattern>who is anxeal</Pattern>
+      <Response>a weeb</Response>
+    </Model>
   </Concept>
 </Siml>
