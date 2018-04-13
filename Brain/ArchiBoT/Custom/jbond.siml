@@ -3,6 +3,11 @@
   <Concept Name="_jbond">
 
 	<Model>
+		<Pattern>JBONDOKICK</Pattern>
+		<Response>Jbond has been kicked from 2hu <Js>randomIntBetween(1, 500);</Js> times. :sgsmile:</Response>
+	</Model>
+
+	<Model>
 		<Pattern>CONGRATULATE *</Pattern>
 		<Response><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random>, <Match />. :sgsmile:</Response>
 	</Model>
@@ -42,6 +47,11 @@
 				<Item><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random>, <User Get="Name" />. :sgsmile:</Item>
 			</Random>
 		</Response>
+	</Model>
+	
+	<Model>
+		<Pattern>CONGRATULATE ME (ON|FOR|WITH) *</Pattern>
+		<Response><Random>(Congratulations|Good job|Well done|Nice work|You did well|You did good)</Random> with <Match Index="2" />, <User Get="Name" />. :sgsmile:</Response>
 	</Model>
 
 	<Model>
