@@ -61,6 +61,9 @@
 			<Item>^COMPARE STEAM WITH *</Item>
 			<Item>^COMPARE GAMES WITH *</Item>
 			<Item>^COMPARE LIBRARY WITH *</Item>
+			<Item>^COMPARE GAMES WITH *</Item>
+			<Item>^COMPARE GAMES IN COMMON WITH *</Item>
+			<Item>GAMES IN COMMON WITH *</Item>
 		</Pattern>
 		<Response>
 			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID></Var>
