@@ -23,38 +23,38 @@
 			<Response>
 				<Random>
 					<Item><Goto>NCT <Random>
-					<Item Weight="0.008">ALI</Item>
-					<Item Weight="0.048">AMBI</Item>
-					<Item Weight="0.008">ANXEAL</Item>
-					<Item Weight="0.136">ARCHI</Item>
-					<Item Weight="0.024">ARCHIBOT</Item>
-					<Item Weight="0.128">ASIM</Item>
-					<Item Weight="0.04">BLUE</Item>
-					<Item Weight="0.008">CHT</Item>
-					<Item Weight="0.024">CJ</Item>
-					<Item Weight="0.016">DELTA</Item>
-					<Item Weight="0.032">DOSH</Item>
-					<Item Weight="0.008">DRACO</Item>
-					<Item Weight="0.008">FERRET</Item>
-					<Item Weight="0.048">FAKE</Item>
-					<Item Weight="0.064">HEILURI</Item>
-					<Item Weight="0.056">JBOND</Item>
-					<Item Weight="0.008">JENNI</Item>
-					<Item Weight="0.048">KALEITH</Item>
-					<Item Weight="0.008">KHY</Item>
-					<Item Weight="0.048">MADU</Item>
-					<Item Weight="0.008">MGBNN</Item>
-					<Item Weight="0.032">MIKU</Item>
-					<Item Weight="0.016">MIYUU</Item>
-					<Item Weight="0.016">NIC</Item>
-					<Item Weight="0.008">PURPUR</Item>
-					<Item Weight="0.016">ROSEY</Item>
-					<Item Weight="0.008">SKATR</Item>
-					<Item Weight="0.008">SVIAT</Item>
-					<Item Weight="0.064">TAIGO</Item>
-					<Item Weight="0.032">TRIST</Item>
-					<Item Weight="0.032">VSX</Item>
-					<Item Weight="0.008">ZARA</Item>
+					<Item Weight="1">ALI</Item>
+					<Item Weight="8">AMBI</Item>
+					<Item Weight="2">ANXEAL</Item>
+					<Item Weight="24">ARCHI</Item>
+					<Item Weight="3">ARCHIBOT</Item>
+					<Item Weight="14">ASIM</Item>
+					<Item Weight="5">BLUE</Item>
+					<Item Weight="2">CHT</Item>
+					<Item Weight="4">CJ</Item>
+					<Item Weight="2">DELTA</Item>
+					<Item Weight="11">DOSH</Item>
+					<Item Weight="5">DRACO</Item>
+					<Item Weight="1">FERRET</Item>
+					<Item Weight="9">FAKE</Item>
+					<Item Weight="11">HEILURI</Item>
+					<Item Weight="10">JBOND</Item>
+					<Item Weight="1">JENNI</Item>
+					<Item Weight="6">KALEITH</Item>
+					<Item Weight="2">KHY</Item>
+					<Item Weight="8">MADU</Item>
+					<Item Weight="1">MGBNN</Item>
+					<Item Weight="6">MIKU</Item>
+					<Item Weight="3">MIYUU</Item>
+					<Item Weight="3">NIC</Item>
+					<Item Weight="2">PURPUR</Item>
+					<Item Weight="3">ROSEY</Item>
+					<Item Weight="1">SKATR</Item>
+					<Item Weight="2">SVIAT</Item>
+					<Item Weight="13">TAIGO</Item>
+					<Item Weight="5">TRIST</Item>
+					<Item Weight="8">VSX</Item>
+					<Item Weight="2">ZARA</Item>
 					<Item>MISC</Item>
 					</Random></Goto></Item>
 				</Random>
@@ -263,7 +263,7 @@
 					<Item>"Draco: why are you watching people pee, Doshie :doubt:"</Item>
 					<Item>"Draco: @Ali with butter is good"</Item>
 					<Item>"Draco: It's ok to castrate"</Item>
-					<Item Weight="0.1">"Draco: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"</Item>
+					<Item Weight="0.01">"Draco: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -548,6 +548,7 @@
 		
 		<Item>"jbondguy007: Oh wow, yours is bigger">/Item>
 		
+		and add +1 to the weight value of the user in the main NCT pattern
 		
 						[Adding a new user]
 		
