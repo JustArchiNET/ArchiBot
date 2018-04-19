@@ -125,5 +125,9 @@
       <Pattern>who is anxeal</Pattern>
       <Response>a weeb</Response>
     </Model>
+    <Model>
+      <Pattern>archistream</Pattern>
+      <Response>https://steamcommunity.com/broadcast/watch/76561198006963719</Response>
+    </Model>
   </Concept>
 </Siml>
