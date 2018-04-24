@@ -139,8 +139,13 @@
 		</Model>
 
 		<Model>
-			<Pattern>WHO IS THE BEST 2HU</Pattern>
+			<Pattern>* THE BEST 2HU</Pattern>
 			<Response>https://www.youtube.com/watch?v=cmE-EhQ265Q</Response>
+		</Model>
+
+		<Model>
+			<Pattern>* THE BEST * WAIFU</Pattern>
+			<Response>https://www.youtube.com/watch?v=dKCorq1vJgM</Response>
 		</Model>
 
 		<Model>
