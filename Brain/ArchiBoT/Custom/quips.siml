@@ -32,6 +32,9 @@
 					<Item Weight="0.02">Did you know that u r mr gay?</Item>
 					<Item>Did you know that most Brazil nuts (which aren't even nuts) don't come from Brazil? The main exporter is Bolivia!</Item>
 					<Item>Did you know that until the mid-20th century, hazelnuts were called filberts?</Item>
+					<Item>The only sexually transmitted allergic reaction is a Brazil nut allergy</Item>
+					<Item>Only two nuts are mentioned in The Bible, which are almonds and pistachios</Item>
+					<Item>October 22nd is National Nut Day</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -53,6 +56,7 @@
 						</Switch></Text>
 					</Item>
 					<Item Weight="0.002">https://www.youtube.com/watch?v=2f71kkvf6sI</Item>
+					<Item Weight="0.002">https://www.youtube.com/watch?v=qSggtXbusdE&amp;t</Item>
 				</Random>
 			</Response>
 		</Model>
