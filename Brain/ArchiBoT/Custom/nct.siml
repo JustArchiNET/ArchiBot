@@ -29,11 +29,11 @@
 					<Item Weight="25">ARCHI</Item>
 					<Item Weight="3">ARCHIBOT</Item>
 					<Item Weight="14">ASIM</Item>
-					<Item Weight="5">BLUE</Item>
+					<Item Weight="6">BLUE</Item>
 					<Item Weight="2">CHT</Item>
 					<Item Weight="4">CJ</Item>
 					<Item Weight="2">DELTA</Item>
-					<Item Weight="11">DOSH</Item>
+					<Item Weight="12">DOSH</Item>
 					<Item Weight="5">DRACO</Item>
 					<Item Weight="1">FERRET</Item>
 					<Item Weight="9">FAKE</Item>
@@ -41,7 +41,7 @@
 					<Item Weight="11">JBOND</Item>
 					<Item Weight="1">JENNI</Item>
 					<Item Weight="7">KALEITH</Item>
-					<Item Weight="2">KHY</Item>
+					<Item Weight="3">KHY</Item>
 					<Item Weight="8">MADU</Item>
 					<Item Weight="1">MGBNN</Item>
 					<Item Weight="6">MIKU</Item>
@@ -51,7 +51,7 @@
 					<Item Weight="3">ROSEY</Item>
 					<Item Weight="1">SKATR</Item>
 					<Item Weight="2">SVIAT</Item>
-					<Item Weight="13">TAIGO</Item>
+					<Item Weight="15">TAIGO</Item>
 					<Item Weight="5">TRIST</Item>
 					<Item Weight="8">VSX</Item>
 					<Item Weight="2">ZARA</Item>
@@ -201,6 +201,7 @@
 					<Item>"Blue Ϟ Lightning: doshi is duccrently in my sex dungon"</Item>
 					<Item>"Blue Ϟ Lightning: explosion death murder isn't as hard as I thought \o/"</Item>
 					<Item>"Blue Ϟ Lightning: let me lay first"</Item>
+					<Item>"Blue Ϟ Lightning: I want to fuck a cake"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -252,6 +253,7 @@
 					<Item>"Vapor Dosh: I know how Archi would like to die - smothered to death with fumo ass :sgsmile:"</Item>
 					<Item>"Vapor Dosh: I don't think Archi needs a justification to have fumo ass to his face"</Item>
 					<Item>"Vapor Dosh: I wonder if I should try it raw"</Item>
+					<Item>"Vapor Dosh: I'm stuck on Anal Wank too"<Item>
 				</Random>
 			</Response>
 		</Model>
@@ -363,6 +365,7 @@
 				<Random>
 					<Item>"Khy - Squid Edition: clue inside lolis"</Item>
 					<Item>"Khy - North-North Edition: 1+ for salt fapping"</Item>
+					<Item>"Khy - North-North Edition: i need more dicks"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -485,6 +488,8 @@
 					<Item>"Tuna Man Taigo: Why is jbond fisting dosh"</Item>
 					<Item>"Unfair Hill Taigo: This situation right now is like if 9/11 happened and my dick was the airplane"</Item>
 					<Item>"Idiotic Tuba Taigo: I dare you to fuck a tree"</Item>
+					<Item>"Idiotic Tuba Taigo: I just realized I'm dumb"</Item>
+					<Item>"Warlike Gulf Taigo: Jesus christ I'd fuck a concertina if I could"</Item>
 				</Random>
 			</Response>
 		</Model>
