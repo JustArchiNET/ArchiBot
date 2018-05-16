@@ -32,17 +32,18 @@
 					<Item Weight="6">BLUE</Item>
 					<Item Weight="2">CHT</Item>
 					<Item Weight="4">CJ</Item>
-					<Item Weight="2">DELTA</Item>
+					<Item Weight="3">DELTA</Item>
 					<Item Weight="12">DOSH</Item>
 					<Item Weight="5">DRACO</Item>
-					<Item Weight="1">FERRET</Item>
 					<Item Weight="9">FAKE</Item>
-					<Item Weight="11">HEILURI</Item>
-					<Item Weight="11">JBOND</Item>
+					<Item Weight="1">FERRET</Item>
+					<Item Weight="2">FID</Item>
+					<Item Weight="12">HEILURI</Item>
+					<Item Weight="13">JBOND</Item>
 					<Item Weight="1">JENNI</Item>
 					<Item Weight="7">KALEITH</Item>
 					<Item Weight="3">KHY</Item>
-					<Item Weight="8">MADU</Item>
+					<Item Weight="9">MADU</Item>
 					<Item Weight="1">MGBNN</Item>
 					<Item Weight="6">MIKU</Item>
 					<Item Weight="3">MIYUU</Item>
@@ -51,6 +52,7 @@
 					<Item Weight="3">ROSEY</Item>
 					<Item Weight="1">SKATR</Item>
 					<Item Weight="2">SVIAT</Item>
+					<Item Weight="1">SZX</Item>
 					<Item Weight="15">TAIGO</Item>
 					<Item Weight="5">TRIST</Item>
 					<Item Weight="8">VSX</Item>
@@ -234,6 +236,7 @@
 				<Random>
 					<Item>"DeltaBladeX: I'm dripping hot wax onto zombie twat."</Item>
 					<Item>"DeltaBladeX: Youngest in my bed."</Item>
+					<Item>"DeltaBladeX: Criminal isn't as good as gay marinade, but still decent :P"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -272,15 +275,6 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (FERRET|EVIL FERRET|EVILFERRET|BRYAN|FERRETTO)</Pattern>
-			<Response>
-				<Random>
-					<Item>"Evil Ferret™: time to spread seed?"</Item>
-				</Random>
-			</Response>
-		</Model>
-
-		<Model>
 			<Pattern>^NCT (FAKE|FAKENAME|FAKENAMEOF|FAKU|FAKUNAMU)</Pattern>
 			<Response>
 				<Random>
@@ -293,6 +287,25 @@
 					<Item>"FakeNameOF: There are ants in my pants :3"</Item>
 					<Item>"FakeNameOF: Life is gay :3"</Item>
 					<Item>"FakeNameOF: The answer: I'm using my REALLY FUCKING LONG Dick to lure out the FBI :3"</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^NCT (FERRET|EVIL FERRET|EVILFERRET|BRYAN|FERRETTO)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Evil Ferret™: time to spread seed?"</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^NCT (FIDDLER|FID|FIDDLER ON THE WEB)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Fiddler On The Web: Stroking my own dick , but i think its true"</Item>
+					<Item>"Fiddler On The Web: living in satan's butthole"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -312,6 +325,7 @@
 					<Item>"Heiluri: let's get them balls rolling"</Item>
 					<Item>"Heiluri: this is totally the Cumpany of Heroes 2 :3"</Item>
 					<Item>"Heiluri: cock service delicious, what was this game about o.o'"</Item>
+					<Item>"Heiluri: that fucking eel or what is it on the wall is the reason o.o"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -331,6 +345,8 @@
 					<Item>"jbondguy007: nipple syrup?"</Item>
 					<Item>"jbondguy007: You can also stuff it down the victim's throat I guess"</Item>
 					<Item>"jbondguy007: Baby slaying is my second favorite thing to do, the first being selling babies that haven't been slayed yet"</Item>
+					<Item>"jbondguy007: AT LEAST GIVE ME MY HORSE COCK"</Item>
+					<Item>"jbondguy007: sign my butt pls"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -345,7 +361,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (KALEITH|KAL|NEKO|CAT|KALE)</Pattern>
+			<Pattern>^NCT (KALEITH|KAL|NEKO|CAT|KALE|KAT)</Pattern>
 			<Response>
 				<Random>
 					<Item>"Kaleith: I don't use make-up"</Item>
@@ -382,6 +398,7 @@
 					<Item>"Profuse Kick Madu: I need 2 DDs"</Item>
 					<Item>"So-called Watt Madu: and I have no pants on but I am coming"</Item>
 					<Item>"Innovative Fuel Madu: "SHAVE YOU MOTHERFUCKER""</Item>
+					<Item>"Warlike Discussion Madu: THIS WAS MY SECRET ASS IN SLEVE"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -457,6 +474,15 @@
 			<Response>
 				<Random>
 					<Item>"Skatrzoo: incredibly accurate, but it's still hard"</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>^NCT (SZX|SZZZX|SZZZZZX|RENZ|RENZEREX)</Pattern>
+			<Response>
+				<Random>
+					<Item>"RenzereX: ERGH SO WET"</Item>
 				</Random>
 			</Response>
 		</Model>
