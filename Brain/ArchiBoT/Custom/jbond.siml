@@ -3,6 +3,41 @@
   <Concept Name="_jbond">
 
 	<Model>
+		<Pattern>^LMGTFY *</Pattern>
+		<Response> http://lmgtfy.com/?q=<Match /></Response>
+	</Model>
+
+	<Model>
+		<Pattern>^LMGTFY * *</Pattern>
+		<Response> http://lmgtfy.com/?q=<Match />+<Match Index="2"/></Response>
+	</Model>
+
+	<Model>
+		<Pattern>^LMGTFY * * *</Pattern>
+		<Response> http://lmgtfy.com/?q=<Match />+<Match Index="2"/>+<Match Index="3"/></Response>
+	</Model>
+
+	<Model>
+		<Pattern>^LMGTFY * * * *</Pattern>
+		<Response> http://lmgtfy.com/?q=<Match />+<Match Index="2"/>+<Match Index="3"/>+<Match Index="4"/></Response>
+	</Model>
+
+	<Model>
+		<Pattern>^LMGTFY * * * * *</Pattern>
+		<Response> http://lmgtfy.com/?q=<Match />+<Match Index="2"/>+<Match Index="3"/>+<Match Index="4"/>+<Match Index="5"/></Response>
+	</Model>
+
+	<Model>
+		<Pattern>^LMGTFY * * * * * *</Pattern>
+		<Response> http://lmgtfy.com/?q=<Match />+<Match Index="2"/>+<Match Index="3"/>+<Match Index="4"/>+<Match Index="5"/>+<Match Index="6"/></Response>
+	</Model>
+
+	<Model>
+		<Pattern>^LMGTFY * * * * * * *</Pattern>
+		<Response>The lmgtfy command can only take up to 6 words.</Response>
+	</Model>
+
+	<Model>
 		<Pattern>JBONDOKICK</Pattern>
 		<Response>Jbond has been kicked from 2hu <Js>randomIntBetween(1, 500);</Js> times. :sgsmile:</Response>
 	</Model>
