@@ -70,13 +70,30 @@
 
 		<Model>
 			<Pattern>
-				<Item>MY ^WISHLIST</Item>
 				<Item>^WISHLIST</Item>
 			</Pattern>
 			<Response>
 				<Var Think:Set="wlid"><Js>steamID("<User Get="ID" />")</Js></Var>
 				<If Var="wlid" Value="error">I don't know where your wishlist is :(</If>
 				<Else><User Get="Nickname" />'s wishlist link is http://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>_ ^WISHLIST</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="user"><Match /></Var>
+				<If Var="user" Value="MY"><Goto>WISHLIST</Goto></If>
+				<Else>
+					<Var Think:Set="wlid">
+						<Js>steamID("<ArchiChannelUserID>steam-110338190878500888 <Var Get="user" /></ArchiChannelUserID>")</Js>
+					</Var>
+					<If Var="wlid" Value="error">I don't know where <Var Get="user" />'s wishlist is :(</If>
+					<Else>
+						<Var Get="user" />'s wishlist link is http://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
+				</Else>
 			</Response>
 		</Model>
 
