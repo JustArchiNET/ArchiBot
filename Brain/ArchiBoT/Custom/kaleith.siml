@@ -75,7 +75,7 @@
 			<Response>
 				<Var Think:Set="wlid"><Js>steamID("<User Get="ID" />")</Js></Var>
 				<If Var="wlid" Value="error">I don't know where your wishlist is :(</If>
-				<Else><User Get="Nickname" />'s wishlist link is http://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
+				<Else><User Get="Nickname" />'s wishlist link is https://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
 			</Response>
 		</Model>
 
@@ -92,7 +92,7 @@
 					</Var>
 					<If Var="wlid" Value="error">I don't know where <Var Get="user" />'s wishlist is :(</If>
 					<Else>
-						<Var Get="user" />'s wishlist link is http://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
+						<Var Get="user" />'s wishlist link is https://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
 				</Else>
 			</Response>
 		</Model>
