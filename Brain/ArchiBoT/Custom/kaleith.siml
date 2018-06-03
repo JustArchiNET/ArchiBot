@@ -88,7 +88,7 @@
 				<If Var="user" Value="MY"><Goto>WISHLIST</Goto></If>
 				<Else>
 					<Var Think:Set="wlid">
-						<Js>steamID("<ArchiChannelUserID>steam-110338190878500888 <Var Get="user" /></ArchiChannelUserID>")</Js>
+						<Js>steamID("<ArchiChannelUserID><User Get="SourceID" /> <Var Get="user" /></ArchiChannelUserID>")</Js>
 					</Var>
 					<If Var="wlid" Value="error">I don't know where <Var Get="user" />'s wishlist is :(</If>
 					<Else>
