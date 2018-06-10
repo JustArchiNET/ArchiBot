@@ -84,15 +84,14 @@
 				<Item>_ ^WISHLIST</Item>
 			</Pattern>
 			<Response>
-				<Var Think:Set="user"><Match /></Var>
-				<If Var="user" Value="MY"><Goto>WISHLIST</Goto></If>
+				<Var Think:Set="upperuser"><Text Get="upper"><Match /></Text></Var>
+				<If Var="upperuser" Value="MY"><Goto>WISHLIST</Goto></If>
 				<Else>
 					<Var Think:Set="wlid">
-						<Js>steamID("<ArchiChannelUserID><User Get="SourceID" /> <Var Get="user" /></ArchiChannelUserID>")</Js>
+						<Js>steamID("<ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID>")</Js>
 					</Var>
-					<If Var="wlid" Value="error">I don't know where <Var Get="user" />'s wishlist is :(</If>
-					<Else>
-						<Var Get="user" />'s wishlist link is https://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
+					<If Var="wlid" Value="error">I don't know where <Match />'s wishlist is :(</If>
+					<Else><Match />'s wishlist link is https://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
 				</Else>
 			</Response>
 		</Model>
