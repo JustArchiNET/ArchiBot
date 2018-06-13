@@ -98,9 +98,9 @@
 
 		<Model>
 			<Pattern>
-				<Item>$ ^2HU WISHLIST $</Item>
-				<Item>$ ^TOUHOU WISHLIST $</Item>
-				<Item>$ ^GROUP WISHLIST $</Item>
+				<Item>% ^2HU WISHLIST %</Item>
+				<Item>% ^TOUHOU WISHLIST %</Item>
+				<Item>% ^GROUP WISHLIST %</Item>
 			</Pattern>
 			<Response>https://www.steamgifts.com/group/QSYeL/touhou-ga/wishlist</Response>
 		</Model>
