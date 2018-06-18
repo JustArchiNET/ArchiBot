@@ -5,30 +5,41 @@
   <!--Note: Values declared below are also used to initialize variables for ALL users that interact with Syn Web Assistant-->
   <!--Note: <User Get="Variable-Name"> is used to retrieve the first variable-->
   <UserSettings>
-    <!-- Variables that are part of ArchiBoT integration -->
+    <!-- Variables that are part of ArchiBoT integration. Those will be set by ArchiBoT automatically at first message, and can be used for various purposes. -->
 
-    <!-- Initialized to user's ID, in format of platform-ID, such as steam-76561198006963719. ID in this context is user's ID determined to be unique based on given platform. -->
-    <!-- Note, this is internal variable that is not declared as user variable here, but can be used freely in SIML files -->
+    <!-- Initialized to user's ID, in format of platform-ID, such as discord-215255099000225792 or steam-76561198006963719. ID in this context is user's ID determined to be unique based on given platform. This property can have various possible usages, especially access-related since it determines the user on given platform. -->
+    <!-- Note, this is internal variable that is not declared as user variable here, but can be used freely in SIML files. -->
     <!-- <Variable Name="ID" Value="unknown" /> -->
 
-    <!-- Initialized to source's ID, in format of platform-ID, such as steam-110338190878500888. ID in this context is channel's ID determined to be unique based on given platform. SourceID can be equal to ID (if it's private message on given platform). -->
-    <Variable Name="SourceID" Value="" />
+    <!-- Initialized to channel's ID of the source message, in format of platform-ID, such as discord-215255099000225792 or steam-412-1124. ID in this context is channel's ID determined to be unique based on given platform. This ID should be used only in situations where you need "physical" source of the message, e.g. for sending responses in late tasks. For all common info-related scenarios you should use ChatID instead. -->
+    <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
+    <Variable Name="ChannelID" Value="" />
+
+    <!-- Initialized to chat's ID of the source, in format of platform-ID, such as discord-215255099000225792 or steam-412. ID in this context is chat's ID determined to be unique based on given platform. ChatID can be used as a way to determine the "logical" source of the message. In comparison with ChannelID, this can't be used as a target for a response, but can be used for various info-related purposes, not only in custom adapters but also for simple things such as a comparison with user's ID in order to determine whether the message is private message on given platform (if user's ID is equal to chat's ID). -->
+    <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
+    <Variable Name="ChatID" Value="" />
 
     <!-- Initialized to user's last (current) message. This can be used in order to retrieve user's message in the way how the bot has received it, before all normalization steps done by SIML. -->
+    <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
     <Variable Name="LastMessage" Value="" />
 
-    <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what ID is for. -->
+    <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what user's ID is for. -->
+    <!-- Note: This variable will be set only once, therefore it can be freely modified by AI during a conversation (e.g. as part of "my nickname is XXX"). -->
     <Variable Name="Nickname" Value="unknown" />
 
-    <!-- Initialized to user's real name (if available) being used on given platform. -->
+    <!-- Initialized to user's real name (if available) being used on given platform. Should NOT be used for user authentication, that's what user's ID is for. -->
+    <!-- Note: This variable will be set only once, therefore it can be freely modified by AI during a conversation (e.g. as part of "my full name is XXX"). -->
     <Variable Name="FullName" Value="unknown" />
 
-    <!-- Initialized to user's FullName variable (if available) or Nickname variable (otherwise, if available) being used on given platform. Should NOT be used for user authentication, that's what ID is for. -->
+    <!-- Initialized to user's FullName variable (if available) or Nickname variable (otherwise, if available) being used on given platform. Should NOT be used for user authentication, that's what user's ID is for. -->
+    <!-- Note: This variable will be set only once, therefore it can be freely modified by AI during a conversation (e.g. as part of "my name is XXX"). -->
     <Variable Name="Name" Value="User" />
 
-    <!-- Initialized to user's location (if available) being used on given platform. -->
+    <!-- Initialized to user's location (if available) being used on given platform. This can be used in some custom adapters that accept a location, as well as the output for things such as "where am I". -->
+    <!-- Note: This variable will be set only once, therefore it can be freely modified by AI during a conversation (e.g. as part of "I'm living in XXX"). -->
     <Variable Name="Location" Value="unknown" />
 
+    <!-- End of ArchiBoT integration. Variables below are part of standard SIML user definition, they're not initialized by ArchiBoT, but can be set and retrieved during a conversation. -->
 
     <!--Emotion: Default user emotion when a new user is created-->
     <Variable Name="Emotion" Value="pleased" />
