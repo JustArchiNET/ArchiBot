@@ -276,7 +276,7 @@
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
 		<Model>
 			<Pattern>DEBUGUSERID *</Pattern>
-			<Response><ArchiChannelUserID><User Get="SourceID" /><Text xml:space="preserve">&#09;</Text><Match /></ArchiChannelUserID></Response>
+			<Response><ArchiChatUserID><User Get="ChatID" /> <Match /></ArchiChatUserID></Response>
 		</Model>
 
 		<Model>

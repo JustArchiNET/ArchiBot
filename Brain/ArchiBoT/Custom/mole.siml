@@ -6,7 +6,7 @@
             <Pattern>^REMIND ME IN _ TO _</Pattern>
             <Response>
                 <Think>
-                    <Bind Key="{LateSource}"><User Get="SourceID" /></Bind>
+                    <Bind Key="{LateSource}"><User Get="ChannelID" /></Bind>
                     <Bind Key="{Time}"><Match /></Bind>
                     <Bind Key="{TimeInSeconds}"><Js>convertTimeStringToSeconds('<Match />')</Js></Bind>
                     <Bind Key="{Task}"><Match At="2" /></Bind>

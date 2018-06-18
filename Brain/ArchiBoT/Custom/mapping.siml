@@ -51,8 +51,8 @@
 				<Item>WHERE AM I</Item>
 			</Pattern>
 			<Response>
-				<Switch User="SourceID">
-					<Case Value="steam-110338190878500888">
+				<Switch User="ChatID">
+					<Case Value="steam-412">
 						<Goto>WHAT IS TOUHOU GIVEAWAYS</Goto>
 					</Case>
 					<Default>Your location is <User Get="location" />.</Default>

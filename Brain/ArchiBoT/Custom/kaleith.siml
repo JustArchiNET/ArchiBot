@@ -87,7 +87,7 @@
 				<Var Think:Set="upperuser"><Text Get="upper"><Match /></Text></Var>
 				<If Var="upperuser" Value="MY"><Goto>WISHLIST</Goto></If>
 				<Else>
-					<Var Think:Set="wlid"><Js>steamID("<ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID>")</Js></Var>
+					<Var Think:Set="wlid"><Js>steamID("<ArchiChatUserID><User Get="ChatID" /> <Match /></ArchiChatUserID>")</Js></Var>
 					<If Var="wlid" Value="error">I don't know where <Match />'s wishlist is :(</If>
 					<Else><Match />'s wishlist link is https://steamcommunity.com/profiles/<Var Get="wlid" />/wishlist</Else>
 				</Else>
@@ -124,11 +124,11 @@
 				<Item>GIB NIER %</Item>
 			</Pattern>
 			<Response>
-				<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+				<Bind Key="{source-id}"><User Get="ChatID" /></Bind>
 				<If User="ID" Value="{source-id}">I'm not gonna give you NieR :doubt:</If>
 				<Else>
 					<Var Think:Set="gibnier" Value="{Bind Match}" />
-					<If Var="gibnier" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
+					<If Var="gibnier" Value=""><ArchiChatRandomUserNickname><User Get="ChatID" /></ArchiChatRandomUserNickname></If><Else><Var Get="gibnier" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of NieR:Automata™ today \:sgsmile:/
 				</Else>
 			</Response>
 		</Model>
@@ -139,11 +139,11 @@
 				<Item>GIB NIOH %</Item>
 			</Pattern>
 			<Response>
-				<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+				<Bind Key="{source-id}"><User Get="ChatID" /></Bind>
 				<If User="ID" Value="{source-id}">I'm not gonna give you Nioh :doubt:</If>
 				<Else>
 					<Var Think:Set="gibnioh" Value="{Bind Match}" />
-					<If Var="gibnioh" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibnioh" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of <Random><Item>Nioh: Complete Edition today \:sgsmile:/</Item><Item Weight="0.1">Nioh:Automata™ today \:sgsmile:/&#xD;...wait what \:doubt:/</Item></Random>
+					<If Var="gibnioh" Value=""><ArchiChatRandomUserNickname><User Get="ChatID" /></ArchiChatRandomUserNickname></If><Else><Var Get="gibnioh" /></Else> will give away <Js>randomIntBetween(2,10);</Js> copies of <Random><Item>Nioh: Complete Edition today \:sgsmile:/</Item><Item Weight="0.1">Nioh:Automata™ today \:sgsmile:/&#xD;...wait what \:doubt:/</Item></Random>
 				</Else>
 			</Response>
 		</Model>
@@ -154,11 +154,11 @@
 				<Item>GIB TUNA %</Item>
 			</Pattern>
 			<Response>
-				<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
+				<Bind Key="{source-id}"><User Get="ChatID" /></Bind>
 				<If User="ID" Value="{source-id}">I'm not gonna give Kaleith tuna :doubt:</If>
 				<Else>
 					<Var Think:Set="gibtuna" Value="{Bind Match}" />
-					<If Var="gibtuna" Value=""><ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></If><Else><Var Get="gibtuna" /></Else> will give away <Js>randomIntBetween(2,100);</Js> tunas to Kaleith today \:catpuzzle:/
+					<If Var="gibtuna" Value=""><ArchiChatRandomUserNickname><User Get="ChatID" /></ArchiChatRandomUserNickname></If><Else><Var Get="gibtuna" /></Else> will give away <Js>randomIntBetween(2,100);</Js> tunas to Kaleith today \:catpuzzle:/
 				</Else>
 			</Response>
 		</Model>
@@ -182,7 +182,7 @@
 
 		<Model>
 			<Pattern>^RANDOMUSER</Pattern>
-			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
+			<Response>Here's a random user from this chat: <ArchiChatRandomUserNickname><User Get="ChatID" /></ArchiChatRandomUserNickname></Response>
 		</Model>
 
 		<Model>

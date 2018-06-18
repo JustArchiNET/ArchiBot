@@ -101,7 +101,7 @@
 			<Item>GAMES IN COMMON WITH *</Item>
 		</Pattern>
 		<Response>
-			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID></Var>
+			<Var Think:Set="compareid"><ArchiChatUserID><User Get="ChatID" /> <Match /></ArchiChatUserID></Var>
 			<If Var="compareid" Value="">No user found!</If>
 			<Else>https://steamcommunity.com/profiles/<Js>steamID("<Var Get="compareid" />")</Js>/games?tab=all&amp;games_in_common=1</Else>
 		</Response>

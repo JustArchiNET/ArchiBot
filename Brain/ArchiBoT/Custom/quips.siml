@@ -101,7 +101,7 @@
 
 		<Model>
 			<Pattern>^RANDOMTAIGO</Pattern>
-			<Response><Goto>TAIGO <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Goto></Response>
+			<Response><Goto>TAIGO <ArchiChatRandomUserNickname><User Get="ChatID" /></ArchiChatRandomUserNickname></Goto></Response>
 		</Model>
 
 		<Model>
