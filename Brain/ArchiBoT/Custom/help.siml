@@ -27,7 +27,7 @@
 		</Model>
 
 		<Model>
-			<Pattern>% ^ASF WIKIRU%</Pattern>
+			<Pattern>% ^ASF WIKIRU %</Pattern>
 			<Response>https://github.com/JustArchi/ArchiSteamFarm/wiki/FAQ-ru-RU иди читай \:doubt:</Response>
 		</Model>
 		
