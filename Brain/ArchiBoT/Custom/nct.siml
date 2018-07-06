@@ -43,7 +43,7 @@
 					<Item Weight="1">JENNI</Item>
 					<Item Weight="7">KALEITH</Item>
 					<Item Weight="3">KHY</Item>
-					<Item Weight="9">MADU</Item>
+					<Item Weight="11">MADU</Item>
 					<Item Weight="1">MGBNN</Item>
 					<Item Weight="6">MIKU</Item>
 					<Item Weight="3">MIYUU</Item>
@@ -399,6 +399,8 @@
 					<Item>"So-called Watt Madu: and I have no pants on but I am coming"</Item>
 					<Item>"Innovative Fuel Madu: "SHAVE YOU MOTHERFUCKER""</Item>
 					<Item>"Warlike Discussion Madu: THIS WAS MY SECRET ASS IN SLEVE"</Item>
+					<Item>"Warlike Discussion Madu: jacking in the box is more realistic than me getting Dominos"</Item>
+					<Item>"Violent Vulture Madu: FIELDS AS WIDE AS GIANTDAD'S ASS"</Item>
 				</Random>
 			</Response>
 		</Model>
