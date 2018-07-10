@@ -27,6 +27,11 @@
 		</Model>
 
 		<Model>
+			<Pattern>% ^ASF WIKIRU %</Pattern>
+			<Response>https://github.com/JustArchi/ArchiSteamFarm/wiki/FAQ-ru-RU иди читай \:doubt:</Response>
+		</Model>
+		
+		<Model>
 			<Pattern>^TODO</Pattern>
 			<Response>...kete? :sgsmile:&#xD;Visit our TODO tracker: https://mantis.justarchi.net&#xD;Never forget Mole 2015-2017 :cry:7</Response>
 		</Model>

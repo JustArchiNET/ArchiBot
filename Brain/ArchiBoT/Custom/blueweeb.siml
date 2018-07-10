@@ -13,7 +13,7 @@
 		<Response>
 			<Random>
 				<!-- Please feel free to remove anything you don't think is good or add anythign to the following...It needs to be bigger help -->
-				<Item>See entry for <ArchiChannelRandomUserNickname>steam-110338190878500888</ArchiChannelRandomUserNickname>.</Item>
+				<Item>See entry for <ArchiChatRandomUserNickname>steam-412</ArchiChatRandomUserNickname>.</Item>
 				<Item>See entry for blue.</Item>
 				<Item>Nic: !nsfw loli.</Item>
 			</Random>
@@ -98,8 +98,8 @@
 	<Model>
 		<Pattern>CIRNOSLOTS</Pattern>
 		<Response>
-			<Bind Key="{source-id}"><User Get="SourceID" /></Bind>
-			<If User="ID" Not="{source-id}">The command is only available in private chats :3&lt;</If>
+			<Bind Key="{chat-id}"><User Get="ChatID" /></Bind>
+			<If User="ID" Not="{chat-id}">The command is only available in private chats :3&lt;</If>
 			<Else>
 				<Random>
 					<Item><Var Think:Set="randumote"><ArchiSteamRandomEmoticon /></Var>I Cirno will spin the Slot Machine for you&#xD;&#x200b;<Var Get="randumote" /> | <Var Get="randumote" /> | <Var Get="randumote" />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;<ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon /> | <ArchiSteamRandomEmoticon />&#xD;&#x200b;You Won! \:sgsmile:/ I'm the best!</Item>

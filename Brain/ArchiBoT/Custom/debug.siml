@@ -3,7 +3,7 @@
 	<Concept Name="_debug">
 		<Model>
 			<Pattern>DEBUGINFO</Pattern>
-			<Response>Your user's "ID" is: "<User Get="ID"/>". The "sourceID" is: "<User Get="SourceID"/>".</Response>
+			<Response>Your user's "ID" is: "<User Get="ID"/>". The "ChatID" is: "<User Get="ChatID"/>".</Response>
 		</Model>
 
 		<Model>
@@ -57,7 +57,7 @@
 		<Model>
 			<Pattern>DEBUG ISPRIVATECHAT</Pattern>
 			<Response>
-				<User Think:Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="SourceID"/>";</Js></User>
+				<User Think:Set="isBotPrivateChat"><Js>"<User Get="ID"/>"==="<User Get="ChatID"/>";</Js></User>
 				<Switch User="isBotPrivateChat">
 					<Case Value="True">You're in private chat... It worked :speak:</Case>
 					<Case Value="False">You're in a group chat... Did it work? :speak:</Case>
@@ -92,7 +92,7 @@
 <!-- TODO: un-comment and add targets to test target-id in the future 
 		<Model>
 			<Pattern>DEBUGLATESELF *</Pattern>
-			<Response><Bind Key="{source-id}"><User Get="SourceID" /></Bind>I will try to send the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
+			<Response><Bind Key="{source-id}"><User Get="ChannelID" /></Bind>I will try to send the message "<Text>{source-id}</Text> Success!" in <Match /> seconds.
 				<Late Second="{Bind Match}"><Text>{source-id}</Text> Success!</Late>
 			</Response>
 		</Model>
@@ -146,7 +146,7 @@
 			<Response>
 				<Bind Key="{Message}"><Match /></Bind>
 				<Text>I'll send that to 2hus soon :sgsmile:</Text>
-				<Late Second="2">steam-110338190878500888 <Text>{Message}</Text></Late>
+				<Late Second="2">steam-412-1124 <Text>{Message}</Text></Late>
 			</Response>
 		</Model>
 
@@ -200,7 +200,7 @@
 
 		<Model>
 			<Pattern>DEBUG RANDOMUSER</Pattern>
-			<Response>Here's a random user from this chat: <ArchiChannelRandomUserNickname><User Get="SourceID" /></ArchiChannelRandomUserNickname></Response>
+			<Response>Here's a random user from this chat: <ArchiChatRandomUserNickname><User Get="ChatID" /></ArchiChatRandomUserNickname></Response>
 		</Model>
 
 		<Model>
