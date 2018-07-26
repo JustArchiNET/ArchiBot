@@ -10,7 +10,7 @@
         for (var level = levelFrom + 1; level &lt;= levelTo; level++) {
             var targetYear = 700 + (100 * level);
             var yearDifference = (targetYear &gt; currentYear ? targetYear - currentYear : 0);
-            result += 7 * (100 * level) * (1 + 0.006 * yearDifference); // 7 because of 7 different technologies
+            result += 6 * (100 * level) * (1 + 0.006 * yearDifference); // 6 because of 6 different technologies per category
         }
 
         return result;
