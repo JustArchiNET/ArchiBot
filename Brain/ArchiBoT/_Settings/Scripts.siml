@@ -4,6 +4,18 @@
 <!--Note: Declaring a value for the "Type" attribute is mandatory-->
 <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
 <Script Type="javascript">
+    function calcCrusaderKings2Tech(levelFrom, levelTo, currentYear) {
+        var result = 0;
+
+        for (var level = levelFrom + 1; level &lt;= levelTo; level++) {
+            var targetYear = 700 + (100 * level);
+            var yearDifference = (targetYear &gt; currentYear ? targetYear - currentYear : 0);
+            result += 7 * (100 * level) * (1 + 0.006 * yearDifference); // 7 because of 7 different technologies
+        }
+
+        return result;
+    }
+
     /**
      * Converts Steam level into the xp required to attain it
      * @param {number} lvl - the level you want to convert (eg. '25')
