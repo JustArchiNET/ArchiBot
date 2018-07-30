@@ -231,7 +231,7 @@
     
     <Model>
       <Pattern>RIP *</Pattern>
-      <Response>:ripgocha: <Match /> <Random>(|:cry:7)</Random></Response>
+      <Response>:ripgocha: <Match /> :cry:7</Response>
     </Model>
     
     <Model>
