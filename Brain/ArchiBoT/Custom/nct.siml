@@ -55,7 +55,7 @@
 					<Item Weight="1">SZX</Item>
 					<Item Weight="15">TAIGO</Item>
 					<Item Weight="5">TRIST</Item>
-					<Item Weight="8">VSX</Item>
+					<Item Weight="9">VSX</Item>
 					<Item Weight="2">ZARA</Item>
 					<Item>MISC</Item>
 					</Random></Goto></Item>
@@ -547,6 +547,7 @@
 					<Item>"VSX: i swear i hit my P hard and steady"</Item>
 					<Item>"VSX: Is that a dildo penetrating a head"</Item>
 					<Item>"VSX: Why do you want my ass so bad"</Item>
+					<Item>"VSX: Right alt is so useful :bite:"</Item>
 				</Random>
 			</Response>
 		</Model>
