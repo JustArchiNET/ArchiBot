@@ -3,7 +3,7 @@
 	<Concept Name="_debug">
 		<Model>
 			<Pattern>DEBUGINFO</Pattern>
-			<Response>Your user's "ID" is: "<User Get="ID"/>". The "ChatID" is: "<User Get="ChatID"/>".</Response>
+			<Response>Your user's "ID" is: "<User Get="ID"/>". The "ChannelID" is: "<User Get="ChannelID"/>". The "ChatID" is: "<User Get="ChatID"/>".</Response>
 		</Model>
 
 		<Model>

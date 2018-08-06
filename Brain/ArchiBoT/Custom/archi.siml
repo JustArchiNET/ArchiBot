@@ -271,6 +271,14 @@
 			<Pattern>HI MICHELLE</Pattern>
 			<Response>https://yko.im/W3hq.mp4</Response>
 		</Model>
+
+		<Model>
+			<Pattern>^CK2 TECH FROM LEVEL @PositiveInteger ^TO LEVEL @PositiveInteger ^IN YEAR @PositiveInteger</Pattern>
+			<Response>
+				<Var Think:Set="jsresult"><Js>calcCrusaderKings2Tech(<Match />, <Match At="2" />, <Match At="3" />)</Js></Var>
+				To level up all of your technologies from level <Match /> to level <Match At="2" /> in year <Match At="3" /> you need a total of <Var Get="jsresult" /> tech points (per category, assuming each tech filled 0%).
+			</Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
