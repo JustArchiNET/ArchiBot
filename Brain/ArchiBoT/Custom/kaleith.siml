@@ -94,6 +94,33 @@
 			</Response>
 		</Model>
 
+		<!-- THIS IS JUST COPY AND PASTE, MAYBE I'LL (VSX) WILL DO SOMETHING ABOUT IT IF I'M NOT SO FREAKING LAZY -->
+		<Model>
+			<Pattern>
+				<Item>^STREAM</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="streamid"><Js>steamID("<User Get="ID" />")</Js></Var>
+				<If Var="streamid" Value="error">I don't know where your stream is :(</If>
+				<Else><User Get="Nickname" />'s stream link is https://steamcommunity.com/broadcast/watch/<Var Get="streamid" /></Else>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>_ ^STREAM</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="upperuser"><Text Get="upper"><Match /></Text></Var>
+				<If Var="upperuser" Value="MY"><Goto>STREAM</Goto></If>
+				<Else>
+					<Var Think:Set="streamid"><Js>steamID("<ArchiChatUserID><User Get="ChatID" /> <Match /></ArchiChatUserID>")</Js></Var>
+					<If Var="streamid" Value="error">I don't know where <Match />'s stream is :(</If>
+					<Else><Match />'s stream link is https://steamcommunity.com/broadcast/watch/<Var Get="streamid" /></Else>
+				</Else>
+			</Response>
+		</Model>
+
 		<Model>
 			<Pattern>
 				<Item>% ^2HU WISHLIST %</Item>
