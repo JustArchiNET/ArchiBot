@@ -118,6 +118,11 @@
     </Model>
     
     <Model>
+      <Pattern>PURGE MY</Pattern>
+      <Response><Text Get="Uppercase">PURGING YOUR <Match />... COMMENCING </Text><Random>(:detonator2:|:esc_warning:)</Random></Response>
+    </Model>
+    
+    <Model>
       <Pattern>^FREEGAME</Pattern>
       <Response>
         <If Bot="FreeGame" Value="NoFreeGame">There are currently no free games.</If>
