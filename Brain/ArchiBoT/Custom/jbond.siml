@@ -3,6 +3,20 @@
   <Concept Name="_jbond">
 
 	<Model>
+		<Pattern>STEAM (FILTERS|FILTER|TAGS|TAG)</Pattern>
+		<Response>https://www.lorenzostanco.com/lab/steam/</Response>
+	</Model>
+
+	<Model>
+		<Pattern>STEAM (FILTERS|FILTER|TAGS|TAG) *</Pattern>
+		<Response>
+			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match Index="2"/></ArchiChannelUserID></Var>
+			<If Var="compareid" Value="">No user found!</If>
+			<Else>https://www.lorenzostanco.com/lab/steam/u/<Js>steamID("<Var Get="compareid" />")</Js></Else>
+		</Response>
+	</Model>
+
+	<Model>
 		<Pattern>^LMGTFY *</Pattern>
 		<Response> http://lmgtfy.com/?q=<Match /></Response>
 	</Model>
