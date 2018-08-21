@@ -8,9 +8,22 @@
 	</Model>
 
 	<Model>
-		<Pattern>STEAM (FILTERS|FILTER|TAGS|TAG) *</Pattern>
+		<Pattern>
+			<Item>STEAM ^FILTER *</Item>
+			<Item>STEAM ^FILTERS *</Item>
+			<Item>STEAM ^TAG *</Item>
+			<Item>STEAM ^TAGS *</Item>
+			<Item>STEAM LIBRARY ^FILTER *</Item>
+			<Item>STEAM LIBRARY ^FILTERS *</Item>
+			<Item>STEAM LIBRARY ^TAG *</Item>
+			<Item>STEAM LIBRARY ^TAGS *</Item>
+			<Item>LIBRARY ^FILTER *</Item>
+			<Item>LIBRARY ^FILTERS *</Item>
+			<Item>LIBRARY ^TAG *</Item>
+			<Item>LIBRARY ^TAGS *</Item>
+		</Pattern>
 		<Response>
-			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match Index="2"/></ArchiChannelUserID></Var>
+			<Var Think:Set="compareid"><ArchiChannelUserID><User Get="SourceID" /> <Match /></ArchiChannelUserID></Var>
 			<If Var="compareid" Value="">No user found!</If>
 			<Else>https://www.lorenzostanco.com/lab/steam/u/<Js>steamID("<Var Get="compareid" />")</Js></Else>
 		</Response>
