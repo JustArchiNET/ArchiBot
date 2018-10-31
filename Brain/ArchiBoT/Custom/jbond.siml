@@ -174,8 +174,8 @@
     </Model>
     
     <Model>
-      <Pattern>^SETFREEGAME (NONE|N/A|NOTHING|NO|NOFREEGAME)</Pattern>
-      <Response>Done! The current free game was set to: <Bot Set="FreeGame" Value="NoFreeGame" /></Response>
+      <Pattern>^SETFREEGAME (NONE|NOTHING|NOFREEGAME)</Pattern>
+      <Response>Done! The current free game was set to: <Bot Set="FreeGame" Value="NoFreeGame" /><Think><Bot Set="JbondoFreeGame" Value="Free Jotun" /></Think></Response>
     </Model>
   
     <Model>
