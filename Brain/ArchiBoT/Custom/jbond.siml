@@ -3,6 +3,11 @@
   <Concept Name="_jbond">
 
 	<Model>
+		<Pattern>DED CHAT</Pattern>
+		<Response>https://i.imgur.com/iSDl8Qc.png</Response>
+	</Model>
+
+	<Model>
 		<Pattern>STEAM (FILTERS|FILTER|TAGS|TAG)</Pattern>
 		<Response>https://www.lorenzostanco.com/lab/steam/</Response>
 	</Model>
