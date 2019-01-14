@@ -50,11 +50,48 @@ Models: Who is me? -- Some random answers I use irl.
 		-->
 		<Model>
 			<Pattern>
-				<Item>AE Bye</Item>				
+				<Item>AE angry</Item>
+				<Item>AE annoy%</Item>	
+				<Item>AE mad</Item>	
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(╬◣д◢)</Item>
+					<Item>(ʘ言ʘ╬)</Item>
+					<Item>(๑⁼̴̀д⁼̴́๑)</Item>
+					<Item>(╬•᷅д•᷄╬)</Item>
+					<Item>( ૈ ᵒ̌ Дᵒ̌) ૈ=͟͟͞͞ ⌨</Item>
+					<Item>(๑‾᷅⍨‾᷅๑)</Item>
+					<Item>(=ﾟ㉨ﾟ=) ▄︻┻┳━ ·.`.`.`.</Item>
+					<Item>(σ;*Д*)σ</Item>
+					<Item>(╬ఠ༬ఠ) </Item>	
+					<Item>ヽ(`ﾟД´●)ﾉ </Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE Bye</Item>
+				<Item>AE night</Item>
 			</Pattern>
 			<Response>
 				<Random>
 					<Item>(๑˘̴͈́꒵˘̴͈̀) ˮ вyё вyё</Item>
+					<Item>ᵍᵒᵒᵈ ᵑᑊ̇ᵍᑋᐪ( ᵕ·̮ᵕ )♩</Item>
+				</Random>
+			</Response>
+		</Model>
+			<Model>
+			<Pattern>
+				<Item>AE cheers</Item>	
+				<Item>AE give gas</Item>
+				<Item>AE gogo</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(o尸'▽')o尸゛</Item>
+					<Item>✺◟✺◟⌯˭̴̵̶᷅∀˭̴̵̶᷄⌯)ᵍ०ᵎᵍ०ᵎ</Item>
+					<Item>( ゜- ゜)つロ</Item>	
 				</Random>
 			</Response>
 		</Model>
@@ -71,6 +108,8 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(◞‸◟ )</Item>
 					<Item>( ・᷄ㅂ・᷅ )</Item>
 					<Item>๐·°(৹˃̵﹏˂̵৹)°·๐</Item>
+					<Item>(๑o̴̶̷̥᷅﹏o̴̶̷̥᷅๑)</Item>
+					<Item>( •̥́ ㉨ •̀ू )</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -88,6 +127,35 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>ฅ(˘ω˘ )ฅ</Item>
 					<Item>(๑‾ ꇴ ‾๑)</Item>		
 					<Item>̋(ˊ•͈ ꇴ •͈ˋ)</Item>
+					<Item>̋(≖ω≖✿)</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE dance</Item>
+				<Item>AE music</Item>
+				<Item>AE sing</Item>
+				<Item>AE song</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>└(^^*)┐ ┌(*^^)┘└(^^*)┐ ┌(*^^)┘</Item>
+					<Item>♪└|∵|┐♪└|∵|┘♪┌|∵|┘♪</Item>
+					<Item>┌|°з°|┘└|°ε°|┐┌|°э°|┘</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE friend%</Item>				
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>✧( ु•⌄• )◞◟( •⌄• ू )✧</Item>
+					<Item>(っ´ω`)っ☂⊂(´ω`⊂ )</Item>	
+					<Item>‹‹\(´ω` )/››‹‹\( 　´)/›› ‹‹\( ´ω`)/››~♪</Item>
+					<Item>( ,,´･㉨･)ﾉ"(´っω･｀｡)</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -97,7 +165,7 @@ Models: Who is me? -- Some random answers I use irl.
 			</Pattern>
 			<Response>
 				<Random>
-					<Item></Item>
+					<Item>Happy♪ヾ|｡・∀・｡|ﾉ"" Birthday♪</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -110,6 +178,7 @@ Models: Who is me? -- Some random answers I use irl.
 			</Pattern>
 			<Response>
 				<Random>
+					<Item>o(≧∇≦)o</Item>
 					<Item>( •̀ .̫ •́ )✧</Item>
 					<Item>(o´ω`o)</Item>
 					<Item>(๑¯◡¯๑)</Item>
@@ -137,6 +206,9 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(￣y▽￣)~*</Item>
 					<Item>ʅ（´◔౪◔）ʃ</Item>
 					<Item>(｡☉౪ ⊙｡)</Item>	
+					<Item>ꉂ(σ▰˃̶̀ꇴ˂̶́)σ✧</Item>
+					<Item>ꉂ (๑¯ਊ¯)σ л̵ʱªʱªʱª</Item>
+					<Item>✧*｡ (ˊᗜˋ*) ✧*</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -149,6 +221,7 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(ღˇ◡ˇ)♡Lᵒᵛᵉᵧₒᵤ♡</Item>
 					<Item>♡(*´･ω･)(･ω･`*)♡</Item>
 					<Item>༾( ˊ ˅ ˋ )༿❤︎༾( ˊ ˅ ˋ )༿</Item>
+					<Item>ღ(ゝ◡ ⚈᷀᷁ღ)</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -180,6 +253,7 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(ˊo̴̶̷̤⌄o̴̶̷̤ˋ)</Item>
 					<Item>(❁ᴗ͈ˬᴗ͈)◞</Item>
 					<Item>( ˶ˇωˇ˶ )</Item>
+					<Item> (*/ω＼*)</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -204,6 +278,36 @@ Models: Who is me? -- Some random answers I use irl.
 				</Random>
 			</Response>
 		</Model>
-		
+			<Model>
+			<Pattern>
+				<Item>AE shock%</Item>	
+				<Item>AE surprise</Item>
+				<Item>AE what</Item>	
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(ㆀ˘･з･˘)ωҺaｔ?</Item>
+					<Item>ԅ(‹o›Д‹o›ԅ)</Item>
+					<Item> !!!∑(ﾟДﾟノ)ノ</Item>	
+					<Item>w(゜Д゜)w</Item>
+					<Item>∑(っ °Д °;)っ</Item>
+					<Item>∑( ° △ °|||)</Item>	
+				</Random>
+			</Response>
+		</Model>	
+		<Model>
+			<Pattern>
+				<Item>AE ty</Item>
+				<Item>AE thx</Item>	
+				<Item>AE thanks</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(୨୧•͈ᴗ•͈)◞ᵗʱᵃᵑᵏઽ</Item>
+					<Item>ᵗᑋᵃᐢᵏ ᵞᵒᵘ ¨̮</Item>
+					<Item>৳৸ᵃᵑᵏ Ꮍ৹੫ᵎ</Item>
+				</Random>
+			</Response>
+		</Model>		
 	 </Concept>
 </Siml>
