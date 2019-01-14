@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_asteroidb612">
+		<Model>
+			<Pattern>Who is AsteroidB612</Pattern>
+			<Response>A frequent traveler who uses ASF to show online gaming status 7/24.</Response>
+      <Response>A muggle who dreams of magic and supernatural power.</Response>
+      <Response>A patient with serious mental illness.</Response>
+      <Response>A potential criminal.</Response>
+      <Response>A prisoner who enjoys breaking out of mental hospital.</Response>
+		</Model>
+  </Concept>
+</Siml>
