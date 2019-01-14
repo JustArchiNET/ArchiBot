@@ -2,7 +2,7 @@
 <!--
 Author: AsteroidB612, Steam URL -- XinxingChen
 Models: Who is me? -- Some random answers I use irl.
-	Chinese Emoji -- Some emojis I like to use in online chatting.
+	AA Emoji -- Some ASCII art emojis I like to use in online chatting.
 -->
 <Siml>
 	<Concept Name="_asteroidb612">
@@ -20,19 +20,26 @@ Models: Who is me? -- Some random answers I use irl.
 		</Model>
 		<Model>
 			<Pattern>
-				<Item>%Chinese Emoji%</Item>
-				<Item>%Chinese Emoticon%</Item>
+				<Item>%AA Emoji%</Item>
+				<Item>%AA Emoticon%</Item>
+				<Item>%non-Steam Emoji%</Item>
+				<Item>%non-Steam Emoticon%</Item>
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>Do you wanna know some non-Steam emojis?(o´ω`o)</Item>
-					<Item>Juse type "CE + your mood" like "CE happy" to try them!(๑¯◡¯๑)</Item>
-			</Random>
+					<Item>Do you wanna know some ASCII art emojis?</Item>
+					<Item>Do you wanna know some non-Steam emojis?</Item>
+					<Item>Juse type "AE + sth" like "AE happy" to try them!</Item>
+					<Item>Try "AE help" to see available ASCII art emojis</Item>
+			   	</Random>
 			</Response>
 		</Model>
 		<Model>
 			<Pattern>
-				<Item>CE happy</Item>
+				<Item>AE happy</Item>
+				<Item>AE good</Item>
+				<Item>AE great</Item>
+				<Item>AE nice</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -42,28 +49,12 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>ლ(╹◡╹ლ)</Item>
 					<Item>(๑•́ ∀ •̀๑)</Item>
 					<Item>୧(๑•̀⌄•́๑)૭✧</Item>
-			</Random>
+				</Random>
 			</Response>
 		</Model>
 		<Model>
 			<Pattern>
-				<Item>CE sleep</Item>
-			</Pattern>
-			<Response>
-				<Random>				
-					<Item>(¦3[[]] </Item>
-					<Item>(¦3[[]]੭ु⁾⁾</Item>
-					<Item>(:3ꇤ[[]] </Item>
-					<Item>[[]]ꇤε:)</Item>
-					<Item>=͟͟͞͞ (¦3[[]] </Item>
-					<Item>ＺZz...(¦3ꇤ[[]]</Item>
-					<Item>*<(¦Q[[]]</Item>
-			</Random>
-			</Response>
-		</Model>
-		<Model>
-			<Pattern>
-				<Item>CE math</Item>
+				<Item>AE math%</Item>
 			</Pattern>
 			<Response>
 				<Random>
@@ -76,8 +67,25 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>∇・(・ω・∇・)</Item>
 					<Item>∇×(・ω・∇×)</Item>
 					<Item>Δ(・ω・Δ)</Item>
-			</Random>
+				</Random>
 			</Response>
 		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE sleep</Item>
+			</Pattern>
+			<Response>
+				<Random>				
+					<Item>(¦3[[]] </Item>
+					<Item>(¦3[[]]੭ु⁾⁾</Item>
+					<Item>(:3ꇤ[[]] </Item>
+					<Item>[[]]ꇤε:)</Item>
+					<Item>=͟͟͞͞ (¦3[[]] </Item>
+					<Item>ＺZz...(¦3ꇤ[[]]</Item>
+					<Item>*<(¦Q[[]]</Item>
+				</Random>
+			</Response>
+		</Model>
+		
 	 </Concept>
 </Siml>
