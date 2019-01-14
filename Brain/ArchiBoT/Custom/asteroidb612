@@ -8,7 +8,6 @@
 				<Item>A frequent traveler who uses ASF to show online gaming status 7/24.</Item>
       				<Item>A muggle who dreams of magic and supernatural power.</Item>
       				<Item>A patient with serious mental illness.</Item>      	
-				<Item>A muggle who dreams of magic and supernatural power.</Item>
      				<Item>A potential criminal.</Item>
       				<Item>A prisoner who enjoys breaking out of mental hospital.</Item>			
 			</Random>
@@ -21,9 +20,57 @@
 			</Pattern>
 			<Response>
 				<Random>
+					<Item>Do you wanna know some non-Steam emojis?(o´ω`o)</Item>
+					<Item>Juse type "CE + your mood" like "CE happy" to try them!(๑¯◡¯๑)</Item>
+			</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>CE happy</Item>
+			</Pattern>
+			<Response>
+				<Random>
 					<Item>( •̀ .̫ •́ )✧</Item>
 					<Item>(o´ω`o)</Item>
 					<Item>(๑¯◡¯๑)</Item>
+					<Item>ლ(╹◡╹ლ)</Item>
+					<Item>(๑•́ ∀ •̀๑)</Item>
+					<Item>୧(๑•̀⌄•́๑)૭✧</Item>
+			</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>CE sleep</Item>
+			</Pattern>
+			<Response>
+				<Random>				
+					<Item>(¦3[[]] </Item>
+					<Item>(¦3[[]]੭ु⁾⁾</Item>
+					<Item>(:3ꇤ[[]] </Item>
+					<Item>[[]]ꇤε:)</Item>
+					<Item>=͟͟͞͞ (¦3[[]] </Item>
+					<Item>ＺZz...(¦3ꇤ[[]]</Item>
+					<Item>*<(¦Q[[]]</Item>
+			</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>CE math</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>d(・ω・d)</Item>
+					<Item>(∫・ω・)∫</Item>
+					<Item>∂(・ω・∂)</Item>
+					<Item>(∮・ω・)∮ </Item>
+					<Item>(∬・ω・)∬ </Item>
+					<Item>∇(・ω・∇)</Item>
+					<Item>∇・(・ω・∇・)</Item>
+					<Item>∇×(・ω・∇×)</Item>
+					<Item>Δ(・ω・Δ)</Item>
 			</Random>
 			</Response>
 		</Model>
