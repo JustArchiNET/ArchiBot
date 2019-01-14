@@ -2,14 +2,16 @@
 <!--
 Author: AsteroidB612, Steam URL -- XinxingChen
 Models: Who is me? -- Some random answers I use irl.
-	AA Emoji -- Some ASCII art emojis I like to use in online chatting.
+	ASCII art emojis -- My beloved emojis.
 -->
 <Siml>
 	<Concept Name="_asteroidb612">
+		<!-- Guess none would ask that silly question except myself. -->
 		<Model>
 			<Pattern>Who is AsteroidB612</Pattern>
 			<Response>
 			<Random>
+				<Item>A computer noob who ruined everything related to 21st century tech.</Item>
 				<Item>A frequent traveler who uses ASF to show online gaming status 7/24.</Item>
       				<Item>A muggle who dreams of magic and supernatural power.</Item>
       				<Item>A patient with serious mental illness.</Item>      	
@@ -18,6 +20,7 @@ Models: Who is me? -- Some random answers I use irl.
 			</Random>
 			</Response>
 		</Model>
+		<!-- Some ASCII art emojis I like. -->
 		<Model>
 			<Pattern>
 				<Item>%AA Emoji%</Item>
@@ -29,9 +32,35 @@ Models: Who is me? -- Some random answers I use irl.
 				<Random>
 					<Item>Do you wanna know some ASCII art emojis?</Item>
 					<Item>Do you wanna know some non-Steam emojis?</Item>
-					<Item>Juse type "AE + sth" like "AE happy" to try them!</Item>
-					<Item>Try "AE help" to see available ASCII art emojis</Item>
+					<Item>Juse type "AE + sth" like "AE happy" to try them!</Item>			
 			   	</Random>
+			</Response>
+		</Model>
+		<!--"AE **": Available ASCII art emojis related to **-->
+		<Model>
+			<Pattern>
+				<Item>AE **</Item>				
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>**</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE cute</Item>
+				<Item>AE kawaii</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>✪ω✪</Item>
+					<Item>(๑°3°๑)</Item>
+					<Item>(๑òωó๑)</Item>
+					<Item>ฅ(*°ω°*ฅ)*</Item>
+					<Item>ฅ(˘ω˘ )ฅ</Item>
+					<Item>(๑‾ ꇴ ‾๑)</Item>
+				</Random>
 			</Response>
 		</Model>
 		<Model>
@@ -49,6 +78,37 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>ლ(╹◡╹ლ)</Item>
 					<Item>(๑•́ ∀ •̀๑)</Item>
 					<Item>୧(๑•̀⌄•́๑)૭✧</Item>
+					<Item>(❁´◡`❁)*✲ﾟ*</Item>
+					<Item>(●'◡'●)ﾉ♥</Item>
+					<Item><(▰˘◡˘▰)></Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE haha</Item>
+				<Item>AE jaja</Item>
+				<Item>AE laugh</Item>
+				<Item>AE lmao</Item>
+				<Item>AE rofl</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>o(*≧▽≦)ツ┏━┓</Item>
+					<Item>(￣y▽￣)~*</Item>
+					<Item>ʅ（´◔౪◔）ʃ</Item>
+					<Item>(｡☉౪ ⊙｡)</Item>	
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE love</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(ღˇ◡ˇ)♡Lᵒᵛᵉᵧₒᵤ♡</Item>
+					<Item>♡(*´･ω･)(･ω･`*)♡</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -83,6 +143,11 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>=͟͟͞͞ (¦3[[]] </Item>
 					<Item>ＺZz...(¦3ꇤ[[]]</Item>
 					<Item>*<(¦Q[[]]</Item>
+					<Item>(:3[GC]</Item>
+					<Item>(:3[G]=</Item>
+					<Item> ☍ (:[[]] </Item>
+					<Item>(:3[ ^ ]</Item>
+					<Item></Item>
 				</Random>
 			</Response>
 		</Model>
