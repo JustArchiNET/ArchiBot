@@ -36,14 +36,41 @@ Models: Who is me? -- Some random answers I use irl.
 			   	</Random>
 			</Response>
 		</Model>
-		<!--"AE **": Available ASCII art emojis related to **-->
+		<!--"AE **": Available ASCII art emojis related to **
 		<Model>
 			<Pattern>
 				<Item>AE **</Item>				
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>**</Item>
+					<Item>** AE emojis</Item>
+				</Random>
+			</Response>
+		</Model>
+		-->
+		<Model>
+			<Pattern>
+				<Item>AE Bye</Item>				
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(๑˘̴͈́꒵˘̴͈̀) ˮ вyё вyё</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE cry</Item>
+				<Item>AE sad</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(ಥ_ಥ)</Item>
+					<Item>(ಥ﹏ಥ)</Item>
+					<Item>( •̥́ ˍ •̀ू )</Item>
+					<Item>(◞‸◟ )</Item>
+					<Item>( ・᷄ㅂ・᷅ )</Item>
+					<Item>๐·°(৹˃̵﹏˂̵৹)°·๐</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -59,7 +86,18 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(๑òωó๑)</Item>
 					<Item>ฅ(*°ω°*ฅ)*</Item>
 					<Item>ฅ(˘ω˘ )ฅ</Item>
-					<Item>(๑‾ ꇴ ‾๑)</Item>
+					<Item>(๑‾ ꇴ ‾๑)</Item>		
+					<Item>̋(ˊ•͈ ꇴ •͈ˋ)</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
+				<Item>AE HB</Item>				
+			</Pattern>
+			<Response>
+				<Random>
+					<Item></Item>
 				</Random>
 			</Response>
 		</Model>
@@ -81,6 +119,7 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(❁´◡`❁)*✲ﾟ*</Item>
 					<Item>(●'◡'●)ﾉ♥</Item>
 					<Item><(▰˘◡˘▰)></Item>
+					<Item>⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -109,6 +148,7 @@ Models: Who is me? -- Some random answers I use irl.
 				<Random>
 					<Item>(ღˇ◡ˇ)♡Lᵒᵛᵉᵧₒᵤ♡</Item>
 					<Item>♡(*´･ω･)(･ω･`*)♡</Item>
+					<Item>༾( ˊ ˅ ˋ )༿❤︎༾( ˊ ˅ ˋ )༿</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -132,6 +172,19 @@ Models: Who is me? -- Some random answers I use irl.
 		</Model>
 		<Model>
 			<Pattern>
+				<Item>AE shy</Item>				
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>(つд⊂)</Item>
+					<Item>(ˊo̴̶̷̤⌄o̴̶̷̤ˋ)</Item>
+					<Item>(❁ᴗ͈ˬᴗ͈)◞</Item>
+					<Item>( ˶ˇωˇ˶ )</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>
 				<Item>AE sleep</Item>
 			</Pattern>
 			<Response>
@@ -147,7 +200,7 @@ Models: Who is me? -- Some random answers I use irl.
 					<Item>(:3[G]=</Item>
 					<Item> ☍ (:[[]] </Item>
 					<Item>(:3[ ^ ]</Item>
-					<Item></Item>
+					<Item>(～﹃～)~zZ</Item>
 				</Random>
 			</Response>
 		</Model>
