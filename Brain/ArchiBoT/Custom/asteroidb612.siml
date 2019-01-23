@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: AsteroidB612(Steam Nickname), XinxingChen(Steam URL)
+Models: Who is me? (Some random answers I use irl.)
+-->
+<Siml>
+	<Concept Name="_asteroidb612">
+		<!-- Guess none would ask that silly question except myself. -->
+		<Model>
+			<Pattern>Who is AsteroidB612</Pattern>
+			<Response>
+			<Random>
+				<Item>A Bachelor of EA.:sgsmile:</Item>
+				<Item>A computer noob who ruined everything related to 21st century tech.:doubt:</Item>
+				<Item>A frequent traveler who uses ASF to show online gaming status 7/24.</Item>
+				<Item>A Google fan who has dozens of Google apps installed on iOS devices.</Item>
+				<Item>A human who tries to behave like a trading bot.:speak:</Item>
+      				<Item>A muggle who dreams of magic and supernatural power.:trance:</Item>
+      				<Item>A patient with serious mental illness.</Item>
+				<Item>A person who suffers from paranoia and prosopagnosia.:think:</Item>
+				<Item>A poor iOS user who uses Steam App released at 2016.:cry:</Item>	
+     				<Item>A potential criminal.:bite:</Item>
+      				<Item>A prisoner who enjoys breaking out of mental hospital.</Item> 
+			</Random>
+			</Response>
+		</Model>		
+	 </Concept>
+</Siml>
