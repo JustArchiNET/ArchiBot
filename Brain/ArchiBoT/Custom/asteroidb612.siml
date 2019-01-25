@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 Author: AsteroidB612(Steam Nickname), XinxingChen(Steam URL)
-Models: Who is me? (Some random answers I use irl.)
+Part01: Asteroid, random and wayward self-explantory I use to describe myself irl.
+Part02: Xing, invite ArchiBot to eat out with me.
 -->
 <Siml>
 	<Concept Name="_asteroidb612">
@@ -12,17 +13,43 @@ Models: Who is me? (Some random answers I use irl.)
 			<Random>
 				<Item>A Bachelor of EA.:sgsmile:</Item>
 				<Item>A computer noob who ruined everything related to 21st century tech.:doubt:</Item>
-				<Item>A frequent traveler who uses ASF to show online gaming status 7/24.</Item>
-				<Item>A Google fan who has dozens of Google apps installed on iOS devices.</Item>
+				<Item>A frequent traveler who uses ASF to show AFK status 7/24.:trance:</Item>
+				<Item>A Google fan who has dozens of Google apps installed on iOS devices.:bite:</Item>
 				<Item>A human who tries to behave like a trading bot.:speak:</Item>
       				<Item>A muggle who dreams of magic and supernatural power.:trance:</Item>
-      				<Item>A patient with serious mental illness.</Item>
-				<Item>A person who suffers from paranoia and prosopagnosia.:think:</Item>
+      				<Item>A patient with serious mental illness.:bite:</Item>
+				<Item>A person who is very into paranoia and prosopagnosia.:think:</Item>
 				<Item>A poor iOS user who uses Steam App released at 2016.:cry:</Item>	
      				<Item>A potential criminal.:bite:</Item>
-      				<Item>A prisoner who enjoys breaking out of mental hospital.</Item> 
+      				<Item>A prisoner who enjoys breaking out of mental hospital.:bite:</Item>
+				<Item>A steamer who is sleepsteaming or drunksteaming most of time.:doubt:</Item>
+				<Item>A wayward trader who like to visit your inventory while you're sleeping.:bite:</Item>
 			</Random>
 			</Response>
 		</Model>		
 	 </Concept>
+	 <Concept Name="_xing" User="steam-76561198339012887">
+		<!-- Ask ArchiBot if she's hungry. -->
+		<!-- 
+		May I know how to add some logic(e.g. Check Strings.BotStatus) to ask bot if she's farming or idling?
+		If ArchiBot is farming, return "I'm eating like a horse and working like a horse.:bite:"
+		If ArchiBot doesn't have any games to farm, return "My greedy master doesn't feed me well.:cry:"
+		-->
+		<Model>
+			<Pattern>Wanna join my breakfast</Pattern>
+			<Pattern>Wanna join my brunch</Pattern>
+			<Pattern>Wanna join my lunch</Pattern>
+			<Pattern>Wanna join my afternoon tea</Pattern>
+			<Pattern>Wanna join my dinner</Pattern>
+			<Response>
+				<Random>
+					<Item>Sure, I'm always happy to break bread with you.:sgsmile:</Item>
+					<Item>Sure, I'm hungry cuz my greedy master doesn't feed me well.:cry:</Item>
+					<Item>Sure, I promise that I won't easily get fat.:think:</Item>
+					<Item>Sure, I've already eaten Archi out of house and home.:doubt:</Item>
+					<Item>Sure, I wanna take a big bite out of your plate.:bite:</Item>
+				</Random>
+			</Response>
+		</Model>
+	</Concept>
 </Siml>
