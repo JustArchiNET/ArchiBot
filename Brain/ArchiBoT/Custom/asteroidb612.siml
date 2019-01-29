@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 Author: AsteroidB612(Steam Nickname), XinxingChen(Steam URL)
-Part01: Asteroid, random and wayward self-explantory I use to describe myself irl.
+Part01: AsteroidB612, random and wayward self-explantory I use to describe myself irl.
 Part02: Xing, invite ArchiBot to eat out with me.
 -->
 <Siml>
@@ -28,10 +28,13 @@ Part02: Xing, invite ArchiBot to eat out with me.
 			</Response>
 		</Model>		
 	 </Concept>
+	
 	 <Concept Name="_xing" User="steam-76561198339012887">
-		<!-- Ask ArchiBot if she's hungry. -->
 		<!-- 
-		May I know how to add some logic(e.g. Check Strings.BotStatus) to ask bot if she's farming or idling?
+		Ask ArchiBot if she's hungry.
+		Teach ArchiBot to sing some of my favorite songs.
+		Idk how to add some logic(e.g. Check Strings.BotStatus) to ask bot if she's farming or idling.
+		But I hope I could realize that after I study ASF and understand the logic well.
 		If ArchiBot is farming, return "I'm eating like a horse and working like a horse.:bite:"
 		If ArchiBot doesn't have any games to farm, return "My greedy master doesn't feed me well.:cry:"
 		-->
@@ -51,5 +54,19 @@ Part02: Xing, invite ArchiBot to eat out with me.
 				</Random>
 			</Response>
 		</Model>
+		 
+		<Model>
+			<Pattern>Sing Casablanca</Pattern>
+			<Pattern>Please sing my favorite song</Pattern>
+			<Response>
+				<Random>
+					<Item>I fell in love with you watching Casablanca. Back row of the drive in show in the flickering light. Popcorn and cokes beneath the stars became champagne and caviar. Making love on a long hot summers night.</Item>
+					<Item>I thought you fell in love with me watching Casablanca. Holding hands 'neath the paddle fans in Rick's Candle lit cafe. Hiding in the shadows from the spies. Moroccan moonlight in your eyes. Making magic at the movies in my old chevrolet.</Item>
+					<Item>Oh! A kiss is still a kiss in Casablanca. But a kiss is not a kiss without your sigh. Please come back to me in Casablanca. I love you more and more each day as time goes by.</Item>
+					<Item>I guess there're many broken hearts in Casablanca. You know I've never really been there so I don't know. I guess our love story will never be seen on the big wide silver screen. But it hurt just as bad when I had to watch you go.</Item>
+				</Random>
+			</Response>
+		</Model>
+		 
 	</Concept>
 </Siml>
