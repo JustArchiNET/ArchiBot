@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--		CONTENT:
 	2HUFACT - Returns a random fact about the group
 	WHO IS CJ/KERO/MOLE/ARCHI - self-explanatory
@@ -254,6 +254,48 @@
 				<Item>^ARCHIWIZARD</Item>
 			</Pattern>
 			<Response>https://i.imgur.com/8dzRVWP.jpg</Response>
+		</Model>
+
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHI DOLLAR</Item>
+				<Item>^ARCHIDOLLAR</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/fdGZn96.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHI EURO</Item>
+				<Item>^ARCHIEURO</Item>
+				<Item>^EUROARCHI</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/qv5gWKc.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHI CAT</Item>
+				<Item>^ARCHICAT</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/O9yhyjh.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHI TIGER</Item>
+				<Item>^ARCHITIGER</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/OzAQyEm.jpg</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^ARCHI PANDA</Item>
+				<Item>^ARCHIPANDA</Item>
+			</Pattern>
+			<Response>https://i.imgur.com/KNeuQQ9.jpg</Response>
 		</Model>
 
 		<Model>
