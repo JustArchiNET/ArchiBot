@@ -3,6 +3,7 @@
 Author: AsteroidB612(Steam Nickname), XinxingChen(Steam URL)
 Part01: AsteroidB612, random and wayward self-explantory I use to describe myself irl.
 Part02: Xing, invite ArchiBot to eat out with me.
+Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 -->
 <Siml>
 	<Concept Name="_asteroidb612">
@@ -29,8 +30,24 @@ Part02: Xing, invite ArchiBot to eat out with me.
 		</Model>		
 	 </Concept>
 	
+	<Concept Name="_TestYourIQ">
+		<Model>
+			<Pattern>Test my IQ</Pattern>
+			<Response>Dear weeb, your IQ score is <Var Set="IQScore"><Math Get="random" Min="0" Max="200" /></Var>, <Switch Var="IQScore">
+				<Case LT="70">death and vulgarity are the only two facts that you can't explain away:sgsmile:</Case>
+				<Case LT="79">your life is one dull thing after another :cry:</Case>
+				<Case LT="89">every genius has a past and every fool has a future :sgsmile:</Case>
+				<Case LT="109">you are such a brilliant failure :think:</Case>
+				<Case LT="119">you must be an artificial intelligence :speak:</Case>
+				<Case LT="140">your intelligence is beyond our imagination :bite:</Case>
+				<Default>Error, please try again! :trance:</Default></Switch>
+			</Response>
+		</Model>
+	 </Concept>
+	
 	 <Concept Name="_xing" User="steam-76561198339012887">
 		<!-- 
+		Update: I found the Wanna join is already used in normal chat functions, so I have to modify the Q&A.
 		Ask ArchiBot if she's hungry.
 		Teach ArchiBot to sing some of my favorite songs.
 		Idk how to add some logic(e.g. Check Strings.BotStatus) to ask bot if she's farming or idling.
@@ -39,18 +56,15 @@ Part02: Xing, invite ArchiBot to eat out with me.
 		If ArchiBot doesn't have any games to farm, return "My greedy master doesn't feed me well.:cry:"
 		-->
 		<Model>
-			<Pattern>Wanna join my breakfast</Pattern>
-			<Pattern>Wanna join my brunch</Pattern>
-			<Pattern>Wanna join my lunch</Pattern>
-			<Pattern>Wanna join my afternoon tea</Pattern>
-			<Pattern>Wanna join my dinner</Pattern>
+			<Pattern>Bot feeding status</Pattern>
+			<Pattern>Bot hungry status</Pattern>
 			<Response>
 				<Random>
-					<Item>Sure, I'm always happy to break bread with you.:sgsmile:</Item>
-					<Item>Sure, I'm hungry cuz my greedy master doesn't feed me well.:cry:</Item>
-					<Item>Sure, I promise that I won't easily get fat.:think:</Item>
-					<Item>Sure, I've already eaten Archi out of house and home.:doubt:</Item>
-					<Item>Sure, I wanna take a big bite out of your plate.:bite:</Item>
+					<Item>I'm always happy to have dinner with you. :sgsmile:</Item>
+					<Item>I'm hungry cuz my greedy master doesn't feed me well. :cry:</Item>
+					<Item>I promise that I won't easily get fat. :think:</Item>
+					<Item>I've already eaten Archi out of house and home. :doubt:</Item>
+					<Item>I wanna take a big bite out of your plate. :bite:</Item>
 				</Random>
 			</Response>
 		</Model>
