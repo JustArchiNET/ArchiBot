@@ -29,6 +29,7 @@
 					<Item Weight="25">ARCHI</Item>
 					<Item Weight="3">ARCHIBOT</Item>
 					<Item Weight="14">ASIM</Item>
+					<Item Weight="7">Asteroid</Item>
 					<Item Weight="6">BLUE</Item>
 					<Item Weight="2">CHT</Item>
 					<Item Weight="4">CJ</Item>
@@ -39,7 +40,7 @@
 					<Item Weight="1">FERRET</Item>
 					<Item Weight="2">FID</Item>
 					<Item Weight="12">HEILURI</Item>
-					<Item Weight="13">JBOND</Item>
+					<Item Weight="15">JBOND</Item>
 					<Item Weight="1">JENNI</Item>
 					<Item Weight="7">KALEITH</Item>
 					<Item Weight="3">KHY</Item>
@@ -190,6 +191,21 @@
 					<Item>"Asimmacovski: no lolis"</Item>
 					<Item>"Asimmacovski: time to dream about getting stabbed by a loli"</Item>
 					<Item>"Asimmacovski: wish plutia would force feed me a sandwich"</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>^NCT (Asteroid|AsteroidB612|Xing)</Pattern>
+			<Response>
+				<Random>
+					<Item>"Asteroid: Don't overthink that I'm brain damaged, I don't even own a brain."</Item>
+					<Item>"Asteroid: I am a potential criminal."</Item>
+					<Item>"Asteroid: I feel like I could read Polish."</Item>
+					<Item>"Asteroid: I have a dream, date with ArchiBoT."</Item>
+					<Item>"Asteroid: I like illegal things."</Item>
+					<Item>"Asteroid: Jbond001guy, Jbond002guy, Jbond003guy,..., Jbond007guy..."</Item>
+					<Item>"Asteroid: Let us visit North Korea and be arrested together."</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -348,6 +364,8 @@
 					<Item>"jbondguy007: Baby slaying is my second favorite thing to do, the first being selling babies that haven't been slayed yet"</Item>
 					<Item>"jbondguy007: AT LEAST GIVE ME MY HORSE COCK"</Item>
 					<Item>"jbondguy007: sign my butt pls"</Item>
+					<Item>"jbondguy007: I am a princess"</Item>
+					<Item>"jbondguy007: Archi, setup a company and hire me to hold the door for you"</Item>
 				</Random>
 			</Response>
 		</Model>
