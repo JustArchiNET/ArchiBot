@@ -38,9 +38,10 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 				<Case LT="79">your life is one dull thing after another :cry:</Case>
 				<Case LT="89">every genius has a past and every fool has a future :sgsmile:</Case>
 				<Case LT="109">you are such a brilliant failure :think:</Case>
-				<Case LT="119">you must be an artificial intelligence :speak:</Case>
-				<Case LT="140">your intelligence is beyond our imagination :bite:</Case>
-				<Default>Error, please try again! :trance:</Default></Switch>
+				<Case LT="119">your intelligence is beyond our imagination  :speak:</Case>
+				<Case LT="140">welcome to the high IQ club of weebs :bite:</Case>
+				<Case LT="199">you must be an artificial intelligence :speak:</Case>
+				<Default>your name must be ArchiBoT :trance:</Default></Switch>
 			</Response>
 		</Model>
 	 </Concept>
