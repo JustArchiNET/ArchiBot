@@ -983,5 +983,32 @@ nexttime(<Match />);</Js></Var> seconds!
 			<Pattern>ADDWEATHER</Pattern>
 			<Response><Bot Set="ktemp"><Math><Bot Get="ktemp" />+<Math Get="random" Min="100" Max="1000" /></Math></Bot>°C</Response>
 		</Model>
+	
+<!--
+		Welcome to Fat Cat Dessert! 
+		Have a sweet day!
+	-->	
+		<Model>
+			<Pattern>Fat Cat</Pattern>
+			<Pattern>Cat Dessert</Pattern>
+			<Pattern>Fat Cat Dessert</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c87638770c45.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763887df8d.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876388e19a5.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876388e5bf0.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876388e6e19.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2b3788.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2b6169.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2b8087.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2bc1a2.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2be057.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2bfffc.jpeg</Item>
+					<Item Weight="0.5">https://i.loli.net/2019/03/12/5c876388e4cdc.jpeg</Item>
+				</Random>
+			</Response>
+		</Model>
+		
 	</Concept>
 </Siml>
