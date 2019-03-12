@@ -329,8 +329,6 @@
 				<Random>
 					<Item>https://i.loli.net/2019/03/12/5c8770816d7fd.gif</Item>
 					<Item>https://i.loli.net/2019/03/12/5c87708252c9d.gif</Item>
-					<Item></Item>
-					<Item></Item>
 				</Random>
 			</Response>
 		</Model>
@@ -355,8 +353,8 @@
 		</Model>
 		
 		<Model>
-			<Pattern>Archi Firlt</Pattern>
-			<Pattern>Archi Firlting</Pattern>
+			<Pattern>Archi Flirt</Pattern>
+			<Pattern>Archi Flirting</Pattern>
 			<Pattern>Archi Wink</Pattern>
 			<Pattern>Archi Winking</Pattern>
 			<Response>
