@@ -273,6 +273,29 @@
 			</Pattern>
 			<Response>https://i.imgur.com/qv5gWKc.jpg</Response>
 		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>^ARCHI RUB</Item>
+				<Item>^ARCHIRUB</Item>
+				<Item>^RUBARCHI</Item>
+			</Pattern>
+			<Response>https://i.loli.net/2019/03/12/5c8773f16efbb.jpeg</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>
+				<Item>^ARCHI YTL</Item>
+				<Item>^ARCHIYTL</Item>
+				<Item>^YTLARCHI</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c8773f1692c2.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8773f168a7f.jpeg</Item>
+				</Random>
+			</Response>
+		</Model>
 
 		<Model>
 			<Pattern>
@@ -296,6 +319,68 @@
 				<Item>^ARCHIPANDA</Item>
 			</Pattern>
 			<Response>https://i.imgur.com/KNeuQQ9.jpg</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>Archi Angry</Pattern>
+			<Pattern>Archi Bite</Pattern>
+			<Pattern>Archi Roar</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c8770816d7fd.gif</Item>
+					<Item>https://i.loli.net/2019/03/12/5c87708252c9d.gif</Item>
+					<Item></Item>
+					<Item></Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>Archi Balabala</Pattern>
+			<Pattern>Archi Speak</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c87701b96efb.gif</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876f8fc019e.gif</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876de0a5e85.gif</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876e027b07d.gif</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>Archi Break</Pattern>
+			<Pattern>Archi Knock</Pattern>
+			<Response>https://i.loli.net/2019/03/12/5c8770790ef23.gif</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>Archi Firlt</Pattern>
+			<Pattern>Archi Firlting</Pattern>
+			<Pattern>Archi Wink</Pattern>
+			<Pattern>Archi Winking</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c8770815b0ee.gif</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8773da09cbd.gif</Item>
+				</Random>
+			</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>Archi Loop</Pattern>
+			<Response>https://i.loli.net/2019/03/12/5c87707aec310.gif</Response>
+		</Model>
+		
+		<Model>
+			<Pattern>Archi and Cat</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c876c65bc434.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876c66b6465.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876c66b81d4.jpeg</Item>
+				</Random>
+			</Response>
 		</Model>
 
 		<Model>
