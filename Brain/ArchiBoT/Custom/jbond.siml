@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
   <Concept Name="_jbond">
+	
+	<Model>
+		<Pattern>
+			<Item>WE ARE DOSH</Item>
+			<Item>JE SUIS DOSH</Item>
+		</Pattern>
+		<Response>
+			<Random>
+				<Item>Welcome, brother. Join us here: https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>Access granted, enter the sanctuary: https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>We are Dosh! https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>All Doshes are welcome into the sanctuary. https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>Please Dosh responsibly. https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>The gates of Doshland are open to you. https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>Speak Dosh and enter: https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>All of your Dosh are belong to us. https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>Bish bash bosh, we are Dosh: https://steamcommunity.com/groups/wearedosh</Item>
+				<Item>But are you Dosh enough for this? https://steamcommunity.com/groups/wearedosh</Item>
+			</Random>
+		</Response>
+	</Model>
 
 	<Model>
 		<Pattern>DED CHAT</Pattern>
