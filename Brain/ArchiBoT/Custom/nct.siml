@@ -29,7 +29,7 @@
 					<Item Weight="25">ARCHI</Item>
 					<Item Weight="3">ARCHIBOT</Item>
 					<Item Weight="14">ASIM</Item>
-					<Item Weight="7">Asteroid</Item>
+					<Item Weight="10">Asteroid</Item>
 					<Item Weight="6">BLUE</Item>
 					<Item Weight="2">CHT</Item>
 					<Item Weight="4">CJ</Item>
@@ -40,9 +40,9 @@
 					<Item Weight="1">FERRET</Item>
 					<Item Weight="2">FID</Item>
 					<Item Weight="12">HEILURI</Item>
-					<Item Weight="15">JBOND</Item>
+					<Item Weight="16">JBOND</Item>
 					<Item Weight="1">JENNI</Item>
-					<Item Weight="7">KALEITH</Item>
+					<Item Weight="8">KALEITH</Item>
 					<Item Weight="3">KHY</Item>
 					<Item Weight="11">MADU</Item>
 					<Item Weight="1">MGBNN</Item>
@@ -56,8 +56,9 @@
 					<Item Weight="1">SZX</Item>
 					<Item Weight="15">TAIGO</Item>
 					<Item Weight="5">TRIST</Item>
-					<Item Weight="9">VSX</Item>
+					<Item Weight="10">VSX</Item>
 					<Item Weight="2">ZARA</Item>
+					<Item Weight="2">Zarddin</Item>
 					<Item>MISC</Item>
 					</Random></Goto></Item>
 				</Random>
@@ -199,13 +200,16 @@
 			<Pattern>^NCT (Asteroid|AsteroidB612|Xing)</Pattern>
 			<Response>
 				<Random>
+					<Item>"Asteroid: Archi is my alt account."</Item>
 					<Item>"Asteroid: Don't overthink that I'm brain damaged, I don't even own a brain."</Item>
+					<Item>"Asteroid: Feed poor Asteroid pls."</Item>
 					<Item>"Asteroid: I am a potential criminal."</Item>
 					<Item>"Asteroid: I feel like I could read Polish."</Item>
-					<Item>"Asteroid: I have a dream, date with ArchiBoT."</Item>
 					<Item>"Asteroid: I like illegal things."</Item>
+					<Item>"Asteroid: I'd join gulag and help VSX improve Chinese."</Item>
 					<Item>"Asteroid: Jbond001guy, Jbond002guy, Jbond003guy,..., Jbond007guy..."</Item>
 					<Item>"Asteroid: Let us visit North Korea and be arrested together."</Item>
+					<Item>"Asteroid: People who have 7 in their nicknames are always crazy."</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -366,6 +370,7 @@
 					<Item>"jbondguy007: sign my butt pls"</Item>
 					<Item>"jbondguy007: I am a princess"</Item>
 					<Item>"jbondguy007: Archi, setup a company and hire me to hold the door for you"</Item>
+					<Item>"jbondguy007: I am mod of unimportantance"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -390,6 +395,7 @@
 					<Item>"Kaleith: rubbing lolis is inspiring"</Item>
 					<Item>"Kaleith: what if the lolis have dicks"</Item>
 					<Item>"Kaleith: it syncs to your g-spot, higher frame-rate = higher pleasure"</Item>
+					<Item>"Kaleith: I'm not a fat cat :bite:"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -567,6 +573,7 @@
 					<Item>"VSX: Is that a dildo penetrating a head"</Item>
 					<Item>"VSX: Why do you want my ass so bad"</Item>
 					<Item>"VSX: Right alt is so useful :bite:"</Item>
+					<Item>"VSX: Why do your guys have such low points :bite:"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -580,7 +587,16 @@
 				</Random>
 			</Response>
 		</Model>
-
+		
+		<Model>
+			<Pattern>^NCT Zarddin</Pattern>
+			<Response>
+				<Random>
+					<Item>"Zarddin: No one called me beautiful in last 4 years :D"</Item>
+					<Item>"Zarddin: I could get kicked at any time playing roulette XD"</Item>
+				</Random>
+			</Response>
+		</Model>
 
 		<!-- MISC NCT: Confused? Just add the quote here - I'll categorize it under the correct user later. :3 -->
 
