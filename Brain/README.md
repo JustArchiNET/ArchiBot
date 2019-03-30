@@ -1,7 +1,7 @@
-ArchiBoT (SIML brain)
+ArchiBot (SIML brain)
 ====================
 
-ArchiBoT's AI is based on the **[SIML English Base](https://github.com/SynHub/siml-english-base)** with extra modifications.
+ArchiBot's AI is based on the **[SIML English Base](https://github.com/SynHub/siml-english-base)** with extra modifications.
 
 If you are already familiar with AIML you can see some of the differences between AIML and SIML **[here](http://developer.syn.co.in/tutorial/siml/siml-aiml.html)**.
 
@@ -11,12 +11,12 @@ Documentation is available **[here](http://developer.syn.co.in/tutorial/siml/ele
 
 If you want to test code locally or just check how everything works Synthetic Intelligence Network offers a free tool to develop SIML called **[Syn Bot Studio](http://simlbot.com)**.
 
-I have included a .simlproj file compatible with it, so just clone the repo (or download a .zip copy **[here](https://github.com/JustArchi/ArchiBoT/archive/master.zip)**) open ArchiBoT.simlproj and switch to the Console tab to test!
+I have included a .simlproj file compatible with it, so just clone the repo (or download a .zip copy **[here](https://github.com/JustArchiNET/ArchiBot/archive/master.zip)**) open ArchiBot.simlproj and switch to the Console tab to test!
 
 ---
 
-Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
-- Create a **[new file](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom)**
+Every user is welcome to contribute to ArchiBot's AI! In order to do so:
+- Create a **[new file](https://github.com/JustArchiNET/ArchiBot/tree/master/Brain/ArchiBot/Custom)**
 - Name it using your selected unique identifier and use `.siml` extension, e.g. `bob.siml`
 - Put default SIML content:
 
@@ -31,7 +31,7 @@ Every user is welcome to contribute to ArchiBoT's AI! In order to do so:
 
 - Change `Name` of your `Concept` appropriately to match your file name, then fill it with your content.
 
-If you are unsure on how to proceed you can take a look at **[some of the files](https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom)** that other people have created and maybe use them as your starting point.
+If you are unsure on how to proceed you can take a look at **[some of the files](https://github.com/JustArchiNET/ArchiBot/tree/master/Brain/ArchiBot/Custom)** that other people have created and maybe use them as your starting point.
 
 ---
 
@@ -46,4 +46,4 @@ Have you created your file already in the past and got approved? Great, it's eve
 
 ## SIML guidelines
 
-Please follow our **[SIML guidelines](https://github.com/JustArchi/ArchiBoT/wiki/SIML-guidelines)** when writing SIML code.
+Please follow our **[SIML guidelines](https://github.com/JustArchiNET/ArchiBot/wiki/SIML-guidelines)** when writing SIML code.
