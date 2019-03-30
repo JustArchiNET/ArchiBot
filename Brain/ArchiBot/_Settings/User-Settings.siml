@@ -5,7 +5,7 @@
   <!--Note: Values declared below are also used to initialize variables for ALL users that interact with Syn Web Assistant-->
   <!--Note: <User Get="Variable-Name"> is used to retrieve the first variable-->
   <UserSettings>
-    <!-- Variables that are part of ArchiBoT integration. Those will be set by ArchiBoT automatically at first message, and can be used for various purposes. -->
+    <!-- Variables that are part of ArchiBot integration. Those will be set by ArchiBot automatically at first message, and can be used for various purposes. -->
 
     <!-- Initialized to user's ID, in format of platform-ID, such as discord-215255099000225792 or steam-76561198006963719. ID in this context is user's ID determined to be unique based on given platform. This property can have various possible usages, especially access-related since it determines the user on given platform. -->
     <!-- Note, this is internal variable that is not declared as user variable here, but can be used freely in SIML files. -->
@@ -39,7 +39,7 @@
     <!-- Note: This variable will be set only once, therefore it can be freely modified by AI during a conversation (e.g. as part of "I'm living in XXX"). -->
     <Variable Name="Location" Value="unknown" />
 
-    <!-- End of ArchiBoT integration. Variables below are part of standard SIML user definition, they're not initialized by ArchiBoT, but can be set and retrieved during a conversation. -->
+    <!-- End of ArchiBot integration. Variables below are part of standard SIML user definition, they're not initialized by ArchiBot, but can be set and retrieved during a conversation. -->
 
     <!--Emotion: Default user emotion when a new user is created-->
     <Variable Name="Emotion" Value="pleased" />

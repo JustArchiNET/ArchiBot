@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SimlProject>
   <Profile>Classic</Profile>
-  <Name>ArchiBoT AI</Name>
-  <Directory>ArchiBoT</Directory>
-  <BotName>ArchiBoT</BotName>
+  <Name>ArchiBot AI</Name>
+  <Directory>ArchiBot</Directory>
+  <BotName>ArchiBot</BotName>
   <Personality>Female English Bot</Personality>
   <Author>Touhou Giveaways Group</Author>
   <Description>This is a bot for the Touhou Giveaways group based on the default English SIML template.</Description>
