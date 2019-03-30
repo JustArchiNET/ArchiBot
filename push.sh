@@ -1,5 +1,5 @@
-#!/bin/bash
-set -eu
+#!/usr/bin/env bash
+set -euo pipefail
 
 cd "$(dirname "$(readlink -f "$0")")"
 
@@ -12,14 +12,4 @@ fi
 git add -A .
 git commit -m "$MESSAGE"
 
-eval "$(ssh-agent)" >/dev/null
-
-RC=0
-
-if ! ssh-add -k &>/dev/null || ! git push; then
-	RC=1
-fi
-
-eval "$(ssh-agent -k)" >/dev/null
-
-exit "$RC"
+git push
