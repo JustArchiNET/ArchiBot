@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="_archi_priv" Type="Public" Repeat="true" User="steam-76561198006963719">
+    <Model>
+      <Pattern>
+        <Item>What is debug</Item>
+        <Item>Who is debug</Item>
+        <Item>What do you rember about debug</Item>
+        <Item>What did I tell you about debug</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>debug is debug</Item>
+          <Item>You told me that debug is debug</Item>
+          <Item>I rember that debug is debug</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>
