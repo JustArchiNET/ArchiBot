@@ -167,9 +167,9 @@
 			<Pattern>^NCT (ARCHIBOT|BOT|BOTTU|AI)</Pattern>
 			<Response>
 				<Random>
-					<Item>"ArchiBoT: Flipped-out Revolution ambidot"</Item>
-					<Item>"ArchiBoT: I don't know whether or not I am being penetrated. I am well respected as a computer software."</Item>
-					<Item>"ArchiBoT: I'm Vladimir Pudding"</Item>
+					<Item>"ArchiBot: Flipped-out Revolution ambidot"</Item>
+					<Item>"ArchiBot: I don't know whether or not I am being penetrated. I am well respected as a computer software."</Item>
+					<Item>"ArchiBot: I'm Vladimir Pudding"</Item>
 				</Random>
 			</Response>
 		</Model>

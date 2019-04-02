@@ -444,10 +444,10 @@
 					<Case Value="steam-76561198025147895">Autojoiner engaged... Please wait...
 						<Bind Key="{Gibnumber}"><Math Get="random" Min="5" Max="25" /></Bind>
 						<Late Second="2"><Text>{Gibnumber}</Text> eligible giveaways found for the account "Kaleith". Processing...</Late>
-						<Late Second="6">Success! Thank you for using Archibot Premium Autojoiner!</Late>
+						<Late Second="6">Success! Thank you for using ArchiBot Premium Autojoiner!</Late>
 					</Case>
 					<Case Value="steam-76561198006963719">Hello Archi, you do not need to use the command as I'm already entering everything you want in the background \:sgsmile:</Case>
-					<Default>Error: To use the Archijoiner™ you need a valid Archibot Premium™ subscription!</Default>
+					<Default>Error: To use the Archijoiner™ you need a valid ArchiBot Premium™ subscription!</Default>
 				</Switch>
 			</Response>
 		</Model>

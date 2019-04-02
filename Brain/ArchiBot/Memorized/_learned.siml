@@ -67,7 +67,7 @@
     </Model>
     <Model>
       <Pattern>brain</Pattern>
-      <Response>https://github.com/JustArchi/ArchiBoT/tree/master/Brain/ArchiBoT/Custom</Response>
+      <Response>https://github.com/JustArchiNET/ArchiBot/tree/master/Brain/ArchiBot/Custom</Response>
     </Model>
     <Model>
       <Pattern>VSX QUOTE</Pattern>

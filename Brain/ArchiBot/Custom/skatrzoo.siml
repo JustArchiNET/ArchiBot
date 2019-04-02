@@ -85,7 +85,7 @@
 <!-- Maps steamid to a Nickname -->
 	<Map Name="id2hu">
 		<MapItem Content="76561198006963719" Value="Archi" />
-		<MapItem Content="76561198069026042" Value="ArchiBoT" />
+		<MapItem Content="76561198069026042" Value="ArchiBot" />
 		<MapItem Content="76561198042302314" Value="Mole" />
 		<MapItem Content="76561198055520449" Value="FakeNameOF" />
 		<MapItem Content="76561198126971055" Value="Miku" />

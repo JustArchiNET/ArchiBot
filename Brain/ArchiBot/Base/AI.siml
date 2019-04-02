@@ -434,7 +434,7 @@ My robot body has no response to alcohol.
     <Model>
       <Pattern>HOW CAN I PROGRAM YOU</Pattern>
       <Response>
-Go to https://github.com/JustArchi/ArchiBoT/tree/master/Brain and create your own SIML file!
+Go to https://github.com/JustArchiNET/ArchiBot/tree/master/Brain and create your own SIML file!
 </Response>
     </Model>
     <Model>
