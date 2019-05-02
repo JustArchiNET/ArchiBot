@@ -44,6 +44,34 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 				<Default>your name must be ArchiBot :trance:</Default></Switch>
 			</Response>
 		</Model>
+				 
+ <!--
+		Welcome to Fat Cat Dessert! 
+		Have a sweet day!
+	-->	
+		<Model>
+			<Pattern>
+				<Item>^Fat Cat</Item>
+				<Item>Cat ^Dessert</Item>
+				<Item>Fat Cat ^Dessert</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/03/12/5c87638770c45.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763887df8d.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876388e19a5.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876388e5bf0.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c876388e6e19.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2b3788.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2b6169.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2b8087.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2bc1a2.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2be057.jpeg</Item>
+					<Item>https://i.loli.net/2019/03/12/5c8763c2bfffc.jpeg</Item>
+					<Item Weight="0.5">https://i.loli.net/2019/03/12/5c876388e4cdc.jpeg</Item>
+				</Random>
+			</Response>
+		</Model>
 	 </Concept>
 	
 	 <Concept Name="_xing" User="steam-76561198339012887">
@@ -57,8 +85,10 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 		If ArchiBot doesn't have any games to farm, return "My greedy master doesn't feed me well.:cry:"
 		-->
 		<Model>
-			<Pattern>Bot feeding status</Pattern>
-			<Pattern>Bot hungry status</Pattern>
+			<Pattern>
+				<Item>Bot feeding status</Item>
+				<Item>Bot hungry status</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>I'm always happy to have dinner with you. :sgsmile:</Item>
@@ -71,8 +101,10 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 		</Model>
 		 
 		<Model>
-			<Pattern>Sing Casablanca</Pattern>
-			<Pattern>Please sing my favorite song</Pattern>
+			<Pattern>
+				<Item>Sing Casablanca</Item>
+				<Item>Please sing my favorite song</Item>
+			</Pattern>
 			<Response>
 				<Random>
 					<Item>I fell in love with you watching Casablanca. Back row of the drive in show in the flickering light. Popcorn and cokes beneath the stars became champagne and caviar. Making love on a long hot summers night.</Item>
@@ -82,6 +114,5 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 				</Random>
 			</Response>
 		</Model>
-		 
 	</Concept>
 </Siml>
