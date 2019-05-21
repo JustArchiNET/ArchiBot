@@ -9,30 +9,30 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 	<Concept Name="_asteroidb612">
 		<!-- Guess none would ask that silly question except myself. -->
 		<Model>
-			<Pattern>Who is AsteroidB612</Pattern>
+			<Pattern>
+				<Item>Who is Asteroid</Item>	
+			</Pattern>
 			<Response>
 			<Random>
-				<Item>A Bachelor of EA.:sgsmile:</Item>
-				<Item>A computer noob who ruined everything related to 21st century tech.:doubt:</Item>
-				<Item>A frequent traveler who uses ASF to show AFK status 7/24.:trance:</Item>
-				<Item>A Google fan who has dozens of Google apps installed on iOS devices.:bite:</Item>
-				<Item>A human who tries to behave like a trading bot.:speak:</Item>
-      				<Item>A muggle who dreams of magic and supernatural power.:trance:</Item>
-      				<Item>A patient with serious mental illness.:bite:</Item>
-				<Item>A person who is very into paranoia and prosopagnosia.:think:</Item>
-				<Item>A poor iOS user who uses Steam App released at 2016.:cry:</Item>	
-     				<Item>A potential criminal.:bite:</Item>
-      				<Item>A prisoner who enjoys breaking out of mental hospital.:bite:</Item>
-				<Item>A steamer who is sleepsteaming or drunksteaming most of time.:doubt:</Item>
-				<Item>A wayward trader who like to visit your inventory while you're sleeping.:bite:</Item>
+				<Item>A computer noob in ArchiBoT's eyes. :cry:</Item>
+				<Item>A hopeless troublemaker who shall be sent to gulag. :doubt:</Item>
+				<Item>A potenial criminal who wanna organize a 2hu event to vist North Koera. :think:</Item>
+				<Item>A steamer who enjoys sleepsteaming and drunksteaming. :speak:</Item>
+				<Item>A typical patient who has a damaged brain and serious mental illness. :trance:</Item>
+				<Item>A unknown meteorite who is wandering through the galaxy. :bite:</Item>
+				<Item>A weeb hunter who catches sleepwalking weebs at 4am. :sgsmile:</Item	
+				<Item>:csgostar:</Item>
 			</Random>
 			</Response>
 		</Model>		
 	 </Concept>
 	
 	<Concept Name="_TestYourIQ">
+		<!-- Test weebs' IQ:3-->
 		<Model>
-			<Pattern>Test my IQ</Pattern>
+			<Pattern>
+				<Item>Test my IQ</Item>	
+			</Pattern>
 			<Response>Dear weeb, your IQ score is <Var Set="IQScore"><Math Get="random" Min="0" Max="200" /></Var>, <Switch Var="IQScore">
 				<Case LT="70">death and vulgarity are the only two facts that you can't explain away:sgsmile:</Case>
 				<Case LT="79">your life is one dull thing after another :cry:</Case>
@@ -42,6 +42,37 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 				<Case LT="140">welcome to the high IQ club of weebs :bite:</Case>
 				<Case LT="199">you must be an artificial intelligence :speak:</Case>
 				<Default>your name must be ArchiBot :trance:</Default></Switch>
+			</Response>
+		</Model>
+	 </Concept>
+	
+	<Concept Name="_RandomChatting">
+		<!-- Ask if bottu wanna eat sth. -->
+		<Model>
+			<Pattern>
+				<Item>Bot feeding status</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>Feed me! Bot lives matter! :bite:</Item>
+					<Item>I'm hungry cuz my greedy master doesn't feed me well. :cry:</Item>
+					<Item>I promise that I won't easily get fat. :think:</Item>
+					<Item>I've already eaten Archi out of house and home. :doubt:</Item>
+				</Random>
+			</Response>
+		</Model>
+		 				
+		<!-- Ask :waterpet: to create some dragonfire:3-->
+		<Model>
+			<Pattern>
+				<Item>Dracarys</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>https://i.loli.net/2019/05/20/5ce267cea5ccf79516.gif</Item>
+					<Item>https://i.loli.net/2019/05/20/5ce267cf0a8f534562.gif</Item>
+					<Item>https://i.loli.net/2019/05/20/5ce267d025a9f63443.gif</Item>
+				</Random>
 			</Response>
 		</Model>
 				 
@@ -84,22 +115,6 @@ Part03: TestYourIQ, ask ArchiBot to examine your IQ score.
 		If ArchiBot is farming, return "I'm eating like a horse and working like a horse.:bite:"
 		If ArchiBot doesn't have any games to farm, return "My greedy master doesn't feed me well.:cry:"
 		-->
-		<Model>
-			<Pattern>
-				<Item>Bot feeding status</Item>
-				<Item>Bot hungry status</Item>
-			</Pattern>
-			<Response>
-				<Random>
-					<Item>I'm always happy to have dinner with you. :sgsmile:</Item>
-					<Item>I'm hungry cuz my greedy master doesn't feed me well. :cry:</Item>
-					<Item>I promise that I won't easily get fat. :think:</Item>
-					<Item>I've already eaten Archi out of house and home. :doubt:</Item>
-					<Item>I wanna take a big bite out of your plate. :bite:</Item>
-				</Random>
-			</Response>
-		</Model>
-		 
 		<Model>
 			<Pattern>
 				<Item>Sing Casablanca</Item>
