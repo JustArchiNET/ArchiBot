@@ -256,7 +256,7 @@ Saint John's. <User Think:Set="it"><User Set="concept">antigua and barbuda</Use
     <Model>
       <Pattern>WHAT IS THE CAPITAL _ ARGENTINA</Pattern>
       <Response>
-Buenos Aries.<User Think:Set="it"><User Set="concept" Value="ARGENTINA" /></User></Response>
+Buenos Aires.<User Think:Set="it"><User Set="concept" Value="ARGENTINA" /></User></Response>
     </Model>
     <Model>
       <Pattern>WHAT IS THE CAPITAL _ ARIZONA</Pattern>
