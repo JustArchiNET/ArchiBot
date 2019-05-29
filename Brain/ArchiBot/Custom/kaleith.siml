@@ -327,6 +327,7 @@
 			</Response>
 		</Model>
 
+<!--
 		<Model>
 			<Pattern>WINDUBALL</Pattern>
 			<Response>
@@ -357,6 +358,7 @@
 				</Random>
 			</Response>
 		</Model>
+-->
 
 		<Model>
 			<Pattern>GINBALL</Pattern>
