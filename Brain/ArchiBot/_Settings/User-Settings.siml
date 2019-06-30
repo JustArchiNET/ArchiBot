@@ -19,6 +19,9 @@
     <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
     <Variable Name="ChatID" Value="" />
 
+    <!-- This setting is not initialized by default, allowing you to provide one or more custom responses for ArchiBot to return. Normally you'll work with usual SIML sentences splitting, returning one output per sentence. However, in certain commands-like situations, especially when parsing LastMessage (explained below), you may want/need to operate on whole input, and therefore also in a need to generate one or more of custom responses. You can achieve that by declaring a custom response added to this set. After evaluation of user input, if custom responses are available, ArchiBot will join all of them in a single custom response and return that one to the user instead of normal SIML output, properly clearing the custom responses automatically for future use. -->
+    <Variable Name="CustomResponses" />
+
     <!-- Initialized to user's last (current) message. This can be used in order to retrieve user's message in the way how the bot has received it, before all normalization steps done by SIML. -->
     <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
     <Variable Name="LastMessage" Value="" />
