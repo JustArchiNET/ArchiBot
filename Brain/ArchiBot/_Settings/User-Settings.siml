@@ -26,6 +26,10 @@
     <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
     <Variable Name="LastMessage" Value="" />
 
+    <!-- This variable works exactly the same like LastMessage specified above, except it's encoded for Javascript execution, e.g. when passing as an argument. -->
+    <!-- Note: This variable will be set on every message, therefore it's read-only and should NOT be modified during a conversation (any changes will be lost on the next message). -->
+    <Variable Name="LastMessageJavascriptEncoded" Value="" />
+
     <!-- Initialized to user's nickname (if available) being used on given platform. Should NOT be used for user authentication, that's what user's ID is for. -->
     <!-- Note: This variable will be set only once, therefore it can be freely modified by AI during a conversation (e.g. as part of "my nickname is XXX"). -->
     <Variable Name="Nickname" Value="unknown" />
