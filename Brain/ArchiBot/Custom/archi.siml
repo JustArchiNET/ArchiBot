@@ -411,9 +411,9 @@
 				<Item>^UWU _</Item>
 			</Pattern>
 			<Response>
-				<Var Think:Set="owosult"><Text><Js>owo("<Match />");</Js></Text></Var>
-				<If Var="owosult" Value="">Ewwow, something went wwong :cry:</If>
-				<Else><Var Get="owosult" /></Else>
+				<User Think:Set="CustomResponses"><Text><Js>owo("<User Get="LastMessageJavascriptEncoded" />");</Js></Text></User>
+				<If User="CustomResponses" Value="">Ewwow, something went wwong :cry:</If>
+				<Else><User Get="CustomResponses" /></Else>
 			</Response>
 		</Model>
 	</Concept>

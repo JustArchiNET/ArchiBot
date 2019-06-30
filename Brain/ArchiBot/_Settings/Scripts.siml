@@ -9,7 +9,7 @@
 function owo(text) 
 {
     var faces=["(・`ω´・)",";;w;;","owo","UwU",">w<","^w^"];
-    var v = text;
+    var v = text.slice(4);
 
     v = v.replace(/(?:r|l)/g, "w");
     v = v.replace(/(?:R|L)/g, "W");
