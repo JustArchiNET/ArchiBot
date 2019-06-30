@@ -4,11 +4,11 @@
 <!--Note: Declaring a value for the "Type" attribute is mandatory-->
 <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
 <Script Type="javascript">
-    
+<![CDATA[
 
 function owo(text) 
 {
-    var faces=["(・`ω´・)",";;w;;","owo","UwU",">w&lt;","^w^"];
+    var faces=["(・`ω´・)",";;w;;","owo","UwU",">w<","^w^"];
     var v = text;
 
     v = v.replace(/(?:r|l)/g, "w");
@@ -22,10 +22,10 @@ function owo(text)
     var i;
     var stringsearch = "!";
     //for loop counts the # of individual exclamation points
-    for(var i=0; i &lt; v.length; i++) {
+    for(var i=0; i < v.length; i++) {
         stringsearch===v[exclamationPointCount++]
     };
-    for (i = 0; i &lt; exclamationPointCount; i++) {
+    for (i = 0; i < exclamationPointCount; i++) {
             v = v.replace("!", " "+ faces[Math.floor(Math.random()*faces.length)]+ " ");
     }
     return (v);
@@ -34,9 +34,9 @@ function owo(text)
     function calcCrusaderKings2Tech(levelFrom, levelTo, currentYear) {
         var result = 0;
 
-        for (var level = levelFrom + 1; level &lt;= levelTo; level++) {
+        for (var level = levelFrom + 1; level <= levelTo; level++) {
             var targetYear = 700 + (100 * level);
-            var yearDifference = (targetYear &gt; currentYear ? targetYear - currentYear : 0);
+            var yearDifference = (targetYear > currentYear ? targetYear - currentYear : 0);
             result += 6 * (100 * level) * (1 + 0.006 * yearDifference); // 6 because of 6 different technologies per category
         }
 
@@ -61,32 +61,32 @@ function owo(text)
         var t = new Date(time);
         var h = t.getHours();
         var m = t.getMinutes();
-        var ampm = h &gt;= 12 ? 'PM' : 'AM';
+        var ampm = h >= 12 ? 'PM' : 'AM';
         h = h % 12;
         h = h ? h : 12; // the hour '0' should be '12'
-        m = m &lt; 10 ? '0' + m : m;
+        m = m < 10 ? '0' + m : m;
         return h + ":" + m + " " + ampm
     }
 
     function addCommand(str) {
     var arr = str.split("/");
-    var returntext = "&lt;Pattern&gt;" + arr[0] + "&lt;/Pattern&gt;" + "&lt;Response&gt;";
-    for (i = 1; i &lt; arr.length; i++) {
-        returntext += "&lt;Item&gt;" + arr[i] + "&lt;/Item&gt;";
+    var returntext = "<Pattern>" + arr[0] + "</Pattern>" + "<Response>";
+    for (i = 1; i < arr.length; i++) {
+        returntext += "<Item>" + arr[i] + "</Item>";
     }
-    return returntext + "&lt;/Response&gt;"
+    return returntext + "</Response>"
 }
 
     function isFloat(n) {
-        return n === +n &amp;&amp; n !== (n | 0);
+        return n === +n && n !== (n | 0);
     }
 
     function isInteger(n) {
-        return n === +n &amp;&amp; n === (n | 0);
+        return n === +n && n === (n | 0);
     }
 
     function randomIntBetween(a, b) {
-        if (isInteger(Number(a)) &amp;&amp; isInteger(Number(b))) {
+        if (isInteger(Number(a)) && isInteger(Number(b))) {
             var min = Math.min(a, b);
             var max = Math.max(a, b);
 
@@ -106,7 +106,7 @@ function owo(text)
 
         var secondsString = '';
 
-        for (var i = 0, max = levels.length; i &lt; max; i++) {
+        for (var i = 0, max = levels.length; i < max; i++) {
             if (levels[i][0] === 0) continue;
             secondsString += ' ' + levels[i][0] + ' ' + (levels[i][0] === 1 ? levels[i][1].substr(0, levels[i][1].length - 1) : levels[i][1]);
         };
@@ -118,7 +118,7 @@ function owo(text)
         var a = string.split("");
         var n = a.length;
 
-        for (var i = n - 1; i &gt; 0; i--) {
+        for (var i = n - 1; i > 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
             var tmp = a[i];
             a[i] = a[j];
@@ -132,7 +132,7 @@ function owo(text)
         var a = string.split(" ");
         var n = a.length;
 
-        for (var i = 0; i &lt; n; i++) {
+        for (var i = 0; i < n; i++) {
             a[i] = stringshuffle(a[i]);
         }
 
@@ -142,13 +142,13 @@ function owo(text)
     function arrayofnumbers(n) {
         var i, arr = [];
 
-        for (i = 0; i &lt; n; i++) {
+        for (i = 0; i < n; i++) {
             arr.push(i + 1);
         }
 
         var n = arr.length;
 
-        for (i = n - 1; i &gt; 0; i--) {
+        for (i = n - 1; i > 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
             var tmp = arr[i];
             arr[i] = arr[j];
@@ -197,13 +197,13 @@ function owo(text)
             return timeInSeconds;
         }
 
-        if (timeArray.length &gt; 2 &amp;&amp; timeArray.length % 2 === 0) { // Multiple [value, unit] pairs
+        if (timeArray.length > 2 && timeArray.length % 2 === 0) { // Multiple [value, unit] pairs
             var timeInSeconds = 0;
             var repeats = timeArray.length / 2;
 
-            for (var i = 0; i &lt; repeats; ++i) {
+            for (var i = 0; i < repeats; ++i) {
                 var secondsToAdd = convertTimeStringToSeconds([timeArray[i * 2], timeArray[(i * 2) + 1]].join(' '));
-                if (secondsToAdd &gt; 0) timeInSeconds = timeInSeconds + secondsToAdd;
+                if (secondsToAdd > 0) timeInSeconds = timeInSeconds + secondsToAdd;
             }
 
             if (!timeInSeconds) return -1;
@@ -270,5 +270,7 @@ function binToAscii(bin) {
         return String.fromCharCode(parseInt(v, 2));
     });
 };
+
+]]>
 </Script>
 </Siml>
