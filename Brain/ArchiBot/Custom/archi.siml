@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--		CONTENT:
 	2HUFACT - Returns a random fact about the group
 	WHO IS CJ/KERO/MOLE/ARCHI - self-explanatory
@@ -402,6 +402,18 @@
 			<Response>
 				<Var Think:Set="jsresult"><Js>calcCrusaderKings2Tech(<Match />, <Match At="2" />, <Match At="3" />)</Js></Var>
 				To level up all of your technologies from level <Match /> to level <Match At="2" /> in year <Match At="3" /> you need a total of <Var Get="jsresult" /> tech points (per category, assuming each tech filled 0%).
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^OWO _</Item>
+				<Item>^UWU _</Item>
+			</Pattern>
+			<Response>
+				<Var Think:Set="owosult"><Text><Js>owo("<Match />");</Js></Text></Var>
+				<If Var="owosult" Value="">Ewwow, something went wwong :cry:</If>
+				<Else><Var Get="owosult" /></Else>
 			</Response>
 		</Model>
 	</Concept>

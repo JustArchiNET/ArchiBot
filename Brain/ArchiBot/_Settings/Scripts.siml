@@ -4,6 +4,33 @@
 <!--Note: Declaring a value for the "Type" attribute is mandatory-->
 <!--Note: Syn Web Assistant does not allow scripts due to security concerns-->
 <Script Type="javascript">
+    
+
+function owo(text) 
+{
+    var faces=["(・`ω´・)",";;w;;","owo","UwU",">w&lt;","^w^"];
+    var v = text;
+
+    v = v.replace(/(?:r|l)/g, "w");
+    v = v.replace(/(?:R|L)/g, "W");
+    v = v.replace(/n([aeiou])/g, 'ny$1');
+    v = v.replace(/N([aeiou])/g, 'Ny$1');
+    v = v.replace(/N([AEIOU])/g, 'Ny$1');
+    v = v.replace(/ove/g, "uv");
+
+    var exclamationPointCount = 0;
+    var i;
+    var stringsearch = "!";
+    //for loop counts the # of individual exclamation points
+    for(var i=0; i &lt; v.length; i++) {
+        stringsearch===v[exclamationPointCount++]
+    };
+    for (i = 0; i &lt; exclamationPointCount; i++) {
+            v = v.replace("!", " "+ faces[Math.floor(Math.random()*faces.length)]+ " ");
+    }
+    return (v);
+}
+
     function calcCrusaderKings2Tech(levelFrom, levelTo, currentYear) {
         var result = 0;
 
