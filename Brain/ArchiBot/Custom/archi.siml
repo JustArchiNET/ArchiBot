@@ -428,7 +428,7 @@
 
 		<Model>
 			<Pattern>^OWOPASTA</Pattern>
-			<Response><Text><Js>owofy("<ArchiRedditRandomPost>copypasta</ArchiRedditRandomPost>");</Js></Text></Response>
+			<Response><Js>owofy("<Text><ArchiRedditRandomPost>copypasta</ArchiRedditRandomPost></Text>");</Js></Response>
 		</Model>
 	</Concept>
 
