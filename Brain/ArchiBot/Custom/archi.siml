@@ -428,7 +428,10 @@
 
 		<Model>
 			<Pattern>^OWOPASTA</Pattern>
-			<Response><Js>owofy("<Text><ArchiRedditRandomPost>copypasta</ArchiRedditRandomPost></Text>");</Js></Response>
+			<Response>
+				<Var Think:Set="owopasting"><ArchiRedditRandomPost>copypasta</ArchiRedditRandomPost></Var>
+				<Js>owofy("<Var Get="owopasting" />");</Js>
+			</Response>
 		</Model>
 	</Concept>
 
