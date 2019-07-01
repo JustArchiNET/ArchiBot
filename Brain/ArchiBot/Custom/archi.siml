@@ -417,6 +417,19 @@
 				<Else><User Get="CustomResponses" /></Else>
 			</Response>
 		</Model>
+
+		<Model>
+			<Pattern>
+				<Item>^RANDOMPASTA</Item>
+				<Item>^COPYPASTA</Item>
+			</Pattern>
+			<Response><ArchiRedditRandomPost>copypasta</ArchiRedditRandomPost></Response>
+		</Model>
+
+		<Model>
+			<Pattern>^OWOPASTA</Pattern>
+			<Response><Text><Js>owofy("<ArchiRedditRandomPost>copypasta</ArchiRedditRandomPost>");</Js></Text></Response>
+		</Model>
 	</Concept>
 
 	<Concept Name="_archi_priv" User="steam-76561198006963719">
