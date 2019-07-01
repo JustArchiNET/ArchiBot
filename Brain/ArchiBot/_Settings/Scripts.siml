@@ -6,10 +6,10 @@
 <Script Type="javascript">
 <![CDATA[
 
-function owo(text) 
+function owofy(text) 
 {
     var faces=["(・`ω´・)",";;w;;","owo","UwU",">w<","^w^"];
-    var v = text.slice(4);
+    var v = text;
 
     v = v.replace(/(?:r|l)/g, "w");
     v = v.replace(/(?:R|L)/g, "W");
@@ -30,6 +30,17 @@ function owo(text)
     }
     return (v);
 }
+    function removefirstword(string) {
+        var parts = string.split(' ');
+        parts.shift(); // parts is modified to remove first word
+        var result;
+        if (parts instanceof Array) {
+        result = parts.join(' ');
+        }
+        else {
+        result = parts;
+        }
+        return result;}
 
     function calcCrusaderKings2Tech(levelFrom, levelTo, currentYear) {
         var result = 0;
@@ -128,7 +139,7 @@ function owo(text)
         return a.join("");
     }
 
-    function madu(string) {
+    function madufy(string) {
         var a = string.split(" ");
         var n = a.length;
 

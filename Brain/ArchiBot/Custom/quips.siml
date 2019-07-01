@@ -95,6 +95,21 @@
 		</Model>
 
 		<Model>
+			<Pattern>^TAIGOWO %</Pattern>
+			<Response>
+				<Var Think:Set="taigowostring"><Goto>TAIGOWORDS</Goto> <Text>
+						<Var Think:Set="taigoname"><Text Get="lower"><Match /></Text></Var>
+						<Switch Var="taigoname">
+							<Case Value="">Taigo</Case>
+							<Case Value="me"><User Get="Nickname" /></Case>
+							<Case Value="yourself"><Bot Get="NAME" /></Case>
+							<Default><Match /></Default>
+						</Switch></Text></Var>
+				<Text Get="title"><Js>owofy("<Var Get="taigowostring" />");</Js></Text>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>^SETGAME *</Pattern>
 			<Response><Bot Set="JbondoFreeGame" Value="{Bind Match}" /> has been set as the current free game!</Response>
 		</Model>

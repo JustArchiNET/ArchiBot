@@ -62,14 +62,17 @@
 				<Item>^MADUIZE _</Item>
 			</Pattern>
 			<Response>
-					<Var Think:Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
+<!--				<Var Think:Set="wordcount"><Text Get="Wordcount"><Match /></Text></Var>
 					<Bind Key="{wordcount}"><Var Get="wordcount" /></Bind>
 					<Var Think:Set="wordshuffle-i" Value="0" />
 				<While Var="wordshuffle-i" Not="{wordcount}">
 					<Var Think:Set="wordshuffle-i"><Math Get="increment"><Var Get="wordshuffle-i" /></Math></Var>
 					<Bind Key="{wordindex}"><Var Get="wordshuffle-i" /></Bind>
 					<Text><Goto>STRINGSHUFFLE <Text WordAt="{wordindex}"><Match /></Text></Goto> </Text>
-				</While>
+				</While>-->
+				<User Think:Set="CustomResponses"><Text><Js>madufy(removefirstword("<User Get="LastMessageJavascriptEncoded" />"));</Js></Text></User>
+				<If User="CustomResponses" Value="">Error, this should never happen :cry:</If>
+				<Else><User Get="CustomResponses" /></Else>
 			</Response>
 		</Model>
 

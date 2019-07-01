@@ -409,9 +409,10 @@
 			<Pattern>
 				<Item>^OWO _</Item>
 				<Item>^UWU _</Item>
+				<Item>^OWOFY _</Item>
 			</Pattern>
 			<Response>
-				<User Think:Set="CustomResponses"><Text><Js>owo("<User Get="LastMessageJavascriptEncoded" />");</Js></Text></User>
+				<User Think:Set="CustomResponses"><Text><Js>owofy(removefirstword("<User Get="LastMessageJavascriptEncoded" />"));</Js></Text></User>
 				<If User="CustomResponses" Value="">Ewwow, something went wwong :cry:</If>
 				<Else><User Get="CustomResponses" /></Else>
 			</Response>
