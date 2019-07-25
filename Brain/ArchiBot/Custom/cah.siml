@@ -55,9 +55,7 @@
 					<Item>And what did you bring for show and tell? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Anthropologists have recently discovered a primitive tribe that worships <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Arby's: We Have <Goto>_cah_CAHRESPONSE</Goto>.</Item>
-					"<Item>Are you thinking what I'm thinking, B1?
-					
-					I think I am, B2: it's <Goto>_cah_CAHRESPONSE</Goto> time!</Item>"
+					<Item>Are you thinking what I'm thinking, B1?&#xD;I think I am, B2: it's <Goto>_cah_CAHRESPONSE</Goto> time!</Item>
 					<Item>As my New Year's resolution, I vow to give up <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>As the mom of five rambunctious boys, I'm no stranger to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>As the mum of five rambunctious boys, I'm no stranger to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
@@ -98,10 +96,7 @@
 					<Item>Fun tip! When your man asks you to go down on him, try surprising him with <Goto>_cah_CAHRESPONSE</Goto> instead.</Item>
 					<Item>Future historians will agree that <Goto>_cah_CAHRESPONSE</Goto> marked the beginning of America's decline.</Item>
 					<Item>Having problems with <Goto>_cah_CAHRESPONSE</Goto>? Try <Goto>_cah_CAHRESPONSE</Goto>!</Item>
-					"<Item>Here is the church
-					Here is the steeple
-					Open the doors
-					And there is <Goto>_cah_CAHRESPONSE</Goto>.</Item>"
+					<Item>Here is the church&#xD;Here is the steeple&#xD;Open the doors&#xD;And there is <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Hey guys, welcome to Boston Pizza! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Hey guys, welcome to Chili's! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Hey guys, welcome to Sizzler! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
@@ -161,8 +156,7 @@
 					<Item>Lifetime® presents "<Goto>_cah_CAHRESPONSE</Goto>: the Story of <Goto>_cah_CAHRESPONSE</Goto>."</Item>
 					<Item>Lovin’ you is easy ’cause you’re <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Major League Baseball has banned <Goto>_cah_CAHRESPONSE</Goto> for giving players an unfair advantage.</Item>
-					"<Item>A Haiku:
-					<Goto>_cah_CAHRESPONSE</Goto>, <Goto>_cah_CAHRESPONSE</Goto>, <Goto>_cah_CAHRESPONSE</Goto>.</Item>"
+					<Item>A Haiku:&#xD;<Goto>_cah_CAHRESPONSE</Goto>,&#xD;<Goto>_cah_CAHRESPONSE</Goto>,&#xD;<Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Mate, do not go in that bathroom. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
 					<Item>Mate, do not go in that toilet. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
 					<Item>Maybe she's born with it. Maybe it's <Goto>_cah_CAHRESPONSE</Goto>.</Item>
@@ -198,9 +192,7 @@
 					<Item>Science will never explain <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Skidamarink a dink a dink, skidamarink a doo, I love <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Sorry everyone, I just <Goto>_cah_CAHRESPONSE</Goto>.</Item>
-					"<Item>Step 1: <Goto>_cah_CAHRESPONSE</Goto>.
-					Step 2: <Goto>_cah_CAHRESPONSE</Goto>.
-					Step 3: Profit.</Item>"
+					<Item>Step 1: <Goto>_cah_CAHRESPONSE</Goto>.&#xD;Step 2: <Goto>_cah_CAHRESPONSE</Goto>.&#xD;Step 3: Profit.</Item>
 					<Item>Studies show that lab rats navigate mazes 50% faster after being exposed to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>TFL apologizes for the delay in train service due to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>That's right, I killed <Goto>_cah_CAHRESPONSE</Goto>. How, you ask? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
@@ -219,9 +211,7 @@
 					<Item>The theme for next year's Eurovision Song Contest is "We are <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>."</Item>
 					<Item>The U.S. has begun airdropping <Goto>_cah_CAHRESPONSE</Goto> to the children of Afghanistan.</Item>
 					<Item>They said we were crazy. They said we couldn't put <Goto>_cah_CAHRESPONSE</Goto> inside of <Goto>_cah_CAHRESPONSE</Goto>. They were wrong.</Item>
-					"<Item>This is the way the world ends
-					This is the way the world ends
-					Not with a bang but with <Goto>_cah_CAHRESPONSE</Goto>.</Item>"
+					<Item>This is the way the world ends&#xD;This is the way the world ends&#xD;Not with a bang but with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>This is your captain speaking. Fasten your seatbelts and prepare for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>This season at Steppenwolf, Samuel Beckett's classic existential play: Waitng for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>This season at the old Vic, Samuel Beckett's classic existential play: Waitng for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
