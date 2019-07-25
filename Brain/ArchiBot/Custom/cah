@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_cah">
+	
+		<Model>
+  			<Pattern>(CAH|CARDS AGAINST HUMANITY)</Pattern>
+  			<Response><Goto>_cah_CAHRANDOM</Goto></Response>
+		</Model>
+		
+		<Model>
+  			<Pattern>^_cah_CAHRANDOM</Pattern>
+  			<Response><Goto>_cah_CAHPROMPT</Goto></Response>
+		</Model>
+		
+		<Model>
+  			<Pattern>^_cah_CAHPROMPT</Pattern>
+  			<Response>
+  				<Random>
+					<Item><Goto>_cah_CAHRESPONSE</Goto> + <Goto>_cah_CAHRESPONSE</Goto> = <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto> is a slippery slope that leads to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto> would be woefully incomplete without <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>: good to the last drop.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>: kid tested, mother approved.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>: kid-tested, mother-approved.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>: Once you pop, the fun don't stop!</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>? Jim'll fix it!</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>? There's an app for that.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>? Yeah, nah.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. Awesome in theory, kind of a mess in practice.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. Betcha can't have just one!</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. High five, bro.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. It's a trap!</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. That was so metal.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. That's how I want to die.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. That's why mums go to Iceland.</Item>
+					<Item>★✰✰✰✰ Do NOT go here! Found <Goto>_cah_CAHRESPONSE</Goto> in my Kung Pao chicken! </Item>
+					<Item>50% of all marriages end in <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>A recent laboratory study shows that undergraduates have 50% less sex after being exposed to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>A remarkable new study has shown that chimps have evolved their own primitive version of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>A romantic candlelit dinner would be incomplete without <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>A romantic, candlelit dinner would be incomplete without <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>A successful job interview begins with a firm handshake and ends with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>ABC presents: "<Goto>_cah_CAHRESPONSE</Goto>: The Story of <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>After eight years in the White House, how is Obama finally letting loose? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>After Hurricane Katrina, Sean Penn brought <Goto>_cah_CAHRESPONSE</Goto> to all the people of New Orleans.</Item>
+					<Item>After Hurricane Katrina, Sean Penn brought <Goto>_cah_CAHRESPONSE</Goto> to the people of New Orleans.</Item>
+					<Item>After months of practice with <Goto>_cah_CAHRESPONSE</Goto>, I think I’m finally ready for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>After the earthquake, Sean Penn brought <Goto>_cah_CAHRESPONSE</Goto> to the people of Haiti.</Item>
+					<Item>Air Canada guidelines now prohibit <Goto>_cah_CAHRESPONSE</Goto> on airplanes.</Item>
+					<Item>Airport security guidelines now prohibit <Goto>_cah_CAHRESPONSE</Goto> on airplanes.</Item>
+					<Item>Alternative medicine is now embracing the curative powers of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>And the Academy Award for <Goto>_cah_CAHRESPONSE</Goto> goes to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>And the BAFTA for <Goto>_cah_CAHRESPONSE</Goto> goes to <Goto>_cah_CAHRESPONSE</Goto>. </Item>
+					<Item>And what did you bring for show and tell? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Anthropologists have recently discovered a primitive tribe that worships <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Arby's: We Have <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					"<Item>Are you thinking what I'm thinking, B1?
+					
+					I think I am, B2: it's <Goto>_cah_CAHRESPONSE</Goto> time!</Item>"
+					<Item>As my New Year's resolution, I vow to give up <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>As the mom of five rambunctious boys, I'm no stranger to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>As the mum of five rambunctious boys, I'm no stranger to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. Betcha can't have just one!</Item>
+					<Item>BILLY MAYS HERE FOR <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Bravo's new reality show features eight washed-up celebrities living with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Brought to you by Bud Light®, the Official Beer of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Brought to you by Molson Canadian, the Official Beer of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Brought to you by XXXX Gold, the Official Beer of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>But before I kill you, Mr. Bond, I must show you <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>CBC presents "<Goto>_cah_CAHRESPONSE</Goto>: the Story of <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Channel 4 presents <Goto>_cah_CAHRESPONSE</Goto>, the story of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Channel 5's new reality show features eight washed-up celebrities living with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Channel 9 is pleased to present its new variety show, "Hey Hey It's <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Charades was ruined for me forever when my mom had to act out <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Check me out, yo! I call this dance move "<Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Click Here for <Goto>_cah_CAHRESPONSE</Goto>!!!</Item>
+					<Item>Coming this season, Samuel Beckett's classic existential play: Waiting for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Coming to Broadway this season, <Goto>_cah_CAHRESPONSE</Goto>: The Musical.</Item>
+					<Item>Coming to the West End this year, <Goto>_cah_CAHRESPONSE</Goto>: The Musical.</Item>
+					<Item>Crikey! I've never seen <Goto>_cah_CAHRESPONSE</Goto> like this before! Let's get a bit closer.</Item>
+					<Item>CTV presents "<Goto>_cah_CAHRESPONSE</Goto>: the Story of <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Daddy, why is mommy crying? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Daddy, why is mummy crying? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Dear Abby, I'm having some trouble with <Goto>_cah_CAHRESPONSE</Goto> and would like your advice.</Item>
+					<Item>Dear Agony Aunt, I'm having some trouble with <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto> and I need your advice.</Item>
+					<Item>Dear Sir or Madam, We regret to inform you that the Office of <Goto>_cah_CAHRESPONSE</Goto> has denied your request for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Doctor, you've gone too far! The human body wasn't meant to withstand that amount of <Goto>_cah_CAHRESPONSE</Goto>!</Item>
+					<Item>Dude, do not go in that bathroom. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
+					<Item>Dude, do not go in that washroom. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
+					<Item>Due to a PR fiasco, Walmart no longer offers <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>During his childhood, Salvador Dali produced hundreds of paintings of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>During his midlife crisis, my dad got really into <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>During sex, I like to think about <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Finally! A service that delivers <Goto>_cah_CAHRESPONSE</Goto> right to your door.</Item>
+					<Item>For my next trick, I will pull <Goto>_cah_CAHRESPONSE</Goto> out of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Fun tip! When your man asks you to go down on him, try surprising him with <Goto>_cah_CAHRESPONSE</Goto> instead.</Item>
+					<Item>Future historians will agree that <Goto>_cah_CAHRESPONSE</Goto> marked the beginning of America's decline.</Item>
+					<Item>Having problems with <Goto>_cah_CAHRESPONSE</Goto>? Try <Goto>_cah_CAHRESPONSE</Goto>!</Item>
+					"<Item>Here is the church
+					Here is the steeple
+					Open the doors
+					And there is <Goto>_cah_CAHRESPONSE</Goto>.</Item>"
+					<Item>Hey guys, welcome to Boston Pizza! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Hey guys, welcome to Chili's! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Hey guys, welcome to Sizzler! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Hey guys, welcome to TGIF! Would you like to start the night off right with <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Hey Reddit! I'm <Goto>_cah_CAHRESPONSE</Goto>. Ask me anything.</Item>
+					<Item>How am I maintaining my relationship status? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>How did I lose my virginity? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I do not know with what weapons World War III will be fought, but World War IV will be fought with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I drink to forget <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I get by with a little help from <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I got 99 problems but <Goto>_cah_CAHRESPONSE</Goto> ain't one.</Item>
+					<Item>I know when that hotline bling, that can only mean one thing: <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I learned the hard way that you can't cheer up a grieving friend with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I never truly understood <Goto>_cah_CAHRESPONSE</Goto> until I encountered <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I spent my whole life working toward <Goto>_cah_CAHRESPONSE</Goto>, only to have it ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I wish I hadn't lost the instruction manual for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I'm going on a cleanse this week. Nothing but kale juice and <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I'm Lebron James, and when I'm not slamming dunks, I love <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I'm no doctor, but I'm pretty sure what you're suffering from is called "<Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>I'm sorry, Professor, but I couldn't complete my homework because of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I'm sorry, Sir, but I couldn't complete my homework because of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>I’m not like the rest of you. I’m too rich and busy for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>If you can't be with the one you love, love <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>IF you like <Goto>_cah_CAHRESPONSE</Goto>, YOU MIGHT BE A REDNECK.</Item>
+					<Item>In 1,000 years, when paper money is a distant memory, how will we pay for goods and services? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In 1,000 years, when paper money is but a distant memory, <Goto>_cah_CAHRESPONSE</Goto> will be our currency.</Item>
+					<Item>In a world ravaged by <Goto>_cah_CAHRESPONSE</Goto> our only solace is <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In a world ravaged by <Goto>_cah_CAHRESPONSE</Goto>, our only solace is <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In an attempt to reach a wider audience, the National Museum of Australia has opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In an attempt to reach a wider audience, the Smithsonian Museum of Natural History has opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In Australia, <Goto>_cah_CAHRESPONSE</Goto> is twice as big and twice as deadly.</Item>
+					<Item>In Belmarsh Prison, word is you can trade 200 cigarettes for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In her latest feature-length film, Tracy Beaker struggles with <Goto>_cah_CAHRESPONSE</Goto> for the first time.</Item>
+					<Item>In his new self-produced album, Kanye West raps over the sounds of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In his new summer comedy, Rob Schneider is <Goto>_cah_CAHRESPONSE</Goto> trapped in the body of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In L.A. County Jail, word is you can trade 200 cigarettes for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In M. Night Shyamalan's new movie, Bruce Willis discovers that <Goto>_cah_CAHRESPONSE</Goto> had really been <Goto>_cah_CAHRESPONSE</Goto> all along.</Item>
+					<Item>In Michael Jackson's final moments, he thought about <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In Rome, there are whisperings that the Vatican has a secret room devoted to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>In the new Disney Channel Original Movie, Hannah Montana struggles with <Goto>_cah_CAHRESPONSE</Goto> for the first time.</Item>
+					<Item>In the seventh circle of Hell, sinners must endure <Goto>_cah_CAHRESPONSE</Goto> for all eternity.</Item>
+					<Item>In Wormwood Scrubs, word is you can trade 200 cigarettes for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Instead of coal, Father Christmas now gives the bad children <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Instead of coal, Santa now gives the bad children <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Introducing the amazing superhero/sidekick duo! It's <Goto>_cah_CAHRESPONSE</Goto> and <Goto>_cah_CAHRESPONSE</Goto>!</Item>
+					<Item>Introducing X-Treme Baseball! It's like baseball, but with <Goto>_cah_CAHRESPONSE</Goto>!</Item>
+					<Item><Goto>_cah_CAHRESPONSE</Goto>. It's a trap!</Item>
+					<Item>It’s a pity that kids these days are all getting involved with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Just once, I'd like to hear you say "Thanks, Mom. Thanks for <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Just once, I'd like to hear you say "Thanks, Mum. Thanks for <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Just saw this upsetting video! Please retweet!! #stop<Goto>_cah_CAHRESPONSE</Goto></Item>
+					<Item>Kids, I don't need drugs to get high. I'm high on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Life for Aboriginal people was forever changed when the white man introduced them to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Life for American Indians was forever changed when the White Man introduced them to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Life was difficult for cavemen before <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Lifetime® presents <Goto>_cah_CAHRESPONSE</Goto>: the Story of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Lifetime® presents "<Goto>_cah_CAHRESPONSE</Goto>: the Story of <Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>Lovin’ you is easy ’cause you’re <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Major League Baseball has banned <Goto>_cah_CAHRESPONSE</Goto> for giving players an unfair advantage.</Item>
+					"<Item>A Haiku:
+					<Goto>_cah_CAHRESPONSE</Goto>, <Goto>_cah_CAHRESPONSE</Goto>, <Goto>_cah_CAHRESPONSE</Goto>.</Item>"
+					<Item>Mate, do not go in that bathroom. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
+					<Item>Mate, do not go in that toilet. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
+					<Item>Maybe she's born with it. Maybe it's <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Men's Wearhouse: You're gonna like <Goto>_cah_CAHRESPONSE</Goto>. I guarantee it.</Item>
+					<Item>Military historians remember Alexander the Great for his brilliant use of <Goto>_cah_CAHRESPONSE</Goto> against the Persians.</Item>
+					<Item>Money can’t buy me love, but it can buy me <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Mr. and Mrs. Diaz, we called you in because we're concerned about Cynthia. Are you aware that your daughter is <Goto>_cah_CAHRESPONSE</Goto>? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>MTV's new reality show features eight washed-up celebrities living with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>My fellow Americans: Before this decade is out, we will have <Goto>_cah_CAHRESPONSE</Goto> on the moon!</Item>
+					<Item>My mom freaked out when she looked at my browser history and found <Goto>_cah_CAHRESPONSE</Goto>.com/<Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>My plan for world domination begins with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next from J.K. Rowling: Harry Potter and the Chamber of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next from J.K. Rowling: Harry Potter and the Chamber of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on ESPN2: The World Series of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on Eurosport: The World Championship of <Goto>_cah_CAHRESPONSE</Goto>_.</Item>
+					<Item>Next on Nine's Wide World of Sports: The World Championship of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on Sky Sports: The World Championship of <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on Sky Sports: The World Champsion of <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on TSN: The World Series of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next up on Channel 4: Ramsay's <Goto>_cah_CAHRESPONSE</Goto> Nightmares.</Item>
+					<Item>Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Now at the National Museum of Australia: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Now at the Natural History Museum: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Now at the Royal Ontario Museum: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Now at the Smithsonian: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>O Canada, we stand on guard for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Oi! Show us <Goto>_cah_CAHRESPONSE</Goto>!</Item>
+					<Item>Old MacDonald had <Goto>_cah_CAHRESPONSE</Goto>. E-I-E-I-O.</Item>
+					<Item>Only two things in life are certain: death and <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Penalty! <Goto>_cah_CAHRESPONSE</Goto>: that's 5 minutes in the box!</Item>
+					<Item>Qantas now prohibits <Goto>_cah_CAHRESPONSE</Goto> on airplanes.</Item>
+					<Item>Rumor has it that Vladimir Putin's favorite dish is <Goto>_cah_CAHRESPONSE</Goto> stuffed with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Science will never explain <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Skidamarink a dink a dink, skidamarink a doo, I love <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Sorry everyone, I just <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					"<Item>Step 1: <Goto>_cah_CAHRESPONSE</Goto>.
+					Step 2: <Goto>_cah_CAHRESPONSE</Goto>.
+					Step 3: Profit.</Item>"
+					<Item>Studies show that lab rats navigate mazes 50% faster after being exposed to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>TFL apologizes for the delay in train service due to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>That's right, I killed <Goto>_cah_CAHRESPONSE</Goto>. How, you ask? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The blind date was going horribly until we discovered our shared interest in <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The class field trip was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The Five Stages of Grief: denial, anger, bargaining, <Goto>_cah_CAHRESPONSE</Goto>, acceptance.</Item>
+					<Item>The healing process began when I joined a support group for victims of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The Natural History Museum has just opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The new Chevy Tahoe. With the power and space to take <Goto>_cah_CAHRESPONSE</Goto> everywhere you go.</Item>
+					<Item>The school excursion was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The school field trip was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The school trip was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The secret to a lasting marriage is communication, communication, and <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The Smithsonian Museum of Natural History has just opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The TFL apologizes for the delay in train service due to <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>. </Item>
+					<Item>The theme for next year's Eurovision Song Contest is "We are <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>The U.S. has begun airdropping <Goto>_cah_CAHRESPONSE</Goto> to the children of Afghanistan.</Item>
+					<Item>They said we were crazy. They said we couldn't put <Goto>_cah_CAHRESPONSE</Goto> inside of <Goto>_cah_CAHRESPONSE</Goto>. They were wrong.</Item>
+					"<Item>This is the way the world ends
+					This is the way the world ends
+					Not with a bang but with <Goto>_cah_CAHRESPONSE</Goto>.</Item>"
+					<Item>This is your captain speaking. Fasten your seatbelts and prepare for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>This season at Steppenwolf, Samuel Beckett's classic existential play: Waitng for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>This season at the old Vic, Samuel Beckett's classic existential play: Waitng for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>This season at the Princess of Wales Theatre, Samuel Beckett's classic existential play: Waiting for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>This season at the Sydney Opera House, Samuel Beckett's classic existential play: Waiting for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Today on Jerry Springer: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto>!"</Item>
+					<Item>Today on Maury: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto>!"</Item>
+					<Item>Today on The Jeremy Kyle Show: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>!"</Item>
+					<Item>Tonight's top story: What you don't know about <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto> could kill you.</Item>
+					<Item>TSA guidelines now prohibit <Goto>_cah_CAHRESPONSE</Goto> on airplanes.</Item>
+					<Item>Turns out that <Goto>_cah_CAHRESPONSE</Goto>-Man was neither the hero we needed nor wanted.</Item>
+					<Item>Uh, hey guys, I know this was my idea, but I'm having serious doubts about <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>UKIP: Putting <Goto>_cah_CAHRESPONSE</Goto> First!</Item>
+					<Item>War! What is it good for? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Well if you'll excuse me, gentlemen, I have a date with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What am I giving up for Lent? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What are my parents hiding from me? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What are school administrators using to curb rampant teenage pregnancy? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What broke up the original Wiggles? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What brought the orgy to a grinding halt? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What did I bring back from Amsterdam? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What did I bring back from Bali? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What did I bring back from Mexico? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What did the US airdrop to the children of Afghanistan? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What did Vin Diesel eat for dinner? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What do old people smell like? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What does Dick Cheney prefer? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What don't you want to find in your Chinese food? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What don't you want to find in your doner kebab? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What don't you want to find in your Kung Pao chicken? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What don't you want to find in your Mongolian beef? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What ended my last relationship? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What gets better with age? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What gives me uncontrollable gas? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What has been making life difficult at the nudist colony? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What helps Barack Obama unwind? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What helps Obama unwind? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What is Batman's guilty pleasure? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What is George W. Bush thinking about right now? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What kept Margaret Thatcher busy in her waning years? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What left this stain on my couch? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What made my first kiss so awkward? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What makes life worth living? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What makes me a true blue Aussie? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What never fails to liven up the party? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What will always get you laid? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What will I bring back in time to convince people that I am a powerful wizard? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What would grandma find disturbing, yet oddly charming? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's a girl's best friend? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's my anti-drug? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's my secret power? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's Teach for America using to inspire inner city students to succeed? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's that smell? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's that sound? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's the Canadian government using to inspire rural students to succeed? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's the crustiest? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's the most emo? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's the new fad diet? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's the next Happy Meal® toy? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's the next superhero/sidekick duo? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's there a ton of in heaven? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>What's there a tonne of in heaven? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When all else fails, I can always masturbate to <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am a billionare, I shall erect a 20-meter statue to commemorate <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am a billionare, I shall erect a 20-metre statue to commemorate <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am a billionare, I shall erect a 50-foot statue to commemorate <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am President of the United States, I will create the Department of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am President, I will create the Department of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am Prime Minister of Canada, I will create the Department of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am Prime Minister of Canada, I will create the Ministry of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am Prime Minister of the United Kingdom, I will create the Ministry of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am Prime Minister, I will create the Department of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I am Prime Minister, I will create the Ministry of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I pooped, what came out of my butt? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I was tripping on acid, <Goto>_cah_CAHRESPONSE</Goto> turned into <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When I'm in prison, I'll have <Goto>_cah_CAHRESPONSE</Goto> smuggled in.</Item>
+					<Item>When Pharaoh remained unmoved, Moses called down a Plague of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>When you get right down to it, <Goto>_cah_CAHRESPONSE</Goto> is just <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>White people like <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Who stole the cookies from the cookie jar? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Why am I sticky? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Why can't I sleep at night? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Why do I hurt all over? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>With enough time and pressure, <Goto>_cah_CAHRESPONSE</Goto> will turn into <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Your persistence is admirable, my dear Prince. But you cannot win my heart with <Goto>_cah_CAHRESPONSE</Goto> alone.</Item>
+  				</Random>
+  			</Response>
+		</Model>
+		
+		<Model>
+  			<Pattern>^_cah_CAHRESPONSE</Pattern>
+  			<Response>
+  				<Random>
+					<Item>"Tweeting."</Item>
+					<Item>(I am doing Kegels right now.)</Item>
+					<Item>10,000 Syrian refugees</Item>
+					<Item>100% Pure New Zealand</Item>
+					<Item>2 Girls 1 Cup</Item>
+					<Item>400 years of colonial atrocities</Item>
+					<Item>50 mg of Zoloft daily</Item>
+					<Item>50,000 volts straight to the nipples</Item>
+					<Item>72 virgins</Item>
+					<Item>8 oz. of sweet Mexican black-tar heroin</Item>
+					<Item>A bag of magic beans</Item>
+					<Item>A balanced breakfast</Item>
+					<Item>A ball of earwax, semen, and toenail clippings</Item>
+					<Item>A big black dick</Item>
+					<Item>A big hoopla about nothing</Item>
+					<Item>A bird that shits human turds</Item>
+					<Item>A bit of slap and tickle</Item>
+					<Item>A bitch slap</Item>
+					<Item>A bleached arsehole</Item>
+					<Item>A bleached asshole</Item>
+					<Item>A Bop It™</Item>
+					<Item>A bowl of mayonnaise and human teeth</Item>
+					<Item>A brain tumor</Item>
+					<Item>A brain tumour</Item>
+					<Item>A bucket of fish heads</Item>
+					<Item>A can of whoop-ass</Item>
+					<Item>A caress of the inner thigh</Item>
+					<Item>A cartoon camel enjoying the smooth, refreshing taste of a cigarette</Item>
+					<Item>A cat video so cute that your eyes roll back and your spine slides out of your anus</Item>
+					<Item>A Chelsea smile. </Item>
+					<Item>A Chinese tourist who wants something very badly but cannot communicate it</Item>
+					<Item>A clandestine butt scratch</Item>
+					<Item>A cooler full of organs</Item>
+					<Item>A cop who is also a dog</Item>
+					<Item>A crucifixion</Item>
+					<Item>A cute, fuzzy koala, but it has chlamydia</Item>
+					<Item>A death ray</Item>
+					<Item>A decent fucking Internet connection</Item>
+					<Item>A defective condom</Item>
+					<Item>A despondent Maple Leafs fan sitting all alone</Item>
+					<Item>A didgeridildo</Item>
+					<Item>A disappointing birthday party</Item>
+					<Item>A drive-by shooting</Item>
+					<Item>A fair go</Item>
+					<Item>A falcon with a cap on its head</Item>
+					<Item>A fanny fart</Item>
+					<Item>A fart so powerful that it wakes the giants from their thousand-year slumber</Item>
+					<Item>A fat bald man from the internet</Item>
+					<Item>A fetus</Item>
+					<Item>A five-litre goon bag</Item>
+					<Item>A Fleshlight</Item>
+					<Item>A Fleshlight®</Item>
+					<Item>A foetus</Item>
+					<Item>A foul mouth</Item>
+					<Item>A fuck-ton of almonds</Item>
+					<Item>A fuck-tonne of almonds</Item>
+					<Item>A gassy antelope</Item>
+					<Item>A gentle caress of the inner thigh</Item>
+					<Item>A ginger's freckled ballsack</Item>
+					<Item>A good sniff</Item>
+					<Item>A good, strong gorilla</Item>
+					<Item>A gossamer stream of jizz that catches the light as it arcs through the morning air</Item>
+					<Item>A grande sugar-free iced soy caramel macchiato</Item>
+					<Item>A Gypsy curse</Item>
+					<Item>A hairless little shitstain named Callou</Item>
+					<Item>A Halal Snack Pack</Item>
+					<Item>A hen night in Slough</Item>
+					<Item>A homoerotic volleyball montage</Item>
+					<Item>A horde of Vikings</Item>
+					<Item>A hot mess</Item>
+					<Item>A Japanese toaster you can fuck</Item>
+					<Item>A Japanese whaling operation</Item>
+					<Item>A LAN party</Item>
+					<Item>A lifetime of sadness</Item>
+					<Item>A literal tornado of fire</Item>
+					<Item>A little boy who won't shut the fuck up about dinosaurs</Item>
+					<Item>A live studio audience</Item>
+					<Item>A look-see</Item>
+					<Item>A low standard of living</Item>
+					<Item>A mad cow</Item>
+					<Item>A madman who lives in a police box and kidnaps women</Item>
+					<Item>A man in yoga pants with a ponytail and feather earrings</Item>
+					<Item>A man on the brink of orgasm</Item>
+					<Item>A mating display</Item>
+					<Item>A Mexican</Item>
+					<Item>A micropenis</Item>
+					<Item>A micropig wearing a tiny raincoat and booties</Item>
+					<Item>A middle-aged man on roller skates</Item>
+					<Item>A mime having a stroke</Item>
+					<Item>A moment of silence</Item>
+					<Item>A monkey smoking a cigar</Item>
+					<Item>A mopey zoo lion</Item>
+					<Item>A much younger woman</Item>
+					<Item>A murder most foul</Item>
+					<Item>A neglected Tamagotchi™</Item>
+					<Item>A nice cup of tea</Item>
+					<Item>A pangender octopus who roams the cosmos in search of love</Item>
+					<Item>A piñata full of scorpions</Item>
+					<Item>A posh wank</Item>
+					<Item>A PowerPoint presentation</Item>
+					<Item>A pyramid of severed heads</Item>
+					<Item>A really cool hat</Item>
+					<Item>A robust mongoloid</Item>
+					<Item>A sad fat dragon with no friends</Item>
+					<Item>A sad handjob</Item>
+					<Item>A salad for men that's made of metal</Item>
+					<Item>A salty surprise</Item>
+					<Item>A sassy black woman</Item>
+					<Item>A sausage festival</Item>
+					<Item>A saxophone solo</Item>
+					<Item>A sea of troubles</Item>
+					<Item>A shark!</Item>
+					<Item>A sick burnout</Item>
+					<Item>A sick wombat</Item>
+					<Item>A sickly child-king</Item>
+					<Item>A six-point plan to stop the boats</Item>
+					<Item>A slab of VB and a pack of durries</Item>
+					<Item>A slightly shittier parallel universe</Item>
+					<Item>A snapping turtle biting the tip of your penis</Item>
+					<Item>A sober Irishman who doesn't care for potatoes</Item>
+					<Item>A soggy Sao</Item>
+					<Item>A spastic nerd</Item>
+					<Item>A stingray barb through the chest</Item>
+					<Item>A stray pube</Item>
+					<Item>A subscription to Men's Fitness</Item>
+					<Item>A Super Soaker™ full of cat pee</Item>
+					<Item>A surprising amount of hair</Item>
+					<Item>A sweet spaceship</Item>
+					<Item>A thermonuclear detonation</Item>
+					<Item>A thousand Scottish warriors lifting their kilts in unison</Item>
+					<Item>A three-way with my wife and Shaquille O'Neal</Item>
+					<Item>A Tim Hortons franchise</Item>
+					<Item>A time travel paradox</Item>
+					<Item>A tiny horse</Item>
+					<Item>A tiny, gay guitar called a ukulele</Item>
+					<Item>A tribe of warrior women</Item>
+					<Item>A vagina that leads to another dimension</Item>
+					<Item>A vajazzled vagina</Item>
+					<Item>A vastly superior healthcare system</Item>
+					<Item>A vindaloo poo</Item>
+					<Item>A web of lies</Item>
+					<Item>A wheelchair death race</Item>
+					<Item>A white van man</Item>
+					<Item>A whole thing of butter</Item>
+					<Item>A windmill full of corpses</Item>
+					<Item>A wisecracking terrorist</Item>
+					<Item>A zesty breakfast burrito</Item>
+					<Item>Aaron Burr</Item>
+					<Item>Abstinence</Item>
+					<Item>Academy Award winner Meryl Streep</Item>
+					<Item>Accepting the way things are</Item>
+					<Item>Accidentally slipping yourself a roofie</Item>
+					<Item>Active listening</Item>
+					<Item>Actually getting shot, for real</Item>
+					<Item>Actually taking candy from a baby</Item>
+					<Item>Adderall™</Item>
+					<Item>Adult Friendfinder</Item>
+					<Item>Advice from a wise, old black man</Item>
+					<Item>African children</Item>
+					<Item>Agriculture</Item>
+					<Item>AIDS</Item>
+					<Item>Alcohol poisoning</Item>
+					<Item>Alcoholism</Item>
+					<Item>All four prongs of an echidna's penis</Item>
+					<Item>All my friends dying</Item>
+					<Item>All of this blood</Item>
+					<Item>All the dudes I've fucked</Item>
+					<Item>All-you-can-eat shrimp for $4.99</Item>
+					<Item>All-you-can-eat shrimp for $8.99</Item>
+					<Item>Altar boys</Item>
+					<Item>America</Item>
+					<Item>American Gladiators</Item>
+					<Item>Americanization</Item>
+					<Item>Amputees</Item>
+					<Item>An AK-47 assault rifle</Item>
+					<Item>An AK-47</Item>
+					<Item>An AR-15 assault rifle</Item>
+					<Item>An argument with Richard Dawkins</Item>
+					<Item>An army of skeletons</Item>
+					<Item>An ass disaster</Item>
+					<Item>An asymmetric boob job</Item>
+					<Item>An endless stream of diarrhea</Item>
+					<Item>An endless stream of diarrhoea</Item>
+					<Item>An entrenched class system</Item>
+					<Item>An erection that lasts longer than four hours</Item>
+					<Item>An Evening with Michael Buble</Item>
+					<Item>An evil man in evil clothes</Item>
+					<Item>An honest cop with nothing left to lose</Item>
+					<Item>An icepick lobotomy</Item>
+					<Item>An icy handjob from an Edmonton hooker</Item>
+					<Item>An M. Night Shyamalan plot twist</Item>
+					<Item>An M16 assault rifle</Item>
+					<Item>An octopus giving seven handjobs and smoking a cigarette</Item>
+					<Item>An Oedipus complex</Item>
+					<Item>An old guy who's almost dead</Item>
+					<Item>An older woman who knows her way around the penis</Item>
+					<Item>An oversized lollipop</Item>
+					<Item>An ugly face</Item>
+					<Item>An unstoppable wave of fire ants</Item>
+					<Item>An unwanted pregnancy</Item>
+					<Item>An uppercut</Item>
+					<Item>Anal beads</Item>
+					<Item>Announcing that I am about to cum</Item>
+					<Item>Another goddamn vampire movie</Item>
+					<Item>Another shot of morphine</Item>
+					<Item>Anything that comes out of Prince Philip's mouth</Item>
+					<Item>Apologizing</Item>
+					<Item>Arnold Schwarzenegger</Item>
+					<Item>Asians who aren't good at math</Item>
+					<Item>Assless chaps</Item>
+					<Item>Attitude</Item>
+					<Item>Auschwitz</Item>
+					<Item>Australia</Item>
+					<Item>Authentic Mexican cuisine</Item>
+					<Item>Autocannibalism</Item>
+					<Item>AXE Body Spray</Item>
+					<Item>Badger culling</Item>
+					<Item>Ball-by-ball commentary from Richie Benaud</Item>
+					<Item>Balls</Item>
+					<Item>Bananas in Pajamas</Item>
+					<Item>Bananas</Item>
+					<Item>Barack Obama</Item>
+					<Item>Basic human decency</Item>
+					<Item>BATMAN!</Item>
+					<Item>BATMAN!!!</Item>
+					<Item>Battlefield amputations</Item>
+					<Item>Becoming a blueberry</Item>
+					<Item>Bees?</Item>
+					<Item>Being a busy adult with many important things to do</Item>
+					<Item>Being a dick to children</Item>
+					<Item>Being a dinosaur</Item>
+					<Item>Being a hideous beast that no one could love</Item>
+					<Item>Being a motherfucking sorcerer</Item>
+					<Item>Being a woman</Item>
+					<Item>Being able to talk to elephants</Item>
+					<Item>Being awesome at sex</Item>
+					<Item>Being black</Item>
+					<Item>Being Canadian</Item>
+					<Item>Being fabulous</Item>
+					<Item>Being fat and stupid</Item>
+					<Item>Being hunted like a fox</Item>
+					<Item>Being marginalised</Item>
+					<Item>Being marginalized</Item>
+					<Item>Being on fire</Item>
+					<Item>Being rich</Item>
+					<Item>Being white</Item>
+					<Item>Benedict Cumberbatch</Item>
+					<Item>Bestiality</Item>
+					<Item>Bill Nye the Science Guy</Item>
+					<Item>Bingeing and purging</Item>
+					<Item>Bio-engineered assault turtles with acid breath</Item>
+					<Item>Bisexuality</Item>
+					<Item>Bitches</Item>
+					<Item>Black people</Item>
+					<Item>Bling</Item>
+					<Item>Blood farts</Item>
+					<Item>Blood, toil, tears, and sweat</Item>
+					<Item>Blowing my boyfriend so hard he shits</Item>
+					<Item>Blowing up Parliament</Item>
+					<Item>Boat people; half boat, half human</Item>
+					<Item>Bogies</Item>
+					<Item>Bond, James Bond</Item>
+					<Item>Bono</Item>
+					<Item>Booby-trapping the house to foil burglars</Item>
+					<Item>Boogers</Item>
+					<Item>Bosnian chicken farmers</Item>
+					<Item>Braiding three penises into a Curly Wurly</Item>
+					<Item>Braiding three penises into a licorice twist</Item>
+					<Item>Braiding three penises into a Twizzler</Item>
+					<Item>Breaking out into song and dance</Item>
+					<Item>Brexit</Item>
+					<Item>Britney Spears at 55</Item>
+					<Item>Brown people</Item>
+					<Item>Bubble butt bottom boys</Item>
+					<Item>Buckfast Tonic Wine</Item>
+					<Item>Bullshit</Item>
+					<Item>Burning down the White House</Item>
+					<Item>Buying the right pants to be cool</Item>
+					<Item>Canada: America's Hat</Item>
+					<Item>Canadian Netflix</Item>
+					<Item>Canned tuna with extra dolphin</Item>
+					<Item>Capturing Newt Gingrich and forcing him to dance in a monkey suit</Item>
+					<Item>Cards Against Humanity</Item>
+					<Item>Cashed-up bogans</Item>
+					<Item>Casually suggesting a threesome</Item>
+					<Item>Catapults</Item>
+					<Item>Centaurs</Item>
+					<Item>Chainsaws for hands</Item>
+					<Item>Charisma</Item>
+					<Item>Cheating in the Paralympics</Item>
+					<Item>Cheating in the Special Olympics</Item>
+					<Item>Cheeky bum sex</Item>
+					<Item>Chemical weapons</Item>
+					<Item>Child abuse</Item>
+					<Item>Child beauty pageants</Item>
+					<Item>Children on leashes</Item>
+					<Item>Chivalry</Item>
+					<Item>Christopher Walken</Item>
+					<Item>Chundering into a kangaroo's pouch</Item>
+					<Item>Chunks of dead backpacker</Item>
+					<Item>Chunks of dead hitchhiker</Item>
+					<Item>Chunks of dead prostitute</Item>
+					<Item>Chutzpah</Item>
+					<Item>Civilian casualties</Item>
+					<Item>Classist undertones</Item>
+					<Item>Clive Palmer's soft, shitty body</Item>
+					<Item>Clubbing baby seals</Item>
+					<Item>Coat hanger abortions</Item>
+					<Item>Cock</Item>
+					<Item>Cockfights</Item>
+					<Item>College</Item>
+					<Item>Committing suicide</Item>
+					<Item>Completely unwarranted confidence</Item>
+					<Item>Concealing a boner</Item>
+					<Item>Concealing an erection</Item>
+					<Item>Consensual sex</Item>
+					<Item>Consultants</Item>
+					<Item>Contagious face cancer</Item>
+					<Item>Converting to Islam</Item>
+					<Item>Cookie Monster devouring the Eucharist wafers</Item>
+					<Item>Copping a feel</Item>
+					<Item>Cottaging</Item>
+					<Item>Count Chocula</Item>
+					<Item>Court-ordered rehab</Item>
+					<Item>Covering myself with Parmesan cheese and chili flakes because I am pizza</Item>
+					<Item>Crazy hot cousin sex</Item>
+					<Item>Creed</Item>
+					<Item>Crippling debt</Item>
+					<Item>Crucifixion</Item>
+					<Item>Crumbs all over the bloody carpet</Item>
+					<Item>Crumbs all over the god damn carpet</Item>
+					<Item>Crumpets with the Queen</Item>
+					<Item>Crystal meth</Item>
+					<Item>Cuddling</Item>
+					<Item>Cumming deep inside my best bro</Item>
+					<Item>Customer service representatives</Item>
+					<Item>Cybernetic enhancements</Item>
+					<Item>Dad's funny balls</Item>
+					<Item>Daddies Brown Sauce</Item>
+					<Item>Daddies® Brown Sauce</Item>
+					<Item>Daddy issues</Item>
+					<Item>Daddy's belt</Item>
+					<Item>Daniel Radcliffe's delicious arsehole</Item>
+					<Item>Daniel Radcliffe's delicious asshole</Item>
+					<Item>Danny DeVito</Item>
+					<Item>Dark and mysterious forces beyond our control</Item>
+					<Item>Darth Vader</Item>
+					<Item>Date rape</Item>
+					<Item>Dave Matthews Band</Item>
+					<Item>David Bowie flying in on a tiger made of lightning</Item>
+					<Item>David Cameron</Item>
+					<Item>Dead babies</Item>
+					<Item>Dead birds everywhere</Item>
+					<Item>Dead parents</Item>
+					<Item>Deflowering the princess</Item>
+					<Item>Dental dams</Item>
+					<Item>Denying climate change</Item>
+					<Item>Destroying the evidence</Item>
+					<Item>Dick Cheney</Item>
+					<Item>Dick fingers</Item>
+					<Item>Dick pics</Item>
+					<Item>Dining with cardboard cutouts of the cast of Friends</Item>
+					<Item>Dirty nappies</Item>
+					<Item>Disco fever</Item>
+					<Item>Diversity</Item>
+					<Item>Dogging</Item>
+					<Item>Doin' it in the butt</Item>
+					<Item>Doin' it up the bum</Item>
+					<Item>Doing a shit in Pudsey Bear's eyehole</Item>
+					<Item>Doing crimes</Item>
+					<Item>Doing it in the butt</Item>
+					<Item>Doing the right thing</Item>
+					<Item>Domino's™ Oreo™ Dessert Pizza</Item>
+					<Item>Don Cherry's wardrobe</Item>
+					<Item>Donald J. Trump</Item>
+					<Item>Donald Trump</Item>
+					<Item>Double penetration</Item>
+					<Item>Douchebags on their iPhones</Item>
+					<Item>Dr. Martin Luther King, Jr</Item>
+					<Item>Drinking alone</Item>
+					<Item>Drinking out of the toilet and eating garbage</Item>
+					<Item>Drinking out of the toilet and eating rubbish</Item>
+					<Item>Dropping a baby down the dunny</Item>
+					<Item>Dropping a chandelier on your enemies and riding the rope up</Item>
+					<Item>Drowning the kids in the bathtub</Item>
+					<Item>Druids</Item>
+					<Item>Drum circles</Item>
+					<Item>Dry heaving</Item>
+					<Item>Dwarf tossing</Item>
+					<Item>Dwayne "The Rock" Johnson</Item>
+					<Item>Dying alone and in pain</Item>
+					<Item>Dying of dysentery</Item>
+					<Item>Dying</Item>
+					<Item>Eastern European Turbo-Folk music</Item>
+					<Item>Eating a hard boiled egg out of my husband's arsehole</Item>
+					<Item>Eating a hard boiled egg out of my husband's asshole</Item>
+					<Item>Eating all of the cookies before the AIDS bake-sale</Item>
+					<Item>Eating an albino</Item>
+					<Item>Eating the last known bison</Item>
+					<Item>Eating too much of a lamp</Item>
+					<Item>Ecstasy</Item>
+					<Item>Ed Balls</Item>
+					<Item>Edible underpants</Item>
+					<Item>Edible underwear</Item>
+					<Item>Egging an MP</Item>
+					<Item>Elderly Japanese men</Item>
+					<Item>Electricity</Item>
+					<Item>Embryonic stem cells</Item>
+					<Item>Emerging from the sea and rampaging through Tokyo</Item>
+					<Item>Emma Watson</Item>
+					<Item>Emotions</Item>
+					<Item>England</Item>
+					<Item>Erectile dysfunction</Item>
+					<Item>Establishing dominance</Item>
+					<Item>Estrogen</Item>
+					<Item>Ethnic cleansing</Item>
+					<Item>Eugenics</Item>
+					<Item>Euphoria™ by Calvin Klein</Item>
+					<Item>Exactly what you'd expect</Item>
+					<Item>Excalibur</Item>
+					<Item>Exchanging pleasantries</Item>
+					<Item>Executing a hostage every hour</Item>
+					<Item>Existentialists</Item>
+					<Item>Existing</Item>
+					<Item>Expecting a burp and vomiting on the floor</Item>
+					<Item>Explaining how vaginas work</Item>
+					<Item>Explosions</Item>
+					<Item>Extremely tight jeans</Item>
+					<Item>Extremely tight pants</Item>
+					<Item>Extremely tight trousers</Item>
+					<Item>Facebook</Item>
+					<Item>Fading away into nothingness</Item>
+					<Item>Faffing about</Item>
+					<Item>Faith healing</Item>
+					<Item>Fake tits</Item>
+					<Item>FALCON PUNCH!!!</Item>
+					<Item>Famine</Item>
+					<Item>Fancy Feast®</Item>
+					<Item>Farting and walking away</Item>
+					<Item>Farting into your petticoats and wafting it at Lord Gregory</Item>
+					<Item>Fear itself</Item>
+					<Item>Feeding Rosie O'Donnell</Item>
+					<Item>Fellowship in Christ</Item>
+					<Item>Fiery poops</Item>
+					<Item>Fiery poos</Item>
+					<Item>Figgy pudding</Item>
+					<Item>Filling my briefcase with business stuff</Item>
+					<Item>Filling my son with spaghetti</Item>
+					<Item>Filling Sean Hannity with helium and watching him float away</Item>
+					<Item>Finger painting</Item>
+					<Item>Fingering</Item>
+					<Item>Firing a rifle into the air while balls deep in a squealing hog</Item>
+					<Item>Fisting</Item>
+					<Item>Five litres of Special Brew</Item>
+					<Item>Five-Dollar Footlongs™</Item>
+					<Item>Flash flooding</Item>
+					<Item>Flavored condoms</Item>
+					<Item>Flesh-eating bacteria</Item>
+					<Item>Flightless birds</Item>
+					<Item>Flying robots that kill people</Item>
+					<Item>Flying sex snakes</Item>
+					<Item>Forced sterilisation</Item>
+					<Item>Forced sterilization</Item>
+					<Item>Foreskin</Item>
+					<Item>Forgetting the Alamo</Item>
+					<Item>Former President George W. Bush</Item>
+					<Item>Four Loko</Item>
+					<Item>Fox News</Item>
+					<Item>Fragile masculinity</Item>
+					<Item>Free samples</Item>
+					<Item>Friction</Item>
+					<Item>Friendly fire</Item>
+					<Item>Friends who eat all the snacks</Item>
+					<Item>Friends who eat all your snacks</Item>
+					<Item>Friends with benefits</Item>
+					<Item>Frolicking</Item>
+					<Item>Front butt</Item>
+					<Item>Fucking my sister</Item>
+					<Item>Fucking the weatherman on live television</Item>
+					<Item>Full frontal nudity</Item>
+					<Item>Funky fresh rhymes</Item>
+					<Item>Gandalf</Item>
+					<Item>Gandhi</Item>
+					<Item>Garth Brooks</Item>
+					<Item>Gary Coleman</Item>
+					<Item>Gary Glitter</Item>
+					<Item>Gay aliens</Item>
+					<Item>Gay conversion therapy</Item>
+					<Item>Geese</Item>
+					<Item>Genetically engineered super-soldiers</Item>
+					<Item>Genghis Khan</Item>
+					<Item>Genital piercings</Item>
+					<Item>Gentleman's Relish®</Item>
+					<Item>Genuine human connection</Item>
+					<Item>German Chancellor Angela Merkel</Item>
+					<Item>German dungeon porn</Item>
+					<Item>Germans on holiday</Item>
+					<Item>Getting a DUI on a Zamboni</Item>
+					<Item>Getting crushed by a vending machine</Item>
+					<Item>Getting cummed on</Item>
+					<Item>Getting drugs off the street and into my body</Item>
+					<Item>Getting drunk on mouthwash</Item>
+					<Item>Getting fingered</Item>
+					<Item>Getting married, having a few kids, buying some stuff, retiring to Florida, and dying</Item>
+					<Item>Getting married, having a few kids, buying some stuff, retiring to Queensland, and dying</Item>
+					<Item>Getting married, having a few kids, buying some stuff, retiring to the south of France, and dying</Item>
+					<Item>Getting naked and watching CBeebies</Item>
+					<Item>Getting naked and watching Nickelodeon</Item>
+					<Item>Getting naked and watching Play School</Item>
+					<Item>Getting pregnant again</Item>
+					<Item>Getting really high</Item>
+					<Item>Getting so angry that you pop a boner</Item>
+					<Item>Getting so angry that you pop a stiffy</Item>
+					<Item>Getting wed, having a few kids, taking some pictures, retiring to the south of France, and dying</Item>
+					<Item>Ghosts</Item>
+					<Item>Girls who shouldn't go wild</Item>
+					<Item>Girls</Item>
+					<Item>Giving 110%</Item>
+					<Item>Giving birth to the Antichrist</Item>
+					<Item>Gladiatorial combat</Item>
+					<Item>Glassing a wanker</Item>
+					<Item>Glenn Beck being harried by a swarm of buzzards</Item>
+					<Item>Glenn Beck catching his scrotum on a curtain hook</Item>
+					<Item>Glenn Beck convulsively vomiting as a brood of crab spiders hatches in his brain and erupts from his tear ducts</Item>
+					<Item>Glenn Beck</Item>
+					<Item>Global warming</Item>
+					<Item>Gloryholes</Item>
+					<Item>Goats eating cans</Item>
+					<Item>Goblins</Item>
+					<Item>God</Item>
+					<Item>GoGurt®</Item>
+					<Item>Going an entire day without masturbating</Item>
+					<Item>Going around punching people</Item>
+					<Item>Golden showers</Item>
+					<Item>Good-natured, fun-loving Aussie racism</Item>
+					<Item>Grandma</Item>
+					<Item>Grandpa's ashes</Item>
+					<Item>Graphic violence, adult language, and some sexual content</Item>
+					<Item>Grave robbing</Item>
+					<Item>Growing a pair</Item>
+					<Item>Guys who don't call</Item>
+					<Item>Haggis</Item>
+					<Item>Half a kilo of pure China White heroin</Item>
+					<Item>Half-assed foreplay</Item>
+					<Item>Harry Potter erotica</Item>
+					<Item>Have some more kugel</Item>
+					<Item>Having a Golden Gaytime</Item>
+					<Item>Having a penis</Item>
+					<Item>Having a shag in the back of a ute</Item>
+					<Item>Having anuses for eyes</Item>
+					<Item>Having big dreams but no realistic way to achieve them</Item>
+					<Item>Having sex for the first time</Item>
+					<Item>Having sex on top of a pizza</Item>
+					<Item>Having sex with every man in Winnipeg</Item>
+					<Item>Having shotguns for legs</Item>
+					<Item>Heartwarming orphans</Item>
+					<Item>Heath Ledger</Item>
+					<Item>Helplessly giggling at the mention of Hutus and Tutsis</Item>
+					<Item>Her Majesty, Queen Elizabeth II</Item>
+					<Item>Her Royal Highness, Queen Elizabeth II</Item>
+					<Item>Heritage minutes</Item>
+					<Item>Heritage minutes</Item>
+					<Item>Heroin</Item>
+					<Item>Heteronormativity</Item>
+					<Item>Hillary Clinton's emails</Item>
+					<Item>Hip hop jewels</Item>
+					<Item>Hipsters</Item>
+					<Item>Historically black colleges</Item>
+					<Item>Hobos</Item>
+					<Item>Holding down a child and farting all over him</Item>
+					<Item>Home video of Oprah sobbing into a Lean Cuisine®</Item>
+					<Item>Homeless people</Item>
+					<Item>Homo milk</Item>
+					<Item>Hooning</Item>
+					<Item>Hope</Item>
+					<Item>Hormone injections</Item>
+					<Item>Horrifying laser hair removal accidents</Item>
+					<Item>Horse meat</Item>
+					<Item>Hospice care</Item>
+					<Item>Hot cheese</Item>
+					<Item>Hot people</Item>
+					<Item>Hot Pockets®</Item>
+					<Item>How amazing it is to be on mushrooms</Item>
+					<Item>How awesome it is to be white</Item>
+					<Item>How bad my daughter fucked up her dance recital</Item>
+					<Item>How far I can get my own penis up my butt</Item>
+					<Item>How wet my pussy is</Item>
+					<Item>However much weed $20 can buy</Item>
+					<Item>However much weed £20 can buy</Item>
+					<Item>Huffing spray paint</Item>
+					<Item>Huge biceps</Item>
+					<Item>Hulk Hogan</Item>
+					<Item>Hunting "accidents"</Item>
+					<Item>Hunting accidents</Item>
+					<Item>Hurling one's body down a hill in pursuit of a wheel of cheese</Item>
+					<Item>Hurricane Katrina</Item>
+					<Item>I'm friends with your dad on Facebook</Item>
+					<Item>Ice</Item>
+					<Item>Illegal immigrants</Item>
+					<Item>Impotence</Item>
+					<Item>Improvised explosive devices</Item>
+					<Item>Inappropriate yodeling</Item>
+					<Item>Incest</Item>
+					<Item>Indescribable loneliness</Item>
+					<Item>Inserting a jam jar into my anus</Item>
+					<Item>Inserting a Mason jar into my anus</Item>
+					<Item>Intelligent design</Item>
+					<Item>Intimacy problems</Item>
+					<Item>Invading Poland</Item>
+					<Item>Irritable Bowel Syndrome</Item>
+					<Item>Italians</Item>
+					<Item>Itchy pussy</Item>
+					<Item>J.D. Power and his associates</Item>
+					<Item>Jade Goody's cancerous remains</Item>
+					<Item>Jedward</Item>
+					<Item>Jehovah's Witnesses</Item>
+					<Item>Jennifer Lawrence</Item>
+					<Item>Jerking off into a pool of children's tears</Item>
+					<Item>Jesus</Item>
+					<Item>Jew-fros</Item>
+					<Item>Jewish fraternities</Item>
+					<Item>Jews, gypsies, and homosexuals</Item>
+					<Item>Jibber-jabber</Item>
+					<Item>Jimmy Savile</Item>
+					<Item>Jobs</Item>
+					<Item>Joe Biden</Item>
+					<Item>John Howard's eyebrows</Item>
+					<Item>John Wilkes Booth</Item>
+					<Item>Judge Judy</Item>
+					<Item>Judging everyone</Item>
+					<Item>Just touching David Beckham's hair</Item>
+					<Item>Justin Bieber</Item>
+					<Item>Justin Trudeau</Item>
+					<Item>Kamikaze pilots</Item>
+					<Item>Kanye West</Item>
+					<Item>Keanu Reeves</Item>
+					<Item>Keeping Christ in Christmas</Item>
+					<Item>Keg stands</Item>
+					<Item>Kibbles 'n Bits™</Item>
+					<Item>Kibbles n' Bits</Item>
+					<Item>Kids with ass cancer</Item>
+					<Item>Kids with bum cancer</Item>
+					<Item>Kim Jong-il</Item>
+					<Item>Kim Jong-un</Item>
+					<Item>Kissing grandma on the forehead and turning off her life support</Item>
+					<Item>Kissing nan on the forehead and turning off her life support</Item>
+					<Item>Knife crime</Item>
+					<Item>Kourtney, Kim, Khloe, Kendall, and Kylie</Item>
+					<Item>Lactation</Item>
+					<Item>Lads</Item>
+					<Item>Lady Gaga</Item>
+					<Item>Lance Armstrong's missing testicle</Item>
+					<Item>Land mines</Item>
+					<Item>Laying an egg</Item>
+					<Item>Leaked footage of Kate Middleton's colonoscopy</Item>
+					<Item>Leaving an awkward voicemail</Item>
+					<Item>Lena Dunham</Item>
+					<Item>Leprosy</Item>
+					<Item>Letting everyone down</Item>
+					<Item>Letting yourself go</Item>
+					<Item>Leveling up</Item>
+					<Item>Liberals</Item>
+					<Item>Licking things to claim them as your own</Item>
+					<Item>Listening to her problems without trying to solve them</Item>
+					<Item>Literally eating shit</Item>
+					<Item>Little boy penises</Item>
+					<Item>Living in a trash can</Item>
+					<Item>Living in Yellowknife</Item>
+					<Item>Lockjaw</Item>
+					<Item>Loki, the trickster god</Item>
+					<Item>Looking in the mirror, applying lipstick, and whispering "tonight, you will have sex with Tom Cruise."</Item>
+					<Item>Loose lips</Item>
+					<Item>Lumberjack fantasies</Item>
+					<Item>Lunchables™</Item>
+					<Item>LYNX® Body Spray</Item>
+					<Item>Mad cow disease</Item>
+					<Item>Madeleine McCann</Item>
+					<Item>Magnets</Item>
+					<Item>Making a friend</Item>
+					<Item>Making a pouty face</Item>
+					<Item>Making sex at her</Item>
+					<Item>Making the penises kiss</Item>
+					<Item>Making up for centuries of oppression with one day of apologising</Item>
+					<Item>Man meat</Item>
+					<Item>Mansplaining</Item>
+					<Item>Many bats</Item>
+					<Item>Marky Mark and the Funky Bunch</Item>
+					<Item>Martha Stewart</Item>
+					<Item>Massive, widespread drought</Item>
+					<Item>Masturbating</Item>
+					<Item>Masturbation</Item>
+					<Item>Mathletes</Item>
+					<Item>Maureen of Blackpool, Reader's Wife of the Year 1988</Item>
+					<Item>Me time</Item>
+					<Item>Me</Item>
+					<Item>MechaHitler</Item>
+					<Item>Memes</Item>
+					<Item>Men discussing their feelings in an emotionally healthy way</Item>
+					<Item>Men</Item>
+					<Item>Menstrual rage</Item>
+					<Item>Menstruation</Item>
+					<Item>Meth</Item>
+					<Item>Michael Jackson</Item>
+					<Item>Michelle Obama's arms</Item>
+					<Item>Mike Pence</Item>
+					<Item>Mild autism</Item>
+					<Item>Miley Cyrus at 55</Item>
+					<Item>Miley Cyrus</Item>
+					<Item>Millions of cane toads</Item>
+					<Item>Millwall fans</Item>
+					<Item>Mining accidents</Item>
+					<Item>Mistaking a retarded person for someone who's merely deaf</Item>
+					<Item>Mom</Item>
+					<Item>Mooing</Item>
+					<Item>Moral ambiguity</Item>
+					<Item>More elephant cock than I bargained for</Item>
+					<Item>Morgan Freeman's voice</Item>
+					<Item>Mountain Dew Code Red</Item>
+					<Item>Mouth herpes</Item>
+					<Item>Mr. Clean, right behind you</Item>
+					<Item>Mr. Dressup</Item>
+					<Item>Mr. Dressup</Item>
+					<Item>Mr. Snuffleupagus</Item>
+					<Item>Mr. Squiggle, the Man from the Moon</Item>
+					<Item>Muhammad (Peace Be Upon Him)</Item>
+					<Item>Muhammad (Praise Be Unto Him)</Item>
+					<Item>Multiple orgasms</Item>
+					<Item>Multiple stab wounds</Item>
+					<Item>Murder</Item>
+					<Item>Mutually assured destruction</Item>
+					<Item>Mutually-assured destruction</Item>
+					<Item>Muzzy</Item>
+					<Item>My abusive boyfriend who really isn't so bad once you get to know him</Item>
+					<Item>My balls on your face</Item>
+					<Item>My black ass</Item>
+					<Item>My bright pink fuckhole</Item>
+					<Item>My cheating prick of a husband</Item>
+					<Item>My cheating son-of-a-bitch husband</Item>
+					<Item>My collection of high-tech sex toys</Item>
+					<Item>My collection of Japanese sex toys</Item>
+					<Item>My ex-wife</Item>
+					<Item>My fat daughter</Item>
+					<Item>My father, who died when I was seven</Item>
+					<Item>My first kill</Item>
+					<Item>My genitals</Item>
+					<Item>My good bra</Item>
+					<Item>My humps</Item>
+					<Item>My inner demons</Item>
+					<Item>My machete</Item>
+					<Item>My mate Dave</Item>
+					<Item>My neck, my back, my pussy, and my crack</Item>
+					<Item>My relationship status</Item>
+					<Item>My sex life</Item>
+					<Item>My soul</Item>
+					<Item>My Uber driver, Pavel</Item>
+					<Item>My ugly face and bad personality</Item>
+					<Item>My vagina</Item>
+					<Item>Naked News</Item>
+					<Item>Natalie Portman</Item>
+					<Item>Natural male enhancement</Item>
+					<Item>Natural selection</Item>
+					<Item>Nazis</Item>
+					<Item>NBA superstar LeBron James</Item>
+					<Item>Necrophilia</Item>
+					<Item>New Age music</Item>
+					<Item>Newfies</Item>
+					<Item>Newfies</Item>
+					<Item>Nickelback</Item>
+					<Item>Nicolas Cage</Item>
+					<Item>Nip slips</Item>
+					<Item>Nippers</Item>
+					<Item>Nipple blades</Item>
+					<Item>Nocturnal emissions</Item>
+					<Item>Not contributing to society in any meaningful way</Item>
+					<Item>Not giving a shit about the Third World</Item>
+					<Item>Not having sex</Item>
+					<Item>Not reciprocating oral sex</Item>
+					<Item>Not vaccinating my children because I am stupid</Item>
+					<Item>Not wearing pants</Item>
+					<Item>Not wearing trousers</Item>
+					<Item>Nothing but sand</Item>
+					<Item>Nothing</Item>
+					<Item>Nunchuck moves</Item>
+					<Item>Obesity</Item>
+					<Item>Object permanence</Item>
+					<Item>Oestrogen</Item>
+					<Item>Old-people smell</Item>
+					<Item>Ominous background music</Item>
+					<Item>One Direction's supple, hairless bodies</Item>
+					<Item>One Ring to rule them all</Item>
+					<Item>One titty hanging out</Item>
+					<Item>One trillion dollars</Item>
+					<Item>Only dating Asian women</Item>
+					<Item>Oompa-Loompas</Item>
+					<Item>Opposable thumbs</Item>
+					<Item>Oprah</Item>
+					<Item>Our first chimpanzee President</Item>
+					<Item>Our first chimpanzee Prime Minister</Item>
+					<Item>Overcompensation</Item>
+					<Item>Overpowering your father</Item>
+					<Item>Oversized lollipops</Item>
+					<Item>Pabst Blue Ribbon</Item>
+					<Item>Pac-Man uncontrollably guzzling cum</Item>
+					<Item>Paedophiles</Item>
+					<Item>Panda sex</Item>
+					<Item>Paris Hilton</Item>
+					<Item>Parting the Red Sea</Item>
+					<Item>Party poopers</Item>
+					<Item>Passable transvestites</Item>
+					<Item>Passing a kidney stone</Item>
+					<Item>Passive-aggression</Item>
+					<Item>Passive-aggressive Post-it notes</Item>
+					<Item>Pauline Hanson</Item>
+					<Item>PCP</Item>
+					<Item>Peanut Butter Jelly Time</Item>
+					<Item>Pedophiles</Item>
+					<Item>Peeing a little bit</Item>
+					<Item>Penis breath</Item>
+					<Item>Penis envy</Item>
+					<Item>People who smell their own socks</Item>
+					<Item>Perfunctory foreplay</Item>
+					<Item>Permanent Orgasm-Face Disorder</Item>
+					<Item>Picking up girls at the abortion clinic</Item>
+					<Item>Pictures of boobs</Item>
+					<Item>Pikies</Item>
+					<Item>Pingers</Item>
+					<Item>Pixelated bukkake</Item>
+					<Item>Playing silly buggers</Item>
+					<Item>Police brutality</Item>
+					<Item>Polish People</Item>
+					<Item>Pooping back and forth. Forever</Item>
+					<Item>Pooping in a laptop and closing it</Item>
+					<Item>Pooping in the soup</Item>
+					<Item>Poopy diapers</Item>
+					<Item>Poor life choices</Item>
+					<Item>Poor people</Item>
+					<Item>Poorly-timed Holocaust jokes</Item>
+					<Item>Popped collars</Item>
+					<Item>Porn stars</Item>
+					<Item>Poutine</Item>
+					<Item>Poverty</Item>
+					<Item>Power</Item>
+					<Item>Powerful thighs</Item>
+					<Item>Prancing</Item>
+					<Item>Praying the gay away</Item>
+					<Item>Prescription pain killers</Item>
+					<Item>Preteens</Item>
+					<Item>Pretending to care</Item>
+					<Item>Profound respect and appreciation for indigenous culture</Item>
+					<Item>Pronouncing the names of northern Welsh towns</Item>
+					<Item>Prosti-tots</Item>
+					<Item>Pterodactyl eggs</Item>
+					<Item>PTSD</Item>
+					<Item>Puberty</Item>
+					<Item>Public ridicule</Item>
+					<Item>Pulling out</Item>
+					<Item>Pumping out a baby every nine months</Item>
+					<Item>Punching a congressman in the face</Item>
+					<Item>Punching an MP in the face</Item>
+					<Item>Puppies!</Item>
+					<Item>Pussy Galore</Item>
+					<Item>Queefing</Item>
+					<Item>Queen Elizabeth's immaculate anus</Item>
+					<Item>Queuing</Item>
+					<Item>Racially-biased SAT questions</Item>
+					<Item>Racism</Item>
+					<Item>Radical Islamic terrorism</Item>
+					<Item>Rap music</Item>
+					<Item>Raping and pillaging</Item>
+					<Item>Raptor attacks</Item>
+					<Item>Re-gifting</Item>
+					<Item>Rehab</Item>
+					<Item>Repression</Item>
+					<Item>Republicans</Item>
+					<Item>Reverse cowgirl</Item>
+					<Item>Rich people</Item>
+					<Item>Riding off into the sunset</Item>
+					<Item>Ring Pops</Item>
+					<Item>Ring Pops™</Item>
+					<Item>Rip Torn dropkicking anti-Semitic lesbians</Item>
+					<Item>Ripping off the Beatles</Item>
+					<Item>Ripping open a man’s chest and pulling out his still-beating heart</Item>
+					<Item>Rising from the grave</Item>
+					<Item>Road head</Item>
+					<Item>Rob Ford</Item>
+					<Item>Robbing a sperm bank</Item>
+					<Item>Robert Downey Jr</Item>
+					<Item>Robert Downey, Jr</Item>
+					<Item>RoboCop</Item>
+					<Item>Rohypnol</Item>
+					<Item>Ronald Reagan</Item>
+					<Item>Roofies</Item>
+					<Item>Rubbing Boris Johnson's belly until he falls asleep</Item>
+					<Item>Running naked through a mall, pissing and shitting everywhere</Item>
+					<Item>Running out of semen</Item>
+					<Item>Rupert Murdoch</Item>
+					<Item>Rush Limbaugh's soft, shitty body</Item>
+					<Item>Ruth Bader Ginsburg brutally gaveling your penis</Item>
+					<Item>Ryan Gosling riding in on a white horse</Item>
+					<Item>Same-sex ice dancing</Item>
+					<Item>Samuel L. Jackson</Item>
+					<Item>Santa Claus</Item>
+					<Item>Sarah Palin</Item>
+					<Item>Saxophone solos</Item>
+					<Item>Saying "I love you."</Item>
+					<Item>Scalping the Milkybar Kid</Item>
+					<Item>Scalping</Item>
+					<Item>Schmirler the Curler</Item>
+					<Item>Science</Item>
+					<Item>Scientology</Item>
+					<Item>Scousers</Item>
+					<Item>Screaming like a maniac</Item>
+					<Item>Scrotum tickling</Item>
+					<Item>Scrubbing under the folds</Item>
+					<Item>Sean Connery</Item>
+					<Item>Sean Penn</Item>
+					<Item>Seduction</Item>
+					<Item>Seeing Grandma naked</Item>
+					<Item>Seeing Granny naked</Item>
+					<Item>Seeing my father cry</Item>
+					<Item>Seeing what happens when you lock people in a room with hungry seagulls</Item>
+					<Item>Seething with quiet resentment</Item>
+					<Item>Self-flagellation</Item>
+					<Item>Self-loathing</Item>
+					<Item>Selling crack to children</Item>
+					<Item>Selling ice to children</Item>
+					<Item>Seppuku</Item>
+					<Item>Serfdom</Item>
+					<Item>Seven dead and three in critical condition</Item>
+					<Item>Sex with animals</Item>
+					<Item>Sex with Patrick Stewart</Item>
+					<Item>Sexting</Item>
+					<Item>Sexual humiliation</Item>
+					<Item>Sexual peeing</Item>
+					<Item>Sexual tension</Item>
+					<Item>Sexy pillow fights</Item>
+					<Item>Shaking a baby until it stops crying</Item>
+					<Item>Shapeshifters</Item>
+					<Item>Shaquille O'Neal's acting career</Item>
+					<Item>Sharing needles</Item>
+					<Item>Shiny objects</Item>
+					<Item>Shipping convicts to Australia</Item>
+					<Item>Shitting out a perfect Cumberland sausage</Item>
+					<Item>Shitting out a screaming face</Item>
+					<Item>Shorties and blunts</Item>
+					<Item>Showing up to an orgy for the food</Item>
+					<Item>Shutting the fuck up</Item>
+					<Item>Shutting up so I can watch the game</Item>
+					<Item>Shutting up so I can watch the match</Item>
+					<Item>Sideboob</Item>
+					<Item>Silence</Item>
+					<Item>Sipping artificial popcorn butter</Item>
+					<Item>Sitting on my face and telling me I'm garbage</Item>
+					<Item>Sitting on my face</Item>
+					<Item>Sitting on my face</Item>
+					<Item>Skeletor</Item>
+					<Item>Skippy the Bush Kangaroo</Item>
+					<Item>Slapping a biscuit out of an orphan's mouth</Item>
+					<Item>Slapping a racist old lady</Item>
+					<Item>Slapping Nigel Farage over and over</Item>
+					<Item>Slaughtering innocent civilians</Item>
+					<Item>Slavs</Item>
+					<Item>Smallpox blankets</Item>
+					<Item>Smegma</Item>
+					<Item>Sneezing, farting, and cumming at the same time</Item>
+					<Item>Sniffing glue</Item>
+					<Item>Snotsicles</Item>
+					<Item>Sobbing into a Hungry-Man™ Frozen Dinner</Item>
+					<Item>Soft, kissy missionary sex</Item>
+					<Item>Soiling oneself</Item>
+					<Item>Solving problems with violence</Item>
+					<Item>Somali pirates</Item>
+					<Item>Some bloody peace and quiet</Item>
+					<Item>Some douche with an acoustic guitar</Item>
+					<Item>Some god damn peace and quiet</Item>
+					<Item>Some guy</Item>
+					<Item>Some kind of bird man</Item>
+					<Item>Some of the best rappers in the game</Item>
+					<Item>Some punk kid who stole my turkey sandwich</Item>
+					<Item>Some really fucked-up shit</Item>
+					<Item>Sorry, this content cannot be viewed in your region</Item>
+					<Item>Soup that is too hot</Item>
+					<Item>Spaghetti? Again?</Item>
+					<Item>Spaniards</Item>
+					<Item>Spectacular abs</Item>
+					<Item>Spending lots of money</Item>
+					<Item>Sperm whales</Item>
+					<Item>Spontaneous human combustion</Item>
+					<Item>Stalin</Item>
+					<Item>Staring at a painting and going "hmmmmmmm..."</Item>
+					<Item>Stephen Harper</Item>
+					<Item>Stephen Harper</Item>
+					<Item>Stephen Hawking talking dirty</Item>
+					<Item>Steve Bannon</Item>
+					<Item>Steve Irwin</Item>
+					<Item>Stifling a giggle at the mention of Hutus and Tutsis</Item>
+					<Item>Still being a virgin</Item>
+					<Item>Stockholm Syndrome</Item>
+					<Item>Stormtroopers</Item>
+					<Item>Stranger danger</Item>
+					<Item>Strong female characters</Item>
+					<Item>Stunt doubles</Item>
+					<Item>Substitute teachers</Item>
+					<Item>Sucking some dicks to not get drafted</Item>
+					<Item>Sudden Poop Explosion Disease</Item>
+					<Item>Suicidal thoughts</Item>
+					<Item>Summoning Harold Holt from the sea in a time of great need</Item>
+					<Item>Sunshine and rainbows</Item>
+					<Item>Surprise sex!</Item>
+					<Item>Swag</Item>
+					<Item>Sweet, sweet vengeance</Item>
+					<Item>Switching to Geico®</Item>
+					<Item>Swooping</Item>
+					<Item>Synergistic management solutions</Item>
+					<Item>Syrupy sex with a maple tree</Item>
+					<Item>Take-backsies</Item>
+					<Item>Taking a man's eyes and balls out and putting his eyes where his balls go and then his balls in the eye holes</Item>
+					<Item>Taking a sheep-wife</Item>
+					<Item>Taking off your shirt</Item>
+					<Item>Tangled Slinkys</Item>
+					<Item>Tap dancing like there's no tomorrow</Item>
+					<Item>Tasteful sideboob</Item>
+					<Item>Teaching a robot to love</Item>
+					<Item>Team building exercises</Item>
+					<Item>Team-building exercises</Item>
+					<Item>Tearing that ass up like wrapping paper on Christmas morning</Item>
+					<Item>Teenage pregnancy</Item>
+					<Item>Telling a shitty story that goes nowhere</Item>
+					<Item>Tentacle porn</Item>
+					<Item>Terrorists</Item>
+					<Item>Terry Fox's prosthetic leg</Item>
+					<Item>Testicular torsion</Item>
+					<Item>That ass</Item>
+					<Item>That one gay Teletubby</Item>
+					<Item>That thing that electrocutes your abs</Item>
+					<Item>The American Dream</Item>
+					<Item>The Amish</Item>
+					<Item>The arrival of the pizza</Item>
+					<Item>The art of seduction</Item>
+					<Item>The baby that ruined my pussy</Item>
+					<Item>The Bachelorette season finale</Item>
+					<Item>The Big Bang</Item>
+					<Item>The big fucking hole in the ozone layer</Item>
+					<Item>The Black Death</Item>
+					<Item>The Blood of Christ</Item>
+					<Item>The bloody Welsh</Item>
+					<Item>The BNP</Item>
+					<Item>The bombing of Nagasaki</Item>
+					<Item>The boners of the elderly</Item>
+					<Item>The Boy Scouts of America</Item>
+					<Item>The bush</Item>
+					<Item>The Care Bear Stare</Item>
+					<Item>The Chinese gymnastics team</Item>
+					<Item>The chronic</Item>
+					<Item>The clitoris</Item>
+					<Item>The cool, refreshing taste of Coca-Cola®</Item>
+					<Item>The cool, refreshing taste of Pepsi</Item>
+					<Item>The cool, refreshing taste of Pepsi®</Item>
+					<Item>The crazy, ball-slapping sex your parents are having right now</Item>
+					<Item>The Daily Mail</Item>
+					<Item>The Dalai Lama</Item>
+					<Item>The Dance of the Sugar Plum Fairy</Item>
+					<Item>The deformed</Item>
+					<Item>The Devil Himself</Item>
+					<Item>The Donald Trump Seal of Approval.™</Item>
+					<Item>The drama club</Item>
+					<Item>The economy</Item>
+					<Item>The EDL</Item>
+					<Item>The end of days</Item>
+					<Item>The entire cast of Downton Abbey</Item>
+					<Item>The entire Internet</Item>
+					<Item>The entire Mormon Tabernacle Choir</Item>
+					<Item>The female orgasm</Item>
+					<Item>The FLQ</Item>
+					<Item>The flute</Item>
+					<Item>The folly of man</Item>
+					<Item>The forbidden fruit</Item>
+					<Item>The Force</Item>
+					<Item>The French</Item>
+					<Item>The gays</Item>
+					<Item>The glass ceiling</Item>
+					<Item>The Great Depression</Item>
+					<Item>The Great Emu War</Item>
+					<Item>The Gulags</Item>
+					<Item>The Hamburglar</Item>
+					<Item>The hardworking Mexican</Item>
+					<Item>The heart of a child</Item>
+					<Item>The Hemsworth brothers</Item>
+					<Item>The hiccups</Item>
+					<Item>The Hillsborough Disaster</Item>
+					<Item>The Holy Bible</Item>
+					<Item>The homosexual agenda</Item>
+					<Item>The homosexual lifestyle</Item>
+					<Item>The Honey Monster</Item>
+					<Item>The human body</Item>
+					<Item>The Hustle</Item>
+					<Item>The inevitable heat death of the universe</Item>
+					<Item>The invisible hand</Item>
+					<Item>The Jews</Item>
+					<Item>The KKK</Item>
+					<Item>The Kool-Aid Man</Item>
+					<Item>The land of chocolate</Item>
+					<Item>The light of a billion suns</Item>
+					<Item>The Little Engine That Could</Item>
+					<Item>The magic of live theatre</Item>
+					<Item>The Make-A-Wish Foundation</Item>
+					<Item>The Make-A-Wish® Foundation</Item>
+					<Item>The milk man</Item>
+					<Item>The milkman</Item>
+					<Item>The miracle of childbirth</Item>
+					<Item>The morbidly obese</Item>
+					<Item>The North</Item>
+					<Item>The Official Languages Act. La Loi sur les langues officielles</Item>
+					<Item>The only gay person in a hundred kilometers</Item>
+					<Item>The only gay person in a hundred miles</Item>
+					<Item>The past</Item>
+					<Item>The Patriarchy</Item>
+					<Item>The penny whistle solo from "My Heart Will Go On."</Item>
+					<Item>The People's Elbow</Item>
+					<Item>The petty troubles of the landed gentry</Item>
+					<Item>The pirate's life</Item>
+					<Item>The placenta</Item>
+					<Item>The plot of a Michael Bay movie</Item>
+					<Item>The Pope</Item>
+					<Item>The profoundly handicapped</Item>
+					<Item>The prunes I've been saving for you in my armpits</Item>
+					<Item>The Rapture</Item>
+					<Item>The Red Hot Chili Peppers</Item>
+					<Item>The Red Menace</Item>
+					<Item>The Rev. Dr. Martin Luther King, Jr</Item>
+					<Item>The rhythms of Africa</Item>
+					<Item>The Royal Canadian Mounted Police</Item>
+					<Item>The Russians</Item>
+					<Item>The Scouts</Item>
+					<Item>The screams...the terrible screams</Item>
+					<Item>The Smell of Primark</Item>
+					<Item>The South</Item>
+					<Item>The Stig</Item>
+					<Item>The Strictly Come Dancing season finale</Item>
+					<Item>The sudden appearance of the Go Compare man</Item>
+					<Item>The Superdome</Item>
+					<Item>The taint; the grundle; the fleshy fun-bridge</Item>
+					<Item>The Tempur-Pedic® Swedish Sleep System™</Item>
+					<Item>The terrorists</Item>
+					<Item>The Thong Song</Item>
+					<Item>The Three-Fifths compromise</Item>
+					<Item>The Three-Fifths Compromise</Item>
+					<Item>The token minority</Item>
+					<Item>The total collapse of the global financial system</Item>
+					<Item>The Trail of Tears</Item>
+					<Item>The true meaning of Christmas</Item>
+					<Item>The Übermensch</Item>
+					<Item>The Underground Railroad</Item>
+					<Item>The unstoppable tide of Islam</Item>
+					<Item>The violation of our most basic human rights</Item>
+					<Item>The Virginia Tech Massacre</Item>
+					<Item>The way James Bond treats women</Item>
+					<Item>The White Australia Policy</Item>
+					<Item>The wifi password</Item>
+					<Item>The wonders of the Orient</Item>
+					<Item>The World of Warcraft</Item>
+					<Item>The wrath of Vladimir Putin</Item>
+					<Item>Theresa May</Item>
+					<Item>These hoes</Item>
+					<Item>Third base</Item>
+					<Item>This answer is postmodern</Item>
+					<Item>This month's mass shooting</Item>
+					<Item>This year's mass shooting</Item>
+					<Item>Those times when you get sand in your vagina</Item>
+					<Item>Three dicks at the same time</Item>
+					<Item>Throwing a virgin into a volcano</Item>
+					<Item>Throwing grapes at a man until he loses touch with reality</Item>
+					<Item>Tickle Me Elmo</Item>
+					<Item>Tickle Me Elmo™</Item>
+					<Item>Tickling Sean Hannity, even after he tells you to stop</Item>
+					<Item>Tiger Woods</Item>
+					<Item>Tiny nipples</Item>
+					<Item>Tom Cruise</Item>
+					<Item>Tongue</Item>
+					<Item>Toni Morrison's vagina</Item>
+					<Item>Tony Abbott in budgie smugglers</Item>
+					<Item>Too much hair gel</Item>
+					<Item>Tories</Item>
+					<Item>Total control of the media</Item>
+					<Item>Touching a pug right on his penis</Item>
+					<Item>Trench foot</Item>
+					<Item>Tripping balls</Item>
+					<Item>Tweeting</Item>
+					<Item>Twenty tonnes of bat shit</Item>
+					<Item>Twinkies®</Item>
+					<Item>Two midgets shitting into a bucket</Item>
+					<Item>Unfathomable stupidity</Item>
+					<Item>Uppercuts</Item>
+					<Item>Used knickers</Item>
+					<Item>Used panties</Item>
+					<Item>Vegemite™</Item>
+					<Item>Vehicular homicide</Item>
+					<Item>Vehicular manslaughter</Item>
+					<Item>Viagra®</Item>
+					<Item>Vigilante justice</Item>
+					<Item>Vigorous jazz hands</Item>
+					<Item>Vikings</Item>
+					<Item>Vladimir Putin</Item>
+					<Item>Vomiting into a kangaroo's pouch</Item>
+					<Item>Vomiting mid-blowjob</Item>
+					<Item>Vomiting seafood and bleeding anally</Item>
+					<Item>Waiting 'til marriage</Item>
+					<Item>Waiting till marriage</Item>
+					<Item>Waking up half-naked in a Denny's parking lot</Item>
+					<Item>Waking up half-naked in a Little Chef car park</Item>
+					<Item>Waking up half-naked in a Macca's car park</Item>
+					<Item>Waking up in Idris Elba's arms</Item>
+					<Item>Walking in on Dad peeing into Mom's mouth</Item>
+					<Item>Wanking into a pool of children's tears</Item>
+					<Item>Waterboarding</Item>
+					<Item>Weapons-grade plutonium</Item>
+					<Item>Wearing an octopus for a hat</Item>
+					<Item>Wearing underwear inside out to avoid doing laundry</Item>
+					<Item>Wearing underwear inside-out to avoid doing laundry</Item>
+					<Item>Wet dreams</Item>
+					<Item>What's left of the Great Barrier Reef</Item>
+					<Item>When you fart and a little bit comes out</Item>
+					<Item>Whining like a little bitch</Item>
+					<Item>Whipping it out</Item>
+					<Item>Whiskas® Catmilk</Item>
+					<Item>White people</Item>
+					<Item>White power</Item>
+					<Item>White power</Item>
+					<Item>White privilege</Item>
+					<Item>White-man scalps</Item>
+					<Item>Whoever the Prime Minister is these days</Item>
+					<Item>Wifely duties</Item>
+					<Item>Will Smith</Item>
+					<Item>William Shatner</Item>
+					<Item>Winking at old people</Item>
+					<Item>Wiping her bum</Item>
+					<Item>Wiping her butt</Item>
+					<Item>Wizard music</Item>
+					<Item>Women in yoghurt adverts</Item>
+					<Item>Women in yoghurt commercials</Item>
+					<Item>Women in yogurt commercials</Item>
+					<Item>Women of color</Item>
+					<Item>Women of colour</Item>
+					<Item>Women voting</Item>
+					<Item>Women's suffrage</Item>
+					<Item>Women's undies</Item>
+					<Item>Wondering if it's possible to get some of that salsa to go</Item>
+					<Item>Words</Item>
+					<Item>World peace</Item>
+					<Item>Worshipping that pussy</Item>
+					<Item>Xenophobia</Item>
+					<Item>Yeast</Item>
+					<Item>YOU MUST CONSTRUCT ADDITIONAL PYLONS</Item>
+					<Item>Your mum</Item>
+					<Item>Your weird brother</Item>
+  				</Random>
+  			</Response>
+		</Model>
+		
+	</Concept>
+</Siml>
