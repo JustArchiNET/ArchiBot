@@ -34,7 +34,7 @@
 					<Item Weight="2">CHT</Item>
 					<Item Weight="4">CJ</Item>
 					<Item Weight="3">DELTA</Item>
-					<Item Weight="14">DOSH</Item>
+					<Item Weight="15">DOSH</Item>
 					<Item Weight="5">DRACO</Item>
 					<Item Weight="1">ESE</Item>
 					<Item Weight="9">FAKE</Item>
@@ -281,6 +281,7 @@
 					<Item>"Vapor Dosh: I'm stuck on Anal Wank too"</Item>
 					<Item>"Vapor Dosh: Fucking Kha'ak can suck my kha'ak"</Item>
 					<Item>"Vapor Dosh: I fucking wish I could get $20 by offering my ass to Nic"</Item>
+					<Item>"Vapor Dosh: "Tell me your secrets, zombie ass""</Item>
 				</Random>
 			</Response>
 		</Model>
