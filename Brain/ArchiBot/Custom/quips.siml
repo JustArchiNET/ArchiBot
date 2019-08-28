@@ -129,6 +129,15 @@
 		</Model>
 
 		<Model>
+			<Pattern>CSD3</Pattern>
+			<Response>
+				<Var Think:Set="timetocsd3"><Js>1579460400 - Math.floor(Date.now()/1000)</Js></Var>
+				<If Var="timetocsd3" GT="0">Taigo has around <Js>secondsToString(<Var Get="timetocsd3" />);</Js> left to gather money for CSD3 :speak:</If>
+				<Else>CSD3 has been out for around <Js>secondsToString(<Math Get="abs"><Var Get="timetocsd3" /></Math>);</Js>, I wonder if Taigo got the money in time :doubt:</Else>
+			</Response>
+		</Model>
+
+		<Model>
 			<Pattern>
 				<Item>^CATBALL %</Item>
 				<Item>^NEKOBALL %</Item>
