@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_valve">
+		<Model>
+			<Pattern>what $ wrong $ (valve|steam) (server|servers)</Pattern>
+			<Response>What is NOT wrong with valve?</Response>
+		</Model>
+	</Concept>
+</Siml>
