@@ -20,14 +20,7 @@
 		</Model>
 		<Model>
 			<Pattern>can you fix [volvo] servers</Pattern>
-			<Response><Goto>_valve_REPAIR_RESPONSE</Goto></Response>
-		</Model>
-		<Model>
 			<Pattern>can you fix [volvo_games] servers</Pattern>
-			<Response><Goto>_valve_REPAIR_RESPONSE</Goto></Response>
-		</Model>
-		<Model>
-			<Pattern>^_valve_REPAIR_RESPONSE</Pattern>
 			<Response>No one can. Those are beyond repair</Response>
 		</Model>
 	</Concept>
