@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+	<Concept Name="_valve">
+		<Model>
+			<Pattern>what is wrong with [volvo_games] servers</Pattern>
+			<Response>
+				<Random>
+					<Item>What is NOT wrong with <Match/> servers? They are made by valve</Item>
+					<Item>Do you even know who coded <Match/>?</Item>
+				</Random>
+			</Response>
+		</Model>
+		<Model>
+			<Pattern>what is wrong with [volvo] servers</Pattern>
+			<Response>What is NOT wrong with <Match At="1"/> servers?</Response>
+		</Model>
+		<Model>
+			<Pattern>can you fix [volvo]</Pattern>
+			<Response>It's like trying to solve the halting problem :bite:</Response>
+		</Model>
+		<Model>
+			<Pattern>can you fix [volvo] servers</Pattern>
+			<Pattern>can you fix [volvo_games] servers</Pattern>
+			<Response>No one can. Those are beyond repair</Response>
+		</Model>
+	</Concept>
+	<Set Name="volvo">
+		<Item>valve</Item>
+		<Item>volvo</Item>
+		<Item>steam</Item>
+	</Set>
+	<Set Name="volvo_games">
+		<Item>csgo</Item>
+		<Item>cs:go</Item>
+		<Item>counter-strike</Item>
+		<Item>tf2</Item>
+		<Item>team fortress</Item>
+		<Item>dota</Item>
+		<Item>dota 2</Item>
+	</Set>
+</Siml>
