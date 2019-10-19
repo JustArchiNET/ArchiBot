@@ -26,7 +26,7 @@
 					<Item Weight="1">ALI</Item>
 					<Item Weight="8">AMBI</Item>
 					<Item Weight="2">ANXEAL</Item>
-					<Item Weight="25">ARCHI</Item>
+					<Item Weight="26">ARCHI</Item>
 					<Item Weight="3">ARCHIBOT</Item>
 					<Item Weight="14">ASIM</Item>
 					<Item Weight="10">ASTEROID</Item>
@@ -161,6 +161,7 @@
 					<Item>"Archi: can you murder with a fumo"</Item>
 					<Item>"Archi: look at this glorious trap"</Item>
 					<Item>"Archi: I met with vsx in some kind of dark room filled with traps"</Item>
+					<Item>"Archi: I ran out of women to seduce, only cousin and sister left"</Item>
 				</Random>
 			</Response>
 		</Model>
