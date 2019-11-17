@@ -50,7 +50,7 @@
 					<Item Weight="6">MIKU</Item>
 					<Item Weight="3">MIYUU</Item>
 					<Item Weight="3">NIC</Item>
-					<Item Weight="2">PURPUR</Item>
+					<Item Weight="3">PURPUR</Item>
 					<Item Weight="3">ROSEY</Item>
 					<Item Weight="1">SILVER</Item>
 					<Item Weight="1">SKATR</Item>
@@ -496,6 +496,7 @@
 				<Random>
 					<Item>".Purpur ▵ᐂ▵ Weltschmerz.: no panties = no service :3"</Item>
 					<Item>".Purpur ▵ᐂ▵ Weltschmerz.: around 25cm in sitting position?"</Item>
+					<Item>".Purpur ▵ᐂ▵ Weltschmerz.: age doesnt matter"</Item>
 				</Random>
 			</Response>
 		</Model>
