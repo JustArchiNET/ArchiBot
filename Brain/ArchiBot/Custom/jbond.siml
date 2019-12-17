@@ -160,11 +160,6 @@
 		</Response>
 	</Model>
 
-	<Model>
-		<Pattern>MAINTENANCE</Pattern>
-		<Response>https://vignette.wikia.nocookie.net/kancolle/images/d/df/Maintenance.jpg</Response>
-	</Model>
-
     <Model>
       <Pattern>PURGE %</Pattern>
       <Response><Text Get="Uppercase">PURGING <Match />... COMMENCING </Text><Random>(:detonator2:|:esc_warning:)</Random></Response>
@@ -339,26 +334,7 @@
         </Random>
       </Response>
     </Model>
-    
-    <Model>
-      <Pattern>WHERE IS (JBOND|JBONDGUY|JBONDGUY007|JBONDO)</Pattern>
-      <Response>
-        <Random>
-          <Item>If he isn't here, he's probably gaming or sleeping.</Item>
-          <Item>He is probably AFK.</Item>
-          <Item>Probably eating.</Item>
-          <Item>I'm not sure.</Item>
-          <Item>Confidential information.</Item>
-          <Item>I can't say for sure. Ask me again later.</Item>
-          <Item>Probably fell asleep at his desk. :sgsmile:</Item>
-          <Item>Are we on the weekend? Probably at work.</Item>
-          <Item>Who knows? :sgsmile:</Item>
-          <Item>He told me not to disclose his current location to anyone.</Item>
-          <Item>"Archi: @jbond missing swing again"</Item>
-        </Random>
-      </Response>
-    </Model>
-    
+
     <Model>
       <Pattern>WHAT DID (JBOND|JBONDGUY|JBONDGUY007|JBONDO) DO</Pattern>
       <Response>
@@ -535,7 +511,6 @@
           <Item>This place is saltier than the ocean.</Item>
           <Item>At one time salt bars were the standard currency of Ethiopia.</Item>
           <Item>Approximately 1 gram of salt per kilogram of weight is necessary to be killed by over-consumption of salt.</Item>
-          <Item>The Via Salaria, an ancient Roman road in Italy, eventually ran from Rome (from Porta Salaria in the Aurelian Walls) to Castrum Truentinum (Porto d'Ascoli) on the Adriatic coast - a distance of 242 kilometres (150 mi).</Item>
           <Item>The word ‘salary’ comes from the Latin for ‘salt’, and may derive from the fact that Roman soldiers often bought salt with the money they were paid.</Item>
           <Item>The Palacio de Sal Hotel and Spa in Bolivia is completely made out of salt.</Item>
           <Item>Death by salt over-consumption was a method of suicide in ancient China.</Item>
