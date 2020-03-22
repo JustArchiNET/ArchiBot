@@ -9,7 +9,7 @@
 		
 		<Model>
   			<Pattern>^_cah_CAHRANDOM</Pattern>
-  			<Response><Goto>_cah_CAHPROMPT</Goto></Response>
+			<Response><Text Get="Sentence"><Goto>_cah_CAHPROMPT</Goto></Text></Response>
 		</Model>
 		
 		<Model>
@@ -81,7 +81,7 @@
 					<Item>Daddy, why is mommy crying? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Daddy, why is mummy crying? <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Dear Abby, I'm having some trouble with <Goto>_cah_CAHRESPONSE</Goto> and would like your advice.</Item>
-					<Item>Dear Agony Aunt, I'm having some trouble with <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto> and I need your advice.</Item>
+					<Item>Dear Agony Aunt, I'm having some trouble with <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto> and I need your advice.</Item>
 					<Item>Dear Sir or Madam, We regret to inform you that the Office of <Goto>_cah_CAHRESPONSE</Goto> has denied your request for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Doctor, you've gone too far! The human body wasn't meant to withstand that amount of <Goto>_cah_CAHRESPONSE</Goto>!</Item>
 					<Item>Dude, do not go in that bathroom. There's <Goto>_cah_CAHRESPONSE</Goto> in there.</Item>
@@ -173,11 +173,11 @@
 					<Item>Next on ESPN2: The World Series of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Next on Eurosport: The World Championship of <Goto>_cah_CAHRESPONSE</Goto>_.</Item>
 					<Item>Next on Nine's Wide World of Sports: The World Championship of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
-					<Item>Next on Sky Sports: The World Championship of <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
-					<Item>Next on Sky Sports: The World Champsion of <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on Sky Sports: The World Championship of <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Next on Sky Sports: The World Champsion of <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Next on TSN: The World Series of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Next up on Channel 4: Ramsay's <Goto>_cah_CAHRESPONSE</Goto> Nightmares.</Item>
-					<Item>Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Now at the National Museum of Australia: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Now at the Natural History Museum: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Now at the Royal Ontario Museum: an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
@@ -200,15 +200,15 @@
 					<Item>The class field trip was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>The Five Stages of Grief: denial, anger, bargaining, <Goto>_cah_CAHRESPONSE</Goto>, acceptance.</Item>
 					<Item>The healing process began when I joined a support group for victims of <Goto>_cah_CAHRESPONSE</Goto>.</Item>
-					<Item>The Natural History Museum has just opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>.</Item>
+					<Item>The Natural History Museum has just opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>The new Chevy Tahoe. With the power and space to take <Goto>_cah_CAHRESPONSE</Goto> everywhere you go.</Item>
 					<Item>The school excursion was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>The school field trip was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>The school trip was completely ruined by <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>The secret to a lasting marriage is communication, communication, and <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>The Smithsonian Museum of Natural History has just opened an interactive exhibit on <Goto>_cah_CAHRESPONSE</Goto>.</Item>
-					<Item>The TFL apologizes for the delay in train service due to <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>. </Item>
-					<Item>The theme for next year's Eurovision Song Contest is "We are <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>."</Item>
+					<Item>The TFL apologizes for the delay in train service due to <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>. </Item>
+					<Item>The theme for next year's Eurovision Song Contest is "We are <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>."</Item>
 					<Item>The U.S. has begun airdropping <Goto>_cah_CAHRESPONSE</Goto> to the children of Afghanistan.</Item>
 					<Item>They said we were crazy. They said we couldn't put <Goto>_cah_CAHRESPONSE</Goto> inside of <Goto>_cah_CAHRESPONSE</Goto>. They were wrong.</Item>
 					<Item>This is the way the world ends&#xD;This is the way the world ends&#xD;Not with a bang but with <Goto>_cah_CAHRESPONSE</Goto>.</Item>
@@ -219,8 +219,8 @@
 					<Item>This season at the Sydney Opera House, Samuel Beckett's classic existential play: Waiting for <Goto>_cah_CAHRESPONSE</Goto>.</Item>
 					<Item>Today on Jerry Springer: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto>!"</Item>
 					<Item>Today on Maury: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto>!"</Item>
-					<Item>Today on The Jeremy Kyle Show: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto>!"</Item>
-					<Item>Tonight's top story: What you don't know about <Goto>_cah_CAHRESPONSE</Goto><Goto>_cah_CAHRESPONSE</Goto> could kill you.</Item>
+					<Item>Today on The Jeremy Kyle Show: "Help! My son is <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto>!"</Item>
+					<Item>Tonight's top story: What you don't know about <Goto>_cah_CAHRESPONSE</Goto> <Goto>_cah_CAHRESPONSE</Goto> could kill you.</Item>
 					<Item>TSA guidelines now prohibit <Goto>_cah_CAHRESPONSE</Goto> on airplanes.</Item>
 					<Item>Turns out that <Goto>_cah_CAHRESPONSE</Goto>-Man was neither the hero we needed nor wanted.</Item>
 					<Item>Uh, hey guys, I know this was my idea, but I'm having serious doubts about <Goto>_cah_CAHRESPONSE</Goto>.</Item>
