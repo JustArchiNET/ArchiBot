@@ -130,4 +130,21 @@
       <Response>https://steamcommunity.com/broadcast/watch/76561198006963719</Response>
     </Model>
   </Concept>
+  <Concept Name="_archi_priv" Type="Public" Repeat="true">
+    <Model>
+      <Pattern>
+        <Item>What is abrynos</Item>
+        <Item>Who is abrynos</Item>
+        <Item>What do you rember about abrynos</Item>
+        <Item>What did I tell you about abrynos</Item>
+      </Pattern>
+      <Response>
+        <Phrase>
+          <Item>abrynos is a weeb</Item>
+          <Item>You told me that abrynos is a weeb</Item>
+          <Item>I rember that abrynos is a weeb</Item>
+        </Phrase>
+      </Response>
+    </Model>
+  </Concept>
 </Siml>
