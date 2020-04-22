@@ -1,7 +1,10 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/usr/bin/env sh
+set -eu
+
+REPO="origin"
+SOURCE="master"
 
 cd "$(dirname "$(readlink -f "$0")")"
 
-git checkout master
-git pull
+git checkout "$SOURCE"
+git pull "$REPO" "$SOURCE"
