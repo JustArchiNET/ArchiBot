@@ -27,18 +27,18 @@
 			</Pattern>
 			<Response>
 				<Random>
-					<Item>You're too weeb if you can spend hours at a time petting a pillow and wishing it was your waifu... :cry:</Item>
-					<Item>You're too weeb if you skip meals so you can cuddle with a pillow, dreaming it was your waifu... :cry:</Item>
-					<Item>You're too weeb if you can't do anything for days at a time because you just want to be with your waifu... :cry:</Item>
 					<Item>You're too weeb if your waifu is your whole laifu... :doubt:?</Item>
 					<Item>You're too weeb if you buy games on Steam even though they aren't in your language, just for the cute anime girls... :doubt:</Item>
 					<Item>You're too weeb if you own :awoo:... :doubt:</Item>
 					<Item>You're too weeb if you dream of petting waifus... :doubt:</Item>
 					<Item>You're too weeb if life without anime girls is torture... :cry:</Item>
 					<Item>Kaleith thinks you're too weeb if you like anime... :bite:</Item>
-					<Item Weight="0.02">You're too weeb if you are like Possum... :bite:</Item>
+					<Item Weight="0.045">You're too weeb if you are like Possum... :bite:</Item>
 					<Item Weight="0.05">Too weeb? :trance: No such thing.</Item>
 					<Item>You're too weeb if you can't get by without your daily dose of lolis... :blanc:</Item>
+					<Item Weight="0.02">You're too weeb if you can spend hours at a time petting a pillow and wishing it was your waifu... :cry:</Item>
+					<Item Weight="0.02">You're too weeb if you skip meals so you can cuddle with a pillow, dreaming it was your waifu... :cry:</Item>
+					<Item Weight="0.02">You're too weeb if you can't do anything for days at a time because you just want to be with your waifu... :cry:</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -77,6 +77,8 @@
 					<Item>It's <Random>(Turtwig|Grotle|Torterra|Chimchar|Monferno|Infernape|Piplup|Prinplup|Empoleon|Starly|Staravia|Staraptor|Bidoof|Bibarel|Kricketot|Kricketune|Shinx|Luxio|Luxray|Budew|Roserade|Cranidos|Rampardos|Shieldon|Bastiodon|Burmy|Wormadam|Mothim|Combee|Vespiquen|Pachirisu|Buizel|Floatzel|Cherubi|Cherrim|Shellos|Gastrodon|Ambipom|Drifloon|Drifblim|Buneary|Lopunny|Mismagius|Honchkrow|Glameow|Purugly|Chingling|Stunky|Skuntank|Bronzor|Bronzong|Bonsly|Mime Jr.|Happiny|Chatot|Spiritomb|Gible|Gabite|Garchomp|Munchlax|Riolu|Lucario|Hippopotas|Hippowdon|Skorupi|Drapion|Croagunk|Toxicroak|Carnivine|Finneon|Lumineon|Mantyke|Snover|Abomasnow|Weavile|Magnezone|Lickilicky|Rhyperior|Tangrowth|Electivire|Magmortar|Togekiss|Yanmega|Leafeon|Glaceon|Gliscor|Mamoswine|Porygon-Z|Gallade|Probopass|Dusknoir|Froslass|Rotom|Uxie|Mesprit|Azelf|Dialga|Palkia|Heatran|Regigigas|Giratina|Cresselia|Phione|Manaphy|Darkrai|Shaymin|Arceus)</Random>! A Gen 4 Pokémon!</Item>
 					<Item>It's <Random>(Victini|Snivy|Servine|Serperior|Tepig|Pignite|Emboar|Oshawott|Dewott|Samurott|Patrat|Watchog|Lillipup|Herdier|Stoutland|Purrloin|Liepard|Pansage|Simisage|Pansear|Simisear|Panpour|Simipour|Munna|Musharna|Pidove|Tranquill|Unfezant|Blitzle|Zebstrika|Roggenrola|Boldore|Gigalith|Woobat|Swoobat|Drilbur|Excadrill|Audino|Timburr|Gurdurr|Conkeldurr|Tympole|Palpitoad|Seismitoad|Throh|Sawk|Sewaddle|Swadloon|Leavanny|Venipede|Whirlipede|Scolipede|Cottonee|Whimsicott|Petilil|Lilligant|Basculin|Sandile|Krokorok|Krookodile|Darumaka|Darmanitan|Maractus|Dwebble|Crustle|Scraggy|Scrafty|Sigilyph|Yamask|Cofagrigus|Tirtouga|Carracosta|Archen|Archeops|Trubbish|Garbodor|Zorua|Zoroark|Minccino|Cinccino|Gothita|Gothorita|Gothitelle|Solosis|Duosion|Reuniclus|Ducklett|Swanna|Vanillite|Vanillish|Vanilluxe|Deerling|Sawsbuck|Emolga|Karrablast|Escavalier|Foongus|Amoonguss|Frillish|Jellicent|Alomomola|Joltik|Galvantula|Ferroseed|Ferrothorn|Klink|Klang|Klinklang|Tynamo|Eelektrik|Eelektross|Elgyem|Beheeyem|Litwick|Lampent|Chandelure|Axew|Fraxure|Haxorus|Cubchoo|Beartic|Cryogonal|Shelmet|Accelgor|Stunfisk|Mienfoo|Mienshao|Druddigon|Golett|Golurk|Pawniard|Bisharp|Bouffalant|Rufflet|Braviary|Vullaby|Mandibuzz|Heatmor|Durant|Deino|Zweilous|Hydreigon|Larvesta|Volcarona|Cobalion|Terrakion|Virizion|Tornadus|Thundurus|Reshiram|Zekrom|Landorus|Kyurem|Keldeo|Meloetta|Genesect)</Random>! A Gen 5 Pokémon!</Item>
 					<Item>It's <Random>(Chespin|Quilladin|Chesnaught|Fennekin|Braixen|Delphox|Froakie|Frogadier|Greninja|Bunnelby|Diggersby|Fletchling|Fletchinder|Talonflame|Scatterbug|Spewpa|Vivillon|Litleo|Pyroar|Flabébé|Floette|Florges|Skiddo|Gogoat|Pancham|Pangoro|Furfrou|Espurr|Meowstic|Honedge|Doublade|Aegislash|Spritzee|Aromatisse|Swirlix|Slurpuff|Inkay|Malamar|Binacle|Barbaracle|Skrelp|Dragalge|Clauncher|Clawitzer|Helioptile|Heliolisk|Tyrunt|Tyrantrum|Amaura|Aurorus|Sylveon|Hawlucha|Dedenne|Carbink|Goomy|Sliggoo|Goodra|Klefki|Phantump|Trevenant|Pumpkaboo|Gourgeist|Bergmite|Avalugg|Noibat|Noivern|Xerneas|Yveltal|Zygarde|Diancie)</Random>! A Gen 6 Pokémon!</Item>
+					<Item>It's <Random>(Rowlett|Dartrix|Decidueye|Litten|Torracat|Incineroar|Popplio|Brione|Primarina|Pikipek|Trumbeak|Toucannon|Yungoos|Gumshoos|Grubbin|Charjabug|Vikavolt|Crabrawler|Crabominable|Oricorio|Cutiefly|Ribombee|Rockruff|Lycanroc|Wishiwashi|Mareanie|Toxapex|Mudbray|Mudsdale|Dewpider|Araquanid|Fomantis|Lurantis|Morelull|Shiinotic|Salandit|Salazzle|Stufful|Bewear|Bounsweet|Steenee|Tsareena|Comfey|Oranguru|Passimian|Wimpod|Golisopod|Sandygast|Palossand|Pyukumuku|Type: Null|Silvally|Minior|Komala|Turtonator|Togedemaru|Mimikyu|Bruxish|Drampa|Dhelmise|Jangmo-o|Hakamo-o|Kommo-o|Tapu Koko|Tapu Lele|Tapu Bulu|Tapu Fini|Cosmog|Cosmoem|Solgaleo|Lunala|Nihilego|Buzzwole|Pheromosa|Xurkitree|Celesteela|Kartana|Guzzlord|Necrozma|Magearna|Marshadow)</Random>! A Gen 7 Pokémon!</Item>
+					<Item>It's <Random>(Grookey|Thwackey|Rillaboom|Scorbunny|Raboot|Cinderace|Sobble|Drizzile|Inteleon|Skwovet|Greedent|Rookidee|Corvisquire|Corviknight|Blipbug|Dottler|Orbeetle|Nickit|Thievel|Gossifleur|Eldegoss|Wooloo|Dubwool|Chewtle|Drednaw|Yamper|Boltund|Rolycoly|Carkol|Coalossal|Applin|Flapple|Appletun|Silicobra|Sandaconda|Cramorant|Arrokuda|Barraskewda|Toxel|Toxtricity|Sizzlipede|Centiscorch|Clobbopus|Grappleoct|Sinistea|Polteageist|Hatenna|Hattrem|Hatterene|Impidimp|Morgrem|Grimmsnarl|Obstagoon|Perrserker|Cursola|Sirfetch'd|Mr. Rime|Runerigus|Milcery|Alcremie|Falinks|Pincurchin|Snom|Frosmoth|Stonjourner|Eiscue|Indeedee|Morpeko|Cufant|Copperajah|Dracozolt|Arctozolt|Dracovish|Arctovish|Duraludon|Dreepy|Drakloak|Dragapult|Zacian|Zamazenta|Eternatus|Kubfu|Urshifu|Zarude|Regieleki|Regidrago|Calyrex)</Random>! A Gen 8 Pokémon!</Item>
 					<Item Weight="0.01">It's Batman! :doubt: <If User="IsBatman" Value="2">Wait, aren't you Batman? Are you a Pokémon?</If><Else>Wait, is he a Pokémon? What generation?</Else></Item>
 				</Random>
 			</Response>
@@ -89,6 +91,7 @@
 				<Random>
 					<Item><Random Get="RANDOMNOUN" />mon</Item>
 					<Item><Random>(Miyuu|Kaleith|Archi|Miku|Golbez|Kero|Wany|Dosh|Taigo|Madu|Mole|Faku|Bottu|Ferret|Skatr|Ceejay|Possu)</Random>mon</Item>
+					<Item Weight="0.03"><Random>(Cirno|Marissa|Reimu|Flandre|Utsuho|Tokiko|Koakuma)</Random>mon</Item>
 					<Item Weight="0.05"><Random>(Alpha|Guil|Gallant|Crimson Gallant|Agu|Calu|Gabu|Omni|MetalGaruru|WarGrey|Susanoo)</Random>mon</Item>
 				</Random>
 			</Response>
