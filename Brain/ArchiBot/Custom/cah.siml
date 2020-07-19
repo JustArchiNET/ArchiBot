@@ -316,9 +316,7 @@
 		<Model>
   			<Pattern>^_cah_CAHRESPONSE</Pattern>
   			<Response>
-				<If Bot="CAHuseChatUsers" Value="True">
-					<Random><ArchiChatRandomUserNickname>steam-412</ArchiChatRandomUserNickname></Random>
-				</If>
+				<If Bot="CAHuseChatUsers" Value="True"><ArchiChatRandomUserNickname>steam-412</ArchiChatRandomUserNickname></If>
 				<Else>
 					<Random>
 						<Item>"Tweeting."</Item>
