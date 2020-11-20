@@ -26,7 +26,7 @@
 					<Item Weight="1">ALI</Item>
 					<Item Weight="8">AMBI</Item>
 					<Item Weight="2">ANXEAL</Item>
-					<Item Weight="26">ARCHI</Item>
+					<Item Weight="27">ARCHI</Item>
 					<Item Weight="3">ARCHIBOT</Item>
 					<Item Weight="14">ASIM</Item>
 					<Item Weight="10">ASTEROID</Item>
@@ -162,6 +162,7 @@
 					<Item>"Archi: look at this glorious trap"</Item>
 					<Item>"Archi: I met with vsx in some kind of dark room filled with traps"</Item>
 					<Item>"Archi: I ran out of women to seduce, only cousin and sister left"</Item>
+					<Item>"Archi: I never got past the wanking stage :bite:"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -207,10 +208,8 @@
 					<Item>"Asteroid: Don't overthink that I'm brain damaged, I don't even own a brain."</Item>
 					<Item>"Asteroid: Feed poor Asteroid pls."</Item>
 					<Item>"Asteroid: I am a potential criminal."</Item>
-					<Item>"Asteroid: I feel like I could read Polish."</Item>
 					<Item>"Asteroid: I like illegal things."</Item>
 					<Item>"Asteroid: I'd join gulag and help VSX improve Chinese."</Item>
-					<Item>"Asteroid: Jbond001guy, Jbond002guy, Jbond003guy,..., Jbond007guy..."</Item>
 					<Item>"Asteroid: Let us visit North Korea and be arrested together."</Item>
 					<Item>"Asteroid: People who have 7 in their nicknames are always crazy."</Item>
 				</Random>
@@ -383,7 +382,6 @@
 					<Item>"jbondguy007: AT LEAST GIVE ME MY HORSE COCK"</Item>
 					<Item>"jbondguy007: sign my butt pls"</Item>
 					<Item>"jbondguy007: I am a princess"</Item>
-					<Item>"jbondguy007: I am mod of unimportantance"</Item>
 					<Item>"jbondguy007: My dragon balls are fine, don't worry about it"</Item>
 				</Random>
 			</Response>
