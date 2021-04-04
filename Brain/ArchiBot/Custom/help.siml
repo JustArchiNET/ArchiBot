@@ -22,6 +22,16 @@
 		</Model>
 
 		<Model>
+			<Pattern>% ^CRYSTAL BALL %</Pattern>
+			<Response>https://cdn.discordapp.com/attachments/267292556709068800/497034158728675330/crystal-ball-reply.png</Response>
+		</Model>
+
+		<Model>
+			<Pattern>% ^LOG %</Pattern>
+			<Response>https://cdn.discordapp.com/attachments/267292556709068800/450525064522235914/comment_DrxqGcqJhYauxbYi1T1QMngXD3wXfRM91.png</Response>
+		</Model>
+
+		<Model>
 			<Pattern>% ^ASF WIKI %</Pattern>
 			<Response>https://github.com/JustArchi/ArchiSteamFarm/wiki Go read \:doubt:</Response>
 		</Model>
