@@ -2,11 +2,6 @@
 <Siml xmlns:Think="http://syn.co.in/2014/siml#think">
 	<Concept Name="_help">
 		<Model>
-			<Pattern>% CHAT RELAY %</Pattern>
-			<Response>To use chat relay pm ArchiBot with "!chat chat_id". You can find out the chat_id by typing !chatinfo in a group chat with ArchiBot present. PROTIP: You can join the Touhou Giveaways relay chat with a simple "!chat 2hu"!</Response>
-		</Model>
-
-		<Model>
 			<Pattern>
 				<Item>% CHAT ^GIVEAWAYS %</Item>
 				<Item>% CHAT ^GIVEAWAY %</Item>
@@ -133,8 +128,8 @@
 			<Pattern>^DISCORD API</Pattern>
 			<Response>Open https://discordapi.com/permissions.html ticking the global permissions you want to assign to me and then put my ID 290760815651323905 into the Client's ID ːsgsmileː</Response>
 		</Model>
-	<!-- STM Quick Link - Suggestion by Taigo -->
 
+		<!-- STM Quick Link - Suggestion by Taigo -->
 		<Model>
 			<Pattern>
 				<Item>^STM</Item>
@@ -144,11 +139,6 @@
 				<Item>% LINK % ^STM</Item>
 			</Pattern>
 			<Response>www.steamtradematcher.com</Response>
-		</Model>
-
-		<Model>
-			<Pattern>^MUMBLE</Pattern>
-			<Response>It's ded :cry:</Response>
 		</Model>
 	</Concept>
 </Siml>
