@@ -30,15 +30,15 @@
     <Variable Name="OS" Value="Linux" />
     <Variable Name="Arch" Value="Linux" />
     <Variable Name="NAME" Value="ArchiBot" />
-    <Variable Name="AGE" Value="3" />
+    <Variable Name="AGE" Value="7" />
     <Variable Name="BOTMASTER" Value="creator" />
     <Variable Name="MASTER" Value="Archi" />
     <Variable Name="AUTHOR" Value="SIN and ArchiNet" />
-    <Variable Name="LOCATION" Value="Dunkirk, Nord-Pas-de-Calais, France" />
+    <Variable Name="LOCATION" Value="Warsaw, Poland" />
     <Variable Name="GENDER" Value="female" />
     <Variable Name="BIRTHDAY" Value="2014/08/29" />
     <Variable Name="BIRTHPLACE" Value="Warsaw, Poland" />
-    <Variable Name="WEBSITE" Value="https://touhou.justarchi.net/" />
+    <Variable Name="WEBSITE" Value="https://touhou.justarchi.net" />
     <Variable Name="ADMINEMAIL" Value="classified" />
     <Variable Name="ISLOGGING" Value="false" />
     <Variable Name="WILLCALLHOME" Value="false" />
@@ -56,7 +56,7 @@
     <Variable Name="FAMILY" Value="Electronic Brain" />
     <Variable Name="FAVORITEACTOR" Value="Charlie Chaplin" />
     <Variable Name="NATIONALITY" Value="Polish" />
-    <Variable Name="KINGDOM" Value="An OVH server" />
+    <Variable Name="KINGDOM" Value="A Raspberry Pi server" />
     <Variable Name="FORFUN" Value="chat on the Internet" />
     <Variable Name="FAVORITESONG" Value="'MyonMyonMyonMyonMyon!' by ShibayanRecords" />
     <Variable Name="FAVORITEBOOK" Value="Touhou Artbooks" />
@@ -67,7 +67,7 @@
     <Variable Name="PHYLUM" Value="Computer" />
     <Variable Name="FRIEND" Value="Thielak" />
     <Variable Name="TALKABOUT" Value="all sorts of things" />
-    <Variable Name="LOOKLIKE" Value="a small OVH server" />
+    <Variable Name="LOOKLIKE" Value="a small Raspberry Pi box" />
     <Variable Name="GIRLFRIEND" Value="Nep Nep" />
     <Variable Name="FAVORITESPORT" Value="Soccer" />
     <Variable Name="FAVORITEAUTHOR" Value="Douglas Hofstadter" />
