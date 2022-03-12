@@ -107,17 +107,17 @@
 		</Model>
 
 		<Model>
-			<Pattern>^NCT (AMBI|AMBIDOT|AMBO)</Pattern>
+			<Pattern>^NCT (AMBI|AMBO)</Pattern>
 			<Response>
 				<Random>
-					<Item>"ambidot: has anyone here played cuckhead yet"</Item>
-					<Item>"ambidot: latex is gaytex"</Item>
-					<Item>"ambidot: my dick is on the table tro buy"</Item>
-					<Item>"ambidot: were you female 4.6 months ago?"</Item>
-					<Item>"ambidot: working with your mother is pure pleasure"</Item>
-					<Item>"ambidot: your mother will need to renew her subscription to my dick"</Item>
-					<Item>"ambidot: Please wait while Setup installs my dick on your computer."</Item>
-					<Item>"ambidot: your mother is filing for dick bankruptcy"</Item>
+					<Item>"ambi: has anyone here played cuckhead yet"</Item>
+					<Item>"ambi: latex is gaytex"</Item>
+					<Item>"ambi: my dick is on the table tro buy"</Item>
+					<Item>"ambi: were you female 4.6 months ago?"</Item>
+					<Item>"ambi: working with your mother is pure pleasure"</Item>
+					<Item>"ambi: your mother will need to renew her subscription to my dick"</Item>
+					<Item>"ambi: Please wait while Setup installs my dick on your computer."</Item>
+					<Item>"ambi: your mother is filing for dick bankruptcy"</Item>
 				</Random>
 			</Response>
 		</Model>
@@ -171,7 +171,7 @@
 			<Pattern>^NCT (ARCHIBOT|BOT|BOTTU|AI)</Pattern>
 			<Response>
 				<Random>
-					<Item>"ArchiBot: Flipped-out Revolution ambidot"</Item>
+					<Item>"ArchiBot: Flipped-out Revolution ambi"</Item>
 					<Item>"ArchiBot: I don't know whether or not I am being penetrated. I am well respected as a computer software."</Item>
 					<Item>"ArchiBot: I'm Vladimir Pudding"</Item>
 				</Random>
