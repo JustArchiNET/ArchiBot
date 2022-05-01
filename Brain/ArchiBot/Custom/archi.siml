@@ -94,6 +94,22 @@
 
 		<Model>
 			<Pattern>
+				<Item>WHO IS ROSIE</Item>
+				<Item>WHO IS RÖSIE</Item>
+				<Item>WHO IS ROSETTA</Item>
+				<Item>WHO IS RÖSETTA</Item>
+			</Pattern>
+			<Response>
+				<Random>
+					<Item>The cutest dancing queen ever.</Item>
+					<Item>Kind-hearted girl that will make the world a better place.</Item>
+					<Item>Also known as Archsetta Gnomesetta Roswaita :3.</Item>
+				</Random>
+			</Response>
+		</Model>
+
+		<Model>
+			<Pattern>
 				<Item>WHO IS MOLE</Item>
 				<Item>WHO IS MONMON</Item>
 			</Pattern>
