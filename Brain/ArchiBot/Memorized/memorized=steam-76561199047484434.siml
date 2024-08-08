@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="BADANSWER2" Type="Private" Repeat="true" User="steam-76561199047484434">
+    <Model>
+      <Pattern>UNKNOWN</Pattern>
+      <Response>wrong my nickname is realnotsevkator</Response>
+    </Model>
+  </Concept>
+</Siml>
