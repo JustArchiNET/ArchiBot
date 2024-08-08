@@ -2,7 +2,7 @@
 set -eu
 
 REPO="git@github.com:JustArchiNET/ArchiBot.git"
-TARGET="master"
+TARGET="main"
 
 cd "$(dirname "$(readlink -f "$0")")"
 
