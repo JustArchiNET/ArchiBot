@@ -2,7 +2,7 @@
 set -eu
 
 REPO="origin"
-SOURCE="master"
+SOURCE="main"
 
 cd "$(dirname "$(readlink -f "$0")")"
 
